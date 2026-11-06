@@ -1,6 +1,6 @@
 # 非虚构主张—来源总账
 
-> 本表为**已撰写的序章、第01—11章**建立实质追踪；12—16待写章只有章纲和候选来源，不视为事实核验完成。
+> 本表为**已撰写的序章、第01—14章**建立实质追踪；15—16待写章只有章纲和候选来源，不视为事实核验完成。
 
 | 章节 | claim_id | 关键主张 | 研究依据 | 类型与状态 |
 |---|---|---|---|---|
@@ -291,3 +291,81 @@
 | 11 | G11-20 | 下一章追1850克劳修斯、1864及1873年摩尔化的常数演变 | research.md S01/S02 | transition |
 
 > 本章获得初稿写作前置资料支持，尚非独立审稿或终稿。
+
+
+## 第12章｜一个常数，怎样成为所有气体的常数
+
+| 章节 | claim_id | 具体主张 | 研究依据 | 证据分类 |
+|---|---|---|---|---|
+| 12 | G12-01 | 克拉佩龙1834的pv=R(267+t)中的R依赖固定气体单位基准，非现代普适摩尔常数 | research.md S64/S67 | history |
+| 12 | G12-02 | 克劳修斯1850引用雷尼奥测量数据把267改为约273，写pv=R(273+t) | research.md S67/S02 | history_secondary |
+| 12 | G12-03 | 1864克劳修斯写pv=RT，T为绝对温度，仍按单位质量体积基准 | research.md S67 | history_secondary |
+| 12 | G12-04 | 1857克劳修斯已用ideal gas相关概念，不能宣称1864第一次发明这个名称 | research.md S67 | source_correction |
+| 12 | G12-05 | 若v为每单位质量所占体积，不同气体的比气体常数依赖摩尔质量 | research.md S67 | history_modern |
+| 12 | G12-06 | 在固定P,T时，同摩尔数不同理想气体体积近似相同，阿伏伽德罗假说提供数量基准 | research.md S41/S56/S67 | history |
+| 12 | G12-07 | 1873霍斯特曼在离解理论的论文中令u为一摩尔体积、写up=RT | research.md S68/S67 | primary_translation |
+| 12 | G12-08 | 他的R在按摩尔体积计量后不再依赖化学种类，这个变动是计量基准而非发现新气体 | research.md S68/S67 | history_interpretation |
+| 12 | G12-09 | 1873论文首要研究化学离解平衡与熵，不是为气体定律单独写的专论 | research.md S68 | primary_translation |
+| 12 | G12-10 | 当时的“molecular weight”数量基准与今摩尔SI定义不能完全视作同时成立 | research.md S68/S56 | historical_boundary |
+| 12 | G12-11 | 现代PV=nRT是把n摩尔气体和摩尔体积u=V/n联系的教学换写 | research.md S76/S67 | modern_derivation |
+| 12 | G12-12 | R_sp=R/M对应具体气体的比气体常数，M为摩尔质量，不能把二者同名误解 | research.md S67/S76 | modern_derivation |
+| 12 | G12-13 | 当时R字母由来不确定，Jensen提出arbitrary/ratio等猜测但无原作者证明 | research.md S67 | uncertainty |
+| 12 | G12-14 | 常数普适指在理想状态、同单位和同物质的量条件下对不同气体相同，不指任何物质均遵循理想关系 | research.md S67/S76 | physical_scope |
+| 12 | G12-15 | 从267到273与从比气体常数到普适摩尔常数是不同进步，年代不应合并 | research.md S67/S02 | history_synthesis |
+| 12 | G12-16 | 历史式pv=RT与现代PV=nRT中字母相似但v的单位/气量基准不同 | research.md S67/S68 | notation |
+| 12 | G12-17 | 现代R的单位J/(mol·K)，摩尔定义与现代精确值推迟第15章详述 | research.md S76 | modern_scope |
+| 12 | G12-18 | 统一气体方程是实验与计量表达，分子为什么产生压强还需动力论解释 | research.md S76/S70 | transition |
+
+> 本章主张只获得初稿前置核证，独立审稿及终稿封版尚未进行。
+
+## 第13章｜数不尽的分子，竟能导出一条简单方程
+
+| 章节 | claim_id | 具体主张 | 研究依据 | 证据分类 |
+|---|---|---|---|---|
+| 13 | G13-01 | 分子力学解释在克劳修斯之前已有伯努利等先驱，19世纪才形成更系统的气体动理论 | research.md S70/S76 | historiography |
+| 13 | G13-02 | 1857克劳修斯以高速运动微粒解释热与压强并对气体规律推导 | research.md S70/S73 | history |
+| 13 | G13-03 | 1858克劳修斯提出平均自由程以解释高速分子为何不瞬间贯穿房间 | research.md S70 | history |
+| 13 | G13-04 | 气体压强从分子频繁与壁面碰撞的平均动量交换产生 | research.md S76 | modern_mechanism |
+| 13 | G13-05 | 在简化模型中pV=(1/3)Nm〈v²〉，需理想弹性碰撞、各向同性等假设 | research.md S76 | modern_derivation |
+| 13 | G13-06 | 〈v²〉与〈v〉²不是同一个统计量，不能把均方速率当平均速率 | research.md S76 | math_scope |
+| 13 | G13-07 | 比较pV=Nk_BT得(1/2)m〈v²〉=(3/2)k_BT为平动能关系 | research.md S76 | modern_physics |
+| 13 | G13-08 | 上述平动平均能量为三维理想气体分子平动自由度，不等同多原子气体全部内能 | research.md S76 | modern_scope |
+| 13 | G13-09 | 固定N和平均平动能，压强与体积呈反比，可从运动图景理解波义耳定律 | research.md S76 | modern_consequence |
+| 13 | G13-10 | 麦克斯韦1860引入分子速度概率分布，不再所有分子同速 | research.md S71/S70 | history |
+| 13 | G13-11 | 麦克斯韦1867更深入利用碰撞讨论平衡分布而修正最初论证 | research.md S71 | history |
+| 13 | G13-12 | 速度向量的平均可能为零，分子速率分布却并非都零 | research.md S71/S76 | modern_explanation |
+| 13 | G13-13 | 玻尔兹曼从1866起研究统计物理，1872提出非平衡分布方程与H定理 | research.md S71 | history |
+| 13 | G13-14 | 玻尔兹曼1872论证使用分子碰撞统计假设，不能称只凭牛顿力学无前提证明熵永远增加 | research.md S71 | historiographic_limit |
+| 13 | G13-15 | Loschmidt 1876反演反驳提示时间反向对称运动与不可逆增长的逻辑张力 | research.md S71 | history |
+| 13 | G13-16 | 1872的H函数与后来简化的S=klogW不能直接说是当年同一手写公式 | research.md S71 | history_caution |
+| 13 | G13-17 | 理想气体忽略非碰撞期间的分子间吸引和自身体积，对稀薄气体较有效 | research.md S73/S76 | physical_scope |
+| 13 | G13-18 | 气体动理论提供可检验的微观模型，不是借分子理论否定所有前人的宏观实验 | research.md S70/S73 | synthesis |
+| 13 | G13-19 | 下一章分子有体积且相吸会使理想气体方程偏离，导向范德瓦耳斯 | research.md S73/S74 | transition |
+
+> 本章主张只获得初稿前置核证，独立审稿及终稿封版尚未进行。
+
+## 第14章｜1873年，范德瓦耳斯为理想气体补上现实
+
+| 章节 | claim_id | 具体主张 | 研究依据 | 证据分类 |
+|---|---|---|---|---|
+| 14 | G14-01 | 1873范德瓦耳斯的莱顿博士论文题为气态与液态的连续性 | research.md S72/S77 | bibliography |
+| 14 | G14-02 | 安德鲁斯1869二氧化碳等温实验指出临界温度及气液转变条件 | research.md S75 | history |
+| 14 | G14-03 | 仅升高压强并非任意温度都能通过清晰界面使气体液化，须考虑临界温度 | research.md S75 | history_qualified |
+| 14 | G14-04 | 范德瓦耳斯1910回顾说1857克劳修斯气体动理论促其提出问题 | research.md S73 | retrospective_primary |
+| 14 | G14-05 | 模型主要两因素：微粒自身体积及微粒间吸引，解释非稀薄时不服从波义耳规律 | research.md S73/S74 | retrospective |
+| 14 | G14-06 | 现代一摩尔形式(p+a/v²)(v−b)=RT，v为摩尔体积 | research.md S73/S76 | modern_formula |
+| 14 | G14-07 | 现代任意n摩尔形式[p+a(n/V)²](V−nb)=nRT | research.md S76 | modern_formula |
+| 14 | G14-08 | b描述排斥造成的有效排除体积，不简单等于分子实际体积之和 | research.md S73 | physics_boundary |
+| 14 | G14-09 | 稀薄硬球近似中排除体积系数可约为微粒自身总体积的四倍，条件很窄 | research.md S73 | retrospective_limited |
+| 14 | G14-10 | a项反映分子吸引导致实际壁面测得压强相对理想模型降低的修正趋势 | research.md S73/S76 | modern_physics |
+| 14 | G14-11 | v远大于b且a/v²相对小，方程接近理想气体形式 | research.md S73/S76 | math_limit |
+| 14 | G14-12 | 气体密度增加与接近相变时理想气体方程可能明显偏离 | research.md S73/S75 | empirical_scope |
+| 14 | G14-13 | 安德鲁斯先有临界实测，范德瓦耳斯提出定量解释并非本人最先发现临界点 | research.md S75/S74 | priority |
+| 14 | G14-14 | 范德瓦耳斯方程理想化等温线在共存区的非稳定分支不能直接视为实际可观察稳定曲线 | research.md S75/S76 | limitation |
+| 14 | G14-15 | 在相变区若需匹配真实共存压强还需要相平衡条件或后续等面积等方法 | research.md S75 | modern_scope |
+| 14 | G14-16 | 范德瓦耳斯1910年明确承认常a,b不可能精确符合全部实验，尤其b有状态依赖 | research.md S73 | retrospective_primary |
+| 14 | G14-17 | 1910演讲中的自我回顾不可与1873博士论文的逐字内容完全等同 | research.md S73/S77 | source_limit |
+| 14 | G14-18 | 范德瓦耳斯方程是对理想气体基准模型加可解释修正而非推翻物理定律 | research.md S73/S76 | editorial_synthesis |
+| 14 | G14-19 | 章末衔接15章现代R和kB区别及各种模型适用条件 | research.md S67/S76 | transition |
+
+> 本章主张只获得初稿前置核证，独立审稿及终稿封版尚未进行。
