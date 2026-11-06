@@ -1,0 +1,230 @@
+{
+  "chapter": "06",
+  "chapter_title": "没有分行的远方汇款：伊斯兰商贸网络的信用",
+  "lane": "nonfiction",
+  "draft_revision": 5,
+  "publication_ready": false,
+  "verification_scope": "Princeton Geniza manuscript records with transcripts, selected scholarly summaries, legal-historical monograph excerpts and contested economic-history interpretations. No independent complete manuscript edition line-by-line audit yet.",
+  "claims": [
+    {
+      "claim_id": "CH06-001",
+      "statement": "1055年1月19日大马士革至福斯塔特信记载25第纳尔另2基拉特及异地还款安排",
+      "source_ids": [
+        "F-0601"
+      ],
+      "classification": "primary_manuscript",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "多方义务关系需逐字原文核查，勿宣称无纸币银行的完整转账已成功"
+    },
+    {
+      "claim_id": "CH06-002",
+      "statement": "同封信上的收讫记录约相当于1055年3月12日",
+      "source_ids": [
+        "F-0601"
+      ],
+      "classification": "primary_manuscript",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "收讫对象及信件每步清算仍需独立译注"
+    },
+    {
+      "claim_id": "CH06-003",
+      "statement": "携币风险与异地兑付机制并非无代价的完全免除现金运输",
+      "source_ids": [
+        "F-0601",
+        "F-0608"
+      ],
+      "classification": "author_explanatory_model",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "100第纳尔四角色例为虚构示意"
+    },
+    {
+      "claim_id": "CH06-004",
+      "statement": "另一份大马士革福斯塔特书信涉及两份合计250第纳尔的suftaja及购纸预付款",
+      "source_ids": [
+        "F-0602"
+      ],
+      "classification": "primary_manuscript",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "不能同F0601写成一笔交易"
+    },
+    {
+      "claim_id": "CH06-005",
+      "statement": "suftaja可服务异地付款和旅途中减少金属运输",
+      "source_ids": [
+        "F-0608"
+      ],
+      "classification": "scholarly_synthesis",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "不能将功能类比为现代银行汇票的全部法律特征"
+    },
+    {
+      "claim_id": "CH06-006",
+      "statement": "sakk suftaja ḥawāla词义与制度必须分开",
+      "source_ids": [
+        "F-0608",
+        "F-0610"
+      ],
+      "classification": "legal_historical_comparison",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "各派法律理论与时代有差异"
+    },
+    {
+      "claim_id": "CH06-007",
+      "statement": "现代hawala并不直接等于古典某一法律合同",
+      "source_ids": [
+        "F-0610"
+      ],
+      "classification": "peer_reviewed_argument",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "明确为Cinar的法学史论证而非唯一学术结论"
+    },
+    {
+      "claim_id": "CH06-008",
+      "statement": "不同法学派对suftaja因贷款附带便利产生的正当性看法有分歧",
+      "source_ids": [
+        "F-0608"
+      ],
+      "classification": "historiography",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "部分引用后期法学注释，不能视为十一世纪统一规范"
+    },
+    {
+      "claim_id": "CH06-009",
+      "statement": "约1095年的残损BL OR 5566B18信提及一份suftaja",
+      "source_ids": [
+        "F-0605"
+      ],
+      "classification": "manuscript_description",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "年代1094至1095归纳，付款是否完成不详"
+    },
+    {
+      "claim_id": "CH06-010",
+      "statement": "约1057年靛蓝商人信描述销售困难及60第纳尔票据",
+      "source_ids": [
+        "F-0604"
+      ],
+      "classification": "primary_manuscript",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "不能从票据存在推断商人最终获利或偿付"
+    },
+    {
+      "claim_id": "CH06-011",
+      "statement": "ENA NS 21.4契约价值460第纳尔货物由资本方提供",
+      "source_ids": [
+        "F-0603"
+      ],
+      "classification": "primary_manuscript",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "不是460枚现金异地汇款，具体目的地残缺"
+    },
+    {
+      "claim_id": "CH06-012",
+      "statement": "该契约利润四分之三与四分之一分别属资本方和经营方",
+      "source_ids": [
+        "F-0603"
+      ],
+      "classification": "primary_manuscript",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "不代表当时所有合伙统一分配率"
+    },
+    {
+      "claim_id": "CH06-013",
+      "statement": "古典qirad与mudaraba形式依投资和经营分工、风险归属而异",
+      "source_ids": [
+        "F-0607",
+        "F-0609"
+      ],
+      "classification": "legal_historical_interpretation",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "经营者违法越权过失与正常经营损失应区分"
+    },
+    {
+      "claim_id": "CH06-014",
+      "statement": "教学100本金130回收及80回收的模型与古文书无关",
+      "source_ids": [
+        "F-0603",
+        "F-0609"
+      ],
+      "classification": "illustrative_calculation",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "60-40利润分成不冒充古代制度事实"
+    },
+    {
+      "claim_id": "CH06-015",
+      "statement": "开罗geniza保存大批普通商贸法律和宗教文书，反映特定幸存书写群体",
+      "source_ids": [
+        "F-0606"
+      ],
+      "classification": "institutional_source",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "不能代表全社会随机抽样"
+    },
+    {
+      "claim_id": "CH06-016",
+      "statement": "伊斯兰政治经济环境中的商人群体并非全都信奉伊斯兰教",
+      "source_ids": [
+        "F-0606",
+        "F-0614",
+        "F-0615"
+      ],
+      "classification": "historical_context",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "犹太阿拉伯文与宗教身份不可混为一谈"
+    },
+    {
+      "claim_id": "CH06-017",
+      "statement": "商人书信具有买卖指示、价格反馈和管理异地代理的用途",
+      "source_ids": [
+        "F-0611",
+        "F-0616"
+      ],
+      "classification": "historical_study",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "书信文类不能简单等同可直接强制执行的合同"
+    },
+    {
+      "claim_id": "CH06-018",
+      "statement": "Greif提出马格里布商人多边声誉与私人秩序的解释",
+      "source_ids": [
+        "F-0612"
+      ],
+      "classification": "competing_theory",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "未作为确定唯一实证结论"
+    },
+    {
+      "claim_id": "CH06-019",
+      "statement": "Edwards和Ogilvie强调法院与熟人联系并用并反对封闭联盟假说",
+      "source_ids": [
+        "F-0613"
+      ],
+      "classification": "competing_theory",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "与Greif争论，不可声称学界完全一致"
+    },
+    {
+      "claim_id": "CH06-020",
+      "statement": "qirad合伙与异地汇兑性质不同但可同时满足多城经营",
+      "source_ids": [
+        "F-0601",
+        "F-0603",
+        "F-0607"
+      ],
+      "classification": "comparative_inference",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "不是同一交易也不能合称现代银行体系"
+    },
+    {
+      "claim_id": "CH06-021",
+      "statement": "第07章南亚hundi票据需独立确认而非认作suftaja直接后代",
+      "source_ids": [
+        "F-0610",
+        "F-0615"
+      ],
+      "classification": "narrative_bridge",
+      "verification_status": "research-draft; publication-check-pending",
+      "caveat": "跨地区形式相似不证明制度直接传承"
+    }
+  ]
+}
