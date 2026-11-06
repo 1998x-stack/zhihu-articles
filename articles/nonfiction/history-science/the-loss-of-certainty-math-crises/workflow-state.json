@@ -1,0 +1,14 @@
+{
+  "schema_version": "2.0",
+  "lane": "nonfiction",
+  "current_revision": 1,
+  "outline_approved": true,
+  "evidence_verified": true,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
+  "unresolved_blockers": [],
+  "edited_revision": null,
+  "final_approved": false,
+  "evidence_scope": "仅第01–02章已经撰写或准备撰写的核心历史主张；其他章节仍待逐章核证",
+  "migration_note": "旧作品由2026-11-06的新工作流补建；历史稿件未经过Schema 2.0双审，review_status仍为PENDING"
+}
