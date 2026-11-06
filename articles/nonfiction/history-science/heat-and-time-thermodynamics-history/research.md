@@ -77,3 +77,34 @@
 - 与现代解释分离：**W=Qh−Qc和η≤1−Tc/Th是现代书写，不能署作卡诺1824年原式**。
 - 不得写成历史事实：任何没有档案支持的私人对话、心理活动、装置具体运转当天的场景，以及“卡诺发明能量守恒”的说法。
 - 剩余核查范围：第01—33章的具体资料和公式，均不得凭本章核查宣称全书已审核。
+
+
+## 第01章｜纽科门与燃料问题：增量史实核证（2026-11-06）
+
+> **核查仅限本章。** 采用历史原著重印版、英国与苏格兰国家博物馆资料、世界遗产地官方技术史、美国机械工程师学会和一篇学术经济史论文。来源目录与逐条主张见 `draft/01.claims.json` 和 `claim-ledger.md`。
+
+| 来源ID | 文献/馆藏链接 | 本章有效支持范围 | 保留限制 |
+|---|---|---|---|
+| R22 | [Cornish Mining World Heritage Site, Drainage Adits](https://www.cornishmining.org.uk/about/mining-in-cornwall-and-west-devon/inventions-and-technology/drainage-adits) | 矿井排水巷道；1725年Wheal Rose因煤费决定开凿2.4km巷道 | 不含对话、当年实际耗煤吨位 |
+| R23 | [Cornish Mining World Heritage Site, Engines and Steam Technologies](https://cdn.cornishmining.org.uk/about/mining-in-cornwall-and-west-devon/inventions-and-technology/engines-and-steam-technologies) | 区域煤价、运费与税费、1727五台及1740约二十台、早期技术史 | 不能视为整个英国装机规模 |
+| R24 | [National Museums Scotland, The Newcomen engine and its role in Britain’s industrial revolution](https://www.nms.ac.uk/discover-catalogue/the-newcomen-engine-and-its-role-in-britains-industrial-revolution) | 装置循环、至1729年欧洲至少约100台 | 展品非1712年原机 |
+| R25 | [Science Museum Group, Newcomen Atmospheric Engine](https://collection.sciencemuseumgroup.org.uk/objects/co50900/newcomen-atmospheric-engine) | 1712年近Dudley、大气压推活塞、低压蒸汽 | 馆藏实体制作于1791年 |
+| R26 | [Thomas Savery, The Miner's Friend (1702；1827重印电子版)](https://www.gutenberg.org/files/46879/46879-h/46879-h.htm) | 原始书名、用途、机械描述与原著时期语境 | 数字版据1827重印，不写伪造直接引文 |
+| R27 | [American Physical Society, July 2 1698 Thomas Savery Patents an Early Steam Engine](https://www.aps.org/apsnews/2018/07/savery-steam-engine) | 1698年萨弗里专利、1702著作、蒸汽泵基本机制和缺陷 | 历史二手来源，可能的逸闻不移植 |
+| R28 | [ASME, #70 Newcomen Engine](https://www.asme.org/about-asme/engineering-history/landmarks/70-newcomen-engine) | 纽科门与John Calley；真空、大气式工作方式 | 地标发动机为后期沿袭机 |
+| R29 | [Science Museum Group, Print of Henry Beighton's Engraving of a Newcomen Engine](https://collection.sciencemuseumgroup.org.uk/objects/co50905/print-of-henry-beightons-engraving-of-a-newcomen-engine-print) | 1717年版画、1714年Griff机器 | 不代表1712年Dudley原机；商用插图需查许可 |
+| R30 | [Nuvolari, Verspagen, von Tunzelmann, The early diffusion of the steam engine in Britain, 1700–1800, Cliometrica (2011)](https://link.springer.com/article/10.1007/s11698-011-0063-6) | 早期机器地区扩散与煤价、1710前后Cornwall可能实例 | 早期年份为学术讨论而非确定首台 |
+| R31 | [Science Museum Blog, James Watt and the separate condenser, Ben Russell (2019)](https://blog.sciencemuseum.org.uk/james-watt-and-the-separate-condenser/) | 汽缸冷却-重新加热矛盾；1765构想与1769专利 | 瓦特完整技术与专利史留到02章 |
+| R32 | [Science Museum Group, Watt's second separate condenser, 1765](https://collection.sciencemuseumgroup.org.uk/objects/co50928/watts-second-separate-condenser-1765-condensers) | 后期改良和1765模型的史料 | 展品为第二模型，不是首个 |
+
+### 本章关键事实与争议
+
+1. **1725 Wheal Rose**：R22明确记载矿方因纽科门机燃煤费用高而决定开凿约2.4km排水巷道；**未记录人物心理、对话及当年具体煤吨位**。R23说明重力排水的地形/高度边界。
+2. **萨弗里1698—1702**：R26数字重印本保存了1702年《矿工之友》的标题与应用目的；R27支持1698年专利和容器内蒸汽凝结—再用蒸汽压力推水。不能声称萨弗里机有纽科门式动力活塞。
+3. **纽科门1712**：R25记载达德利附近的早期装置，R28承认John Calley的协作。R30与R23提出康沃尔可能在1710—1714年有先例，故正文用**可靠早期里程碑**而非无争议的全球首次。
+4. **真空/大气压力机制**：R24、R25、R28支持近大气压蒸汽、缸内冷凝、活塞压差推动和摆梁提泵杆；F≈ΔpA为现代计算，不归给当事人。
+5. **技术扩散与煤价**：R23给出康沃尔1727年约5台、1740年约20台；R24给出欧洲1729年前至少约100台；R30解释不同煤价和区位条件。各地区统计不可互换。
+6. **机器费煤原因**：R31、R32明确指出冷凝水使汽缸反复加热冷却带来燃料浪费；当代还有其他散热、泄漏、水泵损耗来源，本章不把全部损失等同卡诺不可逆极限。
+7. **物理教学计算**：理想吸水高度约10m、1m²压差约10万N、1000kg水提升30m约294kJ是采用现代力学和明确假设的后见解释，非历史实测数字。
+
+**下一阶段研究要求**：第02章需另行核查1765年瓦特原始模型、1769年专利、布莱克潜热与机械/商业贡献；01章核查不扩展为02—33章的事实批准。
