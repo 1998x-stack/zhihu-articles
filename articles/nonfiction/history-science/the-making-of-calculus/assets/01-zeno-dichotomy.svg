@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 400" role="img" aria-labelledby="title description">
+<title id="title">芝诺二分法：向起点倒推与向终点累积</title>
+<desc id="description">上图从终点条件往回追问：到达二分之一前先经过四分之一、八分之一、十六分之一。下图从起点向终点累积：先走二分之一米，再走四分之一、八分之一、十六分之一米。两种划分方向不同，凸显有限路程可被无限细分。</desc>
+<rect width="950" height="400" rx="18" fill="#f8fafc"/>
+<g font-family="Noto Sans CJK SC,Source Han Sans SC,Microsoft YaHei,sans-serif">
+<text x="36" y="43" font-size="23" font-weight="700" fill="#0f172a">一米路程：两种不同方向的无限二分</text>
+<text x="36" y="86" font-size="17" font-weight="600" fill="#3f3cbb">① 向起点倒推：到达 1/2 之前，先要经过 1/4、1/8、1/16 …</text>
+<line x1="80" y1="137" x2="850" y2="137" stroke="#c7d2fe" stroke-width="9" stroke-linecap="round"/>
+<g stroke="#3f3cbb" stroke-width="3"><line x1="80" y1="122" x2="80" y2="152"/><line x1="128.125" y1="123" x2="128.125" y2="151"/><line x1="176.25" y1="123" x2="176.25" y2="151"/><line x1="272.5" y1="123" x2="272.5" y2="151"/><line x1="465" y1="123" x2="465" y2="151"/><line x1="850" y1="122" x2="850" y2="152"/></g>
+<g font-size="15" fill="#1e1b4b" text-anchor="middle">
+<text x="80" y="176">起点 0</text><text x="128" y="112">1/16</text><text x="176" y="176">1/8</text><text x="273" y="112">1/4</text><text x="465" y="176">1/2</text><text x="850" y="176">终点 1</text>
+</g>
+<text x="36" y="231" font-size="17" font-weight="600" fill="#0c7a78">② 从起点向终点累积：1/2 + 1/4 + 1/8 + 1/16 + …</text>
+<g stroke-width="9" stroke-linecap="butt"><line x1="80" y1="284" x2="465" y2="284" stroke="#0c7a78"/><line x1="465" y1="284" x2="657.5" y2="284" stroke="#15a19d"/><line x1="657.5" y1="284" x2="753.75" y2="284" stroke="#3bc2b0"/><line x1="753.75" y1="284" x2="801.875" y2="284" stroke="#65d6c7"/><line x1="801.875" y1="284" x2="850" y2="284" stroke="#a9ede5"/></g>
+<g font-size="15" fill="#134e4a" text-anchor="middle"><text x="80" y="322">0</text><text x="465" y="322">1/2</text><text x="657.5" y="322">3/4</text><text x="753.75" y="322">7/8</text><text x="814" y="269">15/16</text><text x="850" y="322">1</text></g>
+<text x="36" y="363" font-size="14" fill="#475569">所有有限步部分和都小于 1；它们的极限却可以等于 1。</text>
+</g>
+</svg>

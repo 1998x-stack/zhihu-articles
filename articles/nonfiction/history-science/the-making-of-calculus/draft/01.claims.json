@@ -1,25 +1,154 @@
 {
   "chapter": "01",
-  "status": "PENDING",
+  "title": "芝诺：走完一米，为何要跨过无限多段？",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H20",
+    "H21",
+    "H22",
+    "H23",
+    "H24",
+    "H25"
+  ],
   "claims": [
     {
       "id": "C01-01",
-      "statement": "无限步骤与有限运动是否相容",
-      "source_candidates": [
-        "H01",
-        "H05"
+      "kind": "historical_fact_with_uncertainty",
+      "statement": "芝诺活跃于公元前五世纪的爱利亚地区；根据柏拉图对话中年龄所作出生年代推估并非精确传记。",
+      "source_ids": [
+        "H20",
+        "H22"
       ],
-      "verification": "PENDING"
+      "locator": "Plato Parmenides 127b; Palmer SEP §1",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C01-02",
-      "statement": "运动悖论与无限分割",
-      "source_candidates": [
-        "H01",
-        "H05"
+      "kind": "historical_interpretation_contested",
+      "statement": "柏拉图文本将芝诺写作解释为回应嘲讽巴门尼德者，但芝诺论证的真实统一目的仍有史学争议。",
+      "source_ids": [
+        "H20",
+        "H22"
       ],
-      "verification": "PENDING"
+      "locator": "Plato Parmenides 128c–e; Palmer SEP §§1,3",
+      "verification": "CROSS_CHECKED_WITH_CONTESTED_INTERPRETATION"
+    },
+    {
+      "id": "C01-03",
+      "kind": "historical_source_status",
+      "statement": "芝诺原著无完整存世，运动悖论主要由亚里士多德《物理学》及较晚注释保存。",
+      "source_ids": [
+        "H21",
+        "H22",
+        "H23"
+      ],
+      "locator": "Aristotle Physics VI.9; Palmer SEP §2.2; Huggett SEP introduction",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C01-04",
+      "kind": "primary_text_reconstruction",
+      "statement": "二分法论证要求运动者到终点前先到中点，沿着更早中点可继续倒推。",
+      "source_ids": [
+        "H21",
+        "H22"
+      ],
+      "locator": "Aristotle Physics VI.9 239b11–13; Palmer SEP §2.2.1",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C01-05",
+      "kind": "primary_text_and_textual_caution",
+      "statement": "阿基里斯追赶论证在亚里士多德Physics VI.9被讨论；追赶对象为龟的指名出现于辛普利修斯注释。",
+      "source_ids": [
+        "H21",
+        "H22"
+      ],
+      "locator": "Aristotle Physics VI.9 239b14–20; Palmer SEP §2.2.2",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C01-06",
+      "kind": "primary_text_reconstruction",
+      "statement": "飞矢悖论涉及运动物体在每个瞬间占据确定位置的论证及亚里士多德批评。",
+      "source_ids": [
+        "H21",
+        "H22"
+      ],
+      "locator": "Aristotle Physics VI.9 239b5–9, 239b30–33; Palmer SEP §2.2.3",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C01-07",
+      "kind": "historical_philosophical_response",
+      "statement": "亚里士多德回应芝诺时考虑长度与时间同样具有无限可分性及连续性。",
+      "source_ids": [
+        "H21",
+        "H23"
+      ],
+      "locator": "Aristotle Physics VI.2 233a21–31; Huggett SEP §3.1",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C01-08",
+      "kind": "modern_math",
+      "statement": "1米匀速1m/s的后向剩余划分，S_n=1−2^−n，极限为1米；第10项0.9990234375米。",
+      "source_ids": [
+        "H23"
+      ],
+      "locator": "Huggett SEP §3.1; independent finite-geometric-series algebra",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C01-09",
+      "kind": "modern_math",
+      "statement": "两者匀速10m/s与1m/s、领先10m的阿基里斯示例，追及时间10/9秒；追赶阶段时间1+0.1+...。",
+      "source_ids": [
+        "H23"
+      ],
+      "locator": "Huggett SEP §3.2; solve 10t=10+t",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C01-10",
+      "kind": "modern_math",
+      "statement": "x(t)=10t的瞬时导数为10m/s，在特定时刻有确定位置并不蕴含速度为零。",
+      "source_ids": [
+        "H23"
+      ],
+      "locator": "Huggett SEP §3.3; derivative definition",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C01-11",
+      "kind": "interpretative_scope",
+      "statement": "可无限分割的连续轨迹不等于每个检查点都需要独立停顿；无限多项不自动有有限和。",
+      "source_ids": [
+        "H21",
+        "H23"
+      ],
+      "locator": "Aristotle Physics VI.2; Huggett SEP §3.1–§3.3",
+      "verification": "LOGICAL_ANALYSIS_CHECKED"
+    },
+    {
+      "id": "C01-12",
+      "kind": "historical_bridge",
+      "statement": "欧几里得《几何原本》X.1 给出有限步骤将剩余降至任意指定正量以下的几何性质，关联穷竭法史。",
+      "source_ids": [
+        "H24",
+        "H25"
+      ],
+      "locator": "Euclid Elements X.1; SEP Infinity section on Eudoxus",
+      "verification": "CROSS_CHECKED_NO_DIRECT_INFLUENCE_CLAIM"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "柏拉图是哲学对话，不能视为准确的芝诺发言实录。",
+    "芝诺原著失传；运动悖论历史措辞主要由亚里士多德转述。",
+    "二分法的向起点倒推与现代剩余路程向终点分割版本明确区分。",
+    "使用现代极限、导数和物理假设，不将其说成古代数学家所写。",
+    "欧多克索斯穷竭法不宣称得到芝诺直接影响。",
+    "工作流门禁 outline_approved=false evidence_verified=false，当前仅源核工作初稿，review_status=PENDING。"
+  ]
 }

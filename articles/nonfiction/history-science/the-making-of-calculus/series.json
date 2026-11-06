@@ -113,9 +113,17 @@
     {
       "id": "01",
       "title": "芝诺：走完一米，为何要跨过无限多段？",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/01.md",
-      "claims_path": "draft/01.claims.json"
+      "claims_path": "draft/01.claims.json",
+      "source_ids": [
+        "H20",
+        "H21",
+        "H22",
+        "H23",
+        "H24",
+        "H25"
+      ]
     },
     {
       "id": "02",
