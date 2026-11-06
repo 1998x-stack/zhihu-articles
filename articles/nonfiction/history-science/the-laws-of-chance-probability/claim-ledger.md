@@ -12,9 +12,29 @@
 | 02 | C02-05 | 卡尔达诺1539及更早手稿的相关史学脉络 | P02-S4（research.md） | SECONDARY_CHECKED |
 | 02 | C02-06 | 1654年帕斯卡—费马通信及其历史地位 | P02-S4、P02-S5（research.md） | HISTORIOGRAPHY_CHECKED |
 | 02 | C02-07 | 独立等机会的现代演示：乙1/16、甲15/16 | 现代数学演绎（明确假设） | DERIVED_NOT_HISTORICAL |
-| 03 | C03-01 | 卡尔达诺：等可能性、基本结果计数 | 待核对 | UNVERIFIED |
-| 04 | C04-01 | 伽利略：组合枚举与样本空间直觉 | 待核对 | UNVERIFIED |
-| 05 | C05-01 | 帕斯卡、费马：分配问题、递推与组合 | 待核对 | UNVERIFIED |
+| 03 | C03-01 | Cardano's Liber de Ludo Aleae is a 16th-century manuscript published after his death in 1663 | P03-S1, P03-S2 | SUPPORTED_BY_SCHOLARLY_STUDIES |
+| 03 | C03-02 | Cardano correctly tabulated ordinary sum counts for two and three dice | P03-S2 | SUPPORTED_BY_SCHOLARLY_ANALYSIS |
+| 03 | C03-03 | Two equiprobable independent six-faced dice have 36 ordered outcomes; sum five has four and sum seven has six | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 03 | C03-04 | At least one specified face in two dice corresponds to 11/36; in three dice it corresponds to 91/216 | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 03 | C03-05 | Cardano made errors on harder subset-sum dice conditions, which Stigler discusses | P03-S2 | SUPPORTED_BY_SCHOLARLY_ANALYSIS |
+| 03 | C03-06 | Bellhouse interprets Cardano's treatise through justice and knowledge traditions | P03-S3 | SUPPORTED_BY_PEER_REVIEWED_ABSTRACT |
+| 03 | C03-07 | Publication in 1663 limits direct impact on Fermat/Pascal's 1654 correspondence | P03-S2 | SUPPORTED_BY_SCHOLARLY_STUDY |
+| 03 | C03-08 | Prior mathematical dice enumerations existed in medieval sources | P03-S1, P03-S4 | CORROBORATED |
+| 04 | C04-01 | Galileo's Sopra le scoperte dei dadi is represented in Opere vol.8 (1898) pp.591-594 | P04-S1 | TRANSCRIPTION_METADATA_CHECKED |
+| 04 | C04-02 | Galileo treated three-dice sums 9/12 versus 10/11 and observed equal unordered types but differing multiplicities | P04-S1 | SUPPORTED_BY_INDEXED_TRANSCRIPTION |
+| 04 | C04-03 | Unordered representations of sums 9 and 10 number six each but ordered outcome counts are 25 and 27 | P04-S1 | SOURCE_PLUS_INDEPENDENT_ENUMERATION |
+| 04 | C04-04 | Three independent fair dice have 216 equally likely ordered results and probabilities 25/216 vs 27/216 | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 04 | C04-05 | Replacing each face x by 7-x gives a bijection between sum s and 21-s | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 04 | C04-06 | Pre-Galileo three-dice counts are documented in medieval text traditions | P04-S2, P04-S3 | CORROBORATED |
+| 04 | C04-07 | 216 trials have expected counts 25 and 27 for sums 9 and 10, not guaranteed realized frequencies | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 05 | C05-01 | Pascal's 29 July 1654 letter to Fermat discusses division of a stake at two points to one | P05-S1, P05-S2 | CHECKED_AGAINST_FRENCH_TRANSCRIPTION |
+| 05 | C05-02 | Pascal example with a total of 64 yielded share 48 to 16 at current score two to one | P05-S1 | CHECKED_AGAINST_TRANSCRIPTION |
+| 05 | C05-03 | Pascal next recursive step two to zero yields 56 to 8; one to zero yields 44 to 20 | P05-S1 | TRANSCRIPTION_PLUS_DERIVED |
+| 05 | C05-04 | Fermat used enumeration with auxiliary full-length sequences, provoking discussion about unrealizable continuations | P05-S2 | SUPPORTED_BY_CORRESPONDENCE_STUDY |
+| 05 | C05-05 | With A needing 2 and B needing 3 points, full four-step sequences yield 11/16 vs 5/16 | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 05 | C05-06 | The generic two-player fair independent-round formula N=r+s-1 and P_A=2^-N sum_{k=r}^N C(N,k) | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 05 | C05-07 | Probability arithmetic and divided-stake problems predate the 1654 correspondence | P05-S3, P05-S4 | CORROBORATED |
+| 05 | C05-08 | De Méré is mentioned in the historical context but need not be credited as sole inventor-trigger | P05-S1, P05-S2 | SOURCED_AND_SCOPED |
 | 06 | C06-01 | 帕斯卡及更早的组合数学传统：二项系数、组合恒等式 | 待核对 | UNVERIFIED |
 | 07 | C07-01 | 惠更斯：期望、概率加权平均 | 待核对 | UNVERIFIED |
 | 08 | C08-01 | 格朗特、哈雷：寿命表、经验频率 | 待核对 | UNVERIFIED |

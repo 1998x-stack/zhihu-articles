@@ -1,6 +1,111 @@
 {
   "chapter_id": "03",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "sources": [
+    {
+      "source_id": "P03-S1",
+      "title": "Jacqueline Stedall, Early Probability, Oxford Academic",
+      "url": "https://academic.oup.com/book/54978/chapter-abstract/422783805",
+      "kind": "history"
+    },
+    {
+      "source_id": "P03-S2",
+      "title": "Stephen M. Stigler, Is probability easier now than in 1560? (2015)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2015.00869.x",
+      "kind": "scholarly_analysis"
+    },
+    {
+      "source_id": "P03-S3",
+      "title": "David Bellhouse, Decoding Cardano’s Liber de Ludo Aleae (2005)",
+      "url": "https://doi.org/10.1016/j.hm.2004.04.001",
+      "kind": "peer_reviewed_history"
+    },
+    {
+      "source_id": "P03-S4",
+      "title": "ETH Zurich Library, From Games of Chance to Probability Theory",
+      "url": "https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html",
+      "kind": "library_exhibit"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C03-01",
+      "statement": "Cardano's Liber de Ludo Aleae is a 16th-century manuscript published after his death in 1663",
+      "source_ids": [
+        "P03-S1",
+        "P03-S2"
+      ],
+      "category": "historical",
+      "verification": "SUPPORTED_BY_SCHOLARLY_STUDIES",
+      "caution": "Writing year disputed: sources say circa 1526 or circa 1560; do not assign a unique composition year"
+    },
+    {
+      "claim_id": "C03-02",
+      "statement": "Cardano correctly tabulated ordinary sum counts for two and three dice",
+      "source_ids": [
+        "P03-S2"
+      ],
+      "category": "historical_math",
+      "verification": "SUPPORTED_BY_SCHOLARLY_ANALYSIS",
+      "caution": "Not to claim he introduced modern sample-space notation"
+    },
+    {
+      "claim_id": "C03-03",
+      "statement": "Two equiprobable independent six-faced dice have 36 ordered outcomes; sum five has four and sum seven has six",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "caution": "Requires equal/independent outcomes"
+    },
+    {
+      "claim_id": "C03-04",
+      "statement": "At least one specified face in two dice corresponds to 11/36; in three dice it corresponds to 91/216",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "caution": "Not a quotation of Cardano; complement counts must exclude overlaps"
+    },
+    {
+      "claim_id": "C03-05",
+      "statement": "Cardano made errors on harder subset-sum dice conditions, which Stigler discusses",
+      "source_ids": [
+        "P03-S2"
+      ],
+      "category": "scholarly_history",
+      "verification": "SUPPORTED_BY_SCHOLARLY_ANALYSIS",
+      "caution": "No modern-error correction is attributed to historical author"
+    },
+    {
+      "claim_id": "C03-06",
+      "statement": "Bellhouse interprets Cardano's treatise through justice and knowledge traditions",
+      "source_ids": [
+        "P03-S3"
+      ],
+      "category": "historiographical_interpretation",
+      "verification": "SUPPORTED_BY_PEER_REVIEWED_ABSTRACT",
+      "caution": "Presented explicitly as an interpretation"
+    },
+    {
+      "claim_id": "C03-07",
+      "statement": "Publication in 1663 limits direct impact on Fermat/Pascal's 1654 correspondence",
+      "source_ids": [
+        "P03-S2"
+      ],
+      "category": "historical_inference",
+      "verification": "SUPPORTED_BY_SCHOLARLY_STUDY",
+      "caution": "Does not imply no influence from other earlier arithmetic traditions"
+    },
+    {
+      "claim_id": "C03-08",
+      "statement": "Prior mathematical dice enumerations existed in medieval sources",
+      "source_ids": [
+        "P03-S1",
+        "P03-S4"
+      ],
+      "category": "historical",
+      "verification": "CORROBORATED",
+      "caution": "Do not claim Cardano invented dice enumeration"
+    }
+  ]
 }

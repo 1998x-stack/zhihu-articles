@@ -1,6 +1,118 @@
 {
   "chapter_id": "05",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "sources": [
+    {
+      "source_id": "P05-S1",
+      "title": "Pascal to Fermat, 29 July 1654 (French text)",
+      "url": "https://fr.wikisource.org/wiki/%C5%92uvres_de_Blaise_Pascal/Lettre_de_Pascal_%C3%A0_Fermat_%2829_juillet_1654%29/Lettre",
+      "kind": "primary_text_transcription"
+    },
+    {
+      "source_id": "P05-S2",
+      "title": "Pulskamp, Fermat correspondence and commentary",
+      "url": "https://www.gtfp.cs.rhul.ac.uk/pulskamp/Fermat/fermat.html",
+      "kind": "historical_correspondence_study"
+    },
+    {
+      "source_id": "P05-S3",
+      "title": "Jacqueline Stedall, Early Probability (2008)",
+      "url": "https://academic.oup.com/book/54978/chapter-abstract/422783805",
+      "kind": "scholarly_sourcebook"
+    },
+    {
+      "source_id": "P05-S4",
+      "title": "ETH Zurich Library, probability history exhibit",
+      "url": "https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html",
+      "kind": "library_exhibit"
+    },
+    {
+      "source_id": "P05-S5",
+      "title": "Øystein Ore, Pascal and the Invention of Probability Theory (1960)",
+      "url": "https://www.ms.uky.edu/~dmu228/ma320/pascal_invention_probability.pdf",
+      "kind": "historiography_reference_not_full_text_reviewed"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C05-01",
+      "statement": "Pascal's 29 July 1654 letter to Fermat discusses division of a stake at two points to one",
+      "source_ids": [
+        "P05-S1",
+        "P05-S2"
+      ],
+      "category": "primary_correspondence",
+      "verification": "CHECKED_AGAINST_FRENCH_TRANSCRIPTION",
+      "caution": "Primary manuscripts not independently examined"
+    },
+    {
+      "claim_id": "C05-02",
+      "statement": "Pascal example with a total of 64 yielded share 48 to 16 at current score two to one",
+      "source_ids": [
+        "P05-S1"
+      ],
+      "category": "primary_math",
+      "verification": "CHECKED_AGAINST_TRANSCRIPTION",
+      "caution": "Illustrates historical abstract prize; not practical wagering strategy"
+    },
+    {
+      "claim_id": "C05-03",
+      "statement": "Pascal next recursive step two to zero yields 56 to 8; one to zero yields 44 to 20",
+      "source_ids": [
+        "P05-S1"
+      ],
+      "category": "primary_math",
+      "verification": "TRANSCRIPTION_PLUS_DERIVED",
+      "caution": "Modern notation V(a,b) is editorial"
+    },
+    {
+      "claim_id": "C05-04",
+      "statement": "Fermat used enumeration with auxiliary full-length sequences, provoking discussion about unrealizable continuations",
+      "source_ids": [
+        "P05-S2"
+      ],
+      "category": "historical_debate",
+      "verification": "SUPPORTED_BY_CORRESPONDENCE_STUDY",
+      "caution": "Do not fictionalize dialogue"
+    },
+    {
+      "claim_id": "C05-05",
+      "statement": "With A needing 2 and B needing 3 points, full four-step sequences yield 11/16 vs 5/16",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "caution": "Explicitly modern illustration, not verbatim source"
+    },
+    {
+      "claim_id": "C05-06",
+      "statement": "The generic two-player fair independent-round formula N=r+s-1 and P_A=2^-N sum_{k=r}^N C(N,k)",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "caution": "Bounded to specified assumptions"
+    },
+    {
+      "claim_id": "C05-07",
+      "statement": "Probability arithmetic and divided-stake problems predate the 1654 correspondence",
+      "source_ids": [
+        "P05-S3",
+        "P05-S4"
+      ],
+      "category": "historiography",
+      "verification": "CORROBORATED",
+      "caution": "No single birthday claim"
+    },
+    {
+      "claim_id": "C05-08",
+      "statement": "De Méré is mentioned in the historical context but need not be credited as sole inventor-trigger",
+      "source_ids": [
+        "P05-S1",
+        "P05-S2"
+      ],
+      "category": "historical_interpretation",
+      "verification": "SOURCED_AND_SCOPED",
+      "caution": "Separate letter contents from later anecdotal simplification"
+    }
+  ]
 }
