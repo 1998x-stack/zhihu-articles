@@ -1,5 +1,5 @@
 # 史料检索档案｜全书分章核证进展
-> **分章节、限定范围核证：00—12章的具体主张在下方专章记录；13—37仍是待核写作线索。`evidence_verified=true` 仅表示已完成写作章节的必要前置研究，不代表整部书核证完毕或审稿通过。**
+> **分章节、限定范围核证：00—15章的具体主张在下方专章记录；16—37仍是待核写作线索。`evidence_verified=true` 仅表示已完成写作章节的必要前置研究，不代表整部书核证完毕或审稿通过。**
 | ID | 文献 | 入口 | 可支持的范围/限制 |
 |---|---|---|---|
 | S01 | Beineke / Toft / Wilson, Milestones in Graph Theory (AMS/MAA, 2025) | https://www.ams.org/books/spec/108/spec108-endmatter.pdf | 学科发展与跨世纪年表；目录、序言、年表已检索；逐章需重读原始史料 |
@@ -16,6 +16,15 @@
 | S12 | J. Spencer, Ten Lectures on the Probabilistic Method (SIAM) | https://epubs.siam.org/doi/10.1137/1.9781611970074 | 1947埃尔德什概率方法；可读取的公开章节摘要 |
 | S13 | The hypergraph regularity method and its applications (PMC) | https://pmc.ncbi.nlm.nih.gov/articles/PMC1149431/ | 正则性引理的背景、结构与发展 |
 | S15 | Applied Combinatorics, Graph Algorithms Historical Notes | https://appliedcombinatorics.org/book/s_graphalgorithms_historical-notes.html | 最小生成树、最短路算法的优先权与时间线 |
+
+| S70 | Philip Hall, “On Representatives of Subsets,” JLMS s1-10 (1935), 26–30 | https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms/s1-10.37.26 | 原刊出版社题录：1935年份、论文标题和页码；正文只采用标准后世表述，不冒称逐字校勘原文 |
+| S71 | Peter J. Cameron, “Hall's marriage theorem,” JLMS 113 (2026), e70378 | https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms.70378 | 历史综述：霍尔定理与先驱工作、匹配表述及相关推导；以现代数学语言转述 |
+| S72 | Dénes Kőnig, *Theorie der endlichen und unendlichen Graphen* (Leipzig, 1936), Google Books 书目和目录 | https://books.google.com/books/about/Theorie_der_endlichen_und_unendlichen_Gr.html?id=JakrAAAAYAAJ | 1936德文著作名称、副标题、出版事项及部分目录；并非逐页核对全书 |
+| S73 | MacTutor, Dénes Kőnig biography | https://mathshistory.st-andrews.ac.uk/Biographies/Konig_Denes/ | 1936专著学科史定位、1926—27无穷引理前驱及其贡献范围；“第一部”是史学概括 |
+| S74 | Dénes Kőnig, *Theory of Finite and Infinite Graphs*, Birkhäuser (1990) | https://link.springer.com/book/10.1007/978-1-4684-8971-2 | 1990英语译本书目，不得把1990当作原著年份 |
+| S75 | W. T. Tutte, “The Factorization of Linear Graphs,” JLMS s1-22 (1947), 107–111 | https://londmathsoc.onlinelibrary.wiley.com/doi/10.1112/jlms/s1-22.2.107 | 1947原刊出版社题录；未逐字复核论文原始证明 |
+| S76 | Eric W. Weisstein, “Tutte's Theorem,” MathWorld | https://mathworld.wolfram.com/TuttesTheorem.html | 有限图1-因子定理的现代标准充要条件 |
+| S77 | Alexander Schrijver, *A Course in Combinatorial Optimization*, §5 | https://profs.sci.univr.it/~rrizzi/classes/MathProg/dispense/combOpt/lex_dict.pdf | 一般图匹配、奇分量、Tutte–Berge与后继算法的现代教材表述；数学推导非历史原文 |
 
 ## 常见但必须核查的史实风险
 - 欧拉原始七桥论证和后世教科书常见的点线图不是同一份原始材料。
@@ -381,3 +390,35 @@
 - 10章公式是最小反例与局部配置的**证明框架**；未证明的配置可约性必须明确引用经计算/形式核查的外部定理，不要声称本章手工重现。
 - 11章不得把边版Menger混作顶点版，禁止忽略**非相邻端点**前提；12章不得把匹配—覆盖等式推广至任意图。
 - 限定核证只允许编写第10—12章初稿，第13—37章继续TODO_VERIFY。独立审稿、精修与终稿发布未获批准。
+
+
+---
+
+## 第13—15章专项史实与数学核证｜2026-11-06
+
+**本段核证范围严格限于新写入的第13、14、15章。** 图论史是由平行研究路线交汇形成，不能将1935霍尔、1936柯尼希、1947托特误写为同一场直接合作。以下采用原始出版题录、专业历史综述、出版社书目及现代数学参考资料交叉确认；不声称已通读原始德文专著或全部原刊证明。章节所用例题是作者独立构建的现代教学图，不是历史现场。
+
+### 第13章：霍尔、代表元与邻域缺额（GT13-01—GT13-09）
+
+- **已核历史节点**：S70支持Hall发表于1935年的《On Representatives of Subsets》及期刊卷页；S71提供定理历史回顾、与更早组合矩阵成果的联系；不得写成Hall在1935年独自创造此前不存在的整个匹配理论。
+- **主命题**：有限二分图存在覆盖左侧L的匹配，当且仅当任意X⊆L满足|N(X)|≥|X|。左右两侧大小不必相同，除非另外要求整个图完美匹配。
+- **现代证明界限**：交错增广路给出充分性；寻找失败时的邻域不足集合，是现代证明与算法解释。缺额公式 max(X)(|X|−|N(X)|) 说明无法覆盖的人数。第12章柯尼希定理可在现代意义上导出Hall条件，二者不得混作一篇论文。
+- **主张核对**：GT13-01一手书目；GT13-02—08现代定义、充分必要论证与推导；GT13-09史学限定。对应逐条声明见 \`draft/13.claims.json\`。例题与证明均需遵守数学假设。
+
+### 第14章：柯尼希1936专著与有限/无限边界（GT14-01—GT14-10）
+
+- **已核历史节点**：S72原版书目提供1936年出版与可见目录；S73提供数学史定位；S74支持1990英语译本，须与1936原版严格分开。
+- **史学措辞**：“第一部系统图论教科书”是常见学科史定位，不是指之前没人撰写涉及图的专著，也不意味着1936之前没有图论。
+- **数学解释**：有限分叉、有根树存在任意深度，则存在无限射线；去掉有限分叉条件可由“根节点接无数条长度分别为1、2、3……的有限支路”反驳。现代0/1前缀树为演示无穷引理的形式化示例，不是历史原刊案例。
+- **主张核对**：GT14-01—03、05、09—10主要为书目与学术史；GT14-04、06—08主要为现代数学性质。见 \`draft/14.claims.json\`。
+
+### 第15章：托特定理、奇分量与完美匹配（GT15-01—GT15-11）
+
+- **已核历史节点**：S75提供Tutte于1947年刊出*The Factorization of Linear Graphs*的标题卷页；S76、S77提供现代定理和后续组合优化解释。
+- **主定理**：有限无向图G有完美匹配，当且仅当对每个S⊆V(G)，奇数**顶点数**的连通分量个数o(G−S)≤|S|。奇分量不是奇度顶点。正文给出必要性完整证明；充分性是引用的标准定理，没有伪称在文章中给出全证明。
+- **反例边界**：10点图由三个内部各自成三角形的奇分量与一中心点相连；删除中心，三个奇分量大于一个中心点，因此无法完美匹配，最大匹配为4。存在奇圈不代表一定无法完美匹配。
+- **后继界限**：Tutte–Berge公式与Edmonds1965一般图匹配算法属于后世进展，不归入1947年原作。GT15-01—11见 \`draft/15.claims.json\`。
+
+### 本批次工作流状态
+
+研究及写作仅使13—15章进入**DRAFT**。历史来源与数学假设已经在本段注明限定范围，**未完成逐页原稿校勘、独立连续性审计、独立结构审稿、语言精修或最终封版**。因此 \`review_status\` 必须继续为 \`PENDING\`，不能标记为已发布。

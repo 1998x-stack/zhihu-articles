@@ -1,11 +1,94 @@
 {
   "chapter": "14",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S07"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "1936德文原版Google Books书目和可见目录、MacTutor历史传记、1990译本Springer出版社记录；无穷引理为现代数学表述",
+  "claims": [
+    {
+      "claim_id": "GT14-01",
+      "claim": "Kőnig 1936年德文原版书名、副标题与出版社",
+      "source_ids": [
+        "S72",
+        "S73"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT14-02",
+      "claim": "数学史文献将1936著作称为第一部图论系统教科书",
+      "source_ids": [
+        "S73",
+        "S01"
+      ],
+      "status": "HISTORICAL_INTERPRETATION_SCOPED"
+    },
+    {
+      "claim_id": "GT14-03",
+      "claim": "原版可见目录含边序列、连通部分、欧拉与哈密顿线",
+      "source_ids": [
+        "S72"
+      ],
+      "status": "PRIMARY_TABLE_OF_CONTENTS"
+    },
+    {
+      "claim_id": "GT14-04",
+      "claim": "有限树边数条件及图二着色无奇圈条件的现代教材命题",
+      "source_ids": [
+        "S01"
+      ],
+      "status": "MODERN_MATH"
+    },
+    {
+      "claim_id": "GT14-05",
+      "claim": "Kőnig于1926—27年前后研究无穷引理，1936著作重视有限与无限图",
+      "source_ids": [
+        "S73",
+        "S72"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT14-06",
+      "claim": "有限分叉且任意深度的有根树具有无限射线",
+      "source_ids": [
+        "S73"
+      ],
+      "status": "MODERN_THEOREM"
+    },
+    {
+      "claim_id": "GT14-07",
+      "claim": "根无限分叉的递增长有限分支树不存在无限根射线",
+      "source_ids": [
+        "S73"
+      ],
+      "status": "MODERN_COUNTEREXAMPLE"
+    },
+    {
+      "claim_id": "GT14-08",
+      "claim": "合格有限二进制前缀形成有限分叉树，可借无穷引理获取无限序列",
+      "source_ids": [
+        "S73"
+      ],
+      "status": "MODERN_ILLUSTRATION"
+    },
+    {
+      "claim_id": "GT14-09",
+      "claim": "Kőnig著作整理了路径连通、树、回路、特殊图结构等，兼及有限无限",
+      "source_ids": [
+        "S72",
+        "S73"
+      ],
+      "status": "HISTORICAL_SCOPED"
+    },
+    {
+      "claim_id": "GT14-10",
+      "claim": "1990年Birkhäuser英语译本及所附Tutte评注Gallai传记不是1936原版内容",
+      "source_ids": [
+        "S74",
+        "S73"
+      ],
+      "status": "PUBLICATION_HISTORY_VERIFIED"
+    }
+  ]
 }

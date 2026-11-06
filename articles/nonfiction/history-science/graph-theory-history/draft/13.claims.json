@@ -1,11 +1,85 @@
 {
   "chapter": "13",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S07"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "1935年Hall原始论文出版社题录、2026 Cameron历史综述与现代二分图匹配形式；无原刊逐字校勘",
+  "claims": [
+    {
+      "claim_id": "GT13-01",
+      "claim": "Hall 1935文章题目、期刊卷页及代表元问题",
+      "source_ids": [
+        "S70",
+        "S71"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT13-02",
+      "claim": "邻域按不同右侧顶点计数，个体有选择并不保证全局配对",
+      "source_ids": [
+        "S71"
+      ],
+      "status": "MODERN_DEFINITION_EXAMPLE"
+    },
+    {
+      "claim_id": "GT13-03",
+      "claim": "有限二分图覆盖左侧的匹配当且仅当任意X⊆L邻域至少|X|",
+      "source_ids": [
+        "S70",
+        "S71"
+      ],
+      "status": "THEOREM_MODERN"
+    },
+    {
+      "claim_id": "GT13-04",
+      "claim": "Hall条件的必要性由不同匹配目标直接推出",
+      "source_ids": [
+        "S71"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT13-05",
+      "claim": "最大匹配的交错可达集合给出Hall充分性的现代证明",
+      "source_ids": [
+        "S71"
+      ],
+      "status": "MODERN_PROOF_NOT_ORIGINAL"
+    },
+    {
+      "claim_id": "GT13-06",
+      "claim": "增广路算法及失败时可产生违反Hall条件的集合证书",
+      "source_ids": [
+        "S71"
+      ],
+      "status": "MODERN_CONSTRUCTIVE_INTERPRETATION"
+    },
+    {
+      "claim_id": "GT13-07",
+      "claim": "缺额版最大匹配大小等于|L|减最大邻域缺额",
+      "source_ids": [
+        "S71"
+      ],
+      "status": "DEFECT_FORM_MODERN"
+    },
+    {
+      "claim_id": "GT13-08",
+      "claim": "由Kőnig顶点覆盖极小极大定理推出Hall条件对应完整匹配",
+      "source_ids": [
+        "S65",
+        "S71"
+      ],
+      "status": "MODERN_DERIVATION"
+    },
+    {
+      "claim_id": "GT13-09",
+      "claim": "Hall论文有更早的相当或更强前驱成果，不能声称全无先例",
+      "source_ids": [
+        "S71",
+        "S65"
+      ],
+      "status": "HISTORICAL_CAVEAT"
+    }
+  ]
 }

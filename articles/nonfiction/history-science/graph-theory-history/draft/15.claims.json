@@ -1,11 +1,102 @@
 {
   "chapter": "15",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S07"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "1947 Tutte原刊出版社题录、MathWorld标准定理与Schrijver现代教材§5，现代例证独立计数；未声称逐字校勘原刊全部证明",
+  "claims": [
+    {
+      "claim_id": "GT15-01",
+      "claim": "Tutte 1947 The Factorization of Linear Graphs 论文及页码",
+      "source_ids": [
+        "S75"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT15-02",
+      "claim": "完美匹配等价1-因子且与1-因子分解不同",
+      "source_ids": [
+        "S76",
+        "S77"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT15-03",
+      "claim": "中心连三个三角形给出10点连通且最小度至少2无完美匹配反例",
+      "source_ids": [
+        "S76",
+        "S77"
+      ],
+      "status": "MODERN_COUNTEREXAMPLE"
+    },
+    {
+      "claim_id": "GT15-04",
+      "claim": "G-S、奇连通分量数o(G-S)定义且非奇度点数",
+      "source_ids": [
+        "S76",
+        "S77"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT15-05",
+      "claim": "完美匹配必要条件o(G-S)≤|S|的计数证明",
+      "source_ids": [
+        "S77"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT15-06",
+      "claim": "Tutte定理必要且充分的任意顶点子集奇分量条件",
+      "source_ids": [
+        "S75",
+        "S76",
+        "S77"
+      ],
+      "status": "THEOREM_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT15-07",
+      "claim": "10点案例删除中心产生3个3点奇分量，违反1点上限",
+      "source_ids": [
+        "S77"
+      ],
+      "status": "MODERN_EXAMPLE"
+    },
+    {
+      "claim_id": "GT15-08",
+      "claim": "两三角形通过单边相连有完美匹配，奇圈本身不是障碍的充要判据",
+      "source_ids": [
+        "S77"
+      ],
+      "status": "MODERN_COUNTEREXAMPLE"
+    },
+    {
+      "claim_id": "GT15-09",
+      "claim": "Tutte-Berge公式给出最大未配顶点数等于最大奇分量缺额，Berge后继推广",
+      "source_ids": [
+        "S77"
+      ],
+      "status": "MODERN_THEOREM_HISTORICAL_BOUNDARY"
+    },
+    {
+      "claim_id": "GT15-10",
+      "claim": "10点案例最大匹配4边、未配2点，与奇分量缺额2一致",
+      "source_ids": [
+        "S77"
+      ],
+      "status": "MODERN_EXAMPLE"
+    },
+    {
+      "claim_id": "GT15-11",
+      "claim": "Edmonds1965奇圈收缩花朵算法与Tutte1947存在性定理分属不同阶段",
+      "source_ids": [
+        "S77"
+      ],
+      "status": "HISTORICAL_SCOPED_FORWARD_LINK"
+    }
+  ]
 }

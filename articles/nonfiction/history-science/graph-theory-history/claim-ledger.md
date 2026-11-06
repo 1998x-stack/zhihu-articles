@@ -14,9 +14,9 @@
 | 10 | GT10-01—GT10-12：1976/77 Appel–Haken、不可避免与可约配置、1997新证明、2004—05 Coq | S56—S60（详见research.md） | VERIFIED_SCOPED（仅10） |
 | 11 | GT11-01—GT11-11：1927 Menger书目、非邻接端点、顶点/边割与独立路径、现代证明边界 | S61—S64、S68 | VERIFIED_SCOPED（仅11） |
 | 12 | GT12-01—GT12-12：1916/1931 König、1931 Egerváry、匹配—点覆盖、1955 Kuhn及增广路构造 | S64—S69 | VERIFIED_SCOPED（仅12） |
-| 13 | GT13-01：霍尔婚姻定理及所有子集的邻域条件 | S01、S07 | TODO_VERIFY |
-| 14 | GT14-01：《有限与无限图论》与学科化 | S01、S07 | TODO_VERIFY |
-| 15 | GT15-01：1因子定理与奇连通分量条件 | S01、S07 | TODO_VERIFY |
+| 13 | GT13-01—GT13-09：1935 Hall原文书目、邻域条件、交错证明、缺额公式及与柯尼希关系 | S70、S71、S65 | VERIFIED_SCOPED（仅13，现代证明有别于原文） |
+| 14 | GT14-01—GT14-10：1936 König专著、1926—27无穷引理、有限分叉与1990译本区分 | S72—S74、S01 | VERIFIED_SCOPED（仅14，史学称谓与数学示例有限定） |
+| 15 | GT15-01—GT15-11：1947 Tutte原作、奇分量判据、证明范围、Tutte–Berge与算法后继 | S75—S77 | VERIFIED_SCOPED（仅15，非逐字原文证明） |
 | 16 | GT16-01：拉姆齐定理与有限拉姆齐数 | S01、S12、S13 | TODO_VERIFY |
 | 17 | GT17-01：图兰定理与极值图 | S01、S12、S13 | TODO_VERIFY |
 | 18 | GT18-01：1947拉姆齐数下界与概率方法 | S01、S12、S13 | TODO_VERIFY |
