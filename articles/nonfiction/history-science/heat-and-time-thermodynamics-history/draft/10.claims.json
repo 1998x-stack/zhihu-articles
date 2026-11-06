@@ -1,7 +1,255 @@
 {
   "chapter": "10",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅第10章的21项历史科学主张具备前置资料支撑；尚未独立全文审稿，第11—33章不受本次局部验证覆盖",
+  "claims": [
+    {
+      "claim_id": "T10-01",
+      "claim": "第一定律允许能量账守恒但不能独自判断过程是否自发可行",
+      "type": "modern_physics",
+      "source_ids": [
+        "R80",
+        "R81"
+      ],
+      "locator": "first versus second",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-02",
+      "claim": "克劳修斯1850年提出热不能无外界补偿地从冷体转移到热体的原理",
+      "type": "historical_fact",
+      "source_ids": [
+        "R69",
+        "R70",
+        "R72"
+      ],
+      "locator": "Clausius 1850, Thomson §14",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-03",
+      "claim": "克劳修斯原论述讨论自发热传与外界补偿，现代Clausius表述为规范化概括",
+      "type": "historical_boundary",
+      "source_ids": [
+        "R69",
+        "R72"
+      ],
+      "locator": "original versus standard",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-04",
+      "claim": "汤姆孙1851年在On the Dynamical Theory of Heat提出独特不可能性公理",
+      "type": "historical_fact",
+      "source_ids": [
+        "R72"
+      ],
+      "locator": "§12",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-05",
+      "claim": "汤姆孙1851年禁止无外界额外变化从最低温周围获得热并持续产功",
+      "type": "historical_theory",
+      "source_ids": [
+        "R72"
+      ],
+      "locator": "§12 and §14 footnote",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-06",
+      "claim": "汤姆孙1851 §9明确分别认可Joule热功等价与Carnot-Clausius可逆上限",
+      "type": "historical_fact",
+      "source_ids": [
+        "R72"
+      ],
+      "locator": "§9",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-07",
+      "claim": "汤姆孙1851 §14指出Carnot原始证明中的热质守恒假设有问题而可逆上限保留",
+      "type": "historical_fact",
+      "source_ids": [
+        "R72"
+      ],
+      "locator": "§14",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-08",
+      "claim": "1851汤姆孙明确认可克劳修斯1850对命题的正确原理论证",
+      "type": "historical_fact",
+      "source_ids": [
+        "R72"
+      ],
+      "locator": "§14",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-09",
+      "claim": "标准Kelvin–Planck表述为单热源唯一效果转净功的循环不可能",
+      "type": "modern_theory",
+      "source_ids": [
+        "R80",
+        "R81"
+      ],
+      "locator": "standard heat engines",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-10",
+      "claim": "标准Clausius表述为只有热从冷到热的循环唯一效果不可能",
+      "type": "modern_theory",
+      "source_ids": [
+        "R80",
+        "R81"
+      ],
+      "locator": "heat pumps",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-11",
+      "claim": "电动冰箱热从冷处到热处不违反定律，因为需要外界做功",
+      "type": "modern_physics",
+      "source_ids": [
+        "R81"
+      ],
+      "locator": "refrigerator energy accounting",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-12",
+      "claim": "理想概念示例Qcold=80J,Winput=20J,Qhot=100J，非历史实测",
+      "type": "modern_example",
+      "source_ids": [
+        "R81"
+      ],
+      "locator": "energy conservation for fridge",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-13",
+      "claim": "两种第二定律表述的等价可通过将假想违规机与正常热泵/热机耦合反证",
+      "type": "modern_proof",
+      "source_ids": [
+        "R72",
+        "R80"
+      ],
+      "locator": "Thomson §13 + standard proof",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-14",
+      "claim": "组合机的热量和功要连同全部热库变化一起计量，不能只局部看装置",
+      "type": "modern_scope",
+      "source_ids": [
+        "R80",
+        "R81"
+      ],
+      "locator": "sole effect caveat",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-15",
+      "claim": "完全循环可逆上限不意味着实际机器没有摩擦即可百分百热功转换",
+      "type": "modern_boundary",
+      "source_ids": [
+        "R81"
+      ],
+      "locator": "two heat source Carnot",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-16",
+      "claim": "现代双正温恒温热源ηrev=1−Tc/Th，现实效率≤该式",
+      "type": "modern_physics",
+      "source_ids": [
+        "R81"
+      ],
+      "locator": "modern Carnot",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-17",
+      "claim": "400K/300K教学算例25%不是1851实验测量",
+      "type": "editorial_example",
+      "source_ids": [
+        "R81"
+      ],
+      "locator": "formula arithmetic",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-18",
+      "claim": "第一类永动机违反能量守恒，第二类试图无其他变化将单一热库热全部转功",
+      "type": "modern_classification",
+      "source_ids": [
+        "R80",
+        "R81"
+      ],
+      "locator": "two kinds conceptual distinction",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-19",
+      "claim": "‘不可能’是宏观循环过程约束，并非单个微观事件被无限制宣判",
+      "type": "scope_boundary",
+      "source_ids": [
+        "R80"
+      ],
+      "locator": "macro versus statistical",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-20",
+      "claim": "第二定律的现代规范句与1850–51原文字句不能混写",
+      "type": "historiography",
+      "source_ids": [
+        "R69",
+        "R72"
+      ],
+      "locator": "translated/modern distinction",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T10-21",
+      "claim": "1854循环积分与1865熵命名留第11章，不提前署给1850—51",
+      "type": "editorial_transition",
+      "source_ids": [
+        "R73",
+        "R74"
+      ],
+      "locator": "chronological distinction",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "前置史料检查与现代公式年代隔离已建立",
+    "非虚构正文完成后同步更新status=draft",
+    "未虚构历史人物的对话、心理、实验当日观察记录"
+  ]
 }
