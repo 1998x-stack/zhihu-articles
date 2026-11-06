@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "10",
+  "claims": [
+    {
+      "claim_id": "NS-10-01",
+      "type": "historical_fact",
+      "statement": "Three Faloutsos authors 1999 SIGCOMM paper analyzed three Internet topology snapshots from Nov 1997 to Dec 1998 and reported 45% growth and apparent power-law patterns",
+      "source_ids": [
+        "S53"
+      ],
+      "locator": "1999 scanned first page Abstract and Introduction",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-10-02",
+      "type": "historical_limit",
+      "statement": "1999 Faloutsos paper cautions limited snapshot sample and overgeneralization; high log-log correlation not proof universal power law",
+      "source_ids": [
+        "S53"
+      ],
+      "locator": "p251 paragraph Our work in perspective",
+      "verification_status": "primary_source_checked_with_modern_statistical_warning"
+    },
+    {
+      "claim_id": "NS-10-03",
+      "type": "graph_type",
+      "statement": "Internet AS/router-level topology and WWW directed hyperlink graph have distinct nodes and edges and should not conflate",
+      "source_ids": [
+        "S53",
+        "S54"
+      ],
+      "locator": "1999 Internet topology paper vs 2000 web graph paper",
+      "verification_status": "primary_sources_compared"
+    },
+    {
+      "claim_id": "NS-10-04",
+      "type": "historical_fact",
+      "statement": "Broder et al Graph structure in the Web published Computer Networks 33 2000 pp309-320 from two 1999 AltaVista crawls each over 200M pages and 1.5B links",
+      "source_ids": [
+        "S54"
+      ],
+      "locator": "p309 Abstract p310 Intro; 1999 May and Oct crawl pages",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-10-05",
+      "type": "historical_data",
+      "statement": "Broder crawl's giant weak component over 90%; strong component ~56M pages and large IN OUT TENDRILS in bow-tie decomposition",
+      "source_ids": [
+        "S54"
+      ],
+      "locator": "pp310-311 main results and bow tie",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-10-06",
+      "type": "historical_data",
+      "statement": "Broder 2000 reports ~24% random ordered pairs are directed reachable, reachable directed mean distance ~16, reachable undirected mean ~6",
+      "source_ids": [
+        "S54"
+      ],
+      "locator": "p310 Introduction and pp316-318 BFS distances",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-10-07",
+      "type": "modern_math",
+      "statement": "Degree distribution P(k) fraction with degree k, simple undirected connected mean path distance and local clustering 2 t_i/(k_i(k_i-1)) use stated conventions",
+      "source_ids": [
+        "S55"
+      ],
+      "locator": "Newman 2003 Sections III B-C",
+      "verification_status": "supported_modern_definitions"
+    },
+    {
+      "claim_id": "NS-10-08",
+      "type": "mathematical_example",
+      "statement": "Six-node two triangles joined by C-D has m7, degrees (2,2,3,3,2,2), mean 7/3, degree distribution P2=4/6 P3=2/6",
+      "source_ids": [],
+      "locator": "handshake and direct count",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-10-09",
+      "type": "mathematical_example",
+      "statement": "Same six-node graph has average local clustering 7/9, transitivity 3/5, mean path length 27/15=1.8",
+      "source_ids": [],
+      "locator": "2 triangles, 10 connected triples, 15 pairs distance sum27",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-10-10",
+      "type": "methodological_limit",
+      "statement": "Crawl coverage, missing/unreachable pages, changing content and choice of direction influence inferences from a web crawl",
+      "source_ids": [
+        "S54",
+        "S55"
+      ],
+      "locator": "Broder sampling caveats; Newman network measurement survey",
+      "verification_status": "qualified_inference"
+    },
+    {
+      "claim_id": "NS-10-11",
+      "type": "historical_fact",
+      "statement": "Newman's comprehensive network review appeared SIAM Review 45(2):167-256 in 2003",
+      "source_ids": [
+        "S55"
+      ],
+      "locator": "journal metadata and arXiv cond-mat/0303516",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-10-12",
+      "type": "boundary",
+      "statement": "Empirical log-log linear fit is not sufficient evidence all Internet/Web graphs are scale-free; defer statistical methods to chapter 13",
+      "source_ids": [
+        "S53",
+        "S54",
+        "S08"
+      ],
+      "locator": "1999 stated limitations and later power-law caution",
+      "verification_status": "supported_synthesis"
+    }
+  ],
+  "outstanding_checks": [
+    "Full-series outline_approved/evidence_verified still false; writing is research draft only.",
+    "Independent continuity audit and developmental review required before copy editing or final publishing.",
+    "Where original scanned text was consulted, verify pagination, edition and citation snippets in formal fact-edit pass."
+  ]
+}
