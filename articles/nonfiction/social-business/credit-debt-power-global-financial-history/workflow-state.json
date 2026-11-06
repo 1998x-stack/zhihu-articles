@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 3,
+  "current_revision": 4,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -14,9 +14,12 @@
     "CH03-QIN-FISCAL-PRIMARY-RECORDS",
     "CH04-LEGIONARY-TREASURY-PRIMARY-CHECK",
     "CH04-HAN-SLIPS-AND-YANTIELUN-CROSSCHECK",
-    "CH04-COMPARATIVE-FISCAL-ESTIMATE-REVIEW"
+    "CH04-COMPARATIVE-FISCAL-ESTIMATE-REVIEW",
+    "CH05-MUZIRIS-PAPYRUS-EDITION-CHECK",
+    "CH05-AKSUM-SAHARA-SOURCE-CHECK",
+    "CH05-SOGDIAN-LETTER-PRIMARY-CHECK"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Chapter 04 research draft added at revision 3; prior reviews invalidated, not published or approved; outline_approved/evidence_verified remain false due to book-wide incomplete verification."
+  "notes": "Part I Chapter 05 now research draft. Global revision 4, prior reviews stale. Outline/evidence gates still false; no final approval or publication claimed."
 }
