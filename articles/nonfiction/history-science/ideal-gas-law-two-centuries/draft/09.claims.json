@@ -3,7 +3,188 @@
   "title": "1860年的会议：被重新带回来的假说",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "18条史学/现代方法条目已建立前置核证；会议没有当场统一全体化学家；独立审稿未完成",
+  "claims": [
+    {
+      "claim_id": "G09-01",
+      "source_ids": [
+        "S41",
+        "S46"
+      ],
+      "summary": "前章1811等体积假说及其数十年接受争议",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-02",
+      "source_ids": [
+        "S54",
+        "S56"
+      ],
+      "summary": "十九世纪中叶原子量、分子量、当量不统一",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-03",
+      "source_ids": [
+        "S54",
+        "S55"
+      ],
+      "summary": "凯库勒、武尔茨、韦尔齐恩倡议卡尔斯鲁厄会议",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-04",
+      "source_ids": [
+        "S55",
+        "S57"
+      ],
+      "summary": "会议1860年9月3日开始，约140位化学家参与",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-05",
+      "source_ids": [
+        "S54",
+        "S57"
+      ],
+      "summary": "会议目的包含atom/molecule/equivalent定义，不是单纯表决阿伏伽德罗假说",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-06",
+      "source_ids": [
+        "S56",
+        "S55"
+      ],
+      "summary": "坎尼扎罗1858年《化学哲学课程提要》早于会议",
+      "classification": "primary_translation",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-07",
+      "source_ids": [
+        "S56",
+        "S41"
+      ],
+      "summary": "提要以气体相对密度及阿伏伽德罗假说推相对分子量",
+      "classification": "primary_translation",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-08",
+      "source_ids": [
+        "S56"
+      ],
+      "summary": "比对不同分子中同一元素的质量份额，求原子量并区分当量",
+      "classification": "primary_translation",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-09",
+      "source_ids": [
+        "S56",
+        "S58"
+      ],
+      "summary": "无法气化的物质还需化学组成/比热等独立证据",
+      "classification": "qualified",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-10",
+      "source_ids": [
+        "S54",
+        "S55"
+      ],
+      "summary": "会议结束时未统一全部术语与原子量",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-11",
+      "source_ids": [
+        "S54",
+        "S55"
+      ],
+      "summary": "帕韦西会后分发1858《提要》重印本",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-12",
+      "source_ids": [
+        "S54",
+        "S55"
+      ],
+      "summary": "洛塔尔迈耶受到影响并于1864教材吸收相关思想",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-13",
+      "source_ids": [
+        "S54",
+        "S58"
+      ],
+      "summary": "门捷列夫参会，1869周期表依赖相对可靠原子量背景，但非会议现场发明",
+      "classification": "qualified",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-14",
+      "source_ids": [
+        "S46",
+        "S48",
+        "S54"
+      ],
+      "summary": "阿伏伽德罗思想传播非一夜一致接受",
+      "classification": "historical",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-15",
+      "source_ids": [
+        "S56",
+        "S41"
+      ],
+      "summary": "现代密度/化学式示例是解释工具，不冒充1858原符号",
+      "classification": "modern_explanation",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-16",
+      "source_ids": [
+        "S01",
+        "S56"
+      ],
+      "summary": "规范分子量知识对后来气体统一状态方程重要，但1860未写出PV=nRT",
+      "classification": "editorial",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-17",
+      "source_ids": [
+        "S59",
+        "S54"
+      ],
+      "summary": "第10章倒叙回1824热机史，不把1860后的事件写在卡诺之前",
+      "classification": "narrative",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G09-18",
+      "source_ids": [
+        "S54",
+        "S55"
+      ],
+      "summary": "会议讨论、文本传播、后续教材共同改变科学共同语言",
+      "classification": "synthesis",
+      "verification": "preverified_in_research_scope"
+    }
+  ]
 }
