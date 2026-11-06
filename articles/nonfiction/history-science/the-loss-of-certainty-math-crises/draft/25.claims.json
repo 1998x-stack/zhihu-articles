@@ -1,0 +1,110 @@
+{
+  "chapter": "25",
+  "title": "四色定理：当机器成为证明者",
+  "lane": "nonfiction",
+  "revision": 14,
+  "status": "draft_claims_traced",
+  "evidence_scope": "research.md对应第25章与尾声专项来源；数学演示与历史原典相互区分",
+  "notes": [
+    "对应正文为草稿；既未完成Schema 2.0连续性审计，也未通过独立结构审稿",
+    "未执行语言精修或终稿批准；不得将本字段当作审稿合格证明"
+  ],
+  "claims": [
+    {
+      "claim_id": "H25-01",
+      "statement": "四色定理与平面图顶点着色、共边邻接的区分",
+      "source_id": "R25-GATECH-THOMAS",
+      "verification_status": "verified_qualified"
+    },
+    {
+      "claim_id": "H25-02",
+      "statement": "1852年Guthrie提出问题并传至de Morgan",
+      "source_id": "R25-GATECH-THOMAS;R25-MACTUTOR",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H25-03",
+      "statement": "1879 Kempe证明漏洞于1890由Heawood指出",
+      "source_id": "R25-AMS-WILSON;R25-GATECH-THOMAS",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H25-04",
+      "statement": "Heawood证明五色定理",
+      "source_id": "R25-MACTUTOR",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H25-05",
+      "statement": "Euler公式与三角剖分电荷恒等式12",
+      "source_id": "R25-MODERN-EULER",
+      "verification_status": "mathematically_verified"
+    },
+    {
+      "claim_id": "H25-06",
+      "statement": "不可避免集和可约配置排除最小反例",
+      "source_id": "R25-GATECH-THOMAS",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H25-07",
+      "statement": "放电法守恒及局部构型压力",
+      "source_id": "R25-GATECH-THOMAS;R25-MODERN-EULER",
+      "verification_status": "verified_qualified"
+    },
+    {
+      "claim_id": "H25-08",
+      "statement": "Heesch与其他研究者先驱方法贡献",
+      "source_id": "R25-GATECH-THOMAS;R25-AMS-WILSON",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H25-09",
+      "statement": "Appel-Haken 1976宣布，1977论文和Koch作者",
+      "source_id": "R25-1977-ORIGINAL;R25-AMS-WILSON",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H25-10",
+      "statement": "机器穷举的是已缩减的有限配置而非所有地图",
+      "source_id": "R25-GATECH-THOMAS",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H25-11",
+      "statement": "原证明不同版本使用不同配置数",
+      "source_id": "R25-AMS-WILSON;R25-GATECH-THOMAS",
+      "verification_status": "verified_qualified"
+    },
+    {
+      "claim_id": "H25-12",
+      "statement": "1990年代四位研究者633个构型的新证明仍依赖计算机",
+      "source_id": "R25-GATECH-THOMAS;R25-1997-JCTB",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H25-13",
+      "statement": "Gonthier 2005 Coq形式验证与2008年论文",
+      "source_id": "R25-GONTHIER-2008;R25-CORNELL-GONTHIER",
+      "verification_status": "verified_qualified"
+    },
+    {
+      "claim_id": "H25-14",
+      "statement": "形式化证明检查程序的规范、依赖与信任边界",
+      "source_id": "R25-GONTHIER-2008;R25-GATECH-THOMAS",
+      "verification_status": "verified_qualified"
+    },
+    {
+      "claim_id": "H25-15",
+      "statement": "算法不可判定与具体有限核查的区别",
+      "source_id": "draft/24.md;R25-GATECH-THOMAS",
+      "verification_status": "mathematically_verified"
+    },
+    {
+      "claim_id": "H25-16",
+      "statement": "引入尾声关于可审查可靠性的结论",
+      "source_id": "outline.md;story-bible.md",
+      "verification_status": "editorial_interpretation"
+    }
+  ]
+}
