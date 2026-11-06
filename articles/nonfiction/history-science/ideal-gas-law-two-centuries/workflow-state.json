@@ -7,10 +7,10 @@
   "review_status": "PASS",
   "reviewed_revision": 2,
   "unresolved_blockers": [],
-  "edited_revision": null,
+  "edited_revision": 2,
   "final_approved": false,
   "evidence_scope": "序章00及第01—15章、尾声16共17份正文均完成章级前置核证；最终批次G15-01—G15-22及G16-01—G16-22已映射来源；下一步全书独立双审",
-  "approval_scope": "revision 2: qa/continuity-report.md 与 qa/developmental-review.md 双PASS且无HIGH/BLOCKER；允许进入line-edit；尚未进行final-approval。",
-  "note": "2026-11-06：对revision2分别完成连续性事实审计与独立结构审稿，均已PASS。旧版本审稿已归档，正等待语言精修及后续终稿批准。",
+  "approval_scope": "Revision 2 两份独立审稿均PASS；line-edit 已生成 edited.md，306个主张编号与17章结构保留。已达到申请final-approval的流程前置条件，但未封版、未合并、未发布。",
+  "note": "2026-11-06：continuity-audit r2 PASS + developmental-editor r2 PASS；对合订稿完成13处跨章句式与过渡精修，edited.md与revision2匹配。下一阶段为单独的final-approval，须检查edited.md并明确批准；现状态 final_approved=false。",
   "revision_reason": "DR1-01 修复S87书目404、DR1-02修复book.json阅读状态及rev2附录工作流说明；旧双审结论失效"
 }
