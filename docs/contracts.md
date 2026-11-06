@@ -74,3 +74,6 @@ python scripts/workflow_state.py <article_dir> finalize --confirm
 python scripts/workflow_state.py <article_dir> new-revision --reason "修复某个章节的时间线冲突"
 ```
 `new-revision` 自动递增版本、使审稿/精修/终稿批准失效，且将已存在的 `final.md` 归档到 `history/final-rN.md`。人工/模型需按审稿报告修复后重新执行两道复审。命令所接受的 `--confirm` 表示实际审阅后的明确授权，不应由代理未经审查自行伪造。
+
+- 逐项问题记录：`python scripts/workflow_state.py <article_dir> add-blocker --reason PLOT-004`；实际修复并验证后，`python scripts/workflow_state.py <article_dir> resolve-blocker --reason PLOT-004 --confirm`。关闭阻断项仍会让审稿状态变为 PENDING，不能绕过两道复审。
+- 新文章模板中的未审定 `final.md` 只是占位，首次 `finalize` 可替换；已经审定的正式终稿则必须先通过 `new-revision` 归档，不得直接覆写。

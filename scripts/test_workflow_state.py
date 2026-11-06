@@ -83,6 +83,24 @@ class WorkflowTransitionTests(unittest.TestCase):
         self.assertTrue((self.root / "history/final-r0.md").exists())
         self.assertTrue(evaluate(self.root, "edit"))
 
+    def test_template_final_placeholder_can_be_replaced_at_initial_approval(self):
+        self.ready()
+        self.touch("final.md", "# Placeholder awaiting approval")
+        transition(self.root, "finalize", confirm=True)
+        self.assertEqual((self.root / "final.md").read_text(), (self.root / "edited.md").read_text())
+
+    def test_blockers_remain_until_explicitly_resolved_and_rereviewed(self):
+        self.ready()
+        transition(self.root, "add-blocker", reason="PLOT-004")
+        self.assertTrue(evaluate(self.root, "edit"))
+        with self.assertRaises(ValueError):
+            transition(self.root, "resolve-blocker", reason="PLOT-004")
+        transition(self.root, "resolve-blocker", reason="PLOT-004", confirm=True)
+        self.assertTrue(evaluate(self.root, "edit"))
+        self.reviews()
+        transition(self.root, "review-passed", confirm=True)
+        self.assertEqual(evaluate(self.root, "edit"), [])
+
     def test_nonfiction_evidence_approval(self):
         self.state["lane"] = "nonfiction"
         self.persist()

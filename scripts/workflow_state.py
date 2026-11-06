@@ -104,8 +104,8 @@ def transition(root: Path, action: str, *, confirm: bool = False, reason: str = 
             raise ValueError("The current revision does not pass the final gate")
         source = root / "edited.md"
         final = root / "final.md"
-        if final.exists() and final.read_bytes() != source.read_bytes():
-            raise ValueError("Existing final.md differs from edited.md; start a revision to archive it")
+        if final.exists() and final.read_bytes() != source.read_bytes() and state["final_approved"]:
+            raise ValueError("An approved final.md differs; start a revision to archive the former version")
         final.write_bytes(source.read_bytes())
         record = root / "qa/final-approval.md"
         record.parent.mkdir(parents=True, exist_ok=True)
@@ -116,12 +116,34 @@ def transition(root: Path, action: str, *, confirm: bool = False, reason: str = 
         )
         state["final_approved"] = True
 
+    elif action == "add-blocker":
+        if not reason.strip():
+            raise ValueError("Specify the blocker ID with --reason")
+        if reason.strip() not in state["unresolved_blockers"]:
+            state["unresolved_blockers"].append(reason.strip())
+        state["review_status"] = "CHANGES_REQUIRED"
+        state["reviewed_revision"] = None
+        state["edited_revision"] = None
+        state["final_approved"] = False
+
+    elif action == "resolve-blocker":
+        if not confirm:
+            raise ValueError("Use --confirm only after verifying that the issue is fixed")
+        if not reason.strip() or reason.strip() not in state["unresolved_blockers"]:
+            raise ValueError("Blocker ID from --reason is not on the unresolved list")
+        state["unresolved_blockers"].remove(reason.strip())
+        # Resolving an issue is not proof of independent review.
+        state["review_status"] = "PENDING"
+        state["reviewed_revision"] = None
+        state["edited_revision"] = None
+        state["final_approved"] = False
+
     elif action == "new-revision":
         if not reason.strip():
             raise ValueError("Revision must have an explicit reason")
         archived = root / "history" / f"final-r{revision}.md"
         old_final = root / "final.md"
-        if old_final.is_file():
+        if old_final.is_file() and state["final_approved"]:
             archived.parent.mkdir(parents=True, exist_ok=True)
             if archived.exists():
                 raise ValueError("Archive destination already exists; resolve before revising")
@@ -149,10 +171,10 @@ def main() -> int:
     parser.add_argument("article_dir", type=Path)
     parser.add_argument("action", choices=[
         "evidence-verified", "outline-approved", "review-passed",
-        "edited", "finalize", "new-revision"
+        "edited", "finalize", "new-revision", "add-blocker", "resolve-blocker"
     ])
     parser.add_argument("--confirm", action="store_true", help="Explicit approval after real review")
-    parser.add_argument("--reason", default="", help="Required reason for new-revision")
+    parser.add_argument("--reason", default="", help="Revision reason, or blocker ID for add-blocker/resolve-blocker")
     args = parser.parse_args()
     try:
         state = transition(args.article_dir, args.action, confirm=args.confirm, reason=args.reason)
