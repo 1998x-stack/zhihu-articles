@@ -1,0 +1,110 @@
+{
+  "chapter": "23",
+  "title": "哥德尔：有些命题，从系统内部永远到不了",
+  "lane": "nonfiction",
+  "revision": 12,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Historical source assertions and exact mathematical preconditions are mapped in research.md",
+    "Modern derivations and notation are separated from primary historical work",
+    "Independent continuity/developmental reviews and final approval remain pending"
+  ],
+  "claims": [
+    {
+      "claim_id": "H23-01",
+      "statement": "1930会议、1931发表论文",
+      "source_id": "R23-SEP-GODEL;R23-ORIGINAL",
+      "verification_scope": "史学"
+    },
+    {
+      "claim_id": "H23-02",
+      "statement": "一阶逻辑完备与算术不完备不矛盾",
+      "source_id": "R23-SEP-GODEL;R23-SEP-INCOMP",
+      "verification_scope": "数学"
+    },
+    {
+      "claim_id": "H23-03",
+      "statement": "需要一致、有效可公理化、足够算术表达力",
+      "source_id": "R23-SEP-INCOMP",
+      "verification_scope": "前提"
+    },
+    {
+      "claim_id": "H23-04",
+      "statement": "素数幂编码可将有限符号与证明数化",
+      "source_id": "R23-MODERN-ENCODING;R23-SEP-INCOMP",
+      "verification_scope": "现代解释"
+    },
+    {
+      "claim_id": "H23-05",
+      "statement": "Prov_T为体系内可表达的证明谓词",
+      "source_id": "R23-SEP-INCOMP;R23-MODERN-FIX",
+      "verification_scope": "现代数学"
+    },
+    {
+      "claim_id": "H23-06",
+      "statement": "对角引理给出G↔¬Prov_T(⌜G⌝)",
+      "source_id": "R23-SEP-INCOMP;R23-MODERN-FIX",
+      "verification_scope": "数学"
+    },
+    {
+      "claim_id": "H23-07",
+      "statement": "T一致时该G在T内部不可证明",
+      "source_id": "R23-MODERN-FIX;R23-SEP-INCOMP",
+      "verification_scope": "形式条件"
+    },
+    {
+      "claim_id": "H23-08",
+      "statement": "1931原推导不证¬G需较强ω-一致等条件",
+      "source_id": "R23-SEP-ROSSER;R23-SEP-INCOMP",
+      "verification_scope": "时代"
+    },
+    {
+      "claim_id": "H23-09",
+      "statement": "1936罗瑟改进只需一般一致性",
+      "source_id": "R23-SEP-ROSSER",
+      "verification_scope": "年代"
+    },
+    {
+      "claim_id": "H23-10",
+      "statement": "“真但不可证”需指定外部标准自然数解释",
+      "source_id": "R23-MODERN-TRUTH;R23-SEP-INCOMP",
+      "verification_scope": "真值"
+    },
+    {
+      "claim_id": "H23-11",
+      "statement": "第二定理T不证明其标准Con(T)",
+      "source_id": "R23-MODERN-CON;R23-SEP-HILBERT",
+      "verification_scope": "前提"
+    },
+    {
+      "claim_id": "H23-12",
+      "statement": "外部更强元理论的一致性证明并非被排除",
+      "source_id": "R23-MODERN-CON;R23-SEP-INCOMP",
+      "verification_scope": "限定"
+    },
+    {
+      "claim_id": "H23-13",
+      "statement": "结论不是数学崩溃或所有命题不可证明",
+      "source_id": "R23-SEP-INCOMP",
+      "verification_scope": "反误读"
+    },
+    {
+      "claim_id": "H23-14",
+      "statement": "不完备性与CH独立论证需区分",
+      "source_id": "R23-SEP-GODEL;R23-SEP-INCOMP",
+      "verification_scope": "跨章"
+    },
+    {
+      "claim_id": "H23-15",
+      "statement": "较弱理论不一定适用，如Presburger算术",
+      "source_id": "R23-BOUND",
+      "verification_scope": "适用"
+    },
+    {
+      "claim_id": "H23-16",
+      "statement": "下一章Church/Turing是可判定性新问题",
+      "source_id": "outline.md;R23-BOUND",
+      "verification_scope": "编排"
+    }
+  ]
+}
