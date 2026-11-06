@@ -787,3 +787,105 @@
 **历史与数学核查**：弗雷格1879、1884、1893/1903；罗素/怀特海1910—13；布劳威尔1907/08；希尔伯特成熟计划1921—20年代，不应按三派同年比赛排列。直觉主义对无限猜想的姿态是要求建设性证明，不能随意说其“否认所有二值真理”或拒绝有限穷举。需要说明形式主义不是“数学没有意义，写符号就行”，重点是形式推理与有限主义一致性证明。三派各有贡献与争议，尚未执行任何独立审稿。
 
 **本批允许交付**：第18—20章draft正文、每章claims.json、增量claim-ledger、阅读manifest和工作流状态；**不等于**已完成独立双审、终稿批准或对外发布。
+
+
+---
+
+## 第21—23章专项事实核验：策梅洛、希尔伯特与哥德尔（2026-11-06）
+
+> **研究边界**：优先学术二手来源和可核原始出版信息；历史年份与现代形式化教学分开。已有大纲保持不变。这里的“核验”指所选断言有相应资料或数学推导支持，不构成独立双审通过、终稿发布或系统绝对一致性证明。
+
+### 第21章｜策梅洛：不是任何性质都能造出集合
+
+**来源索引**
+
+- **R21-SEP-ZERMELO**：*Stanford Encyclopedia of Philosophy*, “Zermelo’s Axiomatization of Set Theory”, https://plato.stanford.edu/entries/zermelo-set-theory/ ：1908年策梅洛“Untersuchungen über die Grundlagen der Mengenlehre, I”公理体系；外延、初等集合、分离、幂集、并集、选择、无穷。**当时“明确性质”尚未等同后来逐条一阶公式的分离公理模式**。
+- **R21-SEP-CHOICE**：*Stanford Encyclopedia of Philosophy*, “The Axiom of Choice”, https://plato.stanford.edu/archives/spr2014/entries/axiom-choice/ ：1904年策梅洛提出选择公理用于良序定理，1908年纳入公理化；引发构造性争论。
+- **R21-SEP-ALT**：*Stanford Encyclopedia of Philosophy*, “Alternative Axiomatic Set Theories”, https://plato.stanford.edu/entries/settheory-alternative/ ：1922年前后Fraenkel、Skolem改进，替换公理和精确的一阶分离模式，后来的ZF和ZFC**不是**1908原版原封不动。
+- **R21-SEP-SET**：*Stanford Encyclopedia of Philosophy*, “Set Theory”, https://plato.stanford.edu/entries/set-theory/ ：ZF/ZFC关系、无限公理与幂集、现代基础的公理安排。
+- **R21-SEP-INCOMP**：*Stanford Encyclopedia of Philosophy*, “Gödel’s Incompleteness Theorems”, https://plato.stanford.edu/entries/goedel-incompleteness/ ：挡住罗素悖论≠绝对证明ZFC一致。
+- **R21-MODERN-SEP**：现代例子：给定已有集合A及合法公式φ，分离得B={x∈A:φ(x)}；取φ(x)为x∉x，则若B∈A，可推出B∈B↔B∉B，故B∉A；**B存在但不能为A成员**，不能错误地得出B不存在。
+- **R21-MODERN-OMEGA**：现代ZF自然数示例：0=∅，后继S(n)=n∪{n}，1={0},2={0,1},…；ZF无穷公理和分离等给出ω。此为现代冯·诺伊曼编码，**不是1908策梅洛原有无穷公理的逐字构造**。
+- **R21-BOUNDARY**：R21-SEP-ZERMELO记录“definite”不明之争、庞加莱批评、后来Skolem一阶语言方案；不得宣称1908即已有现代ZFC与绝对一致性证明。
+
+| claim_id | 核验主张 | 证据 | 界限 |
+|---|---|---|---|
+| H21-01 | 策梅洛1908年发表集合公理化 | R21-SEP-ZERMELO | 历史 |
+| H21-02 | 罗素悖论挑战无限制理解原则 | R21-SEP-SET;R21-MODERN-SEP | 现代解释 |
+| H21-03 | 1908原体系包含七组上述原则 | R21-SEP-ZERMELO | 别误写现代ZFC |
+| H21-04 | 分离先给定A再筛选 | R21-SEP-ZERMELO;R21-MODERN-SEP | 数学 |
+| H21-05 | B={x∈A:x∉x}可存在且B∉A | R21-MODERN-SEP | 严格推导 |
+| H21-06 | 策梅洛1904年选择公理与良序，1908系统化 | R21-SEP-CHOICE;R21-SEP-ZERMELO | 年代 |
+| H21-07 | 幂集、并集、无穷继续支持无限数学 | R21-SEP-ZERMELO;R21-SEP-SET | 数学 |
+| H21-08 | 1908“明确性质”有未消除的解释争议 | R21-SEP-ZERMELO;R21-BOUNDARY | 史学 |
+| H21-09 | 1922年前后Fraenkel/Skolem扩展、精确化 | R21-SEP-ALT | 史学 |
+| H21-10 | 后来的ZF与ZFC不同于1908体系 | R21-SEP-SET;R21-SEP-ALT | 版本 |
+| H21-11 | 现代自然数集合编码不冒称1908原稿 | R21-MODERN-OMEGA | 现代教学 |
+| H21-12 | 避免悖论不等于绝对一致 | R21-SEP-INCOMP;R21-SEP-SET | 逻辑 |
+| H21-13 | 第22章形式系统安全性为编辑性转场 | outline.md;R21-BOUNDARY | 编排 |
+
+### 第22章｜希尔伯特：为经典数学寻找有限主义保障
+
+**来源索引**
+
+- **R22-SEP-HILBERT**：Richard Zach, *SEP*, “Hilbert’s Program”, https://plato.stanford.edu/entries/hilbert-program/ ：1899《几何基础》、1900年第2问题是前史；**1921年前后成熟计划**，1920年代研究形式化、有限主义一致性、真实与理想命题和保守性；与伯奈斯、阿克曼等合作/同代研究，非一日完成。
+- **R22-SEP-PROOF**：*SEP*, “Proof Theory”, https://plato.stanford.edu/entries/proof-theory/ ：证明论、元数学与1931年后的方法发展。
+- **R22-SEP-INCOMP**：*SEP*, “Gödel’s Incompleteness Theorems”, https://plato.stanford.edu/entries/goedel-incompleteness/ ：有限推导可检查；理论一致性、句子完备性、可判定性区别。
+- **R22-SEP-GODEL**：*SEP*, “Kurt Gödel”, https://plato.stanford.edu/entries/goedel/ ：1930一阶逻辑完备性结果与1931算术不完备性不是相反结论。
+- **R22-MODERN**：现代概念：T⊢P表示有一份由规则验证的有限证明；一致性排除同时T⊢P及T⊢¬P；句子完备性对每个理论语言中的封闭句P有T⊢P或T⊢¬P；可判定性是存在**总停机**算法判断给定P是否T⊢P。验证提供的某份证明≠判断“从来没有证明”；一阶逻辑语义完备“所有模型有效则一阶逻辑可证”≠某算术公理理论每句或否定可证。
+- **R22-RELATIVE**：外部更强元理论对T的一致性论证可能存在，不能把希尔伯特希望的有限主义保证与“绝对保证”混为一谈；1931结果限制传统雄心，但没有终结证明论。
+
+| claim_id | 核验主张 | 证据 | 界限 |
+|---|---|---|---|
+| H22-01 | 1899/1900与1921后希尔伯特计划分别定位 | R22-SEP-HILBERT | 年代 |
+| H22-02 | 形式化经典数学，以有限主义研究一致性 | R22-SEP-HILBERT;R22-SEP-PROOF | 史学 |
+| H22-03 | 对象层证明与元层检验证明相区别 | R22-SEP-PROOF;R22-MODERN | 数学解释 |
+| H22-04 | 有限证明可检查不意味着所有问题可判定 | R22-SEP-INCOMP;R22-MODERN | 数学 |
+| H22-05 | 可证明性T⊢P是相对于体系的关系 | R22-MODERN | 数学 |
+| H22-06 | 一致性要求不能推导P和¬P | R22-MODERN | 数学 |
+| H22-07 | 句子完备性指每句或其否定可证 | R22-SEP-INCOMP;R22-MODERN | 区别 |
+| H22-08 | 可判定性指总停机并正确的算法 | R22-MODERN | 区别 |
+| H22-09 | 一阶逻辑语义完备≠算术理论句子完备 | R22-SEP-GODEL;R22-SEP-INCOMP | 关键 |
+| H22-10 | 1920年代包含真实/理想命题与保守性目标 | R22-SEP-HILBERT | 原始思想 |
+| H22-11 | 1899几何公理化非1920年代计划完成 | R22-SEP-HILBERT | 时序 |
+| H22-12 | T外部证明Con(T)可能但依赖外部工具 | R22-SEP-HILBERT;R22-RELATIVE | 元数学 |
+| H22-13 | 哥德尔1931带来限制但未终结证明论 | R22-SEP-PROOF;R22-RELATIVE | 后世 |
+| H22-14 | 下章转到哥德尔，不提前归功1936判定成果 | outline.md;R22-SEP-INCOMP | 编排 |
+
+### 第23章｜哥德尔：不完备性定理的精确边界
+
+**来源索引**
+
+- **R23-SEP-INCOMP**：*SEP*, “Gödel’s Incompleteness Theorems”（2025-10-08修订）, https://plato.stanford.edu/entries/goedel-incompleteness/ ：一致、可有效公理化、可表示足够算术的形式理论不完备；第二定理针对标准形式化Con(T)，需适当证明谓词与足够强度。
+- **R23-SEP-GODEL**：*SEP*, “Kurt Gödel”, https://plato.stanford.edu/entries/goedel/ ：1930会议宣布结果、1931《Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I》，**1930的一阶逻辑完备性**结果另有含义。
+- **R23-SEP-HILBERT**：Richard Zach, “Hilbert’s Program”, https://plato.stanford.edu/entries/hilbert-program/ ：第二不完备如何限制希尔伯特的一致性证明目标及关于有限主义能否完全形式化的后续研究。
+- **R23-SEP-ROSSER**：R23-SEP-INCOMP §2.3：**1936年J. Barkley Rosser**将原1931某些证明所需的ω-一致性改进为普通一致性；不能把罗瑟句子的结论倒写成1931哥德尔原式只需普通一致性。
+- **R23-ORIGINAL**：Kurt Gödel（1931）, “Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I”, *Monatshefte für Mathematik und Physik* 38:173–198；出版信息以R23-SEP-INCOMP及R23-SEP-GODEL交叉核对。
+- **R23-MODERN-ENCODING**：现代示例将有限符号序列(a1,…,ak)映射到2^(a1+1)3^(a2+1)…p_k^(a_k+1)，指数正且素因数分解唯一，从编码反推出序列长度和值。只是教学版本，非1931完整原始编码。
+- **R23-MODERN-FIX**：现代对角引理在适当理论中构造G满足T⊢G↔¬Prov_T(⌜G⌝)。若T一致且算术化证明谓词正常，则T⊬G；对原形式G要排除T⊢¬G需ω-一致/较强条件，现代仅需一致性的独立句由Rosser改进。
+- **R23-MODERN-TRUTH**：如果明确采用标准自然数解释并在外部元数学里确认无对应证明，可说特定G在这种解释下真，但不等于T内部证明；不承诺“所有真理都无法证明”。不是真值说谎者悖论。
+- **R23-MODERN-CON**：Con(T)写作¬Prov_T(⌜0=1⌝)；在一致、有效公理化、足够强且满足适当标准可证明性条件的T中，T⊬Con(T)。**更强元理论的外部一致性证明并未被排除**。
+- **R23-BOUND**：不完备性不适用于所有形式系统：较弱可判定完备理论如Presburger算术不符合“足够表达乘法等算术”的要求。Church/Turing 1936的可计算性研究放第24章，不归功哥德尔1931。
+
+| claim_id | 核验主张 | 证据 | 界限 |
+|---|---|---|---|
+| H23-01 | 1930会议、1931发表论文 | R23-SEP-GODEL;R23-ORIGINAL | 史学 |
+| H23-02 | 一阶逻辑完备与算术不完备不矛盾 | R23-SEP-GODEL;R23-SEP-INCOMP | 数学 |
+| H23-03 | 需要一致、有效可公理化、足够算术表达力 | R23-SEP-INCOMP | 前提 |
+| H23-04 | 素数幂编码可将有限符号与证明数化 | R23-MODERN-ENCODING;R23-SEP-INCOMP | 现代解释 |
+| H23-05 | Prov_T为体系内可表达的证明谓词 | R23-SEP-INCOMP;R23-MODERN-FIX | 现代数学 |
+| H23-06 | 对角引理给出G↔¬Prov_T(⌜G⌝) | R23-SEP-INCOMP;R23-MODERN-FIX | 数学 |
+| H23-07 | T一致时该G在T内部不可证明 | R23-MODERN-FIX;R23-SEP-INCOMP | 形式条件 |
+| H23-08 | 1931原推导不证¬G需较强ω-一致等条件 | R23-SEP-ROSSER;R23-SEP-INCOMP | 时代 |
+| H23-09 | 1936罗瑟改进只需一般一致性 | R23-SEP-ROSSER | 年代 |
+| H23-10 | “真但不可证”需指定外部标准自然数解释 | R23-MODERN-TRUTH;R23-SEP-INCOMP | 真值 |
+| H23-11 | 第二定理T不证明其标准Con(T) | R23-MODERN-CON;R23-SEP-HILBERT | 前提 |
+| H23-12 | 外部更强元理论的一致性证明并非被排除 | R23-MODERN-CON;R23-SEP-INCOMP | 限定 |
+| H23-13 | 结论不是数学崩溃或所有命题不可证明 | R23-SEP-INCOMP | 反误读 |
+| H23-14 | 不完备性与CH独立论证需区分 | R23-SEP-GODEL;R23-SEP-INCOMP | 跨章 |
+| H23-15 | 较弱理论不一定适用，如Presburger算术 | R23-BOUND | 适用 |
+| H23-16 | 下一章Church/Turing是可判定性新问题 | outline.md;R23-BOUND | 编排 |
+
+**核算与红线**：素数幂编码用第i个素数的正指数(a_i+1)以免丢失尾部零，唯一分解可逆；Gödel句是关于“证明存在”的数学句，不是自然语言“本句为假”；1931原版ω-一致性与1936罗瑟一般一致性的区别必须明说；1930逻辑语义完备与1931公理理论不完备是不同“完备”；一致性定理只限满足条件的有效公理化算术理论，不论证“任何人类知识都不可靠”。
+
+**本批许可交付**：第21—23章完整初稿、claim映射、目录与写作版本递增；独立双审、线编辑、终稿及发布仍未完成。
