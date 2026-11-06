@@ -698,3 +698,12 @@ G04-01至G04-18拥有可追溯资料或明确的编辑性/现代解释标记，�
 
 ### 允许交付
 第15章G15-01—22及尾声G16-01—22完成前置来源矩阵；允许按章撰写初稿与claim JSON。独立双审、精修、final与发布文件不得自动转为已批准状态。
+
+
+### 第05章史实增量补核｜1783年两类载人气球“首飞”的优先权（revision 1，2026-11-06）
+
+| ID | 书目与链接 | 核对结论与限制 |
+|---|---|---|
+| S87 | Smithsonian Institution, National Air and Space Museum, “The Ascent of the Great Montgolfier Balloon,” https://www.si.edu/object/nasm_A19680126000 （史密森学会航空航天馆官方馆藏历史介绍） | 1783年11月21日Pilâtre de Rozier与Marquis d’Arlandes首次载人自由飞行，使用蒙哥尔费热气球；12月1日Charles与Robert完成首次载人氢气球自由飞行。两种‘第一’的类别不同。支持第05章修订中的明确区分；**不能从升空活动推论查理1787年膨胀实验已经发生**。 |
+
+> 增量核证触发自首轮continuity审计C-01：原标题‘首先让巴黎看见空气力量’不宜暗示查理率先完成一切载人自由飞行。S87与既有S33互相补充，原有1802论文的证据边界不变。
