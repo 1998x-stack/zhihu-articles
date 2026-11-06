@@ -2,14 +2,14 @@
   "schema_version": "2.0",
   "lane": "nonfiction",
   "current_revision": 0,
-  "outline_approved": false,
-  "evidence_verified": false,
+  "outline_approved": true,
+  "evidence_verified": true,
   "review_status": "PENDING",
   "reviewed_revision": null,
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "仅检索概览资料；38份章卡的史实主张均未逐条核证",
-  "approval_scope": "完成用户要求的策划占位；未签发编辑或科学史事实批准",
-  "note": "暂无完成正文、独立审稿、精修或终稿"
+  "evidence_scope": "仅序章00（GT00-01—GT00-13），以欧拉英译节录§§1–9、Euler Archive E53出版信息及AMS历史论文完成限定核证；01—37章仍待核",
+  "approval_scope": "为序章00批准现有篇章结构进入初稿；不表示全书史实已批准。后续章节在独立核证前不得据此进入正式写作。",
+  "note": "序章00事实核验与结构放行已落实；初稿和本章claims文件待提交。其余37章为编辑占位。尚未进行独立审稿或出版。"
 }
