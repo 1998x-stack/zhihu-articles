@@ -127,3 +127,37 @@
 | 04 | 希腊和中国方法相似 | H27、H33、H34 | 不推断未证实的传播关系 |
 
 **本轮可核验结论**：主要史实、古籍定位、数学模型可支持三章工作初稿；尚未对全系列完成史料审核，也没有运行仓库自动工作流 Gate，不能设置全局 `evidence_verified=true` 或 `outline_approved=true`。正式双审及批准仍为 PENDING。
+
+## 第05—07章｜喀拉拉学派、伽利略与开普勒，增量史料核验（2026-11-06）
+
+本批次是围绕既定 outline 的事实核查，不修改章节顺序。**07章1615年在06章1638年之后是专题回溯，不代表真实发表顺序。** 各章历史断言均应以专业研究或古籍译文支持；现代公式须注明“回译”且不把日后发明的现代术语塞回古代著作。
+
+### 05 马达瓦与喀拉拉学派
+
+- **H38** K. Ramasubramanian，[*The history and historiography of the discovery of calculus in India*](https://ems.press/content/book-chapter-files/33358)，*Proceedings of ICM 2022* vol.7 pp.5784–5812，DOI **10.4171/ICM2022/77**。§3.4（印刷p.5800）给出源于后来传本的马达瓦π/4交错级数；§3.5（pp.5802–5803）讨论末项修正 `antya-saṃskāra`；§3开头（pp.5794–5795）区分现存天文著作、失传数学原文和由继承者保存的研究成果。
+- **H39** Ranjan Roy，[*Series and Products in the Development of Mathematics*, Vol.1 (2nd ed.)](https://assets.cambridge.org/97811087/09453/excerpt/9781108709453_excerpt.pdf)，Cambridge UP试读 ch.1 *Power Series in Fifteenth-Century Kerala*，pp.1–4：马达瓦约1340–1425；正弦、余弦和反正切级数经后世文献归属；与牛顿等的**直接知识传播并无可靠联系**；`Yuktibhāṣā` 等文本保存论证；交错级数太慢、末项修正帮助计算。时间、数学公式及归属不可偷换。
+- **H40** MacTutor，[*Jyesthadeva*](https://mathshistory.st-andrews.ac.uk/Biographies/Jyesthadeva/)，讨论杰什塔德瓦《Yuktibhāṣā》及其对马达瓦成果的后续论证；成书时间不同来源约1530或1550，正文表述“16世纪”。
+- **H41** Kim Plofker，[*The Mathematics of India*／Kerala series discussion](https://www.ms.uky.edu/~sohum/ma330/files/chennai_talks/Emch_Sridharan_Srinivas%20-%20Contributions%20ot%20the%20History%20of%20Indian%20Mathematics%20%282005%29.pdf)，有关某些 `yukti`（证明/理由）保存于更晚的著作以及手稿传承不确定性。**作为补充史学证据，不能由此推断已知马达瓦本人所用每一个证明步骤。**
+- **05数学核算**：`π/4 = Σ(-1)^k/(2k+1)` 交错余项绝对值小于首个遗漏项；对π的误差小于 `4/(2N+1)`（截取N项）；更快的 `π=2√3·Σ(-1)^k/((2k+1)3^k)` 可作为**现代等价表达**，不是当时记号。马达瓦曾研究末项修正，不能把交错级数的简单尾项估计直接说成其原始修正公式。
+
+### 06 伽利略
+
+- **H42** 伽利略，[*Dialogues Concerning Two New Sciences*](https://en.wikisource.org/wiki/Dialogues_Concerning_Two_New_Sciences/Third_Day)，1638年出版的《两门新科学》第三日，Crew & de Salvio英文译。段落“Uniform Motion”“Naturally Accelerated Motion”及斜面试验：等时间获得相等速度增量、路程与时间平方成比例、奇数增量法则，描述槽道滚动和水流计时。**对话体**不等于真实现场对话记录。
+- **H43** University of Virginia教学转录，[Galileo's Acceleration Experiment](https://galileo.phys.virginia.edu/classes/109N/lectures/gal_accn96.htm)，复述原著斜面、水计时与1/4距离对应1/2时间关系。
+- **H44** ETH Zürich Library，[The Dialogue and kinematics](https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/galileo-galilei/galileos-works/the-dialogue-and-kinematics.html)，引用伽利略 *Opere* VIII pp.215–216、243；几何速度三角形与同高度斜面下滑关系，证明传统脉络。
+- **06数学核算**：理想初速度0、常加速度 `a`：`v=at`、`s=at²/2`、`v_avg=(0+at)/2`。时间片段位移增量之比1:3:5:7。现实滚珠有转动惯量、摩擦等，不能把槽道滚球的加速度直接当作理想质点沿坡 `g sinθ`；书中实验记录为历史文本**自述**，不等于现代实测原始记录皆已证实。
+
+### 07 开普勒
+
+- **H45** Wellcome Collection所藏1615年原始版本目录：[Kepler, *Nova stereometria doliorum vinariorum*](https://wellcomecollection.org/works/fxgzpvhb)，Linz：Johannes Plancus，1615。**一手出版物目录**，核对书名、作者及出版日期。
+- **H46** Roberto Cardil，MAA Convergence，[Kepler: The Volume of a Wine Barrel](https://old.maa.org/press/periodicals/convergence/kepler-the-volume-of-a-wine-barrel)，2012年；另见[1613年历史背景](https://old.maa.org/node/117624)、[1615年著作介绍](https://old.maa.org/node/117625)、[极值比较](https://old.maa.org/press/periodicals/convergence/kepler-the-volume-of-a-wine-barrel-solving-the-problem-of-maxima-wine-barrel-design)。**支持**：1613年家庭事件引出酒桶容积质疑，1615年论著、切片法思想和容积极值问题。**边界**：后世几何重建不等于开普勒已经使用积分符号。
+- **H47** Frank J. Swetz、Victor J. Katz，MAA Convergence，[Mathematical Treasures—Kepler's *Messekunst*](https://old.maa.org/node/116930)，2008/2011，讨论1616年德文版本和关于92种旋转立体的研究。
+- **H48** F. Jongmans，[*In Vino Veritas, In Dolio Calamitas*](https://www.maths.usyd.edu.au/u/eseneta/vinoveritas.pdf)，*The Mathematical Scientist* 33 (2008) 1–7，梳理数类历史桶形几何模型与1615年开普勒的圆锥曲线近似。**数学建模限制**：酒桶曲面不能被任意简单圆柱准确代替；模型有近似误差。
+- **07数学核算**：对任意旋转体，在理想截面半径函数 `r(x)` 连续条件下，`V=π∫r(x)²dx` 是**现代语言**；以单位球 `r(x)=√(1−x²), -1≤x≤1` 演示 `4π/3`，不可写成开普勒原稿的具体算式。历史酒桶事件仅交代来源背景，不提供实际酒类测量/使用指南。
+
+### 本批次 QA 边界
+
+- 05：天文学动机、传世年代、级数归属、修正术语可写；不得认定马达瓦现存完整数学手稿，或宣称从喀拉拉到欧洲有已证传播链。
+- 06：1638出版不等于当年首次做斜面研究；速度三角形与平均速度定理不等于现存现代导数定义。
+- 07：1615作品早于1638伽利略专著；篇章排序是主题组织。桶的切片是历史观点，现代体积分及球体验算应清楚分层。
+- 章05—07仅属 **DRAFT_UNREVIEWED** 候选研究；项目仍 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING`，不能据单章核查宣称全书闸门 PASS。
