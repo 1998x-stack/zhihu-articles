@@ -1,0 +1,71 @@
+{
+  "chapter": "12",
+  "title": "格拉斯曼1844：空间为什么不必三维",
+  "status": "DRAFT_NOT_REVIEWED",
+  "revision_count": 0,
+  "sources": {
+    "H12-S1": "https://mathshistory.st-andrews.ac.uk/HistTopics/Abstract_linear_spaces/",
+    "H12-S2": "https://mathshistory.st-andrews.ac.uk/Extras/Grassmann_1844/",
+    "H12-S3": "https://www.tandfonline.com/doi/abs/10.1080/00033790.2013.877339",
+    "H12-S4": "https://www.cambridge.org/core/books/die-lineale-ausdehnungslehre-ein-neuer-zweig-der-mathematik/erster-abschnitt-die-ausdehnungsgrosse/07BBC0E77301FBAF0FAE37CF6A746581",
+    "M12": "本章第5—7节现代可复核数学推导"
+  },
+  "claims": [
+    {
+      "claim_id": "C12-01",
+      "source_ids": [
+        "H12-S1",
+        "H12-S2",
+        "H12-S3"
+      ],
+      "kind": "historical",
+      "verified": true
+    },
+    {
+      "claim_id": "C12-02",
+      "source_ids": [
+        "H12-S2"
+      ],
+      "kind": "primary_foreword_paraphrase",
+      "verified": true
+    },
+    {
+      "claim_id": "C12-03",
+      "source_ids": [
+        "M12"
+      ],
+      "kind": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C12-04",
+      "source_ids": [
+        "H12-S1"
+      ],
+      "kind": "historical_reception",
+      "verified": true
+    },
+    {
+      "claim_id": "C12-05",
+      "source_ids": [
+        "H12-S1"
+      ],
+      "kind": "historical_theory_boundary",
+      "verified": true
+    },
+    {
+      "claim_id": "C12-06",
+      "source_ids": [
+        "H12-S1",
+        "M12"
+      ],
+      "kind": "modern_comparison",
+      "verified": true
+    }
+  ],
+  "historical_limits": [
+    "不可把1844年扩张论等同现代向量空间公理",
+    "现代外积记法及R^4系作者教学重构",
+    "不将早期接收问题绝对化为无人理解"
+  ]
+}
