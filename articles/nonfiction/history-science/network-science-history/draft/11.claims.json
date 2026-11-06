@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "11",
+  "claims": [
+    {
+      "claim_id": "NS-11-01",
+      "type": "historical_fact",
+      "statement": "Watts and Strogatz published Collective dynamics of small-world networks in Nature 393:440-442 on 4 June 1998",
+      "source_ids": [
+        "S56"
+      ],
+      "locator": "1998 Nature p440 title, citation and publisher date",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-11-02",
+      "type": "historical_model",
+      "statement": "WS model starts with ring lattice n vertices k even local neighbors and rewires candidate edges independently with probability p, preserving number of edges",
+      "source_ids": [
+        "S56"
+      ],
+      "locator": "Nature p440 and Figure 1 caption p441",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-11-03",
+      "type": "model_boundary",
+      "statement": "WS at p=0 is regular and p=1 is disordered rewired ring, not literally independent Bernoulli Gilbert G(n,p)",
+      "source_ids": [
+        "S56",
+        "S39"
+      ],
+      "locator": "Nature pp440-441; contrasting model definitions",
+      "verification_status": "primary_sources_compared"
+    },
+    {
+      "claim_id": "NS-11-04",
+      "type": "historical_definitions",
+      "statement": "Model measures average characteristic path L(p) and clustering C(p)",
+      "source_ids": [
+        "S56"
+      ],
+      "locator": "Nature pp440-441 Fig2 legend",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-11-05",
+      "type": "historical_result",
+      "statement": "Small p can dramatically reduce L while keeping C relatively high compared with random graphs",
+      "source_ids": [
+        "S56"
+      ],
+      "locator": "Nature pp440-441 and Figure 2",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-11-06",
+      "type": "historical_data",
+      "statement": "1998 Nature Table1 film actors L=3.65 vs random 2.99, C=.79 vs .00027",
+      "source_ids": [
+        "S56"
+      ],
+      "locator": "p441 Table 1",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-11-07",
+      "type": "historical_data",
+      "statement": "1998 Nature Table1 western power grid L=18.7 vs 12.4, C=.080 vs .005",
+      "source_ids": [
+        "S56"
+      ],
+      "locator": "p441 Table 1",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-11-08",
+      "type": "historical_data",
+      "statement": "1998 Nature Table1 C elegans L=2.65 vs 2.25, C=.28 vs .05",
+      "source_ids": [
+        "S56"
+      ],
+      "locator": "p441 Table 1",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-11-09",
+      "type": "methodological_boundary",
+      "statement": "Three empirical graphs treated as undirected unweighted with equal vertices by original authors, explicitly identified as crude approximations",
+      "source_ids": [
+        "S56"
+      ],
+      "locator": "Nature p441 Table 1 caption",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-11-10",
+      "type": "historical_context",
+      "statement": "Authors discuss simulated simplified contagion dynamics and other dynamic consequences under model-specific rules",
+      "source_ids": [
+        "S56"
+      ],
+      "locator": "Nature p441-442 dynamic sections",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-11-11",
+      "type": "model_boundary",
+      "statement": "Small characteristic path length does not guarantee decentralized navigation succeeds or that every random pair is six edges apart",
+      "source_ids": [
+        "S56",
+        "S44",
+        "S45",
+        "S09"
+      ],
+      "locator": "shortest-path existence versus local routing conceptual comparison",
+      "verification_status": "supported_inference"
+    },
+    {
+      "claim_id": "NS-11-12",
+      "type": "illustration",
+      "statement": "A long-range shortcut can potentially improve paths for up to 20x20 cross-group endpoint pairs in author-devised example",
+      "source_ids": [],
+      "locator": "modern teaching upper-bound not actual measurements",
+      "verification_status": "mathematically_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Original-paper-specific claims checked with web-accessed facsimiles and metadata; complete publication line edit still pending.",
+    "Full-series outline_approved/evidence_verified remain false; not an approved final.",
+    "Independent continuity audit and developmental review required before publication."
+  ]
+}

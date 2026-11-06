@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "12",
+  "claims": [
+    {
+      "claim_id": "NS-12-01",
+      "type": "historical_fact",
+      "statement": "Barabási and Réka Albert published Emergence of Scaling in Random Networks in Science 286:509-512 15 October 1999",
+      "source_ids": [
+        "S57"
+      ],
+      "locator": "Science original pp509-512 and DOI",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-12-02",
+      "type": "historical_context",
+      "statement": "1999 authors reported approximate power-law tails for movie actors, WWW in-degree, power grid and citations, with empirical estimates actor2.3 WWW2.1 powergrid4",
+      "source_ids": [
+        "S57"
+      ],
+      "locator": "p510 Figure1 and narrative; historical estimates only",
+      "verification_status": "primary_source_checked_with_scope"
+    },
+    {
+      "claim_id": "NS-12-03",
+      "type": "historical_model",
+      "statement": "Basic BA growth adds each new node with m edges targeting m distinct existing nodes with linear attachment proportional to existing degree",
+      "source_ids": [
+        "S57"
+      ],
+      "locator": "Science p511 first column",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-12-04",
+      "type": "mathematical_model",
+      "statement": "Linear attachment probability Pi_i=k_i/sum_j k_j",
+      "source_ids": [
+        "S57"
+      ],
+      "locator": "Science p511 equation in first column",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-12-05",
+      "type": "mathematical_derivation",
+      "statement": "In continuum mean-field long-time approximation dk_i/dt~k_i/(2t), k_i(t)~m sqrt(t/t_i), yielding degree tail exponent gamma=3",
+      "source_ids": [
+        "S57"
+      ],
+      "locator": "Science p511 middle-right columns",
+      "verification_status": "primary_source_checked_with_approximation"
+    },
+    {
+      "claim_id": "NS-12-06",
+      "type": "historical_experiment",
+      "statement": "1999 study compares control model A growth without preference and control model B preference without growth; neither produces same stationary power-law behavior",
+      "source_ids": [
+        "S57"
+      ],
+      "locator": "p511 variants A B and Figure2",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-12-07",
+      "type": "historical_caveat",
+      "statement": "1999 paper explicitly says model cannot fully explain all network features and mentions nonlinear attachment and addition or removal of old edges",
+      "source_ids": [
+        "S57"
+      ],
+      "locator": "p511 right column",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-12-08",
+      "type": "historical_priority",
+      "statement": "Herbert Simon analyzed skew-distribution mechanisms in Biometrika 42:425-440 in 1955",
+      "source_ids": [
+        "S58"
+      ],
+      "locator": "Publisher original metadata and abstract",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-12-09",
+      "type": "historical_priority",
+      "statement": "Derek de Solla Price studied cumulative advantage in bibliometric networks JASIS 27:292-306 in 1976",
+      "source_ids": [
+        "S59"
+      ],
+      "locator": "Publisher metadata and original article first page",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-12-10",
+      "type": "mathematical_example",
+      "statement": "Two-node seed A-B, C attaches to A then D chooses A with 2/4 and B,C with 1/4 each; subsequent attachment calculations clarify relative vs absolute advantage",
+      "source_ids": [],
+      "locator": "author-devised m=1 PA sample path",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-12-11",
+      "type": "modern_theorem",
+      "statement": "For standard m=1 linear preferential attachment limiting discrete degree distribution 4/(k(k+1)(k+2)) has asymptotic k^-3 tail",
+      "source_ids": [
+        "S57",
+        "S55"
+      ],
+      "locator": "modern master-equation check; not claimed as exact formula printed 1999",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-12-12",
+      "type": "methodological_boundary",
+      "statement": "Observing a power-law-like degree distribution does not uniquely identify its generation mechanism",
+      "source_ids": [
+        "S57",
+        "S60"
+      ],
+      "locator": "original model caveat plus subsequent statistical test",
+      "verification_status": "qualified_synthesis"
+    }
+  ],
+  "outstanding_checks": [
+    "Original-paper-specific claims checked with web-accessed facsimiles and metadata; complete publication line edit still pending.",
+    "Full-series outline_approved/evidence_verified remain false; not an approved final.",
+    "Independent continuity audit and developmental review required before publication."
+  ]
+}
