@@ -903,7 +903,7 @@
 - **R24-SEP-THESIS**：*Stanford Encyclopedia of Philosophy*, “The Church-Turing Thesis”, https://plato.stanford.edu/entries/church-turing/ 。论题连接非形式直觉的“有效方法”和形式机器计算；历史版本与后来的强化版本不可混写。
 - **R24-SEP-COMPUTABILITY**：*Stanford Encyclopedia of Philosophy*, “Computability and Complexity”, https://plato.stanford.edu/entries/computability/ 。通用机、停机性、可计算函数与算法边界的现代解释。
 - **R24-SEP-CHURCH**：*Stanford Encyclopedia of Philosophy*, “Alonzo Church”, https://plato.stanford.edu/entries/church/ 。丘奇与图灵独立工作、$\lambda$ 演算与递归性、波斯特同时期的贡献。
-- **R24-LOGCOM-HISTORY**：*Journal of Logic and Computation*, “Did Turing prove the undecidability of the halting problem?”, DOI https://doi.org/10.1093/logcom/exaf075 。专门提示将图灵1936年circle-free原始任务等同于现代HALT?并不准确。作者应避免声称论文中已逐字呈现现代停机问题的标准证法。
+- **R24-LOGCOM-HISTORY**：Joel David Hamkins and Theodor Nenu, *Journal of Logic and Computation*, 36(1) (January 2026), “Did Turing prove the undecidability of the halting problem?”, DOI https://doi.org/10.1093/logcom/exaf075 。专门提示将图灵1936年circle-free原始任务等同于现代HALT?并不准确。作者应避免声称论文中已逐字呈现现代停机问题的标准证法。
 - **R24-MODERN-MATH**：本章自拟教学演示与严格推理。有限真值表可处理命题逻辑；一元编码111→1111；$H(P,x)$停机性总判定器假设与$D(D)$反证；一阶有效性可由标准演绎系统枚举证明但不存在全部输入停机的判定算法。现代例子不冒充图灵原论文细节。
 
 ### 主要主张逐项核对
