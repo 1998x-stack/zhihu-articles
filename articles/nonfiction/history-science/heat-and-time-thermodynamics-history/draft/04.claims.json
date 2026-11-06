@@ -1,7 +1,221 @@
 {
   "chapter": "04",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅第04章列明史实与现代理论边界；正文仍须按对应主张写作，未经独立审稿",
+  "claims": [
+    {
+      "claim_id": "T04-01",
+      "claim": "卡诺1824年出版关于火的动力及机器的法文专著",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R48",
+        "R49"
+      ],
+      "locator": "Carnot 1824扉页",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-02",
+      "claim": "卡诺的研究动机是具体热机缺少可泛化的理论，非现代第二定律已先存在",
+      "type": "history_of_science",
+      "source_ids": [
+        "R48"
+      ],
+      "locator": "Carnot开篇",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-03",
+      "claim": "卡诺用冷热两个恒温体抽象热机运行环境",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R48"
+      ],
+      "locator": "Carnot原文两个温度体A/B",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-04",
+      "claim": "卡诺提出热机动力与冷热物体之间的热转移有关",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R48"
+      ],
+      "locator": "Carnot发电机分析",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-05",
+      "claim": "热质从高温向低温的瀑布落差类比是1824年历史解释",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R48"
+      ],
+      "locator": "Carnot chute d'eau相关原文",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-06",
+      "claim": "卡诺讨论机器工作物质不应决定理想最大动力的普适性",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R48"
+      ],
+      "locator": "Carnot原文普适命题",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-07",
+      "claim": "卡诺的可逆理想过程能够倒转，使正向得到的机械功被反向消耗",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R48",
+        "R49"
+      ],
+      "locator": "Carnot可逆过程段",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-08",
+      "claim": "若一种机器超越理想可逆上限，与可逆机逆向组合将出现矛盾，是其反证思路",
+      "type": "historical_reasoning",
+      "source_ids": [
+        "R48",
+        "R51"
+      ],
+      "locator": "Carnot原文与热学史解释",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-09",
+      "claim": "此时卡诺采用热质在循环中守恒的观念，与现代热功能量转化不一致",
+      "type": "historical_boundary",
+      "source_ids": [
+        "R48",
+        "R51"
+      ],
+      "locator": "Carnot原著和Saslow",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-10",
+      "claim": "可逆性是理想过程极限，不等于现实工程没有摩擦、温差等不可逆影响",
+      "type": "modern_explanation",
+      "source_ids": [
+        "R50",
+        "R48"
+      ],
+      "locator": "现代大学物理重述",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-11",
+      "claim": "典型可逆卡诺循环的四阶段可用两等温/两绝热过程现代语言描述",
+      "type": "modern_physics",
+      "source_ids": [
+        "R50",
+        "R48"
+      ],
+      "locator": "OpenStax Carnot cycle",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-12",
+      "claim": "现代Qh-Qc=W是能量守恒，不能直接照搬成1824卡诺的热质账",
+      "type": "history_vs_modern",
+      "source_ids": [
+        "R50",
+        "R48"
+      ],
+      "locator": "OpenStax与原著的区别",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-13",
+      "claim": "现代η=W/Qh及卡诺ηmax=1-Tc/Th使用开尔文，属于后世形式",
+      "type": "modern_physics",
+      "source_ids": [
+        "R50",
+        "R48"
+      ],
+      "locator": "OpenStax现代公式",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-14",
+      "claim": "400K与300K对应25%最大效率的数值只是在两恒温热源下的教学算例",
+      "type": "modern_physics",
+      "source_ids": [
+        "R50"
+      ],
+      "locator": "OpenStax公式演算",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-15",
+      "claim": "固定冷热端间可逆机器效率普适，不代表不同实际工质与不同机械装置实际效率相同",
+      "type": "modern_boundary",
+      "source_ids": [
+        "R48",
+        "R50"
+      ],
+      "locator": "卡诺原始结论的适用范围",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-16",
+      "claim": "卡诺在1824年不曾简单断言效应线性正比于摄氏温差；其原文提醒比例关系未知",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R48"
+      ],
+      "locator": "chute d'eau与差温比例讨论",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-17",
+      "claim": "原著以空气和水蒸气等工作物质进行定量比较，同时受当时测量数据条件限制",
+      "type": "historical_science",
+      "source_ids": [
+        "R48"
+      ],
+      "locator": "Carnot空气/蒸汽计算段",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T04-18",
+      "claim": "1824年卡诺成果与后来热功当量研究之间存在将热质守恒修正为能量守恒的历史张力",
+      "type": "narrative_transition",
+      "source_ids": [
+        "R48",
+        "R51"
+      ],
+      "locator": "原著与后世第一定律发展",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "已建立前置证据矩阵，仍非终稿核准",
+    "史学推断与现代公式已明确标注",
+    "原文引用仅做准确释义、不虚构对话与人物心理"
+  ]
 }
