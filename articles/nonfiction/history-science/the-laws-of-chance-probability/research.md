@@ -115,3 +115,31 @@
 - 06—08已用可查来源写成研究初稿，未进入独立 continuity-audit / developmental-editor 复审。
 - 全书其他章节仍未完成事实核验；不得设置全书 evidence_verified=true 或 review_status=PASS。
 - 重要来源若只查了书目、摘录或后出整理版，状态在 claims 中标明，不夸大为逐页初印本核对。
+
+
+## 第09—11章史料与数学增量核验｜2026-11-06
+
+本批分别讨论蒙莫尔错排、雅各布·伯努利大数定律和德莫弗的分析方法。下列仅说明本批章节有来源支持的具体主张，不等于全书事实核验或独立审稿通过。
+
+### 09 蒙莫尔
+- [P09-S1 初版法国联合目录](https://ccfr.bnf.fr/portailccfr/ark%3A/16871/00111278843) 与 [P09-S2 ETH 1708初版](https://www.e-rara.ch/zut/content/titleinfo/1623714) 确定出版年；[P09-S3 ETH 1713增订版](https://www.e-rara.ch/zut/content/titleinfo/2701373) 确定另一版本，不能把增订讨论倒灌至初版。
+- [P09-S4 Hald研究](https://doi.org/10.1002/0471725161.ch18) 对组合分析和通信提供史学依据；[P09-S5 MacTutor Treize](https://mathshistory.st-andrews.ac.uk/Extras/Montmort_Treize/) 区分十三问题提出、简化问题处理以及一般问题的未完成情况。
+- [P09-S6 Encyclopedia of Mathematics](https://encyclopediaofmath.org/wiki/Montmort_matching_problem) 对应后世错排数学。
+- 现代独立推导：D0=1,D1=0,Dn=(n-1)(D[n-1]+D[n-2]); D5=44，D13=2290792932。q_n=Σ(-1)^k/k! → 1/e，交错级数余项小于1/(n+1)!。模型需均匀随机排列；各位置固定点事件不独立。
+- 原文并非“信封”问题；现代符号/指标变量/统一容斥式非1708年原始记法。
+
+### 10 伯努利
+- [P10-S1 MAA史学资料](https://old.maa.org/press/periodicals/convergence/mathematical-treasures-jacob-bernoullis-ars-conjectandi) 与 [P10-S2 Edwards 2013](https://doi.org/10.1111/j.1740-9713.2013.00666.x) 确认1705去世、1713年由侄子尼古拉付印、第四部分大数定律和社会应用主题。
+- [P10-S3 Hacking Cambridge研究](https://www.cambridge.org/core/books/abs/emergence-of-probability/art-of-conjecturing-1692-published-1713/61B6958151D52354FBB5043742FFACC0) 将主要证明追溯约1692，但此为研究断代，不能冒称原稿写明精确日期。
+- [P10-S4 Bolthausen与Wüthrich研究](https://people.math.ethz.ch/~wueth/Positions/2013_Bernoulli.pdf) 提供原证明的进一步研究入口；[P10-S5 ETH历史展](https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html) 参考。
+- 现代数学：Bernoulli(p)独立同分布下Var(Sn/n)=p(1-p)/n，切比雪夫界p(1-p)/(nε²)；p=.6,n=1000,ε=.1上界.024；上界小于.01需n>2400。原著用组合分析，不是现代切比雪夫证明。
+- 大数定律不保证“观察数据越多就一定真实”；独立同分布条件及稳定采集至关重要。强大数定律的现代形式不可归于1713。
+
+### 11 德莫弗
+- [P11-S1 剑桥大学1738版信息](https://www.cambridge.org/9781108061803)，[P11-S2 Pulskamp文献目录](https://www.gtfp.cs.rhul.ac.uk/pulskamp/Moivre/index.html)，[P11-S3 Stigler目录](https://www.york.ac.uk/depts/maths/histstat/stiglercontents.htm) 支持1711/1712相关卷次、1718英文初版、1738第二版。
+- [P11-S4 学术概率史专章](https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780444508713500887) 与 [P11-S5 MAA书页介绍](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-abraham-de-moivres-doctrine-of-chances) 支持概率分析化、1738增订，以及书目版本。
+- 现代推导：P(X=k)=C(n,k)p^k(1-p)^(n-k)；相邻项比值=(n-k)/(k+1)·p/(1-p)；C(100,50)=100891344545564193334812497256，中心概率约.079589；对称边界0/4随机游走期望停时T_i=i(4-i)是教学例子。
+- 1733二项式近似研究与1738第二版应区别于1718初版；第13章专门核验其正态近似。不能编造蒙莫尔和德莫弗的对话或原始文献用语。
+
+### 未通过的审稿闸门
+这三章只是研究支持的初稿；原始出版版本仍待逐页影像核验，全书outline_approved与evidence_verified仍为false，review_status为PENDING。

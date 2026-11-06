@@ -59,9 +59,33 @@
 | 08 | C08-08 | Life table survival proportion l_(x+1)/l_x is a conditional probability under an idealized cohort framework | 现代数学推导 | INDEPENDENTLY_DERIVED |
 | 08 | C08-09 | Later statistics identifies Halley table as closer to a population table than modern prospective cohort | P08-S6 | SUPPORTED_BY_RESEARCH_DATA_AND_SCHOLARLY_REFERENCE |
 | 08 | C08-10 | Need a population denominator rather than raw death counts to infer age-specific rates | 现代数学推导 | INDEPENDENTLY_DERIVED |
-| 09 | C09-01 | 蒙莫尔：排列、错排与递推概率 | 待核对 | UNVERIFIED |
-| 10 | C10-01 | 雅各布·伯努利：伯努利型大数定律 | 待核对 | UNVERIFIED |
-| 11 | C11-01 | 德莫弗：二项分布、独立性与分析 | 待核对 | UNVERIFIED |
+| 09 | C09-01 | 1708初版与1713增订版分属不同馆藏文献 | P09-S1, P09-S2, P09-S3 | CATALOG_CONFIRMED |
+| 09 | C09-02 | 1708年提出十三相遇问题，1713年处理简化问题，仍有一般版本未解 | P09-S5 | UNIVERSITY_HISTORIOGRAPHY |
+| 09 | C09-03 | 蒙莫尔与尼古拉伯努利围绕问题通信 | P09-S4, P09-S5 | HISTORY_SUPPORTED |
+| 09 | C09-04 | 错排递推D_n=(n-1)(D_n-1+D_n-2)和D5=44 | 现代数学推导 | MODERN_MATH_DERIVED |
+| 09 | C09-05 | 13个对象错排数2290792932，总数13! | 现代数学推导 | MODERN_MATH_DERIVED |
+| 09 | C09-06 | 容斥级数给出错排概率趋于1/e | P09-S6 | MATH_DERIVED_AND_CONTEXT |
+| 09 | C09-07 | 位置匹配事件不独立，不能直接乘(1-1/n)^n | 现代数学推导 | MODERN_MATH_DERIVED |
+| 09 | C09-08 | 均匀随机排列期望正确匹配数为1 | 现代数学推导 | MODERN_MATH_DERIVED |
+| 09 | C09-09 | 交错级数截断误差小于1/(n+1)! | 现代数学推导 | MODERN_MATH_DERIVED |
+| 10 | C10-01 | 雅各布伯努利1705去世，1713由侄子尼古拉出版猜度术 | P10-S1, P10-S2, P10-S3 | SCHOLARLY_CORROBORATED |
+| 10 | C10-02 | 约1692完成证明是Hacking的研究断代 | P10-S3 | HISTORIOGRAPHICAL_DATING |
+| 10 | C10-03 | 猜度术第四部分含大数定律及更广泛应用的讨论 | P10-S1, P10-S2 | HISTORY_SUPPORTED |
+| 10 | C10-04 | 独立同分布0-1试验弱大数定律的现代形式 | 现代数学推导 | MODERN_THEOREM |
+| 10 | C10-05 | 现代切比雪夫法使用方差p(1-p)/n而非伯努利原证明 | P10-S4 | PEDAGOGICAL_SCOPE |
+| 10 | C10-06 | p=.6、n=1000、误差=.1时概率上界=.024 | 现代数学推导 | MATH_DERIVED |
+| 10 | C10-07 | 若要求切比雪夫上界小于.01，则n>2400 | 现代数学推导 | MATH_DERIVED |
+| 10 | C10-08 | 总次数波动可增大，但频率波动随n增大而减小 | 现代数学推导 | MATH_DERIVED |
+| 10 | C10-09 | 强大数定律的现代术语不可归于1713年文本 | P10-S4 | HISTORICAL_CONCEPT_BOUNDARY |
+| 11 | C11-01 | 德莫弗1711相关拉丁论文与1718英文机会论初版 | P11-S2, P11-S3, P11-S5 | BIBLIOGRAPHY_CORROBORATED |
+| 11 | C11-02 | 1738第二版、1756身后第三版不应与1718初版混同 | P11-S1, P11-S2, P11-S4 | BIBLIOGRAPHY_CORROBORATED |
+| 11 | C11-03 | 德莫弗发展概率的分析、级数及持续时间问题研究 | P11-S2, P11-S4 | HISTORY_SUPPORTED |
+| 11 | C11-04 | 蒙莫尔与德莫弗存在有文献记载的优先权分歧 | P11-S2 | HISTORY_SUPPORTED |
+| 11 | C11-05 | 二项分布公式及相邻概率的比例关系 | 现代数学推导 | MODERN_MATH_DERIVED |
+| 11 | C11-06 | 100选50与中心概率约.079589 | 现代数学推导 | MODERN_MATH_CHECKED |
+| 11 | C11-07 | 吸收边界随机游走T_i=i(4-i)是现代示范 | 现代数学推导 | MODERN_MATH_EXAMPLE |
+| 11 | C11-08 | 1733近似工作随后出现于1738增订版而非1718初版 | P11-S1, P11-S3, P11-S4 | PUBLICATION_HISTORY |
+| 11 | C11-09 | 二项概率之和为1不能证明模型适合现实资料 | 现代数学推导 | MODERN_MATH_SCOPE |
 | 12 | C12-01 | 丹尼尔·伯努利及相关先驱：效用与期望悖论 | 待核对 | UNVERIFIED |
 | 13 | C13-01 | 德莫弗、拉普拉斯：正态近似、中心极限定理先驱 | 待核对 | UNVERIFIED |
 | 14 | C14-01 | 贝叶斯、普赖斯：条件概率、逆概率、先验后验现代解释 | 待核对 | UNVERIFIED |

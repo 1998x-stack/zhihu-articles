@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "the-laws-of-chance-probability",
-  "reading_notice": "第02—08章为来源支持的研究初稿，未通过仓库独立审稿或正式封版；其他章节仍为写作占位。",
+  "reading_notice": "第02—11章为来源支持的研究初稿，未经独立审稿或正式封版；序章、第01章及第12章以后仍为占位。",
   "chapters": [
     {
       "id": "prologue",
@@ -71,21 +71,21 @@
       "title": "蒙莫尔的组合世界：结果太多还能算吗",
       "part": "第3部｜大数中的秩序",
       "file": "draft/09.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-10",
       "title": "1713年《猜度术》：伯努利为何相信大数",
       "part": "第3部｜大数中的秩序",
       "file": "draft/10.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-11",
       "title": "德莫弗《机会论》：组合计数升级为分析工具",
       "part": "第3部｜大数中的秩序",
       "file": "draft/11.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-12",
