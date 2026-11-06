@@ -1,0 +1,76 @@
+{
+  "chapter": "03",
+  "title": "芝诺的箭：走完一米，要先走完无限段",
+  "lane": "nonfiction",
+  "revision": 2,
+  "status": "draft_claims_traced",
+  "source_scope": "古典文本的转述；SEP专业解释；现代自拟教学算例",
+  "claims": [
+    {
+      "claim_id": "H03-01",
+      "source_id": "SEP-ZENO-ELEA-2025",
+      "classification": "历史背景",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "H03-02",
+      "source_id": "SEP-PLATO-PARMENIDES-2026",
+      "classification": "古代文学文本",
+      "verification": "verified_as_dialogue_not_record"
+    },
+    {
+      "claim_id": "H03-03",
+      "source_id": "ARISTOTLE-PHYSICS-VI-9-239B11",
+      "classification": "古代转述",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H03-04",
+      "source_id": "ARISTOTLE-PHYSICS-VI-9-239B14-SIMPLICIUS",
+      "classification": "版本差异",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H03-05",
+      "source_id": "ARISTOTLE-PHYSICS-VI-9-239B5-30",
+      "classification": "古代转述",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H03-06",
+      "source_id": "ARISTOTLE-PHYSICS-VI-SEP-PARADOX-2024",
+      "classification": "历史解释",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "H03-07",
+      "source_id": "MODERN-GEOMETRIC-SERIES-SEP-2024",
+      "classification": "现代数学推导",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H03-08",
+      "source_id": "MODERN-CHASE-EXAMPLE-10-1",
+      "classification": "教学算例",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H03-09",
+      "source_id": "SEP-PARADOX-ARROW-3-3",
+      "classification": "现代数学解释",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "H03-10",
+      "source_id": "SEP-ZENO-ELEA-2025",
+      "classification": "学术争论",
+      "verification": "requires_qualified_language"
+    },
+    {
+      "claim_id": "H03-11",
+      "source_id": "BOOK-OUTLINE-EDITORIAL-FRAME",
+      "classification": "编辑性关系",
+      "verification": "qualified"
+    }
+  ]
+}
