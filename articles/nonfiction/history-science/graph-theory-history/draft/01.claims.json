@@ -1,12 +1,96 @@
 {
   "chapter": "01",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S02",
-    "S03"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "evidence_scope": "01章特定论断已作限定核证；不等于独立审稿",
+  "claims": [
+    {
+      "claim_id": "GT01-01",
+      "claim": "原作§3拒绝穷举，转而寻求一般规则",
+      "source_ids": [
+        "S21"
+      ],
+      "status": "VERIFIED_SCOPED",
+      "kind": "historical_or_editorial"
+    },
+    {
+      "claim_id": "GT01-02",
+      "claim": "区域字母法与现代图论术语的历史区分",
+      "source_ids": [
+        "S21",
+        "S22"
+      ],
+      "status": "VERIFIED_SCOPED",
+      "kind": "historical_or_editorial"
+    },
+    {
+      "claim_id": "GT01-03",
+      "claim": "握手引理与奇度顶点数量为偶数",
+      "source_ids": [
+        "S22"
+      ],
+      "status": "MODERN_EXPLANATION",
+      "kind": "modern_mathematics"
+    },
+    {
+      "claim_id": "GT01-04",
+      "claim": "现代欧拉迹判据及连通条件",
+      "source_ids": [
+        "S22",
+        "S30"
+      ],
+      "status": "MODERN_EXPLANATION",
+      "kind": "modern_mathematics"
+    },
+    {
+      "claim_id": "GT01-05",
+      "claim": "偶度图上拼合闭合不重边路线的构造证明",
+      "source_ids": [
+        "S22",
+        "S30"
+      ],
+      "status": "MODERN_EXPLANATION",
+      "kind": "modern_mathematics"
+    },
+    {
+      "claim_id": "GT01-06",
+      "claim": "添加辅助边证明两个奇度顶点的欧拉开迹",
+      "source_ids": [
+        "S22"
+      ],
+      "status": "MODERN_EXPLANATION",
+      "kind": "modern_mathematics"
+    },
+    {
+      "claim_id": "GT01-07",
+      "claim": "正方形尾边与不连通双三角形的自拟例子",
+      "source_ids": [
+        "S22"
+      ],
+      "status": "MODERN_EXPLANATION",
+      "kind": "modern_mathematics"
+    },
+    {
+      "claim_id": "GT01-08",
+      "claim": "1873希尔霍尔策构造方法历史归属",
+      "source_ids": [
+        "S20",
+        "S30"
+      ],
+      "status": "SECONDARY_SUPPORTED",
+      "kind": "historical_or_editorial"
+    },
+    {
+      "claim_id": "GT01-09",
+      "claim": "从七桥向多面体关系的编辑性过渡",
+      "source_ids": [
+        "S21",
+        "S23"
+      ],
+      "status": "EDITORIAL_INTERPRETATION",
+      "kind": "historical_or_editorial"
+    }
   ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "note": "非虚构初稿，未完成连续性/结构审稿或发布。"
 }
