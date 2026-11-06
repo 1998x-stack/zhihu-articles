@@ -1,0 +1,226 @@
+{
+  "chapter": "15",
+  "chapter_batch": "13-15",
+  "lane": "nonfiction",
+  "revision": 14,
+  "publication_ready": false,
+  "review_status": "CHANGES_REQUIRED",
+  "evidence_scope": "Institutional archival catalogues, original-object descriptions and scholarly material reviewed; manuscript transcription, legal statutes and full competing primary editions await publication-level audit",
+  "claims": [
+    {
+      "claim_id": "CH15-001",
+      "statement": "1711年南海公司作为贸易特许及英国债务转换组织成立",
+      "source_ids": [
+        "F-1501",
+        "F-1502"
+      ],
+      "classification": "institutional_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "初期及1720年度方案不得混同"
+    },
+    {
+      "claim_id": "CH15-002",
+      "statement": "1713年asiento赋予南海公司对殖民地奴隶贸易的特许权益",
+      "source_ids": [
+        "F-1503",
+        "F-1504"
+      ],
+      "classification": "institutional_colonial_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "并非虚构纯空壳贸易企业"
+    },
+    {
+      "claim_id": "CH15-003",
+      "statement": "南海公司的交易涉及真实被奴役者和殖民经济不公",
+      "source_ids": [
+        "F-1502",
+        "F-1503"
+      ],
+      "classification": "colonial_economic_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "讨论方式非图像化也不商品化受害者"
+    },
+    {
+      "claim_id": "CH15-004",
+      "statement": "1720南海方案用公司股权置换英国既有部分公共债务",
+      "source_ids": [
+        "F-1505",
+        "F-1501"
+      ],
+      "classification": "sovereign_debt_restructuring",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "换股不等于国家债务无条件消失"
+    },
+    {
+      "claim_id": "CH15-005",
+      "statement": "债务转换对政府与债权人、股东的经济后果不同",
+      "source_ids": [
+        "F-1505"
+      ],
+      "classification": "economic_distribution",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "联储工作论文未经正式出版编辑"
+    },
+    {
+      "claim_id": "CH15-006",
+      "statement": "南海股价1720年初百余英镑、夏季接近千镑、随后崩跌",
+      "source_ids": [
+        "F-1506",
+        "F-1502"
+      ],
+      "classification": "historical_price",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "交易日期及分期条件造成价格口径差异"
+    },
+    {
+      "claim_id": "CH15-007",
+      "statement": "二级市场出售股份给下一位买家不增加公司实际贸易利润",
+      "source_ids": [
+        "F-1506"
+      ],
+      "classification": "author_teaching_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "100到500为示意，非当时具体交易"
+    },
+    {
+      "claim_id": "CH15-008",
+      "statement": "Kleer认为董事故意制造泡沫谋私的标准说法证据不充分",
+      "source_ids": [
+        "F-1507",
+        "F-1508"
+      ],
+      "classification": "contested_historiography",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "学者提出竞争解释并不替所有管理者开脱"
+    },
+    {
+      "claim_id": "CH15-009",
+      "statement": "1720 Bubble Act在泡沫高峰通过且特殊利益与执法效果存在争论",
+      "source_ids": [
+        "F-1509"
+      ],
+      "classification": "legal_historiography",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不是崩盘完成后才通过的普遍禁令"
+    },
+    {
+      "claim_id": "CH15-010",
+      "statement": "劳1716开设银行，后来银行国有化与殖民公司特许重组",
+      "source_ids": [
+        "F-1510",
+        "F-1511"
+      ],
+      "classification": "French_institutional_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "1718/1719国有化命名需按原始令核对"
+    },
+    {
+      "claim_id": "CH15-011",
+      "statement": "法属印度公司权益与国家公债相互转换并纳入税务特许",
+      "source_ids": [
+        "F-1511"
+      ],
+      "classification": "public_debt_legal_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不同经营权获得阶段不可同日化"
+    },
+    {
+      "claim_id": "CH15-012",
+      "statement": "法国体系以公司股份和银行纸币两项金融工具互相支持",
+      "source_ids": [
+        "F-1511",
+        "F-1512"
+      ],
+      "classification": "financial_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "纸币负债与公司股权是两类不同承诺"
+    },
+    {
+      "claim_id": "CH15-013",
+      "statement": "巴黎为支撑股份价格而增发银行券导致货币风险扩散",
+      "source_ids": [
+        "F-1511"
+      ],
+      "classification": "peer_reviewed_economic_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不要断言单一人的意图可解释全部货币危机"
+    },
+    {
+      "claim_id": "CH15-014",
+      "statement": "法国1720货币及金属兑付危机与英国南海股价崩盘机制有别",
+      "source_ids": [
+        "F-1511",
+        "F-1505"
+      ],
+      "classification": "comparative_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不认为两国危机是同一制度同一时点"
+    },
+    {
+      "claim_id": "CH15-015",
+      "statement": "英国与法国金融崩盘后的公共债务重整方向不同",
+      "source_ids": [
+        "F-1505",
+        "F-1511"
+      ],
+      "classification": "comparative_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "两地政府债务总额与真实财政负担不可用股价同比"
+    },
+    {
+      "claim_id": "CH15-016",
+      "statement": "一张公司股票的报价不等于社会总货币或公共债务本金",
+      "source_ids": [
+        "F-1506",
+        "F-1505"
+      ],
+      "classification": "finance_explanation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "现代价格示意不是投资交易指导"
+    },
+    {
+      "claim_id": "CH15-017",
+      "statement": "英格兰银行与南海公司在1720年公债业务有交织竞争",
+      "source_ids": [
+        "F-1501",
+        "F-1505"
+      ],
+      "classification": "public_finance_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不能混同官方银行债务和公司持有证券"
+    },
+    {
+      "claim_id": "CH15-018",
+      "statement": "公司盈利与奴隶贸易收益及非自愿劳动存在历史关联",
+      "source_ids": [
+        "F-1503",
+        "F-1504"
+      ],
+      "classification": "historical_harm_and_risk",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不以金融故事将剥削正常化"
+    },
+    {
+      "claim_id": "CH15-019",
+      "statement": "危机中的国家与金融市场存在风险和成本的再分配",
+      "source_ids": [
+        "F-1505",
+        "F-1511"
+      ],
+      "classification": "economic_historical_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不宣称每位股东都蒙受同等损失"
+    },
+    {
+      "claim_id": "CH15-020",
+      "statement": "下一章殖民劳动必须以独立档案进入金融利润分析",
+      "source_ids": [
+        "F-1503",
+        "F-1504"
+      ],
+      "classification": "chapter_bridge",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "需要与第16章另找原始记录交叉"
+    }
+  ]
+}

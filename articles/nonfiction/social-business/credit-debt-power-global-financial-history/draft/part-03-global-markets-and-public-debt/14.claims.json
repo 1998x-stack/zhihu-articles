@@ -1,0 +1,179 @@
+{
+  "chapter": "14",
+  "chapter_batch": "13-15",
+  "lane": "nonfiction",
+  "revision": 14,
+  "publication_ready": false,
+  "review_status": "CHANGES_REQUIRED",
+  "evidence_scope": "Institutional archival catalogues, original-object descriptions and scholarly material reviewed; manuscript transcription, legal statutes and full competing primary editions await publication-level audit",
+  "claims": [
+    {
+      "claim_id": "CH14-001",
+      "statement": "1694年7月27日英格兰银行获得王室特许、8月开业",
+      "source_ids": [
+        "F-1401",
+        "F-1404"
+      ],
+      "classification": "official_archive_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "银行最初不是今日意义现代央行"
+    },
+    {
+      "claim_id": "CH14-002",
+      "statement": "1694年英国为与法国战争筹款、英格兰银行借政府120万英镑",
+      "source_ids": [
+        "F-1401",
+        "F-1402"
+      ],
+      "classification": "official_historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不要把银行股票等同国库发行债券"
+    },
+    {
+      "claim_id": "CH14-003",
+      "statement": "1672年王室停付部分金匠债务损害公共信用",
+      "source_ids": [
+        "F-1403"
+      ],
+      "classification": "historical_background",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "馆史通俗说法需金匠债权原始账册对证"
+    },
+    {
+      "claim_id": "CH14-004",
+      "statement": "1694年1268认缴人筹资并获银行股票权益",
+      "source_ids": [
+        "F-1403",
+        "F-1405"
+      ],
+      "classification": "official_historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "名单的阶层分布不应自行杜撰"
+    },
+    {
+      "claim_id": "CH14-005",
+      "statement": "银行创始认缴原件M1/1 AC27/382和股票账AC27/414",
+      "source_ids": [
+        "F-1404"
+      ],
+      "classification": "primary_archive_catalogue",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "文物目录不等于已逐字译读原账"
+    },
+    {
+      "claim_id": "CH14-006",
+      "statement": "威廉与玛丽合计订购1万英镑银行股票",
+      "source_ids": [
+        "F-1404"
+      ],
+      "classification": "official_archival_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "王室股东与政府借款是不同法律主体"
+    },
+    {
+      "claim_id": "CH14-007",
+      "statement": "首笔120万贷款利率8%且名义年度利息计算为96000英镑",
+      "source_ids": [
+        "F-1402",
+        "F-1406"
+      ],
+      "classification": "official_fact_and_arithmetic",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "税收拨款140000涵盖另类年金不可整体计作银行贷款利息"
+    },
+    {
+      "claim_id": "CH14-008",
+      "statement": "吨税与消费税支持初始国债收益安排而非专门存放现金",
+      "source_ids": [
+        "F-1406"
+      ],
+      "classification": "fiscal_legal_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "税收抵押不自动保证偿债"
+    },
+    {
+      "claim_id": "CH14-009",
+      "statement": "股东出资、银行持有公债、存款人与银行债权相互有别",
+      "source_ids": [
+        "F-1402",
+        "F-1404"
+      ],
+      "classification": "author_balance_sheet_model",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "100单位账簿非1694真实银行科目"
+    },
+    {
+      "claim_id": "CH14-010",
+      "statement": "1697年6月18日英格兰银行手写22英镑票据记载5及17两次提款",
+      "source_ids": [
+        "F-1407"
+      ],
+      "classification": "museum_object",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "文书及银行券功能不能概括所有当时代币种"
+    },
+    {
+      "claim_id": "CH14-011",
+      "statement": "最初纸票是银行偿付承诺，并非英格兰政府发行统一法定不兑换货币",
+      "source_ids": [
+        "F-1407",
+        "F-1401"
+      ],
+      "classification": "institutional_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "金本位与现代中央银行职能不可倒投"
+    },
+    {
+      "claim_id": "CH14-012",
+      "statement": "1844银行特许法改变票据发行、1946英格兰银行国有化",
+      "source_ids": [
+        "F-1401"
+      ],
+      "classification": "chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "三百年职能演进不等于1694拥有全部功能"
+    },
+    {
+      "claim_id": "CH14-013",
+      "statement": "议会税收及财政行政能力共同塑造政府借款信用",
+      "source_ids": [
+        "F-1408",
+        "F-1406"
+      ],
+      "classification": "historical_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "议会约束不等于不存在不还债风险"
+    },
+    {
+      "claim_id": "CH14-014",
+      "statement": "欧洲跨境资金和军事资源亦影响英国财政军事能力",
+      "source_ids": [
+        "F-1409"
+      ],
+      "classification": "competing_scholarly_thesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "2026论文具体范围和证据仍待全文核查"
+    },
+    {
+      "claim_id": "CH14-015",
+      "statement": "政府战时借款利益与未来纳税人的承担存在跨代分配问题",
+      "source_ids": [
+        "F-1408",
+        "F-1402"
+      ],
+      "classification": "analytic_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "融资成功不等于普惠民生福利"
+    },
+    {
+      "claim_id": "CH14-016",
+      "statement": "南海公司1711后成为英格兰银行公共债务业务的竞争者",
+      "source_ids": [
+        "F-1401"
+      ],
+      "classification": "institutional_historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "1720银行危机与南海风险不可说成同一公司"
+    }
+  ]
+}

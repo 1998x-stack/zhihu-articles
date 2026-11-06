@@ -1,0 +1,172 @@
+{
+  "chapter": "13",
+  "chapter_batch": "13-15",
+  "lane": "nonfiction",
+  "revision": 14,
+  "publication_ready": false,
+  "review_status": "CHANGES_REQUIRED",
+  "evidence_scope": "Institutional archival catalogues, original-object descriptions and scholarly material reviewed; manuscript transcription, legal statutes and full competing primary editions await publication-level audit",
+  "claims": [
+    {
+      "claim_id": "CH13-001",
+      "statement": "1606年9月9日彼得·哈门松为150盾缴款获收据",
+      "source_ids": [
+        "F-1301",
+        "F-1308"
+      ],
+      "classification": "archive_object",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "文件严格为缴款收据，不是现代统一股票证书"
+    },
+    {
+      "claim_id": "CH13-002",
+      "statement": "VOC认缴名簿而非统一实物股票证书界定份额和转让",
+      "source_ids": [
+        "F-1301",
+        "F-1307"
+      ],
+      "classification": "historical_financial_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "需原始过户簿图版复核"
+    },
+    {
+      "claim_id": "CH13-003",
+      "statement": "1602年3月20日VOC特许、六分部与国家亚洲贸易垄断",
+      "source_ids": [
+        "F-1302"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "原版章程荷兰语逐条复核仍待"
+    },
+    {
+      "claim_id": "CH13-004",
+      "statement": "阿姆斯特丹分部1143投资者及总约650万盾认缴资本",
+      "source_ids": [
+        "F-1302",
+        "F-1309"
+      ],
+      "classification": "quantitative_historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "认缴资本不是同一日到位现金"
+    },
+    {
+      "claim_id": "CH13-005",
+      "statement": "1602年特许21年与初始账户10年清算期待不是一回事",
+      "source_ids": [
+        "F-1302",
+        "F-1303"
+      ],
+      "classification": "periodization",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "原始条例与后续执行须区分"
+    },
+    {
+      "claim_id": "CH13-006",
+      "statement": "VOC股份可在账房登记转让而不必让公司退还经营资金",
+      "source_ids": [
+        "F-1307",
+        "F-1304"
+      ],
+      "classification": "financial_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "现代100/110数值为教学模型"
+    },
+    {
+      "claim_id": "CH13-007",
+      "statement": "VOC永久资本形成经历1612、1613、1623等不同制度阶段",
+      "source_ids": [
+        "F-1303",
+        "F-1305"
+      ],
+      "classification": "competing_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "学者对正式成型年份有不同定义"
+    },
+    {
+      "claim_id": "CH13-008",
+      "statement": "VOC管理层有限责任与股东权利并非1602一次完成",
+      "source_ids": [
+        "F-1303",
+        "F-1309"
+      ],
+      "classification": "scholarly_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "两来源同研究组不算独立互证"
+    },
+    {
+      "claim_id": "CH13-009",
+      "statement": "VOC分红可能以香料代替现钱，彼得投资并非始终高回报",
+      "source_ids": [
+        "F-1301"
+      ],
+      "classification": "archival_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "1607-1650收益记录涉及其去世后持有人"
+    },
+    {
+      "claim_id": "CH13-010",
+      "statement": "早期私人VOC股市流动性影响1609左右公债条件",
+      "source_ids": [
+        "F-1304"
+      ],
+      "classification": "peer_reviewed_thesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不是国家债券由公司股份直接派生"
+    },
+    {
+      "claim_id": "CH13-011",
+      "statement": "股权转卖价格变化并不等于公司经营利润或新增现金",
+      "source_ids": [
+        "F-1304",
+        "F-1307"
+      ],
+      "classification": "author_explanatory_model",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "100至130是现代示意"
+    },
+    {
+      "claim_id": "CH13-012",
+      "statement": "1621年班达群岛VOC武装垄断造成严重居民流离失所",
+      "source_ids": [
+        "F-1306"
+      ],
+      "classification": "colonial_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不以金融收益抵消当地损害"
+    },
+    {
+      "claim_id": "CH13-013",
+      "statement": "VOC不是历史上第一次共同出资或股份经营组织",
+      "source_ids": [
+        "F-1302",
+        "F-1303"
+      ],
+      "classification": "anti_first_historiography",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "应比较先存商业公司及英语特许公司"
+    },
+    {
+      "claim_id": "CH13-014",
+      "statement": "VOC股份与国家公债属于不同法律的索偿关系",
+      "source_ids": [
+        "F-1302",
+        "F-1304"
+      ],
+      "classification": "comparative_financial_explanation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "股价交易和税收债权不能混为一体"
+    },
+    {
+      "claim_id": "CH13-015",
+      "statement": "投资者长期持股对经营者与当地居民的损益分担并不对称",
+      "source_ids": [
+        "F-1301",
+        "F-1306"
+      ],
+      "classification": "analytic_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不可把外部政治暴力量化成仅按股票比例承担"
+    }
+  ]
+}
