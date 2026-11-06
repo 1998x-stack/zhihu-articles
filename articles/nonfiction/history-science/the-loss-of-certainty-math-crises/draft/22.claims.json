@@ -1,0 +1,98 @@
+{
+  "chapter": "22",
+  "title": "希尔伯特的计划：给所有证明做一次总保险",
+  "lane": "nonfiction",
+  "revision": 12,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Historical source assertions and exact mathematical preconditions are mapped in research.md",
+    "Modern derivations and notation are separated from primary historical work",
+    "Independent continuity/developmental reviews and final approval remain pending"
+  ],
+  "claims": [
+    {
+      "claim_id": "H22-01",
+      "statement": "1899/1900与1921后希尔伯特计划分别定位",
+      "source_id": "R22-SEP-HILBERT",
+      "verification_scope": "年代"
+    },
+    {
+      "claim_id": "H22-02",
+      "statement": "形式化经典数学，以有限主义研究一致性",
+      "source_id": "R22-SEP-HILBERT;R22-SEP-PROOF",
+      "verification_scope": "史学"
+    },
+    {
+      "claim_id": "H22-03",
+      "statement": "对象层证明与元层检验证明相区别",
+      "source_id": "R22-SEP-PROOF;R22-MODERN",
+      "verification_scope": "数学解释"
+    },
+    {
+      "claim_id": "H22-04",
+      "statement": "有限证明可检查不意味着所有问题可判定",
+      "source_id": "R22-SEP-INCOMP;R22-MODERN",
+      "verification_scope": "数学"
+    },
+    {
+      "claim_id": "H22-05",
+      "statement": "可证明性T⊢P是相对于体系的关系",
+      "source_id": "R22-MODERN",
+      "verification_scope": "数学"
+    },
+    {
+      "claim_id": "H22-06",
+      "statement": "一致性要求不能推导P和¬P",
+      "source_id": "R22-MODERN",
+      "verification_scope": "数学"
+    },
+    {
+      "claim_id": "H22-07",
+      "statement": "句子完备性指每句或其否定可证",
+      "source_id": "R22-SEP-INCOMP;R22-MODERN",
+      "verification_scope": "区别"
+    },
+    {
+      "claim_id": "H22-08",
+      "statement": "可判定性指总停机并正确的算法",
+      "source_id": "R22-MODERN",
+      "verification_scope": "区别"
+    },
+    {
+      "claim_id": "H22-09",
+      "statement": "一阶逻辑语义完备≠算术理论句子完备",
+      "source_id": "R22-SEP-GODEL;R22-SEP-INCOMP",
+      "verification_scope": "关键"
+    },
+    {
+      "claim_id": "H22-10",
+      "statement": "1920年代包含真实/理想命题与保守性目标",
+      "source_id": "R22-SEP-HILBERT",
+      "verification_scope": "原始思想"
+    },
+    {
+      "claim_id": "H22-11",
+      "statement": "1899几何公理化非1920年代计划完成",
+      "source_id": "R22-SEP-HILBERT",
+      "verification_scope": "时序"
+    },
+    {
+      "claim_id": "H22-12",
+      "statement": "T外部证明Con(T)可能但依赖外部工具",
+      "source_id": "R22-SEP-HILBERT;R22-RELATIVE",
+      "verification_scope": "元数学"
+    },
+    {
+      "claim_id": "H22-13",
+      "statement": "哥德尔1931带来限制但未终结证明论",
+      "source_id": "R22-SEP-PROOF;R22-RELATIVE",
+      "verification_scope": "后世"
+    },
+    {
+      "claim_id": "H22-14",
+      "statement": "下章转到哥德尔，不提前归功1936判定成果",
+      "source_id": "outline.md;R22-SEP-INCOMP",
+      "verification_scope": "编排"
+    }
+  ]
+}
