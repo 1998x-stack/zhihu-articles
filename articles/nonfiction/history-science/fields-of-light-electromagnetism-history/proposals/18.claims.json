@@ -1,0 +1,191 @@
+{
+  "chapter": "18",
+  "title": "赫兹的火花：空气里真的有看不见的波",
+  "kind": "independent_nonfiction_chapter_candidate",
+  "manuscript_path": "proposals/18.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_CHECK",
+  "claims": [
+    {
+      "claim_id": "E18-01",
+      "statement": "麦克斯韦动态场论先于赫兹实验，理论存在不等于实验验证",
+      "claim_kind": "史料先后",
+      "source_ids": [
+        "S18-07",
+        "S18-02"
+      ],
+      "manuscript_section": "二",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E18-02",
+      "statement": "赫兹1886-11-13报道非闭合回路1.5m感应，不能单独证明辐射波",
+      "claim_kind": "后编实验年表/解释",
+      "source_ids": [
+        "S18-01"
+      ],
+      "manuscript_section": "三",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E18-03",
+      "statement": "1886-12-02有电振荡共振，1886-12-05致Helmholtz信",
+      "claim_kind": "史料年表",
+      "source_ids": [
+        "S18-01"
+      ],
+      "manuscript_section": "三",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E18-04",
+      "statement": "理想LC共振频率1/(2π√LC)是现代模型，不是赫兹原复杂火花装置",
+      "claim_kind": "现代知识和历史区别",
+      "source_ids": [
+        "S18-03"
+      ],
+      "manuscript_section": "四",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E18-05",
+      "statement": "1887赫兹研究导线驻波、空气波干涉、有限传播速度",
+      "claim_kind": "后编实验年表",
+      "source_ids": [
+        "S18-01"
+      ],
+      "manuscript_section": "五",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E18-06",
+      "statement": "1888年春进行反射与空气电磁波等实验",
+      "claim_kind": "实验日期史实",
+      "source_ids": [
+        "S18-01"
+      ],
+      "manuscript_section": "六",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E18-07",
+      "statement": "1888年11—12月进行空间短波、偏振和折射相关实验",
+      "claim_kind": "实验日期史实",
+      "source_ids": [
+        "S18-01",
+        "S18-05"
+      ],
+      "manuscript_section": "七",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E18-08",
+      "statement": "赫兹实验提供多种波动性质证据而非单次火花验证整个理论",
+      "claim_kind": "科学史解释",
+      "source_ids": [
+        "S18-01",
+        "S18-05"
+      ],
+      "manuscript_section": "七、十",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E18-09",
+      "statement": "其1888速度测量仍有限制，不能写现代精度等于c",
+      "claim_kind": "实验史争议",
+      "source_ids": [
+        "S18-04"
+      ],
+      "manuscript_section": "八",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E18-10",
+      "statement": "IEEE里程碑整体支持电磁波验证，须与原实验速度精度分开",
+      "claim_kind": "史料评价区分",
+      "source_ids": [
+        "S18-06",
+        "S18-04"
+      ],
+      "manuscript_section": "八",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E18-11",
+      "statement": "亥姆霍兹是赫兹通信及当时理论讨论的关键人物",
+      "claim_kind": "后编年表与史学",
+      "source_ids": [
+        "S18-01"
+      ],
+      "manuscript_section": "九",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E18-12",
+      "statement": "可检波电磁波与可运营无线通信系统属于不同技术问题",
+      "claim_kind": "历史与工程界限",
+      "source_ids": [
+        "S18-05"
+      ],
+      "manuscript_section": "十",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S18-01",
+      "title": "Fraunhofer HHI Heinrich Hertz Chronology 1886-1889",
+      "url": "https://www.hhi.fraunhofer.de/en/fraunhofer-hhi-the-institute/about-us/history-of-hhi/the-most-important-experiments-of-heinrich-hertz.html",
+      "source_type": "德国研究机构史料年表",
+      "verification_scope": "1886两非闭合电路感应、共振，1887驻波、波速及1888反射、偏振等细日期；这是后编年表。"
+    },
+    {
+      "source_id": "S18-02",
+      "title": "IEEE The Long Road to Maxwell's Equations",
+      "url": "https://spectrum.ieee.org/the-long-road-to-maxwells-equations",
+      "source_type": "科技史长文",
+      "verification_scope": "Maxwell与Hertz理论到实验的历史跨度、旁支研究传统。"
+    },
+    {
+      "source_id": "S18-03",
+      "title": "OpenStax University Physics AC resonance",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/15-6-resonance-in-an-ac-circuit",
+      "source_type": "现代教材",
+      "verification_scope": "理想LC与共振的定量解释，不能直接替代Hertz早期复杂装置的原模型。"
+    },
+    {
+      "source_id": "S18-04",
+      "title": "IEEE conference 2017 On Hertz and the Speed of Light",
+      "url": "https://ieeexplore.ieee.org/document/8072640/",
+      "source_type": "现代实验史同行学术论文摘要",
+      "verification_scope": "Hertz 1888波速实验的近场反射站波/参数估计局限，原实验有限速度与c的精确相等需区分。"
+    },
+    {
+      "source_id": "S18-05",
+      "title": "IET 1995 Heinrich Hertz Wireless Experiments at Karlsruhe",
+      "url": "https://ieeexplore.ieee.org/document/491784/",
+      "source_type": "工程史学术会议论文摘要",
+      "verification_scope": "1887-1888传播、反射、偏振、折射实验的整体评价；并非所有原始数据一手。"
+    },
+    {
+      "source_id": "S18-06",
+      "title": "IEEE Milestones Hertz 1886-1888",
+      "url": "https://ethw.org/Milestones%3AFirst_Generation_and_Experimental_Proof_of_Electromagnetic_Waves%2C_1886-1888",
+      "source_type": "IEEE历史里程碑",
+      "verification_scope": "总体评价Hertz 1886-1888证据，不把纪念碑措辞等同精确速度实验审查。"
+    },
+    {
+      "source_id": "S18-07",
+      "title": "Royal Society Archives Maxwell 1864 Dynamical Theory",
+      "url": "https://makingscience.royalsociety.org/items/PT_72_7",
+      "source_type": "皇家学会原档案",
+      "verification_scope": "1864宣读/1865刊印麦克斯韦理论，比Hertz电磁波验证早二十多年。"
+    }
+  ],
+  "unresolved": [
+    "Hertz 1886—1888原始德文实验论文及日记逐篇与Fraunhofer年表比对",
+    "1888波速测量具体数值、频率波长估计和反射情形需核原始图",
+    "不能将技术史纪念碑概述与IEEE学术论文对实验精度的分析混同"
+  ]
+}
