@@ -1,13 +1,105 @@
 {
   "chapter": "06",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S04",
-    "S05",
-    "S09"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "1852历史经S39/S40核对；平面着色的现代定义数学自行校验；不是完整出版核验",
+  "claims": [
+    {
+      "claim_id": "GT06-01",
+      "claim": "Francis Guthrie1852着色问题经弟弟Frederick传De Morgan",
+      "source_ids": [
+        "S39",
+        "S40"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT06-02",
+      "claim": "1852-10-23 De Morgan致Hamilton通信记录四种颜色疑问",
+      "source_ids": [
+        "S39",
+        "S40"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT06-03",
+      "claim": "标准地图邻接共享边界段且国家连通，点接触不算",
+      "source_ids": [
+        "S41"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT06-04",
+      "claim": "连通地区地图的对偶图与顶点正常四色着色等价",
+      "source_ids": [
+        "S41",
+        "S40"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT06-05",
+      "claim": "平面K4四点两两相邻，需要至少四种颜色",
+      "source_ids": [
+        "S41"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT06-06",
+      "claim": "Euler公式及E≤3V−6推出平面图存在度≤5顶点",
+      "source_ids": [
+        "S40",
+        "S41"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT06-07",
+      "claim": "删低度顶点可证明六色，却不能直接推出四着色",
+      "source_ids": [
+        "S40"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT06-08",
+      "claim": "不出现五点互相邻接不等于一定可四着色",
+      "source_ids": [
+        "S41"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT06-09",
+      "claim": "Cayley1878于伦敦数学会提出着色问题、1879论文讨论困难",
+      "source_ids": [
+        "S39",
+        "S40"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT06-10",
+      "claim": "Kempe1879虚假四色证明、Heawood1890纠错、Appel与Haken1976证明",
+      "source_ids": [
+        "S39",
+        "S42"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT06-11",
+      "claim": "1852猜想与现代已证四色定理的时代区分",
+      "source_ids": [
+        "S41",
+        "S42"
+      ],
+      "status": "EDITORIAL_BOUNDARY"
+    }
   ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "note": "地图要求连通地区、共享线段邻接；四色已获证明但本文按1852时代视角称猜想。"
 }
