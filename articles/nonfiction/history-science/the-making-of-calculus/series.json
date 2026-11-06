@@ -100,9 +100,15 @@
     {
       "id": "00",
       "title": "序章：1696年的挑战书——最快的路是什么？",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/00.md",
-      "claims_path": "draft/00.claims.json"
+      "claims_path": "draft/00.claims.json",
+      "source_ids": [
+        "H07",
+        "H17",
+        "H18",
+        "H19"
+      ]
     },
     {
       "id": "01",
