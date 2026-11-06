@@ -12,7 +12,7 @@ parts: 8
 prologue: true
 epilogue: true
 prologue_status: "draft-written"
-chapters_status: "01-12-draft; 13-40-outline-only"
+chapters_status: "01-15-draft; 16-40-outline-only"
 summary: "沿着信用债务、国家财政、跨境资本与危机改革四条因果链，比较中国、伊斯兰世界、印度洋、非洲、欧洲、美洲与现代全球体系的金融制度变迁。"
 tags: ["世界金融史", "货币史", "银行史", "信用", "债务", "中央银行", "金融危机", "非虚构", "知乎盐选式知识叙事"]
 sources_required: true
