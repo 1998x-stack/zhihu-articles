@@ -209,3 +209,49 @@
 - **06**：迈尔1842年论文末页p.240、热容比1.421及365m历史估值已据扫描页核对，20条主张T06-01—T06-20已登记。现代3.58kJ/4.18kJ仅为条件明确的单位对照。
 - **07**：焦耳1850年论文p.61收稿/宣读日期与Table IX（772.692、774.083、774.987英尺磅）核对，21条主张T07-01—T07-21已登记；没有将早期不同方法混成同一次实验。
 - **下一阶段**：第00—07章目前为正文初稿。独立连续性审计、结构审稿、语言精修和终稿均**未获批准**。第08—33章仍为目录占位。
+
+
+## 第08—10章｜能量守恒、绝对温度和第二定律：三章史实核查（2026-11-06）
+
+> 本节是第08—10章**写作前**的局部来源核查，原有00—07章研究和章纲不重新选题。来源R67—R81；亦复用R02、R18、R20、R48、R52—R55、R58—R59。本节仅核查历史书目、理论演变及现代教学定义，不代表独立审稿通过，不扩张至第11—33章。
+
+| ID | 可复核文献 | 支持范围 | 历史/引用边界 |
+|---|---|---|---|
+| R67 | [Hermann von Helmholtz, Über die Erhaltung der Kraft, Berlin (1847)](https://www.textgridrep.de/browse/4bj12.0)（1847德文原著数字转录） | 1847-07-23柏林物理学会报告；原文目录包含热、电、磁的Kraftäquivalent，尝试普遍化守恒原则 | Kraft历史语义不能全部对应现代牛顿力；正文不虚构作者与同人的争吵 |
+| R68 | [Humboldt-Universität zu Berlin, Über die Erhaltung der Kraft 馆藏](https://edoc.hu-berlin.de/items/b7191669-1e14-4934-96d4-dae3182ab985)（大学图书馆原著馆藏） | 1847年原始专著题名、作者、出版年、原文影印入口 | 馆藏日期1847-01-01为元数据日期，不当作具体宣读日期 |
+| R69 | [R. Clausius, On the Moving Force of Heat, Philosophical Magazine (English trans. 1851)](https://sites.pitt.edu/~jdnorton/teaching/2559_Therm_Stat_Mech/docs/Clausius%20Moving%20Force%20heat%201851.pdf)（1850德文论文之1851年英译影印） | 1851七月及八月刊印，vol2 pp1–21、102–119；开篇批评卡诺热质守恒，引用焦耳证据，将做功与热耗关联 | 翻译不是1850德文原文；用户写作可采取中文释义，避免误称已核原文逐字措辞 |
+| R70 | [R. Clausius, Ueber die bewegende Kraft der Wärme (1850), translated excerpts by Magie (1935)](https://www.mdpi.org/lin/clausius/clausius.htm)（1850原始研究后世英译摘录） | 1850 Annalen vol79 pp368–397,500–524；原作者讨论卡诺/克拉佩龙、焦耳摩擦、循环与热功转换 | 1935英译是选编，不可据节选声称拥有原文完整所有证明 |
+| R71 | [William Thomson, On an Absolute Thermometric Scale (1848, text reprinted 1882)](https://zapatopi.net/kelvin/papers/on_an_absolute_thermometric_scale.html)（1848论文后世著作转录） | 基于卡诺函数与雷诺数据提出与物质种类独立的温标，定义等量热跨一个度对应等机械功；讨论-273°C线索 | 1848最初尺度与后来的现代开尔文尺度不相同；转录网页标题用Lord Kelvin是回溯性称呼，1848人名William Thomson |
+| R72 | [William Thomson, On the Dynamical Theory of Heat (1851, 1852 transcriptions)](https://zapatopi.net/kelvin/papers/on_the_dynamical_theory_of_heat.html)（1851皇家学会报告与1852发表文本节选） | §9的Joule/Carnot-Clausius两命题、§12第二定律不可能式、§13可逆机反证、§99–100温标比值 | 网站只刊§1–14、§99–100节选；不把全文未见内容说成已逐字核查；1892才封Lord Kelvin |
+| R73 | [Saslow, A History of Thermodynamics: The Missing Manual (2020)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7516509/)（开放同行评审科学史研究） | 1848与1851两个温标的差异、1850 Clausius 与1851 Thomson再造卡诺理论、1854积分因子1/T与熵前史 | 历史分析辅助，不能用现代变量替代1848原始写法 |
+| R74 | [Clausius, Ueber eine veränderte Form des zweiten Hauptsatzes... (1854)](https://onlinelibrary.wiley.com/doi/10.1002/andp.18541691202)（1854原始论文期刊书目） | 1854 Annalen der Physik 169(12) pp481–506；第二基本定理与温标、可逆循环积分关系进展 | 同样题名现代线上发布日期2006不等于1854；不把1865熵命名提前 |
+| R75 | [William Thomson, On an Absolute Thermometric Scale, annotated 1848 text](https://sites.pitt.edu/~jdnorton/teaching/2559_Therm_Stat_Mech/handouts/Thomson_1848_annot.pdf)（1848原文的教学校注PDF） | 与R71交叉核对绝对尺度定义和气体温度标尺之间的区别 | 带有后人注释，不当作汤姆孙1848年原话 |
+| R76 | [Fernández-Pineda & Velasco, Comment on Historical Observations on Laws of Thermodynamics (2012)](https://thermophysics.ru/pdf_doc/Sandler_errata.pdf)（J. Chem. Eng. Data 57 (2012) 1347 单页史学纠错） | 关于第零定律命名的1931/1936/1939争论：作者发现Fowler 1936 Nature评述用zeroeth，1939 Fowler与Guggenheim教科书给出传递性命题 | 史学作者关于‘首次’的结论仍是一项专门考证；本章称最早明确有据记录之一，不将其等于1930年代才发现热平衡规律 |
+| R77 | [BIPM, Historical Perspective: kelvin](https://www.bipm.org/en/history-si/kelvin)（国际计量局官方温标史） | 1954水三相点273.16 K定义、1967更名K、2018决议改以玻尔兹曼常数固定数值定义 | 历史标准与1848设想以及现代教科书温标不能混同 |
+| R78 | [BIPM, SI base unit kelvin](https://www.bipm.org/en/si-base-units/kelvin)（国际计量局现行单位定义） | 现行k_B=1.380649×10^-23 J/K为固定精确数值；2019实施，0 K与绝对温标含义 | 本文不需要引入过量2019 SI技术细节，尤其不得说1848已拥有现代k_B定义 |
+| R79 | [NIST, Kelvin History](https://www.nist.gov/si-redefinition/kelvin/kelvin-history)（美国计量机构历史解说） | 1848 Thomson对绝对零度约-273℃的探索、当代-273.15°C与仪器标度发展 | NIST通俗叙述‘1848绝对温标’未细分对数/后来温标，需与R71/R73交叉使用 |
+| R80 | [Stanford Encyclopedia of Philosophy, Thermodynamic Asymmetry in Time](https://plato.stanford.edu/entries/time-thermo/)（斯坦福哲学百科同行审核学术综述） | 两定律的逻辑区分、热平衡传递性第零定律、不可逆性与适用范围 | 本章只谈宏观第二定律，微观可逆性史留第12章和统计部分 |
+| R81 | [OpenStax University Physics vol 2, The Carnot Cycle](https://openstax.org/books/university-physics-volume-2/pages/4-5-the-carnot-cycle)（开放现代大学物理教材） | 现代两个热源循环的W=Qh−Qc、ηrev=1−Tc/Th及系统边界条件 | 它并非1848/1850/1851年的原始表达；绝对温标量纲必须K |
+
+### 第08章｜1847—1851理论重构
+- 赫尔姆霍茨1847年7月23日柏林物理学会宣读、当年出版《论力的守恒》，有热、电、磁等对应章节。Kraft历史含义不等于当代F=ma，不能说1850年前无人研究能量守恒。[R67–R68]
+- 克劳修斯1850年德文论文（Annalen 79, pp368–397、500–524），1851年英译两部分（Phil. Mag. 2:1–21、102–119）。正文重点强调其先明确接受热功等价，再**有条件保留卡诺的可逆极限命题**。[R69–R70]
+- 研究对象包含系统内部状态变化，现代公式ΔU=Q−W/对外做功为正与闭合循环∮δQ=∮δW；不是1850原文的逐字符号。[R69,R73,R81]
+- 汤姆孙1851年借鉴焦耳与克劳修斯提出两大命题；其1851稿与1852 Phil.Mag.发表、1882汇编有不同书目年份。[R72]
+
+### 第09章｜1848初版与后续温标区分
+- 1848汤姆孙温标不是今日Kelvin温标的最终定义：原文用“单位热跨每个等间距度数，对应相同机械效果”建立物质无关尺度；与后来的温度比值尺度不能合并。[R71,R73]
+- 1848文献提及-273°C的经验空气温标推测，**并不等于1848完成了所有第三定律/低温计量理论**。[R71,R79]
+- 1851 Thomson的§99–100给出两恒温热源可逆循环吸排热量之比定义温标；1854 Clausius通过积分因子1/T强化理论结构，1865才命名熵。[R72,R74,R73]
+- 第零定律表述“若A和B分别与C热平衡，则A与B热平衡”早于20世纪已为热学方法所用；其命名不能写成1824或1848的原话。关于Fowler年份1931/1936/1939学术争议：2012年历史纠错据1936年《自然》评述，1939教科书有明确名称和传递性形式。[R76,R80]
+- 今日K为SI基单位，2019起以固定玻尔兹曼常数定义；温差1°C等于1 K，摄氏温标与绝对温度转换T=t+273.15 K只属现代参考。[R77–R79]
+
+### 第10章｜1850与1851的两个“不可能”
+- Clausius 1850热的自发传递不能从冷处到热处；Thomson 1851使用不同措辞讨论不借助其他作用从最冷环境抽热而持续产功。现代教材Kelvin–Planck和Clausius表述为后世规范化，不视为1851两人的完全同字文本。[R69–R72]
+- 现代系统限定必须准确：不存在**唯一效果**为将热从低温体送往高温体的循环装置；不存在**仅与单一热库交换热、在其他方面不留变化**的循环热机完全将热转为功。冰箱接入外部电功并不违背定律。[R72,R80,R81]
+- 两表述的现代等价论证依赖第一定律的能量账本、理想可逆辅助机以及“外界没有其他净变化”的条件，不能宣称1850原文就已包含全部后世标准证明。[R72,R73,R81]
+- 现代ηmax=1−Tc/Th只适合两个正热力学温度恒温热源之间可逆循环等明确条件；不应把效率限制归因于机器摩擦，也不把热的自发传递描述成完全绝对的微观概率0事件。[R80,R81]
+- 下一章11才讨论Clausius 1854积分与1865年熵正式命名，10章不预先完成熵理论。[R73,R74]
+
+### 尚未完成
+第08—10章进入正文初稿后仍需独立历史核查、连续性审计、发展性审稿和终审。第11—33章仍待逐章证据核验，状态不得标为PASS/已发布。
