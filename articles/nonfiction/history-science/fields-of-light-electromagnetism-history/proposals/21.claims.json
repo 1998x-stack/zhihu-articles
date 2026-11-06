@@ -1,0 +1,189 @@
+{
+  "chapter": "21",
+  "title": "电磁波究竟相对于谁在传播",
+  "manuscript_path": "proposals/21.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E21-01",
+      "statement": "现代真空麦克斯韦方程导出电磁波速c=1/√(μ0ε0)，非十九世纪原刊符号",
+      "kind": "现代物理",
+      "source_ids": [
+        "S21-01"
+      ],
+      "section": "二",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    },
+    {
+      "claim_id": "E21-02",
+      "statement": "十九世纪后半叶以太模型具有多种相互竞争的运动与介质设定",
+      "kind": "科学史概述",
+      "source_ids": [
+        "S21-02",
+        "S21-05"
+      ],
+      "section": "三",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    },
+    {
+      "claim_id": "E21-03",
+      "statement": "在绝对时间的伽利略变换下相对波峰速度为c-v，是限定前提下演算",
+      "kind": "现代教学推导",
+      "source_ids": [
+        "S21-02",
+        "S21-05"
+      ],
+      "section": "五",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    },
+    {
+      "claim_id": "E21-04",
+      "statement": "经典伽利略坐标变换不能保持麦克斯韦—洛伦兹电磁方程的形式",
+      "kind": "理论关系",
+      "source_ids": [
+        "S21-02",
+        "S21-04"
+      ],
+      "section": "五",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    },
+    {
+      "claim_id": "E21-05",
+      "statement": "洛伦兹从1892年起逐步发展以太背景下的电子理论",
+      "kind": "科学史事实",
+      "source_ids": [
+        "S21-03"
+      ],
+      "section": "六",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    },
+    {
+      "claim_id": "E21-06",
+      "statement": "洛伦兹1890年代引入局部时间概念，1904年调整运动物体电动力学",
+      "kind": "理论发表史",
+      "source_ids": [
+        "S21-03",
+        "S21-05"
+      ],
+      "section": "六",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    },
+    {
+      "claim_id": "E21-07",
+      "statement": "局部时间低速近似t'≈t-vx/c²是现代演示，非当年排印的逐字引文",
+      "kind": "公式边界",
+      "source_ids": [
+        "S21-03",
+        "S21-05"
+      ],
+      "section": "六",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    },
+    {
+      "claim_id": "E21-08",
+      "statement": "现代标准洛伦兹变换具γ因子，不宜把全部数学结构归给1904原刊",
+      "kind": "现代与历史区分",
+      "source_ids": [
+        "S21-03",
+        "S21-04"
+      ],
+      "section": "七",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    },
+    {
+      "claim_id": "E21-09",
+      "statement": "庞加莱在1904年讨论相对性原理，1905—1906年推进变换结构",
+      "kind": "科学史事实",
+      "source_ids": [
+        "S21-04"
+      ],
+      "section": "八",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    },
+    {
+      "claim_id": "E21-10",
+      "statement": "洛伦兹与庞加莱的贡献不应被错误地视作现代相对论完整解释的同义语",
+      "kind": "史学争议",
+      "source_ids": [
+        "S21-03",
+        "S21-04"
+      ],
+      "section": "七、八",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    },
+    {
+      "claim_id": "E21-11",
+      "statement": "1887年迈克耳孙—莫雷实验早于1901年无线电报跨洋接收报告",
+      "kind": "跨章时间线",
+      "source_ids": [
+        "S21-02",
+        "S21-05"
+      ],
+      "section": "四、十",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    },
+    {
+      "claim_id": "E21-12",
+      "statement": "现代相对论的光速不变结论不能事后写成十九世纪以太理论者已经共有的观点",
+      "kind": "时代知情边界",
+      "source_ids": [
+        "S21-02",
+        "S21-06"
+      ],
+      "section": "十",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page verification and specialized historical review outstanding"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S21-01",
+      "title": "OpenStax University Physics: Maxwell Equations",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves",
+      "source_type": "现代物理教材",
+      "scope": "现代SI真空波速、教材表达不是1860年代原始符号"
+    },
+    {
+      "source_id": "S21-02",
+      "title": "Stanford Encyclopedia of Philosophy: Absolute and Relational Space and Motion",
+      "url": "https://plato.stanford.edu/entries/spacetime-theories/",
+      "source_type": "同行编辑哲学史综述",
+      "scope": "以太—参考系—伽利略与麦克斯韦变换冲突、理论与实验的双路线"
+    },
+    {
+      "source_id": "S21-03",
+      "title": "Dictionary of Scientific Biography: Hendrik Antoon Lorentz",
+      "url": "https://mathshistory.st-andrews.ac.uk/DSB/Lorentz.pdf",
+      "source_type": "学术人物史/原书数字化",
+      "scope": "1892后电子论、1895近似、1904修订的理论脉络"
+    },
+    {
+      "source_id": "S21-04",
+      "title": "Stanford Encyclopedia of Philosophy: Henri Poincaré",
+      "url": "https://plato.stanford.edu/entries/poincare/",
+      "source_type": "研究综述与史学争议",
+      "scope": "1904相对性原理、同步与1905-1906变换结构、贡献归属"
+    },
+    {
+      "source_id": "S21-05",
+      "title": "MIT OCW David Kaiser: Electrodynamics for Maxwell and Lorentz",
+      "url": "https://live.ocw.mit.edu/courses/sts-042-einstein-oppenheimer-feynman-physics-in-the-20th-century-fall-2020/mitsts_042j_f20_lecnote_electrodynamics.pdf",
+      "source_type": "大学科学史讲义",
+      "scope": "局部时间为何在保留以太真时间框架中出现、运动物体电动力学"
+    },
+    {
+      "source_id": "S21-06",
+      "title": "Einstein 1905 On the Electrodynamics of Moving Bodies English Translation",
+      "url": "https://actascientiae.org/REFERENCES/oteomb.html",
+      "source_type": "1905原始论文译文",
+      "scope": "下一章之后的理论参照，不应倒签1895—1904的成果"
+    }
+  ],
+  "unresolved": [
+    "核对洛伦兹1892/1895/1904原刊具体变换阶数、变量和电子论术语",
+    "核对庞加莱1900/1904/1905/1906原文措辞及出版日期，避免事后归属",
+    "明确以太拖曳模型和干涉实验定量预测归第22章独立审查",
+    "核查1881/1887实验与后续1905理论不构成单一直接因果的具体史学证据"
+  ]
+}
