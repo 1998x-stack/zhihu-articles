@@ -1,0 +1,84 @@
+{
+  "chapter": "14",
+  "title": "康托尔：一个无穷能装进另一个无穷吗",
+  "lane": "nonfiction",
+  "revision": 9,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Historical claims supported by chapter-specific research.md evidence matrix",
+    "Modern mathematics and historical formulations clearly distinguished",
+    "Independent continuity and developmental reviews not yet performed"
+  ],
+  "claims": [
+    {
+      "claim_id": "H14-01",
+      "source_id": "R14-SEP-SET",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H14-02",
+      "source_id": "R14-MODERN;R14-SEP-INFINITY",
+      "verification": "modern_math"
+    },
+    {
+      "claim_id": "H14-03",
+      "source_id": "R14-SEP-EARLY",
+      "verification": "historical_summary"
+    },
+    {
+      "claim_id": "H14-04",
+      "source_id": "R14-SEP-EARLY",
+      "verification": "historical_attribution"
+    },
+    {
+      "claim_id": "H14-05",
+      "source_id": "R14-CANTOR-1874;R14-SEP-EARLY",
+      "verification": "primary_text_verified"
+    },
+    {
+      "claim_id": "H14-06",
+      "source_id": "R14-SEP-EARLY;R14-CANTOR-1874",
+      "verification": "chronology_verified"
+    },
+    {
+      "claim_id": "H14-07",
+      "source_id": "R14-MODERN",
+      "verification": "modern_math"
+    },
+    {
+      "claim_id": "H14-08",
+      "source_id": "R14-MODERN;R14-CANTOR-1874",
+      "verification": "modern_reconstruction"
+    },
+    {
+      "claim_id": "H14-09",
+      "source_id": "R14-SEP-INFINITY",
+      "verification": "modern_math"
+    },
+    {
+      "claim_id": "H14-10",
+      "source_id": "R14-SEP-EARLY;R14-MODERN",
+      "verification": "historical_and_modern_math"
+    },
+    {
+      "claim_id": "H14-11",
+      "source_id": "R14-SEP-EARLY",
+      "verification": "historiographical_qualified"
+    },
+    {
+      "claim_id": "H14-12",
+      "source_id": "R14-SEP-INFINITY;R14-MODERN",
+      "verification": "modern_math"
+    },
+    {
+      "claim_id": "H14-13",
+      "source_id": "R14-SEP-EARLY",
+      "verification": "chronology_verified"
+    },
+    {
+      "claim_id": "H14-14",
+      "source_id": "outline.md;R14-SEP-EARLY",
+      "verification": "editorial_transition"
+    }
+  ]
+}
