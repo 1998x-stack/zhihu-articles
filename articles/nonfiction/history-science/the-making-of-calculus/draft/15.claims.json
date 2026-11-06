@@ -1,25 +1,95 @@
 {
   "chapter": "15",
-  "status": "PENDING",
+  "title": "微积分基本定理：面积与变化率竟是同一件事",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H85",
+    "H89",
+    "H90",
+    "H84",
+    "H71",
+    "H72"
+  ],
   "claims": [
     {
       "id": "C15-01",
-      "statement": "局部变化怎样恢复整体累积",
-      "source_candidates": [
-        "H01",
-        "H02"
+      "kind": "historical_scope",
+      "statement": "求积与切线是17世纪后半叶逐渐联系的不同问题，其会合并非牛顿或莱布尼茨凭空完成。",
+      "source_ids": [
+        "H85"
       ],
-      "verification": "PENDING"
+      "locator": "MAA Teaching the Fundamental Theorem, historical introduction",
+      "verification": "SOURCE_LOCATED"
     },
     {
       "id": "C15-02",
-      "statement": "积分与求导的逆向关系及条件",
-      "source_candidates": [
-        "H01",
-        "H02"
+      "kind": "math_modern",
+      "statement": "若f连续，面积/累积函数A(x)=∫aˣ f(t)dt在内点可微且A′(x)=f(x)。",
+      "source_ids": [],
+      "locator": "independent bound by interval minima/maxima; continuity; both one-sided increments",
+      "verification": "MATH_RECALCULATED_WITH_CONDITIONS"
+    },
+    {
+      "id": "C15-03",
+      "kind": "math_modern",
+      "statement": "若f连续且F′=f，则∫aᵇ f(x)dx=F(b)−F(a)。",
+      "source_ids": [],
+      "locator": "A′=F′ => A−F constant by mean value theorem",
+      "verification": "MATH_RECALCULATED_WITH_CONDITIONS"
+    },
+    {
+      "id": "C15-04",
+      "kind": "math_modern",
+      "statement": "∫0²x² dx=8/3；等距右端点平方和极限亦等于8/3。",
+      "source_ids": [],
+      "locator": "Sn=8(n+1)(2n+1)/(6n²), n→∞",
+      "verification": "MATH_RECALCULATED"
+    },
+    {
+      "id": "C15-05",
+      "kind": "math_modern",
+      "statement": "∫1³(2t+1)dt=10；积分可表达变化率的累计量。",
+      "source_ids": [],
+      "locator": "F(t)=t²+t, F(3)−F(1)=12−2=10",
+      "verification": "MATH_RECALCULATED"
+    },
+    {
+      "id": "C15-06",
+      "kind": "historical_sources",
+      "statement": "格雷戈里1668年、巴罗1670年分别推进了求积与切线之间的联系。",
+      "source_ids": [
+        "H89",
+        "H90"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor James Gregory; MAA Barrow geometric lectures",
+      "verification": "SOURCE_LOCATED"
+    },
+    {
+      "id": "C15-07",
+      "kind": "historical_sources",
+      "statement": "牛顿早期手稿与莱布尼茨1686年论文也包含求积和切线/微分互逆关系的研究。",
+      "source_ids": [
+        "H71",
+        "H72",
+        "H84"
+      ],
+      "locator": "Newton Project October 1666 manuscript; MAA Leibniz 1686 integral calculus",
+      "verification": "SOURCE_LOCATED_WITH_HISTORICAL_CAVEAT"
+    },
+    {
+      "id": "C15-08",
+      "kind": "counterexample",
+      "statement": "阶跃f(x)=0(x<0),1(x≥0)可积，但累积函数在0处导数不存在。",
+      "source_ids": [],
+      "locator": "A(x)=0 for x≤0, A(x)=x for x>0; one-sided derivatives 0 and 1",
+      "verification": "MATH_RECALCULATED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "全部现代定理证明用连续性、定积分与中值定理，不能冒充十七世纪原文。",
+    "第一部分的连续性条件是充分条件，不能将反例过度推广为所有不连续函数都失败。",
+    "第二部分需存在原函数，本文用连续函数版本，避免无条件推广。",
+    "审稿状态不自动变更。"
+  ]
 }
