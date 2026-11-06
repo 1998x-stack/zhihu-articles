@@ -1,7 +1,262 @@
 {
   "chapter": "07",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅07章研究矩阵的21条核心主张完成前置资料查验，不等于全文已审稿；第08—33章未被本批覆盖",
+  "claims": [
+    {
+      "claim_id": "T07-01",
+      "claim": "焦耳1840年前后研究电流产热与化学过程的关系",
+      "type": "historical_fact",
+      "source_ids": [
+        "R58",
+        "R61"
+      ],
+      "locator": "1850引言及APS历史说明",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-02",
+      "claim": "1843焦耳发表磁电发热与热的机械价值论文",
+      "type": "historical_bibliography",
+      "source_ids": [
+        "R64"
+      ],
+      "locator": "Philosophical Magazine 23:263—276",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-03",
+      "claim": "1843磁电实验以机械驱动发生电流并测量热效应，得约838ft·lb的早期估计",
+      "type": "historical_numeric",
+      "source_ids": [
+        "R58",
+        "R59"
+      ],
+      "locator": "Joule 1850 p63回顾",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-04",
+      "claim": "焦耳随后用流体流经狭小通道等方式研究流体摩擦产热",
+      "type": "historical_fact",
+      "source_ids": [
+        "R58",
+        "R65"
+      ],
+      "locator": "1850引言/实验历史表",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-05",
+      "claim": "1844—45压缩空气及膨胀过程也是焦耳的研究路线，不能将全部证据归为搅水",
+      "type": "historical_fact",
+      "source_ids": [
+        "R58",
+        "R65"
+      ],
+      "locator": "Joule 1850引言；Nuffield时间表",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-06",
+      "claim": "焦耳1845开始重物驱动搅拌液体的实验，1847有进一步改良",
+      "type": "historical_fact",
+      "source_ids": [
+        "R58",
+        "R65"
+      ],
+      "locator": "Joule 1850引言；历史教学表",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-07",
+      "claim": "搅水装置将重物势能经运动机构传给流体，搅拌造成温度变化",
+      "type": "historical_mechanism",
+      "source_ids": [
+        "R58",
+        "R60",
+        "R66"
+      ],
+      "locator": "Joule原著与馆藏",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-08",
+      "claim": "实验需要扣除装置与外界的热交换，不能把测得水温上升全当未修正热量",
+      "type": "experimental_method",
+      "source_ids": [
+        "R58",
+        "R59"
+      ],
+      "locator": "Joule原著实验和控制",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-09",
+      "claim": "热量归属包含容器、液体等热容，及轴承、气体、声振的损失校正",
+      "type": "experimental_method",
+      "source_ids": [
+        "R59",
+        "R60"
+      ],
+      "locator": "Joule原著修正讨论",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-10",
+      "claim": "原著1849年6月6日收稿，6月21日宣读，1850年刊于Philosophical Transactions",
+      "type": "historical_bibliography",
+      "source_ids": [
+        "R58",
+        "R59"
+      ],
+      "locator": "Joule p61页首",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-11",
+      "claim": "该1850论著比较水、汞与铸铁摩擦得到的热功当量测量",
+      "type": "historical_experiment",
+      "source_ids": [
+        "R58",
+        "R59"
+      ],
+      "locator": "Table IX",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-12",
+      "claim": "论文Table IX水实验为772.692 foot-pounds／1磅水升1°F",
+      "type": "primary_source_numeric",
+      "source_ids": [
+        "R59"
+      ],
+      "locator": "Joule Table IX p82",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-13",
+      "claim": "论文Table IX汞及铸铁相关平均值约774.083、774.987英尺磅，非相等常数",
+      "type": "primary_source_numeric",
+      "source_ids": [
+        "R59"
+      ],
+      "locator": "Joule Table IX p82",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-14",
+      "claim": "焦耳在1850论文结论采用约772 foot-pounds作为报告数值",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R58",
+        "R59"
+      ],
+      "locator": "Joule结论段",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-15",
+      "claim": "英尺磅历史热单位转换到现代J必须明确重力、质量及Fahrenheit温差",
+      "type": "unit_boundary",
+      "source_ids": [
+        "R59",
+        "R62"
+      ],
+      "locator": "原始foot-pound与计量史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-16",
+      "claim": "现代1cal约4.184J；不同温度定义和历史caloric unit不可直接当作完全同一量",
+      "type": "modern_conversion",
+      "source_ids": [
+        "R62",
+        "R59"
+      ],
+      "locator": "现代标准与单位史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-17",
+      "claim": "从不同机制逼近稳定比例比单次实验更有说服力，但实验结果带测量误差",
+      "type": "scientific_method",
+      "source_ids": [
+        "R58",
+        "R60"
+      ],
+      "locator": "多实验与控制",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-18",
+      "claim": "1847年牛津会议上焦耳与威廉·汤姆孙相识，汤姆孙并未当日立即解决矛盾",
+      "type": "historical_fact",
+      "source_ids": [
+        "R63",
+        "R55"
+      ],
+      "locator": "格拉斯哥大学馆藏/NAP",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-19",
+      "claim": "焦耳1850前言承认Rumford、Davy、Mayer与Grove等前驱而非自称独创全部能量守恒",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R58"
+      ],
+      "locator": "Joule 1850引言",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-20",
+      "claim": "1849/1850测量确认机械功可量化为热，却未单独给出第二定律及全部热机过程限制",
+      "type": "historical_boundary",
+      "source_ids": [
+        "R59",
+        "R02"
+      ],
+      "locator": "原著与1850—51理论发展",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T07-21",
+      "claim": "第08章由赫尔姆霍茨/克劳修斯进入统一两定律，不能在本章把后续结果回写为焦耳1850完备结论",
+      "type": "editorial_transition",
+      "source_ids": [
+        "R02",
+        "R55"
+      ],
+      "locator": "史学时序",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "史学争议保留限制性陈述；历史语义与现代公式分开",
+    "不编造人物私下对话、心理及实验数字",
+    "研究准备状态，正文须另行落库，审稿仍为PENDING"
+  ]
 }
