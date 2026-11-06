@@ -185,3 +185,45 @@
 
 ### 事实边界与本文写法
 特别以Osada 2018的一手史学研究纠正MacTutor/一些科普中“1683公开出版”的简化：1683《解伏题之法》再修订后经学派手稿传承；其n≥5算法存在错误，后学修正。莱布尼茨的10、11、12是双位标号而非具体十、十一、十二；他的条件对三条方程二未知量而言必须区分必要与充分。
+
+
+## 第06—08章前置史料核证（2026-11-06；仅对本批三章有效）
+
+### 第06章：克拉默与一般系数通式
+- **S06-1** MacTutor, *Matrices and determinants*: https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/ 。1748年麦克劳林遗著含二、三元解法；1750年克拉默著作给一般的n元规则、系数排列及常数替换，但没有给出我们今天习惯的通式完整证明。
+- **S06-2** MacTutor, *Gabriel Cramer*: https://mathshistory.st-andrews.ac.uk/Biographies/Cramer/ 。1750年著作的代数曲线背景。
+- **S06-3** Frank J. Swetz, MAA, *Mathematical Treasure: Cramer on His Rule and His Paradox* (2019): https://old.maa.org/node/1899289 。原著和附录页码的史料线索，网站目前可能无法稳定打开。
+- **S06-4** Thierry Joffredo, *A genetic analysis of Gabriel Cramer's Introduction...* (2019): https://smf.emath.fr/node/152648 。法国数学会学术文章摘要，论证1750年曲线专著的形成与出版背景。
+- **C06-01** 麦克劳林1748年低阶先例，不能说1750年之前无人建立相关公式（S06-1，已核）。
+- **C06-02** 克拉默1750年一般n阶规则源于曲线待定系数问题；附录描述排列及符号（S06-1/2/4，已核）。
+- **C06-03** 其历史记号不等于今天的det(A_j)/det(A)，完整现代证明由本章教学补写（S06-1，限定）。
+- **C06-04** 现代克拉默法则需n阶方阵det(A)≠0，且列替换行列式恒等式可独立证明（MATH06，数学核查）。
+- **C06-05** 直接阶乘排列展开n!项，不是大规模数值计算首选；行消元通常三次方量级（MATH06，算法分析）。
+- **C06-06** det(A)=0不等于无解，可能无穷多解或矛盾（MATH06，反例）。
+
+### 第07章：拉普拉斯展开与出版年辨析
+- **S07-1** MacTutor, *Matrices and determinants*: https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/ 。贝祖1764、范德蒙德1771、拉普拉斯1772相关工作、拉格朗日1773体积关联；亦指出莱布尼茨有更早扩展想法。
+- **S07-2** MacTutor, *Earliest Uses of Symbols for Matrices and Vectors*: https://mathshistory.st-andrews.ac.uk/Miller/mathsym/matrices/ 。拉普拉斯1772年卷及古今符号差异。
+- **S07-3** 法语Wikisource，拉普拉斯，*Recherches sur le calcul intégral et sur le système du monde*: https://fr.wikisource.org/wiki/Œuvres_complètes_de_Laplace/Recherches_sur_le_Calcul_intégral_et_sur_le_système_du_monde 。正文书目标明科学院年卷1772、实际印行1776；对出版史只作明确限定。
+- **S07-4** 法国国家图书馆（BnF）书目记录: https://catalogue.bnf.fr/ark:/12148/cb30739065z 。支持该论文年卷和单行印本的版本问题。
+- **C07-01** 拉普拉斯命名不意味着此前莱布尼茨、贝祖和范德蒙德完全没有展开思想（S07-1）。
+- **C07-02** 1772为科学院年卷标识，1776为论文实际印行的重要日期，不能混写（S07-2/3/4）。
+- **C07-03** 现代代数余子式C_ij=(-1)^(i+j)det(M_ij)，可沿任一行或列展开（MATH07）。
+- **C07-04** 现代四阶教学矩阵行列式为108，按稀疏行展开更短（MATH07）。
+- **C07-05** 按行余子式展开是递归组织，稠密情形逐层递归并非最优复杂度（MATH07）。
+- **C07-06** 拉格朗日1773体积相关表达与当时行列式理论没有直接统一（S07-1，历史解释限定）。
+
+### 第08章：柯西、比内与雅可比
+- **S08-1** MacTutor, *Matrices and determinants*: https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/ 。柯西1812、比内同期、雅可比1841三篇理论研究。
+- **S08-2** MacTutor, *Carl Gustav Jacob Jacobi*: https://mathshistory.st-andrews.ac.uk/Biographies/Jacobi/ 。函数行列式也在早期柯西研究中出现，雅可比1841年专门论述。
+- **S08-3** MAA, *Brief History of Determinants*: https://old.maa.org/press/periodicals/convergence/analysis-and-translation-of-raffaele-rubinis-1857-application-of-the-theory-of-determinants-note-0 。柯西1812论证和1815刊印、Gauss1801术语差异及乘法定理。
+- **S08-4** MacTutor, *Earliest Uses of Symbols for Matrices and Vectors*: https://mathshistory.st-andrews.ac.uk/Miller/mathsym/matrices/ 。柯西符号历史与凯莱1841竖线记号。
+- **C08-01** 柯西1812综合研究、论文1815印行，乘法定理研究亦需记比内同期成果（S08-1/3，已核）。
+- **C08-02** Gauss1801曾用determinant一词，但语义与今天行列式不完全相同（S08-1/3）。
+- **C08-03** 雅可比1841年专著深化函数行列式，并非这一表达的绝对首创者（S08-1/2）。
+- **C08-04** 现代det(AB)=det(A)det(B)二阶示例及一般证明由现代代数给出（MATH08）。
+- **C08-05** 二元偏导数Jacobian局部表示有向面积因子；极坐标Jacobian=r（MATH08）。
+- **C08-06** Jacobian=0不意味着映射必定局部非单射；(u,v)→(u³,v)反例成立（MATH08）。
+- **C08-07** 不能把柯西1812年的工作称为1858年凯莱式完整矩阵代数（S08-1，历史限制）。
+
+**本批前置核验证书**：以上有外部来源的具体历史主张可进入第06—08章写作；MATH06—08为需逐项公开演算的现代解释，不能当成史实。所有章节仍为未终审初稿。其他未写章节并不因本记录自动通过证据闸门。
