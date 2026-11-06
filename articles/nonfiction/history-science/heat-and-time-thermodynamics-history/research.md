@@ -263,3 +263,44 @@
 - **09章**：汤姆孙1848年最初绝对温标、1851年热库比值、克劳修斯1854年积分因子、福勒1936年术语考证分别处理；主张T09-01—T09-21。
 - **10章**：Clausius 1850和Thomson 1851的历史‘不可能’陈述与后世Kelvin–Planck、Clausius规范式分层；主张T10-01—T10-21。
 - **范围及门禁**：第00—10章为非虚构正文初稿；11—33章尚未逐章核证或成文。独立连续性审计/结构审稿/语言精修/终审尚未进行，不得标记review_status=PASS。
+
+
+## 第11—13章｜熵、时间方向与克拉佩龙几何：前置资料核查（2026-11-06）
+
+> 范围：三章局部前置史实与科学核对，依原章节目录开展。R82—R94新增来源，复用R02、R04、R05、R20、R52、R73、R74、R80。史料事实、现代重述与编辑推断分开。尚未独立审稿。
+
+| ID | 文献、性质 | 支持范围 | 边界 |
+|---|---|---|---|
+| R82 | [ETH-Bibliothek Zürich, Clausius 1865独立印本](https://www.e-rara.ch/zut/content/titleinfo/20986586)（原著馆藏） | 1865年59页独立印本与馆藏标识 | 馆藏元数据不能替代具体行文 |
+| R83 | [Clausius, Ueber verschiedene ... Hauptgleichungen (1865) 德语扫描](https://galileo-unbound.blog/wp-content/uploads/2020/05/clausius1865.pdf)（1865原著馆藏扫描镜像） | 印本p46 Entropie词源及p59宇宙两定律；p55—56的未补偿转换 | 独立印本页码非期刊页码；镜像不是期刊原站 |
+| R84 | [Clausius 1865 selected translated passages, LeMoyne University](https://web.lemoyne.edu/~giunta/Clausius1865.pdf)（原论文英译节选） | S命名与Greek tropē；Clausius inequality；宏观宇宙陈述 | 仅部分摘译，非全篇原始英文；前两页截图可复核 |
+| R85 | [Wiley, Clausius 1865 journal DOI](https://onlinelibrary.wiley.com/doi/10.1002/andp.18652010702)（期刊权威书目） | Annalen der Physik und Chemie 1865 pp353—400；DOI | 平台新编的卷序不等同当年的卷125 |
+| R86 | [MacTutor Clausius Biography](https://mathshistory.st-andrews.ac.uk/Biographies/Clausius/)（科学史专业传记） | 1850、1854、1865阶段及命名时间线 | 史学综合来源，不能代替原文 |
+| R87 | [OpenStax University Physics 2 §4.6 Entropy](https://openstax.org/books/university-physics-volume-2/pages/4-6-entropy)（现代物理教材） | S状态函数、可逆传热熵变、Clausius inequality与系统边界 | 现代公式非1865逐字原式 |
+| R88 | [OpenStax University Physics 2 §4.7 Entropy on a Microscopic Scale](https://openstax.org/books/university-physics-volume-2/pages/4-7-entropy-on-a-microscopic-scale)（现代物理教材） | 理想气体隔热自由膨胀中Q=0而ΔS=nR ln(V2/V1)>0 | 仅理想气体、两端平衡态，计算用虚拟可逆路径 |
+| R89 | [Stanford Encyclopedia of Philosophy, Thermodynamic Asymmetry in Time (2026 revision)](https://plato.stanford.edu/entries/time-thermo/)（哲学/科学史学术综述） | 宏观熵增与微观时间反演对称性张力、洛施密特与后续统计认识 | 2026后见讨论不可置于Clausius本人脑中；相关争论留后章 |
+| R90 | [Émile Clapeyron, Mémoire sur la puissance motrice de la chaleur (1834)](https://www3.nd.edu/~powers/ame.20231/clapeyron1834.pdf)（1834法语原始论文扫描） | pp153—190；p-V曲线、膨胀机械功面积；蒸汽相变与潜热关系 | 当时热质与未知函数C(t)，不把现代理想可逆温标原样赋予他 |
+| R91 | [Clapeyron, Memoir on the Motive Power of Heat, Scientific Memoirs (1837)](https://en.wikisource.org/wiki/Page:Scientific_Memoirs,_Vol._1_(1837).djvu/359)（1834论文的1837英译） | 与1834法文比对压力体积曲线、相变理论 | Wikisource部分页未完成校勘；不当作1834发表的英文原文 |
+| R92 | [Girolami et al. The Combined Gas Law and Clapeyron's Thermodynamics (2020)](https://girolami-group.chemistry.illinois.edu/publications/publications/J.%20Chem.%20Eng.%20Data%202020%2C%2065%2C%20298.pdf)（同行评审历史与热物性研究） | 1834年第一张循环p-V曲线、数学化及Clapeyron相变斜率；1850 Clausius关系 | 现代严格式与近似Clausius—Clapeyron不得混同 |
+| R93 | [Wayne M. Saslow A History of Thermodynamics: The Missing Manual (2020)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7516509/)（同行评审科学史研究） | 第4节Clapeyron函数C(t)、1854积分因子与1865命名 | 与R02同一论文的章节定位，不视独立来源 |
+| R94 | [BnF Catalogue, Clapeyron Mémoire 1834](https://catalogue.bnf.fr/ark:/12148/cb40936143n)（法国家图书馆书目） | 1834《Journal de l'École polytechnique》pp153—190与2006影印版本差别 | 2006年影印不是原始发表时间 |
+
+### 第11章：1854结构、1865命名
+- 1854克劳修斯以可逆循环积分关系推进后来的熵概念，正式命名发生于1865，不得倒写。[R74,R93]
+- 1865年4月24日苏黎世报告、同年期刊发表；独立印本p46把S命名为Entropie，希腊语trópe指变化/转变，并刻意与Energie相似；p59概述宇宙能量恒定、熵趋向最大。历史宇宙论断不等于现代宇宙学普适已证命题。[R82–R85]
+- S是状态量；可逆 dS=δQ_rev/T，实际不可逆隔热自由膨胀Q=0但ΔS>0。不得把实际不可逆δQ/T当一般严格熵微分。[R87,R88]
+- 以系统吸热为正，闭合循环∮δQ/T≤0；等号可逆，孤立系统总熵非减但子系统可以减。保留温度与系统边界限定。[R84,R87]
+
+### 第12章：宏观时间之箭与微观反演
+- 现代400K到300K两个理想热库传递Q时ΔS总量=−Q/400+Q/300>0。示例不是历史实验；实际有限热库温度可能变化，要积分。[R87,R80]
+- 1mol理想气体在隔热自由膨胀V→2V后ΔU=0、ΔS=R ln2≈5.76J/K；计算选一条假想可逆等温路径，不是声称真实膨胀可逆。[R88]
+- 孤立整体宏观熵可非减，局部熵可以减少；熵≠一般性凌乱、时间≠熵，微观经典运动基本时间反演对称，后世统计讨论和特殊初始条件留第19—20章。[R89]
+
+### 第13章：专题回溯1834年几何表达
+- 从1865专题回望1834，不表示出版年代倒置。克拉佩龙为1824卡诺概念建立压力体积坐标与曲线/面积数学描述；此前已有瓦特式机械指示图，不能称他最早画任何PV图。[R90,R91,R92]
+- 1834原著描述体积为横轴、压力为纵轴，边界机械功积分∫p dV的几何面积；现代∮p dV是简单可压缩准静态循环的有向面积，非所有非准静态真实装置均无条件成立。[R90,R91]
+- 两相平衡现代Clapeyron严格关系dp_sat/dT=L/[T(v_g−v_l)]，L与v均按单位质量，压强沿共存曲线变化。1834时使用未知普适C(t)和热质解释；1850 Clausius重建后才有现代T因子，不能强加给1834原式。[R90,R92,R93]
+- 近似 dlnp/dT≈L/(R_spec T²)还要有理想蒸气、液体积可忽略；积分线性lnp与1/T关系另需L近似恒定。[R92]
+
+### 当前局部门禁
+- 11—13写完仍需独立连续性审计、结构审稿与终稿批准，状态PENDING。14—33仍为待逐章核验占位。
