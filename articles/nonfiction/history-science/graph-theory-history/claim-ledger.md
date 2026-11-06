@@ -8,9 +8,9 @@
 | 04 | GT04-01—GT04-10：Kirkman先行、Hamilton Icosian、欧拉/哈密顿对照、必要条件 | S32—S35（含GT04-07不用） | VERIFIED_SCOPED（仅04） |
 | 05 | GT05-01—GT05-10：1857/1860先行结果、1889 Cayley、1918 Prüfer双射 | S36—S38 | VERIFIED_SCOPED（仅05） |
 | 06 | GT06-01—GT06-11：1852通信、平面对偶、六色归纳及四色困难、后续历史 | S39—S42 | VERIFIED_SCOPED（仅06） |
-| 07 | GT07-01：肯普链、错误四色证明、五色定理 | S01、S04、S05、S09 | TODO_VERIFY |
-| 08 | GT08-01：色多项式、删除—收缩递推 | S01、S04、S05、S09 | TODO_VERIFY |
-| 09 | GT09-01：K5、K3,3 的细分与平面性判据 | S01、S04、S05、S09 | TODO_VERIFY |
+| 07 | GT07-01—GT07-10：肯普1879/1880、希伍德1890指出双链换色漏洞、五色定理 | S43—S46（见research.md） | VERIFIED_SCOPED（仅07） |
+| 08 | GT08-01—GT08-10：伯克霍夫1912、惠特尼1931/1932、色多项式与删除—收缩 | S47—S50（见research.md） | VERIFIED_SCOPED（仅08） |
+| 09 | GT09-01—GT09-11：库拉托夫斯基1930禁细分、瓦格纳1937禁minor、优先权争议 | S51—S55（见research.md） | VERIFIED_SCOPED（仅09） |
 | 10 | GT10-01：计算机辅助四色证明与Coq形式化 | S01、S04、S05、S09 | TODO_VERIFY |
 | 11 | GT11-01：门格尔定理、点不相交路径与点割 | S01、S07 | TODO_VERIFY |
 | 12 | GT12-01：二分图匹配—点覆盖定理及加权推广 | S01、S07 | TODO_VERIFY |
