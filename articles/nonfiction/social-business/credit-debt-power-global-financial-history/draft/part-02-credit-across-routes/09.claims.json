@@ -1,0 +1,165 @@
+{
+  "chapter": "09",
+  "lane": "nonfiction",
+  "batch_revision": 8,
+  "publication_ready": false,
+  "verification_scope": "Source abstracts and official archives checked; primary text editions and full scholarly articles need independent publication-level review.",
+  "claims": [
+    {
+      "claim_id": "CH09-001",
+      "statement": "达蒂尼档案约15万封信、其中12.5万商业通信",
+      "source_ids": [
+        "F-0901"
+      ],
+      "classification": "archive_metadata",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "数量约数不等于独立交易数"
+    },
+    {
+      "claim_id": "CH09-002",
+      "statement": "普拉托国家档案馆有达蒂尼36万数字影像与1000余账册描述",
+      "source_ids": [
+        "F-0902"
+      ],
+      "classification": "archive_metadata",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "影像不等于一手完整译注"
+    },
+    {
+      "claim_id": "CH09-003",
+      "statement": "15世纪欧洲汇票可跨城多币种与代理人结算",
+      "source_ids": [
+        "F-0903",
+        "F-0904"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "多方模型仅典型结构"
+    },
+    {
+      "claim_id": "CH09-004",
+      "statement": "1436—39博罗梅伊账簿近2000件汇票相关文书",
+      "source_ids": [
+        "F-0903"
+      ],
+      "classification": "peer_reviewed_research",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不是整个欧洲同年汇票总量"
+    },
+    {
+      "claim_id": "CH09-005",
+      "statement": "历史汇票可变更到期日、分期支付、日内汇价波动",
+      "source_ids": [
+        "F-0903"
+      ],
+      "classification": "peer_reviewed_research",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "来源特定商号与时期"
+    },
+    {
+      "claim_id": "CH09-006",
+      "statement": "汇票多因包括无现金支付、信用以及高利禁令背景",
+      "source_ids": [
+        "F-0905"
+      ],
+      "classification": "historiography",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不能把所有汇差都等于高利贷"
+    },
+    {
+      "claim_id": "CH09-007",
+      "statement": "复式记账对一笔借款同时登记现金与负债",
+      "source_ids": [
+        "F-0906"
+      ],
+      "classification": "modern_teaching_model",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "40单位不是真实中世纪分录"
+    },
+    {
+      "claim_id": "CH09-008",
+      "statement": "复式记账以记录约束为主不能杜绝欺诈或不付",
+      "source_ids": [
+        "F-0906",
+        "F-0907"
+      ],
+      "classification": "author_inference",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "与现代财报有时间差"
+    },
+    {
+      "claim_id": "CH09-009",
+      "statement": "1296和1299早期商号账簿为复式记账早期案例",
+      "source_ids": [
+        "F-0907"
+      ],
+      "classification": "historiography",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "最早取决于制度判据"
+    },
+    {
+      "claim_id": "CH09-010",
+      "statement": "1340热那亚官署账本亦属早期复式证据",
+      "source_ids": [
+        "F-0906",
+        "F-0907"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不等于全城官署统一现代会计"
+    },
+    {
+      "claim_id": "CH09-011",
+      "statement": "达蒂尼1395年出现试算平衡式账目材料",
+      "source_ids": [
+        "F-0908"
+      ],
+      "classification": "peer_reviewed_research",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不等于现代资产负债表"
+    },
+    {
+      "claim_id": "CH09-012",
+      "statement": "1494帕乔利Summa包含首本印刷复式记账说明",
+      "source_ids": [
+        "F-0909",
+        "F-0910"
+      ],
+      "classification": "bibliographic_fact",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不是人类复式记账最早出现"
+    },
+    {
+      "claim_id": "CH09-013",
+      "statement": "帕乔利记述既有威尼斯商人方法非自称发明",
+      "source_ids": [
+        "F-0909"
+      ],
+      "classification": "source_criticism",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "馆藏说明可核需原文复查"
+    },
+    {
+      "claim_id": "CH09-014",
+      "statement": "账簿与汇票可共同支持跨城业务但不能保证信用安全",
+      "source_ids": [
+        "F-0903",
+        "F-0908"
+      ],
+      "classification": "historical_mechanism",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不能把复式记账说成防危机保险"
+    },
+    {
+      "claim_id": "CH09-015",
+      "statement": "下一章需要区分元明纸币与宋代交子",
+      "source_ids": [
+        "F-0909",
+        "F-0803"
+      ],
+      "classification": "chapter_bridge",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "宋元有时间制度边界"
+    }
+  ]
+}

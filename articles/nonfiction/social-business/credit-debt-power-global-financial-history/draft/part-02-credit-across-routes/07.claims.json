@@ -1,0 +1,160 @@
+{
+  "chapter": "07",
+  "lane": "nonfiction",
+  "batch_revision": 8,
+  "publication_ready": false,
+  "verification_scope": "Source abstracts and official archives checked; primary text editions and full scholarly articles need independent publication-level review.",
+  "claims": [
+    {
+      "claim_id": "CH07-001",
+      "statement": "胡迪为跨城兑款与商业信用的不同安排，不是单一同质纸币",
+      "source_ids": [
+        "F-0702",
+        "F-0708"
+      ],
+      "classification": "concept",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "时期和地方差异大"
+    },
+    {
+      "claim_id": "CH07-002",
+      "statement": "1728年后孟加拉帝国款项通过Jagat Seth商号汇兑",
+      "source_ids": [
+        "F-0701"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不能推导所有款项皆无金属运输"
+    },
+    {
+      "claim_id": "CH07-003",
+      "statement": "Jagat Seth家族与莫卧儿铸币、借款和财政权力有联系",
+      "source_ids": [
+        "F-0701",
+        "F-0707"
+      ],
+      "classification": "historical_interpretation",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "大商号理论存在反驳及其他政治因素"
+    },
+    {
+      "claim_id": "CH07-004",
+      "statement": "萨拉夫既处理现钱验色，也经营票据、贷款和资金转付",
+      "source_ids": [
+        "F-0702"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不代表每位萨拉夫均提供全部服务"
+    },
+    {
+      "claim_id": "CH07-005",
+      "statement": "17世纪旅行者描述苏拉特至内地的汇兑价差与道路政治风险",
+      "source_ids": [
+        "F-0703",
+        "F-0708"
+      ],
+      "classification": "travel_account",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "旅行者见闻不可作为统一全国费率"
+    },
+    {
+      "claim_id": "CH07-006",
+      "statement": "异地净额清算减少部分运现但仍须现金和信用关系维持",
+      "source_ids": [
+        "F-0702",
+        "F-0708"
+      ],
+      "classification": "author_inference",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "100与80的数字均为教学示意"
+    },
+    {
+      "claim_id": "CH07-007",
+      "statement": "shah jog要求识别有市场信誉的受票人",
+      "source_ids": [
+        "F-0705",
+        "F-0709"
+      ],
+      "classification": "later_legal_comparison",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "来自近现代法院，不能上推13世纪"
+    },
+    {
+      "claim_id": "CH07-008",
+      "statement": "darshani muddati jokhmi分类反映后期胡迪制度多样性",
+      "source_ids": [
+        "F-0706",
+        "F-0710"
+      ],
+      "classification": "later_typology",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不是证明类别早期同步形成"
+    },
+    {
+      "claim_id": "CH07-009",
+      "statement": "胡迪可与国家财政征拨及借款实践相连",
+      "source_ids": [
+        "F-0701",
+        "F-0704"
+      ],
+      "classification": "historical_interpretation",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不同政权条件异质"
+    },
+    {
+      "claim_id": "CH07-010",
+      "statement": "票据兑现需要支付地现金、代理人及债权关系",
+      "source_ids": [
+        "F-0702"
+      ],
+      "classification": "mechanism_inference",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不意味着永远免除金属运输"
+    },
+    {
+      "claim_id": "CH07-011",
+      "statement": "hundi与suftaja跨城兑付功能相似不证明直接起源",
+      "source_ids": [
+        "F-0702",
+        "F-0708"
+      ],
+      "classification": "comparative_boundary",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "未找到可证单次传播事件"
+    },
+    {
+      "claim_id": "CH07-012",
+      "statement": "金融家族对帝国政治影响不可解释全部莫卧儿衰落",
+      "source_ids": [
+        "F-0701",
+        "F-0707"
+      ],
+      "classification": "historiographical_dispute",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "军事农业殖民等条件不可删除"
+    },
+    {
+      "claim_id": "CH07-013",
+      "statement": "信贷转移与社会各方承担金融中介失约损失有关",
+      "source_ids": [
+        "F-0701",
+        "F-0702"
+      ],
+      "classification": "author_inference",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不冒充某份票据实际违约"
+    },
+    {
+      "claim_id": "CH07-014",
+      "statement": "胡迪与交子都轻于金属但信用主体不同",
+      "source_ids": [
+        "F-0702",
+        "F-0708"
+      ],
+      "classification": "chapter_bridge",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "并未确证直接技术传承"
+    }
+  ]
+}

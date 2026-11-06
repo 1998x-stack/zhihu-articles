@@ -1,0 +1,159 @@
+{
+  "chapter": "08",
+  "lane": "nonfiction",
+  "batch_revision": 8,
+  "publication_ready": false,
+  "verification_scope": "Source abstracts and official archives checked; primary text editions and full scholarly articles need independent publication-level review.",
+  "claims": [
+    {
+      "claim_id": "CH08-001",
+      "statement": "四川铁钱笨重成为私人交子发展背景",
+      "source_ids": [
+        "F-0801",
+        "F-0802"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "铜铁制度因地不同"
+    },
+    {
+      "claim_id": "CH08-002",
+      "statement": "十世纪九十年代四川私人交子逐步发行",
+      "source_ids": [
+        "F-0801"
+      ],
+      "classification": "scholarly_chronology",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "2026专著摘要，需要全文校对"
+    },
+    {
+      "claim_id": "CH08-003",
+      "statement": "宋史记十六户富民经营与财力不足导致兑付纠纷",
+      "source_ids": [
+        "F-0802"
+      ],
+      "classification": "compiled_primary_source",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "元修宋史非十世纪原始账簿"
+    },
+    {
+      "claim_id": "CH08-004",
+      "statement": "张若谷薛田提议官方益州交子务",
+      "source_ids": [
+        "F-0802"
+      ],
+      "classification": "compiled_primary_source",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "设务日期应结合宋人政令"
+    },
+    {
+      "claim_id": "CH08-005",
+      "statement": "1023—1024前后由私营转为国家管理",
+      "source_ids": [
+        "F-0801",
+        "F-0802",
+        "F-0803"
+      ],
+      "classification": "chronology_with_dispute",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "方案审批及实际发行日期不能简化为同一天"
+    },
+    {
+      "claim_id": "CH08-006",
+      "statement": "发行批次与换界制度有助追踪流通余额和兑换",
+      "source_ids": [
+        "F-0802",
+        "F-0803"
+      ],
+      "classification": "historical_mechanism",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不同年代不限统一固定三年"
+    },
+    {
+      "claim_id": "CH08-007",
+      "statement": "1024后纸币逐渐承担私商和财政支付",
+      "source_ids": [
+        "F-0801"
+      ],
+      "classification": "historical_interpretation",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "地区局限且其他支付并存"
+    },
+    {
+      "claim_id": "CH08-008",
+      "statement": "财政收支可强化纸币需求但不创造实际粮食财富",
+      "source_ids": [
+        "F-0801",
+        "F-0804"
+      ],
+      "classification": "mechanism_inference",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "纯教学100单位不为古代实录"
+    },
+    {
+      "claim_id": "CH08-009",
+      "statement": "北宋后期交子钱引发行及兑付压力多次变化",
+      "source_ids": [
+        "F-0802",
+        "F-0803"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不混同各地区全时段"
+    },
+    {
+      "claim_id": "CH08-010",
+      "statement": "宋史记新增票据与准备不足导致折价及更界困难",
+      "source_ids": [
+        "F-0802"
+      ],
+      "classification": "compiled_primary_source",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不可概括一切贬值原因"
+    },
+    {
+      "claim_id": "CH08-011",
+      "statement": "南宋12世纪后期会子相对稳定，13世纪战争财政致贬值",
+      "source_ids": [
+        "F-0805"
+      ],
+      "classification": "academic_interpretation",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "2026摘要待全文审校"
+    },
+    {
+      "claim_id": "CH08-012",
+      "statement": "交子、钱引、会子是不同阶段不同安排",
+      "source_ids": [
+        "F-0802",
+        "F-0803",
+        "F-0805"
+      ],
+      "classification": "periodization",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "不称宋朝始终单一纸币"
+    },
+    {
+      "claim_id": "CH08-013",
+      "statement": "国家发行将部分私人信用风险扩大为区域货币问题",
+      "source_ids": [
+        "F-0801",
+        "F-0802"
+      ],
+      "classification": "author_inference",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "并不等于所有私人票据损失均由国库赔偿"
+    },
+    {
+      "claim_id": "CH08-014",
+      "statement": "交子相关流行纸币图片可能为后世复刻，不能充当1024原始实物",
+      "source_ids": [
+        "F-0802",
+        "F-0806"
+      ],
+      "classification": "source_criticism",
+      "verification_status": "DRAFT_CHECKED_NOT_FINAL",
+      "caveat": "独立文物馆藏尚须核对"
+    }
+  ]
+}
