@@ -1,0 +1,176 @@
+{
+  "chapter": "14",
+  "title": "电容器的缝隙里，为什么也需要“电流”",
+  "manuscript_path": "proposals/14.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E14-01",
+      "statement": "充电电容器中，导线有传导电流而理想绝缘间隙不需要载流子跨越",
+      "kind": "现代物理/条件限制",
+      "source_ids": [
+        "S14-01"
+      ],
+      "section": "一、三",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E14-02",
+      "statement": "安培稳恒环路式对不同时变曲面造成现代教科书中的矛盾",
+      "kind": "现代教学数学论证",
+      "source_ids": [
+        "S14-01"
+      ],
+      "section": "二",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E14-03",
+      "statement": "位移电流真空SI形式为ε0∂E/∂t，不是电子穿越间隙",
+      "kind": "现代物理",
+      "source_ids": [
+        "S14-01",
+        "S14-04"
+      ],
+      "section": "三",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E14-04",
+      "statement": "Maxwell On Physical Lines of Force分1861—1862四部分期刊刊出",
+      "kind": "历史书目",
+      "source_ids": [
+        "S14-02",
+        "S14-03"
+      ],
+      "section": "四",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E14-05",
+      "statement": "1862第三部分研究电介质弹性电位移及其时间变化",
+      "kind": "历史论文内容与范围",
+      "source_ids": [
+        "S14-02"
+      ],
+      "section": "四",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E14-06",
+      "statement": "宏观电介质D=ε0E+P与∂D/∂t为现代重述",
+      "kind": "现代介质理论/历史区别",
+      "source_ids": [
+        "S14-04"
+      ],
+      "section": "五",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E14-07",
+      "statement": "安培—麦克斯韦积分微分式加入变化电场，恢复固定回路曲面一致性",
+      "kind": "现代物理",
+      "source_ids": [
+        "S14-01",
+        "S14-04"
+      ],
+      "section": "六",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E14-08",
+      "statement": "位移电流使电荷连续方程与动态磁场定律兼容",
+      "kind": "现代数学推导",
+      "source_ids": [
+        "S14-01",
+        "S14-04"
+      ],
+      "section": "七",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E14-09",
+      "statement": "1865 Dynamical Theory收到、宣读、印行时间分别为1864-10/12、1865",
+      "kind": "一手学会档案",
+      "source_ids": [
+        "S14-05",
+        "S14-06"
+      ],
+      "section": "八",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E14-10",
+      "statement": "现代电容器矛盾是后设教学重述，不能断言历史发现动机",
+      "kind": "历史叙事界限",
+      "source_ids": [
+        "S14-01",
+        "S14-02"
+      ],
+      "section": "开篇、八",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E14-11",
+      "statement": "变化E与变化B共同允许在真空场论中讨论传播",
+      "kind": "现代物理解释",
+      "source_ids": [
+        "S14-04"
+      ],
+      "section": "九、十",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S14-01",
+      "title": "OpenStax University Physics §16.1 Maxwell equations and electromagnetic waves",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves",
+      "source_type": "现代教材",
+      "scope": "充电电容器不同曲面矛盾、位移电流及安培—麦克斯韦环路关系；教学图不是历史实验"
+    },
+    {
+      "source_id": "S14-02",
+      "title": "Maxwell 1862 On Physical Lines of Force Part III",
+      "url": "https://doi.org/10.1080/14786446208643207",
+      "source_type": "1862期刊原始论文书目",
+      "scope": "明确Vol.23 pp12-24、1862年1月、静电与弹性电位移；原始方程仍待逐页核证"
+    },
+    {
+      "source_id": "S14-03",
+      "title": "Maxwell's Enduring Legacy bibliographic references",
+      "url": "https://www.cambridge.org/core/books/abs/maxwells-enduring-legacy/references/3124D60FA2532B0FC07CB57DC07DFA3F",
+      "source_type": "学术专著书目",
+      "scope": "1861三期、1862两期四部分发表历程，非原始论文正文"
+    },
+    {
+      "source_id": "S14-04",
+      "title": "OpenStax University Physics Volume 2 chapter 16 key equations",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/16-key-equations",
+      "source_type": "现代教材",
+      "scope": "现代位移电流、完整电磁方程及现代SI变量；不支持历史机械模型细节"
+    },
+    {
+      "source_id": "S14-05",
+      "title": "Royal Society Maxwell 1864 PT/72/7 manuscript",
+      "url": "https://makingscience.royalsociety.org/items/PT_72_7",
+      "source_type": "皇家学会一手档案",
+      "scope": "1864-10-27收到、1864-12-08宣读、1865刊出；历史场论研究的版本"
+    },
+    {
+      "source_id": "S14-06",
+      "title": "Smithsonian 1865 A Dynamical Theory original",
+      "url": "https://library.si.edu/digital-library/book/dynamicaltheoryo00maxw",
+      "source_type": "一手文献馆藏",
+      "scope": "原始刊印物的书目与影印可核，全文未逐页校勘"
+    }
+  ],
+  "unresolved": [
+    "1862 Part III第112式及文中电位移的精确原文需逐页校勘",
+    "现代电容器两曲面悖论不能写为1862年真实实验或唯一历史动机",
+    "真实有损材料的传导与极化分离，电荷守恒推导的连续性边界需数学复核",
+    "1865论文如何舍弃部分机械假设与承续相关动态关系需细查"
+  ]
+}
