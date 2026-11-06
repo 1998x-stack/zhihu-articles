@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "07",
+  "claims": [
+    {
+      "claim_id": "NS-07-01",
+      "type": "historical_fact",
+      "statement": "Milgram published The Small-World Problem in Psychology Today 1967 vol1(1) pp61-67",
+      "source_ids": [
+        "S44"
+      ],
+      "locator": "1967 PDF masthead and pp61-67",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-07-02",
+      "type": "source_caution",
+      "statement": "The fictive international café acquaintance dialogue introducing the 1967 article is an illustration, not documented subject interview",
+      "source_ids": [
+        "S44"
+      ],
+      "locator": "1967 paper opening anecdote without study protocol",
+      "verification_status": "editorial_caution"
+    },
+    {
+      "claim_id": "NS-07-03",
+      "type": "historical_fact",
+      "statement": "Travers and Milgram technical report is Sociometry vol32(4) 425-443 in 1969",
+      "source_ids": [
+        "S45"
+      ],
+      "locator": "1969 article title page",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-07-04",
+      "type": "historical_fact",
+      "statement": "1969 study recruited 296 starter volunteers including 100 Nebraska stockholders, 96 other Nebraska volunteers and 100 Boston volunteers",
+      "source_ids": [
+        "S45"
+      ],
+      "locator": "1969 pp429-430 Participants",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-07-05",
+      "type": "historical_fact",
+      "statement": "Target was stockbroker living in Sharon Massachusetts and working in Boston; document passed only among first-name acquaintances",
+      "source_ids": [
+        "S45"
+      ],
+      "locator": "1969 pp428-430 Procedure and Rules",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-07-06",
+      "type": "historical_fact",
+      "statement": "217 starters actually forwarded document and 64 chains completed",
+      "source_ids": [
+        "S45"
+      ],
+      "locator": "1969 p431 Results",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-07-07",
+      "type": "mathematical_derivation",
+      "statement": "64/296=21.6 percent of all starters and 64/217=29.5 percent of starters who forwarded",
+      "source_ids": [
+        "S45"
+      ],
+      "locator": "original counts with distinct denominators",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-07-08",
+      "type": "historical_fact",
+      "statement": "Completed chains alone had mean 5.2 intermediaries and no universal all-pairs or shortest path inference follows",
+      "source_ids": [
+        "S45"
+      ],
+      "locator": "1969 p425 Abstract and p432 completed chains",
+      "verification_status": "primary_source_verified_with_scope"
+    },
+    {
+      "claim_id": "NS-07-09",
+      "type": "historical_fact",
+      "statement": "16+10+5=31 of the 64 completed chains used three penultimate contacts, about 48 percent",
+      "source_ids": [
+        "S45"
+      ],
+      "locator": "1969 p439 Common Channels",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-07-10",
+      "type": "historical_fact",
+      "statement": "1969 study distinguishes geographic and occupation-based routes with different chain length patterns",
+      "source_ids": [
+        "S45"
+      ],
+      "locator": "1969 pp432-433 and 437",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-07-11",
+      "type": "methodological_limit",
+      "statement": "Uncompleted chains, volunteer sampling and single target prevent generalization to any human pair; missingness may bias success-only chain mean",
+      "source_ids": [
+        "S45",
+        "S46",
+        "S47"
+      ],
+      "locator": "1969 p434; subsequent critiques",
+      "verification_status": "qualified_inference"
+    },
+    {
+      "claim_id": "NS-07-12",
+      "type": "historical_context",
+      "statement": "1967 public essay and 1969 296-person technical report contain distinct early study descriptions; do not conflate Kansas pilot with later Nebraska Boston cohorts",
+      "source_ids": [
+        "S44",
+        "S45"
+      ],
+      "locator": "1967 p63-66 and 1969 p429",
+      "verification_status": "primary_sources_compared"
+    },
+    {
+      "claim_id": "NS-07-13",
+      "type": "modern_interpretation",
+      "statement": "Existence of short network paths differs from decentralized discovery and from participants continuing a real-world chain",
+      "source_ids": [
+        "S45"
+      ],
+      "locator": "1969 paper procedure and conclusions plus graph-theoretic reasoning",
+      "verification_status": "derived_explanatory"
+    }
+  ],
+  "outstanding_checks": [
+    "Confirm original full-page scans and chapter-specific historical bibliographies before release.",
+    "Do not update evidence_verified/outline_approved or review_status until genuine full-series workflow gate is satisfied.",
+    "Complete independent continuity audit and developmental review before line-edit and final approval."
+  ]
+}

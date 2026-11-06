@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "05",
+  "claims": [
+    {
+      "claim_id": "NS-05-01",
+      "type": "historical_fact",
+      "statement": "Gilbert published Random Graphs in 1959, Annals of Mathematical Statistics 30(4):1141-1144",
+      "source_ids": [
+        "S39"
+      ],
+      "locator": "1959 original p1141 heading",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-05-02",
+      "type": "historical_fact",
+      "statement": "Gilbert defines independently sampling an edge for each pair with common probability p",
+      "source_ids": [
+        "S39"
+      ],
+      "locator": "p1141 Introduction",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-05-03",
+      "type": "historical_context",
+      "statement": "Gilbert uses telephone central-office routing as an illustrative application",
+      "source_ids": [
+        "S39"
+      ],
+      "locator": "p1141 telephone example",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-05-04",
+      "type": "historical_fact",
+      "statement": "Erdos and Renyi 1959 On Random Graphs I starts from uniform sample with n labeled nodes and exactly m edges",
+      "source_ids": [
+        "S40"
+      ],
+      "locator": "p290 opening paragraph",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-05-05",
+      "type": "historical_fact",
+      "statement": "Erdos and Renyi first 1959 paper studies complete connectedness around m=(n/2)log n",
+      "source_ids": [
+        "S40"
+      ],
+      "locator": "pp290-291 Theorem 1",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-05-06",
+      "type": "historical_context",
+      "statement": "Erdos Renyi 1960 explicitly recommend more realistic-than-equal-probability assumptions for applied real systems",
+      "source_ids": [
+        "S41"
+      ],
+      "locator": "introduction p19",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-05-07",
+      "type": "mathematical_derivation",
+      "statement": "G(n,p) graph probability p^m(1-p)^(M-m) and Binomial(M,p) edge count",
+      "source_ids": [
+        "S39"
+      ],
+      "locator": "model's elementary independent Bernoulli derivation",
+      "verification_status": "derived_checked"
+    },
+    {
+      "claim_id": "NS-05-08",
+      "type": "mathematical_derivation",
+      "statement": "For 0<p<1 G(n,p) conditioned on exactly m edges has the G(n,m) distribution",
+      "source_ids": [
+        "S39",
+        "S40"
+      ],
+      "locator": "equal probability of fixed-edge-count labeled graphs",
+      "verification_status": "derived_checked"
+    },
+    {
+      "claim_id": "NS-05-09",
+      "type": "illustration",
+      "statement": "G(4,2) has choose(6,2)=15 equally likely graphs whereas G(4,1/2) may have zero edges probability 1/64",
+      "source_ids": [],
+      "locator": "author-devised four-node calculation",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-05-10",
+      "type": "modern_caution",
+      "statement": "Contemporary generic ER nomenclature should not erase Gilbert versus Erdős–Rényi historical model distinction",
+      "source_ids": [
+        "S39",
+        "S40",
+        "S48"
+      ],
+      "locator": "historical comparison and handbook chapters",
+      "verification_status": "supported_synthesis"
+    },
+    {
+      "claim_id": "NS-05-11",
+      "type": "model_boundary",
+      "statement": "Equal independent edge probabilities are null-model assumptions, not a demonstrated rule for all real social ties",
+      "source_ids": [
+        "S39",
+        "S41"
+      ],
+      "locator": "Gilbert example and ER realism disclaimer",
+      "verification_status": "qualified_inference"
+    }
+  ],
+  "outstanding_checks": [
+    "Confirm original full-page scans and chapter-specific historical bibliographies before release.",
+    "Do not update evidence_verified/outline_approved or review_status until genuine full-series workflow gate is satisfied.",
+    "Complete independent continuity audit and developmental review before line-edit and final approval."
+  ]
+}
