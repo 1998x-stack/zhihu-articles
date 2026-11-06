@@ -109,3 +109,79 @@
 ### 数学独立验算
 
 设 ax+by=p，cx+dy=q，则 dE1-bE2 可得 (ad-bc)x=dp-bq；aE2-cE1 可得 (ad-bc)y=aq-cp。因此当 ad-bc≠0，x=(dp-bq)/(ad-bc)，y=(aq-cp)/(ad-bc)。这只是当代数学为说明“未知量与参数一并符号化”的教学推导，**不是**韦达或笛卡尔原文中的通式。对 x²+10x=39，(x+5)²=64，x=3 或 x=−13；历史正几何量只取3。
+
+
+## 第03章专题证据记录（2026-11-06）
+
+主题：《高斯之前已有消元：谁把方程排成阶梯》。仅对本章明示的主张做逐项来源核验；全书其他章不得据此继承“已核”状态。
+
+### 依据资料
+- **L03-S1** J. J. O'Connor & E. F. Robertson, Matrices and determinants, MacTutor。史学概览，卷八筹式以及后续算法。https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/
+- **L03-S2** Joseph F. Grcar, How ordinary elimination became Gaussian elimination, Historia Mathematica 38 (2011) 163–218。专业史学论文，命名演变/牛顿/高斯。https://doi.org/10.1016/j.hm.2010.06.003
+- **L03-S3** Christoph Börgers, Introduction to Numerical Linear Algebra, Chapter 3 (SIAM 2022)。数值线性代数教材的历史边界。https://epubs.siam.org/doi/10.1137/1.9781611976922.ch3
+- **L03-S4** 《九章算术》卷八 方程术（传世古籍）。一手传世文本，列式与消元。https://zh.wikisource.org/wiki/九章算術
+
+### 可引用主张
+| claim_id | 主张 | 依据 | 范围 | 状态 |
+|---|---|---|---|---|
+| C03-01 | 卷八方程术使用算筹列排列和相消程序，可用现代矩阵解释，但不是现代矩阵公理 | L03-S1,L03-S4 | 古籍/现代解释 | 已核，须标注转译 |
+| C03-02 | 欧洲独立出现消元前驱；牛顿17世纪笔记经后人编印传播，不能说高斯首次发明 | L03-S2,L03-S3 | 专业数学史 | 已核 |
+| C03-03 | 高斯在19世纪早期天文观测调整与计算中使用并改进计算记法；现代命名是在后世逐步形成 | L03-S1,L03-S2 | 专业数学史 | 已核，勿将今日名称归于高斯自命 |
+| C03-04 | 现代行交换、非零倍乘和倍加操作保留解集，阶梯形与回代揭示主元、秩和相容性 | MATH03 | 现代数学证明 | 独立验算 |
+| C03-05 | 零行形如0=非零表示无解；零行0=0并不意味着自动有无穷多解，还需看自由变量 | MATH03 | 逻辑反例 | 独立验算 |
+| C03-06 | 精确代数消元与浮点数值稳定性不同，部分主元选取可缓解误差 | L03-S3 | 现代数值算法 | 已核，算法后续章节详讲 |
+
+### 事实边界与本文写法
+《九章算术》算筹列阵与现代增广矩阵是可比较的算法结构，而非原文使用了行运算/秩。欧洲教科书消元传统有独立形成的证据，不可构造跨文化单线传承；牛顿约1670年的笔记和后续传播日期不可混淆。现代部分选主元与数值稳定性属于后来发展的算法。
+
+
+## 第04章专题证据记录（2026-11-06）
+
+主题：《当方程互相矛盾：最小二乘如何救场》。仅对本章明示的主张做逐项来源核验；全书其他章不得据此继承“已核”状态。
+
+### 依据资料
+- **L04-S1** A.-M. Legendre, Sur la méthode des moindres quarrés (1805), in A Source Book in Mathematics, translation。原始论文片段的译本及编辑说明。https://en.wikisource.org/wiki/Page:A_Source_Book_in_Mathematics_(Smith).pdf/608
+- **L04-S2** Jan R. Magnus, Gauss on least-squares and maximum-likelihood estimation, Archive for History of Exact Sciences 76 (2022)。专业研究，1805与1809及统计解释之异。https://link.springer.com/article/10.1007/s00407-022-00291-w
+- **L04-S3** MacTutor, Adrien-Marie Legendre。数学史人物、彗星轨道与争议。https://mathshistory.st-andrews.ac.uk/Biographies/Legendre/
+- **L04-S4** Joseph F. Grcar, How ordinary elimination became Gaussian elimination, Historia Mathematica (2011)。消元/正规方程历史背景。https://doi.org/10.1016/j.hm.2010.06.003
+- **L04-S5** Mathematical Association of America, Classic Topics on The History of Modern Mathematical Statistics。数学统计史出处口径，Legendre 1805 与 Gauss 1809。https://old.maa.org/node/743958
+
+### 可引用主张
+| claim_id | 主张 | 依据 | 范围 | 状态 |
+|---|---|---|---|---|
+| C04-01 | 真实观测常产生互相不能精确满足的超定方程，需要选择近似而非继续强制精确解 | L04-S3,L04-S4 | 史学背景/一般数学 | 已核 |
+| C04-02 | 勒让德1805年先公开发表最小二乘原则，相关著作在有些书目中以1806标示 | L04-S1,L04-S2,L04-S5 | 年代优先权 | 已核，须区分出版/版本 |
+| C04-03 | 高斯1809年公开论述原则并称1795年已使用；优先权争议不能当作单一可证明发明时间 | L04-S2,L04-S3 | 争议史 | 已核，采用限定措辞 |
+| C04-04 | 勒让德给出最小平方调整规则而高斯在误差概率假设下论证，二者不是同一个数学前提 | L04-S2 | 专业史学论文 | 已核 |
+| C04-05 | 最小化平方残差导出正规方程A^T A θ=A^T b，满列秩时唯一；数值演算独立可复验 | MATH04,L04-S4 | 现代推导 | 独立验算 |
+| C04-06 | 最小二乘在现代几何中是正交投影，但不必强称早期作者已经建立现代向量空间表述 | MATH04,L04-S2 | 现代重构边界 | 已核 |
+| C04-07 | 异常值、误差方差不齐、模型设错等均需要其他处理；最小二乘不是修补事实的魔法 | MATH04 | 现代方法局限 | 例证可复验 |
+
+### 事实边界与本文写法
+1805年勒让德公开表述，1809年高斯公开论证而自称1795年以来使用；不是简单的“谁偷了谁的成果”。高斯天体轨道研究与最小二乘的关系应避免把谷神星轨道成功说成其1809年证明的直接证据。正交投影/矩阵正规方程是现代教学转译，误差分布与概率假设需明确。
+
+
+## 第05章专题证据记录（2026-11-06）
+
+主题：《关孝和与莱布尼茨：两条行列式的早期道路》。仅对本章明示的主张做逐项来源核验；全书其他章不得据此继承“已核”状态。
+
+### 依据资料
+- **L05-S1** Naoki Osada, Determinants by Seki Takakazu from the group-theoretic viewpoint, Advanced Studies in Pure Mathematics 79 (2018), 83–99。专业学术论文：1683年手稿传承、n≥5算法瑕疵与后续修正。https://www.lab.twcu.ac.jp/osada/aspm79.pdf
+- **L05-S2** MacTutor, Matrices and determinants。数学史概述，关孝和1683、莱布尼茨1693信件。https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/
+- **L05-S3** MacTutor, Takakazu Seki。人物与相关史学参考。https://mathshistory.st-andrews.ac.uk/Biographies/Seki/
+- **L05-S4** MAA, Brief History of Determinants (Petrilli & Smolenski)。辅证：独立发展与不同问题背景；可访问性变动。https://old.maa.org/node/915203
+- **L05-S5** Mathematical determinant derivations, original worked example in draft/05.md。现代数学证明，不作为古人原始书写。internal://draft/05.md
+
+### 可引用主张
+| claim_id | 主张 | 依据 | 范围 | 状态 |
+|---|---|---|---|---|
+| C05-01 | 关孝和《解伏题之法》1683年再修订，通过学派手稿流传；不是可直接断言1683年公开出版 | L05-S1 | 专业论文纠正旧概述 | 已核 |
+| C05-02 | 关孝和在多项式消去与兼容条件中运用行列式式组合；其高阶手法n≥5存在文献指出的错误 | L05-S1 | 专业论文含限定与后续发展 | 已核 |
+| C05-03 | 莱布尼茨1693年致德洛必达信，讨论三条方程中两个未知量的相容条件，系数记号是编号而非十、十一这样的整数 | L05-S2 | 专业史学概览 | 已核 |
+| C05-04 | 两条路线的用途、书写与传播不同，不能捏造直接相互影响 | L05-S1,L05-S2,L05-S4 | 历史解释 | 已核为审慎边界 |
+| C05-05 | 现代det二阶式ad-bc与三阶六项展开、交换两行变号、重复行det为零 | L05-S5 | 现代数学推导 | 独立验算 |
+| C05-06 | det=0对三条含两未知量的线性方程组是必要条件，若两列未知量系数不独立则未必充分 | L05-S2,L05-S5 | 历史研究+现代反例 | 独立验算 |
+| C05-07 | 早期行列式思想早于成熟矩阵代数；术语与一般性质经历18—19世纪继续发展 | L05-S2 | 数学史概览 | 已核 |
+
+### 事实边界与本文写法
+特别以Osada 2018的一手史学研究纠正MacTutor/一些科普中“1683公开出版”的简化：1683《解伏题之法》再修订后经学派手稿传承；其n≥5算法存在错误，后学修正。莱布尼茨的10、11、12是双位标号而非具体十、十一、十二；他的条件对三条方程二未知量而言必须区分必要与充分。
