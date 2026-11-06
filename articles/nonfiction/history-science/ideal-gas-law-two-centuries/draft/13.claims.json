@@ -3,7 +3,186 @@
   "title": "数不尽的分子，竟能导出一条简单方程",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "19项主张可追溯；气体运动现代数学与历史贡献严格区分；独立审稿未进行。",
+  "claims": [
+    {
+      "claim_id": "G13-01",
+      "source_ids": [
+        "S70",
+        "S76"
+      ],
+      "summary": "分子力学解释在克劳修斯之前已有伯努利等先驱，19世纪才形成更系统的气体动理论",
+      "classification": "historiography",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-02",
+      "source_ids": [
+        "S70",
+        "S73"
+      ],
+      "summary": "1857克劳修斯以高速运动微粒解释热与压强并对气体规律推导",
+      "classification": "history",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-03",
+      "source_ids": [
+        "S70"
+      ],
+      "summary": "1858克劳修斯提出平均自由程以解释高速分子为何不瞬间贯穿房间",
+      "classification": "history",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-04",
+      "source_ids": [
+        "S76"
+      ],
+      "summary": "气体压强从分子频繁与壁面碰撞的平均动量交换产生",
+      "classification": "modern_mechanism",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-05",
+      "source_ids": [
+        "S76"
+      ],
+      "summary": "在简化模型中pV=(1/3)Nm〈v²〉，需理想弹性碰撞、各向同性等假设",
+      "classification": "modern_derivation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-06",
+      "source_ids": [
+        "S76"
+      ],
+      "summary": "〈v²〉与〈v〉²不是同一个统计量，不能把均方速率当平均速率",
+      "classification": "math_scope",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-07",
+      "source_ids": [
+        "S76"
+      ],
+      "summary": "比较pV=Nk_BT得(1/2)m〈v²〉=(3/2)k_BT为平动能关系",
+      "classification": "modern_physics",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-08",
+      "source_ids": [
+        "S76"
+      ],
+      "summary": "上述平动平均能量为三维理想气体分子平动自由度，不等同多原子气体全部内能",
+      "classification": "modern_scope",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-09",
+      "source_ids": [
+        "S76"
+      ],
+      "summary": "固定N和平均平动能，压强与体积呈反比，可从运动图景理解波义耳定律",
+      "classification": "modern_consequence",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-10",
+      "source_ids": [
+        "S71",
+        "S70"
+      ],
+      "summary": "麦克斯韦1860引入分子速度概率分布，不再所有分子同速",
+      "classification": "history",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-11",
+      "source_ids": [
+        "S71"
+      ],
+      "summary": "麦克斯韦1867更深入利用碰撞讨论平衡分布而修正最初论证",
+      "classification": "history",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-12",
+      "source_ids": [
+        "S71",
+        "S76"
+      ],
+      "summary": "速度向量的平均可能为零，分子速率分布却并非都零",
+      "classification": "modern_explanation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-13",
+      "source_ids": [
+        "S71"
+      ],
+      "summary": "玻尔兹曼从1866起研究统计物理，1872提出非平衡分布方程与H定理",
+      "classification": "history",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-14",
+      "source_ids": [
+        "S71"
+      ],
+      "summary": "玻尔兹曼1872论证使用分子碰撞统计假设，不能称只凭牛顿力学无前提证明熵永远增加",
+      "classification": "historiographic_limit",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-15",
+      "source_ids": [
+        "S71"
+      ],
+      "summary": "Loschmidt 1876反演反驳提示时间反向对称运动与不可逆增长的逻辑张力",
+      "classification": "history",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-16",
+      "source_ids": [
+        "S71"
+      ],
+      "summary": "1872的H函数与后来简化的S=klogW不能直接说是当年同一手写公式",
+      "classification": "history_caution",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-17",
+      "source_ids": [
+        "S73",
+        "S76"
+      ],
+      "summary": "理想气体忽略非碰撞期间的分子间吸引和自身体积，对稀薄气体较有效",
+      "classification": "physical_scope",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-18",
+      "source_ids": [
+        "S70",
+        "S73"
+      ],
+      "summary": "气体动理论提供可检验的微观模型，不是借分子理论否定所有前人的宏观实验",
+      "classification": "synthesis",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G13-19",
+      "source_ids": [
+        "S73",
+        "S74"
+      ],
+      "summary": "下一章分子有体积且相吸会使理想气体方程偏离，导向范德瓦耳斯",
+      "classification": "transition",
+      "verification": "source_preverified"
+    }
+  ]
 }
