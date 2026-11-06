@@ -1,7 +1,273 @@
 {
   "chapter": "13",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅第13章22条核心主张的前置证据核对；正文初稿仍待写，独立审稿未做，14—33章不受覆盖",
+  "claims": [
+    {
+      "claim_id": "T13-01",
+      "claim": "1834年Clapeyron发表Mémoire sur la puissance motrice de la chaleur",
+      "type": "bibliography",
+      "source_ids": [
+        "R90",
+        "R94"
+      ],
+      "locator": "1834 periodical pp153–190",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-02",
+      "claim": "1837年英文译本Scientific Memoirs不等于1834原英文稿",
+      "type": "bibliography",
+      "source_ids": [
+        "R91"
+      ],
+      "locator": "Vol1 Article XV",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-03",
+      "claim": "1824年Carnot主要用可逆循环思想、没有后世标准pV曲线呈现",
+      "type": "history_context",
+      "source_ids": [
+        "R18",
+        "R93"
+      ],
+      "locator": "Carnot/Clapeyron对照",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-04",
+      "claim": "Clapeyron在1834文章引入压力纵轴体积横轴的循环轨迹",
+      "type": "primary_source",
+      "source_ids": [
+        "R90",
+        "R91"
+      ],
+      "locator": "§II fig1",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-05",
+      "claim": "气体膨胀功按压力乘体积微变积分对应曲线下面积",
+      "type": "primary_source",
+      "source_ids": [
+        "R90",
+        "R91"
+      ],
+      "locator": "§II pV面积",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-06",
+      "claim": "完整准静态循环∮p dV的有向面积对应净机械功",
+      "type": "modern_formula",
+      "source_ids": [
+        "R90",
+        "R87"
+      ],
+      "locator": "现代机制重述",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-07",
+      "claim": "闭合图形方向会影响积分正负，顺时针通常对外做正功",
+      "type": "modern_physics",
+      "source_ids": [
+        "R90",
+        "R81"
+      ],
+      "locator": "pV orientation",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-08",
+      "claim": "两条不同路径可有同一端态而做功不同",
+      "type": "modern_physics",
+      "source_ids": [
+        "R90",
+        "R81"
+      ],
+      "locator": "area path dependence",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-09",
+      "claim": "不能宣称Clapeyron发明世上第一个蒸汽机压力体积指示图",
+      "type": "historical_boundary",
+      "source_ids": [
+        "R92",
+        "R93"
+      ],
+      "locator": "Watt indicator drawings existed",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-10",
+      "claim": "1834原著仍使用calorique热质模型，非能量守恒理论",
+      "type": "primary_source",
+      "source_ids": [
+        "R90",
+        "R93"
+      ],
+      "locator": "原著热质转移段",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-11",
+      "claim": "Clapeyron讨论空气与蒸汽热机并利用Carnot原理比较",
+      "type": "historical",
+      "source_ids": [
+        "R90",
+        "R93"
+      ],
+      "locator": "§II,§IV",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-12",
+      "claim": "Clapeyron气态和液态蒸汽共存曲线涉及饱和压与温度",
+      "type": "historical",
+      "source_ids": [
+        "R90",
+        "R91"
+      ],
+      "locator": "§IV",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-13",
+      "claim": "Clapeyron建立相变潜热与蒸气压温度变化率联系",
+      "type": "primary_source",
+      "source_ids": [
+        "R90",
+        "R92"
+      ],
+      "locator": "论文蒸汽段/2020史述",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-14",
+      "claim": "1834关系包含未知热机普适温度函数C(t)，不是今天T形式",
+      "type": "historical_boundary",
+      "source_ids": [
+        "R93",
+        "R90"
+      ],
+      "locator": "Saslow §4 eq4.4",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-15",
+      "claim": "1850 Clausius以能量守恒重述该相变关系",
+      "type": "historical_sequence",
+      "source_ids": [
+        "R92",
+        "R93"
+      ],
+      "locator": "1850与1834区别",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-16",
+      "claim": "现代严格Clapeyron式 dp_sat/dT=L/(T(vg−vl))",
+      "type": "modern_formula",
+      "source_ids": [
+        "R92",
+        "R93"
+      ],
+      "locator": "相变共存的热力学表达",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-17",
+      "claim": "该式L与两相比容单位一致；T为绝对温度",
+      "type": "modern_conditions",
+      "source_ids": [
+        "R92"
+      ],
+      "locator": "per mass units",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-18",
+      "claim": "dp/dT联系潜热与两相比容差，不是单凭沸点可定所有参数",
+      "type": "modern_interpretation",
+      "source_ids": [
+        "R92",
+        "R90"
+      ],
+      "locator": "thermodynamic properties",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-19",
+      "claim": "近似Clausius-Clapeyron dlnp/dT≈L/(Rspec T²)",
+      "type": "modern_approximation",
+      "source_ids": [
+        "R92"
+      ],
+      "locator": "ideal vapor & liquid negligible",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-20",
+      "claim": "积分ln(p2/p1)≈L/Rspec(1/T1−1/T2)另需L在温区近恒定",
+      "type": "modern_approximation",
+      "source_ids": [
+        "R92"
+      ],
+      "locator": "latent heat constant assumption",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-21",
+      "claim": "原始论文用数学图像替代机器零件叙述，是科学方法贡献",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R92",
+        "R93"
+      ],
+      "locator": "history reviews",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T13-22",
+      "claim": "第14章将区分循环路径函数Q/W与状态函数U/S，作为逻辑后继",
+      "type": "editorial_transition",
+      "source_ids": [
+        "R87",
+        "R93"
+      ],
+      "locator": "modern thermodynamics",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "原始史料与后世现代公式分层",
+    "不伪造对话、人物心理、历史实验数据",
+    "完成正文后修改status为draft，审稿仍为PENDING"
+  ]
 }
