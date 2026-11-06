@@ -244,3 +244,50 @@
 **历史谨慎**：古代“抛物线”命名史、完整数学原稿和会见对象的具体日期不可从当前证据推断；不制造“浴缸里的 Eureka”、墓地现场和攻城机器动作；科学问题在图纸与逻辑内具备足够张力。
 
 **写作许可范围**：此矩阵支持第05章历史非虚构**初稿**写作与逐项 claim 记录，不能授权审稿状态 PASS 或全书 evidence_verified 的无范围泛化。
+
+
+---
+
+## 第06章专项证据矩阵｜牛顿的流数、瞬时运动与微积分前史（2026-11-06）
+
+**写作范围**：第二部第06章。史料分为：牛顿手稿及《原理》后世译本；牛顿研究计划及严肃数学史；本书独立现代数学教学例题。与莱布尼茨优先权争论相关的牛顿自述属于**利害关系人的原始主张**，不能不加限定视为独立历史裁决。
+
+### 核查后的来源目录
+- **N06-NP-INTRO**：*The Newton Project*, “Introduction to the Texts” 数学手稿部分，https://www.newtonproject.ox.ac.uk/texts/introduction。牛顿1666年10月小论文与通过“运动”处理切线/面积/体积的描述。机构学术项目对原始手稿的专业介绍。
+- **N06-NP-TIMELINE**：*The Newton Project*, “The Life and Work of Isaac Newton at a Glance”，https://dev-newtonproject.history.ox.ac.uk/his-life-and-work-at-a-glance。1664既有数学探索，1665—1667因疫病暂离剑桥及1666年理论工作；时间线以资料所载为限，不编造室内发现瞬间。
+- **N06-NP-HISTORY**：Newton, *The History of the Method of Fluxions*（后期撰写的优先权争论相关手稿），Cambridge University Library MS Add.3968, ff.146r—171r；Newton Project 原稿转写，https://newtonproject.ox.ac.uk/view/texts/diplomatic/NATP00356。详细谈到 fluents、fluxions、moments、带点符号、均匀流动的类时间量；*因带有自我辩护性质，年代优先权判断须用学术研究交叉核证*。
+- **N06-MACTUTOR**：O’Connor & Robertson, “A history of the calculus”, MacTutor History of Mathematics, https://mathshistory.st-andrews.ac.uk/HistTopics/The_rise_of_calculus/。古代问题、费马/卡瓦列里/沃利斯/巴罗等先驱、牛顿1666/1669/1671、反向面积问题、1704与1736年出版、莱布尼茨关系。
+- **N06-MAA-NOTATION**：“Math Origins: The Language of Change”, Mathematical Association of America *Convergence*, https://old.maa.org/press/periodicals/convergence/math-origins-the-language-of-change 。1669《分析》未使用点号；1671《级数与流数的方法》出现点号，1736年以英语刊印。*该网站直接打开时可能有网络错误，检索摘要和牛顿原稿可交叉印证；不得声称完整查阅每页*。
+- **N06-CAMBRIDGE-WHITESIDE**：D. T. Whiteside (ed.), *The Mathematical Papers of Isaac Newton*, vol. III, 1670—1673, Cambridge UP, preface/analytic contents, https://assets.cambridge.org/97805210/45810/frontmatter/9780521045810_frontmatter.pdf。出版史：1671手稿计划未刊，1736科尔森英译，1779年拉丁文首版；不同版本不混淆。
+- **N06-CAMBRIDGE-GUICCIARDINI**：Niccolò Guicciardini, *The Development of Newtonian Calculus in Britain, 1700–1800*, Cambridge UP, https://www.cambridge.org/core/books/development-of-newtonian-calculus-in-britain-17001800/3F5BFC9F14EE42649CF64AC036308B31/listing?pageNum=2。明确1687《原理》中未直接发表完整流数运算法，1704《曲线求积》公开的状况与1736英译。
+- **N06-PRINCIPIA**：Newton, *Philosophiæ Naturalis Principia Mathematica* (1687), Book I §1, Lemma 1 and Scholium；1846英译校勘页，https://en.wikisource.org/wiki/Page:Newton%27s_Principia_(1846).djvu/101 与 https://en.wikisource.org/wiki/Page:Newton%27s_Principia_(1846).djvu/108 。牛顿采用“初始与最终比”并强调趋向极限，不可诬称他只是先令时间不为零、随后无理由设零；英译年代应标注。
+- **N06-LEIBNIZ-MAA**：F. J. Swetz, “Mathematical Treasure: Leibniz’s Papers on Calculus—Differential Calculus”, MAA, https://old.maa.org/press/periodicals/convergence/mathematical-treasure-leibnizs-papers-on-calculus-differential-calculus 。莱布尼茨于1684年10月《Acta Eruditorum》发表介绍微分计算的论文，所在页467—473。
+- **N06-LEIBNIZ-HIST**：“Gottfried Wilhelm Leibniz, first three papers on the calculus (1684, 1686, 1693)”, *Landmark Writings in Western Mathematics 1640–1940* (2005), Elsevier, https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780444508713500851 。学术史确认牛顿和莱布尼茨独立发展微积分、莱布尼茨先正式发表。
+- **N06-AMS-PRIORITY**：AMS *Notices* related review, https://doi.org/10.1090/noti2593 。1684/1686莱布尼茨发表、1676通信、牛顿早期流数的发展及随后优先权争议；文章是**书评**，不是独立一手仲裁。
+
+### claim_id → 允许写进本章的主张／界限
+
+| claim_id | 主张内容 | 证据 | 分类与限定 |
+|---|---|---|---|
+| H06-01 | 牛顿在1664年前后已开始数学研究；1665—1667剑桥疫病干扰期间回乡研究，不能称疫病凭空造就微积分 | N06-NP-TIMELINE | 已核背景；个人具体心理与想象场景禁止 |
+| H06-02 | 牛顿1666年10月手稿将运动模型用于求切线、面积等变化问题 | N06-NP-INTRO；N06-MACTUTOR | 已核文献时序，不把内容误写成已发表论文 |
+| H06-03 | “流量/流动量”fluents 指连续生成变化的量，“流数”fluxions 指变化的速率；点记号 \(\dot x\) 被牛顿使用 | N06-NP-HISTORY；N06-MAA-NOTATION | 已核文本；具体符号使用随时期和版本而异 |
+| H06-04 | moment 指在极短的时间增量中生成的“微小增量”，不等于流数自身；牛顿常用类时间匀速流动量衡量变化 | N06-NP-HISTORY | 已核术语；不能把 moment 与现代严格微分或零时长位移直接等同 |
+| H06-05 | 现代教学模型 \(s(t)=t^2\) 的平均速率为 \(2t+h\)，瞬时速率为 \(2t\)，且数值表两侧逼近 | 自拟现代代数恒等式与极限 | 已演算，非牛顿原题 |
+| H06-06 | 给 \(y=x^2\)，当 \(x\) 流动时，流数关系为 \(\dot y=2x\dot x\)；曲线切线斜率为 \(\dot y/\dot x\)（\(\dot x\ne0\)） | N06-NP-HISTORY；N06-MACTUTOR；现代链式法则核验 | 数学已核；不把现代链式法则符号写成17世纪论文原式 |
+| H06-07 | 对速度再求变化率可得加速度；\(\ddot s\) 是二阶流数的现代/牛顿体系记号，不意味着纽顿一切著作均持续采用这种记号 | N06-NP-HISTORY；N06-MAA-NOTATION | 已核数学+时序 |
+| H06-08 | 流数与逆向寻找流量（由变化率恢复量）同属牛顿研究；切线和求积问题之间的关联是微积分形成要点 | N06-MACTUTOR；N06-NP-INTRO | 已核，历史归属不是“牛顿独立发明全部相关思想” |
+| H06-09 | 1669相关《分析》手稿流传、1671较完整《级数与流数的方法》成稿，直到1736才有其英文印本；与1704《曲线求积》及1687《原理》出版应区分 | N06-MACTUTOR；N06-CAMBRIDGE-GUICCIARDINI；N06-CAMBRIDGE-WHITESIDE | 核实多书时序，严禁“牛顿方法到1736才第一次公之于世”的失实概括 |
+| H06-10 | 1687《原理》第一卷§1采用“初始及最终比”与极限思想回应量消失的困惑，并非现代19世纪 ε–δ 制度 | N06-PRINCIPIA；N06-CAMBRIDGE-GUICCIARDINI | 古典原文（1846英译）与现代解释区分 |
+| H06-11 | 费马、卡瓦列里、沃利斯、巴罗等人先已研究切线、极大极小与面积，为牛顿提供前史 | N06-MACTUTOR；N06-NP-TIMELINE | 已核；不可出现完全单一天才发明 |
+| H06-12 | 莱布尼茨独立发展其微分方法，并于1684年10月公开发表较早的完整文章；牛顿/莱布尼茨不同贡献和时序 | N06-LEIBNIZ-HIST；N06-LEIBNIZ-MAA | 已核；优先权争论另章详述，牛顿自述不做中立判决 |
+| H06-13 | 1734伯克利后来对微积分基础提出批评、19世纪数学分析逐渐严密化；早期算法成功与概念争议并存 | N06-MACTUTOR；全书 outline.md | 已核，不能因概念争议宣布一切计算错误 |
+| H06-14 | 现代算式 \([(x+h)^2-x^2]/h=2x+h\) 仅在 \(h\ne0\) 可做除法，\(h\to0\) 是极限过程而不是把0作为分母 | 数学代数与现代极限定义；N06-PRINCIPIA | 已核数学；不同于牛顿历史证明原文 |
+| H06-15 | 现代模型 \(A(x)=x^3/3\) 则 \(A'(x)=x^2\) 说明面积累积与变化率的逆关系；不能直接称牛顿的原稿例题 | N06-MACTUTOR；现代函数计算 | 已核现代解释 |
+| H06-16 | 章节中的“运动逼出数学”是解释框架，17世纪切线/面积数学还由几何、天文学、物理等多线推动 | 全书 brief.md/outline.md；N06-MACTUTOR | 编辑性，不是历史单线因果 |
+
+### 创作许可和风险说明
+- **可写**：速度变化的直接疑问→有限平均速度与瞬时速度区别→1660年代的手稿时序→流量流数的直觉→两个变量如何联动→由速度回求位移／由面积求变化率→1687年“初始最终比”→发表时间差与独立发展→数学严密性债务，接第07章莱布尼茨。
+- **不可写**：牛顿某夜亲眼看苹果下落并“当场发明流数”；从来无人研究切线；牛顿先公开发表完整流数法；莱布尼茨从牛顿偷来一切；普遍声称牛顿一套理论没有数学基础；牛顿拥有现代 \(\varepsilon\)-\(\delta\) 定义。
+- **学术边界**：有关牛顿1676年通信和1730年代争论的自述带有优先权利益立场；优先考虑手稿日期、出版实物与独立史学研究。现代展示 \(t^2\)、面积函数、导数/积分仅供说明，不能冒充历史原式。
+- **审核状态**：本证据矩阵仅支持第06章创作初稿及其 claims 映射，不代表双审通过或整书史料完成。
