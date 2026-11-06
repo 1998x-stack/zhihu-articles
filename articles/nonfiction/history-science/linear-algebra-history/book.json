@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "linear-algebra-history",
   "title": "从方程到空间：一部线性代数思想发展史",
-  "reading_notice": "第01—08章共有8章已完成正文初稿及逐章来源对照，另26个章节位置仍为策划占位。尚未通过正式独立双审或终稿批准。",
+  "reading_notice": "第01—11章共11章已有带史料来源账本的历史非虚构正文初稿；序章、尾声和第12—32章共23个章节位置仍为策划占位。尚未完成正式独立双审或终稿批准。",
   "chapters": [
     {
       "id": "prologue",
@@ -72,21 +72,21 @@
       "title": "笛卡尔：让几何学开始说代数的语言",
       "part": "第三部｜空间被重新发明",
       "file": "draft/09.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-10",
       "title": "莫比乌斯与贝拉维蒂斯：方向也能相加吗",
       "part": "第三部｜空间被重新发明",
       "file": "draft/10.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-11",
       "title": "哈密顿：乘法为什么突然不交换",
       "part": "第三部｜空间被重新发明",
       "file": "draft/11.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-12",
