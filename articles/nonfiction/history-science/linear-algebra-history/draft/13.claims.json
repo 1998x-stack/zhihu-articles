@@ -1,0 +1,73 @@
+{
+  "chapter": "13",
+  "title": "西尔维斯特：矩阵先有名字，还是先有理论",
+  "status": "DRAFT_NOT_REVIEWED",
+  "revision_count": 0,
+  "sources": {
+    "H13-S1": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/m/",
+    "H13-S2": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "H13-S3": "https://doi.org/10.1080/14786445008646629",
+    "H13-S4": "https://eprints.ma.man.ac.uk/2142/",
+    "M13": "本章第3—7节子式与秩的现代验算"
+  },
+  "claims": [
+    {
+      "claim_id": "C13-01",
+      "source_ids": [
+        "H13-S1",
+        "H13-S3"
+      ],
+      "kind": "historical_publication",
+      "verified": true
+    },
+    {
+      "claim_id": "C13-02",
+      "source_ids": [
+        "H13-S1",
+        "H13-S2"
+      ],
+      "kind": "historical_scope",
+      "verified": true
+    },
+    {
+      "claim_id": "C13-03",
+      "source_ids": [
+        "M13"
+      ],
+      "kind": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C13-04",
+      "source_ids": [
+        "M13"
+      ],
+      "kind": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C13-05",
+      "source_ids": [
+        "H13-S1",
+        "H13-S2"
+      ],
+      "kind": "historical",
+      "verified": true
+    },
+    {
+      "claim_id": "C13-06",
+      "source_ids": [
+        "H13-S1",
+        "H13-S2",
+        "H13-S4"
+      ],
+      "kind": "historical_interpretation",
+      "verified": true
+    }
+  ],
+  "historical_limits": [
+    "1850年matrix是原始命名，不等于现代矩阵代数完备",
+    "不要把现代秩术语归于1850论文",
+    "子式为零不能独立判定方程组相容性"
+  ]
+}
