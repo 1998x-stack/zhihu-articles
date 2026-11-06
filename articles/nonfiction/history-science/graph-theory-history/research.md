@@ -1,5 +1,5 @@
 # 史料检索档案｜全书分章核证进展
-> **分章节、限定范围核证：00—09章的具体主张在下方专章记录；10—37仍是待核写作线索。`evidence_verified=true` 仅表示已完成写作章节的必要前置研究，不代表整部书核证完毕或审稿通过。**
+> **分章节、限定范围核证：00—12章的具体主张在下方专章记录；13—37仍是待核写作线索。`evidence_verified=true` 仅表示已完成写作章节的必要前置研究，不代表整部书核证完毕或审稿通过。**
 | ID | 文献 | 入口 | 可支持的范围/限制 |
 |---|---|---|---|
 | S01 | Beineke / Toft / Wilson, Milestones in Graph Theory (AMS/MAA, 2025) | https://www.ams.org/books/spec/108/spec108-endmatter.pdf | 学科发展与跨世纪年表；目录、序言、年表已检索；逐章需重读原始史料 |
@@ -298,3 +298,86 @@
 ### 结构与时间核查结论
 
 第07章跟随1879—1890（不能演绎为实际所有数学家逐日无异议）；08章重点1912与Whitney **1931预告/1932深化**；09章1930史料，但放在08之后是**专题路径，不是严格编年**。四色争议、色多项式、平面性结构判据是三条相互联系但未必存在直接师承因果的研究路线；本书采用“证据与概念的依赖关系”进行编排，正文明确回访年份。研究完整性范围仅07—09初稿。
+
+
+---
+
+## 第10—12章专项史实与数学核证｜2026-11-06
+
+适用范围：第10章计算机辅助四色证明；第11章门格尔定理；第12章二分图最大匹配与最小点覆盖。全书仍沿用历史科学**非虚构**分支：不得创造人物口述/私人心理；历史年份依原始题录和学术史书定位；现代图例与证明推导不冒充原作者当年的文字。以下证据是限定范围的写作准入，不是最终同行审稿或原刊逐页校勘。
+
+### 新增来源索引 S56—S69
+
+| ID | 文献与实际检索入口 | 可以支持的主张、未完成的工作 |
+|---|---|---|
+| S56 | Robin Wilson, “The Four Color Theorem,” *Notices of the AMS* (2023), https://doi.org/10.1090/noti2781 | AMS出版综述支持1852起源、1976 Appel–Haken突破、1977两篇论文与John Koch、可约配置及放电历史；不同版本的配置数存在初稿/正式刊版差别（1936→1482等），**正文不以无版本说明的配置数作为主结论**。 |
+| S57 | K. Appel and W. Haken, “Every planar map is four colorable,” *Bulletin AMS* **82** (1976), 711–712, DOI 10.1090/S0002-9904-1976-14122-5；1977论文 Part I, *Illinois J. Math.* **21**, 429–490, Part II with J. Koch, pp.491–567；书目 https://celebratio.org/Haken_W/article/786/ | 一手论文题录与学会摘要：**1976年证明/宣告，1977年正式详细刊印**。书目及摘要已核，不冒称从首页逐页检查所有可约表。 |
+| S58 | Neil Robertson, Daniel Sanders, Paul Seymour, Robin Thomas, “The Four-Colour Theorem,” *Journal of Combinatorial Theory B* **70** (May 1997), 2–44, DOI 10.1006/jctb.1997.1750, 出版社 https://www.sciencedirect.com/science/article/pii/S0095895697917500；作者简述 https://thomas.math.gatech.edu/FC/fourcolor.html | 证明作者原始介绍支持1997刊印、633个配置、不可避免集合/可约性两条件、仍借助计算机；不能简单宣称1997成为纯手工证明。 |
+| S59 | Georges Gonthier, “Verifying the Four Colour Theorem,” (2004–05), Cornell Nuprl archival notice https://nuprl-web.cs.cornell.edu/KB/show.php?ID=627 | 作者公开通知支持**2004—2005前后**Coq机器校核及其与原版计算机枚举的区别。 |
+| S60 | Georges Gonthier, “A computer-checked proof of the Four Colour Theorem,” Microsoft Research Cambridge technical report, https://www.microsoft.com/en-us/research/wp-content/uploads/2012/10/4colproof.pdf | 作者亲述报告第1页确认Coq v7.3.1形式化核证，基于Robertson等人的证明但有新贡献；还有硬件、编译器、检查器等**信任基础**，不能把形式证明称作绝对零依赖；已用网页PDF第一页截图核对。 |
+| S61 | Karl Menger, “Zur allgemeinen Kurventheorie,” *Fundamenta Mathematicae* **10** (1927), 96–115, 原刊波兰科学院卷目录 https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/10 | 原刊卷期页证实卡尔·门格尔1927，标题为一般曲线理论；1927不是网络工程或1950年代最大流算法。原始页码可核，但尚未完整校勘德文原作。 |
+| S62 | *Start Doing Graph Theory*, “Menger’s Theorem,” https://vertex.degree/connectivity/menger | 开放图论证明解释（现代）：**非相邻**顶点s,t，最大内部顶点互不相交路径数=最小内部点割数；非相邻条件不可漏；可借现代匹配或流思想解释，但不能倒置时间。 |
+| S63 | Reinhard Diestel, *Graph Theory*, chapter 3.3 “Menger’s theorem,” Springer 2nd ed. (2000) electronic edition, https://www.prip.tuwien.ac.at/staffpages/yll/docs/graph_theory_book_diestel.pdf | 图论教材给出一般A–B顶点分离和互不相交路径版本，及邻接情形特殊约定；网页已提供章段摘录，PDF截图已尝试。简化的s,t非邻接版本由S62复核。 |
+| S64 | Peter J. Cameron, “Hall’s marriage theorem,” *Journal of the London Mathematical Society* (2026), https://doi.org/10.1112/jlms.70378 | 学术历史回顾讨论Menger 1927路径—割与Hall、匹配联系；**不能说Hall 1935的定理就是Menger1927原文**。 |
+| S65 | Dénes Kőnig, “Graphok és matrixok” (1931), translated and introduced by Gábor Szárnyas (2020), https://arxiv.org/abs/2009.03780 | 英语译文题录与摘要：**二分图最大匹配大小=最小顶点覆盖大小**在Kőnig 1931年的论文明确证明；“1916与1931”不要混为同一发表年份。 |
+| S66 | Silvano Martello, “Jenő Egerváry: from the origins of the Hungarian algorithm to satellite communication,” *Central European Journal of Operations Research* **18** (2010), 47–58, 博洛尼亚大学论文记录 https://cris.unibo.it/handle/11585/84845 | 历史分析：Kőnig 1916 *Math Ann* **77** 453–465与**1931** Egerváry *Mat. Fiz. Lapok* **38** 16–28构成早期矩阵与加权指派研究；后续1931命名定理明确引S65和S68。PDF出版社版已检索摘要，未声称整篇逐页校勘。 |
+| S67 | H. W. Kuhn, “The Hungarian method for the assignment problem,” *Naval Research Logistics Quarterly* **2** (1955), 83–97, Wiley原刊 https://onlinelibrary.wiley.com/doi/10.1002/nav.3800020109 | 出版社摘要及书目核查**1955 Hungarian method**与匈牙利两位先行工作；不能把1955年算法归功于1931年人物以为完全同一实现。 |
+| S68 | *Start Doing Graph Theory*, “Kőnig’s Theorem,” https://vertex.degree/matchings/konig | 现代二分图最大匹配—最小顶点覆盖定理、增广路与交错路构造，以及1931表述的数学证明；反例三角形属于非二分图。 |
+| S69 | *Discrete Mathematics*, Indian Statistical Institute lecture notes, “Independent Sets and Covers: Konig, Egervary theorem,” https://www.isibang.ac.in/~d.yogesh/Course_Notes/DM1/Ch6.S3.html | 现代讲义将两个数学家放在1931年定理背景中，对0-1矩阵行列覆盖/不冲突选1解释匹配—覆盖二元对偶；历史优先以原作译本S65为主。 |
+
+### 第10章：计算机、可约性与四色证明（GT10-01—GT10-12）
+
+| ID | 主张与可写范围 | 来源 | 核验分类 |
+|---|---|---|---|
+| GT10-01 | 1976 Appel–Haken首证四色，1976通讯公告及1977分两部分详细刊印，第二部分合作者John Koch | S56、S57 | HISTORICAL_VERIFIED_SCOPED |
+| GT10-02 | 1852提出、1879 Kempe尝试、1890 Heawood指出错误，历史动机与07章吻合 | S56 | HISTORICAL_VERIFIED_SCOPED |
+| GT10-03 | 证明以“假设存在顶点数最少的反例”为起点，只针对有限无自环平面图；在结构约简后讨论三角剖分 | S56、S58 | MODERN_PROOF_SCHEMA |
+| GT10-04 | **可约配置**=在最小反例中不能出现的局部结构；“可约”不是指每个4色边界都可直接不改动地延拓 | S58、S60 | MODERN_DEFINITION_SCOPED |
+| GT10-05 | **不可避免集**=目标图类任意候选都至少包含集合中的某个配置；与“全部配置可约”合成矛盾 | S58、S56 | MODERN_PROOF_SCHEMA |
+| GT10-06 | 欧拉公式可给平面三角剖分 \(\sum_v(6-\deg(v))=12\)；放电法重新分配局部电荷，总量守恒以证明局部配置必出现 | S56、S58、独立推导 | MODERN_MATH |
+| GT10-07 | 原始证明需要计算机执行有限但巨大的配置可约性检查，**不是穷举所有可能平面图** | S56、S57、S60 | HISTORICAL/LOGICAL |
+| GT10-08 | 配置数因1976预印/1977正式版和后世整理不同，正文若数字仅写明确版本；如1997证明使用633个配置 | S56、S58 | HISTORICAL_CAVEAT |
+| GT10-09 | 1997 Robertson–Sanders–Seymour–Thomas正式发表更易核验的仍依赖计算机的证明，作者网页列633组 | S58 | HISTORICAL_VERIFIED_SCOPED |
+| GT10-10 | 2004—05 Gonthier基于Coq完成形式化验证，报告明确基于Robertson等证明且加入新贡献 | S59、S60 | HISTORICAL_VERIFIED_SCOPED |
+| GT10-11 | 计算机辅助穷举 vs Coq形式校核：后者除了运行程序还检查数学证明的逻辑细节；仍依赖形式化定义、验证器实现和硬件等基础 | S59、S60 | METHODOLOGY_BOUNDARY |
+| GT10-12 | 现代四着色已经是定理；不能把“有争议的证明形式”写成数学界仍未证明四色定理 | S56、S58 | EDITORIAL_BOUNDARY |
+
+### 第11章：门格尔定理及分离—路径对偶（GT11-01—GT11-11）
+
+| ID | 主张与数学适用边界 | 来源 | 核验分类 |
+|---|---|---|---|
+| GT11-01 | Menger 1927原作标题 *Zur allgemeinen Kurventheorie*, *Fundamenta Mathematicae* 10, 96–115 | S61 | PRIMARY_BIBLIO_VERIFIED |
+| GT11-02 | 在有限无向图中，对**互不相邻**的不同s,t，最大两两内部顶点不交的s–t路径数=最小s/t以外顶点分离集数 | S62、S63 | THEOREM_MODERN |
+| GT11-03 | “内部顶点不交”可共享端点s,t；“边不相交”是另一版本，不要将点割/边割混写 | S62、S63 | MODERN_DEFINITION |
+| GT11-04 | 一个共同的中转顶点足以卡住多条看似不同路径，数路径不能把共享中转点误计为独立 | S62、数学教学示例 | MODERN_EXPLANATION |
+| GT11-05 | 对任一内部顶点分离集X，每条内部不交路径必须经过X中的不同顶点，故路径条数≤|X|；相反方向是Menger深层结论 | S62、S63 | MODERN_PROOF_SCOPE |
+| GT11-06 | 例四条表面路径共用x,y两瓶颈，最大内部不交2条，最小分离集{x,y}大小2 | S62、独立构造 | MODERN_EXAMPLE |
+| GT11-07 | 如果s,t直接有边，不能通过删除内部顶点切断长度1路径，故简单s,t点割表述必须加“非相邻” | S62 | BOUNDARY_CASE |
+| GT11-08 | 边不交路径最大数=最小s–t边割大小，包括端点相邻的情况；点切和边切不是同一个定理表述 | S64、S63 | THEOREM_MODERN |
+| GT11-09 | 现代证明可以把内部顶点拆为入/出并限制单位容量，再由最大流最小割说明，但**1950年代最大流定理不可倒灌到1927年原作** | S62、S64、现代构造 | MODERN_METHOD |
+| GT11-10 | 全图的k顶点连通意味着删除任意少于k个顶点后仍连通，与每对顶点k条内部不交路径关联（需顶点数至少k+1） | S62、S63 | MODERN_EXPLANATION |
+| GT11-11 | Menger与Hall/Kőnig有现代数学等价/证明联系，但不能虚构两者直接合作或发表先后对应书目 | S64、S68 | HISTORICAL_BOUNDARY |
+
+### 第12章：柯尼希与埃格瓦里、二分图匹配（GT12-01—GT12-12）
+
+| ID | 主张与数学适用边界 | 来源 | 核验分类 |
+|---|---|---|---|
+| GT12-01 | 二分图顶点分两部，边仅跨部；匹配是互不共享端点的边集合；允许某些工人/岗位未匹配 | S68、S69 | MODERN_DEFINITION |
+| GT12-02 | 顶点覆盖是碰到每条边的**顶点集合**，不是覆盖所有顶点，也不是走过每条边 | S68、S69 | MODERN_DEFINITION |
+| GT12-03 | 任何图都有最大匹配大小≤最小点覆盖大小；每条互不相邻的匹配边需至少一个不同点覆盖 | S68 | MODERN_SIMPLE_PROOF |
+| GT12-04 | **二分图**中二者相等（Kőnig theorem），对一般图不成立：三角形最大匹配1、最小点覆盖2 | S65、S68 | THEOREM_SCOPED |
+| GT12-05 | 原作年份应区分Kőnig 1916矩阵/行列式研究与1931 *Graphok és matrixok*直接证明最大匹配=最小点覆盖 | S65、S66、S67 | HISTORICAL_VERIFIED_CAVEAT |
+| GT12-06 | Egerváry 1931论文加权指派的矩阵极值与覆盖对偶是扩展路线，不等于无权二分图定理简单换名 | S66、S69 | HISTORICAL_VERIFIED_SCOPED |
+| GT12-07 | 4工人、3项可能岗位的示例：边A1/B1/C2/C3/D3，最大匹配3、最小点覆盖{1,C,3}大小3 | S68、独立组合计算 | MODERN_EXAMPLE |
+| GT12-08 | 交错路在匹配边/非匹配边间切换；从左侧未匹配点开始到右侧未匹配点的**增广路**可翻转，使匹配大小+1 | S68 | MODERN_PROOF |
+| GT12-09 | 从最大匹配M出发，按未匹配L端点作交替可达集Z；\(C=(L\setminus Z)\cup(R\cap Z)\)是点覆盖，且大小=|M|，给出双向证书 | S68 | MODERN_PROOF |
+| GT12-10 | 为什么这个构造是极小：每条M边恰一端在C中，若存在到未匹配R顶点的交错路则M还能增广，故已最大 | S68 | MODERN_PROOF |
+| GT12-11 | 1955 Kuhn把Kőnig与Egerváry早期成果发展为匈牙利方法，不能把该算法直接写作1931年已完整实现 | S67、S66 | HISTORICAL_VERIFIED_SCOPED |
+| GT12-12 | 完美匹配问题“何时全部工人可得不同岗位”引向Hall 1935；二分图匹配—覆盖等式并非Hall条件原文 | S64、S68 | FORWARD_LINK |
+
+### 历史序列与质量闸门
+
+- 这一批为**专题叙述而非单向年代**：10章终结四色线索（1976—2005）；11章返回1927研究顶点连通；12章回访1916/1931二分图与1931加权指派。每章必须提示时间回跳。
+- 10章公式是最小反例与局部配置的**证明框架**；未证明的配置可约性必须明确引用经计算/形式核查的外部定理，不要声称本章手工重现。
+- 11章不得把边版Menger混作顶点版，禁止忽略**非相邻端点**前提；12章不得把匹配—覆盖等式推广至任意图。
+- 限定核证只允许编写第10—12章初稿，第13—37章继续TODO_VERIFY。独立审稿、精修与终稿发布未获批准。
