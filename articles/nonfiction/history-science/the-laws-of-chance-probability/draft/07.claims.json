@@ -1,6 +1,104 @@
 {
   "chapter_id": "07",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "notes": "Only claims explicitly scoped below are supported; original editions/final independent review still pending.",
+  "sources": [
+    {
+      "source_id": "P07-S1",
+      "title": "Christiaan Huygens, De Ratiociniis in Ludo Aleae, 1714 Browne English translation",
+      "url": "https://math.dartmouth.edu/~doyle/docs/huygens/huygens.pdf",
+      "kind": "historical_primary_english_translation"
+    },
+    {
+      "source_id": "P07-S2",
+      "title": "Anders Hald, Huygens and De Ratiociniis in Ludo Aleae (1990)",
+      "url": "https://doi.org/10.1002/0471725161.ch6",
+      "kind": "scholarly_history"
+    },
+    {
+      "source_id": "P07-S3",
+      "title": "Encyclopedia of Mathematics, Huygens Christiaan",
+      "url": "https://encyclopediaofmath.org/wiki/Huygens%2C_Christiaan",
+      "kind": "scholarly_history"
+    },
+    {
+      "source_id": "P07-S4",
+      "title": "Pulskamp, bilingual Huygens historic transcript",
+      "url": "https://www.probabilityandfinance.com/pulskamp/Huygens/sources/de%20ludo%20Aleae%20-%20rjp.pdf",
+      "kind": "historical_edited_transcript"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07-01",
+      "statement": "Huygens De ratiociniis in ludo aleae printed in 1657 as appendix to Van Schooten's mathematical exercises",
+      "source_ids": [
+        "P07-S1",
+        "P07-S2",
+        "P07-S3"
+      ],
+      "category": "historical_bibliography",
+      "verification": "CORROBORATED",
+      "limitations": "1714 Browne English text is not Latin 1657 facsimile"
+    },
+    {
+      "claim_id": "C07-02",
+      "statement": "Huygens propositions I and II set equal-chance expectation (a+b)/2 and (a+b+c)/3",
+      "source_ids": [
+        "P07-S1"
+      ],
+      "category": "primary_math",
+      "verification": "PRIMARY_TRANSLATION_PAGE_CHECKED",
+      "limitations": "Do not falsely attribute modern random variable notation"
+    },
+    {
+      "claim_id": "C07-03",
+      "statement": "Huygens proposition III treats p equal outcomes of value a and q of value b by (pa+qb)/(p+q)",
+      "source_ids": [
+        "P07-S1"
+      ],
+      "category": "primary_math",
+      "verification": "PRIMARY_TRANSLATION_PAGE_CHECKED",
+      "limitations": "Only equal likelihood among underlying cases"
+    },
+    {
+      "claim_id": "C07-04",
+      "statement": "His worked case 3 outcomes at 13 and 2 outcomes at 8 yields 11",
+      "source_ids": [
+        "P07-S1"
+      ],
+      "category": "primary_math",
+      "verification": "PRIMARY_TRANSLATION_PAGE_CHECKED",
+      "limitations": "Interpretation is historical mathematical example"
+    },
+    {
+      "claim_id": "C07-05",
+      "statement": "His work included recursive treatment of the problem of points and several exercises",
+      "source_ids": [
+        "P07-S1",
+        "P07-S2",
+        "P07-S3"
+      ],
+      "category": "history_math",
+      "verification": "CORROBORATED",
+      "limitations": "Do not claim he originated every principle"
+    },
+    {
+      "claim_id": "C07-06",
+      "statement": "Mean of equally likely outcomes 0 and 10 equals 5 but uncertainty differs from a constant five",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "limitations": "Equal expectations do not imply equal risk, preference or realized outcomes"
+    },
+    {
+      "claim_id": "C07-07",
+      "statement": "Linearity of expectation E[X+Y]=E[X]+E[Y] holds without independence for finite defined expectations",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "limitations": "Later formalization; not Huygens' original modern notation"
+    }
+  ]
 }

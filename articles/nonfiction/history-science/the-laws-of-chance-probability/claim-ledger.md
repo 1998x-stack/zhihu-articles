@@ -35,9 +35,30 @@
 | 05 | C05-06 | The generic two-player fair independent-round formula N=r+s-1 and P_A=2^-N sum_{k=r}^N C(N,k) | 现代数学推导 | INDEPENDENTLY_DERIVED |
 | 05 | C05-07 | Probability arithmetic and divided-stake problems predate the 1654 correspondence | P05-S3, P05-S4 | CORROBORATED |
 | 05 | C05-08 | De Méré is mentioned in the historical context but need not be credited as sole inventor-trigger | P05-S1, P05-S2 | SOURCED_AND_SCOPED |
-| 06 | C06-01 | 帕斯卡及更早的组合数学传统：二项系数、组合恒等式 | 待核对 | UNVERIFIED |
-| 07 | C07-01 | 惠更斯：期望、概率加权平均 | 待核对 | UNVERIFIED |
-| 08 | C08-01 | 格朗特、哈雷：寿命表、经验频率 | 待核对 | UNVERIFIED |
+| 06 | C06-01 | Pascal Traité du triangle arithmétique was developed around 1654 and printed posthumously in 1665 | P06-S1, P06-S2 | CORROBORATED |
+| 06 | C06-02 | Pascal systematically studied the triangle, combinations, stake division and binomial powers | P06-S1, P06-S3 | PRIMARY_EDITED_TEXT_AND_HISTORY |
+| 06 | C06-03 | Yang Hui's 1261 mathematics and attribution to Jia Xian precede Pascal; wider traditions also existed | P06-S4, P06-S5 | CORROBORATED |
+| 06 | C06-04 | The binomial-coefficient recurrence C(n,k)=C(n-1,k)+C(n-1,k-1) follows from include/exclude partition | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 06 | C06-05 | Sum of n-th row equals 2^n and matches binary sequence count | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 06 | C06-06 | C(6,2)=15 and C(10,3)=120 are independently verified | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 06 | C06-07 | In modern equal independent two-player illustration with remaining 2 vs 3 wins, chance ratio is 11/16 vs 5/16 | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 07 | C07-01 | Huygens De ratiociniis in ludo aleae printed in 1657 as appendix to Van Schooten's mathematical exercises | P07-S1, P07-S2, P07-S3 | CORROBORATED |
+| 07 | C07-02 | Huygens propositions I and II set equal-chance expectation (a+b)/2 and (a+b+c)/3 | P07-S1 | PRIMARY_TRANSLATION_PAGE_CHECKED |
+| 07 | C07-03 | Huygens proposition III treats p equal outcomes of value a and q of value b by (pa+qb)/(p+q) | P07-S1 | PRIMARY_TRANSLATION_PAGE_CHECKED |
+| 07 | C07-04 | His worked case 3 outcomes at 13 and 2 outcomes at 8 yields 11 | P07-S1 | PRIMARY_TRANSLATION_PAGE_CHECKED |
+| 07 | C07-05 | His work included recursive treatment of the problem of points and several exercises | P07-S1, P07-S2, P07-S3 | CORROBORATED |
+| 07 | C07-06 | Mean of equally likely outcomes 0 and 10 equals 5 but uncertainty differs from a constant five | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 07 | C07-07 | Linearity of expectation E[X+Y]=E[X]+E[Y] holds without independence for finite defined expectations | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 08 | C08-01 | Graunt published Natural and Political Observations upon the Bills of Mortality in 1662 | P08-S1 | LIBRARY_CATALOG_CHECKED |
+| 08 | C08-02 | Graunt used 100 quick conceptions, estimated 36 deceased before six, 64 remaining at six, 40 at sixteen, 25 at twenty-six | P08-S2 | EDITED_1676_TEXT_CHECKED |
+| 08 | C08-03 | Conditional proportions 40/64=5/8 and 25/40=5/8 are arithmetic implications of Graunt stylized figures | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 08 | C08-04 | Halley published 1693 mortality and annuity paper using Breslau births and burials data from 1687-1691 | P08-S4, P08-S5 | PUBLISHED_REPRINT_CHECKED |
+| 08 | C08-05 | Breslau data were collected by Caspar Neumann | P08-S6 | SECONDARY_DATA_DOCUMENTATION |
+| 08 | C08-06 | Halley mentioned London migration, lack of counts and death ages as reasons to select Breslau | P08-S4, P08-S5 | HISTORICAL_REPRINT_CHECKED |
+| 08 | C08-07 | Halley's historic table gives age current 1: 1000; 2: 855; 3: 798 | P08-S5 | HISTORICAL_TABLE_CHECKED |
+| 08 | C08-08 | Life table survival proportion l_(x+1)/l_x is a conditional probability under an idealized cohort framework | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 08 | C08-09 | Later statistics identifies Halley table as closer to a population table than modern prospective cohort | P08-S6 | SUPPORTED_BY_RESEARCH_DATA_AND_SCHOLARLY_REFERENCE |
+| 08 | C08-10 | Need a population denominator rather than raw death counts to infer age-specific rates | 现代数学推导 | INDEPENDENTLY_DERIVED |
 | 09 | C09-01 | 蒙莫尔：排列、错排与递推概率 | 待核对 | UNVERIFIED |
 | 10 | C10-01 | 雅各布·伯努利：伯努利型大数定律 | 待核对 | UNVERIFIED |
 | 11 | C11-01 | 德莫弗：二项分布、独立性与分析 | 待核对 | UNVERIFIED |

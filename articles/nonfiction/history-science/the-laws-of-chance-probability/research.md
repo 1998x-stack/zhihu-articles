@@ -82,3 +82,36 @@
 ### 本批审校门禁
 - 以上标记的 SOURCED、DERIVED 只对应**特定段落和数学命题**，不代表该章通过独立审稿/全书事实核验。
 - 仓库的 workflow-state.json 仍应保留 outline_approved=false、evidence_verified=false、review_status=PENDING；正式审稿仍需 continuity-audit 和 developmental-editor。
+
+
+## 第06—08章专项史料核验｜2026-11-06
+
+> 工作级增量研究：下列文献支持**本批特定史料主张**，并不等于本书事实全部核验完毕。第06—08章均为研究支持的初稿；全书 workflow-state.json 仍须保持待批准。
+
+### 第06章 帕斯卡三角形
+- [P06-S1 帕斯卡《算术三角形论》原文整理](https://fr.wikisource.org/wiki/Trait%C3%A9_du_triangle_arithm%C3%A9tique)，直接核到书题、1665年印行、组合与二项式相关用途。
+- [P06-S2 法国联合目录1665年书目](https://ccfr.bnf.fr/portailccfr/ark%3A/16871/00114268519)，为出版年独立书目证据。约1654年成书是历史研究的通行定年，不是1665公开流通。
+- [P06-S3 Encyclopedia of Mathematics/Pascal](https://encyclopediaofmath.org/wiki/Pascal%2C_Blaise)，支持19条推论、组合用途及数学归纳联系。
+- [P06-S4 Warwick University 杨辉与贾宪](https://warwick.ac.uk/fac/sci/maths/general/outreach/diversity/mao/)；[P06-S5 Cut-the-Knot 早期全球数表](https://www.cut-the-knot.org/arithmetic/combinatorics/PascalTriangle.shtml)，确认1261杨辉著作、贾宪归属和更早数学传统。
+- 数学核对：C(6,2)=15；C(10,3)=120；第6行和64；二项式递推由最后一个元素是否被选中分拆；11/16模型是现代独立、等机会结果的演示。
+- **待核**：1653/1654形成的版本细分、波斯数学文本的原始图证；不得称帕斯卡为全人类首次发现三角形的人。
+
+### 第07章 惠更斯
+- [P07-S1 Huygens 1714年英语译本及1657年著作说明，Dartmouth PDF](https://math.dartmouth.edu/~doyle/docs/huygens/huygens.pdf)，已查看文本及页图（对应英文文本原页2—3）；命题I、II、III依次说明等机会两数平均、三数平均和以p、q个等可能情况计算加权数值。
+- [P07-S2 Anders Hald, 1990专题史学研究](https://doi.org/10.1002/0471725161.ch6)；[P07-S3 Encyclopedia of Mathematics Huygens](https://encyclopediaofmath.org/wiki/Huygens%2C_Christiaan)，1657年范·斯霍滕《数学练习》附录以及14命题、五问题的历史背景。
+- [P07-S4 Pulskamp 原著史料整理](https://www.probabilityandfinance.com/pulskamp/Huygens/sources/de%20ludo%20Aleae%20-%20rjp.pdf)，与英文译文相互参照的资料入口。
+- 数学核对：(3+7)/2=5；(3×13+2×8)/5=11；现代线性关系E[X+Y]=E[X]+E[Y]不要求独立，但**不是1657年的现代符号**。
+- **史料边界**：初版为1657拉丁文本，1714英语译本是后出文本，不能视为原始拉丁用词；不以历史“公平”概念替代当代个人偏好、风险或经济政策。
+
+### 第08章 格朗特与哈雷
+- [P08-S1 Wellcome 1662年格朗特书目](https://wellcomecollection.org/works/sds578rr)核初印时间；[P08-S2 1676版第11章原文转写](https://en.wikisource.org/wiki/Natural_and_Political_Observations_Made_upon_the_Bills_of_Mortality_%28Graunt_1676%29/Chapter_11)核“100 quick conceptions”、六岁64、十六岁40、二十六岁25。
+- [P08-S3 Anders Hald早期统计史书目](https://www.york.ac.uk/depts/maths/histstat/haldcontents.htm)提供格朗特方法争议入口；早期材料包含估计与插值而非长期跟踪同一出生队列。
+- [P08-S4 Halley 1693论文后世期刊重印书目](https://www.cambridge.org/core/journals/journal-of-the-institute-of-actuaries/article/abs/an-estimate-of-the-degrees-of-the-mortality-of-mankind-drawn-from-curious-tables-of-the-births-and-funerals-at-the-city-of-breslaw-with-an-attempt-to-ascertain-the-price-of-annuities-upon-lives/2271E88DBB466900D832EE2D342CE926)；[P08-S5 1708 Miscellanea Curiosa 原文重印](https://www.gutenberg.org/cache/epub/49791/pg49791-images.html)核1687—1691布雷斯劳出生/死亡登记、伦敦人口迁移问题与表首部1000/855/798。
+- [P08-S6 HistData Breslau记录史料](https://search.r-project.org/CRAN/refmans/HistData/html/Breslau.html)支持数据收集者Caspar Neumann与Bellhouse 2011历史审视。
+- 数学核对：40/64=5/8；25/40=5/8；855/1000=0.855；现代l_(x+1)/l_x作为**假想队列模型**才可解释为条件存留机会。
+- **重要界限**：Graunt历史“quick conceptions”并非现代活产婴儿；哈雷1693年人口年龄表并非严格真实同批队列的追踪生命表，不能误当现代年龄死亡风险实测资料。1708、1874是后世重印，不是1693首次发表。
+
+### 仍需处理的工作流事实
+- 06—08已用可查来源写成研究初稿，未进入独立 continuity-audit / developmental-editor 复审。
+- 全书其他章节仍未完成事实核验；不得设置全书 evidence_verified=true 或 review_status=PASS。
+- 重要来源若只查了书目、摘录或后出整理版，状态在 claims 中标明，不夸大为逐页初印本核对。

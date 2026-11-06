@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "the-laws-of-chance-probability",
-  "reading_notice": "第02—05章为来源支持的研究初稿，尚未通过仓库独立审稿或正式封版；其余章节为写作占位。",
+  "reading_notice": "第02—08章为来源支持的研究初稿，未通过仓库独立审稿或正式封版；其他章节仍为写作占位。",
   "chapters": [
     {
       "id": "prologue",
@@ -50,21 +50,21 @@
       "title": "帕斯卡三角形：未来的不确定如何化成组合数",
       "part": "第2部｜公平成为一门数学",
       "file": "draft/06.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-07",
       "title": "1657年，惠更斯把公平写成期望",
       "part": "第2部｜公平成为一门数学",
       "file": "draft/07.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-08",
       "title": "死亡记录到生命表：偶然如何成为社会问题",
       "part": "第2部｜公平成为一门数学",
       "file": "draft/08.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-09",
