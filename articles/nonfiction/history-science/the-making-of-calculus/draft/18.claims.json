@@ -1,0 +1,25 @@
+{
+  "chapter": "18",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C18-01",
+      "statement": "规则怎样成为可传授的算法",
+      "source_candidates": [
+        "H01",
+        "H09"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C18-02",
+      "statement": "无穷小分析教材和洛必达法则",
+      "source_candidates": [
+        "H01",
+        "H09"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

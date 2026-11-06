@@ -1,0 +1,23 @@
+{
+  "chapter": "28",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C28-01",
+      "statement": "完备的实数系统如何建构",
+      "source_candidates": [
+        "H11"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C28-02",
+      "statement": "戴德金分割与柯西列",
+      "source_candidates": [
+        "H11"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

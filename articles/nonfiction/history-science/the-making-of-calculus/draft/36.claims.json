@@ -1,0 +1,29 @@
+{
+  "chapter": "36",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C36-01",
+      "statement": "现代自动微分、分布和广义积分，究竟延续了哪条核心思想？",
+      "source_candidates": [
+        "H01",
+        "H05",
+        "H10",
+        "H13"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C36-02",
+      "statement": "回看局部变化、整体累积、证明条件和对象扩展",
+      "source_candidates": [
+        "H01",
+        "H05",
+        "H10",
+        "H13"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

@@ -1,0 +1,23 @@
+{
+  "chapter": "32",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C32-01",
+      "statement": "函数序列怎样整体收敛",
+      "source_candidates": [
+        "H14"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C32-02",
+      "statement": "函数空间、范数与算子",
+      "source_candidates": [
+        "H14"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

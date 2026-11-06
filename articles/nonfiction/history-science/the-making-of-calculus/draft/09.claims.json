@@ -1,0 +1,25 @@
+{
+  "chapter": "09",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C09-01",
+      "statement": "如何系统求法线和切线",
+      "source_candidates": [
+        "H02",
+        "H06"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C09-02",
+      "statement": "解析几何与代数曲线",
+      "source_candidates": [
+        "H02",
+        "H06"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

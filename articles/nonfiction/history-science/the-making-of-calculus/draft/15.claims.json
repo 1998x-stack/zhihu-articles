@@ -1,0 +1,25 @@
+{
+  "chapter": "15",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C15-01",
+      "statement": "局部变化怎样恢复整体累积",
+      "source_candidates": [
+        "H01",
+        "H02"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C15-02",
+      "statement": "积分与求导的逆向关系及条件",
+      "source_candidates": [
+        "H01",
+        "H02"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

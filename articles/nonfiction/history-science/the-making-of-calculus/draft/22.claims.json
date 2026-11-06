@@ -1,0 +1,23 @@
+{
+  "chapter": "22",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C22-01",
+      "statement": "变分与分析能否重新奠基",
+      "source_candidates": [
+        "H05"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C22-02",
+      "statement": "变分法及幂级数基础方案",
+      "source_candidates": [
+        "H05"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

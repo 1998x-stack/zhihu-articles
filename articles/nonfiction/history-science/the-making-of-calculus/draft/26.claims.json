@@ -1,0 +1,25 @@
+{
+  "chapter": "26",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C26-01",
+      "statement": "哪些函数可以由分割求和来积分",
+      "source_candidates": [
+        "H10",
+        "H11"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C26-02",
+      "statement": "黎曼和与可积性",
+      "source_candidates": [
+        "H10",
+        "H11"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

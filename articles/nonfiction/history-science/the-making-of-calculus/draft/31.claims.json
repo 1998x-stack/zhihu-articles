@@ -1,0 +1,23 @@
+{
+  "chapter": "31",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C31-01",
+      "statement": "极限与积分何时允许交换",
+      "source_candidates": [
+        "H10"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C31-02",
+      "statement": "测度与勒贝格积分",
+      "source_candidates": [
+        "H10"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

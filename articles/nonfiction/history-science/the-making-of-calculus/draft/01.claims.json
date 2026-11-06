@@ -1,0 +1,25 @@
+{
+  "chapter": "01",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C01-01",
+      "statement": "无限步骤与有限运动是否相容",
+      "source_candidates": [
+        "H01",
+        "H05"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C01-02",
+      "statement": "运动悖论与无限分割",
+      "source_candidates": [
+        "H01",
+        "H05"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

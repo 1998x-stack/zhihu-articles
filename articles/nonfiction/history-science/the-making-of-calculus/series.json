@@ -1,0 +1,360 @@
+{
+  "schema_version": "1.0",
+  "title": "从切线到无穷：微积分的诞生与重建",
+  "english_title": "The Making of Calculus: From Tangents to Infinity",
+  "status": "outlined",
+  "parts": [
+    {
+      "number": 1,
+      "title": "无限的前史",
+      "period": "古代—16世纪",
+      "question": "怎样把无限分割变成可靠的求积方法",
+      "chapters": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "曲线与运动的逼问",
+      "period": "1600—1660年代",
+      "question": "瞬时变化率和曲边面积为何分别难算",
+      "chapters": [
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "两种微积分的诞生",
+      "period": "1660年代—18世纪初",
+      "question": "牛顿和莱布尼茨怎样将方法变成通用体系",
+      "chapters": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "方法的胜利与裂缝",
+      "period": "1696—18世纪末",
+      "question": "计算能成功而基础仍不充分吗",
+      "chapters": [
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "极限、函数与实数",
+      "period": "1817—1872年前后",
+      "question": "怎样将变化和连续写成严谨的条件",
+      "chapters": [
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "病态函数改变积分",
+      "period": "1870年代—1932年",
+      "question": "原先的函数和积分概念有哪些边界",
+      "chapters": [
+        "29",
+        "30",
+        "31",
+        "32"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "走出纸面的微积分",
+      "period": "1940年代—当代",
+      "question": "如何处理广义求导、无穷小和程序求导",
+      "chapters": [
+        "33",
+        "34",
+        "35"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "00",
+      "title": "序章：1696年的挑战书——最快的路是什么？",
+      "status": "placeholder",
+      "path": "draft/00.md",
+      "claims_path": "draft/00.claims.json"
+    },
+    {
+      "id": "01",
+      "title": "芝诺：走完一米，为何要跨过无限多段？",
+      "status": "placeholder",
+      "path": "draft/01.md",
+      "claims_path": "draft/01.claims.json"
+    },
+    {
+      "id": "02",
+      "title": "欧多克索斯：不谈无穷小，怎样证明曲线面积？",
+      "status": "placeholder",
+      "path": "draft/02.md",
+      "claims_path": "draft/02.claims.json"
+    },
+    {
+      "id": "03",
+      "title": "阿基米德：无限个小三角形能给出精确答案？",
+      "status": "placeholder",
+      "path": "draft/03.md",
+      "claims_path": "draft/03.claims.json"
+    },
+    {
+      "id": "04",
+      "title": "刘徽的割圆：古代中国怎样逼近一个圆？",
+      "status": "placeholder",
+      "path": "draft/04.md",
+      "claims_path": "draft/04.claims.json"
+    },
+    {
+      "id": "05",
+      "title": "马达瓦与喀拉拉：无穷级数在印度开花",
+      "status": "placeholder",
+      "path": "draft/05.md",
+      "claims_path": "draft/05.claims.json"
+    },
+    {
+      "id": "06",
+      "title": "伽利略：平均速度不等于瞬间的速度",
+      "status": "placeholder",
+      "path": "draft/06.md",
+      "claims_path": "draft/06.claims.json"
+    },
+    {
+      "id": "07",
+      "title": "开普勒的酒桶：奇形怪状的体积怎么算？",
+      "status": "placeholder",
+      "path": "draft/07.md",
+      "claims_path": "draft/07.claims.json"
+    },
+    {
+      "id": "08",
+      "title": "卡瓦列里：一条线能够组成面积吗？",
+      "status": "placeholder",
+      "path": "draft/08.md",
+      "claims_path": "draft/08.claims.json"
+    },
+    {
+      "id": "09",
+      "title": "笛卡尔：把曲线写成方程",
+      "status": "placeholder",
+      "path": "draft/09.md",
+      "claims_path": "draft/09.claims.json"
+    },
+    {
+      "id": "10",
+      "title": "费马的拟等法：几乎相等到底算不算相等？",
+      "status": "placeholder",
+      "path": "draft/10.md",
+      "claims_path": "draft/10.claims.json"
+    },
+    {
+      "id": "11",
+      "title": "沃利斯、格雷戈里与巴罗：两种问题接近汇合",
+      "status": "placeholder",
+      "path": "draft/11.md",
+      "claims_path": "draft/11.claims.json"
+    },
+    {
+      "id": "12",
+      "title": "1666年的牛顿：一组手稿为什么改变数学",
+      "status": "placeholder",
+      "path": "draft/12.md",
+      "claims_path": "draft/12.claims.json"
+    },
+    {
+      "id": "13",
+      "title": "流数法：牛顿从时间出发理解微分",
+      "status": "placeholder",
+      "path": "draft/13.md",
+      "claims_path": "draft/13.claims.json"
+    },
+    {
+      "id": "14",
+      "title": "莱布尼茨的 d 与 ∫：为什么记号会改变数学",
+      "status": "placeholder",
+      "path": "draft/14.md",
+      "claims_path": "draft/14.claims.json"
+    },
+    {
+      "id": "15",
+      "title": "微积分基本定理：面积与变化率竟是同一件事",
+      "status": "placeholder",
+      "path": "draft/15.md",
+      "claims_path": "draft/15.claims.json"
+    },
+    {
+      "id": "16",
+      "title": "牛顿与莱布尼茨：发现者之争究竟争什么",
+      "status": "placeholder",
+      "path": "draft/16.md",
+      "claims_path": "draft/16.claims.json"
+    },
+    {
+      "id": "17",
+      "title": "1696年最速降线：直线为何不是最快路线",
+      "status": "placeholder",
+      "path": "draft/17.md",
+      "claims_path": "draft/17.claims.json"
+    },
+    {
+      "id": "18",
+      "title": "洛必达：微积分怎样进入第一批系统教材",
+      "status": "placeholder",
+      "path": "draft/18.md",
+      "claims_path": "draft/18.claims.json"
+    },
+    {
+      "id": "19",
+      "title": "泰勒展开：曲线能用多项式代替吗",
+      "status": "placeholder",
+      "path": "draft/19.md",
+      "claims_path": "draft/19.claims.json"
+    },
+    {
+      "id": "20",
+      "title": "伯克利的质问：无穷小消失之后还剩什么",
+      "status": "placeholder",
+      "path": "draft/20.md",
+      "claims_path": "draft/20.claims.json"
+    },
+    {
+      "id": "21",
+      "title": "欧拉：函数成为微积分的共同语言",
+      "status": "placeholder",
+      "path": "draft/21.md",
+      "claims_path": "draft/21.claims.json"
+    },
+    {
+      "id": "22",
+      "title": "拉格朗日：微积分能摆脱无穷小吗",
+      "status": "placeholder",
+      "path": "draft/22.md",
+      "claims_path": "draft/22.claims.json"
+    },
+    {
+      "id": "23",
+      "title": "玻尔查诺：连续为什么能够保证中间值",
+      "status": "placeholder",
+      "path": "draft/23.md",
+      "claims_path": "draft/23.claims.json"
+    },
+    {
+      "id": "24",
+      "title": "柯西：怎样让极限替代模糊直觉",
+      "status": "placeholder",
+      "path": "draft/24.md",
+      "claims_path": "draft/24.claims.json"
+    },
+    {
+      "id": "25",
+      "title": "傅里叶：热流与三角级数挑战函数观念",
+      "status": "placeholder",
+      "path": "draft/25.md",
+      "claims_path": "draft/25.claims.json"
+    },
+    {
+      "id": "26",
+      "title": "黎曼：不连续的函数也能有面积吗",
+      "status": "placeholder",
+      "path": "draft/26.md",
+      "claims_path": "draft/26.claims.json"
+    },
+    {
+      "id": "27",
+      "title": "魏尔斯特拉斯：不用图形怎样定义趋近",
+      "status": "placeholder",
+      "path": "draft/27.md",
+      "claims_path": "draft/27.claims.json"
+    },
+    {
+      "id": "28",
+      "title": "戴德金与康托尔：数轴上真的没有空洞吗",
+      "status": "placeholder",
+      "path": "draft/28.md",
+      "claims_path": "draft/28.claims.json"
+    },
+    {
+      "id": "29",
+      "title": "魏尔斯特拉斯的怪物：连续却处处不可微",
+      "status": "placeholder",
+      "path": "draft/29.md",
+      "claims_path": "draft/29.claims.json"
+    },
+    {
+      "id": "30",
+      "title": "达布：上和与下和什么时候一致",
+      "status": "placeholder",
+      "path": "draft/30.md",
+      "claims_path": "draft/30.claims.json"
+    },
+    {
+      "id": "31",
+      "title": "勒贝格：改变求和顺序，为什么能积分更多函数",
+      "status": "placeholder",
+      "path": "draft/31.md",
+      "claims_path": "draft/31.claims.json"
+    },
+    {
+      "id": "32",
+      "title": "希尔伯特与巴拿赫：当函数变成空间里的点",
+      "status": "placeholder",
+      "path": "draft/32.md",
+      "claims_path": "draft/32.claims.json"
+    },
+    {
+      "id": "33",
+      "title": "施瓦茨：不能求经典导数的对象仍可微分吗",
+      "status": "placeholder",
+      "path": "draft/33.md",
+      "claims_path": "draft/33.claims.json"
+    },
+    {
+      "id": "34",
+      "title": "鲁滨逊：无穷小怎样重新获得数学身份",
+      "status": "placeholder",
+      "path": "draft/34.md",
+      "claims_path": "draft/34.claims.json"
+    },
+    {
+      "id": "35",
+      "title": "自动微分：计算机怎样真正执行链式法则",
+      "status": "placeholder",
+      "path": "draft/35.md",
+      "claims_path": "draft/35.claims.json"
+    },
+    {
+      "id": "36",
+      "title": "尾声：为什么今天仍在重新发明微积分？",
+      "status": "placeholder",
+      "path": "draft/36.md",
+      "claims_path": "draft/36.claims.json"
+    }
+  ]
+}

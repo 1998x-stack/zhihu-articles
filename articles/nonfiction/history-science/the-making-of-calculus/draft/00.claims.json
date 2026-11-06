@@ -1,0 +1,23 @@
+{
+  "chapter": "00",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C00-01",
+      "statement": "为什么最短路程不一定意味着最快到达？",
+      "source_candidates": [
+        "H07"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C00-02",
+      "statement": "1696年最速降线挑战，建立一个速度不断变化的运动问题",
+      "source_candidates": [
+        "H07"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

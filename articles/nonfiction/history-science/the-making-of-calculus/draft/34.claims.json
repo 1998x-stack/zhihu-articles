@@ -1,0 +1,23 @@
+{
+  "chapter": "34",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C34-01",
+      "statement": "非零无穷小是否可能严格化",
+      "source_candidates": [
+        "H15"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C34-02",
+      "statement": "非标准分析与超实数",
+      "source_candidates": [
+        "H15"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

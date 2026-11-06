@@ -1,0 +1,23 @@
+{
+  "chapter": "05",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C05-01",
+      "statement": "三角函数与圆周率怎样精算",
+      "source_candidates": [
+        "H03"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C05-02",
+      "statement": "三角级数与修正项",
+      "source_candidates": [
+        "H03"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

@@ -1,0 +1,25 @@
+{
+  "chapter": "24",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C24-01",
+      "statement": "极限、连续、微分与积分如何定义",
+      "source_candidates": [
+        "H05",
+        "H10"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C24-02",
+      "statement": "分析教程、极限与收敛准则",
+      "source_candidates": [
+        "H05",
+        "H10"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

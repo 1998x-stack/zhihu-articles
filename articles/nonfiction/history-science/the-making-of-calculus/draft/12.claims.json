@@ -1,0 +1,25 @@
+{
+  "chapter": "12",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C12-01",
+      "statement": "运动和级数能否用同一方法处理",
+      "source_candidates": [
+        "H01",
+        "H02"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C12-02",
+      "statement": "二项式级数、流量思路",
+      "source_candidates": [
+        "H01",
+        "H02"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

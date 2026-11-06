@@ -1,0 +1,25 @@
+{
+  "chapter": "14",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C14-01",
+      "statement": "算法如何变成可推广的符号",
+      "source_candidates": [
+        "H01",
+        "H02"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C14-02",
+      "statement": "微分记号、积分记号及规则",
+      "source_candidates": [
+        "H01",
+        "H02"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

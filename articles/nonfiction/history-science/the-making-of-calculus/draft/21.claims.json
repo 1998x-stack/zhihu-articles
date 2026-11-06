@@ -1,0 +1,23 @@
+{
+  "chapter": "21",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C21-01",
+      "statement": "指数、级数和微分方程如何整合",
+      "source_candidates": [
+        "H01"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C21-02",
+      "statement": "函数观念与系统计算方法",
+      "source_candidates": [
+        "H01"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

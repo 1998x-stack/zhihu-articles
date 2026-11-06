@@ -1,0 +1,23 @@
+{
+  "chapter": "17",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C17-01",
+      "statement": "哪条曲线滑落用时最短",
+      "source_candidates": [
+        "H07"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C17-02",
+      "statement": "摆线与早期变分思维",
+      "source_candidates": [
+        "H07"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

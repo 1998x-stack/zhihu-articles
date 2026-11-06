@@ -1,0 +1,23 @@
+{
+  "chapter": "04",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C04-01",
+      "statement": "内接多边形如何逼近圆",
+      "source_candidates": [
+        "H04"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C04-02",
+      "statement": "割圆术和误差估计",
+      "source_candidates": [
+        "H04"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}
