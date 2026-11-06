@@ -1,7 +1,213 @@
 {
   "chapter": "02",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅第02章列明史实与现代理论边界；正文仍须按对应主张写作，未经独立审稿",
+  "claims": [
+    {
+      "claim_id": "T02-01",
+      "claim": "同一汽缸反复冷却加热是纽科门机大量耗汽和燃料浪费的核心",
+      "type": "historical_engineering",
+      "source_ids": [
+        "R36",
+        "R37"
+      ],
+      "locator": "Science Museum Watt独立冷凝器研究",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-02",
+      "claim": "瓦特在1760年代初研究格拉斯哥大学纽科门模型，1765年形成分离冷凝的可行实验方向",
+      "type": "historical_fact",
+      "source_ids": [
+        "R36",
+        "R37"
+      ],
+      "locator": "Science Museum馆藏及展史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-03",
+      "claim": "1765年馆藏‘second separate condenser’是第二模型，不能冒充第一模型",
+      "type": "historical_provenance",
+      "source_ids": [
+        "R37"
+      ],
+      "locator": "Science Museum器物目录",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-04",
+      "claim": "布莱克在格拉斯哥研究潜热/比热，1762年报告但有关理论未由本人正式发表",
+      "type": "historical_fact",
+      "source_ids": [
+        "R38",
+        "R39"
+      ],
+      "locator": "爱丁堡大学人物传记与格拉斯哥校史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-05",
+      "claim": "相变在温度不改变时仍发生热量交换，潜热并非指热量消失",
+      "type": "modern_explanation",
+      "source_ids": [
+        "R38",
+        "R44"
+      ],
+      "locator": "布莱克热学史及现代物理解释",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-06",
+      "claim": "比热与汽化潜热的现代关系式分属不同过程，适用条件须标明",
+      "type": "modern_physics",
+      "source_ids": [
+        "R38",
+        "R44"
+      ],
+      "locator": "热容及潜热的后见计量解释",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-07",
+      "claim": "瓦特1769专利第1条要求工作汽缸尽可能保持与蒸汽同温",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R34",
+        "R35"
+      ],
+      "locator": "1769 Watt patent principle First",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-08",
+      "claim": "瓦特1769专利第2条规定单独低温容器作为冷凝器",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R34",
+        "R35"
+      ],
+      "locator": "1769 Watt patent principle Secondly",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-09",
+      "claim": "专利第3条要求排除冷凝器或工作容器内未凝结气体",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R34"
+      ],
+      "locator": "1769 Watt patent principle Thirdly",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-10",
+      "claim": "瓦特专利授予1769-01-05，登记于1769-04-29",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R34",
+        "R35"
+      ],
+      "locator": "专利首页与登记说明",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-11",
+      "claim": "分离冷凝器保持主工作汽缸热、冷凝室冷，减少不必要的复热损失",
+      "type": "historical_engineering",
+      "source_ids": [
+        "R36",
+        "R37"
+      ],
+      "locator": "Science Museum官方工程解释",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-12",
+      "claim": "博物馆对瓦特型机器节煤约三分之二的说明是历史概括，不可作为普适定值",
+      "type": "historical_estimate",
+      "source_ids": [
+        "R36"
+      ],
+      "locator": "Ben Russell 2019",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-13",
+      "claim": "改善煤耗不等于瓦特已经建立现代热功当量或证明卡诺效率极限",
+      "type": "history_vs_modern",
+      "source_ids": [
+        "R34",
+        "R51"
+      ],
+      "locator": "原始专利与后来的定律历史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-14",
+      "claim": "1775年博尔顿与瓦特开始合伙推动制造和专利保护",
+      "type": "historical_fact",
+      "source_ids": [
+        "R40"
+      ],
+      "locator": "Science Museum Matthew Boulton人物",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-15",
+      "claim": "1776年瓦特改良型发动机开始商业安装，1765模型不等于当年投产",
+      "type": "historical_fact",
+      "source_ids": [
+        "R40",
+        "R36"
+      ],
+      "locator": "博物馆工业化时间线",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-16",
+      "claim": "蒸汽机性能提升除了热设计，还依赖精密加工与制造组织",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R40",
+        "R36"
+      ],
+      "locator": "工业化史的综合解释",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T02-17",
+      "claim": "蒸汽机的可避免工程损失与热机理论的不可逾越限制必须分开",
+      "type": "editorial_physics",
+      "source_ids": [
+        "R50",
+        "R36"
+      ],
+      "locator": "现代效率极限与历史工程",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "已建立前置证据矩阵，仍非终稿核准",
+    "史学推断与现代公式已明确标注",
+    "原文引用仅做准确释义、不虚构对话与人物心理"
+  ]
 }
