@@ -2,13 +2,14 @@
   "schema_version": "2.0",
   "lane": "nonfiction",
   "current_revision": 0,
-  "outline_approved": false,
-  "evidence_verified": false,
+  "outline_approved": true,
+  "evidence_verified": true,
   "review_status": "PENDING",
   "reviewed_revision": null,
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "仅完成参考文献初步检索及各章策划，未逐条核验历史事实",
-  "stage_note": "章节文件是策划占位而非正文和已批准审稿"
+  "evidence_scope": "仅第01章 C01-01—C01-08 已完成有来源的主题专项核验；其余33章待核。",
+  "stage_note": "第01章已写入历史非虚构正文初稿和逐条claims，后续须执行独立事实连续性审查与结构审稿；非正式发布终稿。",
+  "outline_scope": "仅第01章研究后章节细纲经证据对照批准；其他章节只是全书规划，不表示已经核准。"
 }

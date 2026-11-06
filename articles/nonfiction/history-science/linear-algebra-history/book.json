@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "linear-algebra-history",
   "title": "从方程到空间：一部线性代数思想发展史",
-  "reading_notice": "所有章节均为策划占位，不是完成的正文；尚未通过正式事实核验与审稿。",
+  "reading_notice": "第01章已撰写历史非虚构初稿并核对核心主张（尚未完成独立双审及终审），其余章节仍为策划占位。",
   "chapters": [
     {
       "id": "prologue",
@@ -16,7 +16,7 @@
       "title": "《九章算术》：没有字母的三元一次方程",
       "part": "第一部｜方程的困境",
       "file": "draft/01.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-02",

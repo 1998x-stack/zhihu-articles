@@ -33,3 +33,37 @@
 ## 开始正式写作前
 
 逐章补充一手作品或专业数学史来源；记录准确卷页／章节、数学论证及不同解释；将重大断言单列入 claim-ledger.md，明确证据强度；未查证不得声明研究阶段完成。
+
+
+## 已核验专题｜第一部第一章《九章算术》卷八（2026-11-06）
+
+**本次核验的精确范围仅为第01章核心主张**。全书其余章节仍属于尚未验证的策划目录。
+
+| claim_id | 主张 | 来源 | 支持边界 | 状态 |
+|---|---|---|---|---|
+| C01-01 | 卷八首题的三组禾、总斗数与三个分数答案 | S1 | 古籍直接文本 | CONFIRMED |
+| C01-02 | 卷八方程术按右、中、左排列数量，并采用倍乘和直除／消去 | S1,S2 | 古籍程序及注释 | CONFIRMED |
+| C01-03 | 本书作者不详，成书阶段有学术争论，刘徽于263年完成注释 | S3,S4,S5 | 专业数学史研究 | CONFIRMED_WITH_DATE_BOUNDARY |
+| C01-04 | 卷八含正负术；刘徽注解讨论正负筹算 | S1,S2 | 古籍与注解 | CONFIRMED |
+| C01-05 | 古代数字列与现代增广矩阵可作数学对应，不能作史实同一 | S3,S4 | 现代数学史解释 | CONFIRMED_WITH_DISTINCTION |
+| C01-06 | 现代消元推演得x=37/4,y=17/4,z=11/4，三组条件全部回代成立 | DIRECT_CALCULATION | 数学演示，非历史原文 | VERIFIED_BY_SUBSTITUTION |
+| C01-07 | 原书注释体现算法为何成立的分析，不应认定古代数学只有无理由的口诀 | S2,S4 | 古籍注释与专业数学史研究 | CONFIRMED |
+| C01-08 | 行列式、矩阵、秩、相容性为后续数学概念，非原书已有现代公理体系 | S3,S4 | 现代重构边界 | CONFIRMED_AS_EDITORIAL_BOUNDARY |
+
+### 章节一手与二手来源
+
+- S1 《九章算术》卷八“方程”第一题及方程术：https://zh.wikisource.org/wiki/九章算術
+- S2 《九章算术》卷八带刘徽注文的传世文本：https://www.shidianguji.com/zh/book/NGJ892411999012434109202/chapter/1lujrqp073wvz
+- S3 MacTutor, Nine Chapters on the Mathematical Art：https://mathshistory.st-andrews.ac.uk/HistTopics/Nine_chapters/
+- S4 Karine Chemla, Using Documents from Ancient China to Teach Mathematical Proof (2012)：https://link.springer.com/chapter/10.1007/978-94-007-2129-6_18
+- S5 Donald B. Wagner, The development of the classical Chinese algebra of polynomials (2026)：https://journals.sagepub.com/doi/full/10.1177/20966083261418725
+
+### 数学独立验算记录
+
+原题以现代字母表示为 3x+2y+z=39，2x+3y+z=34，x+2y+3z=26。以 3·E2−2·E1 得 5y+z=24；以 3·E3−E1 得 4y+8z=39；以 5·(4y+8z=39) −4·(5y+z=24) 得 36z=99。回代得到 x=37/4，y=17/4，z=11/4，逐项代入得39、34、26。此处为现代代数推演，不宣称与古代算筹操作细节逐字相同。
+
+### 研究约束
+
+- 文献版本及刘徽注、唐代注释的层次要明确，不将编辑排版转述为确切历史现场。
+- 书籍成书年代并无唯一公认精确年份，“汉代前后”和“刘徽263年注释”应分别陈述。
+- 第01章其他待补项为底本异文比较、各版本插图及算筹实物复原问题；不影响本章慎重限定的主张。
