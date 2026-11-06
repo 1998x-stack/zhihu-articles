@@ -1,0 +1,84 @@
+{
+  "chapter": "16",
+  "title": "连续统假设：一个问题竟然有两种不冲突的未来",
+  "lane": "nonfiction",
+  "revision": 10,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Historical assertions grounded in research.md section for chapters 15-17; some claims use peer-reviewed secondary source summaries",
+    "All mathematical formulas are modern instructional representations unless explicitly marked original",
+    "Independent continuity and developmental review remain PENDING"
+  ],
+  "claims": [
+    {
+      "claim_id": "H16-01",
+      "source_id": "R16-SEP-CH",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H16-02",
+      "source_id": "R16-SEP-CH;R16-MODERN",
+      "verification": "modern_math_zfc_context"
+    },
+    {
+      "claim_id": "H16-03",
+      "source_id": "R16-MODERN",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H16-04",
+      "source_id": "R16-SEP-CH",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H16-05",
+      "source_id": "R16-SEP-SET",
+      "verification": "modern_foundation_verified"
+    },
+    {
+      "claim_id": "H16-06",
+      "source_id": "R16-GODEL-1938;R16-SEP-GODEL",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H16-07",
+      "source_id": "R16-SEP-SET",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H16-08",
+      "source_id": "R16-SEP-SET;R16-SEP-CH",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H16-09",
+      "source_id": "R16-SEP-CH;R16-MODERN",
+      "verification": "modern_math_relative_consistency"
+    },
+    {
+      "claim_id": "H16-10",
+      "source_id": "R16-MODERN",
+      "verification": "modern_logic_verified"
+    },
+    {
+      "claim_id": "H16-11",
+      "source_id": "R16-SEP-CH;R16-SEP-SET",
+      "verification": "historiographical_qualified"
+    },
+    {
+      "claim_id": "H16-12",
+      "source_id": "R16-SEP-GODEL;R16-SEP-CH",
+      "verification": "historical_theorem_distinction"
+    },
+    {
+      "claim_id": "H16-13",
+      "source_id": "R16-SEP-SET;R16-FORCING-CAUTION",
+      "verification": "technical_qualified"
+    },
+    {
+      "claim_id": "H16-14",
+      "source_id": "outline.md;R16-SEP-CH",
+      "verification": "editorial_chronology"
+    }
+  ]
+}
