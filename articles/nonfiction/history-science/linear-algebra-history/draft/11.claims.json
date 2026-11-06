@@ -1,0 +1,87 @@
+{
+  "chapter": "11",
+  "title": "哈密顿：乘法为什么突然不交换",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "G11-S1": "https://mathshistory.st-andrews.ac.uk/Extras/Hamilton_Graves/",
+    "G11-S2": "https://www.zipcon.net/~swhite/docs/math/quaternions/Hamiltons_discovery.html",
+    "G11-S3": "https://artsandculture.google.com/story/what-is-life-trinity-college-dublin-library/vwWBBcXVXyltKQ?hl=en",
+    "G11-S4": "https://www.nationalacademies.org/read/11540/chapter/13",
+    "G11-S5": "https://sites.science.oregonstate.edu/physics/coursewikis/GO/book/go/qhist.html",
+    "MATH11": "本章第6—9节四元数代数与旋转数学验算"
+  },
+  "claims": [
+    {
+      "claim_id": "C11-01",
+      "source_ids": [
+        "G11-S1",
+        "G11-S2",
+        "G11-S3"
+      ],
+      "type": "historical_primary_retrospective",
+      "verified": true
+    },
+    {
+      "claim_id": "C11-02",
+      "source_ids": [
+        "G11-S1",
+        "G11-S4"
+      ],
+      "type": "historical_interpretation",
+      "verified": true
+    },
+    {
+      "claim_id": "C11-03",
+      "source_ids": [
+        "G11-S1",
+        "G11-S4",
+        "MATH11"
+      ],
+      "type": "historical_and_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C11-04",
+      "source_ids": [
+        "G11-S4",
+        "G11-S5"
+      ],
+      "type": "concept_boundary",
+      "verified": true
+    },
+    {
+      "claim_id": "C11-05",
+      "source_ids": [
+        "MATH11",
+        "G11-S5"
+      ],
+      "type": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C11-06",
+      "source_ids": [
+        "G11-S2",
+        "G11-S3",
+        "G11-S5"
+      ],
+      "type": "historical_caveat",
+      "verified": true
+    },
+    {
+      "claim_id": "C11-07",
+      "source_ids": [
+        "MATH11"
+      ],
+      "type": "modern_math",
+      "verified": true
+    }
+  ],
+  "notes": [
+    "1865回忆不能当作1843当日现场史料",
+    "四元数四实数分量和物理空间维数不同",
+    "非交换不等于不结合",
+    "双审/最终批准尚未完成"
+  ]
+}
