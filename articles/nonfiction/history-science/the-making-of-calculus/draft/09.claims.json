@@ -1,25 +1,128 @@
 {
   "chapter": "09",
-  "status": "PENDING",
+  "title": "笛卡尔：把曲线写成方程",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H55",
+    "H56",
+    "H57",
+    "H58",
+    "H60",
+    "H62"
+  ],
   "claims": [
     {
       "id": "C09-01",
-      "statement": "如何系统求法线和切线",
-      "source_candidates": [
-        "H02",
-        "H06"
+      "kind": "history",
+      "statement": "1637《La Géométrie》作为《方法谈》三篇附论之一于莱顿印行。",
+      "source_ids": [
+        "H55",
+        "H56"
       ],
-      "verification": "PENDING"
+      "locator": "SEP 2025 introduction; Cambridge Lexicon Geometry summary",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C09-02",
-      "statement": "解析几何与代数曲线",
-      "source_candidates": [
-        "H02",
-        "H06"
+      "kind": "historical_context",
+      "statement": "维耶特及费马等已在发展符号代数、轨迹代数表达，笛卡尔不是唯一先驱。",
+      "source_ids": [
+        "H55",
+        "H58"
       ],
-      "verification": "PENDING"
+      "locator": "SEP early algebra and loci context; MacTutor Fermat geometry",
+      "verification": "QUALIFIED_HISTORY"
+    },
+    {
+      "id": "C09-03",
+      "kind": "historical_source",
+      "statement": "笛卡尔利用未知线段和代数规则分析几何问题，将轨迹与方程联系。",
+      "source_ids": [
+        "H55"
+      ],
+      "locator": "SEP Descartes Mathematics §3.1",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C09-04",
+      "kind": "historical_source",
+      "statement": "1637《几何学》以帕普斯问题为重要对象，几何曲线按方程次数分类。",
+      "source_ids": [
+        "H55"
+      ],
+      "locator": "SEP §3.1–3.2",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C09-05",
+      "kind": "historical_scope",
+      "statement": "笛卡尔的几何曲线标准与现代所有可表达函数不同，今版直角坐标网格并非其同版原型。",
+      "source_ids": [
+        "H55"
+      ],
+      "locator": "SEP §3.2–3.3",
+      "verification": "CROSS_CHECKED_WITH_SCOPE"
+    },
+    {
+      "id": "C09-06",
+      "kind": "historical_method",
+      "statement": "笛卡尔利用辅助相切圆、法线及消元后重根的条件决定切线。",
+      "source_ids": [
+        "H57",
+        "H62"
+      ],
+      "locator": "AMS Rise of Calculus; Maronne HM2010 abstract",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C09-07",
+      "kind": "math_demonstration",
+      "statement": "抛物线y=x²与圆x²+(y−3/2)²=5/4消元得(x²−1)²=0，在(1,1)相切且切线斜率2。",
+      "source_ids": [
+        "H57"
+      ],
+      "locator": "independent modern polynomial and normal calculation",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C09-08",
+      "kind": "history",
+      "statement": "帕普斯问题不是简单xy=常数的完整原题，简化例子只示范距离乘积形成曲线。",
+      "source_ids": [
+        "H55"
+      ],
+      "locator": "SEP §3 Pappus problem",
+      "verification": "SOURCE_CHECKED_AS_DIDACTIC_SIMPLIFICATION"
+    },
+    {
+      "id": "C09-09",
+      "kind": "historical_controversy",
+      "statement": "1638年前后笛卡尔与费马发生切线方法争论，对算法要求与普遍性存在不同看法。",
+      "source_ids": [
+        "H60"
+      ],
+      "locator": "Barbin Oxford Handbook chapter abstract",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C09-10",
+      "kind": "history_scope",
+      "statement": "笛卡尔的法线方法技术上不等同后世普遍导数法，算法可能涉及繁重多项式计算。",
+      "source_ids": [
+        "H57",
+        "H55"
+      ],
+      "locator": "AMS comparison and SEP limitations",
+      "verification": "CROSS_CHECKED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "现代平面直角坐标纸不是笛卡尔1637年原书的标准化符号。",
+    "Pappus条件经现代简化须标明非原始完整题。",
+    "辅助圆相切重根的教学抛物线与坐标是假设的现代模型。",
+    "笛卡尔未建立对任意可微函数的普遍导数运算。",
+    "不得虚构笛卡尔与费马私人谈话；注明费马研究早于1637出版。",
+    "工作初稿未经过独立双审。"
+  ]
 }

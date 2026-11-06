@@ -1,25 +1,137 @@
 {
   "chapter": "10",
-  "status": "PENDING",
+  "title": "费马的拟等法：几乎相等到底算不算相等？",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H57",
+    "H58",
+    "H59",
+    "H60",
+    "H61"
+  ],
   "claims": [
     {
       "id": "C10-01",
-      "statement": "极值和切线如何求",
-      "source_candidates": [
-        "H01",
-        "H06"
+      "kind": "historical_context",
+      "statement": "费马约1620年代末在波尔多研究极值、1630年代经通信讨论相关方法。",
+      "source_ids": [
+        "H58"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor Fermat biography paragraphs on Bordeaux, Mersenne, 1636",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C10-02",
-      "statement": "拟等法与差商前史",
-      "source_candidates": [
-        "H01",
-        "H06"
+      "kind": "source_status",
+      "statement": "费马手稿、1630年代通信、19世纪全集编订是不同历史节点。",
+      "source_ids": [
+        "H58",
+        "H59"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor correspondence; Oeuvres de Fermat Vol. I Tannery1891",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C10-03",
+      "kind": "primary_text",
+      "statement": "费马“Methodus ad disquirendam maximam et minimam”使用A、E及adæquantur，除去E以后舍弃仍含E项求极值。",
+      "source_ids": [
+        "H59"
+      ],
+      "locator": "Oeuvres I Maxima et Minima chapter I lines 117–148",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C10-04",
+      "kind": "primary_text",
+      "statement": "费马原文示例将定长线段划分成两段，使以两段为边的矩形面积最大，结果为二等分。",
+      "source_ids": [
+        "H59"
+      ],
+      "locator": "Methodus example AC, area BA−A²",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C10-05",
+      "kind": "math_demonstration",
+      "statement": "定长10，f(a+e)−f(a)=e(10−2a−e)，按教学拟等步骤得到a=5，独立配方证明最大面积25。",
+      "source_ids": [
+        "H59"
+      ],
+      "locator": "modern algebra reconstruction; complete square f(x)=25−(x−5)²",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C10-06",
+      "kind": "modern_math",
+      "statement": "若可微函数内部取得局部极值，则导数为零；f(x)=x³在x=0驻点却非极值，边界与不可微例外需说明。",
+      "source_ids": [
+        "H59"
+      ],
+      "locator": "modern Fermat stationary point theorem; elementary counterexample",
+      "verification": "MATH_CHECKED_SCOPE"
+    },
+    {
+      "id": "C10-07",
+      "kind": "historical_method",
+      "statement": "费马将拟等用于切线问题，原始抛物线切线涉及几何比例及交轴关系。",
+      "source_ids": [
+        "H59"
+      ],
+      "locator": "Oeuvres I lines150–193 DE TANGENTIBUS",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C10-08",
+      "kind": "modern_math",
+      "statement": "y=x²两点割线差商为2a+e，极限2a；这是现代示范，不是原文完整证明。",
+      "source_ids": [
+        "H59"
+      ],
+      "locator": "modern polynomial algebra vs original tangent argument",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C10-09",
+      "kind": "historical_controversy",
+      "statement": "1638年前后费马与笛卡尔的切线争论反映普遍性与方法要求的不同理解。",
+      "source_ids": [
+        "H60",
+        "H57"
+      ],
+      "locator": "Oxford Barbin 2017 abstract; AMS Rise of Calculus",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C10-10",
+      "kind": "interpretive_dispute",
+      "statement": "adequality语义与数学根据在现代数学史界存在不同解读，不应说其自动等同ε–δ导数或非标准分析。",
+      "source_ids": [
+        "H59",
+        "H61"
+      ],
+      "locator": "Fermat edited text; Katz et al arxiv abstract historiography",
+      "verification": "QUALIFIED_HISTORICAL_INTERPRETATION"
+    },
+    {
+      "id": "C10-11",
+      "kind": "historical_limits",
+      "statement": "费马极值/切线方法虽是微分先行方法，但不等于完整的牛顿或莱布尼茨微分积分系统。",
+      "source_ids": [
+        "H57",
+        "H58"
+      ],
+      "locator": "AMS historical comparison and MacTutor chronology",
+      "verification": "CROSS_CHECKED_WITH_SCOPE"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "原文拟等与现代相等不直接等同，临时教学波浪线非原稿符号。",
+    "先e≠0除后以现代极限趋近0有定义条件，不把它写作费马19世纪严密极限。",
+    "x³反例说明驻点是必要而非充分条件。",
+    "原稿的切线几何作法与现代两点割线限值须分开。",
+    "1620年代末研究、1637《几何学》、1638争论和1891编辑出版严格区分。",
+    "仅工作初稿，待双审与正式工作流门禁。"
+  ]
 }
