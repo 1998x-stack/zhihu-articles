@@ -167,23 +167,40 @@
     {
       "id": "05",
       "title": "马达瓦与喀拉拉：无穷级数在印度开花",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/05.md",
-      "claims_path": "draft/05.claims.json"
+      "claims_path": "draft/05.claims.json",
+      "source_ids": [
+        "H38",
+        "H39",
+        "H40"
+      ]
     },
     {
       "id": "06",
       "title": "伽利略：平均速度不等于瞬间的速度",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/06.md",
-      "claims_path": "draft/06.claims.json"
+      "claims_path": "draft/06.claims.json",
+      "source_ids": [
+        "H42",
+        "H43",
+        "H44",
+        "H49"
+      ]
     },
     {
       "id": "07",
       "title": "开普勒的酒桶：奇形怪状的体积怎么算？",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/07.md",
-      "claims_path": "draft/07.claims.json"
+      "claims_path": "draft/07.claims.json",
+      "source_ids": [
+        "H45",
+        "H46",
+        "H47",
+        "H48"
+      ]
     },
     {
       "id": "08",

@@ -1,25 +1,122 @@
 {
   "chapter": "07",
-  "status": "PENDING",
+  "title": "开普勒的酒桶：奇形怪状的体积怎么算？",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
   "claims": [
     {
       "id": "C07-01",
-      "statement": "酒桶容积怎样求",
-      "source_candidates": [
-        "H01",
-        "H16"
+      "kind": "historical_document",
+      "statement": "开普勒1615年于林茨出版《Nova stereometria doliorum vinariorum》。",
+      "source_ids": [
+        "H45",
+        "H46"
       ],
-      "verification": "PENDING"
+      "locator": "Wellcome Collection catalog original publication 1615; MAA Book overview",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C07-02",
-      "statement": "切片式求积的探索",
-      "source_candidates": [
-        "H01",
-        "H16"
+      "kind": "history",
+      "statement": "1613年婚礼相关对容器计量方法的质疑是后世数学史研究中的背景。",
+      "source_ids": [
+        "H46"
       ],
-      "verification": "PENDING"
+      "locator": "MAA Kepler barrel incident, citing historical research",
+      "verification": "SOURCE_CHECKED_AS_SECONDARY_ACCOUNT"
+    },
+    {
+      "id": "C07-03",
+      "kind": "history",
+      "statement": "该著作研究九十多种立体体积并有1616德文版。",
+      "source_ids": [
+        "H46",
+        "H47"
+      ],
+      "locator": "MAA Kepler Nova Stereometria / Mathematical Treasures",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C07-04",
+      "kind": "historical_method",
+      "statement": "开普勒使用薄片/圆片分解来研究旋转体等的体积，连接阿基米德研究与后续不可分量法。",
+      "source_ids": [
+        "H46",
+        "H47"
+      ],
+      "locator": "MAA Kepler 1615 introduction and 1616 illustrations",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C07-05",
+      "kind": "historical_context",
+      "statement": "开普勒研究过体积极值附近形状变化问题，但现代求导判据不可倒灌给1615年原文。",
+      "source_ids": [
+        "H46"
+      ],
+      "locator": "MAA Kepler barrel max volume discussion",
+      "verification": "CROSS_CHECKED_WITH_BOUNDARY"
+    },
+    {
+      "id": "C07-06",
+      "kind": "math_modern",
+      "statement": "旋转体半径连续时V=π∫r(x)²dx是现代截面求积。",
+      "source_ids": [
+        "H46",
+        "H48"
+      ],
+      "locator": "modern disk method and historical model comparison",
+      "verification": "MATH_CHECKED_MODERN_ONLY"
+    },
+    {
+      "id": "C07-07",
+      "kind": "math_modern",
+      "statement": "单位球r(x)=√(1−x²), ∫π(1−x²)dx从−1到1等于4π/3。",
+      "source_ids": [
+        "H46"
+      ],
+      "locator": "independent modern integration model",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C07-08",
+      "kind": "math_modern",
+      "statement": "若r2(x)≥r1(x)≥0且在一个开区间内严格大，则两个旋转体体积满足V2>V1。",
+      "source_ids": [
+        "H48"
+      ],
+      "locator": "monotonicity of integral, continuous radial profiles",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C07-09",
+      "kind": "history_boundary",
+      "statement": "1615开普勒出版先于1638伽利略专著，此处主题回溯不代表直接因果。",
+      "source_ids": [
+        "H42",
+        "H45"
+      ],
+      "locator": "Wellcome catalog 1615; Galileo 1638 text",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C07-10",
+      "kind": "narrative_bridge",
+      "statement": "切片与不可分量方法为17世纪进一步研究面积/体积提供背景，不能把未证因果说成一人独创。",
+      "source_ids": [
+        "H46",
+        "H47"
+      ],
+      "locator": "MAA account of precursor methods",
+      "verification": "QUALIFIED_HISTORY"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "1615 Kepler早于1638 Galileo，文章明确专题回溯。",
+    "酒桶为历史研究背景，纯粹数学示例为单位球和抽象旋转体，不含具体酒类使用指导。",
+    "现代体积积分及导数极值条件不归于开普勒原始符号。",
+    "切片近似须满足连续/可积条件，不能仅靠‘无数零厚度片’当严格证明。",
+    "1613事件由专业二手材料记录，不描写未经证实的私下对话。",
+    "仅工作初稿，正式workflow审稿仍PENDING。"
+  ]
 }
