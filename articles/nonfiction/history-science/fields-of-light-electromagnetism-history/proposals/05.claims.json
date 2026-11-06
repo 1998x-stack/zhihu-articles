@@ -1,0 +1,181 @@
+{
+  "chapter": "05",
+  "title": "1820年，指南针为什么突然转了方向",
+  "kind": "independent_nonfiction_chapter_candidate",
+  "manuscript_path": "proposals/05.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_CHECK",
+  "claims": [
+    {
+      "claim_id": "E05-01",
+      "claim": "奥斯特1820年发表载流导线影响磁针的研究",
+      "kind": "可核史实",
+      "source_ids": [
+        "S05-01",
+        "S05-02"
+      ],
+      "manuscript_section": "§一/§三",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E05-02",
+      "claim": "伏打电堆使研究者具备可持续观察电流效应的电源",
+      "kind": "科学史背景",
+      "source_ids": [
+        "S05-01"
+      ],
+      "manuscript_section": "§二",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E05-03",
+      "claim": "1820年7月21日署名的拉丁文短文及题名有馆藏记录",
+      "kind": "馆藏与书目",
+      "source_ids": [
+        "S05-02",
+        "S05-03"
+      ],
+      "manuscript_section": "§三",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E05-04",
+      "claim": "原始报告强调闭合回路为关键，研究导线与磁针不同位置",
+      "kind": "历史译文转述",
+      "source_ids": [
+        "S05-03",
+        "S05-04"
+      ],
+      "manuscript_section": "§三/§五",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E05-05",
+      "claim": "课堂完全偶然发现说法存在史学分歧",
+      "kind": "争议",
+      "source_ids": [
+        "S05-01",
+        "S05-05"
+      ],
+      "manuscript_section": "§四",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E05-06",
+      "claim": "奥斯特的electric conflict是历史解释，不是现代B场同义词",
+      "kind": "史学边界",
+      "source_ids": [
+        "S05-03",
+        "S05-04"
+      ],
+      "manuscript_section": "§五",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E05-07",
+      "claim": "现代理想长直导线磁场方向环绕导线，磁针响应局部总磁场",
+      "kind": "现代物理",
+      "source_ids": [
+        "S05-06"
+      ],
+      "manuscript_section": "§五/§六",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E05-08",
+      "claim": "现代右手定则和磁针力矩矢量式不能倒签为奥斯特原文",
+      "kind": "现代重述边界",
+      "source_ids": [
+        "S05-06"
+      ],
+      "manuscript_section": "§六",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E05-09",
+      "claim": "阿拉戈1820年9月向巴黎传播奥斯特结果，随后发生多线研究",
+      "kind": "二手历史研究",
+      "source_ids": [
+        "S05-07",
+        "S05-08"
+      ],
+      "manuscript_section": "§七",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E05-10",
+      "claim": "奥斯特的结果没有单独完成后来麦克斯韦场论的统一",
+      "kind": "科学史解释",
+      "source_ids": [
+        "S05-01",
+        "S05-07"
+      ],
+      "manuscript_section": "§八",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S05-01",
+      "title": "APS: July 1820 Oersted & Electromagnetism",
+      "url": "https://www.aps.org/apsnews/2008/07/1820-oersted-electromagnetism",
+      "source_type": "学会科学史文章",
+      "checked_scope": "支持实验传播、反转电流、课堂偶然争议；为二手来源"
+    },
+    {
+      "source_id": "S05-02",
+      "title": "Smithsonian: Oersted 1820 Latin pamphlet",
+      "url": "https://library.si.edu/digital-library/book/experimentacirc00orst",
+      "source_type": "馆藏书目及原著数字入口",
+      "checked_scope": "馆藏目录和年份可见；数字图版本轮未逐页校勘"
+    },
+    {
+      "source_id": "S05-03",
+      "title": "Selected Scientific Works of H. C. Ørsted: 1820 English text",
+      "url": "https://www.jstor.org/stable/j.ctt7zvhx2.44",
+      "source_type": "历史研究选编/原文重刊",
+      "checked_scope": "可检索译文涉及前一冬季、闭合回路；完整文本访问有限"
+    },
+    {
+      "source_id": "S05-04",
+      "title": "Oersted 1820 English transcription",
+      "url": "https://jovanaeducation.com/library/oersted-1820",
+      "source_type": "历史译稿转录",
+      "checked_scope": "辅助对照磁针偏转与空间方位；不是史料校勘本"
+    },
+    {
+      "source_id": "S05-05",
+      "title": "Dan Ch. Christensen: 1820 A Discovery by Chance?",
+      "url": "https://academic.oup.com/book/35358/chapter-abstract/300799130",
+      "source_type": "学术专著章节摘要",
+      "checked_scope": "仅公开摘要支持其研究对象；不宣称阅读全文"
+    },
+    {
+      "source_id": "S05-06",
+      "title": "OpenStax: Magnetic Fields Produced by Currents",
+      "url": "https://openstax.org/books/college-physics/pages/22-9-magnetic-fields-produced-by-currents-amperes-law",
+      "source_type": "现代大学物理教材",
+      "checked_scope": "支持长直导线环绕磁场、右手定则；不是1820术语"
+    },
+    {
+      "source_id": "S05-07",
+      "title": "Blondel & Wolff: Search for a Newtonian Law (1820-1826)",
+      "url": "https://ampere-archives.fr/histoire-electricite/parcours-historique/lois-courants/ampere-loi/eng",
+      "source_type": "科学史专题研究",
+      "checked_scope": "支持巴黎后续安培与毕奥不同路线"
+    },
+    {
+      "source_id": "S05-08",
+      "title": "Erlichson 1998 Biot and Savart experiments",
+      "url": "https://doi.org/10.1119/1.18878",
+      "source_type": "同行评议科学史论文",
+      "checked_scope": "支持巴黎Arago传播节点，原始学院记录仍需核"
+    }
+  ],
+  "unresolved": [
+    "以拉丁语原版逐句比对1820英译中的闭合回路与方位表述",
+    "对照原始学术记录验证最初课堂观察时间与阿拉戈9月报告",
+    "补核背景中早期雷电与磁化的独立原始证据"
+  ]
+}
