@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "19",
+  "claims": [
+    {
+      "claim_id": "NS-19-01",
+      "type": "historical_fact",
+      "statement": "Milo Shen-Orr Itzkovitz Kashtan Chklovskii Alon six-author Network Motifs paper appeared Science 298(5594) pp824-827 Oct25 2002",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "Original Science issue pdf and PubMed publisher",
+      "verification_status": "original_checked"
+    },
+    {
+      "claim_id": "NS-19-02",
+      "type": "historical_definition",
+      "statement": "Network motifs are patterns statistically overrepresented compared to suitably randomized networks, not just common subgraphs",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "Science abstract and p825",
+      "verification_status": "original_checked"
+    },
+    {
+      "claim_id": "NS-19-03",
+      "type": "historical_method",
+      "statement": "2002 survey counted 3 and 4 vertex directed subgraphs in transcriptional biological ecological neuro and technological networks",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "Science p825 method and Table1",
+      "verification_status": "original_checked"
+    },
+    {
+      "claim_id": "NS-19-04",
+      "type": "historical_method",
+      "statement": "Randomized graphs preserve each vertex in/out degree and account for occurrence numbers of n-1 subgraphs to strengthen null comparison",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "Science p825 Method",
+      "verification_status": "original_checked"
+    },
+    {
+      "claim_id": "NS-19-05",
+      "type": "historical_threshold",
+      "statement": "2002 paper defines motif selection by randomization tail probability P < .01 under its chosen testing procedure",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "Science p825 P=0.01 statement",
+      "verification_status": "original_checked"
+    },
+    {
+      "claim_id": "NS-19-06",
+      "type": "historical_empirical",
+      "statement": "E coli and S cerevisiae regulatory networks exhibited feed-forward loop 3-vertex motif and bi-fan 4-vertex motif overrepresentation",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "Science p825 Table1 and paragraphs",
+      "verification_status": "original_checked_with_dataset_scope"
+    },
+    {
+      "claim_id": "NS-19-07",
+      "type": "historical_empirical",
+      "statement": "Among seven studied food webs certain motifs shared and feed-forward loop underrepresented relative random controls",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "Science p825-826 food-web discussion",
+      "verification_status": "original_checked_with_dataset_scope"
+    },
+    {
+      "claim_id": "NS-19-08",
+      "type": "historical_empirical",
+      "statement": "Study compared C elegans neural network and electronics WWW as additional systems and identified network-type motif patterns",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "Science pp825-826 Table1",
+      "verification_status": "original_checked_with_dataset_scope"
+    },
+    {
+      "claim_id": "NS-19-09",
+      "type": "mathematical_definition",
+      "statement": "On three labeled vertices with six possible directed edges, 2^6=64 edge sets; non-isomorphic connected directed triads number 13",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "Science p825 enumeration; combinatorial calculation",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-19-10",
+      "type": "mathematical_definition",
+      "statement": "Feedforward loop edges A→B, B→C, A→C are an acyclic oriented transitive triangle, unlike directed feedback cycle",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "Science Fig1 motif naming; graph-theoretic proof",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-19-11",
+      "type": "mathematical_example",
+      "statement": "Directed six-node graph edges AB AC BC DE DF EF CD contains exactly two FFLs; swapping endpoints AB and DE to AE and DB preserves each node in/out degrees yet leaves zero FFL",
+      "source_ids": [],
+      "locator": "author-defined directed edge swap independently enumerated with graph code",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-19-12",
+      "type": "statistical_explanation",
+      "statement": "Z=(N_real-mean_null)/sd_null is explanatory normalized deviation, not original paper's unique formal motif acceptance criterion",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "distinguished from original empirical tail probability",
+      "verification_status": "qualified_modern_math"
+    },
+    {
+      "claim_id": "NS-19-13",
+      "type": "model_boundary",
+      "statement": "Detected overrepresented subgraph does not independently establish necessary biological function, evolutionary selection or unique mechanism",
+      "source_ids": [
+        "S76"
+      ],
+      "locator": "original article methodological limitations and qualified inference",
+      "verification_status": "qualified_inference"
+    },
+    {
+      "claim_id": "NS-19-14",
+      "type": "narrative_transition",
+      "statement": "Historical SIR-style 1927 Kermack McKendrick epidemic model predates modern network motif work; next volume deliberately returns to theoretical prehistory",
+      "source_ids": [
+        "S77"
+      ],
+      "locator": "Royal Society original bibliographic record; chapter outline",
+      "verification_status": "historically_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "The book-wide outline_approved/evidence_verified are currently false, so these are sourced research drafts, not approved chapters.",
+    "Independent cross-chapter continuity audit and developmental review still required before line-edit and final approval.",
+    "In formal evidence pass, separately validate original journal page figures and random-network normalization conventions."
+  ]
+}
