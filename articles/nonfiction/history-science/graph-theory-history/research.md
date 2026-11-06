@@ -1,5 +1,5 @@
-# 史料检索档案｜仅策划阶段
-> **只建立来源入口并检索过关键摘要/年表。所有章节的精确史实主张仍需逐条核验，暂不得标记 evidence_verified。**
+# 史料检索档案｜全书分章核证进展
+> **分章节、限定范围核证：00—06章的具体主张在下方专章记录；07—37仍是待核写作线索。`evidence_verified=true` 仅表示已完成写作章节的必要前置研究，不代表整部书核证完毕或审稿通过。**
 | ID | 文献 | 入口 | 可支持的范围/限制 |
 |---|---|---|---|
 | S01 | Beineke / Toft / Wilson, Milestones in Graph Theory (AMS/MAA, 2025) | https://www.ams.org/books/spec/108/spec108-endmatter.pdf | 学科发展与跨世纪年表；目录、序言、年表已检索；逐章需重读原始史料 |
@@ -147,3 +147,79 @@
 - S21、S27为**原始论文的英译**，不声称已查阅原文所有版本细节；S25部分网页403但检索可见历史节录，对其采用谨慎支持范围。
 - 本批数学例子只做逻辑教学；不提供涉及电流装置的复现步骤，也不编造1847年实验现场。
 - 其他04—37章仍为 TODO_VERIFY；全书 outline 的章节顺序属于专题认知路线，不代表这些领域都按同一条年代线发展。
+
+
+---
+
+## 第04—06章专项研究｜2026-11-06
+
+范围限定：历史科学非虚构写作；逐项区分**一手材料/书目记录**、**可信数学史解释**、**现代图论定理**、**作者教学示例**。此前原文出处不重复归类为当事人亲笔已核。下面的定理证明与小图主要来自现代教材/独立数学推导，不把标准术语与算法年代倒置。
+
+### 新增来源目录（S32—S42）
+
+| 来源 | 可核对资料 | 可靠性、支持范围与限制 |
+|---|---|---|
+| S32 | D. R. Wilkins, Trinity College Dublin Hamilton archive, *The Icosian Calculus*, https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/Icosian/ | 介绍Hamilton于1856年发展Icosian calculus、1856论文、1856年11月10日宣读的会议论文（1858刊印）、1857年都柏林学术会议展示；页面附原作电子版入口。**较接近原始文献与馆藏史料**，不将1857当作唯一研究年份。 |
+| S33 | *Combinatorics: A Guided Tour*, §13.2 “Hamilton paths and cycles”, https://opentext.uleth.ca/Combinatorics/sect_Euler-Hamilton.html | 现代Hamilton路线定义、1855年前后Kirkman先行研究（1856论文）、Icosian game商业化、一般Hamilton问题没有类似度数奇偶的简单充分必要判据。**教学文献，历史日期按S32交叉核。** |
+| S34 | R. J. Wilson, “A Brief History of Hamiltonian Graphs”, https://www.sciencedirect.com/science/article/pii/S0167506008704849 | 数学史专业综述：骑士巡游与Kirkman、Hamilton及更早问题的脉络；只见摘要/书目，未核读全文。 |
+| S35 | MacTutor, “Mathematical games”, https://mathshistory.st-andrews.ac.uk/HistTopics/Mathematical_games/ | 1857都柏林展示、1859年申请专利与商业传播、二十顶点十二面体游戏；**不把销售细节当成数学定理**。 |
+| S36 | *Applied Combinatorics*, §5 “Counting Labeled Trees”, https://appliedcombinatorics.org/book/s_graphs_counting-trees.html | 完整公开教材 §5.40：\(n^{n-2}\) 以及Sylvester 1857、Borchardt 1860的等价先行结果，Cayley 1889图论表述，原论文证明完整性的争议，1918 Prüfer双射证明的编码/解码步骤。 |
+| S37 | Jerry Lodder, MAA *Convergence*, “Networks and Spanning Trees”, https://old.maa.org/press/periodicals/convergence/networks-and-spanning-trees | 数学史教学文章：凯莱1889《A Theorem on Trees》、当时证明不完整的批评、普吕弗工作与现代计数关系；公开索引/摘要已检索，网站打开时曾有521错误，**不宣称完整阅读全文**。 |
+| S38 | MacTutor, “Prüfer’s publications”, https://mathshistory.st-andrews.ac.uk/Extras/Prufer_publications/ | 1918年原始文章 *Neuer Beweis eines Satzes über Permutationen*, *Archiv der Mathematik und Physik*, 27, 142–144 的书目；与S36正文交叉核对。 |
+| S39 | MacTutor, “The four colour theorem”, https://mathshistory.st-andrews.ac.uk/HistTopics/The_four_colour_theorem/ | 1852 Francis Guthrie 经 Frederick 转 De Morgan、1852-10-23 De Morgan 致 Hamilton 信件的转述，1878年Cayley公开提问、1879 Kempe和1890 Heawood的进度。**引文如需使用仅可从转载文献短引，正文优先转述。** |
+| S40 | Robin Wilson, Gresham College (2002), “Four Colours Suffice?”, https://www.gresham.ac.uk/watch-now/four-colours-suffice | 数学史教授公开演讲文字稿：Guthrie/De Morgan 1852年代、1878 Cayley、1879 Kempe、普通低度数证明与四色归纳瓶颈。 |
+| S41 | Robin Thomas, “An Update on the Four-Color Theorem”, *Notices of the AMS* 45 (1998), https://math.arizona.edu/~glickenstein/math443f08/thomasfourcolor.pdf | 专业数学文章：地图区域需连通，邻接指共享非零长度边界而非只接触点，现代平面图着色等价形式，1976/77计算机证明史；本批只通过检索摘要核对，不声称全篇逐页校核。 |
+| S42 | R. Wilson, “The Four Color Theorem”, *Notices of the AMS* (2023), https://doi.org/10.1090/noti2781 | 现代证明结果与历史脉络（1852提出、1879 Kempe错误、1890发现问题、1976证明）；用于将1852的“猜想”与后来的已证“定理”严格区分。 |
+
+### 第04章｜哈密顿回路、路线对象之变（GT04-01—GT04-10）
+
+| ID | 将采用的主张及支持边界 | 来源 | 分类/状态 |
+|---|---|---|---|
+| GT04-01 | Euler迹覆盖每条**边**，Hamilton圈访问每个**顶点**恰一次、末尾返回起点；是现代标准定义 | S33 | MODERN_EXPLANATION |
+| GT04-02 | Kirkman在1855年前后提出多面体闭合多边形问题，1856论文相关研究早于Hamilton游戏展示，不能说Hamilton先提出一般问题 | S33、S34 | SECONDARY_SUPPORTED |
+| GT04-03 | Hamilton 1856 Icosian calculus研究，1857 Dublin学术会议展示游戏，1859商业专利/推广须分期 | S32、S35 | VERIFIED_SCOPED |
+| GT04-04 | 十二面体有20顶点、30边、12面；Icosian game的圆盘展示及“遍访二十点”目标是史实/现代重述的组合 | S32、S33、S35 | VERIFIED_SCOPED |
+| GT04-05 | 完全图K4有Hamilton圈但四个度3顶点使Euler迹不存在；K2,3有欧拉开迹却因二分部2和3不等而无Hamilton圈 | S33、现代直接枚举 | MODERN_EXPLANATION |
+| GT04-06 | Hamilton圈必要条件包括每点度≥2和无割点，K2,3违反二分图圈左右部同大小；这些并非一般充要判据 | S33、现代独立证明 | MODERN_EXPLANATION |
+| GT04-07 | 图同为10点、3正则仍可能一个有Hamilton圈而一个没有——如果涉及Petersen图需追加原始反例证据，当前正文**不使用此个例** | — | NOT_USED |
+| GT04-08 | Hamilton问题普遍不存在Euler式简明奇偶度数判据；不可把NP完全性直接宣称P≠NP证明 | S33 | MODERN_EXPLANATION |
+| GT04-09 | Icosian game与一般旅行商问题区别：前者只检查存在覆盖所有点的圈，后者加入权重找**最短**圈 | S33、现代优化定义 | MODERN_EXPLANATION |
+| GT04-10 | 二十点游戏和Kirkman先行的叙述不编造私人对话、动机或历史争吵 | S32、S33、S34 | EDITORIAL_BOUNDARY |
+
+### 第05章｜凯莱公式与普吕弗编码（GT05-01—GT05-10）
+
+| ID | 主张及边界 | 来源 | 分类/状态 |
+|---|---|---|---|
+| GT05-01 | 树是连通无圈简单无向图，n顶点恰有n−1边；带标签与无标签计数不是一回事 | S36 | MODERN_EXPLANATION |
+| GT05-02 | 依次计数n=2为1、n=3为3、n=4为16、n=5为125；带标签数\(n^{n-2}\)（n≥2） | S36 | MODERN_EXPLANATION |
+| GT05-03 | 1857 Sylvester、1860 Borchardt已有与公式等价的结果；不能写成凯莱1889全球最先证明该数值 | S36 | VERIFIED_SCOPED |
+| GT05-04 | Cayley 1889《A Theorem on Trees》图论式表述，关于其原论文是否给出全n严格证明存在数学史讨论 | S36、S37 | VERIFIED_SCOPED_WITH_CAVEAT |
+| GT05-05 | Prüfer 1918《Neuer Beweis eines Satzes über Permutationen》书目与现代Prüfer序列相联系；不用“1918发明现今全部图论符号” | S36、S38 | VERIFIED_SCOPED |
+| GT05-06 | 反复删最小标签叶子、记录其邻点，直到只剩两点，序列长度n−2 | S36 | MODERN_EXPLANATION |
+| GT05-07 | 逆向解码：在当前标签中取不在剩余代码中的最小标签，连向当前首项；读完后最后两点相连；一一对应 | S36 | MODERN_EXPLANATION |
+| GT05-08 | 例n=5，边12、23、24、45，编码[2,2,4]，反解与5³=125正确 | S36＋独立手算 | MODERN_EXPLANATION |
+| GT05-09 | 序列某标签出现次数=该点度−1；编码数为每位n选项故n^(n-2) | S36 | MODERN_EXPLANATION |
+| GT05-10 | 公式数的是所有指定标签顶点集合上可能的树结构，不是给定连通图里的生成树数量；这是两个不同问题 | S36、S37 | MODERN_EXPLANATION |
+
+### 第06章｜1852地图着色与四色猜想（GT06-01—GT06-11）
+
+| ID | 主张及边界 | 来源 | 分类/状态 |
+|---|---|---|---|
+| GT06-01 | Francis Guthrie在1852尝试地图上色，经弟弟Frederick转告De Morgan，不能把二人合为一人 | S39、S40 | VERIFIED_SCOPED |
+| GT06-02 | 1852-10-23 De Morgan 致William Rowan Hamilton的信记录“最多四种是否足够”的疑问；此时并未证明 | S39、S40 | VERIFIED_SCOPED |
+| GT06-03 | 地图区划默认各区域连通；相邻指共享非零长度边界，仅接触一点不算 | S41、S39 | MODERN_DEFINITION |
+| GT06-04 | 地图→对偶图：每个连通国家一个顶点、相邻连接边，平面图四色着色等价于地图四色问题（简化重边、自环例外要说明） | S41、现代数学 | MODERN_EXPLANATION |
+| GT06-05 | 平面图K4可嵌入，存在需要四种颜色的地图；这只说明至少四种，不证明最多四种 | S39、S41 | MODERN_EXPLANATION |
+| GT06-06 | 对n≥3有限简单平面图E≤3n−6，度数和2E≤6n−12，故至少有一顶点度≤5 | S41、S40、欧拉公式现代推导 | MODERN_EXPLANATION |
+| GT06-07 | 删去度≤5顶点用归纳容易证明所有平面图最多6色；为何4色不能直接照搬：周围五邻居可能已用四种颜色 | S40、现代归纳推导 | MODERN_EXPLANATION |
+| GT06-08 | “任何5国不可能两两相邻”只排除K5型局部情况，不能单凭此证明全图四可染色 | S41、现代图论 | MODERN_EXPLANATION |
+| GT06-09 | Cayley于1878向London Mathematical Society提出公开问题，1879相关论文，四色仍是猜想 | S39、S40 | VERIFIED_SCOPED |
+| GT06-10 | Kempe 1879自称证明、Heawood1890指出错误；这在后续第07章展开；1976 Appel-Haken计算机辅助证明后才有四色**定理** | S39、S42 | VERIFIED_SCOPED |
+| GT06-11 | 第06章标题叫“四色猜想”是1852的时代视角，现代已是定理；不把已证结论写成当代未决 | S41、S42 | EDITORIAL_BOUNDARY |
+
+### 交付放行与待核说明
+
+- 本章限度内可形成04—06章初稿；事实引用使用S32—S42相应支持边界，数学教学示例自明可核。
+- **重要历史张力**：Kirkman先行≠Hamilton没有贡献；Sylvester/Borchardt等价结果≠Cayley没有独特工作；四色问题有“1852猜想”和“1976定理”两种时代视角。
+- **跨时代叙事**：第04—06章是认知链而非单调年份排序，06章1852先于05章1889；必须在正文交代这种专题编排。
+- **后续**：第07—37章保持TODO_VERIFY；没有独立审稿、结构审稿、精修或终稿批准，不得将任何章节标成final。
