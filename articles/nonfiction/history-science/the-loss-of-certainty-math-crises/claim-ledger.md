@@ -199,5 +199,50 @@
 | 14 | H14-13 | 1878连续统研究并非CH已证 | research.md 第14章专项；R14-SEP-EARLY | 史料核实并保留来源范围 |
 | 14 | H14-14 | 下一章对角线与连续统的后续顺序 | research.md 第14章专项；outline.md;R14-SEP-EARLY | 研究与编辑性限定 |
 
+## 第15—17章专项主张
+
+| 章节 | claim_id | 主张摘要 | 证据 | 使用边界 |
+|---|---|---|---|---|
+| 15 | H15-01 | 1874与1891为康托尔的不同不可列证明路径 | research.md 第15章专项；R15-SEP-EARLY;R15-CANTOR-1891-ORIG | 已核，避免年代混淆 |
+| 15 | H15-02 | 1891原始文本针对两符号无限序列而非十进小数表 | research.md 第15章专项；R15-CANTOR-1891-ORIG;R15-CANTOR-1891-TRANS | 已核，版本/出版卷年有差异 |
+| 15 | H15-03 | 对任意二元序列列表翻转第n项可得到未列序列 | research.md 第15章专项；R15-CANTOR-1891-ORIG;R15-MODERN-MATH | 原典思想与现代符号分开 |
+| 15 | H15-04 | 每个n构造的新序列与第n序列在第n位不同 | research.md 第15章专项；R15-MODERN-MATH | 现代数学核实 |
+| 15 | H15-05 | 不可数性并非缺少一份更长的可数清单 | research.md 第15章专项；R15-MODERN-MATH | 量词语义限定 |
+| 15 | H15-06 | 普通二进制/十进制数展开有尾随重复表示问题 | research.md 第15章专项；R15-EXPANSION | 已核，禁止忽略 |
+| 15 | H15-07 | 限制0/2的三进制序列编码到[0,1]为单射 | research.md 第15章专项；R15-EXPANSION | 数学核实，现代教学 |
+| 15 | H15-08 | 二元序列集与自然数子集集的双射通过指示函数成立 | research.md 第15章专项；R15-MODERN-MATH | 现代数学核实 |
+| 15 | H15-09 | 幂集严格更大：任何A到P(A)函数均不满射 | research.md 第15章专项；R15-MODERN-MATH | 现代康托尔定理 |
+| 15 | H15-10 | 幂集论证不假定存在“所有集合的集合” | research.md 第15章专项；R15-MODERN-MATH | 避免以后章节罗素悖论 |
+| 15 | H15-11 | 与第16章的CH问题衔接，CH不是本章对角论证的结论 | research.md 第15章专项；outline.md;R15-SEP-EARLY | 编辑性时间线 |
+| 15 | H15-12 | 1891论证的逻辑推广不能简化为“一切数学证明都用改一位” | research.md 第15章专项；R15-CANTOR-1891-ORIG;R15-MODERN-MATH | 解释界限 |
+| 16 | H16-01 | 康托尔的不可数发现提出“中间基数”问题 | research.md 第16章专项；R16-SEP-CH | 已核 |
+| 16 | H16-02 | \(\aleph_0,\mathfrak c,\aleph_1\)及CH准确含义 | research.md 第16章专项；R16-SEP-CH;R16-MODERN | ZFC语境 |
+| 16 | H16-03 | 康托尔定理无法判定CH | research.md 第16章专项；R16-MODERN | 数学核实 |
+| 16 | H16-04 | 希尔伯特1900年将CH列为问题一 | research.md 第16章专项；R16-SEP-CH | 已核 |
+| 16 | H16-05 | ZFC含ZF的集合公理及选择公理 | research.md 第16章专项；R16-SEP-SET | 已核概括 |
+| 16 | H16-06 | 哥德尔1938相对一致性与L、1940展开 | research.md 第16章专项；R16-GODEL-1938;R16-SEP-GODEL | 已核时间线 |
+| 16 | H16-07 | 在L中GCH成立，故CH成立，同时AC成立 | research.md 第16章专项；R16-SEP-SET | 数理限定 |
+| 16 | H16-08 | 科恩1963引入forcing，证明¬CH的相对一致性 | research.md 第16章专项；R16-SEP-SET;R16-SEP-CH | 已核 |
+| 16 | H16-09 | 从两项结果推出相对于ZFC的独立性需假定ZFC一致 | research.md 第16章专项；R16-SEP-CH;R16-MODERN | 强制条件 |
+| 16 | H16-10 | CH与¬CH不能在同一一致理论、同一解释下同时成立 | research.md 第16章专项；R16-MODERN | 语义限定 |
+| 16 | H16-11 | 独立不意味着“问题已被证明无意义”或“所有新公理等价” | research.md 第16章专项；R16-SEP-CH;R16-SEP-SET | 哲学分歧 |
+| 16 | H16-12 | 哥德尔不完全性≠CH独立性论证 | research.md 第16章专项；R16-SEP-GODEL;R16-SEP-CH | 定理区分 |
+| 16 | H16-13 | forcing不是随手加一个实数，需按模型构造 | research.md 第16章专项；R16-SEP-SET;R16-FORCING-CAUTION | 科学叙事边界 |
+| 16 | H16-14 | 本章历史回望20世纪，然后下章折返至19世纪末 | research.md 第16章专项；outline.md;R16-SEP-CH | 编辑性时间线 |
+| 17 | H17-01 | 弗雷格1848—1925与1879/1884/1893/1903出版路线 | research.md 第17章专项；R17-SEP-FREGE;R17-SEP-FREGELOGIC | 已核 |
+| 17 | H17-02 | 1879《概念文字》推动量词逻辑系统发展 | research.md 第17章专项；R17-SEP-FREGELOGIC | 已核，避免单人独占所有逻辑发明 |
+| 17 | H17-03 | 量词顺序变动意味着不同主张，现代公式仅为教学 | research.md 第17章专项；R17-MODERN-LOGIC | 数理核实 |
+| 17 | H17-04 | 1884《算术基础》讨论数的概念与逻辑主义 | research.md 第17章专项；R17-SEP-FREGE;R17-SEP-LOGICISM | 已核 |
+| 17 | H17-05 | 休谟原则借双射刻画两个概念的数相同 | research.md 第17章专项；R17-SEP-LOGICISM;R17-MODERN-LOGIC | 原典思想，现代符号 |
+| 17 | H17-06 | 休谟原则仍涉及数对象与第二阶条件、逻辑基础哲学争议 | research.md 第17章专项；R17-SEP-LOGICISM;R17-SEP-FREGETHEOREM | 条件限定 |
+| 17 | H17-07 | 1893/1903《算术基本规律》引入值域/外延与规律V | research.md 第17章专项；R17-SEP-FREGELOGIC;R17-SEP-FREGE | 已核 |
+| 17 | H17-08 | 基本规律V概括为值域相等 iff 函数对全部自变量取值相同 | research.md 第17章专项；R17-SEP-FREGELOGIC | 精确原义优于简单ZF集合外延 |
+| 17 | H17-09 | 用概念的外延解释数对象，不能等同现代朴素集合推理全集 | research.md 第17章专项；R17-SEP-FREGE;R17-SEP-FREGETHEOREM | 类型/史学限定 |
+| 17 | H17-10 | 基本规律V使原体系陷入罗素矛盾，非一切二阶逻辑矛盾 | research.md 第17章专项；R17-SEP-FREGELOGIC;R17-SEP-FREGETHEOREM | 已核 |
+| 17 | H17-11 | 罗素1902年6月16日致信、第二卷1903年附录的区分 | research.md 第17章专项；R17-SEP-FREGE;R17-SEP-RUSSELL | 已核日期 |
+| 17 | H17-12 | 原体系矛盾不抹去量词逻辑与现代弗雷格定理的独立贡献 | research.md 第17章专项；R17-SEP-FREGETHEOREM;R17-SEP-FREGELOGIC | 学术史限定 |
+| 17 | H17-13 | 弗雷格与希尔伯特在公理语义上有真实分歧 | research.md 第17章专项；R17-SEP-FREGE-HILBERT | 历史核实 |
+| 17 | H17-14 | 与下一章罗素悖论的衔接仅引出基本漏洞，不提前伪造当场对白 | research.md 第17章专项；outline.md;R17-SEP-FREGE | 叙事边界 |
+
 ## 后续章节状态
-第15—25章及序章、尾声仍待逐章专项核证。第01—14章已选主张的证据映射不等同全书终稿核验。
+第18—25章及序章、尾声仍待逐章专项核证。第01—17章已选主张的证据映射不等同全书终稿核验。
