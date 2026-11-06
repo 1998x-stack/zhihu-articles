@@ -1,0 +1,106 @@
+{
+  "chapter": "02",
+  "title": "从算筹到字母：未知数怎样获得名字",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "source_ids": {
+    "N02-S1": "https://mathshistory.st-andrews.ac.uk/Biographies/Diophantus/",
+    "N02-S2": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+    "N02-S3": "https://old.maa.org/press/periodicals/convergence/algebra-tiles-explorations-of-al-khw-rizm-s-equation-types-al-khw-rizm-s-compendium-on-calculating",
+    "N02-S4": "https://journals.sagepub.com/doi/10.1177/20966083261418725",
+    "N02-S5": "https://mathshistory.st-andrews.ac.uk/Extras/Jade_mirror/",
+    "N02-S6": "https://mathshistory.st-andrews.ac.uk/Miller/mathsym/relation/",
+    "N02-S7": "https://mathshistory.st-andrews.ac.uk/Miller/mathsym/variables/",
+    "N02-S8": "https://mathshistory.st-andrews.ac.uk/Biographies/Viete/",
+    "N02-S9": "https://plato.stanford.edu/entries/descartes-mathematics/",
+    "MATH-DERIVATION": "本章第九节数学推导与显式反例"
+  },
+  "claims": [
+    {
+      "claim_id": "C02-01",
+      "source_ids": [
+        "N02-S1"
+      ],
+      "verified": true,
+      "kind": "historical_fact"
+    },
+    {
+      "claim_id": "C02-02",
+      "source_ids": [
+        "N02-S2",
+        "N02-S3"
+      ],
+      "verified": true,
+      "kind": "historical_fact"
+    },
+    {
+      "claim_id": "C02-03",
+      "source_ids": [
+        "N02-S4",
+        "N02-S5"
+      ],
+      "verified": true,
+      "kind": "historical_fact"
+    },
+    {
+      "claim_id": "C02-04",
+      "source_ids": [
+        "N02-S4",
+        "N02-S5"
+      ],
+      "verified": true,
+      "kind": "historical_fact"
+    },
+    {
+      "claim_id": "C02-05",
+      "source_ids": [
+        "N02-S6"
+      ],
+      "verified": true,
+      "kind": "historical_fact"
+    },
+    {
+      "claim_id": "C02-06",
+      "source_ids": [
+        "N02-S7",
+        "N02-S8"
+      ],
+      "verified": true,
+      "kind": "historical_fact"
+    },
+    {
+      "claim_id": "C02-07",
+      "source_ids": [
+        "N02-S7",
+        "N02-S9"
+      ],
+      "verified": true,
+      "kind": "historical_fact"
+    },
+    {
+      "claim_id": "C02-08",
+      "source_ids": [
+        "MATH-DERIVATION"
+      ],
+      "verified": true,
+      "kind": "modern_mathematical_reconstruction"
+    },
+    {
+      "claim_id": "C02-09",
+      "source_ids": [
+        "N02-S1",
+        "N02-S2",
+        "N02-S4",
+        "N02-S8",
+        "N02-S9"
+      ],
+      "verified": true,
+      "kind": "interpretation_with_caveats"
+    }
+  ],
+  "notes": [
+    "全书其他未核章节不能因本章核实而标记为已核验。",
+    "所有教学示例（包括数值二元方程组和韦达式量纲示意）均为现代构造，不是历史原始引文。",
+    "正文尚需连续性审计、独立结构审查和终稿阶段。"
+  ]
+}

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "linear-algebra-history",
   "title": "从方程到空间：一部线性代数思想发展史",
-  "reading_notice": "第01章已撰写历史非虚构初稿并核对核心主张（尚未完成独立双审及终审），其余章节仍为策划占位。",
+  "reading_notice": "第01、02章已有与来源逐项对应的正文初稿（尚未完成独立双审与终稿），其余章节均为策划占位。",
   "chapters": [
     {
       "id": "prologue",
@@ -23,7 +23,7 @@
       "title": "从算筹到字母：未知数怎样获得名字",
       "part": "第一部｜方程的困境",
       "file": "draft/02.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-03",
