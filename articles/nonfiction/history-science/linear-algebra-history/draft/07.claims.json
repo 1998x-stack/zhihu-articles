@@ -1,0 +1,73 @@
+{
+  "chapter": "07",
+  "title": "拉普拉斯：大行列式怎样拆成小问题",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "S07-1": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "S07-2": "https://mathshistory.st-andrews.ac.uk/Miller/mathsym/matrices/",
+    "S07-3": "https://fr.wikisource.org/wiki/Œuvres_complètes_de_Laplace/Recherches_sur_le_Calcul_intégral_et_sur_le_système_du_monde",
+    "S07-4": "https://catalogue.bnf.fr/ark:/12148/cb30739065z",
+    "S07-M": "本章四阶行列式108及行展开一般公式"
+  },
+  "claims": [
+    {
+      "claim_id": "C07-01",
+      "source_ids": [
+        "S07-1"
+      ],
+      "type": "historical_priority",
+      "verified": true
+    },
+    {
+      "claim_id": "C07-02",
+      "source_ids": [
+        "S07-1",
+        "S07-2",
+        "S07-3",
+        "S07-4"
+      ],
+      "type": "historical_date_boundary",
+      "verified": true
+    },
+    {
+      "claim_id": "C07-03",
+      "source_ids": [
+        "S07-M"
+      ],
+      "type": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C07-04",
+      "source_ids": [
+        "S07-M"
+      ],
+      "type": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C07-05",
+      "source_ids": [
+        "S07-M"
+      ],
+      "type": "modern_algorithm",
+      "verified": true
+    },
+    {
+      "claim_id": "C07-06",
+      "source_ids": [
+        "S07-1"
+      ],
+      "type": "historical_with_hindsight",
+      "verified": true
+    }
+  ],
+  "notes": [
+    "1772年科学院年卷与1776年实际刊印必须分别表述",
+    "早期莱布尼茨/贝祖/范德蒙德工作不能被抹去",
+    "现代拉普拉斯求和记号并非历史原始排版",
+    "几何体积的联系是后世数学视角",
+    "未通过正式双审或终审"
+  ]
+}
