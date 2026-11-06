@@ -340,7 +340,7 @@
 | 23 | H23-16 | 下一章Church/Turing是可判定性新问题 | research.md 第23章专项；outline.md;R23-BOUND | 编排 |
 
 ## 后续章节状态
-第25章及序章、尾声仍待逐章专项核证。第01—24章已选主张的证据映射不等同全书终稿核验。
+序章仍待专项核证；第01—25章及尾声已建立针对所选主张的来源映射，均不等同终稿质量核准。
 
 ## 第24章主张记录
 
@@ -363,3 +363,33 @@
 | 24 | H24-14 | 一阶有效式可枚举但不可总判定 | R24-SEP-ENTSCHEIDUNG;R24-MODERN-MATH | 已核 |
 | 24 | H24-15 | 难计算、不可判定、具体实例可验证须区分 | R24-SEP-COMPUTABILITY;R24-MODERN-MATH | 已核 |
 | 24 | H24-16 | 第25章机器证明为本书编辑性承接 | outline.md;story-bible.md | 编辑性解释 |
+
+## 第25章与尾声主张记录
+
+| 章 | Claim | 说明 | source_id | 边界 |
+|---|---|---|---|---|
+| 25 | H25-01 | 四色地图共边邻接与平面图对应 | R25-GATECH-THOMAS | 限定 |
+| 25 | H25-02 | Guthrie 1852提出猜想及传播 | R25-GATECH-THOMAS;R25-MACTUTOR | 史料 |
+| 25 | H25-03 | Kempe 1879错误证明、Heawood 1890纠错 | R25-AMS-WILSON;R25-GATECH-THOMAS | 史料 |
+| 25 | H25-04 | Heawood五色定理 | R25-MACTUTOR | 史料 |
+| 25 | H25-05 | Euler与度数公式演算 | R25-MODERN-EULER | 现代数学 |
+| 25 | H25-06 | 最小反例、不可避免集、可约配置 | R25-GATECH-THOMAS | 数学 |
+| 25 | H25-07 | 放电法守恒及局部强制结构 | R25-GATECH-THOMAS;R25-MODERN-EULER | 数学 |
+| 25 | H25-08 | Heesch与前辈方法的演化 | R25-GATECH-THOMAS;R25-AMS-WILSON | 史料 |
+| 25 | H25-09 | 1976宣布与1977正式发表 | R25-1977-ORIGINAL;R25-AMS-WILSON | 史料 |
+| 25 | H25-10 | 计算机核验大量有限可约构型 | R25-GATECH-THOMAS | 数学 |
+| 25 | H25-11 | 原稿、论文及后整理配置数量差异 | R25-AMS-WILSON;R25-GATECH-THOMAS | 史料限定 |
+| 25 | H25-12 | 1990年代633配置改进 | R25-GATECH-THOMAS;R25-1997-JCTB | 史料 |
+| 25 | H25-13 | Gonthier 2005 Coq核查 | R25-GONTHIER-2008;R25-CORNELL-GONTHIER | 史料 |
+| 25 | H25-14 | 规范/核查器/硬件信任链 | R25-GONTHIER-2008;R25-GATECH-THOMAS | 认识论 |
+| 25 | H25-15 | 不可判定与具体有限核查区别 | draft/24.md;R25-GATECH-THOMAS | 逻辑 |
+| 25 | H25-16 | 全书主题转入信任方法 | outline.md;story-bible.md | 编辑解释 |
+| 26 | E26-01 | 三次危机七变革为编辑框架 | RE26-STRUCTURE | 编辑解释 |
+| 26 | E26-02 | 不可公度及古代比例理论 | RE26-ANCIENT | 书内回顾 |
+| 26 | E26-03 | 微积分发展与严密化 | RE26-CALCULUS | 书内回顾 |
+| 26 | E26-04 | 欧氏与非欧几何公理差异 | RE26-GEOMETRY | 书内回顾 |
+| 26 | E26-05 | 可数/不可数、CH独立性有前提 | RE26-INFINITY | 书内回顾 |
+| 26 | E26-06 | 罗素悖论及公理化 | RE26-FOUNDATION | 书内回顾 |
+| 26 | E26-07 | 不完备/不可判定/机器核查分清 | RE26-PROOFS | 书内回顾 |
+| 26 | E26-08 | 明确前提、可复核推理、适用边界的总结 | RE26-INTERPRETATION | 编辑解释 |
+| 26 | E26-09 | 序章目前为占位，不宣称全书完成 | RE26-PROLOGUE-STATE | 状态 |
