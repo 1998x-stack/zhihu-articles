@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "ideal-gas-law-two-centuries",
   "title": "看不见的秩序：PV=nRT的两百年接力",
-  "reading_notice": "17篇 draft/NN.md 仅保存原始初稿（revision 0），不代表当前审校版。跨章合订修订稿见 revised.md（revision 2；需以 workflow-state.json 和 qa/ 两份当轮审稿报告判断状态），本书尚未获得 final-approval 或发布许可。",
+  "reading_notice": "独立双审与line-edit已完成（revision2），当前精修合订稿为edited.md，待final-approval封版，不代表已批准终稿或已发布。下列17份draft/NN.md为留存原初稿revision0；审校中间版为revised.md，审稿证据与状态见qa/及workflow-state.json。",
   "chapters": [
     {
       "id": "prologue",
