@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 8,
+  "current_revision": 11,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -192,13 +192,67 @@
     },
     {
       "chapter": "10",
+      "status": "draft-written",
+      "question": "元明纸币怎样受银价、税收与财政压力影响",
+      "next_question": "跨洋白银供给为何与中国市场联结",
+      "sources": [
+        "F-1001",
+        "F-1002",
+        "F-1003",
+        "F-1004",
+        "F-1005",
+        "F-1006",
+        "F-1007",
+        "F-1008",
+        "F-1009",
+        "F-1010"
+      ]
+    },
+    {
+      "chapter": "11",
+      "status": "draft-written",
+      "question": "美洲矿业和菲律宾商路怎样将银送到东亚、谁承担代价",
+      "next_question": "未来税收如何成为公共举债的担保",
+      "sources": [
+        "F-1101",
+        "F-1102",
+        "F-1103",
+        "F-1104",
+        "F-1105",
+        "F-1106",
+        "F-1107",
+        "F-1108",
+        "F-1109",
+        "F-1110"
+      ]
+    },
+    {
+      "chapter": "12",
+      "status": "draft-written",
+      "question": "热那亚和荷兰如何以不同公共信用组织长期借款",
+      "next_question": "股份公司股权如何转移远洋经营风险",
+      "sources": [
+        "F-1201",
+        "F-1202",
+        "F-1203",
+        "F-1204",
+        "F-1205",
+        "F-1206",
+        "F-1207",
+        "F-1208",
+        "F-1209",
+        "F-1210"
+      ]
+    },
+    {
+      "chapter": "13",
       "status": "outline-only",
-      "question": "元明纸币制度为何在白银化背景下变化"
+      "question": "1602年VOC可转让股份如何组织远洋资本"
     }
   ],
-  "remaining_chapters": "11-40 outline-only",
+  "remaining_chapters": "14-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Prologue and chapters 01-09 are research drafts, not final publication-cleared versions."
+  "notes": "Prologue and chapters 01-12 have research-level drafts only; publication review remains blocked."
 }
