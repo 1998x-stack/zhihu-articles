@@ -1,0 +1,172 @@
+{
+  "chapter": "11",
+  "title": "感应电流为什么总像在反抗变化",
+  "status": "REVIEW_CANDIDATE_NOT_WORKFLOW_DRAFT",
+  "manuscript_path": "proposals/11.md",
+  "revision": 0,
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E11-01",
+      "statement": "楞次1833年11月宣读、1834年发表相关方向规律",
+      "kind": "史实/印行时间",
+      "source_ids": [
+        "S11-01",
+        "S11-02"
+      ],
+      "section": "二",
+      "verification": "公开馆藏/原著转录/学术资料支持概念范围；原著版本及争论未完成逐页独立审核"
+    },
+    {
+      "claim_id": "E11-02",
+      "statement": "楞次原文方向法则面向运动感应，并非直接等于现代磁通微分式",
+      "kind": "史实与概念边界",
+      "source_ids": [
+        "S11-01",
+        "S11-02"
+      ],
+      "section": "二、四",
+      "verification": "公开馆藏/原著转录/学术资料支持概念范围；原著版本及争论未完成逐页独立审核"
+    },
+    {
+      "claim_id": "E11-03",
+      "statement": "现代楞次定律反抗引起感应的磁通变化而非总反抗原磁场",
+      "kind": "现代物理",
+      "source_ids": [
+        "S11-03"
+      ],
+      "section": "三",
+      "verification": "公开馆藏/原著转录/学术资料支持概念范围；原著版本及争论未完成逐页独立审核"
+    },
+    {
+      "claim_id": "E11-04",
+      "statement": "固定回路ε=-dΦB/dt的负号依赖一致取向约定",
+      "kind": "现代物理",
+      "source_ids": [
+        "S11-03"
+      ],
+      "section": "四",
+      "verification": "公开馆藏/原著转录/学术资料支持概念范围；原著版本及争论未完成逐页独立审核"
+    },
+    {
+      "claim_id": "E11-05",
+      "statement": "楞次规律与电磁感应能量守恒相容，外部机械功有来源",
+      "kind": "现代物理解释",
+      "source_ids": [
+        "S11-03"
+      ],
+      "section": "五",
+      "verification": "公开馆藏/原著转录/学术资料支持概念范围；原著版本及争论未完成逐页独立审核"
+    },
+    {
+      "claim_id": "E11-06",
+      "statement": "亨利对互感和自感有重要独立研究，不能被单人发现叙事抹去",
+      "kind": "史学归属",
+      "source_ids": [
+        "S11-04"
+      ],
+      "section": "六",
+      "verification": "公开馆藏/原著转录/学术资料支持概念范围；原著版本及争论未完成逐页独立审核"
+    },
+    {
+      "claim_id": "E11-07",
+      "statement": "现代线性自感模型εL=-L dI/dt，不是1830年代原文",
+      "kind": "现代物理与历史区分",
+      "source_ids": [
+        "S11-05"
+      ],
+      "section": "六",
+      "verification": "公开馆藏/原著转录/学术资料支持概念范围；原著版本及争论未完成逐页独立审核"
+    },
+    {
+      "claim_id": "E11-08",
+      "statement": "诺伊曼1845与1847年研究推动感应量化并引用楞次方向规则",
+      "kind": "科学史研究",
+      "source_ids": [
+        "S11-06",
+        "S11-07"
+      ],
+      "section": "七",
+      "verification": "公开馆藏/原著转录/学术资料支持概念范围；原著版本及争论未完成逐页独立审核"
+    },
+    {
+      "claim_id": "E11-09",
+      "statement": "1847年诺伊曼论文注明8月9日在柏林科学院报告",
+      "kind": "书目史实待一手逐页",
+      "source_ids": [
+        "S11-06"
+      ],
+      "section": "七",
+      "verification": "公开馆藏/原著转录/学术资料支持概念范围；原著版本及争论未完成逐页独立审核"
+    },
+    {
+      "claim_id": "E11-10",
+      "statement": "法拉第、楞次、亨利、诺伊曼分别处理现象、方向、自感/互感和一般化",
+      "kind": "有界历史综合",
+      "source_ids": [
+        "S11-01",
+        "S11-04",
+        "S11-07"
+      ],
+      "section": "八、九",
+      "verification": "公开馆藏/原著转录/学术资料支持概念范围；原著版本及争论未完成逐页独立审核"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S11-01",
+      "title": "E. Lenz 1834 original paper, English translation",
+      "url": "https://www.neo-classical-physics.info/uploads/3/4/3/6/34363841/lenz_-_lenzs_law.pdf",
+      "source_type": "原著英译",
+      "scope": "确认1833-11-29圣彼得堡宣读、1834刊出；译稿不是德文原版逐页核对"
+    },
+    {
+      "source_id": "S11-02",
+      "title": "Maxwell 1873 Treatise Part IV ch.III §542",
+      "url": "https://en.wikisource.org/wiki/A_Treatise_on_Electricity_and_Magnetism/Part_IV/Chapter_III",
+      "source_type": "后世权威原著回顾",
+      "scope": "可核后世如何界定楞次1834规律，与先前尝试并列；1873解释不能当1834原文"
+    },
+    {
+      "source_id": "S11-03",
+      "title": "OpenStax University Physics 13.2 Lenz's Law",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/13-2-lenzs-law",
+      "source_type": "现代大学物理教材",
+      "scope": "固定回路负号、磁通变化方向、机械功与能量守恒"
+    },
+    {
+      "source_id": "S11-04",
+      "title": "Smithsonian Joseph Henry Electromagnetism",
+      "url": "https://siarchives.si.edu/history/featured-topics/henry/electromagnetism",
+      "source_type": "机构学术史",
+      "scope": "亨利自感互感及1831—1832工作；时间先后与发表仍需专业史学核对"
+    },
+    {
+      "source_id": "S11-05",
+      "title": "OpenStax University Physics 14.2 Self Inductance",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/14-2-self-inductance-and-inductors",
+      "source_type": "现代教材",
+      "scope": "自感电动势公式和定量条件，不是亨利原始记号"
+    },
+    {
+      "source_id": "S11-06",
+      "title": "F. E. Neumann 1847 Academy paper digital scan",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Abhandlungen_der_K%C3%B6niglichen_Akademie_der_Wissenschaften_zu_Berlin._Aus_dem_Jahre_1847._%28IA_dli.granth.41441%29.pdf",
+      "source_type": "一手文献数字影像入口",
+      "scope": "检索摘要注明1847-08-09呈交并回顾1845研究；未完全校勘PDF图像"
+    },
+    {
+      "source_id": "S11-07",
+      "title": "Kenneth L. Caneva 1978 German electrodynamics history",
+      "url": "https://libres.uncg.edu/ir/uncg/f/K_Caneva_From_1978.pdf",
+      "source_type": "科学史学术论文",
+      "scope": "诺伊曼1845年以楞次规则、速度比例假设作数学化的解释；原PDF全文未经逐页核校"
+    }
+  ],
+  "unresolved": [
+    "1833年宣读和1834年印本与德文原著逐页比对",
+    "诺伊曼1845及1847原文的速度假设和积分形式逐页核对",
+    "区分楞次原始运动法则与后世磁通方向和能量守恒表述",
+    "亨利自感/互感首发细节和出版争议的独立学术史核查"
+  ]
+}
