@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "id": "credit-debt-power-global-financial-history",
+  "reading_notice": "本站展示原始创作文件。标记“初稿”的章节尚未通过最终审校；“待撰写”的章节仅为编辑占位，不是正式正文。",
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "00｜序章：一家公司破产，为什么会让全世界怀疑彼此？",
+      "part": "序章",
+      "file": "draft/00-prologue.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-01",
+      "title": "01｜泥板上的欠条：当债务第一次成为可记录的承诺",
+      "part": "第一部",
+      "file": "draft/part-01-ledger-and-empire/01.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-02",
+      "title": "02｜利息、抵押与赦债：谁承担社会无法偿付的账",
+      "part": "第一部",
+      "file": "draft/part-01-ledger-and-empire/02.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-03",
+      "title": "03｜谁制造了货币：铸币、税收与军队的三角关系",
+      "part": "第一部",
+      "file": "draft/part-01-ledger-and-empire/03.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-04",
+      "title": "04｜帝国的钱袋：罗马与汉朝为什么都离不开财政",
+      "part": "第一部",
+      "file": "draft/part-01-ledger-and-empire/04.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-05",
+      "title": "05｜黄金、贡赋与商路：欧亚非的交换体系并非一个模板",
+      "part": "第一部",
+      "file": "draft/part-01-ledger-and-empire/05.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-06",
+      "title": "06｜没有分行的远方汇款：伊斯兰商贸网络的信用",
+      "part": "第二部",
+      "file": "draft/part-02-credit-across-routes/06.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-07",
+      "title": "07｜一张胡迪票据走多远：南亚商人的汇兑网络",
+      "part": "第二部",
+      "file": "draft/part-02-credit-across-routes/07.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-08",
+      "title": "08｜交子：当一张纸开始要求国家承担责任",
+      "part": "第二部",
+      "file": "draft/part-02-credit-across-routes/08.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-09",
+      "title": "09｜汇票与复式记账：意大利商人怎样计算远方的风险",
+      "part": "第二部",
+      "file": "draft/part-02-credit-across-routes/09.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-10",
+      "title": "10｜从元钞到白银：纸币为什么并不总能延续",
+      "part": "第二部",
+      "file": "draft/part-02-credit-across-routes/10.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-11",
+      "title": "11｜白银横渡太平洋：美洲矿山如何连接中国市场",
+      "part": "第三部",
+      "file": "draft/part-03-global-markets-and-public-debt/11.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-12",
+      "title": "12｜城邦借债：热那亚与荷兰的公共信用实验",
+      "part": "第三部",
+      "file": "draft/part-03-global-markets-and-public-debt/12.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-13",
+      "title": "13｜1602年：股份公司把贸易风险切成可以交易的份额",
+      "part": "第三部",
+      "file": "draft/part-03-global-markets-and-public-debt/13.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-14",
+      "title": "14｜1694年：英格兰银行怎样让国家借款更可信",
+      "part": "第三部",
+      "file": "draft/part-03-global-markets-and-public-debt/14.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-15",
+      "title": "15｜1720年泡沫：南海公司和密西西比公司究竟卖什么",
+      "part": "第三部",
+      "file": "draft/part-03-global-markets-and-public-debt/15.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-16",
+      "title": "16｜帝国利润的另一页：奴隶制、殖民与金融信用",
+      "part": "第四部",
+      "file": "draft/part-04-industrial-capital/16.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-17",
+      "title": "17｜铁路狂潮：债券和股票如何改变工业革命的速度",
+      "part": "第四部",
+      "file": "draft/part-04-industrial-capital/17.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-18",
+      "title": "18｜黄金与伦敦：全球清算为什么既高效又脆弱",
+      "part": "第四部",
+      "file": "draft/part-04-industrial-capital/18.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-19",
+      "title": "19｜1907年的挤兑：为何美国最后需要美联储",
+      "part": "第四部",
+      "file": "draft/part-04-industrial-capital/19.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-20",
+      "title": "20｜票号、钱庄与新式银行：近代中国汇兑网络的转身",
+      "part": "第四部",
+      "file": "draft/part-04-industrial-capital/20.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-21",
+      "title": "21｜1914年：战争怎样撬开金本位的锁",
+      "part": "第五部",
+      "file": "draft/part-05-collapse-and-reconstruction/21.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-22",
+      "title": "22｜1923年的德国：当名义债务和实际财富分道扬镳",
+      "part": "第五部",
+      "file": "draft/part-05-collapse-and-reconstruction/22.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-23",
+      "title": "23｜1929年之后：为什么银行恐慌能拖垮实体经济",
+      "part": "第五部",
+      "file": "draft/part-05-collapse-and-reconstruction/23.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-24",
+      "title": "24｜1935年的中国法币改革：战争前夕的货币抉择",
+      "part": "第五部",
+      "file": "draft/part-05-collapse-and-reconstruction/24.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-25",
+      "title": "25｜1944年：布雷顿森林为什么把美元放在中心",
+      "part": "第五部",
+      "file": "draft/part-05-collapse-and-reconstruction/25.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-26",
+      "title": "26｜1971年：美元不再兑换黄金之后发生了什么",
+      "part": "第六部",
+      "file": "draft/part-06-dollar-and-liberalization/26.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-27",
+      "title": "27｜石油美元与1982债务危机：谁承担利率变化的代价",
+      "part": "第六部",
+      "file": "draft/part-06-dollar-and-liberalization/27.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-28",
+      "title": "28｜看不见的美元：离岸市场如何改变全球银行",
+      "part": "第六部",
+      "file": "draft/part-06-dollar-and-liberalization/28.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-29",
+      "title": "29｜日本泡沫：便宜的资金为何流进土地和股票",
+      "part": "第六部",
+      "file": "draft/part-06-dollar-and-liberalization/29.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-30",
+      "title": "30｜从期权公式到衍生品：风险是被分散还是重新连接",
+      "part": "第六部",
+      "file": "draft/part-06-dollar-and-liberalization/30.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-31",
+      "title": "31｜改革开放后：中国的银行、交易所与资本市场",
+      "part": "第七部",
+      "file": "draft/part-07-contagion-and-systemic-risk/31.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-32",
+      "title": "32｜1997年亚洲金融危机：资本为何突然逆流",
+      "part": "第七部",
+      "file": "draft/part-07-contagion-and-systemic-risk/32.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-33",
+      "title": "33｜1998年：俄罗斯违约与LTCM如何暴露共同交易",
+      "part": "第七部",
+      "file": "draft/part-07-contagion-and-systemic-risk/33.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-34",
+      "title": "34｜2008年：房贷如何变成整个世界的信用危机",
+      "part": "第七部",
+      "file": "draft/part-07-contagion-and-systemic-risk/34.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-35",
+      "title": "35｜欧元债务危机：共享货币为何不等于共享财政",
+      "part": "第七部",
+      "file": "draft/part-07-contagion-and-systemic-risk/35.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-36",
+      "title": "36｜从电汇到手机：支付革命真的改变了什么",
+      "part": "第八部",
+      "file": "draft/part-08-digital-and-future/36.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-37",
+      "title": "37｜中国的信用再平衡：汇率、房地产与金融监管",
+      "part": "第八部",
+      "file": "draft/part-08-digital-and-future/37.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-38",
+      "title": "38｜2020年：世界停摆，金融系统为何需要流动性支援",
+      "part": "第八部",
+      "file": "draft/part-08-digital-and-future/38.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-39",
+      "title": "39｜2023年的银行风波：数字挤兑遇到久期风险",
+      "part": "第八部",
+      "file": "draft/part-08-digital-and-future/39.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-40",
+      "title": "40｜稳定币、数字货币与下一代金融秩序",
+      "part": "第八部",
+      "file": "draft/part-08-digital-and-future/40.md",
+      "status": "outline"
+    },
+    {
+      "id": "epilogue",
+      "title": "99｜尾声：金融承诺的下一条边界",
+      "part": "尾声",
+      "file": "draft/99-epilogue.md",
+      "status": "outline"
+    }
+  ]
+}
