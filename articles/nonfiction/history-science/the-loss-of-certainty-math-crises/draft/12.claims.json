@@ -1,0 +1,74 @@
+{
+  "chapter": "12",
+  "title": "黎曼：把空间本身变成问题",
+  "lane": "nonfiction",
+  "revision": 9,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Historical claims supported by chapter-specific research.md evidence matrix",
+    "Modern mathematics and historical formulations clearly distinguished",
+    "Independent continuity and developmental reviews not yet performed"
+  ],
+  "claims": [
+    {
+      "claim_id": "H12-01",
+      "source_id": "R12-MACTUTOR;R12-SEP-GEOM",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H12-02",
+      "source_id": "R12-SEP-GEOM;R12-GRAY",
+      "verification": "historical_date_qualified"
+    },
+    {
+      "claim_id": "H12-03",
+      "source_id": "R12-SEP-GEOM",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H12-04",
+      "source_id": "R12-SEP-GEOM;R12-MACTUTOR",
+      "verification": "historical_with_modern_terms"
+    },
+    {
+      "claim_id": "H12-05",
+      "source_id": "R12-SEP-GEOM;R12-MODERN",
+      "verification": "modern_math"
+    },
+    {
+      "claim_id": "H12-06",
+      "source_id": "R12-MODERN",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H12-07",
+      "source_id": "R12-MODERN",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H12-08",
+      "source_id": "R12-SEP-GEOM;R12-MODERN",
+      "verification": "modern_math_and_history"
+    },
+    {
+      "claim_id": "H12-09",
+      "source_id": "R12-SEP-GEOM",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H12-10",
+      "source_id": "R12-RELATIVITY;R12-MODERN",
+      "verification": "cross_era_qualified"
+    },
+    {
+      "claim_id": "H12-11",
+      "source_id": "brief.md;outline.md",
+      "verification": "editorial_framing"
+    },
+    {
+      "claim_id": "H12-12",
+      "source_id": "outline.md;draft/11.md",
+      "verification": "editorial_transition"
+    }
+  ]
+}
