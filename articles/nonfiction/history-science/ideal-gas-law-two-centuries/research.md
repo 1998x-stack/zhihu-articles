@@ -1,6 +1,6 @@
 # 资料证据矩阵｜PV=nRT 发现史
 
-> 研究范围：**当前已核对序章00及第01—08章的核心事实**。09—16章只有研究方向，写正文前逐章进行资料扩展。标注“已核”指来源确实支持下表限定的主张，不等于获得完整的原始档案链、通过出版审稿或为全篇史实背书。
+> 研究范围：**当前已核对序章00及第01—11章的核心事实**。12—16章只有研究方向，写正文前逐章进行资料扩展。标注“已核”指来源确实支持下表限定的主张，不等于获得完整的原始档案链、通过出版审稿或为全篇史实背书。
 
 ## 可追溯资料
 
@@ -406,3 +406,108 @@ G04-01至G04-18拥有可追溯资料或明确的编辑性/现代解释标记，�
 
 ### 进入写作的判定
 第06章G06-01—G06-16、第07章G07-01—G07-17、第08章G08-01—G08-18均有本表明示来源或现代/编辑性解释标记，允许三章在当前修订编号下进入**非虚构初稿**；未取得独立连续性审计、结构审稿或终审批准。
+
+## 第09—11章批次专项核证（2026-11-06）
+
+> **授权范围**：第三部末章09、第四部第10—11章。按现有outline，不重选题。仅对初稿允许入笔的史实和现代解释设定边界，12—16仍须独立前置核证。
+
+### 新增资料
+
+| ID | 书目与链接 | 证据范围与限定 |
+|---|---|---|
+| S54 | Science History Institute, “Setting the Table” (2010) https://www.sciencehistory.org/stories/magazine/setting-the-table/ | 会议动机、未统一概念、会后《提要》传播、迈耶与门捷列夫后续影响；机构二手，不是会议逐字记录 |
+| S55 | Mário J. de Oliveira et al., “On the Birth of Modern Chemistry: II,” Substantia (2026) https://www.mdpi.com/2409-9252/6/2/35 | 三天会议、1860-09-03约140人、凯库勒/武尔茨/韦尔齐恩、帕韦西分发印本；本轮网站全文429，仅检索可见片段交叉参考 |
+| S56 | Stanislao Cannizzaro, “Letter to Prof. S. de Luca: Sketch of a Course of Chemical Philosophy” (1858), English excerpt https://erenow.org/common/history-philosophy-science-reader/74.php | 原作英译转录，利用气体密度与等体积假说推相对分子量，并从化合物中元素质量的最小整倍份额推原子量 |
+| S57 | Aaron J. Ihde, “The Karlsruhe Congress: A Centennial Retrospective,” J. Chem. Educ. 38 (1961), https://doi.org/10.1021/ed038p83 | 公开摘要：1860-09-03约140人参会，完整正文受限，勿以摘要推断对话或投票逐项内容 |
+| S58 | Carmen Giunta, “Atoms in Chemistry,” ACS Symposium Series (2010) https://stjohnscollege.edu.in/web/wp-content/uploads/2022/01/Atoms-in-Chemistry-From-Daltons-Predecessors-to-Complex-Atoms-and-Beyond-C.-Giunta-ACS-2010-WW.pdf | 检索可见：坎尼扎罗、迈耶、门捷列夫参会、议题涵盖原子/分子/当量、1864教材及周期律联系；PDF未逐页复核 |
+| S59 | Sadi Carnot, Réflexions sur la puissance motrice du feu (1824), modern annotated English translation https://emend.press/carnot.html | 原著后世译本；冷热温差、热流类水位落差、理想可逆热机、四阶段热力循环；译者加的分段标题不是1824原文 |
+| S60 | Wayne M. Saslow, “A History of Thermodynamics: The Missing Manual,” Entropy 22 (2020) https://pmc.ncbi.nlm.nih.gov/articles/PMC7516509/ | 同已有S02；全文科研文章详解卡诺热素理论及其可逆性、1834克拉佩龙PV图和267公式、理论局限 |
+| S61 | D. Sekulic et al., “2024 ‘Key Reflections’ on Sadi Carnot,” Entropy 27 (2025) https://www.mdpi.com/1099-4300/27/5/502 | 现代热机效率与可逆性史学解读：温差直接传热、摩擦造成损失；现代术语不可冒充1824原词 |
+| S62 | American Physical Society, Thermodynamics and Heat, PhysicsQuest https://www.aps.org/learning-center/learning-resources/physicsquest-2011 | 现代教学的四阶段（两等温，两绝热）卡诺循环及可逆条件；非卡诺原文一比一术语 |
+| S63 | Émile Clapeyron, Mémoire sur la puissance motrice de la chaleur (1834), French original scan https://www3.nd.edu/~powers/ame.20231/clapeyron1834.pdf | 1834一手原版影印：首页已截图，原文开篇明确波义耳/马略特与盖吕萨克规律、气体、蒸气、热机，PDF原作需按页参照 |
+| S64 | Émile Clapeyron, “Memoir on the Motive Power of Heat,” 1837 English translation, Scientific Memoirs I, p.356 https://en.wikisource.org/wiki/Page:Scientific_Memoirs,_Vol._1_(1837).djvu/368 | 可核pv=p0v0(267+t)/(267+t0)及R=p0v0/(267+t0)、气体微小循环；转录有校对提示，须与S60/S63交叉 |
+| S65 | Bibliothèque nationale de France catalogue of 1834 Clapeyron article facsimile, https://catalogue.bnf.fr/ark:/12148/cb40936143n | 书目确认1834原文p153–190；仅支持文献身份及年代，不单独支持公式 |
+| S66 | Girolami, “A Brief History of Thermodynamics,” J. Chem. Eng. Data 65 (2020), 298–311, https://doi.org/10.1021/acs.jced.9b00515 | 二手研究：1834论文传播卡诺思想、引入PV环路图与微分、结合旧气体定律；与S60及S64交叉 |
+
+### 第10章主张—来源对应
+
+| claim_id | 可以写入正文的主张 | 依据 | 证据类型 |
+|---|---|---|---|
+| G10-01 | 1824卡诺发表《关于火的动力的思考》探究热机的最大可能动力 | S59/S60 | primary |
+| G10-02 | 研究对象不只蒸汽机，还包括所有可想象热机 | S59/S60 | primary |
+| G10-03 | 冷热差比喻为水位差让动力得以产生 | S59/S61 | primary |
+| G10-04 | 1824原作采用热素守恒旧理论 | S59/S60 | historical |
+| G10-05 | 现代热功转换的能量守恒解释在19世纪中期完善 | S60 | historiography |
+| G10-06 | 循环热机需要温度不同的热源，单一恒温热库不能持续产净功 | S59/S60 | history_modern |
+| G10-07 | 可逆过程为比较理想最大效率提供反证框架 | S59/S61 | history |
+| G10-08 | 摩擦及有限温差不做功的直接传热浪费潜在动力 | S59/S61 | history |
+| G10-09 | 可逆循环倒转可把热从冷处送热处、以此论证效率上限 | S59/S60 | history |
+| G10-10 | 现代卡诺四段是两等温和两绝热，教学重述非1824完全同词 | S62/S60 | modern |
+| G10-11 | 工质循环回原状态但对外净功可非零 | S60/S62 | modern |
+| G10-12 | 可逆热机最高效率取决于冷热热源而非具体工质 | S59/S60 | history |
+| G10-13 | η=1−Tc/Th为后世在绝对温标下的现代公式，非1824原式 | S60/S62 | modern |
+| G10-14 | 效率与每秒输出功率、单纯节省燃料不同 | S59/S60 | modern |
+| G10-15 | 1824著作传播有限，1834克拉佩龙数学重述是重要节点 | S59/S60/S66 | history |
+| G10-16 | 卡诺1824原文未画后世经典p-V封闭循环图 | S60/S66 | qualified |
+| G10-17 | 热素理论后来被修正，可逆性及热机极限仍有长久价值 | S60/S61 | synthesis |
+| G10-18 | 从热机最大功转向PV面积是第11章数学化衔接 | S60/S64 | narrative |
+
+### 第11章主张—来源对应
+
+| claim_id | 可以写入正文的主张 | 依据 | 证据类型 |
+|---|---|---|---|
+| G11-01 | 1834克拉佩龙发表热的动力研究，《综合工科学校学报》页153—190 | S63/S65 | primary |
+| G11-02 | 重述卡诺1824研究，推进分析数学化 | S63/S60/S66 | history |
+| G11-03 | 使用压强-体积坐标描绘热机工质循环 | S63/S60/S66 | primary |
+| G11-04 | 工质回到原状态但沿途膨胀、压缩所做净功可非零 | S60/S64 | modern |
+| G11-05 | 现代W=∮p dV为循环曲线有向面积，非1834逐字公式 | S60/S64 | modern |
+| G11-06 | 结合马略特与盖吕萨克两种经验定律处理同气量P,V,t | S63/S64 | primary |
+| G11-07 | 原式pv=[p0v0/(267+t0)](267+t)，R=p0v0/(267+t0) | S64/S63 | primary |
+| G11-08 | 267来自历史温度膨胀经验系数的近似，不是0K实测 | S01/S35/S02 | history |
+| G11-09 | 当时R取决于选定气量与单位，非现代普适摩尔常数 | S64/S01 | history |
+| G11-10 | 相同P,T改变气体数量及V，旧定义的R也改变 | S64/S01 | modern |
+| G11-11 | 现代PV=nRT与n的摩尔标准属于后续概念 | S01/S41 | modern_history |
+| G11-12 | 克拉佩龙通过微小温差和体积变化推导循环功，不仅列出经验公式 | S60/S64 | primary |
+| G11-13 | 蒸气液体两相分析引出相变平衡斜率及潜热关系 | S60/S63 | primary |
+| G11-14 | 热素及旧的热函数Q理论仍有限制，后来部分推导被修正 | S60/S64 | historical |
+| G11-15 | 论文为汤姆孙与克劳修斯阅读卡诺提供数学表达 | S60/S66 | history |
+| G11-16 | 后来测量修正了267并向273靠近，非排版错误 | S01/S02/S35 | history |
+| G11-17 | 统一P,V,T经验关系需固定气体数量和理想适用条件 | S64/S38 | modern |
+| G11-18 | 1834尚无现代气体分子统计理论和摩尔R | S01/S60 | scope |
+| G11-19 | 克拉佩龙蒸气部分不同符号R及潜热记号不可混为现代单一常数 | S60/S64 | notation |
+| G11-20 | 下一章追1850克劳修斯、1864及1873年摩尔化的常数演变 | S01/S02 | transition |
+
+### 第09章主张—来源对应
+
+| claim_id | 可以写入正文的主张 | 依据 | 证据类型 |
+|---|---|---|---|
+| G09-01 | 前章1811等体积假说及其数十年接受争议 | S41/S46 | history |
+| G09-02 | 十九世纪中叶原子量、分子量、当量不统一 | S54/S56 | history |
+| G09-03 | 凯库勒、武尔茨、韦尔齐恩倡议卡尔斯鲁厄会议 | S54/S55 | history |
+| G09-04 | 会议1860年9月3日开始，约140位化学家参与 | S55/S57 | history |
+| G09-05 | 会议目的包含atom/molecule/equivalent定义，不是单纯表决阿伏伽德罗假说 | S54/S57 | history |
+| G09-06 | 坎尼扎罗1858年《化学哲学课程提要》早于会议 | S56/S55 | primary_translation |
+| G09-07 | 提要以气体相对密度及阿伏伽德罗假说推相对分子量 | S56/S41 | primary_translation |
+| G09-08 | 比对不同分子中同一元素的质量份额，求原子量并区分当量 | S56 | primary_translation |
+| G09-09 | 无法气化的物质还需化学组成/比热等独立证据 | S56/S58 | qualified |
+| G09-10 | 会议结束时未统一全部术语与原子量 | S54/S55 | history |
+| G09-11 | 帕韦西会后分发1858《提要》重印本 | S54/S55 | history |
+| G09-12 | 洛塔尔迈耶受到影响并于1864教材吸收相关思想 | S54/S55 | history |
+| G09-13 | 门捷列夫参会，1869周期表依赖相对可靠原子量背景，但非会议现场发明 | S54/S58 | qualified |
+| G09-14 | 阿伏伽德罗思想传播非一夜一致接受 | S46/S48/S54 | historical |
+| G09-15 | 现代密度/化学式示例是解释工具，不冒充1858原符号 | S56/S41 | modern_explanation |
+| G09-16 | 规范分子量知识对后来气体统一状态方程重要，但1860未写出PV=nRT | S01/S56 | editorial |
+| G09-17 | 第10章倒叙回1824热机史，不把1860后的事件写在卡诺之前 | S59/S54 | narrative |
+| G09-18 | 会议讨论、文本传播、后续教材共同改变科学共同语言 | S54/S55 | synthesis |
+
+### 关键年代与概念的禁错边界
+
+- 1860年会议**不是**阿伏伽德罗定律被全场通过；坎尼扎罗《提要》写于1858年，帕韦西在**会后**分发。1864年迈耶的教材和1869年周期表属于后续历史。
+- 第09章结束1860年化学知识线索后，第10章**有意倒叙**1824热机史。卡诺原著中的热素守恒观点不是现代热力学第一定律；现代η=1−Tc/Th必须标成后来的表述。
+- 第11章法国1834原文、1837英译及现代史学交叉确认`pv=R(267+t)`及`R=p0v0/(267+t0)`；PV闭合面积为现代积分记号，原式R以某份气体为基准，不是现代摩尔普适R。潜热符号也不能跨上下文误读。
+- 旧论文法文扫描已核对封面截图；1837英译为页面转录且存在校对提示，限制精确措辞；坎尼扎罗《提要》使用后世英译，不冒充1858年原稿逐字直引。
+- 实物高温高压蒸汽机、燃烧装置只作历史背景；提供纸笔物理解释，不写危险装置实际复现指导。
+- 三章尚未独立连续性审查和结构审稿，本文研究只能授予初稿资格。
+
+### 核证结论
+第09章G09-01—18、第10章G10-01—18、第11章G11-01—20可在本矩阵限制内撰写为初稿；审稿/精修/终稿发布依旧不得跳过。
