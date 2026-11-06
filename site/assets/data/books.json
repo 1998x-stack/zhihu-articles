@@ -24,7 +24,11 @@
       "#c7ae7f",
       "#8b7155"
     ],
-    "coverInk": "#243337"
+    "coverInk": "#243337",
+    "source": {
+      "repository": "1998x-stack/The-Empty-Spaces",
+      "manifest": "book.json"
+    }
   },
   {
     "id": "the-loss-of-certainty-math-crises",
@@ -51,7 +55,11 @@
       "#597277",
       "#283f48"
     ],
-    "coverInk": "#eae6d9"
+    "coverInk": "#eae6d9",
+    "source": {
+      "repository": "self",
+      "manifest": "articles/nonfiction/history-science/the-loss-of-certainty-math-crises/book.json"
+    }
   },
   {
     "id": "credit-debt-power-global-financial-history",
@@ -78,6 +86,10 @@
       "#a16c59",
       "#5f393c"
     ],
-    "coverInk": "#fff0e2"
+    "coverInk": "#fff0e2",
+    "source": {
+      "repository": "self",
+      "manifest": "articles/nonfiction/social-business/credit-debt-power-global-financial-history/book.json"
+    }
   }
 ]

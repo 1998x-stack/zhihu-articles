@@ -91,9 +91,9 @@
     const card = el("article", "book-card");
     const cover = el("button", "cover-button");
     cover.type = "button";
-    cover.setAttribute("aria-label", "查看《" + book.title + "》详情");
+    cover.setAttribute("aria-label", book.readPath ? "阅读《" + book.title + "》" : "查看《" + book.title + "》详情");
     cover.append(coverFor(book));
-    cover.addEventListener("click", () => openBook(book));
+    cover.addEventListener("click", () => { if (book.readPath && /^read\/[a-z0-9-]+\/$/.test(book.readPath)) window.location.assign("./" + book.readPath); else openBook(book); });
     const meta = el("div", "book-meta");
     const kind = el("div", "book-kind", book.type || "原创作品");
     const title = el("h4");
@@ -168,6 +168,13 @@
     source.href = book.url;
     source.target = "_blank";
     source.rel = "noopener noreferrer";
+    if (book.readPath && /^read\/[a-z0-9-]+\/$/.test(book.readPath)) {
+      const read = el("a", "primary-action", "进入书内阅读 · " + (book.chapterCount || "") + " 章 →");
+      read.href = "./" + book.readPath;
+      actions.append(read);
+      source.className = "secondary-action";
+      source.textContent = "查看 GitHub 源稿 ↗";
+    }
     actions.append(source);
     if (book.readUrl && /^https:\/\//.test(book.readUrl)) {
       const read = el("a", "secondary-action", "开始阅读 ↗");

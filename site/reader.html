@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#152128">
+  <meta name="description" content="在纸间书房按章节阅读原创长篇与知识叙事。">
+  <title>{{DOCUMENT_TITLE}} · 纸间书房</title>
+  <link rel="icon" href="{{ROOT}}assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ROOT}}assets/css/main.css">
+  <link rel="stylesheet" href="{{ROOT}}assets/css/reader.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']], processEscapes: true },
+      options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script defer src="{{ROOT}}assets/js/reader.js"></script>
+</head>
+<body class="reader-body">
+  <a class="skip-link" href="#reader-content">跳转到阅读正文</a>
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+  <header class="reader-header">
+    <div class="reader-header-left">
+      <a class="reader-home" href="{{ROOT}}" title="返回书架"><span aria-hidden="true">←</span><span class="reader-home-label">书房</span></a>
+      <span class="reader-breadcrumb-divider" aria-hidden="true">/</span>
+      <a class="reader-book-link" href="{{BOOK_HREF}}">{{BOOK_TITLE}}</a>
+    </div>
+    <div class="reader-header-actions">
+      <button type="button" class="reader-icon-button font-minus" aria-label="减小字号" title="减小字号">A−</button>
+      <button type="button" class="reader-icon-button font-plus" aria-label="增大字号" title="增大字号">A+</button>
+      <button type="button" class="reader-icon-button theme-toggle" aria-label="切换深浅色主题" title="切换深浅色主题">☼</button>
+      <button type="button" class="reader-icon-button toc-toggle" id="toc-toggle" aria-label="显示章节目录" aria-controls="reader-sidebar" aria-expanded="false">☰</button>
+    </div>
+  </header>
+  <div class="reader-frame">
+    <aside class="reader-sidebar" id="reader-sidebar" aria-label="书籍目录">
+      <div class="reader-sidebar-inner">
+        <div class="reader-sidebar-heading"><span>CONTENTS</span><span>章节目录</span></div>
+        <nav class="reader-toc">{{SIDEBAR}}</nav>
+        <a class="sidebar-back" href="{{BOOK_HREF}}">返回全书目录 ↗</a>
+      </div>
+    </aside>
+    <div class="reader-sidebar-overlay" id="sidebar-overlay" hidden></div>
+    <main class="reader-main" id="reader-content">
+      <div class="reader-container">
+        <div class="reader-meta">
+          {{CHAPTER_STATUS}}
+          <span class="reader-meta-divider" aria-hidden="true"></span>
+          <span>THE READING ROOM</span>
+        </div>
+        <div class="reader-article">{{CONTENT}}</div>
+        <footer class="reader-chapter-footer">
+          <p>{{READ_NOTICE}}</p>
+          <nav class="reader-footer-nav" aria-label="上一篇和下一篇">{{FOOTER_NAV}}</nav>
+        </footer>
+      </div>
+    </main>
+  </div>
+  <button type="button" class="reader-back-top" id="back-top" aria-label="返回页面顶部" title="返回顶部">↑</button>
+  <div class="reader-mobile-bar">
+    <span>{{CHAPTER_TITLE}}</span>
+    <button type="button" class="mobile-chapters-button" aria-controls="reader-sidebar" aria-expanded="false">目录 ☷</button>
+  </div>
+</body>
+</html>
