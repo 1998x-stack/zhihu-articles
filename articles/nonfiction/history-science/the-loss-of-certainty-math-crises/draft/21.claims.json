@@ -1,0 +1,92 @@
+{
+  "chapter": "21",
+  "title": "策梅洛的围墙：不是任何性质都能造出集合",
+  "lane": "nonfiction",
+  "revision": 12,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Historical source assertions and exact mathematical preconditions are mapped in research.md",
+    "Modern derivations and notation are separated from primary historical work",
+    "Independent continuity/developmental reviews and final approval remain pending"
+  ],
+  "claims": [
+    {
+      "claim_id": "H21-01",
+      "statement": "策梅洛1908年发表集合公理化",
+      "source_id": "R21-SEP-ZERMELO",
+      "verification_scope": "历史"
+    },
+    {
+      "claim_id": "H21-02",
+      "statement": "罗素悖论挑战无限制理解原则",
+      "source_id": "R21-SEP-SET;R21-MODERN-SEP",
+      "verification_scope": "现代解释"
+    },
+    {
+      "claim_id": "H21-03",
+      "statement": "1908原体系包含七组上述原则",
+      "source_id": "R21-SEP-ZERMELO",
+      "verification_scope": "别误写现代ZFC"
+    },
+    {
+      "claim_id": "H21-04",
+      "statement": "分离先给定A再筛选",
+      "source_id": "R21-SEP-ZERMELO;R21-MODERN-SEP",
+      "verification_scope": "数学"
+    },
+    {
+      "claim_id": "H21-05",
+      "statement": "B={x∈A:x∉x}可存在且B∉A",
+      "source_id": "R21-MODERN-SEP",
+      "verification_scope": "严格推导"
+    },
+    {
+      "claim_id": "H21-06",
+      "statement": "策梅洛1904年选择公理与良序，1908系统化",
+      "source_id": "R21-SEP-CHOICE;R21-SEP-ZERMELO",
+      "verification_scope": "年代"
+    },
+    {
+      "claim_id": "H21-07",
+      "statement": "幂集、并集、无穷继续支持无限数学",
+      "source_id": "R21-SEP-ZERMELO;R21-SEP-SET",
+      "verification_scope": "数学"
+    },
+    {
+      "claim_id": "H21-08",
+      "statement": "1908“明确性质”有未消除的解释争议",
+      "source_id": "R21-SEP-ZERMELO;R21-BOUNDARY",
+      "verification_scope": "史学"
+    },
+    {
+      "claim_id": "H21-09",
+      "statement": "1922年前后Fraenkel/Skolem扩展、精确化",
+      "source_id": "R21-SEP-ALT",
+      "verification_scope": "史学"
+    },
+    {
+      "claim_id": "H21-10",
+      "statement": "后来的ZF与ZFC不同于1908体系",
+      "source_id": "R21-SEP-SET;R21-SEP-ALT",
+      "verification_scope": "版本"
+    },
+    {
+      "claim_id": "H21-11",
+      "statement": "现代自然数集合编码不冒称1908原稿",
+      "source_id": "R21-MODERN-OMEGA",
+      "verification_scope": "现代教学"
+    },
+    {
+      "claim_id": "H21-12",
+      "statement": "避免悖论不等于绝对一致",
+      "source_id": "R21-SEP-INCOMP;R21-SEP-SET",
+      "verification_scope": "逻辑"
+    },
+    {
+      "claim_id": "H21-13",
+      "statement": "第22章形式系统安全性为编辑性转场",
+      "source_id": "outline.md;R21-BOUNDARY",
+      "verification_scope": "编排"
+    }
+  ]
+}
