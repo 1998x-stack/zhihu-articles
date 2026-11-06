@@ -1,11 +1,113 @@
 {
   "chapter": "12",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S07"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "1916 Kőnig矩阵、1931 Kőnig论文、1931 Egerváry带权问题及Kuhn1955算法的分期核查；数学证明采用现代标准",
+  "claims": [
+    {
+      "claim_id": "GT12-01",
+      "claim": "二分图、匹配定义与非满配情况",
+      "source_ids": [
+        "S68",
+        "S69"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT12-02",
+      "claim": "顶点覆盖必须碰到每条边但不必覆盖全部顶点",
+      "source_ids": [
+        "S68",
+        "S69"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT12-03",
+      "claim": "任意图有最大匹配大小≤最小顶点覆盖大小",
+      "source_ids": [
+        "S68"
+      ],
+      "status": "MODERN_SIMPLE_PROOF"
+    },
+    {
+      "claim_id": "GT12-04",
+      "claim": "二分图匹配覆盖定理以及三角形非二分反例",
+      "source_ids": [
+        "S65",
+        "S68"
+      ],
+      "status": "THEOREM_SCOPED"
+    },
+    {
+      "claim_id": "GT12-05",
+      "claim": "Kőnig1916矩阵研究与1931明确图匹配覆盖论文的区别",
+      "source_ids": [
+        "S65",
+        "S66",
+        "S67"
+      ],
+      "status": "HISTORICAL_VERIFIED_CAVEAT"
+    },
+    {
+      "claim_id": "GT12-06",
+      "claim": "Egervary1931带权指派与加权对偶上界",
+      "source_ids": [
+        "S66",
+        "S69"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT12-07",
+      "claim": "4工人3岗位例最大匹配3、覆盖3",
+      "source_ids": [
+        "S68"
+      ],
+      "status": "MODERN_EXAMPLE"
+    },
+    {
+      "claim_id": "GT12-08",
+      "claim": "交错增广路翻转和无增广路即匹配最大",
+      "source_ids": [
+        "S68"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT12-09",
+      "claim": "交替可达集构造(L\\Z_L)∪Z_R为点覆盖",
+      "source_ids": [
+        "S68"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT12-10",
+      "claim": "匹配边各恰贡献一顶点从而覆盖大小等于匹配大小",
+      "source_ids": [
+        "S68"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT12-11",
+      "claim": "Kuhn1955 Hungarian method与1931前驱工作之历史区分",
+      "source_ids": [
+        "S67",
+        "S66"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT12-12",
+      "claim": "霍尔1935全体左侧匹配的必要且充分条件与本章承接",
+      "source_ids": [
+        "S64",
+        "S68"
+      ],
+      "status": "FORWARD_LINK"
+    }
+  ]
 }
