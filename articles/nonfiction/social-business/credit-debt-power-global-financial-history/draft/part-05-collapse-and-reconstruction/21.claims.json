@@ -1,0 +1,219 @@
+{
+  "chapter": "21",
+  "chapter_batch": "19-21",
+  "lane": "nonfiction",
+  "revision": 18,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Official institutional records, contemporary law excerpts and academic history checked; original manuscript registers and competing scholarly full texts still pending",
+  "claims": [
+    {
+      "claim_id": "CH21-001",
+      "statement": "1914年8月6日英国《货币与银行券法》授权一英镑与十先令财政部票据",
+      "source_ids": [
+        "F-2101"
+      ],
+      "classification": "primary_statute",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "查法条原本与附则"
+    },
+    {
+      "claim_id": "CH21-002",
+      "statement": "1914法案同时保留票据持有人按面额要求黄金硬币兑付法权",
+      "source_ids": [
+        "F-2101"
+      ],
+      "classification": "primary_statute",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "法律权利与实际获取黄金不同"
+    },
+    {
+      "claim_id": "CH21-003",
+      "statement": "1914年7末跨境承兑支付冻结使伦敦承兑贴现商承受压力",
+      "source_ids": [
+        "F-2107",
+        "F-2110"
+      ],
+      "classification": "historical_institution",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "学术论述对市场规模和救助因果需原卷"
+    },
+    {
+      "claim_id": "CH21-004",
+      "statement": "1914年8月英国银行假期延长、8月4日对德宣战",
+      "source_ids": [
+        "F-2106"
+      ],
+      "classification": "historical_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "具体假期与时间需官方命令"
+    },
+    {
+      "claim_id": "CH21-005",
+      "statement": "1914年8月7日英国开始发行财政部小额票替代金币",
+      "source_ids": [
+        "F-2104"
+      ],
+      "classification": "museum_object",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "实际社会使用与法定兑付不等同"
+    },
+    {
+      "claim_id": "CH21-006",
+      "statement": "法定黄金兑换、民间金币使用、个人黄金出口、国际清算不同层次",
+      "source_ids": [
+        "F-2101",
+        "F-2106"
+      ],
+      "classification": "analytic_distinction",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不将英国称战时同日彻底废除黄金一切法权"
+    },
+    {
+      "claim_id": "CH21-007",
+      "statement": "1914年8月1日的英格兰银行特殊授权依1915年议会答复未正式被使用",
+      "source_ids": [
+        "F-2103"
+      ],
+      "classification": "parliament_primary_statement",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "区分随后8月7/8银行券临时使用"
+    },
+    {
+      "claim_id": "CH21-008",
+      "statement": "1914延期某些已有商业汇票并规定再承兑与利息条款",
+      "source_ids": [
+        "F-2102"
+      ],
+      "classification": "parliament_primary_text",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是所有债务取消或无限延期"
+    },
+    {
+      "claim_id": "CH21-009",
+      "statement": "战争中中断跨境付款形成承兑行到期支付和外国收款错配",
+      "source_ids": [
+        "F-2107",
+        "F-2110"
+      ],
+      "classification": "financial_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "现代教学票据不代表当事银行实账"
+    },
+    {
+      "claim_id": "CH21-010",
+      "statement": "英国在1914发行War Stock，英格兰银行购入部分并非全为民间直接认购",
+      "source_ids": [
+        "F-2105"
+      ],
+      "classification": "official_archival_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "查原始公债认购簿具体份额"
+    },
+    {
+      "claim_id": "CH21-011",
+      "statement": "财政部货币券和战争公债是不同债权与支付工具",
+      "source_ids": [
+        "F-2101",
+        "F-2105"
+      ],
+      "classification": "finance_distinction",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "现代100/30教学模型非历史金额"
+    },
+    {
+      "claim_id": "CH21-012",
+      "statement": "英法俄德等国停止某些金属支付和个人黄金出口",
+      "source_ids": [
+        "F-2108"
+      ],
+      "classification": "comparative_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "各国法律时间与限制类型不同"
+    },
+    {
+      "claim_id": "CH21-013",
+      "statement": "美国12家区域储备银行1914年11月16日才开业",
+      "source_ids": [
+        "F-2109"
+      ],
+      "classification": "institutional_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "美国未参战，与欧洲政府行为分开"
+    },
+    {
+      "claim_id": "CH21-014",
+      "statement": "美国1917年9月黄金出口许可限制到1919年中解除",
+      "source_ids": [
+        "F-2108"
+      ],
+      "classification": "historical_policy_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "出口限制不是美国全部国内赎回自动禁止"
+    },
+    {
+      "claim_id": "CH21-015",
+      "statement": "1914英国仍保留部分金本位法律形式、实际黄金民间流通大幅缩小",
+      "source_ids": [
+        "F-2101",
+        "F-2104",
+        "F-2106"
+      ],
+      "classification": "contested_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "“金本位是否存在”取决于法律与事实定义"
+    },
+    {
+      "claim_id": "CH21-016",
+      "statement": "战争黄金信誉对英镑国际资本筹资和伦敦支付网络重要",
+      "source_ids": [
+        "F-2106",
+        "F-2107"
+      ],
+      "classification": "economic_history_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不保证实际汇率或国际信用完全稳定"
+    },
+    {
+      "claim_id": "CH21-017",
+      "statement": "1914央行贴现应急行为存在与简单信贷紧缩论相反的量化研究",
+      "source_ids": [
+        "F-2111"
+      ],
+      "classification": "scholarly_counterinterpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "全文历史样本与论文方法待核"
+    },
+    {
+      "claim_id": "CH21-018",
+      "statement": "1914战争金融改变国家税收公债、银行资产负债与货币流通之间的关系",
+      "source_ids": [
+        "F-2105",
+        "F-2107"
+      ],
+      "classification": "structural_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能直接推算每位纳税人的损失"
+    },
+    {
+      "claim_id": "CH21-019",
+      "statement": "1914货币制度崩溃不是1923德国恶性通胀的唯一决定因素",
+      "source_ids": [
+        "F-2108"
+      ],
+      "classification": "cross_chapter_limit",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "战后财政政治赔款等需要22章独立史料"
+    },
+    {
+      "claim_id": "CH21-020",
+      "statement": "F-2110为1914同时代经济论文而非英国政府原始法令",
+      "source_ids": [
+        "F-2110"
+      ],
+      "classification": "source_provenance",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "避免学术观察当成政府原始指令"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "chapter": "19",
+  "chapter_batch": "19-21",
+  "lane": "nonfiction",
+  "revision": 18,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Official institutional records, contemporary law excerpts and academic history checked; original manuscript registers and competing scholarly full texts still pending",
+  "claims": [
+    {
+      "claim_id": "CH19-001",
+      "statement": "1907年10月22日Knickerbocker信托公司在大额取款后停付",
+      "source_ids": [
+        "F-1901"
+      ],
+      "classification": "event",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "停付不同于倒闭；后于1908重开"
+    },
+    {
+      "claim_id": "CH19-002",
+      "statement": "Knickerbocker当天约有800万美元取款",
+      "source_ids": [
+        "F-1901"
+      ],
+      "classification": "quantitative_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "Fed史学研究汇总，银行原始日记未独立核"
+    },
+    {
+      "claim_id": "CH19-003",
+      "statement": "10月22日隔夜年化利率由9.5%至70%随后到100%",
+      "source_ids": [
+        "F-1901"
+      ],
+      "classification": "historical_market_data",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "短期某时点市场利率不等于常年法定利率"
+    },
+    {
+      "claim_id": "CH19-004",
+      "statement": "10月16日联合铜业逼仓失败及相关银行信用疑虑",
+      "source_ids": [
+        "F-1901",
+        "F-1906"
+      ],
+      "classification": "financial_event",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不把铜股失败称金融危机唯一原因"
+    },
+    {
+      "claim_id": "CH19-005",
+      "statement": "1907年纽约信托公司现金储备约5%而全国性银行约25%",
+      "source_ids": [
+        "F-1901"
+      ],
+      "classification": "institutional_comparison",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同监管身份和期间，非全国统一准备率"
+    },
+    {
+      "claim_id": "CH19-006",
+      "statement": "信托可赎回存款与非流动性贷款构成期限错配风险",
+      "source_ids": [
+        "F-1901"
+      ],
+      "classification": "finance_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "现代100/5/20为教学模型"
+    },
+    {
+      "claim_id": "CH19-007",
+      "statement": "10月21日纽约清算所拒绝支持非会员Knickerbocker",
+      "source_ids": [
+        "F-1901"
+      ],
+      "classification": "institutional_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "会员合同约束与系统外部性分开"
+    },
+    {
+      "claim_id": "CH19-008",
+      "statement": "Benjamin Strong无法及时查明Knickerbocker偿付能力，Morgan不援助",
+      "source_ids": [
+        "F-1901"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不虚构幕后个人动机与对话"
+    },
+    {
+      "claim_id": "CH19-009",
+      "statement": "Morgan与会员银行组织流动性救援，不是唯一救援力量",
+      "source_ids": [
+        "F-1901"
+      ],
+      "classification": "institutional_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "财政部和海外黄金流也重要"
+    },
+    {
+      "claim_id": "CH19-010",
+      "statement": "10月26日清算所贷款凭证主要服务会员银行结算",
+      "source_ids": [
+        "F-1901"
+      ],
+      "classification": "monetary_institution",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "凭证不是1914联储券或全国通用钞票"
+    },
+    {
+      "claim_id": "CH19-011",
+      "statement": "会员银行现金兑现限制和海外黄金流入影响恢复",
+      "source_ids": [
+        "F-1901"
+      ],
+      "classification": "crisis_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于民间信托全面相同限制"
+    },
+    {
+      "claim_id": "CH19-012",
+      "statement": "美国货币受国债抵押及季节农业需求影响缺少弹性",
+      "source_ids": [
+        "F-1903",
+        "F-1908"
+      ],
+      "classification": "scholarly_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "政治经济结构非纯粹金本位问题"
+    },
+    {
+      "claim_id": "CH19-013",
+      "statement": "1908年5月30日Aldrich-Vreeland法提供紧急货币并设National Monetary Commission",
+      "source_ids": [
+        "F-1902"
+      ],
+      "classification": "legal_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "当时尚未设立联储"
+    },
+    {
+      "claim_id": "CH19-014",
+      "statement": "1910 Jekyll Island秘密会议提出全国储备协会方案",
+      "source_ids": [
+        "F-1903"
+      ],
+      "classification": "political_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于1913最终法案原封不动"
+    },
+    {
+      "claim_id": "CH19-015",
+      "statement": "改革争论涉及纽约大型银行与地方政治控制权",
+      "source_ids": [
+        "F-1903",
+        "F-1904"
+      ],
+      "classification": "contested_institutional_design",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "观点来自公开研究，需原始法案比较"
+    },
+    {
+      "claim_id": "CH19-016",
+      "statement": "1913年12月23日Federal Reserve Act签署",
+      "source_ids": [
+        "F-1902",
+        "F-1909"
+      ],
+      "classification": "legal_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "签署不是区域银行开业"
+    },
+    {
+      "claim_id": "CH19-017",
+      "statement": "1913原法要求8至12储备区，后来确定12区",
+      "source_ids": [
+        "F-1904",
+        "F-1909"
+      ],
+      "classification": "legal_institution",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "现代FOMC未见于1913创始设计"
+    },
+    {
+      "claim_id": "CH19-018",
+      "statement": "12家储备银行1914年11月16日实际开业",
+      "source_ids": [
+        "F-1905",
+        "F-1907",
+        "F-1910"
+      ],
+      "classification": "operational_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "多篇同Fed官网，非独立互证"
+    }
+  ]
+}
