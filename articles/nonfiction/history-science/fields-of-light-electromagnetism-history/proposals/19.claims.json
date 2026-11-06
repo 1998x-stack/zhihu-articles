@@ -1,0 +1,228 @@
+{
+  "chapter": "19",
+  "title": "电流之争：发电机怎样点亮一座城市",
+  "kind": "independent_nonfiction_chapter_candidate",
+  "manuscript_path": "proposals/19.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_CHECK",
+  "claims": [
+    {
+      "claim_id": "E19-01",
+      "statement": "1882纽约珍珠街代表Edison直流照明系统的重要节点",
+      "claim_kind": "博物馆史实",
+      "source_ids": [
+        "S19-01"
+      ],
+      "manuscript_section": "二",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-02",
+      "statement": "早期直流电机、计量系统和配网具有真实竞争优势",
+      "claim_kind": "技术史有界评价",
+      "source_ids": [
+        "S19-05"
+      ],
+      "manuscript_section": "二、七",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-03",
+      "statement": "线路发热损耗I²R，升压降流的效率优势受功率因数与条件限制",
+      "claim_kind": "现代电力工程",
+      "source_ids": [
+        "S19-09",
+        "S19-02"
+      ],
+      "manuscript_section": "三",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-04",
+      "statement": "交流变压器借助电磁感应适于当年高压传输与低压配电",
+      "claim_kind": "现代机制/历史适用",
+      "source_ids": [
+        "S19-02",
+        "S19-03"
+      ],
+      "manuscript_section": "四",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-05",
+      "statement": "1885 ZBD为Zipernowsky Deri Blathy实用变压器工程成果",
+      "claim_kind": "工程史",
+      "source_ids": [
+        "S19-03"
+      ],
+      "manuscript_section": "五",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-06",
+      "statement": "1886年3月Stanley在Great Barrington演示交流供电系统",
+      "claim_kind": "发明馆历史资料",
+      "source_ids": [
+        "S19-04"
+      ],
+      "manuscript_section": "六",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-07",
+      "statement": "十九世纪交流电应用还必须解决马达与电表等装置兼容性",
+      "claim_kind": "博物馆历史",
+      "source_ids": [
+        "S19-05"
+      ],
+      "manuscript_section": "七",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-08",
+      "statement": "Ferraris 1885演示两相正交旋转磁场",
+      "claim_kind": "博物馆文物证据",
+      "source_ids": [
+        "S19-06"
+      ],
+      "manuscript_section": "八",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-09",
+      "statement": "Tesla US381968A申请于1887-10-12，授权于1888-05-01",
+      "claim_kind": "一手专利日期",
+      "source_ids": [
+        "S19-07"
+      ],
+      "manuscript_section": "八",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-10",
+      "statement": "旋转磁场与多相电力应分别归功多位独立研究/工程贡献者",
+      "claim_kind": "历史归属综合",
+      "source_ids": [
+        "S19-06",
+        "S19-07",
+        "S19-03"
+      ],
+      "manuscript_section": "八",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-11",
+      "statement": "1893年芝加哥博览会为AC发展传播事件之一",
+      "claim_kind": "历史背景",
+      "source_ids": [
+        "S19-02"
+      ],
+      "manuscript_section": "九",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-12",
+      "statement": "1895-08-26 Niagara Adams站运行与以后远距离供电时点不同",
+      "claim_kind": "IEEE里程碑历史",
+      "source_ids": [
+        "S19-08"
+      ],
+      "manuscript_section": "九",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-13",
+      "statement": "现代DC输电存在，不应说交流在所有时代普遍胜出",
+      "claim_kind": "现代比较边界",
+      "source_ids": [
+        "S19-02"
+      ],
+      "manuscript_section": "十",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E19-14",
+      "statement": "基础设施发展依赖发电、变压、电动机、线路与商业工程综合",
+      "claim_kind": "历史综合",
+      "source_ids": [
+        "S19-01",
+        "S19-03",
+        "S19-04"
+      ],
+      "manuscript_section": "十",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S19-01",
+      "title": "Smithsonian Lighting a Revolution Consequences",
+      "url": "https://americanhistory.si.edu/lighting/scripts/s19e.htm",
+      "source_type": "国家博物馆策展历史说明",
+      "verification_scope": "Edison珍珠街与集中供电、1890年代系统、Niagara及社会背景。"
+    },
+    {
+      "source_id": "S19-02",
+      "title": "US Department of Energy War of the Currents",
+      "url": "https://www.energy.gov/articles/war-currents-ac-vs-dc-power",
+      "source_type": "美国能源部历史科普",
+      "verification_scope": "直交流早期竞争、变压与1893世界博览会；保留其叙事简化局限。"
+    },
+    {
+      "source_id": "S19-03",
+      "title": "IEEE ETHW Tesla Polyphase and AC systems history",
+      "url": "https://ethw.org/Initial_Tesla_Polyphase_/_%22Three-Phase%22_Alternating-Current_Systems_and_Metering_Development",
+      "source_type": "工程史百科",
+      "verification_scope": "1885 ZBD工程师与变压器，多相交流技术；需进一步查原始专利。"
+    },
+    {
+      "source_id": "S19-04",
+      "title": "National Inventors Hall of Fame William Stanley Jr",
+      "url": "https://www.invent.org/inductees/william-stanley-jr",
+      "source_type": "发明史权威馆",
+      "verification_scope": "1886-03 Great Barrington交流供电街灯和Westinghouse资助。"
+    },
+    {
+      "source_id": "S19-05",
+      "title": "Smithsonian Competition to Edison's Lamp",
+      "url": "https://www.americanhistory.si.edu/lighting/scripts/s19d.htm",
+      "source_type": "国家历史博物馆",
+      "verification_scope": "早期直流系统电机与仪表优点、AC早期真实安全问题。"
+    },
+    {
+      "source_id": "S19-06",
+      "title": "Lombardia Beni Culturali Ferraris apparatus",
+      "url": "https://www.lombardiabeniculturali.it/scienza-tecnologia/schede/ST060-00048/",
+      "source_type": "意大利文物原件与馆藏介绍",
+      "verification_scope": "Ferraris 1885旋转磁场物理演示；馆藏展件年代可能晚于当年实验。"
+    },
+    {
+      "source_id": "S19-07",
+      "title": "US Patent 381968A Nikola Tesla Electromagnetic Motor",
+      "url": "https://patents.google.com/patent/US381968A/en",
+      "source_type": "一手美国专利转载",
+      "verification_scope": "1887-10-12申请，1888-05-01授权，说明多相电磁电动机设计；专利不是理论唯一原创者证明。"
+    },
+    {
+      "source_id": "S19-08",
+      "title": "IEEE Adams Hydroelectric Generating Plant 1895",
+      "url": "https://ethw.org/Milestones:Adams_Hydroelectric_Generating_Plant,_1895",
+      "source_type": "IEEE纪念里程碑",
+      "verification_scope": "1895-08-26机组投运，供本地工业；区别后来跨区域输电。"
+    },
+    {
+      "source_id": "S19-09",
+      "title": "OpenStax AC circuits and RMS power",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/15-5-power-in-an-ac-circuit",
+      "source_type": "现代大学教材",
+      "verification_scope": "P=UIcosφ及线路I²R近似的适用域，不是历史原电路实验"
+    }
+  ],
+  "unresolved": [
+    "1885 ZBD变压器原始专利与商业部署年代需单独校勘",
+    "Ferraris 1885与1888理论及现存演示装置版本区分，Tesla相关专利不直接裁定所有优先权",
+    "Niagara 1895本地供电与1896布法罗供电原始档案准确区分",
+    "十九世纪交流电事故与风险辩论不得缩成善恶人物剧"
+  ]
+}
