@@ -1,0 +1,190 @@
+{
+  "chapter": "18",
+  "chapter_batch": "16-18",
+  "lane": "nonfiction",
+  "revision": 15,
+  "publication_ready": false,
+  "review_status": "PENDING",
+  "evidence_scope": "Reviewed accessible institutional and scholarly pages; original archive volumes, full legal records, and competing primary editions remain unverified",
+  "claims": [
+    {
+      "claim_id": "CH18-001",
+      "statement": "1890年巴林兄弟危机与阿根廷证券敞口及伦敦流动性压力相关",
+      "source_ids": [
+        "F-1809"
+      ],
+      "classification": "financial_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "需要原始救助协议和跨市场时间线"
+    },
+    {
+      "claim_id": "CH18-002",
+      "statement": "伦敦汇票市场在1880至1914年国际贸易短期融资中具有重要地位",
+      "source_ids": [
+        "F-1803",
+        "F-1804"
+      ],
+      "classification": "academic_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不声称所有国际交易经伦敦"
+    },
+    {
+      "claim_id": "CH18-003",
+      "statement": "汇票的签发承兑贴现可以使未来付款义务提前转为可交易资产",
+      "source_ids": [
+        "F-1803",
+        "F-1804"
+      ],
+      "classification": "mechanism_explanation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "98/100例子非历史数据，具体票据法需分期"
+    },
+    {
+      "claim_id": "CH18-004",
+      "statement": "商人银行承兑信用减少异地交易的信用识别和资金时间成本",
+      "source_ids": [
+        "F-1804"
+      ],
+      "classification": "economic_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "集中信用也带来中介风险"
+    },
+    {
+      "claim_id": "CH18-005",
+      "statement": "经典金本位通过货币黄金平价约束汇率但市场汇率可浮动",
+      "source_ids": [
+        "F-1801",
+        "F-1807"
+      ],
+      "classification": "monetary_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "现货兑换与票据买卖不必每次搬运黄金"
+    },
+    {
+      "claim_id": "CH18-006",
+      "statement": "黄金输送点取决于金属运输等成本，限制平价周围汇价波动",
+      "source_ids": [
+        "F-1807"
+      ],
+      "classification": "economic_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "研究1890到1908英镑美元关系不等于所有国家"
+    },
+    {
+      "claim_id": "CH18-007",
+      "statement": "英国金本位法律形成经历1816币制变化与后续兑付安排",
+      "source_ids": [
+        "F-1810",
+        "F-1802"
+      ],
+      "classification": "monetary_legal_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "货币法定地位与实际兑换不必同年"
+    },
+    {
+      "claim_id": "CH18-008",
+      "statement": "英格兰银行1797年暂停黄金兑现与战争及储备压力相关",
+      "source_ids": [
+        "F-1802"
+      ],
+      "classification": "institutional_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不等于永久脱离黄金本位"
+    },
+    {
+      "claim_id": "CH18-009",
+      "statement": "经典金本位国际化是跨1870年代至1914年渐进过程",
+      "source_ids": [
+        "F-1801",
+        "F-1808"
+      ],
+      "classification": "periodization",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不能说所有国家同一天加入"
+    },
+    {
+      "claim_id": "CH18-010",
+      "statement": "英格兰银行及其他央行以调整贴现率等方式应对黄金外流压力",
+      "source_ids": [
+        "F-1805"
+      ],
+      "classification": "institutional_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "利率引流受国内外环境限制"
+    },
+    {
+      "claim_id": "CH18-011",
+      "statement": "核心与外围国家在经典金本位贴现率政策上存在实证差异",
+      "source_ids": [
+        "F-1808"
+      ],
+      "classification": "academic_empirical_result",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "文献为十二国欧洲样本，不能无条件扩为全世界"
+    },
+    {
+      "claim_id": "CH18-012",
+      "statement": "伦敦票据市场记录分散且场外交易多，逐笔数据存在缺口",
+      "source_ids": [
+        "F-1803"
+      ],
+      "classification": "research_methodology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "避免声称精确全球市占率"
+    },
+    {
+      "claim_id": "CH18-013",
+      "statement": "1890危机中信用集中可能跨证券与国家边界传递风险",
+      "source_ids": [
+        "F-1809"
+      ],
+      "classification": "financial_contagion",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "外溢方向、规模需按具体证据细分"
+    },
+    {
+      "claim_id": "CH18-014",
+      "statement": "流动性、偿付能力和信心是相关但不同的金融概念",
+      "source_ids": [
+        "F-1805",
+        "F-1809"
+      ],
+      "classification": "author_teaching_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "历史案例不等于现代监管定义完全一致"
+    },
+    {
+      "claim_id": "CH18-015",
+      "statement": "1847年英国危机涉及1844年银行券约束及紧急处置",
+      "source_ids": [
+        "F-1806",
+        "F-1802"
+      ],
+      "classification": "monetary_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "授权放宽不等于金本位永久废止"
+    },
+    {
+      "claim_id": "CH18-016",
+      "statement": "英镑国际信用依赖汇票市场制度和中介信誉，而非伦敦金矿产量",
+      "source_ids": [
+        "F-1803",
+        "F-1804"
+      ],
+      "classification": "historical_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不认为英国控制所有结算市场"
+    },
+    {
+      "claim_id": "CH18-017",
+      "statement": "跨境信用集中与金本位兑付约束为理解1907年美国危机提供背景",
+      "source_ids": [
+        "F-1805",
+        "F-1809"
+      ],
+      "classification": "chapter_bridge",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "1907机构细节将在第19章独立核验"
+    }
+  ]
+}
