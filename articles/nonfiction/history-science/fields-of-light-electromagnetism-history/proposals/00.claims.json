@@ -1,0 +1,103 @@
+{
+  "chapter": "00",
+  "kind": "proposed_nonfiction_chapter",
+  "manuscript_path": "proposals/00.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "claims": [
+    {
+      "claim_id": "E00-01",
+      "claim": "太阳—地球平均距离与光行时间约8分20秒",
+      "source_name": "NASA太阳系资料",
+      "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+      "claim_kind": "可证实事实",
+      "verification": "已核对公开机构页面",
+      "manuscript_section": "正文 §一"
+    },
+    {
+      "claim_id": "E00-02",
+      "claim": "电磁波无需普通物质介质即可在真空传播；声波需物质",
+      "source_name": "NASA/NOAA",
+      "url": "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/spectrum-overview/",
+      "claim_kind": "现代科学解释",
+      "verification": "已核对机构页面",
+      "manuscript_section": "正文 §一/§八"
+    },
+    {
+      "claim_id": "E00-03",
+      "claim": "1600年吉尔伯特《论磁》与地球磁性观点、电磁现象分类",
+      "source_name": "史密森馆藏与美国历史博物馆",
+      "url": "https://library.si.edu/digital-library/book/guilielmigilber00gilb",
+      "claim_kind": "史实，原著馆藏记录",
+      "verification": "已核馆藏元数据与简介；原著逐页待核",
+      "manuscript_section": "正文 §二/§九"
+    },
+    {
+      "claim_id": "E00-04",
+      "claim": "1820年奥斯特报告电流偏转磁针；课堂传说存在争议",
+      "source_name": "APS史学专栏",
+      "url": "https://www.aps.org/apsnews/2008/07/1820-oersted-electromagnetism",
+      "claim_kind": "事实与争议",
+      "verification": "公开专栏已核；原始1820短文待核",
+      "manuscript_section": "正文 §三"
+    },
+    {
+      "claim_id": "E00-05",
+      "claim": "1831年8月29日法拉第铁环线圈装置与瞬时感应",
+      "source_name": "皇家研究院实物/2006年学术研究",
+      "url": "https://www.rigb.org/explore-science/explore/collection/michael-faradays-ring-coil-apparatus",
+      "claim_kind": "实物与研究",
+      "verification": "已核馆藏和研究摘要；原始笔记逐页待核",
+      "manuscript_section": "正文 §四"
+    },
+    {
+      "claim_id": "E00-06",
+      "claim": "法拉第后续磁铁穿线圈感应；亨利独立研究分歧",
+      "source_name": "皇家研究院/计算机历史博物馆",
+      "url": "https://www.rigb.org/explore-science/explore/collection/michael-faradays-generator",
+      "claim_kind": "历史叙述",
+      "verification": "公开机构说明已核；序章不展开优先权",
+      "manuscript_section": "正文 §四"
+    },
+    {
+      "claim_id": "E00-07",
+      "claim": "现代真空波速c=1/√(μ0ε0)与电磁波方程",
+      "source_name": "OpenStax/LibreTexts",
+      "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_%28OpenStax%29/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_%28OpenStax%29/16%3A_Electromagnetic_Waves/16.03%3A_Plane_Electromagnetic_Waves",
+      "claim_kind": "后见物理解释",
+      "verification": "现代教材网页已核；禁止回写为历史符号",
+      "manuscript_section": "正文 §六/§八"
+    },
+    {
+      "claim_id": "E00-08",
+      "claim": "麦克斯韦动态场论文1864宣读/1865发表",
+      "source_name": "皇家学会档案与原始期刊",
+      "url": "https://makingscience.royalsociety.org/items/pt_72_7/paper-a-dynamical-theory-of-the-electromagnetic-field-by-j-james-clerk-maxwell",
+      "claim_kind": "档案直接支持",
+      "verification": "原始档案的发表日期已核",
+      "manuscript_section": "正文 §六"
+    },
+    {
+      "claim_id": "E00-09",
+      "claim": "现代四条方程经历后世赫维赛德等人的整理",
+      "source_name": "IEEE Spectrum史学专题",
+      "url": "https://spectrum.ieee.org/the-long-road-to-maxwells-equations",
+      "claim_kind": "二手历史研究",
+      "verification": "已核专题网页，具体数学贡献待进一步核史",
+      "manuscript_section": "正文 §六"
+    },
+    {
+      "claim_id": "E00-10",
+      "claim": "赫兹1887—1888电磁波实验证据，波速测定有历史局限",
+      "source_name": "IEEE学术论文与后续研究",
+      "url": "https://ieeexplore.ieee.org/document/8072640/",
+      "claim_kind": "学术二手和再实验评论",
+      "verification": "已核论文摘要；避免断言原实验精确测量光速",
+      "manuscript_section": "正文 §七"
+    }
+  ],
+  "unresolved": [
+    "原始文献逐页核证",
+    "正式审稿和系列级大纲证据闸门"
+  ]
+}

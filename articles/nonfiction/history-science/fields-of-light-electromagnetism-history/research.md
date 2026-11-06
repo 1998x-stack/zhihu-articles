@@ -72,3 +72,7 @@
 - **已做**：查询学术/学会/博物馆/研究机构公开资料，核对核心脉络与部分年份。
 - **未做**：逐章所有细节及原文页码双源核对；完整的直接引文审阅；未经审核的历史争议归因。
 - **明确状态**：`workflow-state.json.evidence_verified=false`，不代表已具备写作、出版或最终审稿许可。
+
+## 序章00增量核查入口（2026-11-06）
+
+已有序章候审稿及独立证据矩阵：[research/00-source-review.md](research/00-source-review.md)。此记录核对NASA、皇家学会、皇家研究院、史密森与IEEE等公开材料的具体支持范围；**不改变全书的 evidence_verified=false**。正文保存在[proposals/00.md](proposals/00.md)，不冒充已过正式章节闸门。

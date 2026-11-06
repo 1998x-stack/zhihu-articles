@@ -11,5 +11,5 @@
   "final_approved": false,
   "evidence_scope": "已做若干公开里程碑核对；34篇的逐条出处、原著页码、实验细节和争议尚未系统核证。",
   "approval_scope": "仅为章节策划占位，本轮未批准正式写作。",
-  "note": "00/01—32/33为占位；所有claims.json均为空且不代表查证通过。"
+  "note": "序章00已有研究性完整候审稿 proposals/00.md（未进入draft/00正式稿）；其它01—33均为占位。全书 outline_approved=false/evidence_verified=false，未通过任何正式写作审稿/发布闸门。"
 }
