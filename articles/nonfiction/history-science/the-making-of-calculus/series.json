@@ -248,23 +248,54 @@
     {
       "id": "11",
       "title": "沃利斯、格雷戈里与巴罗：两种问题接近汇合",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/11.md",
-      "claims_path": "draft/11.claims.json"
+      "claims_path": "draft/11.claims.json",
+      "source_ids": [
+        "H63",
+        "H64",
+        "H65",
+        "H66",
+        "H67",
+        "H68",
+        "H69",
+        "H70"
+      ]
     },
     {
       "id": "12",
       "title": "1666年的牛顿：一组手稿为什么改变数学",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/12.md",
-      "claims_path": "draft/12.claims.json"
+      "claims_path": "draft/12.claims.json",
+      "source_ids": [
+        "H70",
+        "H71",
+        "H72",
+        "H73",
+        "H74",
+        "H75",
+        "H76",
+        "H77",
+        "H78",
+        "H79",
+        "H80"
+      ]
     },
     {
       "id": "13",
       "title": "流数法：牛顿从时间出发理解微分",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/13.md",
-      "claims_path": "draft/13.claims.json"
+      "claims_path": "draft/13.claims.json",
+      "source_ids": [
+        "H71",
+        "H72",
+        "H76",
+        "H77",
+        "H78",
+        "H79"
+      ]
     },
     {
       "id": "14",

@@ -209,3 +209,43 @@
 - **10**：长10的线段分成x与10−x，矩形面积 `f(x)=x(10−x)`；`f(a+e)−f(a)=e(10−2a−e)`。经拟等、除e、去含e项求得a=5，另以 `25−(x−5)²≤25` 证明最大。现代切线 `[(a+e)²−a²]/e=2a+e\to2a` 为教学模型，不等于费马原始切线演算。
  
 **交付范围**：可以据以上材料撰写三篇*未审稿*章节与claims数据。整体`workflow-state.json`仍是 `outline_approved=false/evidence_verified=false/review_status=PENDING`；没有审稿工作流确认就不能升级为终稿。
+
+
+## 第11—13章｜通向流数法：沃利斯、格雷戈里、巴罗与牛顿（2026-11-06）
+
+**已核证的主线**：17世纪中叶求积被算术化、求积与切线的反向联系逐渐明确，牛顿在1664—1666年的读书笔记与手稿中发展广义二项式、切线与求积的统一研究，并在1669—1671年改写、扩展成不同文本。所有文章须严格区分**学习与研究年代**、**手稿写成日期**、**传阅或书信**、**首次印刷出版**。不能把1666年写作等于1666年公开印行。
+
+### 史料登记：11 沃利斯—格雷戈里—巴罗
+
+- **H63** MacTutor，[John Wallis](https://mathshistory.st-andrews.ac.uk/Biographies/Wallis/)：*Arithmetica infinitorum* 1656出版、对幂和面积与插值的探索以及沃利斯乘积；不能说它已拥有今天的定积分定义。
+- **H64** 牛津大学数学研究所，[Busbridge lecture / John Wallis](https://www.maths.ox.ac.uk/about-us/history/busbridge-lecture)：1655圆锥曲线研究、1656《无穷算术》与从卡瓦列里、笛卡尔发展出一般计算方案，沃利斯成果进入牛顿阅读史。
+- **H65** MAA Convergence，Frank J. Swetz，[Wallis's 1655–56 Works on Quadrature](https://old.maa.org/press/periodicals/convergence/mathematical-treasures-walliss-1655-56-works-on-quadrature)，展示原作书名和图形；求积薄条与无穷算术属历史方法，不等于现代黎曼和推导。
+- **H66** Jacqueline A. Stedall，[Reading between the lines: John Wallis's Arithmetica infinitorum](https://academic.oup.com/book/6773/chapter-abstract/150896337)，*A Discourse Concerning Algebra* (Oxford UP, 2003)，pp.155—182，摘要定位《无穷算术》在求积/求体积与英国数学中的影响。
+- **H67** MacTutor，[James Gregory](https://mathshistory.st-andrews.ac.uk/Biographies/Gregory/)：1667 *Vera circuli et hyperbolae quadratura*、1668 *Geometriae pars universalis*，讲到切线/求积的反向联系；历史材料称其为早期系统微积分著作之一。其错误的π超越性推论**不能冒充已证明的定理**。
+- **H68** MAA Reviews，[The Geometrical Lectures of Isaac Barrow](https://old.maa.org/press/maa-reviews/the-geometrical-lectures-of-isaac-barrow)：巴罗以古典几何、运动方法与微分三角形处理切线及求积，认出二者反向联系；不应因此称巴罗发明了后来完整符号演算。
+- **H69** MacTutor，[Chronology 1650–1675](https://mathshistory.st-andrews.ac.uk/Chronology/11/)：格雷戈里1667、1668著作；巴罗1670《几何讲义》发表、1669离开卢卡斯教授席位等时间核对。
+
+### 史料登记：12 牛顿1664—1666
+
+- **H70** Newton Project (University of Oxford)，[Introduction to the Texts](https://www.newtonproject.ox.ac.uk/texts/introduction)：牛顿1664—1665年自学沃利斯、笛卡尔及维耶特；在数学笔记中吸收不可分量与曲线切线方法，并建立负指数/分数指数二项式展开。把从前人继承的内容与自身推广分开。
+- **H71** Newton Project，[The October 1666 Tract on Fluxions — manuscript catalogue](https://www.newtonproject.ox.ac.uk/catalogue/record/NATP00100)：**1666年10月**、剑桥大学图书馆 **MS Add.3958.3 ff.48v–63v**、29页手稿，提供作品定位；不能写成1666年已经出版的教科书。
+- **H72** Newton Project，[October 1666 Tract — normalized transcription](https://www.newtonproject.ox.ac.uk/view/texts/normalized/NATP00100)：手稿以运动求量变化率、曲线切线、求积等；与[保留删改的 diplomatic 转写](https://www.newtonproject.ox.ac.uk/view/texts/diplomatic/NATP00100)对应。转写经编辑正规化，不能当毫无编辑介入的印刷原版。
+- **H73** Stanford Encyclopedia of Philosophy，[Isaac Newton](https://plato.stanford.edu/entries/newton/)：牛顿1661入剑桥、1664自学数学，1665夏至1667春大多在伍尔索普，瘟疫闭校；后世所谓 *annus mirabilis* 不等于所有成果在一个瞬间完成。
+- **H74** Newton Project，[The Life and Work of Isaac Newton at a Glance](https://newtonproject.ox.ac.uk/his-life-and-work-at-a-glance)：同一研究阶段数学、光学和运动并行；落苹果轶事是晚年的追忆传统，不能以未经核对的现场场景替代手稿史实。
+- **H75** MacTutor，[Chronology 1650–1675](https://mathshistory.st-andrews.ac.uk/Chronology/11/)：1665二项式相关成果与初期微分研究。需与H70及H71的手稿具体日期互证。
+
+### 史料登记：13 流量与流数
+
+- **H76** Newton Project，[History of the Method of Fluxions — diplomatic transcript](https://newtonproject.ox.ac.uk/view/texts/diplomatic/NATP00356)：牛顿较晚回顾自身方法，文本自述1671“larger Tract”、以时间流动的流数命名、1669分析文稿。**有论争背景的当事人回顾，不能只凭自述解决发明优先权**。
+- **H77** MAA Convergence，[Math Origins: The Language of Change](https://old.maa.org/press/periodicals/convergence/math-origins-the-language-of-change)：对点记法与早期手稿出现时点保留质疑，说明dot形式可见于1671年论文而并不确定1665年已统一采用；区分“记号出现”与“方法创立”。
+- **H78** Cambridge UP，Niccolò Guicciardini，[Overture: Newton’s Published Work on the Calculus of Fluxions](https://www.cambridge.org/core/books/abs/development-of-newtonian-calculus-in-britain-17001800/overture-newtons-published-work-on-the-calculus-of-fluxions/34A683F2787FB593C6C4ABAA56F129E7)，*The Development of Newtonian Calculus in Britain 1700–1800*：1669 *De Analysi* 后**1711**印行、1671 *De Methodis Serierum et Fluxionum* 后**1736英文译印**；1704 *De Quadratura Curvarum* 为早期公开发表的流数类文字之一。注意1671 manuscript ≠ 1736 Newton生前出版。
+- **H79** Newton Project，[The Newton Project: early mathematical tracts](https://www.newtonproject.ox.ac.uk/view/contexts/CNTX00003)：1666年手稿的方法分布、运动与求积的联系及研究演进；证实年代，不能推出19世纪形式极限的严格化。
+- **H80** Routledge Encyclopedia of Philosophy，[Isaac Newton: Life](https://www.rep.routledge.com/articles/biographical/newton-isaac-1642-1727/v-1/sections/life-97595)，Harper / Smith / Biener，1998：1664开始数学研究、1665—1666结出二项式与微积分核心成果，至1669获得剑桥卢卡斯教授职位；并非当年普遍公开发表。
+
+### 数学复核与叙事约束
+
+- **11** 正整数p下现代归一化幂和 \`(1/N)∑_{k=1}^{N}(k/N)^p→1/(p+1)\`。p=2可由 \`∑k²=N(N+1)(2N+1)/6\` 严格复算。面积增长 \`A(x)=x³/3\` 则差商趋于 \`x²\`，是现代讲解反向关系的例子，**不能假作巴罗或格雷戈里的原稿公式**；需要把1656、1668、1670三个时间标记清楚。
+- **12** 对 \`|z|<1\`，广义二项式 \`(1+z)^{1/2}=1+z/2-z²/8+z³/16-5z⁴/128+…\`，截断精度用\`z=1/4\`数值计算。不能说原文有现代Σ记号；1665—1666成果是多条技术链交汇，并非只因瘟疫才从零开始研究。
+- **13** 令 \`x(t)=t²\`, \`y(t)=x(t)³=t⁶\`：\`ẋ=2t\`, \`ẏ=3x²ẋ=6t⁵\`。乘积法则来自小时间增量展开 \`(x+Δx)(y+Δy)\`，忽略二阶项需通过极限条件解释；现代 \`A(x)=x³/3\` 沿时间变化 \`Ȧ=x²ẋ\`，区分时间流数与把x当变量时的导数。与莱布尼茨\`d\`、积分符号的比较留给14章，完整基本定理主角留给15章。
+- **真实性**：不要虚构牛顿身处房间、听到话语、苹果落下即发现微积分，不能将后世牛顿关于优先权的当事人说法视为没有争议的中立旁证。
+- **工作流**：三章为 \`DRAFT_UNREVIEWED\` 候选；整书 \`workflow-state.json\` 的 \`outline_approved=false/evidence_verified=false/review_status=PENDING\` 保持原样，不能宣称已通过正式双审/最终门禁。

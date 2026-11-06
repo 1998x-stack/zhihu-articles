@@ -1,25 +1,146 @@
 {
   "chapter": "12",
-  "status": "PENDING",
+  "title": "1666年的牛顿：一组手稿为什么改变数学",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H70",
+    "H71",
+    "H72",
+    "H73",
+    "H74",
+    "H75",
+    "H76",
+    "H77",
+    "H78",
+    "H79",
+    "H80"
+  ],
   "claims": [
     {
       "id": "C12-01",
-      "statement": "运动和级数能否用同一方法处理",
-      "source_candidates": [
-        "H01",
-        "H02"
+      "kind": "historical_biography",
+      "statement": "牛顿1661入剑桥，1664前后研究数学，1665夏到1667春大多在伍尔索普。",
+      "source_ids": [
+        "H73",
+        "H80"
       ],
-      "verification": "PENDING"
+      "locator": "SEP Newton; Routledge Newton Life",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C12-02",
-      "statement": "二项式级数、流量思路",
-      "source_candidates": [
-        "H01",
-        "H02"
+      "kind": "historical_context",
+      "statement": "牛顿早期研究接触维耶特、笛卡尔、沃利斯，1664—1665数学笔记发展分数/负幂二项式方法。",
+      "source_ids": [
+        "H70"
       ],
-      "verification": "PENDING"
+      "locator": "Newton Project Introduction mathematical notebooks",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C12-03",
+      "kind": "history",
+      "statement": "1665—1666是牛顿研究光学、数学、运动的并行时期，奇迹之年说法不能写作单日完工。",
+      "source_ids": [
+        "H73",
+        "H74"
+      ],
+      "locator": "SEP Newton life; Newton Project timeline",
+      "verification": "QUALIFIED_HISTORY"
+    },
+    {
+      "id": "C12-04",
+      "kind": "manuscript",
+      "statement": "1666年10月流数手稿目录现存MS Add.3958.3 ff.48v—63v，为29页。",
+      "source_ids": [
+        "H71",
+        "H72"
+      ],
+      "locator": "Newton Project NATP00100 catalogue & normalized text",
+      "verification": "PRIMARY_TEXT_CHECKED"
+    },
+    {
+      "id": "C12-05",
+      "kind": "historical_method",
+      "statement": "牛顿1666手稿尝试以运动处理变化率、切线、面积与相关几何问题。",
+      "source_ids": [
+        "H72",
+        "H79"
+      ],
+      "locator": "October 1666 Tract propositions; Newton Project contextual essay",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C12-06",
+      "kind": "math_modern",
+      "statement": "广义二项式(1+z)^α在|z|<1时可按组合系数展开；sqrt(1+z)前五项系数1,1/2,-1/8,1/16,-5/128。",
+      "source_ids": [
+        "H70"
+      ],
+      "locator": "independent generalized binomial algebra, modern notation",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C12-07",
+      "kind": "math_modern",
+      "statement": "z=1/4时五项值约1.118011475，真实sqrt(5/4)约1.118033989，误差约2.25×10^-5。",
+      "source_ids": [
+        "H70"
+      ],
+      "locator": "independent finite arithmetic cross-check",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C12-08",
+      "kind": "math_modern",
+      "statement": "幂级数在收敛半径内允许逐项积分，与有限多项式性质不同。",
+      "source_ids": [
+        "H70"
+      ],
+      "locator": "modern power-series theorem; historical method analogy only",
+      "verification": "MATH_CHECKED_SCOPE"
+    },
+    {
+      "id": "C12-09",
+      "kind": "source_boundary",
+      "statement": "1666年手稿、1669 De Analysi、1671流数法长篇手稿与更晚公开印刷不是同一次出版。",
+      "source_ids": [
+        "H71",
+        "H76",
+        "H78"
+      ],
+      "locator": "Newton Project catalog; self account; Guicciardini Cambridge chronology",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C12-10",
+      "kind": "myth_boundary",
+      "statement": "苹果故事源于牛顿晚年回忆传统，不是微积分在1666某时刻创立的现场证明。",
+      "source_ids": [
+        "H74"
+      ],
+      "locator": "Newton Project life at a glance",
+      "verification": "SOURCE_SCOPE_LIMITED"
+    },
+    {
+      "id": "C12-11",
+      "kind": "notation",
+      "statement": "牛顿早期点记法使用时期有史学细节，不能说1666所有文本已统一用点号。",
+      "source_ids": [
+        "H77",
+        "H72"
+      ],
+      "locator": "MAA notation essay; 1666 manuscript actual transcription",
+      "verification": "CROSS_CHECKED_WITH_UNCERTAINTY"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "1666年为持续研究的阶段，不能称数学、光学、引力三项同日成熟。",
+    "原始手稿与正规化学术转写不同，公开出版年份不得倒填1666。",
+    "广义二项式现代系数、收敛区间和逐项积分严格性是现代数学解释。",
+    "苹果轶事只能作为晚年回忆传统，不构造第一人称现场。",
+    "点记号何时统一用存在历史细节，避免完全确定的断言。",
+    "非虚构工作初稿，未通过双审或workflow门禁。"
+  ]
 }
