@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "linear-algebra-history",
   "title": "从方程到空间：一部线性代数思想发展史",
-  "reading_notice": "第01—05章已有历史非虚构正文初稿及逐章来源对照（尚未通过独立双审或终稿批准）；其余29个章节（含序章与尾声）仍为策划占位。",
+  "reading_notice": "第01—08章共有8章已完成正文初稿及逐章来源对照，另26个章节位置仍为策划占位。尚未通过正式独立双审或终稿批准。",
   "chapters": [
     {
       "id": "prologue",
@@ -51,21 +51,21 @@
       "title": "克拉默：一眼写出所有未知数的代价",
       "part": "第二部｜行列式的诞生",
       "file": "draft/06.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-07",
       "title": "拉普拉斯：大行列式怎样拆成小问题",
       "part": "第二部｜行列式的诞生",
       "file": "draft/07.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-08",
       "title": "柯西与雅可比：从公式迈向行列式理论",
       "part": "第二部｜行列式的诞生",
       "file": "draft/08.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-09",
