@@ -1,0 +1,72 @@
+{
+  "chapter": "06",
+  "title": "克拉默：一眼写出所有未知数的代价",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "S06-1": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "S06-2": "https://mathshistory.st-andrews.ac.uk/Biographies/Cramer/",
+    "S06-3": "https://old.maa.org/node/1899289",
+    "S06-4": "https://smf.emath.fr/node/152648",
+    "S06-M": "本章第四—八节的现代推导"
+  },
+  "claims": [
+    {
+      "claim_id": "C06-01",
+      "source_ids": [
+        "S06-1"
+      ],
+      "type": "historical",
+      "verified": true
+    },
+    {
+      "claim_id": "C06-02",
+      "source_ids": [
+        "S06-1",
+        "S06-2",
+        "S06-4"
+      ],
+      "type": "historical",
+      "verified": true
+    },
+    {
+      "claim_id": "C06-03",
+      "source_ids": [
+        "S06-1",
+        "S06-3"
+      ],
+      "type": "historical_with_limit",
+      "verified": true
+    },
+    {
+      "claim_id": "C06-04",
+      "source_ids": [
+        "S06-M"
+      ],
+      "type": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C06-05",
+      "source_ids": [
+        "S06-M"
+      ],
+      "type": "modern_algorithm",
+      "verified": true
+    },
+    {
+      "claim_id": "C06-06",
+      "source_ids": [
+        "S06-M"
+      ],
+      "type": "modern_math",
+      "verified": true
+    }
+  ],
+  "notes": [
+    "1750年为克拉默一般规则的发表，不是行列式第一次出现",
+    "麦克劳林1748出版和克拉默1750不可合并成首创单人史",
+    "现代公式/例题非历史原文本",
+    "仍待独立双审与终审"
+  ]
+}
