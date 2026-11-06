@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "lane": "nonfiction",
-  "current_revision": 3,
+  "current_revision": 4,
   "outline_approved": true,
   "evidence_verified": true,
   "review_status": "PENDING",
@@ -9,6 +9,6 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "第01—04章各自的核心史料及数学演示已作专项核证；第05章以后尚未逐章核实",
+  "evidence_scope": "仅第01—05章的已选重大历史主张与各章现代数学演示已进行专项核证；第06章以后尚待逐章核验",
   "migration_note": "旧作品由2026-11-06的新工作流补建；历史稿件未经过Schema 2.0双审，review_status仍为PENDING"
 }
