@@ -4,13 +4,13 @@
   "current_revision": 1,
   "outline_approved": true,
   "evidence_verified": true,
-  "review_status": "PENDING",
-  "reviewed_revision": null,
+  "review_status": "PASS",
+  "reviewed_revision": 1,
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
   "evidence_scope": "序章00及第01—15章、尾声16共17份正文均完成章级前置核证；最终批次G15-01—G15-22及G16-01—G16-22已映射来源；下一步全书独立双审",
-  "approval_scope": "revision 1 revised.md待独立双审复审；首轮revision 0两份报告均CHANGES_REQUIRED且已失效，尚无语言精修或终审许可。",
-  "note": "2026-11-06 revision-manager：17章合订修订稿revised.md与qa/revision-log.md已提交；原始draft/NN.md作为rev0来源保留；当前1版尚须两项独立复审明确PASS，不能越级line-edit/final-approval。",
+  "approval_scope": "revision 1的continuity-audit与developmental-editor两份不同的复审报告均为PASS且版号一致，允许进入line-edit；尚未生成edited.md及正式终审许可。",
+  "note": "rev1双审通过：qa/continuity-report.md和qa/developmental-review.md均为revision_count:1/status:PASS；306个主张编号在revised.md保留。接下来进行line-edit，正式本地workflow_gate.py尚未运行，未生成终稿。",
   "revision_reason": "修复首轮审稿C-01—C-04及D-01—D-06；新增S87并将17章初稿构造成可复审revised.md。"
 }
