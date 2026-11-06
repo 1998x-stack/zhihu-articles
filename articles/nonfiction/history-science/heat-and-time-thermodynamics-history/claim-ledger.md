@@ -15,9 +15,9 @@
 | 08 | 怎样同时容纳能量守恒与卡诺效率原理？ | R67—R81及既有资料 | 20条来源主张已登记并完成正文初稿；独立审稿待进行 |
 | 09 | 温度尺度能否不依赖特定物质？ | R67—R81及既有资料 | 21条来源主张已登记并完成正文初稿；独立审稿待进行 |
 | 10 | 能否循环地把单一热源的热全部转成功？ | R67—R81及既有资料 | 21条来源主张已登记并完成正文初稿；独立审稿待进行 |
-| 11 | 如何比较不同热过程中无法恢复的变化？ | R02、R05 | 占位，待核证 |
-| 12 | 熵增是否等于“时间本身有了方程”？ | R02、R05 | 占位，待核证 |
-| 13 | 热机过程能否成为可视化、可计算的曲线？ | R04 | 占位，待核证 |
+| 11 | 如何比较不同热过程中无法恢复的变化？ | R82—R94与已有史料 | 21条核心主张已前置核对，正文待写、审稿待做 |
+| 12 | 熵增是否等于“时间本身有了方程”？ | R82—R94与已有史料 | 21条核心主张已前置核对，正文待写、审稿待做 |
+| 13 | 热机过程能否成为可视化、可计算的曲线？ | R82—R94与已有史料 | 22条核心主张已前置核对，正文待写、审稿待做 |
 | 14 | 怎样区分系统拥有的状态量与穿越边界的过程量？ | R02、R06 | 占位，待核证 |
 | 15 | 同一物质在什么条件下会更换相态？ | R06、R07 | 占位，待核证 |
 | 16 | 多相、多成分的平衡还有多少自由度？ | R06、R07 | 占位，待核证 |
@@ -339,4 +339,89 @@
 | T10-19 | ‘不可能’是宏观循环过程约束，并非单个微观事件被无限制宣判 | scope_boundary | R80：macro versus statistical |
 | T10-20 | 第二定律的现代规范句与1850–51原文字句不能混写 | historiography | R69,R72：translated/modern distinction |
 | T10-21 | 1854循环积分与1865熵命名留第11章，不提前署给1850—51 | editorial_transition | R73,R74：chronological distinction |
+
+
+
+## 第11—13章：证据与主张矩阵（2026-11-06）
+
+> 前置事实查核仅对三章的具体主张有效，历史年代表述与现代理论必须分层；主张编号与draft/NN.claims.json同步。此节不是审稿PASS。
+
+### 11｜逐条证据定位
+
+| ID | 主张 | 类型 | 研究ID与定位 |
+|---|---|---|---|
+| T11-01 | 1854年Clausius研究第二主定理和可逆循环热量与绝对温度关系 | historical | R74,R93：1854论文/历史综述 |
+| T11-02 | 1854公式的初始积分结构不应称已命名熵S | historical_boundary | R74,R86：1854与1865对比 |
+| T11-03 | 1865论文标题Ueber verschiedene für die Anwendung bequeme Formen ... | bibliography | R82,R85：原印本与期刊书目 |
+| T11-04 | 1865年4月24日在苏黎世科学社团宣读并于同年期刊出版 | bibliography | R82,R83,R85：原著标题页 |
+| T11-05 | 原印本p46使用Entropie首次正式命名S | primary_source | R83,R84：Clausius p46/英译p2 |
+| T11-06 | 熵名取自希腊语转变并刻意接近Energie词形 | primary_source | R83,R84：p46原文名词段 |
+| T11-07 | S可经沿可逆路径积分δQrev/T计算两平衡态之间变化 | historical_physics | R83,R84,R87：1865方程59/60；现代写法边界 |
+| T11-08 | Clausius 1865列出energy和entropy不同状态量而非一种耗散能量 | historical_physics | R83,R84：p46–47状态函数说明 |
+| T11-09 | 热Q与功W属于过程量，不能把S看作存储在物体中的热 | modern_theory | R87,R80：热功与状态量分类 |
+| T11-10 | 现代可逆定义dS=δQrev/T，使用绝对温标与平衡端态 | modern_formula | R84,R87：OpenStax 4.6 |
+| T11-11 | 现代Clausius不等式∮δQ/T≤0以流入系统为正号约定 | modern_formula | R84,R87：1865论述/现代形式 |
+| T11-12 | 可逆循环积分等于零；不可逆循环一般小于零 | modern_theory | R84,R87：不等式等号条件 |
+| T11-13 | 有限温差传热引起孤立整体熵增，不必有能量产生 | modern_explanation | R87,R80：二热库熵变 |
+| T11-14 | 熵增加不意味着能量守恒失败 | modern_boundary | R87,R80：区分U和S |
+| T11-15 | 系统ΔS不依赖路径，实际不可逆热量与S不总为Q/T | modern_theory | R87,R88：path independence |
+| T11-16 | 隔热自由膨胀Qactual=0而ΔS>0，是不可逆反例 | modern_example | R88：ideal gas example |
+| T11-17 | 孤立系统熵非减，局部子系统熵可以下降 | modern_theory | R87,R80：系统边界 |
+| T11-18 | Clausius独立印本p59提出宇宙能量常量与熵趋极大历史表述 | primary_source | R83,R84：p59宇宙结论 |
+| T11-19 | 1865宇宙概括不能当作现代宇宙学证明的普遍定理 | interpretation_limit | R83,R89：史述与现代非平衡宇宙 |
+| T11-20 | 熵不是无条件的‘杂乱程度’或负能量 | modern_limit | R87,R88：状态量与微观概念 |
+| T11-21 | 对第12章的衔接：熵定义与宏观时间方向问题仍不同 | editorial_transition | R89,R87：SEP时间箭头 |
+
+### 12｜逐条证据定位
+
+| ID | 主张 | 类型 | 研究ID与定位 |
+|---|---|---|---|
+| T12-01 | 克劳修斯1865把熵与演化方向联系，但未建立后来概率微观理论 | historical | R83,R89：1865 p59/SEP |
+| T12-02 | 热自发从高温端传向低温端有宏观方向性 | modern_fact | R89,R87：自发传热 |
+| T12-03 | 两个温度固定的热库热量Q从热端去冷端，ΔShot=−Q/Th, ΔScold=+Q/Tc | modern_formula | R87：OpenStax 4.6 |
+| T12-04 | 热库400K、300K、Q=60J，ΔStotal=+0.05J/K属现代算例 | editorial_example | R87：算术计算及条件 |
+| T12-05 | 若有限热库温度变化，不能用固定温度除数计算全过程 | modern_boundary | R87：积分温度变化 |
+| T12-06 | 孤立整体ΔS≥0且可逆极限为等号，子系统可以减少 | modern_theory | R87,R89：系统及环境 |
+| T12-07 | 冰箱可使冷端局部熵降低，须考虑功与外界总熵 | modern_example | R87,R81：热泵边界 |
+| T12-08 | 无传热绝热并不必熵恒定，过程需可逆才恒定 | modern_theory | R88,R87：free expansion |
+| T12-09 | 理想气体隔热自由膨胀无功无热且理想内能不变 | modern_physics | R88：OpenStax 4.7 |
+| T12-10 | 一摩尔理想气体V→2V时ΔS=R ln2≈5.76J/K | modern_numeric | R88：OpenStax 4.7及R=8.314 |
+| T12-11 | 计算不可逆熵变可选择连接相同平衡端态的虚拟可逆路径 | modern_method | R88：entropy state function |
+| T12-12 | 实际自由膨胀没有经历该虚构的可逆等温路径 | method_boundary | R88：path independence |
+| T12-13 | 熵不等同于‘看起来杂乱’的视觉印象 | modern_limit | R87,R88：entropy definition |
+| T12-14 | 宏观热力学的方向性不能直接等同时间物理本身的定义 | philosophy_boundary | R89：SEP section1/3 |
+| T12-15 | 经典牛顿式微观方程通常时间反演对称，需正确反转动量 | modern_philosophy | R89：SEP §3 |
+| T12-16 | 一些微观相互作用可破坏时间反演，未解释常见热学时间箭头 | modern_boundary | R89：SEP weak interactions note |
+| T12-17 | Boltzmann统计方法是19世纪后半的后续发展，不应署于Clausius 1865 | historical_sequence | R89,R05：SEP Boltzmann chronology |
+| T12-18 | Loschmidt与Zermelo争论是后续概率解释挑战 | historical_sequence | R89,R05：SEP §3 |
+| T12-19 | 过去低熵初始条件/过去假说是后见理论讨论，不能当历史人物已证 | historiography | R89：SEP Past Hypothesis |
+| T12-20 | 宏观熵增规律对宏观平均行为有范围，小体系涨落留后文 | modern_scope | R89：statistical context |
+| T12-21 | 第13章回溯1834 Clapeyron而非时间线顺延，需显式声明 | editorial_transition | R90,R93：1834原始书目 |
+
+### 13｜逐条证据定位
+
+| ID | 主张 | 类型 | 研究ID与定位 |
+|---|---|---|---|
+| T13-01 | 1834年Clapeyron发表Mémoire sur la puissance motrice de la chaleur | bibliography | R90,R94：1834 periodical pp153–190 |
+| T13-02 | 1837年英文译本Scientific Memoirs不等于1834原英文稿 | bibliography | R91：Vol1 Article XV |
+| T13-03 | 1824年Carnot主要用可逆循环思想、没有后世标准pV曲线呈现 | history_context | R18,R93：Carnot/Clapeyron对照 |
+| T13-04 | Clapeyron在1834文章引入压力纵轴体积横轴的循环轨迹 | primary_source | R90,R91：§II fig1 |
+| T13-05 | 气体膨胀功按压力乘体积微变积分对应曲线下面积 | primary_source | R90,R91：§II pV面积 |
+| T13-06 | 完整准静态循环∮p dV的有向面积对应净机械功 | modern_formula | R90,R87：现代机制重述 |
+| T13-07 | 闭合图形方向会影响积分正负，顺时针通常对外做正功 | modern_physics | R90,R81：pV orientation |
+| T13-08 | 两条不同路径可有同一端态而做功不同 | modern_physics | R90,R81：area path dependence |
+| T13-09 | 不能宣称Clapeyron发明世上第一个蒸汽机压力体积指示图 | historical_boundary | R92,R93：Watt indicator drawings existed |
+| T13-10 | 1834原著仍使用calorique热质模型，非能量守恒理论 | primary_source | R90,R93：原著热质转移段 |
+| T13-11 | Clapeyron讨论空气与蒸汽热机并利用Carnot原理比较 | historical | R90,R93：§II,§IV |
+| T13-12 | Clapeyron气态和液态蒸汽共存曲线涉及饱和压与温度 | historical | R90,R91：§IV |
+| T13-13 | Clapeyron建立相变潜热与蒸气压温度变化率联系 | primary_source | R90,R92：论文蒸汽段/2020史述 |
+| T13-14 | 1834关系包含未知热机普适温度函数C(t)，不是今天T形式 | historical_boundary | R93,R90：Saslow §4 eq4.4 |
+| T13-15 | 1850 Clausius以能量守恒重述该相变关系 | historical_sequence | R92,R93：1850与1834区别 |
+| T13-16 | 现代严格Clapeyron式 dp_sat/dT=L/(T(vg−vl)) | modern_formula | R92,R93：相变共存的热力学表达 |
+| T13-17 | 该式L与两相比容单位一致；T为绝对温度 | modern_conditions | R92：per mass units |
+| T13-18 | dp/dT联系潜热与两相比容差，不是单凭沸点可定所有参数 | modern_interpretation | R92,R90：thermodynamic properties |
+| T13-19 | 近似Clausius-Clapeyron dlnp/dT≈L/(Rspec T²) | modern_approximation | R92：ideal vapor & liquid negligible |
+| T13-20 | 积分ln(p2/p1)≈L/Rspec(1/T1−1/T2)另需L在温区近恒定 | modern_approximation | R92：latent heat constant assumption |
+| T13-21 | 原始论文用数学图像替代机器零件叙述，是科学方法贡献 | historical_interpretation | R92,R93：history reviews |
+| T13-22 | 第14章将区分循环路径函数Q/W与状态函数U/S，作为逻辑后继 | editorial_transition | R87,R93：modern thermodynamics |
 
