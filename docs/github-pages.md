@@ -106,11 +106,24 @@ https://1998x-stack.github.io/zhihu-articles/read/the-empty-spaces/chapter-01/
 - Markdown 标题、引文、列表、表格、代码块与脚注排版；
 - 使用 MathJax 渲染行内 `$...$` 和块级 `$$...$$` 数学公式（MathJax 使用 CDN，断网时公式保留源码）；
 - 上一章/下一章、返回全书目录、回到分类书架；
-- 字号与浅色/深色主题（浏览器本地保存）；
+- 字号、衬线／无衬线字体与浅色/深色主题（浏览器本地保存）；
 - 章节阅读进度线、返回顶部；
 - 正文初稿／章节占位状态提示。
 
 同一本书的所有章节、甚至不同书籍的章节都使用 **同一份 `site/reader.html` 与 `site/assets/css/reader.css`**，不需要手动复制模板到每个 Markdown 旁边。
+
+### 动态阅读视觉（Apple 网站启发，不是 Apple 官方站点）
+
+在原有样式上额外加载 `site/assets/css/reader-apple.css`，让整套阅读器具有现代科技官网的清爽排版、超大章节标题、轻盈的渐变光效、半透明吸顶工具栏和卡片式书目。
+
+`site/assets/js/reader.js` 实现：
+- 屏幕滚动进度与当前小节名称提示；
+- 章节标题背景轻微视差、支持鼠标/触控板的渐变追光；
+- 使用 IntersectionObserver 的章节标题、引文、图片渐入（仅首次进入视口）；
+- 阅读正文字体在书籍衬线与现代无衬线之间切换；
+- 保留字号、夜间模式及原有阅读导航。
+
+所有动画都设置了 `prefers-reduced-motion: reduce` 降级；JS、IntersectionObserver 不可用时默认全部内容可见，不影响纯 HTML 阅读。不引入 Apple 商标、图片、私有字体或代码。
 
 ## 安全与版权边界
 

@@ -15,7 +15,7 @@ class PagesBuildTests(unittest.TestCase):
             output = Path(temp) / "public"
             build(output)
             for path in (
-                "index.html", "assets/css/main.css", "assets/css/reader.css",
+                "index.html", "assets/css/main.css", "assets/css/reader.css", "assets/css/reader-apple.css",
                 "assets/js/app.js", "assets/js/reader.js", "assets/data/genres.json",
                 "read/the-loss-of-certainty-math-crises/index.html",
                 "read/the-loss-of-certainty-math-crises/chapter-02/index.html",
@@ -41,11 +41,23 @@ class PagesBuildTests(unittest.TestCase):
             self.assertIn('href="../chapter-01/"', chapter_html)
             self.assertIn('href="../chapter-03/"', chapter_html)
             self.assertIn("reader.css", chapter_html)
+            self.assertIn("reader-apple.css", chapter_html)
+            self.assertIn("reader-current-section", chapter_html)
+            self.assertIn("reader-reading-percent", chapter_html)
+            self.assertIn("type-toggle", chapter_html)
             self.assertIn("数学里的真假", chapter_html)
             self.assertIn("正文初稿", chapter_html)
             outline_html = (output / "read/credit-debt-power-global-financial-history/chapter-04/index.html").read_text(encoding="utf-8")
             self.assertIn("章节占位", outline_html)
             self.assertIn("不是正式正文", outline_html)
+            stylesheet = (output / "assets/css/reader-apple.css").read_text(encoding="utf-8")
+            self.assertIn("prefers-reduced-motion", stylesheet)
+            self.assertIn("reader-motion-enabled", stylesheet)
+            self.assertIn("reader-chapter-list", stylesheet)
+            javascript = (output / "assets/js/reader.js").read_text(encoding="utf-8")
+            self.assertIn("IntersectionObserver", javascript)
+            self.assertIn("reading-room-font-family", javascript)
+            self.assertIn("reading-progress", javascript)
 
     def test_rejects_nonexistent_category(self):
         with self.assertRaisesRegex(ValueError, "Unknown genre"):
