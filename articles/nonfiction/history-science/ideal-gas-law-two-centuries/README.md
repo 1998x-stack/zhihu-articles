@@ -4,7 +4,7 @@
 
 > 1834年，一位工程师把一条气体规律写成了 `pv=R(267+t)`。为什么这里是267，而不是今天的273.15？从一根玻璃管到无数分子的运动，这个差异恰好藏着一场跨越两百年的科学接力。
 
-**作品性质**：历史与科学发现｜非虚构知识叙事。当前状态：**drafting（序章00及第01—14章已有正文初稿；第15章及尾声16仍为占位，尚未通过独立审稿）**。
+**作品性质**：历史与科学发现｜非虚构知识叙事。当前状态：**drafting（序章00、第01—15章与尾声16共17份正文均已完成初稿；全书独立双审尚未通过）**。
 
 - **读者**：具有初中到高中物理基础的普通读者；关键概念会逐层解释。
 - **结构**：五部十五章、序章与尾声，总体目标约4万字，逐章可按证据与叙事节奏调整。
@@ -33,8 +33,8 @@
 - **第五部｜完美公式的裂缝**
   - [13｜数不尽的分子，竟能导出一条简单方程（已写初稿）](draft/13.md)
   - [14｜1873年，范德瓦耳斯为理想气体补上现实（已写初稿）](draft/14.md)
-  - [15｜从R到kB：五个字母的现代意义](draft/15.md)
-- [尾声｜从267回望：一条不完美方程的价值（待写）](draft/16.md)
+  - [15｜从R到kB：五个字母的现代意义（已写初稿）](draft/15.md)
+- [尾声｜从267回望：一条不完美方程的价值（已写初稿）](draft/16.md)
 
 ## 写作与研究资料
 
@@ -49,6 +49,6 @@
 
 `topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → line-edit → final-approval → publication-package`。
 
-后续待写章节先扩展 `research.md` 与 `claim-ledger.md`，然后写 `draft/NN.md` 和 `draft/NN.claims.json`。未来章节的 `.claims.json` 目前只是空账本，不代表核验通过。需由独立审稿生成 `qa/continuity-report.md` 与 `qa/developmental-review.md`，再进入精修和封版。**不把章节规划或序章草稿标注为出版成品。**
+**初稿全部完稿**：序章00、第01—15章、尾声16共17份 `draft/NN.md` 均有正文与逐章 `draft/NN.claims.json`，已建立章内史实主张映射。接下来必须执行 `continuity-audit` 与 `developmental-editor` 两项独立审稿，分别生成 `qa/continuity-report.md` 和 `qa/developmental-review.md`；必要时按审稿意见开展 `fact-research` 增量核证及 `revision-manager` 修订，之后才能进行 `line-edit` 与 `final-approval`。**完整初稿不等于出版终稿。**
 
 > 历史表达边界：不虚构人物直接对白、私密动机、日记或“当时的一幕”；不把现代记号、摩尔定义与绝对温标倒灌给17—19世纪科学家。
