@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "id": "network-science-history",
+  "title": "连接的真相：一部网络科学发展史",
+  "reading_notice": "本系列只有序章叙事样段与章节规划卡，均非完整且经过审校的正式文章。",
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "序章｜1998年，一条捷径和一个超级节点",
+      "part": "序章",
+      "file": "draft/00.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-01",
+      "title": "01｜七座桥的困局：欧拉删掉了距离",
+      "part": "第1部｜连接的诞生",
+      "file": "draft/01.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-02",
+      "title": "02｜从电路到树：连接开始拥有方程",
+      "part": "第1部｜连接的诞生",
+      "file": "draft/02.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-03",
+      "title": "03｜把关系画出来：莫雷诺的社会图",
+      "part": "第1部｜连接的诞生",
+      "file": "draft/03.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-04",
+      "title": "04｜谁最重要：中心性的几种含义",
+      "part": "第1部｜连接的诞生",
+      "file": "draft/04.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-05",
+      "title": "05｜用骰子创造网络：随机图的双重起点",
+      "part": "第2部｜随机、距离与弱关系",
+      "file": "draft/05.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-06",
+      "title": "06｜只加一条边，世界为何突然连通",
+      "part": "第2部｜随机、距离与弱关系",
+      "file": "draft/06.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-07",
+      "title": "07｜六度之隔：米尔格拉姆的信件",
+      "part": "第2部｜随机、距离与弱关系",
+      "file": "draft/07.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-08",
+      "title": "08｜弱关系的力量：陌生人连接两种世界",
+      "part": "第2部｜随机、距离与弱关系",
+      "file": "draft/08.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-09",
+      "title": "09｜中心性之争：弗里曼澄清概念",
+      "part": "第2部｜随机、距离与弱关系",
+      "file": "draft/09.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-10",
+      "title": "10｜互联网成为实验室：测量真实网络",
+      "part": "第3部｜真实网络的反叛",
+      "file": "draft/10.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-11",
+      "title": "11｜1998年：几条捷径缩小世界",
+      "part": "第3部｜真实网络的反叛",
+      "file": "draft/11.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-12",
+      "title": "12｜1999年：超级枢纽从哪里来",
+      "part": "第3部｜真实网络的反叛",
+      "file": "draft/12.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-13",
+      "title": "13｜幂律审判：漂亮直线未必是真相",
+      "part": "第3部｜真实网络的反叛",
+      "file": "draft/13.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-14",
+      "title": "14｜很近，不等于找得到路",
+      "part": "第3部｜真实网络的反叛",
+      "file": "draft/14.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-15",
+      "title": "15｜拔掉一个枢纽：网络为什么脆弱",
+      "part": "第4部｜网络内部的隐藏结构",
+      "file": "draft/15.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-16",
+      "title": "16｜朋友的朋友：聚类与同配性",
+      "part": "第4部｜网络内部的隐藏结构",
+      "file": "draft/16.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-17",
+      "title": "17｜找到看不见的部落：社群发现",
+      "part": "第4部｜网络内部的隐藏结构",
+      "file": "draft/17.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-18",
+      "title": "18｜模块度：社群划分有了评分",
+      "part": "第4部｜网络内部的隐藏结构",
+      "file": "draft/18.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-19",
+      "title": "19｜三点之间的秘密：网络模体",
+      "part": "第4部｜网络内部的隐藏结构",
+      "file": "draft/19.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-20",
+      "title": "20｜网络流行病学的前史：从SIR开始",
+      "part": "第5部｜当连接开始传递命运",
+      "file": "draft/20.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-21",
+      "title": "21｜传播门槛：枢纽改变了流行的数学",
+      "part": "第5部｜当连接开始传递命运",
+      "file": "draft/21.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-22",
+      "title": "22｜小刺激，大雪崩：社会级联",
+      "part": "第5部｜当连接开始传递命运",
+      "file": "draft/22.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-23",
+      "title": "23｜同时起舞：连接和同步",
+      "part": "第5部｜当连接开始传递命运",
+      "file": "draft/23.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-24",
+      "title": "24｜一条链接的权力：从排名到导航",
+      "part": "第5部｜当连接开始传递命运",
+      "file": "draft/24.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-25",
+      "title": "25｜一张静态图藏住了什么",
+      "part": "第6部｜一张图装不下现实世界",
+      "file": "draft/25.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-26",
+      "title": "26｜现实不止一层：多层网络",
+      "part": "第6部｜一张图装不下现实世界",
+      "file": "draft/26.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-27",
+      "title": "27｜三个人不是三条边：高阶关系",
+      "part": "第6部｜一张图装不下现实世界",
+      "file": "draft/27.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-28",
+      "title": "28｜连接是影响，还是彼此相似",
+      "part": "第6部｜一张图装不下现实世界",
+      "file": "draft/28.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-29",
+      "title": "29｜猜中下一条边：链接预测",
+      "part": "第7部｜从网络定律到图学习",
+      "file": "draft/29.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-30",
+      "title": "30｜把关系装进向量：图嵌入",
+      "part": "第7部｜从网络定律到图学习",
+      "file": "draft/30.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-31",
+      "title": "31｜图神经网络：每个节点向邻居学习",
+      "part": "第7部｜从网络定律到图学习",
+      "file": "draft/31.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-32",
+      "title": "32｜机器会预测，就理解世界了吗",
+      "part": "第7部｜从网络定律到图学习",
+      "file": "draft/32.md",
+      "status": "outline"
+    },
+    {
+      "id": "epilogue",
+      "title": "尾声｜一张图，从来不是整个世界",
+      "part": "尾声",
+      "file": "draft/33.md",
+      "status": "outline"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "id": "fields-of-light-electromagnetism-history",
+  "title": "看不见的场：一部电磁学的诞生与统一史",
+  "reading_notice": "电磁学系列仍在策划，当前 draft/00.md 的实际内容是设计占位，README 所述序章候审状态与文件内容不一致；依正文文件标记为占位，不代表审校通过。",
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "序章｜一束光为什么能穿过真空",
+      "part": "序章",
+      "file": "draft/00.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-01",
+      "title": "01｜地球为什么像一块大磁石",
+      "part": "第一部｜电与磁各自为王：把神秘变成可测量的力",
+      "file": "draft/01.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-02",
+      "title": "02｜玻璃棒和琥珀：电究竟有几种",
+      "part": "第一部｜电与磁各自为王：把神秘变成可测量的力",
+      "file": "draft/02.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-03",
+      "title": "03｜一只扭秤能称出看不见的力吗",
+      "part": "第一部｜电与磁各自为王：把神秘变成可测量的力",
+      "file": "draft/03.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-04",
+      "title": "04｜伏打电堆：把一次火花变成连续电流",
+      "part": "第一部｜电与磁各自为王：把神秘变成可测量的力",
+      "file": "draft/04.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-05",
+      "title": "05｜1820年，指南针为什么突然转了方向",
+      "part": "第二部｜1820年的转向：电流竟能创造磁效应",
+      "file": "draft/05.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-06",
+      "title": "06｜两根导线为什么会相互拉扯",
+      "part": "第二部｜1820年的转向：电流竟能创造磁效应",
+      "file": "draft/06.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-07",
+      "title": "07｜磁不是沿着直线飞出去的",
+      "part": "第二部｜1820年的转向：电流竟能创造磁效应",
+      "file": "draft/07.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-08",
+      "title": "08｜欧姆的冒险：电流能用一个比例式解释吗",
+      "part": "第二部｜1820年的转向：电流竟能创造磁效应",
+      "file": "draft/08.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-09",
+      "title": "09｜让导线转起来：电磁学第一次学会做功",
+      "part": "第三部｜法拉第的逆向问题：从电流到磁场再返回电流",
+      "file": "draft/09.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-10",
+      "title": "10｜1831年，为什么电流只闪动了一瞬",
+      "part": "第三部｜法拉第的逆向问题：从电流到磁场再返回电流",
+      "file": "draft/10.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-11",
+      "title": "11｜感应电流为什么总像在反抗变化",
+      "part": "第三部｜法拉第的逆向问题：从电流到磁场再返回电流",
+      "file": "draft/11.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-12",
+      "title": "12｜看不见的力线，是画法还是物理实体",
+      "part": "第三部｜法拉第的逆向问题：从电流到磁场再返回电流",
+      "file": "draft/12.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-13",
+      "title": "13｜麦克斯韦如何把法拉第的图画写成方程",
+      "part": "第四部｜麦克斯韦的统一：光原来也是电磁现象",
+      "file": "draft/13.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-14",
+      "title": "14｜电容器的缝隙里，为什么也需要“电流”",
+      "part": "第四部｜麦克斯韦的统一：光原来也是电磁现象",
+      "file": "draft/14.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-15",
+      "title": "15｜一个计算结果为什么指向了光速",
+      "part": "第四部｜麦克斯韦的统一：光原来也是电磁现象",
+      "file": "draft/15.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-16",
+      "title": "16｜我们今天背的四条方程，真是麦克斯韦亲手写的吗",
+      "part": "第四部｜麦克斯韦的统一：光原来也是电磁现象",
+      "file": "draft/16.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-17",
+      "title": "17｜电能沿着哪里流动：不是只看导线",
+      "part": "第五部｜电磁波离开纸面：从实验室到电力与通信",
+      "file": "draft/17.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-18",
+      "title": "18｜赫兹的火花：空气里真的有看不见的波",
+      "part": "第五部｜电磁波离开纸面：从实验室到电力与通信",
+      "file": "draft/18.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-19",
+      "title": "19｜电流之争：发电机怎样点亮一座城市",
+      "part": "第五部｜电磁波离开纸面：从实验室到电力与通信",
+      "file": "draft/19.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-20",
+      "title": "20｜没有电线，信号如何跨过海面",
+      "part": "第五部｜电磁波离开纸面：从实验室到电力与通信",
+      "file": "draft/20.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-21",
+      "title": "21｜电磁波究竟相对于谁在传播",
+      "part": "第六部｜以太危机：电磁场改写空间和时间",
+      "file": "draft/21.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-22",
+      "title": "22｜迈克耳孙—莫雷的零结果意味着什么",
+      "part": "第六部｜以太危机：电磁场改写空间和时间",
+      "file": "draft/22.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-23",
+      "title": "23｜1905年，爱因斯坦为何从电与磁谈起",
+      "part": "第六部｜以太危机：电磁场改写空间和时间",
+      "file": "draft/23.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-24",
+      "title": "24｜电场与磁场，可能只是时空的两张面孔",
+      "part": "第六部｜以太危机：电磁场改写空间和时间",
+      "file": "draft/24.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-25",
+      "title": "25｜黑体辐射：完美的经典波为什么算错了",
+      "part": "第七部｜量子革命：光不再只是经典波",
+      "file": "draft/25.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-26",
+      "title": "26｜光是波，为什么却像一粒一粒到来",
+      "part": "第七部｜量子革命：光不再只是经典波",
+      "file": "draft/26.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-27",
+      "title": "27｜把电磁场变成量子：狄拉克打开的新门",
+      "part": "第七部｜量子革命：光不再只是经典波",
+      "file": "draft/27.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-28",
+      "title": "28｜无穷大之后：量子电动力学为什么没有崩溃",
+      "part": "第七部｜量子革命：光不再只是经典波",
+      "file": "draft/28.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-29",
+      "title": "29｜规范对称性：一个数学自由度怎么变成理论原则",
+      "part": "第八部｜更大的统一：从规范场到量子光技术",
+      "file": "draft/29.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-30",
+      "title": "30｜电与弱力：第二次电磁统一是怎样发生的",
+      "part": "第八部｜更大的统一：从规范场到量子光技术",
+      "file": "draft/30.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-31",
+      "title": "31｜W、Z与希格斯：统一理论如何接受审判",
+      "part": "第八部｜更大的统一：从规范场到量子光技术",
+      "file": "draft/31.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-32",
+      "title": "32｜从一束激光到单个光子：电磁学还会怎样发展",
+      "part": "第八部｜更大的统一：从规范场到量子光技术",
+      "file": "draft/32.md",
+      "status": "outline"
+    },
+    {
+      "id": "epilogue",
+      "title": "尾声33｜从琥珀到光子：看不见的场如何改变世界",
+      "part": "尾声",
+      "file": "draft/33.md",
+      "status": "outline"
+    }
+  ]
+}
