@@ -86,6 +86,7 @@
     "draft/23.claims.json",
     "legacy/README.md",
     "metadata.yaml",
+    "migration-manifest.json",
     "outline.md",
     "qa/README.md",
     "research.md",
