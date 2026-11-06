@@ -1,0 +1,84 @@
+{
+  "chapter": "11",
+  "title": "罗巴切夫斯基与鲍耶：改掉公设，世界没有崩塌",
+  "lane": "nonfiction",
+  "revision": 8,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Original historical statements grounded in research.md chapter-specific evidence",
+    "Modern mathematical demonstrations differentiated from primary historical proofs",
+    "Independent continuity and developmental reviews pending"
+  ],
+  "claims": [
+    {
+      "claim_id": "H11-01",
+      "source_id": "R11-MACTUTOR-LOB",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H11-02",
+      "source_id": "R11-MACTUTOR-LOB;R11-MACTUTOR-TOPIC",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H11-03",
+      "source_id": "R11-MACTUTOR-BOLYAI",
+      "verification": "historical_verified_qualified"
+    },
+    {
+      "claim_id": "H11-04",
+      "source_id": "R11-ALEXITS;R11-HUNGARIAN-ACADEMY",
+      "verification": "historical_date_disambiguation"
+    },
+    {
+      "claim_id": "H11-05",
+      "source_id": "R11-SEP-GEOMETRY;R11-MATHWORLD-DISK",
+      "verification": "modern_hyperbolic_geometry_verified"
+    },
+    {
+      "claim_id": "H11-06",
+      "source_id": "R11-SEP-GEOMETRY;R11-MODERN-MATH",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H11-07",
+      "source_id": "R11-MODERN-MATH",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H11-08",
+      "source_id": "R11-MATHWORLD-DISK;R11-OSU-DISK",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H11-09",
+      "source_id": "R11-MACTUTOR-LOB;R11-MACTUTOR-BOLYAI",
+      "verification": "historical_qualified"
+    },
+    {
+      "claim_id": "H11-10",
+      "source_id": "R11-ALEXITS;R11-MACTUTOR-BOLYAI",
+      "verification": "historical_original_correspondence"
+    },
+    {
+      "claim_id": "H11-11",
+      "source_id": "R11-MACTUTOR-TOPIC;R11-SEP-GEOMETRY",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H11-12",
+      "source_id": "R11-SEP-GEOMETRY;R11-MODERN-MATH",
+      "verification": "modern_logic_qualified"
+    },
+    {
+      "claim_id": "H11-13",
+      "source_id": "R11-SEP-GEOMETRY;R11-MODERN-MATH",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H11-14",
+      "source_id": "R11-MACTUTOR-LOB;R11-MACTUTOR-TOPIC",
+      "verification": "historiographical_qualified"
+    }
+  ]
+}
