@@ -1,0 +1,74 @@
+{
+  "chapter": "09",
+  "title": "柯西与魏尔斯特拉斯：给无穷装上边界",
+  "lane": "nonfiction",
+  "revision": 8,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Original historical statements grounded in research.md chapter-specific evidence",
+    "Modern mathematical demonstrations differentiated from primary historical proofs",
+    "Independent continuity and developmental reviews pending"
+  ],
+  "claims": [
+    {
+      "claim_id": "H09-01",
+      "source_id": "R09-CAUCHY-BIO;research.md#第08章专项史料",
+      "verification": "historical_context"
+    },
+    {
+      "claim_id": "H09-02",
+      "source_id": "R09-BOLZANO",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H09-03",
+      "source_id": "R09-CAUCHY-BIO;R09-CAUCHY-EXTRAS",
+      "verification": "historical_verified_qualified"
+    },
+    {
+      "claim_id": "H09-04",
+      "source_id": "R09-CAUCHY-EXTRAS",
+      "verification": "historical_qualified"
+    },
+    {
+      "claim_id": "H09-05",
+      "source_id": "R09-MODERN-MATH",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H09-06",
+      "source_id": "R09-MODERN-MATH",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H09-07",
+      "source_id": "R09-MODERN-MATH",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H09-08",
+      "source_id": "R09-WEIERSTRASS",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H09-09",
+      "source_id": "R09-DEDEKIND-SEP",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H09-10",
+      "source_id": "R09-DEDEKIND-SEP;R09-MODERN-MATH",
+      "verification": "modern_educational"
+    },
+    {
+      "claim_id": "H09-11",
+      "source_id": "R09-BOLZANO;R09-CAUCHY-EXTRAS;R09-WEIERSTRASS;R09-DEDEKIND-SEP",
+      "verification": "historiographical_qualified"
+    },
+    {
+      "claim_id": "H09-12",
+      "source_id": "brief.md;outline.md",
+      "verification": "editorial_framing"
+    }
+  ]
+}
