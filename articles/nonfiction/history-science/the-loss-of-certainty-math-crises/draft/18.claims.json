@@ -1,0 +1,98 @@
+{
+  "chapter": "18",
+  "title": "1902年的来信：罗素发现了一条自我矛盾的规则",
+  "lane": "nonfiction",
+  "revision": 11,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Primary and scholarly historical claims are mapped to research.md chapter evidence matrix",
+    "Modern mathematical reconstructions explicitly distinguished from original historical statements",
+    "Independent continuity/developmental reviews and final approval remain pending"
+  ],
+  "claims": [
+    {
+      "claim_id": "H18-01",
+      "statement": "罗素于约1901年独立发现矛盾，而非直到1902年才发现",
+      "source_id": "R18-SEP-RUSSELL;R18-SEP-SET-EARLY",
+      "verification_scope": "史料已核，发现日期保留“约”"
+    },
+    {
+      "claim_id": "H18-02",
+      "statement": "1902年6月16日罗素致信弗雷格，属写信日期",
+      "source_id": "R18-SEP-RUSSELL;R18-SEP-LETTER",
+      "verification_scope": "史料已核，不推断到达日期"
+    },
+    {
+      "claim_id": "H18-03",
+      "statement": "1903年弗雷格《算术基本规律》第二卷附录回应",
+      "source_id": "R18-SEP-FREGE;R18-SEP-RUSSELL",
+      "verification_scope": "史料已核"
+    },
+    {
+      "claim_id": "H18-04",
+      "statement": "弗雷格1893/1903原项目是算术的逻辑基础，不等于ZF集合公理",
+      "source_id": "R18-SEP-FREGE;R18-SEP-LOGICISM",
+      "verification_scope": "学术史边界"
+    },
+    {
+      "claim_id": "H18-05",
+      "statement": "现代任意属性造集合的理解模式可表述为存在包含且仅包含满足条件的元素的集合",
+      "source_id": "R18-SEP-LOGICISM;R18-MODERN-LOGIC",
+      "verification_scope": "现代形式解释"
+    },
+    {
+      "claim_id": "H18-06",
+      "statement": "取R={x:x∉x}并代入R严格推出R∈R⇔R∉R",
+      "source_id": "R18-SEP-RUSSELL;R18-MODERN-LOGIC",
+      "verification_scope": "数学核证"
+    },
+    {
+      "claim_id": "H18-07",
+      "statement": "该矛盾攻破无限制理解原则，不能推断算术命题本身皆假",
+      "source_id": "R18-SEP-RUSSELL;R18-MODERN-LOGIC",
+      "verification_scope": "反证结论边界"
+    },
+    {
+      "claim_id": "H18-08",
+      "statement": "不能用朴素集合符号等同1902年罗素信的原版谓词/类论述",
+      "source_id": "R18-SEP-LETTER;R18-SEP-FREGE",
+      "verification_scope": "一手译文史实边界"
+    },
+    {
+      "claim_id": "H18-09",
+      "statement": "策梅洛曾独立注意类似矛盾，不可叙述罗素唯一首发",
+      "source_id": "R18-SEP-SET-EARLY",
+      "verification_scope": "贡献归属已核"
+    },
+    {
+      "claim_id": "H18-10",
+      "statement": "罗素悖论影响罗素与弗雷格双方研究的基础方案",
+      "source_id": "R18-SEP-RUSSELL;R18-SEP-FREGE",
+      "verification_scope": "史学核证，不虚构心理"
+    },
+    {
+      "claim_id": "H18-11",
+      "statement": "集合的“属于”不同于“是子集”，R∈R是成员关系",
+      "source_id": "R18-MODERN-LOGIC",
+      "verification_scope": "数学概念核对"
+    },
+    {
+      "claim_id": "H18-12",
+      "statement": "Zermelo 1908分离思想是后继修复，不是罗素1902年提出ZFC",
+      "source_id": "R18-SEP-ZERMELO",
+      "verification_scope": "时序限定"
+    },
+    {
+      "claim_id": "H18-13",
+      "statement": "经典逻辑下不一致基础丧失区分不同结论的证明效力",
+      "source_id": "R18-SEP-LOGICISM;R18-MODERN-LOGIC",
+      "verification_scope": "逻辑概念核证"
+    },
+    {
+      "claim_id": "H18-14",
+      "statement": "本章转场下一章“理发师类比”是编辑编排，不是史实事件",
+      "source_id": "outline.md;R18-SEP-RUSSELL",
+      "verification_scope": "编辑性"
+    }
+  ]
+}
