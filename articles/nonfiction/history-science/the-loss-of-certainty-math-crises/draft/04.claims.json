@@ -1,0 +1,88 @@
+{
+  "chapter": "04",
+  "title": "欧多克索斯的办法：不说出那个数，也能严密比较",
+  "lane": "nonfiction",
+  "revision": 3,
+  "status": "draft_claims_traced",
+  "note": "第04章专项核证；欧多克索斯贡献归属使用限定措辞；证明中的现代符号为教学性重述",
+  "claims": [
+    {
+      "claim_id": "H04-01",
+      "source_id": "OXFORD-EUDOXUS;MACTUTOR-EUDOXUS",
+      "classification": "historical_background",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "H04-02",
+      "source_id": "EUCLID-V;OXFORD-EUDOXUS",
+      "classification": "historiography_attribution",
+      "verification": "verified_text_qualified_attribution"
+    },
+    {
+      "claim_id": "H04-03",
+      "source_id": "EUCLID-V-DEF3-4",
+      "classification": "primary_text",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H04-04",
+      "source_id": "EUCLID-V-DEF5",
+      "classification": "primary_text",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H04-05",
+      "source_id": "EUCLID-V-DEF5;MODERN-EXAMPLE",
+      "classification": "modern_mathematical_derivation",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H04-06",
+      "source_id": "EUCLID-V-DEF5;MODERN-EXAMPLE",
+      "classification": "modern_mathematical_derivation",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H04-07",
+      "source_id": "MACTUTOR-EUDOXUS;AMS-NOTICES-2023",
+      "classification": "historical_interpretation",
+      "verification": "qualified"
+    },
+    {
+      "claim_id": "H04-08",
+      "source_id": "EUCLID-X-I",
+      "classification": "primary_text_plus_modern_explanation",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H04-09",
+      "source_id": "EUCLID-XII-II",
+      "classification": "primary_text",
+      "verification": "verified_as_proof_sketch"
+    },
+    {
+      "claim_id": "H04-10",
+      "source_id": "EUCLID-XII-X",
+      "classification": "primary_text",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H04-11",
+      "source_id": "ARCHIMEDES-METHOD;ARCHIMEDES-SPHERE-PREFACE",
+      "classification": "ancient_testimony",
+      "verification": "verified_as_attribution"
+    },
+    {
+      "claim_id": "H04-12",
+      "source_id": "OXFORD-EUDOXUS;EUCLID-XII-II",
+      "classification": "historical_methodology",
+      "verification": "qualified"
+    },
+    {
+      "claim_id": "H04-13",
+      "source_id": "BOOK-BRIEF;BOOK-STORY-BIBLE",
+      "classification": "editorial_interpretation",
+      "verification": "qualified"
+    }
+  ]
+}
