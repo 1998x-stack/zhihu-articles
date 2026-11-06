@@ -1,6 +1,106 @@
 {
   "chapter_id": "12",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "verification_scope": "Research draft supported by catalog, historiography and modern derivation; original editions and independent review pending.",
+  "sources": [
+    {
+      "source_id": "P12-S1",
+      "title": "Stanford Encyclopedia of Philosophy St Petersburg Paradox (2023)",
+      "url": "https://plato.stanford.edu/entries/paradox-stpetersburg/",
+      "kind": "peer_reviewed_reference"
+    },
+    {
+      "source_id": "P12-S2",
+      "title": "Modesti: Specimen Theoriae Novae (2024/2025)",
+      "url": "https://link.springer.com/article/10.1007/s10203-024-00471-z",
+      "kind": "scholarly_history"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C12-01",
+      "statement": "1713年尼古拉提出原型，1728年克拉默简化，1738年丹尼尔发表",
+      "source_ids": [
+        "P12-S1",
+        "P12-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C12-02",
+      "statement": "1713年原题不等同于现代等机会两结果版本",
+      "source_ids": [
+        "P12-S1"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C12-03",
+      "statement": "1738年丹尼尔论文提出财富对数效用相关论述",
+      "source_ids": [
+        "P12-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C12-04",
+      "statement": "克拉默于1728年已讨论平方根效用等方法",
+      "source_ids": [
+        "P12-S1",
+        "P12-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C12-05",
+      "statement": "P(N=n)=2^-n且数值2^(n-1)时数学期望发散",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C12-06",
+      "statement": "数值不超过4的概率为7/8，而单次结果有限",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C12-07",
+      "statement": "前K项保留其余记0时模型期望K/2",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C12-08",
+      "statement": "现代示例E ln(1+X)至多为2ln2",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C12-09",
+      "statement": "期望数值不能替代分位数或个人效用",
+      "source_ids": [
+        "P12-S1"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C12-10",
+      "statement": "现代悖论延伸研究不等于1738年已完成所有解决",
+      "source_ids": [
+        "P12-S1"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    }
+  ]
 }

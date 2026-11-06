@@ -1,6 +1,138 @@
 {
   "chapter_id": "14",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "verification_scope": "Research draft supported by catalog, historiography and modern derivation; original editions and independent review pending.",
+  "sources": [
+    {
+      "source_id": "P14-S1",
+      "title": "Bayes and Price Essay 1763 York primary transcription",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/essay.htm",
+      "kind": "primary_text_transcription"
+    },
+    {
+      "source_id": "P14-S2",
+      "title": "Royal Society 1763 volume 53 pages 370-418 JSTOR",
+      "url": "https://www.jstor.org/stable/105741",
+      "kind": "original_publication_record"
+    },
+    {
+      "source_id": "P14-S3",
+      "title": "Todhunter 1865 Bayes bibliography",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/bayestodhunter.htm",
+      "kind": "historical_book_transcription"
+    },
+    {
+      "source_id": "P14-S4",
+      "title": "Donald Gillies Was Bayes a Bayesian (1987)",
+      "url": "https://www.sciencedirect.com/science/article/pii/0315086087900656",
+      "kind": "scholarly_history"
+    },
+    {
+      "source_id": "P14-S5",
+      "title": "Stanford Encyclopedia of Philosophy Bayes theorem",
+      "url": "https://plato.stanford.edu/entries/bayes-theorem/",
+      "kind": "mathematical_reference"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C14-01",
+      "statement": "贝叶斯1761去世，普赖斯整理遗稿送交学会",
+      "source_ids": [
+        "P14-S1",
+        "P14-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C14-02",
+      "statement": "1763卷53第370至418页，1763年12月23日宣读",
+      "source_ids": [
+        "P14-S1",
+        "P14-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C14-03",
+      "statement": "托德亨特后世判断实际印行在1764而卷年为1763",
+      "source_ids": [
+        "P14-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C14-04",
+      "statement": "原始问题从成功失败次数推断未知的成功机会",
+      "source_ids": [
+        "P14-S1",
+        "P14-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C14-05",
+      "statement": "原文的均匀机会设定存在前提争议",
+      "source_ids": [
+        "P14-S1",
+        "P14-S4"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C14-06",
+      "statement": "现代贝叶斯定理是条件概率恒等式",
+      "source_ids": [
+        "P14-S5"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C14-07",
+      "statement": "均匀先验七成功三失败得到后验Beta(8,4)",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C14-08",
+      "statement": "改用Beta(2,2)先验后均值为9/14",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C14-09",
+      "statement": "均匀先验后验P(theta>1/2)=227/256，下一次成功概率为2/3",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C14-10",
+      "statement": "普赖斯的编辑和哲学解读不等同于贝叶斯本人原话",
+      "source_ids": [
+        "P14-S1",
+        "P14-S4"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C14-11",
+      "statement": "几何构造未证明所有未知参数必然均匀分布",
+      "source_ids": [
+        "P14-S4"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    }
+  ]
 }
