@@ -312,3 +312,37 @@
 - **12章**：400K/300K热库假设、60焦耳传热的总熵增加、1mol理想气体自由膨胀Rln2算例、宏观与微观时间对称性差异已写成正文。T12-01—T12-21登记；未将统计力学后见解释回填给1865年人物。
 - **13章**：1834年Clapeyron原始论文的P-V循环几何、机械功面积与两相共存曲线已成稿，并与现代Clapeyron严格关系及Clausius—Clapeyron近似分层。T13-01—T13-22登记。专题年份回溯已明示。
 - **门禁**：目前第00—13章为非虚构正文初稿。14—33章仍为占位。独立史实复核、两道审稿、编辑终审及发布均未完成，不得擅自标PASS。
+
+
+## 第14—16章｜状态量、吉布斯曲面、相律：增量核查（2026-11-06）
+
+> **本批核查范围仅限14—16章。** 现有第00—13章的研究与正文不变。以下以可访问的原始论文转写页、馆藏记录、标准教材和学术史综述交叉核查；英文维基文库转写页存在“校对但未复核”状态，不将其等同馆藏原版的逐字可靠版本。论文原始发表年份和后世重印/数字化年份必须区分。14—16章完成后仍需独立审稿。
+
+| ID | 可核查来源及性质 | 具体支持范围 | 适用边界 |
+|---|---|---|---|
+| R95 | [J. Willard Gibbs, *Graphical Methods in the Thermodynamics of Fluids*](https://en.wikisource.org/wiki/Page:Scientific_Papers_of_Josiah_Willard_Gibbs.djvu/37)（1873年4—5月原论文，后世《Scientific Papers》转写） | *Transactions of the Connecticut Academy*, II, 309—342；原著说明传统p-V图已被广泛使用，1873年提出更一般图示尤其T-S方法 | 不能说吉布斯1873年首次发明所有热力学图形或p-V图；转写版不是初刊 |
+| R96 | [Gibbs, *A Method of Geometrical Representation of the Thermodynamic Properties of Substances by Means of Surfaces*](https://en.wikisource.org/wiki/Page:Scientific_Papers_of_Josiah_Willard_Gibbs.djvu/69)（1873年12月原论文，后世转写） | *Transactions*, II, 382—404；以体积、熵、能量构造三维曲面，原文式dε=t dη−p dv及t、p为曲面斜率 | 现代U、S、T记号是对原文ε、η、t的对应转写；仅适用于明确的组成与功形式 |
+| R97 | [Gibbs, *On the Equilibrium of Heterogeneous Substances*, author's 1878 abstract](https://en.wikisource.org/wiki/Page:Scientific_Papers_of_Josiah_Willard_Gibbs.djvu/390)（1878年作者公开摘要） | *American Journal of Science*, ser.3, xvi, 441—458（1878）；孤立系统固定能量时熵最大、固定熵时能量最小的稳定平衡判据 | 摘要是1875—1878长论文之后的作者概述，不等于原长文发表年份或全过程 |
+| R98 | [Smithsonian Libraries, *On the Equilibrium of Heterogeneous Substances*馆藏](https://library.si.edu/digital-library/book/onequilibriumhe00gibb)（原著馆藏）及[Smithsonian实体记录](https://www.si.edu/object/equilibrium-heterogeneous-substances-first-second-part-j-willard-gibbs%3Asiris_sil_421748) | 1870年代长篇论文原印本/两部分及相律研究归属 | 馆藏有独立装帧/题页年份；史学标准期刊发表时间常作1875—1878，需区分 |
+| R99 | [OpenStax University Physics 2 §3.3, First Law](https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics)（现代教材） | ΔU=Q−W，U只依端态而Q、W依路径；闭系、对外做功为正的现代符号约定 | 教材中dQ、dW的排版不等同严谨的现代非恰当微分记号δQ、δW；不可倒署历史人物 |
+| R100 | [Alexander Findlay, *The Phase Rule and Its Applications*, 1908 third impression](https://dev.gutenberg.org/cache/epub/34457/pg34457-images.html)（20世纪初物理化学教科书，公版全文） | Ch.II pp16—20：F=C−P+2及自由度计数；Ch.III纯水汽液平衡、三相点；序言说明Roozeboom在1887年推广相律的实际使用 | 1908版本是后人教科书，不属于Gibbs 1876原始记号；相律给出自由度而非具体温压数值 |
+| R101 | [The Gibbs Paradox: Early History and Solutions](https://pmc.ncbi.nlm.nih.gov/articles/PMC7845772/)（2018年同行评议科学史论文） | 两篇1873年吉布斯论文；非均相平衡研究的1875—1878发表段；固定T,p时U+pV−TS极小判据及化学势扩展 | 是史家阐释而非直接史料；R06为同一来源，不作为独立证据计两次 |
+
+### 14章前置核查结论｜区分状态函数和过程量
+- 第13章几何积分已表明，准静态边界功W=∫p dV取决于路径；现代闭系第一定律ΔU=Q−W使U为端态函数。对一个完整循环，∮dU=0，不要求∮δQ=0或∮δW=0；其两者须相等。[R99,R90]
+- 1865年克劳修斯对熵的命名已在11章核证；1873年Gibbs原文明确使用dε=t dη−p dv及对应斜率关系，故可从他原文对照解释现代dU=T dS−p dV。限定：固定组成、只有体积功、平衡态之间的可逆微分结构；一般不可逆过程不可把实际δQ直接替换为T dS。[R83,R87,R96,R99]
+- 混合偏导相等可得现代Maxwell关系(∂T/∂V)_S=−(∂p/∂S)_V；改写为A=U−TS时可得(∂S/∂V)_T=(∂p/∂T)_V。假设相关热力学势二次连续可微；麦克斯韦关系作为当代通称，不将某一单个关系无证据地声称是Maxwell某年唯一发明。[R96,R99]
+
+### 15章前置核查结论｜1873年两篇吉布斯论文
+- 1873年4—5月《Graphical Methods...》先探讨T-S等图示；12月《...by Means of Surfaces》由U、S、V构建曲面。与第13章1834年p-V循环相接时，需强调几何用途从**算循环功**延伸至**判别物质稳定性**。[R95,R96]
+- 对固定物质量，曲面上的切平面斜率决定温度与压强；共存两种状态满足共同温度、压强与化学势等条件。纯物质共存几何可用公共切平面理解，但不能把单一相图的切线近似当成对所有复杂体系的普适结论。[R96,R101]
+- G=U+pV−TS为现代命名与记号。恒定外部T、p、固定组成闭系、只作pV功时，允许自发过程满足ΔG≤0；平衡取局部极小/稳定性还需考虑允许的扰动及其它约束。不能简单以“所有物体的G总在下降”表述。[R101,R97,R99]
+
+### 16章前置核查结论｜相律与化学势
+- 吉布斯《On the Equilibrium of Heterogeneous Substances》发表于1875—1878年间两部分；与1873年曲面论文不同，不将其合并成一次发现。[R97,R98,R101]
+- 对典型没有额外约束、仅有p和T两外参、独立组分数C、平衡相数P的非反应体系，F=C−P+2。计数推导可按相内组成变量P(C−1)，再加T,p两个；C(P−1)个相间化学势相等条件。假定各相关组分可在各相交换、独立约束不退化；若存在化学反应等额外独立约束，应重新确认C或修正式。[R100,R101]
+- 单一纯水体系：1相自由度2，2相自由度1，3相自由度0；三相共存仅在三相点特定温压。若存在多个固相、多组分、外场或受限系统，计数需依据实际独立变量。[R100]
+- 相律是**平衡可能性的维数约束**，不独立给出三相点实际温度、汽化潜热或转变速率。Findlay的1908教科书同时记录相律经Roozeboom等推广应用，不能写成1878年化学家已经立即普遍采用。[R100]
+
+### 本轮范围确认
+第14—16章研究材料能够支持附条件的宏观科学机制和可靠的核心出版年代。正文中需清楚区分原始文献、后世教学推导与叙事类比。尚未对第17—33章开展同样的逐条证据核证；本批**只能进入正文初稿**，不可跳过独立双审、语言精修及终稿批准。

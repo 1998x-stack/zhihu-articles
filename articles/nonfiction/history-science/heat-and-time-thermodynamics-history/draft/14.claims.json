@@ -1,7 +1,184 @@
 {
   "chapter": "14",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "draft",
+  "sources_verified": true,
+  "scope": "第14章局部非虚构初稿与15条主张已有研究来源追溯；R95—R101本批前置核查，独立双审未执行，本状态不外推到其他章节。",
+  "claims": [
+    {
+      "claim_id": "T14-01",
+      "claim": "状态函数U只由平衡端态决定，Q与W是过程量",
+      "type": "modern_theory",
+      "source_ids": [
+        "R99"
+      ],
+      "locator": "OpenStax §3.3",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-02",
+      "claim": "系统对外做功为正，闭系ΔU=Q−W",
+      "type": "modern_formula",
+      "source_ids": [
+        "R99"
+      ],
+      "locator": "first law",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-03",
+      "claim": "准静态简单压缩/膨胀W=∫p dV依过程路径",
+      "type": "modern_formula",
+      "source_ids": [
+        "R90",
+        "R99"
+      ],
+      "locator": "pV process",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-04",
+      "claim": "循环∮dU=0，∮δQ=∮δW但可以非零",
+      "type": "modern_theory",
+      "source_ids": [
+        "R99",
+        "R90"
+      ],
+      "locator": "first law + area",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-05",
+      "claim": "不能定义‘物体存储的热量Q’作为状态量",
+      "type": "modern_scope",
+      "source_ids": [
+        "R99"
+      ],
+      "locator": "heat in transit",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-06",
+      "claim": "1865熵命名与1854循环积分先后分开",
+      "type": "historical_sequence",
+      "source_ids": [
+        "R83",
+        "R74"
+      ],
+      "locator": "R83,R74",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-07",
+      "claim": "1873 Gibbs表面论文原式dε=t dη−p dv",
+      "type": "primary_source",
+      "source_ids": [
+        "R96"
+      ],
+      "locator": "p382起始方程",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-08",
+      "claim": "U(S,V)偏导导出T、−p在固定组成平衡态下",
+      "type": "modern_interpretation",
+      "source_ids": [
+        "R96"
+      ],
+      "locator": "eq(1)–(3)",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-09",
+      "claim": "可逆交换δQrev=T dS，实际不可逆过程不得直接等同",
+      "type": "modern_scope",
+      "source_ids": [
+        "R87",
+        "R96"
+      ],
+      "locator": "entropy and differential",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-10",
+      "claim": "dU=T dS−p dV限定固定组成、仅pV功",
+      "type": "modern_scope",
+      "source_ids": [
+        "R96"
+      ],
+      "locator": "homogeneous simple body",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-11",
+      "claim": "现代Maxwell关系来自混合二阶偏导可交换",
+      "type": "modern_math",
+      "source_ids": [
+        "R96"
+      ],
+      "locator": "U(S,V) smoothness",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-12",
+      "claim": "固定S与V的混合偏导关系及Helmholtz势的麦克斯韦关系可推导",
+      "type": "modern_formula",
+      "source_ids": [
+        "R96"
+      ],
+      "locator": "second derivatives; algebra",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-13",
+      "claim": "麦克斯韦关系名称不可无证据映射具体原始论文",
+      "type": "historiography",
+      "source_ids": [
+        "R96",
+        "R95"
+      ],
+      "locator": "Gibbs原论文",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-14",
+      "claim": "积分小圈使读者理解恰当与非恰当微分区别",
+      "type": "editorial_example",
+      "source_ids": [
+        "R99"
+      ],
+      "locator": "path independent",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T14-15",
+      "claim": "第15章由状态曲面进入平衡和稳定性判断",
+      "type": "editorial_transition",
+      "source_ids": [
+        "R96",
+        "R101"
+      ],
+      "locator": "Gibbs geometry",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "原始论文日期与现代符号分离",
+    "不编造真实人物对话、心理、试验或引文",
+    "仅draft，所有claim independent_review=PENDING"
+  ]
 }

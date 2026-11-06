@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "current_revision": 0,
+  "last_written_chapter": "16",
+  "next_planned_chapter": "17",
+  "latest_batch": [
+    "14",
+    "15",
+    "16"
+  ],
+  "completed_drafts": [
+    "00",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16"
+  ],
+  "batch_handoffs": [
+    {
+      "chapter": "14",
+      "core": "路径量Q、W与状态函数U、S；现代Gibbs基本关系及Maxwell关系"
+    },
+    {
+      "chapter": "15",
+      "core": "1873年T-S图及U-S-V曲面、相平衡、固定T,p的G判据"
+    },
+    {
+      "chapter": "16",
+      "core": "1875—1878年吉布斯非均相平衡研究、化学势与相律；第17章专题回溯1857年分子理论"
+    }
+  ],
+  "review_status": "PENDING",
+  "evidence_scope": "00—16前置研究已做；17—33占位",
+  "note": "非虚构续写状态记录；不代表独立审稿、语言精修或终稿通过。"
+}
