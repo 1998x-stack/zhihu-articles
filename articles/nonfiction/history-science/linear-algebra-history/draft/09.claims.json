@@ -1,0 +1,71 @@
+{
+  "chapter": "09",
+  "title": "笛卡尔：让几何学开始说代数的语言",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "G09-S1": "https://plato.stanford.edu/entries/descartes-mathematics/",
+    "G09-S2": "https://plato.stanford.edu/archives/win2017/entries/descartes-mathematics/notes.html",
+    "G09-S3": "https://www.cambridge.org/core/books/abs/cambridge-descartes-lexicon/geometry/1A4CC31CA915B00F7CCC91FEABBE9A0B",
+    "G09-S4": "https://www.loc.gov/resource/rbc.2017gen28093/?sp=3&st=list",
+    "G09-S5": "https://www.nature.com/articles/118400a0",
+    "MATH09": "本章现代几何与代数计算及双向验证"
+  },
+  "claims": [
+    {
+      "claim_id": "C09-01",
+      "source_ids": [
+        "G09-S1",
+        "G09-S3"
+      ],
+      "type": "historical",
+      "verified": true
+    },
+    {
+      "claim_id": "C09-02",
+      "source_ids": [
+        "G09-S1",
+        "G09-S2"
+      ],
+      "type": "historical_limit",
+      "verified": true
+    },
+    {
+      "claim_id": "C09-03",
+      "source_ids": [
+        "G09-S4",
+        "G09-S5"
+      ],
+      "type": "historical_with_priority_caveat",
+      "verified": true
+    },
+    {
+      "claim_id": "C09-04",
+      "source_ids": [
+        "MATH09"
+      ],
+      "type": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C09-05",
+      "source_ids": [
+        "MATH09"
+      ],
+      "type": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C09-06",
+      "source_ids": [
+        "G09-S1"
+      ],
+      "type": "editorial_chronology",
+      "verified": true
+    }
+  ],
+  "notices": [
+    "数学例题非历史原文，历史原典的古今符号需分开",
+    "本章节还未独立双审和终稿"
+  ]
+}
