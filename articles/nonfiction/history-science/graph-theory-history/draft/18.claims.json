@@ -1,12 +1,100 @@
 {
   "chapter": "18",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S12",
-    "S13"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "1947 BAMS刊物DOI与研究机构书目，SIAM Spencer第一讲现代证明；原作与现代概率语言未逐页对勘",
+  "claims": [
+    {
+      "claim_id": "GT18-01",
+      "claim": "随机着色用坏事件概率不到1证明存在避开单色团的染色",
+      "source_ids": [
+        "S86"
+      ],
+      "status": "MODERN_PROOF_OVERVIEW"
+    },
+    {
+      "claim_id": "GT18-02",
+      "claim": "R(k,k)>n是存在避险染色的下界而R≤n是任意染色上界",
+      "source_ids": [
+        "S80",
+        "S86"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT18-03",
+      "claim": "均匀独立红蓝染色固定k点单色概率2^{1-binomial(k,2)}",
+      "source_ids": [
+        "S86"
+      ],
+      "status": "MODERN_PROBABILITY_CALCULATION"
+    },
+    {
+      "claim_id": "GT18-04",
+      "claim": "并集界得到发生至少一个单色Kk概率≤binom(n,k)2^{1-binomial(k,2)}",
+      "source_ids": [
+        "S86"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT18-05",
+      "claim": "总坏事件概率<1推出现存好染色故R(k,k)>n",
+      "source_ids": [
+        "S86"
+      ],
+      "status": "THEOREM_MODERN"
+    },
+    {
+      "claim_id": "GT18-06",
+      "claim": "教学算例n=16,k=6有8008/16384<1，故R(6,6)>16",
+      "source_ids": [
+        "S86"
+      ],
+      "status": "MODERN_NUMERICAL_EXAMPLE"
+    },
+    {
+      "claim_id": "GT18-07",
+      "claim": "单色Kk指示变量期望小于1是相同存在性证明，不要求坏事件独立",
+      "source_ids": [
+        "S86"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT18-08",
+      "claim": "n=floor2^{k/2}及二项系数界推出k≥3时R(k,k)>2^{k/2}",
+      "source_ids": [
+        "S86"
+      ],
+      "status": "MODERN_DERIVATION"
+    },
+    {
+      "claim_id": "GT18-09",
+      "claim": "Erdős1947论文Some Remarks on the Theory of Graphs,BAMS53:292—294",
+      "source_ids": [
+        "S84",
+        "S85"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT18-10",
+      "claim": "1947工作是概率方法经典实例，但不称概率推理从此才首次出现",
+      "source_ids": [
+        "S84",
+        "S86"
+      ],
+      "status": "HISTORICAL_SCOPED_INTERPRETATION"
+    },
+    {
+      "claim_id": "GT18-11",
+      "claim": "存在性证明不自动产出显式构造与高效算法；后续随机图属于另一个研究问题",
+      "source_ids": [
+        "S86"
+      ],
+      "status": "METHODOLOGICAL_BOUNDARY"
+    }
+  ]
 }
