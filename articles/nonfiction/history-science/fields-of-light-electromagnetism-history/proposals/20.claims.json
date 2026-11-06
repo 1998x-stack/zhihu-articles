@@ -1,0 +1,210 @@
+{
+  "chapter": "20",
+  "title": "没有电线，信号如何跨过海面",
+  "manuscript_path": "proposals/20.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E20-01",
+      "statement": "赫兹的电磁波实验验证物理传播特征，但不等于完整通信系统",
+      "kind": "科学史",
+      "source_ids": [
+        "S20-08"
+      ],
+      "section": "二",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-02",
+      "statement": "布朗利在1890年前后研究金属接触的电磁响应，为检波器提供基础",
+      "kind": "馆藏器物史",
+      "source_ids": [
+        "S20-02"
+      ],
+      "section": "三",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-03",
+      "statement": "洛奇利用和发展早期检波与电磁波展示装置",
+      "kind": "技术史",
+      "source_ids": [
+        "S20-02",
+        "S20-06"
+      ],
+      "section": "三、四",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-04",
+      "statement": "波波夫1895年公开展示电磁波检测装置，优先权随标准而异",
+      "kind": "技术史争议",
+      "source_ids": [
+        "S20-03"
+      ],
+      "section": "四",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-05",
+      "statement": "马可尼在1890年代中后期推动无线电报系统及实用化",
+      "kind": "技术史",
+      "source_ids": [
+        "S20-03",
+        "S20-06"
+      ],
+      "section": "四、六",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-06",
+      "statement": "天线与调谐决定辐射、接收与选择性，但不同早期系统能力有限",
+      "kind": "现代物理类比",
+      "source_ids": [
+        "S20-07",
+        "S20-06"
+      ],
+      "section": "五",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-07",
+      "statement": "自由空间近似的现代单色波满足c=fλ",
+      "kind": "现代物理",
+      "source_ids": [
+        "S20-07"
+      ],
+      "section": "五",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-08",
+      "statement": "1901年波尔杜与纽芬兰试验使用高天线及风筝等条件",
+      "kind": "历史事件",
+      "source_ids": [
+        "S20-01"
+      ],
+      "section": "一、七",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-09",
+      "statement": "1901年12月12日马可尼及肯普报告接收到字母S的三个点",
+      "kind": "纪念与馆藏",
+      "source_ids": [
+        "S20-01",
+        "S20-04"
+      ],
+      "section": "一、七",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-10",
+      "statement": "1901年信号很弱，未留下通常意义的自动纸带记录",
+      "kind": "证据局限",
+      "source_ids": [
+        "S20-01"
+      ],
+      "section": "一、七",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-11",
+      "statement": "对1901年报告仍有历史与传播学争论，不能当作独立可重复验证",
+      "kind": "史学争议",
+      "source_ids": [
+        "S20-05",
+        "S20-01"
+      ],
+      "section": "七",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-12",
+      "statement": "1902年远距离海上接收试验提供了后续独立的工程证据",
+      "kind": "后续试验",
+      "source_ids": [
+        "S20-01"
+      ],
+      "section": "八",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    },
+    {
+      "claim_id": "E20-13",
+      "statement": "现代电离层/地波解释不能追溯归给1901年当事人",
+      "kind": "后见理论边界",
+      "source_ids": [
+        "S20-05",
+        "S20-07"
+      ],
+      "section": "六、七",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original records, apparatus details, and independent review outstanding"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S20-01",
+      "title": "Oxford Museum of the History of Science: Atlantic Crossing",
+      "url": "https://www.mhs.ox.ac.uk/marconi/exhibition/atlanticcrossing.html",
+      "source_type": "机构馆藏与展览史",
+      "scope": "1901年日期地点、接收方式、缺纸带、1902年进一步试验"
+    },
+    {
+      "source_id": "S20-02",
+      "title": "Smithsonian NMAH: Branly Tripod Coherer",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_704337",
+      "source_type": "器物档案与历史标签",
+      "scope": "布朗利检波器及洛奇、马可尼的器件继承"
+    },
+    {
+      "source_id": "S20-03",
+      "title": "IEEE Spectrum: Who Invented Radio, Marconi or Popov?",
+      "url": "https://spectrum.ieee.org/who-invented-radio-guglielmo-marconi-or-aleksandr-popov",
+      "source_type": "技术史分析",
+      "scope": "波波夫1895演示、优先权标准的差异"
+    },
+    {
+      "source_id": "S20-04",
+      "title": "IEEE Canada milestone: Reception of Transatlantic Radio Signals",
+      "url": "https://ewh.ieee.org/reg/7/activities/LMs/brochure.pdf",
+      "source_type": "工程纪念资料",
+      "scope": "1901年12月12日、信号山、肯普（原始记录非本资料）"
+    },
+    {
+      "source_id": "S20-05",
+      "title": "Cambridge University Press publisher excerpt on 1901 wireless experiment",
+      "url": "https://assets.cambridge.org/97811071/95431/excerpt/9781107195431_excerpt.pdf",
+      "source_type": "学术出版物节选",
+      "scope": "接收争议与传播路径的现代复核；全书元数据须补齐"
+    },
+    {
+      "source_id": "S20-06",
+      "title": "IEEE Wireless Communication Chronology 1831-1920",
+      "url": "https://xplorestaging.ieee.org/document/958779",
+      "source_type": "历史编年研究摘要",
+      "scope": "洛奇/波波夫/马可尼并行研究与技术里程碑"
+    },
+    {
+      "source_id": "S20-07",
+      "title": "OpenStax University Physics: Plane EM Waves",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves",
+      "source_type": "现代物理教材",
+      "scope": "真空传播关系与其近似条件"
+    },
+    {
+      "source_id": "S20-08",
+      "title": "Fraunhofer HHI: The Most Important Experiments of Heinrich Hertz",
+      "url": "https://www.hhi.fraunhofer.de/en/fraunhofer-hhi-the-institute/about-us/history-of-hhi/the-most-important-experiments-of-heinrich-hertz.html",
+      "source_type": "研究机构史",
+      "scope": "赫兹波动实验的性质，不等同商业无线电报"
+    }
+  ],
+  "unresolved": [
+    "核对1901年原始接收报告与肯普证言、天线高度、发射频谱和当天传播条件",
+    "查1902年航行记录的日期、距离、可重复性及不同接收系统",
+    "补齐Cambridge节选的完整作者/书名/出版年与页码",
+    "核对洛奇/波波夫/马可尼相关原刊与专利以避免单一起源叙事"
+  ]
+}
