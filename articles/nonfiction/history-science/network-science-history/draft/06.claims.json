@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "06",
+  "claims": [
+    {
+      "claim_id": "NS-06-01",
+      "type": "historical_fact",
+      "statement": "Erdős and Rényi 1960 On the Evolution of Random Graphs studies successively added uniformly sampled edges",
+      "source_ids": [
+        "S41"
+      ],
+      "locator": "1960 paper introduction pp17-19",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-06-02",
+      "type": "historical_fact",
+      "statement": "1959 On Random Graphs I already studies full connectedness threshold m=(n/2)log n",
+      "source_ids": [
+        "S40"
+      ],
+      "locator": "1959 pp290-291 Theorem 1",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-06-03",
+      "type": "historical_fact",
+      "statement": "1960 paper identifies thresholds and studies component evolution m~cn including emergence of giant component",
+      "source_ids": [
+        "S41"
+      ],
+      "locator": "paper Introduction and components sections",
+      "verification_status": "primary_source_verified"
+    },
+    {
+      "claim_id": "NS-06-04",
+      "type": "mathematical_derivation",
+      "statement": "For finite undirected graphs mean degree 2m/n; m=n/2 corresponds average degree 1",
+      "source_ids": [],
+      "locator": "handshake lemma derivation",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-06-05",
+      "type": "modern_theorem",
+      "statement": "Fixed average degree c<1 sparse ER graph has largest component order logarithmic in n",
+      "source_ids": [
+        "S42",
+        "S43"
+      ],
+      "locator": "modern textbook subcritical regime",
+      "verification_status": "supported_modern_theorem"
+    },
+    {
+      "claim_id": "NS-06-06",
+      "type": "modern_theorem",
+      "statement": "Fixed c>1 sparse ER graph has a unique giant component of asymptotically linear size",
+      "source_ids": [
+        "S41",
+        "S42",
+        "S43"
+      ],
+      "locator": "modern textbook supercritical regime",
+      "verification_status": "supported_modern_theorem"
+    },
+    {
+      "claim_id": "NS-06-07",
+      "type": "modern_theorem",
+      "statement": "At critical window c=1 largest component has order n^(2/3); not a fixed single-edge event",
+      "source_ids": [
+        "S42",
+        "S43"
+      ],
+      "locator": "critical scaling and finite-size caution",
+      "verification_status": "supported_modern_theorem"
+    },
+    {
+      "claim_id": "NS-06-08",
+      "type": "modern_mathematics",
+      "statement": "For c>1 giant fraction solves s=1-exp(-cs); at c=1.2 s roughly 0.31 and c=2 roughly 0.797",
+      "source_ids": [
+        "S43"
+      ],
+      "locator": "Poisson branching process fixed point",
+      "verification_status": "derived_checked"
+    },
+    {
+      "claim_id": "NS-06-09",
+      "type": "mathematical_derivation",
+      "statement": "Expected number of isolated nodes n(1-p)^(n-1) approximately n e^(-c) for p approximately c/n",
+      "source_ids": [],
+      "locator": "linear expectation + exponential approximation",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-06-10",
+      "type": "modern_theorem",
+      "statement": "Full connectivity occurs on scale c~log n, m~n log n/2, later than giant component threshold",
+      "source_ids": [
+        "S40",
+        "S48"
+      ],
+      "locator": "1959 original and later text",
+      "verification_status": "supported_theorem"
+    },
+    {
+      "claim_id": "NS-06-11",
+      "type": "narrative_boundary",
+      "statement": "Adding one edge may merge two components but does not necessarily make full graph connected nor create a giant in one step",
+      "source_ids": [
+        "S41"
+      ],
+      "locator": "elementary graph argument; explanatory title not literal theorem",
+      "verification_status": "derived_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Confirm original full-page scans and chapter-specific historical bibliographies before release.",
+    "Do not update evidence_verified/outline_approved or review_status until genuine full-series workflow gate is satisfied.",
+    "Complete independent continuity audit and developmental review before line-edit and final approval."
+  ]
+}
