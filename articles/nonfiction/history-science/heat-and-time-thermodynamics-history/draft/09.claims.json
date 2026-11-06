@@ -1,7 +1,258 @@
 {
   "chapter": "09",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅第09章的21项历史科学主张具备前置资料支撑；尚未独立全文审稿，第11—33章不受本次局部验证覆盖",
+  "claims": [
+    {
+      "claim_id": "T09-01",
+      "claim": "19世纪经验温标依赖空气、酒精、水银等物性，校准后可近似一致但定义仍系于特定物质",
+      "type": "historical_context",
+      "source_ids": [
+        "R71",
+        "R75"
+      ],
+      "locator": "Thomson 1848 first paragraphs",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-02",
+      "claim": "雷诺的气体与蒸汽实验为汤姆孙温标研究提供具体数据",
+      "type": "historical_fact",
+      "source_ids": [
+        "R71"
+      ],
+      "locator": "Thomson 1848 Regnault notes",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-03",
+      "claim": "威廉·汤姆孙于1848年10月发表On an Absolute Thermometric Scale",
+      "type": "bibliography",
+      "source_ids": [
+        "R71",
+        "R79"
+      ],
+      "locator": "1848 paper metadata",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-04",
+      "claim": "1848年他欲以卡诺热机极限给温度定义物质无关的刻度",
+      "type": "historical_theory",
+      "source_ids": [
+        "R71"
+      ],
+      "locator": "1848 original § Carnot",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-05",
+      "claim": "1848定义每等间隔温度下降对单位热产生相同机械功，而非今日温度比值",
+      "type": "historical_theory",
+      "source_ids": [
+        "R71",
+        "R73"
+      ],
+      "locator": "1848 text characteristic",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-06",
+      "claim": "1848原文由1882年汇编转录，网站用Lord Kelvin是后世称号",
+      "type": "bibliography",
+      "source_ids": [
+        "R71",
+        "R73"
+      ],
+      "locator": "1892 peerage note",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-07",
+      "claim": "1848汤姆孙采用热质转移语言，对焦耳热功互换仍表示困惑",
+      "type": "historical_context",
+      "source_ids": [
+        "R71"
+      ],
+      "locator": "1848 original Carnot and footnote",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-08",
+      "claim": "1848讨论气体温标推测零下约273摄氏度的极低端",
+      "type": "historical_fact",
+      "source_ids": [
+        "R71",
+        "R79"
+      ],
+      "locator": "1848 paper note & NIST",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-09",
+      "claim": "零下273°C推测不等于已使用现代精确−273.15°C或后来SI单位",
+      "type": "history_vs_modern",
+      "source_ids": [
+        "R71",
+        "R79",
+        "R77"
+      ],
+      "locator": "history versus modern",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-10",
+      "claim": "1851年汤姆孙基于热功等价与可逆循环提出绝对温度比的定义",
+      "type": "historical_theory",
+      "source_ids": [
+        "R72"
+      ],
+      "locator": "§§99–100",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-11",
+      "claim": "1851绝对温度与可逆机吸排热量比有关，原文§99",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R72"
+      ],
+      "locator": "§99",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-12",
+      "claim": "1851年汤姆孙在§100报告冰点约273.7绝对单位的当时估计",
+      "type": "primary_source_numeric",
+      "source_ids": [
+        "R72"
+      ],
+      "locator": "§100 historical estimate",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-13",
+      "claim": "1854克劳修斯研究循环积分与1/T，拓展绝对温标与热力学状态函数",
+      "type": "historical_fact",
+      "source_ids": [
+        "R74",
+        "R73"
+      ],
+      "locator": "Clausius 1854 & Saslow",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-14",
+      "claim": "现代在常见条件下温度换算T[K]=t[°C]+273.15",
+      "type": "modern_physics",
+      "source_ids": [
+        "R77",
+        "R79"
+      ],
+      "locator": "BIPM and NIST",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-15",
+      "claim": "温差1°C与1K数值相同，但比值计算需用绝对K",
+      "type": "modern_physics",
+      "source_ids": [
+        "R77",
+        "R81"
+      ],
+      "locator": "SI and efficiency",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-16",
+      "claim": "双热源可逆极限η=1−Tc/Th属于后世成熟表达",
+      "type": "modern_physics",
+      "source_ids": [
+        "R81",
+        "R73"
+      ],
+      "locator": "modern Carnot",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-17",
+      "claim": "当代K以固定Boltzmann constant定义，决定于2018、实施于2019",
+      "type": "modern_metrology",
+      "source_ids": [
+        "R77",
+        "R78"
+      ],
+      "locator": "BIPM",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-18",
+      "claim": "第零定律热平衡传递性是温度存在的操作性基础",
+      "type": "modern_theory",
+      "source_ids": [
+        "R80"
+      ],
+      "locator": "SEP thermodynamic asymmetry",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-19",
+      "claim": "第零定律命名不能归于1848汤姆孙，史学中的1931/1936/1939年代解释有争议",
+      "type": "historiography",
+      "source_ids": [
+        "R76",
+        "R80"
+      ],
+      "locator": "2012 scholarly comment",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-20",
+      "claim": "Fowler的1936 Nature书评为2012考证认定的早期名称记录，1939教科书更系统表述",
+      "type": "historiography",
+      "source_ids": [
+        "R76"
+      ],
+      "locator": "Comment J Chem Eng Data 2012",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T09-21",
+      "claim": "温度不等于某一物体储存的热量，热量是过程传递概念",
+      "type": "modern_physics",
+      "source_ids": [
+        "R80",
+        "R81"
+      ],
+      "locator": "thermal equilibrium & heat flow",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "前置史料检查与现代公式年代隔离已建立",
+    "非虚构正文完成后同步更新status=draft",
+    "未虚构历史人物的对话、心理、实验当日观察记录"
+  ]
 }
