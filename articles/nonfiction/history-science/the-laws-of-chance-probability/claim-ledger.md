@@ -5,7 +5,13 @@
 | 章节 | 主张ID | 需核的数学与史实要点 | 来源 | 状态 |
 |---|---|---|---|---|
 | 01 | C01-01 | 早期思想家与法律传统：可能性、证据与现代概率概念的区分 | 待核对 | UNVERIFIED |
-| 02 | C02-01 | 帕乔利、塔尔塔利亚：问题分配、未来路径的计数 | 待核对 | UNVERIFIED |
+| 02 | C02-01 | 1494《大全》书目与威尼斯出版 | P02-S1（research.md） | CATALOG_CHECKED |
+| 02 | C02-02 | 帕乔利原题为60分终点、每次10、50:20，总额10 | P02-S2（research.md） | TRANSCRIPTION_CHECKED |
+| 02 | C02-03 | 帕乔利按既得分数5:2分配 | P02-S2（research.md） | TRANSCRIPTION_CHECKED |
+| 02 | C02-04 | 塔尔塔利亚1556年用50:30等数字转述，提出10:0反例 | P02-S3（research.md） | TRANSCRIPTION_CHECKED |
+| 02 | C02-05 | 卡尔达诺1539及更早手稿的相关史学脉络 | P02-S4（research.md） | SECONDARY_CHECKED |
+| 02 | C02-06 | 1654年帕斯卡—费马通信及其历史地位 | P02-S4、P02-S5（research.md） | HISTORIOGRAPHY_CHECKED |
+| 02 | C02-07 | 独立等机会的现代演示：乙1/16、甲15/16 | 现代数学演绎（明确假设） | DERIVED_NOT_HISTORICAL |
 | 03 | C03-01 | 卡尔达诺：等可能性、基本结果计数 | 待核对 | UNVERIFIED |
 | 04 | C04-01 | 伽利略：组合枚举与样本空间直觉 | 待核对 | UNVERIFIED |
 | 05 | C05-01 | 帕斯卡、费马：分配问题、递推与组合 | 待核对 | UNVERIFIED |

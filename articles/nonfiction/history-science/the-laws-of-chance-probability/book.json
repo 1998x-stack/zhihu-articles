@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "the-laws-of-chance-probability",
-  "reading_notice": "全章节仅有写作设计占位，未经核实或审稿。",
+  "reading_notice": "第02章为来源支持的研究初稿，尚未通过工作流门禁/审稿；其余章节为写作占位。",
   "chapters": [
     {
       "id": "prologue",
@@ -22,7 +22,7 @@
       "title": "1494年的未完比赛：帕乔利为何难以定义公平",
       "part": "第1部｜偶然第一次被计算",
       "file": "draft/02.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-03",
