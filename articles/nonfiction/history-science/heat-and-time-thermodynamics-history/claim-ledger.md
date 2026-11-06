@@ -9,9 +9,9 @@
 | 02 | 为什么要让蒸汽缸避免反复冷却？ | R34—R51（按章）及早期来源 | 17条主张已登记并完成正文初稿，独立审稿待进行 |
 | 03 | 热会被消耗，还是会像某种物质一样流动？ | R34—R51（按章）及早期来源 | 17条主张已登记并完成正文初稿，独立审稿待进行 |
 | 04 | 更换工作物质，是否能绕过热机效率极限？ | R34—R51（按章）及早期来源 | 18条主张已登记并完成正文初稿，独立审稿待进行 |
-| 05 | 旧的热守恒直觉与做功事实能并存吗？ | R02、R04 | 占位，待核证 |
-| 06 | 机械功和热是否能够换算为同一种量？ | R02、R17 | 占位，待核证 |
-| 07 | 不论怎样做功，所得热量是否遵循同一换算关系？ | R03、R17 | 占位，待核证 |
+| 05 | 旧的热守恒直觉与做功事实能并存吗？ | R52—R66及既有原著 | 18条主张增量核证；进入非虚构正文初稿；独立审稿未进行 |
+| 06 | 机械功和热是否能够换算为同一种量？ | R52—R66及既有原著 | 20条主张增量核证；进入非虚构正文初稿；独立审稿未进行 |
+| 07 | 不论怎样做功，所得热量是否遵循同一换算关系？ | R52—R66及既有原著 | 21条主张增量核证；进入非虚构正文初稿；独立审稿未进行 |
 | 08 | 怎样同时容纳能量守恒与卡诺效率原理？ | R02、R17 | 占位，待核证 |
 | 09 | 温度尺度能否不依赖特定物质？ | R02 | 占位，待核证 |
 | 10 | 能否循环地把单一热源的热全部转成功？ | R02 | 占位，待核证 |
@@ -176,4 +176,84 @@
 | T04-16 | 卡诺在1824年不曾简单断言效应线性正比于摄氏温差；其原文提醒比例关系未知 | primary_source_fact | R48；chute d'eau与差温比例讨论 |
 | T04-17 | 原著以空气和水蒸气等工作物质进行定量比较，同时受当时测量数据条件限制 | historical_science | R48；Carnot空气/蒸汽计算段 |
 | T04-18 | 1824年卡诺成果与后来热功当量研究之间存在将热质守恒修正为能量守恒的历史张力 | narrative_transition | R48,R51；原著与后世第一定律发展 |
+
+
+
+## 第05—07章：热质论危机、迈尔与焦耳（2026-11-06）
+
+> 增量主张索引，按照本仓库已定大纲及research.md中R52—R66研究矩阵登记。下表为研究及草稿准备而设，**不是独立审稿PASS或出版批准**。TNN-ID须与draft/NN.claims.json逐条一致。
+
+### 05｜主张与证据矩阵
+
+| ID | 可核主张／明确教学重述 | 类别 | 来源及证据位置 |
+|---|---|---|---|
+| T05-01 | 1824年卡诺公开著作采用热质由高温体流向低温体的框架，未建立现代能量守恒 | historical_fact | R18,R48,R02：1824原著冷热源段与Saslow §6 |
+| T05-02 | 卡诺以可逆过程论证最大机械效应的普适限制，不能将其原证明等同现代第二定律 | historical_physics | R48,R02：原著反向工作段与史学解释 |
+| T05-03 | 1834年克拉佩龙在《Mémoire sur la puissance motrice de la chaleur》中系统重述卡诺理论 | historical_fact | R52,R53：Clapeyron 1834 p153—190及BnF |
+| T05-04 | 克拉佩龙在压力—体积图上表示循环与机械作用，将定性问题数学化 | historical_physics | R52,R02：Clapeyron 1834曲线与史学§ |
+| T05-05 | 1834年原文仍用calorique，不能称为现代热功守恒理论的完成 | historical_boundary | R52,R02：Clapeyron原著热质概念 |
+| T05-06 | 在现代循环热机中工作物质一个循环内ΔU=0，Wnet=Qh−Qc | modern_physics | R20,R50：OpenStax卡诺循环 |
+| T05-07 | 1850年之前热质论与摩擦生热的关系存在争论，不能断言1798实验一夜终结热质说 | historical_interpretation | R41,R51：热质论史/热力学史 |
+| T05-08 | 焦耳1843年已提供热与机械运动相关的定量证据，其后证据持续积累 | historical_fact | R58,R64：Joule 1850回顾引言与1843期刊书目 |
+| T05-09 | 1849年前后威廉·汤姆孙研究卡诺理论与雷诺的蒸汽测量资料 | historical_fact | R54,R55：Thomson文献标题与历史研究 |
+| T05-10 | 汤姆孙1849所述研究发表/报告时间与1851文集出版时间不能混同 | historical_bibliography | R54：Proceedings vol2 1848—49/1851 |
+| T05-11 | 汤姆孙对焦耳热功转换与卡诺的旧框架感到理论矛盾，非双方虚构面对面争吵 | historical_interpretation | R55,R02：NAP 2004 ch2; Saslow §8.2 |
+| T05-12 | 热机的能量账与效率上限是不同命题：守恒不保证任何过程都可实现 | modern_physics | R20,R50：OpenStax热机第一第二定律 |
+| T05-13 | 在现代相同冷热端理想两热源循环，ηmax=1−Tc/Th为后世绝对温标形式 | modern_physics | R20,R48：OpenStax与1824原著边界 |
+| T05-14 | 卡诺的可逆极限不能因旧热质假设错误而自动丢弃，但论证须重建 | historical_interpretation | R55,R02：NAP ch2 Clausius 1850讨论 |
+| T05-15 | 克劳修斯1850年提出将热功转换与卡诺理论协调的研究，详细证明留第08章 | historical_fact | R55,R02：1850 Clausius historical summary |
+| T05-16 | 本章不将1834 p−V面积积分的现代符号∮p dV归于1824卡诺本人 | history_vs_modern | R52,R48：Clapeyron 1834 vs Carnot 1824 |
+| T05-17 | 迈尔1842年的定量论证和焦耳后来的实验代表不同证据路线，不是同一次发现 | historical_sequence | R56,R58,R02：Mayer 1842; Joule 1849/1850 |
+| T05-18 | 关于卡诺的“悖论”是后世史学组织的理论张力，并非1824作者公开发表的形式悖论 | editorial_framing | R48,R55：原著与后来理论史对照 |
+
+### 06｜主张与证据矩阵
+
+| ID | 可核主张／明确教学重述 | 类别 | 来源及证据位置 |
+|---|---|---|---|
+| T06-01 | Julius Robert Mayer为医生，其1842年论文研究自然界作用量/能量形式转化 | historical_fact | R56,R57：论文题名作者刊期 |
+| T06-02 | 1842论文题名Bemerkungen über die Kräfte der unbelebten Natur刊于Annalen卷42 pp233—240 | bibliography | R56,R57：原文首页与Wiley条目 |
+| T06-03 | 该论文末页标示1842年5月31日 | bibliography | R56：Mayer p240页脚 |
+| T06-04 | 迈尔论述原因与结果的定量关系、形式转变与不灭思想，Kraft非简单现代F=ma | history_of_science | R56,R02：原文pp233—239 |
+| T06-05 | 迈尔以落下的重物、水轮和蒸汽机说明机械作用与热可能相互转换 | primary_source_fact | R56：Mayer p239 |
+| T06-06 | 迈尔使用气体定压与定容热容量差别作为热与膨胀功联系的线索 | historical_physics | R56,R02：Mayer p240; Saslow |
+| T06-07 | 对理想气体从同一初态升高相同ΔT，定压比定容多的热量对应边界膨胀功 | modern_physics | R56,R20：后见Qp−Qv=pΔV，条件限定 |
+| T06-08 | 迈尔原文采用约1.421的空气热容量比值 | primary_source_fact | R56：Mayer p240 |
+| T06-09 | 迈尔原文估计同重物体下落约365米，对应同重水从0℃升至1℃的热量 | primary_source_numeric | R56：Mayer p240图像 |
+| T06-10 | 以1kg重物为示例，365kgf·m约3.58kJ，属于现代单位重述 | modern_conversion | R56：按标准g计算约3580J |
+| T06-11 | 现代1kg水升温1℃的热量依温区而异，约4.18kJ，不能把误差写成单一造假 | modern_physics | R20,R62：热容随温度变化，现代大致值 |
+| T06-12 | 1842的估计主要基于已知气体热容量数据与理论假定，非专门搅水直接测热功当量的实验 | historical_method | R56,R65：原著方法与教研史 |
+| T06-13 | 迈尔所说的Kraft语义处于历史演变中，不应当译成‘牛顿力守恒’ | translation_boundary | R56,R02：原始德文及史学讨论 |
+| T06-14 | 迈尔的贡献不意味着在1842年已独自完成完整的第一与第二定律 | historical_boundary | R56,R02：与1850 Clausius、1851 Thomson区分 |
+| T06-15 | 焦耳在其1850论文引言中承认包括迈尔在内的相关先驱工作 | primary_source_fact | R58,R59：Joule 1850前言 |
+| T06-16 | 能源守恒的归属涉及迈尔、焦耳、赫尔姆霍茨及其他人的不同贡献，不能用单人发明论取代 | historical_interpretation | R02,R58：Saslow历史综述和Joule评论 |
+| T06-17 | 迈尔1842估计与焦耳后来的实验值不同；可比较数值但不应视为同法测量 | historical_comparison | R56,R59：原文p240 vs Joule Table IX |
+| T06-18 | 本章的重物与水质量算例非迈尔亲自演示的实验或历史记录 | editorial_model | R56,R20：后见概念理解 |
+| T06-19 | 迈尔论文不允许推出任何真实热机可把全部热输入转功，第二定律另有限制 | modern_boundary | R20,R02：热机循环第二定律 |
+| T06-20 | 转向焦耳是从间接物性推算到跨机制可复验的定量测量，属于因果叙事组织 | editorial_framing | R56,R58,R65：研究路径对照 |
+
+### 07｜主张与证据矩阵
+
+| ID | 可核主张／明确教学重述 | 类别 | 来源及证据位置 |
+|---|---|---|---|
+| T07-01 | 焦耳1840年前后研究电流产热与化学过程的关系 | historical_fact | R58,R61：1850引言及APS历史说明 |
+| T07-02 | 1843焦耳发表磁电发热与热的机械价值论文 | historical_bibliography | R64：Philosophical Magazine 23:263—276 |
+| T07-03 | 1843磁电实验以机械驱动发生电流并测量热效应，得约838ft·lb的早期估计 | historical_numeric | R58,R59：Joule 1850 p63回顾 |
+| T07-04 | 焦耳随后用流体流经狭小通道等方式研究流体摩擦产热 | historical_fact | R58,R65：1850引言/实验历史表 |
+| T07-05 | 1844—45压缩空气及膨胀过程也是焦耳的研究路线，不能将全部证据归为搅水 | historical_fact | R58,R65：Joule 1850引言；Nuffield时间表 |
+| T07-06 | 焦耳1845开始重物驱动搅拌液体的实验，1847有进一步改良 | historical_fact | R58,R65：Joule 1850引言；历史教学表 |
+| T07-07 | 搅水装置将重物势能经运动机构传给流体，搅拌造成温度变化 | historical_mechanism | R58,R60,R66：Joule原著与馆藏 |
+| T07-08 | 实验需要扣除装置与外界的热交换，不能把测得水温上升全当未修正热量 | experimental_method | R58,R59：Joule原著实验和控制 |
+| T07-09 | 热量归属包含容器、液体等热容，及轴承、气体、声振的损失校正 | experimental_method | R59,R60：Joule原著修正讨论 |
+| T07-10 | 原著1849年6月6日收稿，6月21日宣读，1850年刊于Philosophical Transactions | historical_bibliography | R58,R59：Joule p61页首 |
+| T07-11 | 该1850论著比较水、汞与铸铁摩擦得到的热功当量测量 | historical_experiment | R58,R59：Table IX |
+| T07-12 | 论文Table IX水实验为772.692 foot-pounds／1磅水升1°F | primary_source_numeric | R59：Joule Table IX p82 |
+| T07-13 | 论文Table IX汞及铸铁相关平均值约774.083、774.987英尺磅，非相等常数 | primary_source_numeric | R59：Joule Table IX p82 |
+| T07-14 | 焦耳在1850论文结论采用约772 foot-pounds作为报告数值 | primary_source_fact | R58,R59：Joule结论段 |
+| T07-15 | 英尺磅历史热单位转换到现代J必须明确重力、质量及Fahrenheit温差 | unit_boundary | R59,R62：原始foot-pound与计量史 |
+| T07-16 | 现代1cal约4.184J；不同温度定义和历史caloric unit不可直接当作完全同一量 | modern_conversion | R62,R59：现代标准与单位史 |
+| T07-17 | 从不同机制逼近稳定比例比单次实验更有说服力，但实验结果带测量误差 | scientific_method | R58,R60：多实验与控制 |
+| T07-18 | 1847年牛津会议上焦耳与威廉·汤姆孙相识，汤姆孙并未当日立即解决矛盾 | historical_fact | R63,R55：格拉斯哥大学馆藏/NAP |
+| T07-19 | 焦耳1850前言承认Rumford、Davy、Mayer与Grove等前驱而非自称独创全部能量守恒 | primary_source_fact | R58：Joule 1850引言 |
+| T07-20 | 1849/1850测量确认机械功可量化为热，却未单独给出第二定律及全部热机过程限制 | historical_boundary | R59,R02：原著与1850—51理论发展 |
+| T07-21 | 第08章由赫尔姆霍茨/克劳修斯进入统一两定律，不能在本章把后续结果回写为焦耳1850完备结论 | editorial_transition | R02,R55：史学时序 |
 
