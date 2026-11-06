@@ -227,3 +227,69 @@
 - **C08-07** 不能把柯西1812年的工作称为1858年凯莱式完整矩阵代数（S08-1，历史限制）。
 
 **本批前置核验证书**：以上有外部来源的具体历史主张可进入第06—08章写作；MATH06—08为需逐项公开演算的现代解释，不能当成史实。所有章节仍为未终审初稿。其他未写章节并不因本记录自动通过证据闸门。
+
+
+## 第09—11章专题史料核证｜2026-11-06
+
+**范围**：本部分章节定向核证。第09—11章的历史叙事须以本条目为上限；MATH09—11均是本次独立教学推导，非原典。不得以本批资料为第12章及之后章节颁发通过结论。
+
+### 第10章《莫比乌斯与贝拉维蒂斯：方向也能相加吗》
+
+**来源与用途**
+- **G10-S1** MAA Mathematical Treasure: Möbius's Calculus of Centers of Gravity (2016)。https://old.maa.org/press/periodicals/convergence/mathematical-treasure-m-bius-s-calculus-of-centers-of-gravity。支持范围：1827 Möbius《重心演算》。
+- **G10-S2** Cambridge Mathematical Gazette: Circles in areals (2016)。https://www.cambridge.org/core/journals/mathematical-gazette/article/abs/circles-in-areals/83BEF0FA3702B3C9CF13D33E3FC54BD7。支持范围：重心坐标、和为1归一化、负权重的平面点。
+- **G10-S3** MacTutor: Abstract linear spaces。https://mathshistory.st-andrews.ac.uk/HistTopics/Abstract_linear_spaces/。支持范围：Möbius/ Bellavitis的早期有向量方法及1832年起的研究。
+- **G10-S4** MacTutor: Giusto Bellavitis。https://mathshistory.st-andrews.ac.uk/Biographies/Bellavitis/。支持范围：1832起发展，1835与1837论文、同向等长平行的equipollent概念。
+- **G10-S5** MAA book review: A History of Vector Analysis by Crowe。https://old.maa.org/node/105858。支持范围：主要史学著作中 Möbius、Bellavitis、Grassmann 为不同线索。
+
+| claim_id | 具体论断 | source_ids | 类型与限制 |
+|---|---|---|---|
+| C10-01 | 莫比乌斯1827年《重心演算》以带权重的点研究几何；归一化重心坐标是后世表述 | G10-S1,G10-S2 | historical |
+| C10-02 | 三角形的权重和为1，非负权在内部、负权允许描述外部；物理质量解释需谨慎 | G10-S2,MATH10 | historical_modern |
+| C10-03 | 贝拉维蒂斯在1832年起研究相关有向线段几何，1835/1837有重要等效演算著述 | G10-S3,G10-S4 | historical_publication |
+| C10-04 | 等长、平行、同向的有向线段可被视作等效，可经首尾相接相加 | G10-S3,G10-S4,MATH10 | historical_modern |
+| C10-05 | 点的仿射组合需权重和1，位移向量与基点平移无关，现代数值反例已复核 | MATH10 | modern_math |
+| C10-06 | 不能把这些著作直接宣称为现代向量空间公理或说其中一人单独发明向量 | G10-S3,G10-S5 | historical_caveat |
+
+### 第11章《哈密顿：乘法为什么突然不交换》
+
+**来源与用途**
+- **G11-S1** Hamilton to John T. Graves on quaternions (Oct 17, 1843), as quoted by MacTutor。https://mathshistory.st-andrews.ac.uk/Extras/Hamilton_Graves/。支持范围：1843年早期通信与John T. Graves及Warren的思想关系。
+- **G11-S2** Hamilton’s later account to son Archibald (1865), transcription。https://www.zipcon.net/~swhite/docs/math/quaternions/Hamiltons_discovery.html。支持范围：1843-10-16河岸桥的回顾记述；不是当日记录。
+- **G11-S3** Library of Trinity College Dublin: Hamilton letter (1865)。https://artsandculture.google.com/story/what-is-life-trinity-college-dublin-library/vwWBBcXVXyltKQ?hl=en。支持范围：书信与纪念铭牌原始刻痕不存。
+- **G11-S4** National Academies Press: Unknown Quantity, A Real and Imaginary History of Algebra。https://www.nationalacademies.org/read/11540/chapter/13。支持范围：三元乘法难题与四元数的历史数学脉络。
+- **G11-S5** Oregon State University, Geometry of the Octonions, Quaternion history。https://sites.science.oregonstate.edu/physics/coursewikis/GO/book/go/qhist.html。支持范围：四元数与后续向量分析及空间旋转的区分。
+
+| claim_id | 具体论断 | source_ids | 类型与限制 |
+|---|---|---|---|
+| C11-01 | 1843年10月16日哈密顿发现四元数乘法法则，并于次日与Graves通信；桥上事件据1865回顾 | G11-S1,G11-S2,G11-S3 | historical_primary_retrospective |
+| C11-02 | 探索三元数时发现不易同时保持复数式乘法良好性质，四个实系数的新代数是关键突破 | G11-S1,G11-S4 | historical_interpretation |
+| C11-03 | i²=j²=k²=ijk=-1，ij=k、ji=-k说明非交换；四元数乘法保留结合律 | G11-S1,G11-S4,MATH11 | math_historical |
+| C11-04 | q=a+bi+cj+dk是四个实系数的代数元素，不是宣称物理空间四维，也不同于普通三维箭头 | G11-S4,G11-S5 | historical_modern |
+| C11-05 | 单位四元数对纯虚四元数用v↦qvq⁻¹表示旋转，q=(1+i)/√2把j变为k | MATH11,G11-S5 | modern_math |
+| C11-06 | 桥的旧刻痕不存；现地标志非1843年原始书迹；后世几何与物理应用不全属于1843年一刻 | G11-S2,G11-S3,G11-S5 | historical_caveat |
+| C11-07 | 四元数旋转复合一般不交换，举例q_iq_j≠q_jq_i；非交换与非结合不同 | MATH11 | modern_math |
+
+### 第09章《笛卡尔：让几何学开始说代数的语言》
+
+**来源与用途**
+- **G09-S1** Stanford Encyclopedia of Philosophy, Descartes' Mathematics (2025修订)。https://plato.stanford.edu/entries/descartes-mathematics/。支持范围：1637《几何学》、帕普斯轨迹问题、曲线与方程及古今差别。
+- **G09-S2** SEP, Descartes’ Mathematics, historical notes。https://plato.stanford.edu/archives/win2017/entries/descartes-mathematics/notes.html。支持范围：笛卡尔因图而异的斜交坐标，非现代普适直角坐标系。
+- **G09-S3** Cambridge Descartes Lexicon: Geometry (2016)。https://www.cambridge.org/core/books/abs/cambridge-descartes-lexicon/geometry/1A4CC31CA915B00F7CCC91FEABBE9A0B。支持范围：1637《方法谈》末尾附篇，几何与代数研究语境。
+- **G09-S4** Library of Congress, Fermat Varia opera mathematica (1679)。https://www.loc.gov/resource/rbc.2017gen28093/?sp=3&st=list。支持范围：费马《平面和立体轨迹引论》1679收入遗著，非当时首次构想。
+- **G09-S5** T. L. H., The Geometry of René Descartes, Nature (1926)。https://www.nature.com/articles/118400a0。支持范围：费马独立解析几何先驱；早期评价不能简化为唯一最早。
+
+| claim_id | 具体论断 | source_ids | 类型与限制 |
+|---|---|---|---|
+| C09-01 | 1637年笛卡尔《几何学》附在《方法谈》后，研究帕普斯轨迹问题和曲线的代数关系 | G09-S1,G09-S3 | historical |
+| C09-02 | 笛卡尔当时主要采用由具体问题形成的斜交度量和代数曲线法，非如今固定垂直x/y坐标轴 | G09-S1,G09-S2 | historical_caveat |
+| C09-03 | 费马在1630年代发展与笛卡尔并行的解析几何思想，其相关著作收录于1679年遗著 | G09-S4,G09-S5 | historical_caveat |
+| C09-04 | 焦点(0,1)、准线y=-1的抛物线推出x²=4y，是独立现代教学重构 | MATH09 | modern_example |
+| C09-05 | 图形到方程和方程到轨迹并非一对一自动无约束，平方与坐标系选择引出伪解或分支问题 | MATH09 | modern_math |
+| C09-06 | 把本章放于08章之后是因概念路线回溯1637年，不是按史实误置年代 | G09-S1 | editorial_interpretation |
+
+### 三条须避免的失真链
+
+1. **笛卡尔坐标之时代错置**：《几何学》侧重从几何关系到方程，并未以今日所有图形默认的固定正交x、y轴为标准绘图习惯；费马的独立工作及1679年出版须同时呈现。
+2. **贝拉维蒂斯年份辨析**：1832年起研究与1835/1837年有代表性出版不矛盾；Möbius 1827带权重的点与Bellavitis等效有向线段是相关却不同的工具，不能硬说某人直接发明现代向量空间。
+3. **哈密顿桥上故事证据边界**：1843年事件的细节主要来自他1865年回忆性书信，不能冒充同时期的现场报道；已消失的刻痕与今日纪念铭牌不是同一文物。四元数四个实分量不代表物理空间被发现有四个轴。
