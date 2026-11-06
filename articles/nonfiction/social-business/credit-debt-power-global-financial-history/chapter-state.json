@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 11,
+  "current_revision": 14,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -246,13 +246,67 @@
     },
     {
       "chapter": "13",
+      "status": "draft-written",
+      "question": "1602年VOC股份怎样让投资者转让权益而公司继续长期经营",
+      "next_question": "1694年国家借款怎样与特许股份银行结合",
+      "sources": [
+        "F-1301",
+        "F-1302",
+        "F-1303",
+        "F-1304",
+        "F-1305",
+        "F-1306",
+        "F-1307",
+        "F-1308",
+        "F-1309"
+      ]
+    },
+    {
+      "chapter": "14",
+      "status": "draft-written",
+      "question": "英格兰银行如何把股东出资转成政府借款并承担银行券兑付",
+      "next_question": "以股份换政府债权为何可能触发1720金融泡沫",
+      "sources": [
+        "F-1401",
+        "F-1402",
+        "F-1403",
+        "F-1404",
+        "F-1405",
+        "F-1406",
+        "F-1407",
+        "F-1408",
+        "F-1409"
+      ]
+    },
+    {
+      "chapter": "15",
+      "status": "draft-written",
+      "question": "英国南海与法国约翰·劳债务转换为何使股价和货币信用失衡",
+      "next_question": "殖民和奴隶制利润的金融成本如何分配",
+      "sources": [
+        "F-1501",
+        "F-1502",
+        "F-1503",
+        "F-1504",
+        "F-1505",
+        "F-1506",
+        "F-1507",
+        "F-1508",
+        "F-1509",
+        "F-1510",
+        "F-1511",
+        "F-1512"
+      ]
+    },
+    {
+      "chapter": "16",
       "status": "outline-only",
-      "question": "1602年VOC可转让股份如何组织远洋资本"
+      "question": "殖民奴役、保险和商业信用的收益及代价如何分配"
     }
   ],
-  "remaining_chapters": "14-40 outline-only",
+  "remaining_chapters": "17-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Prologue and chapters 01-12 have research-level drafts only; publication review remains blocked."
+  "notes": "Prologue and chapters 01-15 have research-level drafts only; final fact and publication audits remain outstanding."
 }
