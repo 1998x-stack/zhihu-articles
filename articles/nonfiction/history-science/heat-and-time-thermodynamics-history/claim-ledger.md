@@ -12,9 +12,9 @@
 | 05 | 旧的热守恒直觉与做功事实能并存吗？ | R52—R66及既有原著 | 18条主张已登记并完成正文初稿，待独立审稿 |
 | 06 | 机械功和热是否能够换算为同一种量？ | R52—R66及既有原著 | 20条主张已登记并完成正文初稿，待独立审稿 |
 | 07 | 不论怎样做功，所得热量是否遵循同一换算关系？ | R52—R66及既有原著 | 21条主张已登记并完成正文初稿，待独立审稿 |
-| 08 | 怎样同时容纳能量守恒与卡诺效率原理？ | R02、R17 | 占位，待核证 |
-| 09 | 温度尺度能否不依赖特定物质？ | R02 | 占位，待核证 |
-| 10 | 能否循环地把单一热源的热全部转成功？ | R02 | 占位，待核证 |
+| 08 | 怎样同时容纳能量守恒与卡诺效率原理？ | R67—R81及既有资料 | 20条主张核证，准备正文初稿；独立审稿未进行 |
+| 09 | 温度尺度能否不依赖特定物质？ | R67—R81及既有资料 | 21条主张核证，准备正文初稿；独立审稿未进行 |
+| 10 | 能否循环地把单一热源的热全部转成功？ | R67—R81及既有资料 | 21条主张核证，准备正文初稿；独立审稿未进行 |
 | 11 | 如何比较不同热过程中无法恢复的变化？ | R02、R05 | 占位，待核证 |
 | 12 | 熵增是否等于“时间本身有了方程”？ | R02、R05 | 占位，待核证 |
 | 13 | 热机过程能否成为可视化、可计算的曲线？ | R04 | 占位，待核证 |
@@ -256,4 +256,87 @@
 | T07-19 | 焦耳1850前言承认Rumford、Davy、Mayer与Grove等前驱而非自称独创全部能量守恒 | primary_source_fact | R58：Joule 1850引言 |
 | T07-20 | 1849/1850测量确认机械功可量化为热，却未单独给出第二定律及全部热机过程限制 | historical_boundary | R59,R02：原著与1850—51理论发展 |
 | T07-21 | 第08章由赫尔姆霍茨/克劳修斯进入统一两定律，不能在本章把后续结果回写为焦耳1850完备结论 | editorial_transition | R02,R55：史学时序 |
+
+
+
+## 第08—10章｜两定律与温标的证据主张矩阵（2026-11-06）
+
+> 本矩阵只对应第08—10章，遵循已批准的大纲顺序；不把1848、1850、1851、1854、1865视作同一理论完成日期。每条TNN-ID同步进入draft/NN.claims.json。研究核证是前置写作门槛，非独立终审。
+
+### 08｜主张与来源
+
+| ID | 主张 | 类型 | 来源与定位 |
+|---|---|---|---|
+| T08-01 | 1847年赫尔姆霍茨于柏林物理学会报告《论力的守恒》 | historical_fact | R67,R68：原著扉页日期23 July 1847 |
+| T08-02 | 其1847文本广论力学、热、电、磁相关作用转化，不等于现代四定律写就 | historical_interpretation | R67,R73：原著目录与2020研究 |
+| T08-03 | 历史Kraft语义不可直接等同F=ma现代的力 | translation_boundary | R67：1847德文标题与全文 |
+| T08-04 | 焦耳1840年代以不同材料和手段测热功当量、为重构提供实验证据 | historical_fact | R58,R59,R73：焦耳1850论文和Saslow |
+| T08-05 | 卡诺1824年仍将热质在高低温之间转移视为热机做功解释 | historical_fact | R18,R48：Carnot original |
+| T08-06 | 克拉佩龙1834年数学化可逆循环，却未建立现代第一定律 | historical_fact | R52,R73：Clapeyron及史学 |
+| T08-07 | 克劳修斯1850年在Annalen der Physik und Chemie发表重要论文分两段pp368–397和500–524 | bibliography | R69,R70：Clausius原著书目 |
+| T08-08 | 对应论文1851年在Philosophical Magazine分七八月英译刊印 | bibliography | R69,R70：PhilMag vol2 pp1–21 and 102–119 |
+| T08-09 | 克劳修斯在1850论文明确反对热质循环中守恒而功额外出现的旧假设 | historical_theory | R69,R70：论文开头与Carnot对照 |
+| T08-10 | 克劳修斯承认Joule摩擦产热显示功与热的可量化对应 | historical_theory | R69,R70：English trans first pages |
+| T08-11 | 克劳修斯认为保留卡诺理想可逆限度的结论必须重建证明 | historical_theory | R69,R72,R73：Clausius原论述及Thomson §14 |
+| T08-12 | 现代闭合系统dU=δQ−δW以系统对外做功正号，是后见方程 | modern_physics | R73,R81：First Law standard sign convention |
+| T08-13 | U是状态函数，Q和W依赖过程，不称物体储存某数量热 | modern_physics | R73,R80：状态量与跨系统边界传递 |
+| T08-14 | 完整循环ΔU=0，热机Wnet=Qh−Qc | modern_physics | R81：现代双热源循环 |
+| T08-15 | Qh=100J、W=30J、Qc=70J为虚构教学数值，不是1850机器数据 | editorial_example | R81：first law arithmetic only |
+| T08-16 | 能量守恒不能判定自发方向：冷热端间有相同的能量账，不意味着反向零代价 | modern_boundary | R80,R81：first versus second law |
+| T08-17 | 汤姆孙1851年《论热的动力学理论》分开陈述Joule与Carnot-Clausius命题 | historical_fact | R72：Thomson 1851 §§9–14 |
+| T08-18 | 汤姆孙1851年肯定克劳修斯对可逆上限命题的正确原则重建 | historical_fact | R72：§14 |
+| T08-19 | 1850克劳修斯理论与1851汤姆孙回应属于相邻但不同阶段 | historical_sequence | R69,R72,R73：1850 original/1851 review |
+| T08-20 | 本章不把1854循环积分或1865熵命名提前归于1850 | historiography | R74,R73：1854 paper & later entropy |
+
+### 09｜主张与来源
+
+| ID | 主张 | 类型 | 来源与定位 |
+|---|---|---|---|
+| T09-01 | 19世纪经验温标依赖空气、酒精、水银等物性，校准后可近似一致但定义仍系于特定物质 | historical_context | R71,R75：Thomson 1848 first paragraphs |
+| T09-02 | 雷诺的气体与蒸汽实验为汤姆孙温标研究提供具体数据 | historical_fact | R71：Thomson 1848 Regnault notes |
+| T09-03 | 威廉·汤姆孙于1848年10月发表On an Absolute Thermometric Scale | bibliography | R71,R79：1848 paper metadata |
+| T09-04 | 1848年他欲以卡诺热机极限给温度定义物质无关的刻度 | historical_theory | R71：1848 original § Carnot |
+| T09-05 | 1848定义每等间隔温度下降对单位热产生相同机械功，而非今日温度比值 | historical_theory | R71,R73：1848 text characteristic |
+| T09-06 | 1848原文由1882年汇编转录，网站用Lord Kelvin是后世称号 | bibliography | R71,R73：1892 peerage note |
+| T09-07 | 1848汤姆孙采用热质转移语言，对焦耳热功互换仍表示困惑 | historical_context | R71：1848 original Carnot and footnote |
+| T09-08 | 1848讨论气体温标推测零下约273摄氏度的极低端 | historical_fact | R71,R79：1848 paper note & NIST |
+| T09-09 | 零下273°C推测不等于已使用现代精确−273.15°C或后来SI单位 | history_vs_modern | R71,R79,R77：history versus modern |
+| T09-10 | 1851年汤姆孙基于热功等价与可逆循环提出绝对温度比的定义 | historical_theory | R72：§§99–100 |
+| T09-11 | 1851绝对温度与可逆机吸排热量比有关，原文§99 | primary_source_fact | R72：§99 |
+| T09-12 | 1851年汤姆孙在§100报告冰点约273.7绝对单位的当时估计 | primary_source_numeric | R72：§100 historical estimate |
+| T09-13 | 1854克劳修斯研究循环积分与1/T，拓展绝对温标与热力学状态函数 | historical_fact | R74,R73：Clausius 1854 & Saslow |
+| T09-14 | 现代在常见条件下温度换算T[K]=t[°C]+273.15 | modern_physics | R77,R79：BIPM and NIST |
+| T09-15 | 温差1°C与1K数值相同，但比值计算需用绝对K | modern_physics | R77,R81：SI and efficiency |
+| T09-16 | 双热源可逆极限η=1−Tc/Th属于后世成熟表达 | modern_physics | R81,R73：modern Carnot |
+| T09-17 | 当代K以固定Boltzmann constant定义，决定于2018、实施于2019 | modern_metrology | R77,R78：BIPM |
+| T09-18 | 第零定律热平衡传递性是温度存在的操作性基础 | modern_theory | R80：SEP thermodynamic asymmetry |
+| T09-19 | 第零定律命名不能归于1848汤姆孙，史学中的1931/1936/1939年代解释有争议 | historiography | R76,R80：2012 scholarly comment |
+| T09-20 | Fowler的1936 Nature书评为2012考证认定的早期名称记录，1939教科书更系统表述 | historiography | R76：Comment J Chem Eng Data 2012 |
+| T09-21 | 温度不等于某一物体储存的热量，热量是过程传递概念 | modern_physics | R80,R81：thermal equilibrium & heat flow |
+
+### 10｜主张与来源
+
+| ID | 主张 | 类型 | 来源与定位 |
+|---|---|---|---|
+| T10-01 | 第一定律允许能量账守恒但不能独自判断过程是否自发可行 | modern_physics | R80,R81：first versus second |
+| T10-02 | 克劳修斯1850年提出热不能无外界补偿地从冷体转移到热体的原理 | historical_fact | R69,R70,R72：Clausius 1850, Thomson §14 |
+| T10-03 | 克劳修斯原论述讨论自发热传与外界补偿，现代Clausius表述为规范化概括 | historical_boundary | R69,R72：original versus standard |
+| T10-04 | 汤姆孙1851年在On the Dynamical Theory of Heat提出独特不可能性公理 | historical_fact | R72：§12 |
+| T10-05 | 汤姆孙1851年禁止无外界额外变化从最低温周围获得热并持续产功 | historical_theory | R72：§12 and §14 footnote |
+| T10-06 | 汤姆孙1851 §9明确分别认可Joule热功等价与Carnot-Clausius可逆上限 | historical_fact | R72：§9 |
+| T10-07 | 汤姆孙1851 §14指出Carnot原始证明中的热质守恒假设有问题而可逆上限保留 | historical_fact | R72：§14 |
+| T10-08 | 1851汤姆孙明确认可克劳修斯1850对命题的正确原理论证 | historical_fact | R72：§14 |
+| T10-09 | 标准Kelvin–Planck表述为单热源唯一效果转净功的循环不可能 | modern_theory | R80,R81：standard heat engines |
+| T10-10 | 标准Clausius表述为只有热从冷到热的循环唯一效果不可能 | modern_theory | R80,R81：heat pumps |
+| T10-11 | 电动冰箱热从冷处到热处不违反定律，因为需要外界做功 | modern_physics | R81：refrigerator energy accounting |
+| T10-12 | 理想概念示例Qcold=80J,Winput=20J,Qhot=100J，非历史实测 | modern_example | R81：energy conservation for fridge |
+| T10-13 | 两种第二定律表述的等价可通过将假想违规机与正常热泵/热机耦合反证 | modern_proof | R72,R80：Thomson §13 + standard proof |
+| T10-14 | 组合机的热量和功要连同全部热库变化一起计量，不能只局部看装置 | modern_scope | R80,R81：sole effect caveat |
+| T10-15 | 完全循环可逆上限不意味着实际机器没有摩擦即可百分百热功转换 | modern_boundary | R81：two heat source Carnot |
+| T10-16 | 现代双正温恒温热源ηrev=1−Tc/Th，现实效率≤该式 | modern_physics | R81：modern Carnot |
+| T10-17 | 400K/300K教学算例25%不是1851实验测量 | editorial_example | R81：formula arithmetic |
+| T10-18 | 第一类永动机违反能量守恒，第二类试图无其他变化将单一热库热全部转功 | modern_classification | R80,R81：two kinds conceptual distinction |
+| T10-19 | ‘不可能’是宏观循环过程约束，并非单个微观事件被无限制宣判 | scope_boundary | R80：macro versus statistical |
+| T10-20 | 第二定律的现代规范句与1850–51原文字句不能混写 | historiography | R69,R72：translated/modern distinction |
+| T10-21 | 1854循环积分与1865熵命名留第11章，不提前署给1850—51 | editorial_transition | R73,R74：chronological distinction |
 
