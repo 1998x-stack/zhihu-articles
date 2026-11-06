@@ -1,7 +1,230 @@
 {
   "chapter": "05",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅05章研究矩阵的18条核心主张完成前置资料查验，不等于全文已审稿；第08—33章未被本批覆盖",
+  "claims": [
+    {
+      "claim_id": "T05-01",
+      "claim": "1824年卡诺公开著作采用热质由高温体流向低温体的框架，未建立现代能量守恒",
+      "type": "historical_fact",
+      "source_ids": [
+        "R18",
+        "R48",
+        "R02"
+      ],
+      "locator": "1824原著冷热源段与Saslow §6",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-02",
+      "claim": "卡诺以可逆过程论证最大机械效应的普适限制，不能将其原证明等同现代第二定律",
+      "type": "historical_physics",
+      "source_ids": [
+        "R48",
+        "R02"
+      ],
+      "locator": "原著反向工作段与史学解释",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-03",
+      "claim": "1834年克拉佩龙在《Mémoire sur la puissance motrice de la chaleur》中系统重述卡诺理论",
+      "type": "historical_fact",
+      "source_ids": [
+        "R52",
+        "R53"
+      ],
+      "locator": "Clapeyron 1834 p153—190及BnF",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-04",
+      "claim": "克拉佩龙在压力—体积图上表示循环与机械作用，将定性问题数学化",
+      "type": "historical_physics",
+      "source_ids": [
+        "R52",
+        "R02"
+      ],
+      "locator": "Clapeyron 1834曲线与史学§",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-05",
+      "claim": "1834年原文仍用calorique，不能称为现代热功守恒理论的完成",
+      "type": "historical_boundary",
+      "source_ids": [
+        "R52",
+        "R02"
+      ],
+      "locator": "Clapeyron原著热质概念",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-06",
+      "claim": "在现代循环热机中工作物质一个循环内ΔU=0，Wnet=Qh−Qc",
+      "type": "modern_physics",
+      "source_ids": [
+        "R20",
+        "R50"
+      ],
+      "locator": "OpenStax卡诺循环",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-07",
+      "claim": "1850年之前热质论与摩擦生热的关系存在争论，不能断言1798实验一夜终结热质说",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R41",
+        "R51"
+      ],
+      "locator": "热质论史/热力学史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-08",
+      "claim": "焦耳1843年已提供热与机械运动相关的定量证据，其后证据持续积累",
+      "type": "historical_fact",
+      "source_ids": [
+        "R58",
+        "R64"
+      ],
+      "locator": "Joule 1850回顾引言与1843期刊书目",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-09",
+      "claim": "1849年前后威廉·汤姆孙研究卡诺理论与雷诺的蒸汽测量资料",
+      "type": "historical_fact",
+      "source_ids": [
+        "R54",
+        "R55"
+      ],
+      "locator": "Thomson文献标题与历史研究",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-10",
+      "claim": "汤姆孙1849所述研究发表/报告时间与1851文集出版时间不能混同",
+      "type": "historical_bibliography",
+      "source_ids": [
+        "R54"
+      ],
+      "locator": "Proceedings vol2 1848—49/1851",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-11",
+      "claim": "汤姆孙对焦耳热功转换与卡诺的旧框架感到理论矛盾，非双方虚构面对面争吵",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R55",
+        "R02"
+      ],
+      "locator": "NAP 2004 ch2; Saslow §8.2",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-12",
+      "claim": "热机的能量账与效率上限是不同命题：守恒不保证任何过程都可实现",
+      "type": "modern_physics",
+      "source_ids": [
+        "R20",
+        "R50"
+      ],
+      "locator": "OpenStax热机第一第二定律",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-13",
+      "claim": "在现代相同冷热端理想两热源循环，ηmax=1−Tc/Th为后世绝对温标形式",
+      "type": "modern_physics",
+      "source_ids": [
+        "R20",
+        "R48"
+      ],
+      "locator": "OpenStax与1824原著边界",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-14",
+      "claim": "卡诺的可逆极限不能因旧热质假设错误而自动丢弃，但论证须重建",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R55",
+        "R02"
+      ],
+      "locator": "NAP ch2 Clausius 1850讨论",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-15",
+      "claim": "克劳修斯1850年提出将热功转换与卡诺理论协调的研究，详细证明留第08章",
+      "type": "historical_fact",
+      "source_ids": [
+        "R55",
+        "R02"
+      ],
+      "locator": "1850 Clausius historical summary",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-16",
+      "claim": "本章不将1834 p−V面积积分的现代符号∮p dV归于1824卡诺本人",
+      "type": "history_vs_modern",
+      "source_ids": [
+        "R52",
+        "R48"
+      ],
+      "locator": "Clapeyron 1834 vs Carnot 1824",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-17",
+      "claim": "迈尔1842年的定量论证和焦耳后来的实验代表不同证据路线，不是同一次发现",
+      "type": "historical_sequence",
+      "source_ids": [
+        "R56",
+        "R58",
+        "R02"
+      ],
+      "locator": "Mayer 1842; Joule 1849/1850",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T05-18",
+      "claim": "关于卡诺的“悖论”是后世史学组织的理论张力，并非1824作者公开发表的形式悖论",
+      "type": "editorial_framing",
+      "source_ids": [
+        "R48",
+        "R55"
+      ],
+      "locator": "原著与后来理论史对照",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "史学争议保留限制性陈述；历史语义与现代公式分开",
+    "不编造人物私下对话、心理及实验数字",
+    "研究准备状态，正文须另行落库，审稿仍为PENDING"
+  ]
 }
