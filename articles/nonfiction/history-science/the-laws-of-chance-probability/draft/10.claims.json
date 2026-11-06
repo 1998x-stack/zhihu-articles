@@ -1,6 +1,116 @@
 {
   "chapter_id": "10",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "source_scope": "馆藏书目、数学史网页与研究摘要支持对应史实；数学演示独立推导；历史初印本未逐页核读；不得声称正式审稿通过。",
+  "sources": [
+    {
+      "source_id": "P10-S1",
+      "title": "MAA Jacob Bernoulli Ars Conjectandi",
+      "url": "https://old.maa.org/press/periodicals/convergence/mathematical-treasures-jacob-bernoullis-ars-conjectandi",
+      "kind": "academic_history"
+    },
+    {
+      "source_id": "P10-S2",
+      "title": "Anthony Edwards 2013 Ars conjectandi史学文章",
+      "url": "https://doi.org/10.1111/j.1740-9713.2013.00666.x",
+      "kind": "peer_reviewed_history"
+    },
+    {
+      "source_id": "P10-S3",
+      "title": "Ian Hacking The Emergence of Probability ch16",
+      "url": "https://www.cambridge.org/core/books/abs/emergence-of-probability/art-of-conjecturing-1692-published-1713/61B6958151D52354FBB5043742FFACC0",
+      "kind": "scholarly_book_chapter"
+    },
+    {
+      "source_id": "P10-S4",
+      "title": "Bolthausen Wuthrich Bernoulli original law of large numbers study",
+      "url": "https://people.math.ethz.ch/~wueth/Positions/2013_Bernoulli.pdf",
+      "kind": "modern_scholarly_study"
+    },
+    {
+      "source_id": "P10-S5",
+      "title": "ETH Zurich historical probability exhibition",
+      "url": "https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html",
+      "kind": "library_exhibition"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C10-01",
+      "statement": "雅各布伯努利1705去世，1713由侄子尼古拉出版猜度术",
+      "source_ids": [
+        "P10-S1",
+        "P10-S2",
+        "P10-S3"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "SCHOLARLY_CORROBORATED"
+    },
+    {
+      "claim_id": "C10-02",
+      "statement": "约1692完成证明是Hacking的研究断代",
+      "source_ids": [
+        "P10-S3"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "HISTORIOGRAPHICAL_DATING"
+    },
+    {
+      "claim_id": "C10-03",
+      "statement": "猜度术第四部分含大数定律及更广泛应用的讨论",
+      "source_ids": [
+        "P10-S1",
+        "P10-S2"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "HISTORY_SUPPORTED"
+    },
+    {
+      "claim_id": "C10-04",
+      "statement": "独立同分布0-1试验弱大数定律的现代形式",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MODERN_THEOREM"
+    },
+    {
+      "claim_id": "C10-05",
+      "statement": "现代切比雪夫法使用方差p(1-p)/n而非伯努利原证明",
+      "source_ids": [
+        "P10-S4"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "PEDAGOGICAL_SCOPE"
+    },
+    {
+      "claim_id": "C10-06",
+      "statement": "p=.6、n=1000、误差=.1时概率上界=.024",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MATH_DERIVED"
+    },
+    {
+      "claim_id": "C10-07",
+      "statement": "若要求切比雪夫上界小于.01，则n>2400",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MATH_DERIVED"
+    },
+    {
+      "claim_id": "C10-08",
+      "statement": "总次数波动可增大，但频率波动随n增大而减小",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MATH_DERIVED"
+    },
+    {
+      "claim_id": "C10-09",
+      "statement": "强大数定律的现代术语不可归于1713年文本",
+      "source_ids": [
+        "P10-S4"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "HISTORICAL_CONCEPT_BOUNDARY"
+    }
+  ]
 }

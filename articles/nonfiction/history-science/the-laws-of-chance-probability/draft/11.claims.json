@@ -1,6 +1,120 @@
 {
   "chapter_id": "11",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "source_scope": "馆藏书目、数学史网页与研究摘要支持对应史实；数学演示独立推导；历史初印本未逐页核读；不得声称正式审稿通过。",
+  "sources": [
+    {
+      "source_id": "P11-S1",
+      "title": "Cambridge University Press Doctrine of Chances reprint",
+      "url": "https://www.cambridge.org/9781108061803",
+      "kind": "academic_reprint"
+    },
+    {
+      "source_id": "P11-S2",
+      "title": "Pulskamp de Moivre bibliography",
+      "url": "https://www.gtfp.cs.rhul.ac.uk/pulskamp/Moivre/index.html",
+      "kind": "historical_source_guide"
+    },
+    {
+      "source_id": "P11-S3",
+      "title": "Stigler bibliographical reference guide",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/stiglercontents.htm",
+      "kind": "scholarly_bibliography"
+    },
+    {
+      "source_id": "P11-S4",
+      "title": "Landmark Writings in Western Mathematics de Moivre",
+      "url": "https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780444508713500887",
+      "kind": "scholarly_history"
+    },
+    {
+      "source_id": "P11-S5",
+      "title": "MAA Abraham de Moivre Doctrine historical book",
+      "url": "https://old.maa.org/press/periodicals/convergence/mathematical-treasure-abraham-de-moivres-doctrine-of-chances",
+      "kind": "academic_book_history"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C11-01",
+      "statement": "德莫弗1711相关拉丁论文与1718英文机会论初版",
+      "source_ids": [
+        "P11-S2",
+        "P11-S3",
+        "P11-S5"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "BIBLIOGRAPHY_CORROBORATED"
+    },
+    {
+      "claim_id": "C11-02",
+      "statement": "1738第二版、1756身后第三版不应与1718初版混同",
+      "source_ids": [
+        "P11-S1",
+        "P11-S2",
+        "P11-S4"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "BIBLIOGRAPHY_CORROBORATED"
+    },
+    {
+      "claim_id": "C11-03",
+      "statement": "德莫弗发展概率的分析、级数及持续时间问题研究",
+      "source_ids": [
+        "P11-S2",
+        "P11-S4"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "HISTORY_SUPPORTED"
+    },
+    {
+      "claim_id": "C11-04",
+      "statement": "蒙莫尔与德莫弗存在有文献记载的优先权分歧",
+      "source_ids": [
+        "P11-S2"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "HISTORY_SUPPORTED"
+    },
+    {
+      "claim_id": "C11-05",
+      "statement": "二项分布公式及相邻概率的比例关系",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MODERN_MATH_DERIVED"
+    },
+    {
+      "claim_id": "C11-06",
+      "statement": "100选50与中心概率约.079589",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MODERN_MATH_CHECKED"
+    },
+    {
+      "claim_id": "C11-07",
+      "statement": "吸收边界随机游走T_i=i(4-i)是现代示范",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MODERN_MATH_EXAMPLE"
+    },
+    {
+      "claim_id": "C11-08",
+      "statement": "1733近似工作随后出现于1738增订版而非1718初版",
+      "source_ids": [
+        "P11-S1",
+        "P11-S3",
+        "P11-S4"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "PUBLICATION_HISTORY"
+    },
+    {
+      "claim_id": "C11-09",
+      "statement": "二项概率之和为1不能证明模型适合现实资料",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MODERN_MATH_SCOPE"
+    }
+  ]
 }

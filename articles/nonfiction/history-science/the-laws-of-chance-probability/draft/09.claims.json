@@ -1,6 +1,120 @@
 {
   "chapter_id": "09",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "source_scope": "馆藏书目、数学史网页与研究摘要支持对应史实；数学演示独立推导；历史初印本未逐页核读；不得声称正式审稿通过。",
+  "sources": [
+    {
+      "source_id": "P09-S1",
+      "title": "法国联合目录蒙莫尔1708年版",
+      "url": "https://ccfr.bnf.fr/portailccfr/ark%3A/16871/00111278843",
+      "kind": "library_catalog"
+    },
+    {
+      "source_id": "P09-S2",
+      "title": "ETH e-rara 蒙莫尔1708年初版",
+      "url": "https://www.e-rara.ch/zut/content/titleinfo/1623714",
+      "kind": "library_original_edition"
+    },
+    {
+      "source_id": "P09-S3",
+      "title": "ETH e-rara 蒙莫尔1713年增订版",
+      "url": "https://www.e-rara.ch/zut/content/titleinfo/2701373",
+      "kind": "library_second_edition"
+    },
+    {
+      "source_id": "P09-S4",
+      "title": "Anders Hald 蒙莫尔史学专章1990",
+      "url": "https://doi.org/10.1002/0471725161.ch18",
+      "kind": "scholarly_history"
+    },
+    {
+      "source_id": "P09-S5",
+      "title": "MacTutor Montmort Treize",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Montmort_Treize/",
+      "kind": "university_math_history"
+    },
+    {
+      "source_id": "P09-S6",
+      "title": "Encyclopedia of Mathematics Montmort matching problem",
+      "url": "https://encyclopediaofmath.org/wiki/Montmort_matching_problem",
+      "kind": "mathematics_reference"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C09-01",
+      "statement": "1708初版与1713增订版分属不同馆藏文献",
+      "source_ids": [
+        "P09-S1",
+        "P09-S2",
+        "P09-S3"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "CATALOG_CONFIRMED"
+    },
+    {
+      "claim_id": "C09-02",
+      "statement": "1708年提出十三相遇问题，1713年处理简化问题，仍有一般版本未解",
+      "source_ids": [
+        "P09-S5"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "UNIVERSITY_HISTORIOGRAPHY"
+    },
+    {
+      "claim_id": "C09-03",
+      "statement": "蒙莫尔与尼古拉伯努利围绕问题通信",
+      "source_ids": [
+        "P09-S4",
+        "P09-S5"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "HISTORY_SUPPORTED"
+    },
+    {
+      "claim_id": "C09-04",
+      "statement": "错排递推D_n=(n-1)(D_n-1+D_n-2)和D5=44",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MODERN_MATH_DERIVED"
+    },
+    {
+      "claim_id": "C09-05",
+      "statement": "13个对象错排数2290792932，总数13!",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MODERN_MATH_DERIVED"
+    },
+    {
+      "claim_id": "C09-06",
+      "statement": "容斥级数给出错排概率趋于1/e",
+      "source_ids": [
+        "P09-S6"
+      ],
+      "category": "historical_claim_or_context",
+      "verification": "MATH_DERIVED_AND_CONTEXT"
+    },
+    {
+      "claim_id": "C09-07",
+      "statement": "位置匹配事件不独立，不能直接乘(1-1/n)^n",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MODERN_MATH_DERIVED"
+    },
+    {
+      "claim_id": "C09-08",
+      "statement": "均匀随机排列期望正确匹配数为1",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MODERN_MATH_DERIVED"
+    },
+    {
+      "claim_id": "C09-09",
+      "statement": "交错级数截断误差小于1/(n+1)!",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "MODERN_MATH_DERIVED"
+    }
+  ]
 }
