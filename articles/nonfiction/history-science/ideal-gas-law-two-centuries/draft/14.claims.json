@@ -3,7 +3,190 @@
   "title": "1873年，范德瓦耳斯为理想气体补上现实",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "19条主张：区分安德鲁斯1869实验、范德瓦耳斯1873论文及1910回顾，现代公式与相变局限；尚未独立审稿。",
+  "claims": [
+    {
+      "claim_id": "G14-01",
+      "source_ids": [
+        "S72",
+        "S77"
+      ],
+      "summary": "1873范德瓦耳斯的莱顿博士论文题为气态与液态的连续性",
+      "classification": "bibliography",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-02",
+      "source_ids": [
+        "S75"
+      ],
+      "summary": "安德鲁斯1869二氧化碳等温实验指出临界温度及气液转变条件",
+      "classification": "history",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-03",
+      "source_ids": [
+        "S75"
+      ],
+      "summary": "仅升高压强并非任意温度都能通过清晰界面使气体液化，须考虑临界温度",
+      "classification": "history_qualified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-04",
+      "source_ids": [
+        "S73"
+      ],
+      "summary": "范德瓦耳斯1910回顾说1857克劳修斯气体动理论促其提出问题",
+      "classification": "retrospective_primary",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-05",
+      "source_ids": [
+        "S73",
+        "S74"
+      ],
+      "summary": "模型主要两因素：微粒自身体积及微粒间吸引，解释非稀薄时不服从波义耳规律",
+      "classification": "retrospective",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-06",
+      "source_ids": [
+        "S73",
+        "S76"
+      ],
+      "summary": "现代一摩尔形式(p+a/v²)(v−b)=RT，v为摩尔体积",
+      "classification": "modern_formula",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-07",
+      "source_ids": [
+        "S76"
+      ],
+      "summary": "现代任意n摩尔形式[p+a(n/V)²](V−nb)=nRT",
+      "classification": "modern_formula",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-08",
+      "source_ids": [
+        "S73"
+      ],
+      "summary": "b描述排斥造成的有效排除体积，不简单等于分子实际体积之和",
+      "classification": "physics_boundary",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-09",
+      "source_ids": [
+        "S73"
+      ],
+      "summary": "稀薄硬球近似中排除体积系数可约为微粒自身总体积的四倍，条件很窄",
+      "classification": "retrospective_limited",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-10",
+      "source_ids": [
+        "S73",
+        "S76"
+      ],
+      "summary": "a项反映分子吸引导致实际壁面测得压强相对理想模型降低的修正趋势",
+      "classification": "modern_physics",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-11",
+      "source_ids": [
+        "S73",
+        "S76"
+      ],
+      "summary": "v远大于b且a/v²相对小，方程接近理想气体形式",
+      "classification": "math_limit",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-12",
+      "source_ids": [
+        "S73",
+        "S75"
+      ],
+      "summary": "气体密度增加与接近相变时理想气体方程可能明显偏离",
+      "classification": "empirical_scope",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-13",
+      "source_ids": [
+        "S75",
+        "S74"
+      ],
+      "summary": "安德鲁斯先有临界实测，范德瓦耳斯提出定量解释并非本人最先发现临界点",
+      "classification": "priority",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-14",
+      "source_ids": [
+        "S75",
+        "S76"
+      ],
+      "summary": "范德瓦耳斯方程理想化等温线在共存区的非稳定分支不能直接视为实际可观察稳定曲线",
+      "classification": "limitation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-15",
+      "source_ids": [
+        "S75"
+      ],
+      "summary": "在相变区若需匹配真实共存压强还需要相平衡条件或后续等面积等方法",
+      "classification": "modern_scope",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-16",
+      "source_ids": [
+        "S73"
+      ],
+      "summary": "范德瓦耳斯1910年明确承认常a,b不可能精确符合全部实验，尤其b有状态依赖",
+      "classification": "retrospective_primary",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-17",
+      "source_ids": [
+        "S73",
+        "S77"
+      ],
+      "summary": "1910演讲中的自我回顾不可与1873博士论文的逐字内容完全等同",
+      "classification": "source_limit",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-18",
+      "source_ids": [
+        "S73",
+        "S76"
+      ],
+      "summary": "范德瓦耳斯方程是对理想气体基准模型加可解释修正而非推翻物理定律",
+      "classification": "editorial_synthesis",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G14-19",
+      "source_ids": [
+        "S67",
+        "S76"
+      ],
+      "summary": "章末衔接15章现代R和kB区别及各种模型适用条件",
+      "classification": "transition",
+      "verification": "source_preverified"
+    }
+  ]
 }
