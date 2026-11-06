@@ -340,4 +340,26 @@
 | 23 | H23-16 | 下一章Church/Turing是可判定性新问题 | research.md 第23章专项；outline.md;R23-BOUND | 编排 |
 
 ## 后续章节状态
-第24—25章及序章、尾声仍待逐章专项核证。第01—23章已选主张的证据映射不等同全书终稿核验。
+第25章及序章、尾声仍待逐章专项核证。第01—24章已选主张的证据映射不等同全书终稿核验。
+
+## 第24章主张记录
+
+| 章 | Claim | 主张 | 来源 | 状态 |
+|---|---|---|---|---|
+
+| 24 | H24-01 | 1928年Hilbert—Ackermann一阶逻辑一般判定问题 | research.md 第24章专项；R24-SEP-ENTSCHEIDUNG | 已核 |
+| 24 | H24-02 | 命题逻辑真值表可判定而一阶一般问题不同 | research.md 第24章专项；R24-MODERN-MATH | 数学核实 |
+| 24 | H24-03 | 一阶有效性与可证明性的对应依赖逻辑完备性 | R24-SEP-ENTSCHEIDUNG | 已核 |
+| 24 | H24-04 | 图灵论文1936收稿，1937期刊卷次 | R24-TURING-1937 | 出版书目核实 |
+| 24 | H24-05 | 图灵机器有限状态和规则、可扩展纸带 | R24-SEP-TURING;R24-TURING-1937 | 已核 |
+| 24 | H24-06 | 通用机可通过机器编码模拟不同计算 | R24-SEP-TURING;R24-TURING-1937 | 已核 |
+| 24 | H24-07 | 有限步未停止不等于证明永不停止 | R24-MODERN-MATH | 数学核实 |
+| 24 | H24-08 | 现代H(P,x)及D(D)停机不可判定性反证 | R24-MODERN-MATH;R24-SEP-TURING | 现代推导，非1936原稿 |
+| 24 | H24-09 | circle-free/PRINT?与现代HALT?不等同 | R24-SEP-TURING;R24-LOGCOM-HISTORY | 史学限定 |
+| 24 | H24-10 | 原始机器判定问题归约至一阶逻辑判定问题 | R24-TURING-1937;R24-SEP-ENTSCHEIDUNG | 已核 |
+| 24 | H24-11 | 丘奇1936独立求解判定问题（否定结果） | R24-SEP-CHURCH;R24-SEP-ENTSCHEIDUNG | 已核 |
+| 24 | H24-12 | 若干可计算性形式模型的函数类对应 | R24-SEP-THESIS;R24-SEP-CHURCH | 已核 |
+| 24 | H24-13 | 丘奇—图灵论题与数学模型等价定理相区别 | R24-SEP-THESIS | 已核 |
+| 24 | H24-14 | 一阶有效式可枚举但不可总判定 | R24-SEP-ENTSCHEIDUNG;R24-MODERN-MATH | 已核 |
+| 24 | H24-15 | 难计算、不可判定、具体实例可验证须区分 | R24-SEP-COMPUTABILITY;R24-MODERN-MATH | 已核 |
+| 24 | H24-16 | 第25章机器证明为本书编辑性承接 | outline.md;story-bible.md | 编辑性解释 |
