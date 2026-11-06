@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 1,
+  "current_revision": 2,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -9,9 +9,11 @@
     "NONFICTION-PRIMARY-EDITION-CROSSCHECK",
     "BOOK-WIDE-EVIDENCE-NOT-VERIFIED",
     "CH02-EDICT-ORIGINAL-EDITION-CROSSCHECK",
-    "CH02-SCHOLARLY-FULL-TEXT-REVIEW"
+    "CH02-SCHOLARLY-FULL-TEXT-REVIEW",
+    "CH03-MINT-ORIGIN-COMPETING-SOURCES",
+    "CH03-QIN-FISCAL-PRIMARY-RECORDS"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Second chapter drafted at revision 1; chapter 01 material and previous reviews are stale for global revision 1. Outline/evidence gates remain unapproved; no publication or edit approval asserted."
+  "notes": "Chapter 03 research draft added at revision 2; reviews of all prior revisions invalidated. Full-book outline/evidence gates remain false; no editorial PASS or permission to publish claimed."
 }

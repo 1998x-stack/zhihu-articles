@@ -1,0 +1,199 @@
+{
+  "chapter": "03",
+  "chapter_title": "谁制造了货币：铸币、税收与军队的三角关系",
+  "lane": "nonfiction",
+  "draft_revision": 2,
+  "publication_ready": false,
+  "verification_scope": "Museum catalogues; academy numismatic exhibits; peer-reviewed article HTML and abstracts. Some handbook chapters and archaeology papers are abstract-only and need full-text verification.",
+  "claims": [
+    {
+      "claim_id": "CH03-001",
+      "statement": "吕底亚萨迪斯出土陶罐藏30枚狮牛金币",
+      "source_ids": [
+        "F-0301",
+        "F-0305"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "museum-catalogue-checked",
+      "caveat": "可能为保全而埋藏，但隐藏者与动机不能确定"
+    },
+    {
+      "claim_id": "CH03-002",
+      "statement": "在金币之前美索不达米亚已有白银计价与债务契约",
+      "source_ids": [
+        "F-0303",
+        "F-0304",
+        "F-0210"
+      ],
+      "classification": "historical_comparison",
+      "verification_status": "cross-chapter-supported",
+      "caveat": "币种、支付媒介、记账单位不能混同"
+    },
+    {
+      "claim_id": "CH03-003",
+      "statement": "吕底亚和爱奥尼亚早期琥珀金铸币年代与发行机构存在争议",
+      "source_ids": [
+        "F-0302",
+        "F-0303",
+        "F-0304"
+      ],
+      "classification": "scholarly_interpretation",
+      "verification_status": "institutional-checked",
+      "caveat": "不宣称有确定首创者和绝对起点"
+    },
+    {
+      "claim_id": "CH03-004",
+      "statement": "克罗伊索斯时期有分别发行的金银铸币与狮牛图案",
+      "source_ids": [
+        "F-0301",
+        "F-0302",
+        "F-0305"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "museum-and-research-checked",
+      "caveat": "古代希罗多德叙述须与考古实物区分"
+    },
+    {
+      "claim_id": "CH03-005",
+      "statement": "标准化铸币可以降低部分称重与成色检查成本",
+      "source_ids": [
+        "F-0302",
+        "F-0304"
+      ],
+      "classification": "author_inference",
+      "verification_status": "mechanism-labeled",
+      "caveat": "不是能完全排除伪造或市场折价的担保"
+    },
+    {
+      "claim_id": "CH03-006",
+      "statement": "古希腊战争动员和报酬需求是推动铸币使用的重要因素但非唯一源头",
+      "source_ids": [
+        "F-0306"
+      ],
+      "classification": "competing_explanation",
+      "verification_status": "conference-abstract-checked",
+      "caveat": "军费导致最初铸币发明仍有争议"
+    },
+    {
+      "claim_id": "CH03-007",
+      "statement": "公共支付到市场再以税费回流属于条件性说明模型",
+      "source_ids": [
+        "F-0306",
+        "F-0311"
+      ],
+      "classification": "teaching_model",
+      "verification_status": "explicitly-hypothetical",
+      "caveat": "绝不认为某古城历史上实有该100币流转"
+    },
+    {
+      "claim_id": "CH03-008",
+      "statement": "雅典六世纪末有雅典娜猫头鹰图案的银币",
+      "source_ids": [
+        "F-0307"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "museum-catalogue-checked",
+      "caveat": "所列馆藏实物为前五世纪并非初始首发实物"
+    },
+    {
+      "claim_id": "CH03-009",
+      "statement": "劳里昂银矿及港口收入与盟邦贡赋促使雅典铸币扩张",
+      "source_ids": [
+        "F-0308",
+        "F-0309"
+      ],
+      "classification": "historical_interpretation",
+      "verification_status": "abstract-and-institutional-checked",
+      "caveat": "不必然证明每次铸币发行均为舰队而造"
+    },
+    {
+      "claim_id": "CH03-010",
+      "statement": "前483年银矿收入有助于雅典造舰和480年萨拉米斯战争",
+      "source_ids": [
+        "F-0309"
+      ],
+      "classification": "historical_fact+interpretation",
+      "verification_status": "institute-checked",
+      "caveat": "古文献舰船数量矛盾，不在正文给绝对数"
+    },
+    {
+      "claim_id": "CH03-011",
+      "statement": "2025年矿源研究质疑把某银矿发现同猫头鹰钱币图案首现直接对应",
+      "source_ids": [
+        "F-0310"
+      ],
+      "classification": "peer_reviewed_reassessment",
+      "verification_status": "html-full-abstract-checked",
+      "caveat": "此为研究新解释，非唯一共识"
+    },
+    {
+      "claim_id": "CH03-012",
+      "statement": "五世纪雅典利用贡赋和神庙储备支持战争资金",
+      "source_ids": [
+        "F-0311"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "academic-study-checked",
+      "caveat": "不同于所有税和军费都使用单一钱币"
+    },
+    {
+      "claim_id": "CH03-013",
+      "statement": "河南官庄标准化布币铸造遗址定年约前640-550年且证据可靠",
+      "source_ids": [
+        "F-0312"
+      ],
+      "classification": "peer_reviewed_archaeology",
+      "verification_status": "abstract-checked",
+      "caveat": "最早可确定铸币工场不等于世界第一枚硬币"
+    },
+    {
+      "claim_id": "CH03-014",
+      "statement": "早期中国与西部小亚细亚采用不同铸币形制和工艺",
+      "source_ids": [
+        "F-0302",
+        "F-0312",
+        "F-0313",
+        "F-0314"
+      ],
+      "classification": "comparative_historical_fact",
+      "verification_status": "multi-source-checked",
+      "caveat": "不能推断二者必然直接传播或者完全无接触"
+    },
+    {
+      "claim_id": "CH03-015",
+      "statement": "秦统一后半两圆钱广泛使用但各地工艺规格仍不完全一致",
+      "source_ids": [
+        "F-0313",
+        "F-0314",
+        "F-0315"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "numismatic-and-metallurgical-checked",
+      "caveat": "统一有推进过程而非一日之间天下旧币全部消失"
+    },
+    {
+      "claim_id": "CH03-016",
+      "statement": "税收、军费、市场相互影响是条件性机制而非货币单一创造论",
+      "source_ids": [
+        "F-0306",
+        "F-0308",
+        "F-0311",
+        "F-0314"
+      ],
+      "classification": "author_inference",
+      "verification_status": "explicitly-qualified",
+      "caveat": "税收可能采用实物劳役，军费不可能单靠铸币创造物资"
+    },
+    {
+      "claim_id": "CH03-017",
+      "statement": "第04章从铸币及支付标准转入汉罗马帝国的资源调度",
+      "source_ids": [
+        "F-0311",
+        "F-0314"
+      ],
+      "classification": "narrative_bridge",
+      "verification_status": "outlines-aligned",
+      "caveat": "下一章应独立研究税种、军费和各地区财政结构"
+    }
+  ]
+}

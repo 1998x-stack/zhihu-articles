@@ -1,6 +1,6 @@
 # 非虚构章节主张与来源对应｜Claim Ledger
 
-> **目前覆盖第一章和第二章**。第03—40章的史料查证尚未完成。表中 `museum catalog verified` 表示馆藏介绍与正文的对应经过查核，**不等于独立校验所有楔形文字原文转写**。
+> **目前覆盖第01—03章**。第04—40章的史料查证尚未完成。表中 `museum catalog verified` 表示馆藏介绍与正文的对应经过查核，**不等于独立校验所有楔形文字原文转写**。
 
 | Claim ID | 可发表表述的边界 | 来源ID | 类型/状态 |
 |---|---|---|---|
@@ -35,6 +35,30 @@
 
 > 第二章部分章节所依赖的专业来源仅核对了可访问文本和摘要；待原文、译文和论文全文对读后再进入终稿审核。
 
+## 第三章｜铸币、税收与军队（研究性初稿）
+
+| Claim ID | 可发表表述的边界 | 来源ID | 类型/状态 |
+|---|---|---|---|
+| CH03-001 | 吕底亚萨迪斯出土陶罐藏30枚狮牛金币 | F-0301、F-0305 | historical_fact；museum-catalogue-checked |
+| CH03-002 | 在金币之前美索不达米亚已有白银计价与债务契约 | F-0303、F-0304、F-0210 | historical_comparison；cross-chapter-supported |
+| CH03-003 | 吕底亚和爱奥尼亚早期琥珀金铸币年代与发行机构存在争议 | F-0302、F-0303、F-0304 | scholarly_interpretation；institutional-checked |
+| CH03-004 | 克罗伊索斯时期有分别发行的金银铸币与狮牛图案 | F-0301、F-0302、F-0305 | historical_fact；museum-and-research-checked |
+| CH03-005 | 标准化铸币可以降低部分称重与成色检查成本 | F-0302、F-0304 | author_inference；mechanism-labeled |
+| CH03-006 | 古希腊战争动员和报酬需求是推动铸币使用的重要因素但非唯一源头 | F-0306 | competing_explanation；conference-abstract-checked |
+| CH03-007 | 公共支付到市场再以税费回流属于条件性说明模型 | F-0306、F-0311 | teaching_model；explicitly-hypothetical |
+| CH03-008 | 雅典六世纪末有雅典娜猫头鹰图案的银币 | F-0307 | historical_fact；museum-catalogue-checked |
+| CH03-009 | 劳里昂银矿及港口收入与盟邦贡赋促使雅典铸币扩张 | F-0308、F-0309 | historical_interpretation；abstract-and-institutional-checked |
+| CH03-010 | 前483年银矿收入有助于雅典造舰和480年萨拉米斯战争 | F-0309 | historical_fact+interpretation；institute-checked |
+| CH03-011 | 2025年矿源研究质疑把某银矿发现同猫头鹰钱币图案首现直接对应 | F-0310 | peer_reviewed_reassessment；html-full-abstract-checked |
+| CH03-012 | 五世纪雅典利用贡赋和神庙储备支持战争资金 | F-0311 | historical_fact；academic-study-checked |
+| CH03-013 | 河南官庄标准化布币铸造遗址定年约前640-550年且证据可靠 | F-0312 | peer_reviewed_archaeology；abstract-checked |
+| CH03-014 | 早期中国与西部小亚细亚采用不同铸币形制和工艺 | F-0302、F-0312、F-0313、F-0314 | comparative_historical_fact；multi-source-checked |
+| CH03-015 | 秦统一后半两圆钱广泛使用但各地工艺规格仍不完全一致 | F-0313、F-0314、F-0315 | historical_fact；numismatic-and-metallurgical-checked |
+| CH03-016 | 税收、军费、市场相互影响是条件性机制而非货币单一创造论 | F-0306、F-0308、F-0311、F-0314 | author_inference；explicitly-qualified |
+| CH03-017 | 第04章从铸币及支付标准转入汉罗马帝国的资源调度 | F-0311、F-0314 | narrative_bridge；outlines-aligned |
+
+> 第三章有关铸币起源、军事需求和税收反馈的解释属于争议与条件性模型；不将古代个别铸币实物误写成已证明唯一发明者或铸币目的。
+
 ## 独立研究中仍需检验的问题
 
 - 详细楔形文字转写与译注，优先寻找大都会艺术博物馆专业出版物或对应语言学文献。
@@ -44,3 +68,8 @@
 
 - 第二章：阿米·萨杜卡敕令第3、8条的楔形文字抄本及不同学术编排段号；与《汉谟拉比法》区分规范性质。
 - 第二章：古巴比伦赦免是否在个别地区被执行、债权人规避的具体案例及王室经济利益解释。
+
+- 第三章：吕底亚与爱奥尼亚最早钱币具体年代、铭文归属、合金成色的独立考古学争论。
+- 第三章：古希腊早期军费与税赋的直接钱币证据，以及古代铸币动机的不同解释。
+- 第三章：官庄遗址碳十四证据的测年和“最早工场”与“最早硬币”概念区别。
+- 第三章：秦半两在地方使用及税费、劳役缴纳的法律文本，需配合秦简与历史学研究。
