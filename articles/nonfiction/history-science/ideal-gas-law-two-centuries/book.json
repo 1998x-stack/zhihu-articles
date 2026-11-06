@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "ideal-gas-law-two-centuries",
   "title": "看不见的秩序：PV=nRT的两百年接力",
-  "reading_notice": "序章与第 01—04 章是未审校正文初稿；第 05—15 章和尾声 16 仍为占位。",
+  "reading_notice": "17篇 draft/NN.md 仅保存原始初稿（revision 0），不代表当前审校版。跨章合订修订稿见 revised.md（revision 2；需以 workflow-state.json 和 qa/ 两份当轮审稿报告判断状态），本书尚未获得 final-approval 或发布许可。",
   "chapters": [
     {
       "id": "prologue",
@@ -44,84 +44,84 @@
       "title": "05｜查理没有发表，盖-吕萨克发表了",
       "part": "第二部｜温度的秘密",
       "file": "draft/05.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-06",
       "title": "06｜一条通向零下273度的直线",
       "part": "第二部｜温度的秘密",
       "file": "draft/06.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-07",
       "title": "07｜体积为什么会按整数比例结合",
       "part": "第三部｜看不见的数量",
       "file": "draft/07.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-08",
       "title": "08｜1811年，阿伏伽德罗数出了看不见的东西",
       "part": "第三部｜看不见的数量",
       "file": "draft/08.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-09",
       "title": "09｜1860年的会议：被重新带回来的假说",
       "part": "第三部｜看不见的数量",
       "file": "draft/09.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-10",
       "title": "10｜蒸汽机到底能做多少功——卡诺的追问",
       "part": "第四部｜蒸汽机上的方程",
       "file": "draft/10.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-11",
       "title": "11｜1834年，克拉佩龙写下267",
       "part": "第四部｜蒸汽机上的方程",
       "file": "draft/11.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-12",
       "title": "12｜一个常数，怎样成为所有气体的常数",
       "part": "第四部｜蒸汽机上的方程",
       "file": "draft/12.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-13",
       "title": "13｜数不尽的分子，竟能导出一条简单方程",
       "part": "第五部｜完美公式的裂缝",
       "file": "draft/13.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-14",
       "title": "14｜1873年，范德瓦耳斯为理想气体补上现实",
       "part": "第五部｜完美公式的裂缝",
       "file": "draft/14.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-15",
       "title": "15｜从R到kB：五个字母的现代意义",
       "part": "第五部｜完美公式的裂缝",
       "file": "draft/15.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "epilogue",
       "title": "尾声｜从267回望：一条不完美方程的价值",
       "part": "尾声",
       "file": "draft/16.md",
-      "status": "outline"
+      "status": "draft"
     }
   ]
 }
