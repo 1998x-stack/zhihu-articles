@@ -15,12 +15,12 @@
 <text x="204" y="277" font-size="14" font-family="sans-serif" fill="#c06628">瞬时切线</text>
 <text x="266" y="152" font-size="14" font-family="sans-serif" fill="#7750ad">割线</text>
 <text x="166" y="333" font-size="14" font-family="sans-serif" fill="#203a56">t=2</text>
-<path d="M480 388 L666 88 L666 388 Z" fill="#bde8e0" stroke="none"/>
-<path d="M480 388 L759 163" fill="none" stroke="#18809b" stroke-width="4"/>
-<line x1="666" y1="388" x2="666" y2="88" stroke="#4c7e79" stroke-width="2" stroke-dasharray="5,5"/>
+<path d="M480 388 L666 128 L666 388 Z" fill="#bde8e0" stroke="none"/>
+<path d="M480 388 L707.85 69.5" fill="none" stroke="#18809b" stroke-width="4"/>
+<line x1="666" y1="388" x2="666" y2="128" stroke="#4c7e79" stroke-width="2" stroke-dasharray="5,5"/>
 <text x="553" y="350" font-size="21" fill="#17665f" font-family="sans-serif" font-weight="650">面积 = 4</text>
 <text x="660" y="412" font-size="14" fill="#203a56" font-family="sans-serif">2秒</text>
-<text x="673" y="103" font-size="14" fill="#203a56" font-family="sans-serif">4米/秒</text>
+<text x="673" y="143" font-size="14" fill="#203a56" font-family="sans-serif">4米/秒</text>
 <text x="78" y="414" font-size="15" fill="#203a56" font-family="sans-serif">时间 t</text>
 <text x="483" y="414" font-size="15" fill="#203a56" font-family="sans-serif">时间 t</text>
 <text x="79" y="108" font-size="15" fill="#18809b" font-family="sans-serif">s=t²</text>
