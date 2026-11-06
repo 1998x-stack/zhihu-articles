@@ -1,5 +1,5 @@
 # 史料检索档案｜全书分章核证进展
-> **分章节、限定范围核证：00—06章的具体主张在下方专章记录；07—37仍是待核写作线索。`evidence_verified=true` 仅表示已完成写作章节的必要前置研究，不代表整部书核证完毕或审稿通过。**
+> **分章节、限定范围核证：00—09章的具体主张在下方专章记录；10—37仍是待核写作线索。`evidence_verified=true` 仅表示已完成写作章节的必要前置研究，不代表整部书核证完毕或审稿通过。**
 | ID | 文献 | 入口 | 可支持的范围/限制 |
 |---|---|---|---|
 | S01 | Beineke / Toft / Wilson, Milestones in Graph Theory (AMS/MAA, 2025) | https://www.ams.org/books/spec/108/spec108-endmatter.pdf | 学科发展与跨世纪年表；目录、序言、年表已检索；逐章需重读原始史料 |
@@ -223,3 +223,78 @@
 - **重要历史张力**：Kirkman先行≠Hamilton没有贡献；Sylvester/Borchardt等价结果≠Cayley没有独特工作；四色问题有“1852猜想”和“1976定理”两种时代视角。
 - **跨时代叙事**：第04—06章是认知链而非单调年份排序，06章1852先于05章1889；必须在正文交代这种专题编排。
 - **后续**：第07—37章保持TODO_VERIFY；没有独立审稿、结构审稿、精修或终稿批准，不得将任何章节标成final。
+
+
+---
+
+## 第07—09章专项史料核查｜2026-11-06
+
+**放行范围**：仅第07、08、09章初稿所使用的特定史实/数学命题。历史年份、书目核对优先原始论文转录、出版社记录与大学教材；现代示例与证明明示为作者重构。由于部分原版纸本不能完整逐页核对，不把二手评论写成“原作者原话”。全书第10—37章仍待逐章核查。
+
+### 本批新增来源（S43—S55）
+
+| ID | 书目与入口 | 证据支持范围、局限与优先级 |
+|---|---|---|
+| S43 | A. B. Kempe, “On the Geographical Problem of the Four Colours,” *American Journal of Mathematics* **2** (1879), 193–200, 原刊扫描的英文转录 https://en.wikisource.org/wiki/Page:American_Journal_of_Mathematics_Vol._2_(1879).pdf/209 以及下一页 https://en.wikisource.org/wiki/Page:American_Journal_of_Mathematics_Vol._2_(1879).pdf/210 ，JSTOR书目 https://www.jstor.org/stable/2369235 | 一手作者论文转录（维基文库经校对但非专业批判版）可支持作者当时自称解决、双色区域换色和1878年Cayley提问；不能用其作为四色定理真实性证明 |
+| S44 | A. B. Kempe, “How to Colour a Map with Four Colours,” *Nature* **21** (1880), 399–400, https://www.nature.com/articles/021399a0 | 出版社原刊摘要及题录，支持Kempe 1880又发表简化论证；其时没有意识到漏洞 |
+| S45 | P. J. Heawood, “Map-colour theorem,” *Quarterly Journal of Pure and Applied Mathematics* **24** (1890), 332–338；原作题录与专业传记详述 https://mathshistory.st-andrews.ac.uk/LMS/heawood_lms_obit.pdf | 原作书目及G. A. Dirac撰学术回顾，对错误核心提供具体证词：在五邻区需**连续换两条双色链时，第一次换色可能改变第二条链的连接关系**；五色上界仍被保留。PDF通过网页检索提取段落，未完成原刊全部逐页对读 |
+| S46 | Robin Wilson, “The Four Color Theorem,” *Notices of the AMS* (2023), https://doi.org/10.1090/noti2781 | 专业权威综述，1879错误、1890发现、五色成果及20世纪证明脉络；**不把肯普错误误写成四色定理的反例** |
+| S47 | G. D. Birkhoff, “A Determinant Formula for the Number of Ways of Coloring a Map,” *Annals of Mathematics* **14** (1912–13 volume), 42–46, https://www.jstor.org/stable/1967597 ; 另有原刊可检索文字 https://paperzz.com/doc/7232527/a-determinant-formula-for-the-number-of-ways-of-coloring-... | 出版社书目+原刊文字可验证Birkhoff 1912（卷标1912–13）明确说明合法着色数为地图区域数次多项式、并给出行列式表达；不是他首先发明现代所有图通用的删除-收缩简化记号 |
+| S48 | H. Whitney, “The Coloring of Graphs,” *Proceedings of the National Academy of Sciences* **17** (1931), 122–125, 论文文本 https://pmc.ncbi.nlm.nih.gov/articles/PMC1076006/pdf/pnas01718-0048.pdf | 一手预告论文，署名Hassler Whitney，通信提交1931-01-14，给出 \(P(\lambda)\) 的组合展开并明确承认Birkhoff首先找到相关表达；PDF已检索到§§1—2文本，屏幕截取服务失败，勿称完成影印校勘 |
+| S49 | H. Whitney, “The Coloring of Graphs,” *Annals of Mathematics* **33** (1932), 688–718, https://www.jstor.org/stable/1968214 ; “A Logical Expansion in Mathematics,” *Bulletin AMS* **38** (1932), 572–579, https://www.ams.org/journals/bull/1932-38-08/S0002-9904-1932-05460-X/ | 原刊题录支持年份、研究扩展；本章的删除—收缩递推使用现代基础证明，不伪装为其原刊逐字推导 |
+| S50 | *Topics in Chromatic Graph Theory*, Cambridge UP, “Chromatic polynomials,” https://www.cambridge.org/core/books/abs/topics-in-chromatic-graph-theory/chromatic-polynomials/90FF480FA7701C9B290F5B4E55BF6FF9 | 出版社专业章节摘要明确“Birkhoff 1912 initiated; Whitney 1932 continued”; Birkhoff–Lewis 后续实零点猜想需避免当作已证结果 |
+| S51 | R. Diestel, *Graph Theory*, Chapter 4.4 “Planar graphs: Kuratowski’s theorem”, https://www.math.uni-hamburg.de/home/diestel/books/graph.theory/preview/Ch4.pdf | 大学经典教材§4.4现代严谨陈述：禁止K5/K3,3**拓扑小式（边细分图）**，等价Wagner 1937禁止普通minor；PDF检索到定理4.4.6，截图服务不可用，结论由多种HTML来源交叉核证 |
+| S52 | K. Kuratowski, “Sur le problème des courbes gauches en Topologie,” *Fundamenta Mathematicae* **15** (1930), 271–283, 波兰科学院出版社原刊元数据 https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/15/0/92829/sur-le-probleme-des-courbes-gauches-en-topologie | 直接核实原刊作者（Casimir/Kazimierz Kuratowski）、1930、期刊卷页及DOI10.4064/FM-15-1-271-283；未逐页校勘全文 |
+| S53 | J. W. Kennedy, L. V. Quintas, M. M. Sysło, “The theorem on planar graphs,” *Historia Mathematica* **12** (1985), 356–368, https://www.sciencedirect.com/science/article/pii/031508608590045X | 史学同行评审摘要：1920年代多人接近定理，Kuratowski首个正式发表1930，Pontryagin早期未出版成果涉及优先权争议；**不得写成无争议的独家创立** |
+| S54 | “Kuratowski’s theorem,” PlanetMath, https://planetmath.org/kuratowskistheorem | 数学标准陈述及Kuratowski原作书目（较低权重，和S51、S52交叉核） |
+| S55 | “The Genus of a Graph: A Survey,” *Symmetry* 15 (2023), https://www.mdpi.com/2073-8994/15/2/322 | 学术综述图区分Kuratowski禁止细分与Wagner禁止minor，平面性与更一般曲面亏格不同；与S51互证 |
+
+### 第07章｜一份被相信十一年的证明：允许写入的主张
+
+| ID | 断言与支持边界 | 资料 | 类型/核验 |
+|---|---|---|---|
+| GT07-01 | 1879 Kempe论文自称解决四色，1890 Heawood指出缺口（相隔11年），四色定理直至1976由Appel–Haken证明 | S43、S45、S46 | HISTORICAL_VERIFIED_SCOPED |
+| GT07-02 | Kempe链为在已着色图中仅用两种颜色组成的**连通分量**，在**整个连通分量**交换双色仍合法 | S43、S45 | MODERN_DEFINITION |
+| GT07-03 | 所有有限简单平面图都有度≤5顶点（欧拉公式）；最小反例归纳从删点入手 | S46、数学推导 | MODERN_PROOF |
+| GT07-04 | 度4顶点周围四种颜色可用相应两色链和Jordan分离证明有换色余地（仅本文解释性证明） | S43、S45 | MODERN_PROOF |
+| GT07-05 | 度5顶点邻居可有5种位置及4种颜色；Kempe原论证需两次换色，第一回会改变第二回的链连通性 | S45、S46 | HISTORICAL_VERIFIED_SCOPED |
+| GT07-06 | Heawood反例针对**证明中的换色步骤**，不是发现一张需5色的平面地图；四色本身仍真 | S45、S46 | HISTORICAL_VERIFIED_SCOPED |
+| GT07-07 | 五色定理的正确证明在删度5点、5邻居皆不同色时，用(1,3)与(2,4)链的平面分离二选一，**只用一次有效双色交换** | S45、S46、数学推导 | MODERN_PROOF |
+| GT07-08 | Kempe发表1880 *Nature*另一次简化版本，表示漏洞发现前传播并非只一篇文献 | S44 | HISTORICAL_VERIFIED_SCOPED |
+| GT07-09 | 肯普链技术有效，但某个使用它的组合推理可能无效；错误证明非“定理本身错误” | S43、S45、S46 | EDITORIAL_MATH |
+| GT07-10 | 1890 Heawood可得五色定理，后来四色证明需另外的复杂结构/计算机验证 | S45、S46 | HISTORICAL_VERIFIED_SCOPED |
+
+### 第08章｜颜色被写成多项式：允许写入的主张
+
+| ID | 断言与支持边界 | 来源 | 类型/核验 |
+|---|---|---|---|
+| GT08-01 | 对固定标号的q种可区分颜色，图所有**合法顶点着色赋值的数量**定义为 \(P_G(q)\)，不要求每色都用；色数 \(\chi(G)=\min\{q:P_G(q)>0\}\) 对有限无环图 | S47、S48、S49 | MODERN_DEFINITION |
+| GT08-02 | 1912 Birkhoff原论文建立地图合法着色数作为区域数次多项式，原名行列式公式，研究动机四色猜想 | S47、S50 | HISTORICAL_VERIFIED_SCOPED |
+| GT08-03 | 1931 Whitney PNAS初步论文及1932 Annals、Bulletin论文扩展一般图着色组合展开；注意1931先行和1932正式大文献的区分 | S48、S49、S50 | HISTORICAL_VERIFIED_SCOPED |
+| GT08-04 | 对\(K_3\), \(P(q)=q(q-1)(q-2)\)；单边 \(q(q-1)\)，路径 \(q(q-1)^2\)，计数颜色**有名称**，不需使用所有颜色 | S48、现代直接组合计数 | MODERN_MATH |
+| GT08-05 | 选非自环边e，\(P_G(q)=P_{G-e}(q)-P_{G/e}(q)\)：先删除e计算，减去两端同色的方案；收缩后可能有重边，环时P=0 | S48、S49、现代证明 | MODERN_MATH |
+| GT08-06 | 四环 \(C_4\)：\(q(q-1)(q^2-3q+3)\)，代入2得2；代入3得18 | S48、现代推导 | MODERN_MATH |
+| GT08-07 | 一般 \(n\) 顶点色多项式首项 \(q^n\)，以排容或删除—收缩导出真正多项式；零环图例外 | S47—S49 | MODERN_PROOF |
+| GT08-08 | 对有至少一顶点的平面图，四色定理等价于 \(P_G(4)>0\)；将“存在四染色”变成代数正值问题不自动给出证明 | S47、S50、数学逻辑 | MODERN_EXPLANATION |
+| GT08-09 | Birkhoff–Lewis关于色多项式实根的**后续猜想不可当作已证**；本章仅简述而不强行推进到原始论文未核页码的深论 | S50 | HISTORICAL_CAVEAT |
+| GT08-10 | 特定图的P(q)不决定平面性；非平面K3,3也有色多项式，不可说色多项式是平面图特有的对象 | S48、S51、现代反例 | MODERN_EXPLANATION |
+
+### 第09章｜两张画不平的图：允许写入的主张
+
+| ID | 主张与限制 | 来源 | 类型/核验 |
+|---|---|---|---|
+| GT09-01 | 1930 Kuratowski论文题名、期刊卷15 pp.271–283，正式出版的数学史里程碑 | S52、S53 | HISTORICAL_VERIFIED_SCOPED |
+| GT09-02 | \(K_5\)：5个顶点两两相连，共10边；简单平面图 \(n\ge3\) 需 \(e\le3n-6\)，10>9所以不平面 | S51、现代计算 | MODERN_PROOF |
+| GT09-03 | \(K_{3,3}\)：两组各3点、组间全连共9边、二分故无奇圈，平面假定时每面长度至少4而得 \(e\le2n-4\)，9>8 | S51、现代推导 | MODERN_PROOF |
+| GT09-04 | 图可平面=存在**某种**无交叉画法；当前画纸上交叉≠结构一定不平面；抽象图边允许重新弯曲 | S51 | MODERN_DEFINITION |
+| GT09-05 | 细分为把一条边uv替为u—w—v，w度2；原不平面图的任意细分仍不平面（沿w重新合并画法即可矛盾） | S51、S54 | MODERN_PROOF |
+| GT09-06 | Kuratowski：有限图平面当且仅当**不含K5或K3,3的细分图作为子图**；禁止仅原样K5/K3,3不足 | S51、S52、S54 | THEOREM_VERIFIED_SCOPED |
+| GT09-07 | \(K_5\) 细分一条边成6点11边，11≤3·6−6=12，密度上界不能检出，但依然不平面 | S51、现代自拟例子 | MODERN_EXPLANATION |
+| GT09-08 | Wagner 1937禁止K5或K3,3作为**minor**，可通过删点、删边、缩边；与“禁止细分为子图”虽等价却是不同操作定义 | S51、S55 | HISTORICAL_VERIFIED_SCOPED |
+| GT09-09 | 1927—28 Pontryagin或曾独立获结果但当时未发表；Kuratowski的1930首发与独家优先权要谨慎表述 | S53、S54 | HISTORICAL_DISPUTE |
+| GT09-10 | 如果图有某个禁止细分，立刻给出不可平面的可核查证据；反向不存在需结构定理，不能将必要性证明伪称为充要性全部证明 | S51 | MODERN_PROOF_SCOPE |
+| GT09-11 | 平面图着色与平面性判定是不同问题：非平面图也可能2色，而所有平面图至多四色 | S51、S46、数学示例 | MODERN_EXPLANATION |
+
+### 结构与时间核查结论
+
+第07章跟随1879—1890（不能演绎为实际所有数学家逐日无异议）；08章重点1912与Whitney **1931预告/1932深化**；09章1930史料，但放在08之后是**专题路径，不是严格编年**。四色争议、色多项式、平面性结构判据是三条相互联系但未必存在直接师承因果的研究路线；本书采用“证据与概念的依赖关系”进行编排，正文明确回访年份。研究完整性范围仅07—09初稿。
