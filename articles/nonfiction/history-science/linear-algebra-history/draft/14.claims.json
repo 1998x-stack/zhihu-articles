@@ -1,0 +1,82 @@
+{
+  "chapter": "14",
+  "title": "凯莱1858：两次变换为什么可以相乘",
+  "status": "DRAFT_NOT_REVIEWED",
+  "revision_count": 0,
+  "sources": {
+    "H14-S1": "https://www.jstor.org/stable/108649",
+    "H14-S2": "https://www.cambridge.org/core/books/collected-mathematical-papers/memoir-on-the-theory-of-matrices/6613C9C7BE671897442278152A5C70A4",
+    "H14-S3": "https://makingscience.royalsociety.org/items/rr_3_55/referees-report-by-george-boole-on-three-papers-a-memoir-on-the-theory-of-matrices-a-memoir-on-the-automorphic-linar-transformation-of-a-bipartite-quadric-function-on-certain-formulae-for-differentiation-by-arthur-cayley",
+    "H14-S4": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "H14-S5": "https://mathworld.wolfram.com/Cayley-HamiltonTheorem.html",
+    "M14": "本章第2—9节现代矩阵乘法与特征多项式验算"
+  },
+  "claims": [
+    {
+      "claim_id": "C14-01",
+      "source_ids": [
+        "H14-S1",
+        "H14-S2"
+      ],
+      "kind": "historical_publication",
+      "verified": true
+    },
+    {
+      "claim_id": "C14-02",
+      "source_ids": [
+        "H14-S1",
+        "H14-S2"
+      ],
+      "kind": "historical_theory",
+      "verified": true
+    },
+    {
+      "claim_id": "C14-03",
+      "source_ids": [
+        "H14-S1",
+        "M14"
+      ],
+      "kind": "historical_and_modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C14-04",
+      "source_ids": [
+        "M14"
+      ],
+      "kind": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C14-05",
+      "source_ids": [
+        "H14-S1",
+        "H14-S5"
+      ],
+      "kind": "historical_proof_limit",
+      "verified": true
+    },
+    {
+      "claim_id": "C14-06",
+      "source_ids": [
+        "H14-S4"
+      ],
+      "kind": "historical_continuity",
+      "verified": true
+    },
+    {
+      "claim_id": "C14-07",
+      "source_ids": [
+        "H14-S3"
+      ],
+      "kind": "primary_archival_fact",
+      "verified": true
+    }
+  ],
+  "historical_limits": [
+    "区分1857收稿与1858宣读/刊行",
+    "原著的方阵重点与后世长方矩阵通用理论分开",
+    "不能归属1858年所有阶数Cayley-Hamilton完整证明",
+    "皇家学会报告不支持捏造对话"
+  ]
+}
