@@ -1,0 +1,116 @@
+{
+  "chapter": "01",
+  "title": "泥板上的欠条：当债务第一次成为可记录的承诺",
+  "lane": "nonfiction",
+  "draft_revision": 0,
+  "verification_scope": "Museum catalogue and scholarly essay cross-check; primary cuneiform transliterations not independently examined.",
+  "publication_ready": false,
+  "claims": [
+    {
+      "claim_id": "CH01-001",
+      "statement": "前3100—2900年谷物行政账不等于可辨识私人借据",
+      "source_ids": [
+        "F-0101",
+        "F-0102"
+      ],
+      "classification": "fact+epistemic_limit",
+      "verification_status": "museum catalog verified",
+      "caveat": "原始文本缺少语法成分；不得推称确定的法律关系"
+    },
+    {
+      "claim_id": "CH01-002",
+      "statement": "约前3300年乌鲁克有经济性书写记录，后续楔形书写逐步演进",
+      "source_ids": [
+        "F-0103"
+      ],
+      "classification": "fact",
+      "verification_status": "museum essay verified",
+      "caveat": "不可将单个地区经验推广至全人类文字起源"
+    },
+    {
+      "claim_id": "CH01-003",
+      "statement": "乌尔III时代记录使者口粮分配",
+      "source_ids": [
+        "F-0110"
+      ],
+      "classification": "fact",
+      "verification_status": "museum catalog verified",
+      "caveat": "行政记录不能据此归纳为贷款"
+    },
+    {
+      "claim_id": "CH01-004",
+      "statement": "卡内什商人之间存在跨城贸易和账簿技术",
+      "source_ids": [
+        "F-0104",
+        "F-0105"
+      ],
+      "classification": "fact",
+      "verification_status": "museum catalog verified",
+      "caveat": "时期较前一乌鲁克材料晚约千余年"
+    },
+    {
+      "claim_id": "CH01-005",
+      "statement": "商队账簿列锡、布匹、运输费用和结余；账有小差异",
+      "source_ids": [
+        "F-0105"
+      ],
+      "classification": "fact",
+      "verification_status": "museum catalog verified",
+      "caveat": "教学算例不是原始材料"
+    },
+    {
+      "claim_id": "CH01-006",
+      "statement": "两名债务人欠Ashur-idi六米那白银，附还款期限和逾期利息",
+      "source_ids": [
+        "F-0104"
+      ],
+      "classification": "fact",
+      "verification_status": "museum catalog verified",
+      "caveat": "不虚构利率数值，不称第一借据"
+    },
+    {
+      "claim_id": "CH01-007",
+      "statement": "配套封泥重写契约并刻印章印",
+      "source_ids": [
+        "F-0108"
+      ],
+      "classification": "fact",
+      "verification_status": "museum catalog verified",
+      "caveat": "与现代审计日志仅为功能类比"
+    },
+    {
+      "claim_id": "CH01-008",
+      "statement": "另一债务清偿文书、异地付款和原借据仍留亚述城",
+      "source_ids": [
+        "F-0106",
+        "F-0107"
+      ],
+      "classification": "fact",
+      "verification_status": "museum catalog verified",
+      "caveat": "不同文书不能混作一宗交易"
+    },
+    {
+      "claim_id": "CH01-009",
+      "statement": "早期吕底亚铸币通常约前七世纪末，仍有精确起源争议",
+      "source_ids": [
+        "F-0109"
+      ],
+      "classification": "historical_interpretation",
+      "verification_status": "museum essay verified",
+      "caveat": "只能主张特定标准铸币晚于某些账目和债务文书"
+    },
+    {
+      "claim_id": "CH01-010",
+      "statement": "信用需要对未来履约的可核验安排，签约与清偿均需制度保障",
+      "source_ids": [
+        "F-0104",
+        "F-0106",
+        "F-0107",
+        "F-0108"
+      ],
+      "classification": "author_inference",
+      "verification_status": "reasoned-and-labeled",
+      "caveat": "概念解释不替代古人心理和真实判决"
+    }
+  ]
+}

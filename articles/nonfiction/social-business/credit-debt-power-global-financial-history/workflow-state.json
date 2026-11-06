@@ -1,0 +1,15 @@
+{
+  "lane": "nonfiction",
+  "current_revision": 0,
+  "outline_approved": false,
+  "evidence_verified": false,
+  "review_status": "CHANGES_REQUIRED",
+  "reviewed_revision": null,
+  "unresolved_blockers": [
+    "NONFICTION-PRIMARY-EDITION-CROSSCHECK",
+    "BOOK-WIDE-EVIDENCE-NOT-VERIFIED"
+  ],
+  "edited_revision": null,
+  "final_approved": false,
+  "notes": "Explicit legacy migration initiated after chapter 01 draft. Museum catalogue claims checked for chapter 01, but full-book approval gates remain closed; no editorial PASS or publication status claimed."
+}
