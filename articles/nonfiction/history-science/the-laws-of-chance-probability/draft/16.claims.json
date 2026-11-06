@@ -1,6 +1,132 @@
 {
   "chapter_id": "16",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "verification_scope": "Historical assertions backed by source-specific catalog/history evidence; mathematical derivations explicitly labeled modern. Full original facsimile collation and independent review pending; nonfiction workflow gate remains blocked.",
+  "sources": [
+    {
+      "source_id": "P16-S1",
+      "title": "Laplace 1774 Memoir on Probability of Causes, translated by S M Stigler",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/memoir1774.pdf",
+      "kind": "primary_work_academic_translation"
+    },
+    {
+      "source_id": "P16-S2",
+      "title": "Pulskamp, Laplace on probability and statistics",
+      "url": "https://www.gtfp.cs.rhul.ac.uk/pulskamp/Laplace/index.html",
+      "kind": "historical_source_guide"
+    },
+    {
+      "source_id": "P16-S3",
+      "title": "Landmark Writings, Laplace 1812 and 1814 historical study",
+      "url": "https://www.sciencedirect.com/science/article/pii/B9780444508713501054",
+      "kind": "scholarly_history_summary"
+    },
+    {
+      "source_id": "P16-S4",
+      "title": "Aspects of the Introduction of Probability into Physics (1973)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0498.1973.tb00182.x",
+      "kind": "history_of_physics"
+    },
+    {
+      "source_id": "P16-S5",
+      "title": "Bibliothèque nationale de France, Laplace 1812 Théorie analytique",
+      "url": "https://catalogue.bnf.fr/ark%3A/12148/cb35795753v",
+      "kind": "original_edition_catalog"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C16-01",
+      "statement": "Laplace 1774 memoir distinguished effects with known cause and inferred unknown causes from observed effects",
+      "source_ids": [
+        "P16-S1"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C16-02",
+      "statement": "Stigler English translation is a later scholarly edition, not 1774 first French printing",
+      "source_ids": [
+        "P16-S1"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C16-03",
+      "statement": "Laplace's studies linked finite differences, probability and methods of analysis",
+      "source_ids": [
+        "P16-S1",
+        "P16-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C16-04",
+      "statement": "BnF catalogs Paris first edition of Théorie analytique des probabilités in 1812",
+      "source_ids": [
+        "P16-S5"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C16-05",
+      "statement": "1814 Essai philosophique was a later broader explanatory work separate from 1812 first edition",
+      "source_ids": [
+        "P16-S2",
+        "P16-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C16-06",
+      "statement": "Historical research links Laplace probability research to astronomical observations, errors, and celestial mechanics",
+      "source_ids": [
+        "P16-S3",
+        "P16-S4"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C16-07",
+      "statement": "Modern independent measurement likelihood is product of error density values given model",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C16-08",
+      "statement": "Bayesian normalization divides prior times likelihood by an integral of total mass",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C16-09",
+      "statement": "Gaussian type concentration integral ∫exp(-nt²/2) about a sharp peak scales as sqrt(2pi/n)",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C16-10",
+      "statement": "Fixed systematic measurement bias is not removed by averaging independent zero-mean fluctuations",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C16-11",
+      "statement": "Modern asymptotic Laplace approximation does not assume all posteriors are smooth single-peaked",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    }
+  ]
 }
