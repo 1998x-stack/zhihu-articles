@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 5,
+  "current_revision": 8,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -137,13 +137,68 @@
     },
     {
       "chapter": "07",
+      "status": "draft-written",
+      "question": "南亚商人的胡迪如何在不同城市通过萨拉夫与信用商号安排兑付",
+      "next_question": "私人商人信用转向国家发行纸币时谁承担兑付责任",
+      "sources": [
+        "F-0701",
+        "F-0702",
+        "F-0703",
+        "F-0704",
+        "F-0705",
+        "F-0706",
+        "F-0707",
+        "F-0708",
+        "F-0709",
+        "F-0710"
+      ]
+    },
+    {
+      "chapter": "08",
+      "status": "draft-written",
+      "question": "宋代四川交子怎样从私人票据走向政府发行并产生区域货币信用风险",
+      "next_question": "多币种跨城交易如何要求持续对账与复式簿记",
+      "sources": [
+        "F-0801",
+        "F-0802",
+        "F-0803",
+        "F-0804",
+        "F-0805",
+        "F-0806",
+        "F-0807",
+        "F-0808",
+        "F-0809",
+        "F-0810"
+      ]
+    },
+    {
+      "chapter": "09",
+      "status": "draft-written",
+      "question": "意大利汇票和复式记账如何组织异地支付与复式账户结构",
+      "next_question": "元明纸币为何受财政条件与社会接受方式影响",
+      "sources": [
+        "F-0901",
+        "F-0902",
+        "F-0903",
+        "F-0904",
+        "F-0905",
+        "F-0906",
+        "F-0907",
+        "F-0908",
+        "F-0909",
+        "F-0910",
+        "F-0911"
+      ]
+    },
+    {
+      "chapter": "10",
       "status": "outline-only",
-      "question": "一张胡迪票据走多远：南亚商人的汇兑网络"
+      "question": "元明纸币制度为何在白银化背景下变化"
     }
   ],
-  "remaining_chapters": "08-40 outline-only",
+  "remaining_chapters": "11-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Chapters 01-06 are research drafts. Formal source verification and final review pending."
+  "notes": "Prologue and chapters 01-09 are research drafts, not final publication-cleared versions."
 }
