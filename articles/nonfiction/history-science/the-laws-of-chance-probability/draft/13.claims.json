@@ -1,6 +1,117 @@
 {
   "chapter_id": "13",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "verification_scope": "Research draft supported by catalog, historiography and modern derivation; original editions and independent review pending.",
+  "sources": [
+    {
+      "source_id": "P13-S1",
+      "title": "Pulskamp de Moivre bibliography",
+      "url": "https://www.gtfp.cs.rhul.ac.uk/pulskamp/Moivre/index.html",
+      "kind": "history_bibliography"
+    },
+    {
+      "source_id": "P13-S2",
+      "title": "Anders Hald de Moivre normal approximation 1733",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/0471725161.ch24",
+      "kind": "scholarly_history"
+    },
+    {
+      "source_id": "P13-S3",
+      "title": "Landmark Writings de Moivre editions",
+      "url": "https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780444508713500887",
+      "kind": "scholarly_history"
+    },
+    {
+      "source_id": "P13-S4",
+      "title": "University of York history of normal distribution",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/normal_history.htm",
+      "kind": "university_history_limited_access"
+    },
+    {
+      "source_id": "P13-S5",
+      "title": "W E Deming Nature 1933 normal curve origins",
+      "url": "https://www.nature.com/articles/132713a0",
+      "kind": "historical_analysis"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C13-01",
+      "statement": "德莫弗1718初版、1733小册及1738第二版必须区分",
+      "source_ids": [
+        "P13-S1",
+        "P13-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C13-02",
+      "statement": "1733小册研究二项式项和，1738第二版收录译文",
+      "source_ids": [
+        "P13-S1",
+        "P13-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C13-03",
+      "statement": "阶乘近似与归一化常数涉及斯特林的贡献",
+      "source_ids": [
+        "P13-S2",
+        "P13-S4"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C13-04",
+      "statement": "对称二项中心概率约sqrt(2/(pi n))，偏移j指数近似e^(-2j²/n)",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C13-05",
+      "statement": "n100精确中心约0.0795892近似约0.0797885",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C13-06",
+      "statement": "现代标准差sqrt(n)/2用于正确标准化",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C13-07",
+      "statement": "局部近似不保证在极端尾部同样准确",
+      "source_ids": [
+        "P13-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C13-08",
+      "statement": "离散区间连续性修正半格属于现代数学重建",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C13-09",
+      "statement": "拉普拉斯的推广及广义中心极限定理均晚于1733",
+      "source_ids": [
+        "P13-S2",
+        "P13-S4"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    }
+  ]
 }

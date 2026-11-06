@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "the-laws-of-chance-probability",
-  "reading_notice": "第02—11章为来源支持的研究初稿，未经独立审稿或正式封版；序章、第01章及第12章以后仍为占位。",
+  "reading_notice": "第02—14章为来源支持的研究初稿，仍待独立审稿与终稿封版；序章、第01章及第15—37章仍为写作占位。",
   "chapters": [
     {
       "id": "prologue",
@@ -92,21 +92,21 @@
       "title": "圣彼得堡悖论：为什么期望很大不等于理性",
       "part": "第3部｜大数中的秩序",
       "file": "draft/12.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-13",
       "title": "德莫弗的钟形曲线：离散概率为何接近正态",
       "part": "第4部｜从结果反推原因",
       "file": "draft/13.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-14",
       "title": "1763年的身后论文：贝叶斯从证据推测未知",
       "part": "第4部｜从结果反推原因",
       "file": "draft/14.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-15",

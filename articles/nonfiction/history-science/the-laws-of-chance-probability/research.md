@@ -143,3 +143,31 @@
 
 ### 未通过的审稿闸门
 这三章只是研究支持的初稿；原始出版版本仍待逐页影像核验，全书outline_approved与evidence_verified仍为false，review_status为PENDING。
+
+## 第12—14章专项史料核验｜2026-11-06
+
+本批为章节级研究初稿而非完整初印本校勘，不等于全书事实审核通过。
+
+### 12 圣彼得堡悖论
+- P12-S1: https://plato.stanford.edu/entries/paradox-stpetersburg/ — 尼古拉1713六面版本、克拉默1728简化及丹尼尔1738论文的区分。
+- P12-S2: https://link.springer.com/article/10.1007/s10203-024-00471-z — 1738年论文、财富效用的史学研究。
+- 现代数学：P(N=n)=2^-n，X=2^(n-1)，E[X]发散；P(X<=4)=7/8；截断前K项时E=K/2；对数模型期望有限。
+- 限制：现代两结果模型不是1713年原稿的直接题面；效用不是一条普遍已证实的个人心理定律。
+
+### 13 德莫弗的正态型近似
+- P13-S1: https://www.gtfp.cs.rhul.ac.uk/pulskamp/Moivre/index.html — 区分1718初版、1733小册、1738第二版。
+- P13-S2: https://onlinelibrary.wiley.com/doi/10.1002/0471725161.ch24 — 二项近似、斯特林常数及拉普拉斯后续推广。
+- P13-S3: https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780444508713500887 — 不同版本概率分析史。
+- P13-S4: https://www.york.ac.uk/depts/maths/histstat/normal_history.htm 及 P13-S5: https://www.nature.com/articles/132713a0 — 近似史资料，网页完整访问可能受限。
+- 现代数学：P(X=n/2)约sqrt(2/(pi n))；偏移j=O(sqrt(n))时比值约e^(-2j²/n)。连续性修正属于后世教学技术。
+- 限制：1733小册未逐页校勘；正态积分和一般CLT不得归于1733年原书。
+
+### 14 贝叶斯与普赖斯的逆概率
+- P14-S1: https://www.york.ac.uk/depts/maths/histstat/essay.htm — 原始文献转录、普赖斯书信与1763年12月23日宣读。
+- P14-S2: https://www.jstor.org/stable/105741 — 卷53（1763）pp370-418；P14-S3: https://www.york.ac.uk/depts/maths/histstat/bayestodhunter.htm — 1764实际印行的史学判断。
+- P14-S4: https://www.sciencedirect.com/science/article/pii/0315086087900656 — 普赖斯角色与先验争议；P14-S5: https://plato.stanford.edu/entries/bayes-theorem/ — 后世条件概率语言。
+- 现代数学：10次中7次成功、均匀先验，后验Beta(8,4)、均值2/3、P(theta>0.5)=227/256；若Beta(2,2)先验，均值9/14。
+- 限制：原始桌面几何模型不是普遍证明一切未知参数均匀；现代Beta术语与方程为教学重构。
+
+### 工作流
+原始文献逐页复核、独立连续性审计和发展性编辑审稿仍待执行；保持outline_approved=false、evidence_verified=false、review_status=PENDING。
