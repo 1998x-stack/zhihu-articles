@@ -1,6 +1,144 @@
 {
   "chapter_id": "19",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "verification_scope": "Scope-limited historical research with original book catalogs, scholarly studies and independently checked modern proofs; not a full page-by-page audit of first editions. Formal review and workflow gate remain pending.",
+  "sources": [
+    {
+      "source_id": "P19-S1",
+      "title": "Quetelet and the emergence of the behavioral sciences, 2015",
+      "url": "https://link.springer.com/article/10.1186/s40064-015-1261-7",
+      "kind": "peer_reviewed_historiography"
+    },
+    {
+      "source_id": "P19-S2",
+      "title": "MacTutor, Adolphe Quetelet",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Quetelet/",
+      "kind": "university_math_history"
+    },
+    {
+      "source_id": "P19-S3",
+      "title": "Wellcome Collection, Sur l'homme 1835 original edition catalog",
+      "url": "https://wellcomecollection.org/works/dt8f77gf",
+      "kind": "primary_edition_library_catalog"
+    },
+    {
+      "source_id": "P19-S4",
+      "title": "Donna Tafreshi, Average Man Legacy in Psychology, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34516191/",
+      "kind": "peer_reviewed_history_abstract"
+    },
+    {
+      "source_id": "P19-S5",
+      "title": "Nancy Krieger, Who and What Is a Population, 2012",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3530737/",
+      "kind": "peer_reviewed_critical_historiography"
+    },
+    {
+      "source_id": "P19-S6",
+      "title": "David Aubin, Quetelet Unpublished Notebook, Historia Mathematica 2014",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0315086014000020",
+      "kind": "peer_reviewed_primary_manuscript_study"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C19-01",
+      "statement": "Quetelet published Sur l'homme 1835 in Paris Bachelier as two-volume work; revised as Physique sociale 1869",
+      "source_ids": [
+        "P19-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C19-02",
+      "statement": "Quetelet combined astronomical measurement-error analogy with population and social statistics",
+      "source_ids": [
+        "P19-S1",
+        "P19-S2",
+        "P19-S6"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C19-03",
+      "statement": "Quetelet's l'homme moyen concept took group mean as representative type; this was disputed and influential",
+      "source_ids": [
+        "P19-S1",
+        "P19-S4",
+        "P19-S5"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C19-04",
+      "statement": "Historical Quetelet worked on births mortality and criminal court or social observation statistics",
+      "source_ids": [
+        "P19-S1",
+        "P19-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C19-05",
+      "statement": "Later historiography traces effects of average-type and determinism on psychology and other fields",
+      "source_ids": [
+        "P19-S4"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C19-06",
+      "statement": "Astronomical repeated measurement errors and real between-person variation are not interchangeable",
+      "source_ids": [
+        "P19-S1",
+        "P19-S5"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C19-07",
+      "statement": "Modern sample 10,10,11,19,20,20 has mean 15 and population variance 22; no observation equals 15",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C19-08",
+      "statement": "Mean-minimizes sum of squared errors; pooled mean must weight groups by sample sizes",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C19-09",
+      "statement": "Identical group mean can conceal mixture bimodality and dispersion",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C19-10",
+      "statement": "Counts without denominators or changing reporting mechanisms cannot establish stable rates or causes",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C19-11",
+      "statement": "Descriptive mean and normative ideals or social determinism are different claims not justified by averages",
+      "source_ids": [
+        "P19-S1",
+        "P19-S5"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    }
+  ]
 }

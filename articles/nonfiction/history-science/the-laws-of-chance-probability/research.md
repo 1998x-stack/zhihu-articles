@@ -200,3 +200,31 @@
 ### 门禁与进一步核验
 - 本批未独立完成：原始初印本全部页面的人工对照、全书结构批准、连续性审计、发展性编辑审稿、line-edit和final approval。
 - 维持原 workflow-state.json 的全部 PENDING/false 状态，不得冒称经过正式批准或平台已发布。
+
+## 第18—20章史学资料与数学核验｜2026-11-06
+
+本批为章节研究初稿，只核对本批可见的馆藏书目、专业史学论证和现代公式；不是原始书籍的全部页图校勘、独立审核或作品级终稿。
+
+### 18 泊松1837年与稀有事件近似
+- [P18-S1 泊松1837初版书目](https://books.google.com/books/about/Recherches_sur_la_probabilit%C3%A9_des_jugem.html?id=q4I_AAAAcAAJ)，[P18-S2 Stigler 1982研究与译文](https://jhanley.biostat.mcgill.ca/statbook/StiglerPoisson.pdf)，[P18-S3 MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/)：分布相关推导在原著206页附近一小段，直接处理的是累积近似，不能直接称1837年已建立所有现代泊松分布概念；德莫弗更早相关近似须署名。
+- [P18-S4 Hanley/Bhatnagar 2022史学综述](https://doi.org/10.1080/00031305.2022.2046159)，[P18-S5 Hanley教学史资料](https://www.medicine.mcgill.ca/epidemiology/hanley/Gosset/PoissonThenAndNow.pdf)：后来的泊松应用、模型滥用及1898年Bortkiewicz发展，与泊松1837年研究区分。
+- 现代数学：固定λ=np、n→∞且p=λ/n→0，二项分布第k项→e^-λ λ^k/k!，E[X]=Var(X)=λ；独立泊松计数可相加。λ=2时P0≈.1353，P1=P2≈.2707，P3≈.1804；混合两个50/50环境λ=1与λ=3后均值2但方差3、P0≈.2088。
+- 反例边界：独立性、参数稳定性、观察窗口是否可比需要明确；1898的历史实例不应冒称泊松亲自处理的1837原始数据。课堂设备标记是现代虚构示例。
+
+### 19 凯特勒1835平均人及社会解释争议
+- [P19-S3 Wellcome 1835两卷本书目](https://wellcomecollection.org/works/dt8f77gf)：巴黎Bachelier，1869年以Physique sociale为名再出版；不是同一个严格未改动版本。
+- [P19-S1 SpringerPlus 2015史学文章](https://link.springer.com/article/10.1186/s40064-015-1261-7)、[P19-S2 MacTutor](https://mathshistory.st-andrews.ac.uk/Biographies/Quetelet/)、[P19-S6 Aubin 2014初稿研究](https://www.sciencedirect.com/science/article/pii/S0315086014000020)：天文学误差模式迁移、群体统计与平均人概念形成。
+- [P19-S4 Tafreshi 2022](https://pubmed.ncbi.nlm.nih.gov/34516191/) 与 [P19-S5 Krieger 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3530737/)：历史影响以及把总体平均当作应有标准和社会决定论的认识论风险。
+- 现代演示：10,10,11,19,20,20的算术平均15、总体方差22，但没有任何观察值为15；合并不同样本量的两组须使用加权平均。平均描述≠个体特征的要求；固定数量不代表固定比率或因果机制。
+- 不将历史平均人的描述变成对任何人的外貌、能力或价值的评判。正文虚构的数列与平台数据未冒充凯特勒真实调查。
+
+### 20 比安奈梅—切比雪夫、马尔可夫与李雅普诺夫
+- [P20-S1 MacTutor Bienaymé](https://mathshistory.st-andrews.ac.uk/Biographies/Bienayme/)、[P20-S2 EoM Bienaymé](https://encyclopediaofmath.org/wiki/Bienaym%C3%A9%2C_Iren%C3%A9e-Jules)：1853年先行不等式，1867年切比雪夫法文版本之前重印该论文；不能只归切比雪夫。
+- [P20-S3 MacTutor Chebyshev](https://mathshistory.st-andrews.ac.uk/Biographies/Chebyshev/)、[P20-S4 EoM Chebyshev inequality](https://encyclopediaofmath.org/wiki/Chebyshev_inequality_in_probability_theory)、[P20-S5 Hald数学史书目](https://www.york.ac.uk/depts/maths/histstat/haldcontents.htm)：1867年Des valeurs moyennes、1887年Sur deux théorèmes的出版线索；可能有译本和分卷年份不同的情况。
+- [P20-S6 Mathematics 2025概率史](https://doi.org/10.3390/math13050867)，[P20-S7 EoM Lyapunov theorem](https://encyclopediaofmath.org/wiki/Lyapunov_theorem)，[P20-S8 EoM Markov](https://encyclopediaofmath.org/wiki/Markov%2C_Andrei_Andreevich)：切比雪夫1887中心极限定理证明中条件不足，1898马尔可夫矩方法改进，1901李雅普诺夫特征函数证明；不得把后世完整严格理论冒称为1887原稿。
+- 现代推导：Var finite => P(|X−EX|≥ε)≤Var(X)/ε²；独立且VarXi≤C时P(|mean−mean of expectations|≥ε)≤C/(nε²)。C4 n100得.04上界，n1000得.004；非同分布但独立的0/1变量在交替p=.2/.8下满足Lyapunov δ=1充分条件，粗界≤15.625/sqrt(n)。
+- 相关性反例：所有Xi都复制一个Bernoulli(.5)，均值永远是0或1，不能仅凭重复次数应用独立版大数定律。李雅普诺夫条件仅充分而非必要。
+
+### 工作流门禁与待完成项
+- 保持 `workflow-state.json`: `outline_approved=false`, `evidence_verified=false`, `review_status=PENDING`, `final_approved=false`；现有 chapters 为**研究初稿**。
+- 初版页图抽样核对、来源强度复核、独立 continuity-audit/developmental-editor、line-edit、final-approval 尚待进行。

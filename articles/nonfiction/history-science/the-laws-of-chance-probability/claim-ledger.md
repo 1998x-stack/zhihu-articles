@@ -150,9 +150,42 @@
 | 17 | C17-11 | Independent homoscedastic Gaussian-error maximum likelihood is equivalent to least squares | P17-S8 | SOURCE_SCOPED |
 | 17 | C17-12 | Unequal variances motivate weighted least squares; correlations or model misspecification can invalidate simple claims | 现代数学推导 | INDEPENDENTLY_DERIVED |
 | 17 | C17-13 | Modern normal-equation and residual-orthogonality symbols are later conceptual apparatus | 现代数学推导 | INDEPENDENTLY_DERIVED |
-| 18 | C18-01 | 泊松：泊松分布、稀有事件极限 | 待核对 | UNVERIFIED |
-| 19 | C19-01 | 凯特勒：均值、变异与解释边界 | 待核对 | UNVERIFIED |
-| 20 | C20-01 | 切比雪夫、李雅普诺夫：切比雪夫不等式、中心极限定理 | 待核对 | UNVERIFIED |
+| 18 | C18-01 | Poisson 1837 Bachelier book titled Recherches sur la probabilité des jugements | P18-S1, P18-S2, P18-S3 | SOURCE_SCOPED |
+| 18 | C18-02 | Stigler 1982 translated relevant passages and found Poisson's eponymous law around original p206 rather than central to book | P18-S2 | SOURCE_SCOPED |
+| 18 | C18-03 | Poisson's 1837 argument concerned cumulative near-rare-event approximations, not modern independent mass formula notation | P18-S2 | SOURCE_SCOPED |
+| 18 | C18-04 | De Moivre's earlier eighteenth-century work foreshadowed rare-event approximations; originality attribution is not exclusive | P18-S2 | SOURCE_SCOPED |
+| 18 | C18-05 | Modern binomial-to-Poisson law for n large p=λ/n fixed λ gives P(X=k)→e^-λ λ^k/k! | 现代数学推导 | INDEPENDENT_MATH |
+| 18 | C18-06 | Modern Poisson(2) gives P0=e^-2 P1=2e^-2 P2=2e^-2 and P3=4e^-2/3 | 现代数学推导 | INDEPENDENT_MATH |
+| 18 | C18-07 | Poisson distribution normalizes to one and has expectation and variance λ | 现代数学推导 | INDEPENDENT_MATH |
+| 18 | C18-08 | Mixture of independent Poisson rates 1 and 3 with 50/50 environments has mean 2 variance 3 and P0=(e^-1+e^-3)/2 | 现代数学推导 | INDEPENDENT_MATH |
+| 18 | C18-09 | Independent Poisson variables with means λ1 and λ2 sum to Poisson(λ1+λ2) | 现代数学推导 | INDEPENDENT_MATH |
+| 18 | C18-10 | The short rare-count approximation needs a specified limiting regime; dependence and variable rates can break naive applications | P18-S4 | SOURCE_SCOPED |
+| 18 | C18-11 | Bortkiewicz's 1898 law of small numbers was later expansion and not Poisson's 1837 original demonstration | P18-S4, P18-S5 | SOURCE_SCOPED |
+| 18 | C18-12 | Historical applications across space time need empirical scrutiny and not every low count is Poisson | P18-S4 | SOURCE_SCOPED |
+| 19 | C19-01 | Quetelet published Sur l'homme 1835 in Paris Bachelier as two-volume work; revised as Physique sociale 1869 | P19-S3 | SOURCE_SCOPED |
+| 19 | C19-02 | Quetelet combined astronomical measurement-error analogy with population and social statistics | P19-S1, P19-S2, P19-S6 | SOURCE_SCOPED |
+| 19 | C19-03 | Quetelet's l'homme moyen concept took group mean as representative type; this was disputed and influential | P19-S1, P19-S4, P19-S5 | SOURCE_SCOPED |
+| 19 | C19-04 | Historical Quetelet worked on births mortality and criminal court or social observation statistics | P19-S1, P19-S2 | SOURCE_SCOPED |
+| 19 | C19-05 | Later historiography traces effects of average-type and determinism on psychology and other fields | P19-S4 | SOURCE_SCOPED |
+| 19 | C19-06 | Astronomical repeated measurement errors and real between-person variation are not interchangeable | P19-S1, P19-S5 | SOURCE_SCOPED |
+| 19 | C19-07 | Modern sample 10,10,11,19,20,20 has mean 15 and population variance 22; no observation equals 15 | 现代数学推导 | INDEPENDENT_MATH |
+| 19 | C19-08 | Mean-minimizes sum of squared errors; pooled mean must weight groups by sample sizes | 现代数学推导 | INDEPENDENT_MATH |
+| 19 | C19-09 | Identical group mean can conceal mixture bimodality and dispersion | 现代数学推导 | INDEPENDENT_MATH |
+| 19 | C19-10 | Counts without denominators or changing reporting mechanisms cannot establish stable rates or causes | 现代数学推导 | INDEPENDENT_MATH |
+| 19 | C19-11 | Descriptive mean and normative ideals or social determinism are different claims not justified by averages | P19-S1, P19-S5 | SOURCE_SCOPED |
+| 20 | C20-01 | Bienaymé published antecedent inequality in 1853; Chebyshev applied it in 1867 work | P20-S1, P20-S2, P20-S3 | SOURCE_SCOPED |
+| 20 | C20-02 | 1867 edition printed Bienaymé 1853 material just prior to Chebyshev French article | P20-S1, P20-S2 | SOURCE_SCOPED |
+| 20 | C20-03 | Chebyshev published Des valeurs moyennes 1867 and Sur deux théorèmes 1887 | P20-S3, P20-S5 | SOURCE_SCOPED |
+| 20 | C20-04 | Chebyshev 1887 central-limit approach had incomplete conditions addressed by Markov circa 1898 | P20-S6, P20-S8 | SOURCE_SCOPED |
+| 20 | C20-05 | Lyapunov 1901 proved generalized CLT with sufficient moment condition and characteristic functions | P20-S7, P20-S8 | SOURCE_SCOPED |
+| 20 | C20-06 | Modern Bienaymé-Chebyshev bound P(|X-μ|>=ε)<=Var(X)/ε² holds with finite variance regardless of shape | P20-S4 | SOURCE_SCOPED |
+| 20 | C20-07 | For independent Xi with Var(Xi)<=C, probability mean differs from mean expectations by ε is <=C/(nε²) | 现代数学推导 | INDEPENDENT_MATH |
+| 20 | C20-08 | At C=4 ε=1 n=100 and 1000 these upper bounds are 0.04 and 0.004 | 现代数学推导 | INDEPENDENT_MATH |
+| 20 | C20-09 | Weak law of large numbers concerns mean concentration while CLT concerns distribution of standardized sums | 现代数学推导 | INDEPENDENT_MATH |
+| 20 | C20-10 | Modern Lyapunov sufficient condition sum E|Xi-μi|^(2+δ)/s_n^(2+δ)→0 and independence | P20-S7 | SOURCE_SCOPED |
+| 20 | C20-11 | Alternating Bernoulli 0.2 and 0.8 independent has variance0.16 each and Lyapunov delta1 bound15.625/sqrt(n)→0 | 现代数学推导 | INDEPENDENT_MATH |
+| 20 | C20-12 | Perfectly dependent variables all equal Bernoulli 0.5 cause sample mean to remain 0 or1 regardless of n | 现代数学推导 | INDEPENDENT_MATH |
+| 20 | C20-13 | Modern proof must not be backdated to 1887 or imply all independent variables satisfy CLT | P20-S6, P20-S7 | SOURCE_SCOPED |
 | 21 | C21-01 | 分析学家和概率论研究者：可测性、可数可加性的问题意识 | 待核对 | UNVERIFIED |
 | 22 | C22-01 | 博雷尔、勒贝格：测度、积分、σ代数现代语言 | 待核对 | UNVERIFIED |
 | 23 | C23-01 | 马尔可夫：马尔可夫链、转移概率 | 待核对 | UNVERIFIED |
