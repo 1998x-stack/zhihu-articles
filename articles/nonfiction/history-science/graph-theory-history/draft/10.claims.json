@@ -1,13 +1,116 @@
 {
   "chapter": "10",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S04",
-    "S05",
-    "S09"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "第10章专项历史书目、作者论述及现代证明结构的限定核证；不可避免性和可约性的全部机器校验未在本稿重跑",
+  "claims": [
+    {
+      "claim_id": "GT10-01",
+      "claim": "1976 Appel-Haken证明及公告、1977详细刊印和John Koch署名",
+      "source_ids": [
+        "S56",
+        "S57"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT10-02",
+      "claim": "1852四色起源、1879 Kempe与1890 Heawood历史链",
+      "source_ids": [
+        "S56"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT10-03",
+      "claim": "最小反例与三角剖分的标准证明框架",
+      "source_ids": [
+        "S56",
+        "S58"
+      ],
+      "status": "MODERN_PROOF_SCHEMA"
+    },
+    {
+      "claim_id": "GT10-04",
+      "claim": "可约配置意味着不能出现在最小反例，不等于任意边界着色直接延拓",
+      "source_ids": [
+        "S58",
+        "S60"
+      ],
+      "status": "MODERN_DEFINITION_SCOPED"
+    },
+    {
+      "claim_id": "GT10-05",
+      "claim": "不可避免配置集合与可约配置全部排除共同导出矛盾",
+      "source_ids": [
+        "S58",
+        "S56"
+      ],
+      "status": "MODERN_PROOF_SCHEMA"
+    },
+    {
+      "claim_id": "GT10-06",
+      "claim": "平面三角剖分总电荷Σ(6-deg)=12及放电守恒",
+      "source_ids": [
+        "S56",
+        "S58"
+      ],
+      "status": "MODERN_MATH"
+    },
+    {
+      "claim_id": "GT10-07",
+      "claim": "赫施等先驱、计算机检查局部情况而非穷举所有平面图",
+      "source_ids": [
+        "S56",
+        "S57",
+        "S60"
+      ],
+      "status": "HISTORICAL_AND_LOGICAL"
+    },
+    {
+      "claim_id": "GT10-08",
+      "claim": "原版配置数随预印与最终修订不同，不绝对化",
+      "source_ids": [
+        "S56",
+        "S58"
+      ],
+      "status": "HISTORICAL_CAVEAT"
+    },
+    {
+      "claim_id": "GT10-09",
+      "claim": "Robertson Sanders Seymour Thomas 1997正式发表、633配置，仍用计算机",
+      "source_ids": [
+        "S58"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT10-10",
+      "claim": "Gonthier2004-2005 Coq形式化及基于Robertson证明的贡献",
+      "source_ids": [
+        "S59",
+        "S60"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT10-11",
+      "claim": "计算机辅助证明vs机器逻辑检查、可信计算基础仍有依赖",
+      "source_ids": [
+        "S59",
+        "S60"
+      ],
+      "status": "METHODOLOGY_BOUNDARY"
+    },
+    {
+      "claim_id": "GT10-12",
+      "claim": "四色定理已证明，证明方法争论不等于未解决猜想",
+      "source_ids": [
+        "S56",
+        "S58"
+      ],
+      "status": "EDITORIAL_BOUNDARY"
+    }
+  ]
 }
