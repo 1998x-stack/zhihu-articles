@@ -249,3 +249,46 @@
 - **13** 令 \`x(t)=t²\`, \`y(t)=x(t)³=t⁶\`：\`ẋ=2t\`, \`ẏ=3x²ẋ=6t⁵\`。乘积法则来自小时间增量展开 \`(x+Δx)(y+Δy)\`，忽略二阶项需通过极限条件解释；现代 \`A(x)=x³/3\` 沿时间变化 \`Ȧ=x²ẋ\`，区分时间流数与把x当变量时的导数。与莱布尼茨\`d\`、积分符号的比较留给14章，完整基本定理主角留给15章。
 - **真实性**：不要虚构牛顿身处房间、听到话语、苹果落下即发现微积分，不能将后世牛顿关于优先权的当事人说法视为没有争议的中立旁证。
 - **工作流**：三章为 \`DRAFT_UNREVIEWED\` 候选；整书 \`workflow-state.json\` 的 \`outline_approved=false/evidence_verified=false/review_status=PENDING\` 保持原样，不能宣称已通过正式双审/最终门禁。
+
+
+## 第14—16章｜莱布尼茨符号、微积分基本定理、牛顿—莱布尼茨优先权争论（2026-11-06）
+
+**定位**：接续已完成第11—13章，不修改既定大纲；第14章1675—1686年的手稿与印刷、15章跨1660—1693年历史综合并作现代定理证明、16章1699—1730年优先权争议（重点1708—1715）。11章的格雷戈里/巴罗与13章的牛顿流数并非被取代，而是独立研究、多方向合流。历史人物发明年份、公开出版年份和后来传播分开记录。严禁虚构私下对话或用现代极限定义倒灌17世纪。
+
+### 第14章：微分 d 与求和 ∫
+
+- **H81** MacTutor，[Gottfried Wilhelm von Leibniz](https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/)：“Biography”约第50—82行。1672年到巴黎后接触惠更斯指导；1675年11月21日手稿有积分符号与乘法法则；1676年幂法则；1684《Nova Methodus》在《Acta Eruditorum》刊出，载幂、乘积、商的规则；1686积分文章正式出现积分符号。牛顿与其往来、影响与优先权分开核对。MacTutor认为早期1684文献并不包含完整证明，不可把今日极限证明塞回原文。
+- **H82** Mathematical Association of America，[Mathematical Treasure: Leibniz’s Papers on Calculus — Differential Calculus](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-leibnizs-papers-on-calculus-differential-calculus)，史料图像来自Lilly Library收藏；1684年10月《Acta Eruditorum》pp.467—473、图版XII；原文包含乘积法则、商法则、幂运算。**不在本系列直接复制需许可的原书图版，采用原创数学示意图**。
+- **H83** MAA，[Mathematical Treasure: Leibniz’s Papers on Calculus — Integral Calculus](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-leibnizs-papers-on-calculus-integral-calculus)，1686年6月《Acta Eruditorum》pp.292—300；研究及展示第297页的d、∫互逆论述：*summae & differentiae seu ∫ & d, reciprocae sunt*。源说明该篇已讨论后来称为基本定理的关系，**但不能将其当作包含现代所有可积性/连续性限制的定理**。
+- **H84** Stanford Encyclopedia of Philosophy，[Continuity and Infinitesimals](https://plato.stanford.edu/entries/continuity/)，历史章节对莱布尼茨微分公式 \(d(xy)=x\,dy+y\,dx\)、商法则、幂法则及无穷小基础争议有讨论；1684论文没有用后来的ε–δ导数定义。
+- **H85** MAA，[Mathematical Treasure: Leibniz’s Papers on Calculus — Fundamental Theorem](https://old.maa.org/node/641733)，1693年9月《Acta Eruditorum》*Supplementum Geometriae Dimensoriae*，把求积归约为已知切线条件求曲线；MAA明示其现代回译接近用原函数求定积分。**1693不是1686首创二者联系的唯一时间节点**。
+- **H86** Samuel V. Lemley，[Printing Leibniz’s Calculus: Dating and Numbering the Editions of the Nova Methodus pro Maximis et Minimis (October 1684)](https://academic.oup.com/library/article-abstract/22/2/177/6296003)，*The Library* 22(2), 2021, 177—196；文章提示1684《Acta》存世版本可能有三种印刷形态，适合史料出版史，不作为微分公式的数学证明。
+- **H87** MAA，[Mathematical Treasure: Leibniz’s Papers on Calculus](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-leibnizs-papers-on-calculus)，1675年记号手稿与1684/1686/1693原著简介，提示 ∫ 来自长形S表示求和。不要声称1675年现代形式所有定积分符号已完备。
+
+### 第15章：现代定理与17世纪前史
+
+- **H88** OpenStax，[Calculus Volume 1 §5.3 The Fundamental Theorem of Calculus](https://openstax.org/books/calculus-volume-1/pages/5-3-the-fundamental-theorem-of-calculus)：严格分为第一部分 \(F(x)=\int_a^x f(t)\,dt\Rightarrow F'=f\)（连续f，在内部）、第二部分 \(\int_a^b f(t)\,dt=G(b)-G(a)\)（原函数G）；注意“定积分”可以是有向/带符号面积。
+- **H89** MIT OpenCourseWare，[RES.18-001 Calculus Full Textbook](https://ocw.mit.edu/courses/res-18-001-calculus-fall-2023/mitres_18_001_f17_full_book.pdf)，§5C：连续f的平均值与新增面积差商证明，非连续阶跃函数反例。**如果阅读影印页须截图验证；此处仅以网页搜索中已可见抽取文本为依据，没有声称逐页视觉检查PDF**。
+- **H90** MacTutor，[Calculus history — The rise of calculus](https://mathshistory.st-andrews.ac.uk/HistTopics/The_rise_of_calculus/)，英国、欧洲两条路线，以及1666年牛顿手稿反求流数与求积联系，注意史家归属表述的差异。
+- **H91** M. Nauenberg，[Barrow, Leibniz and the Geometrical Proof of the Fundamental Theorem of the Calculus](https://pubmed.ncbi.nlm.nih.gov/24908795/)，*Annals of Science* 71(3), 2014, 335—354，摘要比较巴罗1670《Lectiones Geometricae》讲十命题十一与莱布尼茨1693几何论证；提供**相关性证据与个别史家解释**，不据此断言莱布尼茨所有微积分思想来自巴罗。
+- **H92** Cambridge UP，[Sources in the Development of Mathematics](https://www.cambridge.org/core/books/sources-in-the-development-of-mathematics/9BD14FAA011A23527C658240BC0F84D2/listing?pageNum=2)，17世纪1660年代材料综述：格雷戈里和巴罗用几何，牛顿更代数化地表述切线—求积的反向联系。历史功劳是多人的，不写成单人一天从零创建现代定理。
+- **H93** MAA，[Leibniz’s Integral Calculus 1686](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-leibnizs-papers-on-calculus-integral-calculus)，第297页有d和∫互逆的原文段；连同H85的1693论证形成时间层次。
+
+### 第16章：争议与证据
+
+- **H94** Niccolò Guicciardini，[The Newton–Leibniz Calculus Controversy, 1708–1730](https://academic.oup.com/edited-volume/34749/chapter-abstract/296599634)，*Oxford Handbook of Newton* (2017)，章节摘要明确1708开尔批评、争论政治背景、方法理念差异；该文综合史料认为牛顿1660年代先完成研究、莱布尼茨1672—1676独立形成方法且1680年代先公开发表。**1708稿件与1710公开印行的时间标记宜说明，不把两者当作矛盾。**
+- **H95** Oxford Handbook of Leibniz，[Life and Works](https://academic.oup.com/edited-volume/34667/chapter/295383476)，学术史料概述皇家学会委员会审议、牛顿参与甚至主导报告文本，1713文集印行，并指出现存莱布尼茨手稿支持其独立发现；是否有材料借鉴和方法来源的争论，不与“抄袭整套微积分”混同。
+- **H96** Newton Project，[The Life and Work of Isaac Newton at a Glance](https://www.newtonproject.ox.ac.uk/his-life-and-work-at-a-glance)，时间线：1699 Fatio指控、1712皇家学会报告、1713《Commercium Epistolicum》刊出、1715牛顿匿名评论、1716莱布尼茨去世。**报告与最终印行相隔时间必须分开**；含争论一方的机构角度，需其他来源对照。
+- **H97** AMS Notices，[The Rise of Calculus](https://doi.org/10.1090/noti2593)，2022综述：1664—1666牛顿流数研究、1672—1676莱布尼茨独立发展、1676经Oldenburg转交两封信（6月13日、10月24日），1684/1686莱布尼茨论文先行公开发表，不能根据通信存在就推断“肯定抄袭”。
+- **H98** A. Rupert Hall，[Fluxions and Fury, 1677–1712](https://www.cambridge.org/core/books/abs/isaac-newton/fluxions-and-fury-16771712/C6B885AE943E040FCD8C8C160B57C5D3)，Cambridge UP，旧联络人Oldenburg 1677去世、英欧交流中断，早期Collins等曾承认莱布尼茨自己得出部分结论；支持“通信／传播”区别。
+- **H99** Newton Project，[An account of the Commercium Epistolicum（diplomatic transcript）](https://newtonproject.ox.ac.uk/view/texts/diplomatic/NATP00352)，当事人视角的委员会报告解释，不能作为独立的中立终审。
+- **H100** Newton Project，[Isaac Newton（关于Commercium的早期记录）](https://newtonproject.ox.ac.uk/view/texts/normalized/OTHE00076)，后世传记转写保存委员会报告引文及1713年1月8日文集的出版/呈递细节；**史料来源为后世转写，材料与叙述者都需要明确**。
+- **H101** MAA，[The 1684/1686 Leibniz papers](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-leibnizs-papers-on-calculus)，印刷文章本身的书目信息；优先权比较中，**首次系统公开刊出微分及积分方法**不等于“全部数学贡献只能归莱布尼茨”。
+
+### 章节逻辑与数学核查
+
+- **14**：从记号不是标签而是运算规则出发，取 \(y=x^2(x+1)\)，两条路线：\(d(x^3+x^2)=(3x^2+2x)dx\)；或 \(d(uv)=u\,dv+v\,du\) 得 \((3x^2+2x)dx\)。取 \(y=\sqrt{x}\) 于 \(x>0\)，\(dy/dx=1/(2\sqrt x)\)。求积例 \(\int 2x\,dx=x^2+C\)。代数省略高阶小量的现代严密解释须注明。
+- **15**：若f在[a,b]连续，第一部分 \(A(x)=\int_a^x f(t)dt\Rightarrow A'(x)=f(x)\)，用 \(m_h\le(A(x+h)-A(x))/h\le M_h\) 对h>0及h<0分析；第二部分若G'=f则积分=G(b)-G(a)。示例 \(\int_0^2(3x^2+2)\,dx=[x^3+2x]_0^2=12\)。函数跳变示例 \(f(t)=0\ (t<0),1\ (t\ge0)\)：从-1积到x的A在0为折点，无经典导数。强调**有向累计与几何面积不同**。
+- **16**：不做“根据公式表象判抄袭”的伪证据；比较相同 \(y=x^2\) 时 \(dy=2x\,dx\)、\(\dot y=2x\dot x\)（链式表达在\(\dot x\ne0\)时可比较斜率），展示数学一致但研究语言不同；用明确年份分隔“发明/研究”“公开发表”“争议机构裁定”。现代专业史家依据存世手稿倾向承认独立发现；不可把皇家学会报告当作中立终审，也不可否定牛顿1660年代的历史先行研究。
+
+**状态**：仅研究已核查的出处/出处范围与数学复核，交付正文属于 \`DRAFT_UNREVIEWED\`。整书 \`workflow-state.json\` 必须保持 \`outline_approved=false/evidence_verified=false/review_status=PENDING\`，不得声称未经双审已经终审批准。
