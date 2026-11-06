@@ -1,16 +1,16 @@
 {
   "schema_version": "2.0",
   "lane": "nonfiction",
-  "current_revision": 1,
+  "current_revision": 2,
   "outline_approved": true,
   "evidence_verified": true,
-  "review_status": "PASS",
-  "reviewed_revision": 1,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
   "evidence_scope": "序章00及第01—15章、尾声16共17份正文均完成章级前置核证；最终批次G15-01—G15-22及G16-01—G16-22已映射来源；下一步全书独立双审",
-  "approval_scope": "revision 1的continuity-audit与developmental-editor两份不同的复审报告均为PASS且版号一致，允许进入line-edit；尚未生成edited.md及正式终审许可。",
-  "note": "rev1双审通过：qa/continuity-report.md和qa/developmental-review.md均为revision_count:1/status:PASS；306个主张编号在revised.md保留。接下来进行line-edit，正式本地workflow_gate.py尚未运行，未生成终稿。",
-  "revision_reason": "修复首轮审稿C-01—C-04及D-01—D-06；新增S87并将17章初稿构造成可复审revised.md。"
+  "approval_scope": "revision 2 revised.md + research.md + book.json + G05-04映射须重新分别完成连续性审计与结构审稿。审稿PASS之前不允许line-edit/final-approval。",
+  "note": "2026-11-06：经独立结构审稿，rev1因S87链接失效需修订；rev2已在editorial分支修复来源和导航元数据，保留306条历史主张，当前待双审。",
+  "revision_reason": "DR1-01 修复S87书目404、DR1-02修复book.json阅读状态及rev2附录工作流说明；旧双审结论失效"
 }
