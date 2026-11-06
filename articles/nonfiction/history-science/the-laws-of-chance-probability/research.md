@@ -52,3 +52,33 @@
 - 本次只核第02章；全书 research.md 仍有大量章节未核实。
 - 因此保留原有 workflow-state.json 的 outline_approved=false、evidence_verified=false、review_status=PENDING。
 - 第02章可视为“来源支持的研究初稿”，尚未独立通过仓库的 draft/edit/final 发布门禁。
+
+
+## 第03—05章专项史料与数学证据（2026-11-06）
+
+> 三章均为**研究支持的初稿**，尚非正式通过审稿的非虚构文章。真实人物不虚构对话、心理，现代符号均标“教学重述”；本增量研究并不意味着全书 research 通过。
+
+### 第03章：卡尔达诺
+- [P03-S1 Stedall, Early Probability](https://academic.oup.com/book/54978/chapter-abstract/422783805)：指出16世纪早期系统计数及1663年逝后发表；约1526是部分史学研究的写作断代。
+- [P03-S2 Stigler, Is probability easier now than in 1560?](https://onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2015.00869.x)：描述约1560年写作、1663年出版；两骰36、三骰216的和值计数与复杂子集计数错误。
+- [P03-S3 Bellhouse, Decoding Cardano's Liber de Ludo Aleae](https://doi.org/10.1016/j.hm.2004.04.001)：认为公平与知识是理解全文的重要脉络，并讨论较长写作过程。
+- [P03-S4 ETH Zürich Library: From games of chance to probability theory](https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html)：更早中世纪骰子枚举文本传统。
+- **争议**：本章不得锁定1526或1560为唯一准确成文年；不应把1663印本误当1654年通信可直接参考的教科书。第03章的11/36、91/216、二骰和值表属于后世记号下的独立数学重述，非卡尔达诺原文公式。
+
+### 第04章：伽利略
+- [P04-S1 Galileo, Sopra le scoperte dei dadi, Opere vol.8 (1898) pp.591–594; York transcription](https://www.york.ac.uk/depts/maths/histstat/galileo.htm)：讨论三骰和值9、12与10、11的频率差异及排列计数。
+- [P04-S2 ETH Zürich Library](https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html) 与 [P04-S3 Stigler](https://onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2015.00869.x)：三骰计数的前史与卡尔达诺成果。
+- **数学复核**：和值9不计排列六组、对应排列数6+6+3+3+6+1=25；和值10六组、对应6+6+3+6+3+3=27；总基本结果6³=216；镜像变换 x→7−x 得和值 s→21−s。
+- **待核**：原始手稿确切成文日未作断言；1898年全集文本还可补原版页图核验。216次试验的实际频数不保证等于模型期望25/27。
+
+### 第05章：1654年通信
+- [P05-S1 1654年7月29日帕斯卡致费马信，法文文献转写](https://fr.wikisource.org/wiki/%C5%92uvres_de_Blaise_Pascal/Lettre_de_Pascal_%C3%A0_Fermat_%2829_juillet_1654%29/Lettre)：两人先胜三场、当下2:1、总额64，分配为48:16；2:0时56:8；1:0时44:20。
+- [P05-S2 Pulskamp, Fermat historical correspondence commentary](https://www.gtfp.cs.rhul.ac.uk/pulskamp/Fermat/fermat.html)：通信的保存状况、费马的穷举序列法、帕斯卡/罗贝瓦尔的异议及费马解释。
+- [P05-S3 Stedall, Early Probability](https://academic.oup.com/book/54978/chapter-abstract/422783805) 与 [P05-S4 ETH Zürich Library](https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html)：前史与1654年节点。
+- [P05-S5 Ore, 1960论文（史学延伸阅读）](https://www.ms.uky.edu/~dmu228/ma320/pascal_invention_probability.pdf)：列为延伸参考，**未声称本轮逐页检查PDF原文**。
+- **数学复核**：先胜3场，已2:1时甲(64+32)/2=48；已2:0时甲(64+48)/2=56；已1:0时甲(56+32)/2=44。额外现代示例甲还需2胜乙还需3胜，最大补足4轮，甲有C(4,2)+C(4,3)+C(4,4)=11种/16；不是历史信件的逐字题目。
+- **史实边界**：不可用“1654年才首次想到概率问题”抹除前人；不将丢失书信编造为确实存在的逐字对白。
+
+### 本批审校门禁
+- 以上标记的 SOURCED、DERIVED 只对应**特定段落和数学命题**，不代表该章通过独立审稿/全书事实核验。
+- 仓库的 workflow-state.json 仍应保留 outline_approved=false、evidence_verified=false、review_status=PENDING；正式审稿仍需 continuity-audit 和 developmental-editor。

@@ -1,6 +1,92 @@
 {
   "chapter_id": "04",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "sources": [
+    {
+      "source_id": "P04-S1",
+      "title": "Galileo, Sopra le scoperte dei dadi, English transcription of Opere vol.8 (1898)",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/galileo.htm",
+      "kind": "primary_transcription"
+    },
+    {
+      "source_id": "P04-S2",
+      "title": "ETH Zurich Library, probability historical exhibit",
+      "url": "https://library.ethz.ch/en/collections-and-archives/platforms/virtual-exhibitions/Its-all-math-and-games/game-types/from-games-of-chance-to-probability-theory.html",
+      "kind": "historical_exhibit"
+    },
+    {
+      "source_id": "P04-S3",
+      "title": "Stephen M. Stigler (2015), Cardano dice counts",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1740-9713.2015.00869.x",
+      "kind": "scholarly_analysis"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C04-01",
+      "statement": "Galileo's Sopra le scoperte dei dadi is represented in Opere vol.8 (1898) pp.591-594",
+      "source_ids": [
+        "P04-S1"
+      ],
+      "category": "primary_transcription",
+      "verification": "TRANSCRIPTION_METADATA_CHECKED",
+      "caution": "Exact original manuscript year not asserted"
+    },
+    {
+      "claim_id": "C04-02",
+      "statement": "Galileo treated three-dice sums 9/12 versus 10/11 and observed equal unordered types but differing multiplicities",
+      "source_ids": [
+        "P04-S1"
+      ],
+      "category": "primary_text",
+      "verification": "SUPPORTED_BY_INDEXED_TRANSCRIPTION",
+      "caution": "Original facsimile not independently page-checked"
+    },
+    {
+      "claim_id": "C04-03",
+      "statement": "Unordered representations of sums 9 and 10 number six each but ordered outcome counts are 25 and 27",
+      "source_ids": [
+        "P04-S1"
+      ],
+      "category": "historical_math",
+      "verification": "SOURCE_PLUS_INDEPENDENT_ENUMERATION",
+      "caution": "Permutations 6,3,1; no invented original notation"
+    },
+    {
+      "claim_id": "C04-04",
+      "statement": "Three independent fair dice have 216 equally likely ordered results and probabilities 25/216 vs 27/216",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "caution": "Not automatically the frequency in any fixed number of trials"
+    },
+    {
+      "claim_id": "C04-05",
+      "statement": "Replacing each face x by 7-x gives a bijection between sum s and 21-s",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "caution": "Modern reformulation, not original quote"
+    },
+    {
+      "claim_id": "C04-06",
+      "statement": "Pre-Galileo three-dice counts are documented in medieval text traditions",
+      "source_ids": [
+        "P04-S2",
+        "P04-S3"
+      ],
+      "category": "historiography",
+      "verification": "CORROBORATED",
+      "caution": "Not a single-inventor narrative"
+    },
+    {
+      "claim_id": "C04-07",
+      "statement": "216 trials have expected counts 25 and 27 for sums 9 and 10, not guaranteed realized frequencies",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "caution": "Assumes identical independent repetitions"
+    }
+  ]
 }

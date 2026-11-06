@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "the-laws-of-chance-probability",
-  "reading_notice": "第02章为来源支持的研究初稿，尚未通过工作流门禁/审稿；其余章节为写作占位。",
+  "reading_notice": "第02—05章为来源支持的研究初稿，尚未通过仓库独立审稿或正式封版；其余章节为写作占位。",
   "chapters": [
     {
       "id": "prologue",
@@ -29,21 +29,21 @@
       "title": "卡尔达诺的手稿：把不可预测拆成可数结果",
       "part": "第1部｜偶然第一次被计算",
       "file": "draft/03.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-04",
       "title": "伽利略的三枚骰子：为什么两个和值不一样常见",
       "part": "第1部｜偶然第一次被计算",
       "file": "draft/04.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-05",
       "title": "1654年的通信：帕斯卡与费马重新解决公平问题",
       "part": "第2部｜公平成为一门数学",
       "file": "draft/05.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-06",
