@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "08",
+  "claims": [
+    {
+      "claim_id": "NS-08-01",
+      "type": "historical_fact",
+      "statement": "Mark Granovetter published The Strength of Weak Ties in AJS 78(6), May 1973, pages 1360-1380",
+      "source_ids": [
+        "S49"
+      ],
+      "locator": "Original scanned journal p1360; publisher metadata",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-08-02",
+      "type": "historical_fact",
+      "statement": "The 1973 article frames interpersonal network analysis as micro-to-macro sociological linkage",
+      "source_ids": [
+        "S49"
+      ],
+      "locator": "pp1360-1361 opening argument",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-08-03",
+      "type": "historical_definition",
+      "statement": "Tie strength conceptualized using time, emotional intensity, intimacy, reciprocal services; relationships assumed positive and symmetric for essay",
+      "source_ids": [
+        "S49"
+      ],
+      "locator": "p1361 text and note 2",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-08-04",
+      "type": "historical_hypothesis",
+      "statement": "Strong ties tend to involve more neighborhood overlap; the missing B-C tie despite strong A-B and A-C is treated as improbable, idealized as absent in a thought argument",
+      "source_ids": [
+        "S49"
+      ],
+      "locator": "pp1362-1363 forbidden triad and explicit exaggeration",
+      "verification_status": "primary_source_checked_with_assumptions"
+    },
+    {
+      "claim_id": "NS-08-05",
+      "type": "historical_definition",
+      "statement": "Bridge vs local bridge; a local bridge's endpoints have alternate shortest path longer than two when that edge is removed",
+      "source_ids": [
+        "S49"
+      ],
+      "locator": "pp1364-1365 original Fig2 and local bridge degree",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-08-06",
+      "type": "historical_caveat",
+      "statement": "Weak ties are not necessarily local bridges; claim that no strong tie is a bridge needs structural assumptions",
+      "source_ids": [
+        "S49",
+        "S51"
+      ],
+      "locator": "1973 p1364 caveats and 1983 retrospective p229",
+      "verification_status": "supported_with_qualification"
+    },
+    {
+      "claim_id": "NS-08-07",
+      "type": "historical_data",
+      "statement": "1973 paper reports N=54 contact-mediated job changers: 16.7% frequent, 55.6% occasional, 27.8% rare contact",
+      "source_ids": [
+        "S49"
+      ],
+      "locator": "p1371 labor-market study",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-08-08",
+      "type": "historical_data_scope",
+      "statement": "1973 footnote: N54 arises from in-person subsample of 100 out of 282; contact frequency proxy is not full tie-strength measure",
+      "source_ids": [
+        "S49"
+      ],
+      "locator": "p1371 footnotes 15-16",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-08-09",
+      "type": "historical_counterargument",
+      "statement": "1973 paper considers weak-tie abundance as alternative to special bridge function, lacking baseline population contact frequencies",
+      "source_ids": [
+        "S49"
+      ],
+      "locator": "p1373 footnote 18",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-08-10",
+      "type": "historical_context",
+      "statement": "Getting a Job is a separate 1974 volume and 1983 revisited article not identical to 1973 paper",
+      "source_ids": [
+        "S50",
+        "S51"
+      ],
+      "locator": "1974 bibliographic record; 1983 journal",
+      "verification_status": "bibliography_checked"
+    },
+    {
+      "claim_id": "NS-08-11",
+      "type": "illustration",
+      "statement": "A-C-D-E-B local bridge example and two triangles joined by one edge are author-invented teaching networks, not archival study participants",
+      "source_ids": [],
+      "locator": "chapter original finite graph deductions",
+      "verification_status": "mathematically_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Full-series outline_approved/evidence_verified still false; writing is research draft only.",
+    "Independent continuity audit and developmental review required before copy editing or final publishing.",
+    "Where original scanned text was consulted, verify pagination, edition and citation snippets in formal fact-edit pass."
+  ]
+}

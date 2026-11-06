@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "09",
+  "claims": [
+    {
+      "claim_id": "NS-09-01",
+      "type": "historical_fact",
+      "statement": "Freeman centrality paper was published in Social Networks 1(3) 1978-1979 pp215-239",
+      "source_ids": [
+        "S52"
+      ],
+      "locator": "p215 original scanned header",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-09-02",
+      "type": "historical_fact",
+      "statement": "Freeman reports earlier Bavelas 1948, Leavitt 1949/1951 and inconsistent small group communication results accumulated in 1950s-60s",
+      "source_ids": [
+        "S52",
+        "S32",
+        "S34"
+      ],
+      "locator": "pp215-216 introductory historical survey",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-09-03",
+      "type": "historical_synthesis",
+      "statement": "Freeman distinguishes three intuitions degree, closeness, betweenness for point centrality and separates absolute, relative and graph-level measures",
+      "source_ids": [
+        "S52"
+      ],
+      "locator": "p215 abstract, pp217-230 sections",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-09-04",
+      "type": "historical_definition",
+      "statement": "Graph centralization normalized sum of differences to maximum among graphs of same order",
+      "source_ids": [
+        "S52"
+      ],
+      "locator": "p228 eq and prose",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-09-05",
+      "type": "mathematical_derivation",
+      "statement": "For undirected simple graphs n>=3, degree centralization uses sum(kmax-ki)/((n-1)(n-2))",
+      "source_ids": [
+        "S52"
+      ],
+      "locator": "pp229-230 star graph denominator derivation",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-09-06",
+      "type": "mathematical_example",
+      "statement": "Five-node star degree vector 4,1,1,1,1 gives centralization 1; five-node cycle all degree2 gives 0",
+      "source_ids": [],
+      "locator": "author example direct calculation",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-09-07",
+      "type": "mathematical_example",
+      "statement": "Five-node path degree 1,2,2,2,1 gives centralization 1/6; star and path both 4 edges",
+      "source_ids": [],
+      "locator": "direct calculation for 5 vertices",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-09-08",
+      "type": "mathematical_caveat",
+      "statement": "Degree, closeness and betweenness reflect different properties, not necessarily actual leadership, causal influence or value",
+      "source_ids": [
+        "S52"
+      ],
+      "locator": "Freeman interpretability and experiments sections",
+      "verification_status": "qualified_inference"
+    },
+    {
+      "claim_id": "NS-09-09",
+      "type": "model_boundary",
+      "statement": "Disconnected, directed and weighted graph settings require separate conventions and cannot re-use simple undirected formulas without adjustment",
+      "source_ids": [
+        "S52",
+        "S55"
+      ],
+      "locator": "mathematical definitions and caveats",
+      "verification_status": "modern_explanatory_limit"
+    }
+  ],
+  "outstanding_checks": [
+    "Full-series outline_approved/evidence_verified still false; writing is research draft only.",
+    "Independent continuity audit and developmental review required before copy editing or final publishing.",
+    "Where original scanned text was consulted, verify pagination, edition and citation snippets in formal fact-edit pass."
+  ]
+}
