@@ -10,6 +10,7 @@
   <link rel="icon" href="{{ROOT}}assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="{{ROOT}}assets/css/main.css">
   <link rel="stylesheet" href="{{ROOT}}assets/css/reader.css">
+  <link rel="stylesheet" href="{{ROOT}}assets/css/reader-apple.css">
   <script>
     window.MathJax = {
       tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']], processEscapes: true },
@@ -29,8 +30,11 @@
       <a class="reader-book-link" href="{{BOOK_HREF}}">{{BOOK_TITLE}}</a>
     </div>
     <div class="reader-header-actions">
+      <span class="reader-current-section" id="reader-current-section" aria-hidden="true"></span>
+      <span class="reader-reading-percent" id="reading-percent" aria-label="阅读进度">0%</span>
       <button type="button" class="reader-icon-button font-minus" aria-label="减小字号" title="减小字号">A−</button>
       <button type="button" class="reader-icon-button font-plus" aria-label="增大字号" title="增大字号">A+</button>
+      <button type="button" class="reader-icon-button type-toggle" aria-label="切换为无衬线正文字体" aria-pressed="false" title="切换正文字体">Aa</button>
       <button type="button" class="reader-icon-button theme-toggle" aria-label="切换深浅色主题" title="切换深浅色主题">☼</button>
       <button type="button" class="reader-icon-button toc-toggle" id="toc-toggle" aria-label="显示章节目录" aria-controls="reader-sidebar" aria-expanded="false">☰</button>
     </div>

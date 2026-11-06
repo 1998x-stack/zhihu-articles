@@ -373,7 +373,7 @@ def build(output: Path, external_root: Path | None = None,
         shutil.rmtree(out)
     (out / "assets/data").mkdir(parents=True)
     (out / "assets/covers").mkdir(parents=True)
-    for file in ("index.html", "assets/css/main.css", "assets/css/reader.css",
+    for file in ("index.html", "assets/css/main.css", "assets/css/reader.css", "assets/css/reader-apple.css",
                  "assets/js/app.js", "assets/js/reader.js", "assets/favicon.svg"):
         target = out / file
         target.parent.mkdir(parents=True, exist_ok=True)
