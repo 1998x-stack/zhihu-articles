@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "id": "linear-algebra-history",
+  "title": "从方程到空间：一部线性代数思想发展史",
+  "reading_notice": "所有章节均为策划占位，不是完成的正文；尚未通过正式事实核验与审稿。",
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "序章｜1858年，一张表格开始会相乘",
+      "part": "序章／尾声",
+      "file": "draft/00.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-01",
+      "title": "《九章算术》：没有字母的三元一次方程",
+      "part": "第一部｜方程的困境",
+      "file": "draft/01.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-02",
+      "title": "从算筹到字母：未知数怎样获得名字",
+      "part": "第一部｜方程的困境",
+      "file": "draft/02.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-03",
+      "title": "高斯之前已有消元：谁把方程排成阶梯",
+      "part": "第一部｜方程的困境",
+      "file": "draft/03.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-04",
+      "title": "当方程互相矛盾：最小二乘如何救场",
+      "part": "第一部｜方程的困境",
+      "file": "draft/04.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-05",
+      "title": "关孝和与莱布尼茨：两条行列式的早期道路",
+      "part": "第二部｜行列式的诞生",
+      "file": "draft/05.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-06",
+      "title": "克拉默：一眼写出所有未知数的代价",
+      "part": "第二部｜行列式的诞生",
+      "file": "draft/06.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-07",
+      "title": "拉普拉斯：大行列式怎样拆成小问题",
+      "part": "第二部｜行列式的诞生",
+      "file": "draft/07.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-08",
+      "title": "柯西与雅可比：从公式迈向行列式理论",
+      "part": "第二部｜行列式的诞生",
+      "file": "draft/08.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-09",
+      "title": "笛卡尔：让几何学开始说代数的语言",
+      "part": "第三部｜空间被重新发明",
+      "file": "draft/09.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-10",
+      "title": "莫比乌斯与贝拉维蒂斯：方向也能相加吗",
+      "part": "第三部｜空间被重新发明",
+      "file": "draft/10.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-11",
+      "title": "哈密顿：乘法为什么突然不交换",
+      "part": "第三部｜空间被重新发明",
+      "file": "draft/11.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-12",
+      "title": "格拉斯曼1844：空间为什么不必三维",
+      "part": "第三部｜空间被重新发明",
+      "file": "draft/12.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-13",
+      "title": "西尔维斯特：矩阵先有名字，还是先有理论",
+      "part": "第四部｜矩阵成为对象",
+      "file": "draft/13.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-14",
+      "title": "凯莱1858：两次变换为什么可以相乘",
+      "part": "第四部｜矩阵成为对象",
+      "file": "draft/14.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-15",
+      "title": "凯莱—哈密顿：矩阵满足自己的方程吗",
+      "part": "第四部｜矩阵成为对象",
+      "file": "draft/15.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-16",
+      "title": "弗罗贝尼乌斯与秩：变换究竟保留什么",
+      "part": "第四部｜矩阵成为对象",
+      "file": "draft/16.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-17",
+      "title": "欧拉与拉格朗日：旋转物体的隐藏方向",
+      "part": "第五部｜寻找不变的方向",
+      "file": "draft/17.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-18",
+      "title": "柯西1829：寻找不改变方向的向量",
+      "part": "第五部｜寻找不变的方向",
+      "file": "draft/18.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-19",
+      "title": "若尔当1870：不能对角化怎么办",
+      "part": "第五部｜寻找不变的方向",
+      "file": "draft/19.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-20",
+      "title": "希尔伯特与施密特：无限维也能谈谱吗",
+      "part": "第五部｜寻找不变的方向",
+      "file": "draft/20.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-21",
+      "title": "达布与皮亚诺：向量到底是什么",
+      "part": "第六部｜向量空间的公理化",
+      "file": "draft/21.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-22",
+      "title": "基与维数：坐标变化后什么仍然相同",
+      "part": "第六部｜向量空间的公理化",
+      "file": "draft/22.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-23",
+      "title": "埃米·诺特：向量空间为何只是一个特例",
+      "part": "第六部｜向量空间的公理化",
+      "file": "draft/23.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-24",
+      "title": "巴拿赫：无限维的长度和收敛",
+      "part": "第六部｜向量空间的公理化",
+      "file": "draft/24.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-25",
+      "title": "精确公式为什么算错：数值稳定性的危机",
+      "part": "第七部｜计算机重写算法",
+      "file": "draft/25.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-26",
+      "title": "奇异值分解：非方阵怎样找到特殊方向",
+      "part": "第七部｜计算机重写算法",
+      "file": "draft/26.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-27",
+      "title": "豪斯霍尔德：如何用反射稳定计算",
+      "part": "第七部｜计算机重写算法",
+      "file": "draft/27.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-28",
+      "title": "弗朗西斯与库布拉诺夫斯卡娅：QR迭代",
+      "part": "第七部｜计算机重写算法",
+      "file": "draft/28.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-29",
+      "title": "皮尔逊到霍特林：数据的主要方向",
+      "part": "第八部｜线性代数走向世界",
+      "file": "draft/29.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-30",
+      "title": "马尔可夫链到PageRank：网页怎样排序",
+      "part": "第八部｜线性代数走向世界",
+      "file": "draft/30.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-31",
+      "title": "量子力学：为什么状态需要线性算子",
+      "part": "第八部｜线性代数走向世界",
+      "file": "draft/31.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-32",
+      "title": "机器学习：矩阵为何仍是基础语言",
+      "part": "第八部｜线性代数走向世界",
+      "file": "draft/32.md",
+      "status": "outline"
+    },
+    {
+      "id": "epilogue",
+      "title": "尾声｜从三元方程到高维世界",
+      "part": "序章／尾声",
+      "file": "draft/33.md",
+      "status": "outline"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+title: "从方程到空间：一部线性代数思想发展史"
+subtitle_en: "From Equations to Spaces: A History of Linear Algebra"
+slug: "linear-algebra-history"
+genre: "genre-history-science"
+fictionality: "nonfiction"
+format: "serial-narrative-nonfiction-book"
+status: "outlined"
+target_words: 180000
+chapters: 32
+parts: 8
+summary: "八部三十二章，追溯消元、行列式、向量、矩阵、特征值、公理化与数值线性代数的交叉发展。现阶段仅完成系列设计与章节占位。"
+tags: ["线性代数", "数学史", "数学思想史", "矩阵", "向量空间", "知识叙事"]
+sources_required: true
+review_date: null
