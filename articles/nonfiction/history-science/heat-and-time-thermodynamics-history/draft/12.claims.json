@@ -1,7 +1,253 @@
 {
   "chapter": "12",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅第12章21条核心主张的前置证据核对；正文初稿仍待写，独立审稿未做，14—33章不受覆盖",
+  "claims": [
+    {
+      "claim_id": "T12-01",
+      "claim": "克劳修斯1865把熵与演化方向联系，但未建立后来概率微观理论",
+      "type": "historical",
+      "source_ids": [
+        "R83",
+        "R89"
+      ],
+      "locator": "1865 p59/SEP",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-02",
+      "claim": "热自发从高温端传向低温端有宏观方向性",
+      "type": "modern_fact",
+      "source_ids": [
+        "R89",
+        "R87"
+      ],
+      "locator": "自发传热",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-03",
+      "claim": "两个温度固定的热库热量Q从热端去冷端，ΔShot=−Q/Th, ΔScold=+Q/Tc",
+      "type": "modern_formula",
+      "source_ids": [
+        "R87"
+      ],
+      "locator": "OpenStax 4.6",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-04",
+      "claim": "热库400K、300K、Q=60J，ΔStotal=+0.05J/K属现代算例",
+      "type": "editorial_example",
+      "source_ids": [
+        "R87"
+      ],
+      "locator": "算术计算及条件",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-05",
+      "claim": "若有限热库温度变化，不能用固定温度除数计算全过程",
+      "type": "modern_boundary",
+      "source_ids": [
+        "R87"
+      ],
+      "locator": "积分温度变化",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-06",
+      "claim": "孤立整体ΔS≥0且可逆极限为等号，子系统可以减少",
+      "type": "modern_theory",
+      "source_ids": [
+        "R87",
+        "R89"
+      ],
+      "locator": "系统及环境",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-07",
+      "claim": "冰箱可使冷端局部熵降低，须考虑功与外界总熵",
+      "type": "modern_example",
+      "source_ids": [
+        "R87",
+        "R81"
+      ],
+      "locator": "热泵边界",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-08",
+      "claim": "无传热绝热并不必熵恒定，过程需可逆才恒定",
+      "type": "modern_theory",
+      "source_ids": [
+        "R88",
+        "R87"
+      ],
+      "locator": "free expansion",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-09",
+      "claim": "理想气体隔热自由膨胀无功无热且理想内能不变",
+      "type": "modern_physics",
+      "source_ids": [
+        "R88"
+      ],
+      "locator": "OpenStax 4.7",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-10",
+      "claim": "一摩尔理想气体V→2V时ΔS=R ln2≈5.76J/K",
+      "type": "modern_numeric",
+      "source_ids": [
+        "R88"
+      ],
+      "locator": "OpenStax 4.7及R=8.314",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-11",
+      "claim": "计算不可逆熵变可选择连接相同平衡端态的虚拟可逆路径",
+      "type": "modern_method",
+      "source_ids": [
+        "R88"
+      ],
+      "locator": "entropy state function",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-12",
+      "claim": "实际自由膨胀没有经历该虚构的可逆等温路径",
+      "type": "method_boundary",
+      "source_ids": [
+        "R88"
+      ],
+      "locator": "path independence",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-13",
+      "claim": "熵不等同于‘看起来杂乱’的视觉印象",
+      "type": "modern_limit",
+      "source_ids": [
+        "R87",
+        "R88"
+      ],
+      "locator": "entropy definition",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-14",
+      "claim": "宏观热力学的方向性不能直接等同时间物理本身的定义",
+      "type": "philosophy_boundary",
+      "source_ids": [
+        "R89"
+      ],
+      "locator": "SEP section1/3",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-15",
+      "claim": "经典牛顿式微观方程通常时间反演对称，需正确反转动量",
+      "type": "modern_philosophy",
+      "source_ids": [
+        "R89"
+      ],
+      "locator": "SEP §3",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-16",
+      "claim": "一些微观相互作用可破坏时间反演，未解释常见热学时间箭头",
+      "type": "modern_boundary",
+      "source_ids": [
+        "R89"
+      ],
+      "locator": "SEP weak interactions note",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-17",
+      "claim": "Boltzmann统计方法是19世纪后半的后续发展，不应署于Clausius 1865",
+      "type": "historical_sequence",
+      "source_ids": [
+        "R89",
+        "R05"
+      ],
+      "locator": "SEP Boltzmann chronology",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-18",
+      "claim": "Loschmidt与Zermelo争论是后续概率解释挑战",
+      "type": "historical_sequence",
+      "source_ids": [
+        "R89",
+        "R05"
+      ],
+      "locator": "SEP §3",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-19",
+      "claim": "过去低熵初始条件/过去假说是后见理论讨论，不能当历史人物已证",
+      "type": "historiography",
+      "source_ids": [
+        "R89"
+      ],
+      "locator": "SEP Past Hypothesis",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-20",
+      "claim": "宏观熵增规律对宏观平均行为有范围，小体系涨落留后文",
+      "type": "modern_scope",
+      "source_ids": [
+        "R89"
+      ],
+      "locator": "statistical context",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T12-21",
+      "claim": "第13章回溯1834 Clapeyron而非时间线顺延，需显式声明",
+      "type": "editorial_transition",
+      "source_ids": [
+        "R90",
+        "R93"
+      ],
+      "locator": "1834原始书目",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "原始史料与后世现代公式分层",
+    "不伪造对话、人物心理、历史实验数据",
+    "完成正文后修改status为draft，审稿仍为PENDING"
+  ]
 }
