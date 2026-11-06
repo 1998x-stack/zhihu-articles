@@ -390,3 +390,110 @@
 3. 对可微 $x(t),y(t)$，严格有限增量 $\Delta(xy)=y\Delta x+x\Delta y+\Delta x\Delta y$；除以时间 $h\ne0$，交叉项 $(\Delta x/h)\Delta y\to0$。不能把交叉项在有限变化里宣布为零。
 4. 不虚构伯克利私下心理、牛顿与伯克利相见或1734学术会议；不将“幽灵”短语错放第XIII节；不把本章现代$x^2$教学例子称为伯克利原算式；不把麦克劳林理论解释等同后来的ε–δ。
 5. **本次写作许可**：允许推进第08章完整非虚构初稿、对应claims与目录状态；**未完成**：第09章后专项研究、独立连续性审计、独立结构审稿及终稿审批。
+
+
+---
+
+## 第09—11章专项证据矩阵｜严格分析、第五公设与双曲几何（2026-11-06）
+
+> **范围**：仅第09—11章所选历史主张、原典内容和自拟现代数学演示；研究条目由可复核网页或出版物提供支撑，具体断言以所注明的原典章节/人物条目范围为界。尚未执行独立连续性/结构审稿，不据此宣称终稿已审核。原有第01—08章材料保持原样。
+
+### 第09章：分析学严格化及实数的算术基础
+
+**资料索引**
+- **R09-BOLZANO**：MacTutor, “Bernard Bolzano”, https://mathshistory.st-andrews.ac.uk/Biographies/Bolzano/ 。支持1817年 *Rein analytischer Beweis* 的纯分析证明目标、介值定理及当时传播限制；并不证明他已完整建立现代实数理论。
+- **R09-CAUCHY-BIO**：MacTutor, “Augustin-Louis Cauchy”, https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/ 。1821 *Cours d'analyse* 书目背景、巴黎综合理工学院教学和收敛理论的重要性。
+- **R09-CAUCHY-EXTRAS**：MacTutor, “Cauchy's Calculus”, https://mathshistory.st-andrews.ac.uk/Extras/Cauchy_Calculus/ 。1821年对变量、极限、无穷小、连续的说明及针对形式代数运算缺乏条件的批评；古人原话仅在核对原文后可直接引述，正文采用概括。
+- **R09-WEIERSTRASS**：MacTutor, “Karl Weierstrass”, https://mathshistory.st-andrews.ac.uk/Biographies/Weierstrass/ 。十九世纪严格分析的教学影响、1872年展示连续但处处不可微的函数；不能说是他从零创造ε–δ全部思想。
+- **R09-DEDEKIND-SEP**：Stanford Encyclopedia of Philosophy, “Dedekind’s Contributions to the Foundations of Mathematics”, https://plato.stanford.edu/entries/dedekind-foundations/ 。1858年教学背景、1872年《连续性与无理数》、实数及戴德金分割。
+- **R09-MODERN-MATH**：本章独立构造的现代数学演示：$2+1/n$ 的数列极限定义、平方函数在2处ε–δ连续、$|x|$ 在0处连续但不可导、$x^n$ 在 $[0,1]$ 逐点收敛却不一致收敛、以有理数分割刻画 $\sqrt2$。均不作为十九世纪人物原式。
+
+| claim_id | 可写入正文的主张 | 主要来源 | 判断和重要限制 |
+|---|---|---|---|
+| H09-01 | 伯克利1734年质疑分析学基础；后继严格化多线展开 | research.md第08章；R09-CAUCHY-BIO | 背景已核，不作单因果 |
+| H09-02 | 波尔查诺1817年发表纯分析证明，介值定理为重要问题 | R09-BOLZANO | 已核，传播影响有限 |
+| H09-03 | 柯西1821年《分析教程》强调分析中的条件和严格性 | R09-CAUCHY-BIO;R09-CAUCHY-EXTRAS | 已核，不将其写成现代ε–δ逐字原文 |
+| H09-04 | 柯西的极限与无穷小概念仍涉及变量趋近而非一概弃用无穷小 | R09-CAUCHY-EXTRAS | 已核，学界细部解释有分歧 |
+| H09-05 | 现代数列及函数极限的量词与误差门槛 | R09-MODERN-MATH | 已核现代数学，非历史原文 |
+| H09-06 | 平方函数极限可选δ=min(1, ε/5)证明 | R09-MODERN-MATH | 已核现代计算 |
+| H09-07 | $|x|$ 在0连续而不可导，$x^n$ 逐点收敛不保证连续极限 | R09-MODERN-MATH | 已核现代算例，区分一致收敛 |
+| H09-08 | 魏尔斯特拉斯1872年展示连续处处不可微函数 | R09-WEIERSTRASS | 已核，具体发表/展示方式仅作限定 |
+| H09-09 | 1858年教学思考及1872年戴德金的实数与连续性研究 | R09-DEDEKIND-SEP | 已核，两时间点不可混 |
+| H09-10 | 有理数域缺少√2，完整实数理论对介值定理的必要性 | R09-MODERN-MATH;R09-DEDEKIND-SEP | 现代说明，须限定数系与定理条件 |
+| H09-11 | 分析严格化是多人物多路线，不能归因一位数学家 | R09-BOLZANO;R09-CAUCHY-EXTRAS;R09-WEIERSTRASS;R09-DEDEKIND-SEP | 已核的概括性史学判断 |
+| H09-12 | “数学第二次危机”是全书的编辑性历史分段 | brief.md;outline.md | 编辑性，不是史实自称 |
+
+**数学检查**：
+1. 对 $a_n=2+1/n$，任意ε>0取整数N>1/ε，则所有n≥N有误差≤1/N<ε；与交替2、3的数列区别明确。
+2. 对 $f(x)=x^2$ 在2处，若|x−2|<1，则|x+2|<5；取δ=min(1,ε/5)使|x²−4|<ε。未以零作分母。
+3. $|x|/x$ 对正负x分别为±1，故在0无导数但函数连续。
+4. $x^n$ 在[0,1]点态极限为x<1时0、x=1时1；每个n连续，极限不连续。不能据此说所有逐点收敛列都不连续。
+5. 对√2的有理数分割，含负有理数/0以及正数平方<2作为左类，正数平方>2作为右类，分别存在且无有理数等于√2。这里为现代教学重构。
+
+### 第10章：欧几里得原典、平行公设与独立性的历史困难
+
+**资料索引**
+- **R10-EUCLID-I**：*Euclid’s Elements*, Book I, postulates and propositions, https://www.euclids-elements.org/elements/books/bookI/ 。逐项核对 I.Post.5、I.27、I.29、I.31、I.32。现代“过线外一点唯一平行”不是第五公设原始措辞。
+- **R10-EUCLID-27**：Euclid, Proposition I.27 text and guide, https://www.euclids-elements.org/elements/books/bookI/propositions/propI27/ 。I.27 的“内错角相等⇒平行”无需I.Post.5；反向 I.29 依赖I.Post.5。
+- **R10-SEP-GEOMETRY**：Stanford Encyclopedia of Philosophy, “Nineteenth Century Geometry” §1, https://plato.stanford.edu/entries/geometry-19th/ 。欧几里得平行公设的非自明性、普罗克洛斯、沃利斯、萨凯里及后来的突破。
+- **R10-SEP-KHAYYAM**：Stanford Encyclopedia of Philosophy, “Umar Khayyam” §4.2, https://plato.stanford.edu/entries/umar-khayyam/ 。海亚姆尝试用其他较自明前提替换平行公设，而不是在完全不加假设的条件下证明。
+- **R10-IRANICA-KHAYYAM**：Encyclopaedia Iranica, “Khayyam, Omar, as Mathematician”, https://www.iranicaonline.org/articles/khayyam-omar/khayyam-omar-xiv-as-mathematician/ 。伊斯兰数学传统中平行公设及其证明尝试的背景。
+- **R10-MODERN-MATH**：本章自拟解析几何和逻辑示意，明确作为现代教学，不用解析几何证明欧氏公设独立性。
+
+| claim_id | 可写入正文的主张 | 来源 | 判断和限制 |
+|---|---|---|---|
+| H10-01 | 《几何原本》Book I有五公设，P5为内角和小于两直角则相遇 | R10-EUCLID-I | 原典核实，不用Playfair替代原文 |
+| H10-02 | 内错角相等推出平行（I.27）不需要第五公设 | R10-EUCLID-27 | 已核 |
+| H10-03 | 平行推出内错角相等（I.29）需要第五公设 | R10-EUCLID-I;R10-EUCLID-27 | 已核 |
+| H10-04 | I.31作平行线，I.32三角形内角和，须辨别所依赖定理 | R10-EUCLID-I | 已核，存在性与唯一性区分 |
+| H10-05 | Playfair表述在适当中性几何背景下与P5等价 | R10-SEP-GEOMETRY;R10-SEP-KHAYYAM | 已核，条件不可省 |
+| H10-06 | 普罗克洛斯等历史人物曾尝试整理P5证明 | R10-SEP-GEOMETRY | 已核，避免虚构会面 |
+| H10-07 | 海亚姆及伊斯兰传统长期分析第五公设 | R10-SEP-KHAYYAM;R10-IRANICA-KHAYYAM | 已核，研究路线区别于非欧几何建构 |
+| H10-08 | 萨凯里1733年研究四边形及锐/直/钝角假设 | R10-SEP-GEOMETRY | 已核，未获得最终P5证明 |
+| H10-09 | 萨凯里以“直线本性”排斥非欧情形存在论证循环问题 | R10-SEP-GEOMETRY | 已核的史学解释 |
+| H10-10 | 解析几何方程相交于x=10^9是现代演示 | R10-MODERN-MATH | 已核，不是独立性证明 |
+| H10-11 | 模型与独立性说明是后世逻辑视角，不可倒灌给古人 | R10-SEP-GEOMETRY;R10-MODERN-MATH | 数学/史学限定 |
+| H10-12 | 第三部“唯一几何真理→多种公理几何”是编辑性框架 | brief.md;outline.md | 编辑性解释 |
+
+**审校风险**：
+- I.27与I.29是不同方向的命题，禁止写成“等价关系完全无需P5”。
+- “欧几里得第五公设已被人证明失败”不是正确的史料表述；历史上证明企图的失败不等于现代独立性论证已完成。
+- 第五公设对数理空间和物理空间的说明不可混淆；“可有多种公理体系”不自动证明物理空间属于任一种。
+- 海亚姆的目标更接近改善欧几里得公理系统而非直接发明双曲几何。
+
+### 第11章：罗巴切夫斯基、鲍耶、高斯、模型及双曲平面
+
+**资料索引**
+- **R11-MACTUTOR-LOB**：MacTutor, “Nikolai Ivanovich Lobachevsky”, https://mathshistory.st-andrews.ac.uk/Biographies/Lobachevsky/ 。1826年研究宣讲而原稿不存、1829年首批发表、1837/1840相关著作、传播及关于高斯联系的错误推测。
+- **R11-MACTUTOR-BOLYAI**：MacTutor, “János Bolyai”, https://mathshistory.st-andrews.ac.uk/Biographies/Bolyai/ 。《附录》绝对几何、1831年6月已有寄送文本、1832通信与父子研究关系。
+- **R11-ALEXITS**：MacTutor, “János Bolyai” historical essay by Alexits, https://mathshistory.st-andrews.ac.uk/Extras/Alexits_Bolyai/ 。单行《附录》1831年6月印出、首寄未达、1832再寄及回信。
+- **R11-HUNGARIAN-ACADEMY**：Hungarian Academy of Sciences, “1832 – Publication of ... Tentamen and Appendix” (2026), https://mta.hu/english/1832-publication-of-the-principal-work-of-mathematician-and-academy-member-farkas-bolyai-tentamen-as-well-as-the-work-of-his-son-janos-bolyai-entitled-appendix-115443 。1832作为附随 *Tentamen* 成书的书目记年。
+- **R11-SEP-GEOMETRY**：Stanford Encyclopedia of Philosophy, “Nineteenth Century Geometry”, https://plato.stanford.edu/entries/geometry-19th/ 。新几何、极限平行、独立发展及模型与哲学反响。
+- **R11-MACTUTOR-TOPIC**：MacTutor, “Non-Euclidean geometry”, https://mathshistory.st-andrews.ac.uk/HistTopics/Non-Euclidean_geometry/ 。罗巴切夫斯基、鲍耶的独立与传播，1868年贝尔特拉米模型及后继。
+- **R11-MATHWORLD-DISK**：Wolfram MathWorld, “Poincaré Hyperbolic Disk”, https://mathworld.wolfram.com/PoincareHyperbolicDisk.html 。圆盘内部点、与边界正交圆弧/直径为测地线、双曲度量与共形性。
+- **R11-OSU-DISK**：Oregon State University, “Poincaré Disk”, https://sites.science.oregonstate.edu/physics/coursewikis/GSR/_export/xhtml/book/content/poincare.html 。圆盘双曲度量及角度性质。距离度量有多种常数归一化；文中标准曲率-1采用因子4的版本。
+- **R11-MODERN-MATH**：现代双曲几何角亏、面积及庞加莱圆盘讲解。$A=R^2(\pi-\alpha-\beta-\gamma)$仅用于曲率 $K=-1/R^2$ 的测地三角形；历史人物未以该现代格式书写。
+
+| claim_id | 可写入正文的主张 | 来源 | 判断和限制 |
+|---|---|---|---|
+| H11-01 | 罗巴切夫斯基喀山研究，1826报告及原稿不存 | R11-MACTUTOR-LOB | 已核，具体会议对白禁止 |
+| H11-02 | 1829—1830年罗巴切夫斯基公开发表非欧几何论文 | R11-MACTUTOR-LOB;R11-MACTUTOR-TOPIC | 已核，出版与报告区别 |
+| H11-03 | 鲍耶研究绝对几何及公设真伪两支体系 | R11-MACTUTOR-BOLYAI | 已核，不倒灌现代完全形式化 |
+| H11-04 | 《附录》单行本1831印出、随Tentamen1832出版 | R11-ALEXITS;R11-HUNGARIAN-ACADEMY | 已核，两不同书目事件 |
+| H11-05 | 双曲平面中过线外一点有多条不相交测地线 | R11-SEP-GEOMETRY;R11-MATHWORLD-DISK | 已核，历史‘极限平行’术语需区分 |
+| H11-06 | 双曲三角形角和小于π | R11-SEP-GEOMETRY;R11-MODERN-MATH | 现代定理，角须为测地三角形内角 |
+| H11-07 | 负常曲率下三角形面积等于R²倍角亏 | R11-MODERN-MATH | 数学核实，非先驱原始演算 |
+| H11-08 | 庞加莱圆盘模型的线与距离和纸面欧氏不同 | R11-MATHWORLD-DISK;R11-OSU-DISK | 数学核实，模型历史较晚 |
+| H11-09 | 高斯有非欧方向的私下研究，但未如两人及时公开系统结果 | R11-MACTUTOR-LOB;R11-MACTUTOR-BOLYAI | 史学核实，贡献区别 |
+| H11-10 | 1832年高斯给法尔卡什的回信及自述 | R11-ALEXITS;R11-MACTUTOR-BOLYAI | 可核史料文本；不可作独立优先权终局判决 |
+| H11-11 | 1868年贝尔特拉米提供双曲几何模型，后人继续完善 | R11-MACTUTOR-TOPIC;R11-SEP-GEOMETRY | 已核，现代模型论时序限定 |
+| H11-12 | 模型支持相对一致性，不能宣称绝对无条件无矛盾 | R11-SEP-GEOMETRY;R11-MODERN-MATH | 现代逻辑限定 |
+| H11-13 | 欧氏与双曲几何定理在各自公理背景成立，不相互构成形式矛盾 | R11-SEP-GEOMETRY;R11-MODERN-MATH | 已核 |
+| H11-14 | 两条独立发现路线不是谁从高斯秘密抄袭的证据 | R11-MACTUTOR-LOB;R11-MACTUTOR-TOPIC | 已核，禁止传奇化 |
+
+**数学验证与叙事边界**：
+1. 曲率 $-1/R^2$ 的双曲测地三角形，角度以弧度计。角度和150°意味着亏角30°=π/6，故面积$A=\pi R^2/6$；这不是对任意曲率平面都能直接使用的公式。
+2. 庞加莱单位圆盘常用$ds^2=4(dx^2+dy^2)/(1-x^2-y^2)^2$，适用范围$x^2+y^2<1$，边界圆周不属于双曲平面。角度在共形模型中可按欧氏角测量，但距离不得按普通纸面直尺测量。
+3. 在双曲几何中，‘不相交直线’通常为无穷多条；某些史料将边界的两条极限平行与其余超平行区分，禁止硬套现代中文术语到全部历史文本。
+4. 罗巴切夫斯基公开发表、鲍耶独立成稿、高斯私人通信三个维度不可用一个‘第一发现者’替代；不虚构私人阴谋、学者直接对话或无法核实的情绪。
+5. **本次专项材料只支持第09—11章初稿与主张追踪**；序章与第12—25章未新增专项核证。全书review_status仍为PENDING，未进入终审。
