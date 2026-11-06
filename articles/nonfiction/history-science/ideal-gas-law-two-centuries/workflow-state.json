@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "lane": "nonfiction",
-  "current_revision": 0,
+  "current_revision": 1,
   "outline_approved": true,
   "evidence_verified": true,
   "review_status": "PENDING",
@@ -10,6 +10,7 @@
   "edited_revision": null,
   "final_approved": false,
   "evidence_scope": "序章00及第01—15章、尾声16共17份正文均完成章级前置核证；最终批次G15-01—G15-22及G16-01—G16-22已映射来源；下一步全书独立双审",
-  "approval_scope": "既有章纲获准；序章00、第01—15章与尾声16共17份非虚构初稿均有正文与来源映射。连续性审计及独立发展性结构审稿尚未完成，精修/终稿/发布不得提前批准。",
-  "note": "2026-11-06：最终批次第15章和尾声16完成初稿，8项新增权威来源、44条主张追踪；全书17份正文初稿齐全。workflow_gate.py未正式本地执行，qa/continuity-report.md及qa/developmental-review.md尚未由独立审稿产生；review_status=PENDING、final_approved=false，未精修、未封版、未发布。"
+  "approval_scope": "revision 1 revised.md待独立双审复审；首轮revision 0两份报告均CHANGES_REQUIRED且已失效，尚无语言精修或终审许可。",
+  "note": "2026-11-06 revision-manager：17章合订修订稿revised.md与qa/revision-log.md已提交；原始draft/NN.md作为rev0来源保留；当前1版尚须两项独立复审明确PASS，不能越级line-edit/final-approval。",
+  "revision_reason": "修复首轮审稿C-01—C-04及D-01—D-06；新增S87并将17章初稿构造成可复审revised.md。"
 }
