@@ -1,25 +1,143 @@
 {
   "chapter": "13",
-  "status": "PENDING",
+  "title": "流数法：牛顿从时间出发理解微分",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H71",
+    "H72",
+    "H76",
+    "H77",
+    "H78",
+    "H79"
+  ],
   "claims": [
     {
       "id": "C13-01",
-      "statement": "流量的变化率如何计算",
-      "source_candidates": [
-        "H01",
-        "H02"
+      "kind": "source_status",
+      "statement": "流数思想在1665—1666手稿形成；1671长篇著作后到1736才以英文版出版。",
+      "source_ids": [
+        "H71",
+        "H76",
+        "H78"
       ],
-      "verification": "PENDING"
+      "locator": "Newton Project 1666 catalog & later narrative; Cambridge Guicciardini publication chronology",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C13-02",
-      "statement": "流数、反流数及面积关系",
-      "source_candidates": [
-        "H01",
-        "H02"
+      "kind": "publishing",
+      "statement": "1669 De Analysi写作、1711发表，1704 De Quadratura发表，1671流数法长篇手稿到1736翻译刊印。",
+      "source_ids": [
+        "H76",
+        "H78"
       ],
-      "verification": "PENDING"
+      "locator": "Guicciardini Cambridge Overture, Newton Project self account",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C13-03",
+      "kind": "historical_method",
+      "statement": "流量(fl uents)按时间生成，流数(fluxions)为相应的变化速度，牛顿术语和点记号有演变。",
+      "source_ids": [
+        "H76",
+        "H77",
+        "H79"
+      ],
+      "locator": "Newton Project History of Method; MAA Language of Change; context",
+      "verification": "CROSS_CHECKED_WITH_NOTATION_CAVEAT"
+    },
+    {
+      "id": "C13-04",
+      "kind": "math_modern",
+      "statement": "若y=x²且x可微，则ẏ=2xẋ，可用正方形边长的小增量来说明。",
+      "source_ids": [
+        "H79"
+      ],
+      "locator": "independent limit expansion with differentiability assumption",
+      "verification": "MATH_CHECKED_MODERN_RECONSTRUCTION"
+    },
+    {
+      "id": "C13-05",
+      "kind": "logic",
+      "statement": "由(x+Δx)²展开所得高阶项不能直接置零，需先除非零时间增量并考察极限。",
+      "source_ids": [
+        "H77"
+      ],
+      "locator": "modern difference quotient proof under differentiability",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C13-06",
+      "kind": "math_modern",
+      "statement": "若z=xy且x,y可微，则ż=xẏ+yẋ；对于x=t²,y=t，ż=3t²。",
+      "source_ids": [
+        "H79"
+      ],
+      "locator": "independent product increment proof and numerical check",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C13-07",
+      "kind": "math_modern",
+      "statement": "若y=x³、x=t²，则ẏ=3x²ẋ=6t⁵，说明复合依赖变化率。",
+      "source_ids": [
+        "H79"
+      ],
+      "locator": "independent modern chain rule derivation",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C13-08",
+      "kind": "math_modern",
+      "statement": "固定半径圆x²+y²=r²，若y≠0且ẋ≠0，则ẏ/ẋ=−x/y；(3,4)切线斜率−3/4。",
+      "source_ids": [
+        "H79"
+      ],
+      "locator": "independent implicit differentiation tangent normal check",
+      "verification": "MATH_CHECKED_WITH_CONDITIONS"
+    },
+    {
+      "id": "C13-09",
+      "kind": "historical_problem",
+      "statement": "牛顿的求流数与反求流量、求积联系体现在1666和1671有关手稿研究中。",
+      "source_ids": [
+        "H72",
+        "H76",
+        "H79"
+      ],
+      "locator": "October 1666 Tract; Newton Project History Method",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C13-10",
+      "kind": "math_modern",
+      "statement": "A(x)=x³/3，若x=x(t)可微则Ȧ=x²ẋ；反向给定Ȧ=t²、A(0)=0，得A=t³/3。",
+      "source_ids": [
+        "H79"
+      ],
+      "locator": "independent derivative and anti-derivative checks",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C13-11",
+      "kind": "historical_scope",
+      "statement": "现代导数与积分的符号和严密化不等同于1666—1671牛顿手稿原文，后世需区别记号与方法的传播。",
+      "source_ids": [
+        "H77",
+        "H78"
+      ],
+      "locator": "MAA notation essay; Cambridge published work chronology",
+      "verification": "CROSS_CHECKED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "牛顿原书使用流数和矩的历史表述，不等同现代dx/dt教科书。",
+    "点记号在早期手稿中并未保证完全统一。",
+    "现代极限推理必须说明非零时间增量及可微条件，不能先除以零。",
+    "圆的切线推导除以y、ẋ时需条件。",
+    "求流数、反流数及求积关系同现代微积分基本定理应区分，第15章再系统论证。",
+    "1669、1671手稿与1704、1711、1736印刷分别注明。",
+    "只是未审稿工作初稿，整体门禁不标PASS。"
+  ]
 }
