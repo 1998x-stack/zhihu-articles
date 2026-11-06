@@ -11,9 +11,9 @@
 | 07 | GT07-01—GT07-10：肯普1879/1880、希伍德1890指出双链换色漏洞、五色定理 | S43—S46（见research.md） | VERIFIED_SCOPED（仅07） |
 | 08 | GT08-01—GT08-10：伯克霍夫1912、惠特尼1931/1932、色多项式与删除—收缩 | S47—S50（见research.md） | VERIFIED_SCOPED（仅08） |
 | 09 | GT09-01—GT09-11：库拉托夫斯基1930禁细分、瓦格纳1937禁minor、优先权争议 | S51—S55（见research.md） | VERIFIED_SCOPED（仅09） |
-| 10 | GT10-01：计算机辅助四色证明与Coq形式化 | S01、S04、S05、S09 | TODO_VERIFY |
-| 11 | GT11-01：门格尔定理、点不相交路径与点割 | S01、S07 | TODO_VERIFY |
-| 12 | GT12-01：二分图匹配—点覆盖定理及加权推广 | S01、S07 | TODO_VERIFY |
+| 10 | GT10-01—GT10-12：1976/77 Appel–Haken、不可避免与可约配置、1997新证明、2004—05 Coq | S56—S60（详见research.md） | VERIFIED_SCOPED（仅10） |
+| 11 | GT11-01—GT11-11：1927 Menger书目、非邻接端点、顶点/边割与独立路径、现代证明边界 | S61—S64、S68 | VERIFIED_SCOPED（仅11） |
+| 12 | GT12-01—GT12-12：1916/1931 König、1931 Egerváry、匹配—点覆盖、1955 Kuhn及增广路构造 | S64—S69 | VERIFIED_SCOPED（仅12） |
 | 13 | GT13-01：霍尔婚姻定理及所有子集的邻域条件 | S01、S07 | TODO_VERIFY |
 | 14 | GT14-01：《有限与无限图论》与学科化 | S01、S07 | TODO_VERIFY |
 | 15 | GT15-01：1因子定理与奇连通分量条件 | S01、S07 | TODO_VERIFY |
