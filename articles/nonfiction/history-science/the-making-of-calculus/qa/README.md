@@ -30,3 +30,10 @@
 - **09 笛卡尔**：`draft/09.md`、`draft/09.claims.json`，10条主张，原创图 `assets/09-descartes-normal.svg`。核查《几何学》1637年附论、帕普斯问题、辅助圆与重根法线；原创教学例子 `x²+(y−3/2)²=5/4` 与 `y=x²` 消元给 `(x²−1)²=0`，切点斜率2。现代直角坐标纸非1637原样。
 - **10 费马**：`draft/10.md`、`draft/10.claims.json`，11条主张，原创图 `assets/10-fermat-adequality.svg`。费马1891年编订的拉丁文《Methodus》、早期手稿、1638切线争论分开；矩形面积 `x(10−x)`，差商 `10−2a−e` 以及 `25−(x−5)²` 独立验证最大。拟等的意义为史学争论，不把其方法与现代ε–δ定义视作同义。
 - **质量边界**：三章均标记 `DRAFT_UNREVIEWED`，章节分项来源与数学复算不代表完整独立审稿。全书 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING` 保持不变，未生成伪终稿。下批为11—13章。
+
+## 11—13 三章批次（2026-11-06）
+
+- **11 沃利斯、格雷戈里、巴罗**：`draft/11.md`、`draft/11.claims.json`，10条主张。1656沃利斯《无穷算术》、1668格雷戈里《Geometriae pars universalis》、1670巴罗《几何讲义》按发表年代区分，图 `assets/11-wallis-power-sums.svg`。现代平方和 `S_N=(N+1)(2N+1)/(6N²)` 收敛1/3；面积增量通过夹逼得到 `A'(x)=x²`（限x≥0,h>0）。现代记号不倒填17世纪。
+- **12 1666年的牛顿**：`draft/12.md`、`draft/12.claims.json`，11条主张。依Newton Project MS Add.3958.3 (1666年10月手稿) 与研究史把1664读书、1665–1666创见、1669和1671后续写作分开；图 `assets/12-newton-binomial.svg`。广义二项式 `(1+z)^{1/2}` 前五项在z=1/4时约1.118011475，与根号真值比较。
+- **13 牛顿流数法**：`draft/13.md`、`draft/13.claims.json`，11条主张。区分流量、流数和反流数，图 `assets/13-newton-fluxions.svg`。数学复核 `ẏ=2xẋ`、乘积规则、圆上切线隐式关系、 `A=x³/3⇒Ȧ=x²ẋ`。以1671手稿/1736英文印行等区分研究、转写、出版。
+- **严格状态**：全部为 `DRAFT_UNREVIEWED`，未完成独立的 `continuity-audit` 与 `developmental-editor` 正式报告。全书 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING` 未更改。工作流Gate未通过不能声称已完成终稿。下一批为14—16章。
