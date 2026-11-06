@@ -1,0 +1,72 @@
+{
+  "chapter": "03",
+  "title": "高斯之前已有消元：谁把方程排成阶梯",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "source_ids": {
+    "L03-S1": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "L03-S2": "https://doi.org/10.1016/j.hm.2010.06.003",
+    "L03-S3": "https://epubs.siam.org/doi/10.1137/1.9781611976922.ch3",
+    "L03-S4": "https://zh.wikisource.org/wiki/九章算術",
+    "MATH03": "本章第4—7节完整推演与验算"
+  },
+  "claims": [
+    {
+      "claim_id": "C03-01",
+      "source_ids": [
+        "L03-S1",
+        "L03-S4"
+      ],
+      "kind": "historical_fact_with_context",
+      "verified": true
+    },
+    {
+      "claim_id": "C03-02",
+      "source_ids": [
+        "L03-S2",
+        "L03-S3"
+      ],
+      "kind": "historical_fact_with_context",
+      "verified": true
+    },
+    {
+      "claim_id": "C03-03",
+      "source_ids": [
+        "L03-S1",
+        "L03-S2"
+      ],
+      "kind": "historical_fact_with_context",
+      "verified": true
+    },
+    {
+      "claim_id": "C03-04",
+      "source_ids": [
+        "MATH03"
+      ],
+      "kind": "modern_mathematical_reconstruction",
+      "verified": true
+    },
+    {
+      "claim_id": "C03-05",
+      "source_ids": [
+        "MATH03"
+      ],
+      "kind": "modern_mathematical_reconstruction",
+      "verified": true
+    },
+    {
+      "claim_id": "C03-06",
+      "source_ids": [
+        "L03-S3"
+      ],
+      "kind": "historical_fact_with_context",
+      "verified": true
+    }
+  ],
+  "historical_caveats": [
+    "算筹列阵≠现代增广矩阵的史实同一",
+    "牛顿笔记时期与后世印行日期不可混淆",
+    "高斯姓名是后世演变命名，并非首创证据",
+    "浮点选主元不归于古代历史"
+  ]
+}
