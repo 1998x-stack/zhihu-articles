@@ -37,3 +37,10 @@
 - **12 1666年的牛顿**：`draft/12.md`、`draft/12.claims.json`，11条主张。依Newton Project MS Add.3958.3 (1666年10月手稿) 与研究史把1664读书、1665–1666创见、1669和1671后续写作分开；图 `assets/12-newton-binomial.svg`。广义二项式 `(1+z)^{1/2}` 前五项在z=1/4时约1.118011475，与根号真值比较。
 - **13 牛顿流数法**：`draft/13.md`、`draft/13.claims.json`，11条主张。区分流量、流数和反流数，图 `assets/13-newton-fluxions.svg`。数学复核 `ẏ=2xẋ`、乘积规则、圆上切线隐式关系、 `A=x³/3⇒Ȧ=x²ẋ`。以1671手稿/1736英文印行等区分研究、转写、出版。
 - **严格状态**：全部为 `DRAFT_UNREVIEWED`，未完成独立的 `continuity-audit` 与 `developmental-editor` 正式报告。全书 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING` 未更改。工作流Gate未通过不能声称已完成终稿。下一批为14—16章。
+
+## 14—16 三章批次（2026-11-06）
+
+- **14 莱布尼茨的 d 与 ∫**：`draft/14.md`、`draft/14.claims.json`，11条主张；原生历史锚点1675年11月21日手稿、1684年10月`Nova Methodus`（pp.467—473）及1686年6月积分论文（pp.292—300），参MAA、MacTutor、SEP。原创图 `assets/14-leibniz-notation.svg`，数学核对 `y=x²(x+1)⇒dy/dx=3x²+2x`，`x=2`斜率16；不复制需馆藏许可的古书图版。
+- **15 微积分基本定理**：`draft/15.md`、`draft/15.claims.json`，11条主张；现代第一/第二部分条件与证明来自OpenStax/MIT，格雷戈里、巴罗、牛顿、莱布尼茨历史源来自MacTutor/MAA。原创图 `assets/15-fundamental-theorem.svg`，复核 `∫₀²(3x²+2)dx=12`、阶跃函数面积函数在0处不可微，以及带符号积分与正面积不同。
+- **16 发现者之争**：`draft/16.md`、`draft/16.claims.json`，12条主张；牛顿1666手稿、莱布尼茨1675—1686手稿与论文、1676两封信、1699 Fatio、1708/1710 Keill、1712委员会报告、1713文集、1715匿名评论分开。证据依Oxford史家、Newton Project及AMS。原创图 `assets/16-calculus-priority-timeline.svg`；不把皇家学会机构报告当独立中立终审，不用数学结果相同判抄袭。
+- **质量界限**：分项史料、数学与图文链接已经核验，但均为 `DRAFT_UNREVIEWED`。全书 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING` 原样保留；不得冒称已经通过独立连续性审计和结构审稿、终稿封版或外部平台发布。下批为17—19章。
