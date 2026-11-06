@@ -1,12 +1,138 @@
 {
   "chapter": "00",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S02",
-    "S03"
+  "status": "draft",
+  "verified": true,
+  "evidence_scope": "仅序章00，限定核查；文内有关原文的论证仅依据英译节录§1—9和交叉研究，不宣称读过拉丁原版全文",
+  "review_status": "PENDING",
+  "claims": [
+    {
+      "claim_id": "GT00-01",
+      "claim": "七桥四区域及各区域所连桥数",
+      "source_ids": [
+        "S17",
+        "S19"
+      ],
+      "kind": "historical_fact",
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT00-02",
+      "claim": "原问题每桥恰好走一次但不要求回到起点",
+      "source_ids": [
+        "S17",
+        "S19"
+      ],
+      "kind": "historical_fact",
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT00-03",
+      "claim": "欧拉论文使用莱布尼茨位置几何背景以区分度量几何",
+      "source_ids": [
+        "S17",
+        "S18"
+      ],
+      "kind": "historical_fact",
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT00-04",
+      "claim": "1735报告、1736研究/期刊卷次、1741实际出版的年份差异",
+      "source_ids": [
+        "S16",
+        "S18"
+      ],
+      "kind": "historical_fact",
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT00-05",
+      "claim": "1736年埃勒尔与屈恩通信线索",
+      "source_ids": [
+        "S19",
+        "S20"
+      ],
+      "kind": "historical_interpretation",
+      "status": "SECONDARY_SUPPORTED"
+    },
+    {
+      "claim_id": "GT00-06",
+      "claim": "欧拉以AB、ABD等字母序列描述路线",
+      "source_ids": [
+        "S17",
+        "S19"
+      ],
+      "kind": "historical_fact",
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT00-07",
+      "claim": "七桥跨越需用八个连续区域字母表示",
+      "source_ids": [
+        "S17"
+      ],
+      "kind": "primary_translation_mathematics",
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT00-08",
+      "claim": "原论文以三加二加二加二等于九的位置需求反证八位路线",
+      "source_ids": [
+        "S17",
+        "S19"
+      ],
+      "kind": "primary_translation_mathematics",
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT00-09",
+      "claim": "四个奇度顶点排除欧拉迹的现代解释",
+      "source_ids": [
+        "S19",
+        "S17"
+      ],
+      "kind": "modern_mathematics",
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT00-10",
+      "claim": "删除一个A-B边，度数变4,2,3,3且六边路径C-A-B-D-A-C-D确实存在",
+      "source_ids": [
+        "S17"
+      ],
+      "kind": "author_derived_mathematics",
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT00-11",
+      "claim": "原论文示意地图和字母法与现代点线图不同",
+      "source_ids": [
+        "S17",
+        "S19"
+      ],
+      "kind": "historical_interpretation",
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT00-12",
+      "claim": "连通性与0或2奇度顶点的现代欧拉迹充要条件",
+      "source_ids": [
+        "S19"
+      ],
+      "kind": "modern_mathematics",
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT00-13",
+      "claim": "图论历史起点属于科学史概括，不表示现代学科一夜建立",
+      "source_ids": [
+        "S16",
+        "S18",
+        "S19"
+      ],
+      "kind": "editorial_interpretation",
+      "status": "EDITORIAL_INTERPRETATION"
+    }
   ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "note": "文内现代构造例子不是历史事实；未经过独立审稿或发布批准。"
 }
