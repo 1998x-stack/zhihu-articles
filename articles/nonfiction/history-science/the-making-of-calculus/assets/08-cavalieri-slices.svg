@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title description">
+<title id="title">卡瓦列里原理：矩形和平行剪切图形的各高度截线相等</title>
+<desc id="description">左方矩形宽2高1，右方平行四边形在相同高度所有截线长2。两者同高同底，面积均为2。绿线标示逐高比较的截线。</desc>
+<rect width="960" height="420" rx="16" fill="#f8fafc"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">
+<text x="32" y="45" font-size="24" font-weight="700" fill="#0f172a">剪切形状改变，截线长度不变</text>
+<text x="123" y="86" font-size="18" fill="#334155">矩形 R</text>
+<text x="541" y="86" font-size="18" fill="#334155">平行四边形 P</text>
+<rect x="110" y="122" width="230" height="195" fill="#e0effe" stroke="#1d4ed8" stroke-width="3"/>
+<polygon points="560,122 790,122 735,317 505,317" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+<line x1="110" y1="158" x2="340" y2="158" stroke="#0891b2" stroke-width="4"/><line x1="549.8" y1="158" x2="779.8" y2="158" stroke="#0891b2" stroke-width="4"/>
+<line x1="110" y1="218" x2="340" y2="218" stroke="#0891b2" stroke-width="4"/><line x1="532.9" y1="218" x2="762.9" y2="218" stroke="#0891b2" stroke-width="4"/>
+<line x1="110" y1="279" x2="340" y2="279" stroke="#0891b2" stroke-width="4"/><line x1="515.7" y1="279" x2="745.7" y2="279" stroke="#0891b2" stroke-width="4"/>
+<text x="212" y="342" font-size="15" text-anchor="middle" fill="#1e40af">每层长度 2</text>
+<text x="649" y="342" font-size="15" text-anchor="middle" fill="#15803d">每层长度 2</text>
+<text x="32" y="375" font-size="17" fill="#334155">在相同高度 y：ℓ_R(y) = ℓ_P(y) = 2　→　两者面积都是 2</text>
+<text x="32" y="404" font-size="13" fill="#64748b">原创现代坐标示意。不是1635年卡瓦列里著作中的原始图。</text></g></svg>
