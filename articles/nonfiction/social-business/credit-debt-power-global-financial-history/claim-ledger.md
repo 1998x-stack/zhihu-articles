@@ -1,6 +1,6 @@
 # 非虚构章节主张与来源对应｜Claim Ledger
 
-> **目前覆盖第01—03章**。第04—40章的史料查证尚未完成。表中 `museum catalog verified` 表示馆藏介绍与正文的对应经过查核，**不等于独立校验所有楔形文字原文转写**。
+> **目前覆盖第01—04章**。第05—40章的史料查证尚未完成。表中 `museum catalog verified` 表示馆藏介绍与正文的对应经过查核，**不等于独立校验所有楔形文字原文转写**。
 
 | Claim ID | 可发表表述的边界 | 来源ID | 类型/状态 |
 |---|---|---|---|
@@ -59,6 +59,32 @@
 
 > 第三章有关铸币起源、军事需求和税收反馈的解释属于争议与条件性模型；不将古代个别铸币实物误写成已证明唯一发明者或铸币目的。
 
+## 第四章｜帝国的钱袋：罗马与汉朝的财政组织（研究性初稿）
+
+| Claim ID | 可发表表述的边界 | 来源ID | 类型/状态 |
+|---|---|---|---|
+| CH04-001 | 奥古斯都在《功业录》§17自称公元6年拨入1.7亿塞斯特斯用于退役金库 | F-0401、F-0402 | primary_text+qualified；original-and-scholarly-checked |
+| CH04-002 | 军用金库承担长期退役奖励而非所有日常军饷 | F-0401、F-0402 | historical_fact；strong |
+| CH04-003 | 部分遗产税和售卖税为军用金库提供长期来源 | F-0402、F-0403 | historical_fact；academic-checked |
+| CH04-004 | 地方征收到的粮食不等于中央立刻可以支配的资源 | F-0409、F-0411 | author_explanatory_model；explicit-hypothetical |
+| CH04-005 | 罗马各行省税制不均与意大利某些直接税特权 | F-0403、F-0404、F-0411 | historical_fact；multi-source-checked |
+| CH04-006 | 罗马包税、地方精英和帝国监督共存、演变 | F-0404、F-0405、F-0406 | scholarly_interpretation；some-abstract-only |
+| CH04-007 | 罗马埃及约14年登记周期和其他行省不同 | F-0407、F-0408 | historical_fact；academic-checked |
+| CH04-008 | 人口登记用于区分税籍和身份，土地登记可能另外进行 | F-0407、F-0408 | historical_fact；academic-checked |
+| CH04-009 | 公元前2年居延建平五年十二月官吏卒廪名籍包含粮食与盐配发 | F-0409 | archaeological_artifact；museum-verified |
+| CH04-010 | 公元前9年边塞车辆相关雇用费用亦有木简留存 | F-0410 | archaeological_artifact；museum-verified |
+| CH04-011 | 西汉土地租税、人头税与徭役并存，制度随时期而变 | F-0411、F-0413 | historical_interpretation；academic-comparison-and-index |
+| CH04-012 | 公元2年前后汉代地租名义标准约三十分之一且其他税同样重要 | F-0411 | historical_estimate；peer-reviewed-model |
+| CH04-013 | 汉武时期战费压力与盐铁经营和其他财政调整有关 | F-0412、F-0413、F-0415 | historical_interpretation；text+scholarly-reader |
+| CH04-014 | 公元前81年盐铁之争支持者强调边防筹资，反对者强调争利与农业影响 | F-0412、F-0414 | historical_text；translation-checked |
+| CH04-015 | 桓宽《盐铁论》不等于未经整理的81 BCE现场逐字记录 | F-0414、F-0415 | historiography；catalogue+scholar-checked |
+| CH04-016 | 2025年研究对照罗马165 CE和汉2 CE，分析财政结构和不平等 | F-0411 | peer_reviewed_comparison；model-dependent |
+| CH04-017 | 罗马财政更依赖行省地方精英，汉财政有不同的官僚征收组织 | F-0404、F-0411、F-0413 | comparative_historical_interpretation；research-supported |
+| CH04-018 | 汉武战争期与公元2年前后军事支出不可混作一时点 | F-0411、F-0412 | time_period_guardrail；sources-compared |
+| CH04-019 | 财政兼为未来支付承诺与物资调配，跨章承接第05章贸易网络 | F-0401、F-0409、F-0411 | author_inference+bridge；mechanism-grounded |
+
+> 特别注意：《功业录》与《盐铁论》不同文类、不同证据强度；跨罗马与汉的财政估算采用不同年代样本，不可作同口径同年国库对比。
+
 ## 独立研究中仍需检验的问题
 
 - 详细楔形文字转写与译注，优先寻找大都会艺术博物馆专业出版物或对应语言学文献。
@@ -73,3 +99,8 @@
 - 第三章：古希腊早期军费与税赋的直接钱币证据，以及古代铸币动机的不同解释。
 - 第三章：官庄遗址碳十四证据的测年和“最早工场”与“最早硬币”概念区别。
 - 第三章：秦半两在地方使用及税费、劳役缴纳的法律文本，需配合秦简与历史学研究。
+
+- 第四章：奥古斯都军用金库的税源、遗产税豁免和士兵资格原始法令及经济史精读。
+- 第四章：汉代居延简牍复原的逐条释读、出土地与不同月份文书间的关系。
+- 第四章：《盐铁论》桓宽编纂、司马迁/班固记载与真实决策的多方互证。
+- 第四章：2025年跨帝国不平等与财政模型的估计方法、年代差异和敏感性分析。

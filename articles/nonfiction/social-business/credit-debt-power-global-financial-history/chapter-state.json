@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 2,
+  "current_revision": 3,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -64,13 +64,36 @@
     },
     {
       "chapter": "04",
+      "status": "draft-written",
+      "question": "罗马与汉怎样通过征税、征粮、登记与支出来实现帝国财政",
+      "sources": [
+        "F-0401",
+        "F-0402",
+        "F-0403",
+        "F-0404",
+        "F-0405",
+        "F-0406",
+        "F-0407",
+        "F-0408",
+        "F-0409",
+        "F-0410",
+        "F-0411",
+        "F-0412",
+        "F-0413",
+        "F-0414",
+        "F-0415"
+      ],
+      "next_question": "当统一财政权力范围之外仍有商路和支付媒介时，欧亚非贸易如何连接"
+    },
+    {
+      "chapter": "05",
       "status": "outline-only",
-      "question": "帝国如何动员地方资源以支持中央政府和军队"
+      "question": "欧亚非不同地区的黄金、贡赋与商路为何不能用统一模式解释"
     }
   ],
-  "remaining_chapters": "05-40 outline-only",
+  "remaining_chapters": "06-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Nonfiction manuscript chapter state, not a release or proof of full-source verification."
+  "notes": "Nonfiction research drafts through chapter 04 only; no gate approval or full-source verification."
 }

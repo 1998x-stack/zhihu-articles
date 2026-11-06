@@ -1,0 +1,220 @@
+{
+  "chapter": "04",
+  "title": "帝国的钱袋：罗马与汉朝为什么都离不开财政",
+  "lane": "nonfiction",
+  "draft_revision": 3,
+  "publication_ready": false,
+  "verification_scope": "Primary self-presentation inscription, Han excavated documentary records, academic fiscal studies, scholarly translations and competing interpretations; some abstracts and indexed pages require full-text review.",
+  "claims": [
+    {
+      "claim_id": "CH04-001",
+      "statement": "奥古斯都在《功业录》§17自称公元6年拨入1.7亿塞斯特斯用于退役金库",
+      "source_ids": [
+        "F-0401",
+        "F-0402"
+      ],
+      "classification": "primary_text+qualified",
+      "verification_status": "original-and-scholarly-checked",
+      "caveat": "铭文为自我宣传，不等于完整预算"
+    },
+    {
+      "claim_id": "CH04-002",
+      "statement": "军用金库承担长期退役奖励而非所有日常军饷",
+      "source_ids": [
+        "F-0401",
+        "F-0402"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "strong",
+      "caveat": "不得误写成现代一般社会养老金"
+    },
+    {
+      "claim_id": "CH04-003",
+      "statement": "部分遗产税和售卖税为军用金库提供长期来源",
+      "source_ids": [
+        "F-0402",
+        "F-0403"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "academic-checked",
+      "caveat": "遗产税有例外，具体范围需要随立法史界定"
+    },
+    {
+      "claim_id": "CH04-004",
+      "statement": "地方征收到的粮食不等于中央立刻可以支配的资源",
+      "source_ids": [
+        "F-0409",
+        "F-0411"
+      ],
+      "classification": "author_explanatory_model",
+      "verification_status": "explicit-hypothetical",
+      "caveat": "100袋粮数字为教学示例，绝非出土账目"
+    },
+    {
+      "claim_id": "CH04-005",
+      "statement": "罗马各行省税制不均与意大利某些直接税特权",
+      "source_ids": [
+        "F-0403",
+        "F-0404",
+        "F-0411"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "multi-source-checked",
+      "caveat": "不能声称意大利全免所有税"
+    },
+    {
+      "claim_id": "CH04-006",
+      "statement": "罗马包税、地方精英和帝国监督共存、演变",
+      "source_ids": [
+        "F-0404",
+        "F-0405",
+        "F-0406"
+      ],
+      "classification": "scholarly_interpretation",
+      "verification_status": "some-abstract-only",
+      "caveat": "不是全罗马同一时期全部使用包税"
+    },
+    {
+      "claim_id": "CH04-007",
+      "statement": "罗马埃及约14年登记周期和其他行省不同",
+      "source_ids": [
+        "F-0407",
+        "F-0408"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "academic-checked",
+      "caveat": "埃及周期不能普遍化至全帝国"
+    },
+    {
+      "claim_id": "CH04-008",
+      "statement": "人口登记用于区分税籍和身份，土地登记可能另外进行",
+      "source_ids": [
+        "F-0407",
+        "F-0408"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "academic-checked",
+      "caveat": "人口登记不等于完全的现代财产税册"
+    },
+    {
+      "claim_id": "CH04-009",
+      "statement": "公元前2年居延建平五年十二月官吏卒廪名籍包含粮食与盐配发",
+      "source_ids": [
+        "F-0409"
+      ],
+      "classification": "archaeological_artifact",
+      "verification_status": "museum-verified",
+      "caveat": "23简为研究复原约数，具体源头不可凭此推断"
+    },
+    {
+      "claim_id": "CH04-010",
+      "statement": "公元前9年边塞车辆相关雇用费用亦有木简留存",
+      "source_ids": [
+        "F-0410"
+      ],
+      "classification": "archaeological_artifact",
+      "verification_status": "museum-verified",
+      "caveat": "不能据残简推算整个帝国运输费"
+    },
+    {
+      "claim_id": "CH04-011",
+      "statement": "西汉土地租税、人头税与徭役并存，制度随时期而变",
+      "source_ids": [
+        "F-0411",
+        "F-0413"
+      ],
+      "classification": "historical_interpretation",
+      "verification_status": "academic-comparison-and-index",
+      "caveat": "不能把汉朝所有时期当同一税制"
+    },
+    {
+      "claim_id": "CH04-012",
+      "statement": "公元2年前后汉代地租名义标准约三十分之一且其他税同样重要",
+      "source_ids": [
+        "F-0411"
+      ],
+      "classification": "historical_estimate",
+      "verification_status": "peer-reviewed-model",
+      "caveat": "名义税率不等于每个家庭实际税负"
+    },
+    {
+      "claim_id": "CH04-013",
+      "statement": "汉武时期战费压力与盐铁经营和其他财政调整有关",
+      "source_ids": [
+        "F-0412",
+        "F-0413",
+        "F-0415"
+      ],
+      "classification": "historical_interpretation",
+      "verification_status": "text+scholarly-reader",
+      "caveat": "不将官方垄断简化为一项单一形式的税"
+    },
+    {
+      "claim_id": "CH04-014",
+      "statement": "公元前81年盐铁之争支持者强调边防筹资，反对者强调争利与农业影响",
+      "source_ids": [
+        "F-0412",
+        "F-0414"
+      ],
+      "classification": "historical_text",
+      "verification_status": "translation-checked",
+      "caveat": "原始材料是后世编写的辩论记录，现代段落为意译"
+    },
+    {
+      "claim_id": "CH04-015",
+      "statement": "桓宽《盐铁论》不等于未经整理的81 BCE现场逐字记录",
+      "source_ids": [
+        "F-0414",
+        "F-0415"
+      ],
+      "classification": "historiography",
+      "verification_status": "catalogue+scholar-checked",
+      "caveat": "严禁为历史人物编造逐字对白"
+    },
+    {
+      "claim_id": "CH04-016",
+      "statement": "2025年研究对照罗马165 CE和汉2 CE，分析财政结构和不平等",
+      "source_ids": [
+        "F-0411"
+      ],
+      "classification": "peer_reviewed_comparison",
+      "verification_status": "model-dependent",
+      "caveat": "切勿写两帝国同年同口径国库决算"
+    },
+    {
+      "claim_id": "CH04-017",
+      "statement": "罗马财政更依赖行省地方精英，汉财政有不同的官僚征收组织",
+      "source_ids": [
+        "F-0404",
+        "F-0411",
+        "F-0413"
+      ],
+      "classification": "comparative_historical_interpretation",
+      "verification_status": "research-supported",
+      "caveat": "不可把汉写成完全中央直接控制地方或罗马没有官僚"
+    },
+    {
+      "claim_id": "CH04-018",
+      "statement": "汉武战争期与公元2年前后军事支出不可混作一时点",
+      "source_ids": [
+        "F-0411",
+        "F-0412"
+      ],
+      "classification": "time_period_guardrail",
+      "verification_status": "sources-compared",
+      "caveat": "此差异关系到统计比较有效性"
+    },
+    {
+      "claim_id": "CH04-019",
+      "statement": "财政兼为未来支付承诺与物资调配，跨章承接第05章贸易网络",
+      "source_ids": [
+        "F-0401",
+        "F-0409",
+        "F-0411"
+      ],
+      "classification": "author_inference+bridge",
+      "verification_status": "mechanism-grounded",
+      "caveat": "功能类比不等于两个帝国直接照搬彼此制度"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 2,
+  "current_revision": 3,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -11,9 +11,12 @@
     "CH02-EDICT-ORIGINAL-EDITION-CROSSCHECK",
     "CH02-SCHOLARLY-FULL-TEXT-REVIEW",
     "CH03-MINT-ORIGIN-COMPETING-SOURCES",
-    "CH03-QIN-FISCAL-PRIMARY-RECORDS"
+    "CH03-QIN-FISCAL-PRIMARY-RECORDS",
+    "CH04-LEGIONARY-TREASURY-PRIMARY-CHECK",
+    "CH04-HAN-SLIPS-AND-YANTIELUN-CROSSCHECK",
+    "CH04-COMPARATIVE-FISCAL-ESTIMATE-REVIEW"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Chapter 03 research draft added at revision 2; reviews of all prior revisions invalidated. Full-book outline/evidence gates remain false; no editorial PASS or permission to publish claimed."
+  "notes": "Chapter 04 research draft added at revision 3; prior reviews invalidated, not published or approved; outline_approved/evidence_verified remain false due to book-wide incomplete verification."
 }
