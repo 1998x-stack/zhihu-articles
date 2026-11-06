@@ -291,5 +291,53 @@
 | 20 | H20-14 | 公理集合论是并行发展，不得宣称三派已彻底解决一切问题 | research.md 第20章专项；R20-SEP-ZERMELO;R20-SEP-PHILMATH | 时序与学派限定 |
 | 20 | H20-15 | 下一章研究1908分离公理，不先宣告ZFC绝对一致 | research.md 第20章专项；outline.md;R20-SEP-ZERMELO | 编辑性过渡 |
 
+## 第21—23章专项主张
+
+| 章节 | claim_id | 主张摘要 | 来源映射 | 使用边界 |
+|---|---|---|---|---|
+| 21 | H21-01 | 策梅洛1908年发表集合公理化 | research.md 第21章专项；R21-SEP-ZERMELO | 历史 |
+| 21 | H21-02 | 罗素悖论挑战无限制理解原则 | research.md 第21章专项；R21-SEP-SET;R21-MODERN-SEP | 现代解释 |
+| 21 | H21-03 | 1908原体系包含七组上述原则 | research.md 第21章专项；R21-SEP-ZERMELO | 别误写现代ZFC |
+| 21 | H21-04 | 分离先给定A再筛选 | research.md 第21章专项；R21-SEP-ZERMELO;R21-MODERN-SEP | 数学 |
+| 21 | H21-05 | B={x∈A:x∉x}可存在且B∉A | research.md 第21章专项；R21-MODERN-SEP | 严格推导 |
+| 21 | H21-06 | 策梅洛1904年选择公理与良序，1908系统化 | research.md 第21章专项；R21-SEP-CHOICE;R21-SEP-ZERMELO | 年代 |
+| 21 | H21-07 | 幂集、并集、无穷继续支持无限数学 | research.md 第21章专项；R21-SEP-ZERMELO;R21-SEP-SET | 数学 |
+| 21 | H21-08 | 1908“明确性质”有未消除的解释争议 | research.md 第21章专项；R21-SEP-ZERMELO;R21-BOUNDARY | 史学 |
+| 21 | H21-09 | 1922年前后Fraenkel/Skolem扩展、精确化 | research.md 第21章专项；R21-SEP-ALT | 史学 |
+| 21 | H21-10 | 后来的ZF与ZFC不同于1908体系 | research.md 第21章专项；R21-SEP-SET;R21-SEP-ALT | 版本 |
+| 21 | H21-11 | 现代自然数集合编码不冒称1908原稿 | research.md 第21章专项；R21-MODERN-OMEGA | 现代教学 |
+| 21 | H21-12 | 避免悖论不等于绝对一致 | research.md 第21章专项；R21-SEP-INCOMP;R21-SEP-SET | 逻辑 |
+| 21 | H21-13 | 第22章形式系统安全性为编辑性转场 | research.md 第21章专项；outline.md;R21-BOUNDARY | 编排 |
+| 22 | H22-01 | 1899/1900与1921后希尔伯特计划分别定位 | research.md 第22章专项；R22-SEP-HILBERT | 年代 |
+| 22 | H22-02 | 形式化经典数学，以有限主义研究一致性 | research.md 第22章专项；R22-SEP-HILBERT;R22-SEP-PROOF | 史学 |
+| 22 | H22-03 | 对象层证明与元层检验证明相区别 | research.md 第22章专项；R22-SEP-PROOF;R22-MODERN | 数学解释 |
+| 22 | H22-04 | 有限证明可检查不意味着所有问题可判定 | research.md 第22章专项；R22-SEP-INCOMP;R22-MODERN | 数学 |
+| 22 | H22-05 | 可证明性T⊢P是相对于体系的关系 | research.md 第22章专项；R22-MODERN | 数学 |
+| 22 | H22-06 | 一致性要求不能推导P和¬P | research.md 第22章专项；R22-MODERN | 数学 |
+| 22 | H22-07 | 句子完备性指每句或其否定可证 | research.md 第22章专项；R22-SEP-INCOMP;R22-MODERN | 区别 |
+| 22 | H22-08 | 可判定性指总停机并正确的算法 | research.md 第22章专项；R22-MODERN | 区别 |
+| 22 | H22-09 | 一阶逻辑语义完备≠算术理论句子完备 | research.md 第22章专项；R22-SEP-GODEL;R22-SEP-INCOMP | 关键 |
+| 22 | H22-10 | 1920年代包含真实/理想命题与保守性目标 | research.md 第22章专项；R22-SEP-HILBERT | 原始思想 |
+| 22 | H22-11 | 1899几何公理化非1920年代计划完成 | research.md 第22章专项；R22-SEP-HILBERT | 时序 |
+| 22 | H22-12 | T外部证明Con(T)可能但依赖外部工具 | research.md 第22章专项；R22-SEP-HILBERT;R22-RELATIVE | 元数学 |
+| 22 | H22-13 | 哥德尔1931带来限制但未终结证明论 | research.md 第22章专项；R22-SEP-PROOF;R22-RELATIVE | 后世 |
+| 22 | H22-14 | 下章转到哥德尔，不提前归功1936判定成果 | research.md 第22章专项；outline.md;R22-SEP-INCOMP | 编排 |
+| 23 | H23-01 | 1930会议、1931发表论文 | research.md 第23章专项；R23-SEP-GODEL;R23-ORIGINAL | 史学 |
+| 23 | H23-02 | 一阶逻辑完备与算术不完备不矛盾 | research.md 第23章专项；R23-SEP-GODEL;R23-SEP-INCOMP | 数学 |
+| 23 | H23-03 | 需要一致、有效可公理化、足够算术表达力 | research.md 第23章专项；R23-SEP-INCOMP | 前提 |
+| 23 | H23-04 | 素数幂编码可将有限符号与证明数化 | research.md 第23章专项；R23-MODERN-ENCODING;R23-SEP-INCOMP | 现代解释 |
+| 23 | H23-05 | Prov_T为体系内可表达的证明谓词 | research.md 第23章专项；R23-SEP-INCOMP;R23-MODERN-FIX | 现代数学 |
+| 23 | H23-06 | 对角引理给出G↔¬Prov_T(⌜G⌝) | research.md 第23章专项；R23-SEP-INCOMP;R23-MODERN-FIX | 数学 |
+| 23 | H23-07 | T一致时该G在T内部不可证明 | research.md 第23章专项；R23-MODERN-FIX;R23-SEP-INCOMP | 形式条件 |
+| 23 | H23-08 | 1931原推导不证¬G需较强ω-一致等条件 | research.md 第23章专项；R23-SEP-ROSSER;R23-SEP-INCOMP | 时代 |
+| 23 | H23-09 | 1936罗瑟改进只需一般一致性 | research.md 第23章专项；R23-SEP-ROSSER | 年代 |
+| 23 | H23-10 | “真但不可证”需指定外部标准自然数解释 | research.md 第23章专项；R23-MODERN-TRUTH;R23-SEP-INCOMP | 真值 |
+| 23 | H23-11 | 第二定理T不证明其标准Con(T) | research.md 第23章专项；R23-MODERN-CON;R23-SEP-HILBERT | 前提 |
+| 23 | H23-12 | 外部更强元理论的一致性证明并非被排除 | research.md 第23章专项；R23-MODERN-CON;R23-SEP-INCOMP | 限定 |
+| 23 | H23-13 | 结论不是数学崩溃或所有命题不可证明 | research.md 第23章专项；R23-SEP-INCOMP | 反误读 |
+| 23 | H23-14 | 不完备性与CH独立论证需区分 | research.md 第23章专项；R23-SEP-GODEL;R23-SEP-INCOMP | 跨章 |
+| 23 | H23-15 | 较弱理论不一定适用，如Presburger算术 | research.md 第23章专项；R23-BOUND | 适用 |
+| 23 | H23-16 | 下一章Church/Turing是可判定性新问题 | research.md 第23章专项；outline.md;R23-BOUND | 编排 |
+
 ## 后续章节状态
-第21—25章及序章、尾声仍待逐章专项核证。第01—20章已选主张的证据映射不等同全书终稿核验。
+第24—25章及序章、尾声仍待逐章专项核证。第01—23章已选主张的证据映射不等同全书终稿核验。
