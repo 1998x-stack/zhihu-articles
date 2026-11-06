@@ -1,0 +1,74 @@
+{
+  "chapter": "13",
+  "title": "希尔伯特的公理：点和线究竟是什么",
+  "lane": "nonfiction",
+  "revision": 9,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Historical claims supported by chapter-specific research.md evidence matrix",
+    "Modern mathematics and historical formulations clearly distinguished",
+    "Independent continuity and developmental reviews not yet performed"
+  ],
+  "claims": [
+    {
+      "claim_id": "H13-01",
+      "source_id": "R13-SEP-FREGE",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H13-02",
+      "source_id": "R13-SEP-GEOM",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H13-03",
+      "source_id": "R13-HILBERT-PRIMARY;R13-SEP-GEOM",
+      "verification": "original_text_verified"
+    },
+    {
+      "claim_id": "H13-04",
+      "source_id": "R13-HILBERT-PRIMARY",
+      "verification": "original_text_edition_qualified"
+    },
+    {
+      "claim_id": "H13-05",
+      "source_id": "R13-HILBERT-PRIMARY;R13-TOY",
+      "verification": "modern_analogy_qualified"
+    },
+    {
+      "claim_id": "H13-06",
+      "source_id": "R13-SEP-FREGE;R13-MODERN-LOGIC",
+      "verification": "modern_logic"
+    },
+    {
+      "claim_id": "H13-07",
+      "source_id": "R13-SEP-GEOM;R13-MODERN-LOGIC",
+      "verification": "relative_consistency"
+    },
+    {
+      "claim_id": "H13-08",
+      "source_id": "R13-SEP-GEOM;R13-HILBERT-PRIMARY",
+      "verification": "edition_qualified"
+    },
+    {
+      "claim_id": "H13-09",
+      "source_id": "R13-SEP-FREGE",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H13-10",
+      "source_id": "R13-SEP-GEOM",
+      "verification": "historiographical_qualified"
+    },
+    {
+      "claim_id": "H13-11",
+      "source_id": "R13-MODERN-LOGIC;R13-HILBERT-PRIMARY",
+      "verification": "modern_logic_and_quote_boundary"
+    },
+    {
+      "claim_id": "H13-12",
+      "source_id": "R13-SEP-FREGE;outline.md",
+      "verification": "chronology_qualified"
+    }
+  ]
+}
