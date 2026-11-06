@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="528" viewBox="0 0 800 528" role="img" aria-labelledby="t d">
+<title id="t">阿基米德《抛物线求积》三轮内接三角形示意</title>
+<desc id="d">直线弦在上方，抛物线在下方。大三角形面积为T；左右新增两小三角形合计T的四分之一；第三轮四个三角形合计T的十六分之一。</desc>
+<rect width="800" height="528" fill="#ffffff"/>
+<text x="40" y="46" font-family="sans-serif" font-size="25" font-weight="700" fill="#193653">曲边区域，逐层化成三角形</text>
+<path d="M120 90 L680 90 Q400 790 120 90 Z" fill="#eaf4ff" stroke="none"/>
+<polygon points="120.00,90.00 680.00,90.00 400.00,440.00" fill="#ffb968" stroke="#ffffff" stroke-width="1.7" stroke-linejoin="round"/>
+<polygon points="120.00,90.00 400.00,440.00 260.00,352.50" fill="#66bfc1" stroke="#ffffff" stroke-width="1.7" stroke-linejoin="round"/>
+<polygon points="400.00,440.00 680.00,90.00 540.00,352.50" fill="#66bfc1" stroke="#ffffff" stroke-width="1.7" stroke-linejoin="round"/>
+<polygon points="120.00,90.00 260.00,352.50 190.00,243.13" fill="#a596da" stroke="#ffffff" stroke-width="1.7" stroke-linejoin="round"/>
+<polygon points="260.00,352.50 400.00,440.00 330.00,418.13" fill="#a596da" stroke="#ffffff" stroke-width="1.7" stroke-linejoin="round"/>
+<polygon points="400.00,440.00 540.00,352.50 470.00,418.13" fill="#a596da" stroke="#ffffff" stroke-width="1.7" stroke-linejoin="round"/>
+<polygon points="540.00,352.50 680.00,90.00 610.00,243.13" fill="#a596da" stroke="#ffffff" stroke-width="1.7" stroke-linejoin="round"/>
+<path d="M120 90 Q400 790 680 90" fill="none" stroke="#244967" stroke-width="4" stroke-linecap="round"/>
+<line x1="120" y1="90" x2="680" y2="90" stroke="#244967" stroke-width="3"/>
+<circle cx="120" cy="90" r="4" fill="#244967"/><circle cx="680" cy="90" r="4" fill="#244967"/><circle cx="400" cy="440" r="4" fill="#244967"/>
+<text x="400" y="250" text-anchor="middle" font-size="24" font-weight="700" font-family="sans-serif" fill="#5b3215">T</text>
+<text x="140" y="80" font-size="16" fill="#244967" font-family="sans-serif">弦</text>
+<text x="690" y="317" font-size="16" fill="#244967" font-family="sans-serif">抛物线</text>
+<rect x="74" y="474" width="19" height="19" rx="3" fill="#ffb968"/><text x="103" y="490" font-size="16" fill="#263a4b" font-family="sans-serif">第1轮 T</text>
+<rect x="260" y="474" width="19" height="19" rx="3" fill="#66bfc1"/><text x="289" y="490" font-size="16" fill="#263a4b" font-family="sans-serif">第2轮 T/4</text>
+<rect x="470" y="474" width="19" height="19" rx="3" fill="#a596da"/><text x="499" y="490" font-size="16" fill="#263a4b" font-family="sans-serif">第3轮 T/16</text>
+<text x="400" y="516" text-anchor="middle" font-size="14" fill="#6d7c8e" font-family="sans-serif">示意图取 y=x² 的一段；浅蓝色部分仍未填满</text>
+</svg>

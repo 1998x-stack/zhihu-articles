@@ -207,7 +207,7 @@
 
 ### 本章参考资料（来源、时间与适用范围）
 
-- **A05-ARCH-QP**：阿基米德，《抛物线求积》致多西修斯的前言及命题21—24，经 T. L. Heath 编译，*The Works of Archimedes*（1897，Cambridge 2009/2010 再版），https://www.cambridge.org/core/books/abs/works-of-archimedes/quadrature-of-the-parabola/5A7B236D7719D853D995A55931E1A1BC 。前言有阿基米德说明先用力学研究、再用几何证明的第一人称**公开文本**；命题24为抛物线弓形面积等于同底等高内接三角形的四分之三的**倒数即四分之三? 不对：原文为四分之三的倒数 = 四分之四/三**。编辑时一律写作 **4/3**，绝不可误写 **3/4**。（编译过的古典文本，不代表作者亲笔原稿在场。）
+- **A05-ARCH-QP**：阿基米德，《抛物线求积》致多西修斯的前言及命题21—24，经 T. L. Heath 编译，*The Works of Archimedes*（1897，Cambridge 2009/2010 再版），https://www.cambridge.org/core/books/abs/works-of-archimedes/quadrature-of-the-parabola/5A7B236D7719D853D995A55931E1A1BC 。前言有阿基米德说明先用力学研究、再用几何证明的第一人称**公开文本**；命题24明确证明：抛物线弓形面积等于同底、同高内接三角形面积的 **4/3**，不可误写成 **3/4**。（编译过的古典文本，不代表作者亲笔原稿在场。）
 - **A05-HEATH-1912**：T. L. Heath, *Archimedes*（1912，Project Gutenberg ebook #35550），https://www.gutenberg.org/cache/epub/35550/pg35550-images.html ，章IV，《抛物线求积》介绍第18—24命题的内接三角形和穷竭法、前言历史、比值四分之一。
 - **A05-WINTERS-2025**：Nicholas L. Winters, “Method and Style in Archimedes’ Quadrature of the Parabola,” *Archive for History of Exact Sciences* 79, article 15 (2025), https://doi.org/10.1007/s00407-025-00352-w 或 https://link.springer.com/article/10.1007/s00407-025-00352-w 。同行评议科学史：指出同一命题提供两种方法和不同文本写作风格；对把“力学”完全视为不严格启发式的简单故事给出细化解释。
 - **A05-MAA-QP**：Andrew Leahy, “Archimedes’ Quadrature of the Parabola,” *MAA Convergence*（约2017），https://old.maa.org/press/periodicals/convergence/a-translation-of-evangelista-torricellis-quadratura-parabolae-archimedes-quadrature-of-the-parabola 。教学综述并引述命题24和三角形递归比例；网页索引可读取摘要，直接打开可能暂时失败；应以其摘要和希思文本交叉核查，不引用其未打开段落。

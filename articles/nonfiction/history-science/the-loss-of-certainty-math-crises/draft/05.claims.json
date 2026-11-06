@@ -1,0 +1,98 @@
+{
+  "chapter": "05",
+  "title": "阿基米德：在无穷的边缘计算面积",
+  "lane": "nonfiction",
+  "revision": 4,
+  "status": "draft_claims_traced",
+  "source_scope": "Archimedes via Heath; peer-reviewed scholarship; modern coordinate mathematics independently checked",
+  "notes": [
+    "Historical text vs modern exposition explicitly separated",
+    "Methods and geometry status qualified; current workflow not final-reviewed"
+  ],
+  "claims": [
+    {
+      "claim_id": "H05-01",
+      "source_id": "A05-MACTUTOR",
+      "classification": "historical_background",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "H05-02",
+      "source_id": "A05-ARCH-QP",
+      "classification": "ancient_preface",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H05-03",
+      "source_id": "A05-ARCH-QP;A05-WINTERS-2025",
+      "classification": "methods_text",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H05-04",
+      "source_id": "A05-ARCH-QP;A05-MAA-QP",
+      "classification": "primary_theorem",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H05-05",
+      "source_id": "A05-HEATH-1912;A05-MAA-QP",
+      "classification": "geometry",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H05-06",
+      "source_id": "A05-HEATH-1912;MODERN-FINITE-SERIES",
+      "classification": "modern_algebra",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H05-07",
+      "source_id": "MODERN-PARABOLA-CONSTRUCTION",
+      "classification": "modern_coordinate_example",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H05-08",
+      "source_id": "A05-ARCH-QP;A05-HEATH-1912",
+      "classification": "exhaustion",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H05-09",
+      "source_id": "A05-HEATH-1912;MODERN-RIGOR-RESTATEMENT",
+      "classification": "mathematical_proof",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H05-10",
+      "source_id": "A05-WINTERS-2025",
+      "classification": "historical_mechanical_method",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H05-11",
+      "source_id": "A05-WINTERS-2025;A05-HEATH-1912",
+      "classification": "historiography",
+      "verification": "qualified"
+    },
+    {
+      "claim_id": "H05-12",
+      "source_id": "A05-PALIMPSEST;A05-MACTUTOR",
+      "classification": "manuscript_history",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H05-13",
+      "source_id": "A05-WINTERS-2025;BOOK-OUTLINE",
+      "classification": "historical_language_boundary",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "H05-14",
+      "source_id": "BOOK-OUTLINE;A05-ARCH-QP",
+      "classification": "editorial_trajectory",
+      "verification": "editorial_only"
+    }
+  ]
+}
