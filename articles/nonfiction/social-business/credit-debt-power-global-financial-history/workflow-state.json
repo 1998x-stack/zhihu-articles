@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 8,
+  "current_revision": 11,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -26,9 +26,15 @@
     "CH08-SONG-JIAOZI-1023-1024-DECREE",
     "CH08-PAPER-CURRENCY-REDEMPTION-SOURCES",
     "CH09-EARLY-DOUBLE-ENTRY-ARCHIVAL-REVIEW",
-    "CH09-BILLS-ORIGINAL-LEDGER-EVIDENCE"
+    "CH09-BILLS-ORIGINAL-LEDGER-EVIDENCE",
+    "CH10-YUAN-PAPER-MONEY-ISSUANCE-ORIGINAL",
+    "CH10-MING-SILVERIZATION-LOCAL-TAXES",
+    "CH11-POTOSI-LABOR-ARCHIVAL-REVIEW",
+    "CH11-MANILA-SILVER-TRADE-ESTIMATES",
+    "CH12-GENOA-PUBLIC-DEBT-PRIMARY-ARCHIVE",
+    "CH12-HOLLAND-SAVINGS-BOND-MARKET-SOURCES"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Batch chapters 07-09 drafted on Nov 6 2026. Revision 8 supersedes previous reviews; 31 new source entries and 43 tracked claims. Historical primary texts and specialist editions pending; outline_approved=false and evidence_verified=false; no publication permission."
+  "notes": "Batch chapters 10-12 are research-level prose drafts, 30 new sources and 45 tracked claims, revision 11. Supersedes prior reviews. outline_approved=false, evidence_verified=false, final_approved=false; formal release prohibited."
 }
