@@ -255,10 +255,10 @@
 
 ## 增量史料核验｜第三部第14—16章（2026-11-06，候选草稿）
 
-本节为第14—16章定向补充可追溯研究入口，**不变更整书工作流的** \`evidence_verified=false\` **状态**。网页书目/学术摘要以及现有可访问的原典转录可以支持具体事实，仍须在全书正式审核时逐项复核原典版页与译文。编号延续 H01—H80。
+本节为第14—16章定向补充可追溯研究入口，**不变更整书工作流的** `evidence_verified=false` **状态**。网页书目/学术摘要以及现有可访问的原典转录可以支持具体事实，仍须在全书正式审核时逐项复核原典版页与译文。编号延续 H01—H80。
 
 - **H81** MacTutor，[Gottfried Wilhelm von Leibniz](https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/)；兼参 [Calculus history](https://mathshistory.st-andrews.ac.uk/HistTopics/The_rise_of_calculus/)。**范围**：1672年巴黎惠更斯影响、1670年代记号演进、1684及1686发表、后续争论。**边界**：传记综合材料，人物动机不可当成直接心理记录。
-- **H82** MacTutor，[Earliest Uses of Symbols of Calculus](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/calculus/)。**范围**：1675年10月29日手稿以拉长S替代 omn.，同年11月将 \`dx\` 接入积分书写；指向莱布尼茨全集 VII/5 (2008) pp.288—295 与 pp.321—331；带上下限的现代积分书写更晚形成。**边界**：1675手稿≠1686出版，不等于现代定积分严格定义。
+- **H82** MacTutor，[Earliest Uses of Symbols of Calculus](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/calculus/)。**范围**：1675年10月29日手稿以拉长S替代 omn.，同年11月将 `dx` 接入积分书写；指向莱布尼茨全集 VII/5 (2008) pp.288—295 与 pp.321—331；带上下限的现代积分书写更晚形成。**边界**：1675手稿≠1686出版，不等于现代定积分严格定义。
 - **H83** Frank J. Swetz，MAA Convergence，[Mathematical Treasure: Leibniz’s Papers on Calculus — Differential Calculus](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-leibnizs-papers-on-calculus-differential-calculus)。**范围**：1684年10月《学者纪事》 *Nova methodus pro maximis et minimis* pp.467—473；提供文献页及图版。**边界**：应用微分规则可现代讲解，但不能声称原作具有十九世纪极限基础。
 - **H84** Frank J. Swetz，MAA Convergence，[Mathematical Treasure: Leibniz’s Papers on Calculus — Integral Calculus](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-leibnizs-papers-on-calculus-integral-calculus)。**范围**：1686年6月《学者纪事》 *De geometria recondita et analysi indivisibilium atque infinitorum* pp.292—300；积分号公开出现与求积—微分反向联系。**边界**：历史证明形式不能替换为现代基本定理两个部分的完整ε–δ证明。
 - **H85** MAA Convergence，[Teaching the Fundamental Theorem of Calculus: A Historical Reflection](https://old.maa.org/press/periodicals/convergence/teaching-the-fundamental-theorem-of-calculus-a-historical-reflection)。**范围**：Cavalieri—Barrow—Gregory—Newton—Leibniz阶段性的求积/切线关联与现代教学界限。**边界**：不是一份将“完整现代基本定理”归功于单一十七世纪人物的证明文件。
@@ -270,13 +270,13 @@
 
 ### 第14—16章数学复核要点
 
-- **14** \`d(xy)=xdy+ydx\`；\`y=x³−3x\` 的导数 \`3x²−3\`，由符号表得 \`x=−1\` 局部极大、\`x=1\` 局部极小；\`∫₀²x²dx=8/3\`。**现代教学回译**，不可写作1684年原式。
-- **15** 连续 \`f\` 情形下 \`A(x)=∫ₐˣf(t)dt\` 的差商可由区间上界/下界夹逼得 \`A′=f\`；\`F′=f\` 时 \`∫ₐᵇf=F(b)−F(a)\`。平方和 \`S_n=8(n+1)(2n+1)/(6n²)\` 的极限是 \`8/3\`；阶跃函数在不连续点不满足该点的导数结论。
-- **16** \`x=t²,\,y=x³\` 时流数与现代链式法则都导出 \`dy/dt=6t⁵\`；在 \`t=0\` 分母 \`dx/dt=0\`，不能简单通过除法求 \`dy/dx\`。此例只展示方法重叠，不是优先权的历史证据。
+- **14** `d(xy)=xdy+ydx`；`y=x³−3x` 的导数 `3x²−3`，由符号表得 `x=−1` 局部极大、`x=1` 局部极小；`∫₀²x²dx=8/3`。**现代教学回译**，不可写作1684年原式。
+- **15** 连续 `f` 情形下 `A(x)=∫ₐˣf(t)dt` 的差商可由区间上界/下界夹逼得 `A′=f`；`F′=f` 时 `∫ₐᵇf=F(b)−F(a)`。平方和 `S_n=8(n+1)(2n+1)/(6n²)` 的极限是 `8/3`；阶跃函数在不连续点不满足该点的导数结论。
+- **16** `x=t²，y=x³` 时流数与现代链式法则都导出 `dy/dt=6t⁵`；在 `t=0` 分母 `dx/dt=0`，不能简单通过除法求 `dy/dx`。此例只展示方法重叠，不是优先权的历史证据。
 
 ### 本批待复审问题
 
 1. 1684、1686原版拉丁文本的具体运算式、1668/1670原典中的“逆向联系”需独立版页细审；引用二手史学时勿伪称完成直接查阅全部原件。
 2. 1699法蒂奥的早期质疑与1708开尔事件需严格区分；1712资料审查和1713初出版不能合并成一次日期。
 3. 第15章连续版本的FTC为现代严密化，历史先驱的贡献不应以现代术语倒灌。
-4. 仅为 \`DRAFT_UNREVIEWED\` 候选，没有独立 \`continuity-audit\` 与 \`developmental-editor\` 通过证明，也没有 \`line-edit\`、\`final-approval\` 许可。
+4. 仅为 `DRAFT_UNREVIEWED` 候选，没有独立 `continuity-audit` 与 `developmental-editor` 通过证明，也没有 `line-edit`、`final-approval` 许可。
