@@ -116,9 +116,40 @@
 | 14 | C14-09 | 均匀先验后验P(theta>1/2)=227/256，下一次成功概率为2/3 | 现代数学推导 | INDEPENDENTLY_DERIVED |
 | 14 | C14-10 | 普赖斯的编辑和哲学解读不等同于贝叶斯本人原话 | P14-S1, P14-S4 | SOURCE_SCOPED |
 | 14 | C14-11 | 几何构造未证明所有未知参数必然均匀分布 | P14-S4 | SOURCE_SCOPED |
-| 15 | C15-01 | 布丰：几何概率、连续均匀模型 | 待核对 | UNVERIFIED |
-| 16 | C16-01 | 拉普拉斯：逆概率、渐近近似与1812著作 | 待核对 | UNVERIFIED |
-| 17 | C17-01 | 勒让德、高斯：最小二乘、正态误差联系 | 待核对 | UNVERIFIED |
+| 15 | C15-01 | Buffon was active in geometrical probability and 1733 Academy notice treated franc-carreau | P15-S1, P15-S3 | SOURCE_SCOPED |
+| 15 | C15-02 | 1777 Essai d'arithmétique morale in Histoire naturelle supplement elaborated needle problem | P15-S1, P15-S2, P15-S3 | SOURCE_SCOPED |
+| 15 | C15-03 | The 1733 notice cannot be assumed identical to complete 1777 printed treatment | P15-S1, P15-S2 | SOURCE_SCOPED |
+| 15 | C15-04 | Short-needle model requires l<=d, uniform midpoint distance and independent uniform angle | P15-S3 | SOURCE_SCOPED |
+| 15 | C15-05 | Geometric crossing condition is x<=(l/2)sin theta | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 15 | C15-06 | For l<=d, P(crossing)=2l/(pi d) by integrating conditional probability | P15-S3 | SOURCE_SCOPED |
+| 15 | C15-07 | For l=d probability 2/pi; for l=d/2 probability 1/pi | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 15 | C15-08 | If orientation fixed perpendicular, P=l/d under uniform location; randomness specification matters | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 15 | C15-09 | For l>d simple short-needle formula invalid; conditional probability saturates at one | P15-S3 | SOURCE_SCOPED |
+| 15 | C15-10 | Pi estimation is later interpretation, not asserted as Buffon's initial principal aim | P15-S2 | SOURCE_SCOPED |
+| 16 | C16-01 | Laplace 1774 memoir distinguished effects with known cause and inferred unknown causes from observed effects | P16-S1 | SOURCE_SCOPED |
+| 16 | C16-02 | Stigler English translation is a later scholarly edition, not 1774 first French printing | P16-S1 | SOURCE_SCOPED |
+| 16 | C16-03 | Laplace's studies linked finite differences, probability and methods of analysis | P16-S1, P16-S2 | SOURCE_SCOPED |
+| 16 | C16-04 | BnF catalogs Paris first edition of Théorie analytique des probabilités in 1812 | P16-S5 | SOURCE_SCOPED |
+| 16 | C16-05 | 1814 Essai philosophique was a later broader explanatory work separate from 1812 first edition | P16-S2, P16-S3 | SOURCE_SCOPED |
+| 16 | C16-06 | Historical research links Laplace probability research to astronomical observations, errors, and celestial mechanics | P16-S3, P16-S4 | SOURCE_SCOPED |
+| 16 | C16-07 | Modern independent measurement likelihood is product of error density values given model | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 16 | C16-08 | Bayesian normalization divides prior times likelihood by an integral of total mass | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 16 | C16-09 | Gaussian type concentration integral ∫exp(-nt²/2) about a sharp peak scales as sqrt(2pi/n) | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 16 | C16-10 | Fixed systematic measurement bias is not removed by averaging independent zero-mean fluctuations | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 16 | C16-11 | Modern asymptotic Laplace approximation does not assume all posteriors are smooth single-peaked | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 17 | C17-01 | Legendre first published least-squares method in 1805 appendix pp72-74 | P17-S1, P17-S2, P17-S3 | SOURCE_SCOPED |
+| 17 | C17-02 | 1806 supplemented Legendre text must not be conflated with 1805 first edition | P17-S4 | SOURCE_SCOPED |
+| 17 | C17-03 | Legendre identified overdetermined inconsistent observation equations and minimization of sums of squared residuals | P17-S1 | SOURCE_SCOPED |
+| 17 | C17-04 | Gauss 1809 Theoria motus gave a probability-error interpretation of least squares | P17-S6, P17-S8 | SOURCE_SCOPED |
+| 17 | C17-05 | Gauss claimed prior private use circa 1795, a priority issue requiring separation from first publication | P17-S7, P17-S9 | SOURCE_SCOPED |
+| 17 | C17-06 | Gauss 1801 Ceres orbit reconstruction involved more than one least-squares calculation | P17-S5, P17-S7 | SOURCE_SCOPED |
+| 17 | C17-07 | Robert Adrain independently treated error probabilities in 1808 | P17-S6 | SOURCE_SCOPED |
+| 17 | C17-08 | Modern Q(a)=Σ(y-a)² is minimized by arithmetic mean; example 9,10,14 gives a=11 Q=14 | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 17 | C17-09 | Modern absolute deviations are minimized by median; example 9,10,14 median10 gives absolute error5 | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 17 | C17-10 | Linear fit of x=0,1,2 and y=1,2,2 has a=7/6, b=1/2 and residual squared sum1/6 | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 17 | C17-11 | Independent homoscedastic Gaussian-error maximum likelihood is equivalent to least squares | P17-S8 | SOURCE_SCOPED |
+| 17 | C17-12 | Unequal variances motivate weighted least squares; correlations or model misspecification can invalidate simple claims | 现代数学推导 | INDEPENDENTLY_DERIVED |
+| 17 | C17-13 | Modern normal-equation and residual-orthogonality symbols are later conceptual apparatus | 现代数学推导 | INDEPENDENTLY_DERIVED |
 | 18 | C18-01 | 泊松：泊松分布、稀有事件极限 | 待核对 | UNVERIFIED |
 | 19 | C19-01 | 凯特勒：均值、变异与解释边界 | 待核对 | UNVERIFIED |
 | 20 | C20-01 | 切比雪夫、李雅普诺夫：切比雪夫不等式、中心极限定理 | 待核对 | UNVERIFIED |

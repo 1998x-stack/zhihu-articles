@@ -1,6 +1,122 @@
 {
   "chapter_id": "15",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "verification_scope": "Historical assertions backed by source-specific catalog/history evidence; mathematical derivations explicitly labeled modern. Full original facsimile collation and independent review pending; nonfiction workflow gate remains blocked.",
+  "sources": [
+    {
+      "source_id": "P15-S1",
+      "title": "Pulskamp, Buffon probability and first notice 1733",
+      "url": "https://www.gtfp.cs.rhul.ac.uk/pulskamp/Buffon/buffon.html",
+      "kind": "history_reference"
+    },
+    {
+      "source_id": "P15-S2",
+      "title": "Mathematical Association of America, Buffon's Needle mini-primary-source project",
+      "url": "https://old.maa.org/press/periodicals/convergence/how-to-calculate-pi-buffons-needle-a-mini-primary-source-project-on-geometric-probability-for",
+      "kind": "academic_original_source_guide"
+    },
+    {
+      "source_id": "P15-S3",
+      "title": "Wolfram MathWorld, Buffon's Needle Problem",
+      "url": "https://mathworld.wolfram.com/BuffonsNeedleProblem.html",
+      "kind": "mathematical_and_historical_reference"
+    },
+    {
+      "source_id": "P15-S4",
+      "title": "MacTutor, Georges Buffon biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Buffon/",
+      "kind": "university_history"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C15-01",
+      "statement": "Buffon was active in geometrical probability and 1733 Academy notice treated franc-carreau",
+      "source_ids": [
+        "P15-S1",
+        "P15-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C15-02",
+      "statement": "1777 Essai d'arithmétique morale in Histoire naturelle supplement elaborated needle problem",
+      "source_ids": [
+        "P15-S1",
+        "P15-S2",
+        "P15-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C15-03",
+      "statement": "The 1733 notice cannot be assumed identical to complete 1777 printed treatment",
+      "source_ids": [
+        "P15-S1",
+        "P15-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C15-04",
+      "statement": "Short-needle model requires l<=d, uniform midpoint distance and independent uniform angle",
+      "source_ids": [
+        "P15-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C15-05",
+      "statement": "Geometric crossing condition is x<=(l/2)sin theta",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C15-06",
+      "statement": "For l<=d, P(crossing)=2l/(pi d) by integrating conditional probability",
+      "source_ids": [
+        "P15-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C15-07",
+      "statement": "For l=d probability 2/pi; for l=d/2 probability 1/pi",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C15-08",
+      "statement": "If orientation fixed perpendicular, P=l/d under uniform location; randomness specification matters",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C15-09",
+      "statement": "For l>d simple short-needle formula invalid; conditional probability saturates at one",
+      "source_ids": [
+        "P15-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C15-10",
+      "statement": "Pi estimation is later interpretation, not asserted as Buffon's initial principal aim",
+      "source_ids": [
+        "P15-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    }
+  ]
 }

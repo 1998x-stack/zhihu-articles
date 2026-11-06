@@ -171,3 +171,32 @@
 
 ### 工作流
 原始文献逐页复核、独立连续性审计和发展性编辑审稿仍待执行；保持outline_approved=false、evidence_verified=false、review_status=PENDING。
+
+## 第15—17章研究与主张核对｜2026-11-06
+
+> 本批只完成有范围的章节级史实核对与现代数学推导，**不是**三部原著初印本的逐页完整校勘。仓库 nonfiction 写作门禁仍因 outline_approved=false、evidence_verified=false 而处于未获批准状态；文件为明确标记的研究初稿，不是审稿通过的终稿。
+
+### 15 布丰与连续几何概率
+- [P15-S1 Pulskamp 历史汇编](https://www.gtfp.cs.rhul.ac.uk/pulskamp/Buffon/buffon.html) 和 [P15-S3 MathWorld](https://mathworld.wolfram.com/BuffonsNeedleProblem.html) 支持1733年相关学院记述与1777年原著联系；不能把早期 franc-carreau 条目与1777年完整的针题印刷论证写成完全相同文献。
+- [P15-S2 MAA原典教学项目](https://old.maa.org/press/periodicals/convergence/how-to-calculate-pi-buffons-needle-a-mini-primary-source-project-on-geometric-probability-for) 介绍1777原著中针题与后来的π估计解释（页面读取偶有521错误，所引材料限已能检索的内容）。
+- [P15-S4 MacTutor Buffon](https://mathshistory.st-andrews.ac.uk/Biographies/Buffon/) 核人物身份与其它概率研究。
+- 现代推导：0<l<=d，x uniform[0,d/2]，θ uniform[0,π/2]且独立；几何区域x<=(l/2)sinθ。由条件平均或区域面积比得2l/(πd)。l>d须截断条件概率；若方向固定垂直则为l/d，不是同一随机实验。
+- 不提供任何现实针具操作方法，全部作为抽象几何与概率模型处理。
+
+### 16 拉普拉斯的逆概率与天文测量
+- [P16-S1 Stigler所译1774年Laplace原论文](https://www.york.ac.uk/depts/maths/histstat/memoir1774.pdf)，查看学术译本首页（包括原法文发表于1774论文集第6卷pp621—656）及卷首反向推断问题。该文件是**后世英语译本**，不是1774原始初印本。
+- [P16-S2 Pulskamp版本汇编](https://www.gtfp.cs.rhul.ac.uk/pulskamp/Laplace/index.html)、[P16-S3 Landmark Writings 2005](https://www.sciencedirect.com/science/article/pii/B9780444508713501054)：明确1812《概率分析论》初版和1814《概率哲学论》不同版本；天文学测量误差、概率分析与人口估计的学术史概述。
+- [P16-S4 Centaurus 1973](https://onlinelibrary.wiley.com/doi/10.1111/j.1600-0498.1973.tb00182.x)：拉普拉斯物理/天体力学研究与概率分析的联系；[P16-S5 BnF 1812版馆藏](https://catalogue.bnf.fr/ark%3A/12148/cb35795753v) 提供原版年份、出版地及发行者。
+- 现代推导：未知θ、Y_i=θ+ε_i，独立误差密度f时似然∏f(y_i−θ)，先验×似然归一化；I_n=∫[-1,1]exp(-nt²/2)dt≈sqrt(2π/n)（大n近似）。系统偏差b不随独立零均值误差平均而消失。全部不是拉普拉斯书中的实录观测或逐字原式。
+
+### 17 勒让德与高斯最小二乘
+- [P17-S1 勒让德1805原著附录摘录](https://www.bibnum.education.fr/sites/default/files/legendre-texte.pdf) 支持pp72—74多于未知数的观测方程、平方和最小、正规方程思想；[P17-S2 BnF 1805馆藏](https://catalogue.bnf.fr/ark%3A/12148/cb30775990h)、[P17-S3 ETH 1805数字初版](https://www.e-rara.ch/zut/content/titleinfo/10838079) 交叉核出版年。
+- [P17-S4 Toulouse 1806增订版馆藏](https://tolosana.univ-toulouse.fr/es/notice/072489561) 区分1805正文和1806补编；勿将含补编印本当作1805版原貌。
+- [P17-S5 Gauss著作前言转译](https://mathshistory.st-andrews.ac.uk/Extras/Gauss_preface/) 与 [P17-S7 Historia Mathematica 2011](https://doi.org/10.1016/j.hm.2010.06.003) 对1801年谷神星工作、1809出版及后来自述方法差异提供依据。
+- [P17-S6 Pulskamp原文索引](https://www.gtfp.cs.rhul.ac.uk/pulskamp/Least_Squares/index.html) 确认阿德雷恩1808相关工作；[P17-S8 Magnus 2022论文](https://link.springer.com/article/10.1007/s00407-022-00291-w) 分析高斯1809概率证明与现代最大似然理解。[P17-S9 1799年原始计算史学审视](https://www.armyconferencehistory.org/DOE5/ACAS04.pdf) 指出高斯更早使用的具体证据仍需谨慎。
+- 数学自检：9、10、14平方和最小为11且Q=14；中位数10的绝对误差和5。x=[0,1,2], y=[1,2,2]给a=7/6,b=1/2，残差[-1/6,1/3,-1/6]，SSE=1/6，残差与[1,1,1]及[0,1,2]正交。
+- 勒让德1805是**首个公开发表**；高斯1809是另一概率论证，不能由高斯自述1795年私下使用就抹掉勒让德贡献。1810/1811拉普拉斯与1823高斯后续论证不能误写为1809已经完成的统一现代定理。
+
+### 门禁与进一步核验
+- 本批未独立完成：原始初印本全部页面的人工对照、全书结构批准、连续性审计、发展性编辑审稿、line-edit和final approval。
+- 维持原 workflow-state.json 的全部 PENDING/false 状态，不得冒称经过正式批准或平台已发布。

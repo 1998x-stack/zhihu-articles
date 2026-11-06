@@ -1,6 +1,176 @@
 {
   "chapter_id": "17",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "verification_scope": "Historical assertions backed by source-specific catalog/history evidence; mathematical derivations explicitly labeled modern. Full original facsimile collation and independent review pending; nonfiction workflow gate remains blocked.",
+  "sources": [
+    {
+      "source_id": "P17-S1",
+      "title": "Legendre 1805 original least-squares appendix French source excerpt",
+      "url": "https://www.bibnum.education.fr/sites/default/files/legendre-texte.pdf",
+      "kind": "primary_excerpt_original_text"
+    },
+    {
+      "source_id": "P17-S2",
+      "title": "Bibliothèque nationale de France, 1805 Legendre first edition",
+      "url": "https://catalogue.bnf.fr/ark%3A/12148/cb30775990h",
+      "kind": "original_edition_catalog"
+    },
+    {
+      "source_id": "P17-S3",
+      "title": "ETH Zürich, 1805 Legendre first edition",
+      "url": "https://www.e-rara.ch/zut/content/titleinfo/10838079",
+      "kind": "original_edition_digitized_catalog"
+    },
+    {
+      "source_id": "P17-S4",
+      "title": "University of Toulouse, 1806 Legendre supplemented edition and preface dates",
+      "url": "https://tolosana.univ-toulouse.fr/es/notice/072489561",
+      "kind": "library_version_catalog"
+    },
+    {
+      "source_id": "P17-S5",
+      "title": "MacTutor, Gauss preface to Theoria Motus",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Gauss_preface/",
+      "kind": "historical_primary_translation"
+    },
+    {
+      "source_id": "P17-S6",
+      "title": "Pulskamp, Method of Least Squares primary-source guide",
+      "url": "https://www.gtfp.cs.rhul.ac.uk/pulskamp/Least_Squares/index.html",
+      "kind": "original_sources_bibliography"
+    },
+    {
+      "source_id": "P17-S7",
+      "title": "How ordinary elimination became Gaussian elimination (2011)",
+      "url": "https://doi.org/10.1016/j.hm.2010.06.003",
+      "kind": "peer_reviewed_historiography"
+    },
+    {
+      "source_id": "P17-S8",
+      "title": "Magnus, Gauss on least-squares and maximum-likelihood estimation (2022)",
+      "url": "https://link.springer.com/article/10.1007/s00407-022-00291-w",
+      "kind": "peer_reviewed_math_history"
+    },
+    {
+      "source_id": "P17-S9",
+      "title": "Gauss Adjustment Errors in 1799, historical evidence review",
+      "url": "https://www.armyconferencehistory.org/DOE5/ACAS04.pdf",
+      "kind": "primary_calculation_historical_study"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C17-01",
+      "statement": "Legendre first published least-squares method in 1805 appendix pp72-74",
+      "source_ids": [
+        "P17-S1",
+        "P17-S2",
+        "P17-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C17-02",
+      "statement": "1806 supplemented Legendre text must not be conflated with 1805 first edition",
+      "source_ids": [
+        "P17-S4"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C17-03",
+      "statement": "Legendre identified overdetermined inconsistent observation equations and minimization of sums of squared residuals",
+      "source_ids": [
+        "P17-S1"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C17-04",
+      "statement": "Gauss 1809 Theoria motus gave a probability-error interpretation of least squares",
+      "source_ids": [
+        "P17-S6",
+        "P17-S8"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C17-05",
+      "statement": "Gauss claimed prior private use circa 1795, a priority issue requiring separation from first publication",
+      "source_ids": [
+        "P17-S7",
+        "P17-S9"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C17-06",
+      "statement": "Gauss 1801 Ceres orbit reconstruction involved more than one least-squares calculation",
+      "source_ids": [
+        "P17-S5",
+        "P17-S7"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C17-07",
+      "statement": "Robert Adrain independently treated error probabilities in 1808",
+      "source_ids": [
+        "P17-S6"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C17-08",
+      "statement": "Modern Q(a)=Σ(y-a)² is minimized by arithmetic mean; example 9,10,14 gives a=11 Q=14",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C17-09",
+      "statement": "Modern absolute deviations are minimized by median; example 9,10,14 median10 gives absolute error5",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C17-10",
+      "statement": "Linear fit of x=0,1,2 and y=1,2,2 has a=7/6, b=1/2 and residual squared sum1/6",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C17-11",
+      "statement": "Independent homoscedastic Gaussian-error maximum likelihood is equivalent to least squares",
+      "source_ids": [
+        "P17-S8"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C17-12",
+      "statement": "Unequal variances motivate weighted least squares; correlations or model misspecification can invalidate simple claims",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    },
+    {
+      "claim_id": "C17-13",
+      "statement": "Modern normal-equation and residual-orthogonality symbols are later conceptual apparatus",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENTLY_DERIVED"
+    }
+  ]
 }
