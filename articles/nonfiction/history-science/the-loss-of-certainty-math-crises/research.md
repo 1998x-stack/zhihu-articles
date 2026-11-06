@@ -74,3 +74,24 @@
 
 - **可安全写作**：典型教学反证法、集合R的现代形式化展示、既有方法的逻辑限制；只要清楚标注为“用今天的语言重述”。
 - **不可直接写作**：具体无来源人物言语、日期精确到日的轶事、主观心理、希帕索斯遭溺死现场，以及“哥德尔让数学彻底崩溃”等结论。
+
+
+## 第01章专项证据复核（2026-11-06）
+
+本节为写作《一条对角线，击穿了整数的世界》新增。来源分级为：古典文本的现代公开译本／专业学术解释／数学教学重述。**未确认的“最早发现者”不作为事实写入**。
+
+| 命题 | 来源 | 支持内容与边界 | 类型 | 状态 |
+|---|---|---|---|---|
+| 边长与对角线不可公度的反证思想在古典时代可见 | Aristotle, *Prior Analytics* I.23, [SEP Aristotle and Mathematics](https://plato.stanford.edu/entries/aristotle-mathematics/supplement4.html) | 提及由可公度假设得到奇偶矛盾；**不说明最初发明者**，亦不等于现代代数符号的原始版本 | 一手文本＋学术释义 | 已对照 |
+| 正方形面积翻倍可由原正方形对角线得到 | Plato, *Meno* 82b–85b, [公开译文](https://adfonteslibrary.org/work-plato-meno) | 对话文本证明几何例子在柏拉图作品中出现；不证明对话是严格历史实录 | 一手文本 | 已对照 |
+| 《泰阿泰德篇》提到面积为3、5等的平方与不可公度 | Plato, *Theaetetus* 147d–148b, [公开译文](https://adfonteslibrary.org/work-plato-theaetetus)；[Oxford Academic 解读](https://academic.oup.com/book/11798/chapter/160860173) | 说明文学文本所保存的数学知识与分类议题；不证明所有教师行为细节 | 一手文本＋解释 | 已对照 |
+| 《几何原本》第十卷区分共同尺度与平方上的公度 | [Book X 定义与命题](https://www.euclids-elements.org/elements/books/bookX/)；[Henry Mendell 翻译说明](https://web.calstatela.edu/faculty/hmendel/Ancient%20Mathematics/Euclid/Euclid%20X/Euclid.10.Intro.html) | 用于准确区分长度公度、面积公度及其不同于现代有理数概念的范围 | 一手古典数学文本的现代译本 | 已对照 |
+| 第五卷可在不先给出分数的前提下比较比例 | [Book V 定义](https://www.euclids-elements.org/elements/books/bookV/) | 支持后续章节引入普遍比例理论；**本章仅做现代化直觉提示** | 一手文本的现代译本 | 已对照 |
+| 希帕索斯因泄露无理数遭处刑、是最早发现者 | [SEP Pythagoreanism](https://plato.stanford.edu/entries/pythagoreanism/)，2024修订版 | 没有古代来源直接建立希帕索斯与发现无理量的关联；后出的惩罚故事不同版本不一致 | 争议／传说 | **不得作为事实** |
+| $\\sqrt2$ 非有理数的现代反证、99/70及239/169的平方比较 | 算术推导，可逐项独立复核；[Harvard 课程笔记：近似方法](https://legacy-www.math.harvard.edu/archive/101_fall_03/Notes456.pdf) | 严格数学结论；本章记法属于现代教学，不等于历史原稿 | 现代数学重述 | 已计算复核 |
+
+### 第01章保留的史实边界
+- 未给出“发现不可公度量的第一个人、确切年代、当场反应”；相应信息没有足够原始证据。
+- 不将所谓“第一次危机”描述为有共同日期的集体崩溃事件；该称谓是后世概括性框架。
+- 古代“数／量”关系复杂，篇章只作有限解释，不将现代实数体系倒置为古希腊人的现成理论。
+- **后续复核建议**：对照亚里士多德的希腊语原文和经典数学史研究，对“奇偶矛盾证明”的古文献传承做更精细的版本研究。
