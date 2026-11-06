@@ -1,6 +1,141 @@
 {
   "chapter_id": "18",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "verification_scope": "Scope-limited historical research with original book catalogs, scholarly studies and independently checked modern proofs; not a full page-by-page audit of first editions. Formal review and workflow gate remain pending.",
+  "sources": [
+    {
+      "source_id": "P18-S1",
+      "title": "Poisson, Recherches sur la probabilité des jugements, Bachelier 1837, catalog",
+      "url": "https://books.google.com/books/about/Recherches_sur_la_probabilit%C3%A9_des_jugem.html?id=q4I_AAAAcAAJ",
+      "kind": "original_edition_catalog"
+    },
+    {
+      "source_id": "P18-S2",
+      "title": "Stephen M Stigler, Poisson on the Poisson Distribution, 1982",
+      "url": "https://jhanley.biostat.mcgill.ca/statbook/StiglerPoisson.pdf",
+      "kind": "peer_reviewed_translation_and_commentary"
+    },
+    {
+      "source_id": "P18-S3",
+      "title": "MacTutor, Siméon Denis Poisson biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/",
+      "kind": "university_math_history"
+    },
+    {
+      "source_id": "P18-S4",
+      "title": "Hanley and Bhatnagar, The Poisson Distribution: History, Reenactments, Adaptations, 2022",
+      "url": "https://doi.org/10.1080/00031305.2022.2046159",
+      "kind": "peer_reviewed_history_abstract"
+    },
+    {
+      "source_id": "P18-S5",
+      "title": "Hanley, Teaching Poisson Distribution Then and Now, historical lesson",
+      "url": "https://www.medicine.mcgill.ca/epidemiology/hanley/Gosset/PoissonThenAndNow.pdf",
+      "kind": "scholarly_history_pdf_limited_excerpt"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C18-01",
+      "statement": "Poisson 1837 Bachelier book titled Recherches sur la probabilité des jugements",
+      "source_ids": [
+        "P18-S1",
+        "P18-S2",
+        "P18-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C18-02",
+      "statement": "Stigler 1982 translated relevant passages and found Poisson's eponymous law around original p206 rather than central to book",
+      "source_ids": [
+        "P18-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C18-03",
+      "statement": "Poisson's 1837 argument concerned cumulative near-rare-event approximations, not modern independent mass formula notation",
+      "source_ids": [
+        "P18-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C18-04",
+      "statement": "De Moivre's earlier eighteenth-century work foreshadowed rare-event approximations; originality attribution is not exclusive",
+      "source_ids": [
+        "P18-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C18-05",
+      "statement": "Modern binomial-to-Poisson law for n large p=λ/n fixed λ gives P(X=k)→e^-λ λ^k/k!",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C18-06",
+      "statement": "Modern Poisson(2) gives P0=e^-2 P1=2e^-2 P2=2e^-2 and P3=4e^-2/3",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C18-07",
+      "statement": "Poisson distribution normalizes to one and has expectation and variance λ",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C18-08",
+      "statement": "Mixture of independent Poisson rates 1 and 3 with 50/50 environments has mean 2 variance 3 and P0=(e^-1+e^-3)/2",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C18-09",
+      "statement": "Independent Poisson variables with means λ1 and λ2 sum to Poisson(λ1+λ2)",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C18-10",
+      "statement": "The short rare-count approximation needs a specified limiting regime; dependence and variable rates can break naive applications",
+      "source_ids": [
+        "P18-S4"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C18-11",
+      "statement": "Bortkiewicz's 1898 law of small numbers was later expansion and not Poisson's 1837 original demonstration",
+      "source_ids": [
+        "P18-S4",
+        "P18-S5"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C18-12",
+      "statement": "Historical applications across space time need empirical scrutiny and not every low count is Poisson",
+      "source_ids": [
+        "P18-S4"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    }
+  ]
 }

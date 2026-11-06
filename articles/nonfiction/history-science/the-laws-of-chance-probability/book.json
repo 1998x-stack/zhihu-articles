@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "the-laws-of-chance-probability",
-  "reading_notice": "第02—17章为已附章节级来源与现代数学说明的研究初稿；序章、第01章及第18—37章仍是写作占位，未完成全书独立审稿与正式封版。",
+  "reading_notice": "第02—20章为已附章节级来源与现代数学说明的研究初稿，仍待独立审稿和终稿封版；序章、第01章及第21—37章为写作占位。",
   "chapters": [
     {
       "id": "prologue",
@@ -134,21 +134,21 @@
       "title": "泊松：少见事件为什么有专属规律",
       "part": "第5部｜误差、稀有事件与极限",
       "file": "draft/18.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-19",
       "title": "凯特勒的平均人：社会真的服从数学规律吗",
       "part": "第5部｜误差、稀有事件与极限",
       "file": "draft/19.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-20",
       "title": "切比雪夫到李雅普诺夫：钟形规律有多普遍",
       "part": "第5部｜误差、稀有事件与极限",
       "file": "draft/20.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-21",

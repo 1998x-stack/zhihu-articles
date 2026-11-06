@@ -1,6 +1,172 @@
 {
   "chapter_id": "20",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "verification_scope": "Scope-limited historical research with original book catalogs, scholarly studies and independently checked modern proofs; not a full page-by-page audit of first editions. Formal review and workflow gate remain pending.",
+  "sources": [
+    {
+      "source_id": "P20-S1",
+      "title": "MacTutor, Irénée Jules Bienaymé",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bienayme/",
+      "kind": "university_math_history"
+    },
+    {
+      "source_id": "P20-S2",
+      "title": "Encyclopedia of Mathematics, Bienaymé",
+      "url": "https://encyclopediaofmath.org/wiki/Bienaym%C3%A9%2C_Iren%C3%A9e-Jules",
+      "kind": "specialist_historical_entry"
+    },
+    {
+      "source_id": "P20-S3",
+      "title": "MacTutor, Pafnuty Chebyshev",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Chebyshev/",
+      "kind": "university_math_history"
+    },
+    {
+      "source_id": "P20-S4",
+      "title": "Encyclopedia of Mathematics, Chebyshev inequality in probability theory",
+      "url": "https://encyclopediaofmath.org/wiki/Chebyshev_inequality_in_probability_theory",
+      "kind": "technical_reference"
+    },
+    {
+      "source_id": "P20-S5",
+      "title": "Anders Hald, History of Mathematical Statistics bibliographical list",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/haldcontents.htm",
+      "kind": "scholarly_bibliography_index"
+    },
+    {
+      "source_id": "P20-S6",
+      "title": "The Heroic Age of Probability, Mathematics 2025",
+      "url": "https://doi.org/10.3390/math13050867",
+      "kind": "peer_reviewed_probability_history"
+    },
+    {
+      "source_id": "P20-S7",
+      "title": "Encyclopedia of Mathematics, Lyapunov theorem",
+      "url": "https://encyclopediaofmath.org/wiki/Lyapunov_theorem",
+      "kind": "specialist_mathematics_reference"
+    },
+    {
+      "source_id": "P20-S8",
+      "title": "Encyclopedia of Mathematics, Markov Andrei Andreevich",
+      "url": "https://encyclopediaofmath.org/wiki/Markov%2C_Andrei_Andreevich",
+      "kind": "specialist_historical_entry"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C20-01",
+      "statement": "Bienaymé published antecedent inequality in 1853; Chebyshev applied it in 1867 work",
+      "source_ids": [
+        "P20-S1",
+        "P20-S2",
+        "P20-S3"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C20-02",
+      "statement": "1867 edition printed Bienaymé 1853 material just prior to Chebyshev French article",
+      "source_ids": [
+        "P20-S1",
+        "P20-S2"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C20-03",
+      "statement": "Chebyshev published Des valeurs moyennes 1867 and Sur deux théorèmes 1887",
+      "source_ids": [
+        "P20-S3",
+        "P20-S5"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C20-04",
+      "statement": "Chebyshev 1887 central-limit approach had incomplete conditions addressed by Markov circa 1898",
+      "source_ids": [
+        "P20-S6",
+        "P20-S8"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C20-05",
+      "statement": "Lyapunov 1901 proved generalized CLT with sufficient moment condition and characteristic functions",
+      "source_ids": [
+        "P20-S7",
+        "P20-S8"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C20-06",
+      "statement": "Modern Bienaymé-Chebyshev bound P(|X-μ|>=ε)<=Var(X)/ε² holds with finite variance regardless of shape",
+      "source_ids": [
+        "P20-S4"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C20-07",
+      "statement": "For independent Xi with Var(Xi)<=C, probability mean differs from mean expectations by ε is <=C/(nε²)",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C20-08",
+      "statement": "At C=4 ε=1 n=100 and 1000 these upper bounds are 0.04 and 0.004",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C20-09",
+      "statement": "Weak law of large numbers concerns mean concentration while CLT concerns distribution of standardized sums",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C20-10",
+      "statement": "Modern Lyapunov sufficient condition sum E|Xi-μi|^(2+δ)/s_n^(2+δ)→0 and independence",
+      "source_ids": [
+        "P20-S7"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C20-11",
+      "statement": "Alternating Bernoulli 0.2 and 0.8 independent has variance0.16 each and Lyapunov delta1 bound15.625/sqrt(n)→0",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C20-12",
+      "statement": "Perfectly dependent variables all equal Bernoulli 0.5 cause sample mean to remain 0 or1 regardless of n",
+      "source_ids": [],
+      "category": "modern_mathematical_reconstruction",
+      "verification": "INDEPENDENT_MATH"
+    },
+    {
+      "claim_id": "C20-13",
+      "statement": "Modern proof must not be backdated to 1887 or imply all independent variables satisfy CLT",
+      "source_ids": [
+        "P20-S6",
+        "P20-S7"
+      ],
+      "category": "historical_or_context",
+      "verification": "SOURCE_SCOPED"
+    }
+  ]
 }
