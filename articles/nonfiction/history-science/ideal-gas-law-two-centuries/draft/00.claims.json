@@ -1,0 +1,121 @@
+{
+  "chapter": "00",
+  "title": "267：那个不该被忽略的数字",
+  "lane": "nonfiction",
+  "revision": 0,
+  "status": "draft_claims_traced",
+  "note": "只覆盖序章中实际写入的主张；独立审稿仍待完成。",
+  "claims": [
+    {
+      "claim_id": "G00-01",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "summary": "1834年公式",
+      "classification": "学术二手史料/现代科学解释",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G00-02",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "summary": "267与273历史修正",
+      "classification": "学术二手史料/现代科学解释",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G00-03",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "summary": "热机循环和压强-体积图",
+      "classification": "学术二手史料/现代科学解释",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G00-04",
+      "source_ids": [
+        "S01"
+      ],
+      "summary": "原R不是普适摩尔常数",
+      "classification": "学术二手史料/现代科学解释",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G00-05",
+      "source_ids": [
+        "S03",
+        "S06"
+      ],
+      "summary": "波义耳实验与胡克工作",
+      "classification": "学术二手史料/现代科学解释",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G00-06",
+      "source_ids": [
+        "S04"
+      ],
+      "summary": "盖-吕萨克与查理",
+      "classification": "学术二手史料/现代科学解释",
+      "verification": "qualified"
+    },
+    {
+      "claim_id": "G00-07",
+      "source_ids": [
+        "S05"
+      ],
+      "summary": "阿伏伽德罗假说与传播",
+      "classification": "学术二手史料/现代科学解释",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G00-08",
+      "source_ids": [
+        "S01"
+      ],
+      "summary": "克劳修斯1864形式",
+      "classification": "学术二手史料/现代科学解释",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G00-09",
+      "source_ids": [
+        "S01"
+      ],
+      "summary": "霍斯特曼1873形式",
+      "classification": "学术二手史料/现代科学解释",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G00-10",
+      "source_ids": [
+        "S01"
+      ],
+      "summary": "现代理想气体式",
+      "classification": "学术二手史料/现代科学解释",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G00-11",
+      "source_ids": [
+        "S03"
+      ],
+      "summary": "范德瓦耳斯1873真实气体修正",
+      "classification": "学术二手史料/现代科学解释",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G00-12",
+      "source_ids": [],
+      "summary": "两百年接力为编辑性分期",
+      "classification": "作者组织框架",
+      "verification": "editorial_interpretation"
+    }
+  ]
+}

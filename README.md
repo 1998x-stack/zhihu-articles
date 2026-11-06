@@ -278,6 +278,7 @@ python scripts/workflow_state.py "$ARTICLE" new-revision --reason "修复动机�
 | --- | --- | --- |
 | [《失去确定性：数学史上的三次危机与七次思想革命》](articles/nonfiction/history-science/the-loss-of-certainty-math-crises/README.md) | 数学思想史 · 历史科学非虚构 | `drafting`：第 01 章已有初稿，其他章节主要为结构占位 |
 | [《信用、债务与权力：一部世界金融史》](articles/nonfiction/social-business/credit-debt-power-global-financial-history/README.md) | 世界金融制度史 · 非虚构长篇 | `outlined`：大纲和章节占位，正文尚未完成 |
+| [《看不见的秩序：PV=nRT的两百年接力》](articles/nonfiction/history-science/ideal-gas-law-two-centuries/README.md) | 气体定律发现史 · 科学非虚构长文 | `drafting`：序章已有初稿，15章与尾声为占位 |
 
 这些项目不是已正式发布的作品，也不应将章节占位文件视为成稿。
 
