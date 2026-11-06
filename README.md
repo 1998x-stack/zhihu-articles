@@ -62,6 +62,7 @@ zhihu-articles/
 python scripts/sync_skills.py --check
 python scripts/sync_skills.py --write
 python scripts/validate_repo.py
+python scripts/workflow_state.py <article_dir> new-revision --reason "修复审稿阻断项"
 python -m unittest discover -s scripts -p 'test_*.py'
 ```
 GitHub Actions 执行结构、镜像、流程契约与状态机模拟测试。它们不验证实际中文文学品质或平台收录，成稿仍需编辑审查与来源核对。

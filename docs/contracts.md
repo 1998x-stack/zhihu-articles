@@ -62,3 +62,15 @@ topic-development(brief) → fact-research(research) → nonfiction-architect(ou
 
 ## 用户已有作品
 现存 `articles/` 作品及其状态保持不变。新模板提供 `workflow-state.json`；旧作品只有在准备正式写作/进入审稿闸门时才应迁移状态，不因添加验证器而自动宣布已验收。
+
+## 显式状态转换命令
+```bash
+# 只能在真实资料核验、审稿或终稿审核后明确确认，不会凭文件存在自动颁发质量许可
+python scripts/workflow_state.py <article_dir> evidence-verified --confirm   # 非虚构
+python scripts/workflow_state.py <article_dir> outline-approved --confirm
+python scripts/workflow_state.py <article_dir> review-passed --confirm
+python scripts/workflow_state.py <article_dir> edited
+python scripts/workflow_state.py <article_dir> finalize --confirm
+python scripts/workflow_state.py <article_dir> new-revision --reason "修复某个章节的时间线冲突"
+```
+`new-revision` 自动递增版本、使审稿/精修/终稿批准失效，且将已存在的 `final.md` 归档到 `history/final-rN.md`。人工/模型需按审稿报告修复后重新执行两道复审。命令所接受的 `--confirm` 表示实际审阅后的明确授权，不应由代理未经审查自行伪造。

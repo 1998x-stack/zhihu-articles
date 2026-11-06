@@ -18,8 +18,9 @@
 6. 审稿未通过：`revision-manager` 修改 → 旧审稿失效 → `continuity-audit` 与 `developmental-editor` 针对新版本再次审核，直到通过或明确无法修复。
 7. 仅在最新审稿通过后运行 `line-edit`，输出 `edited.md`；由 `final-approval` 独占生成 `final.md`；发布包装只编辑 `metadata.yaml`。
 8. 执行写作或验收前按阶段使用 `python scripts/workflow_gate.py <article_dir> --target draft|edit|final|publish`；记录 `workflow-state.json`。自动校验只是机器闸门，不代替人工/模型实际审稿。
-9. 章节写作必须更新 `chapter-state.json`；非虚构必须在章节中保留 claim 到来源的可追溯对应。
-10. 不能编造证据、原始引文、采访或真实人物私下心理；未授权不得对外发布或假称已获平台收录。
+9. 版本流转通过 `scripts/workflow_state.py` 显式执行：新修订使旧审稿失效，审稿通过、提纲批准及最终封版必须基于实际审核后明确确认，不可跳过。
+10. 章节写作必须更新 `chapter-state.json`；非虚构必须在章节中保留 claim 到来源的可追溯对应。
+11. 不能编造证据、原始引文、采访或真实人物私下心理；未授权不得对外发布或假称已获平台收录。
 
 ## 原始 Prompt 保存
 核心通用 Prompt 的原始完整版为 `chief-narrative-editor/prompt.txt`；过去的精简版存为 `prompt-condensed-v1.txt`。十套题材 Prompt 的原文在各自 `prompt-original.txt`，阶段旧版 A/B/C 亦在对应目录保留。分阶段执行时优先遵循阶段输入输出权限，而不是照搬原始 Prompt 的“立即输出全文”。
