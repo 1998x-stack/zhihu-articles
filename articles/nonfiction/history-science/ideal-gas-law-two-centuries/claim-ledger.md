@@ -1,6 +1,6 @@
 # 非虚构主张—来源总账
 
-> 本表为**已撰写的序章、第01—08章**建立实质追踪；09—16待写章只有章纲和候选来源，不视为事实核验完成。
+> 本表为**已撰写的序章、第01—11章**建立实质追踪；12—16待写章只有章纲和候选来源，不视为事实核验完成。
 
 | 章节 | claim_id | 关键主张 | 研究依据 | 类型与状态 |
 |---|---|---|---|---|
@@ -213,3 +213,81 @@
 | 08 | G08-18 | ‘数出了’意为逻辑关联不同气体的相对粒子数，不是物理逐一计数 | research.md S41/S50 | editorial_title_explanation |
 
 > 本章前置核证不等于独立审稿/终审，仍保持初稿状态。
+
+
+## 第09章｜1860年的会议：被重新带回来的假说
+
+| 章节 | claim_id | 具体主张 | 研究依据 | 证据类型 |
+|---|---|---|---|---|
+| 09 | G09-01 | 前章1811等体积假说及其数十年接受争议 | research.md S41/S46 | history |
+| 09 | G09-02 | 十九世纪中叶原子量、分子量、当量不统一 | research.md S54/S56 | history |
+| 09 | G09-03 | 凯库勒、武尔茨、韦尔齐恩倡议卡尔斯鲁厄会议 | research.md S54/S55 | history |
+| 09 | G09-04 | 会议1860年9月3日开始，约140位化学家参与 | research.md S55/S57 | history |
+| 09 | G09-05 | 会议目的包含atom/molecule/equivalent定义，不是单纯表决阿伏伽德罗假说 | research.md S54/S57 | history |
+| 09 | G09-06 | 坎尼扎罗1858年《化学哲学课程提要》早于会议 | research.md S56/S55 | primary_translation |
+| 09 | G09-07 | 提要以气体相对密度及阿伏伽德罗假说推相对分子量 | research.md S56/S41 | primary_translation |
+| 09 | G09-08 | 比对不同分子中同一元素的质量份额，求原子量并区分当量 | research.md S56 | primary_translation |
+| 09 | G09-09 | 无法气化的物质还需化学组成/比热等独立证据 | research.md S56/S58 | qualified |
+| 09 | G09-10 | 会议结束时未统一全部术语与原子量 | research.md S54/S55 | history |
+| 09 | G09-11 | 帕韦西会后分发1858《提要》重印本 | research.md S54/S55 | history |
+| 09 | G09-12 | 洛塔尔迈耶受到影响并于1864教材吸收相关思想 | research.md S54/S55 | history |
+| 09 | G09-13 | 门捷列夫参会，1869周期表依赖相对可靠原子量背景，但非会议现场发明 | research.md S54/S58 | qualified |
+| 09 | G09-14 | 阿伏伽德罗思想传播非一夜一致接受 | research.md S46/S48/S54 | historical |
+| 09 | G09-15 | 现代密度/化学式示例是解释工具，不冒充1858原符号 | research.md S56/S41 | modern_explanation |
+| 09 | G09-16 | 规范分子量知识对后来气体统一状态方程重要，但1860未写出PV=nRT | research.md S01/S56 | editorial |
+| 09 | G09-17 | 第10章倒叙回1824热机史，不把1860后的事件写在卡诺之前 | research.md S59/S54 | narrative |
+| 09 | G09-18 | 会议讨论、文本传播、后续教材共同改变科学共同语言 | research.md S54/S55 | synthesis |
+
+> 本章获得初稿写作前置资料支持，尚非独立审稿或终稿。
+
+## 第10章｜蒸汽机到底能做多少功——卡诺的追问
+
+| 章节 | claim_id | 具体主张 | 研究依据 | 证据类型 |
+|---|---|---|---|---|
+| 10 | G10-01 | 1824卡诺发表《关于火的动力的思考》探究热机的最大可能动力 | research.md S59/S60 | primary |
+| 10 | G10-02 | 研究对象不只蒸汽机，还包括所有可想象热机 | research.md S59/S60 | primary |
+| 10 | G10-03 | 冷热差比喻为水位差让动力得以产生 | research.md S59/S61 | primary |
+| 10 | G10-04 | 1824原作采用热素守恒旧理论 | research.md S59/S60 | historical |
+| 10 | G10-05 | 现代热功转换的能量守恒解释在19世纪中期完善 | research.md S60 | historiography |
+| 10 | G10-06 | 循环热机需要温度不同的热源，单一恒温热库不能持续产净功 | research.md S59/S60 | history_modern |
+| 10 | G10-07 | 可逆过程为比较理想最大效率提供反证框架 | research.md S59/S61 | history |
+| 10 | G10-08 | 摩擦及有限温差不做功的直接传热浪费潜在动力 | research.md S59/S61 | history |
+| 10 | G10-09 | 可逆循环倒转可把热从冷处送热处、以此论证效率上限 | research.md S59/S60 | history |
+| 10 | G10-10 | 现代卡诺四段是两等温和两绝热，教学重述非1824完全同词 | research.md S62/S60 | modern |
+| 10 | G10-11 | 工质循环回原状态但对外净功可非零 | research.md S60/S62 | modern |
+| 10 | G10-12 | 可逆热机最高效率取决于冷热热源而非具体工质 | research.md S59/S60 | history |
+| 10 | G10-13 | η=1−Tc/Th为后世在绝对温标下的现代公式，非1824原式 | research.md S60/S62 | modern |
+| 10 | G10-14 | 效率与每秒输出功率、单纯节省燃料不同 | research.md S59/S60 | modern |
+| 10 | G10-15 | 1824著作传播有限，1834克拉佩龙数学重述是重要节点 | research.md S59/S60/S66 | history |
+| 10 | G10-16 | 卡诺1824原文未画后世经典p-V封闭循环图 | research.md S60/S66 | qualified |
+| 10 | G10-17 | 热素理论后来被修正，可逆性及热机极限仍有长久价值 | research.md S60/S61 | synthesis |
+| 10 | G10-18 | 从热机最大功转向PV面积是第11章数学化衔接 | research.md S60/S64 | narrative |
+
+> 本章获得初稿写作前置资料支持，尚非独立审稿或终稿。
+
+## 第11章｜1834年，克拉佩龙写下267
+
+| 章节 | claim_id | 具体主张 | 研究依据 | 证据类型 |
+|---|---|---|---|---|
+| 11 | G11-01 | 1834克拉佩龙发表热的动力研究，《综合工科学校学报》页153—190 | research.md S63/S65 | primary |
+| 11 | G11-02 | 重述卡诺1824研究，推进分析数学化 | research.md S63/S60/S66 | history |
+| 11 | G11-03 | 使用压强-体积坐标描绘热机工质循环 | research.md S63/S60/S66 | primary |
+| 11 | G11-04 | 工质回到原状态但沿途膨胀、压缩所做净功可非零 | research.md S60/S64 | modern |
+| 11 | G11-05 | 现代W=∮p dV为循环曲线有向面积，非1834逐字公式 | research.md S60/S64 | modern |
+| 11 | G11-06 | 结合马略特与盖吕萨克两种经验定律处理同气量P,V,t | research.md S63/S64 | primary |
+| 11 | G11-07 | 原式pv=[p0v0/(267+t0)](267+t)，R=p0v0/(267+t0) | research.md S64/S63 | primary |
+| 11 | G11-08 | 267来自历史温度膨胀经验系数的近似，不是0K实测 | research.md S01/S35/S02 | history |
+| 11 | G11-09 | 当时R取决于选定气量与单位，非现代普适摩尔常数 | research.md S64/S01 | history |
+| 11 | G11-10 | 相同P,T改变气体数量及V，旧定义的R也改变 | research.md S64/S01 | modern |
+| 11 | G11-11 | 现代PV=nRT与n的摩尔标准属于后续概念 | research.md S01/S41 | modern_history |
+| 11 | G11-12 | 克拉佩龙通过微小温差和体积变化推导循环功，不仅列出经验公式 | research.md S60/S64 | primary |
+| 11 | G11-13 | 蒸气液体两相分析引出相变平衡斜率及潜热关系 | research.md S60/S63 | primary |
+| 11 | G11-14 | 热素及旧的热函数Q理论仍有限制，后来部分推导被修正 | research.md S60/S64 | historical |
+| 11 | G11-15 | 论文为汤姆孙与克劳修斯阅读卡诺提供数学表达 | research.md S60/S66 | history |
+| 11 | G11-16 | 后来测量修正了267并向273靠近，非排版错误 | research.md S01/S02/S35 | history |
+| 11 | G11-17 | 统一P,V,T经验关系需固定气体数量和理想适用条件 | research.md S64/S38 | modern |
+| 11 | G11-18 | 1834尚无现代气体分子统计理论和摩尔R | research.md S01/S60 | scope |
+| 11 | G11-19 | 克拉佩龙蒸气部分不同符号R及潜热记号不可混为现代单一常数 | research.md S60/S64 | notation |
+| 11 | G11-20 | 下一章追1850克劳修斯、1864及1873年摩尔化的常数演变 | research.md S01/S02 | transition |
+
+> 本章获得初稿写作前置资料支持，尚非独立审稿或终稿。
