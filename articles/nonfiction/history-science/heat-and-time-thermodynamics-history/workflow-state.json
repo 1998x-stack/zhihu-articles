@@ -1,0 +1,15 @@
+{
+  "schema_version": "2.0",
+  "lane": "nonfiction",
+  "current_revision": 0,
+  "outline_approved": false,
+  "evidence_verified": false,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
+  "unresolved_blockers": [],
+  "edited_revision": null,
+  "final_approved": false,
+  "evidence_scope": "本轮仅建立全书里程碑参考来源和待核清单；未完成逐章事实与原始引文查证。",
+  "approval_scope": "章节架构为策划交付，尚未按仓库门禁批准进入正文阶段。",
+  "note": "序章00、第01—32章、尾声33均为章纲占位；claims.json均为空，不代表事实审核或正文完成。"
+}
