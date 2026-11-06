@@ -1,6 +1,6 @@
 # 资料证据矩阵｜PV=nRT 发现史
 
-> 研究范围：**当前已核对序章00及第01—11章的核心事实**。12—16章只有研究方向，写正文前逐章进行资料扩展。标注“已核”指来源确实支持下表限定的主张，不等于获得完整的原始档案链、通过出版审稿或为全篇史实背书。
+> 研究范围：**当前已核对序章00及第01—14章的核心事实**。15—16章只有研究方向，写正文前逐章进行资料扩展。标注“已核”指来源确实支持下表限定的主张，不等于获得完整的原始档案链、通过出版审稿或为全篇史实背书。
 
 ## 可追溯资料
 
@@ -511,3 +511,107 @@ G04-01至G04-18拥有可追溯资料或明确的编辑性/现代解释标记，�
 
 ### 核证结论
 第09章G09-01—18、第10章G10-01—18、第11章G11-01—20可在本矩阵限制内撰写为初稿；审稿/精修/终稿发布依旧不得跳过。
+
+## 第12—14章批次专项核证｜普适常数、分子运动与真实气体（2026-11-06）
+
+> 本批按既定章纲12→13→14写作，不改题、不倒置概念。资料来自现有仓库参考文献、原始论文后世英译、专业科学史及现代物理教材；“原文”“后世回顾”“现代整理”严格分开。**本次研究不核准第15—16章正文。**
+
+### 新增与复核资料
+
+| 来源 ID | 可核查书目、URL | 支持范围、限制或反证 |
+|---|---|---|
+| S67 | William B. Jensen, “The Universal Gas Constant,” Journal of Chemical Education 80 (2003), 731–732; 2009 updated reprint https://homepages.uc.edu/~jensenwb/reprints/100.%20Gas%20Constant.pdf | 经PDF首页及次页截图核验：1850 Clausius pv=R(273+t), 1864 pv=RT；1873 Horstmann up=RT，u是摩尔体积；旧R按单位质量、物种变化；R字母来源不明。2009增订纠正早期“ideal gas”出现时间，不宜说1864首次创造术语。 |
+| S68 | August F. Horstmann, “Theorie der Dissociation,” Annalen der Chemie und Pharmacie 170 (1873), 192–210, English translation “The Theory of Dissociation” in Bulletin for the History of Chemistry 34(2), 2009, 76–82, https://homepages.uc.edu/~jensenwb/reprints/168.%20Horstmann%20%282%29.pdf | 1873原文的后世英译：在离解反应与熵论上下文中，令u为一摩尔体积，写up=RT，R为摩尔量基准常数；已查PDF文本行77—84，截图服务cache miss，不声称直接对德文原作逐字核对。 |
+| S69 | Rudolf Clausius, “Über die bewegende Kraft der Wärme …,” Annalen der Physik 79 (1850), 368–397, 500–524; publication metadata as cited in Jensen 2003, https://homepages.uc.edu/~jensenwb/reprints/100.%20Gas%20Constant.pdf | 1850与雷尼奥数据，1873前的经验体积方程、热功机械理论历史；这里未直接阅读德文原文，精确数学改写依据S67/S02学术史，不能冒充克劳修斯1850原作。 |
+| S70 | University of Maryland, L. R. Mugnai et al., “History of Kinetic Theory,” https://math.umd.edu/~lvrmr/History/ | 大学教学时间线：1857 Clausius运动、1858平均自由程、1860 Maxwell速度分布，后期Boltzmann；只作阶段概述。 |
+| S71 | Stanford Encyclopedia of Philosophy, “Boltzmann’s Work in Statistical Physics,” revised 2024-10-10, https://plato.stanford.edu/entries/statphys-boltzmann/ | 专业参考：Maxwell 1860及1867概率分布，Boltzmann 1866、1872方程和H定理及分子混沌假设，1876洛施密特反演反驳；避免宣称1872无条件证明不可逆性、S=k log W是其手写原式。 |
+| S72 | J. Clerk Maxwell, “O ver de continuiteit ...,” Nature 10 (1874), 477–480, DOI:10.1038/010477a0, https://www.nature.com/articles/010477a0 | 1874 Maxwell 对范德瓦耳斯1873论文同时代书评，摘要可核：理想气体动力理论与分子飞行/碰撞、液气连续性问题；全文订阅限制，不能宣称逐页阅读书评。 |
+| S73 | Johannes Diderik van der Waals, Nobel Lecture “The equation of state for gases and liquids” 1910-12-12, official Nobel archive https://www.nobelprize.org/uploads/2018/06/waals-lecture.pdf | 当事人37年后的回顾一手演讲PDF文本：1873动力来自Clausius 1857；两种修正——分子本身体积及吸引——p=RT/(v-b)-a/v²；坦言常数a,b不可能精确拟合全范围且b随状态变化。网页PDF截图返回403，不以此表示原版1973博士论文全文已核。 |
+| S74 | M. J. Klein, “The historical origins of the Van der Waals equation,” Physica 73 (1974), 28–47, DOI:10.1016/0031-8914(74)90224-9, https://www.sciencedirect.com/science/article/pii/0031891474902249 | 学术史论文公开摘要：1873论文源于拉普拉斯毛细管理论与分子压强问题，受Clausius影响；限公开摘要，不扩大到未审的结论。 |
+| S75 | Physics Today, “Diederik Korteweg, Pioneer of Criticality” (2002), https://physicstoday.aip.org/features/diederik-korteweg-pioneer-of-criticality | 专业史学与临界点背景：Andrews 1869二氧化碳临界与凝结实验；1873 vdW试图连接液态与气态行为；临界领域发展非一人一日。 |
+| S76 | OpenStax, University Physics Volume 2, “Key Equations” and section 2.2, https://openstax.org/books/university-physics-volume-2/pages/2-key-equations ; https://openstax.org/books/university-physics-volume-2/pages/2-2-pressure-temperature-and-rms-speed | 现代教学推导：pV=N k_B T=(1/3)N m〈v²〉，vdW现代摩尔方程[p+a(n/V)²](V-nb)=nRT；明确是后世数学及符号。 |
+| S77 | Johannes Diderik van der Waals, “Over de continuïteit van den gas- en vloeistoftoestand,” Leiden doctoral thesis (1873); contemporaneous Maxwell 1874 review and 1910 Nobel lecture as S72/S73 | 1873荷兰文论文书目确定；本轮没有全文核读其原始方程每一符号，所用现代n,a,b写法应显式标为回顾，不伪造精确荷兰原文。 |
+| S78 | American Institute of Physics / Physics Today article on criticality and liquid-gas transition (2002), https://physicstoday.aip.org/features/diederik-korteweg-pioneer-of-criticality | 补充用于实测与理论区分：Andrews先有实验二氧化碳相变，范德瓦耳斯后提出模型，需另有相平衡条件来描述实际共存区，不可把三次方等温线不稳定段当实测稳定物态。 |
+
+### 第12章｜一个常数，怎样成为所有气体的常数
+
+| claim_id | 史实/论证及边界 | 资料 | 分类 |
+|---|---|---|---|
+| G12-01 | 克拉佩龙1834的pv=R(267+t)中的R依赖固定气体单位基准，非现代普适摩尔常数 | S64/S67 | history |
+| G12-02 | 克劳修斯1850引用雷尼奥测量数据把267改为约273，写pv=R(273+t) | S67/S02 | history_secondary |
+| G12-03 | 1864克劳修斯写pv=RT，T为绝对温度，仍按单位质量体积基准 | S67 | history_secondary |
+| G12-04 | 1857克劳修斯已用ideal gas相关概念，不能宣称1864第一次发明这个名称 | S67 | source_correction |
+| G12-05 | 若v为每单位质量所占体积，不同气体的比气体常数依赖摩尔质量 | S67 | history_modern |
+| G12-06 | 在固定P,T时，同摩尔数不同理想气体体积近似相同，阿伏伽德罗假说提供数量基准 | S41/S56/S67 | history |
+| G12-07 | 1873霍斯特曼在离解理论的论文中令u为一摩尔体积、写up=RT | S68/S67 | primary_translation |
+| G12-08 | 他的R在按摩尔体积计量后不再依赖化学种类，这个变动是计量基准而非发现新气体 | S68/S67 | history_interpretation |
+| G12-09 | 1873论文首要研究化学离解平衡与熵，不是为气体定律单独写的专论 | S68 | primary_translation |
+| G12-10 | 当时的“molecular weight”数量基准与今摩尔SI定义不能完全视作同时成立 | S68/S56 | historical_boundary |
+| G12-11 | 现代PV=nRT是把n摩尔气体和摩尔体积u=V/n联系的教学换写 | S76/S67 | modern_derivation |
+| G12-12 | R_sp=R/M对应具体气体的比气体常数，M为摩尔质量，不能把二者同名误解 | S67/S76 | modern_derivation |
+| G12-13 | 当时R字母由来不确定，Jensen提出arbitrary/ratio等猜测但无原作者证明 | S67 | uncertainty |
+| G12-14 | 常数普适指在理想状态、同单位和同物质的量条件下对不同气体相同，不指任何物质均遵循理想关系 | S67/S76 | physical_scope |
+| G12-15 | 从267到273与从比气体常数到普适摩尔常数是不同进步，年代不应合并 | S67/S02 | history_synthesis |
+| G12-16 | 历史式pv=RT与现代PV=nRT中字母相似但v的单位/气量基准不同 | S67/S68 | notation |
+| G12-17 | 现代R的单位J/(mol·K)，摩尔定义与现代精确值推迟第15章详述 | S76 | modern_scope |
+| G12-18 | 统一气体方程是实验与计量表达，分子为什么产生压强还需动力论解释 | S76/S70 | transition |
+
+### 第13章｜数不尽的分子，竟能导出一条简单方程
+
+| claim_id | 史实/论证及边界 | 资料 | 分类 |
+|---|---|---|---|
+| G13-01 | 分子力学解释在克劳修斯之前已有伯努利等先驱，19世纪才形成更系统的气体动理论 | S70/S76 | historiography |
+| G13-02 | 1857克劳修斯以高速运动微粒解释热与压强并对气体规律推导 | S70/S73 | history |
+| G13-03 | 1858克劳修斯提出平均自由程以解释高速分子为何不瞬间贯穿房间 | S70 | history |
+| G13-04 | 气体压强从分子频繁与壁面碰撞的平均动量交换产生 | S76 | modern_mechanism |
+| G13-05 | 在简化模型中pV=(1/3)Nm〈v²〉，需理想弹性碰撞、各向同性等假设 | S76 | modern_derivation |
+| G13-06 | 〈v²〉与〈v〉²不是同一个统计量，不能把均方速率当平均速率 | S76 | math_scope |
+| G13-07 | 比较pV=Nk_BT得(1/2)m〈v²〉=(3/2)k_BT为平动能关系 | S76 | modern_physics |
+| G13-08 | 上述平动平均能量为三维理想气体分子平动自由度，不等同多原子气体全部内能 | S76 | modern_scope |
+| G13-09 | 固定N和平均平动能，压强与体积呈反比，可从运动图景理解波义耳定律 | S76 | modern_consequence |
+| G13-10 | 麦克斯韦1860引入分子速度概率分布，不再所有分子同速 | S71/S70 | history |
+| G13-11 | 麦克斯韦1867更深入利用碰撞讨论平衡分布而修正最初论证 | S71 | history |
+| G13-12 | 速度向量的平均可能为零，分子速率分布却并非都零 | S71/S76 | modern_explanation |
+| G13-13 | 玻尔兹曼从1866起研究统计物理，1872提出非平衡分布方程与H定理 | S71 | history |
+| G13-14 | 玻尔兹曼1872论证使用分子碰撞统计假设，不能称只凭牛顿力学无前提证明熵永远增加 | S71 | historiographic_limit |
+| G13-15 | Loschmidt 1876反演反驳提示时间反向对称运动与不可逆增长的逻辑张力 | S71 | history |
+| G13-16 | 1872的H函数与后来简化的S=klogW不能直接说是当年同一手写公式 | S71 | history_caution |
+| G13-17 | 理想气体忽略非碰撞期间的分子间吸引和自身体积，对稀薄气体较有效 | S73/S76 | physical_scope |
+| G13-18 | 气体动理论提供可检验的微观模型，不是借分子理论否定所有前人的宏观实验 | S70/S73 | synthesis |
+| G13-19 | 下一章分子有体积且相吸会使理想气体方程偏离，导向范德瓦耳斯 | S73/S74 | transition |
+
+### 第14章｜1873年，范德瓦耳斯为理想气体补上现实
+
+| claim_id | 史实/论证及边界 | 资料 | 分类 |
+|---|---|---|---|
+| G14-01 | 1873范德瓦耳斯的莱顿博士论文题为气态与液态的连续性 | S72/S77 | bibliography |
+| G14-02 | 安德鲁斯1869二氧化碳等温实验指出临界温度及气液转变条件 | S75 | history |
+| G14-03 | 仅升高压强并非任意温度都能通过清晰界面使气体液化，须考虑临界温度 | S75 | history_qualified |
+| G14-04 | 范德瓦耳斯1910回顾说1857克劳修斯气体动理论促其提出问题 | S73 | retrospective_primary |
+| G14-05 | 模型主要两因素：微粒自身体积及微粒间吸引，解释非稀薄时不服从波义耳规律 | S73/S74 | retrospective |
+| G14-06 | 现代一摩尔形式(p+a/v²)(v−b)=RT，v为摩尔体积 | S73/S76 | modern_formula |
+| G14-07 | 现代任意n摩尔形式[p+a(n/V)²](V−nb)=nRT | S76 | modern_formula |
+| G14-08 | b描述排斥造成的有效排除体积，不简单等于分子实际体积之和 | S73 | physics_boundary |
+| G14-09 | 稀薄硬球近似中排除体积系数可约为微粒自身总体积的四倍，条件很窄 | S73 | retrospective_limited |
+| G14-10 | a项反映分子吸引导致实际壁面测得压强相对理想模型降低的修正趋势 | S73/S76 | modern_physics |
+| G14-11 | v远大于b且a/v²相对小，方程接近理想气体形式 | S73/S76 | math_limit |
+| G14-12 | 气体密度增加与接近相变时理想气体方程可能明显偏离 | S73/S75 | empirical_scope |
+| G14-13 | 安德鲁斯先有临界实测，范德瓦耳斯提出定量解释并非本人最先发现临界点 | S75/S74 | priority |
+| G14-14 | 范德瓦耳斯方程理想化等温线在共存区的非稳定分支不能直接视为实际可观察稳定曲线 | S75/S76 | limitation |
+| G14-15 | 在相变区若需匹配真实共存压强还需要相平衡条件或后续等面积等方法 | S75 | modern_scope |
+| G14-16 | 范德瓦耳斯1910年明确承认常a,b不可能精确符合全部实验，尤其b有状态依赖 | S73 | retrospective_primary |
+| G14-17 | 1910演讲中的自我回顾不可与1873博士论文的逐字内容完全等同 | S73/S77 | source_limit |
+| G14-18 | 范德瓦耳斯方程是对理想气体基准模型加可解释修正而非推翻物理定律 | S73/S76 | editorial_synthesis |
+| G14-19 | 章末衔接15章现代R和kB区别及各种模型适用条件 | S67/S76 | transition |
+
+### 决定性的来源—概念分离
+
+1. **第12章两个不同进步**：1850年使用雷尼奥数据修正267为273、1864年以绝对温度化简，**都尚未使按单位质量定义的R普适**。1873年霍斯特曼用一摩尔体积u写up=RT，才使按摩尔计量的常数摆脱气体种类的差异。S67首、次页经PDF截图核对；S68 1873德文原作的2009英译PDF文本明确含有up=RT，但其网页截图cache miss；不宣称全版德文已核读。
+2. **“ideal gas”名称年份冲突**：Jensen 2003原文曾称Clausius 1864引入，2009更正为至少1857已出现此用语。只写“1864年使用绝对温度写pv=RT”，不写1864首次提出“理想气体”之名。
+3. **历史与现代公式区分**：Horstmann 1873原文使用一摩尔体积u，在离解平衡理论中出现公式，非独立发表普适气体定律专著；现代n、SI摩尔和R精确值均属后世。R字母词源并无可信确定结论。
+4. **第13章速度不是单值**：Clausius 1857/1858、Maxwell 1860/1867、Boltzmann 1872分别构成模型演化；现代pV=(1/3)Nm〈v²〉并不是他们同一年原式。Boltzmann H定理需碰撞统计假设，不宣称纯动力学逻辑无条件证明第二定律；1876反演问题是后续反证。
+5. **第14章对范德瓦耳斯不双向神化**：1873博士论文先讨论液气连续性；Andrews 1869对CO₂临界现象的实验先行；1910年范德瓦耳斯诺奖演讲（晚年回顾）确认分子体积+引力两种修正以及常系数的局限。现代[n,a,b]方程是教学记号；共存区等温线的非稳定分支不是物理实测稳定过程。
+6. **材料与安全**：历史实验中的受压容器、危险气体、低温装置仅作概念，不提供可复现步骤与材料获取；推导仅使用数学与模型。
+
+### 本批前置资格
+第12章G12-01—18、第13章G13-01—19、第14章G14-01—19均可按表中限定资料进入**非虚构初稿**；独立审稿、精修与终稿发布仍未获批准。
