@@ -1,0 +1,81 @@
+{
+  "chapter": "16",
+  "title": "弗罗贝尼乌斯与秩：变换究竟保留什么",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "H16-S1": "https://doi.org/10.1515/crelle-1878-18788403",
+    "H16-S2": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "H16-S3": "https://www.sciencedirect.com/science/article/pii/S0315086085710245",
+    "H16-S4": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "M16": "本章第3—8节现代子式、秩零度、增广矩阵和矩阵等价算例"
+  },
+  "claims": [
+    {
+      "claim_id": "C16-01",
+      "source_ids": [
+        "H16-S1",
+        "H16-S2"
+      ],
+      "kind": "historical",
+      "verified": true
+    },
+    {
+      "claim_id": "C16-02",
+      "source_ids": [
+        "H16-S2",
+        "H16-S3"
+      ],
+      "kind": "historical_multi_lineage",
+      "verified": true
+    },
+    {
+      "claim_id": "C16-03",
+      "source_ids": [
+        "M16"
+      ],
+      "kind": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C16-04",
+      "source_ids": [
+        "M16"
+      ],
+      "kind": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C16-05",
+      "source_ids": [
+        "M16"
+      ],
+      "kind": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C16-06",
+      "source_ids": [
+        "H16-S2",
+        "H16-S4"
+      ],
+      "kind": "historical_chronology",
+      "verified": true
+    },
+    {
+      "claim_id": "C16-07",
+      "source_ids": [
+        "H16-S3",
+        "M16"
+      ],
+      "kind": "historical_modern_synthesis",
+      "verified": true
+    }
+  ],
+  "notes": [
+    "秩不是单人1878凭空发明",
+    "Frobenius当时术语并非现代matrix表述",
+    "同秩等价不同于相似",
+    "初稿待独立双审/终稿"
+  ]
+}
