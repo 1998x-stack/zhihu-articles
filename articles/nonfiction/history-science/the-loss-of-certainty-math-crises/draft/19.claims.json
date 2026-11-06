@@ -1,0 +1,92 @@
+{
+  "chapter": "19",
+  "title": "理发师与集合：一个笑话不能修好地基",
+  "lane": "nonfiction",
+  "revision": 11,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Primary and scholarly historical claims are mapped to research.md chapter evidence matrix",
+    "Modern mathematical reconstructions explicitly distinguished from original historical statements",
+    "Independent continuity/developmental reviews and final approval remain pending"
+  ],
+  "claims": [
+    {
+      "claim_id": "H19-01",
+      "statement": "理发师寓言是罗素悖论逻辑形态的通俗类比非原始证明",
+      "source_id": "R19-SEP-RUSSELL",
+      "verification_scope": "已核历史限定"
+    },
+    {
+      "claim_id": "H19-02",
+      "statement": "必须明示理发师属于被服务的居民，否则无法代入自指",
+      "source_id": "R19-MODERN-LOGIC",
+      "verification_scope": "数理核验"
+    },
+    {
+      "claim_id": "H19-03",
+      "statement": "理发师满足“且仅”时出现p⇔¬p矛盾",
+      "source_id": "R19-MODERN-LOGIC",
+      "verification_scope": "数理核验"
+    },
+    {
+      "claim_id": "H19-04",
+      "statement": "该推导表明这种理发师不能存在，而非现实理发行业矛盾",
+      "source_id": "R19-SEP-RUSSELL;R19-MODERN-LOGIC",
+      "verification_scope": "概念界限"
+    },
+    {
+      "claim_id": "H19-05",
+      "statement": "集合论悖论威胁自由造集合的数学原则，超过讲笑话",
+      "source_id": "R19-SEP-RUSSELL;R19-SEP-SET-EARLY",
+      "verification_scope": "已核"
+    },
+    {
+      "claim_id": "H19-06",
+      "statement": "给定集合A内分离出B={x∈A:x∉x}没有矛盾",
+      "source_id": "R19-SEP-ZERMELO;R19-MODERN-LOGIC",
+      "verification_scope": "数学核算"
+    },
+    {
+      "claim_id": "H19-07",
+      "statement": "假设B∈A则导出B∈B⇔B∉B，因此B∉A",
+      "source_id": "R19-SEP-ZERMELO;R19-MODERN-LOGIC",
+      "verification_scope": "数学核算"
+    },
+    {
+      "claim_id": "H19-08",
+      "statement": "不加边界的理解与有限范围分离是不同规则",
+      "source_id": "R19-SEP-ZERMELO",
+      "verification_scope": "逻辑界限"
+    },
+    {
+      "claim_id": "H19-09",
+      "statement": "简化的类型层级禁止不合法自应用",
+      "source_id": "R19-SEP-RUSSELL-TYPES;R19-TYPE-BOUND",
+      "verification_scope": "现代解释"
+    },
+    {
+      "claim_id": "H19-10",
+      "statement": "1903/1908类型方案及1910—1913《数学原理》分别定位",
+      "source_id": "R19-SEP-RUSSELL-TYPES;R19-SEP-PRINCIPIA",
+      "verification_scope": "时间线核实"
+    },
+    {
+      "claim_id": "H19-11",
+      "statement": "类型论与公理集合论是不同的基础修复路线",
+      "source_id": "R19-SEP-SET-EARLY;R19-SEP-RUSSELL-TYPES",
+      "verification_scope": "史学已核"
+    },
+    {
+      "claim_id": "H19-12",
+      "statement": "不能把ZF/ZFC一致性描述为已经得到绝对保证",
+      "source_id": "R19-SEP-ZERMELO;R19-SEP-SET-EARLY",
+      "verification_scope": "逻辑界限"
+    },
+    {
+      "claim_id": "H19-13",
+      "statement": "第20章分歧来自对“什么担保数学”不同回答",
+      "source_id": "outline.md;R19-SEP-SET-EARLY",
+      "verification_scope": "编辑性过渡"
+    }
+  ]
+}
