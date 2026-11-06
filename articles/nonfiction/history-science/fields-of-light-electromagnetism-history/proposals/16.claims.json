@@ -1,0 +1,207 @@
+{
+  "chapter": "16",
+  "title": "我们今天背的四条方程，真是麦克斯韦亲手写的吗",
+  "manuscript_path": "proposals/16.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E16-01",
+      "statement": "1873 Maxwell Treatise为两卷初版，不是以现代四条方程形式排版",
+      "kind": "原版馆藏书目",
+      "source_ids": [
+        "S16-01",
+        "S16-02"
+      ],
+      "section": "一、二",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E16-02",
+      "statement": "Maxwell在1873前言重视Faraday original researches",
+      "kind": "作者原始文本",
+      "source_ids": [
+        "S16-03"
+      ],
+      "section": "二",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E16-03",
+      "statement": "二十个标量关系按后世研究者口径统计，需与1873基本方程分组区分",
+      "kind": "计数口径与科学史",
+      "source_ids": [
+        "S16-02",
+        "S16-04"
+      ],
+      "section": "三",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E16-04",
+      "statement": "真空经典麦克斯韦方程含E、B散度和旋度四关系",
+      "kind": "现代物理",
+      "source_ids": [
+        "S16-05"
+      ],
+      "section": "四",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E16-05",
+      "statement": "现代四式还需结合力学、边界条件和材料构成关系",
+      "kind": "现代适用范围",
+      "source_ids": [
+        "S16-05"
+      ],
+      "section": "四、九",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E16-06",
+      "statement": "Heaviside有电报工程背景，并在1884年后推进矢量场形式",
+      "kind": "科学史事实",
+      "source_ids": [
+        "S16-06"
+      ],
+      "section": "六",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E16-07",
+      "statement": "Heaviside整理不意味着原始势是错误或应全部废除",
+      "kind": "数学表达的功能边界",
+      "source_ids": [
+        "S16-06",
+        "S16-05"
+      ],
+      "section": "六、八",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E16-08",
+      "statement": "Gibbs 1881—1884年Elements of Vector Analysis早期印制用于教学",
+      "kind": "馆藏事实",
+      "source_ids": [
+        "S16-07",
+        "S16-09"
+      ],
+      "section": "七",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E16-09",
+      "statement": "Smithsonian藏本为Gibbs赠Heaviside并含Heaviside手稿批注",
+      "kind": "一手藏本附加事实",
+      "source_ids": [
+        "S16-07"
+      ],
+      "section": "七",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E16-10",
+      "statement": "Gibbs和Heaviside为现代矢量分析系统形成作重要贡献",
+      "kind": "科学史归属",
+      "source_ids": [
+        "S16-08",
+        "S16-06"
+      ],
+      "section": "七",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E16-11",
+      "statement": "现代场方程与1873原书的机械、电势表达不能视为完全同一排版",
+      "kind": "史学与现代概念区别",
+      "source_ids": [
+        "S16-01",
+        "S16-02"
+      ],
+      "section": "八、十",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E16-12",
+      "statement": "经典四方程可作为更大体系一部分，不替代量子理论或相对论",
+      "kind": "物理适用范围",
+      "source_ids": [
+        "S16-05"
+      ],
+      "section": "九",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S16-01",
+      "title": "Library of Congress original Maxwell A Treatise on Electricity and Magnetism 1873",
+      "url": "https://www.loc.gov/item/03015568/",
+      "source_type": "两卷1873初版馆藏",
+      "scope": "原印版、书名、印刷时间与当时复杂公式图像"
+    },
+    {
+      "source_id": "S16-02",
+      "title": "Mathematical Association of America Maxwell's Treatise Mathematical Treasure",
+      "url": "https://old.maa.org/press/periodicals/convergence/mathematical-treasure-james-clerk-maxwell-s-treatise-on-electricity-and-magnetism",
+      "source_type": "数学史博物馆式解说",
+      "scope": "1873原书不同基本方程分组与照片、Heaviside后续四形式"
+    },
+    {
+      "source_id": "S16-03",
+      "title": "Maxwell Treatise Volume 1 Preface original",
+      "url": "https://en.wikisource.org/wiki/A_Treatise_on_Electricity_and_Magnetism/Volume_1",
+      "source_type": "1873原著转录",
+      "scope": "前言对法拉第研究的表述，可能存在转录校勘差异"
+    },
+    {
+      "source_id": "S16-04",
+      "title": "A derivation of Maxwell's equations using Heaviside notation 2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6232579/",
+      "source_type": "同行评议现代研究",
+      "scope": "用现代口径重新按A至H数20标量方程；非原书标注"
+    },
+    {
+      "source_id": "S16-05",
+      "title": "OpenStax University Physics §16.1 Maxwell equations",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves",
+      "source_type": "现代物理教材",
+      "scope": "标准真空四条SI方程、使用条件和必要边界"
+    },
+    {
+      "source_id": "S16-06",
+      "title": "IEEE Spectrum The Long Road to Maxwell's Equations",
+      "url": "https://spectrum.ieee.org/the-long-road-to-maxwells-equations",
+      "source_type": "技术史长文",
+      "scope": "Heaviside电报背景、1884之后重组、势与场的选择，部分轶事需原论文核验"
+    },
+    {
+      "source_id": "S16-07",
+      "title": "Smithsonian Libraries Gibbs Elements of Vector Analysis 1881-1884",
+      "url": "https://library.si.edu/digital-library/book/elementsvectora00gibb",
+      "source_type": "珍稀原稿馆藏",
+      "scope": "Gibbs的1881-1884教学册、赠Heaviside的藏本及边注"
+    },
+    {
+      "source_id": "S16-08",
+      "title": "MAA A History of Vector Analysis book info",
+      "url": "https://old.maa.org/node/105858",
+      "source_type": "数学史专著索引",
+      "scope": "关于Gibbs和Heaviside现代矢量系统的专题章节及资料线索"
+    },
+    {
+      "source_id": "S16-09",
+      "title": "Gibbs early vector analysis 1881/1884 in collected papers",
+      "url": "https://en.wikisource.org/wiki/Page:Scientific_Papers_of_Josiah_Willard_Gibbs_-_Volume_2.djvu/33",
+      "source_type": "公版原著转录",
+      "scope": "1881与1884的私人教学印刷信息，来源后续重排需校勘"
+    }
+  ],
+  "unresolved": [
+    "1873年原书Part IV各基本方程的原始A-H数法和二十标量关系需逐页核对",
+    "Heaviside 1884—1885论文初版、Hertz的独立整理与原有场量对应需扩展核查",
+    "Gibbs 1881/1884印本、1901 Wilson教科书、之后国际标准矢量记号的时间线仍需增补",
+    "现代量纲、介质与规范势的分离不能倒签1873原版"
+  ]
+}
