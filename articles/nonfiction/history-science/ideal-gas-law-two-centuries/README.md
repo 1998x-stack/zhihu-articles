@@ -4,7 +4,7 @@
 
 > 1834年，一位工程师把一条气体规律写成了 `pv=R(267+t)`。为什么这里是267，而不是今天的273.15？从一根玻璃管到无数分子的运动，这个差异恰好藏着一场跨越两百年的科学接力。
 
-**作品性质**：历史与科学发现｜非虚构知识叙事。当前状态：**drafting（序章00、第01—15章与尾声16共17份正文均已完成初稿；全书独立双审尚未通过）**。
+**作品性质**：历史与科学发现｜非虚构知识叙事。当前状态：**line-edited（17份初稿保留；revision 1两项审稿报告均PASS，合订精修稿edited.md已生成；终稿验收尚未批准）**。
 
 - **读者**：具有初中到高中物理基础的普通读者；关键概念会逐层解释。
 - **结构**：五部十五章、序章与尾声，总体目标约4万字，逐章可按证据与叙事节奏调整。
@@ -42,6 +42,12 @@
 - [全篇结构及章节认知推进](outline.md)
 - [研究来源与证据边界](research.md)
 - [主张—来源账本](claim-ledger.md)
+- [修订合订稿（revision 1）](revised.md)
+- [语言精修合订稿（edited.md）](edited.md)
+- [连续性审计与复审报告](qa/continuity-report.md)
+- [发展性结构审稿与复审报告](qa/developmental-review.md)
+- [逐项修订日志](qa/revision-log.md)
+- [首轮未通过报告归档](qa/history/continuity-r0.md)
 - [版本与审稿门禁状态](workflow-state.json)
 - [序章逐条主张追踪](draft/00.claims.json)
 
@@ -49,6 +55,6 @@
 
 `topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → line-edit → final-approval → publication-package`。
 
-**初稿全部完稿**：序章00、第01—15章、尾声16共17份 `draft/NN.md` 均有正文与逐章 `draft/NN.claims.json`，已建立章内史实主张映射。接下来必须执行 `continuity-audit` 与 `developmental-editor` 两项独立审稿，分别生成 `qa/continuity-report.md` 和 `qa/developmental-review.md`；必要时按审稿意见开展 `fact-research` 增量核证及 `revision-manager` 修订，之后才能进行 `line-edit` 与 `final-approval`。**完整初稿不等于出版终稿。**
+**当前工作流**：17份原始初稿均保留。首轮revision 0的continuity-audit与developmental-editor均要求修改；已通过revision-manager增量事实补核（S87）、整书修订和再次双审。**revision 1两份复审报告均为PASS**，`edited.md`为此版本的精修合订稿。下一步须实际执行仓库`python scripts/workflow_gate.py <article_dir> --target final`，核对全文、版号、来源及格式，通过后才可由`final-approval`写入`final.md`与终审许可。**本仓库目前仍然`final_approved=false`，不代表已发表。**
 
 > 历史表达边界：不虚构人物直接对白、私密动机、日记或“当时的一幕”；不把现代记号、摩尔定义与绝对温标倒灌给17—19世纪科学家。
