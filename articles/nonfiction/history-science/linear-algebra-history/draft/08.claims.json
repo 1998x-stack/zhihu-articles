@@ -1,0 +1,84 @@
+{
+  "chapter": "08",
+  "title": "柯西与雅可比：从公式迈向行列式理论",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "S08-1": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "S08-2": "https://mathshistory.st-andrews.ac.uk/Biographies/Jacobi/",
+    "S08-3": "https://old.maa.org/press/periodicals/convergence/analysis-and-translation-of-raffaele-rubinis-1857-application-of-the-theory-of-determinants-note-0",
+    "S08-4": "https://mathshistory.st-andrews.ac.uk/Miller/mathsym/matrices/",
+    "S08-M": "本章第三至九节现代数学推导"
+  },
+  "claims": [
+    {
+      "claim_id": "C08-01",
+      "source_ids": [
+        "S08-1",
+        "S08-3"
+      ],
+      "type": "historical_publication_boundary",
+      "verified": true
+    },
+    {
+      "claim_id": "C08-02",
+      "source_ids": [
+        "S08-1",
+        "S08-3"
+      ],
+      "type": "historical_term_boundary",
+      "verified": true
+    },
+    {
+      "claim_id": "C08-03",
+      "source_ids": [
+        "S08-1",
+        "S08-2"
+      ],
+      "type": "historical",
+      "verified": true
+    },
+    {
+      "claim_id": "C08-04",
+      "source_ids": [
+        "S08-M",
+        "S08-1"
+      ],
+      "type": "modern_math_and_history_scope",
+      "verified": true
+    },
+    {
+      "claim_id": "C08-05",
+      "source_ids": [
+        "S08-M"
+      ],
+      "type": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C08-06",
+      "source_ids": [
+        "S08-M"
+      ],
+      "type": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C08-07",
+      "source_ids": [
+        "S08-1",
+        "S08-2"
+      ],
+      "type": "historical_context",
+      "verified": true
+    }
+  ],
+  "notes": [
+    "柯西1812报告与1815印行分别表述",
+    "比内同期研究不可被抹除",
+    "雅可比1841深化函数行列式不等于最早提出",
+    "非零Jacobian的结论需要C1和局部解释",
+    "现代矩阵运算与1812历史语言不同",
+    "章节及全书仍待独立双审终稿批准"
+  ]
+}
