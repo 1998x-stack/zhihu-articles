@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 3,
+  "current_revision": 4,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -87,13 +87,39 @@
     },
     {
       "chapter": "05",
+      "status": "draft-written",
+      "question": "欧亚非不同地区为何能在没有共同国家与货币时组织跨区域支付和信用",
+      "sources": [
+        "F-0501",
+        "F-0502",
+        "F-0503",
+        "F-0504",
+        "F-0505",
+        "F-0506",
+        "F-0507",
+        "F-0508",
+        "F-0509",
+        "F-0510",
+        "F-0511",
+        "F-0512",
+        "F-0513",
+        "F-0514",
+        "F-0515",
+        "F-0516",
+        "F-0517",
+        "F-0518"
+      ],
+      "next_question": "伊斯兰商贸网络如何在多城之间兑现义务并减少携币风险"
+    },
+    {
+      "chapter": "06",
       "status": "outline-only",
-      "question": "欧亚非不同地区的黄金、贡赋与商路为何不能用统一模式解释"
+      "question": "没有分行的远方汇款：伊斯兰商贸网络的信用"
     }
   ],
-  "remaining_chapters": "06-40 outline-only",
+  "remaining_chapters": "07-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Nonfiction research drafts through chapter 04 only; no gate approval or full-source verification."
+  "notes": "Part I chapters 01-05 drafted; formal historical verification and editorial review pending."
 }
