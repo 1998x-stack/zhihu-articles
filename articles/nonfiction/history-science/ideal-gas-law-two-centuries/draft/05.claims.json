@@ -4,7 +4,7 @@
   "lane": "nonfiction",
   "revision": 0,
   "status": "draft_claims_traced",
-  "note": "G05-01—G05-22限本章的历史、数据、数学论证及编辑性说明；待独立审核。重要区别：端点共同比例≠完整线性温度曲线证成。",
+  "note": "G05-01—G05-22限本章的历史、数据、数学论证及编辑性说明；待独立审核。重要区别：端点共同比例≠完整线性温度曲线证成。 来源入口更新：revision2将S87从404的馆藏页面改为美国国会图书馆展览页，S33仍为Smithsonian；历史事实与编号不变。",
   "claims": [
     {
       "claim_id": "G05-01",
@@ -44,7 +44,7 @@
       ],
       "summary": "1783-11-21蒙哥尔费热气球载人自由飞行在先；1783-12-01查理与罗伯特载人氢气球飞行；不可据气球航行证明1787热膨胀实验",
       "classification": "historical_museum",
-      "verification": "verified_with_smithsonian_S33_S87"
+      "verification": "verified_with_S33_Smithsonian_and_S87_Library_of_Congress"
     },
     {
       "claim_id": "G05-05",
