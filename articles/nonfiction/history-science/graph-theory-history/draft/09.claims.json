@@ -1,13 +1,105 @@
 {
   "chapter": "09",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S04",
-    "S05",
-    "S09"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "仅Kuratowski1930元数据、现代判据、Wagner1937等价形式与1985史学优先权研究的限定核对",
+  "claims": [
+    {
+      "claim_id": "GT09-01",
+      "claim": "Kuratowski1930论文和原刊出处与页码",
+      "source_ids": [
+        "S52",
+        "S53"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT09-02",
+      "claim": "K5五点十边，违反简单平面图E≤3V−6",
+      "source_ids": [
+        "S51"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT09-03",
+      "claim": "K3,3六点九边，无三角形平面上界E≤2V−4",
+      "source_ids": [
+        "S51"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT09-04",
+      "claim": "平面性取决于是否存在某种无交叉画法，不是任意画法都无交叉",
+      "source_ids": [
+        "S51"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT09-05",
+      "claim": "边细分与抹去度2中转顶点保持非平面性的证明",
+      "source_ids": [
+        "S51",
+        "S54"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT09-06",
+      "claim": "Kuratowski定理：不存在K5/K3,3的细分作为子图为平面性充要条件",
+      "source_ids": [
+        "S51",
+        "S52",
+        "S54"
+      ],
+      "status": "THEOREM_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT09-07",
+      "claim": "K5细分一边6点11边满足通常边密度界却不平面",
+      "source_ids": [
+        "S51"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT09-08",
+      "claim": "Wagner1937用K5/K3,3禁minor的等价刻画与细分不同",
+      "source_ids": [
+        "S51",
+        "S55"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT09-09",
+      "claim": "Pontryagin1927-28未发表先行研究与Kuratowski优先权争议",
+      "source_ids": [
+        "S53",
+        "S54"
+      ],
+      "status": "HISTORICAL_DISPUTE"
+    },
+    {
+      "claim_id": "GT09-10",
+      "claim": "找到禁止细分可证非平面，反方向需要结构定理",
+      "source_ids": [
+        "S51"
+      ],
+      "status": "MODERN_PROOF_SCOPE"
+    },
+    {
+      "claim_id": "GT09-11",
+      "claim": "非平面图也可二着色，四着色不等于可平面",
+      "source_ids": [
+        "S51",
+        "S46"
+      ],
+      "status": "MODERN_EXPLANATION"
+    }
   ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "note": "给出两基本障碍非平面及细分必要性证明；未伪称边数证明已推出充分性。"
 }
