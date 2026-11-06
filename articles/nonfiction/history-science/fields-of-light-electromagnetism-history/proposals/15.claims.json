@@ -1,0 +1,184 @@
+{
+  "chapter": "15",
+  "title": "一个计算结果为什么指向了光速",
+  "manuscript_path": "proposals/15.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E15-01",
+      "statement": "1861-10-19 Maxwell致Faraday信比较193088与193118英里每秒",
+      "kind": "原始通信数字",
+      "source_ids": [
+        "S15-01"
+      ],
+      "section": "一、四",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E15-02",
+      "statement": "Weber Kohlrausch 1856测的是两种电学量/单位关系，不是直接电磁波速度",
+      "kind": "科学史有界解释",
+      "source_ids": [
+        "S15-01",
+        "S15-07"
+      ],
+      "section": "二",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E15-03",
+      "statement": "原始电学单位关系与现代SI具有不同约定及可能的系数差异",
+      "kind": "历史计量限制",
+      "source_ids": [
+        "S15-01",
+        "S15-03"
+      ],
+      "section": "二",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E15-04",
+      "statement": "麦克斯韦基于旋转涡旋与介质弹性的模型给出横向扰动速度",
+      "kind": "1861通信及1862理论",
+      "source_ids": [
+        "S15-01",
+        "S15-03"
+      ],
+      "section": "三",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E15-05",
+      "statement": "193088和193118作为历史数据不得被当成现代高精度比对",
+      "kind": "测量学限定",
+      "source_ids": [
+        "S15-01"
+      ],
+      "section": "四",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E15-06",
+      "statement": "1862年论文第三部分提出光与电磁扰动相联系的论证",
+      "kind": "原始论文/书目",
+      "source_ids": [
+        "S15-02",
+        "S15-03"
+      ],
+      "section": "五",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E15-07",
+      "statement": "1864-10-27接收、12-08宣读、1865正式刊出Dynamical Theory",
+      "kind": "皇家学会档案",
+      "source_ids": [
+        "S15-04",
+        "S15-05"
+      ],
+      "section": "六",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E15-08",
+      "statement": "现代真空中Faraday与Ampere Maxwell两旋度方程推出场波动方程",
+      "kind": "现代演算",
+      "source_ids": [
+        "S15-06"
+      ],
+      "section": "七",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E15-09",
+      "statement": "现代真空电磁波速c=1/sqrt(μ0 ε0)由电磁量决定",
+      "kind": "现代定律",
+      "source_ids": [
+        "S15-06"
+      ],
+      "section": "八",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E15-10",
+      "statement": "光的电磁解释需超越简单速度巧合并涉及波的偏振和传播",
+      "kind": "科学史界限",
+      "source_ids": [
+        "S15-05",
+        "S15-07"
+      ],
+      "section": "九",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    },
+    {
+      "claim_id": "E15-11",
+      "statement": "1861—1865的以太概念不等同于现代真空相对论解释",
+      "kind": "历史概念界限",
+      "source_ids": [
+        "S15-01",
+        "S15-05"
+      ],
+      "section": "九",
+      "verification_status": "PARTIAL_SOURCE_MATCH; original-page audit and adversarial historical review outstanding"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S15-01",
+      "title": "Maxwell to Faraday, 19 October 1861, Epsilon Letter 4081",
+      "url": "https://epsilon.ac.uk/view/faraday/letters/Faraday4081",
+      "source_type": "编辑出版的十九世纪原始通信",
+      "scope": "193088、193118英里每秒数字，理论背景、通信原文和写信日期；不是测量误差证明"
+    },
+    {
+      "source_id": "S15-02",
+      "title": "Maxwell's Enduring Legacy bibliography",
+      "url": "https://www.cambridge.org/core/books/abs/maxwells-enduring-legacy/references/3124D60FA2532B0FC07CB57DC07DFA3F",
+      "source_type": "学术专著书目",
+      "scope": "1861—62《论物理力线》各部分刊印日期及相关页码"
+    },
+    {
+      "source_id": "S15-03",
+      "title": "Maxwell On Physical Lines of Force III DOI",
+      "url": "https://doi.org/10.1080/14786446208643207",
+      "source_type": "1862原著原刊书目",
+      "scope": "第三部分Vol23 pp12—24的刊行与静电模型、速度讨论，原数学需逐页勘误"
+    },
+    {
+      "source_id": "S15-04",
+      "title": "Royal Society PT/72/7 A Dynamical Theory",
+      "url": "https://makingscience.royalsociety.org/items/PT_72_7",
+      "source_type": "一手档案",
+      "scope": "Received Oct 27 Read Dec 8 1864、published 1865"
+    },
+    {
+      "source_id": "S15-05",
+      "title": "Smithsonian 1865 Maxwell Dynamical Theory",
+      "url": "https://library.si.edu/digital-library/book/dynamicaltheoryo00maxw",
+      "source_type": "一手文献馆藏",
+      "scope": "1865年完整原印本、光学理论专章；未全部逐页复核"
+    },
+    {
+      "source_id": "S15-06",
+      "title": "OpenStax University Physics §16.2 Plane Electromagnetic Waves",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/16-2-plane-electromagnetic-waves",
+      "source_type": "现代物理教材",
+      "scope": "在真空推导∇²E=μ0ε0∂²E/∂t²与c的SI表达，非1862原文"
+    },
+    {
+      "source_id": "S15-07",
+      "title": "IEEE Spectrum Long Road to Maxwell's Equations",
+      "url": "https://spectrum.ieee.org/the-long-road-to-maxwells-equations",
+      "source_type": "科学史专题",
+      "scope": "1861/62、1864/65、1873与后续电磁波检验时间线，非韦伯单位原始测量"
+    }
+  ],
+  "unresolved": [
+    "1856 Weber Kohlrausch原始论文精确量纲及韦伯系数√2的换算需核查",
+    "1861年书信数值与1862年期刊计算值须辨认是否相同口径",
+    "皇家学会1865印本的光学小节逐页核对",
+    "区别1862机械传播模型、1865动态理论与现代SI传播式"
+  ]
+}
