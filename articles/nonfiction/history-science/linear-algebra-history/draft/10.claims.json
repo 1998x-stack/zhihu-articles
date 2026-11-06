@@ -1,0 +1,75 @@
+{
+  "chapter": "10",
+  "title": "莫比乌斯与贝拉维蒂斯：方向也能相加吗",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "G10-S1": "https://old.maa.org/press/periodicals/convergence/mathematical-treasure-m-bius-s-calculus-of-centers-of-gravity",
+    "G10-S2": "https://www.cambridge.org/core/journals/mathematical-gazette/article/abs/circles-in-areals/83BEF0FA3702B3C9CF13D33E3FC54BD7",
+    "G10-S3": "https://mathshistory.st-andrews.ac.uk/HistTopics/Abstract_linear_spaces/",
+    "G10-S4": "https://mathshistory.st-andrews.ac.uk/Biographies/Bellavitis/",
+    "G10-S5": "https://old.maa.org/node/105858",
+    "MATH10": "本章第3—8节现代仿射几何和位移数值验算"
+  },
+  "claims": [
+    {
+      "claim_id": "C10-01",
+      "source_ids": [
+        "G10-S1",
+        "G10-S2"
+      ],
+      "type": "historical",
+      "verified": true
+    },
+    {
+      "claim_id": "C10-02",
+      "source_ids": [
+        "G10-S2",
+        "MATH10"
+      ],
+      "type": "historical_modern",
+      "verified": true
+    },
+    {
+      "claim_id": "C10-03",
+      "source_ids": [
+        "G10-S3",
+        "G10-S4"
+      ],
+      "type": "historical_publication",
+      "verified": true
+    },
+    {
+      "claim_id": "C10-04",
+      "source_ids": [
+        "G10-S3",
+        "G10-S4",
+        "MATH10"
+      ],
+      "type": "historical_modern",
+      "verified": true
+    },
+    {
+      "claim_id": "C10-05",
+      "source_ids": [
+        "MATH10"
+      ],
+      "type": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C10-06",
+      "source_ids": [
+        "G10-S3",
+        "G10-S5"
+      ],
+      "type": "historical_caveat",
+      "verified": true
+    }
+  ],
+  "notices": [
+    "贝拉维蒂斯1832研究起点与1835、1837论文区别",
+    "点和向量的现代抽象是后见理论",
+    "独立双审与终稿未批准"
+  ]
+}
