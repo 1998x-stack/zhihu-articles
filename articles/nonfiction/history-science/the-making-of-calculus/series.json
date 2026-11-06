@@ -300,23 +300,56 @@
     {
       "id": "14",
       "title": "莱布尼茨的 d 与 ∫：为什么记号会改变数学",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/14.md",
-      "claims_path": "draft/14.claims.json"
+      "claims_path": "draft/14.claims.json",
+      "source_ids": [
+        "H81",
+        "H82",
+        "H83",
+        "H84",
+        "H86",
+        "H87",
+        "H88"
+      ]
     },
     {
       "id": "15",
       "title": "微积分基本定理：面积与变化率竟是同一件事",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/15.md",
-      "claims_path": "draft/15.claims.json"
+      "claims_path": "draft/15.claims.json",
+      "source_ids": [
+        "H83",
+        "H85",
+        "H88",
+        "H89",
+        "H90",
+        "H91",
+        "H92",
+        "H93"
+      ]
     },
     {
       "id": "16",
       "title": "牛顿与莱布尼茨：发现者之争究竟争什么",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/16.md",
-      "claims_path": "draft/16.claims.json"
+      "claims_path": "draft/16.claims.json",
+      "source_ids": [
+        "H71",
+        "H81",
+        "H82",
+        "H83",
+        "H94",
+        "H95",
+        "H96",
+        "H97",
+        "H98",
+        "H99",
+        "H100",
+        "H101"
+      ]
     },
     {
       "id": "17",
