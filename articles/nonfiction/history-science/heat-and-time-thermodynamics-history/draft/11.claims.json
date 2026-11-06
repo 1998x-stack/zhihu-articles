@@ -1,7 +1,266 @@
 {
   "chapter": "11",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅第11章21条核心主张的前置证据核对；正文初稿仍待写，独立审稿未做，14—33章不受覆盖",
+  "claims": [
+    {
+      "claim_id": "T11-01",
+      "claim": "1854年Clausius研究第二主定理和可逆循环热量与绝对温度关系",
+      "type": "historical",
+      "source_ids": [
+        "R74",
+        "R93"
+      ],
+      "locator": "1854论文/历史综述",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-02",
+      "claim": "1854公式的初始积分结构不应称已命名熵S",
+      "type": "historical_boundary",
+      "source_ids": [
+        "R74",
+        "R86"
+      ],
+      "locator": "1854与1865对比",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-03",
+      "claim": "1865论文标题Ueber verschiedene für die Anwendung bequeme Formen ...",
+      "type": "bibliography",
+      "source_ids": [
+        "R82",
+        "R85"
+      ],
+      "locator": "原印本与期刊书目",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-04",
+      "claim": "1865年4月24日在苏黎世科学社团宣读并于同年期刊出版",
+      "type": "bibliography",
+      "source_ids": [
+        "R82",
+        "R83",
+        "R85"
+      ],
+      "locator": "原著标题页",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-05",
+      "claim": "原印本p46使用Entropie首次正式命名S",
+      "type": "primary_source",
+      "source_ids": [
+        "R83",
+        "R84"
+      ],
+      "locator": "Clausius p46/英译p2",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-06",
+      "claim": "熵名取自希腊语转变并刻意接近Energie词形",
+      "type": "primary_source",
+      "source_ids": [
+        "R83",
+        "R84"
+      ],
+      "locator": "p46原文名词段",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-07",
+      "claim": "S可经沿可逆路径积分δQrev/T计算两平衡态之间变化",
+      "type": "historical_physics",
+      "source_ids": [
+        "R83",
+        "R84",
+        "R87"
+      ],
+      "locator": "1865方程59/60；现代写法边界",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-08",
+      "claim": "Clausius 1865列出energy和entropy不同状态量而非一种耗散能量",
+      "type": "historical_physics",
+      "source_ids": [
+        "R83",
+        "R84"
+      ],
+      "locator": "p46–47状态函数说明",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-09",
+      "claim": "热Q与功W属于过程量，不能把S看作存储在物体中的热",
+      "type": "modern_theory",
+      "source_ids": [
+        "R87",
+        "R80"
+      ],
+      "locator": "热功与状态量分类",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-10",
+      "claim": "现代可逆定义dS=δQrev/T，使用绝对温标与平衡端态",
+      "type": "modern_formula",
+      "source_ids": [
+        "R84",
+        "R87"
+      ],
+      "locator": "OpenStax 4.6",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-11",
+      "claim": "现代Clausius不等式∮δQ/T≤0以流入系统为正号约定",
+      "type": "modern_formula",
+      "source_ids": [
+        "R84",
+        "R87"
+      ],
+      "locator": "1865论述/现代形式",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-12",
+      "claim": "可逆循环积分等于零；不可逆循环一般小于零",
+      "type": "modern_theory",
+      "source_ids": [
+        "R84",
+        "R87"
+      ],
+      "locator": "不等式等号条件",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-13",
+      "claim": "有限温差传热引起孤立整体熵增，不必有能量产生",
+      "type": "modern_explanation",
+      "source_ids": [
+        "R87",
+        "R80"
+      ],
+      "locator": "二热库熵变",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-14",
+      "claim": "熵增加不意味着能量守恒失败",
+      "type": "modern_boundary",
+      "source_ids": [
+        "R87",
+        "R80"
+      ],
+      "locator": "区分U和S",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-15",
+      "claim": "系统ΔS不依赖路径，实际不可逆热量与S不总为Q/T",
+      "type": "modern_theory",
+      "source_ids": [
+        "R87",
+        "R88"
+      ],
+      "locator": "path independence",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-16",
+      "claim": "隔热自由膨胀Qactual=0而ΔS>0，是不可逆反例",
+      "type": "modern_example",
+      "source_ids": [
+        "R88"
+      ],
+      "locator": "ideal gas example",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-17",
+      "claim": "孤立系统熵非减，局部子系统熵可以下降",
+      "type": "modern_theory",
+      "source_ids": [
+        "R87",
+        "R80"
+      ],
+      "locator": "系统边界",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-18",
+      "claim": "Clausius独立印本p59提出宇宙能量常量与熵趋极大历史表述",
+      "type": "primary_source",
+      "source_ids": [
+        "R83",
+        "R84"
+      ],
+      "locator": "p59宇宙结论",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-19",
+      "claim": "1865宇宙概括不能当作现代宇宙学证明的普遍定理",
+      "type": "interpretation_limit",
+      "source_ids": [
+        "R83",
+        "R89"
+      ],
+      "locator": "史述与现代非平衡宇宙",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-20",
+      "claim": "熵不是无条件的‘杂乱程度’或负能量",
+      "type": "modern_limit",
+      "source_ids": [
+        "R87",
+        "R88"
+      ],
+      "locator": "状态量与微观概念",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T11-21",
+      "claim": "对第12章的衔接：熵定义与宏观时间方向问题仍不同",
+      "type": "editorial_transition",
+      "source_ids": [
+        "R89",
+        "R87"
+      ],
+      "locator": "SEP时间箭头",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "原始史料与后世现代公式分层",
+    "不伪造对话、人物心理、历史实验数据",
+    "完成正文后修改status为draft，审稿仍为PENDING"
+  ]
 }
