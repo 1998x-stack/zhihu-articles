@@ -1,0 +1,65 @@
+{
+  "chapter": "03",
+  "status": "RESEARCH_DRAFT",
+  "review_status": "PENDING",
+  "revision": 0,
+  "evidence_scope": "核心史料文本或学术摘要核对；未做全集及逐页一手校勘；部分因果为明确标记的解释模型",
+  "claims": [
+    {
+      "claim_id": "C03-01",
+      "claim": "海王篇有官山海和盐铁有关价格、财政的讨论。",
+      "source_ids": [
+        "R10"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "仅证成文本存在"
+    },
+    {
+      "claim_id": "C03-02",
+      "claim": "管子今本并非管仲单独写就。",
+      "source_ids": [
+        "R11",
+        "R12"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "确切章节年代有争议"
+    },
+    {
+      "claim_id": "C03-03",
+      "claim": "管子海王对话不等于齐桓公管仲的实时记录。",
+      "source_ids": [
+        "R11",
+        "R12"
+      ],
+      "status": "INTERPRETATION",
+      "caveat": "文献年代推论"
+    },
+    {
+      "claim_id": "C03-04",
+      "claim": "从必需商品获取政府收入可能降低逐户征管成本。",
+      "source_ids": [
+        "R10"
+      ],
+      "status": "INTERPRETATION",
+      "caveat": "经济机制模型，不是春秋数值"
+    },
+    {
+      "claim_id": "C03-05",
+      "claim": "税商包括征税官营许可等分类。",
+      "source_ids": [
+        "B01"
+      ],
+      "status": "BOOK_POSITION",
+      "caveat": "来自作者框架，历史体制需分期"
+    },
+    {
+      "claim_id": "C03-06",
+      "claim": "税盐可能将负担传递消费者并有分配问题。",
+      "source_ids": [
+        "R10"
+      ],
+      "status": "INTERPRETATION",
+      "caveat": "非某一时期经验证明"
+    }
+  ]
+}

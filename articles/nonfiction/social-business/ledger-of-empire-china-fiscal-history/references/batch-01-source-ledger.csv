@@ -1,0 +1,20 @@
+source_id,author_or_org,title,url_or_source,supported_scope,access_level
+R01,中国国家博物馆,"""Ge Bo"" Bronze Gui",https://en.chnmuseum.cn/collections_577/collection_highlights_608/artifacts_handed___down_from_ancient_times_612/202008/t20200827_247493.html,西周土地交换个案：田界、凭证,museum_object_summary
+R02,Ondřej Škrabal,From royal court to ancestral shrine,https://doi.org/10.56004/v1s143,西周王命文书与金文转录,academic_abstract
+R03,Edward Shaughnessy,Western Zhou History,https://www.cambridge.org/core/books/abs/cambridge-history-of-ancient-china/western-zhou-history/012640D85C8D802BCF4DFCFFCA32A2B2,西周史料和王室政治组织概况,academic_abstract
+R04,Kim Shinjoo,A Study on Bronze Inscriptions about Women’s Giving Awards,https://kci.go.kr/kciportal/landing/article.kci?arti_id=ART003010027,西周赏赐含土地粮食等不同资源,academic_abstract
+R05,Ulrich Lau,Quellenstudien zur Landvergabe...,https://www.monumenta-serica.de/monumenta-serica/publications/monographs/Catalog/Quellenstudine-Landvergabe.php,西周土地授予与权属争议,publisher_summary
+R06,春秋 经文,宣公十五年,https://pages.ucsd.edu/~dkjordan/chin/Koong/TzuooJuann.html,宣公十五年秋初税亩，虫害与饥馑并列,primary_text
+R07,左传,宣公十五年,https://ctext.org/chun-qiu-zuo-zhuan/xuan-gong-shi-wu-nian/zh,初税亩非礼及背景解释,primary_text
+R08,公羊传,宣公十五年,https://ctext.org/gongyang-zhuan/xuan-gong-shi-wu-nian/ens,履亩而税之解释和褒贬,primary_text
+R09,通典,食货四,https://ctext.org/text.pl?if=gb&node=552352,后人整理早期田赋制度和注释,historical_compilation
+R10,管子,海王篇,https://zh.wikisource.org/zh-hans/%E7%AE%A1%E5%AD%90/%E7%AC%AC72%E7%AF%87%E6%B5%B7%E7%8E%8B,盐铁经营政策的传世文本，不是对话实录,primary_text_later_compilation
+R11,W. Allyn Rickett,"Guanzi: Political, Economic, and Philosophical Essays from Early China",https://www.jstor.org/stable/j.ctv1c7zgm8,管子今本杂纂及篇章年代,publisher_summary
+R12,Vincent Leung,Guanzi,https://doi.org/10.1002/9781119399919.eahaa00727,管子文本形成及作者问题,academic_abstract
+R13,司马迁,史记·商君列传,https://www.wenlinshe.com/chapter/zhongguolishi/shi-ji/shang-jun-lie-zhuan/shang-jun-lie-zhuan-yuan-wen-ji-zhu-shi.html,什伍分户军功与县制等后世叙述,primary_historiography
+R14,Yuri Pines,Institutional Reforms and Reformers during the Warring States Period,https://doi.org/10.1093/oxfordhb/9780199328369.013.28,商鞅农业动员和官僚改革制度后果,academic_abstract
+R15,编者等,Birth of an Empire: The State of Qin Revisited,https://escholarship.org/uc/item/4h74v49p,秦简户籍家庭与司马迁记录存在解释空间,academic_paper
+R16,作者等,National integration and institution building,https://onlinelibrary.wiley.com/doi/10.1111/1468-0106.12419,变法分期与制度扩散,academic_abstract
+B01,刘守刚,何以帝国·财政之眼,user-provided EPUB,税人税地税商分析框架,book_user_material
+B02,刘守刚,何以帝国·初税亩,user-provided EPUB,作者财政转型解释,book_user_material
+B03,刘守刚,何以帝国·商鞅变法,user-provided EPUB,作者体系化改革观点,book_user_material

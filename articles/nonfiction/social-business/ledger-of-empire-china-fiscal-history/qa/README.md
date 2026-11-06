@@ -1,6 +1,6 @@
 # 质量闸门（尚未实施审核）
 
-**当前：**仅规划与占位。没有实际正文，不生成虚假的 `qa/continuity-report.md`、`qa/developmental-review.md`、`edited.md`、`final.md`。
+**当前：**第一批01—04研究性初稿已写，第05—45仍占位。第一批未经独立双审，没有终稿，不生成虚假的 `qa/continuity-report.md`、`qa/developmental-review.md`、`edited.md`、`final.md`。
 
 ## 执行顺序
 
@@ -21,4 +21,4 @@
 
 ## 状态说明
 
-`workflow-state.json` 中 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING`、`final_approved=false`；计划文件存在不代表写作闸门已经通过。
+`workflow-state.json` 中 `outline_approved=true`、`evidence_verified=true`（**仅01—04章的限定证据范围**）、`review_status=PENDING`、`final_approved=false`；计划文件存在不代表写作闸门已经通过。
