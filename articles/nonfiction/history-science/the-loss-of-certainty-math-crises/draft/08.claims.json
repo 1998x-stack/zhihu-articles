@@ -1,0 +1,80 @@
+{
+  "chapter": "08",
+  "title": "伯克利的质问：消失的量去哪儿了",
+  "lane": "nonfiction",
+  "revision": 7,
+  "status": "draft_claims_traced",
+  "source_scope": "1734 primary text, biography, historical studies, SEP, modern demonstration",
+  "notes": [
+    "Modern x², epsilon-delta and product rule demonstrations are not Berkeley's verbatim calculations",
+    "Historical person-target conjecture not asserted as fact",
+    "Draft not independently reviewed"
+  ],
+  "claims": [
+    {
+      "claim_id": "H08-01",
+      "source_id": "B08-MACTUTOR-BERKELEY;B08-PRIMARY-WILKINS",
+      "verification": "verified_historical"
+    },
+    {
+      "claim_id": "H08-02",
+      "source_id": "B08-PRIMARY-WILKINS;B08-DARTMOUTH-EDITOR",
+      "verification": "historical_with_identity_uncertainty"
+    },
+    {
+      "claim_id": "H08-03",
+      "source_id": "B08-PRIMARY-WILKINS;B08-SEP-BELL",
+      "verification": "verified_historical"
+    },
+    {
+      "claim_id": "H08-04",
+      "source_id": "B08-PRIMARY-WILKINS",
+      "verification": "primary_text_position_not_universal_verdict"
+    },
+    {
+      "claim_id": "H08-05",
+      "source_id": "B08-PRIMARY-WILKINS",
+      "verification": "primary_text_position_qualified"
+    },
+    {
+      "claim_id": "H08-06",
+      "source_id": "B08-PRIMARY-WILKINS;B08-MAA-HUFFMAN",
+      "verification": "verified_original_phrase"
+    },
+    {
+      "claim_id": "H08-07",
+      "source_id": "B08-PRIMARY-WILKINS",
+      "verification": "author_explanation_not_modern_theorem"
+    },
+    {
+      "claim_id": "H08-08",
+      "source_id": "B08-CAMBRIDGE-GUICCIARDINI;B08-MAA-HUFFMAN",
+      "verification": "historical_claim_verified_qualified"
+    },
+    {
+      "claim_id": "H08-09",
+      "source_id": "B08-SEP-BELL",
+      "verification": "historical_overview_qualified"
+    },
+    {
+      "claim_id": "H08-10",
+      "source_id": "B08-SEP-BELL",
+      "verification": "modern_context_verified"
+    },
+    {
+      "claim_id": "H08-11",
+      "source_id": "B08-MODERN-MATH",
+      "verification": "modern_mathematics_verified"
+    },
+    {
+      "claim_id": "H08-12",
+      "source_id": "B08-MODERN-MATH",
+      "verification": "modern_mathematics_verified"
+    },
+    {
+      "claim_id": "H08-13",
+      "source_id": "brief.md;outline.md",
+      "verification": "editorial_framing"
+    }
+  ]
+}
