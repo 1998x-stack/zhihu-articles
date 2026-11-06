@@ -1,6 +1,164 @@
 {
   "chapter_id": "23",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "verification_scope": "Evidence claims linked to scholarly or first-edition catalog references where indicated; modern examples independently derived. Originals not comprehensively collated; approval gates remain pending.",
+  "sources": [
+    {
+      "source_id": "P23-S1",
+      "title": "Markov 1913 Onegin 2006 Cambridge scholarly translation",
+      "url": "https://www.cambridge.org/core/journals/science-in-context/article/abs/an-example-of-statistical-investigation-of-the-text-eugene-onegin-concerning-the-connection-of-samples-in-chains/EA1E005FA0BC4522399A4E9DA0304862",
+      "kind": "primary_translation_scholarly"
+    },
+    {
+      "source_id": "P23-S2",
+      "title": "Basharin Langville Naumov The life and work of AA Markov (2004)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0024379504000357",
+      "kind": "peer_reviewed_historiography"
+    },
+    {
+      "source_id": "P23-S3",
+      "title": "Cambridge University Markov chains historical teaching appendix",
+      "url": "https://www.dpmms.cam.ac.uk/~rrw1/markov/M.pdf",
+      "kind": "university_historical_text"
+    },
+    {
+      "source_id": "P23-S4",
+      "title": "Gagniuc Markov Chains Historical Notes (2017)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781119387596.ch1",
+      "kind": "academic_book_chapter"
+    },
+    {
+      "source_id": "P23-S5",
+      "title": "Encyclopedia of Mathematics Markov chain",
+      "url": "https://encyclopediaofmath.org/wiki/Markov_chain",
+      "kind": "mathematical_reference"
+    },
+    {
+      "source_id": "P23-S6",
+      "title": "Markov Onegin 1913 classical text in 2006 translation",
+      "url": "https://gwern.net/doc/statistics/probability/2006-markov.pdf",
+      "kind": "academic_primary_translation"
+    },
+    {
+      "source_id": "P23-S7",
+      "title": "Wolfram history Markov 1913 calendar and Onegin",
+      "url": "https://blog.wolfram.com/2013/02/04/centennial-of-markov-chains/",
+      "kind": "historical_secondary"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C23-01",
+      "statement": "Andrey Markov initiated work on dependent trials around 1906; sources sometimes list 1907 for publication",
+      "source_ids": [
+        "P23-S2",
+        "P23-S3",
+        "P23-S4",
+        "P23-S5"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C23-02",
+      "statement": "Markov's early work sought law-of-large-numbers and central-limit behavior without independent trials",
+      "source_ids": [
+        "P23-S2",
+        "P23-S3"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C23-03",
+      "statement": "Markov 1913 original lecture studied 20000 letters from Pushkin Eugene Onegin",
+      "source_ids": [
+        "P23-S1",
+        "P23-S6"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C23-04",
+      "statement": "Study covered entire first chapter and 16 stanzas of second, omitting Russian hard/soft signs",
+      "source_ids": [
+        "P23-S1"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C23-05",
+      "statement": "Markov estimated vowel/consonant fractions and adjacent category transition probabilities",
+      "source_ids": [
+        "P23-S1",
+        "P23-S6"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C23-06",
+      "statement": "Historical 1906 theoretical work and 1913 literary study are different milestones",
+      "source_ids": [
+        "P23-S2",
+        "P23-S1"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C23-07",
+      "statement": "Modern Markov property states next-state conditional distribution given all past depends only present state",
+      "source_ids": [
+        "P23-S5"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C23-08",
+      "statement": "Modern example matrix [[.8,.2],[.3,.7]] has P2 row A [.7,.3]",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENT_DERIVATION"
+    },
+    {
+      "claim_id": "C23-09",
+      "statement": "Modern example stationary distribution [.6,.4] and a_n=.6+.4(.5)^n starting in A",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENT_DERIVATION"
+    },
+    {
+      "claim_id": "C23-10",
+      "statement": "Stationary joint P(A,A)=.48 differs from false independent .36",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENT_DERIVATION"
+    },
+    {
+      "claim_id": "C23-11",
+      "statement": "Identity transition matrix is a Markov chain but lacks initial-state-independent unique limiting frequency",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENT_DERIVATION"
+    },
+    {
+      "claim_id": "C23-12",
+      "statement": "Row-stochastic transition matrix multiplication encodes sums over all intermediate paths",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENT_DERIVATION"
+    },
+    {
+      "claim_id": "C23-13",
+      "statement": "Observed marginal proportions do not establish a first-order memory model for full natural language",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENT_DERIVATION"
+    }
+  ]
 }

@@ -228,3 +228,29 @@
 ### 工作流门禁与待完成项
 - 保持 `workflow-state.json`: `outline_approved=false`, `evidence_verified=false`, `review_status=PENDING`, `final_approved=false`；现有 chapters 为**研究初稿**。
 - 初版页图抽样核对、来源强度复核、独立 continuity-audit/developmental-editor、line-edit、final-approval 尚待进行。
+
+## 第21—23章研究矩阵与历史边界｜2026-11-06
+
+本批执行章节级资料核查和现代数学复算，但未完整校勘所有初印本页图，不构成独立事实审计、结构审稿或终稿批准。
+
+### 21 1889伯特兰与无限事件
+- [P21-S1 同行评审的伯特兰悖论研究](https://academic.oup.com/philmat/article/26/3/375/4753688) 和 [P21-S2 数学史教材](https://www.oreilly.com/library/view/classic-problems-of/9781118314333/chapter19.html)：1889年三种弦的生成机制得到长于内接正三角形边的1/3、1/2、1/4；若用“短于”则取补集。三种值不冲突，原问题欠缺明确的随机分布。
+- [P21-S3 皇家学会希尔伯特第六问题研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC5869544/) 明确1900年强调概率与力学公理化，但不是已经完成公理论。
+- [P21-S4 Barone/Novikoff1978](https://www.math.purdue.edu/~eremenko/Pdf/barone.pdf) 与 [P21-S5 Cambridge概率基础](https://www.cambridge.org/core/books/abs/understanding-probability/foundations-of-probability-theory/4C5D08FF1C183778942F057A014831A1) 记录博雷尔到1933年逐步澄清可数可加性的史学路线。
+- 现代教学：不可给正整数统一正概率p>0或零概率p=0并满足可数可加，总和分别超1或为0；几何级数p_n=2^-n是可数合法分布。无限次公平独立试验首次甲在n次概率2^-n，最终甲出现概率1但全乙单路径仍在样本空间且概率0。
+
+### 22 博雷尔与勒贝格1898—1904
+- [P22-S1 博雷尔1898年初版馆藏](https://commons.wikimedia.org/wiki/File:Le%C3%A7ons_sur_la_th%C3%A9orie_des_fonctions_(IA_leconstheoriefon00borerich).pdf) 和 [P22-S2 测度与概率史](https://www.math.purdue.edu/~eremenko/Pdf/barone.pdf)：1895年覆盖引理线索、1898年函数论著作及可数集合大小。
+- [P22-S3 勒贝格1918年回顾原文](https://www.numdam.org/item/ASENS_1918_3_35__191_0/)、[P22-S4 Lebesgue1902博士论文史学](https://www.cambridge.org/core/journals/mathematical-gazette/article/abs/integrate-longueur-aire-the-centenary-of-the-lebesgue-integral/BB648E62EEC0D9ACDDE0707C98E3683E)、[P22-S5 BnF1904初版书目](https://catalogue.bnf.fr/ark%3A/12148/cb30759541r) 区分1901研究、1902论文和1904书。
+- [P22-S6 多伦多大学测度教程](https://www.math.utoronto.ca/almut/MAT1000/SS-Real.pdf)、[P22-S8 ANU集合论资料](https://maths-people.anu.edu.au/john/Assets/Lecture%20Notes/measure_theory.pdf)：可数集零测度、康托尔集不可数零测度、1905维塔利集合及并非所有子集可测。
+- 现代数学：有理数列各点用ε/2^n长度区间覆盖，总长≤ε，故零测度；狄利克雷函数上下黎曼和恒为1和0、勒贝格积分0；康托尔集删除总长1仍不可数；现代σ代数非1898原始符号。[P22-S7 MAA柯尔莫哥洛夫书评](https://old.maa.org/press/maa-reviews/foundations-of-the-theory-of-probability) 证实1933后续阶段。
+
+### 23 马尔可夫1906—1913
+- [P23-S2 2004数学史人物论文](https://www.sciencedirect.com/science/article/pii/S0024379504000357)、[P23-S3 剑桥历史讲义](https://www.dpmms.cam.ac.uk/~rrw1/markov/M.pdf)、[P23-S4 Wiley历史专章](https://onlinelibrary.wiley.com/doi/10.1002/9781119387596.ch1) 支持1906年前后对依赖试验的工作及其与伯努利传统的关系。[P23-S5 EoM马尔可夫链](https://encyclopediaofmath.org/wiki/Markov_chain) 将开创年份记为1907；两者属于研究或出版的历史断代口径，不假装所有书目完全一致。
+- [P23-S1 Cambridge2006英文译1913论文](https://www.cambridge.org/core/journals/science-in-context/article/abs/an-example-of-statistical-investigation-of-the-text-eugene-onegin-concerning-the-connection-of-samples-in-chains/EA1E005FA0BC4522399A4E9DA0304862)：1913演讲与俄文20,000字母研究含第一章、第二章16节，除特定软硬音符。1913研究不同于1906年理论创建。[P23-S6 译本文献副本](https://gwern.net/doc/statistics/probability/2006-markov.pdf)；[P23-S7 1913日历讨论](https://blog.wolfram.com/2013/02/04/centennial-of-markov-chains/) 帮助区分儒略历与公历。
+- 现代模型P=[[.8,.2],[.3,.7]]，从A起二步概率(.7,.3)，递推a_(n+1)=.3+.5 a_n、解a_n=.6+.4*.5^n、平稳(.6,.4)。平稳时相邻AA=.6*.8=.48，不同于独立假设.36；恒等转移矩阵说明马尔可夫性质不蕴含唯一平稳极限。
+- 不将天气、系统A/B或人工字符串写成马尔可夫真实实验；不把1906开创和1913文本研究合并成同一日期。
+
+### 门禁与待审条目
+- 保留`outline_approved=false`、`evidence_verified=false`、`review_status=PENDING`、`final_approved=false`；所有新增正文只标注`draft`。
+- 仍待原典页图逐页核校、独立连续性审计、发展性编辑审稿、语言精修及最后批准。
