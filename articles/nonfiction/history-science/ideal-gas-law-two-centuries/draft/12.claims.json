@@ -3,7 +3,183 @@
   "title": "一个常数，怎样成为所有气体的常数",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "18条史实和现代解释有来源；摩尔R与比气体常数有区分，独立审稿未进行。",
+  "claims": [
+    {
+      "claim_id": "G12-01",
+      "source_ids": [
+        "S64",
+        "S67"
+      ],
+      "summary": "克拉佩龙1834的pv=R(267+t)中的R依赖固定气体单位基准，非现代普适摩尔常数",
+      "classification": "history",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-02",
+      "source_ids": [
+        "S67",
+        "S02"
+      ],
+      "summary": "克劳修斯1850引用雷尼奥测量数据把267改为约273，写pv=R(273+t)",
+      "classification": "history_secondary",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-03",
+      "source_ids": [
+        "S67"
+      ],
+      "summary": "1864克劳修斯写pv=RT，T为绝对温度，仍按单位质量体积基准",
+      "classification": "history_secondary",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-04",
+      "source_ids": [
+        "S67"
+      ],
+      "summary": "1857克劳修斯已用ideal gas相关概念，不能宣称1864第一次发明这个名称",
+      "classification": "source_correction",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-05",
+      "source_ids": [
+        "S67"
+      ],
+      "summary": "若v为每单位质量所占体积，不同气体的比气体常数依赖摩尔质量",
+      "classification": "history_modern",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-06",
+      "source_ids": [
+        "S41",
+        "S56",
+        "S67"
+      ],
+      "summary": "在固定P,T时，同摩尔数不同理想气体体积近似相同，阿伏伽德罗假说提供数量基准",
+      "classification": "history",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-07",
+      "source_ids": [
+        "S68",
+        "S67"
+      ],
+      "summary": "1873霍斯特曼在离解理论的论文中令u为一摩尔体积、写up=RT",
+      "classification": "primary_translation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-08",
+      "source_ids": [
+        "S68",
+        "S67"
+      ],
+      "summary": "他的R在按摩尔体积计量后不再依赖化学种类，这个变动是计量基准而非发现新气体",
+      "classification": "history_interpretation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-09",
+      "source_ids": [
+        "S68"
+      ],
+      "summary": "1873论文首要研究化学离解平衡与熵，不是为气体定律单独写的专论",
+      "classification": "primary_translation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-10",
+      "source_ids": [
+        "S68",
+        "S56"
+      ],
+      "summary": "当时的“molecular weight”数量基准与今摩尔SI定义不能完全视作同时成立",
+      "classification": "historical_boundary",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-11",
+      "source_ids": [
+        "S76",
+        "S67"
+      ],
+      "summary": "现代PV=nRT是把n摩尔气体和摩尔体积u=V/n联系的教学换写",
+      "classification": "modern_derivation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-12",
+      "source_ids": [
+        "S67",
+        "S76"
+      ],
+      "summary": "R_sp=R/M对应具体气体的比气体常数，M为摩尔质量，不能把二者同名误解",
+      "classification": "modern_derivation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-13",
+      "source_ids": [
+        "S67"
+      ],
+      "summary": "当时R字母由来不确定，Jensen提出arbitrary/ratio等猜测但无原作者证明",
+      "classification": "uncertainty",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-14",
+      "source_ids": [
+        "S67",
+        "S76"
+      ],
+      "summary": "常数普适指在理想状态、同单位和同物质的量条件下对不同气体相同，不指任何物质均遵循理想关系",
+      "classification": "physical_scope",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-15",
+      "source_ids": [
+        "S67",
+        "S02"
+      ],
+      "summary": "从267到273与从比气体常数到普适摩尔常数是不同进步，年代不应合并",
+      "classification": "history_synthesis",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-16",
+      "source_ids": [
+        "S67",
+        "S68"
+      ],
+      "summary": "历史式pv=RT与现代PV=nRT中字母相似但v的单位/气量基准不同",
+      "classification": "notation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-17",
+      "source_ids": [
+        "S76"
+      ],
+      "summary": "现代R的单位J/(mol·K)，摩尔定义与现代精确值推迟第15章详述",
+      "classification": "modern_scope",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G12-18",
+      "source_ids": [
+        "S76",
+        "S70"
+      ],
+      "summary": "统一气体方程是实验与计量表达，分子为什么产生压强还需动力论解释",
+      "classification": "transition",
+      "verification": "source_preverified"
+    }
+  ]
 }
