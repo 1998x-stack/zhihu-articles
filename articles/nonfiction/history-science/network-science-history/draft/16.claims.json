@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "16",
+  "claims": [
+    {
+      "claim_id": "NS-16-01",
+      "type": "historical_priority",
+      "statement": "Granovetter 1973 strong ties triads and earlier social network research predate modern clustering metrics",
+      "source_ids": [
+        "S49"
+      ],
+      "locator": "Granovetter pp1362-1365",
+      "verification_status": "original_precedent_checked"
+    },
+    {
+      "claim_id": "NS-16-02",
+      "type": "historical_context",
+      "statement": "Watts and Strogatz 1998 used local clustering with short paths in small-world comparison",
+      "source_ids": [
+        "S56"
+      ],
+      "locator": "Nature model methods",
+      "verification_status": "primary_paper_checked"
+    },
+    {
+      "claim_id": "NS-16-03",
+      "type": "historical_fact",
+      "statement": "Newman Assortative Mixing in Networks Phys Rev Lett 89 208701 published Oct 28 2002",
+      "source_ids": [
+        "S67"
+      ],
+      "locator": "APS PRL journal page",
+      "verification_status": "publisher_checked"
+    },
+    {
+      "claim_id": "NS-16-04",
+      "type": "historical_fact",
+      "statement": "Newman Mixing Patterns in Networks Phys Rev E 67 026126 published Feb 27 2003, generalizing type and numeric assortativity",
+      "source_ids": [
+        "S68"
+      ],
+      "locator": "APS PRE article page",
+      "verification_status": "publisher_checked"
+    },
+    {
+      "claim_id": "NS-16-05",
+      "type": "historical_fact",
+      "statement": "Scott Feld Why Your Friends Have More Friends Than You Do published AJS 96(6) May 1991",
+      "source_ids": [
+        "S69"
+      ],
+      "locator": "Chicago publisher article and abstract",
+      "verification_status": "publisher_checked"
+    },
+    {
+      "claim_id": "NS-16-06",
+      "type": "historical_empirics",
+      "statement": "Newman 2002 observed social networks mostly degree-assortative and biological/technical networks tended disassortative in analyzed sample",
+      "source_ids": [
+        "S67"
+      ],
+      "locator": "PRL abstract",
+      "verification_status": "qualified_empirical"
+    },
+    {
+      "claim_id": "NS-16-07",
+      "type": "historical_empirics",
+      "statement": "Newman 2002 and 2003 used correlation/mixing models and show effects on percolation and removal robustness",
+      "source_ids": [
+        "S67",
+        "S68"
+      ],
+      "locator": "PRL and PRE abstracts",
+      "verification_status": "qualified_empirical"
+    },
+    {
+      "claim_id": "NS-16-08",
+      "type": "mathematical_definitions",
+      "statement": "Undirected local clustering C_i=2 t_i/[k_i(k_i-1)] for degree>=2, mean local Cbar and global transitivity 3T/sum choose(k_i,2) are different measures",
+      "source_ids": [
+        "S55",
+        "S56"
+      ],
+      "locator": "Newman 2003 clustering and WS 1998 definition",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-16-09",
+      "type": "math_illustration",
+      "statement": "6-node ring and two disjoint triangles have each degree2 and m6 but clustering zero vs one; one graph disconnected",
+      "source_ids": [],
+      "locator": "author-devised graph example",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-16-10",
+      "type": "mathematical_definition",
+      "statement": "Degree assortativity is Pearson correlation across degree pairs at each edge's endpoints, in [-1,1] when endpoint variance nonzero",
+      "source_ids": [
+        "S67",
+        "S68"
+      ],
+      "locator": "Newman 2002 correlation formalism; constant degrees undefined",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-16-11",
+      "type": "math_illustration",
+      "statement": "Six-node edges AC AD AE BC BD BF have degrees 3,3,2,2,1,1, connected, no triangles, degree assortativity -0.8",
+      "source_ids": [],
+      "locator": "graph calculation independently enumerated",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-16-12",
+      "type": "math_illustration",
+      "statement": "Six-node edges AB AC AD BC BE DF have same degrees and m6, connected, one triangle, degree assortativity -0.2",
+      "source_ids": [],
+      "locator": "graph calculation independently enumerated",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-16-13",
+      "type": "mathematical_definition",
+      "statement": "Friendship paradox edge-endpoint sampled degree mean <k²>/<k> exceeds uniform vertex mean by Var(k)/<k> if <k>>0",
+      "source_ids": [
+        "S69",
+        "S67"
+      ],
+      "locator": "Feld 1991 and Newman 2002 edge sampling argument",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-16-14",
+      "type": "math_illustration",
+      "statement": "7-vertex star has uniform vertex mean degree 12/7 and randomly edge-endpoint sampled degree mean 3.5; center's personal friends each lower degree",
+      "source_ids": [],
+      "locator": "graph count check",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-16-15",
+      "type": "conceptual_boundary",
+      "statement": "Clustering triangles, degree assortativity, and friendship paradox edge-sampling bias answer distinct questions, neither uniquely identifies communities",
+      "source_ids": [
+        "S55",
+        "S67",
+        "S68",
+        "S11"
+      ],
+      "locator": "analytical synthesis and Girvan Newman next chapter",
+      "verification_status": "supported_qualified_synthesis"
+    }
+  ],
+  "outstanding_checks": [
+    "Repository-wide outline approval and global evidence verification remain false; this is not a final manuscript.",
+    "Nature 2001 correction must always accompany the 2000 robustness paper in Chapter 15.",
+    "Independent continuity and developmental editorial checks pending; formally verify original pagination and diagrams before publication."
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "14",
+  "claims": [
+    {
+      "claim_id": "NS-14-01",
+      "type": "historical_fact",
+      "statement": "Jon Kleinberg published The Small-World Phenomenon: An Algorithmic Perspective at STOC 2000 pp163–170, and a separate Nature brief Navigation in a Small World 406:845 on 24 August 2000",
+      "source_ids": [
+        "S62",
+        "S63"
+      ],
+      "locator": "Cornell original HTML opening/TOC and Nature journal metadata",
+      "verification_status": "primary_documents_checked"
+    },
+    {
+      "claim_id": "NS-14-02",
+      "type": "historical_question",
+      "statement": "Kleinberg contrasts existence of short paths with finding them using only local information; critiques uniform random shortcuts for decentralized navigation",
+      "source_ids": [
+        "S62",
+        "S63"
+      ],
+      "locator": "STOC abstract and Introduction; Nature abstract",
+      "verification_status": "primary_documents_checked"
+    },
+    {
+      "claim_id": "NS-14-03",
+      "type": "model_definition",
+      "statement": "2D n by n grid has local contacts and long-range choices with probability proportional to lattice distance^-r",
+      "source_ids": [
+        "S62"
+      ],
+      "locator": "STOC Model and Results sections",
+      "verification_status": "primary_document_checked"
+    },
+    {
+      "claim_id": "NS-14-04",
+      "type": "mathematical_definition",
+      "statement": "Long-range edge likelihood for u-to-v equals d(u,v)^-r divided by sum of weights over candidate vertices",
+      "source_ids": [
+        "S62"
+      ],
+      "locator": "Cornell model statement normalization",
+      "verification_status": "derived_from_primary_model"
+    },
+    {
+      "claim_id": "NS-14-05",
+      "type": "historical_theorem",
+      "statement": "For r=2 with specified p=q=1 2D lattice model a decentralized algorithm achieves expected delivery time O(log² n)",
+      "source_ids": [
+        "S62"
+      ],
+      "locator": "STOC Theorem 2",
+      "verification_status": "primary_theorem_checked_with_assumptions"
+    },
+    {
+      "claim_id": "NS-14-06",
+      "type": "historical_theorem",
+      "statement": "For r=0 any decentralized method incurs Omega(n^(2/3)) expected delivery time in the specified model even though short paths exist",
+      "source_ids": [
+        "S62"
+      ],
+      "locator": "STOC Theorem 1",
+      "verification_status": "primary_theorem_checked"
+    },
+    {
+      "claim_id": "NS-14-07",
+      "type": "historical_theorem",
+      "statement": "For 0<=r<2 and r>2 any decentralized algorithm has polynomial n lower bounds with model-specific exponents",
+      "source_ids": [
+        "S62"
+      ],
+      "locator": "STOC Theorem 3",
+      "verification_status": "primary_theorem_checked_with_assumptions"
+    },
+    {
+      "claim_id": "NS-14-08",
+      "type": "mathematical_explanation",
+      "statement": "2D doubled-distance annulus has Theta(d²) vertices; weighted probability scale d^(2-r) is balanced at r=2",
+      "source_ids": [
+        "S62"
+      ],
+      "locator": "STOC after Theorem 3 distance scale argument",
+      "verification_status": "derived_explanation"
+    },
+    {
+      "claim_id": "NS-14-09",
+      "type": "historical_generalization",
+      "statement": "In D-dimensional lattice analogue navigability exponent r=D, not universal value two",
+      "source_ids": [
+        "S62"
+      ],
+      "locator": "STOC generalization discussion",
+      "verification_status": "primary_document_checked"
+    },
+    {
+      "claim_id": "NS-14-10",
+      "type": "model_scope",
+      "statement": "n denotes linear grid width with n² vertices; log-squared bound is expectation for given model not universal guarantee for human social routing",
+      "source_ids": [
+        "S62",
+        "S63"
+      ],
+      "locator": "STOC model and nature summary",
+      "verification_status": "qualified_scope"
+    },
+    {
+      "claim_id": "NS-14-11",
+      "type": "narrative_context",
+      "statement": "Milgram experiment's successful short chains and Watts-Strogatz short path model do not by themselves prove decentralized findability",
+      "source_ids": [
+        "S44",
+        "S45",
+        "S56",
+        "S62"
+      ],
+      "locator": "earlier historical comparison",
+      "verification_status": "qualified_synthesis"
+    },
+    {
+      "claim_id": "NS-14-12",
+      "type": "illustration",
+      "statement": "City block Manhattan distance and annulus examples are classroom reconstructions and not historical subject behavior",
+      "source_ids": [],
+      "locator": "author-devised mathematical visualizations",
+      "verification_status": "labelled_illustration"
+    }
+  ],
+  "outstanding_checks": [
+    "Repository-wide outline approval and global evidence verification remain false; this is not a final manuscript.",
+    "Nature 2001 correction must always accompany the 2000 robustness paper in Chapter 15.",
+    "Independent continuity and developmental editorial checks pending; formally verify original pagination and diagrams before publication."
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "15",
+  "claims": [
+    {
+      "claim_id": "NS-15-01",
+      "type": "historical_fact",
+      "statement": "Réka Albert, Hawoong Jeong, and Albert-László Barabási published Error and Attack Tolerance of Complex Networks in Nature 406:378-382 on July 27 2000",
+      "source_ids": [
+        "S64"
+      ],
+      "locator": "Nature publisher title, authors, issue date",
+      "verification_status": "primary_metadata_checked"
+    },
+    {
+      "claim_id": "NS-15-02",
+      "type": "historical_definition",
+      "statement": "Original paper distinguishes random node failure/error from selective removal of high-connectivity nodes in graph simulations",
+      "source_ids": [
+        "S64"
+      ],
+      "locator": "Nature abstract and figures captions",
+      "verification_status": "primary_abstract_checked"
+    },
+    {
+      "claim_id": "NS-15-03",
+      "type": "historical_result",
+      "statement": "Paper reports scale-free and real network case studies comparatively tolerant to random failures yet sensitive to targeted removal of important vertices",
+      "source_ids": [
+        "S64"
+      ],
+      "locator": "Nature abstract, Figure 2, Figure 3",
+      "verification_status": "primary_abstract_checked_with_scope"
+    },
+    {
+      "claim_id": "NS-15-04",
+      "type": "historical_correction",
+      "statement": "Nature published official correction Jan 25 2001 volume409 page542 DOI 10.1038/35054111",
+      "source_ids": [
+        "S65"
+      ],
+      "locator": "Nature corrigendum publication metadata",
+      "verification_status": "primary_correction_checked"
+    },
+    {
+      "claim_id": "NS-15-05",
+      "type": "historical_correction_scope",
+      "statement": "Correction states software error affected random error tolerance curves for exponential comparison network and corrected Figs2a 3a, but not attack curves nor core results for scale-free, Web and Internet networks",
+      "source_ids": [
+        "S65"
+      ],
+      "locator": "Nature 2001 corrigendum full text",
+      "verification_status": "primary_correction_checked"
+    },
+    {
+      "claim_id": "NS-15-06",
+      "type": "historical_complement",
+      "statement": "Cohen Erez ben-Avraham Havlin published Resilience of Internet to Random Breakdowns in PRL 85:4626-4628 on Nov 20 2000",
+      "source_ids": [
+        "S66"
+      ],
+      "locator": "APS publisher abstract and issue date",
+      "verification_status": "primary_metadata_checked"
+    },
+    {
+      "claim_id": "NS-15-07",
+      "type": "mathematical_derivation",
+      "statement": "For locally tree-like uncorrelated configuration graph, independent node survival q retains giant component if q*(<k²>-<k>)/<k>>1",
+      "source_ids": [
+        "S66",
+        "S55"
+      ],
+      "locator": "percolation branching argument from standard configuration model",
+      "verification_status": "qualified_modern_theory"
+    },
+    {
+      "claim_id": "NS-15-08",
+      "type": "mathematical_derivation",
+      "statement": "Under same assumptions q_c=<k>/(<k²>-<k>), with q survival not removed fraction; bound only meaningful in giant-component regime",
+      "source_ids": [
+        "S66",
+        "S55"
+      ],
+      "locator": "algebra on branching criterion and parameter note",
+      "verification_status": "derived_checked"
+    },
+    {
+      "claim_id": "NS-15-09",
+      "type": "model_scope",
+      "statement": "In idealized power-law heavy tail with 2<gamma<=3 diverging degree second moment may drive random failure threshold toward edge case; finite networks not invulnerable",
+      "source_ids": [
+        "S66"
+      ],
+      "locator": "APS and arXiv abstract; finite-size caveat",
+      "verification_status": "primary_scope_supported"
+    },
+    {
+      "claim_id": "NS-15-10",
+      "type": "mathematical_example",
+      "statement": "Seven-vertex star, one hub 6 leaves: hub loss leaves six isolated vertices, leaf loss leaves connected six-node star; uniform one node failure hits hub probability 1/7",
+      "source_ids": [],
+      "locator": "author invented graph computation",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-15-11",
+      "type": "conceptual_boundary",
+      "statement": "High degree does not imply cut vertex; largest connected component and finite average paths do not guarantee actual operational service or capacity",
+      "source_ids": [
+        "S64",
+        "S55"
+      ],
+      "locator": "graph theoretic distinctions and modern interpretive caution",
+      "verification_status": "qualified_educational"
+    },
+    {
+      "claim_id": "NS-15-12",
+      "type": "conceptual_boundary",
+      "statement": "Term attack denotes modeled selective vertex deletion and is not a real infrastructure procedure",
+      "source_ids": [
+        "S64"
+      ],
+      "locator": "original paper model language",
+      "verification_status": "bounded_historical_term"
+    },
+    {
+      "claim_id": "NS-15-13",
+      "type": "continuity",
+      "statement": "Degree distribution alone cannot characterize degree-degree mixing, triangles and robustness; chapter 16 transitions to assortativity",
+      "source_ids": [
+        "S67",
+        "S68"
+      ],
+      "locator": "Newman 2002/2003 empirical mixing patterns",
+      "verification_status": "supported_synthesis"
+    }
+  ],
+  "outstanding_checks": [
+    "Repository-wide outline approval and global evidence verification remain false; this is not a final manuscript.",
+    "Nature 2001 correction must always accompany the 2000 robustness paper in Chapter 15.",
+    "Independent continuity and developmental editorial checks pending; formally verify original pagination and diagrams before publication."
+  ]
+}
