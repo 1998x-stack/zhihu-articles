@@ -1,0 +1,104 @@
+{
+  "chapter": "20",
+  "title": "三个救援队：逻辑主义、形式主义、直觉主义",
+  "lane": "nonfiction",
+  "revision": 11,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Primary and scholarly historical claims are mapped to research.md chapter evidence matrix",
+    "Modern mathematical reconstructions explicitly distinguished from original historical statements",
+    "Independent continuity/developmental reviews and final approval remain pending"
+  ],
+  "claims": [
+    {
+      "claim_id": "H20-01",
+      "statement": "三派是后见的分析框架，不是一同成立的三个团队",
+      "source_id": "R20-SEP-PHILMATH;R20-SEP-HILBERT",
+      "verification_scope": "编辑性史学限定"
+    },
+    {
+      "claim_id": "H20-02",
+      "statement": "弗雷格及罗素/怀特海希望以逻辑基础重建算术/数学",
+      "source_id": "R20-SEP-LOGICISM;R20-SEP-PM",
+      "verification_scope": "历史核实"
+    },
+    {
+      "claim_id": "H20-03",
+      "statement": "《数学原理》分三卷1910、1912、1913年刊行",
+      "source_id": "R20-SEP-PM",
+      "verification_scope": "版本已核"
+    },
+    {
+      "claim_id": "H20-04",
+      "statement": "分支类型论规避特定自指但有表达力/附加公理问题",
+      "source_id": "R20-SEP-PM;R20-SEP-LOGICISM",
+      "verification_scope": "限定"
+    },
+    {
+      "claim_id": "H20-05",
+      "statement": "希尔伯特1921前后计划成熟，目标为形式化与有限主义一致性证明",
+      "source_id": "R20-SEP-HILBERT",
+      "verification_scope": "年代核实"
+    },
+    {
+      "claim_id": "H20-06",
+      "statement": "希尔伯特1899几何、1900第二问题属于前史，不等同成熟计划",
+      "source_id": "R20-SEP-HILBERT",
+      "verification_scope": "时序限定"
+    },
+    {
+      "claim_id": "H20-07",
+      "statement": "形式系统研究与证明一致性是不同层级的任务",
+      "source_id": "R20-SEP-HILBERT",
+      "verification_scope": "逻辑核实"
+    },
+    {
+      "claim_id": "H20-08",
+      "statement": "布劳威尔1907/1908倡导直觉主义构造观点",
+      "source_id": "R20-SEP-INTUITIONISM;R20-SEP-INT-LOGIC",
+      "verification_scope": "年代核实"
+    },
+    {
+      "claim_id": "H20-09",
+      "statement": "直觉主义不一般接受无限对象命题排中律的非构造式使用",
+      "source_id": "R20-SEP-INT-LOGIC",
+      "verification_scope": "精确逻辑"
+    },
+    {
+      "claim_id": "H20-10",
+      "statement": "可判定的有限命题仍可构造证明相应排中律实例",
+      "source_id": "R20-SEP-INT-LOGIC;R20-MODERN-LOGIC",
+      "verification_scope": "现代数学"
+    },
+    {
+      "claim_id": "H20-11",
+      "statement": "不接受普遍排中律不是断言其否定成立",
+      "source_id": "R20-SEP-INT-LOGIC;R20-MODERN-LOGIC",
+      "verification_scope": "关键误读避免"
+    },
+    {
+      "claim_id": "H20-12",
+      "statement": "否定之否定消去不作为一般有效规则",
+      "source_id": "R20-SEP-INT-LOGIC",
+      "verification_scope": "精确逻辑"
+    },
+    {
+      "claim_id": "H20-13",
+      "statement": "三路线关注的可信标准/证明义务不同且长期互相批评",
+      "source_id": "R20-SEP-PHILMATH;R20-SEP-HILBERT;R20-SEP-LOGICISM",
+      "verification_scope": "哲学史"
+    },
+    {
+      "claim_id": "H20-14",
+      "statement": "公理集合论是并行发展，不得宣称三派已彻底解决一切问题",
+      "source_id": "R20-SEP-ZERMELO;R20-SEP-PHILMATH",
+      "verification_scope": "时序与学派限定"
+    },
+    {
+      "claim_id": "H20-15",
+      "statement": "下一章研究1908分离公理，不先宣告ZFC绝对一致",
+      "source_id": "outline.md;R20-SEP-ZERMELO",
+      "verification_scope": "编辑性过渡"
+    }
+  ]
+}
