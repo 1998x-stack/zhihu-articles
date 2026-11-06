@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "lane": "nonfiction",
-  "scope": "本文件仅为第09—11章最近一批的章节进度；已写第01—08章仍以book.json和各自claims.json为准。",
-  "last_batch": "09-11",
+  "scope": "本文件跟踪第09—14章局部连续性；前序章节以book.json和各章claims.json为准。",
+  "last_batch": "12-14",
   "chapters": [
     {
       "chapter_id": "chapter-09",
@@ -36,7 +36,40 @@
       "connects_from": "第10章有向线段加法",
       "connects_to": "第12章格拉斯曼1844扩张论",
       "math_verified": true
+    },
+    {
+      "chapter_id": "chapter-12",
+      "title": "格拉斯曼1844：空间为什么不必三维",
+      "file": "draft/12.md",
+      "claims": "draft/12.claims.json",
+      "stage": "draft",
+      "historical_era": "1844、1862及1888后续",
+      "connects_from": "第11章四元数的实系数不等于物理空间维度",
+      "connects_to": "第13章系数阵列何以命名",
+      "math_verified": true
+    },
+    {
+      "chapter_id": "chapter-13",
+      "title": "西尔维斯特：矩阵先有名字，还是先有理论",
+      "file": "draft/13.md",
+      "claims": "draft/13.claims.json",
+      "stage": "draft",
+      "historical_era": "1850命名、1853/1855前驱",
+      "connects_from": "第12章抽象组合与系数需求",
+      "connects_to": "第14章矩阵代数运算",
+      "math_verified": true
+    },
+    {
+      "chapter_id": "chapter-14",
+      "title": "凯莱1858：两次变换为什么可以相乘",
+      "file": "draft/14.md",
+      "claims": "draft/14.claims.json",
+      "stage": "draft",
+      "historical_era": "1857收稿、1858宣读和出版",
+      "connects_from": "第13章术语与初期定义",
+      "connects_to": "第15章矩阵满足特征多项式",
+      "math_verified": true
     }
   ],
-  "status_notice": "只有草稿、范围内的来源核验和数学自检；不声称独立审稿已通过，最终批准仍为false。"
+  "status_notice": "以上均为来源核查及独立数学自检后的初稿，未经正式独立双审或终稿批准。"
 }
