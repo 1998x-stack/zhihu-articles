@@ -47,6 +47,7 @@
 - [连续性审计与复审报告](qa/continuity-report.md)
 - [发展性结构审稿与复审报告](qa/developmental-review.md)
 - [逐项修订日志](qa/revision-log.md)
+- [终审前置核查：正式门禁待执行，未批准封版](qa/final-approval.md)
 - [首轮未通过报告归档](qa/history/continuity-r0.md)
 - [版本与审稿门禁状态](workflow-state.json)
 - [序章逐条主张追踪](draft/00.claims.json)
