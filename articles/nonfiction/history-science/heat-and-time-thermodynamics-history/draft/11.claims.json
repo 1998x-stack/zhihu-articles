@@ -1,8 +1,8 @@
 {
   "chapter": "11",
-  "status": "research_ready",
+  "status": "draft",
   "sources_verified": true,
-  "scope": "仅第11章21条核心主张的前置证据核对；正文初稿仍待写，独立审稿未做，14—33章不受覆盖",
+  "scope": "第11章7434字符的非虚构正文初稿已完成，21条主张有前置研究来源对应；未进行独立审稿，第14—33章仍为目录占位。",
   "claims": [
     {
       "claim_id": "T11-01",
@@ -261,6 +261,7 @@
   "editorial_notes": [
     "原始史料与后世现代公式分层",
     "不伪造对话、人物心理、历史实验数据",
-    "完成正文后修改status为draft，审稿仍为PENDING"
+    "完成正文后修改status为draft，审稿仍为PENDING",
+    "正文草稿已写入draft/11.md。章节来源在research.md与claim-ledger.md登记，review_status保持PENDING。"
   ]
 }
