@@ -889,3 +889,42 @@
 **核算与红线**：素数幂编码用第i个素数的正指数(a_i+1)以免丢失尾部零，唯一分解可逆；Gödel句是关于“证明存在”的数学句，不是自然语言“本句为假”；1931原版ω-一致性与1936罗瑟一般一致性的区别必须明说；1930逻辑语义完备与1931公理理论不完备是不同“完备”；一致性定理只限满足条件的有效公理化算术理论，不论证“任何人类知识都不可靠”。
 
 **本批许可交付**：第21—23章完整初稿、claim映射、目录与写作版本递增；独立双审、线编辑、终稿及发布仍未完成。
+
+
+## 第24章专项证据矩阵｜图灵、丘奇与一般判定问题（新增）
+
+> 资料分层：期刊原始论文及出版元数据支持篇名、时间、构造与研究主题；SEP支持史学叙述与理论边界；现代停机证明、例子与公式是作者独立整理的现代教学重述。**这部分核证不等于全书终稿审校。**
+
+### 可追溯来源
+
+- **R24-TURING-1937**：A. M. Turing, “On Computable Numbers, with an Application to the Entscheidungsproblem”, *Proceedings of the London Mathematical Society*, ser. 2, vol. 42 (1937), pp. 230–265, DOI https://doi.org/10.1112/plms/s2-42.1.230 。期刊显示“Received 28 May 1936”；按1937期刊卷次引文，不将投稿、宣读和卷次混成一个日期。
+- **R24-SEP-TURING**：*Stanford Encyclopedia of Philosophy*, “Turing Machines” (rev. 2025-05-21), https://plato.stanford.edu/entries/turing-machine/ 。支持有限状态、纸带、规则表、通用机器、可计算实数、circle-free、CIRC?/PRINT?、原始判定问题及现代HALT?之间的异同。
+- **R24-SEP-ENTSCHEIDUNG**：*Stanford Encyclopedia of Philosophy*, “The Church-Turing Thesis: The Rise and Fall of the Entscheidungsproblem”, https://plato.stanford.edu/entries/church-turing/decision-problem.html 。Hilbert & Ackermann 1928的普遍有效式/可满足性表述；一阶逻辑的证明可判定性版本与哥德尔逻辑完备性的联系；丘奇和图灵各自的1936年不可判定结果。
+- **R24-SEP-THESIS**：*Stanford Encyclopedia of Philosophy*, “The Church-Turing Thesis”, https://plato.stanford.edu/entries/church-turing/ 。论题连接非形式直觉的“有效方法”和形式机器计算；历史版本与后来的强化版本不可混写。
+- **R24-SEP-COMPUTABILITY**：*Stanford Encyclopedia of Philosophy*, “Computability and Complexity”, https://plato.stanford.edu/entries/computability/ 。通用机、停机性、可计算函数与算法边界的现代解释。
+- **R24-SEP-CHURCH**：*Stanford Encyclopedia of Philosophy*, “Alonzo Church”, https://plato.stanford.edu/entries/church/ 。丘奇与图灵独立工作、$\lambda$ 演算与递归性、波斯特同时期的贡献。
+- **R24-LOGCOM-HISTORY**：*Journal of Logic and Computation*, “Did Turing prove the undecidability of the halting problem?”, DOI https://doi.org/10.1093/logcom/exaf075 。专门提示将图灵1936年circle-free原始任务等同于现代HALT?并不准确。作者应避免声称论文中已逐字呈现现代停机问题的标准证法。
+- **R24-MODERN-MATH**：本章自拟教学演示与严格推理。有限真值表可处理命题逻辑；一元编码111→1111；$H(P,x)$停机性总判定器假设与$D(D)$反证；一阶有效性可由标准演绎系统枚举证明但不存在全部输入停机的判定算法。现代例子不冒充图灵原论文细节。
+
+### 主要主张逐项核对
+
+| Claim | 主张 | 主要来源 | 核证/边界 |
+|---|---|---|---|
+| H24-01 | Hilbert—Ackermann 1928对一阶判定问题的有效性/可满足性提问 | R24-SEP-ENTSCHEIDUNG | 已核；不得扩展为“所有数学命题”同一问题 |
+| H24-02 | 命题逻辑真值表给出总判定；一阶一般问题不同 | R24-MODERN-MATH; R24-SEP-ENTSCHEIDUNG | 数学已核，限定经典逻辑 |
+| H24-03 | 有效性与可证明性的对应使用一阶逻辑完备性 | R24-SEP-ENTSCHEIDUNG | 已核，不能混成算术理论句子完备性 |
+| H24-04 | Turing论文1936年收稿、期刊卷次通常标1937年 | R24-TURING-1937 | 出版元数据已核 |
+| H24-05 | 抽象机器有限状态、有限字母表、带/头及有限规则 | R24-TURING-1937; R24-SEP-TURING | 已核；现代课堂简化记法 |
+| H24-06 | 机器规则可编码为数据，通用机器可模拟不同机器 | R24-TURING-1937; R24-SEP-TURING | 已核，非实体电脑制造史 |
+| H24-07 | 长时间未停机不等于能证实永不停止 | R24-MODERN-MATH | 已核；搜索与总判定需区分 |
+| H24-08 | 现代HALT?对角反证H→D→D(D) | R24-MODERN-MATH; R24-SEP-TURING | 已核；明示是现代重述 |
+| H24-09 | 1936原始circle-free/CIRC?/PRINT?与现代HALT?不等同 | R24-SEP-TURING; R24-LOGCOM-HISTORY | 已核；circle-free≠简单“停机” |
+| H24-10 | 原始计算不可判定性应用于一阶逻辑判定问题 | R24-TURING-1937; R24-SEP-ENTSCHEIDUNG | 已核；避免省略归约方向 |
+| H24-11 | 丘奇1936独立得出一般判定问题的否定结果 | R24-SEP-CHURCH; R24-SEP-ENTSCHEIDUNG | 已核，非图灵唯一贡献 |
+| H24-12 | $\lambda$ 演算、递归函数与图灵可计算相关形式类等价 | R24-SEP-CHURCH; R24-SEP-THESIS | 已核，形式等价不等于论题已被证明 |
+| H24-13 | 丘奇—图灵论题连接直观有效算法与形式可计算性 | R24-SEP-THESIS | 已核；不扩大到思维或所有物理理论 |
+| H24-14 | 一阶有效式可枚举，但一般有效性不可判定 | R24-SEP-ENTSCHEIDUNG; R24-MODERN-MATH | 已核，须保留“经典一阶逻辑一般问题”限定 |
+| H24-15 | 可判定性与可计算难度、具体程序验证并不相同 | R24-SEP-COMPUTABILITY; R24-MODERN-MATH | 已核，避免所有实例不可判断的误读 |
+| H24-16 | 从图灵到第25章机器辅助证明是本书编辑性衔接 | outline.md; story-bible.md | 编排解释，不冒充历史单线因果 |
+
+**写作红线**：不要写成“图灵1936年已经给出现代HALT?的逐字反证”；不要把circle-free译成普通死循环；不要把1931哥德尔不完备定理自动等同1936判定问题的解决；不要把有效计算的历史论题包装成关于所有物理装置或人类思维的普遍定理。
