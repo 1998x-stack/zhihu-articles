@@ -3,7 +3,7 @@
   "current_revision": 15,
   "outline_approved": false,
   "evidence_verified": false,
-  "review_status": "PENDING",
+  "review_status": "CHANGES_REQUIRED",
   "reviewed_revision": null,
   "unresolved_blockers": [
     "NONFICTION-PRIMARY-EDITION-CROSSCHECK",
@@ -44,9 +44,13 @@
     "CH17-RAILWAY-EQUITY-CALLS-ORIGINAL-BOOKS",
     "CH17-UK-US-RAILWAY-CAPITAL-DATA",
     "CH18-GOLD-RATE-AND-BILLS-PRIMARY-DATA",
-    "CH18-BARING-1890-RESCUE-ARCHIVES"
+    "CH18-BARING-1890-RESCUE-ARCHIVES",
+    "CH16-SLAVERY-COMPENSATION-1835-CASH-ANNUITY-FULL-ACCOUNT",
+    "CH17-RAILWAY-1846-BILL-AUTHORISATION-OPENINGS-TRIPLE-DATA",
+    "CH18-BARING-1890-INTERNATIONAL-GOLD-AND-GUARANTEE-PRIMARY-EVIDENCE",
+    "CH16-18-ORIGINAL-PRIMARY-EDITION-INDEPENDENT-CHECK"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Research-level drafts of chapters 16-18 added in Revision 15, accompanied by 26 source-ledger records and 46 claim traceability entries. Prior reviews are stale. Original archival documents, full competing historiography, and book-wide checks remain unverified; outline_approved=false, evidence_verified=false, final_approved=false, and publication gates remain closed."
+  "notes": "Revision 15 chapter 16-18 research draft audited for institutional dates, source IDs, claims, and cross-chapter narrative. 26 references and 46 claims tracked. Archive originals and competing interpretations remain incompletely crosschecked. Reviews CHANGES_REQUIRED; book outline_approved=false/evidence_verified=false, final approval not granted."
 }
