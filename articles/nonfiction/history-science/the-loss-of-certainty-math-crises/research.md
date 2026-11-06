@@ -291,3 +291,59 @@
 - **不可写**：牛顿某夜亲眼看苹果下落并“当场发明流数”；从来无人研究切线；牛顿先公开发表完整流数法；莱布尼茨从牛顿偷来一切；普遍声称牛顿一套理论没有数学基础；牛顿拥有现代 \(\varepsilon\)-\(\delta\) 定义。
 - **学术边界**：有关牛顿1676年通信和1730年代争论的自述带有优先权利益立场；优先考虑手稿日期、出版实物与独立史学研究。现代展示 \(t^2\)、面积函数、导数/积分仅供说明，不能冒充历史原式。
 - **审核状态**：本证据矩阵仅支持第06章创作初稿及其 claims 映射，不代表双审通过或整书史料完成。
+
+
+---
+
+## 第07章专项史料与数学核证｜莱布尼茨的微分和积分符号（2026-11-06）
+
+史料层级：原始1684/1686印本经博物馆/MAA呈现；1675未刊手稿依据历史记号研究；哲学与数学史二手研究；现代数学演算。1660年代牛顿工作与1670年代莱布尼茨工作独立发展，不从符号推断单向抄袭。公开出版≠手稿先使用。第07章证据仅供draft，不代表审稿PASS。
+
+### 资料索引
+- L07-SMITHSONIAN-1684： Smithsonian Libraries original 1684 Acta journal p467–473 and plate XII: https://www.si.edu/object/siris_sil_698366
+- L07-MAA-DIFF： MAA Convergence, Leibniz Differential Calculus (2015): https://old.maa.org/node/641731
+- L07-MAA-INTEGRAL： MAA Convergence, Leibniz Integral Calculus (2015), June 1686 p292–300 first printed integral sign: https://old.maa.org/node/641732
+- L07-MACTUTOR-SYMBOLS： MacTutor Earliest Uses of Symbols of Calculus: 1675 Oct 29 manuscript long S and Nov 11 with dx; modern limits later: https://mathshistory.st-andrews.ac.uk/Miller/mathsym/calculus/
+- L07-MACTUTOR-LEIBNIZ： MacTutor Leibniz biography: https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/
+- L07-SEP-CONTINUITY： John L Bell, SEP Continuity and Infinitesimals (revised 2022), 1684 derivative rules and logical status: https://plato.stanford.edu/entries/continuity/
+- L07-MAA-LANGUAGE： MAA Math Origins Language of Change, Newton-Leibniz notation and 1684 product rule: https://old.maa.org/press/periodicals/convergence/math-origins-the-language-of-change
+- L07-OUP-PRINT： Samuel V Lemley, The Library 2021, three printing editions of October 1684 Nova Methodus: https://doi.org/10.1093/library/22.2.177
+- L07-OUP-INDP： Oxford Handbook of Leibniz, Life and Works, historiography and 1713 Newton involvement: https://academic.oup.com/edited-volume/34667/chapter/295383476
+- L07-AMS-PRIORITY： AMS Notices 2022/2023 book review, 1676 letters and independently developed calculus: https://doi.org/10.1090/noti2593
+- L07-BROWN-EXHIBITION： Brown University Library History of Mathematics 1696 l'Hopital text and Bernoulli instruction: https://library.brown.edu/exhibits/archive/math/textfr.html
+- L07-MAA-LHOPITAL： MAA Convergence 1696 L'Hopital first differential calculus textbook: https://old.maa.org/node/871243
+- L07-SPRINGER-BERNOULLI： Bradley Petrilli Sandifer 2015 source material Johann Bernoulli lectures: https://link.springer.com/book/10.1007/978-3-319-17115-9
+
+### 主张核查矩阵
+
+| claim_id | 可用主张 | 来源编号 | 结论与限度 |
+|---|---|---|---|
+| H07-01 | 1646–1716 Leibniz Paris mathematic training and Huygens/precursors | L07-MACTUTOR-LEIBNIZ | verified_qualified |
+| H07-02 | 1675 Oct 29 manuscript introduces elongated S; Nov 11 manuscript combines integral and dx, not print | L07-MACTUTOR-SYMBOLS | verified_with_date_distinctions |
+| H07-03 | elongated S represents summa, notation evolves | L07-MACTUTOR-SYMBOLS | verified |
+| H07-04 | 1684 Oct Acta 467–473 Nova Methodus contains d notation product quotient rules | L07-SMITHSONIAN-1684;L07-MAA-DIFF;L07-SEP-CONTINUITY | verified |
+| H07-05 | 1686 Jun Acta 292–300 integral sign first public print and reciprocal geometry | L07-MAA-INTEGRAL | verified_qualified |
+| H07-06 | y=x² finite difference modern dy/dx=2x | L07-SEP-CONTINUITY;MODERN-MATH | mathematically_verified |
+| H07-07 | d(xy)=xdy+ydx printed and calculus operator extension | L07-SEP-CONTINUITY;L07-MAA-LANGUAGE | verified |
+| H07-08 | finite rectangle area delta(xy)=y delta x+x delta y+delta x delta y; derivative limit | MODERN-MATH | mathematically_verified |
+| H07-09 | integral sign sum/antiderivative and modern indefinite integral x³/3+C | L07-MAA-INTEGRAL;MODERN-MATH | modern_educational |
+| H07-10 | modern upper/lower limits on integral notation evolved later than 1686 | L07-MACTUTOR-SYMBOLS | verified |
+| H07-11 | Newton dot vs Leibniz d and integral, not superiority under all settings | L07-MAA-LANGUAGE;L07-MACTUTOR-SYMBOLS | comparative_qualified |
+| H07-12 | Newton 1660s prior private development; Leibniz independent calculus 1684/1686 first publication | L07-AMS-PRIORITY;L07-MACTUTOR-LEIBNIZ | verified |
+| H07-13 | 1676 correspondence and 1713 Royal Society report was influenced by Newton | L07-OUP-INDP;L07-AMS-PRIORITY | historiographical_qualified |
+| H07-14 | Bernoulli brothers later diffusion and 1696 L'Hopital textbook built partly on Johann teaching | L07-MAA-LHOPITAL;L07-BROWN-EXHIBITION;L07-SPRINGER-BERNOULLI | verified_qualified |
+| H07-15 | infinitesimal foundations remained contested; later rigorous limits | L07-SEP-CONTINUITY | verified_qualified |
+| H07-16 | 1684 paper short, printing variants and slow teaching uptake | L07-OUP-PRINT;L07-SPRINGER-BERNOULLI | verified |
+| H07-17 | symbols enable rules and diffusion as explanatory editorial thesis not sole historical cause | L07-MAA-LANGUAGE;L07-MAA-LHOPITAL | editorial_qualified |
+| H07-18 | modern Riemann right rectangle sum for x on [0,1] yields 1/2 | MODERN-MATH | mathematically_verified |
+
+### 演示的数学验证与历史边界
+
+1. 现代可微函数y=x²: [(x+h)²−x²]/h=2x+h（h非零），其极限为2x；不能在0处分母除法。
+2. 对u,v的有限变化，Δ(uv)=uΔv+vΔu+ΔuΔv。以同一自变量x的非零增量h除之，末项(Δu/h)Δv→0（假定u,v可微），严格得(uv)'=u'v+uv'。微分乘积法则不是直接宣称ΔuΔv对任何有限变化恒为零。
+3. ∫x²dx=x³/3+C，验证d(x³/3+C)/dx=x²；右端点黎曼和 (1/n)Σ(i/n)=(n+1)/(2n)→1/2证明∫₀¹x dx=1/2。以上均为现代教学，不是莱布尼茨1684/1686原始符号或运算的逐行临摹。
+4. MacTutor符号档案1675-10-29首次长S，1675-11-11加入dx；MacTutor人物传记给某种完整∫f(x)dx写法1675-11-21。这是三个不同阶段/不同表述，正文用‘1675秋反复形成’而不是一日完成现代微积分全套符号。
+5. 1684年原刊可核微分运算与几何切线；1686首次刊印积分符号；∫上、下限的现代排印发展较晚。先行发表与谁先研究属不同问题；1713皇家学会报告非独立中立仲裁，论文不可照搬控诉。
+6. 不杜撰人物对话、书信、私密动机、杂志现场读者反应；不宣称符号唯一导致大陆数学发展。后继伯克利、柯西议题不得提前判定所有无穷小运算无效。
+
+写作许可：历史科学非虚构完整第07章初稿和claims文件；研究与编年仍保持可审查边界。

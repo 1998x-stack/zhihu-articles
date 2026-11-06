@@ -1,6 +1,6 @@
 # 非虚构主张追踪表｜The Loss of Certainty
 
-> 本书于2026-11-06由旧版仓库迁移至 Schema 2.0。**只为有专项核证材料的第01—06章建立 claim 映射**；其他章节的来源映射保持待补，不得以本文件存在暗示全书史实已经查证。
+> 本书于2026-11-06由旧版仓库迁移至 Schema 2.0。**只为有专项核证材料的第01—07章建立 claim 映射**；其他章节的来源映射保持待补，不得以本文件存在暗示全书史实已经查证。
 
 | 章节 | claim_id | 主张简述 | 证据入口 | 结论 |
 |---|---|---|---|---|
@@ -79,5 +79,25 @@
 | 06 | H06-15 | 累积面积与导数逆关系的现代教学例子 | research.md“第06章专项证据矩阵”；N06-MACTUTOR；独立代数 | 现代重述 |
 | 06 | H06-16 | 多线发展的编辑性框架不是运动唯一因果 | research.md“第06章专项证据矩阵”；brief.md；outline.md；N06-MACTUTOR | 编辑解释 |
 
+
+| 07 | H07-01 | 1646–1716 Leibniz Paris mathematic training and Huygens/precursors | research.md 第07章矩阵；L07-MACTUTOR-LEIBNIZ | verified_qualified |
+| 07 | H07-02 | 1675 Oct 29 manuscript introduces elongated S; Nov 11 manuscript combines integral and dx, not print | research.md 第07章矩阵；L07-MACTUTOR-SYMBOLS | verified_with_date_distinctions |
+| 07 | H07-03 | elongated S represents summa, notation evolves | research.md 第07章矩阵；L07-MACTUTOR-SYMBOLS | verified |
+| 07 | H07-04 | 1684 Oct Acta 467–473 Nova Methodus contains d notation product quotient rules | research.md 第07章矩阵；L07-SMITHSONIAN-1684;L07-MAA-DIFF;L07-SEP-CONTINUITY | verified |
+| 07 | H07-05 | 1686 Jun Acta 292–300 integral sign first public print and reciprocal geometry | research.md 第07章矩阵；L07-MAA-INTEGRAL | verified_qualified |
+| 07 | H07-06 | y=x² finite difference modern dy/dx=2x | research.md 第07章矩阵；L07-SEP-CONTINUITY;MODERN-MATH | mathematically_verified |
+| 07 | H07-07 | d(xy)=xdy+ydx printed and calculus operator extension | research.md 第07章矩阵；L07-SEP-CONTINUITY;L07-MAA-LANGUAGE | verified |
+| 07 | H07-08 | finite rectangle area delta(xy)=y delta x+x delta y+delta x delta y; derivative limit | research.md 第07章矩阵；MODERN-MATH | mathematically_verified |
+| 07 | H07-09 | integral sign sum/antiderivative and modern indefinite integral x³/3+C | research.md 第07章矩阵；L07-MAA-INTEGRAL;MODERN-MATH | modern_educational |
+| 07 | H07-10 | modern upper/lower limits on integral notation evolved later than 1686 | research.md 第07章矩阵；L07-MACTUTOR-SYMBOLS | verified |
+| 07 | H07-11 | Newton dot vs Leibniz d and integral, not superiority under all settings | research.md 第07章矩阵；L07-MAA-LANGUAGE;L07-MACTUTOR-SYMBOLS | comparative_qualified |
+| 07 | H07-12 | Newton 1660s prior private development; Leibniz independent calculus 1684/1686 first publication | research.md 第07章矩阵；L07-AMS-PRIORITY;L07-MACTUTOR-LEIBNIZ | verified |
+| 07 | H07-13 | 1676 correspondence and 1713 Royal Society report was influenced by Newton | research.md 第07章矩阵；L07-OUP-INDP;L07-AMS-PRIORITY | historiographical_qualified |
+| 07 | H07-14 | Bernoulli brothers later diffusion and 1696 L'Hopital textbook built partly on Johann teaching | research.md 第07章矩阵；L07-MAA-LHOPITAL;L07-BROWN-EXHIBITION;L07-SPRINGER-BERNOULLI | verified_qualified |
+| 07 | H07-15 | infinitesimal foundations remained contested; later rigorous limits | research.md 第07章矩阵；L07-SEP-CONTINUITY | verified_qualified |
+| 07 | H07-16 | 1684 paper short, printing variants and slow teaching uptake | research.md 第07章矩阵；L07-OUP-PRINT;L07-SPRINGER-BERNOULLI | verified |
+| 07 | H07-17 | symbols enable rules and diffusion as explanatory editorial thesis not sole historical cause | research.md 第07章矩阵；L07-MAA-LANGUAGE;L07-MAA-LHOPITAL | editorial_qualified |
+| 07 | H07-18 | modern Riemann right rectangle sum for x on [0,1] yields 1/2 | research.md 第07章矩阵；MODERN-MATH | mathematically_verified |
+
 ## 后续章节状态
-第07—25章及序章、尾声仍待逐章核验。第01—06章为已开展专项证据记录，不能推断全书史料或最终审核已完成。
+第08—25章及序章、尾声仍待逐章专项核证。第01—07章已选主张的证据映射不等同全书终稿核验。
