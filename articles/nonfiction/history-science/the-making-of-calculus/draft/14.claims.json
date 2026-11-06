@@ -54,11 +54,11 @@
     {
       "id": "C14-05",
       "kind": "math_modern",
-      "statement": "可微函数y=x²的差商极限等于2x，xy乘积微分为xdy+ydx。",
+      "statement": "可微函数y=x²的差商极限为2x，d(xy)=xdy+ydx；商法则对y=(x²+1)/(x+1)在x=1处给出斜率1/2（x≠−1）。",
       "source_ids": [
         "H83"
       ],
-      "locator": "modern difference quotient and product increment, independently recalculated",
+      "locator": "modern difference quotient, product and quotient rules, independently recalculated including denominator restriction",
       "verification": "MATH_RECALCULATED_MODERN"
     },
     {
