@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "序章00及第01—07章已经建立逐章前置证据和非虚构正文初稿（本轮05章18、06章20、07章21条主张）；第08—33章未作逐章事实核证。全局evidence_verified仅限已写章节，不代表整书批准。",
-  "approval_scope": "第00—07章按原定大纲和局部资料核证进入正文初稿；第08—33章仍是待核证占位，outline_approved不代表这些章节已获实际章级批准。",
-  "note": "本轮三章05—07已落库并建立59条主张账本；当前书稿00—07为初稿，尚未进行独立连续性审计及结构审稿。review_status=PENDING、final_approved=false；不自动生成edited.md或final.md。"
+  "evidence_scope": "序章00与第01—10章均已建立前置史料主张与正文初稿；本轮08章20条、09章21条、10章21条，共62条。第11—33章仍未逐章核证；evidence_verified仅对应已写章节局部研究，不等于全书核准。",
+  "approval_scope": "第00—10章按现有书稿章纲及逐章局部事实核证进入非虚构正文初稿；第11—33章依然是章节规划占位，不能解读为整书阶段性审稿通过。",
+  "note": "本轮第08—10章三篇历史科学非虚构正文已写入；更新research.md、claim-ledger.md与claims.json、README。第00—10章已有初稿；独立连续性审计与结构审稿尚未执行，review_status=PENDING、final_approved=false，不生成edited/final。"
 }
