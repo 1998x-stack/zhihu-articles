@@ -128,23 +128,41 @@
     {
       "id": "02",
       "title": "欧多克索斯：不谈无穷小，怎样证明曲线面积？",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/02.md",
-      "claims_path": "draft/02.claims.json"
+      "claims_path": "draft/02.claims.json",
+      "source_ids": [
+        "H26",
+        "H27",
+        "H28",
+        "H29"
+      ]
     },
     {
       "id": "03",
       "title": "阿基米德：无限个小三角形能给出精确答案？",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/03.md",
-      "claims_path": "draft/03.claims.json"
+      "claims_path": "draft/03.claims.json",
+      "source_ids": [
+        "H30",
+        "H31",
+        "H32"
+      ]
     },
     {
       "id": "04",
       "title": "刘徽的割圆：古代中国怎样逼近一个圆？",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/04.md",
-      "claims_path": "draft/04.claims.json"
+      "claims_path": "draft/04.claims.json",
+      "source_ids": [
+        "H33",
+        "H34",
+        "H35",
+        "H36",
+        "H37"
+      ]
     },
     {
       "id": "05",

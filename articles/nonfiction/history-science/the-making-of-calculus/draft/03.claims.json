@@ -1,25 +1,111 @@
 {
   "chapter": "03",
-  "status": "PENDING",
+  "title": "阿基米德：无限个小三角形能给出精确答案？",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
   "claims": [
     {
       "id": "C03-01",
-      "statement": "抛物线弓形面积如何算",
-      "source_candidates": [
-        "H01",
-        "H16"
+      "kind": "primary_document",
+      "statement": "《抛物线求积》书信前言记述先以力学发现、再用几何证明。",
+      "source_ids": [
+        "H30"
       ],
-      "verification": "PENDING"
+      "locator": "Archimedes to Dositheus preface",
+      "verification": "SOURCE_CHECKED"
     },
     {
       "id": "C03-02",
-      "statement": "抛物线求积、几何级数的现代回译",
-      "source_candidates": [
-        "H01",
-        "H16"
+      "kind": "history_of_mathematics",
+      "statement": "阿基米德著作中的力学论证与几何论证可区分，史学研究对其风格亦有分析。",
+      "source_ids": [
+        "H30",
+        "H32"
       ],
-      "verification": "PENDING"
+      "locator": "Winters 2025 abstract and method discussion",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C03-03",
+      "kind": "primary_theorem",
+      "statement": "《抛物线求积》命题24：抛物线弓形面积等于与其同底同高内接三角形面积的4/3。",
+      "source_ids": [
+        "H30",
+        "H31"
+      ],
+      "locator": "QP proposition 24; MAA review",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C03-04",
+      "kind": "geometric_law",
+      "statement": "按抛物线内接三角形构造，下一层两个三角形面积合计为上一层总面积的1/4。",
+      "source_ids": [
+        "H31"
+      ],
+      "locator": "MAA explanation of nested triangles",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C03-05",
+      "kind": "mathematics_modern",
+      "statement": "若首层面积T，前n层面积为(4/3)T(1−4^−n)，极限为4T/3。",
+      "source_ids": [
+        "H31"
+      ],
+      "locator": "finite geometric sum, independently derived",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C03-06",
+      "kind": "proof_logic",
+      "statement": "数列的极限需与对剩余弓形面积的可控性结合，不能仅凭无限求和声称穷尽。",
+      "source_ids": [
+        "H31",
+        "H27"
+      ],
+      "locator": "MAA exhaustion proof; Euclid X.1",
+      "verification": "LOGICAL_ANALYSIS_CHECKED"
+    },
+    {
+      "id": "C03-07",
+      "kind": "mathematics_modern",
+      "statement": "曲线y=x²与y=1在[-1,1]围成面积∫(1−x²)dx=4/3，同底等高内接三角形面积为1。",
+      "source_ids": [
+        "H31"
+      ],
+      "locator": "independent integral cross-check, modern translation",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C03-08",
+      "kind": "historical_scope",
+      "statement": "阿基米德不曾使用现代定积分符号，其方法不可等同于完整现代微积分。",
+      "source_ids": [
+        "H30",
+        "H32"
+      ],
+      "locator": "historical manuscript and later history research",
+      "verification": "SOURCE_CHECKED_WITH_SCOPE"
+    },
+    {
+      "id": "C03-09",
+      "kind": "narrative_bridge",
+      "statement": "古希腊穷竭几何和中国刘徽割圆术是可比较的求积方法，无法从相似推断直接传播。",
+      "source_ids": [
+        "H34",
+        "H33"
+      ],
+      "locator": "Lam & Ang 1986; Liu Hui primary text",
+      "verification": "SOURCE_CHECKED_NO_DIFFUSION_CLAIM"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "把力学发现与几何证明按史料区分。",
+    "面积4/3是相对内接同底等高三角形，而非圆面积或弧长。",
+    "每批总面积是前批1/4，不是每个三角形都1/4。",
+    "历史证明需穷竭处理余量，现代积分仅作为验算。",
+    "古今文明相似性不等于直接传播。",
+    "仅工作初稿，尚未通过仓库独立审稿。"
+  ]
 }

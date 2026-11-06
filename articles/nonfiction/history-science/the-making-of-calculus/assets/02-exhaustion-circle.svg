@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" role="img" aria-labelledby="t d">
+<title id="t">穷竭法：用内接和外切多边形夹住圆的面积</title><desc id="d">蓝色外切正方形包住黑色圆周，青色内接正八边形与橙色内接正方形留在圆里。通过提高内接多边形边数和降低外切范围可以控制面积误差。</desc>
+<rect width="920" height="420" rx="14" fill="#f8fafc"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif"><text x="34" y="43" font-size="23" font-weight="700" fill="#122033">被夹住的圆：内接图形小于圆，外切图形大于圆</text></g>
+<rect x="290" y="76" width="270" height="270" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+<circle cx="425" cy="211" r="135" fill="#f1f5f9" stroke="#111827" stroke-width="3"/>
+<polygon points="425.000,76.000 520.459,115.541 560.000,211.000 520.459,306.459 425.000,346.000 329.541,306.459 290.000,211.000 329.541,115.541" fill="#b6ece3" stroke="#0f766e" stroke-width="3"/>
+<polygon points="425.000,76.000 560.000,211.000 425.000,346.000 290.000,211.000" fill="#f8cba4" fill-opacity=".75" stroke="#d97706" stroke-width="3"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="18"><text x="38" y="110" fill="#2563eb">外切正方形：面积 4</text><text x="38" y="151" fill="#0f766e">内接正八边形：面积 2√2</text><text x="38" y="192" fill="#d97706">内接正方形：面积 2</text><text x="38" y="261" fill="#334155">三者之间的面积差</text><text x="38" y="287" fill="#334155">就是可继续压小的误差</text><text x="615" y="158" fill="#111827">黑色边界：真正的圆</text><text x="615" y="187" fill="#64748b">半径 r = 1</text><text x="615" y="295" fill="#0f766e">每次倍边：</text><text x="615" y="321" fill="#0f766e">下界向上收紧</text></g>
+<text x="30" y="396" font-family="sans-serif" font-size="13" fill="#475569">现代教学示意，不是欧几里得或欧多克索斯的原始绘图。</text></svg>

@@ -1,23 +1,124 @@
 {
   "chapter": "04",
-  "status": "PENDING",
+  "title": "刘徽的割圆：古代中国怎样逼近一个圆？",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
   "claims": [
     {
       "id": "C04-01",
-      "statement": "内接多边形如何逼近圆",
-      "source_candidates": [
-        "H04"
+      "kind": "primary_text",
+      "statement": "刘徽为《九章算术》作注（263年），圆田注文中讨论正六边形与反复倍边的割圆计算。",
+      "source_ids": [
+        "H33",
+        "H34"
       ],
-      "verification": "PENDING"
+      "locator": "Liu Hui commentary book I; Lam & Ang 1986 pp.325-327",
+      "verification": "SOURCE_CHECKED"
     },
     {
       "id": "C04-02",
-      "statement": "割圆术和误差估计",
-      "source_candidates": [
-        "H04"
+      "kind": "primary_text",
+      "statement": "原文明确有「割之弥细，所失弥少」的几何余量观念。",
+      "source_ids": [
+        "H33"
       ],
-      "verification": "PENDING"
+      "locator": "九章算术注卷一「方田」圆田注文",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C04-03",
+      "kind": "historical_fact",
+      "statement": "旧式周三径一与正六边形周径之比相符，不能当作真实圆周率精确值。",
+      "source_ids": [
+        "H33",
+        "H34"
+      ],
+      "locator": "Liu Hui commentary and Lam & Ang 1986 p.326",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C04-04",
+      "kind": "historical_method",
+      "statement": "刘徽从内接多边形面积解释圆面积为半周乘半径，含割补与倍边的过程。",
+      "source_ids": [
+        "H33",
+        "H34"
+      ],
+      "locator": "Liu Hui commentary; Lam & Ang 1986 pp.326-329",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C04-05",
+      "kind": "mathematics_modern",
+      "statement": "单位圆内接正六边形周长/直径为3；正n边形面积等于半周长乘边心距。",
+      "source_ids": [
+        "H37"
+      ],
+      "locator": "independent geometric derivation and recurrence",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C04-06",
+      "kind": "mathematics_modern",
+      "statement": "内接倍边公式 s_(2n)^2=(s_n/2)^2+[r-√(r²−(s_n/2)²)]²；给出的面积表仅为现代高精度复算。",
+      "source_ids": [
+        "H37"
+      ],
+      "locator": "MathWorld method; independent numerical recheck",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C04-07",
+      "kind": "historical_textual_scope",
+      "statement": "刘徽割圆关联3.14与3.1416；历史研究对96/192及后段1536/3072的文本记录、精度推导存在不同解读。",
+      "source_ids": [
+        "H34",
+        "H35",
+        "H37"
+      ],
+      "locator": "Lam & Ang 1986 pp.326-329; recent algorithm study abstract",
+      "verification": "CROSS_CHECKED_WITH_CONTESTED_DETAILS"
+    },
+    {
+      "id": "C04-08",
+      "kind": "later_historical_record",
+      "statement": "祖冲之给出3.1415926<π<3.1415927，以及355/113和22/7，见后世《隋书》记载。",
+      "source_ids": [
+        "H34",
+        "H36"
+      ],
+      "locator": "Lam & Ang 1986 pp.329-331; MacTutor Zu Chongzhi",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C04-09",
+      "kind": "historical_limit",
+      "statement": "祖冲之《缀术》失传，具体采用何种边数及开方计算缺少完整原稿，后世重建不能称为原稿。",
+      "source_ids": [
+        "H34",
+        "H36"
+      ],
+      "locator": "Lam & Ang 1986 pp.329-331; MacTutor",
+      "verification": "SOURCE_CHECKED_WITH_UNCERTAINTY"
+    },
+    {
+      "id": "C04-10",
+      "kind": "comparative_history",
+      "statement": "刘徽割圆与希腊穷竭法有可比较的思想特征，但文献不足以证明直接传播。",
+      "source_ids": [
+        "H34",
+        "H27"
+      ],
+      "locator": "Lam & Ang 1986 historical comparison; Euclid XII.2",
+      "verification": "QUALIFIED_INTERPRETATION"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "原古籍与后代转录、1986学术整理和较新论文的边数叙述须分开。",
+    "不声称刘徽保存了完整3072边形逐步计算。",
+    "祖冲之《缀术》已失，不能描述其具体笔算步骤。",
+    "现代正弦/开方递推和高精度数值表不是古人原版术语。",
+    "中西方法相似不直接构成文献传播证据。",
+    "工作流全局仍PENDING。"
+  ]
 }
