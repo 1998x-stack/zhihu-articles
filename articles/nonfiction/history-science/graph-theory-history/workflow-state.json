@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "仅序章00（GT00-01—GT00-13），以欧拉英译节录§§1–9、Euler Archive E53出版信息及AMS历史论文完成限定核证；01—37章仍待核",
-  "approval_scope": "为序章00批准现有篇章结构进入初稿；不表示全书史实已批准。后续章节在独立核证前不得据此进入正式写作。",
-  "note": "序章00事实核验与结构放行已落实；初稿和本章claims文件待提交。其余37章为编辑占位。尚未进行独立审稿或出版。"
+  "evidence_scope": "已按限定范围核查00—03章：00 (S16—S20)、01 (S21 S22 S30)、02 (S23—S26 S31)、03 (S27—S29)，04—37仍TODO_VERIFY；并不代表出版审稿完成",
+  "approval_scope": "仅00—03章的已核史料及既定分章叙事架构允许进入初稿；其余章节继续等待逐章核证",
+  "note": "00为既有初稿；01—03事实核证及章纲放行（本批后将写入初稿）；review_status仍PENDING，非终稿，04—37为占位。"
 }
