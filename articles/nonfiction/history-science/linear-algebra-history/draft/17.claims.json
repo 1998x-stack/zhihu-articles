@@ -1,0 +1,93 @@
+{
+  "chapter": "17",
+  "title": "欧拉与拉格朗日：旋转物体的隐藏方向",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "H17-S1": "https://doi.org/10.1088/0143-0807/38/1/015001",
+    "H17-S2": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Mechanics",
+    "H17-S3": "https://scholarlycommons.pacific.edu/euler-works/177/",
+    "H17-S4": "https://doi.org/10.1007/s40329-014-0051-3",
+    "H17-S5": "https://mathshistory.st-andrews.ac.uk/Extras/Lagrange_Analytical_Mechanics/",
+    "H17-S6": "https://mathshistory.st-andrews.ac.uk/Biographies/Segner/",
+    "M17": "本章第3—10节现代惯性矩阵、谱分解、耦合小振动符号验算"
+  },
+  "claims": [
+    {
+      "claim_id": "C17-01",
+      "source_ids": [
+        "H17-S2",
+        "H17-S6"
+      ],
+      "kind": "historical_precursor",
+      "verified": true
+    },
+    {
+      "claim_id": "C17-02",
+      "source_ids": [
+        "H17-S1",
+        "H17-S3"
+      ],
+      "kind": "historical_dates",
+      "verified": true
+    },
+    {
+      "claim_id": "C17-03",
+      "source_ids": [
+        "H17-S4",
+        "H17-S5"
+      ],
+      "kind": "historical_parallel_lines",
+      "verified": true
+    },
+    {
+      "claim_id": "C17-04",
+      "source_ids": [
+        "M17"
+      ],
+      "kind": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C17-05",
+      "source_ids": [
+        "M17"
+      ],
+      "kind": "modern_mechanics",
+      "verified": true
+    },
+    {
+      "claim_id": "C17-06",
+      "source_ids": [
+        "H17-S4",
+        "M17"
+      ],
+      "kind": "historical_modern",
+      "verified": true
+    },
+    {
+      "claim_id": "C17-07",
+      "source_ids": [
+        "M17"
+      ],
+      "kind": "modern_math_caveat",
+      "verified": true
+    },
+    {
+      "claim_id": "C17-08",
+      "source_ids": [
+        "H17-S1",
+        "H17-S4"
+      ],
+      "kind": "editorial_chronology",
+      "verified": true
+    }
+  ],
+  "notes": [
+    "1755 Segner不可省略",
+    "1750 Euler撰稿/1752发表和1765专著分别对待",
+    "实对称矩阵正交特征方向不适用于所有方阵",
+    "现代例题非历史原文",
+    "未完成正式独立双审终稿"
+  ]
+}
