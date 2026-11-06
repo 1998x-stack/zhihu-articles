@@ -1,0 +1,74 @@
+{
+  "chapter": "10",
+  "title": "第五公设：一条谁也证明不了的平行线",
+  "lane": "nonfiction",
+  "revision": 8,
+  "status": "draft_claims_traced",
+  "notes": [
+    "Original historical statements grounded in research.md chapter-specific evidence",
+    "Modern mathematical demonstrations differentiated from primary historical proofs",
+    "Independent continuity and developmental reviews pending"
+  ],
+  "claims": [
+    {
+      "claim_id": "H10-01",
+      "source_id": "R10-EUCLID-I",
+      "verification": "original_text_verified"
+    },
+    {
+      "claim_id": "H10-02",
+      "source_id": "R10-EUCLID-27",
+      "verification": "original_proposition_verified"
+    },
+    {
+      "claim_id": "H10-03",
+      "source_id": "R10-EUCLID-I;R10-EUCLID-27",
+      "verification": "original_proposition_verified"
+    },
+    {
+      "claim_id": "H10-04",
+      "source_id": "R10-EUCLID-I",
+      "verification": "original_proposition_verified"
+    },
+    {
+      "claim_id": "H10-05",
+      "source_id": "R10-SEP-GEOMETRY;R10-SEP-KHAYYAM",
+      "verification": "history_and_equivalence_qualified"
+    },
+    {
+      "claim_id": "H10-06",
+      "source_id": "R10-SEP-GEOMETRY",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H10-07",
+      "source_id": "R10-SEP-KHAYYAM;R10-IRANICA-KHAYYAM",
+      "verification": "historical_verified_qualified"
+    },
+    {
+      "claim_id": "H10-08",
+      "source_id": "R10-SEP-GEOMETRY",
+      "verification": "historical_verified"
+    },
+    {
+      "claim_id": "H10-09",
+      "source_id": "R10-SEP-GEOMETRY",
+      "verification": "historiographical_qualified"
+    },
+    {
+      "claim_id": "H10-10",
+      "source_id": "R10-MODERN-MATH",
+      "verification": "modern_math_verified"
+    },
+    {
+      "claim_id": "H10-11",
+      "source_id": "R10-SEP-GEOMETRY;R10-MODERN-MATH",
+      "verification": "modern_logic_qualified"
+    },
+    {
+      "claim_id": "H10-12",
+      "source_id": "brief.md;outline.md",
+      "verification": "editorial_framing"
+    }
+  ]
+}
