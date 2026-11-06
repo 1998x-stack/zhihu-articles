@@ -1,0 +1,14 @@
+{
+  "schema_version": "2.0",
+  "lane": "nonfiction",
+  "current_revision": 0,
+  "outline_approved": false,
+  "evidence_verified": false,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
+  "unresolved_blockers": [],
+  "edited_revision": null,
+  "final_approved": false,
+  "evidence_scope": "序章与第01—08章具备正文和部分原始研究档案；第09—22章及尾声仍为占位。尚未完成目标 Schema 2.0 的逐章事实核证和独立审稿。",
+  "note": "2026-11-06 从 The-Empty-Spaces 迁入；原仓库保留，迁移不等于结构和事实核证获得批准。"
+}
