@@ -1,12 +1,93 @@
 {
   "chapter": "17",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S12",
-    "S13"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Erdos1977追述图兰1941原刊书目，MathWorld一般极值定理，现代文献曼特尔1907定理；原刊页首异文和历史原文逐页校勘未完成",
+  "claims": [
+    {
+      "claim_id": "GT17-01",
+      "claim": "八点图完全图有28条边，禁止三角形的K4,4给16条",
+      "source_ids": [
+        "S83"
+      ],
+      "status": "MODERN_EXAMPLE"
+    },
+    {
+      "claim_id": "GT17-02",
+      "claim": "无三角形不必为二分图，C5为反例",
+      "source_ids": [
+        "S83"
+      ],
+      "status": "MODERN_COUNTEREXAMPLE"
+    },
+    {
+      "claim_id": "GT17-03",
+      "claim": "Mantel1907提出无三角形图最大边数floor(n²/4)",
+      "source_ids": [
+        "S83"
+      ],
+      "status": "HISTORICAL_THEOREM_SCOPED"
+    },
+    {
+      "claim_id": "GT17-04",
+      "claim": "无三角形图任一边uv满足N(u)∩N(v)=空和d(u)+d(v)≤n",
+      "source_ids": [
+        "S83"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT17-05",
+      "claim": "度数平方和与Cauchy不等式推出m≤floor(n²/4)",
+      "source_ids": [
+        "S83"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT17-06",
+      "claim": "平衡完全二分图达到上界及极值同构唯一性",
+      "source_ids": [
+        "S83",
+        "S82"
+      ],
+      "status": "MODERN_THEOREM"
+    },
+    {
+      "claim_id": "GT17-07",
+      "claim": "Turan1941年发表极值图定理，1941原文页码存在来源转录差异",
+      "source_ids": [
+        "S81",
+        "S82"
+      ],
+      "status": "HISTORICAL_VERIFIED_CAVEAT"
+    },
+    {
+      "claim_id": "GT17-08",
+      "claim": "Turán定理：禁止K_(r+1)时T_r(n)边数极大且除同构唯一",
+      "source_ids": [
+        "S82"
+      ],
+      "status": "THEOREM_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT17-09",
+      "claim": "r组大小尽量均衡使候选完全r分图内边数最大，但不代替完整图兰证明",
+      "source_ids": [
+        "S82"
+      ],
+      "status": "MODERN_PROOF_SCOPE"
+    },
+    {
+      "claim_id": "GT17-10",
+      "claim": "图兰边数上界与拉姆齐的存在阈值不同，引出概率下界",
+      "source_ids": [
+        "S82",
+        "S80",
+        "S86"
+      ],
+      "status": "CROSS_CHAPTER_CONCEPT"
+    }
+  ]
 }
