@@ -3,7 +3,181 @@
   "title": "体积为什么会按整数比例结合",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "17条主张均基于1808报告1809刊载史料及现代物理解释；未独立审稿。",
+  "claims": [
+    {
+      "claim_id": "G07-01",
+      "source_ids": [
+        "S40",
+        "S42",
+        "S45"
+      ],
+      "summary": "盖吕萨克在1808年12月报告、1809年以论文形式发表气体化合体积规律",
+      "classification": "primary_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-02",
+      "source_ids": [
+        "S04",
+        "S40"
+      ],
+      "summary": "1802年气体热膨胀研究与1809年化合体积规律是两项不同的问题",
+      "classification": "historical_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-03",
+      "source_ids": [
+        "S40",
+        "S45"
+      ],
+      "summary": "盖吕萨克与洪堡1805年测得水由氢氧约2:1体积比例结合",
+      "classification": "historical_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-04",
+      "source_ids": [
+        "S40",
+        "S41",
+        "S45"
+      ],
+      "summary": "等温等压比较下2体积氢气+1体积氧气可相应得到2体积水蒸气（气相模型）",
+      "classification": "physical_historical_qualified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-05",
+      "source_ids": [
+        "S40",
+        "S41"
+      ],
+      "summary": "氮气1体积与氢气3体积对应氨气约2体积的比例",
+      "classification": "primary_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-06",
+      "source_ids": [
+        "S40"
+      ],
+      "summary": "一氧化碳气体2体积和氧气1体积对应二氧化碳气体2体积比例",
+      "classification": "primary_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-07",
+      "source_ids": [
+        "S40",
+        "S45"
+      ],
+      "summary": "气体反应的体积比常显示简单整数比；不是所有非气体物质任意条件都严格这样",
+      "classification": "limited_empirical_rule",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-08",
+      "source_ids": [
+        "S40",
+        "S41"
+      ],
+      "summary": "气体体积必须在相同温度压强下比较，水蒸气凝结后液体体积不能沿用此比",
+      "classification": "modern_boundary",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-09",
+      "source_ids": [
+        "S40",
+        "S45"
+      ],
+      "summary": "质量守恒与化合体积收缩不冲突，体积不守恒",
+      "classification": "modern_physics",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-10",
+      "source_ids": [
+        "S47",
+        "S42"
+      ],
+      "summary": "道尔顿1808出版原子论并用固定质量比、多重比例理解化合物",
+      "classification": "historical_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-11",
+      "source_ids": [
+        "S41",
+        "S42",
+        "S47"
+      ],
+      "summary": "道尔顿早期关于水组成粒子比的假设与后来H2O不一致；不归咎其不知全部实验",
+      "classification": "historical_qualified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-12",
+      "source_ids": [
+        "S42",
+        "S41",
+        "S47"
+      ],
+      "summary": "道尔顿质疑普遍等体积粒子数/具体化合体积数据，时代不存在现代分子区分",
+      "classification": "historical_qualified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-13",
+      "source_ids": [
+        "S41",
+        "S51"
+      ],
+      "summary": "简单体积比本身不足以推出每份体积的粒子数，解释需要进一步假设",
+      "classification": "logic_explanation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-14",
+      "source_ids": [
+        "S40",
+        "S41"
+      ],
+      "summary": "现代化学配平式可以表达比例，但不能将H2、O2、NH3记号作为1809原写法",
+      "classification": "modern_explanation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-15",
+      "source_ids": [
+        "S40",
+        "S45"
+      ],
+      "summary": "历史论文记载有误差、特殊气体及物态限制，整数比为经验近似",
+      "classification": "historical_scope",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-16",
+      "source_ids": [
+        "S40",
+        "S41"
+      ],
+      "summary": "观察到反应前后体积甚至可变小，触发分子计数与化合机制的新问题",
+      "classification": "historical_synthesis",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G07-17",
+      "source_ids": [
+        "S40",
+        "S04"
+      ],
+      "summary": "从温度问题转入气体化合比例，研究对象从单份气体状态转为多个气体反应",
+      "classification": "editorial_transition",
+      "verification": "source_preverified"
+    }
+  ]
 }
