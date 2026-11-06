@@ -1,23 +1,124 @@
 {
   "chapter": "05",
-  "status": "PENDING",
+  "title": "马达瓦与喀拉拉：无穷级数在印度开花",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
   "claims": [
     {
       "id": "C05-01",
-      "statement": "三角函数与圆周率怎样精算",
-      "source_candidates": [
-        "H03"
+      "kind": "history",
+      "statement": "马达瓦约14世纪中叶至15世纪初活跃，后世学派传承将其作为喀拉拉重要源头。",
+      "source_ids": [
+        "H38",
+        "H39"
       ],
-      "verification": "PENDING"
+      "locator": "Ramasubramanian ICM2022 §3; Roy 2ed ch1 p1",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C05-02",
-      "statement": "三角级数与修正项",
-      "source_candidates": [
-        "H03"
+      "kind": "source_survival",
+      "statement": "马达瓦级数的亲笔数学原作未完整保存，后世尼拉坎塔、杰什塔德瓦、商羯罗等著作转述成果。",
+      "source_ids": [
+        "H38",
+        "H39",
+        "H40"
       ],
-      "verification": "PENDING"
+      "locator": "ICM2022 pp5794–95; Cambridge p1–3",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C05-03",
+      "kind": "history",
+      "statement": "16世纪《Yuktibhāṣā》以马拉雅拉姆语介绍有关系列并给出后世证明或论证。",
+      "source_ids": [
+        "H38",
+        "H40"
+      ],
+      "locator": "ICM2022 §3; MacTutor Jyesthadeva",
+      "verification": "CROSS_CHECKED_DATE_APPROXIMATE"
+    },
+    {
+      "id": "C05-04",
+      "kind": "primary_text_via_historical_study",
+      "statement": "π/4=1−1/3+1/5−1/7+…在后世梵文诗句中归于马达瓦。",
+      "source_ids": [
+        "H38",
+        "H39"
+      ],
+      "locator": "ICM2022 §3.4 printed p5800; Cambridge excerpt pp2–3",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C05-05",
+      "kind": "math_modern",
+      "statement": "N项交错级数近似π误差≤4/(2N+1)；公式收敛较慢。",
+      "source_ids": [
+        "H38",
+        "H39"
+      ],
+      "locator": "ICM2022 §3.5; modern alternating series theorem",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C05-06",
+      "kind": "history",
+      "statement": "喀拉拉传统有对部分和尾项进行antya-saṃskāra修正的做法，后世文献保存多种形式。",
+      "source_ids": [
+        "H38",
+        "H39"
+      ],
+      "locator": "ICM2022 §3.5 pp5802–03; Cambridge pp3–4",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C05-07",
+      "kind": "math_modern",
+      "statement": "以arctan(1/√3)=π/6可得更快收敛π=2√3Σ(-1)^k/((2k+1)3^k)。",
+      "source_ids": [
+        "H39"
+      ],
+      "locator": "Cambridge ch1 p3 series & modern arctan identity",
+      "verification": "MATH_CHECKED_MODERN_REEXPRESSION"
+    },
+    {
+      "id": "C05-08",
+      "kind": "history",
+      "statement": "正弦、余弦、反正切级数成果由后续喀拉拉文献归于马达瓦，并非17世纪欧洲独有。",
+      "source_ids": [
+        "H38",
+        "H39"
+      ],
+      "locator": "Cambridge chapter 1 pp1–4; ICM2022 §3",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C05-09",
+      "kind": "diffusion_boundary",
+      "statement": "尚无可靠证据证明马达瓦级数直接传给牛顿、莱布尼茨，技术相似不等于直接传承。",
+      "source_ids": [
+        "H39",
+        "H38"
+      ],
+      "locator": "Cambridge ch1 p1; ICM2022 discussion",
+      "verification": "CROSS_CHECKED_WITH_SCOPE"
+    },
+    {
+      "id": "C05-10",
+      "kind": "mathematical_scope",
+      "statement": "现代sin与cos幂级数有定义域与截断误差条件，不能把现代积分/极限符号称为原文本。",
+      "source_ids": [
+        "H39"
+      ],
+      "locator": "Cambridge pp2–4 plus modern calculus interpretation",
+      "verification": "MATH_CHECKED_BOUNDARY"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "原作失传与后世推导归属分开，不编造人物私人心理/对白。",
+    "现代幂级数和误差上界是现代回译，末项修正不能与现代截断上界混同。",
+    "不能主张已证明喀拉拉→牛顿/莱布尼茨直接传播。",
+    "不称整个现代微积分在14世纪已完整建立。",
+    "工作流状态保持PENDING。"
+  ]
 }

@@ -1,23 +1,131 @@
 {
   "chapter": "06",
-  "status": "PENDING",
+  "title": "伽利略：平均速度不等于瞬间的速度",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
   "claims": [
     {
       "id": "C06-01",
-      "statement": "某一时刻速度是多少",
-      "source_candidates": [
-        "H01"
+      "kind": "primary_text",
+      "statement": "伽利略《两门新科学》1638第三日研究匀速、自然加速运动和奇数法则。",
+      "source_ids": [
+        "H42"
       ],
-      "verification": "PENDING"
+      "locator": "Third Day opening, Naturally Accelerated Motion",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C06-02",
-      "statement": "匀加速运动的数学表达",
-      "source_candidates": [
-        "H01"
+      "kind": "primary_text",
+      "statement": "匀加速被描述为相等时间获得相等速度增量。",
+      "source_ids": [
+        "H42"
       ],
-      "verification": "PENDING"
+      "locator": "Third Day definition of uniformly accelerated motion",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C06-03",
+      "kind": "historical_context",
+      "statement": "14世纪默顿学者如Heytesbury已经研究平均速度定理，Oresme还以几何方式表达变化。",
+      "source_ids": [
+        "H44",
+        "H49"
+      ],
+      "locator": "Oxford Merton Calculators; ETH Zurich history; originalsources translations",
+      "verification": "CROSS_CHECKED_WITH_HISTORY_LIMIT"
+    },
+    {
+      "id": "C06-04",
+      "kind": "historical_source",
+      "statement": "伽利略1638文本描述斜槽滚球、以水流重量计时、比较1/4路程与1/2时间。",
+      "source_ids": [
+        "H42",
+        "H43"
+      ],
+      "locator": "Third Day incline experiment; UVA transcript",
+      "verification": "CROSS_CHECKED_TEXTUAL_ACCOUNT"
+    },
+    {
+      "id": "C06-05",
+      "kind": "historical_source",
+      "statement": "《两门新科学》第三日陈述等时段路程1:3:5:7与累计路程正比时间平方。",
+      "source_ids": [
+        "H42"
+      ],
+      "locator": "Third Day odd-number law and propositions",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C06-06",
+      "kind": "math_modern",
+      "statement": "理想初速度零、恒加速度a：v=at、s=at²/2、平均速度v/2。",
+      "source_ids": [
+        "H42",
+        "H44"
+      ],
+      "locator": "kinematics derivation; ETH VIII citations",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C06-07",
+      "kind": "math_modern",
+      "statement": "a=2时s(t)=t²，0-1、1-2、2-3、3-4秒的位移分别1、3、5、7。",
+      "source_ids": [
+        "H42"
+      ],
+      "locator": "independent numerical demonstration",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C06-08",
+      "kind": "math_modern",
+      "statement": "s=t²时差商极限2t，反证平均与瞬时速度等同的误会。",
+      "source_ids": [
+        "H42"
+      ],
+      "locator": "modern difference quotient; didactic reconstruction",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C06-09",
+      "kind": "historical_math_boundary",
+      "statement": "现代面积三角形与积分联系不能归于伽利略使用现代符号，其结果及图示应标回译。",
+      "source_ids": [
+        "H42",
+        "H44"
+      ],
+      "locator": "Third Day vs modern formula comparison",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C06-10",
+      "kind": "physics_limit",
+      "statement": "现代滚球实验存在转动惯量与阻力，不宜默认a=g sinθ。",
+      "source_ids": [
+        "H43"
+      ],
+      "locator": "modern physical conditions; rolling rigid body dynamics",
+      "verification": "MATH_PHYSICS_CHECKED"
+    },
+    {
+      "id": "C06-11",
+      "kind": "history_boundary",
+      "statement": "出版1638不是研究始于1638；与07章1615 Kepler相关叙事按主题回溯。",
+      "source_ids": [
+        "H42",
+        "H45"
+      ],
+      "locator": "publication chronology",
+      "verification": "SOURCE_CHECKED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "平均速度定理并非伽利略从零首次提出；补充中世纪前史。",
+    "实验是1638对话体著作的自述，不虚构历史现场。",
+    "滚球非滑动质点；加速度与转动惯量相关。",
+    "现代微分积分符号不是伽利略记号。",
+    "下一章时间回溯1615要明显标注。",
+    "只完成有来源的章节初稿，正式审稿仍PENDING。"
+  ]
 }
