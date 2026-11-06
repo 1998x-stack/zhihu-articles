@@ -1,25 +1,126 @@
 {
   "chapter": "16",
-  "status": "PENDING",
+  "title": "牛顿与莱布尼茨：发现者之争究竟争什么",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H71",
+    "H76",
+    "H78",
+    "H81",
+    "H01",
+    "H02",
+    "H08",
+    "H86",
+    "H87",
+    "H88"
+  ],
   "claims": [
     {
       "id": "C16-01",
-      "statement": "先发现和先发表如何比较",
-      "source_candidates": [
-        "H02",
-        "H08"
+      "kind": "historical_chronology",
+      "statement": "牛顿1660年代已形成相关研究，莱布尼茨1670年代中期形成其独立体系。",
+      "source_ids": [
+        "H71",
+        "H76",
+        "H81",
+        "H88"
       ],
-      "verification": "PENDING"
+      "locator": "Newton Project manuscripts, MacTutor Leibniz, AMS 3000 Years of Analysis review",
+      "verification": "SOURCE_LOCATED"
     },
     {
       "id": "C16-02",
-      "statement": "手稿、通信、出版与社群传播",
-      "source_candidates": [
-        "H02",
-        "H08"
+      "kind": "publication",
+      "statement": "莱布尼茨于1684/1686年发表微分/积分论文；牛顿1669/1671手稿与1704/1711/1736印本有区别。",
+      "source_ids": [
+        "H78",
+        "H81",
+        "H88"
       ],
-      "verification": "PENDING"
+      "locator": "Guicciardini Cambridge Newton published work; MacTutor Leibniz",
+      "verification": "CROSS_SOURCE_CHRONOLOGY_CHECKED"
+    },
+    {
+      "id": "C16-03",
+      "kind": "correspondence",
+      "statement": "1676年6月13日与10月24日牛顿致莱布尼茨的信经奥尔登堡转送，第二封含暗记而未完全公开流数算法。",
+      "source_ids": [
+        "H88"
+      ],
+      "locator": "AMS Notices noti2593 section 7.2.4; Cambridge U Library 1676 letter account",
+      "verification": "SOURCE_LOCATED"
+    },
+    {
+      "id": "C16-04",
+      "kind": "controversy",
+      "statement": "1699年前后法蒂奥引发早期争议；1708年开尔的指控开启新一轮激烈优先权争论。",
+      "source_ids": [
+        "H81",
+        "H86"
+      ],
+      "locator": "MacTutor Leibniz, Oxford Handbook Newton controversy 1708–1730 abstract",
+      "verification": "SOURCE_LOCATED"
+    },
+    {
+      "id": "C16-05",
+      "kind": "institutional_history",
+      "statement": "莱布尼茨1711年交涉，皇家学会委员会整理通信，1713年初Commercium epistolicum付印。",
+      "source_ids": [
+        "H81",
+        "H87"
+      ],
+      "locator": "MacTutor Leibniz and Oxford Handbook Leibniz Life and Works",
+      "verification": "SOURCE_LOCATED"
+    },
+    {
+      "id": "C16-06",
+      "kind": "historiography",
+      "statement": "牛顿深度参与报告编写与文本安排，报告不是与争端利益隔绝的中立判决。",
+      "source_ids": [
+        "H87",
+        "H81",
+        "H86"
+      ],
+      "locator": "Oxford Handbook Leibniz Life and Works; MacTutor discussion of committee",
+      "verification": "CROSS_SOURCE_SUPPORTED_WITH_INTERPRETIVE_CAVEAT"
+    },
+    {
+      "id": "C16-07",
+      "kind": "modern_math",
+      "statement": "x=t²,y=x³时流数与现代链式法则均导出dy/dt=6t⁵；t=0不可将doty/dotx视为通常分式。",
+      "source_ids": [],
+      "locator": "independent composition and derivative calculation; dx/dt=2t zero at t=0",
+      "verification": "MATH_RECALCULATED"
+    },
+    {
+      "id": "C16-08",
+      "kind": "modern_historiography",
+      "statement": "数学史区分牛顿研究形成在先与莱布尼茨发表在先，认为莱布尼茨的微积分有独立发展证据。",
+      "source_ids": [
+        "H86",
+        "H87",
+        "H88"
+      ],
+      "locator": "Oxford Handbook controversy, Oxford Leibniz Life and Works, AMS Notices",
+      "verification": "SECONDARY_SOURCES_CONSISTENT"
+    },
+    {
+      "id": "C16-09",
+      "kind": "narrative_chronology",
+      "statement": "第17章回溯1696年最速降线，不将其误写成1713年之后发生的事件。",
+      "source_ids": [
+        "H01"
+      ],
+      "locator": "book outline + series timeline chapter 17 1696",
+      "verification": "CROSS_CHAPTER_CHECKED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "区分时间先后、发表先后、获得信息以及盗用指控四个命题。",
+    "皇家学会报告可保留原始信件价值，但当事人立场需明示。",
+    "不以现代共识冒充1710年代双方共识。",
+    "第17章跳回1696年属主题性回溯。",
+    "审稿状态不自动变更。"
+  ]
 }
