@@ -1,0 +1,154 @@
+{
+  "chapter": "03",
+  "kind": "proposed_nonfiction_chapter",
+  "manuscript_path": "proposals/03.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_CHECK",
+  "claims": [
+    {
+      "claim_id": "E03-01",
+      "claim": "库仑研究微弱电力并使用扭秤比较带电小球随距离变化的排斥力",
+      "claim_kind": "历史事实",
+      "source_ids": [
+        "S03-01",
+        "S03-02"
+      ],
+      "manuscript_section": "§一/§三",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E03-02",
+      "claim": "细丝恢复力矩与扭转角的比例在仪器可校准范围内构成测力原理",
+      "claim_kind": "实验模型",
+      "source_ids": [
+        "S03-02"
+      ],
+      "manuscript_section": "§二/§三",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E03-03",
+      "claim": "现代扭转关系τ=−κθ仅用于解释仪器，绝非库仑原始符号",
+      "claim_kind": "现代重述",
+      "source_ids": [
+        "S03-02"
+      ],
+      "manuscript_section": "§三",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E03-04",
+      "claim": "现代库仑公式F=|q1q2|/(4πε0r²)适用于点电荷静电近似",
+      "claim_kind": "现代物理定律",
+      "source_ids": [
+        "S03-03"
+      ],
+      "manuscript_section": "§一/§四",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E03-05",
+      "claim": "静电与万有引力都包含平方反比距离结构但物理性质不同",
+      "claim_kind": "现代物理比较",
+      "source_ids": [
+        "S03-03"
+      ],
+      "manuscript_section": "§五",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E03-06",
+      "claim": "1785报告与1788印本年份必须区分；其后吸引力论文存在独立时间节点",
+      "claim_kind": "史学时间线",
+      "source_ids": [
+        "S03-01",
+        "S03-02",
+        "S03-06"
+      ],
+      "manuscript_section": "§三/参考",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E03-07",
+      "claim": "卡文迪许早期相关电学研究主要在麦克斯韦1879年编辑出版后广泛公开",
+      "claim_kind": "书目历史",
+      "source_ids": [
+        "S03-04",
+        "S03-05"
+      ],
+      "manuscript_section": "§六",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E03-08",
+      "claim": "库仑1785实验的精确再现与数据来源有史学讨论，不等于否定现代定律",
+      "claim_kind": "争议性历史研究",
+      "source_ids": [
+        "S03-06"
+      ],
+      "manuscript_section": "§七",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E03-09",
+      "claim": "莱顿瓶储存与迅速放电不等于能持续维持电动势",
+      "claim_kind": "科学解释",
+      "source_ids": [
+        "S03-03"
+      ],
+      "manuscript_section": "§八",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S03-01",
+      "title": "APS June 1785 Coulomb Measures the Electric Force",
+      "url": "https://www.aps.org/apsnews/2016/06/coulomb-measures-electric-force",
+      "type": "物理学会史学文章",
+      "verification_scope": "已核扭秤装置与两种力的实验描述"
+    },
+    {
+      "source_id": "S03-02",
+      "title": "MIT DSpace 库仑1785电扭秤论文及现代英译",
+      "url": "https://dspace.mit.edu/entities/publication/93de3f66-7454-45a3-9632-7a1db0307fe7",
+      "type": "历史论文再版元数据/英译",
+      "verification_scope": "已核档案摘要、印行于1788院刊；逐页待检"
+    },
+    {
+      "source_id": "S03-03",
+      "title": "OpenStax Coulomb's Law",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/5-3-coulombs-law",
+      "type": "现代大学物理教材",
+      "verification_scope": "已核点电荷公式与静电适用条件"
+    },
+    {
+      "source_id": "S03-04",
+      "title": "Cavendish Electrical Researches, Maxwell ed. 1879，Cambridge后世版本",
+      "url": "https://www.cambridge.org/core/books/abs/electrical-researches-of-henry-cavendish/experiments-1771/5504E012115F3C45E175E871FAEA963C",
+      "type": "编辑出版物目录",
+      "verification_scope": "已核目录及第一版1879标注；手稿未逐页"
+    },
+    {
+      "source_id": "S03-05",
+      "title": "Routledge Cavendish Electrical Researches书目简介",
+      "url": "https://www.routledge.com/Electrical-Researches-of-the-Honorable-Henry-Cavendish/Maxwell/p/book/9781138968561",
+      "type": "出版商书目",
+      "verification_scope": "检索结果可证概要；无法读取全部内容"
+    },
+    {
+      "source_id": "S03-06",
+      "title": "Shech & Hatleback，Material Intricacies of Coulomb's 1785 Torsion Balance",
+      "url": "https://philsci-archive.pitt.edu/11048/1/The_Material_Intricacies_of_Coulomb%27s_1785_Electric_Torsion_Balance_Experiment_%28EV%29.pdf",
+      "type": "史学复现实验研究",
+      "verification_scope": "已核论文摘要与部分正文；PDF可用性受访问限制"
+    }
+  ],
+  "unresolved": [
+    "对照库仑1785/1787学会报告及1788印本时间和原始读数",
+    "补充研究者对扭秤复现实验争议的竞争解释",
+    "核查卡文迪许原始实验版本及Maxwell 1879编纂内容",
+    "系列outline/evidence闸门不通过，不创建正式draft或审稿PASS"
+  ]
+}
