@@ -49,9 +49,9 @@
     {
       "id": "C15-05",
       "kind": "math_modern",
-      "statement": "∫1³(2t+1)dt=10；积分可表达变化率的累计量。",
+      "statement": "∫1³(2t+1)dt=10；∫0²(2t−2)dt=0但∫0²|2t−2|dt=2，说明有符号累积不同于非负几何面积。",
       "source_ids": [],
-      "locator": "F(t)=t²+t, F(3)−F(1)=12−2=10",
+      "locator": "F(t)=t²+t; G(t)=t²−2t; independent piecewise absolute integral",
       "verification": "MATH_RECALCULATED"
     },
     {
