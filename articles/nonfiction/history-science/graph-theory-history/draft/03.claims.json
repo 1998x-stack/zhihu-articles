@@ -1,12 +1,94 @@
 {
   "chapter": "03",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S02",
-    "S03"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "evidence_scope": "本章限定核证：1847原论文英译与2016专业研究；现代电学和图论分别标记",
+  "claims": [
+    {
+      "claim_id": "GT03-01",
+      "claim": "1845电路规律与1847一般网络方程论文阶段区别",
+      "source_ids": [
+        "S27",
+        "S29"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT03-02",
+      "claim": "节点电流守恒及回路电势有向平衡",
+      "source_ids": [
+        "S27"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT03-03",
+      "claim": "基尔霍夫原文使用μ=n−m+1并研究删边去回路",
+      "source_ids": [
+        "S27"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT03-04",
+      "claim": "生成树定义及m-1边数量",
+      "source_ids": [
+        "S27",
+        "S28"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT03-05",
+      "claim": "树外弦与唯一基本回路及其独立性",
+      "source_ids": [
+        "S27",
+        "S28"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT03-06",
+      "claim": "m-1节点方程+n-m+1回路方程等于n支路未知数",
+      "source_ids": [
+        "S27"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT03-07",
+      "claim": "4顶点5边正方形对角线例子",
+      "source_ids": [
+        "S27"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT03-08",
+      "claim": "现代拉普拉斯3×3及三角形生成树数3",
+      "source_ids": [
+        "S28"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT03-09",
+      "claim": "2016史学论文指出基尔霍夫没有以生成树计数为目标",
+      "source_ids": [
+        "S28"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT03-10",
+      "claim": "生成树在电路中是分析工具而非移除现实导线的指令",
+      "source_ids": [
+        "S27",
+        "S28"
+      ],
+      "status": "MODERN_EXPLANATION"
+    }
   ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "note": "仅初稿；不代表独立审稿、精修或终稿批准。"
 }
