@@ -4,7 +4,7 @@
 
 > 1834年，一位工程师把一条气体规律写成了 `pv=R(267+t)`。为什么这里是267，而不是今天的273.15？从一根玻璃管到无数分子的运动，这个差异恰好藏着一场跨越两百年的科学接力。
 
-**作品性质**：历史与科学发现｜非虚构知识叙事。当前状态：**line-edited（17份初稿保留；revision 1两项审稿报告均PASS，合订精修稿edited.md已生成；终稿验收尚未批准）**。
+**作品性质**：历史与科学发现｜非虚构知识叙事。当前状态：**revision 2 独立双审PASS，已完成line-edit，等待final-approval（尚未封版、未发布）**。
 
 - **读者**：具有初中到高中物理基础的普通读者；关键概念会逐层解释。
 - **结构**：五部十五章、序章与尾声，总体目标约4万字，逐章可按证据与叙事节奏调整。
@@ -12,6 +12,8 @@
 - **文风**：借鉴知乎盐选优秀知识叙事的悬念与节奏，不照搬特定作品；历史事实必须有可核查来源。
 
 ## 阅读目录
+
+> **当前建议阅读版本**：[精修合订稿 edited.md](edited.md)（revision 2，待终审）；[审校合订稿 revised.md](revised.md)；以下17份逐章文件是保存的初稿版本。
 
 - [序章｜267：那个不该被忽略的数字（已写初稿）](draft/00.md)
 - **第一部｜空气的反抗**
@@ -42,12 +44,12 @@
 - [全篇结构及章节认知推进](outline.md)
 - [研究来源与证据边界](research.md)
 - [主张—来源账本](claim-ledger.md)
-- [修订合订稿（revision 1）](revised.md)
+- [修订合订稿（revision 2）](revised.md)
 - [语言精修合订稿（edited.md）](edited.md)
 - [连续性审计与复审报告](qa/continuity-report.md)
 - [发展性结构审稿与复审报告](qa/developmental-review.md)
 - [逐项修订日志](qa/revision-log.md)
-- [终审前置核查：正式门禁待执行，未批准封版](qa/final-approval.md)
+- [终审前置核查：revision 2正式门禁待执行，未批准封版](qa/final-approval.md)
 - [首轮未通过报告归档](qa/history/continuity-r0.md)
 - [版本与审稿门禁状态](workflow-state.json)
 - [序章逐条主张追踪](draft/00.claims.json)
@@ -56,6 +58,6 @@
 
 `topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → line-edit → final-approval → publication-package`。
 
-**当前工作流**：17份原始初稿均保留。首轮revision 0的continuity-audit与developmental-editor均要求修改；已通过revision-manager增量事实补核（S87）、整书修订和再次双审。**revision 1两份复审报告均为PASS**，`edited.md`为此版本的精修合订稿。下一步须实际执行仓库`python scripts/workflow_gate.py <article_dir> --target final`，核对全文、版号、来源及格式，通过后才可由`final-approval`写入`final.md`与终审许可。**本仓库目前仍然`final_approved=false`，不代表已发表。**
+**当前工作流**：rev0审稿要求修订；rev1形成合订稿并经并行编辑初步双PASS，后因新增史料S87引用失效而触发独立来源复核与revision2增量修订。rev2两项报告分别PASS，已在保留主分支精修成果的基础上继续完成13处跨章衔接调整，`edited.md`保留17篇与306条主张。正式`workflow_gate.py --target final`尚未在真实工作树上执行；`final_approved=false`，`final.md`尚未生成，不能视为已发表。
 
 > 历史表达边界：不虚构人物直接对白、私密动机、日记或“当时的一幕”；不把现代记号、摩尔定义与绝对温标倒灌给17—19世纪科学家。

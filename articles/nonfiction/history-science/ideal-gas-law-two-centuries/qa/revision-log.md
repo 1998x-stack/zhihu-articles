@@ -1,6 +1,6 @@
 # 修订执行日志｜revision-manager
 
-revision_count: 1
+revision_count: 2
 status: IMPLEMENTED_PENDING_REREVIEW
 date: 2026-11-06
 source_revision: 0
@@ -39,3 +39,24 @@ new_manuscript: revised.md
 - **复审必须检查**：C-01—C-04实际修复、306条编号存在、来源附录完整、09→10与13→14倒叙清楚，以及读者在合订稿中不被17份“初稿状态”打断。
 - 未开展line-edit，也未执行本地`workflow_gate.py`；本日志**不代表复审通过**。
 - Revision 1: 根据continuity-audit与developmental-editor初审意见修正跨章史实、符号、时间线与重复论证（previous approvals invalidated）。
+
+## Revision 2｜独立结构审稿后的小范围修订（2026-11-06）
+
+source_revision: 1
+new_revision: 2
+reason: DR1-01 (HIGH), DR1-02 (MEDIUM), revised appendix metadata precision
+status: IMPLEMENTED_PENDING_REREVIEW
+
+| 问题 | 修改对象及旧问题 | 本轮具体修复 | 事实/结构影响 |
+|---|---|---|---|
+| DR1-01 HIGH | `research.md`来源S87指向404的史密森馆藏编号 | 用已复核美国国会图书馆展览 `https://www.loc.gov/exhibits/dreamofflight/dream-dream.html` 支持1783-11-21热气球载人自由飞行；保留S33史密森学会支持12-01氢气球载人飞行；`draft/05.claims.json` G05-04验证元数据同步修正 | 两种“首次”区分不变；不借飞行史证明1787气体膨胀实验。证据可追溯性恢复。 |
+| DR1-02 MEDIUM | `book.json`将已完成的第05—15章及尾声标为outline，提示“占位” | 17章均标为draft，并明确逐章文件是rev0原初稿、整书审校对象为`revised.md`；终稿未批准 | 修复阅读入口与实际文件状态的矛盾，不将旧稿伪称最终成稿。 |
+| DR1-03 LOW | `revised.md`统一证据附录仍用“这些程序未完成”静态文案 | 改为以`workflow-state.json`和同轮QA为准；G16-21明确仅对应原初稿状态而非当前审稿结论 | 避免完成复审后附录状态反过来失实；306个主张编号保持不变。 |
+
+**版本依赖与旧审稿失效**：rev1已归档连续性PASS于`qa/history/continuity-r1.md`，独立结构审稿rev1的CHANGES_REQUIRED归档于`qa/history/developmental-r1.md`。当前rev2不继承rev1的PASS；必须实际完成两道复审并确认同版本后方可精修。
+
+- Revision 2: repair S87 attribution chain and 17-chapter navigation, clarify appendix workflow status (previous approvals invalidated).
+
+## 并行成果整合（2026-11-06）
+
+在本轮rev2修订期间，`main`分支并行完成了rev1的developmental-editor PASS、line-edit和final-approval的HOLD预审。为避免丢失其他编辑已经完成的工作，**rev2的edited.md以main的rev1精修稿为基础**，合并本轮13项跨章自然过渡修订及rev2证据附录更新。保留rev1两种不同时间形成的结构审查意见与rev1终审HOLD报告于`qa/history/`；不把对原版rev1的PASS直接视为新版rev2的审核许可。集成后核对306个主张编号、17个章节标题以及历史/现代公式关键字符串未改变。
