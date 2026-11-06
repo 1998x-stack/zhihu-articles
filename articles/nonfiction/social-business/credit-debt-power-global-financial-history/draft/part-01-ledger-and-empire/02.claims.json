@@ -1,0 +1,153 @@
+{
+  "chapter": "02",
+  "chapter_title": "利息、抵押与赦债：谁承担社会无法偿付的账",
+  "lane": "nonfiction",
+  "draft_revision": 1,
+  "publication_ready": false,
+  "verification_scope": "Official museum text; published Akkadian transliteration/translation excerpts; specialist scholarly article text and abstracts. Some PDF images unavailable, some academic full text pending.",
+  "claims": [
+    {
+      "claim_id": "CH02-001",
+      "statement": "古巴比伦阿米·萨杜卡敕令对部分有息借贷免除追索",
+      "source_ids": [
+        "F-0205",
+        "F-0206"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "text-checked",
+      "caveat": "不将赦免理解为全部债务清零"
+    },
+    {
+      "claim_id": "CH02-002",
+      "statement": "同一敕令排除若干商业预付与经营相关债务",
+      "source_ids": [
+        "F-0205",
+        "F-0206"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "text-checked",
+      "caveat": "不能与现代企业贷款或私人贷款分类强行一一对应"
+    },
+    {
+      "claim_id": "CH02-003",
+      "statement": "巴比伦农业借贷与乌尔第三王朝借粮借银实践存在多样性",
+      "source_ids": [
+        "F-0208",
+        "F-0210"
+      ],
+      "classification": "scholarly_interpretation",
+      "verification_status": "context-reviewed",
+      "caveat": "借贷不是农业唯一模式"
+    },
+    {
+      "claim_id": "CH02-004",
+      "statement": "乌尔第三王朝的粮贷中三分之一利息常见但并非普适",
+      "source_ids": [
+        "F-0208"
+      ],
+      "classification": "historical_fact+limit",
+      "verification_status": "article-text-checked",
+      "caveat": "例子100→133⅓为教学数字不是出土契约"
+    },
+    {
+      "claim_id": "CH02-005",
+      "statement": "汉谟拉比石碑是约前1750年的法律案例式汇编",
+      "source_ids": [
+        "F-0201"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "museum-checked",
+      "caveat": "不得直接等同现代法典实施体系"
+    },
+    {
+      "claim_id": "CH02-006",
+      "statement": "汉谟拉比第49及50条区分担保田地收成及债务偿付",
+      "source_ids": [
+        "F-0203"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "translation-checked",
+      "caveat": "不能断言每一地区每一案件都按规范执行"
+    },
+    {
+      "claim_id": "CH02-007",
+      "statement": "第48条在特定歉收原因下豁免当年粮食给付及当年利息",
+      "source_ids": [
+        "F-0202"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "translation-checked",
+      "caveat": "并非把所有本金永久勾销"
+    },
+    {
+      "claim_id": "CH02-008",
+      "statement": "第117条债务劳役三年后第四年释放",
+      "source_ids": [
+        "F-0204"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "translation-checked",
+      "caveat": "历史社会地位与奴隶制度限制必须交代"
+    },
+    {
+      "claim_id": "CH02-009",
+      "statement": "王室赦免敕令具有追溯性与一定执行效力，区别于法律汇编",
+      "source_ids": [
+        "F-0206",
+        "F-0207",
+        "F-0209"
+      ],
+      "classification": "scholarly_interpretation",
+      "verification_status": "mixed-text-and-abstract",
+      "caveat": "实施地域及效果仍有争论"
+    },
+    {
+      "claim_id": "CH02-010",
+      "statement": "部分债权人会尝试重新定性或绕过赦令",
+      "source_ids": [
+        "F-0206",
+        "F-0207",
+        "F-0209"
+      ],
+      "classification": "scholarly_interpretation",
+      "verification_status": "mixed-text-and-abstract",
+      "caveat": "不虚构具体庭审对白，完整版学术专著仍需核对"
+    },
+    {
+      "claim_id": "CH02-011",
+      "statement": "王室救济可能兼具政治统治、劳役与资源动员考虑",
+      "source_ids": [
+        "F-0206",
+        "F-0207",
+        "F-0209"
+      ],
+      "classification": "competing_explanation",
+      "verification_status": "scholarly-hypothesis",
+      "caveat": "不能写成阿米·萨杜卡可证实的私人内心动机"
+    },
+    {
+      "claim_id": "CH02-012",
+      "statement": "债权维护与生产延续存在制度张力",
+      "source_ids": [
+        "F-0202",
+        "F-0203",
+        "F-0205",
+        "F-0206"
+      ],
+      "classification": "author_inference",
+      "verification_status": "mechanism-explained",
+      "caveat": "功能分析不等于历史因果的唯一答案"
+    },
+    {
+      "claim_id": "CH02-013",
+      "statement": "债务制度与国家规定支付和征税权力衔接下一章",
+      "source_ids": [
+        "F-0201",
+        "F-0205"
+      ],
+      "classification": "narrative_bridge",
+      "verification_status": "interpretive",
+      "caveat": "下一章需独立验证铸币、征税与军费来源"
+    }
+  ]
+}

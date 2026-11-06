@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "current_revision": 1,
+  "scope": "credit-debt-power-global-financial-history",
+  "chapters": [
+    {
+      "chapter": "00",
+      "type": "prologue",
+      "status": "draft-written",
+      "question": "现代金融信用为什么会在危机中连锁失灵",
+      "next_question": "未来的偿还承诺何以变成今日权利"
+    },
+    {
+      "chapter": "01",
+      "status": "draft-written",
+      "question": "古人如何记录、验证和结清债务",
+      "sources": [
+        "F-0101",
+        "F-0110"
+      ],
+      "next_question": "欠款无法偿还时怎么办"
+    },
+    {
+      "chapter": "02",
+      "status": "draft-written",
+      "question": "债权执行与维系生产、社会秩序的冲突",
+      "sources": [
+        "F-0201",
+        "F-0202",
+        "F-0203",
+        "F-0204",
+        "F-0205",
+        "F-0206",
+        "F-0207",
+        "F-0208",
+        "F-0209",
+        "F-0210"
+      ],
+      "next_question": "国家如何规定计价、支付与税收"
+    },
+    {
+      "chapter": "03",
+      "status": "outline-only",
+      "question": "铸币税收军队及国家货币权威之间的关系"
+    }
+  ],
+  "remaining_chapters": "04-40 outline-only",
+  "epilogue": "outline-only",
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "notes": "Nonfiction chapter-state for cross-chapter consistency; this does not replace claim ledger or source verification."
+}
