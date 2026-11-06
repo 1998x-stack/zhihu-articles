@@ -3,7 +3,164 @@
   "title": "1662年，J形玻璃管里的秘密",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "史学与现代科学事实已经前置核查，但仍未取得独立审稿与终稿认可；仅历史说明，不含危险器材复现指导。",
+  "claims": [
+    {
+      "claim_id": "G02-01",
+      "source_ids": [
+        "S06",
+        "S16",
+        "S14"
+      ],
+      "summary": "1660空气泵与1662第二版出版时间分离",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G02-02",
+      "source_ids": [
+        "S14",
+        "S16"
+      ],
+      "summary": "利努斯关于液柱上部额外不可见结构的反对意见",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G02-03",
+      "source_ids": [
+        "S13",
+        "S15",
+        "S17"
+      ],
+      "summary": "鲍尔汤利先期工作与汤利提出反比假说",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G02-04",
+      "source_ids": [
+        "S13",
+        "S14",
+        "S15"
+      ],
+      "summary": "波义耳1661长J形玻璃管实验1662发表",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G02-05",
+      "source_ids": [
+        "S14"
+      ],
+      "summary": "玻璃装置的技术困难及破裂事故",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified_historical_noninstructional"
+    },
+    {
+      "claim_id": "G02-06",
+      "source_ids": [
+        "S14"
+      ],
+      "summary": "等截面下封闭气柱长度与体积成比例",
+      "classification": "现代物理解释",
+      "verification": "verified_modern_explanation"
+    },
+    {
+      "claim_id": "G02-07",
+      "source_ids": [
+        "S14"
+      ],
+      "summary": "绝对压强为大气压强与附加静水压之和",
+      "classification": "现代物理解释",
+      "verification": "verified_modern_explanation"
+    },
+    {
+      "claim_id": "G02-08",
+      "source_ids": [
+        "S14"
+      ],
+      "summary": "1662表格用分数并列实测与计算、没有现代图线",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G02-09",
+      "source_ids": [
+        "S13",
+        "S14"
+      ],
+      "summary": "体积减半压强近两倍、四分之一近四倍",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified_limited_range"
+    },
+    {
+      "claim_id": "G02-10",
+      "source_ids": [
+        "S13"
+      ],
+      "summary": "波义耳检验稀疏与压缩空气两种情况",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G02-11",
+      "source_ids": [
+        "S13",
+        "S14"
+      ],
+      "summary": "现代定律气量温度恒定以及理想适用范围",
+      "classification": "现代物理解释",
+      "verification": "verified_modern"
+    },
+    {
+      "claim_id": "G02-12",
+      "source_ids": [
+        "S13"
+      ],
+      "summary": "波义耳强调不可冒然将规律普遍化",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G02-13",
+      "source_ids": [
+        "S13"
+      ],
+      "summary": "十七世纪空气弹性概念不等同现代分子动理论",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G02-14",
+      "source_ids": [
+        "S14"
+      ],
+      "summary": "波义耳知道加热可能使空气膨胀但未得统一温度方程",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G02-15",
+      "source_ids": [
+        "S06",
+        "S16",
+        "S13"
+      ],
+      "summary": "胡克参与空气泵研发但不等同于单独发表数据",
+      "classification": "科学史研究（详见research.md）",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G02-16",
+      "source_ids": [
+        "S13",
+        "S14"
+      ],
+      "summary": "实验与数值关系将空气转为可预测研究对象",
+      "classification": "编辑性解释",
+      "verification": "editorial_synthesis"
+    }
+  ]
 }
