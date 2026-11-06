@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "lane": "nonfiction",
-  "scope": "本文件跟踪第09—14章局部连续性；前序章节以book.json和各章claims.json为准。",
-  "last_batch": "12-14",
+  "scope": "仅追踪第09—17章连续性；此前第01—08章请参照book.json和各章来源文件。",
+  "last_batch": "15-17",
   "chapters": [
     {
       "chapter_id": "chapter-09",
@@ -69,7 +69,40 @@
       "connects_from": "第13章术语与初期定义",
       "connects_to": "第15章矩阵满足特征多项式",
       "math_verified": true
+    },
+    {
+      "chapter_id": "chapter-15",
+      "title": "凯莱—哈密顿：矩阵满足自己的方程吗",
+      "file": "draft/15.md",
+      "claims": "draft/15.claims.json",
+      "stage": "draft",
+      "historical_era": "1853/1858/1878",
+      "connects_from": "第14章凯莱矩阵的代数运算",
+      "connects_to": "第16章弗罗贝尼乌斯与矩阵不变量",
+      "math_verified": true
+    },
+    {
+      "chapter_id": "chapter-16",
+      "title": "弗罗贝尼乌斯与秩：变换究竟保留什么",
+      "file": "draft/16.md",
+      "claims": "draft/16.claims.json",
+      "stage": "draft",
+      "historical_era": "1868/1874前驱与1878研究",
+      "connects_from": "第15章一般矩阵性质的证明",
+      "connects_to": "第17章主轴方向与谱不变量",
+      "math_verified": true
+    },
+    {
+      "chapter_id": "chapter-17",
+      "title": "欧拉与拉格朗日：旋转物体的隐藏方向",
+      "file": "draft/17.md",
+      "claims": "draft/17.claims.json",
+      "stage": "draft",
+      "historical_era": "1755塞格纳，1750—1765欧拉，1766/1788拉格朗日",
+      "connects_from": "第16章讨论秩而不能识别特殊方向；回溯18世纪",
+      "connects_to": "第18章柯西1829对称谱理论",
+      "math_verified": true
     }
   ],
-  "status_notice": "以上均为来源核查及独立数学自检后的初稿，未经正式独立双审或终稿批准。"
+  "status_notice": "章节仅为含研究对照、独立数学自检的待审草稿；正式工作流双审与终稿未完成。"
 }

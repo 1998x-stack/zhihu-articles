@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "linear-algebra-history",
   "title": "从方程到空间：一部线性代数思想发展史",
-  "reading_notice": "第01—14章共有14篇带史料映射的正文初稿，其他20个章节位置仍为策划占位。所有初稿尚未通过独立双审或终稿批准。",
+  "reading_notice": "第01—17章已有17篇带逐章史料映射的历史非虚构正文初稿；序章、尾声及第18—32章共17个章节位置仍为策划占位。来源和数学核查不等于独立双审或终稿批准。",
   "chapters": [
     {
       "id": "prologue",
@@ -114,21 +114,21 @@
       "title": "凯莱—哈密顿：矩阵满足自己的方程吗",
       "part": "第四部｜矩阵成为对象",
       "file": "draft/15.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-16",
       "title": "弗罗贝尼乌斯与秩：变换究竟保留什么",
       "part": "第四部｜矩阵成为对象",
       "file": "draft/16.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-17",
       "title": "欧拉与拉格朗日：旋转物体的隐藏方向",
       "part": "第五部｜寻找不变的方向",
       "file": "draft/17.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-18",
