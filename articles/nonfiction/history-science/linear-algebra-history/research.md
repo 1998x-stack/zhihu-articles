@@ -293,3 +293,75 @@
 1. **笛卡尔坐标之时代错置**：《几何学》侧重从几何关系到方程，并未以今日所有图形默认的固定正交x、y轴为标准绘图习惯；费马的独立工作及1679年出版须同时呈现。
 2. **贝拉维蒂斯年份辨析**：1832年起研究与1835/1837年有代表性出版不矛盾；Möbius 1827带权重的点与Bellavitis等效有向线段是相关却不同的工具，不能硬说某人直接发明现代向量空间。
 3. **哈密顿桥上故事证据边界**：1843年事件的细节主要来自他1865年回忆性书信，不能冒充同时期的现场报道；已消失的刻痕与今日纪念铭牌不是同一文物。四元数四个实分量不代表物理空间被发现有四个轴。
+
+
+## 第12—14章专项史料核证（2026-11-06）
+
+> **审核范围**：仅第12—14章。本记录在正文之前核查历史出处、时间节点、人物贡献及现代数学重构。原典术语与现代公式分开；不替未写各章核证或宣布终稿。课文数学示例以M12/M13/M14标识，属于作者自构且应逐式验算。
+
+### 第12章｜格拉斯曼1844：空间为什么不必三维
+
+**文献与支持范围**
+
+- **H12-S1** MacTutor, *Abstract linear spaces*, https://mathshistory.st-andrews.ac.uk/HistTopics/Abstract_linear_spaces/ 。1844第一版、1862重写、与莫比乌斯研究脉络、格拉斯曼的简单量与复合量、线性独立、后世接收史；Peano 1888年公理化需分开。
+- **H12-S2** MacTutor, *Grassmann: 1844 foreword*, https://mathshistory.st-andrews.ac.uk/Extras/Grassmann_1844/ 。1844前言的译文文本，方向位移加法、由平行四边形得到有方向的乘积、改变因子次序会变号。仅意译并明确来源，不捏造原话。
+- **H12-S3** *The Chemistry of Space: The Sources of Hermann Grassmann's Scientific Achievements*, *Annals of Science* 71(4) (2014), https://www.tandfonline.com/doi/abs/10.1080/00033790.2013.877339 。1844《扩张论》书目全称及1862版区别、回顾历史背景。
+- **H12-S4** Cambridge University Press, *Die Lineale Ausdehnungslehre*, https://www.cambridge.org/core/books/die-lineale-ausdehnungslehre-ein-neuer-zweig-der-mathematik/erster-abschnitt-die-ausdehnungsgrosse/07BBC0E77301FBAF0FAE37CF6A746581 。传世德文内容的出版书目/样张，补证原著存在及结构。
+- **M12** 现代外积和线性组合自证：R⁴四个基向量独立、任意非零多维线性组合；(e₁+2e₂)∧(3e₁+e₂+e₃)=-5e₁∧e₂+e₁∧e₃+2e₂∧e₃；反交换；e₁∧e₁=0。不能将wedge符号当作1844年的原著印刷。
+
+**Claim矩阵**
+
+| id | 主张 | 依托 | 限定 |
+|---|---|---|---|
+| C12-01 | 1844格拉斯曼出版《扩张论》，从空间概念中寻求更抽象的量和运算法则 | H12-S1/S2/S3 | 已核史实，非现代向量空间公理文本 |
+| C12-02 | 从有向位移的加法与平行四边形有向乘积出发，前言自述改变次序伴随符号变化 | H12-S2 | 原文意译不伪造对话 |
+| C12-03 | 现代高维线性组合和交错外积的教学重构有效 | M12 | 数学自证，非历史原式 |
+| C12-04 | 1844书较难阅读与广泛接受，1862重新阐述，1867 Hankel后续引用 | H12-S1 | 不用“完全无人理解”绝对语 |
+| C12-05 | 1888 Peano公理化真实线性空间更晚，早期Grassmann不等于现代形式公理 | H12-S1 | 史学分期 |
+| C12-06 | 外积与三维叉积概念不同：外积是二向量，可用于高维，不必有欧氏度量 | H12-S1/M12 | 后世理论比较 |
+
+### 第13章｜西尔维斯特：矩阵先有名字，还是先有理论
+
+**文献与支持范围**
+
+- **H13-S1** MacTutor Jeff Miller, *Earliest Known Uses of Some of the Words of Mathematics, M*, https://mathshistory.st-andrews.ac.uk/Miller/mathword/m/ 。1850年James Joseph Sylvester在*Philosophical Magazine* 37(251) 363–370的文章引入matrix，用m行n列的长方排列生成p阶行列式；1855凯莱初步研究。
+- **H13-S2** MacTutor, *Matrices and determinants*, https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/ 。1850命名与1853凯莱逆矩阵先例、1858矩阵代数系统化；英国法律职业交往史（若提及限定为概述）。
+- **H13-S3** J. J. Sylvester, *Additions to the Articles ... On Pascal's theorem*, *Philosophical Magazine* 37 (1850), https://doi.org/10.1080/14786445008646629 。期刊原始发表信息及页码，须注意现代在线发布日期不是1850首次出版日期。
+- **H13-S4** Nicholas J. Higham, *Sylvester's Influence on Applied Mathematics* (2014), https://eprints.ma.man.ac.uk/2142/ 。专业数值线性代数学者回顾命名及“由长方阵中选择行列得行列式”的定义；不将PDF二手概述当原文绝对权威。
+- **M13** 现代3×2矩阵[[1,2],[3,4],[5,6]]的三个2×2子式依次-2,-4,-2；矩阵本身没有方阵行列式；[[1,2],[2,4],[3,6]]全部2阶子式为0, rank=1；以rank语言为后世解释。
+
+**Claim矩阵**
+
+| id | 主张 | 来源 | 限定 |
+|---|---|---|---|
+| C13-01 | Sylvester 1850在期刊发表中命名matrix | H13-S1/S3 | 与现代在线发布日期分开 |
+| C13-02 | 起初概念是长方系数阵列、抽取行列形成各阶行列式；不是全套现代矩阵代数 | H13-S1/S2 | 先有排列运用、后有名称 |
+| C13-03 | 数值3×2阵列有三个2×2子式且无自身行列式 | M13 | 数学自证 |
+| C13-04 | 全部2阶子式为零并不自动判断增广方程有无解；秩需配合完整系统 | M13 | 后见数学范围 |
+| C13-05 | Cayley在1853已有相关逆矩阵记法、1855论文进展，1858系统论述 | H13-S1/S2 | 不写1858此前完全空白 |
+| C13-06 | Sylvester/Cayley研究分别体现命名与对象化，不能当作完全不相干单向发明史 | H13-S1/S2/S4 | 历史解释 |
+ 
+### 第14章｜凯莱1858：两次变换为什么可以相乘
+
+**文献与支持范围**
+
+- **H14-S1** Arthur Cayley, *A Memoir on the Theory of Matrices*, *Philosophical Transactions of the Royal Society of London* 148 (1858), 17–37, https://www.jstor.org/stable/108649 。原著出版书目；原文开篇引入线性方程组缩写、同阶矩阵作为单一对象、可加可乘及一般非交换。
+- **H14-S2** Cambridge University Press, *The Collected Mathematical Papers*, “A Memoir on the Theory of Matrices”, https://www.cambridge.org/core/books/collected-mathematical-papers/memoir-on-the-theory-of-matrices/6613C9C7BE671897442278152A5C70A4 。凯莱论文重印本首页可见：1857-12-10收到、1858-01-14宣读，1858出版。
+- **H14-S3** Royal Society, *Referee's report by George Boole ...*, https://makingscience.royalsociety.org/items/rr_3_55/referees-report-by-george-boole-on-three-papers-a-memoir-on-the-theory-of-matrices-a-memoir-on-the-automorphic-linar-transformation-of-a-bipartite-quadric-function-on-certain-formulae-for-differentiation-by-arthur-cayley 。1858年审稿史料，Boole支持发表矩阵论文；不得虚构两人见面或书信内心。
+- **H14-S4** MacTutor, *Matrices and determinants*, https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/ 。1853与1855发展、1858定义加法、乘法、逆；与Sylvester早期命名联系。
+- **H14-S5** Wolfram MathWorld, *Cayley–Hamilton Theorem*, https://mathworld.wolfram.com/Cayley-HamiltonTheorem.html 。1858凯莱仅给二维、三维情形演示或断言一般结果，未提供今日一般证明；第15章专门处理，不能夸大1858全阶证明。
+- **M14** 现代变换自证：A=[[1,2],[0,1]],B=[[1,0],[3,1]],AB=[[7,2],[3,1]],BA=[[1,2],[3,7]]。x=(1,1)：A(Bx)=(9,4)、B(Ax)=(3,10)。I为单位元；A⁻¹=[[1,-2],[0,1]]。C=[[1,2],[0,3]]满足C²−4C+3I=0。全部为现代教学例，不冒充凯莱原题。
+
+**Claim矩阵**
+
+| id | 主张 | 来源 | 限定 |
+|---|---|---|---|
+| C14-01 | 凯莱矩阵论文1857-12-10收稿，1858-01-14宣读，1858年刊出 | H14-S1/S2 | 发表年与收稿年有别 |
+| C14-02 | 论文从联立线性方程的速记与变换复合引出矩阵，把同阶矩阵视为能加、能乘的对象 | H14-S1/S2 | 现代符号另标明 |
+| C14-03 | 乘法依复合顺序，AB不必等于BA，但满足结合律、单位元 | H14-S1/M14 | 精确验算 |
+| C14-04 | 二阶现代示例AB、BA及行列式乘法、逆计算可检验 | M14 | 现代教学算例 |
+| C14-05 | 1858论文涉及矩阵满足自身特征方程；一般n阶完整证明不能归于该论文 | H14-S1/H14-S5 | 第15章展开 |
+| C14-06 | Cayley以前Sylvester已命名，Cayley也有1853、1855先行工作，不能写成1858从零发明 | H14-S4 | 历史连续性 |
+| C14-07 | Royal Society保存Boole对论文的1858年审稿记录且推荐发表 | H14-S3 | 史实但不编造场景 |
+
+**可交付结论**：第12—14章历史骨架有独立外部依据；数学推导可验算；因年代前驱、公理化和一般证明的边界已查清，可交非虚构架构与正文。仍没有正式双审及终稿批准。
