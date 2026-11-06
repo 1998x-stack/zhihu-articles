@@ -1,23 +1,124 @@
 {
   "chapter": "00",
-  "status": "PENDING",
-  "claims": [
+  "title": "1696年的挑战书：最快的路，为什么不是最短的路？",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "facts": [
     {
       "id": "C00-01",
-      "statement": "为什么最短路程不一定意味着最快到达？",
-      "source_candidates": [
-        "H07"
+      "category": "historical_fact",
+      "statement": "约翰·伯努利于1696年6月在《Acta Eruditorum》提出最速降线问题。",
+      "source_ids": [
+        "H07",
+        "H17"
       ],
-      "verification": "PENDING"
+      "locator": "Henry & Wanner 2017 p.147; MacTutor opening",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C00-02",
-      "statement": "1696年最速降线挑战，建立一个速度不断变化的运动问题",
-      "source_candidates": [
-        "H07"
+      "category": "historical_fact",
+      "statement": "原征稿期限约六个月，后据莱布尼茨建议延长。",
+      "source_ids": [
+        "H07",
+        "H17"
       ],
-      "verification": "PENDING"
+      "locator": "Henry & Wanner 2017 p.147",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C00-03",
+      "category": "historical_fact",
+      "statement": "1697年有牛顿、莱布尼茨、伯努利兄弟等不同路径的解答与出版。",
+      "source_ids": [
+        "H07",
+        "H17"
+      ],
+      "locator": "MacTutor first half; Henry & Wanner 2017 p.147; counts differ by types of manuscripts",
+      "verification": "CROSS_CHECKED_WITH_SCOPE_NOTE"
+    },
+    {
+      "id": "C00-04",
+      "category": "historical_fact",
+      "statement": "约翰·伯努利使用光线最短时间与分层折射类比推导最速降线。",
+      "source_ids": [
+        "H07",
+        "H17"
+      ],
+      "locator": "Henry & Wanner 2017 p.147-149; MacTutor Bernoulli solution section",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C00-05",
+      "category": "historical_fact",
+      "statement": "摆线被证明为理想模型下的最速降线，后来与变分法发展密切相关。",
+      "source_ids": [
+        "H07",
+        "H17",
+        "H18"
+      ],
+      "locator": "MacTutor; Henry & Wanner 2017 Theorem 5; MathWorld",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C00-06",
+      "category": "historical_fact",
+      "statement": "牛顿的解法曾匿名发表；1697年不同稿件发表的精确计数不应混淆。",
+      "source_ids": [
+        "H07",
+        "H17"
+      ],
+      "locator": "MacTutor discussion of Newton & May 1697; Henry & Wanner 2017 p.147",
+      "verification": "CROSS_CHECKED_WITH_SCOPE_NOTE"
+    },
+    {
+      "id": "C00-07",
+      "category": "historical_interpretation",
+      "statement": "雅各布·伯努利的比较相邻曲线路径预示后来的变分方法。",
+      "source_ids": [
+        "H07",
+        "H17"
+      ],
+      "locator": "MacTutor second half; Henry & Wanner 2017",
+      "verification": "REASONABLE_HISTORICAL_INTERPRETATION"
+    },
+    {
+      "id": "C00-08",
+      "category": "modern_math",
+      "statement": "理想条件下 v=√(2gy) 与 T=∫ds/v。",
+      "source_ids": [
+        "H18",
+        "H19"
+      ],
+      "locator": "MathWorld; Strang Calculus chapter 12; algebra checked",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C00-09",
+      "category": "modern_math",
+      "statement": "以 B=(πa,2a) 为端点时，摆线用时 π√(a/g)，直线用时 √(π²+4)√(a/g)。",
+      "source_ids": [
+        "H19"
+      ],
+      "locator": "Strang Calculus 3e pp.527-529; independent evaluation",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C00-10",
+      "category": "modern_math",
+      "statement": "取 a=1m g=9.81m/s²，T摆≈1.003s，T直≈1.189s，摆线节约约15.64%。",
+      "source_ids": [
+        "H19"
+      ],
+      "locator": "computed independently from C00-09",
+      "verification": "MATH_CHECKED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "不把现代微积分符号、能量守恒形式说成1696年原文。",
+    "不将‘与直线相比更快’替换为‘已证明对一切曲线最优’。",
+    "参赛者人数与发表记录在二手资料之间有不同统计口径，正文不报简单人数。",
+    "序章研究主张已交叉核对，但整书工作流尚未审批；不标最终审核PASS。"
+  ],
+  "state_note": "此章属于有来源的工作初稿；全书 outline_approved 与 evidence_verified 仍为 false，未进入正式终审。"
 }
