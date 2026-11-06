@@ -1,31 +1,19 @@
 ---
 name: genre-family-ethics
-description: 撰写家庭伦理类型原创中文文章时加载；核心驱动力是亲情与公平为何难以兼得。专注家庭具体事件→互斥利益→历史记忆→道德选择→关系变化，并检查关系年龄、财产与责任安排自洽；不脸谱化、不强求和解。
+description: 家庭伦理专属写作规范；当用户选定家庭伦理，或当前工作流需要判断其人物动机、世界规则、情节因果时加载。本 Skill 只约束类型风格，不代替选题、构思、写作或审稿阶段。
 ---
-# 家庭伦理｜类型专属 Skill
+# 类型 Skill｜家庭伦理
 
-## 适用与路由
-- 用于【家庭伦理】（虚构）的题材规划、故事大纲、正文创作与类型专项审稿。
-- 对应作品归档目录：`articles/fiction/family-ethics/<作品slug>/`。
-- 请**先阅读同目录 `prompt.txt` 的完整版**，不要仅依赖摘要。
-- 主编总控应优先加载 `chief-narrative-editor`。
+## 入口与职责
+- 主类型归档：`articles/fiction/family-ethics/<article-slug>/`。
+- 本 Skill 是**类型约束提供者**，非通用阶段执行器；必须结合 `chief-narrative-editor` 与具体阶段 Skill。
+- 先读本目录 `prompt.txt`；原始完整版单独保存在 `prompt-original.txt`。
+- 进入规划、写作、复审时分别使用 `plan/write/review` 模式；仅 standalone 可以执行原始 prompt 的直接正文指令。
+- 作品身份为 fiction。使用 story-architect、character-world、plot-and-clues、chapter-writer；若有现实专业事实则加 fact-research。
 
-## 核心设计
-- 读者主问题：亲情与公平为何难以兼得。
-- 因果骨架：家庭具体事件→互斥利益→历史记忆→道德选择→关系变化。
-- 建议篇幅：5000—10000字（不是平台硬性规定）。
-- 在创作蓝图中明确：主角能动性、主要阻碍、关键代价、读者信息边界、结局兑现。
-
-## 约束与自检
-关系年龄、财产与责任安排自洽；不脸谱化、不强求和解。
-- 在每次关键转折后检查新信息是否改变角色行动或读者认识。
-- 不允许为了拖延阅读而让人物不合常理地保密、降智或无限制造新设定。
-- 先完成结构与一致性检查，再进行语句层面的润色。
-- 虚构允许创造人物与事件，但规则、权力和情节因果必须内部自洽。
-
-## 执行路径
-1. 读取 `prompt.txt` 中的输入参数与专项结构。
-2. 通过 `story-architect` 制作完整的场景链与结局反推。
-3. 需要时调用 `character-world`、`plot-and-clues`；现实事实调用 `fact-research`。
-4. 用 `chapter-writer` 写作；再调用 `continuity-audit` 和 `developmental-editor`。
-5. 将正式作品保存在对应类型的文章目录，不把 Prompt 误当作正文存放。
+## 类型验收
+- 对齐读者期望，明确题材独有的主问题，不用机械反转替代进展。
+- 因果、公理、角色知情时间与正文完全一致。
+- 保留可回读的线索与关键选择的真实代价。
+- 重大错误交给 revision-manager 处理；当前类型 Skill 不擅自覆盖其他阶段文件。
+- 正式文章仅存 `articles/` 下对应作品目录；题材标准保留在 Skill 目录。

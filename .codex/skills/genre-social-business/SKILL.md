@@ -1,31 +1,19 @@
 ---
 name: genre-social-business
-description: 撰写社会现实与商业调查类型原创中文文章时加载；核心驱动力是异常现象背后的真实机制。专注具体反常→证据→利益关系→机制→竞争解释→社会后果，并检查来源与时间口径明确、指控与事实区分、相关性不能冒充因果。
+description: 社会现实与商业调查专属写作规范；当用户选定社会现实与商业调查，或当前工作流需要判断其事实来源、历史证据和解释深度时加载。本 Skill 只约束类型风格，不代替选题、构思、写作或审稿阶段。
 ---
-# 社会现实与商业调查｜类型专属 Skill
+# 类型 Skill｜社会现实与商业调查
 
-## 适用与路由
-- 用于【社会现实与商业调查】（非虚构）的题材规划、故事大纲、正文创作与类型专项审稿。
-- 对应作品归档目录：`articles/nonfiction/social-business/<作品slug>/`。
-- 请**先阅读同目录 `prompt.txt` 的完整版**，不要仅依赖摘要。
-- 主编总控应优先加载 `chief-narrative-editor`。
+## 入口与职责
+- 主类型归档：`articles/nonfiction/social-business/<article-slug>/`。
+- 本 Skill 是**类型约束提供者**，非通用阶段执行器；必须结合 `chief-narrative-editor` 与具体阶段 Skill。
+- 先读本目录 `prompt.txt`；原始完整版单独保存在 `prompt-original.txt`。
+- 进入规划、写作、复审时分别使用 `plan/write/review` 模式；仅 standalone 可以执行原始 prompt 的直接正文指令。
+- 作品身份为 nonfiction。规划前必须先调用 fact-research；随后 nonfiction-architect 与 nonfiction-writer，不能使用 chapter-writer 的小说规则。
 
-## 核心设计
-- 读者主问题：异常现象背后的真实机制。
-- 因果骨架：具体反常→证据→利益关系→机制→竞争解释→社会后果。
-- 建议篇幅：6000—15000字（不是平台硬性规定）。
-- 在创作蓝图中明确：主角能动性、主要阻碍、关键代价、读者信息边界、结局兑现。
-
-## 约束与自检
-来源与时间口径明确、指控与事实区分、相关性不能冒充因果。
-- 在每次关键转折后检查新信息是否改变角色行动或读者认识。
-- 不允许为了拖延阅读而让人物不合常理地保密、降智或无限制造新设定。
-- 先完成结构与一致性检查，再进行语句层面的润色。
-- 非虚构必须有来源矩阵与事实/争议/推断区分，不能编造引文、统计和经历。
-
-## 执行路径
-1. 读取 `prompt.txt` 中的输入参数与专项结构。
-2. 通过 `story-architect` 制作完整的场景链与结局反推。
-3. 需要时调用 `character-world`、`plot-and-clues`；现实事实调用 `fact-research`。
-4. 用 `chapter-writer` 写作；再调用 `continuity-audit` 和 `developmental-editor`。
-5. 将正式作品保存在对应类型的文章目录，不把 Prompt 误当作正文存放。
+## 类型验收
+- 对齐读者期望，明确题材独有的主问题，不用机械反转替代进展。
+- 因果、公理、角色知情时间与正文完全一致。
+- 保留可回读的线索与关键选择的真实代价。
+- 重大错误交给 revision-manager 处理；当前类型 Skill 不擅自覆盖其他阶段文件。
+- 正式文章仅存 `articles/` 下对应作品目录；题材标准保留在 Skill 目录。
