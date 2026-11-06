@@ -205,23 +205,45 @@
     {
       "id": "08",
       "title": "卡瓦列里：一条线能够组成面积吗？",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/08.md",
-      "claims_path": "draft/08.claims.json"
+      "claims_path": "draft/08.claims.json",
+      "source_ids": [
+        "H50",
+        "H51",
+        "H52",
+        "H53",
+        "H54"
+      ]
     },
     {
       "id": "09",
       "title": "笛卡尔：把曲线写成方程",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/09.md",
-      "claims_path": "draft/09.claims.json"
+      "claims_path": "draft/09.claims.json",
+      "source_ids": [
+        "H55",
+        "H56",
+        "H57",
+        "H58",
+        "H60",
+        "H62"
+      ]
     },
     {
       "id": "10",
       "title": "费马的拟等法：几乎相等到底算不算相等？",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/10.md",
-      "claims_path": "draft/10.claims.json"
+      "claims_path": "draft/10.claims.json",
+      "source_ids": [
+        "H57",
+        "H58",
+        "H59",
+        "H60",
+        "H61"
+      ]
     },
     {
       "id": "11",

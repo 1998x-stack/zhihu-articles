@@ -23,3 +23,10 @@
 - **06 伽利略**：`draft/06.md`、`draft/06.claims.json`，11条主张；1638《两门新科学》第三日、牛津默顿平均速度研究与苏黎世联邦理工历史说明，图 `assets/06-galileo-speed-triangle.svg`。数学复核：理想 `s=t²`、匀加速时等时间位移 `1:3:5:7`，强调滚球实验条件。
 - **07 开普勒**：`draft/07.md`、`draft/07.claims.json`，10条主张；1615年原书馆藏与MAA史学、1616年德文版，原创图 `assets/07-kepler-volume-slices.svg`。数学复核：单位球体积分 `4π/3`，及连续截面半径条件。此章明确回溯至1615年，早于06章提及的1638出版事件。
 - **质量边界**：三章均为 `DRAFT_UNREVIEWED`，尚未获得分立的连续性和结构审稿报告；全局 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING` 原封不动，不冒称已完成编辑、封版或对外发布。
+
+## 08—10 三章批次进度（2026-11-06）
+
+- **08 卡瓦列里**：`draft/08.md`、`draft/08.claims.json`，10条主张，原创图 `assets/08-cavalieri-slices.svg`。核查1627/1635/1647版本节点、古尔丁质疑、托里拆利后续研究；现代演示以矩形剪切和球—柱—双锥截面验证原理。**不可数个零二维面积截线的并**不是普通可数加法。
+- **09 笛卡尔**：`draft/09.md`、`draft/09.claims.json`，10条主张，原创图 `assets/09-descartes-normal.svg`。核查《几何学》1637年附论、帕普斯问题、辅助圆与重根法线；原创教学例子 `x²+(y−3/2)²=5/4` 与 `y=x²` 消元给 `(x²−1)²=0`，切点斜率2。现代直角坐标纸非1637原样。
+- **10 费马**：`draft/10.md`、`draft/10.claims.json`，11条主张，原创图 `assets/10-fermat-adequality.svg`。费马1891年编订的拉丁文《Methodus》、早期手稿、1638切线争论分开；矩形面积 `x(10−x)`，差商 `10−2a−e` 以及 `25−(x−5)²` 独立验证最大。拟等的意义为史学争论，不把其方法与现代ε–δ定义视作同义。
+- **质量边界**：三章均标记 `DRAFT_UNREVIEWED`，章节分项来源与数学复算不代表完整独立审稿。全书 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING` 保持不变，未生成伪终稿。下批为11—13章。
