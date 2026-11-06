@@ -1,6 +1,7 @@
 # Generated public site (do not commit)
 _site/
 dist/
+external/
 
 # Python runtime
 __pycache__/
