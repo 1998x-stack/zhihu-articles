@@ -1,13 +1,99 @@
 {
   "chapter": "08",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S04",
-    "S05",
-    "S09"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Birkhoff 1912原刊书目/转录、Whitney1931/1932原刊书目及现代数学判据；非出版审稿",
+  "claims": [
+    {
+      "claim_id": "GT08-01",
+      "claim": "P_G(q)计数可区分颜色的合法着色，四色性等价于P_G(4)>0",
+      "source_ids": [
+        "S47",
+        "S48",
+        "S49"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT08-02",
+      "claim": "1912 Birkhoff原论文地图色数多项式与行列式，1912—13卷的书目说明",
+      "source_ids": [
+        "S47",
+        "S50"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT08-03",
+      "claim": "Whitney1931年PNAS预告及1932年Annals正式论文",
+      "source_ids": [
+        "S48",
+        "S49",
+        "S50"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT08-04",
+      "claim": "单边、三点路径、三角形的合法着色计数",
+      "source_ids": [
+        "S48"
+      ],
+      "status": "MODERN_MATH"
+    },
+    {
+      "claim_id": "GT08-05",
+      "claim": "P_G=P_(G-e)-P_(G/e)非环边的删除收缩及平行边/自环说明",
+      "source_ids": [
+        "S48",
+        "S49"
+      ],
+      "status": "MODERN_MATH"
+    },
+    {
+      "claim_id": "GT08-06",
+      "claim": "四环P_C4(q)=q(q-1)(q²-3q+3)，q=2时2，q=3时18",
+      "source_ids": [
+        "S48"
+      ],
+      "status": "MODERN_MATH"
+    },
+    {
+      "claim_id": "GT08-07",
+      "claim": "删除收缩归纳证明P_G是真正的首项q^n多项式",
+      "source_ids": [
+        "S47",
+        "S48",
+        "S49"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT08-08",
+      "claim": "平面图四色等价于P_G(4)>0但代数表述非自动证明",
+      "source_ids": [
+        "S47",
+        "S50"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT08-09",
+      "claim": "Birkhoff–Lewis色多项式零点研究的后续猜想需要与已证区分",
+      "source_ids": [
+        "S50"
+      ],
+      "status": "HISTORICAL_CAVEAT"
+    },
+    {
+      "claim_id": "GT08-10",
+      "claim": "非平面图也有色多项式，二分K3,3可2染色",
+      "source_ids": [
+        "S48",
+        "S51"
+      ],
+      "status": "MODERN_EXPLANATION"
+    }
+  ]
 }
