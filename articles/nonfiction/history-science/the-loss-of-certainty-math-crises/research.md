@@ -347,3 +347,46 @@
 6. 不杜撰人物对话、书信、私密动机、杂志现场读者反应；不宣称符号唯一导致大陆数学发展。后继伯克利、柯西议题不得提前判定所有无穷小运算无效。
 
 写作许可：历史科学非虚构完整第07章初稿和claims文件；研究与编年仍保持可审查边界。
+
+
+---
+
+## 第08章专项史料与数学核证｜伯克利的《分析者》（2026-11-06）
+
+**审校范围**：本次新增核证仅支持第08章所列历史主张和现代教学性数学证明。原典、可靠数学史二手文献、哲学百科与自拟现代演算分层记录；不得从章节成稿推断整本书已获终审。
+
+### 可复核来源及证据权限
+
+- **B08-PRIMARY-WILKINS**：George Berkeley, *The Analyst* (1734), sections IX, XIII–XVIII, XXI–XXII, XXXV, digitally transcribed and edited by David R. Wilkins, https://www.dhspriory.org/kenny/PhilTexts/Berkeley/AnalystToInfidelMathematician.htm 。可核原书目的、幂函数推导的假设更换、长方形流数质疑、批评差异/流数并存及“ghosts of departed quantities”原文位置。原典证明其**写了什么**，不自动证明其批评全然正确。
+- **B08-DARTMOUTH-EDITOR**：*The Works of George Berkeley*, eds. Luce and Jessop, Vol. 4, editor's historical introduction mirrored by Dartmouth, https://math.dartmouth.edu/~matc/Readers/HowManyAngels/Analyst/Analyst.html 。提供1734年《分析者》伦敦、都柏林版本和宗教论战语境；针对“infidel mathematician”个人指向必须保留史家重建性质，正文不指认特定人物。
+- **B08-MACTUTOR-BERKELEY**：MacTutor, “George Berkeley”, https://mathshistory.st-andrews.ac.uk/Biographies/Berkeley/ 。人物生卒年、三一学院数学活动、1734年出版及基础批评。
+- **B08-MAA-HUFFMAN**：Cynthia J. Huffman, “Mathematical Treasure: George Berkeley's The Analyst”, Mathematical Association of America, https://old.maa.org/node/871239 。1734书影、后续数学史价值与麦克劳林等回应。MAA 页面偶发访问错误，配合原典与其他学术来源交叉核。
+- **B08-CAMBRIDGE-GUICCIARDINI**：Niccolò Guicciardini, *The Development of Newtonian Calculus in Britain, 1700–1800* (1989), ch.3 “The Controversy on the Foundations of the Calculus (1734–42)”, https://doi.org/10.1017/CBO9780511524745.005 。可核英国争论在1734—1742年的历史发展、Jurin及Maclaurin的背景、1742年《流数论》的回应；仅直接阅览摘要与章节摘录，禁冒充通读全书。
+- **B08-SEP-BELL**：John L. Bell, “Continuity and Infinitesimals”, *Stanford Encyclopedia of Philosophy*, revised 2022, https://plato.stanford.edu/entries/continuity/ 。伯克利数学哲学、达朗贝尔的极限方法、十九世纪分析严格化与现代无穷小重新奠基。关于柯西的细致历史争论仅作谨慎概括，留第09章展开。
+- **B08-MODERN-MATH**：正文自拟现代证明；非历史原典来源。$((x+h)^2-x^2)/h=2x+h$ 当且仅当 $h\neq0$ 时可以作该代数约分；极限证明任意 $\varepsilon>0$ 取 $\delta=\varepsilon$ 则对 $0<|h|<\delta$ 有误差 $|h|<\varepsilon$；乘积法则需假定二函数可微，不能说任何有限增量的交叉项恒为零。
+
+### 主张—来源核查矩阵
+
+| claim_id | 主张/可用范围 | 证据 | 等级与限制 |
+|---|---|---|---|
+| H08-01 | 伯克利生于1685年卒于1753年、受过数学训练、1734发表《分析者》 | B08-MACTUTOR-BERKELEY; B08-PRIMARY-WILKINS | 已核 |
+| H08-02 | 作品意在以宗教辩护论争检视数学家知识权威；题名所指对象不宜无条件指认为牛顿本人 | B08-PRIMARY-WILKINS; B08-DARTMOUTH-EDITOR | 已核，人物指向存在解释问题 |
+| H08-03 | 原书主要检视牛顿流数，也讨论莱布尼茨派的微分/无穷小 | B08-PRIMARY-WILKINS §§III–XVIII; B08-SEP-BELL | 已核，需区分对象与方法 |
+| H08-04 | §§XIII–XVI批评先假设增量存在、后令消失却保留结果的论证转换 | B08-PRIMARY-WILKINS §§XIII–XVI | 原典核实，是否足以驳倒其他解释属争议 |
+| H08-05 | §IX批评乘积增量法，涉及被忽略的乘积项 | B08-PRIMARY-WILKINS §IX | 原典核实，不能简化成牛顿算错面积 |
+| H08-06 | §XXXV “ghosts of departed quantities” 是伯克利对流数相关观念的讽喻 | B08-PRIMARY-WILKINS §XXXV; B08-MAA-HUFFMAN | 原典核实 |
+| H08-07 | §§XXI–XXII给出“误差抵消”来解释某些正确结果的批评方案 | B08-PRIMARY-WILKINS §§XXI–XXII | 论战原文观点，非现代普遍定理 |
+| H08-08 | 1734—1742英国围绕《分析者》发生回应论争，Maclaurin 1742出版 *A Treatise of Fluxions* | B08-CAMBRIDGE-GUICCIARDINI; B08-MAA-HUFFMAN | 已核，避免简单线性因果归功 |
+| H08-09 | d'Alembert强调极限；Cauchy和Weierstrass处于不同时代的严格化发展中 | B08-SEP-BELL | 已核概括，具体数学史留09章 |
+| H08-10 | 严格的无穷小体系在20世纪非标准分析中仍可发展 | B08-SEP-BELL | 已核，不可宣布所有无穷小思想错误 |
+| H08-11 | 现代平方差商及ε–δ证明，不做零作分母的计算 | B08-MODERN-MATH | 数学已核，现代演示 |
+| H08-12 | 有限乘积增量含交叉项，求导极限里其贡献可趋零 | B08-MODERN-MATH | 数学已核，需可微性前提 |
+| H08-13 | “第二次数学危机”是编辑性历史叙事框架 | brief.md; outline.md | 编辑性论断，非历史自称 |
+
+### 数学检查与禁止误写
+
+1. 对 $x=3$：$(3+h)^2-9=6h+h^2$；$h\ne0$ 时差商 $6+h$，$h=\pm0.01$ 时分别为 $6.01$ 与 $5.99$。
+2. 对任意实数 $x$：$|( (x+h)^2-x^2)/h-2x|=|h|$；对任何 $\varepsilon>0$ 取 $\delta=\varepsilon$，说明差商极限是 $2x$。推导从未让分母取零。
+3. 对可微 $x(t),y(t)$，严格有限增量 $\Delta(xy)=y\Delta x+x\Delta y+\Delta x\Delta y$；除以时间 $h\ne0$，交叉项 $(\Delta x/h)\Delta y\to0$。不能把交叉项在有限变化里宣布为零。
+4. 不虚构伯克利私下心理、牛顿与伯克利相见或1734学术会议；不将“幽灵”短语错放第XIII节；不把本章现代$x^2$教学例子称为伯克利原算式；不把麦克劳林理论解释等同后来的ε–δ。
+5. **本次写作许可**：允许推进第08章完整非虚构初稿、对应claims与目录状态；**未完成**：第09章后专项研究、独立连续性审计、独立结构审稿及终稿审批。
