@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "03",
+  "claims": [
+    {
+      "claim_id": "NS-03-01",
+      "type": "historical_fact",
+      "statement": "Moreno's Who Shall Survive? was published in 1934",
+      "source_ids": [
+        "S29"
+      ],
+      "locator": "original first edition and catalog metadata",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-03-02",
+      "type": "historical_fact",
+      "statement": "Moreno investigated social choice and sociometric relationships at Hudson training school in the 1930s",
+      "source_ids": [
+        "S29",
+        "S30"
+      ],
+      "locator": "Hare 1992 pp 25+",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-03-03",
+      "type": "historical_fact",
+      "statement": "Helen Hall Jennings contributed to collecting/analyzing data and had credited sociometric appendices in 1934 volume",
+      "source_ids": [
+        "S29",
+        "S30"
+      ],
+      "locator": "Original Appendix / Hare opening page",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-03-04",
+      "type": "historical_context",
+      "statement": "Hudson was an institution receiving girls through judicial system; historical race-segregated housing relevant to conditions",
+      "source_ids": [
+        "S30"
+      ],
+      "locator": "Hare 1992 section on institution",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-03-05",
+      "type": "historical_fact",
+      "statement": "Moreno's sociogram represents chosen/rejected relations and structural patterns",
+      "source_ids": [
+        "S29",
+        "S31"
+      ],
+      "locator": "Original book diagrams; historical copy",
+      "verification_status": "source_checked_with_facsimile_pending"
+    },
+    {
+      "claim_id": "NS-03-06",
+      "type": "modern_method",
+      "statement": "A directed edge encodes a selection under a specified research criterion; direction matters",
+      "source_ids": [
+        "S29",
+        "S30"
+      ],
+      "locator": "operational restatement; illustrative table is invented",
+      "verification_status": "derived_from_source"
+    },
+    {
+      "claim_id": "NS-03-07",
+      "type": "counterfactual_example",
+      "statement": "Five-person labeled arrows are made-up classroom example, not archival participants",
+      "source_ids": [],
+      "locator": "author-created mathematical example",
+      "verification_status": "illustrative_only"
+    },
+    {
+      "claim_id": "NS-03-08",
+      "type": "evidence_limit",
+      "statement": "Observed changes in Hudson group outcomes are insufficient to infer that sociogram or intervention independently caused them",
+      "source_ids": [
+        "S30"
+      ],
+      "locator": "Hare retrospective reports change without randomized isolation",
+      "verification_status": "qualified_inference"
+    }
+  ],
+  "outstanding_checks": [
+    "Whole-series workflow gate remains false and no independent editorial review is claimed.",
+    "Historical sources and citation locator need final article-level fact editing before publication."
+  ]
+}

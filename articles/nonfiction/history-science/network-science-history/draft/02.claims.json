@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "02",
+  "claims": [
+    {
+      "claim_id": "NS-02-01",
+      "type": "historical_fact",
+      "statement": "Kirchhoff developed two circuit laws in 1845 and analyzed arbitrary electrical networks in 1847",
+      "source_ids": [
+        "S24"
+      ],
+      "locator": "Mulder §2",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-02-02",
+      "type": "historical_fact",
+      "statement": "Kirchhoff network analysis uses foundational cycles and spanning-tree-like structure",
+      "source_ids": [
+        "S24"
+      ],
+      "locator": "Mulder §2",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-02-03",
+      "type": "modern_mathematics",
+      "statement": "A connected graph has n-1 tree edges and m-n+1 independent fundamental cycles",
+      "source_ids": [
+        "S25",
+        "S24"
+      ],
+      "locator": "standard tree and cycle-space deductions",
+      "verification_status": "mathematically_derived"
+    },
+    {
+      "claim_id": "NS-02-04",
+      "type": "modern_mathematics",
+      "statement": "Laplacian cofactor determinant equals the number of spanning trees of an undirected graph",
+      "source_ids": [
+        "S25"
+      ],
+      "locator": "Encyclopedia of Mathematics Matrix tree theorem",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-02-05",
+      "type": "modern_mathematics",
+      "statement": "Complete graph Kn has n^(n-2) labeled spanning trees; K4=16, K5=125",
+      "source_ids": [
+        "S25",
+        "S26"
+      ],
+      "locator": "modern matrix-tree specialization",
+      "verification_status": "mathematically_derived"
+    },
+    {
+      "claim_id": "NS-02-06",
+      "type": "historical_priority",
+      "statement": "Cayley's tree work began by 1857; 1889 formula should not erase Borchardt 1860 precursor",
+      "source_ids": [
+        "S24",
+        "S26",
+        "S27"
+      ],
+      "locator": "Mulder §5; MAA article; Spicciotto §1.2",
+      "verification_status": "source_checked_secondary_needs_primary_recheck"
+    },
+    {
+      "claim_id": "NS-02-07",
+      "type": "historical_fact",
+      "statement": "Prüfer encoding proof from 1918, not Cayley's 1857 method",
+      "source_ids": [
+        "S26",
+        "S27"
+      ],
+      "locator": "MAA and historical account",
+      "verification_status": "source_checked_secondary"
+    },
+    {
+      "claim_id": "NS-02-08",
+      "type": "modern_model_boundary",
+      "statement": "KCL and KVL used in chapter are subject to circuit-model physical assumptions",
+      "source_ids": [
+        "S24"
+      ],
+      "locator": "modern explanatory boundary not direct historical quote",
+      "verification_status": "explicit_modern_interpretation"
+    }
+  ],
+  "outstanding_checks": [
+    "Whole-series workflow gate remains false and no independent editorial review is claimed.",
+    "Historical sources and citation locator need final article-level fact editing before publication."
+  ]
+}

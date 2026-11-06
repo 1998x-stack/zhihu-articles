@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "04",
+  "claims": [
+    {
+      "claim_id": "NS-04-01",
+      "type": "historical_fact",
+      "statement": "Bavelas 1948 A Mathematical Model for Group Structures began formal study of communication structure",
+      "source_ids": [
+        "S32",
+        "S35"
+      ],
+      "locator": "publisher 1948 and Freeman introduction",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-04-02",
+      "type": "historical_fact",
+      "statement": "Leavitt MIT 1949 dissertation and 1951 journal article are distinct publications",
+      "source_ids": [
+        "S33",
+        "S34"
+      ],
+      "locator": "MIT repository; PubMed original publication",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-04-03",
+      "type": "historical_fact",
+      "statement": "Experimental centrality outcomes were heterogeneous and not a universal leadership guarantee",
+      "source_ids": [
+        "S35"
+      ],
+      "locator": "Freeman opening analysis",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-04-04",
+      "type": "modern_mathematics",
+      "statement": "Degree C=k/(n-1), closeness=(n-1)/sum shortest distances and betweenness shortest-path fractions are different centralities",
+      "source_ids": [
+        "S35"
+      ],
+      "locator": "Freeman 1978-79 exposition",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-04-05",
+      "type": "original_mathematical_example",
+      "statement": "Nine-node K4-X-K4 graph has degrees A=B=4 X=2; distance sums A=B=15 X=14; betweenness A=B=15 X=16",
+      "source_ids": [],
+      "locator": "chapter's original graph, can independently enumerate 9 vertices",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-04-06",
+      "type": "historical_fact",
+      "statement": "Freeman 1977 published a set of measures based on betweenness",
+      "source_ids": [
+        "S36"
+      ],
+      "locator": "Sociometry 40(1) pp35-41",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-04-07",
+      "type": "historical_fact",
+      "statement": "Katz 1953 status index accounts for who chooses as well as how many and attenuation",
+      "source_ids": [
+        "S37"
+      ],
+      "locator": "Psychometrika 18(1) abstract",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-04-08",
+      "type": "modern_mathematics",
+      "statement": "Katz-type resolvent requires alpha under reciprocal spectral radius for convergence; matrix direction must match in/out choice",
+      "source_ids": [
+        "S37"
+      ],
+      "locator": "modern linear algebra exposition; not verbatim original notation",
+      "verification_status": "mathematically_derived"
+    },
+    {
+      "claim_id": "NS-04-09",
+      "type": "historical_fact",
+      "statement": "Freeman 1978-79 distinguishes degree, closeness, betweenness and vertex centrality vs network centralization",
+      "source_ids": [
+        "S35"
+      ],
+      "locator": "Freeman 1978-79 entire article",
+      "verification_status": "source_checked"
+    },
+    {
+      "claim_id": "NS-04-10",
+      "type": "evidence_limit",
+      "statement": "Network centrality is structural, not direct measurement of worth or causal influence",
+      "source_ids": [
+        "S35"
+      ],
+      "locator": "conceptual application constraint",
+      "verification_status": "qualified_inference"
+    }
+  ],
+  "outstanding_checks": [
+    "Whole-series workflow gate remains false and no independent editorial review is claimed.",
+    "Historical sources and citation locator need final article-level fact editing before publication."
+  ]
+}
