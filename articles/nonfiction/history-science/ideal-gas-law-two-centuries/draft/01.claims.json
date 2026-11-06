@@ -3,7 +3,154 @@
   "title": "空气有重量吗——真空问题改变了世界",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "第01章已撰写的15条主张对应research.md G01条目；已核范围不等于独立审稿或发布批准。历史测量仅作非实践性叙述。",
+  "claims": [
+    {
+      "claim_id": "G01-01",
+      "source_ids": [
+        "S07",
+        "S11"
+      ],
+      "summary": "真空哲学传统并不一致，亚里士多德曾谈空气重量",
+      "classification": "historical_synthesis",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G01-02",
+      "source_ids": [
+        "S07"
+      ],
+      "summary": "水泵深井抽水约10米高度极限",
+      "classification": "historical_observation",
+      "verification": "verified_approximate"
+    },
+    {
+      "claim_id": "G01-03",
+      "source_ids": [
+        "S07"
+      ],
+      "summary": "伽利略1638年对高度极限的不同解释",
+      "classification": "historical_interpretation",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G01-04",
+      "source_ids": [
+        "S07"
+      ],
+      "summary": "贝尔蒂先期水柱实验及时间不确定性",
+      "classification": "historical_secondary",
+      "verification": "verified_date_uncertain"
+    },
+    {
+      "claim_id": "G01-05",
+      "source_ids": [
+        "S07",
+        "S08"
+      ],
+      "summary": "托里拆利与维维亚尼1643年参与柱状液体实验",
+      "classification": "historical_secondary",
+      "verification": "verified_roles_qualified"
+    },
+    {
+      "claim_id": "G01-06",
+      "source_ids": [
+        "S07",
+        "S08"
+      ],
+      "summary": "托里拆利1644年6月11日致里奇信与空气海洋比喻",
+      "classification": "letter_via_scholarly_reprint",
+      "verification": "verified_paraphrased"
+    },
+    {
+      "claim_id": "G01-07",
+      "source_ids": [
+        "S07"
+      ],
+      "summary": "柱顶空隙形状不同而柱高度一致的解释",
+      "classification": "historical_secondary",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G01-08",
+      "source_ids": [
+        "S07"
+      ],
+      "summary": "以P外−P顶=ρgh解释气压与液柱静力平衡",
+      "classification": "modern_physics_explanation",
+      "verification": "verified_modern_not_historical_formula"
+    },
+    {
+      "claim_id": "G01-09",
+      "source_ids": [
+        "S10"
+      ],
+      "summary": "帕斯卡1646得知相关实验、1647出版著作",
+      "classification": "historical_secondary",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G01-10",
+      "source_ids": [
+        "S09",
+        "S10",
+        "S12"
+      ],
+      "summary": "佩里本人1648年9月19日多姆山测量",
+      "classification": "primary_edited_and_secondary",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G01-11",
+      "source_ids": [
+        "S09",
+        "S07"
+      ],
+      "summary": "山脚26旧法寸3.5分线、山顶23旧法寸2分线",
+      "classification": "primary_edited",
+      "verification": "verified_old_french_units"
+    },
+    {
+      "claim_id": "G01-12",
+      "source_ids": [
+        "S09",
+        "S10"
+      ],
+      "summary": "沙斯坦留守山脚对照及山顶、返程复测",
+      "classification": "primary_edited_and_secondary",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G01-13",
+      "source_ids": [
+        "S10",
+        "S11"
+      ],
+      "summary": "山地结果支持气压高度关系却不单证绝对真空",
+      "classification": "philosophy_of_science",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G01-14",
+      "source_ids": [
+        "S07",
+        "S06"
+      ],
+      "summary": "格里克—波义耳—胡克空气弹性研究作为后续",
+      "classification": "historical_secondary",
+      "verification": "verified_general"
+    },
+    {
+      "claim_id": "G01-15",
+      "source_ids": [
+        "S07",
+        "S09",
+        "S10"
+      ],
+      "summary": "以真空争论转向空气压力测量的主题叙事",
+      "classification": "editorial_synthesis",
+      "verification": "editorial_interpretation"
+    }
+  ]
 }

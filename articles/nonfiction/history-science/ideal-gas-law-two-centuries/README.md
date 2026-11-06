@@ -4,7 +4,7 @@
 
 > 1834年，一位工程师把一条气体规律写成了 `pv=R(267+t)`。为什么这里是267，而不是今天的273.15？从一根玻璃管到无数分子的运动，这个差异恰好藏着一场跨越两百年的科学接力。
 
-**作品性质**：历史与科学发现｜非虚构知识叙事。当前状态：**drafting（仅序章00完成正文初稿；01—15及尾声16均为占位，尚未通过独立审稿）**。
+**作品性质**：历史与科学发现｜非虚构知识叙事。当前状态：**drafting（序章00与第01章完成正文初稿；02—15及尾声16仍为占位，尚未通过独立审稿）**。
 
 - **读者**：具有初中到高中物理基础的普通读者；关键概念会逐层解释。
 - **结构**：五部十五章、序章与尾声，总体目标约4万字，逐章可按证据与叙事节奏调整。
@@ -15,7 +15,7 @@
 
 - [序章｜267：那个不该被忽略的数字（已写初稿）](draft/00.md)
 - **第一部｜空气的反抗**
-  - [01｜空气有重量吗——真空问题改变了世界](draft/01.md)
+  - [01｜空气有重量吗——真空问题改变了世界（已写初稿）](draft/01.md)
   - [02｜1662年，J形玻璃管里的秘密](draft/02.md)
   - [03｜一条定律，为什么有两个名字](draft/03.md)
 - **第二部｜温度的秘密**
@@ -49,6 +49,6 @@
 
 `topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → line-edit → final-approval → publication-package`。
 
-所有新章先扩展 `research.md` 与 `claim-ledger.md`，然后写 `draft/NN.md` 和 `draft/NN.claims.json`。未来章节的 `.claims.json` 目前只是空账本，不代表核验通过。需由独立审稿生成 `qa/continuity-report.md` 与 `qa/developmental-review.md`，再进入精修和封版。**不把章节规划或序章草稿标注为出版成品。**
+后续待写章节先扩展 `research.md` 与 `claim-ledger.md`，然后写 `draft/NN.md` 和 `draft/NN.claims.json`。未来章节的 `.claims.json` 目前只是空账本，不代表核验通过。需由独立审稿生成 `qa/continuity-report.md` 与 `qa/developmental-review.md`，再进入精修和封版。**不把章节规划或序章草稿标注为出版成品。**
 
 > 历史表达边界：不虚构人物直接对白、私密动机、日记或“当时的一幕”；不把现代记号、摩尔定义与绝对温标倒灌给17—19世纪科学家。
