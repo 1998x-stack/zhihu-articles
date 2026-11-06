@@ -1,12 +1,85 @@
 {
   "chapter": "02",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S02",
-    "S03"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "claims": [
+    {
+      "claim_id": "GT02-01",
+      "claim": "五种正多面体计数与交替和",
+      "source_ids": [
+        "S23"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT02-02",
+      "claim": "欧拉1750-11-14信中S+H=A+2",
+      "source_ids": [
+        "S23",
+        "S25"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT02-03",
+      "claim": "1752/53期刊卷于1758年刊印",
+      "source_ids": [
+        "S23"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT02-04",
+      "claim": "笛卡尔角度前驱与优先权争议",
+      "source_ids": [
+        "S23",
+        "S25"
+      ],
+      "status": "HISTORICAL_DISPUTE"
+    },
+    {
+      "claim_id": "GT02-05",
+      "claim": "欧拉原证明缺口与勒让德1794证明",
+      "source_ids": [
+        "S24",
+        "S25"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT02-06",
+      "claim": "柯西1813年相关多面体研究",
+      "source_ids": [
+        "S25"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT02-07",
+      "claim": "连通平面图的删回路边至树证明",
+      "source_ids": [
+        "S23"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT02-08",
+      "claim": "环面示性数及吕利耶例外研究",
+      "source_ids": [
+        "S24",
+        "S31"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT02-09",
+      "claim": "七桥与多面体之概念关联是编辑性理解而非严格推导",
+      "source_ids": [
+        "S23"
+      ],
+      "status": "EDITORIAL_INTERPRETATION"
+    }
   ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "note": "仅本章限度内核证；现代证明和史实分开；不是封版终稿"
 }
