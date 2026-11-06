@@ -1,7 +1,251 @@
 {
   "chapter": "08",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅第08章的20项历史科学主张具备前置资料支撑；尚未独立全文审稿，第11—33章不受本次局部验证覆盖",
+  "claims": [
+    {
+      "claim_id": "T08-01",
+      "claim": "1847年赫尔姆霍茨于柏林物理学会报告《论力的守恒》",
+      "type": "historical_fact",
+      "source_ids": [
+        "R67",
+        "R68"
+      ],
+      "locator": "原著扉页日期23 July 1847",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-02",
+      "claim": "其1847文本广论力学、热、电、磁相关作用转化，不等于现代四定律写就",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R67",
+        "R73"
+      ],
+      "locator": "原著目录与2020研究",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-03",
+      "claim": "历史Kraft语义不可直接等同F=ma现代的力",
+      "type": "translation_boundary",
+      "source_ids": [
+        "R67"
+      ],
+      "locator": "1847德文标题与全文",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-04",
+      "claim": "焦耳1840年代以不同材料和手段测热功当量、为重构提供实验证据",
+      "type": "historical_fact",
+      "source_ids": [
+        "R58",
+        "R59",
+        "R73"
+      ],
+      "locator": "焦耳1850论文和Saslow",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-05",
+      "claim": "卡诺1824年仍将热质在高低温之间转移视为热机做功解释",
+      "type": "historical_fact",
+      "source_ids": [
+        "R18",
+        "R48"
+      ],
+      "locator": "Carnot original",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-06",
+      "claim": "克拉佩龙1834年数学化可逆循环，却未建立现代第一定律",
+      "type": "historical_fact",
+      "source_ids": [
+        "R52",
+        "R73"
+      ],
+      "locator": "Clapeyron及史学",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-07",
+      "claim": "克劳修斯1850年在Annalen der Physik und Chemie发表重要论文分两段pp368–397和500–524",
+      "type": "bibliography",
+      "source_ids": [
+        "R69",
+        "R70"
+      ],
+      "locator": "Clausius原著书目",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-08",
+      "claim": "对应论文1851年在Philosophical Magazine分七八月英译刊印",
+      "type": "bibliography",
+      "source_ids": [
+        "R69",
+        "R70"
+      ],
+      "locator": "PhilMag vol2 pp1–21 and 102–119",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-09",
+      "claim": "克劳修斯在1850论文明确反对热质循环中守恒而功额外出现的旧假设",
+      "type": "historical_theory",
+      "source_ids": [
+        "R69",
+        "R70"
+      ],
+      "locator": "论文开头与Carnot对照",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-10",
+      "claim": "克劳修斯承认Joule摩擦产热显示功与热的可量化对应",
+      "type": "historical_theory",
+      "source_ids": [
+        "R69",
+        "R70"
+      ],
+      "locator": "English trans first pages",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-11",
+      "claim": "克劳修斯认为保留卡诺理想可逆限度的结论必须重建证明",
+      "type": "historical_theory",
+      "source_ids": [
+        "R69",
+        "R72",
+        "R73"
+      ],
+      "locator": "Clausius原论述及Thomson §14",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-12",
+      "claim": "现代闭合系统dU=δQ−δW以系统对外做功正号，是后见方程",
+      "type": "modern_physics",
+      "source_ids": [
+        "R73",
+        "R81"
+      ],
+      "locator": "First Law standard sign convention",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-13",
+      "claim": "U是状态函数，Q和W依赖过程，不称物体储存某数量热",
+      "type": "modern_physics",
+      "source_ids": [
+        "R73",
+        "R80"
+      ],
+      "locator": "状态量与跨系统边界传递",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-14",
+      "claim": "完整循环ΔU=0，热机Wnet=Qh−Qc",
+      "type": "modern_physics",
+      "source_ids": [
+        "R81"
+      ],
+      "locator": "现代双热源循环",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-15",
+      "claim": "Qh=100J、W=30J、Qc=70J为虚构教学数值，不是1850机器数据",
+      "type": "editorial_example",
+      "source_ids": [
+        "R81"
+      ],
+      "locator": "first law arithmetic only",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-16",
+      "claim": "能量守恒不能判定自发方向：冷热端间有相同的能量账，不意味着反向零代价",
+      "type": "modern_boundary",
+      "source_ids": [
+        "R80",
+        "R81"
+      ],
+      "locator": "first versus second law",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-17",
+      "claim": "汤姆孙1851年《论热的动力学理论》分开陈述Joule与Carnot-Clausius命题",
+      "type": "historical_fact",
+      "source_ids": [
+        "R72"
+      ],
+      "locator": "Thomson 1851 §§9–14",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-18",
+      "claim": "汤姆孙1851年肯定克劳修斯对可逆上限命题的正确原则重建",
+      "type": "historical_fact",
+      "source_ids": [
+        "R72"
+      ],
+      "locator": "§14",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-19",
+      "claim": "1850克劳修斯理论与1851汤姆孙回应属于相邻但不同阶段",
+      "type": "historical_sequence",
+      "source_ids": [
+        "R69",
+        "R72",
+        "R73"
+      ],
+      "locator": "1850 original/1851 review",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T08-20",
+      "claim": "本章不把1854循环积分或1865熵命名提前归于1850",
+      "type": "historiography",
+      "source_ids": [
+        "R74",
+        "R73"
+      ],
+      "locator": "1854 paper & later entropy",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "前置史料检查与现代公式年代隔离已建立",
+    "非虚构正文完成后同步更新status=draft",
+    "未虚构历史人物的对话、心理、实验当日观察记录"
+  ]
 }
