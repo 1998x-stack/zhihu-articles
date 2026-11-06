@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 485" width="800" height="485" role="img" aria-labelledby="diagramTitle diagramDesc">
+<title id="diagramTitle">长方形面积变化与莱布尼茨乘积法则</title>
+<desc id="diagramDesc">原长方形面积xy。长增加Delta x、宽增加Delta y后，新增区域分三部分：右侧的y乘Delta x，上侧的x乘Delta y，右上角Delta x乘Delta y。</desc>
+<rect x="0" y="0" width="800" height="485" fill="#ffffff"/>
+<text x="38" y="46" font-family="sans-serif" font-size="26" font-weight="700" fill="#20394e">乘积法则：最容易被漏掉的那个角</text>
+<rect x="173" y="160" width="315" height="200" fill="#e9eff7" stroke="#ffffff" stroke-width="3"/>
+<rect x="488" y="160" width="97" height="200" fill="#b8e2da" stroke="#ffffff" stroke-width="3"/>
+<rect x="173" y="99" width="315" height="61" fill="#f8d29b" stroke="#ffffff" stroke-width="3"/>
+<rect x="488" y="99" width="97" height="61" fill="#b3a2df" stroke="#ffffff" stroke-width="3"/>
+<rect x="173" y="99" width="412" height="261" fill="none" stroke="#344e65" stroke-width="2.4"/>
+<text x="329" y="273" text-anchor="middle" font-family="sans-serif" font-size="27" fill="#20394e" font-weight="700">xy</text>
+<text x="535" y="265" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#165d57" font-weight="700">y·Δx</text>
+<text x="329" y="136" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#91540b" font-weight="700">x·Δy</text>
+<text x="537" y="133" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#422c73" font-weight="700">Δx·Δy</text>
+<line x1="173" y1="378" x2="488" y2="378" stroke="#60788f" stroke-width="1.5"/>
+<line x1="488" y1="378" x2="585" y2="378" stroke="#60788f" stroke-width="1.5"/>
+<text x="331" y="403" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#20394e">x</text>
+<text x="536" y="403" font-family="sans-serif" text-anchor="middle" font-size="19" fill="#20394e">Δx</text>
+<line x1="147" y1="160" x2="147" y2="360" stroke="#60788f" stroke-width="1.5"/>
+<line x1="147" y1="99" x2="147" y2="160" stroke="#60788f" stroke-width="1.5"/>
+<text x="119" y="269" font-family="sans-serif" text-anchor="middle" font-size="19" fill="#20394e">y</text>
+<text x="98" y="137" font-family="sans-serif" text-anchor="middle" font-size="19" fill="#20394e">Δy</text>
+<text x="400" y="448" font-family="sans-serif" text-anchor="middle" font-size="17" fill="#4d6073">有限变化：Δ(xy) = yΔx + xΔy + ΔxΔy</text>
+<text x="400" y="475" font-family="sans-serif" text-anchor="middle" font-size="14" fill="#6c7887">末项在求一阶变化率的极限中趋零，并非有限增量时不存在</text>
+</svg>

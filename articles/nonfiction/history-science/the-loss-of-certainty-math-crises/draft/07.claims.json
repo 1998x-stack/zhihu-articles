@@ -1,0 +1,106 @@
+{
+  "chapter": "07",
+  "title": "莱布尼茨的符号：把无限小写进纸面",
+  "lane": "nonfiction",
+  "revision": 6,
+  "status": "draft_claims_traced",
+  "source_scope": "1675 manuscripts through notation historians, 1684/1686 original prints via Smithsonian/MAA, independent scholarship and modern demonstrations",
+  "notes": [
+    "Times of invention and publication distinguished",
+    "Mathematics in modern notation not presented as Leibniz original manuscript",
+    "Proof limit assumptions explicit",
+    "Pending independent dual review"
+  ],
+  "claims": [
+    {
+      "claim_id": "H07-01",
+      "source_id": "L07-MACTUTOR-LEIBNIZ",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-02",
+      "source_id": "L07-MACTUTOR-SYMBOLS",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-03",
+      "source_id": "L07-MACTUTOR-SYMBOLS",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-04",
+      "source_id": "L07-SMITHSONIAN-1684;L07-MAA-DIFF;L07-SEP-CONTINUITY",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-05",
+      "source_id": "L07-MAA-INTEGRAL",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-06",
+      "source_id": "L07-SEP-CONTINUITY;MODERN-MATH",
+      "verification": "mathematical_explanation_verified"
+    },
+    {
+      "claim_id": "H07-07",
+      "source_id": "L07-SEP-CONTINUITY;L07-MAA-LANGUAGE",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-08",
+      "source_id": "MODERN-MATH",
+      "verification": "mathematical_explanation_verified"
+    },
+    {
+      "claim_id": "H07-09",
+      "source_id": "L07-MAA-INTEGRAL;MODERN-MATH",
+      "verification": "mathematical_explanation_verified"
+    },
+    {
+      "claim_id": "H07-10",
+      "source_id": "L07-MACTUTOR-SYMBOLS",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-11",
+      "source_id": "L07-MAA-LANGUAGE;L07-MACTUTOR-SYMBOLS",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-12",
+      "source_id": "L07-AMS-PRIORITY;L07-MACTUTOR-LEIBNIZ",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-13",
+      "source_id": "L07-OUP-INDP;L07-AMS-PRIORITY",
+      "verification": "historical_contestation_qualified"
+    },
+    {
+      "claim_id": "H07-14",
+      "source_id": "L07-MAA-LHOPITAL;L07-BROWN-EXHIBITION;L07-SPRINGER-BERNOULLI",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-15",
+      "source_id": "L07-SEP-CONTINUITY",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-16",
+      "source_id": "L07-OUP-PRINT;L07-SPRINGER-BERNOULLI",
+      "verification": "historical_claim_qualified_verified"
+    },
+    {
+      "claim_id": "H07-17",
+      "source_id": "L07-MAA-LANGUAGE;L07-MAA-LHOPITAL",
+      "verification": "editorial_framing"
+    },
+    {
+      "claim_id": "H07-18",
+      "source_id": "MODERN-MATH",
+      "verification": "mathematical_explanation_verified"
+    }
+  ]
+}
