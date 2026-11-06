@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "id": "heat-and-time-thermodynamics-history",
+  "title": "热与时间：一部热力学的诞生史",
+  "reading_notice": "热力学序章 00 是正文初稿（待独立审稿）；第 01—32 章及尾声 33 为结构规划占位。",
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "序章00｜一台永远不能完美的机器",
+      "part": "序章",
+      "file": "draft/00.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-01",
+      "title": "01｜抽水机为什么要吃掉一座煤山",
+      "part": "第一部｜蒸汽与火：机器提出的问题",
+      "file": "draft/01.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-02",
+      "title": "02｜瓦特的独立冷凝器：效率来自哪里",
+      "part": "第一部｜蒸汽与火：机器提出的问题",
+      "file": "draft/02.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-03",
+      "title": "03｜热是一种流体吗：热质论的黄金时代",
+      "part": "第一部｜蒸汽与火：机器提出的问题",
+      "file": "draft/03.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-04",
+      "title": "04｜卡诺的赌注：热机效率有天花板吗",
+      "part": "第一部｜蒸汽与火：机器提出的问题",
+      "file": "draft/04.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-05",
+      "title": "05｜卡诺的悖论：热没有消失，功从何而来",
+      "part": "第二部｜能量革命：热不再是物质",
+      "file": "draft/05.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-06",
+      "title": "06｜迈尔的推断：热与运动有同一份账本",
+      "part": "第二部｜能量革命：热不再是物质",
+      "file": "draft/06.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-07",
+      "title": "07｜焦耳的重锤：热功当量不是一个巧合",
+      "part": "第二部｜能量革命：热不再是物质",
+      "file": "draft/07.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-08",
+      "title": "08｜克劳修斯如何调和两种看似敌对的理论",
+      "part": "第二部｜能量革命：热不再是物质",
+      "file": "draft/08.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-09",
+      "title": "09｜温度计之外：什么是绝对温度",
+      "part": "第三部｜时间的方向：第二定律与熵",
+      "file": "draft/09.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-10",
+      "title": "10｜一条定律为什么要说“不可能”",
+      "part": "第三部｜时间的方向：第二定律与熵",
+      "file": "draft/10.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-11",
+      "title": "11｜1865年，克劳修斯给不可逆性取名：熵",
+      "part": "第三部｜时间的方向：第二定律与熵",
+      "file": "draft/11.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-12",
+      "title": "12｜时间之箭：热为什么不会自己倒流",
+      "part": "第三部｜时间的方向：第二定律与熵",
+      "file": "draft/12.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-13",
+      "title": "13｜1834年，克拉佩龙把循环画在纸上",
+      "part": "第四部｜平衡的几何：热力学成为数学",
+      "file": "draft/13.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-14",
+      "title": "14｜为什么dU和δQ不能混写",
+      "part": "第四部｜平衡的几何：热力学成为数学",
+      "file": "draft/14.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-15",
+      "title": "15｜吉布斯的曲面：平衡为什么能画成几何",
+      "part": "第四部｜平衡的几何：热力学成为数学",
+      "file": "draft/15.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-16",
+      "title": "16｜一条相律，把水、冰与蒸汽放在同一张表",
+      "part": "第四部｜平衡的几何：热力学成为数学",
+      "file": "draft/16.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-17",
+      "title": "17｜看不见的分子，能解释压强和热吗",
+      "part": "第五部｜原子的法庭：概率解释热",
+      "file": "draft/17.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-18",
+      "title": "18｜麦克斯韦的回答：分子速度是一种分布",
+      "part": "第五部｜原子的法庭：概率解释热",
+      "file": "draft/18.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-19",
+      "title": "19｜玻尔兹曼的H定理，为什么那么大胆",
+      "part": "第五部｜原子的法庭：概率解释热",
+      "file": "draft/19.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-20",
+      "title": "20｜可逆性悖论：如果倒放分子录像会怎样",
+      "part": "第五部｜原子的法庭：概率解释热",
+      "file": "draft/20.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-21",
+      "title": "21｜麦克斯韦的恶魔：一扇门能打败第二定律吗",
+      "part": "第六部｜量子与绝对零度",
+      "file": "draft/21.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-22",
+      "title": "22｜黑体辐射：热研究为何引出量子",
+      "part": "第六部｜量子与绝对零度",
+      "file": "draft/22.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-23",
+      "title": "23｜比热消失之谜：绝对零度附近发生了什么",
+      "part": "第六部｜量子与绝对零度",
+      "file": "draft/23.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-24",
+      "title": "24｜能斯特的边界：绝对零度还能到达吗",
+      "part": "第六部｜量子与绝对零度",
+      "file": "draft/24.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-25",
+      "title": "25｜傅里叶的热方程：温度如何在物体里传播",
+      "part": "第七部｜不可逆过程的新科学",
+      "file": "draft/25.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-26",
+      "title": "26｜昂萨格的对称性：两种流为什么相互牵动",
+      "part": "第七部｜不可逆过程的新科学",
+      "file": "draft/26.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-27",
+      "title": "27｜秩序从耗散中诞生：普里戈金研究什么",
+      "part": "第七部｜不可逆过程的新科学",
+      "file": "draft/27.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-28",
+      "title": "28｜小系统的反常：涨落会违反第二定律吗",
+      "part": "第七部｜不可逆过程的新科学",
+      "file": "draft/28.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-29",
+      "title": "29｜一比特可以开动热机吗：希拉德的思想实验",
+      "part": "第八部｜信息、黑洞与热力学边界",
+      "file": "draft/29.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-30",
+      "title": "30｜删除记忆的价格：兰道尔与贝内特",
+      "part": "第八部｜信息、黑洞与热力学边界",
+      "file": "draft/30.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-31",
+      "title": "31｜黑洞为什么有熵：事件视界上的热力学",
+      "part": "第八部｜信息、黑洞与热力学边界",
+      "file": "draft/31.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-32",
+      "title": "32｜从量子热机到信息悖论：尚未结束的热力学",
+      "part": "第八部｜信息、黑洞与热力学边界",
+      "file": "draft/32.md",
+      "status": "outline"
+    },
+    {
+      "id": "epilogue",
+      "title": "尾声33｜从蒸汽机到信息：热力学为什么仍然年轻",
+      "part": "尾声",
+      "file": "draft/33.md",
+      "status": "outline"
+    }
+  ]
+}

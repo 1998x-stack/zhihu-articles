@@ -288,8 +288,30 @@ def build_readers(out: Path, books: list[dict], external_root: Path | None,
         root = "../../"
         toc = make_toc(chapters, book, root, "")
         counts = Counter(ch["status"] for ch in chapters)
-        book_cover = ('<img class="reader-cover" src="' + root + escape(book["cover"], quote=True) + '" alt="' +
-                      escape(book["title"]) + '的封面">') if book.get("cover") else ""
+        if book.get("cover"):
+            book_cover = ('<img class="reader-cover" src="' + root +
+                          escape(book["cover"], quote=True) + '" alt="' +
+                          escape(book["title"], quote=True) + '的封面">')
+        else:
+            # Books without a commissioned PNG still need a readable cover on
+            # their overview page. Colors are validated as six-digit hex.
+            bg1, bg2 = book["palette"]
+            ink = book.get("coverInk", "#fff5e6")
+            if not isinstance(ink, str) or not re.fullmatch(r"#[0-9a-fA-F]{6}", ink):
+                ink = "#fff5e6"
+            book_cover = (
+                '<div class="reader-cover reader-cover-placeholder" role="img" aria-label="' +
+                escape(book["title"], quote=True) + '的排版式临时封面" style="' +
+                '--cover-start:' + bg1 + ';--cover-end:' + bg2 +
+                ';--cover-ink:' + ink + ';">' +
+                '<span class="reader-cover-overline">' +
+                escape(book.get("coverEyebrow") or "THE READING ROOM") + '</span>' +
+                '<strong class="reader-cover-name">' +
+                escape(book.get("coverShort") or book["title"]) + '</strong>' +
+                '<span class="reader-cover-footer">' +
+                escape(book.get("coverFooter") or "AN ORIGINAL WORK") + '</span>' +
+                '</div>'
+            )
         overview = (
             '<div class="reader-book-hero">' + book_cover +
             '<div><p class="reader-kicker">THE READING ROOM / 全书目录</p>' +

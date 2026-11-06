@@ -91,5 +91,271 @@
       "repository": "self",
       "manifest": "articles/nonfiction/social-business/credit-debt-power-global-financial-history/book.json"
     }
+  },
+  {
+    "id": "linear-algebra-history",
+    "title": "从方程到空间：一部线性代数思想发展史",
+    "subtitle": "From Equations to Spaces: A History of Linear Algebra",
+    "author": "1998x-stack",
+    "genre": "genre-history-science",
+    "type": "数学与网络科学史 · 长篇",
+    "status": "初稿创作中",
+    "description": "八部三十二章，追溯消元、行列式、向量、矩阵、特征值、公理化与数值线性代数的交叉发展。现阶段仅完成系列设计与章节占位。",
+    "tags": [
+      "线性代数",
+      "数学史",
+      "数学思想史",
+      "矩阵",
+      "向量空间",
+      "知识叙事"
+    ],
+    "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/linear-algebra-history",
+    "note": "当前 1 篇为尚未通过正式审校的正文初稿，其余 33 篇为章节占位；作品并非正式出版。",
+    "cover": null,
+    "coverShort": "从方程到空间",
+    "coverEyebrow": "FROM EQUATIONS TO SPACES",
+    "coverFooter": "A HISTORY OF LINEAR ALGEBRA",
+    "palette": [
+      "#335d86",
+      "#172b46"
+    ],
+    "coverInk": "#f1f2eb",
+    "source": {
+      "repository": "self",
+      "manifest": "articles/nonfiction/history-science/linear-algebra-history/book.json"
+    }
+  },
+  {
+    "id": "the-laws-of-chance-probability",
+    "title": "偶然的法则：从骰子到算法的概率论史",
+    "subtitle": "The Laws of Chance: A History from Dice to Algorithms",
+    "author": "1998x-stack",
+    "genre": "genre-history-science",
+    "type": "数学与网络科学史 · 长篇",
+    "status": "策划中",
+    "description": "以公平、期望、大数、逆概率、极限、测度公理、随机过程、统计、模拟与AI预测的连锁问题重建概率论发展史。",
+    "tags": [
+      "概率论史",
+      "数学史",
+      "统计学",
+      "科学史",
+      "数学思想史",
+      "知识叙事"
+    ],
+    "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/the-laws-of-chance-probability",
+    "note": "当前 38 篇章节文件仍为策划占位，尚无经过正式审校的正文。",
+    "cover": null,
+    "coverShort": "偶然的法则",
+    "coverEyebrow": "THE LAWS OF CHANCE",
+    "coverFooter": "FROM DICE TO ALGORITHMS",
+    "palette": [
+      "#625284",
+      "#2e2852"
+    ],
+    "coverInk": "#f9f0e2",
+    "source": {
+      "repository": "self",
+      "manifest": "articles/nonfiction/history-science/the-laws-of-chance-probability/book.json"
+    }
+  },
+  {
+    "id": "the-making-of-calculus",
+    "title": "从切线到无穷：微积分的诞生与重建",
+    "subtitle": "The Making of Calculus: From Tangents to Infinity",
+    "author": "1998x-stack",
+    "genre": "genre-history-science",
+    "type": "数学与网络科学史 · 长篇",
+    "status": "初稿创作中",
+    "description": "以曲线求积和瞬时变化两条线索解释微积分的诞生、严密化与现代扩展。",
+    "tags": [
+      "数学史",
+      "微积分",
+      "科学发现",
+      "数学分析",
+      "牛顿",
+      "莱布尼茨"
+    ],
+    "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/the-making-of-calculus",
+    "note": "当前 1 篇为尚未通过正式审校的正文初稿，其余 36 篇为章节占位；作品并非正式出版。",
+    "cover": null,
+    "coverShort": "从切线到无穷",
+    "coverEyebrow": "THE MAKING OF CALCULUS",
+    "coverFooter": "FROM TANGENTS TO INFINITY",
+    "palette": [
+      "#304e7a",
+      "#132a4e"
+    ],
+    "coverInk": "#f3efe5",
+    "source": {
+      "repository": "self",
+      "manifest": "articles/nonfiction/history-science/the-making-of-calculus/book.json"
+    }
+  },
+  {
+    "id": "graph-theory-history",
+    "title": "连接的秩序：图论三百年",
+    "subtitle": "The Order of Connections: Three Centuries of Graph Theory",
+    "author": "1998x-stack",
+    "genre": "genre-history-science",
+    "type": "数学与网络科学史 · 长篇",
+    "status": "策划中",
+    "description": "七桥、树与回路、四色、匹配、极值、随机图、网络流、复杂性、图小式、互联网与图学习的数学思想史。采用专题因果叙事与编年核查双轴。",
+    "tags": [
+      "图论",
+      "数学史",
+      "离散数学",
+      "组合数学",
+      "算法史",
+      "复杂网络",
+      "知乎盐选知识叙事"
+    ],
+    "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/graph-theory-history",
+    "note": "当前 38 篇章节文件仍为策划占位，尚无经过正式审校的正文。",
+    "cover": null,
+    "coverShort": "连接的秩序",
+    "coverEyebrow": "THE ORDER OF CONNECTIONS",
+    "coverFooter": "THREE CENTURIES OF GRAPH THEORY",
+    "palette": [
+      "#356355",
+      "#142f33"
+    ],
+    "coverInk": "#f4f3e7",
+    "source": {
+      "repository": "self",
+      "manifest": "articles/nonfiction/history-science/graph-theory-history/book.json"
+    }
+  },
+  {
+    "id": "heat-and-time-thermodynamics-history",
+    "title": "热与时间：一部热力学的诞生史",
+    "subtitle": "Heat and Time: The Making of Thermodynamics",
+    "author": "1998x-stack",
+    "genre": "genre-history-science",
+    "type": "物理科学史 · 长篇",
+    "status": "初稿创作中",
+    "description": "从蒸汽机的效率困境出发，追踪热质论与热功等价冲突、能量守恒与第二定律、熵及热力学势、统计力学、量子与低温、非平衡涨落、信息热力学和黑洞热力学。以史实和物理矛盾为因果主线，所有章节目前为待核查占位。",
+    "tags": [
+      "热力学",
+      "科学史",
+      "物理学史",
+      "卡诺",
+      "焦耳",
+      "克劳修斯",
+      "熵",
+      "玻尔兹曼",
+      "统计力学",
+      "非平衡热力学",
+      "信息热力学"
+    ],
+    "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/heat-and-time-thermodynamics-history",
+    "note": "当前 1 篇为尚未通过正式审校的正文初稿，其余 33 篇为章节占位；作品并非正式出版。",
+    "cover": null,
+    "coverShort": "热与时间",
+    "coverEyebrow": "HEAT AND TIME",
+    "coverFooter": "THE MAKING OF THERMODYNAMICS",
+    "palette": [
+      "#c06a4b",
+      "#522e38"
+    ],
+    "coverInk": "#fdf0dd",
+    "source": {
+      "repository": "self",
+      "manifest": "articles/nonfiction/history-science/heat-and-time-thermodynamics-history/book.json"
+    }
+  },
+  {
+    "id": "fields-of-light-electromagnetism-history",
+    "title": "看不见的场：一部电磁学的诞生与统一史",
+    "subtitle": "Fields of Light: The Making of Electromagnetism",
+    "author": "1998x-stack",
+    "genre": "genre-history-science",
+    "type": "物理科学史 · 长篇",
+    "status": "策划中",
+    "description": "从静电和磁石出发，沿着实验、场、电磁波、相对论、量子电动力学与电弱统一的因果链讲述电磁学史。",
+    "tags": [
+      "电磁学",
+      "物理学史",
+      "麦克斯韦",
+      "法拉第",
+      "量子电动力学"
+    ],
+    "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/fields-of-light-electromagnetism-history",
+    "note": "当前 34 篇章节文件仍为策划占位，尚无经过正式审校的正文。",
+    "cover": null,
+    "coverShort": "看不见的场",
+    "coverEyebrow": "FIELDS OF LIGHT",
+    "coverFooter": "THE MAKING OF ELECTROMAGNETISM",
+    "palette": [
+      "#26567c",
+      "#14243e"
+    ],
+    "coverInk": "#f4f5f8",
+    "source": {
+      "repository": "self",
+      "manifest": "articles/nonfiction/history-science/fields-of-light-electromagnetism-history/book.json"
+    }
+  },
+  {
+    "id": "ideal-gas-law-two-centuries",
+    "title": "看不见的秩序：PV=nRT的两百年接力",
+    "subtitle": "The Invisible Order: Two Centuries Behind the Ideal Gas Law",
+    "author": "1998x-stack",
+    "genre": "genre-history-science",
+    "type": "物理科学史 · 长篇",
+    "status": "初稿创作中",
+    "description": "从1834年克拉佩龙公式里的267回溯两百年的气体科学：波义耳的玻璃管、查理与盖-吕萨克的温度研究、阿伏伽德罗的分子假说、卡诺热机、克劳修斯与霍斯特曼的改写，再到统计物理和真实气体。强调实验、证据和模型边界，而非单一天才传说。",
+    "tags": [
+      "理想气体",
+      "PV=nRT",
+      "物理学史",
+      "化学史",
+      "热力学",
+      "知识叙事"
+    ],
+    "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/ideal-gas-law-two-centuries",
+    "note": "当前 5 篇为尚未通过正式审校的正文初稿，其余 12 篇为章节占位；作品并非正式出版。",
+    "cover": null,
+    "coverShort": "看不见的秩序",
+    "coverEyebrow": "THE INVISIBLE ORDER",
+    "coverFooter": "BEHIND THE IDEAL GAS LAW",
+    "palette": [
+      "#358593",
+      "#1e4b57"
+    ],
+    "coverInk": "#f3f8f3",
+    "source": {
+      "repository": "self",
+      "manifest": "articles/nonfiction/history-science/ideal-gas-law-two-centuries/book.json"
+    }
+  },
+  {
+    "id": "network-science-history",
+    "title": "连接的真相：一部网络科学发展史",
+    "subtitle": "The Science of Connections: A History of Network Science",
+    "author": "1998x-stack",
+    "genre": "genre-history-science",
+    "type": "数学与网络科学史 · 长篇",
+    "status": "策划中",
+    "description": "从七桥到图神经网络，以问题、证据、人物与定理呈现网络科学的历史。",
+    "tags": [
+      "network-science",
+      "history-of-science",
+      "complex-networks"
+    ],
+    "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/network-science-history",
+    "note": "当前 34 篇章节文件仍为策划占位，尚无经过正式审校的正文。",
+    "cover": null,
+    "coverShort": "连接的真相",
+    "coverEyebrow": "THE SCIENCE OF CONNECTIONS",
+    "coverFooter": "A HISTORY OF NETWORK SCIENCE",
+    "palette": [
+      "#475c83",
+      "#1e304f"
+    ],
+    "coverInk": "#f1f1f4",
+    "source": {
+      "repository": "self",
+      "manifest": "articles/nonfiction/history-science/network-science-history/book.json"
+    }
   }
 ]

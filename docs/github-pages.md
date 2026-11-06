@@ -68,13 +68,21 @@ The-Empty-Spaces/                         # 独立 GitHub 仓库
 
 例如添加新一章：写入对应的 `draft/05.md`，然后在**同一本书**的 `book.json` 添加记录。构建程序不会擅自把研究资料、其他未列出的 Markdown、草稿版本历史或 QA 文件发布到阅读器。
 
-## 三本书如何映射
+## 十一本书如何映射
 
 | 书籍 | 章节 JSON | Markdown 来源 |
 |---|---|---|
 | 空位 | `The-Empty-Spaces/book.json` | `The-Empty-Spaces/manuscript/` |
 | 失去确定性 | `articles/nonfiction/history-science/the-loss-of-certainty-math-crises/book.json` | 同目录 `draft/` |
 | 信用、债务与权力 | `articles/nonfiction/social-business/credit-debt-power-global-financial-history/book.json` | 同目录 `draft/` |
+| 从方程到空间：线性代数史 | `articles/nonfiction/history-science/linear-algebra-history/book.json` | 同目录 `draft/` |
+| 偶然的法则：概率论史 | `articles/nonfiction/history-science/the-laws-of-chance-probability/book.json` | 同目录 `draft/` |
+| 从切线到无穷：微积分史 | `articles/nonfiction/history-science/the-making-of-calculus/book.json` | 同目录 `draft/` |
+| 连接的秩序：图论史 | `articles/nonfiction/history-science/graph-theory-history/book.json` | 同目录 `draft/` |
+| 热与时间：热力学史 | `articles/nonfiction/history-science/heat-and-time-thermodynamics-history/book.json` | 同目录 `draft/` |
+| 看不见的场：电磁学史 | `articles/nonfiction/history-science/fields-of-light-electromagnetism-history/book.json` | 同目录 `draft/` |
+| 看不见的秩序：理想气体定律史 | `articles/nonfiction/history-science/ideal-gas-law-two-centuries/book.json` | 同目录 `draft/` |
+| 连接的真相：网络科学史 | `articles/nonfiction/history-science/network-science-history/book.json` | 同目录 `draft/` |
 
 书架主数据 `site/assets/data/books.json` 的每条记录新增一个 `source` 字段：
 
@@ -160,3 +168,14 @@ python scripts/validate_repo.py
 ### PNG 封面
 
 将封面 PNG 存入 `site/assets/covers/<book-id>.png`，建议约 1400 × 2000 像素，更新 `site/assets/data/books.json` 中的 `cover` 属性即可。阅读器首页目录也复用对应书封。
+
+
+## 新书与封面工作流（2026-11）
+
+新增八本作品已在 `site/assets/data/books.json` 以真实标题、英文副题、简介、分类和章节索引路径登记。
+
+- 八本暂时均设置 `cover: null`；书架与全书目录自动使用字体排版式封面，不依赖 PNG，也不会出现空白封面。
+- 书籍正式封面按 `site/assets/covers/<book-id>.png` 命名；制作完成后再更新对应 `cover` 字段，无须修改模板。
+- 微积分已有 `series.json`，图论已有 `chapters.json`，两者为原有研究资料，**新增的 `book.json` 是 Pages 阅读器的统一规范**，不要删除原先的研究记录。
+- 电磁学 `README.md` 将序章描述为候审稿，但目前 `draft/00.md` 实际仍是设计占位。因此标准章节索引按实际文件标记为 `outline`，待真正正文更新后再调整。
+- 标为 `draft` 的章节不意味着已通过独立审稿或可以声称正式出版。

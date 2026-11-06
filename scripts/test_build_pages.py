@@ -21,6 +21,14 @@ class PagesBuildTests(unittest.TestCase):
                 "read/the-loss-of-certainty-math-crises/chapter-02/index.html",
                 "read/credit-debt-power-global-financial-history/chapter-03/index.html",
                 "read/credit-debt-power-global-financial-history/book.json",
+                "read/linear-algebra-history/chapter-01/index.html",
+                "read/the-laws-of-chance-probability/chapter-01/index.html",
+                "read/the-making-of-calculus/prologue/index.html",
+                "read/graph-theory-history/chapter-01/index.html",
+                "read/heat-and-time-thermodynamics-history/prologue/index.html",
+                "read/fields-of-light-electromagnetism-history/prologue/index.html",
+                "read/ideal-gas-law-two-centuries/chapter-04/index.html",
+                "read/network-science-history/chapter-32/index.html",
                 ".nojekyll",
             ):
                 self.assertTrue((output / path).is_file(), path)
@@ -31,9 +39,31 @@ class PagesBuildTests(unittest.TestCase):
             genres = json.loads((output / "assets/data/genres.json").read_text(encoding="utf-8"))
             books = json.loads((output / "assets/data/books.json").read_text(encoding="utf-8"))
             self.assertEqual(len(genres), len(json.loads((ROOT / "catalog.json").read_text(encoding="utf-8"))["genres"]))
-            self.assertEqual(len(books), 3)
+            self.assertEqual(len(books), 11)
             self.assertEqual(books[1]["chapterCount"], 27)
             self.assertEqual(books[2]["chapterCount"], 42)
+            chapter_totals = {
+                "linear-algebra-history": 34,
+                "the-laws-of-chance-probability": 38,
+                "the-making-of-calculus": 37,
+                "graph-theory-history": 38,
+                "heat-and-time-thermodynamics-history": 34,
+                "fields-of-light-electromagnetism-history": 34,
+                "ideal-gas-law-two-centuries": 17,
+                "network-science-history": 34,
+            }
+            for book_id, total in chapter_totals.items():
+                book = next(b for b in books if b["id"] == book_id)
+                self.assertEqual(book["chapterCount"], total, book_id)
+                self.assertIsNone(book["cover"], book_id)
+                overview = (output / "read" / book_id / "index.html").read_text(encoding="utf-8")
+                self.assertIn("reader-cover-placeholder", overview)
+                self.assertIn("reader-cover-name", overview)
+                exported = json.loads((output / "read" / book_id / "book.json").read_text(encoding="utf-8"))
+                self.assertEqual(len(exported["chapters"]), total)
+                self.assertTrue(all(ch["href"].startswith("read/" + book_id + "/") for ch in exported["chapters"]))
+            self.assertIn("章节占位", (output / "read/network-science-history/chapter-32/index.html").read_text(encoding="utf-8"))
+            self.assertIn("正文初稿", (output / "read/ideal-gas-law-two-centuries/chapter-04/index.html").read_text(encoding="utf-8"))
 
             chapter_html = (output / "read/the-loss-of-certainty-math-crises/chapter-02/index.html").read_text(encoding="utf-8")
             self.assertIn("希帕索斯的沉船", chapter_html)

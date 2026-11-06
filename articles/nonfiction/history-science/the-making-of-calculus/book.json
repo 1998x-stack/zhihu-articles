@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "id": "the-making-of-calculus",
+  "title": "从切线到无穷：微积分的诞生与重建",
+  "reading_notice": "微积分序章已有研究工作初稿（未通过独立审稿），其余章节为规划占位，并非正式出版内容。",
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "序章｜1696年的挑战书——最快的路是什么？",
+      "part": "序章",
+      "file": "draft/00.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-01",
+      "title": "01｜芝诺：走完一米，为何要跨过无限多段？",
+      "part": "第一部｜无限的前史",
+      "file": "draft/01.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-02",
+      "title": "02｜欧多克索斯：不谈无穷小，怎样证明曲线面积？",
+      "part": "第一部｜无限的前史",
+      "file": "draft/02.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-03",
+      "title": "03｜阿基米德：无限个小三角形能给出精确答案？",
+      "part": "第一部｜无限的前史",
+      "file": "draft/03.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-04",
+      "title": "04｜刘徽的割圆：古代中国怎样逼近一个圆？",
+      "part": "第一部｜无限的前史",
+      "file": "draft/04.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-05",
+      "title": "05｜马达瓦与喀拉拉：无穷级数在印度开花",
+      "part": "第一部｜无限的前史",
+      "file": "draft/05.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-06",
+      "title": "06｜伽利略：平均速度不等于瞬间的速度",
+      "part": "第二部｜曲线与运动的逼问",
+      "file": "draft/06.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-07",
+      "title": "07｜开普勒的酒桶：奇形怪状的体积怎么算？",
+      "part": "第二部｜曲线与运动的逼问",
+      "file": "draft/07.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-08",
+      "title": "08｜卡瓦列里：一条线能够组成面积吗？",
+      "part": "第二部｜曲线与运动的逼问",
+      "file": "draft/08.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-09",
+      "title": "09｜笛卡尔：把曲线写成方程",
+      "part": "第二部｜曲线与运动的逼问",
+      "file": "draft/09.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-10",
+      "title": "10｜费马的拟等法：几乎相等到底算不算相等？",
+      "part": "第二部｜曲线与运动的逼问",
+      "file": "draft/10.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-11",
+      "title": "11｜沃利斯、格雷戈里与巴罗：两种问题接近汇合",
+      "part": "第二部｜曲线与运动的逼问",
+      "file": "draft/11.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-12",
+      "title": "12｜1666年的牛顿：一组手稿为什么改变数学",
+      "part": "第三部｜两种微积分的诞生",
+      "file": "draft/12.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-13",
+      "title": "13｜流数法：牛顿从时间出发理解微分",
+      "part": "第三部｜两种微积分的诞生",
+      "file": "draft/13.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-14",
+      "title": "14｜莱布尼茨的 d 与 ∫：为什么记号会改变数学",
+      "part": "第三部｜两种微积分的诞生",
+      "file": "draft/14.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-15",
+      "title": "15｜微积分基本定理：面积与变化率竟是同一件事",
+      "part": "第三部｜两种微积分的诞生",
+      "file": "draft/15.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-16",
+      "title": "16｜牛顿与莱布尼茨：发现者之争究竟争什么",
+      "part": "第三部｜两种微积分的诞生",
+      "file": "draft/16.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-17",
+      "title": "17｜1696年最速降线：直线为何不是最快路线",
+      "part": "第四部｜方法的胜利与裂缝",
+      "file": "draft/17.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-18",
+      "title": "18｜洛必达：微积分怎样进入第一批系统教材",
+      "part": "第四部｜方法的胜利与裂缝",
+      "file": "draft/18.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-19",
+      "title": "19｜泰勒展开：曲线能用多项式代替吗",
+      "part": "第四部｜方法的胜利与裂缝",
+      "file": "draft/19.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-20",
+      "title": "20｜伯克利的质问：无穷小消失之后还剩什么",
+      "part": "第四部｜方法的胜利与裂缝",
+      "file": "draft/20.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-21",
+      "title": "21｜欧拉：函数成为微积分的共同语言",
+      "part": "第四部｜方法的胜利与裂缝",
+      "file": "draft/21.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-22",
+      "title": "22｜拉格朗日：微积分能摆脱无穷小吗",
+      "part": "第四部｜方法的胜利与裂缝",
+      "file": "draft/22.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-23",
+      "title": "23｜玻尔查诺：连续为什么能够保证中间值",
+      "part": "第五部｜极限、函数与实数",
+      "file": "draft/23.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-24",
+      "title": "24｜柯西：怎样让极限替代模糊直觉",
+      "part": "第五部｜极限、函数与实数",
+      "file": "draft/24.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-25",
+      "title": "25｜傅里叶：热流与三角级数挑战函数观念",
+      "part": "第五部｜极限、函数与实数",
+      "file": "draft/25.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-26",
+      "title": "26｜黎曼：不连续的函数也能有面积吗",
+      "part": "第五部｜极限、函数与实数",
+      "file": "draft/26.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-27",
+      "title": "27｜魏尔斯特拉斯：不用图形怎样定义趋近",
+      "part": "第五部｜极限、函数与实数",
+      "file": "draft/27.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-28",
+      "title": "28｜戴德金与康托尔：数轴上真的没有空洞吗",
+      "part": "第五部｜极限、函数与实数",
+      "file": "draft/28.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-29",
+      "title": "29｜魏尔斯特拉斯的怪物：连续却处处不可微",
+      "part": "第六部｜病态函数改变积分",
+      "file": "draft/29.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-30",
+      "title": "30｜达布：上和与下和什么时候一致",
+      "part": "第六部｜病态函数改变积分",
+      "file": "draft/30.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-31",
+      "title": "31｜勒贝格：改变求和顺序，为什么能积分更多函数",
+      "part": "第六部｜病态函数改变积分",
+      "file": "draft/31.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-32",
+      "title": "32｜希尔伯特与巴拿赫：当函数变成空间里的点",
+      "part": "第六部｜病态函数改变积分",
+      "file": "draft/32.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-33",
+      "title": "33｜施瓦茨：不能求经典导数的对象仍可微分吗",
+      "part": "第七部｜走出纸面的微积分",
+      "file": "draft/33.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-34",
+      "title": "34｜鲁滨逊：无穷小怎样重新获得数学身份",
+      "part": "第七部｜走出纸面的微积分",
+      "file": "draft/34.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-35",
+      "title": "35｜自动微分：计算机怎样真正执行链式法则",
+      "part": "第七部｜走出纸面的微积分",
+      "file": "draft/35.md",
+      "status": "outline"
+    },
+    {
+      "id": "epilogue",
+      "title": "尾声｜为什么今天仍在重新发明微积分？",
+      "part": "尾声",
+      "file": "draft/36.md",
+      "status": "outline"
+    }
+  ]
+}
