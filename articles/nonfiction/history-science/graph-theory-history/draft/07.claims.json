@@ -1,13 +1,99 @@
 {
   "chapter": "07",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S04",
-    "S05",
-    "S09"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "scope": "只对本章列明的史实与数学声明作限定范围的前置核查，不是正式出版审稿；1879原刊转录非批判校勘版",
+  "claims": [
+    {
+      "claim_id": "GT07-01",
+      "claim": "1879 Kempe提出四色证明、1890 Heawood揭露漏洞及其历史时距",
+      "source_ids": [
+        "S43",
+        "S45",
+        "S46"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT07-02",
+      "claim": "Kempe链是双色诱导子图连通分量，交换全分量仍合法",
+      "source_ids": [
+        "S43",
+        "S45"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT07-03",
+      "claim": "有限简单平面图存在度数至多5的顶点",
+      "source_ids": [
+        "S46"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT07-04",
+      "claim": "四邻居时利用平面分隔可一次双色交换释放颜色",
+      "source_ids": [
+        "S43",
+        "S45"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT07-05",
+      "claim": "五邻居四色情况肯普的两次换色会发生链结构干扰",
+      "source_ids": [
+        "S45",
+        "S46"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT07-06",
+      "claim": "Heawood反驳证明步骤而非提供四色定理反例",
+      "source_ids": [
+        "S45",
+        "S46"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT07-07",
+      "claim": "五色定理的单次Kempe链交换有效归纳证明",
+      "source_ids": [
+        "S45",
+        "S46"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT07-08",
+      "claim": "Kempe1880发表Nature简化论述",
+      "source_ids": [
+        "S44"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT07-09",
+      "claim": "合法操作和错误组合推理的区分",
+      "source_ids": [
+        "S43",
+        "S45",
+        "S46"
+      ],
+      "status": "EDITORIAL_MATH"
+    },
+    {
+      "claim_id": "GT07-10",
+      "claim": "Heawood1890证明五色而后世四色需其他技术",
+      "source_ids": [
+        "S45",
+        "S46"
+      ],
+      "status": "HISTORICAL_VERIFIED_SCOPED"
+    }
+  ]
 }
