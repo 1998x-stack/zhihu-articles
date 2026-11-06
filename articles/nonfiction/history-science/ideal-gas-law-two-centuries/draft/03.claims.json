@@ -3,7 +3,182 @@
   "title": "一条定律，为什么有两个名字",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "16条章节史实、史学争议、现代解释及编辑性综合对应research.md。马略特1676/1679书目歧义显式保留；暂未独立双审或封版。",
+  "claims": [
+    {
+      "claim_id": "G03-01",
+      "source_ids": [
+        "S20",
+        "S24"
+      ],
+      "summary": "波义耳／马略特的不同定律名称",
+      "classification": "历史命名与术语",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G03-02",
+      "source_ids": [
+        "S18",
+        "S22",
+        "S14"
+      ],
+      "summary": "1662附录数据与现代符号PV=C的差异",
+      "classification": "历史资料与现代解释",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G03-03",
+      "source_ids": [
+        "S22",
+        "S06",
+        "S15"
+      ],
+      "summary": "1660研究与1661前后探索区分",
+      "classification": "科学史节点",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G03-04",
+      "source_ids": [
+        "S15",
+        "S23",
+        "S17"
+      ],
+      "summary": "鲍尔与汤利较早研究及后续出版日期差异",
+      "classification": "科学史版本",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G03-05",
+      "source_ids": [
+        "S13",
+        "S15",
+        "S23"
+      ],
+      "summary": "汤利提供反比启示、波义耳承认假说",
+      "classification": "科学史二手",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G03-06",
+      "source_ids": [
+        "S22",
+        "S06",
+        "S13"
+      ],
+      "summary": "胡克仪器协作与定律作者角色区分",
+      "classification": "科学史二手",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G03-07",
+      "source_ids": [
+        "S18",
+        "S14"
+      ],
+      "summary": "1662数据表比较理论与观察",
+      "classification": "文献结构",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G03-08",
+      "source_ids": [
+        "S19",
+        "S21"
+      ],
+      "summary": "1679馆藏《空气的本性》《热与冷》",
+      "classification": "图书馆实物书目",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "G03-09",
+      "source_ids": [
+        "S18",
+        "S20",
+        "S19",
+        "S21",
+        "S25"
+      ],
+      "summary": "后世1676表述与1679存世印本的日期争议",
+      "classification": "争议与版本差异",
+      "verification": "verified_disputed"
+    },
+    {
+      "claim_id": "G03-10",
+      "source_ids": [
+        "S18",
+        "S20",
+        "S21"
+      ],
+      "summary": "马略特后世常被归为独立验证，独立性表述有限",
+      "classification": "史学概述",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G03-11",
+      "source_ids": [
+        "S18",
+        "S13",
+        "S14"
+      ],
+      "summary": "马略特对温度条件重视的后世史学归纳",
+      "classification": "史学归纳",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G03-12",
+      "source_ids": [
+        "S20",
+        "S24",
+        "S18"
+      ],
+      "summary": "命名传统与先行贡献不同，不是单一算法",
+      "classification": "编辑性历史概括",
+      "verification": "editorial_synthesis"
+    },
+    {
+      "claim_id": "G03-13",
+      "source_ids": [
+        "S13",
+        "S14",
+        "S24"
+      ],
+      "summary": "17世纪空气弹性与现代气体类别不能等同",
+      "classification": "历史概念对照",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "G03-14",
+      "source_ids": [
+        "S24",
+        "S13",
+        "S18"
+      ],
+      "summary": "现代恒温同一份近理想气体PV恒定",
+      "classification": "现代物理",
+      "verification": "verified_modern"
+    },
+    {
+      "claim_id": "G03-15",
+      "source_ids": [
+        "S19",
+        "S21"
+      ],
+      "summary": "马略特论文集将热冷主题另列，下一章铺垫",
+      "classification": "史料与叙事衔接",
+      "verification": "verified_with_editorial_transition"
+    },
+    {
+      "claim_id": "G03-16",
+      "source_ids": [
+        "S18",
+        "S20",
+        "S23"
+      ],
+      "summary": "发现-验证-出版-命名是作者的分析框架",
+      "classification": "编辑性概括",
+      "verification": "editorial_synthesis"
+    }
+  ]
 }
