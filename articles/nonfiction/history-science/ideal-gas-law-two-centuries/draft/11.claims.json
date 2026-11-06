@@ -3,7 +3,212 @@
   "title": "1834年，克拉佩龙写下267",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "20条主张；原文中的R为给定气体参考量，而非现代普适摩尔常数；1837译本与史学交叉核证；独立审稿未进行。",
+  "claims": [
+    {
+      "claim_id": "G11-01",
+      "source_ids": [
+        "S63",
+        "S65"
+      ],
+      "summary": "1834克拉佩龙发表热的动力研究，《综合工科学校学报》页153—190",
+      "classification": "primary",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-02",
+      "source_ids": [
+        "S63",
+        "S60",
+        "S66"
+      ],
+      "summary": "重述卡诺1824研究，推进分析数学化",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-03",
+      "source_ids": [
+        "S63",
+        "S60",
+        "S66"
+      ],
+      "summary": "使用压强-体积坐标描绘热机工质循环",
+      "classification": "primary",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-04",
+      "source_ids": [
+        "S60",
+        "S64"
+      ],
+      "summary": "工质回到原状态但沿途膨胀、压缩所做净功可非零",
+      "classification": "modern",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-05",
+      "source_ids": [
+        "S60",
+        "S64"
+      ],
+      "summary": "现代W=∮p dV为循环曲线有向面积，非1834逐字公式",
+      "classification": "modern",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-06",
+      "source_ids": [
+        "S63",
+        "S64"
+      ],
+      "summary": "结合马略特与盖吕萨克两种经验定律处理同气量P,V,t",
+      "classification": "primary",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-07",
+      "source_ids": [
+        "S64",
+        "S63"
+      ],
+      "summary": "原式pv=[p0v0/(267+t0)](267+t)，R=p0v0/(267+t0)",
+      "classification": "primary",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-08",
+      "source_ids": [
+        "S01",
+        "S35",
+        "S02"
+      ],
+      "summary": "267来自历史温度膨胀经验系数的近似，不是0K实测",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-09",
+      "source_ids": [
+        "S64",
+        "S01"
+      ],
+      "summary": "当时R取决于选定气量与单位，非现代普适摩尔常数",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-10",
+      "source_ids": [
+        "S64",
+        "S01"
+      ],
+      "summary": "相同P,T改变气体数量及V，旧定义的R也改变",
+      "classification": "modern",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-11",
+      "source_ids": [
+        "S01",
+        "S41"
+      ],
+      "summary": "现代PV=nRT与n的摩尔标准属于后续概念",
+      "classification": "modern_history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-12",
+      "source_ids": [
+        "S60",
+        "S64"
+      ],
+      "summary": "克拉佩龙通过微小温差和体积变化推导循环功，不仅列出经验公式",
+      "classification": "primary",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-13",
+      "source_ids": [
+        "S60",
+        "S63"
+      ],
+      "summary": "蒸气液体两相分析引出相变平衡斜率及潜热关系",
+      "classification": "primary",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-14",
+      "source_ids": [
+        "S60",
+        "S64"
+      ],
+      "summary": "热素及旧的热函数Q理论仍有限制，后来部分推导被修正",
+      "classification": "historical",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-15",
+      "source_ids": [
+        "S60",
+        "S66"
+      ],
+      "summary": "论文为汤姆孙与克劳修斯阅读卡诺提供数学表达",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-16",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S35"
+      ],
+      "summary": "后来测量修正了267并向273靠近，非排版错误",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-17",
+      "source_ids": [
+        "S64",
+        "S38"
+      ],
+      "summary": "统一P,V,T经验关系需固定气体数量和理想适用条件",
+      "classification": "modern",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-18",
+      "source_ids": [
+        "S01",
+        "S60"
+      ],
+      "summary": "1834尚无现代气体分子统计理论和摩尔R",
+      "classification": "scope",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-19",
+      "source_ids": [
+        "S60",
+        "S64"
+      ],
+      "summary": "克拉佩龙蒸气部分不同符号R及潜热记号不可混为现代单一常数",
+      "classification": "notation",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G11-20",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "summary": "下一章追1850克劳修斯、1864及1873年摩尔化的常数演变",
+      "classification": "transition",
+      "verification": "preverified_in_research_scope"
+    }
+  ]
 }
