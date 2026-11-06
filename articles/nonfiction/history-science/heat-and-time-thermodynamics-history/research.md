@@ -108,3 +108,49 @@
 7. **物理教学计算**：理想吸水高度约10m、1m²压差约10万N、1000kg水提升30m约294kJ是采用现代力学和明确假设的后见解释，非历史实测数字。
 
 **下一阶段研究要求**：第02章需另行核查1765年瓦特原始模型、1769年专利、布莱克潜热与机械/商业贡献；01章核查不扩展为02—33章的事实批准。
+
+
+## 第02—04章｜三章批次事实研究与证据边界（2026-11-06）
+
+> 阶段：已围绕这三章逐项查证了可用的原始专利/论著、馆藏记录与学术研究；此处是前置研究记录，**不是独立全文审稿或全书证据批准**。源号 R34—R51；R02、R18、R20、R31、R32 亦可按已有档案复用。
+
+| ID | 来源和类别 | 主要支持范围 | 限制 |
+|---|---|---|---|
+| R34 | [James Watt, 1769 Patent No. 913, Method of Lessening the Consumption of Steam and Fuel（1855/1857官方重印）](https://www.dpma.de/docs/dpma/veroeffentlichungen/gb000176900913a_watt1769.pdf)（原始专利重印） | 第1—3原则：工作汽缸保热、独立低温冷凝器、抽出非凝气体；1769-01-05授权，1769-04-29登记 | 源文件为19世纪重印，不当作1769年亲笔原件；现代熵与能量公式非原文 |
+| R35 | [Powerhouse Collection, Specification of James Watt's separate condenser patent](https://collection.powerhouse.com.au/object/119115)（博物馆原始专利实物馆藏） | 1769年专利原始实物与技术原则；七项原则及保护时间 | 明确馆藏页纸来源，区别后世重印 |
+| R36 | [Science Museum, James Watt and the separate condenser, Ben Russell (2019)](https://blog.sciencemuseum.org.uk/james-watt-and-the-separate-condenser/)（博物馆专题研究） | 1765模型、1769专利、反复冷热问题、改良机器可显著节煤；早期模型鉴定纠误 | 博物馆的约2/3节煤为概括范围，不直接等于所有年代机器效率=3倍 |
+| R37 | [Science Museum Group, Watt's second separate condenser, 1765](https://collection.sciencemuseumgroup.org.uk/objects/co50928/watts-second-separate-condenser-1765-condensers)（博物馆器物） | 1765年模型、独立冷凝器原理、曾被误认首模型 | 此件是第二模型，绝不称为第一台商业蒸汽机 |
+| R38 | [University of Edinburgh, Joseph Black (1728–1799)](https://chem.ed.ac.uk/about-us/history/professors/joseph-black)（大学学术传记） | 布莱克在格拉斯哥研究潜热和比热，1762年讲述但生前未正式发表 | 与瓦特之间的影响存在复杂互动；不制造一对一‘某天授课’情节 |
+| R39 | [University of Glasgow, Notable Alumni—Joseph Black](https://special.lib.gla.ac.uk/schools/chemistry/abouttheschool/history/alumni/notablealumni/)（大学历史学术介绍） | 布莱克与瓦特保持交流、用量热试验建立潜热/比热 | 此校史介绍可支撑互动但不足以证明哪个人独自完成全部理论 |
+| R40 | [Science Museum Group, Matthew Boulton](https://collection.sciencemuseumgroup.org.uk/people/ap24713/boulton-matthew)（博物馆人物记录） | 1775博尔顿—瓦特合伙、专利延长、组织工厂制造、商业化 | 1776为首批工业使用年份，不把1765试验模型说成当年投入商业 |
+| R41 | [Stanford Encyclopedia of Philosophy, Philosophy of Chemistry §3.1 Caloric (rev. 2026)](https://plato.stanford.edu/entries/chemistry/index.html)（哲学史学术综述） | 拉瓦锡保留caloric热质；布莱克热容与潜热的影响；热质论存在解释能力与局限 | 现代哲学史的概括，不替代1783/1789原文 |
+| R42 | [Lavoisier, Elements of Chemistry (1789), English translation Project Gutenberg](https://www.gutenberg.org/files/30775/30775-h/30775-h.htm)（原始著作英译数字版） | 1789年热质元素框架、热量计描述、相变与化学反应 | 英译可能采用后世术语，涉及原话只能用释义或核对法文版 |
+| R43 | [Lavoisier and Laplace, Mémoire sur la chaleur (presented 1783), Laplace collected works transcribed](https://fr.wikisource.org/wiki/Page:Laplace_-_%C5%92uvres_compl%C3%A8tes%2C_Gauthier-Villars%2C_1878%2C_tome_10.djvu/165)（原始论文后世全集数字文本） | 1783合作研究、冰量热器、讨论热质/运动解释 | 材料被编入1780年科学院Mémoires卷且1784年印行；不要混同实际研究年份与卷年号 |
+| R44 | [David V. Fenby, Heat: Its measurement from Galileo to Lavoisier, Pure Appl. Chem. 59 (1987)](https://old.iupac.org/publications/pac/1987/pdf/5901x0091.pdf)（IUPAC专业历史综述） | 1760年代潜热与温度/热量区别、1783冰量热、发表年份辨析 | PDF网站可能阻止截图与直接访问，逐字校对以馆藏原文为准 |
+| R45 | [Royal Society Archives, Benjamin Thompson/Rumford 1798 paper L&P/11/43](https://catalogues.royalsociety.org/CalmView/Record.aspx?id=L%26P%2F11%2F43%26src%3DCalmView.Catalog)（皇家学会原始论文编目） | 1798年关于摩擦产热的论文、提出热是否为物质的挑战 | 历史实验仅讲科学论证，不给实操加工流程 |
+| R46 | [Humphry Davy, 1799 Essay on Heat, Light, and Combinations of Light, historical excerpt](https://web.lemoyne.edu/giunta/davyice.html)（1799原作摘录二次选本） | 摩擦使冰融化、讨论热为运动而非物质 | 冰摩擦实验发生在开放环境，不能写成‘真空中摩擦冰块’ |
+| R47 | [Nature (1926), Did Davy melt Ice by Friction in a Vacuum?](https://www.nature.com/articles/117519d0)（史学错误校正短文） | 区分摩擦冰融化的实验与另一项在抽空容器内的摩擦实验 | 以摘要/检索文摘为核对范围，不伪称核读受限正文 |
+| R48 | [Sadi Carnot, Réflexions sur la puissance motrice du feu (1824), French original](https://fr.wikisource.org/wiki/R%C3%A9flexions_sur_la_puissance_motrice_du_feu)（1824法文原著校读文本） | 冷热两热源、工作物质、可逆操作、用水轮落差类比、指出相同冷热条件下的最大动力 | 不把现代η=1−Tc/Th或成熟能量守恒说成卡诺1824原式 |
+| R49 | [Linda Hall Library, Sadi Carnot Scientist of the Day](https://www.lindahall.org/about/news/scientist-of-the-day/sadi-carnot/)（科学史馆藏解说） | 1824专著和原始机器图、当时热质视角 | 插图著作受图像许可限制，仓库仅链接不复制 |
+| R50 | [OpenStax University Physics Volume 2 §4.5 Carnot Cycle](https://openstax.org/books/university-physics-volume-2/pages/4-5-the-carnot-cycle)（现代大学物理教材） | 现代循环热机效率、可逆原理、绝对温度公式与适用条件 | 只作为现代语言回望，非1824年先人独立推导 |
+| R51 | [Wayne M. Saslow, A History of Thermodynamics: The Missing Manual, Entropy 22, 77 (2020)](https://www.mdpi.com/1099-4300/22/1/77)（开放学术历史综述） | Watt史、热质/运动两解释、Lavoisier-Laplace和卡诺研究历史 | 辅助相互印证，不把后见推导归为原创 |
+
+### 02｜瓦特与独立冷凝器：证据链
+1. 冷热矛盾：纽科门式缸内冷凝导致汽缸必须周期性冷却与复热（R31/R36/R37）。
+2. 格拉斯哥及人物：瓦特在18世纪60年代研究格拉斯哥大学的纽科门模型；布莱克在该校发展潜热/比热的测量思想，1762年讲述而**生前未正式刊发有关研究**（R38/R39）；不能把瓦特发明说成布莱克单向‘传授一个答案’。
+3. 1765模型与1769专利：R37为1765年的**第二**独立冷凝器模型；R34专利原始第1条保温，第2条分室凝结，第3条除去残余气体；1769-01-05专利授予、04-29登记（R34/R35/R36）。
+4. 商业化：1775年与博尔顿组建合伙并推动生产，1776年进入实际商业设备；专利不等于立即量产（R40/R36）。节煤比例属于特定对比概括，不等于所有条件固定常数。
+
+### 03｜热质论与量热：证据链
+1. 布莱克区别温度与吸收的热量，特别是水-冰与水-蒸汽相变在温度不变时仍需吸热；1762年曾报告，相关讲课资料后编纂，不能杜撰当年出版论文（R38/R41/R44）。
+2. 1783年拉瓦锡与拉普拉斯冰量热器研究，利用融冰量间接比较传热；1780卷年号/1783报告/1784正式印行需分别说明（R43/R44）。
+3. 1789年拉瓦锡将caloric热质纳入其化学框架；此为历史模型，不等同现代物质、能量或元素定义。1783合作论文对热质说/运动说仍存兼容讨论（R42/R43/R41/R51）。
+4. 伦福德1798年摩擦产热观察以及戴维1799年冰块摩擦融化是对流体说的挑战，但**不等于一夜彻底否证**；戴维冰块摩擦并非发生在真空环境（R45/R46/R47）。
+
+### 04｜卡诺普适极限：证据链
+1. 法文原著1824年开头谈到机器实际普及、缺乏完整热机普遍理论；讨论冷热源、从热到冷的过程与瀑布类比（R48；正文顺序不等于作者实验室行动时间）。
+2. 理想过程可倒转而不出现净额外变化，是其极限比较与反证思路的重要部分；同条件若某不可逆机胜过可逆机，组合反向过程会产生不允许的无偿机械收益。说明历史证法仍使用热质守恒假设（R48/R49/R51）。
+3. 原著不应写成‘卡诺1824年给出了η=1−Tc/Th’，那是后来基于绝对温度与两定律的现代形式；现代η表达仅可作后见公式并释义（R48/R50）。
+4. ‘工作物质无关’是**可逆极限原理**，不等于任何真实工质和机器在同一温差下都有同样实际效率；不许把温差线性比例当成卡诺原著结论（R48原文亦提示未知是否正比）。
+
+**待审区间**：本三章成文后仍需独立核查正文细节与引用位点，完成连续性/结构审稿前，workflow-state.review_status 保持 PENDING。05—33章未据此核验。
