@@ -88,7 +88,7 @@
 | 《几何原本》第十卷区分共同尺度与平方上的公度 | [Book X 定义与命题](https://www.euclids-elements.org/elements/books/bookX/)；[Henry Mendell 翻译说明](https://web.calstatela.edu/faculty/hmendel/Ancient%20Mathematics/Euclid/Euclid%20X/Euclid.10.Intro.html) | 用于准确区分长度公度、面积公度及其不同于现代有理数概念的范围 | 一手古典数学文本的现代译本 | 已对照 |
 | 第五卷可在不先给出分数的前提下比较比例 | [Book V 定义](https://www.euclids-elements.org/elements/books/bookV/) | 支持后续章节引入普遍比例理论；**本章仅做现代化直觉提示** | 一手文本的现代译本 | 已对照 |
 | 希帕索斯因泄露无理数遭处刑、是最早发现者 | [SEP Pythagoreanism](https://plato.stanford.edu/entries/pythagoreanism/)，2024修订版 | 没有古代来源直接建立希帕索斯与发现无理量的关联；后出的惩罚故事不同版本不一致 | 争议／传说 | **不得作为事实** |
-| $\\sqrt2$ 非有理数的现代反证、99/70及239/169的平方比较 | 算术推导，可逐项独立复核；[Harvard 课程笔记：近似方法](https://legacy-www.math.harvard.edu/archive/101_fall_03/Notes456.pdf) | 严格数学结论；本章记法属于现代教学，不等于历史原稿 | 现代数学重述 | 已计算复核 |
+| $\sqrt2$ 非有理数的现代反证、99/70及239/169的平方比较 | 算术推导，可逐项独立复核；[Harvard 课程笔记：近似方法](https://legacy-www.math.harvard.edu/archive/101_fall_03/Notes456.pdf) | 严格数学结论；本章记法属于现代教学，不等于历史原稿 | 现代数学重述 | 已计算复核 |
 
 ### 第01章保留的史实边界
 - 未给出“发现不可公度量的第一个人、确切年代、当场反应”；相应信息没有足够原始证据。
