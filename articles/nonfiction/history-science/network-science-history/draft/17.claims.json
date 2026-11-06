@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "17",
+  "claims": [
+    {
+      "claim_id": "NS-17-01",
+      "type": "historical_fact",
+      "statement": "Girvan and Newman published Community Structure in Social and Biological Networks in PNAS 99(12) pp7821-7826 on June 11 2002",
+      "source_ids": [
+        "S70"
+      ],
+      "locator": "PNAS original p7821 masthead, PubMed publisher",
+      "verification_status": "original_checked"
+    },
+    {
+      "claim_id": "NS-17-02",
+      "type": "historical_context",
+      "statement": "GN distinguished detection of unknown uneven sized network communities from prespecified balanced graph partitioning",
+      "source_ids": [
+        "S70",
+        "S72"
+      ],
+      "locator": "PNAS introduction and 2004 expanded work",
+      "verification_status": "source_supported"
+    },
+    {
+      "claim_id": "NS-17-03",
+      "type": "historical_priority",
+      "statement": "Wayne W Zachary published original karate club fission social network field study in J Anthropological Research 33(4) 452-473 in 1977",
+      "source_ids": [
+        "S71"
+      ],
+      "locator": "U Chicago publisher metadata and abstract",
+      "verification_status": "publisher_verified"
+    },
+    {
+      "claim_id": "NS-17-04",
+      "type": "historical_fact",
+      "statement": "Girvan Newman edge betweenness generalizes Freeman point betweenness to count shortest-path shares through each edge",
+      "source_ids": [
+        "S70",
+        "S35"
+      ],
+      "locator": "2002 PNAS algorithm section",
+      "verification_status": "original_checked"
+    },
+    {
+      "claim_id": "NS-17-05",
+      "type": "algorithm",
+      "statement": "GN repeatedly deletes maximal edge betweenness and recalculates betweennesses after every deletion, not one-time rankings",
+      "source_ids": [
+        "S70"
+      ],
+      "locator": "PNAS p7822 explicit algorithm steps",
+      "verification_status": "original_checked"
+    },
+    {
+      "claim_id": "NS-17-06",
+      "type": "complexity",
+      "statement": "Original 2002 GN implementation has single sweep O(mn) and worst-case full algorithm O(m²n) for n vertices m edges",
+      "source_ids": [
+        "S70"
+      ],
+      "locator": "PNAS p7822 time-complexity paragraph",
+      "verification_status": "original_checked"
+    },
+    {
+      "claim_id": "NS-17-07",
+      "type": "historical_data",
+      "statement": "GN paper analyzed unweighted Zachary 34-member karate club network, initial major split mismatched observed factions only at node 3",
+      "source_ids": [
+        "S70",
+        "S71"
+      ],
+      "locator": "PNAS p7823 Fig4 and paragraph",
+      "verification_status": "original_checked_with_scope"
+    },
+    {
+      "claim_id": "NS-17-08",
+      "type": "historical_data",
+      "statement": "GN paper examined 2000-season US college American football game schedule and recovered much conference grouping",
+      "source_ids": [
+        "S70"
+      ],
+      "locator": "PNAS pp7823-7824 Fig5",
+      "verification_status": "original_checked"
+    },
+    {
+      "claim_id": "NS-17-09",
+      "type": "mathematical_example",
+      "statement": "Two triangles ABC DEF joined only by CD: edge betweenness CD=9, AC=4, AB=1 when unordered vertex pairs each contribute unity",
+      "source_ids": [],
+      "locator": "original six vertex derivation and networkx-checkable",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-17-10",
+      "type": "mathematical_example",
+      "statement": "After removal of CD the two triangles separate, remaining triangle edges have betweenness one within their components",
+      "source_ids": [],
+      "locator": "direct shortest-path counting",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-17-11",
+      "type": "conceptual_caveat",
+      "statement": "Detected network partition need not reveal individual identity, sentiments or causal origin of actual group fission",
+      "source_ids": [
+        "S70",
+        "S71"
+      ],
+      "locator": "retrospective historical evidence versus causal inference",
+      "verification_status": "qualified_interpretation"
+    },
+    {
+      "claim_id": "NS-17-12",
+      "type": "historical_transition",
+      "statement": "2004 Newman Girvan method introduced explicit quality score for network community partition selection",
+      "source_ids": [
+        "S72"
+      ],
+      "locator": "Phys Rev E p1 abstract and modularity section",
+      "verification_status": "primary_source_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "The book-wide outline_approved/evidence_verified are currently false, so these are sourced research drafts, not approved chapters.",
+    "Independent cross-chapter continuity audit and developmental review still required before line-edit and final approval.",
+    "In formal evidence pass, separately validate original journal page figures and random-network normalization conventions."
+  ]
+}

@@ -234,3 +234,48 @@
 ### 版本与后续审校
 
 本批三章按非虚构来源链完整撰写，源论文的**期刊摘要、公开HTML全文及正式勘误文本**已经核对，附有可重复计算的现代数学例子；不声称已完成所有出版前页码核读或独立审稿。由于仓库主工作流仍未通过提纲与全书证据审批，本轮不修改 \`workflow-state.json\`，不填写 \`final.md\`。正式编辑时仍须检查 Kleinberg 不同参数设定的精确条件、2000年鲁棒论文与2001勘误图版、Newman度相关系数在不同权重和方向约定下的定义。
+
+
+## 第17—19章增量研究：社群发现、模块度、Louvain与网络模体（2026-11-06）
+
+> 依据仓库非虚构研究写作契约，增量核对原始期刊论文、出版机构题录及关键统计机制。此处“checked”严格限于本批来源所支持的具体论断，**并不等于整书 outline_approved、evidence_verified 或 review_status 已获批准**。三章逐项主张与核验位置见 draft/17.claims.json、draft/18.claims.json、draft/19.claims.json。
+
+| 来源ID | 原始文献与可访问资料 | 证据定位、范围及限制 |
+|---|---|---|
+| **S70** | Michelle Girvan & M. E. J. Newman, [“Community Structure in Social and Biological Networks,” *PNAS* 99(12), 7821—7826](https://doi.org/10.1073/pnas.122653799)；[开放全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC122977/)；[原刊扫描PDF](https://gchockler.com/wp-content/uploads/2017/06/PNAS-2002-Girvan-7821-6.pdf) | **2002年6月11日**。p7822明确边介数（所有最短路径在边上的份额）、每删一条边后重算；时间上界 O(m²n)。p7823图4：34人扎卡里空手道俱乐部，首次主要划分与历史阵营**仅节点3不一致**；p7823—24还验证了**2000赛季美国大学美式橄榄球赛程**的联盟分组。使用旧社会调查的**回顾性**检验，非2002新组织的现场实验。原刊首页及方法关键页已核。 |
+| **S71** | Wayne W. Zachary, [“An Information Flow Model for Conflict and Fission in Small Groups,” *Journal of Anthropological Research* 33(4), 452—473](https://doi.org/10.1086/jar.33.4.3629752) | **1977年12月1日**；芝加哥大学出版社摘要和元数据。原始观察的空手道俱乐部人际关系及俱乐部分裂，采用信息流分析；2002年论文只是重新利用数据集。**原始研究的时间区间与GN论文文字有差异：扎卡里原文提及1970—1972年的三年观察，GN概述中称两年；正式史实审核应按原始论文确认具体起止，正文只说长期观察。** |
+| **S72** | M. E. J. Newman & M. Girvan, [“Finding and Evaluating Community Structure in Networks,” *Physical Review E* 69, 026113](https://doi.org/10.1103/PhysRevE.69.026113)；[全文镜像PDF](https://www.bebr.ufl.edu/sites/default/files/Newman%20e%20Girvan%20%282004%29%20Finding%20and%20evaluating%20community%20structure%20in%20networks.pdf) | **2004年2月26日**；期刊官方摘要明确边介数反复重算及用于选择群体数量的客观评分函数；原文的模块度 Q 与配置模型式度数预期对应。本文使用现代标准的等价式 Q=sum_c(lc/m-(dc/2m)^2)，不能将后世统一符号冒充2002原刊的写法。 |
+| **S73** | Vincent D. Blondel, Jean-Loup Guillaume, Renaud Lambiotte & Etienne Lefebvre, [“Fast Unfolding of Communities in Large Networks,” *Journal of Statistical Mechanics* (2008) P10008](https://doi.org/10.1088/1742-5468/2008/10/P10008)；[作者机构馆藏原刊PDF](https://pure.unamur.be/ws/portalfiles/portal/1384844/fast.pdf) | **2008年10月9日正式发表**，论文第一阶段逐节点向邻居社群试验正向模块度改进；第二阶段将社群合并为含自环的加权超级节点并重复。**发表版摘要**举例约200万比利时移动通信客户、1.18亿节点Web图（超过十亿链接）；arXiv 0803.0476预印本有不同通信客户数量表述，正文以正式版为准。此为启发式，不保证全局最优。 |
+| **S74** | Santo Fortunato & Marc Barthélemy, [“Resolution Limit in Community Detection,” *PNAS* 104(1):36—41](https://doi.org/10.1073/pnas.0605965104) | **2006年12月26日在线、2007年1月2日刊期**；揭示基于全网模块度优化可能无法分辨小社群，与全图总边数相关。正文的十组三角形环是按该机制**自行构造和数值验证**，并非照录原论文图示。 |
+| **S75** | V. A. Traag, L. Waltman & N. J. van Eck, [“From Louvain to Leiden: Guaranteeing Well-Connected Communities,” *Scientific Reports* 9:5233](https://doi.org/10.1038/s41598-019-41695-z) | **2019年3月26日**；原文明确Louvain可产生连通性很差、乃至不连通的社群；Leiden加入细化环节以提供连通性保证。**后见之明**，不能冒称2008年原作者已经解决。 |
+| **S76** | Ron Milo, Shai Shen-Orr, Shmoolik Itzkovitz, Nadav Kashtan, Dmitri Chklovskii & Uri Alon, [“Network Motifs: Simple Building Blocks of Complex Networks,” *Science* 298(5594):824—827](https://doi.org/10.1126/science.298.5594.824)；[原刊扫描PDF](https://www.cs.cornell.edu/courses/cs6241/2019sp/readings/Milo-2002-motifs.pdf) | **2002年10月25日**；p825明确枚举3、4节点子图（13种连通三点类型、199种四点类型）、同度数入出边随机化和控制 n−1 子图的规则，使用随机化尾部概率 P<0.01 作为判据；转录调控网络的前馈环与bi-fan、食物网的不同显著模式及神经/工程网络比较。原刊方法页图2已核，不要把“图案多”直接当功能或因果证据。 |
+| **S77** | W. O. Kermack & A. G. McKendrick, [“A Contribution to the Mathematical Theory of Epidemics,” *Proceedings of the Royal Society A* 115:700—721](https://doi.org/10.1098/rspa.1927.0118) | **1927**；第五部第20章的前置史料入口。用于说明下一章将有意识回溯经典流行病模型前史，不将1927理论误写为网络模体论文的后续发展。 |
+
+### 第17章：边介数划分及实际验证口径
+
+- GN **2002年PNAS论文**与纽曼—吉尔文**2004年PRE方法论文**应当分开标注。2002已提出边介数+删除后重新计算的分裂式算法；2004系统提出评分体系和算法扩展。
+- 教学图“两组三角形通过唯一桥C—D相连”在未归一化、无向图、无序节点对定义下：桥介数为3×3=9；内部边A—C为4；A—B为1。删桥后各三角形内边介数重置为1。**是作者原创数学例子，非原始扎卡里样本。**
+- **扎卡里1977研究在先、GN 2002回顾检验在后**。实际阵营对照仅节点3错分，是34人历史案例中的表现，而不是普遍预测准确率。
+- 2002原论文还用2000大学美式橄榄球赛程对照联盟，不能把比赛关系写成私人友谊。
+
+### 第18章：模块度、算法和分辨率限制
+
+- 对简单无向 m>0 网络，Q=(1/2m)sum_{ij}[Aij-ki*kj/(2m)]delta(ci,cj)=sum_c[lc/m-(dc/(2m))²]；正项是真实组内边，减项来自保留节点度数预期的零模型。
+- 两组三角+一条桥总m=7：单组Q=0，分两三角Q=2(3/7−(7/14)²)=**5/14≈0.357**。作者教学示例。
+- **十组三角环**：K=10，总m=40；各自划分Q=0.650；合并相邻两个三角形Q=0.655；一般K个三角时 ∆Q=(K−8)/(4K²)，K>8正。独立计算核对K=8、9、10、12。该例展示模块度**全局尺度限制**，不是说所有算法都会必然输出相同并组。
+- 2008 Louvain先局部移动、后聚合社群；访问顺序可能影响输出，不保证全局最优。2008原稿对多层缩放“可能缓解”分辨率问题的讨论**不能抹去2007目标函数的数学限制**。2019 Leiden进一步指出连通性缺陷，来自后世独立研究。
+
+### 第19章：模体频率与合理零模型
+
+- 原论文6位作者，在Science **2002年10月25日**发表。枚举有向3、4点子图，与保留节点入度、出度且进一步考虑较小子图频率的随机对照比较，按规定的随机化尾部概率识别显著过量的局部模式；绝非只要出现次数多就叫模体。
+- 三节点标号有向图有6条候选箭头，存在2^6=64种标号边集合；在非同构和连通约束下另有13类三点模式。定义和分母不可混用。
+- 前馈环FFL边为A→B、B→C、A→C，**是无有向环路的前馈三角**，不是A→B→C→A的反馈循环。
+- **本书教学图**：G甲七边 {AB,AC,BC,DE,DF,EF,CD} 含2个FFL。将AB与DE的终点互换，得到G乙 {AE,AC,BC,DB,DF,EF,CD}，所有节点的入/出度分别保持不变，FFL数降为0。已逐一枚举确认。
+- 教学用 Z=(真实数−随机均值)/随机标准差 说明标准化偏离，但2002正式判据是随机化**尾部概率P<0.01**，二者不可当作同一判定。不同随机网络约束、模体计数是诱导还是非诱导、模拟次数与多重检验会影响结果。
+- 生物调控网络的FFL与bi-fan等特定结构频次是**统计规律**，并不自动证明选择、功能、行为动力学或因果方向；物种与电路、网页的连接语义不同。
+
+### 后续需审稿的限定问题
+
+- 全书正式审稿尚未开始；不擅自更改 workflow-state.json（outline_approved=false, evidence_verified=false, review_status=PENDING），亦不称任何章节为最终出版稿。
+- 独立连续性审计需检查17—19章术语：桥/局部桥/边介数、聚类/社群、零模型/配置模型、模块度/模体显著性之间不混淆。
+- 正式事实编辑须进一步复核Zachary 1977观察期原刊措辞、PNAS原刊图4、JSTAT版本间人数差异，以及Milo模体原始n−1子图控制的适用条件。
