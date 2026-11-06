@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "linear-algebra-history",
   "title": "从方程到空间：一部线性代数思想发展史",
-  "reading_notice": "第01—17章已有17篇带逐章史料映射的历史非虚构正文初稿；序章、尾声及第18—32章共17个章节位置仍为策划占位。来源和数学核查不等于独立双审或终稿批准。",
+  "reading_notice": "第01—20章已有20篇含逐章史料映射的历史非虚构正文初稿；序章、尾声及第21—32章共14个章节位置仍为策划占位。来源与数学核查不等于独立双审或终稿批准。",
   "chapters": [
     {
       "id": "prologue",
@@ -135,21 +135,21 @@
       "title": "柯西1829：寻找不改变方向的向量",
       "part": "第五部｜寻找不变的方向",
       "file": "draft/18.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-19",
       "title": "若尔当1870：不能对角化怎么办",
       "part": "第五部｜寻找不变的方向",
       "file": "draft/19.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-20",
       "title": "希尔伯特与施密特：无限维也能谈谱吗",
       "part": "第五部｜寻找不变的方向",
       "file": "draft/20.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-21",
