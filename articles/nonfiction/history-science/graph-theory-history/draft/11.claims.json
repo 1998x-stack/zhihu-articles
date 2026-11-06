@@ -1,11 +1,105 @@
 {
   "chapter": "11",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S07"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "原刊1927卷期页及现代Menger定理的非邻接端点条件、点/边版本限定核对；最大流为后世解释",
+  "claims": [
+    {
+      "claim_id": "GT11-01",
+      "claim": "1927 Menger论文题录及一般曲线理论的历史语境",
+      "source_ids": [
+        "S61"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT11-02",
+      "claim": "非邻接s,t的最大内部点不交路数等于最小内部点割",
+      "source_ids": [
+        "S62",
+        "S63"
+      ],
+      "status": "THEOREM_MODERN"
+    },
+    {
+      "claim_id": "GT11-03",
+      "claim": "内部点不交路径vs边不交路径，点割与边割的区别",
+      "source_ids": [
+        "S62",
+        "S63"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT11-04",
+      "claim": "多条路径可以共享中转节点并不形成独立冗余",
+      "source_ids": [
+        "S62"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT11-05",
+      "claim": "最大内部点不交路数≤最小点割大小的简单证明及充分方向难度",
+      "source_ids": [
+        "S62",
+        "S63"
+      ],
+      "status": "MODERN_PROOF_SCOPE"
+    },
+    {
+      "claim_id": "GT11-06",
+      "claim": "x和y双瓶颈例的路径数2、点割数2",
+      "source_ids": [
+        "S62"
+      ],
+      "status": "MODERN_EXAMPLE"
+    },
+    {
+      "claim_id": "GT11-07",
+      "claim": "邻接s,t之间直接边不能删除内部顶点断开，因此需要非邻接前提",
+      "source_ids": [
+        "S62"
+      ],
+      "status": "BOUNDARY_CASE"
+    },
+    {
+      "claim_id": "GT11-08",
+      "claim": "边不交路径最大数=最小边割大小，区别于顶点版本",
+      "source_ids": [
+        "S64",
+        "S63"
+      ],
+      "status": "THEOREM_MODERN"
+    },
+    {
+      "claim_id": "GT11-09",
+      "claim": "顶点拆分单位容量+最大流最小割的后世证明框架",
+      "source_ids": [
+        "S62",
+        "S64"
+      ],
+      "status": "MODERN_METHOD"
+    },
+    {
+      "claim_id": "GT11-10",
+      "claim": "k顶点连通及任意两顶点k条内部点不交路径的等价条件",
+      "source_ids": [
+        "S62",
+        "S63"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT11-11",
+      "claim": "门格尔与匹配问题现代联系不等于历史直接合作",
+      "source_ids": [
+        "S64",
+        "S68"
+      ],
+      "status": "HISTORICAL_BOUNDARY"
+    }
   ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "note": "教学例子与证明框架是现代重构；非1927逐字原作。"
 }
