@@ -1,7 +1,249 @@
 {
   "chapter": "06",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅06章研究矩阵的20条核心主张完成前置资料查验，不等于全文已审稿；第08—33章未被本批覆盖",
+  "claims": [
+    {
+      "claim_id": "T06-01",
+      "claim": "Julius Robert Mayer为医生，其1842年论文研究自然界作用量/能量形式转化",
+      "type": "historical_fact",
+      "source_ids": [
+        "R56",
+        "R57"
+      ],
+      "locator": "论文题名作者刊期",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-02",
+      "claim": "1842论文题名Bemerkungen über die Kräfte der unbelebten Natur刊于Annalen卷42 pp233—240",
+      "type": "bibliography",
+      "source_ids": [
+        "R56",
+        "R57"
+      ],
+      "locator": "原文首页与Wiley条目",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-03",
+      "claim": "该论文末页标示1842年5月31日",
+      "type": "bibliography",
+      "source_ids": [
+        "R56"
+      ],
+      "locator": "Mayer p240页脚",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-04",
+      "claim": "迈尔论述原因与结果的定量关系、形式转变与不灭思想，Kraft非简单现代F=ma",
+      "type": "history_of_science",
+      "source_ids": [
+        "R56",
+        "R02"
+      ],
+      "locator": "原文pp233—239",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-05",
+      "claim": "迈尔以落下的重物、水轮和蒸汽机说明机械作用与热可能相互转换",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R56"
+      ],
+      "locator": "Mayer p239",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-06",
+      "claim": "迈尔使用气体定压与定容热容量差别作为热与膨胀功联系的线索",
+      "type": "historical_physics",
+      "source_ids": [
+        "R56",
+        "R02"
+      ],
+      "locator": "Mayer p240; Saslow",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-07",
+      "claim": "对理想气体从同一初态升高相同ΔT，定压比定容多的热量对应边界膨胀功",
+      "type": "modern_physics",
+      "source_ids": [
+        "R56",
+        "R20"
+      ],
+      "locator": "后见Qp−Qv=pΔV，条件限定",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-08",
+      "claim": "迈尔原文采用约1.421的空气热容量比值",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R56"
+      ],
+      "locator": "Mayer p240",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-09",
+      "claim": "迈尔原文估计同重物体下落约365米，对应同重水从0℃升至1℃的热量",
+      "type": "primary_source_numeric",
+      "source_ids": [
+        "R56"
+      ],
+      "locator": "Mayer p240图像",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-10",
+      "claim": "以1kg重物为示例，365kgf·m约3.58kJ，属于现代单位重述",
+      "type": "modern_conversion",
+      "source_ids": [
+        "R56"
+      ],
+      "locator": "按标准g计算约3580J",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-11",
+      "claim": "现代1kg水升温1℃的热量依温区而异，约4.18kJ，不能把误差写成单一造假",
+      "type": "modern_physics",
+      "source_ids": [
+        "R20",
+        "R62"
+      ],
+      "locator": "热容随温度变化，现代大致值",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-12",
+      "claim": "1842的估计主要基于已知气体热容量数据与理论假定，非专门搅水直接测热功当量的实验",
+      "type": "historical_method",
+      "source_ids": [
+        "R56",
+        "R65"
+      ],
+      "locator": "原著方法与教研史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-13",
+      "claim": "迈尔所说的Kraft语义处于历史演变中，不应当译成‘牛顿力守恒’",
+      "type": "translation_boundary",
+      "source_ids": [
+        "R56",
+        "R02"
+      ],
+      "locator": "原始德文及史学讨论",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-14",
+      "claim": "迈尔的贡献不意味着在1842年已独自完成完整的第一与第二定律",
+      "type": "historical_boundary",
+      "source_ids": [
+        "R56",
+        "R02"
+      ],
+      "locator": "与1850 Clausius、1851 Thomson区分",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-15",
+      "claim": "焦耳在其1850论文引言中承认包括迈尔在内的相关先驱工作",
+      "type": "primary_source_fact",
+      "source_ids": [
+        "R58",
+        "R59"
+      ],
+      "locator": "Joule 1850前言",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-16",
+      "claim": "能源守恒的归属涉及迈尔、焦耳、赫尔姆霍茨及其他人的不同贡献，不能用单人发明论取代",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R02",
+        "R58"
+      ],
+      "locator": "Saslow历史综述和Joule评论",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-17",
+      "claim": "迈尔1842估计与焦耳后来的实验值不同；可比较数值但不应视为同法测量",
+      "type": "historical_comparison",
+      "source_ids": [
+        "R56",
+        "R59"
+      ],
+      "locator": "原文p240 vs Joule Table IX",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-18",
+      "claim": "本章的重物与水质量算例非迈尔亲自演示的实验或历史记录",
+      "type": "editorial_model",
+      "source_ids": [
+        "R56",
+        "R20"
+      ],
+      "locator": "后见概念理解",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-19",
+      "claim": "迈尔论文不允许推出任何真实热机可把全部热输入转功，第二定律另有限制",
+      "type": "modern_boundary",
+      "source_ids": [
+        "R20",
+        "R02"
+      ],
+      "locator": "热机循环第二定律",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T06-20",
+      "claim": "转向焦耳是从间接物性推算到跨机制可复验的定量测量，属于因果叙事组织",
+      "type": "editorial_framing",
+      "source_ids": [
+        "R56",
+        "R58",
+        "R65"
+      ],
+      "locator": "研究路径对照",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "史学争议保留限制性陈述；历史语义与现代公式分开",
+    "不编造人物私下对话、心理及实验数字",
+    "研究准备状态，正文须另行落库，审稿仍为PENDING"
+  ]
 }
