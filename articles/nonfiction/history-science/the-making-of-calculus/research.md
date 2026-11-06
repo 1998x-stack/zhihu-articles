@@ -161,3 +161,6 @@
 - 06：1638出版不等于当年首次做斜面研究；速度三角形与平均速度定理不等于现存现代导数定义。
 - 07：1615作品早于1638伽利略专著；篇章排序是主题组织。桶的切片是历史观点，现代体积分及球体验算应清楚分层。
 - 章05—07仅属 **DRAFT_UNREVIEWED** 候选研究；项目仍 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING`，不能据单章核查宣称全书闸门 PASS。
+
+- **H49** [Merton College, Oxford｜*The Merton Calculators*](https://www.merton.ox.ac.uk/sites/default/files/inline-files/The%20Merton%20Calculators.pdf)；对14世纪威廉·海茨伯里与默顿平均速度定理的学术教育综述。可与伽利略1638年的第三日文本比对，证明“平均速度定理”不能完全视为伽利略首创；无需声称现代公式是中世纪原文。来源定位：平均速度定理一节。
+
