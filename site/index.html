@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#152128">
+  <meta name="description" content="一座为中文原创故事、历史与科学写作而建的数字书房。按题材浏览书架，收藏下一本值得阅读的作品。">
+  <title>纸间书房 · The Reading Room</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <script src="./assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#library">跳转至书架</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="纸间书房首页">
+        <span class="brand-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="brand-name">纸间<span>书房</span><small>THE READING ROOM</small></span>
+      </a>
+      <nav class="top-nav" aria-label="主导航">
+        <a class="nav-active" href="#library">馆藏书架</a>
+        <a href="#about">关于书房</a>
+        <a href="https://github.com/1998x-stack/zhihu-articles" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+      <button class="theme-switch" type="button" id="theme-toggle" aria-label="切换明暗主题" title="切换明暗主题">
+        <span class="theme-sun" aria-hidden="true">☼</span>
+        <span class="theme-moon" aria-hidden="true">☾</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="overline"><span class="overline-line"></span> A COLLECTION OF STORIES & IDEAS</div>
+          <p class="hero-edition">VOL. 001 / 数字书房</p>
+          <h1 id="hero-title">让每一个故事，<br>都拥有自己的<span>书架。</span></h1>
+          <p class="hero-intro">那些追问世界的故事，那些在历史深处闪光的瞬间。<br>在这里，它们不再只是文件，而是等待翻开的书。</p>
+          <a class="hero-cta" href="#library">走进书房 <span aria-hidden="true">↗</span></a>
+          <div class="hero-stats" aria-label="书房馆藏概览">
+            <div><strong id="genre-count">10</strong><span>主题分类</span></div>
+            <span class="stat-rule" aria-hidden="true"></span>
+            <div><strong id="book-count">—</strong><span>在架作品</span></div>
+            <span class="stat-rule" aria-hidden="true"></span>
+            <div><strong>∞</strong><span>值得探索</span></div>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-book art-book-back"><span>MATHEMATICS</span><b>失去<br>确定性</b><i>THE LOSS OF CERTAINTY</i></div>
+          <div class="art-book art-book-mid"><span>A GLOBAL HISTORY</span><b>信用<br>债务<br>与权力</b><i>CREDIT · DEBT · POWER</i></div>
+          <div class="art-book art-book-front"><span>THE EMPTY SPACES</span><b>空<br>位</b><i>MENDELEEV & THE ELEMENTS</i></div>
+          <div class="art-ground"></div>
+          <span class="art-note">WORDS BECOME WORLDS.</span>
+        </div>
+      </section>
+
+      <section class="library-section" id="library" aria-labelledby="library-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">EXPLORE THE COLLECTION</p>
+            <h2 id="library-title">分类书架<span class="heading-dot">.</span></h2>
+            <p>循着兴趣找一本书，或者让一本书带你去往新的领域。</p>
+          </div>
+          <div class="result-summary" id="result-summary" aria-live="polite">正在整理馆藏…</div>
+        </div>
+        <div class="library-toolbar">
+          <label class="search-field" for="book-search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.5" stroke-width="1.7"/><path d="m16 16 5 5" stroke-width="1.7" stroke-linecap="round"/></svg>
+            <input id="book-search" type="search" placeholder="搜索书名、作者、主题关键词…" autocomplete="off">
+            <span class="search-shortcut" aria-hidden="true">⌕</span>
+          </label>
+          <button type="button" class="clear-filter" id="clear-filter" hidden>清除筛选 ×</button>
+        </div>
+        <div class="mobile-categories" id="mobile-categories" aria-label="按题材选择分类"></div>
+        <div class="library-layout">
+          <aside class="category-panel" aria-label="主题分类">
+            <div class="side-label">THE SHELVES <span>馆藏目录</span></div>
+            <nav id="category-nav" class="category-nav" aria-label="分类书架"></nav>
+            <div class="side-note"><span>✳</span><p>好书不必匆忙。<br>每一页，都值得细读。</p></div>
+          </aside>
+          <div class="shelves-container" id="shelves">
+            <div class="loading-state">正在打开书房的门…</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="about-symbol" aria-hidden="true">“</div>
+        <div><p class="section-kicker">A NOTE FROM THE LIBRARY</p><h2 id="about-title">故事可以有终章，探索没有。</h2><p>这里收录原创长篇、专题连载与知识叙事。按题材归架，以封面辨认作品，以真实创作进度标识状态。封面将随作品陆续补全；未完成的书也能先在书架上拥有位置。</p></div>
+        <a href="https://github.com/1998x-stack/zhihu-articles" target="_blank" rel="noopener noreferrer" class="about-link">查看写作工程 <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+    <footer class="site-footer"><span>© <span id="year">2026</span> 纸间书房 · The Reading Room</span><span>独立创作项目 · 非知乎官方站点 · 草稿不等于正式出版</span><a href="#hero-title">回到顶部 ↑</a></footer>
+  </div>
+
+  <dialog class="book-dialog" id="book-dialog" aria-labelledby="dialog-title">
+    <button id="dialog-close" class="dialog-close" type="button" aria-label="关闭详情">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+</body>
+</html>
