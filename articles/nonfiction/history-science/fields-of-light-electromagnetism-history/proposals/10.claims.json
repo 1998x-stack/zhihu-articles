@@ -1,0 +1,207 @@
+{
+  "chapter": "10",
+  "title": "1831年，为什么电流只闪动了一瞬",
+  "kind": "independent_nonfiction_chapter_candidate",
+  "manuscript_path": "proposals/10.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_CHECK",
+  "claims": [
+    {
+      "claim_id": "E10-01",
+      "claim": "法拉第1831年8月29日使用感应环获得短暂感应信号",
+      "claim_kind": "原件馆藏事实",
+      "source_ids": [
+        "S10-01",
+        "S10-03"
+      ],
+      "manuscript_section": "一、三",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E10-02",
+      "claim": "法拉第在1820年代曾有相关但未成功的研究尝试",
+      "claim_kind": "1870传记与研究回顾",
+      "source_ids": [
+        "S10-02"
+      ],
+      "manuscript_section": "二",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E10-03",
+      "claim": "感应环有电气上分开的两组导线，通过磁环境关联",
+      "claim_kind": "原始实物结构",
+      "source_ids": [
+        "S10-01"
+      ],
+      "manuscript_section": "三",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E10-04",
+      "claim": "原线圈电流建立、稳定和消失对应检测侧瞬变、归零、反向瞬变",
+      "claim_kind": "现代互感解释",
+      "source_ids": [
+        "S10-01",
+        "S10-04"
+      ],
+      "manuscript_section": "三、四",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E10-05",
+      "claim": "法拉第1831年10月磁体线圈相对运动装置引出检测信号",
+      "claim_kind": "原始实物馆藏",
+      "source_ids": [
+        "S10-05"
+      ],
+      "manuscript_section": "五",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E10-06",
+      "claim": "磁通定义ΦB=∫B·dA，变化可以来自B、A、取向的改变",
+      "claim_kind": "现代物理概念",
+      "source_ids": [
+        "S10-04"
+      ],
+      "manuscript_section": "六",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E10-07",
+      "claim": "静态磁通并非单独产生持续感应电动势的充分条件",
+      "claim_kind": "现代实验定律",
+      "source_ids": [
+        "S10-04"
+      ],
+      "manuscript_section": "四、六",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E10-08",
+      "claim": "现代感应电动势ε=−dΦB/dt及N匝幅值公式，非1831原始排版",
+      "claim_kind": "现代物理表达及历史边界",
+      "source_ids": [
+        "S10-04"
+      ],
+      "manuscript_section": "七",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E10-09",
+      "claim": "感应电动势不必然形成电流，闭合路径及回路性质另有限制",
+      "claim_kind": "现代回路解释",
+      "source_ids": [
+        "S10-04"
+      ],
+      "manuscript_section": "七",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E10-10",
+      "claim": "1831年11月24日宣读、1832卷刊印、1832年3月5日存在审稿报告",
+      "claim_kind": "原始档案发表时间线",
+      "source_ids": [
+        "S10-06",
+        "S10-07"
+      ],
+      "manuscript_section": "八",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E10-11",
+      "claim": "Joseph Henry有独立感应及自感研究，时间、公布先后须区分",
+      "claim_kind": "研究归属史",
+      "source_ids": [
+        "S10-08",
+        "S10-09"
+      ],
+      "manuscript_section": "九",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E10-12",
+      "claim": "1831结果为电生磁后磁变生电的实验证据，但未完成麦克斯韦场论",
+      "claim_kind": "科学史解释",
+      "source_ids": [
+        "S10-01",
+        "S10-04"
+      ],
+      "manuscript_section": "十",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S10-01",
+      "title": "Royal Institution: Faraday Ring-Coil Apparatus",
+      "url": "https://www.rigb.org/explore-science/explore/collection/michael-faradays-ring-coil-apparatus",
+      "type": "原始实物馆藏",
+      "verification_scope": "1831年8月和8月29实验、两组线圈与短暂感应信号"
+    },
+    {
+      "source_id": "S10-02",
+      "title": "Cambridge: The Life and Letters of Faraday Vol.2 Ch.1",
+      "url": "https://www.cambridge.org/core/books/abs/life-and-letters-of-faraday/18311840-to-aet-49/C22CFC6B62D71DBC160081BBEA824B6F",
+      "type": "1870传记的2011再版节录",
+      "verification_scope": "前期失败尝试与1831时间线；传记并非实验日记原件"
+    },
+    {
+      "source_id": "S10-03",
+      "title": "Cavicchi 2006 Coiled Instruments and Induction",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00033790600741018",
+      "type": "同行评议科学史论文",
+      "verification_scope": "1831年日记、感应环与1832印本；原始材料需进一步核对"
+    },
+    {
+      "source_id": "S10-04",
+      "title": "OpenStax: Faraday's Law §13.1",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law",
+      "type": "现代大学物理教材",
+      "verification_scope": "互感、开关瞬变、运动磁铁与线圈、磁通和磁通变化率"
+    },
+    {
+      "source_id": "S10-05",
+      "title": "Royal Institution: Faraday's Generator",
+      "url": "https://www.rigb.org/explore-science/explore/collection/michael-faradays-generator",
+      "type": "1831原仪器馆藏",
+      "verification_scope": "标记1831年10月、磁体相对线圈运动的仪器"
+    },
+    {
+      "source_id": "S10-06",
+      "title": "Royal Society Archives: Experimental researches in electricity PT/20/4",
+      "url": "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=PT%2F20%2F4&src=CalmView.Catalog",
+      "type": "档案馆藏目录",
+      "verification_scope": "1831年11月24日宣读、1832年正式刊出；原稿全长109页"
+    },
+    {
+      "source_id": "S10-07",
+      "title": "Royal Society referee report RR/1/62",
+      "url": "https://makingscience.royalsociety.org/items/rr_1_62/referees-report-by-samuel-hunter-christie-and-john-bostock-on-a-paper-experimental-researches-in-electricity-by-michael-faraday",
+      "type": "学会一手审稿馆藏记录",
+      "verification_scope": "审稿报告日期1832年3月5日、推荐刊出；未逐页读15页手稿"
+    },
+    {
+      "source_id": "S10-08",
+      "title": "Smithsonian: Joseph Henry Electromagnetism",
+      "url": "https://siarchives.si.edu/history/featured-topics/henry/electromagnetism",
+      "type": "机构学术史综述",
+      "verification_scope": "Henry 1831尝试、1832公开、互感自感研究归属与争议"
+    },
+    {
+      "source_id": "S10-09",
+      "title": "Smithsonian: Joseph Henry Discovers Electromagnetic Induction",
+      "url": "https://siarchives.si.edu/collections/siris_sic_12470",
+      "type": "机构历史时间线",
+      "verification_scope": "Henry 1832研究论文书目和背景，需区分发现、公开与书目日期"
+    }
+  ],
+  "unresolved": [
+    "法拉第1831年8月29日日记原稿与皇家学会PT/20/4 109页全文逐页核对",
+    "1831年11月24日宣读、1832年刊出与第二组1832年1月宣读的版本严格分离",
+    "亨利1831—1832实验先后、论文日期、自感与互感贡献的学术史核证",
+    "正式版本不得把固定回路磁通法则、动生电动势和麦克斯韦方程混成一种历史表述"
+  ]
+}
