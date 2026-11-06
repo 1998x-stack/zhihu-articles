@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 15,
+  "current_revision": 18,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -347,11 +347,73 @@
         "F-1810"
       ],
       "next_question": "1907年美国信托公司挤兑为何推动流动性支持体系与美联储创设"
+    },
+    {
+      "chapter": "19",
+      "status": "draft-written",
+      "question": "1907纽约非会员信托公司的流动性危机为何推动美联储改革",
+      "next_question": "清末中国跨省汇兑与新式银行竞争为何遇到不同制度障碍",
+      "sources": [
+        "F-1901",
+        "F-1902",
+        "F-1903",
+        "F-1904",
+        "F-1905",
+        "F-1906",
+        "F-1907",
+        "F-1908",
+        "F-1909",
+        "F-1910"
+      ]
+    },
+    {
+      "chapter": "20",
+      "status": "draft-written",
+      "question": "票号和钱庄既能办理汇兑存贷为何仍遭遇新式银行与官款渠道冲击",
+      "next_question": "1914欧洲大战如何改变黄金法定承诺与实际支付体系",
+      "sources": [
+        "F-2001",
+        "F-2002",
+        "F-2003",
+        "F-2004",
+        "F-2005",
+        "F-2006",
+        "F-2007",
+        "F-2008",
+        "F-2009",
+        "F-2010",
+        "F-2011",
+        "F-2012"
+      ]
+    },
+    {
+      "chapter": "21",
+      "status": "draft-written",
+      "question": "1914年各国战争筹资如何撬动黄金兑换和纸币法律之间的关系",
+      "next_question": "1923德国恶性通胀为何使名义债权与实际购买力分离",
+      "sources": [
+        "F-2101",
+        "F-2102",
+        "F-2103",
+        "F-2104",
+        "F-2105",
+        "F-2106",
+        "F-2107",
+        "F-2108",
+        "F-2109",
+        "F-2110",
+        "F-2111"
+      ]
+    },
+    {
+      "chapter": "22",
+      "status": "outline-only",
+      "question": "1919—1924德国通胀与债务关系如何重组"
     }
   ],
-  "remaining_chapters": "19-40 outline-only",
+  "remaining_chapters": "23-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Prologue and chapters 01-18 have research-level drafts only; chapter 16-18 added at revision 15 with 46 claim mappings and 26 source records. Formal evidence verification and book-wide editorial/publication approval remain outstanding."
+  "notes": "Prologue and chapters 01-21 have research-level full drafts. Chapter 19-21 sources and claims indexed Revision 18. Primary verification and final approval pending."
 }

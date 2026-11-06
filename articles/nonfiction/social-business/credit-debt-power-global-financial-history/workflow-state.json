@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 15,
+  "current_revision": 18,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -48,9 +48,16 @@
     "CH16-SLAVERY-COMPENSATION-1835-CASH-ANNUITY-FULL-ACCOUNT",
     "CH17-RAILWAY-1846-BILL-AUTHORISATION-OPENINGS-TRIPLE-DATA",
     "CH18-BARING-1890-INTERNATIONAL-GOLD-AND-GUARANTEE-PRIMARY-EVIDENCE",
-    "CH16-18-ORIGINAL-PRIMARY-EDITION-INDEPENDENT-CHECK"
+    "CH16-18-ORIGINAL-PRIMARY-EDITION-INDEPENDENT-CHECK",
+    "CH19-1907-CLEARINGHOUSE-TRUST-PRIMARY-BOOKS",
+    "CH19-1908-1913-CENTRAL-BANK-ACT-EDITION",
+    "CH20-RISHENGCHANG-DATING-ORIGINAL-RECORDS",
+    "CH20-1907-08-GOVERNMENT-REMITTANCE-DENOMINATOR",
+    "CH20-1897-1908-NEW-BANK-CHARTERS",
+    "CH21-1914-GOLD-STATUTE-LAW-VS-PRACTICE",
+    "CH21-GOLD-EXPORT-AND-WAR-BOND-ARCHIVES"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Revision 15 chapter 16-18 research draft audited for institutional dates, source IDs, claims, and cross-chapter narrative. 26 references and 46 claims tracked. Archive originals and competing interpretations remain incompletely crosschecked. Reviews CHANGES_REQUIRED; book outline_approved=false/evidence_verified=false, final approval not granted."
+  "notes": "Research-level full drafts of chapters 19-21 added in Revision 18. 33 new source records and 58 chapter claim mappings. Original company ledgers, competing piaohao chronology, and 1914 gold laws vs actual use await full independent primary verification. outline_approved=false, evidence_verified=false, final_approved=false; CHANGES_REQUIRED."
 }
