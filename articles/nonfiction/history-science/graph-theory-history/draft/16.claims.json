@@ -1,12 +1,93 @@
 {
   "chapter": "16",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S12",
-    "S13"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Ramsey1930原刊出版商书目与MacTutor历史脉络，MathWorld现代数学陈述；五环和递推为现代独立推导，未完成原文逐页校勘",
+  "claims": [
+    {
+      "claim_id": "GT16-01",
+      "claim": "第三部托特1947后按专题回溯Ramsey1930的时间顺序",
+      "source_ids": [
+        "S78",
+        "S79"
+      ],
+      "status": "HISTORICAL_BOUNDARY"
+    },
+    {
+      "claim_id": "GT16-02",
+      "claim": "无论如何二染完全图的全称量词与红蓝三角形含义",
+      "source_ids": [
+        "S80"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT16-03",
+      "claim": "K5红色C5与蓝色补图C5均无三角形，故R(3,3)>5",
+      "source_ids": [
+        "S80"
+      ],
+      "status": "MODERN_EXAMPLE_PROOF"
+    },
+    {
+      "claim_id": "GT16-04",
+      "claim": "K6取任一点其5条边至少3同色，得单色三角形与R(3,3)=6",
+      "source_ids": [
+        "S80"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT16-05",
+      "claim": "F. P. Ramsey论文1930刊行于PLMS s2-30卷264—286，1928已宣读",
+      "source_ids": [
+        "S78",
+        "S79"
+      ],
+      "status": "PRIMARY_BIBLIO_AND_SECONDARY_HISTORY"
+    },
+    {
+      "claim_id": "GT16-06",
+      "claim": "Ramsey原论文聚焦形式逻辑，而六人聚会为后世现代化示例",
+      "source_ids": [
+        "S78",
+        "S79"
+      ],
+      "status": "HISTORICAL_INTERPRETATION_SCOPED"
+    },
+    {
+      "claim_id": "GT16-07",
+      "claim": "R(s,t)定义及团独立集补图等价，结论是析取而非合取",
+      "source_ids": [
+        "S80"
+      ],
+      "status": "MODERN_THEOREM"
+    },
+    {
+      "claim_id": "GT16-08",
+      "claim": "R(s,t)≤R(s-1,t)+R(s,t-1)及归纳证明有限性",
+      "source_ids": [
+        "S80"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT16-09",
+      "claim": "R(s,t)精确值需上界与下界交汇，五环用于避开目标结构",
+      "source_ids": [
+        "S80"
+      ],
+      "status": "MODERN_METHOD"
+    },
+    {
+      "claim_id": "GT16-10",
+      "claim": "禁三角形边数极值问题是下章研究切入，不等同拉姆齐二染问题",
+      "source_ids": [
+        "S80",
+        "S82"
+      ],
+      "status": "CROSS_CHAPTER_CONCEPT"
+    }
+  ]
 }
