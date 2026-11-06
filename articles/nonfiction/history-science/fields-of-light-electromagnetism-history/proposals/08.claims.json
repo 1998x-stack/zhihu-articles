@@ -1,0 +1,183 @@
+{
+  "chapter": "08",
+  "title": "欧姆的冒险：电流能用一个比例式解释吗",
+  "kind": "independent_nonfiction_chapter_candidate",
+  "manuscript_path": "proposals/08.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_CHECK",
+  "claims": [
+    {
+      "claim_id": "E08-01",
+      "claim": "1820年代电路磁效应测量受电流和导线条件影响",
+      "claim_kind": "物理历史背景",
+      "source_ids": [
+        "S08-01",
+        "S08-04"
+      ],
+      "manuscript_section": "一、二",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E08-02",
+      "claim": "欧姆1825年有导线长度与电磁作用相关研究；1826年论文推进传导理论",
+      "claim_kind": "科学史时间线",
+      "source_ids": [
+        "S08-01",
+        "S08-07"
+      ],
+      "manuscript_section": "三",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E08-03",
+      "claim": "科隆的学校实验条件帮助欧姆开展物理研究",
+      "claim_kind": "学术传记事实",
+      "source_ids": [
+        "S08-01"
+      ],
+      "manuscript_section": "三",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E08-04",
+      "claim": "欧姆1826年理论受傅里叶热传导数学思想影响",
+      "claim_kind": "科学史解释",
+      "source_ids": [
+        "S08-01"
+      ],
+      "manuscript_section": "四",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E08-05",
+      "claim": "欧姆1827年柏林出版Die galvanische Kette mathematisch bearbeitet",
+      "claim_kind": "初版馆藏书目",
+      "source_ids": [
+        "S08-02",
+        "S08-03"
+      ],
+      "manuscript_section": "五",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E08-06",
+      "claim": "当时数学化与理论表述的传播面临学术阻力，非无人理解的绝对化说法",
+      "claim_kind": "有界史学评价",
+      "source_ids": [
+        "S08-01"
+      ],
+      "manuscript_section": "五、九",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E08-07",
+      "claim": "现代V=IR适用于欧姆性元件的特定状态和范围",
+      "claim_kind": "现代物理定律",
+      "source_ids": [
+        "S08-04"
+      ],
+      "manuscript_section": "六、八",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E08-08",
+      "claim": "均匀导体R=ρL/A在固定材料温度等条件下成立",
+      "claim_kind": "现代物理模型",
+      "source_ids": [
+        "S08-05"
+      ],
+      "manuscript_section": "七",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E08-09",
+      "claim": "非欧姆器件和变化温度不能使用固定R的简单比例关系",
+      "claim_kind": "现代适用范围",
+      "source_ids": [
+        "S08-04",
+        "S08-05"
+      ],
+      "manuscript_section": "八",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E08-10",
+      "claim": "欧姆获1841科普利奖章、其职业认可有时间差",
+      "claim_kind": "学术传记与奖项",
+      "source_ids": [
+        "S08-01",
+        "S08-06"
+      ],
+      "manuscript_section": "九",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    },
+    {
+      "claim_id": "E08-11",
+      "claim": "下一章返回1821年讨论电磁旋转，早于1827欧姆专著",
+      "claim_kind": "专题回溯时间提示",
+      "source_ids": [
+        "S08-01"
+      ],
+      "manuscript_section": "十",
+      "verification": "来源覆盖范围已检查；一手原件逐页及争议细节仍待正式核证"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S08-01",
+      "title": "University of St Andrews MacTutor: Georg Simon Ohm",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ohm/",
+      "type": "学术传记",
+      "verification_scope": "1825、1826、1827时间线、数学化及傅里叶影响、科普利奖章；二手史学来源"
+    },
+    {
+      "source_id": "S08-02",
+      "title": "Smithsonian Libraries: Die galvanische Kette 1827 original",
+      "url": "https://library.si.edu/digital-library/book/diegalvanischeke00ohmg",
+      "type": "1827原著馆藏",
+      "verification_scope": "可验证作者、书名、出版年和数字馆藏；未对全书德文逐页查证"
+    },
+    {
+      "source_id": "S08-03",
+      "title": "HKUST Rare Books: Die galvanische Kette 1827",
+      "url": "https://doi.org/10.14711/spcol/b458365",
+      "type": "珍本馆藏书目",
+      "verification_scope": "原版书名、出版年、出版者、页数，限书目"
+    },
+    {
+      "source_id": "S08-04",
+      "title": "OpenStax: Ohm's Law, University Physics Vol.2 §9.4",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/9-4-ohms-law",
+      "type": "现代教材",
+      "verification_scope": "线性V-I、V=IR、非欧姆材料和温度边界；非1827历史原公式"
+    },
+    {
+      "source_id": "S08-05",
+      "title": "OpenStax: Resistivity and Resistance §9.3",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/9-3-resistivity-and-resistance",
+      "type": "现代教材",
+      "verification_scope": "R=ρL/A、温度、材质几何影响"
+    },
+    {
+      "source_id": "S08-06",
+      "title": "Royal Society: Copley Medal",
+      "url": "https://royalsociety.org/medals-and-prizes/copley-medal/",
+      "type": "学会奖项介绍",
+      "verification_scope": "说明科普利奖性质；此页面不能单独核实欧姆1841获奖，须与S08-01交叉"
+    },
+    {
+      "source_id": "S08-07",
+      "title": "Deutsche Biographie: Georg Simon Ohm",
+      "url": "https://www.deutsche-biographie.de/gnd118736116.html?language=en",
+      "type": "德语学术人物数据库",
+      "verification_scope": "原始1826论文题名与1827著作书目，个人科学史背景"
+    }
+  ],
+  "unresolved": [
+    "核实欧姆1825—1826年德文论文的原始实验原理、使用电源与测量数据",
+    "逐页对照欧姆1827原著概念与现代电压电流电阻术语对应",
+    "关于早期接受阻力需核对研究者原始批评信件及时间顺序",
+    "未实施全书正式outline/evidence闸门"
+  ]
+}
