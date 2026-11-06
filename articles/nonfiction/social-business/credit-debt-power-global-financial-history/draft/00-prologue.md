@@ -242,5 +242,5 @@
 - **[R-0004]** Federal Reserve Bank of Minneapolis, [*Federal Reserve Liquidity Programs: An Update*](https://www.minneapolisfed.org/article/2010/federal-reserve-liquidity-programs-an-update)；回购融资、抵押品折扣与流动性压力。
 - **[R-0005]** U.S. Securities and Exchange Commission, [*Testimony Concerning the Lehman Brothers Examiner's Report*](https://www.sec.gov/newsroom/speeches-statements/ts042010mls-testimony-concerning-lehman-brothers-examiners-report)；雷曼破产的直接融资与抵押品压力。
 - **[R-0006]** Financial Crisis Inquiry Commission, [*Conclusions*](https://fcic.law.stanford.edu/report/conclusions) (2011)；多数意见及异议意见均须在解释争论时考虑。
-- **[R-0007]** Federal Reserve History, [*The Great Recession and Its Aftermath*](https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath)；危机时期金融机构支持和流动性措施。
+- **[R-0007]** Federal Reserve History, [*Federal Reserve Credit Programs During the Meltdown*](https://www.federalreservehistory.org/essays/fed-credit-programs)；危机时期金融机构和短期融资市场的流动性支持措施。
 - **[R-0008]** The Metropolitan Museum of Art, [*Cuneiform tablet: loan of silver*](https://www.metmuseum.org/art/collection/search/325858), accession no. 66.245.17a, ca. 20th–19th century BCE；泥板年代、借款条款与见证人信息。
