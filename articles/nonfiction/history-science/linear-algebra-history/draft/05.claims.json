@@ -1,0 +1,81 @@
+{
+  "chapter": "05",
+  "title": "关孝和与莱布尼茨：两条行列式的早期道路",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "source_ids": {
+    "L05-S1": "https://www.lab.twcu.ac.jp/osada/aspm79.pdf",
+    "L05-S2": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "L05-S3": "https://mathshistory.st-andrews.ac.uk/Biographies/Seki/",
+    "L05-S4": "https://old.maa.org/node/915203",
+    "L05-S5": "本章第3、4、6、7、8节现代行列式推导和反例"
+  },
+  "claims": [
+    {
+      "claim_id": "C05-01",
+      "source_ids": [
+        "L05-S1"
+      ],
+      "verified": true,
+      "kind": "historical_fact_with_scope"
+    },
+    {
+      "claim_id": "C05-02",
+      "source_ids": [
+        "L05-S1"
+      ],
+      "verified": true,
+      "kind": "historical_fact_with_scope"
+    },
+    {
+      "claim_id": "C05-03",
+      "source_ids": [
+        "L05-S2"
+      ],
+      "verified": true,
+      "kind": "historical_fact_with_scope"
+    },
+    {
+      "claim_id": "C05-04",
+      "source_ids": [
+        "L05-S1",
+        "L05-S2",
+        "L05-S4"
+      ],
+      "verified": true,
+      "kind": "historical_fact_with_scope"
+    },
+    {
+      "claim_id": "C05-05",
+      "source_ids": [
+        "L05-S5"
+      ],
+      "verified": true,
+      "kind": "modern_mathematical_reconstruction"
+    },
+    {
+      "claim_id": "C05-06",
+      "source_ids": [
+        "L05-S2",
+        "L05-S5"
+      ],
+      "verified": true,
+      "kind": "historical_fact_with_scope"
+    },
+    {
+      "claim_id": "C05-07",
+      "source_ids": [
+        "L05-S2"
+      ],
+      "verified": true,
+      "kind": "historical_fact_with_scope"
+    }
+  ],
+  "historical_caveats": [
+    "关孝和1683年《解伏题之法》经学派手稿流传，不直接写成公开出版",
+    "Osada 2018指出n≥5的某些高阶排布错误及后续更正",
+    "莱布尼茨双字符系数标号不是普通整数",
+    "det=0为三条方程二未知数有解的必要而不总充分条件",
+    "现代行列式理论不可直接追认给17世纪作者"
+  ]
+}
