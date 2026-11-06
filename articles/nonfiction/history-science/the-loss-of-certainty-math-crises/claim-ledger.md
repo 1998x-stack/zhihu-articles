@@ -244,5 +244,52 @@
 | 17 | H17-13 | 弗雷格与希尔伯特在公理语义上有真实分歧 | research.md 第17章专项；R17-SEP-FREGE-HILBERT | 历史核实 |
 | 17 | H17-14 | 与下一章罗素悖论的衔接仅引出基本漏洞，不提前伪造当场对白 | research.md 第17章专项；outline.md;R17-SEP-FREGE | 叙事边界 |
 
+## 第18—20章专项主张
+
+| 章节 | claim_id | 主张摘要 | 来源映射 | 使用边界 |
+|---|---|---|---|---|
+| 18 | H18-01 | 罗素于约1901年独立发现矛盾，而非直到1902年才发现 | research.md 第18章专项；R18-SEP-RUSSELL;R18-SEP-SET-EARLY | 史料已核，发现日期保留“约” |
+| 18 | H18-02 | 1902年6月16日罗素致信弗雷格，属写信日期 | research.md 第18章专项；R18-SEP-RUSSELL;R18-SEP-LETTER | 史料已核，不推断到达日期 |
+| 18 | H18-03 | 1903年弗雷格《算术基本规律》第二卷附录回应 | research.md 第18章专项；R18-SEP-FREGE;R18-SEP-RUSSELL | 史料已核 |
+| 18 | H18-04 | 弗雷格1893/1903原项目是算术的逻辑基础，不等于ZF集合公理 | research.md 第18章专项；R18-SEP-FREGE;R18-SEP-LOGICISM | 学术史边界 |
+| 18 | H18-05 | 现代任意属性造集合的理解模式可表述为存在包含且仅包含满足条件的元素的集合 | research.md 第18章专项；R18-SEP-LOGICISM;R18-MODERN-LOGIC | 现代形式解释 |
+| 18 | H18-06 | 取R={x:x∉x}并代入R严格推出R∈R⇔R∉R | research.md 第18章专项；R18-SEP-RUSSELL;R18-MODERN-LOGIC | 数学核证 |
+| 18 | H18-07 | 该矛盾攻破无限制理解原则，不能推断算术命题本身皆假 | research.md 第18章专项；R18-SEP-RUSSELL;R18-MODERN-LOGIC | 反证结论边界 |
+| 18 | H18-08 | 不能用朴素集合符号等同1902年罗素信的原版谓词/类论述 | research.md 第18章专项；R18-SEP-LETTER;R18-SEP-FREGE | 一手译文史实边界 |
+| 18 | H18-09 | 策梅洛曾独立注意类似矛盾，不可叙述罗素唯一首发 | research.md 第18章专项；R18-SEP-SET-EARLY | 贡献归属已核 |
+| 18 | H18-10 | 罗素悖论影响罗素与弗雷格双方研究的基础方案 | research.md 第18章专项；R18-SEP-RUSSELL;R18-SEP-FREGE | 史学核证，不虚构心理 |
+| 18 | H18-11 | 集合的“属于”不同于“是子集”，R∈R是成员关系 | research.md 第18章专项；R18-MODERN-LOGIC | 数学概念核对 |
+| 18 | H18-12 | Zermelo 1908分离思想是后继修复，不是罗素1902年提出ZFC | research.md 第18章专项；R18-SEP-ZERMELO | 时序限定 |
+| 18 | H18-13 | 经典逻辑下不一致基础丧失区分不同结论的证明效力 | research.md 第18章专项；R18-SEP-LOGICISM;R18-MODERN-LOGIC | 逻辑概念核证 |
+| 18 | H18-14 | 本章转场下一章“理发师类比”是编辑编排，不是史实事件 | research.md 第18章专项；outline.md;R18-SEP-RUSSELL | 编辑性 |
+| 19 | H19-01 | 理发师寓言是罗素悖论逻辑形态的通俗类比非原始证明 | research.md 第19章专项；R19-SEP-RUSSELL | 已核历史限定 |
+| 19 | H19-02 | 必须明示理发师属于被服务的居民，否则无法代入自指 | research.md 第19章专项；R19-MODERN-LOGIC | 数理核验 |
+| 19 | H19-03 | 理发师满足“且仅”时出现p⇔¬p矛盾 | research.md 第19章专项；R19-MODERN-LOGIC | 数理核验 |
+| 19 | H19-04 | 该推导表明这种理发师不能存在，而非现实理发行业矛盾 | research.md 第19章专项；R19-SEP-RUSSELL;R19-MODERN-LOGIC | 概念界限 |
+| 19 | H19-05 | 集合论悖论威胁自由造集合的数学原则，超过讲笑话 | research.md 第19章专项；R19-SEP-RUSSELL;R19-SEP-SET-EARLY | 已核 |
+| 19 | H19-06 | 给定集合A内分离出B={x∈A:x∉x}没有矛盾 | research.md 第19章专项；R19-SEP-ZERMELO;R19-MODERN-LOGIC | 数学核算 |
+| 19 | H19-07 | 假设B∈A则导出B∈B⇔B∉B，因此B∉A | research.md 第19章专项；R19-SEP-ZERMELO;R19-MODERN-LOGIC | 数学核算 |
+| 19 | H19-08 | 不加边界的理解与有限范围分离是不同规则 | research.md 第19章专项；R19-SEP-ZERMELO | 逻辑界限 |
+| 19 | H19-09 | 简化的类型层级禁止不合法自应用 | research.md 第19章专项；R19-SEP-RUSSELL-TYPES;R19-TYPE-BOUND | 现代解释 |
+| 19 | H19-10 | 1903/1908类型方案及1910—1913《数学原理》分别定位 | research.md 第19章专项；R19-SEP-RUSSELL-TYPES;R19-SEP-PRINCIPIA | 时间线核实 |
+| 19 | H19-11 | 类型论与公理集合论是不同的基础修复路线 | research.md 第19章专项；R19-SEP-SET-EARLY;R19-SEP-RUSSELL-TYPES | 史学已核 |
+| 19 | H19-12 | 不能把ZF/ZFC一致性描述为已经得到绝对保证 | research.md 第19章专项；R19-SEP-ZERMELO;R19-SEP-SET-EARLY | 逻辑界限 |
+| 19 | H19-13 | 第20章分歧来自对“什么担保数学”不同回答 | research.md 第19章专项；outline.md;R19-SEP-SET-EARLY | 编辑性过渡 |
+| 20 | H20-01 | 三派是后见的分析框架，不是一同成立的三个团队 | research.md 第20章专项；R20-SEP-PHILMATH;R20-SEP-HILBERT | 编辑性史学限定 |
+| 20 | H20-02 | 弗雷格及罗素/怀特海希望以逻辑基础重建算术/数学 | research.md 第20章专项；R20-SEP-LOGICISM;R20-SEP-PM | 历史核实 |
+| 20 | H20-03 | 《数学原理》分三卷1910、1912、1913年刊行 | research.md 第20章专项；R20-SEP-PM | 版本已核 |
+| 20 | H20-04 | 分支类型论规避特定自指但有表达力/附加公理问题 | research.md 第20章专项；R20-SEP-PM;R20-SEP-LOGICISM | 限定 |
+| 20 | H20-05 | 希尔伯特1921前后计划成熟，目标为形式化与有限主义一致性证明 | research.md 第20章专项；R20-SEP-HILBERT | 年代核实 |
+| 20 | H20-06 | 希尔伯特1899几何、1900第二问题属于前史，不等同成熟计划 | research.md 第20章专项；R20-SEP-HILBERT | 时序限定 |
+| 20 | H20-07 | 形式系统研究与证明一致性是不同层级的任务 | research.md 第20章专项；R20-SEP-HILBERT | 逻辑核实 |
+| 20 | H20-08 | 布劳威尔1907/1908倡导直觉主义构造观点 | research.md 第20章专项；R20-SEP-INTUITIONISM;R20-SEP-INT-LOGIC | 年代核实 |
+| 20 | H20-09 | 直觉主义不一般接受无限对象命题排中律的非构造式使用 | research.md 第20章专项；R20-SEP-INT-LOGIC | 精确逻辑 |
+| 20 | H20-10 | 可判定的有限命题仍可构造证明相应排中律实例 | research.md 第20章专项；R20-SEP-INT-LOGIC;R20-MODERN-LOGIC | 现代数学 |
+| 20 | H20-11 | 不接受普遍排中律不是断言其否定成立 | research.md 第20章专项；R20-SEP-INT-LOGIC;R20-MODERN-LOGIC | 关键误读避免 |
+| 20 | H20-12 | 否定之否定消去不作为一般有效规则 | research.md 第20章专项；R20-SEP-INT-LOGIC | 精确逻辑 |
+| 20 | H20-13 | 三路线关注的可信标准/证明义务不同且长期互相批评 | research.md 第20章专项；R20-SEP-PHILMATH;R20-SEP-HILBERT;R20-SEP-LOGICISM | 哲学史 |
+| 20 | H20-14 | 公理集合论是并行发展，不得宣称三派已彻底解决一切问题 | research.md 第20章专项；R20-SEP-ZERMELO;R20-SEP-PHILMATH | 时序与学派限定 |
+| 20 | H20-15 | 下一章研究1908分离公理，不先宣告ZFC绝对一致 | research.md 第20章专项；outline.md;R20-SEP-ZERMELO | 编辑性过渡 |
+
 ## 后续章节状态
-第18—25章及序章、尾声仍待逐章专项核证。第01—17章已选主张的证据映射不等同全书终稿核验。
+第21—25章及序章、尾声仍待逐章专项核证。第01—20章已选主张的证据映射不等同全书终稿核验。
