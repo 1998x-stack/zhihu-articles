@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "id": "the-loss-of-certainty-math-crises",
+  "reading_notice": "本站展示原始创作文件。标记“初稿”的章节尚未通过最终审校；“待撰写”的章节仅为编辑占位，不是正式正文。",
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "序章｜1902年，一封信让数学失眠",
+      "part": "序章",
+      "file": "draft/00.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-01",
+      "title": "01｜一条对角线，击穿了整数的世界",
+      "part": "第一部 数字的裂缝",
+      "file": "draft/01.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-02",
+      "title": "02｜希帕索斯的沉船：一个太精彩的传说",
+      "part": "第一部 数字的裂缝",
+      "file": "draft/02.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-03",
+      "title": "03｜芝诺的箭：走完一米，要先走完无限段",
+      "part": "第一部 数字的裂缝",
+      "file": "draft/03.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-04",
+      "title": "04｜欧多克索斯的办法：不说出那个数，也能严密比较",
+      "part": "第一部 数字的裂缝",
+      "file": "draft/04.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-05",
+      "title": "05｜阿基米德：在无穷的边缘计算面积",
+      "part": "第二部 无穷小的审判",
+      "file": "draft/05.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-06",
+      "title": "06｜牛顿的流数：运动逼出了新数学",
+      "part": "第二部 无穷小的审判",
+      "file": "draft/06.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-07",
+      "title": "07｜莱布尼茨的符号：把无限小写进纸面",
+      "part": "第二部 无穷小的审判",
+      "file": "draft/07.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-08",
+      "title": "08｜伯克利的质问：消失的量去哪儿了",
+      "part": "第二部 无穷小的审判",
+      "file": "draft/08.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-09",
+      "title": "09｜柯西与魏尔斯特拉斯：给无穷装上边界",
+      "part": "第二部 无穷小的审判",
+      "file": "draft/09.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-10",
+      "title": "10｜第五公设：一条谁也证明不了的平行线",
+      "part": "第三部 几何世界不止一个",
+      "file": "draft/10.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-11",
+      "title": "11｜罗巴切夫斯基与鲍耶：改掉公设，世界没有崩塌",
+      "part": "第三部 几何世界不止一个",
+      "file": "draft/11.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-12",
+      "title": "12｜黎曼：把空间本身变成问题",
+      "part": "第三部 几何世界不止一个",
+      "file": "draft/12.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-13",
+      "title": "13｜希尔伯特的公理：点和线究竟是什么",
+      "part": "第三部 几何世界不止一个",
+      "file": "draft/13.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-14",
+      "title": "14｜康托尔：一个无穷能装进另一个无穷吗",
+      "part": "第四部 数不完的无穷",
+      "file": "draft/14.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-15",
+      "title": "15｜列不完的清单：对角线上的逃亡",
+      "part": "第四部 数不完的无穷",
+      "file": "draft/15.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-16",
+      "title": "16｜连续统假设：一个问题竟然有两种不冲突的未来",
+      "part": "第四部 数不完的无穷",
+      "file": "draft/16.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-17",
+      "title": "17｜弗雷格：试着把整个算术建在逻辑上",
+      "part": "第五部 集合的反叛",
+      "file": "draft/17.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-18",
+      "title": "18｜1902年的来信：罗素发现了一条自我矛盾的规则",
+      "part": "第五部 集合的反叛",
+      "file": "draft/18.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-19",
+      "title": "19｜理发师与集合：一个笑话不能修好地基",
+      "part": "第五部 集合的反叛",
+      "file": "draft/19.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-20",
+      "title": "20｜三个救援队：逻辑主义、形式主义、直觉主义",
+      "part": "第五部 集合的反叛",
+      "file": "draft/20.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-21",
+      "title": "21｜策梅洛的围墙：不是任何性质都能造出集合",
+      "part": "第五部 集合的反叛",
+      "file": "draft/21.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-22",
+      "title": "22｜希尔伯特的计划：给所有证明做一次总保险",
+      "part": "第六部 证明的边界",
+      "file": "draft/22.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-23",
+      "title": "23｜哥德尔：有些命题，从系统内部永远到不了",
+      "part": "第六部 证明的边界",
+      "file": "draft/23.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-24",
+      "title": "24｜图灵：不存在的万能判题机器",
+      "part": "第六部 证明的边界",
+      "file": "draft/24.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-25",
+      "title": "25｜四色定理：当机器成为证明者",
+      "part": "第六部 证明的边界",
+      "file": "draft/25.md",
+      "status": "outline"
+    },
+    {
+      "id": "epilogue",
+      "title": "尾声｜今天，我们为什么仍然相信数学",
+      "part": "第六部 证明的边界",
+      "file": "draft/26.md",
+      "status": "outline"
+    }
+  ]
+}
