@@ -639,3 +639,34 @@ html[data-theme="dark"] .reader-body {
   .reader-body .reader-cover-overline,
   .reader-body .reader-cover-footer{font-size:5px;letter-spacing:.08em}
 }
+
+/* Reliable LaTeX layout: preserve wide mathematics without clipping prose. */
+.reader-body .prose .arithmatex { max-width:100%; }
+.reader-body .prose div.arithmatex {
+  overflow-x:auto;
+  overflow-y:hidden;
+  padding:13px 6px;
+  margin:1.5em 0;
+  scrollbar-width:thin;
+  -webkit-overflow-scrolling:touch;
+}
+.reader-body .prose span.arithmatex { display:inline; }
+.reader-body .prose mjx-container[display="true"] {
+  display:block;
+  max-width:100%;
+  overflow-x:auto;
+  overflow-y:hidden;
+  padding:7px 0;
+}
+.reader-body .reader-math-warning {
+  padding:13px 22px;
+  background:var(--reader-accent-soft);
+  border-bottom:1px solid var(--line);
+  color:var(--muted);
+  font:12px/1.8 var(--reader-sans);
+  text-align:center;
+}
+.reader-body .reader-math-warning[hidden] { display:none!important; }
+@media(max-width:600px) {
+  .reader-body .prose div.arithmatex { padding:11px 0; }
+}

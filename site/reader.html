@@ -13,11 +13,29 @@
   <link rel="stylesheet" href="{{ROOT}}assets/css/reader-apple.css">
   <script>
     window.MathJax = {
-      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']], processEscapes: true },
+      tex: {
+        // The build normalizes every supported delimiter into \( \) / \[ \].
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']],
+        processEscapes: true
+      },
       options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] }
     };
+    // If one public CDN cannot be reached, retry a second one. Raw LaTeX
+    // remains visible if neither can be loaded (no silent blank equations).
+    window.readingRoomMathFallback = function () {
+      var s = document.createElement('script');
+      s.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js';
+      s.defer = true;
+      s.onerror = function () {
+        var n = document.getElementById('reader-math-warning');
+        if (n) n.hidden = false;
+      };
+      document.head.appendChild(s);
+    };
   </script>
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"
+          onerror="window.readingRoomMathFallback()"></script>
   <script defer src="{{ROOT}}assets/js/reader.js"></script>
 </head>
 <body class="reader-body">
@@ -39,6 +57,7 @@
       <button type="button" class="reader-icon-button toc-toggle" id="toc-toggle" aria-label="显示章节目录" aria-controls="reader-sidebar" aria-expanded="false">☰</button>
     </div>
   </header>
+  <div class="reader-math-warning" id="reader-math-warning" role="status" hidden>公式排版资源暂时不可用，数学表达式将以原始 LaTeX 形式显示。请检查网络连接后刷新页面。</div>
   <div class="reader-frame">
     <aside class="reader-sidebar" id="reader-sidebar" aria-label="书籍目录">
       <div class="reader-sidebar-inner">
