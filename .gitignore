@@ -1,0 +1,7 @@
+# Generated public site (do not commit)
+_site/
+dist/
+
+# Python runtime
+__pycache__/
+*.py[cod]

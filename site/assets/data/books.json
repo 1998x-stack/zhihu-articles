@@ -1,0 +1,83 @@
+[
+  {
+    "id": "the-empty-spaces",
+    "title": "空位——门捷列夫与元素周期表的发现",
+    "subtitle": "The Empty Spaces: Mendeleev and the Discovery of the Periodic Table",
+    "author": "1998x-stack",
+    "genre": "genre-history-science",
+    "type": "科学发现史 · 长篇",
+    "status": "创作中",
+    "description": "一张给尚未发现的元素预留座位的表，为什么改变了科学家认识物质的方式？从拉瓦锡到门捷列夫，追寻元素周期律的发现、竞争与验证。序章与部分章节已有初稿，正在持续核校史料。",
+    "tags": [
+      "化学史",
+      "门捷列夫",
+      "元素周期表",
+      "科学革命"
+    ],
+    "url": "https://github.com/1998x-stack/The-Empty-Spaces",
+    "note": "序章及第一部部分章节为初稿，尚需史料审校；其余章节尚未完成。",
+    "cover": null,
+    "coverShort": "空位",
+    "coverEyebrow": "THE EMPTY SPACES",
+    "coverFooter": "MENDELEEV & THE ELEMENTS",
+    "palette": [
+      "#c7ae7f",
+      "#8b7155"
+    ],
+    "coverInk": "#243337"
+  },
+  {
+    "id": "the-loss-of-certainty-math-crises",
+    "title": "失去确定性：数学史上的三次危机与七次思想革命",
+    "subtitle": "The Loss of Certainty: Crises and Revolutions in Mathematics",
+    "author": "1998x-stack",
+    "genre": "genre-history-science",
+    "type": "数学思想史 · 长篇",
+    "status": "创作中",
+    "description": "从不可公度量到集合论悖论，从微积分的严密化到哥德尔与图灵：当数学的根基一次次受到质疑，人们怎样重新建立确定性？目前只有部分章节形成初稿。",
+    "tags": [
+      "数学史",
+      "数学基础",
+      "思想史",
+      "科学哲学"
+    ],
+    "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/the-loss-of-certainty-math-crises",
+    "note": "仓库说明显示仅第 01 章有长篇初稿，其他章节主要为占位；并非已出版读本。",
+    "cover": null,
+    "coverShort": "失去\n确定性",
+    "coverEyebrow": "THE LOSS OF CERTAINTY",
+    "coverFooter": "CRISES & REVOLUTIONS",
+    "palette": [
+      "#597277",
+      "#283f48"
+    ],
+    "coverInk": "#eae6d9"
+  },
+  {
+    "id": "credit-debt-power-global-financial-history",
+    "title": "信用、债务与权力：一部世界金融史",
+    "subtitle": "Credit, Debt and Power: A Global History of Finance",
+    "author": "1998x-stack",
+    "genre": "genre-social-business",
+    "type": "金融制度史 · 长篇",
+    "status": "创作中",
+    "description": "从古代泥板上的借贷记载，到全球银行、货币制度与现代金融危机，追问信用为何成立、承诺如何流通，以及规则如何在危机后被重塑。当前序章已有初稿，其余章节大多尚在规划。",
+    "tags": [
+      "世界金融史",
+      "信用与债务",
+      "货币制度",
+      "商业与社会"
+    ],
+    "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/social-business/credit-debt-power-global-financial-history",
+    "note": "序章有初稿，其余章节与尾声主要为占位；未进入正式出版状态。",
+    "cover": null,
+    "coverShort": "信用\n债务\n与权力",
+    "coverEyebrow": "A GLOBAL HISTORY OF FINANCE",
+    "coverFooter": "CREDIT · DEBT · POWER",
+    "palette": [
+      "#a16c59",
+      "#5f393c"
+    ],
+    "coverInk": "#fff0e2"
+  }
+]
