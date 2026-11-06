@@ -682,3 +682,108 @@
 **禁止误写**：基本规律V≠“任意属性生成ZF意义的集合”这一单句；弗雷格的原符号系统≠今天使用的∀、∃；罗素信的**落款日期**可核，但信到达的具体当天需谨慎；逻辑主义不等于无条件证明所有算术不需要任何背景公理；不可把1902年的发现写成1903年收信，或用人物内心独白代替档案。
 
 **本批许可**：根据以上来源撰写完整第15—17章初稿及claim maps，追加claim-ledger，更新三章阅读索引和写作状态。**未许可/未完成**：独立连续性审稿、结构审稿、润色终稿及发布包。
+
+
+---
+
+## 第18—20章专项核验：罗素悖论、理发师类比与三种数学基础方案（2026-11-06）
+
+> **证据使用规则**：本批事实来源以《斯坦福哲学百科》（SEP）的数学逻辑史与数学哲学专题为主，尽可能使用其收录的一手书目、原始论文年代及引用信息；同时采用现代逻辑推导作为教学演示。某一真实人物的私人即时反应、未经验证的对白和所谓“理发师原版故事”不得虚构。本节只核验所选主张，非独立审稿/终稿批准。
+
+### 第18章｜1902年的来信：罗素发现了一条自我矛盾的规则
+
+**来源索引**
+
+- **R18-SEP-RUSSELL**：*Stanford Encyclopedia of Philosophy*, “Russell’s Paradox”（2026年修订），https://plato.stanford.edu/entries/russell-paradox/ 。罗素约在1901年发现悖论（独立于策梅洛早期发现），1902年6月16日致信弗雷格，1903年《算术基本规律》第二卷的附录回应，以及1903年罗素自己的著述。信件具体措辞是关于“不能适用于自身的谓词”及“不能属于自己的类”，不等于后世最短中文集合记号。
+- **R18-SEP-SET-EARLY**：José Ferreirós, “The Early Development of Set Theory”, SEP, https://plato.stanford.edu/entries/settheory-early/ 。十九世纪的集合理论、康托尔幂集定理的潜在冲突、策梅洛早期独立发现、罗素—弗雷格通信与问题学界传播的时间线。关于发现优先权：不得称罗素是全世界唯一最早注意到该矛盾之人。
+- **R18-SEP-FREGE**：SEP, “Gottlob Frege”, https://plato.stanford.edu/entries/frege/ 。1879《概念文字》、1884《算术基础》、1893及1903《算术基本规律》及基本规律V引发的危机。其原始系统涉及概念/函数值域（course-of-values），与现代朴素集合语言不同。
+- **R18-SEP-LOGICISM**：SEP, “Logicism and Neologicism”, https://plato.stanford.edu/entries/logicism/ 。以现代关系符号将基本规律V相关的强抽象/理解原则表示后可严格推导罗素矛盾；基础逻辑语言与现代集合语言需要标明转换。
+- **R18-SEP-LETTER**：SEP “Russell’s Paradox” §2.4 引用1902年罗素给弗雷格的信（van Heijenoort 1967英文译）。**日期为写信日期**，不能凭此断定弗雷格收到信的确切当天；1903年第二卷正文/附录不同，避免说1902年出版。
+- **R18-MODERN-LOGIC**：现代不受限制的集合理解公理假定对任何公式 \(\varphi(x)\) 存在集合 \(S\) 且 \(\forall x(x\in S\leftrightarrow\varphi(x))\)。令 \(\varphi(x)\equiv x\notin x\)，得 \(R=\{x:x\notin x\}\)，代入 \(R\) 得 \(R\in R\iff R\notin R\)。这里反证的是“该无约束理解原则在此逻辑背景中不能成立”，而非所有集合、所有无限数学或普通等式均不可靠。按经典逻辑，矛盾式还会使整套不一致体系的证明失去区分力。
+- **R18-SEP-ZERMELO**：SEP, “Zermelo’s Axiomatization of Set Theory”, https://plato.stanford.edu/entries/zermelo-set-theory/ 。1908年策梅洛公理化、分离公理将从已有集合内筛选与不受限制的“全体条件对象”区分；下章21深入论述，不能将1908修复写为1902年罗素已经给出完整ZFC。
+  
+| claim_id | 具体断言或推导 | 来源 | 等级/边界 |
+|---|---|---|---|
+| H18-01 | 罗素于约1901年独立发现矛盾，而非直到1902年才发现 | R18-SEP-RUSSELL;R18-SEP-SET-EARLY | 史料已核，发现日期保留“约” |
+| H18-02 | 1902年6月16日罗素致信弗雷格，属写信日期 | R18-SEP-RUSSELL;R18-SEP-LETTER | 史料已核，不推断到达日期 |
+| H18-03 | 1903年弗雷格《算术基本规律》第二卷附录回应 | R18-SEP-FREGE;R18-SEP-RUSSELL | 史料已核 |
+| H18-04 | 弗雷格1893/1903原项目是算术的逻辑基础，不等于ZF集合公理 | R18-SEP-FREGE;R18-SEP-LOGICISM | 学术史边界 |
+| H18-05 | 现代任意属性造集合的理解模式可表述为存在包含且仅包含满足条件的元素的集合 | R18-SEP-LOGICISM;R18-MODERN-LOGIC | 现代形式解释 |
+| H18-06 | 取R={x:x∉x}并代入R严格推出R∈R⇔R∉R | R18-SEP-RUSSELL;R18-MODERN-LOGIC | 数学核证 |
+| H18-07 | 该矛盾攻破无限制理解原则，不能推断算术命题本身皆假 | R18-SEP-RUSSELL;R18-MODERN-LOGIC | 反证结论边界 |
+| H18-08 | 不能用朴素集合符号等同1902年罗素信的原版谓词/类论述 | R18-SEP-LETTER;R18-SEP-FREGE | 一手译文史实边界 |
+| H18-09 | 策梅洛曾独立注意类似矛盾，不可叙述罗素唯一首发 | R18-SEP-SET-EARLY | 贡献归属已核 |
+| H18-10 | 罗素悖论影响罗素与弗雷格双方研究的基础方案 | R18-SEP-RUSSELL;R18-SEP-FREGE | 史学核证，不虚构心理 |
+| H18-11 | 集合的“属于”不同于“是子集”，R∈R是成员关系 | R18-MODERN-LOGIC | 数学概念核对 |
+| H18-12 | Zermelo 1908分离思想是后继修复，不是罗素1902年提出ZFC | R18-SEP-ZERMELO | 时序限定 |
+| H18-13 | 经典逻辑下不一致基础丧失区分不同结论的证明效力 | R18-SEP-LOGICISM;R18-MODERN-LOGIC | 逻辑概念核证 |
+| H18-14 | 本章转场下一章“理发师类比”是编辑编排，不是史实事件 | outline.md;R18-SEP-RUSSELL | 编辑性 |
+
+**公式与历史界限**：\(R=\{x:x\notin x\}\) 是现代集合论教学版；信中原来的谓词表述与弗雷格的值域/基本规律V并不完全同形。不能用罗素悖论证明“集合论被彻底废弃”或“所有数学结论都是假的”。
+
+### 第19章｜理发师与集合：一个笑话不能修好地基
+
+**来源索引**
+
+- **R19-SEP-RUSSELL**：SEP, “Russell’s Paradox”, https://plato.stanford.edu/entries/russell-paradox/ ，尤其关于barber（理发师）类比与“pseudo paradoxes”之间区别的研究。它可以浓缩同一逻辑形态，但不能声称是1902年原信的逐字证明，也不能通过“理发师不存在”直接解决数学集合形成的公理问题。
+- **R19-SEP-SET-EARLY**：SEP “The Early Development of Set Theory”, https://plato.stanford.edu/entries/settheory-early/ 。不同解决方向：类型论、对集合概念作精确限制以及公理化。
+- **R19-SEP-ZERMELO**：SEP, “Zermelo’s Axiomatization of Set Theory”, https://plato.stanford.edu/entries/zermelo-set-theory/ 。1908分离原则：从预先给定的集合A筛选元素，而不是无条件形成宇宙所有符合属性者；示例 \(B_A=\{x\in A:x\notin x\}\) 可以存在，但能证明 \(B_A\notin A\)，而不是陷入矛盾。
+- **R19-SEP-RUSSELL-TYPES**：SEP “Russell’s Paradox”, 类型论部分；逻辑及谓词/函数分层，禁止相应不合法的自应用形式。罗素1903较简单的类型理论与1908更复杂类型理论，Whitehead/Russell 1910–1913《数学原理》（Principia Mathematica）的分层理论不可混为一个无修订版本。
+- **R19-SEP-PRINCIPIA**：SEP, “Principia Mathematica”, https://plato.stanford.edu/entries/principia-mathematica/ 。怀特海与罗素合作，三卷分别于1910、1912、1913年出版；采用分支类型论，不能将其直接等同现代编程语言静态类型检查。
+- **R19-MODERN-LOGIC**：人集V中谓词 \(Sh(b,x)\) 表示b为x理发，假设 \(\forall x\in V\,[Sh(b,x)\leftrightarrow\neg Sh(x,x)]\)，**且b∈V**，代入x=b得 \(Sh(b,b)\leftrightarrow\neg Sh(b,b)\)；若b不是居民，不能直接代入，类比条件须完整。对于给定集合A，令 \(B=\{x\in A:x\notin x\}\)，若B∈A会产生矛盾，推出B∉A；由此不会推出B不存在。关键分别是“能筛出B”与“不能假定B也属于A”。
+- **R19-TYPE-BOUND**：在简化的分层类型模型中，类型0表示个体，类型1表示类型0个体的集合，成员关系 \(\in\) 只连接相邻适当层级；表达式x∈x不满足类型约束。仅现代说明原理，不是对罗素完整分支类型论的历史逐字总结。
+
+| claim_id | 具体断言或推导 | 来源 | 等级/边界 |
+|---|---|---|---|
+| H19-01 | 理发师寓言是罗素悖论逻辑形态的通俗类比非原始证明 | R19-SEP-RUSSELL | 已核历史限定 |
+| H19-02 | 必须明示理发师属于被服务的居民，否则无法代入自指 | R19-MODERN-LOGIC | 数理核验 |
+| H19-03 | 理发师满足“且仅”时出现p⇔¬p矛盾 | R19-MODERN-LOGIC | 数理核验 |
+| H19-04 | 该推导表明这种理发师不能存在，而非现实理发行业矛盾 | R19-SEP-RUSSELL;R19-MODERN-LOGIC | 概念界限 |
+| H19-05 | 集合论悖论威胁自由造集合的数学原则，超过讲笑话 | R19-SEP-RUSSELL;R19-SEP-SET-EARLY | 已核 |
+| H19-06 | 给定集合A内分离出B={x∈A:x∉x}没有矛盾 | R19-SEP-ZERMELO;R19-MODERN-LOGIC | 数学核算 |
+| H19-07 | 假设B∈A则导出B∈B⇔B∉B，因此B∉A | R19-SEP-ZERMELO;R19-MODERN-LOGIC | 数学核算 |
+| H19-08 | 不加边界的理解与有限范围分离是不同规则 | R19-SEP-ZERMELO | 逻辑界限 |
+| H19-09 | 简化的类型层级禁止不合法自应用 | R19-SEP-RUSSELL-TYPES;R19-TYPE-BOUND | 现代解释 |
+| H19-10 | 1903/1908类型方案及1910—1913《数学原理》分别定位 | R19-SEP-RUSSELL-TYPES;R19-SEP-PRINCIPIA | 时间线核实 |
+| H19-11 | 类型论与公理集合论是不同的基础修复路线 | R19-SEP-SET-EARLY;R19-SEP-RUSSELL-TYPES | 史学已核 |
+| H19-12 | 不能把ZF/ZFC一致性描述为已经得到绝对保证 | R19-SEP-ZERMELO;R19-SEP-SET-EARLY | 逻辑界限 |
+| H19-13 | 第20章分歧来自对“什么担保数学”不同回答 | outline.md;R19-SEP-SET-EARLY | 编辑性过渡 |
+
+**关键推导验证**：
+1. 若b∈V，“对V中每一人且仅为不自理发者理发”使\(Sh(b,b)\leftrightarrow\neg Sh(b,b)\)。所以否定的是整个设定可实例化；并非某个理发师真实违反规则，也不代表严格集合论已获解决。
+2. 对任意已经存在的集合A，按分离定义B。由B∈A假设导出B∈B⇔B∉B，故B∉A；这反而是Zermelo方法避免悖论的关键解释。不能错误宣称B不存在。
+
+### 第20章｜三支数学基础研究路线：逻辑主义、形式主义、直觉主义
+
+**来源索引**
+
+- **R20-SEP-LOGICISM**：SEP “Logicism and Neologicism”, https://plato.stanford.edu/entries/logicism/ 。弗雷格的逻辑主义、罗素/怀特海的《数学原理》、引入类型分层的代价与后来新逻辑主义；不能把逻辑主义简化为“全部数学已被证明只有逻辑”。
+- **R20-SEP-PM**：SEP “Principia Mathematica”, https://plato.stanford.edu/entries/principia-mathematica/ 。1910、1912、1913三卷与分支类型论；逻辑主义计划仍有诸如无穷性与可约性公理所涉及的逻辑地位疑问。
+- **R20-SEP-HILBERT**：Richard Zach, “Hilbert’s Program”, SEP, https://plato.stanford.edu/entries/hilbert-program/ 。**1921年前后**形成希尔伯特计划成熟版本，1920年代推进；形式化数学与仅用有限主义方法证明形式系统的一致性，前史1899几何《基础》、1900第2问题，但不可反说1899已完成1920年代全部计划。哥德尔1931后的限制下章22—23展开。
+- **R20-SEP-INTUITIONISM**：SEP “Intuitionism in the Philosophy of Mathematics”, https://plato.stanford.edu/entries/intuitionism/ 。布劳威尔的数学构造观点、自然数基础与自由选择序列，经典无限逻辑原则的质疑。1907博士论文、1908相关著述，数学不是纯符号游戏。
+- **R20-SEP-INT-LOGIC**：SEP “Intuitionistic Logic”, https://plato.stanford.edu/entries/logic-intuitionistic/ 。直觉主义逻辑对普遍排中律\(P\lor\neg P\)及双重否定消去\(\neg\neg P\to P\)的接受不同于经典逻辑；对于可判定的有限命题，它可以接受排中律的具体实例；**不认可普遍断言的构造式证明 ≠ 断言 \(\neg(P\lor\neg P)\) 成立**。
+- **R20-SEP-PHILMATH**：SEP “Philosophy of Mathematics”, https://plato.stanford.edu/entries/philosophy-mathematics/ 。逻辑主义/形式主义/直觉主义作为数学哲学中的重要但非穷尽的研究方向；不同路线长期存在而非简单一方彻底获胜。
+- **R20-MODERN-LOGIC**：示例“某给定自然数n是偶数”可以通过有限算法判断，具体\(P(n)\lor\neg P(n)\)可用构造式证明；涉及无限未决猜想的\(G\lor\neg G\)在经典逻辑中是永真式，但直觉主义要求能够给出相应的构造式证明才认可该具体析取。某命题当前未知并不在经典体系中导致排中律无效。可用假设 \(P\lor\neg P\) 的经典反证验证 \(\neg\neg(P\lor\neg P)\)，但从 \(\neg\neg Q\) 到 \(Q\) 的推理并非直觉主义下普遍许可。所有例子为现代教学化。
+- **R20-SEP-ZERMELO**：SEP “Zermelo’s Axiomatization of Set Theory”, https://plato.stanford.edu/entries/zermelo-set-theory/ 。与第21章衔接：1908年公理集合论是解决集合形成规则风险的独立制度路线，不等于上述三派之一独有的全部方案。
+
+| claim_id | 具体断言或推导 | 来源 | 等级/边界 |
+|---|---|---|---|
+| H20-01 | 三派是后见的分析框架，不是一同成立的三个团队 | R20-SEP-PHILMATH;R20-SEP-HILBERT | 编辑性史学限定 |
+| H20-02 | 弗雷格及罗素/怀特海希望以逻辑基础重建算术/数学 | R20-SEP-LOGICISM;R20-SEP-PM | 历史核实 |
+| H20-03 | 《数学原理》分三卷1910、1912、1913年刊行 | R20-SEP-PM | 版本已核 |
+| H20-04 | 分支类型论规避特定自指但有表达力/附加公理问题 | R20-SEP-PM;R20-SEP-LOGICISM | 限定 |
+| H20-05 | 希尔伯特1921前后计划成熟，目标为形式化与有限主义一致性证明 | R20-SEP-HILBERT | 年代核实 |
+| H20-06 | 希尔伯特1899几何、1900第二问题属于前史，不等同成熟计划 | R20-SEP-HILBERT | 时序限定 |
+| H20-07 | 形式系统研究与证明一致性是不同层级的任务 | R20-SEP-HILBERT | 逻辑核实 |
+| H20-08 | 布劳威尔1907/1908倡导直觉主义构造观点 | R20-SEP-INTUITIONISM;R20-SEP-INT-LOGIC | 年代核实 |
+| H20-09 | 直觉主义不一般接受无限对象命题排中律的非构造式使用 | R20-SEP-INT-LOGIC | 精确逻辑 |
+| H20-10 | 可判定的有限命题仍可构造证明相应排中律实例 | R20-SEP-INT-LOGIC;R20-MODERN-LOGIC | 现代数学 |
+| H20-11 | 不接受普遍排中律不是断言其否定成立 | R20-SEP-INT-LOGIC;R20-MODERN-LOGIC | 关键误读避免 |
+| H20-12 | 否定之否定消去不作为一般有效规则 | R20-SEP-INT-LOGIC | 精确逻辑 |
+| H20-13 | 三路线关注的可信标准/证明义务不同且长期互相批评 | R20-SEP-PHILMATH;R20-SEP-HILBERT;R20-SEP-LOGICISM | 哲学史 |
+| H20-14 | 公理集合论是并行发展，不得宣称三派已彻底解决一切问题 | R20-SEP-ZERMELO;R20-SEP-PHILMATH | 时序与学派限定 |
+| H20-15 | 下一章研究1908分离公理，不先宣告ZFC绝对一致 | outline.md;R20-SEP-ZERMELO | 编辑性过渡 |
+
+**历史与数学核查**：弗雷格1879、1884、1893/1903；罗素/怀特海1910—13；布劳威尔1907/08；希尔伯特成熟计划1921—20年代，不应按三派同年比赛排列。直觉主义对无限猜想的姿态是要求建设性证明，不能随意说其“否认所有二值真理”或拒绝有限穷举。需要说明形式主义不是“数学没有意义，写符号就行”，重点是形式推理与有限主义一致性证明。三派各有贡献与争议，尚未执行任何独立审稿。
+
+**本批允许交付**：第18—20章draft正文、每章claims.json、增量claim-ledger、阅读manifest和工作流状态；**不等于**已完成独立双审、终稿批准或对外发布。
