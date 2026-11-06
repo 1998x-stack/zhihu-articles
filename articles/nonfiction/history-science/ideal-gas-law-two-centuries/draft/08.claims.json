@@ -3,7 +3,187 @@
   "title": "1811年，阿伏伽德罗数出了看不见的东西",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "18条前置核证主张；标题的‘数出了’为相对粒子数假说，不是阿伏伽德罗常数绝对值测定；尚未独立审稿。",
+  "claims": [
+    {
+      "claim_id": "G08-01",
+      "source_ids": [
+        "S41",
+        "S49"
+      ],
+      "summary": "阿伏伽德罗1811论文发表于Journal de Physique 73，58—76",
+      "classification": "primary_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-02",
+      "source_ids": [
+        "S41",
+        "S51"
+      ],
+      "summary": "提出同温同压同体积各种气体含等数‘完整分子’的假设",
+      "classification": "primary_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-03",
+      "source_ids": [
+        "S41",
+        "S51"
+      ],
+      "summary": "原文的elementary/integral/constituent molecules与现代原子分子概念并非词汇一一对应",
+      "classification": "historiographic_qualified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-04",
+      "source_ids": [
+        "S41"
+      ],
+      "summary": "从等体积等数假设，气体密度比能推相对分子质量比",
+      "classification": "primary_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-05",
+      "source_ids": [
+        "S41"
+      ],
+      "summary": "阿伏伽德罗举过氢氧相对密度导出约15:1质量比的历史数字，非今精确值",
+      "classification": "primary_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-06",
+      "source_ids": [
+        "S41",
+        "S40"
+      ],
+      "summary": "水的2体积H与1体积O产2体积水汽，单粒子模型出现产物数与物料矛盾",
+      "classification": "historical_and_logic",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-07",
+      "source_ids": [
+        "S41",
+        "S51"
+      ],
+      "summary": "其分子拆分假设允许简单气体的分子由多个更基本粒子组成",
+      "classification": "primary_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-08",
+      "source_ids": [
+        "S41",
+        "S51"
+      ],
+      "summary": "现代二原子H2与O2模型可解释2H2+O2→2H2O，但这不是1811文字原样符号",
+      "classification": "modern_explanation",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-09",
+      "source_ids": [
+        "S41",
+        "S42"
+      ],
+      "summary": "阿伏伽德罗与道尔顿气态粒子距离及热素作用的解释有分歧",
+      "classification": "primary_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-10",
+      "source_ids": [
+        "S41",
+        "S47"
+      ],
+      "summary": "假说能够统一盖吕萨克体积实验与道尔顿化合质量比例，但尚缺独立微观计数证据",
+      "classification": "historical_synthesis",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-11",
+      "source_ids": [
+        "S41",
+        "S50"
+      ],
+      "summary": "1811文章只是比较相对数与相对质量，没有测定N_A绝对数值",
+      "classification": "primary_vs_later",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-12",
+      "source_ids": [
+        "S50",
+        "S49"
+      ],
+      "summary": "阿伏伽德罗常数的后世命名和绝对数量测定是19/20世纪另一阶段",
+      "classification": "historical_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-13",
+      "source_ids": [
+        "S41",
+        "S38"
+      ],
+      "summary": "若同P、T时等体积同数分子，则相同分子数量的气体占相同体积（适用理想近似）",
+      "classification": "modern_consequence",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-14",
+      "source_ids": [
+        "S41"
+      ],
+      "summary": "现代PV=nRT中的n表示物质的量，与1811年的绝对粒子数数值不能等同",
+      "classification": "modern_scope",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-15",
+      "source_ids": [
+        "S46",
+        "S48",
+        "S49"
+      ],
+      "summary": "假说没有1811年立即获得所有人接受，原子与分子和原子量争论持续",
+      "classification": "historical_verified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-16",
+      "source_ids": [
+        "S46",
+        "S48",
+        "S49"
+      ],
+      "summary": "1860年卡尔斯鲁厄会及坎尼扎罗论文传播成为转折，不是会上立刻全票统一",
+      "classification": "historical_qualified",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-17",
+      "source_ids": [
+        "S41",
+        "S51"
+      ],
+      "summary": "阿伏伽德罗1811假说在研究链中是提出一种解释，不是直接观察显微图像",
+      "classification": "methodological_distinction",
+      "verification": "source_preverified"
+    },
+    {
+      "claim_id": "G08-18",
+      "source_ids": [
+        "S41",
+        "S50"
+      ],
+      "summary": "‘数出了’意为逻辑关联不同气体的相对粒子数，不是物理逐一计数",
+      "classification": "editorial_title_explanation",
+      "verification": "source_preverified"
+    }
+  ]
 }
