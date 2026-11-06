@@ -154,3 +154,50 @@
 4. ‘工作物质无关’是**可逆极限原理**，不等于任何真实工质和机器在同一温差下都有同样实际效率；不许把温差线性比例当成卡诺原著结论（R48原文亦提示未知是否正比）。
 
 **待审区间**：本三章成文后仍需独立核查正文细节与引用位点，完成连续性/结构审稿前，workflow-state.review_status 保持 PENDING。05—33章未据此核验。
+
+
+## 第05—07章｜卡诺悖论、迈尔与焦耳：三章前置核证（2026-11-06）
+
+> **阶段：非虚构正文写作前的增量事实研究。** 来源R52—R66结合已有R02、R18、R20、R48、R50；新增与已核查来源用于本批局部主张，不意味着第08—33章已审核。历史人物引文均以准确释义呈现，不编造对话和心理活动。
+
+| 来源ID | 文献与性质 | 可支持的事实 | 必须保留的边界 |
+|---|---|---|---|
+| R52 | [Émile Clapeyron, Mémoire sur la puissance motrice de la chaleur (1834), facsimile](https://www3.nd.edu/~powers/ame.20231/clapeyron1834.pdf)（1834法文原始论文影印） | 克拉佩龙公开重述卡诺，使用压力—体积曲线图与数学描述；原文仍有calorique语义 | 原式与图不是1850以后完整能量守恒/熵理论；不要把1834年工作量写成独创卡诺循环 |
+| R53 | [Bibliothèque nationale de France, Clapeyron 1834 bibliography](https://catalogue.bnf.fr/ark:/12148/cb40936143n)（法国国家图书馆馆目） | 《Journal de l’École polytechnique》1834年论文，页153—190 | 2006重印书籍的出版年不等于论文原始年代 |
+| R54 | [William Thomson, An Account of Carnot's Theory of the Motive Power of Heat, Proceedings Royal Society Edinburgh](https://www.cambridge.org/core/journals/proceedings-of-the-royal-society-of-edinburgh/article/abs/1-an-account-of-carnots-theory-of-the-motive-power-of-heat-with-numerical-results-deduced-from-regnaults-experiments-on-steam/C250B4BB002158422C7E80936357B6D5)（皇家学会论文书目信息/节选） | 1848—49年报告的卡诺理论讨论；文集卷册1851年出版；汤姆孙提出热动力作用问题 | 须区分报告时间、文集出版年及现代网页上线时间 |
+| R55 | [David Lindley, Degrees Kelvin: A Tale of Genius, Invention, and Tragedy, ch.2 (2004), National Academies Press](https://www.nationalacademies.org/read/10736/chapter/4)（科学史著作（学术出版）） | 1849年前后汤姆孙对卡诺的敬重和焦耳等价实验证据之间的概念困境；克劳修斯1850年提出重构 | 后世史家解释不等于汤姆孙当时的心理独白，不编私下会面 |
+| R56 | [J. R. Mayer, Bemerkungen über die Kräfte der unbelebten Natur (1842), original facsimile](https://academicweb.nd.edu/~powers/ame.20231/mayer1842.pdf)（1842德文原始论文影印） | 刊于Annalen der Chemie und Pharmacie 42:233—240；末页p.240从气体热容比推约365米重物下落等价水升温1°C；31 May 1842标记 | 原文Kraft译作功/能量相关概念要结合上下文，不强行等同现代力F；365m估计非今日精确常数 |
+| R57 | [Wiley, Mayer 1842 journal DOI metadata](https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/jlac.18420420212)（期刊原始书目记录） | 1842论文题名、作者、42卷2期233—240页、DOI | 索引网页重新上线时间不是原始刊期 |
+| R58 | [J. P. Joule, On the Mechanical Equivalent of Heat, Phil. Trans. 140 (1850), accessible historical OCR](https://jimclifford.ca/philosophical-transactions-ocr-1665-1869/articles/jstor-108427/)（皇家学会1850论文OCR转录） | 1849-06-06收稿、1849-06-21宣读、1850出版；实验方法与结论；772.692 ft-lb/lb-water-degree F水搅拌结果 | OCR可能有排版错误，精确数值与页码与R59影印核对；热单位历史定义不是现代1cal默认值 |
+| R59 | [J. P. Joule, On the Mechanical Equivalent of Heat (1850), facsimile copy](https://commons.princeton.edu/josephhenry/wp-content/uploads/sites/71/2021/02/Joule.pdf)（1850英文原始论文影印） | 原文p61收稿/宣读年代，p63论1843年838英尺磅，末页Table IX水772.692、汞774.083、铁774.987；实验校正 | 三种材料为三种实验系列，结果不同，不伪装完全相等；英尺磅及°F不能直接当J/卡 |
+| R60 | [American Physical Society, June 1849: James Prescott Joule and the Mechanical Equivalent of Heat (2015)](https://www.aps.org/apsnews/2015/06/joule-mechanical-equivalent-heat)（物理学会科学史文章） | 1849年报告、背景、搅水实验精密测温与环境交换校正 | 科普总结，不替代原始论文的准确温度读数与分析 |
+| R61 | [American Physical Society, December 1840: Joule’s Abstract on Converting Mechanical Power Into Heat (2009)](https://www.aps.org/apsnews/2009/12/joule-abstract-converting-mechanical-heat)（物理学会史料文章） | 焦耳电热早期研究，精密温度计及汤姆孙交流，1847年Oxford会议 | 该文回顾故事不应被写成逐字现场对话或实验当日记录 |
+| R62 | [U.S. National Bureau of Standards/NIST, historical review of the mechanical equivalent of heat (1939)](https://nvlpubs.nist.gov/nistpubs/jres/23/jresv23n2p197_A1b.pdf)（计量史专业研究） | 不同历史测量难以完全归一；焦耳1850年选择772英尺磅/英国热单位，后来1878重测 | 是1939回顾研究，不属于1849实验记录；使用现代单位转换须单列 |
+| R63 | [University of Glasgow Special Collections, James Prescott Joule](https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/Kelvin/joule.html)（大学馆藏原稿通信背景） | 1847牛津会议汤姆孙与焦耳相识，其后合作与优先权争议史料 | 一段1850年代合作不能回写成1842年共同证明 |
+| R64 | [American Physical Society, Joule 1843 paper bibliography (Philosophical Magazine 23:263—276)](https://www.tandfonline.com/doi/abs/10.1080/14786444308644730)（1843期刊原始书目信息） | 《On the Calorific Effects of Magneto-Electricity and on the Mechanical Value of Heat》1843年论文及页码 | 现代数字上线2009并非1843原始日期 |
+| R65 | [Nuffield Foundation, Joule’s Remarkable Experiments (2000), educator history](https://www.nuffieldfoundation.org/sites/default/files/files/James%20Prescott%20Joule%20and%20energy%20conservation_Joulesremarkableexperiments_2000.pdf)（历史教学二手整理） | 焦耳1843电机、1843流水摩擦、1844—45压缩空气、1845/1847搅拌的多方法对照 | 表内经现代单位统一换算，不能将表中千焦/卡数值说成焦耳1840年代直接使用 |
+| R66 | [Science Museum Group Collection, Paddlewheel used by James Joule](https://collection.sciencemuseumgroup.org.uk/objects/co8404691/paddlewheel-used-by-james-joule)（科学馆藏器物） | 焦耳使用过的搅拌桨轮，展示流体摩擦实验装置的物理结构 | 馆藏照片可作为写作参考，不推定为1845某日单次实验原物全套及特定参数 |
+
+### 05章｜理论冲突、传播、复述
+- 1824年卡诺原著R18/R48的热质转移图像与现代循环热机W=Q_h−Q_c需显式区分；后者不能当作1824年原著。[R18,R20]
+- 1834年克拉佩龙论文R52的原始标题页、对卡诺的重述和p–V图式可据影印核证；传递了卡诺思想，但未解除热质模型与后来的机械等价证据的张力。[R52,R53]
+- 汤姆孙1849年前后的卡诺理论研讨论著在1848—49会期报告，后出现在1851文集；他对焦耳证据的保留意见体现历史真实的不协调。[R54,R55,R02]
+- 克劳修斯1850年的重构本批只作下一章伏笔，完整第一/第二定律及证明留第08章；不将汤姆孙1849观点与1851观点写成无变化的同一个结论。[R55,R02]
+
+### 06章｜迈尔1842年原著及数值
+- 德文原文R56刊于1842年《Annalen der Chemie und Pharmacie》42卷233—240页（R57）；作者讨论Kraft作为能相互转换而不可消失的成因/作用能力，用现代能量概念译释应标后见。
+- **p.240直接证据**：迈尔采用当时气体比热比约1.421，估计“重物下降约365m”与“同样重量的水从0°C升至1°C”对应。其单位效果约为365千克力·米每千克水·摄氏度，现代折合约3.58千焦/千卡，较现代参考值有偏差；只用于时代估计，不假称精确实验测量。[R56 p240]
+- 气体定压加热与定容加热的差别，额外热量与膨胀对外做功联系；理想气体Q_p−Q_v=pΔV的当代简化解释须说明相同初末温度、理想气体与适用前提。不能将其强加于所有真实气体。[R56,R02]
+- 医生迈尔与其他研究者（焦耳、格罗夫、赫尔姆霍茨等）的先后贡献应作为不同路径；不靠未经证实的‘热带血液颜色顿悟’传奇替代1842年原始论文。[R56,R58,R02]
+
+### 07章｜焦耳的多路径测量及计量误差
+- 1843年焦耳电磁感应/机械价值论文原始书目R64; 1843年报告838英尺磅（重量单位为lb_f）产生足以使1磅水升温1°F的热量的估值（R58,R59）；另有水过狭窄通道摩擦等方法。[R58,R65]
+- 1845—1847流体搅拌、压缩空气等研究为多方法并行/迭代，**不应写为1843年一次完成搅拌装置并得出1850数值**。[R58,R65,R60]
+- 1849年6月6日收稿，6月21日宣读，**1850年正式刊印**的《On the Mechanical Equivalent of Heat》用水、汞、铸铁摩擦对比（原始论文p61、Table IX），结论采用水实验修正后的772.692英尺磅/1磅水升高1°F（约55—60°F区间）。其余实验均值约774.083、774.987，并非完全相等。[R58,R59]
+- 旧单位应解释为：把1磅重物提升1英尺的机械功，所相当的热量使1磅水升高1°F；现代单位1cal≈4.184J属标准化后见表达，与历史温度依赖的caloric unit不完全同义。[R59,R62]
+- 热平衡试验须扣除环境热交换、容器热容、摩擦/声/振动等效应；焦耳原始论文多轮试验有控制组与校正步骤。表IX把水、汞、铸铁结果并列是可复核性关键。[R58,R59]
+- 1847年牛津焦耳与汤姆孙相识、后来协作与史学优先权问题应分别处理；不能断言会面意味着汤姆孙当日已完全接受焦耳理论。[R63,R61,R55]
+
+### 本批尚未完成的门禁
+- 完成正文后将对应T05/T06/T07与逐项引用对应，需独立连续性与结构审稿； `workflow-state.json.review_status` 保持 `PENDING`。
+- 第08—33章仍为占位，不得将前三章的证据扩展为全书验证。
