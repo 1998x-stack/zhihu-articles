@@ -131,10 +131,12 @@
     },
     {
       "claim_id": "T14-12",
-      "claim": "∂T/∂V",
-      "type": "S=−∂p/∂S",
-      "source_ids": [],
-      "locator": "V与Helmholtz关系可推导",
+      "claim": "固定S与V的混合偏导关系及Helmholtz势的麦克斯韦关系可推导",
+      "type": "modern_formula",
+      "source_ids": [
+        "R96"
+      ],
+      "locator": "second derivatives; algebra",
       "verified": true,
       "independent_review": "PENDING"
     },
