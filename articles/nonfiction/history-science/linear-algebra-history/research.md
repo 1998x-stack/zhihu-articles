@@ -67,3 +67,45 @@
 - 文献版本及刘徽注、唐代注释的层次要明确，不将编辑排版转述为确切历史现场。
 - 书籍成书年代并无唯一公认精确年份，“汉代前后”和“刘徽263年注释”应分别陈述。
 - 第01章其他待补项为底本异文比较、各版本插图及算筹实物复原问题；不影响本章慎重限定的主张。
+
+
+## 第02章专题史料核验：未知数符号化（2026-11-06）
+
+> 本条目仅核验第02章的历史主张；这不是宣布全书其他章节完成研究。资料涵盖三类不同的记号：字母简记、算筹位置系统、一般已知量和未知量的参数化；不能将其硬说成单线演进。
+
+| claim_id | 待落实主张 | 来源编号 | 性质及可确认范围 | 本次状态 |
+|---|---|---|---|---|
+| C02-01 | 丢番图《算术》的未知数和幂的缩写式记法；其年代存在讨论 | N02-S1 | 史学事实及年代边界：MacTutor / Diophantus | 史学事实及年代边界 |
+| C02-02 | 9世纪花拉子米以语言表述方程、分类并采用配方法，例x²+10x=39 | N02-S2,N02-S3 | 古代文本对应现代方程的解释：MacTutor传记与MAA历史数学教育研究 | 古代文本对应现代方程的解释 |
+| C02-03 | 李冶《测圆海镜》1248及天元术：位置式多项式处理，天元一为未知量 | N02-S4,N02-S5 | 符号/筹式结构对应，不能直接等同字母x：学术期刊与MacTutor数学史资料 | 符号/筹式结构对应，不能直接等同字母x |
+| C02-04 | 朱世杰《四元玉鉴》1303引入至多四未知量处理，天、地、人、物元 | N02-S4,N02-S5 | 四元术多变量多项式，不同于现代向量空间：学术期刊与数学史研究 | 四元术多变量多项式，不同于现代向量空间 |
+| C02-05 | 罗伯特·雷科德1557年《智慧磨刀石》使用等号，传播并非立即 | N02-S6 | 首次印刷/传播的具体界限：MacTutor数学符号文献 | 首次印刷/传播的具体界限 |
+| C02-06 | 韦达1591年《分析术引论》以元音表达待求量，以辅音表达已知量 | N02-S7,N02-S8 | 相当于参数运算，但受量纲齐次制约：MacTutor与SEP，含原著转引 | 相当于参数运算，但受量纲齐次制约 |
+| C02-07 | 笛卡尔1637年《几何学》使用字母表后部字母代表未知量、前部字母代表已知量，扩展几何分析 | N02-S7,N02-S9 | verified_with_caveat：MacTutor与SEP，考证约定不是唯一/普遍定律 | verified_with_caveat |
+| C02-08 | 2x2含参数线性方程组的消元通式及ad-bc条件 | MATH-DERIVATION | modern_reconstruction_verified：独立现代代数证明与反例 | modern_reconstruction_verified |
+| C02-09 | 古中希阿及欧洲传统的贡献并行/交错，不能写成必然单线师承 | N02-S1,N02-S2,N02-S4,N02-S8,N02-S9 | editorial_interpretation：跨史料谨慎解释 | editorial_interpretation |
+
+### 来源索引与支持范围
+
+- **N02-S1** MacTutor: Diophantus of Alexandria（学术数学史概览）：https://mathshistory.st-andrews.ac.uk/Biographies/Diophantus/
+- **N02-S2** MacTutor: Al-Khwarizmi（学术数学史概览）：https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/
+- **N02-S3** Mathematical Association of America: Algebra Tiles Explorations of al-Khwārizmī’s Equation Types（数学史与原文例题教学研究）：https://old.maa.org/press/periodicals/convergence/algebra-tiles-explorations-of-al-khw-rizm-s-equation-types-al-khw-rizm-s-compendium-on-calculating
+- **N02-S4** Donald B. Wagner (2026): The development of the classical Chinese algebra of polynomials（学术期刊研究论文）：https://journals.sagepub.com/doi/10.1177/20966083261418725
+- **N02-S5** MacTutor: The Jade Mirror of the four unknowns（数学史研究摘录）：https://mathshistory.st-andrews.ac.uk/Extras/Jade_mirror/
+- **N02-S6** MacTutor: Earliest Uses of Symbols of Relation（数学符号史）：https://mathshistory.st-andrews.ac.uk/Miller/mathsym/relation/
+- **N02-S7** MacTutor: Earliest Uses of Symbols for Variables（数学符号史）：https://mathshistory.st-andrews.ac.uk/Miller/mathsym/variables/
+- **N02-S8** MacTutor: François Viète（学术数学史概览）：https://mathshistory.st-andrews.ac.uk/Biographies/Viete/
+- **N02-S9** Stanford Encyclopedia of Philosophy: Descartes’ Mathematics (2025 revised)（同行评阅学术百科）：https://plato.stanford.edu/entries/descartes-mathematics/
+
+### 不能误写的史实边界
+
+1. 丢番图使用未知量与幂的简记，但对生活年代的传统估计存在文本学争论；其体系不具备后世任意已知参数的统一代数符号。
+2. 花拉子米的《代数学》并非现代字母方程排版；“平方与十倍根为三十九”可数学翻译为 x²+10x=39。历史语境采用正量，现代负根−13不得冒充他的算术结果。
+3. 宋元天元术及四元术有自身的发展路线。李冶的1248年《测圆海镜》、朱世杰1303年《四元玉鉴》均经专题研究确认；现代系数列展示须注明是说明图而非古书字面排版。
+4. 雷科德1557年使用长形等号，其传播并非马上普遍；韦达1591年以大写元音与辅音区分不同性质的量，笛卡尔1637年的常用字母习惯是后来的重要规范化，不能说他们“发明了所有代数记号”。
+5. 韦达重视几何量纲齐次，不能将现代代数的任意符号操作无条件投射到其1591年著作。
+6. 对两元一次方程含参数的通解，当 ad-bc 不等于0才能除以它；当等于0，不能断言一定无解，还可能无穷多解。
+
+### 数学独立验算
+
+设 ax+by=p，cx+dy=q，则 dE1-bE2 可得 (ad-bc)x=dp-bq；aE2-cE1 可得 (ad-bc)y=aq-cp。因此当 ad-bc≠0，x=(dp-bq)/(ad-bc)，y=(aq-cp)/(ad-bc)。这只是当代数学为说明“未知量与参数一并符号化”的教学推导，**不是**韦达或笛卡尔原文中的通式。对 x²+10x=39，(x+5)²=64，x=3 或 x=−13；历史正几何量只取3。
