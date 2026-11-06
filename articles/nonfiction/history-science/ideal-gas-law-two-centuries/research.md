@@ -1,6 +1,6 @@
 # 资料证据矩阵｜PV=nRT 发现史
 
-> 研究范围：**当前已核对序章00及第01—05章的核心事实**。06—16章只有研究方向，写正文前逐章进行资料扩展。标注“已核”指来源确实支持下表限定的主张，不等于获得完整的原始档案链、通过出版审稿或为全篇史实背书。
+> 研究范围：**当前已核对序章00及第01—08章的核心事实**。09—16章只有研究方向，写正文前逐章进行资料扩展。标注“已核”指来源确实支持下表限定的主张，不等于获得完整的原始档案链、通过出版审稿或为全篇史实背书。
 
 ## 可追溯资料
 
@@ -302,3 +302,107 @@ G04-01至G04-18拥有可追溯资料或明确的编辑性/现代解释标记，�
 
 ### 前置写作判断
 第05章G05-01—G05-22可以在上述窄定义下进入**正文初稿**；证据说明不覆盖06—16章，也不构成独立连续性审稿、结构审稿或最终发布许可。
+
+
+## 第06—08章批量专项核证｜温度外推、化合体积与分子假说（2026-11-06）
+
+> 本批次按既有章节目录06→07→08执行“补核来源→章级主张审定→非虚构正文初稿”流程，**不重选题也不修改已核准的全书大纲**。研究可写资格仅覆盖G06、G07、G08，不覆盖09—16及终稿。
+
+### 新增资料与阅读边界
+
+| ID | 书目与链接 | 支持范围 / 可信程度 / 注意事项 |
+|---|---|---|
+| S40 | Joseph-Louis Gay-Lussac, “Memoir on the Combination of Gaseous Substances with Each Other,” 1808-12-31报告、1809年刊载于 *Mémoires de la Société d’Arcueil* 2:207–234；英译转录 https://web.lemoyne.edu/giunta/gaylussac.html | 原文后世英译：2:1氢氧体积、3:1氨气、2:1一氧化碳与氧生成二氧化碳、体积比例与化合物气态体积。1808报告与1809刊行要分开，古时‘muriatic’等术语不能直接现代化。 |
+| S41 | Amedeo Avogadro, “Essay on a Manner of Determining the Relative Masses of the Elementary Molecules of Bodies,” *Journal de Physique* 73 (1811):58–76，Alembic Club英译 https://web.lemoyne.edu/giunta/avogadro.html | 1811原文英译：等温等压等体积气体含等数‘integral molecules’之假说、由密度比得到相对分子质量、以原子和分子层次区分解释水蒸气体积、与道尔顿不同的微粒假设；非现代N_A绝对测值。 |
+| S42 | *Foundations of the Molecular Theory: Papers and Extracts by John Dalton, Joseph-Louis Gay-Lussac and Amedeo Avogadro (1808–11)*, Alembic Club Reprint No. 4, Edinburgh, 1893年印本 https://upload.wikimedia.org/wikipedia/commons/0/08/Foundations_of_the_molecular_theory_%28electronic_resource%29_-_comprising_papers_and_extracts_by_J._Dalton%2C_J.L._Gay-Lussac%2C_and_A._Avogadro%2C_1808-11_%28IA_b2168764x%29.pdf | 旧本影印，编者前言说明道尔顿原子概念、1808年报告与1809刊行、阿伏伽德罗1811，PDF网页可提取文本但截图服务无法读取，引用交叉比对S40/S41原文英译。 |
+| S43 | William Thomson, “On an Absolute Thermometric Scale founded on Carnot’s Theory ...,” *Philosophical Magazine*, vol. 33 (1848), pp. 313–317，1882重印转录 https://zapatopi.net/kelvin/papers/on_an_absolute_thermometric_scale.html | 1848原文复印文本：汤姆孙寻求不依赖特定物质的温标，借卡诺热机和雷尼奥观测；注释提-273℃气体外推。**1848的首个绝对刻度定义不等于后来的现代线性气体温标**；彼时不应称作者已封爵Kelvin。 |
+| S44 | Hasok Chang, “The Absolute and Its Measurement: William Thomson on Temperature,” *Annals of Science* 62 (2005), https://www.tandfonline.com/doi/full/10.1080/00033790410001712246 | 科学史论文公开摘要：1848绝对温标动机主要是不依赖测温物质而非单纯寻找0K，其1854定义变化及热机比率；正文受限，严谨详解另以S02全文为证。 |
+| S45 | Mário J. de Oliveira 等, “On the Birth of Modern Chemistry: I—The Atomic–Molecular Theory from Dalton to Avogadro,” *Substantia* 5(1) (2025), https://www.mdpi.com/2409-9252/5/1/8 | 现代历史科学研究：1805年盖吕萨克和洪堡对水的2:1气体比例，1808年底报告/1809公开，原子质量推断问题与不同科学家反应。 |
+| S46 | “On the Birth of Modern Chemistry: II—The Difficult Path of Avogadro’s Hypothesis Until Cannizzaro’s Full Acceptance,” *Substantia* 6(2) (2026), https://www.mdpi.com/2409-9252/6/2/35 | 后续接受史：1811假说及其被接受的非线性过程，1860 Karlsruhe后由Pavesi分发Cannizzaro纲要等；第08章仅作铺垫，第09章再详查。 |
+| S47 | Royal Society of Chemistry, “John Dalton – the man and the myth,” *Dalton Transactions* (2022), DOI:10.1039/D1DT04135E, https://pubs.rsc.org/en/content/articlehtml/2022/dt/d1dt04135e | 道尔顿1808/1810《新化学哲学体系》、原子量与化合比例的模型边界，慎言其当年所有化学式一概固定。 |
+| S48 | Science History Institute, “Setting the Table” (2010), https://www.sciencehistory.org/stories/magazine/setting-the-table/ | 1860年卡尔斯鲁厄会议没有立即统一化学概念；坎尼扎罗材料会后传播，作为第08章悬念而非提前写成一夜接受。 |
+| S49 | American Physical Society, “1811: Amadeo Avogadro Enumerated the Molecular World” (2016), https://www.aps.org/apsnews/2016/02/amadeo-avogadro-enumerated-molecular-world | 阿伏伽德罗等体积假说与后续命名背景；作为大众科学史辅证，不能以文章标题“枚举世界”推出其当时已测定粒子绝对数。 |
+| S50 | Jean Perrin, *Brownian Movement and Molecular Reality*, 1910英译摘录 https://web.lemoyne.edu/~giunta/perrin.html | 20世纪关于阿伏伽德罗常数N的量化和命名：约1910年才出现以阿伏伽德罗之名讨论绝对粒子数的文字；不是1811年已知的N_A。 |
+| S51 | Le Moyne College, “Avogadro’s hypotheses” teaching notes, https://webserver.lemoyne.edu/~giunta/classicalcs/avogadronote.html | 现代科学教育对1811文章的两个核心假说解释：等体积同分子数、简单气体由多个基本粒子构成，避免将原文分子词组直接套现代名词。 |
+| S52 | NIST, “Kelvin: History”, https://www.nist.gov/si-redefinition/kelvin/kelvin-history | 1702阿蒙顿、兰伯特、盖吕萨克直到1848汤姆孙的发展路径；今0K与−273.15℃严格对应。作为标准机构历史导览，而非汤姆孙1848原文。 |
+| S53 | John B. West / William B. Jensen gas-constant history, existing S01, and Wayne M. Saslow (2020), existing S02, https://pmc.ncbi.nlm.nih.gov/articles/PMC7516509/ | 批次整合说明：1834克拉佩龙267，1850前后改良273以及1848汤姆孙最初尺度与后来的现代T区别；不要二次虚构历史来源。 |
+
+### 第06章｜一条通向零下273度的直线——主张核查
+
+| claim_id | 可核主张 | 研究依据 | 分类与资格 |
+|---|---|---|---|
+| G06-01 | 盖吕萨克1802年0到100℃约0.375分数膨胀，是有限温差的经验数据 | S04/S35 | historical_limited |
+| G06-02 | 在额外采用直线模型时α≈0.00375/℃，零体积外推t≈−266.7℃ | S04/S35/S37 | modern_calculation |
+| G06-03 | 将266.7取整267与1834克拉佩龙pv=R(267+t)相关 | S01/S02 | historical_verified |
+| G06-04 | 克拉佩龙1834年R在当时与选定气体数量基准相关，不是现代普适摩尔R | S01/S02 | historical_qualified |
+| G06-05 | 早期阿蒙顿等人的极寒估计与测温逐步改进，数字非一次发现 | S27/S52 | historical_synthesis |
+| G06-06 | 雷尼奥1847年前后更精密测温工作推动接近273的经验气体外推 | S43/S01/S02 | historical_verified |
+| G06-07 | 汤姆孙1848年论文明确以卡诺热机及雷尼奥资料为基础，寻求不依赖特定物质的温标 | S43/S44/S02 | primary_verified |
+| G06-08 | 1848年的初版绝对温标在定义上并非现代线性开尔文温标，后续经1850年代发展调整 | S02/S44 | historiographic_qualified |
+| G06-09 | 汤姆孙1848原文脚注指出空气温标向负温度外推约−273℃，不是实际液柱触及零体积 | S43/S52 | primary_verified |
+| G06-10 | 现代定义T[K]=t[℃]+273.15，273.15为温标原点关系，不是某次1802实测精度 | S52 | modern_standard |
+| G06-11 | 真实气体降温可能凝结/不再适合理想气体外推，零体积不是物理观测 | S43/S02 | physical_scope |
+| G06-12 | 0K不等于所有微观运动在量子意义上完全停止 | S52/现代量子物理 | modern_caveat |
+| G06-13 | 现代定压定量理想气体V与热力学绝对温度T成正比 | S38/S52 | modern_science |
+| G06-14 | 热力学温标独立物质尺度与气体经验外推构成两条相关而不同的研究思路 | S43/S44/S02 | historical_synthesis |
+| G06-15 | 即便固定P与T，比较体积仍需考虑气体多少，指向新变量 | S38/现代气体状态模型 | modern_transition |
+| G06-16 | “直线穿过温标却不等于气体物理消失”是本章叙事模型 | S01/S43 | editorial_synthesis |
+
+### 第07章｜体积为什么会按整数比例结合——主张核查
+
+| claim_id | 可核主张 | 研究依据 | 分类与资格 |
+|---|---|---|---|
+| G07-01 | 盖吕萨克在1808年12月报告、1809年以论文形式发表气体化合体积规律 | S40/S42/S45 | primary_verified |
+| G07-02 | 1802年气体热膨胀研究与1809年化合体积规律是两项不同的问题 | S04/S40 | historical_verified |
+| G07-03 | 盖吕萨克与洪堡1805年测得水由氢氧约2:1体积比例结合 | S40/S45 | historical_verified |
+| G07-04 | 等温等压比较下2体积氢气+1体积氧气可相应得到2体积水蒸气（气相模型） | S40/S41/S45 | physical_historical_qualified |
+| G07-05 | 氮气1体积与氢气3体积对应氨气约2体积的比例 | S40/S41 | primary_verified |
+| G07-06 | 一氧化碳气体2体积和氧气1体积对应二氧化碳气体2体积比例 | S40 | primary_verified |
+| G07-07 | 气体反应的体积比常显示简单整数比；不是所有非气体物质任意条件都严格这样 | S40/S45 | limited_empirical_rule |
+| G07-08 | 气体体积必须在相同温度压强下比较，水蒸气凝结后液体体积不能沿用此比 | S40/S41 | modern_boundary |
+| G07-09 | 质量守恒与化合体积收缩不冲突，体积不守恒 | S40/S45 | modern_physics |
+| G07-10 | 道尔顿1808出版原子论并用固定质量比、多重比例理解化合物 | S47/S42 | historical_verified |
+| G07-11 | 道尔顿早期关于水组成粒子比的假设与后来H2O不一致；不归咎其不知全部实验 | S41/S42/S47 | historical_qualified |
+| G07-12 | 道尔顿质疑普遍等体积粒子数/具体化合体积数据，时代不存在现代分子区分 | S42/S41/S47 | historical_qualified |
+| G07-13 | 简单体积比本身不足以推出每份体积的粒子数，解释需要进一步假设 | S41/S51 | logic_explanation |
+| G07-14 | 现代化学配平式可以表达比例，但不能将H2、O2、NH3记号作为1809原写法 | S40/S41 | modern_explanation |
+| G07-15 | 历史论文记载有误差、特殊气体及物态限制，整数比为经验近似 | S40/S45 | historical_scope |
+| G07-16 | 观察到反应前后体积甚至可变小，触发分子计数与化合机制的新问题 | S40/S41 | historical_synthesis |
+| G07-17 | 从温度问题转入气体化合比例，研究对象从单份气体状态转为多个气体反应 | S40/S04 | editorial_transition |
+
+### 第08章｜1811年，阿伏伽德罗数出了看不见的东西——主张核查
+
+| claim_id | 可核主张 | 研究依据 | 分类与资格 |
+|---|---|---|---|
+| G08-01 | 阿伏伽德罗1811论文发表于Journal de Physique 73，58—76 | S41/S49 | primary_verified |
+| G08-02 | 提出同温同压同体积各种气体含等数‘完整分子’的假设 | S41/S51 | primary_verified |
+| G08-03 | 原文的elementary/integral/constituent molecules与现代原子分子概念并非词汇一一对应 | S41/S51 | historiographic_qualified |
+| G08-04 | 从等体积等数假设，气体密度比能推相对分子质量比 | S41 | primary_verified |
+| G08-05 | 阿伏伽德罗举过氢氧相对密度导出约15:1质量比的历史数字，非今精确值 | S41 | primary_verified |
+| G08-06 | 水的2体积H与1体积O产2体积水汽，单粒子模型出现产物数与物料矛盾 | S41/S40 | historical_and_logic |
+| G08-07 | 其分子拆分假设允许简单气体的分子由多个更基本粒子组成 | S41/S51 | primary_verified |
+| G08-08 | 现代二原子H2与O2模型可解释2H2+O2→2H2O，但这不是1811文字原样符号 | S41/S51 | modern_explanation |
+| G08-09 | 阿伏伽德罗与道尔顿气态粒子距离及热素作用的解释有分歧 | S41/S42 | primary_verified |
+| G08-10 | 假说能够统一盖吕萨克体积实验与道尔顿化合质量比例，但尚缺独立微观计数证据 | S41/S47 | historical_synthesis |
+| G08-11 | 1811文章只是比较相对数与相对质量，没有测定N_A绝对数值 | S41/S50 | primary_vs_later |
+| G08-12 | 阿伏伽德罗常数的后世命名和绝对数量测定是19/20世纪另一阶段 | S50/S49 | historical_verified |
+| G08-13 | 若同P、T时等体积同数分子，则相同分子数量的气体占相同体积（适用理想近似） | S41/S38 | modern_consequence |
+| G08-14 | 现代PV=nRT中的n表示物质的量，与1811年的绝对粒子数数值不能等同 | S41/现代气体状态模型 | modern_scope |
+| G08-15 | 假说没有1811年立即获得所有人接受，原子与分子和原子量争论持续 | S46/S48/S49 | historical_verified |
+| G08-16 | 1860年卡尔斯鲁厄会及坎尼扎罗论文传播成为转折，不是会上立刻全票统一 | S46/S48/S49 | historical_qualified |
+| G08-17 | 阿伏伽德罗1811假说在研究链中是提出一种解释，不是直接观察显微图像 | S41/S51 | methodological_distinction |
+| G08-18 | ‘数出了’意为逻辑关联不同气体的相对粒子数，不是物理逐一计数 | S41/S50 | editorial_title_explanation |
+
+### 跨章史实界限与冲突记录
+
+- **267不是273.15的笔误**：1802年约0.375/100℃给出线性外推系数1/266.7；当年的有限区间经验规律不等于测到了零体积或0 K。1834克拉佩龙的267与1840年代后较精密测量、1850年代热力学再解释要按年代分别陈述。
+- **1848汤姆孙温标不是今日K的直接复制**：S43原文寻求与特定测温物质无关的定义，利用卡诺的热机结果；S02及S44明确最初1848构想实际对应与现代理想气体T不同的函数（接近对数尺度）。原文脚注讨论−273℃的气体温标外推，但**不能据此说1848即完成了今天完全相同的T=t+273.15标度**。
+- **盖吕萨克日期有两种说法**：气体化合体积的原作1808年12月31日报告/朗读，1809年文集刊载。**1802是气体热膨胀，1808/1809是化合体积**，绝不可混淆。
+- **反应比例要限气相**：反应气体均按同温同压比较；水若冷凝为液体就不能说其‘体积2份水’。现代方程式展示只是解释工具，不冒充1809年原作符号；化学反应可改变体积但质量守恒。
+- **道尔顿不应写成扁平反派**：他提出了原子论与质量关系；其对气态体积—粒子数及化合物中原子分子区别持不同假设，部分观测本身有误差。强调当时尚无分子直接计数证据。
+- **阿伏伽德罗不是测量N_A的人**：1811年提出等体积等相对粒子数假说、从气体密度推相对质量，原文用molecule与elementary/constituent/integral不同修饰；数值意义的阿伏伽德罗常数是之后发展的概念，S50展示1900年代后对常数N的讨论。
+- **1811≠1860立即接受**：卡尔斯鲁厄会议及坎尼扎罗纲要传播的重要性可作为第08章末悬念，第09章再讲过程。S46（2026史学论文）与S48（机构史学）均反对“一场会议人人立即转向”的通俗简化。
+- **材料安全**：原始历史化学实验涉及危险气体/燃烧/水银等，本批正文只作实验结果与化学方程的历史解释，不提供实验装置搭建、配气或实施方法。
+
+### 进入写作的判定
+第06章G06-01—G06-16、第07章G07-01—G07-17、第08章G08-01—G08-18均有本表明示来源或现代/编辑性解释标记，允许三章在当前修订编号下进入**非虚构初稿**；未取得独立连续性审计、结构审稿或终审批准。
