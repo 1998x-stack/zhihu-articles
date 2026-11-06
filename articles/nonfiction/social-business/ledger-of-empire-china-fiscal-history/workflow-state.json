@@ -1,0 +1,15 @@
+{
+  "schema_version": "2.0",
+  "lane": "nonfiction",
+  "current_revision": 0,
+  "outline_approved": false,
+  "evidence_verified": false,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
+  "unresolved_blockers": [],
+  "edited_revision": null,
+  "final_approved": false,
+  "evidence_scope": "用户提供《何以帝国》EPUB的书目目录与关键篇章已作为观点和研究线索阅读；45章未进行系统的原始/独立交叉核证，1912年以后为额外扩展问题。",
+  "approval_scope": "只批准编辑选题、章节目录及占位文件；未批准非虚构正文、精修、封版或发布。",
+  "note": "2026-11-06 初始立项：9部45章＋序章和尾声；只建规划/占位，没有事实审稿结论。"
+}
