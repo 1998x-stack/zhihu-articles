@@ -249,3 +249,34 @@
 - **13** 令 \`x(t)=t²\`, \`y(t)=x(t)³=t⁶\`：\`ẋ=2t\`, \`ẏ=3x²ẋ=6t⁵\`。乘积法则来自小时间增量展开 \`(x+Δx)(y+Δy)\`，忽略二阶项需通过极限条件解释；现代 \`A(x)=x³/3\` 沿时间变化 \`Ȧ=x²ẋ\`，区分时间流数与把x当变量时的导数。与莱布尼茨\`d\`、积分符号的比较留给14章，完整基本定理主角留给15章。
 - **真实性**：不要虚构牛顿身处房间、听到话语、苹果落下即发现微积分，不能将后世牛顿关于优先权的当事人说法视为没有争议的中立旁证。
 - **工作流**：三章为 \`DRAFT_UNREVIEWED\` 候选；整书 \`workflow-state.json\` 的 \`outline_approved=false/evidence_verified=false/review_status=PENDING\` 保持原样，不能宣称已通过正式双审/最终门禁。
+
+
+---
+
+## 增量史料核验｜第三部第14—16章（2026-11-06，候选草稿）
+
+本节为第14—16章定向补充可追溯研究入口，**不变更整书工作流的** \`evidence_verified=false\` **状态**。网页书目/学术摘要以及现有可访问的原典转录可以支持具体事实，仍须在全书正式审核时逐项复核原典版页与译文。编号延续 H01—H80。
+
+- **H81** MacTutor，[Gottfried Wilhelm von Leibniz](https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/)；兼参 [Calculus history](https://mathshistory.st-andrews.ac.uk/HistTopics/The_rise_of_calculus/)。**范围**：1672年巴黎惠更斯影响、1670年代记号演进、1684及1686发表、后续争论。**边界**：传记综合材料，人物动机不可当成直接心理记录。
+- **H82** MacTutor，[Earliest Uses of Symbols of Calculus](https://mathshistory.st-andrews.ac.uk/Miller/mathsym/calculus/)。**范围**：1675年10月29日手稿以拉长S替代 omn.，同年11月将 \`dx\` 接入积分书写；指向莱布尼茨全集 VII/5 (2008) pp.288—295 与 pp.321—331；带上下限的现代积分书写更晚形成。**边界**：1675手稿≠1686出版，不等于现代定积分严格定义。
+- **H83** Frank J. Swetz，MAA Convergence，[Mathematical Treasure: Leibniz’s Papers on Calculus — Differential Calculus](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-leibnizs-papers-on-calculus-differential-calculus)。**范围**：1684年10月《学者纪事》 *Nova methodus pro maximis et minimis* pp.467—473；提供文献页及图版。**边界**：应用微分规则可现代讲解，但不能声称原作具有十九世纪极限基础。
+- **H84** Frank J. Swetz，MAA Convergence，[Mathematical Treasure: Leibniz’s Papers on Calculus — Integral Calculus](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-leibnizs-papers-on-calculus-integral-calculus)。**范围**：1686年6月《学者纪事》 *De geometria recondita et analysi indivisibilium atque infinitorum* pp.292—300；积分号公开出现与求积—微分反向联系。**边界**：历史证明形式不能替换为现代基本定理两个部分的完整ε–δ证明。
+- **H85** MAA Convergence，[Teaching the Fundamental Theorem of Calculus: A Historical Reflection](https://old.maa.org/press/periodicals/convergence/teaching-the-fundamental-theorem-of-calculus-a-historical-reflection)。**范围**：Cavalieri—Barrow—Gregory—Newton—Leibniz阶段性的求积/切线关联与现代教学界限。**边界**：不是一份将“完整现代基本定理”归功于单一十七世纪人物的证明文件。
+- **H86** Niccolò Guicciardini，[*The Newton–Leibniz Calculus Controversy, 1708–1730*](https://academic.oup.com/edited-volume/34749/chapter-abstract/296599634)，*Oxford Handbook of Newton*，2017，DOI 10.1093/oxfordhb/9780199930418.013.9。**范围**：1708开尔指控、数学方法的分歧、政治机构环境和争论延展。**边界**：可获取的摘要不等于已逐页审读全章，不增加未核实直接引文。
+- **H87** *Oxford Handbook of Leibniz*，[Life and Works](https://academic.oup.com/edited-volume/34667/chapter/295383476)。**范围**：皇家学会委员会、牛顿参与报告撰写、1713年出版 *Commercium Epistolicum* 及独立发现的现代评价。**边界**：机构调查报告不是无利益关联的中立裁决。
+- **H88** *Notices of the AMS*，[*3000 Years of Analysis* 书评／17世纪微积分争论](https://doi.org/10.1090/noti2593)。**范围**：1664—66牛顿发展、1672—76莱布尼茨发展、1676年6月13日及10月24日通信、1684与1686的发表优先。**边界**：后世历史综述；通信原始用语需回到 Newton Project、馆藏版。
+- **H89** MacTutor，[James Gregory](https://mathshistory.st-andrews.ac.uk/Biographies/Gregory/)。**范围**：1668 *Geometriae pars universalis* 与切线/求积逆关系；与既有H67一致。
+- **H90** MAA Reviews，[The Geometrical Lectures of Isaac Barrow](https://old.maa.org/press/maa-reviews/the-geometrical-lectures-of-isaac-barrow)。**范围**：巴罗1670年《几何讲义》中的几何切线/求积关系；与既有H68一致。
+
+### 第14—16章数学复核要点
+
+- **14** \`d(xy)=xdy+ydx\`；\`y=x³−3x\` 的导数 \`3x²−3\`，由符号表得 \`x=−1\` 局部极大、\`x=1\` 局部极小；\`∫₀²x²dx=8/3\`。**现代教学回译**，不可写作1684年原式。
+- **15** 连续 \`f\` 情形下 \`A(x)=∫ₐˣf(t)dt\` 的差商可由区间上界/下界夹逼得 \`A′=f\`；\`F′=f\` 时 \`∫ₐᵇf=F(b)−F(a)\`。平方和 \`S_n=8(n+1)(2n+1)/(6n²)\` 的极限是 \`8/3\`；阶跃函数在不连续点不满足该点的导数结论。
+- **16** \`x=t²,\,y=x³\` 时流数与现代链式法则都导出 \`dy/dt=6t⁵\`；在 \`t=0\` 分母 \`dx/dt=0\`，不能简单通过除法求 \`dy/dx\`。此例只展示方法重叠，不是优先权的历史证据。
+
+### 本批待复审问题
+
+1. 1684、1686原版拉丁文本的具体运算式、1668/1670原典中的“逆向联系”需独立版页细审；引用二手史学时勿伪称完成直接查阅全部原件。
+2. 1699法蒂奥的早期质疑与1708开尔事件需严格区分；1712资料审查和1713初出版不能合并成一次日期。
+3. 第15章连续版本的FTC为现代严密化，历史先驱的贡献不应以现代术语倒灌。
+4. 仅为 \`DRAFT_UNREVIEWED\` 候选，没有独立 \`continuity-audit\` 与 \`developmental-editor\` 通过证明，也没有 \`line-edit\`、\`final-approval\` 许可。
