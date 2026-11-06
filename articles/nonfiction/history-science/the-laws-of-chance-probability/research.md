@@ -27,3 +27,28 @@
 7. 现代AI不确定性需要最新可复核研究，不以产品营销材料替代事实。
 
 尚未核实的史实必须收缩表述或明示争议，禁止虚构人物对话和原始资料。
+
+
+## 第02章专项核验记录｜1494年的未完比赛（2026-11-06）
+
+> 仅限第02章史料基础，**并非全书 evidence_verified = true**。下列“核对”基于可查的书目、原文转写、专业历史综述；原版影印页逐页验证尚未全部完成。
+
+| claim | 断言与证据 | 支持强度 | 仍需核实 |
+|---|---|---|---|
+| C02-01 | Smithsonian所藏1494年威尼斯印行的Pacioli《Summa》，[P02-S1](https://www.sil.si.edu/DigitalCollections/incunabula/CF/browse-results-author.cfm?author=Pacioli%2C+Luca%2C+d.+ca.+1514) | 图书馆馆藏目录支持 | 无关键争议 |
+| C02-02 | 原题60分终点、每回10、50:20中断、共10达克特，[P02-S2](https://www.probabilityandfinance.com/pulskamp/Pacioli/summa.pdf)，fols.197r等 | 原著现代转写与翻译支持 | 原版扫描影像还需独立比对 |
+| C02-03 | 帕乔利以已得分50:20比例分配，得5/7与2/7，[P02-S2](https://www.probabilityandfinance.com/pulskamp/Pacioli/summa.pdf) | 原著转写＋独立算术计算 | 原版印本文本检查 |
+| C02-04 | 塔尔塔利亚1556年《General Trattato》Book XVI, §206，转述50:30和不同金额，举10:0反例并提出其替代规则，[P02-S3](https://probabilityandfinance.com/pulskamp/Tartaglia/tartaglia_trattato_2col.pdf) | 原著转写＋二手论述 | 注意转述版本与1494原文不同 |
+| C02-05 | 卡尔达诺1539批评；更早意大利手稿已讨论此类问题，[P02-S4](https://www.gtfp.cs.rhul.ac.uk/pulskamp/Problem_of_points/points.html) | 专题历史综述 | 更早手稿的原始影像及编年待核 |
+| C02-06 | 帕斯卡—费马1654年通信是概率计算系统化的重要里程碑，[P02-S4](https://www.gtfp.cs.rhul.ac.uk/pulskamp/Problem_of_points/points.html)、[P02-S5](https://www.ms.uky.edu/~dmu228/ma320/pascal_invention_probability.pdf) | 多份历史综述支持 | 正式写第05章前核通信原件 |
+| C02-07 | 额外假设独立等机会未来各轮，则乙要连胜四轮，概率1/16，甲15/16 | 明确前提下数学演绎 | **仅为现代教学模型，绝非1494年历史原题条件** |
+
+### 特别警戒：50:20与50:30的版本混淆
+- 1494年帕乔利原题：50:20、总额10达克特。
+- 1556年塔尔塔利亚转述版本：50:30、另有不同金额。
+- 部分近现代二手文献将两者混写。正文必须遵从原文并提示读者，不可静默替换数据。
+
+### 仍未过关的门禁
+- 本次只核第02章；全书 research.md 仍有大量章节未核实。
+- 因此保留原有 workflow-state.json 的 outline_approved=false、evidence_verified=false、review_status=PENDING。
+- 第02章可视为“来源支持的研究初稿”，尚未独立通过仓库的 draft/edit/final 发布门禁。

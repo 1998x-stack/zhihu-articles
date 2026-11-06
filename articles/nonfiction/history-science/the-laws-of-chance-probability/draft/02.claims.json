@@ -1,6 +1,112 @@
 {
   "chapter_id": "02",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "title": "1494年的未完比赛：帕乔利为何难以定义公平",
+  "status": "DRAFT_SOURCE_CHECKED_NOT_FINAL",
+  "review_status": "PENDING",
+  "scope": "Only chapter 02; global book evidence_verified remains false.",
+  "claims": [
+    {
+      "claim_id": "C02-01",
+      "statement": "Pacioli Summa was printed at Venice in 1494",
+      "category": "bibliographic_fact",
+      "source_ids": [
+        "P02-S1"
+      ],
+      "verification": "CONFIRMED_BY_LIBRARY_CATALOG"
+    },
+    {
+      "claim_id": "C02-02",
+      "statement": "The original Pacioli ballgame example was target 60, ten points per score, interrupted at 50:20, total 10 ducats",
+      "category": "primary_text",
+      "source_ids": [
+        "P02-S2"
+      ],
+      "verification": "CHECKED_AGAINST_TRANSCRIPTION",
+      "caution": "Original printed page images not independently inspected"
+    },
+    {
+      "claim_id": "C02-03",
+      "statement": "Pacioli's division rule used already obtained scores 50:20=5:2; 10 ducats yielded 50/7 and 20/7",
+      "category": "primary_text_and_arithmetic",
+      "source_ids": [
+        "P02-S2"
+      ],
+      "verification": "CHECKED_AGAINST_TRANSCRIPTION_AND_CALCULATED"
+    },
+    {
+      "claim_id": "C02-04",
+      "statement": "Tartaglia 1556 used different example figures (50:30, 22 ducats in retelling), rebutted 10:0 case, and offered different rule",
+      "category": "primary_text",
+      "source_ids": [
+        "P02-S3"
+      ],
+      "verification": "CHECKED_AGAINST_TRANSCRIPTION",
+      "caution": "Do not conflate with original 1494 50:20 and 10 total"
+    },
+    {
+      "claim_id": "C02-05",
+      "statement": "Cardano criticized Pacioli in 1539 work, and issue is attested by earlier manuscript traditions",
+      "category": "historiography",
+      "source_ids": [
+        "P02-S4"
+      ],
+      "verification": "SUPPORTED_BY_HISTORICAL_SURVEY",
+      "caution": "Dates and interpretations of earliest manuscripts need primary archive check"
+    },
+    {
+      "claim_id": "C02-06",
+      "statement": "Pascal and Fermat exchanged correspondence on points problem in 1654",
+      "category": "historiography",
+      "source_ids": [
+        "P02-S4",
+        "P02-S5"
+      ],
+      "verification": "CORROBORATED_BY_HISTORICAL_STUDIES"
+    },
+    {
+      "claim_id": "C02-07",
+      "statement": "Under newly imposed independent fair round assumptions at 50:20 to 60, trailing party wins only by winning next four: 1/16; leading party 15/16",
+      "category": "modern_mathematical_reconstruction",
+      "source_ids": [],
+      "verification": "MATHEMATICALLY_DERIVED",
+      "assumptions": [
+        "Each next 10-point round equally likely 1/2 for either side",
+        "Future rounds independent",
+        "Game stops upon reaching 60"
+      ],
+      "caution": "Not a historical claim or a real-world match probability"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "P02-S1",
+      "title": "Smithsonian Incunabula Pacioli 1494",
+      "url": "https://www.sil.si.edu/DigitalCollections/incunabula/CF/browse-results-author.cfm?author=Pacioli%2C+Luca%2C+d.+ca.+1514",
+      "kind": "library_catalog"
+    },
+    {
+      "source_id": "P02-S2",
+      "title": "Pacioli 1494 Summa, Pulskamp transcription & translation",
+      "url": "https://www.probabilityandfinance.com/pulskamp/Pacioli/summa.pdf",
+      "kind": "primary_text_transcription"
+    },
+    {
+      "source_id": "P02-S3",
+      "title": "Tartaglia 1556 General Trattato §206, Pulskamp translation",
+      "url": "https://probabilityandfinance.com/pulskamp/Tartaglia/tartaglia_trattato_2col.pdf",
+      "kind": "primary_text_transcription"
+    },
+    {
+      "source_id": "P02-S4",
+      "title": "Pulskamp, The Problem of Points history",
+      "url": "https://www.gtfp.cs.rhul.ac.uk/pulskamp/Problem_of_points/points.html",
+      "kind": "secondary_historical_survey"
+    },
+    {
+      "source_id": "P02-S5",
+      "title": "Øystein Ore, Pascal and the Invention of Probability Theory (1960)",
+      "url": "https://www.ms.uky.edu/~dmu228/ma320/pascal_invention_probability.pdf",
+      "kind": "peer_reviewed_history"
+    }
+  ]
 }
