@@ -1,6 +1,142 @@
 {
   "chapter_id": "08",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "notes": "Only claims explicitly scoped below are supported; original editions/final independent review still pending.",
+  "sources": [
+    {
+      "source_id": "P08-S1",
+      "title": "Wellcome Collection, John Graunt 1662 original edition bibliographic record",
+      "url": "https://wellcomecollection.org/works/sds578rr",
+      "kind": "library_catalog"
+    },
+    {
+      "source_id": "P08-S2",
+      "title": "John Graunt, Natural and Political Observations chapter 11, 1676 edition transcript",
+      "url": "https://en.wikisource.org/wiki/Natural_and_Political_Observations_Made_upon_the_Bills_of_Mortality_%28Graunt_1676%29/Chapter_11",
+      "kind": "historical_primary_text_later_edition"
+    },
+    {
+      "source_id": "P08-S3",
+      "title": "Anders Hald, 1990 early history of probability and statistics bibliography",
+      "url": "https://www.york.ac.uk/depts/maths/histstat/haldcontents.htm",
+      "kind": "scholarly_history_reference"
+    },
+    {
+      "source_id": "P08-S4",
+      "title": "Edmond Halley 1693 paper 1874 reprint, Cambridge Core",
+      "url": "https://www.cambridge.org/core/journals/journal-of-the-institute-of-actuaries/article/abs/an-estimate-of-the-degrees-of-the-mortality-of-mankind-drawn-from-curious-tables-of-the-births-and-funerals-at-the-city-of-breslaw-with-an-attempt-to-ascertain-the-price-of-annuities-upon-lives/2271E88DBB466900D832EE2D342CE926",
+      "kind": "historical_article_reprint"
+    },
+    {
+      "source_id": "P08-S5",
+      "title": "Edmond Halley 1693 treatise reproduced in Miscellanea Curiosa 1708, Gutenberg",
+      "url": "https://www.gutenberg.org/cache/epub/49791/pg49791-images.html",
+      "kind": "historical_primary_reprint"
+    },
+    {
+      "source_id": "P08-S6",
+      "title": "HistData Breslau R dataset: Halley, Neumann, Bellhouse background",
+      "url": "https://search.r-project.org/CRAN/refmans/HistData/html/Breslau.html",
+      "kind": "research_data_documentation"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C08-01",
+      "statement": "Graunt published Natural and Political Observations upon the Bills of Mortality in 1662",
+      "source_ids": [
+        "P08-S1"
+      ],
+      "category": "historical_bibliography",
+      "verification": "LIBRARY_CATALOG_CHECKED",
+      "limitations": "The chapter 11 text accessed is from a 1676 edition"
+    },
+    {
+      "claim_id": "C08-02",
+      "statement": "Graunt used 100 quick conceptions, estimated 36 deceased before six, 64 remaining at six, 40 at sixteen, 25 at twenty-six",
+      "source_ids": [
+        "P08-S2"
+      ],
+      "category": "primary_text_historical",
+      "verification": "EDITED_1676_TEXT_CHECKED",
+      "limitations": "Quick conceptions not same as 100 modern live births; estimates not true tracked cohort"
+    },
+    {
+      "claim_id": "C08-03",
+      "statement": "Conditional proportions 40/64=5/8 and 25/40=5/8 are arithmetic implications of Graunt stylized figures",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "limitations": "Do not equate with measured individual real-world risk"
+    },
+    {
+      "claim_id": "C08-04",
+      "statement": "Halley published 1693 mortality and annuity paper using Breslau births and burials data from 1687-1691",
+      "source_ids": [
+        "P08-S4",
+        "P08-S5"
+      ],
+      "category": "primary_history",
+      "verification": "PUBLISHED_REPRINT_CHECKED",
+      "limitations": "Original 1693 print not independently page-inspected"
+    },
+    {
+      "claim_id": "C08-05",
+      "statement": "Breslau data were collected by Caspar Neumann",
+      "source_ids": [
+        "P08-S6"
+      ],
+      "category": "historical_data_provenance",
+      "verification": "SECONDARY_DATA_DOCUMENTATION",
+      "limitations": "Could strengthen with Bellhouse full 2011 paper"
+    },
+    {
+      "claim_id": "C08-06",
+      "statement": "Halley mentioned London migration, lack of counts and death ages as reasons to select Breslau",
+      "source_ids": [
+        "P08-S4",
+        "P08-S5"
+      ],
+      "category": "primary_text",
+      "verification": "HISTORICAL_REPRINT_CHECKED",
+      "limitations": "These are Halley's rationales, not validated perfect census conditions"
+    },
+    {
+      "claim_id": "C08-07",
+      "statement": "Halley's historic table gives age current 1: 1000; 2: 855; 3: 798",
+      "source_ids": [
+        "P08-S5"
+      ],
+      "category": "primary_numeric",
+      "verification": "HISTORICAL_TABLE_CHECKED",
+      "limitations": "Age current labeling and census-vs-cohort interpretation crucial"
+    },
+    {
+      "claim_id": "C08-08",
+      "statement": "Life table survival proportion l_(x+1)/l_x is a conditional probability under an idealized cohort framework",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "limitations": "Historical Halley population table not directly modern cohort study"
+    },
+    {
+      "claim_id": "C08-09",
+      "statement": "Later statistics identifies Halley table as closer to a population table than modern prospective cohort",
+      "source_ids": [
+        "P08-S6"
+      ],
+      "category": "historiographical_interpretation",
+      "verification": "SUPPORTED_BY_RESEARCH_DATA_AND_SCHOLARLY_REFERENCE",
+      "limitations": "Bellhouse 2011 full paper pending direct line-by-line check"
+    },
+    {
+      "claim_id": "C08-10",
+      "statement": "Need a population denominator rather than raw death counts to infer age-specific rates",
+      "source_ids": [],
+      "category": "methodological_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "limitations": "Must correct for migration and observation frame"
+    }
+  ]
 }

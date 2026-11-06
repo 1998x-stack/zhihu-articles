@@ -1,6 +1,105 @@
 {
   "chapter_id": "06",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "notes": "Only claims explicitly scoped below are supported; original editions/final independent review still pending.",
+  "sources": [
+    {
+      "source_id": "P06-S1",
+      "title": "Pascal, Traité du triangle arithmétique, archival French text",
+      "url": "https://fr.wikisource.org/wiki/Trait%C3%A9_du_triangle_arithm%C3%A9tique",
+      "kind": "historical_primary_text_edited"
+    },
+    {
+      "source_id": "P06-S2",
+      "title": "Bibliothèque nationale de France CCFr catalog, 1665 Paris printing",
+      "url": "https://ccfr.bnf.fr/portailccfr/ark%3A/16871/00114268519",
+      "kind": "library_catalog"
+    },
+    {
+      "source_id": "P06-S3",
+      "title": "Encyclopedia of Mathematics, Blaise Pascal",
+      "url": "https://encyclopediaofmath.org/wiki/Pascal%2C_Blaise",
+      "kind": "historical_mathematics_review"
+    },
+    {
+      "source_id": "P06-S4",
+      "title": "University of Warwick, Yang Hui triangle and Jia Xian",
+      "url": "https://warwick.ac.uk/fac/sci/maths/general/outreach/diversity/mao/",
+      "kind": "university_history"
+    },
+    {
+      "source_id": "P06-S5",
+      "title": "Cut-the-Knot, Treatise on Arithmetical Triangle",
+      "url": "https://www.cut-the-knot.org/arithmetic/combinatorics/PascalTriangle.shtml",
+      "kind": "secondary_mathematics_history"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C06-01",
+      "statement": "Pascal Traité du triangle arithmétique was developed around 1654 and printed posthumously in 1665",
+      "source_ids": [
+        "P06-S1",
+        "P06-S2"
+      ],
+      "category": "historical_bibliography",
+      "verification": "CORROBORATED",
+      "limitations": "The exact drafting phase 1653 vs 1654 remains debated"
+    },
+    {
+      "claim_id": "C06-02",
+      "statement": "Pascal systematically studied the triangle, combinations, stake division and binomial powers",
+      "source_ids": [
+        "P06-S1",
+        "P06-S3"
+      ],
+      "category": "historical_text",
+      "verification": "PRIMARY_EDITED_TEXT_AND_HISTORY",
+      "limitations": "No claim that Pascal first invented the triangle"
+    },
+    {
+      "claim_id": "C06-03",
+      "statement": "Yang Hui's 1261 mathematics and attribution to Jia Xian precede Pascal; wider traditions also existed",
+      "source_ids": [
+        "P06-S4",
+        "P06-S5"
+      ],
+      "category": "history_cross_cultural",
+      "verification": "CORROBORATED",
+      "limitations": "Original lost Jia Xian source not directly checked"
+    },
+    {
+      "claim_id": "C06-04",
+      "statement": "The binomial-coefficient recurrence C(n,k)=C(n-1,k)+C(n-1,k-1) follows from include/exclude partition",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "limitations": "Historical notation not used"
+    },
+    {
+      "claim_id": "C06-05",
+      "statement": "Sum of n-th row equals 2^n and matches binary sequence count",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "limitations": "Requires 2 outcomes for binary sequence model; no equal probability required for raw count"
+    },
+    {
+      "claim_id": "C06-06",
+      "statement": "C(6,2)=15 and C(10,3)=120 are independently verified",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "limitations": "Probability C(n,k)/2^n needs independent fair binary steps"
+    },
+    {
+      "claim_id": "C06-07",
+      "statement": "In modern equal independent two-player illustration with remaining 2 vs 3 wins, chance ratio is 11/16 vs 5/16",
+      "source_ids": [],
+      "category": "modern_math",
+      "verification": "INDEPENDENTLY_DERIVED",
+      "limitations": "Not a verbatim 1654 source claim"
+    }
+  ]
 }
