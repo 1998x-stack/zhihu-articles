@@ -1,0 +1,84 @@
+{
+  "chapter": "15",
+  "title": "凯莱—哈密顿：矩阵满足自己的方程吗",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "H15-S1": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "H15-S2": "https://mathworld.wolfram.com/Cayley-HamiltonTheorem.html",
+    "H15-S3": "https://doi.org/10.1515/crelle-1878-18788403",
+    "H15-S4": "https://www.jstor.org/stable/108649",
+    "H15-S5": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/c/",
+    "M15": "本文第4—10节现代符号推导及独立符号计算"
+  },
+  "claims": [
+    {
+      "claim_id": "C15-01",
+      "source_ids": [
+        "H15-S1",
+        "H15-S2",
+        "H15-S4"
+      ],
+      "kind": "historical_scope",
+      "verified": true
+    },
+    {
+      "claim_id": "C15-02",
+      "source_ids": [
+        "H15-S1",
+        "H15-S5"
+      ],
+      "kind": "historical",
+      "verified": true
+    },
+    {
+      "claim_id": "C15-03",
+      "source_ids": [
+        "H15-S1",
+        "H15-S3"
+      ],
+      "kind": "historical_publication",
+      "verified": true
+    },
+    {
+      "claim_id": "C15-04",
+      "source_ids": [
+        "H15-S2",
+        "M15"
+      ],
+      "kind": "modern_math",
+      "verified": true
+    },
+    {
+      "claim_id": "C15-05",
+      "source_ids": [
+        "M15"
+      ],
+      "kind": "modern_proof",
+      "verified": true
+    },
+    {
+      "claim_id": "C15-06",
+      "source_ids": [
+        "M15"
+      ],
+      "kind": "modern_consequence",
+      "verified": true
+    },
+    {
+      "claim_id": "C15-07",
+      "source_ids": [
+        "H15-S1",
+        "H15-S2"
+      ],
+      "kind": "historical_synthesis",
+      "verified": true
+    }
+  ],
+  "notes": [
+    "1853 Hamilton特殊情形不是1858 Cayley矩阵一般声明",
+    "1878 Frobenius一般证明，不夸大1858论文",
+    "一般伴随矩阵证明系现代形式",
+    "初稿未经独立双审/终审"
+  ]
+}
