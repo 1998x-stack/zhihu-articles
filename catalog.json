@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "purpose": "中文原创短篇与知识叙事创作框架",
+  "core_skill": "chief-narrative-editor",
+  "genres": [
+    {
+      "name": "现实逆袭",
+      "skill": "genre-realistic-comeback",
+      "archive": "articles/fiction/realistic-comeback",
+      "kind": "虚构",
+      "recommended_words": [
+        5000,
+        10000
+      ],
+      "source_prompt": "62001"
+    },
+    {
+      "name": "职场博弈",
+      "skill": "genre-workplace-politics",
+      "archive": "articles/fiction/workplace-politics",
+      "kind": "虚构",
+      "recommended_words": [
+        6000,
+        12000
+      ],
+      "source_prompt": "62002"
+    },
+    {
+      "name": "家庭伦理",
+      "skill": "genre-family-ethics",
+      "archive": "articles/fiction/family-ethics",
+      "kind": "虚构",
+      "recommended_words": [
+        5000,
+        10000
+      ],
+      "source_prompt": "62003"
+    },
+    {
+      "name": "悬疑推理",
+      "skill": "genre-mystery-detective",
+      "archive": "articles/fiction/mystery-detective",
+      "kind": "虚构",
+      "recommended_words": [
+        6000,
+        15000
+      ],
+      "source_prompt": "62004"
+    },
+    {
+      "name": "古风权谋",
+      "skill": "genre-historical-intrigue",
+      "archive": "articles/fiction/historical-intrigue",
+      "kind": "虚构",
+      "recommended_words": [
+        8000,
+        15000
+      ],
+      "source_prompt": "62005"
+    },
+    {
+      "name": "规则怪谈与脑洞",
+      "skill": "genre-rules-fantasy",
+      "archive": "articles/fiction/rules-fantasy",
+      "kind": "虚构",
+      "recommended_words": [
+        4000,
+        10000
+      ],
+      "source_prompt": "62006"
+    },
+    {
+      "name": "科幻与AI伦理",
+      "skill": "genre-ai-scifi",
+      "archive": "articles/fiction/ai-scifi",
+      "kind": "虚构",
+      "recommended_words": [
+        6000,
+        12000
+      ],
+      "source_prompt": "62007"
+    },
+    {
+      "name": "青春成长",
+      "skill": "genre-coming-of-age",
+      "archive": "articles/fiction/coming-of-age",
+      "kind": "虚构",
+      "recommended_words": [
+        5000,
+        10000
+      ],
+      "source_prompt": "62008"
+    },
+    {
+      "name": "历史与科学发现",
+      "skill": "genre-history-science",
+      "archive": "articles/nonfiction/history-science",
+      "kind": "非虚构",
+      "recommended_words": [
+        6000,
+        15000
+      ],
+      "source_prompt": "62009"
+    },
+    {
+      "name": "社会现实与商业调查",
+      "skill": "genre-social-business",
+      "archive": "articles/nonfiction/social-business",
+      "kind": "非虚构",
+      "recommended_words": [
+        6000,
+        15000
+      ],
+      "source_prompt": "62010"
+    }
+  ],
+  "stages": [
+    {
+      "skill": "topic-development",
+      "name": "选题开发与定位",
+      "produces": "brief.md"
+    },
+    {
+      "skill": "story-architect",
+      "name": "故事策划与结构蓝图",
+      "produces": "outline.md"
+    },
+    {
+      "skill": "character-world",
+      "name": "人物世界观与约束系统",
+      "produces": "story-bible.md"
+    },
+    {
+      "skill": "plot-and-clues",
+      "name": "因果链悬念伏笔工程",
+      "produces": "outline.md"
+    },
+    {
+      "skill": "fact-research",
+      "name": "非虚构资料核验与证据边界",
+      "produces": "research.md"
+    },
+    {
+      "skill": "chapter-writer",
+      "name": "分章写作执行",
+      "produces": "draft/NN.md"
+    },
+    {
+      "skill": "continuity-audit",
+      "name": "跨章连续性与事实一致性审计",
+      "produces": "qa-report.md"
+    },
+    {
+      "skill": "developmental-editor",
+      "name": "结构审稿与修订",
+      "produces": "qa-report.md"
+    },
+    {
+      "skill": "line-edit",
+      "name": "语言节奏与文学性精修",
+      "produces": "final.md"
+    },
+    {
+      "skill": "publication-package",
+      "name": "终稿包装与归档",
+      "produces": "metadata.yaml"
+    }
+  ],
+  "rules": {
+    "prompt_path": ".opencode/skills/<skill>/prompt.txt",
+    "skill_path": ".opencode/skills/<skill>/SKILL.md",
+    "fictionality_nonfiction_requires_sources": true
+  }
+}
