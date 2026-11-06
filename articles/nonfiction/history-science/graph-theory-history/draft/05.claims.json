@@ -1,12 +1,93 @@
 {
   "chapter": "05",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S02",
-    "S03"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "evidence_scope": "限定范围校对S36—S38与公开历史索引；1889证明完整性为有争议解释",
+  "claims": [
+    {
+      "claim_id": "GT05-01",
+      "claim": "树定义、n-1条边及标号与非标号差别",
+      "source_ids": [
+        "S36"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT05-02",
+      "claim": "n^(n-2)的带标号树公式及n=5数目",
+      "source_ids": [
+        "S36"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT05-03",
+      "claim": "Sylvester1857与Borchardt1860较早的等价工作，不把凯莱误写成最先",
+      "source_ids": [
+        "S36"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT05-04",
+      "claim": "Cayley1857树形分析式与1889带标号计数的区别、1889证明讨论",
+      "source_ids": [
+        "S36",
+        "S37"
+      ],
+      "status": "VERIFIED_SCOPED_WITH_CAVEAT"
+    },
+    {
+      "claim_id": "GT05-05",
+      "claim": "Prüfer1918论文题名与树编码的现代联系",
+      "source_ids": [
+        "S36",
+        "S38"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT05-06",
+      "claim": "逐次删最小叶并记录邻点直至剩两点的普吕弗编码",
+      "source_ids": [
+        "S36"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT05-07",
+      "claim": "解码唯一性：每步选不在剩余编码中的最小现存标签",
+      "source_ids": [
+        "S36"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT05-08",
+      "claim": "五顶点边12、23、24、45得代码2,2,4的双向教学案例",
+      "source_ids": [
+        "S36"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT05-09",
+      "claim": "代码长度n-2，顶点编号出现次数为度-1和n^(n-2)乘法原理",
+      "source_ids": [
+        "S36"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT05-10",
+      "claim": "全体带标号树相当于完全图生成树，区别于受限图生成树计数",
+      "source_ids": [
+        "S36",
+        "S37"
+      ],
+      "status": "MODERN_EXPLANATION"
+    }
   ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "note": "已区分1857有根树研究、1889带标号公式、1918编码；数学教学证明不是历史逐字复原。"
 }
