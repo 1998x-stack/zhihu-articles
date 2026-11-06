@@ -1,0 +1,23 @@
+{
+  "chapter": "23",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C23-01",
+      "statement": "画一条线为何不是严格证明",
+      "source_candidates": [
+        "H05"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C23-02",
+      "statement": "连续性与中间值命题",
+      "source_candidates": [
+        "H05"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

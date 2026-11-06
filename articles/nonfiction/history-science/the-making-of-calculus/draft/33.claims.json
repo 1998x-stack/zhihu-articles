@@ -1,0 +1,23 @@
+{
+  "chapter": "33",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C33-01",
+      "statement": "脉冲和阶跃怎样进入方程",
+      "source_candidates": [
+        "H12"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C33-02",
+      "statement": "分布理论与弱导数",
+      "source_candidates": [
+        "H12"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

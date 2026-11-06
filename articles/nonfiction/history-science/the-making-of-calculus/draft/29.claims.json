@@ -1,0 +1,23 @@
+{
+  "chapter": "29",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C29-01",
+      "statement": "连续为何不意味着光滑",
+      "source_candidates": [
+        "H05"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C29-02",
+      "statement": "连续处处不可微的反例",
+      "source_candidates": [
+        "H05"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

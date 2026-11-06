@@ -1,0 +1,25 @@
+{
+  "chapter": "13",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C13-01",
+      "statement": "流量的变化率如何计算",
+      "source_candidates": [
+        "H01",
+        "H02"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C13-02",
+      "statement": "流数、反流数及面积关系",
+      "source_candidates": [
+        "H01",
+        "H02"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

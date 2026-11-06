@@ -1,0 +1,25 @@
+{
+  "chapter": "16",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C16-01",
+      "statement": "先发现和先发表如何比较",
+      "source_candidates": [
+        "H02",
+        "H08"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C16-02",
+      "statement": "手稿、通信、出版与社群传播",
+      "source_candidates": [
+        "H02",
+        "H08"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

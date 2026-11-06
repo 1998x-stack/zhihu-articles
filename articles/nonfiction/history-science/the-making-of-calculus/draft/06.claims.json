@@ -1,0 +1,23 @@
+{
+  "chapter": "06",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C06-01",
+      "statement": "某一时刻速度是多少",
+      "source_candidates": [
+        "H01"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C06-02",
+      "statement": "匀加速运动的数学表达",
+      "source_candidates": [
+        "H01"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

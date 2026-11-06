@@ -1,0 +1,25 @@
+{
+  "chapter": "19",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C19-01",
+      "statement": "复杂函数如何局部近似",
+      "source_candidates": [
+        "H01",
+        "H05"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C19-02",
+      "statement": "展开式与余项",
+      "source_candidates": [
+        "H01",
+        "H05"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

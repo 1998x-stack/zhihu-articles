@@ -1,0 +1,25 @@
+{
+  "chapter": "03",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C03-01",
+      "statement": "抛物线弓形面积如何算",
+      "source_candidates": [
+        "H01",
+        "H16"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C03-02",
+      "statement": "抛物线求积、几何级数的现代回译",
+      "source_candidates": [
+        "H01",
+        "H16"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

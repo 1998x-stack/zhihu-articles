@@ -1,0 +1,25 @@
+{
+  "chapter": "10",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C10-01",
+      "statement": "极值和切线如何求",
+      "source_candidates": [
+        "H01",
+        "H06"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C10-02",
+      "statement": "拟等法与差商前史",
+      "source_candidates": [
+        "H01",
+        "H06"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

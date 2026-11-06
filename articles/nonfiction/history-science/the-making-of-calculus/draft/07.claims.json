@@ -1,0 +1,25 @@
+{
+  "chapter": "07",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C07-01",
+      "statement": "酒桶容积怎样求",
+      "source_candidates": [
+        "H01",
+        "H16"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C07-02",
+      "statement": "切片式求积的探索",
+      "source_candidates": [
+        "H01",
+        "H16"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

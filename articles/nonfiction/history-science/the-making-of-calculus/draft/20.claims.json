@@ -1,0 +1,25 @@
+{
+  "chapter": "20",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C20-01",
+      "statement": "先约掉又令零是否合逻辑",
+      "source_candidates": [
+        "H01",
+        "H05"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C20-02",
+      "statement": "对无穷小演算基础的批判",
+      "source_candidates": [
+        "H01",
+        "H05"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

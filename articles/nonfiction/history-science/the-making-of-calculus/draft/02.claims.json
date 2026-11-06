@@ -1,0 +1,23 @@
+{
+  "chapter": "02",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C02-01",
+      "statement": "逼近怎样从估计变成证明",
+      "source_candidates": [
+        "H01"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C02-02",
+      "statement": "穷竭法、比例与误差",
+      "source_candidates": [
+        "H01"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

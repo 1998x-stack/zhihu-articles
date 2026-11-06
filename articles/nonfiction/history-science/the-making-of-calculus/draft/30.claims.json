@@ -1,0 +1,23 @@
+{
+  "chapter": "30",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C30-01",
+      "statement": "黎曼积分怎样得到可检验的判据",
+      "source_candidates": [
+        "H10"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C30-02",
+      "statement": "上积分、下积分",
+      "source_candidates": [
+        "H10"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

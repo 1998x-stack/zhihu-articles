@@ -1,0 +1,23 @@
+{
+  "chapter": "35",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C35-01",
+      "statement": "程序的导数怎样高效获得",
+      "source_candidates": [
+        "H13"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C35-02",
+      "statement": "前向模式、反向模式和计算图",
+      "source_candidates": [
+        "H13"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}

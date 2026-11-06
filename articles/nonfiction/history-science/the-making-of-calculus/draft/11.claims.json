@@ -1,0 +1,25 @@
+{
+  "chapter": "11",
+  "status": "PENDING",
+  "claims": [
+    {
+      "id": "C11-01",
+      "statement": "求积和切线怎样互相帮助",
+      "source_candidates": [
+        "H01",
+        "H02"
+      ],
+      "verification": "PENDING"
+    },
+    {
+      "id": "C11-02",
+      "statement": "无穷算术及基本定理前史",
+      "source_candidates": [
+        "H01",
+        "H02"
+      ],
+      "verification": "PENDING"
+    }
+  ],
+  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+}
