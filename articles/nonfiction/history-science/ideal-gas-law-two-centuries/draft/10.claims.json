@@ -3,7 +3,188 @@
   "title": "蒸汽机到底能做多少功——卡诺的追问",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "本章18个事实和概念主张有明确来源，1824热素与现代效率公式严格分开；未独立审稿。",
+  "claims": [
+    {
+      "claim_id": "G10-01",
+      "source_ids": [
+        "S59",
+        "S60"
+      ],
+      "summary": "1824卡诺发表《关于火的动力的思考》探究热机的最大可能动力",
+      "classification": "primary",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-02",
+      "source_ids": [
+        "S59",
+        "S60"
+      ],
+      "summary": "研究对象不只蒸汽机，还包括所有可想象热机",
+      "classification": "primary",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-03",
+      "source_ids": [
+        "S59",
+        "S61"
+      ],
+      "summary": "冷热差比喻为水位差让动力得以产生",
+      "classification": "primary",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-04",
+      "source_ids": [
+        "S59",
+        "S60"
+      ],
+      "summary": "1824原作采用热素守恒旧理论",
+      "classification": "historical",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-05",
+      "source_ids": [
+        "S60"
+      ],
+      "summary": "现代热功转换的能量守恒解释在19世纪中期完善",
+      "classification": "historiography",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-06",
+      "source_ids": [
+        "S59",
+        "S60"
+      ],
+      "summary": "循环热机需要温度不同的热源，单一恒温热库不能持续产净功",
+      "classification": "history_modern",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-07",
+      "source_ids": [
+        "S59",
+        "S61"
+      ],
+      "summary": "可逆过程为比较理想最大效率提供反证框架",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-08",
+      "source_ids": [
+        "S59",
+        "S61"
+      ],
+      "summary": "摩擦及有限温差不做功的直接传热浪费潜在动力",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-09",
+      "source_ids": [
+        "S59",
+        "S60"
+      ],
+      "summary": "可逆循环倒转可把热从冷处送热处、以此论证效率上限",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-10",
+      "source_ids": [
+        "S62",
+        "S60"
+      ],
+      "summary": "现代卡诺四段是两等温和两绝热，教学重述非1824完全同词",
+      "classification": "modern",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-11",
+      "source_ids": [
+        "S60",
+        "S62"
+      ],
+      "summary": "工质循环回原状态但对外净功可非零",
+      "classification": "modern",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-12",
+      "source_ids": [
+        "S59",
+        "S60"
+      ],
+      "summary": "可逆热机最高效率取决于冷热热源而非具体工质",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-13",
+      "source_ids": [
+        "S60",
+        "S62"
+      ],
+      "summary": "η=1−Tc/Th为后世在绝对温标下的现代公式，非1824原式",
+      "classification": "modern",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-14",
+      "source_ids": [
+        "S59",
+        "S60"
+      ],
+      "summary": "效率与每秒输出功率、单纯节省燃料不同",
+      "classification": "modern",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-15",
+      "source_ids": [
+        "S59",
+        "S60",
+        "S66"
+      ],
+      "summary": "1824著作传播有限，1834克拉佩龙数学重述是重要节点",
+      "classification": "history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-16",
+      "source_ids": [
+        "S60",
+        "S66"
+      ],
+      "summary": "卡诺1824原文未画后世经典p-V封闭循环图",
+      "classification": "qualified",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-17",
+      "source_ids": [
+        "S60",
+        "S61"
+      ],
+      "summary": "热素理论后来被修正，可逆性及热机极限仍有长久价值",
+      "classification": "synthesis",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G10-18",
+      "source_ids": [
+        "S60",
+        "S64"
+      ],
+      "summary": "从热机最大功转向PV面积是第11章数学化衔接",
+      "classification": "narrative",
+      "verification": "preverified_in_research_scope"
+    }
+  ]
 }
