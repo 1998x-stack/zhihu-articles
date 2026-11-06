@@ -1,0 +1,15 @@
+{
+  "schema_version": "2.0",
+  "lane": "nonfiction",
+  "current_revision": 0,
+  "outline_approved": false,
+  "evidence_verified": false,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
+  "unresolved_blockers": [],
+  "edited_revision": null,
+  "final_approved": false,
+  "evidence_scope": "仅检索概览资料；38份章卡的史实主张均未逐条核证",
+  "approval_scope": "完成用户要求的策划占位；未签发编辑或科学史事实批准",
+  "note": "暂无完成正文、独立审稿、精修或终稿"
+}

@@ -1,0 +1,14 @@
+title: "连接的秩序：图论三百年"
+subtitle_en: "The Order of Connections: Three Centuries of Graph Theory"
+slug: "graph-theory-history"
+genre: "genre-history-science"
+fictionality: "nonfiction"
+format: "serialized-narrative-nonfiction"
+status: "planning"
+target_words: 180000
+chapters: 36
+parts: 7
+summary: "七桥、树与回路、四色、匹配、极值、随机图、网络流、复杂性、图小式、互联网与图学习的数学思想史。采用专题因果叙事与编年核查双轴。"
+tags: ["图论", "数学史", "离散数学", "组合数学", "算法史", "复杂网络", "知乎盐选知识叙事"]
+sources_required: true
+review_date: null
