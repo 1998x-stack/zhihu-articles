@@ -1,0 +1,168 @@
+{
+  "chapter": "02",
+  "kind": "proposed_nonfiction_chapter",
+  "manuscript_path": "proposals/02.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_CHECK",
+  "claims": [
+    {
+      "claim_id": "E02-01",
+      "claim": "格雷在1729年前后开展电性沿连接材料传递与支撑效应的研究",
+      "claim_kind": "历史事实",
+      "source_ids": [
+        "S02-02",
+        "S02-03"
+      ],
+      "manuscript_section": "§二",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E02-02",
+      "claim": "丝线与金属支撑使传递结果不同；不能说格雷已经有电子迁移模型",
+      "claim_kind": "史实与时代边界",
+      "source_ids": [
+        "S02-03"
+      ],
+      "manuscript_section": "§二",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E02-03",
+      "claim": "杜费1733年年度研究提出玻璃电与树脂电的两类区分、同类相斥异类相吸",
+      "claim_kind": "史实，原始文献摘录",
+      "source_ids": [
+        "S02-01",
+        "S02-04"
+      ],
+      "manuscript_section": "§一/§三/§四",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E02-04",
+      "claim": "玻璃电和树脂电是典型电性分类，不是材料与电性的一一对应",
+      "claim_kind": "原文解释",
+      "source_ids": [
+        "S02-01"
+      ],
+      "manuscript_section": "§四",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E02-05",
+      "claim": "莱顿瓶发展于1745—1746，克莱斯特与穆森布鲁克相关贡献需要区分",
+      "claim_kind": "科学仪器史",
+      "source_ids": [
+        "S02-05"
+      ],
+      "manuscript_section": "§五",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E02-06",
+      "claim": "富兰克林1747年使用plus/minus；1751相关书信出版，提出单流体图景",
+      "claim_kind": "史实，原书信与后世归纳",
+      "source_ids": [
+        "S02-06",
+        "S02-07"
+      ],
+      "manuscript_section": "§六",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E02-07",
+      "claim": "单流体与两电流体是历史竞争解释，不能归结为发现电子",
+      "claim_kind": "历史解释",
+      "source_ids": [
+        "S02-04",
+        "S02-07"
+      ],
+      "manuscript_section": "§六",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E02-08",
+      "claim": "现代电中性物体可因极化被带电物体吸引，净吸引不能推出异号净电荷",
+      "claim_kind": "现代物理解释",
+      "source_ids": [
+        "S02-08"
+      ],
+      "manuscript_section": "§七",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    },
+    {
+      "claim_id": "E02-09",
+      "claim": "电子负电、金属内电子漂移与正电流方向相反为后世观点",
+      "claim_kind": "现代物理解释",
+      "source_ids": [
+        "S02-08"
+      ],
+      "manuscript_section": "§六",
+      "verification": "见本章research来源审阅；公开资料层面核对，不等于原始文献逐页验证"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S02-01",
+      "title": "Du Fay，1733年度第四篇电学论文，1735印本摘录",
+      "url": "https://webusers.imj-prg.fr/~david.aubin/cours/Textes/Dufay.pdf",
+      "type": "原始文献摘录",
+      "verification_scope": "已核对页面扫描与摘录；完整印本待校"
+    },
+    {
+      "source_id": "S02-02",
+      "title": "皇家学会1729年Stephen Gray馆藏信件",
+      "url": "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=EL%2FG1%2F59&src=CalmView.Catalog",
+      "type": "原始档案馆藏元数据",
+      "verification_scope": "已核公开档案元数据；信件全文待逐页"
+    },
+    {
+      "source_id": "S02-03",
+      "title": "皇家学会 Gray and Gold",
+      "url": "https://royalsociety.org/blog/2020/08/gray-and-gold/",
+      "type": "学会史学文章",
+      "verification_scope": "已核内容"
+    },
+    {
+      "source_id": "S02-04",
+      "title": "IOP The two electric fluids",
+      "url": "https://spark.iop.org/two-electric-fluids",
+      "type": "学会教学资料",
+      "verification_scope": "已核主要观点；注意简化"
+    },
+    {
+      "source_id": "S02-05",
+      "title": "Science Museum Group 莱顿瓶馆藏",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8717005/leyden-jar",
+      "type": "博物馆馆藏",
+      "verification_scope": "已核1745/1746相对独立发现"
+    },
+    {
+      "source_id": "S02-06",
+      "title": "Franklin致Collinson，1747年5月25日信",
+      "url": "https://www.benjamin-franklin-history.org/letter-from-benjamin-franklin-to-peter-collison-dated-may-25-1747/",
+      "type": "历史书信转录",
+      "verification_scope": "已核plus/minus表述；校勘版本待检"
+    },
+    {
+      "source_id": "S02-07",
+      "title": "美国国家历史博物馆 Franklin Electrical Years 2",
+      "url": "https://americanhistory.si.edu/explore/exhibitions/electric-dr-franklin/online/electrical-years-2",
+      "type": "博物馆历史综述",
+      "verification_scope": "已核搜索呈现全文相关段落；页面加载可能受限"
+    },
+    {
+      "source_id": "S02-08",
+      "title": "OpenStax Conductors Insulators and Charging by Induction",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/5-2-conductors-insulators-and-charging-by-induction",
+      "type": "现代大学物理教材",
+      "verification_scope": "已核极化与导体绝缘体解释"
+    }
+  ],
+  "unresolved": [
+    "核验杜费原始论文全文、1733年度/1735印本的卷页与文字",
+    "核验格雷实验具体材料、协作者和装置的原始出版文本",
+    "对照1747 Franklin信件不同文本及1751书信集",
+    "系列级outline/evidence标志仍未获批准，严禁转正式draft"
+  ]
+}
