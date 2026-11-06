@@ -1,0 +1,106 @@
+{
+  "chapter": "06",
+  "title": "牛顿的流数：运动逼出了新数学",
+  "lane": "nonfiction",
+  "revision": 5,
+  "status": "draft_claims_traced",
+  "source_scope": "Newton Project original manuscript plus scholarly mathematical history; modern examples labeled",
+  "claims": [
+    {
+      "claim_id": "H06-01",
+      "source_id": "N06-NP-TIMELINE",
+      "classification": "historical_background",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "H06-02",
+      "source_id": "N06-NP-INTRO;N06-MACTUTOR",
+      "classification": "manuscript_history",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H06-03",
+      "source_id": "N06-NP-HISTORY;N06-MAA-NOTATION",
+      "classification": "primary_source_terminology",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "H06-04",
+      "source_id": "N06-NP-HISTORY",
+      "classification": "primary_source_terminology",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H06-05",
+      "source_id": "MODERN-VELOCITY-EXAMPLE",
+      "classification": "modern_math",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H06-06",
+      "source_id": "N06-MACTUTOR;MODERN-CHAIN-RULE",
+      "classification": "modern_math_historical_analogy",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H06-07",
+      "source_id": "N06-NP-HISTORY;N06-MAA-NOTATION",
+      "classification": "historical_and_math",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "H06-08",
+      "source_id": "N06-MACTUTOR;N06-NP-INTRO",
+      "classification": "historical_math",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H06-09",
+      "source_id": "N06-CAMBRIDGE-GUICCIARDINI;N06-MACTUTOR;N06-CAMBRIDGE-WHITESIDE",
+      "classification": "publication_timeline",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H06-10",
+      "source_id": "N06-PRINCIPIA",
+      "classification": "translated_primary_text",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "H06-11",
+      "source_id": "N06-MACTUTOR",
+      "classification": "historical_precursors",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H06-12",
+      "source_id": "N06-LEIBNIZ-HIST;N06-LEIBNIZ-MAA",
+      "classification": "independent_publication",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H06-13",
+      "source_id": "N06-MACTUTOR;BOOK-OUTLINE",
+      "classification": "historical_afterlife",
+      "verification": "verified_qualified"
+    },
+    {
+      "claim_id": "H06-14",
+      "source_id": "MODERN-DIFFERENCE-QUOTIENT;N06-PRINCIPIA",
+      "classification": "modern_math",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H06-15",
+      "source_id": "N06-MACTUTOR;MODERN-ANTIDERIVATIVE-EXAMPLE",
+      "classification": "modern_math",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H06-16",
+      "source_id": "BOOK-OUTLINE;N06-MACTUTOR",
+      "classification": "editorial_framing",
+      "verification": "qualified"
+    }
+  ]
+}

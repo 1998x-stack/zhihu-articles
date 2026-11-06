@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="485" viewBox="0 0 840 485" role="img" aria-labelledby="figtitle figdesc">
+<title id="figtitle">变化率与累积量：两个方向的数学关系</title>
+<desc id="figdesc">左边为位置曲线s=t平方，第二秒切线斜率为4；右边为速度v=2t，0至2秒下面的三角形面积等于4米位移。均为现代解释的几何图。</desc>
+<rect width="840" height="485" fill="#fff"/>
+<text x="38" y="40" font-family="sans-serif" font-weight="700" font-size="24" fill="#203a56">同一段运动，两个方向</text>
+<text x="74" y="79" font-family="sans-serif" font-size="18" font-weight="650" fill="#203a56">① 从位置求瞬时速度</text>
+<text x="483" y="79" font-family="sans-serif" font-size="18" font-weight="650" fill="#203a56">② 从速度累积位移</text>
+<path d="M72 60 V388 H412" fill="none" stroke="#526f88" stroke-width="2.2"/><path d="M67 69 L72 60 L77 69 M403 383 L412 388 L403 393" fill="none" stroke="#526f88" stroke-width="2"/>
+<path d="M480 60 V388 H820" fill="none" stroke="#526f88" stroke-width="2.2"/><path d="M475 69 L480 60 L485 69 M811 383 L820 388 L811 393" fill="none" stroke="#526f88" stroke-width="2"/>
+<path d="M72.00 388.00 L74.32 387.97 L76.64 387.87 L78.96 387.71 L81.28 387.49 L83.60 387.20 L85.92 386.85 L88.24 386.43 L90.56 385.95 L92.88 385.41 L95.20 384.80 L97.52 384.13 L99.84 383.39 L102.16 382.59 L104.48 381.73 L106.80 380.80 L109.12 379.81 L111.44 378.75 L113.76 377.63 L116.08 376.45 L118.40 375.20 L120.72 373.89 L123.04 372.51 L125.36 371.07 L127.68 369.57 L130.00 368.00 L132.32 366.37 L134.64 364.67 L136.96 362.91 L139.28 361.09 L141.60 359.20 L143.92 357.25 L146.24 355.23 L148.56 353.15 L150.88 351.01 L153.20 348.80 L155.52 346.53 L157.84 344.19 L160.16 341.79 L162.48 339.33 L164.80 336.80 L167.12 334.21 L169.44 331.55 L171.76 328.83 L174.08 326.05 L176.40 323.20 L178.72 320.29 L181.04 317.31 L183.36 314.27 L185.68 311.17 L188.00 308.00 L190.32 304.77 L192.64 301.47 L194.96 298.11 L197.28 294.69 L199.60 291.20 L201.92 287.65 L204.24 284.03 L206.56 280.35 L208.88 276.61 L211.20 272.80 L213.52 268.93 L215.84 264.99 L218.16 260.99 L220.48 256.93 L222.80 252.80 L225.12 248.61 L227.44 244.35 L229.76 240.03 L232.08 235.65 L234.40 231.20 L236.72 226.69 L239.04 222.11 L241.36 217.47 L243.68 212.77 L246.00 208.00 L248.32 203.17 L250.64 198.27 L252.96 193.31 L255.28 188.29 L257.60 183.20 L259.92 178.05 L262.24 172.83 L264.56 167.55 L266.88 162.21 L269.20 156.80 L271.52 151.33 L273.84 145.79" stroke="#18809b" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M141.6 372 L260.5 208" fill="none" stroke="#f28b45" stroke-width="4"/>
+<path d="M188 308 L246 208" stroke="#8b77c9" stroke-width="3" stroke-dasharray="7,6"/>
+<circle cx="188" cy="308" r="5.5" fill="#f28b45" stroke="white" stroke-width="2"/>
+<circle cx="246" cy="208" r="5.5" fill="#8b77c9" stroke="white" stroke-width="2"/>
+<text x="204" y="277" font-size="14" font-family="sans-serif" fill="#c06628">瞬时切线</text>
+<text x="266" y="152" font-size="14" font-family="sans-serif" fill="#7750ad">割线</text>
+<text x="166" y="333" font-size="14" font-family="sans-serif" fill="#203a56">t=2</text>
+<path d="M480 388 L666 88 L666 388 Z" fill="#bde8e0" stroke="none"/>
+<path d="M480 388 L759 163" fill="none" stroke="#18809b" stroke-width="4"/>
+<line x1="666" y1="388" x2="666" y2="88" stroke="#4c7e79" stroke-width="2" stroke-dasharray="5,5"/>
+<text x="553" y="350" font-size="21" fill="#17665f" font-family="sans-serif" font-weight="650">面积 = 4</text>
+<text x="660" y="412" font-size="14" fill="#203a56" font-family="sans-serif">2秒</text>
+<text x="673" y="103" font-size="14" fill="#203a56" font-family="sans-serif">4米/秒</text>
+<text x="78" y="414" font-size="15" fill="#203a56" font-family="sans-serif">时间 t</text>
+<text x="483" y="414" font-size="15" fill="#203a56" font-family="sans-serif">时间 t</text>
+<text x="79" y="108" font-size="15" fill="#18809b" font-family="sans-serif">s=t²</text>
+<text x="486" y="110" font-size="15" fill="#18809b" font-family="sans-serif">v=2t</text>
+<text x="420" y="460" text-anchor="middle" font-size="14" fill="#68798a" font-family="sans-serif">现代教学示意；横纵轴分别以秒、米或米/秒计，左右纵轴比例尺不同</text>
+</svg>
