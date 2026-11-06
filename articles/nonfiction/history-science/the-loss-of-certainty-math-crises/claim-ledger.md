@@ -156,5 +156,48 @@
 | 09 | H09-11 | 分析严格化是多路线演变 | research.md 第09章专项；R09-各史料 | 史料核实、按来源限定 |
 | 09 | H09-12 | 第二危机为编辑性命名 | research.md 第09章专项；brief.md;outline.md | 编辑性解释 |
 
+## 第12—14章专项主张
+
+| 章节 | claim_id | 主张摘要 | 证据范围 | 使用边界 |
+|---|---|---|---|---|
+| 12 | H12-01 | 1854年6月10日黎曼演说与生卒 | research.md 第12章专项；R12-MACTUTOR;R12-SEP-GEOM | 史料核实并保留来源范围 |
+| 12 | H12-02 | 演说身后1867年刊行 | research.md 第12章专项；R12-SEP-GEOM;R12-GRAY | 史料核实并保留来源范围 |
+| 12 | H12-03 | 高斯内在曲率与黎曼拓展 | research.md 第12章专项；R12-SEP-GEOM | 史料核实并保留来源范围 |
+| 12 | H12-04 | n维多重体与可变曲率 | research.md 第12章专项；R12-SEP-GEOM;R12-MACTUTOR | 史料核实并保留来源范围 |
+| 12 | H12-05 | 现代正定度量公式 | research.md 第12章专项；R12-SEP-GEOM;R12-MODERN | 现代数学/解释边界 |
+| 12 | H12-06 | 球面三直角三角形与面积 | research.md 第12章专项；R12-MODERN | 现代数学/解释边界 |
+| 12 | H12-07 | 球面测地圆周长 | research.md 第12章专项；R12-MODERN | 现代数学/解释边界 |
+| 12 | H12-08 | 局部平坦不等于整体平直 | research.md 第12章专项；R12-SEP-GEOM;R12-MODERN | 现代数学/解释边界 |
+| 12 | H12-09 | 黎曼与物理测量的关系 | research.md 第12章专项；R12-SEP-GEOM | 史料核实并保留来源范围 |
+| 12 | H12-10 | 黎曼几何与爱因斯坦时空有时代区别 | research.md 第12章专项；R12-RELATIVITY;R12-MODERN | 现代数学/解释边界 |
+| 12 | H12-11 | 空间成为研究对象为编辑概括 | research.md 第12章专项；brief.md;outline.md | 研究与编辑性限定 |
+| 12 | H12-12 | 前后章节过渡非直接传承 | research.md 第12章专项；outline.md;draft/11.md | 研究与编辑性限定 |
+| 13 | H13-01 | 1899年希尔伯特《几何基础》 | research.md 第13章专项；R13-SEP-FREGE | 史料核实并保留来源范围 |
+| 13 | H13-02 | 帕施1882年的次序公理化 | research.md 第13章专项；R13-SEP-GEOM | 史料核实并保留来源范围 |
+| 13 | H13-03 | 点线面及关系由公理限定 | research.md 第13章专项；R13-HILBERT-PRIMARY;R13-SEP-GEOM | 史料核实并保留来源范围 |
+| 13 | H13-04 | 五类几何公理 | research.md 第13章专项；R13-HILBERT-PRIMARY | 史料核实并保留来源范围 |
+| 13 | H13-05 | 两点定一线和三点玩具模型边界 | research.md 第13章专项；R13-HILBERT-PRIMARY;R13-TOY | 现代数学/解释边界 |
+| 13 | H13-06 | 模型证明公理不能推出某命题的逻辑条件 | research.md 第13章专项；R13-SEP-FREGE;R13-MODERN-LOGIC | 现代数学/解释边界 |
+| 13 | H13-07 | 坐标模型带来的相对一致性 | research.md 第13章专项；R13-SEP-GEOM;R13-MODERN-LOGIC | 现代数学/解释边界 |
+| 13 | H13-08 | 希尔伯特不同版本公理修订 | research.md 第13章专项；R13-SEP-GEOM;R13-HILBERT-PRIMARY | 史料核实并保留来源范围 |
+| 13 | H13-09 | 希尔伯特与弗雷格关于公理的争论 | research.md 第13章专项；R13-SEP-FREGE | 史料核实并保留来源范围 |
+| 13 | H13-10 | 公理化发展并非单人发明 | research.md 第13章专项；R13-SEP-GEOM | 史料核实并保留来源范围 |
+| 13 | H13-11 | 模型须满足所有相关公理且谨慎引文 | research.md 第13章专项；R13-MODERN-LOGIC;R13-HILBERT-PRIMARY | 现代数学/解释边界 |
+| 13 | H13-12 | 1899与后期希尔伯特计划的时间线 | research.md 第13章专项；R13-SEP-FREGE;outline.md | 研究与编辑性限定 |
+| 14 | H14-01 | 伽利略整数与平方数悖论 | research.md 第14章专项；R14-SEP-SET | 史料核实并保留来源范围 |
+| 14 | H14-02 | 自然数和偶数、平方数双射 | research.md 第14章专项；R14-MODERN;R14-SEP-INFINITY | 现代数学/解释边界 |
+| 14 | H14-03 | 康托尔由分析点集发展到超穷 | research.md 第14章专项；R14-SEP-EARLY | 史料核实并保留来源范围 |
+| 14 | H14-04 | 1873年康托尔与戴德金通信贡献 | research.md 第14章专项；R14-SEP-EARLY | 史料核实并保留来源范围 |
+| 14 | H14-05 | 1874年实代数数论文与不可数结论 | research.md 第14章专项；R14-CANTOR-1874;R14-SEP-EARLY | 史料核实并保留来源范围 |
+| 14 | H14-06 | 1874与1891两种证明区分 | research.md 第14章专项；R14-SEP-EARLY;R14-CANTOR-1874 | 史料核实并保留来源范围 |
+| 14 | H14-07 | 稠密有理数仍可数 | research.md 第14章专项；R14-MODERN | 现代数学/解释边界 |
+| 14 | H14-08 | 三分闭区间对任意列表构造反例 | research.md 第14章专项；R14-MODERN;R14-CANTOR-1874 | 现代数学/解释边界 |
+| 14 | H14-09 | 基数相等基于双射而非次序 | research.md 第14章专项；R14-SEP-INFINITY | 史料核实并保留来源范围 |
+| 14 | H14-10 | 实数的不可数性 | research.md 第14章专项；R14-SEP-EARLY;R14-MODERN | 现代数学/解释边界 |
+| 14 | H14-11 | 康托尔与戴德金各自贡献 | research.md 第14章专项；R14-SEP-EARLY | 史料核实并保留来源范围 |
+| 14 | H14-12 | 无限真子集等势不意味所有无穷等势 | research.md 第14章专项；R14-SEP-INFINITY;R14-MODERN | 现代数学/解释边界 |
+| 14 | H14-13 | 1878连续统研究并非CH已证 | research.md 第14章专项；R14-SEP-EARLY | 史料核实并保留来源范围 |
+| 14 | H14-14 | 下一章对角线与连续统的后续顺序 | research.md 第14章专项；outline.md;R14-SEP-EARLY | 研究与编辑性限定 |
+
 ## 后续章节状态
-第12—25章及序章、尾声仍待逐章专项核证。第01—11章已选主张的证据映射不等同全书终稿核验。
+第15—25章及序章、尾声仍待逐章专项核证。第01—14章已选主张的证据映射不等同全书终稿核验。
