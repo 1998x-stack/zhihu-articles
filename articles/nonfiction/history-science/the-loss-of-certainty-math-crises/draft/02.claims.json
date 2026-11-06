@@ -1,0 +1,64 @@
+{
+  "chapter": "02",
+  "title": "希帕索斯的沉船：一个太精彩的传说",
+  "lane": "nonfiction",
+  "revision": 1,
+  "status": "draft_claims_traced",
+  "note": "这里只核实资料记载与现代数学演示；不宣称传闻事件真实发生。",
+  "claims": [
+    {
+      "claim_id": "H02-01",
+      "source_id": "SEP-2024",
+      "classification": "争议",
+      "verification": "verified_as_unsubstantiated"
+    },
+    {
+      "claim_id": "H02-02",
+      "source_id": "IAMBLICHUS-VP-88",
+      "classification": "传说",
+      "verification": "verified_text_not_event"
+    },
+    {
+      "claim_id": "H02-03",
+      "source_id": "IAMBLICHUS-VP-246-247",
+      "classification": "传说",
+      "verification": "verified_text_not_event"
+    },
+    {
+      "claim_id": "H02-04",
+      "source_id": "PLUTARCH-NUMA-22-3",
+      "classification": "一手文本",
+      "verification": "verified"
+    },
+    {
+      "claim_id": "H02-05",
+      "source_id": "PAPPUS-BOOKX-JUNGE-THOMSON-1930",
+      "classification": "一手传述译本",
+      "verification": "verified_as_later_story"
+    },
+    {
+      "claim_id": "H02-06",
+      "source_id": "VONFRITZ-1945-CQ-CRITICISM",
+      "classification": "学术争论",
+      "verification": "verified_disagreement"
+    },
+    {
+      "claim_id": "H02-07",
+      "source_id": "SEP-2024-3-4",
+      "classification": "史实与争议",
+      "verification": "qualified"
+    },
+    {
+      "claim_id": "H02-08",
+      "source_id": "EUCLID-IV-11",
+      "classification": "现代数学说明",
+      "verification": "mathematically_verified"
+    },
+    {
+      "claim_id": "H02-09",
+      "source_id": "BOOK-BRIEF-AND-SEP",
+      "classification": "史学框架",
+      "verification": "qualified"
+    }
+  ]
+}
