@@ -1,0 +1,165 @@
+{
+  "chapter": "10",
+  "lane": "nonfiction",
+  "batch_revision": 11,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "scope": "Museum/archival catalogue and scholarly texts checked; primary manuscript editions and competing historiography require full professional review.",
+  "claims": [
+    {
+      "claim_id": "CH10-001",
+      "statement": "1260年中统钞建立与白银的官方计价：两贯对应一两白银",
+      "source_ids": [
+        "F-1001"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "官方价不代表任何地点任何时间足额兑付"
+    },
+    {
+      "claim_id": "CH10-002",
+      "statement": "元朝前期1260—1275年相对稳定的银准备约束",
+      "source_ids": [
+        "F-1001",
+        "F-1002"
+      ],
+      "classification": "scholarly_model",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "现代研究分期而非史料原生标签"
+    },
+    {
+      "claim_id": "CH10-003",
+      "statement": "1276年后中统钞回收南宋会子推动增发",
+      "source_ids": [
+        "F-1001"
+      ],
+      "classification": "economic_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "官价1比50不等于真实购买力比率"
+    },
+    {
+      "claim_id": "CH10-004",
+      "statement": "1287年至元钞按1贯兑5贯中统钞",
+      "source_ids": [
+        "F-1001"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "应区分官方兑换和市场成交"
+    },
+    {
+      "claim_id": "CH10-005",
+      "statement": "1309年官价与民间白银兑换价不一致",
+      "source_ids": [
+        "F-1001"
+      ],
+      "classification": "historical_data",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "样本是有限时点，不是各地普遍比价"
+    },
+    {
+      "claim_id": "CH10-006",
+      "statement": "1310年至大钞与1311年停用及1352年至正钞",
+      "source_ids": [
+        "F-1001"
+      ],
+      "classification": "chronological_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "各票币不应当成同面额单位"
+    },
+    {
+      "claim_id": "CH10-007",
+      "statement": "战争与内战财政压力和后期过量发行存在联系",
+      "source_ids": [
+        "F-1002"
+      ],
+      "classification": "model_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能宣称所有通胀均由战争单因触发"
+    },
+    {
+      "claim_id": "CH10-008",
+      "statement": "大英博物馆现存1375年一贯洪武大明宝钞",
+      "source_ids": [
+        "F-1003"
+      ],
+      "classification": "archaeological_object",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "正反鉴别须和藏品图像校验"
+    },
+    {
+      "claim_id": "CH10-009",
+      "statement": "明代官钞标面千文及官方印制授权不保证市场购买力",
+      "source_ids": [
+        "F-1003",
+        "F-1004"
+      ],
+      "classification": "historical_fact_and_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "谨防混淆法定面额与民间银价"
+    },
+    {
+      "claim_id": "CH10-010",
+      "statement": "1420年代私人市场宝钞明显式微但官府某些用途残留",
+      "source_ids": [
+        "F-1004",
+        "F-1005"
+      ],
+      "classification": "economic_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不得宣称十五世纪后宝钞在任何用途全消失"
+    },
+    {
+      "claim_id": "CH10-011",
+      "statement": "1436金花银财政叙事的术语和时间可能经过后世重构",
+      "source_ids": [
+        "F-1006"
+      ],
+      "classification": "historiographical_dispute",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "Grass研究质疑的是官方叙事非否认一切银税"
+    },
+    {
+      "claim_id": "CH10-012",
+      "statement": "一条鞭法是长期地方差异改革而非1581全国瞬间完成",
+      "source_ids": [
+        "F-1007"
+      ],
+      "classification": "historical_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "具体地方与时期另需契约核验"
+    },
+    {
+      "claim_id": "CH10-013",
+      "statement": "中国银化早于马尼拉成熟且受内部货币市场影响",
+      "source_ids": [
+        "F-1005",
+        "F-1008"
+      ],
+      "classification": "comparative_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能以海外输入作为最初单一原因"
+    },
+    {
+      "claim_id": "CH10-014",
+      "statement": "海外银骤降单独致明亡假说受严重质疑",
+      "source_ids": [
+        "F-1009",
+        "F-1010"
+      ],
+      "classification": "scholarly_dispute",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于说银的价格与供给毫无影响"
+    },
+    {
+      "claim_id": "CH10-015",
+      "statement": "税银实际收入与进口银累积量不是同一统计口径",
+      "source_ids": [
+        "F-1010"
+      ],
+      "classification": "quantitative_caveat",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "LSE研究介绍不是无争议的终局数据"
+    }
+  ]
+}

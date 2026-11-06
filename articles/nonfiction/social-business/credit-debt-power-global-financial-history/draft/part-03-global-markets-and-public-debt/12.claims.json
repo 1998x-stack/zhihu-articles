@@ -1,0 +1,176 @@
+{
+  "chapter": "12",
+  "lane": "nonfiction",
+  "batch_revision": 11,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "scope": "Museum/archival catalogue and scholarly texts checked; primary manuscript editions and competing historiography require full professional review.",
+  "claims": [
+    {
+      "claim_id": "CH12-001",
+      "statement": "1407年4月27日热那亚圣乔治机构成立",
+      "source_ids": [
+        "F-1201",
+        "F-1209"
+      ],
+      "classification": "archival_institutional_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不得误称同日现代中央银行全部功能成立"
+    },
+    {
+      "claim_id": "CH12-002",
+      "statement": "热那亚的compera是债权组织和财政借贷税权安排",
+      "source_ids": [
+        "F-1201",
+        "F-1202"
+      ],
+      "classification": "legal_historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同compera条款不同"
+    },
+    {
+      "claim_id": "CH12-003",
+      "statement": "1395年圣彼得公债先例证明1407不是公债第一次出现",
+      "source_ids": [
+        "F-1202"
+      ],
+      "classification": "archival_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "古意大利税权结构需逐份原文核验"
+    },
+    {
+      "claim_id": "CH12-004",
+      "statement": "热那亚税权与未来税收益可以支撑当期借款",
+      "source_ids": [
+        "F-1203"
+      ],
+      "classification": "fiscal_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "虚构80-100例非历史账簿"
+    },
+    {
+      "claim_id": "CH12-005",
+      "statement": "loca和pagae可具有流通市场并随税赋收益波动",
+      "source_ids": [
+        "F-1203"
+      ],
+      "classification": "scholarly_description",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于现代固定票息国债"
+    },
+    {
+      "claim_id": "CH12-006",
+      "statement": "圣乔治掌握部分税权和特定地区治理安排",
+      "source_ids": [
+        "F-1203"
+      ],
+      "classification": "institutional_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能以此声称所有热那亚地区均由债权人直接统治"
+    },
+    {
+      "claim_id": "CH12-007",
+      "statement": "圣乔治债权管理者的政治资格与城市公社不同",
+      "source_ids": [
+        "F-1203"
+      ],
+      "classification": "political_economic_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能以公债购买推导普遍民主参政"
+    },
+    {
+      "claim_id": "CH12-008",
+      "statement": "圣乔治档案超四万个档案单位而非交易笔数",
+      "source_ids": [
+        "F-1204",
+        "F-1208"
+      ],
+      "classification": "archive_catalogue_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "每个档案单位可能是文集"
+    },
+    {
+      "claim_id": "CH12-009",
+      "statement": "圣乔治在1408年开展公共存款和转账活动",
+      "source_ids": [
+        "F-1204"
+      ],
+      "classification": "archival_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是今天意义的统一货币央行"
+    },
+    {
+      "claim_id": "CH12-010",
+      "statement": "荷兰共和国财政具有省级与地方自主权，荷兰省尤重要",
+      "source_ids": [
+        "F-1205",
+        "F-1210"
+      ],
+      "classification": "regional_public_finance",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能把荷兰省数据当整个共和国"
+    },
+    {
+      "claim_id": "CH12-011",
+      "statement": "储蓄供给和私人投资机会能影响公债利率与规模",
+      "source_ids": [
+        "F-1205"
+      ],
+      "classification": "peer_reviewed_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "信誉制度是必要但非充分条件"
+    },
+    {
+      "claim_id": "CH12-012",
+      "statement": "1609年阿姆斯特丹私营资本市场影响新公债融资条件",
+      "source_ids": [
+        "F-1206"
+      ],
+      "classification": "peer_reviewed_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是整个欧洲的普遍因果规律"
+    },
+    {
+      "claim_id": "CH12-013",
+      "statement": "荷兰与热那亚的公共信用制度不必存在直接复制或进化",
+      "source_ids": [
+        "F-1203",
+        "F-1205"
+      ],
+      "classification": "comparative_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "经济与政治环境不同"
+    },
+    {
+      "claim_id": "CH12-014",
+      "statement": "1575西班牙停止付热那亚银行家asientos并影响卡斯蒂利亚市场",
+      "source_ids": [
+        "F-1207"
+      ],
+      "classification": "peer_reviewed_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于圣乔治机构违约或破产"
+    },
+    {
+      "claim_id": "CH12-015",
+      "statement": "政府负债将未来税收与当期财政交换且存在分配冲突",
+      "source_ids": [
+        "F-1203",
+        "F-1205"
+      ],
+      "classification": "author_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不推导所有公债对全民有利"
+    },
+    {
+      "claim_id": "CH12-016",
+      "statement": "下章VOC股权交易与公债融资相关但二者不属相同资产",
+      "source_ids": [
+        "F-1206"
+      ],
+      "classification": "bridge_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不把1602VOC说成人类第一股份公司"
+    }
+  ]
+}

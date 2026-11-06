@@ -1,0 +1,159 @@
+{
+  "chapter": "11",
+  "lane": "nonfiction",
+  "batch_revision": 11,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "scope": "Museum/archival catalogue and scholarly texts checked; primary manuscript editions and competing historiography require full professional review.",
+  "claims": [
+    {
+      "claim_id": "CH11-001",
+      "statement": "波托西约1545年被西班牙殖民矿业纳入开采,当地已有冶炼知识",
+      "source_ids": [
+        "F-1102",
+        "F-1103"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "发现一词需标明殖民文献视角"
+    },
+    {
+      "claim_id": "CH11-002",
+      "statement": "托莱多1570年代矿业重组涉及汞供应和强制米塔",
+      "source_ids": [
+        "F-1104",
+        "F-1105"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同劳动身份和时间段不可混同"
+    },
+    {
+      "claim_id": "CH11-003",
+      "statement": "米塔是殖民强制劳动征发,并非所有劳动者都属同一类别",
+      "source_ids": [
+        "F-1102",
+        "F-1104"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "避免将强迫劳动正常化"
+    },
+    {
+      "claim_id": "CH11-004",
+      "statement": "矿业女性劳动与城市市场供给在正式账簿中存在不足呈现",
+      "source_ids": [
+        "F-1104"
+      ],
+      "classification": "peer_reviewed_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能凭单篇文章量化所有劳动投入"
+    },
+    {
+      "claim_id": "CH11-005",
+      "statement": "汞、运输和提炼对矿业供应链与生态社会成本有影响",
+      "source_ids": [
+        "F-1103",
+        "F-1104"
+      ],
+      "classification": "economic_and_environmental_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不披露危险物质使用说明"
+    },
+    {
+      "claim_id": "CH11-006",
+      "statement": "马尼拉大帆船跨洋商业航线约1565—1815年",
+      "source_ids": [
+        "F-1101",
+        "F-1106"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "1565航线和1571马尼拉建立不同事件"
+    },
+    {
+      "claim_id": "CH11-007",
+      "statement": "阿卡普尔科—马尼拉船运美洲银及回程亚洲丝瓷",
+      "source_ids": [
+        "F-1101"
+      ],
+      "classification": "institutional_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能把单年货额当跨世纪总量"
+    },
+    {
+      "claim_id": "CH11-008",
+      "statement": "中国移民商人参与马尼拉商业与服务且遭遇殖民管制及暴力",
+      "source_ids": [
+        "F-1107"
+      ],
+      "classification": "peer_reviewed_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不杜撰某一当事人的经历"
+    },
+    {
+      "claim_id": "CH11-009",
+      "statement": "白银跨地区价差与亚欧需求被Flynn Giraldez用作贸易动力解释",
+      "source_ids": [
+        "F-1108"
+      ],
+      "classification": "economic_history_hypothesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "具体金银价比率和交易利润需时地"
+    },
+    {
+      "claim_id": "CH11-010",
+      "statement": "日本石见银山在16至17世纪向东亚市场提供重要白银",
+      "source_ids": [
+        "F-1109"
+      ],
+      "classification": "archaeological_unesco",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "中国银源不能只写美洲"
+    },
+    {
+      "claim_id": "CH11-011",
+      "statement": "1571全球化起点论与以价格趋同界定全球化的观点争论",
+      "source_ids": [
+        "F-1108",
+        "F-1110"
+      ],
+      "classification": "historiographical_dispute",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "网络连通不等于单一全球价格市场"
+    },
+    {
+      "claim_id": "CH11-012",
+      "statement": "跨洋商贸收益与矿工、菲律宾社群的负担分配不对称",
+      "source_ids": [
+        "F-1104",
+        "F-1107"
+      ],
+      "classification": "social_history_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "因果机制有多重政治和社会因素"
+    },
+    {
+      "claim_id": "CH11-013",
+      "statement": "白银跨洋流量不等于政府可用国库白银",
+      "source_ids": [
+        "F-1101",
+        "F-1105"
+      ],
+      "classification": "author_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "殖民采矿总量需扣除私人交易和开支"
+    },
+    {
+      "claim_id": "CH11-014",
+      "statement": "市场需求与政府税收既相关又有不同边界",
+      "source_ids": [
+        "F-1108",
+        "F-1110"
+      ],
+      "classification": "economic_history_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不可归结中国税收为唯一全球化动力"
+    }
+  ]
+}
