@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "linear-algebra-history",
   "title": "从方程到空间：一部线性代数思想发展史",
-  "reading_notice": "第01、02章已有与来源逐项对应的正文初稿（尚未完成独立双审与终稿），其余章节均为策划占位。",
+  "reading_notice": "第01—05章已有历史非虚构正文初稿及逐章来源对照（尚未通过独立双审或终稿批准）；其余29个章节（含序章与尾声）仍为策划占位。",
   "chapters": [
     {
       "id": "prologue",
@@ -30,21 +30,21 @@
       "title": "高斯之前已有消元：谁把方程排成阶梯",
       "part": "第一部｜方程的困境",
       "file": "draft/03.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-04",
       "title": "当方程互相矛盾：最小二乘如何救场",
       "part": "第一部｜方程的困境",
       "file": "draft/04.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-05",
       "title": "关孝和与莱布尼茨：两条行列式的早期道路",
       "part": "第二部｜行列式的诞生",
       "file": "draft/05.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-06",
