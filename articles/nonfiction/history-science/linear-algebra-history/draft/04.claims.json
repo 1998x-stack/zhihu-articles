@@ -1,0 +1,84 @@
+{
+  "chapter": "04",
+  "title": "当方程互相矛盾：最小二乘如何救场",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "source_ids": {
+    "L04-S1": "https://en.wikisource.org/wiki/Page:A_Source_Book_in_Mathematics_(Smith).pdf/608",
+    "L04-S2": "https://link.springer.com/article/10.1007/s00407-022-00291-w",
+    "L04-S3": "https://mathshistory.st-andrews.ac.uk/Biographies/Legendre/",
+    "L04-S4": "https://doi.org/10.1016/j.hm.2010.06.003",
+    "L04-S5": "https://old.maa.org/node/743958",
+    "MATH04": "本章第4、5、6、7、9节中公式和推导"
+  },
+  "claims": [
+    {
+      "claim_id": "C04-01",
+      "source_ids": [
+        "L04-S3",
+        "L04-S4"
+      ],
+      "verified": true,
+      "kind": "historical_fact_with_caveat"
+    },
+    {
+      "claim_id": "C04-02",
+      "source_ids": [
+        "L04-S1",
+        "L04-S2",
+        "L04-S5"
+      ],
+      "verified": true,
+      "kind": "historical_fact_with_caveat"
+    },
+    {
+      "claim_id": "C04-03",
+      "source_ids": [
+        "L04-S2",
+        "L04-S3"
+      ],
+      "verified": true,
+      "kind": "historical_fact_with_caveat"
+    },
+    {
+      "claim_id": "C04-04",
+      "source_ids": [
+        "L04-S2"
+      ],
+      "verified": true,
+      "kind": "historical_fact_with_caveat"
+    },
+    {
+      "claim_id": "C04-05",
+      "source_ids": [
+        "MATH04",
+        "L04-S4"
+      ],
+      "verified": true,
+      "kind": "modern_mathematical_reconstruction"
+    },
+    {
+      "claim_id": "C04-06",
+      "source_ids": [
+        "MATH04",
+        "L04-S2"
+      ],
+      "verified": true,
+      "kind": "modern_mathematical_reconstruction"
+    },
+    {
+      "claim_id": "C04-07",
+      "source_ids": [
+        "MATH04"
+      ],
+      "verified": true,
+      "kind": "modern_mathematical_reconstruction"
+    }
+  ],
+  "editorial_limits": [
+    "1805年是公开发表节点，1806等书目日期不强行同一化",
+    "高斯自称1795年以来使用与1809年出版属于不同证据层次",
+    "不能将谷神星轨道计算未经论证地等同于1809年证明",
+    "矩阵投影/QR语言属于现代教学重构"
+  ]
+}
