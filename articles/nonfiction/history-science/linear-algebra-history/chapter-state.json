@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "lane": "nonfiction",
+  "scope": "本文件仅为第09—11章最近一批的章节进度；已写第01—08章仍以book.json和各自claims.json为准。",
+  "last_batch": "09-11",
+  "chapters": [
+    {
+      "chapter_id": "chapter-09",
+      "title": "笛卡尔：让几何学开始说代数的语言",
+      "file": "draft/09.md",
+      "claims": "draft/09.claims.json",
+      "stage": "draft",
+      "historical_era": "1637与费马并行传统",
+      "connects_from": "第08章行列式与变换；回溯早期解析几何",
+      "connects_to": "第10章点、位移、仿射组合",
+      "math_verified": true
+    },
+    {
+      "chapter_id": "chapter-10",
+      "title": "莫比乌斯与贝拉维蒂斯：方向也能相加吗",
+      "file": "draft/10.md",
+      "claims": "draft/10.claims.json",
+      "stage": "draft",
+      "historical_era": "1827—1837",
+      "connects_from": "第09章曲线和点的坐标",
+      "connects_to": "第11章方向运算与乘法",
+      "math_verified": true
+    },
+    {
+      "chapter_id": "chapter-11",
+      "title": "哈密顿：乘法为什么突然不交换",
+      "file": "draft/11.md",
+      "claims": "draft/11.claims.json",
+      "stage": "draft",
+      "historical_era": "1843年及1865年回顾性信件",
+      "connects_from": "第10章有向线段加法",
+      "connects_to": "第12章格拉斯曼1844扩张论",
+      "math_verified": true
+    }
+  ],
+  "status_notice": "只有草稿、范围内的来源核验和数学自检；不声称独立审稿已通过，最终批准仍为false。"
+}
