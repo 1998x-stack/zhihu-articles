@@ -1,12 +1,87 @@
 {
   "chapter": "04",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S02",
-    "S03"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "仅第04章数学与数学史限定范围核证；部分历史属二手研究。未作独立同行/结构审稿",
+  "claims": [
+    {
+      "claim_id": "GT04-01",
+      "claim": "欧拉迹覆盖边，哈密顿圈覆盖顶点，均为现代概念定义",
+      "source_ids": [
+        "S33"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT04-02",
+      "claim": "柯克曼在哈密顿游戏之前研究一般多面体闭合遍访顶点问题，1855/1856来源区别",
+      "source_ids": [
+        "S33",
+        "S34"
+      ],
+      "status": "SECONDARY_SUPPORTED"
+    },
+    {
+      "claim_id": "GT04-03",
+      "claim": "1856 Icosian calculus论文、1857会议演示、1859商业化的时间分期",
+      "source_ids": [
+        "S32",
+        "S35"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT04-04",
+      "claim": "十二面体12面、30棱、20点以及游戏约束",
+      "source_ids": [
+        "S32",
+        "S33"
+      ],
+      "status": "VERIFIED_SCOPED"
+    },
+    {
+      "claim_id": "GT04-05",
+      "claim": "K4有哈密顿圈但无欧拉迹，K2,3有欧拉迹但无哈密顿圈",
+      "source_ids": [
+        "S33"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT04-06",
+      "claim": "哈密顿圈的度数、无割点及二分图等分部必要条件",
+      "source_ids": [
+        "S33"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT04-08",
+      "claim": "现代图论不存在与欧拉奇偶性同样的简单一般哈密顿性判别条件",
+      "source_ids": [
+        "S33"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT04-09",
+      "claim": "哈密顿圈存在性与旅行商加权成本优化不同",
+      "source_ids": [
+        "S33"
+      ],
+      "status": "MODERN_EXPLANATION"
+    },
+    {
+      "claim_id": "GT04-10",
+      "claim": "史学区分Kirkman/Hamilton贡献及不编造争论",
+      "source_ids": [
+        "S32",
+        "S33",
+        "S34"
+      ],
+      "status": "EDITORIAL_BOUNDARY"
+    }
   ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "note": "GT04-07为研究表中的备用、未采用主张；不虚构历史对话或人物动机。"
 }
