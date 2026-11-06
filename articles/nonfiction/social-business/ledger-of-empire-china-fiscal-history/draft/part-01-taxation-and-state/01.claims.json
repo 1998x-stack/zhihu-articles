@@ -1,0 +1,65 @@
+{
+  "chapter": "01",
+  "status": "RESEARCH_DRAFT",
+  "review_status": "PENDING",
+  "revision": 0,
+  "evidence_scope": "核心史料文本或学术摘要核对；未做全集及逐页一手校勘；部分因果为明确标记的解释模型",
+  "claims": [
+    {
+      "claim_id": "C01-01",
+      "claim": "格伯簋铭文记录土地交换、界定边界和分执凭证。",
+      "source_ids": [
+        "R01"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "仅限单器实例"
+    },
+    {
+      "claim_id": "C01-02",
+      "claim": "西周王廷存在命令文书实践，金文可反映王命。",
+      "source_ids": [
+        "R02"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "摘要级核证，非完整行政档案"
+    },
+    {
+      "claim_id": "C01-03",
+      "claim": "西周赏赐包含多种资源及劳力类型。",
+      "source_ids": [
+        "R04"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "不代表全国财政占比"
+    },
+    {
+      "claim_id": "C01-04",
+      "claim": "西周土地关系不能约化为统一静止井田九宫格。",
+      "source_ids": [
+        "R01",
+        "R05"
+      ],
+      "status": "INTERPRETATION",
+      "caveat": "基于案例和专著书目研究摘要"
+    },
+    {
+      "claim_id": "C01-05",
+      "claim": "将西周财政讨论为税人，是刘守刚的分析术语。",
+      "source_ids": [
+        "B01"
+      ],
+      "status": "BOOK_POSITION",
+      "caveat": "不可当作古代原生术语"
+    },
+    {
+      "claim_id": "C01-06",
+      "claim": "王室与贵族资源分配牵涉地方执行和交易成本。",
+      "source_ids": [
+        "R02",
+        "R03"
+      ],
+      "status": "INTERPRETATION",
+      "caveat": "解释模型，非已出土财政预算"
+    }
+  ]
+}

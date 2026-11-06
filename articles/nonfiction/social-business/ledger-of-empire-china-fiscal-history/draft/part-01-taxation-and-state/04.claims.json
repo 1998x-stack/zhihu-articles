@@ -1,0 +1,72 @@
+{
+  "chapter": "04",
+  "status": "RESEARCH_DRAFT",
+  "review_status": "PENDING",
+  "revision": 0,
+  "evidence_scope": "核心史料文本或学术摘要核对；未做全集及逐页一手校勘；部分因果为明确标记的解释模型",
+  "claims": [
+    {
+      "claim_id": "C04-01",
+      "claim": "史记商君列传记述什伍编组和分户加赋。",
+      "source_ids": [
+        "R13"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "验证史记文本，非每地实施"
+    },
+    {
+      "claim_id": "C04-02",
+      "claim": "史记记述耕织奖励、军功受爵及宗室限制。",
+      "source_ids": [
+        "R13"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "同上"
+    },
+    {
+      "claim_id": "C04-03",
+      "claim": "改革结合农业管理和官僚化是现代学者重要解释。",
+      "source_ids": [
+        "R14"
+      ],
+      "status": "INTERPRETATION",
+      "caveat": "独立现代分析"
+    },
+    {
+      "claim_id": "C04-04",
+      "claim": "传统改革重要分期约前356与前350。",
+      "source_ids": [
+        "R16"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "通常年代区分政策颁布和落实"
+    },
+    {
+      "claim_id": "C04-05",
+      "claim": "秦简户籍材料显示分户规定地方执行需谨慎解释。",
+      "source_ids": [
+        "R15"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "不等于政策完全失效"
+    },
+    {
+      "claim_id": "C04-06",
+      "claim": "高强动员制度在统一后可能形成负担。",
+      "source_ids": [
+        "R14"
+      ],
+      "status": "INTERPRETATION",
+      "caveat": "因果边界明确"
+    },
+    {
+      "claim_id": "C04-07",
+      "claim": "体系化改革作为切入角度借鉴刘守刚。",
+      "source_ids": [
+        "B03"
+      ],
+      "status": "BOOK_POSITION",
+      "caveat": "不等于对具体改革效果的独立证实"
+    }
+  ]
+}

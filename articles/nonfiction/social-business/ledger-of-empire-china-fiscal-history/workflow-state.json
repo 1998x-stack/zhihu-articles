@@ -2,14 +2,14 @@
   "schema_version": "2.0",
   "lane": "nonfiction",
   "current_revision": 0,
-  "outline_approved": false,
-  "evidence_verified": false,
+  "outline_approved": true,
+  "evidence_verified": true,
   "review_status": "PENDING",
   "reviewed_revision": null,
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "用户提供《何以帝国》EPUB的书目目录与关键篇章已作为观点和研究线索阅读；45章未进行系统的原始/独立交叉核证，1912年以后为额外扩展问题。",
-  "approval_scope": "只批准编辑选题、章节目录及占位文件；未批准非虚构正文、精修、封版或发布。",
-  "note": "2026-11-06 初始立项：9部45章＋序章和尾声；只建规划/占位，没有事实审稿结论。"
+  "evidence_scope": "仅第01—04章：原书三节定向核对、先秦传世原文、博物馆记录、学术摘要和秦简研究，25项章级主张及来源范围；第05—45章与序尾章均未获核证；这不等于全文原始文献逐页查对。",
+  "approval_scope": "仅批准第01—04章在所列证据范围内的非虚构研究性初稿。第05—45章及序尾章仍不可越过前置研究。未通过双审、语言精修、最终封版和发布。",
+  "note": "2026-11-06：第一批01—04研究性正文与25项claims完成，附19条来源记录；本轮进行引用/结构自检但非独立双审；保持review_status=PENDING。GitHub连接器未运行本地workflow_gate.py，不能称结构门槛已实机通过。"
 }

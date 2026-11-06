@@ -1,13 +1,13 @@
 # 章级主张—来源台账（规划态）
 
-> 尚无获得 `FACT_VERIFIED` 标记的独立逐章主张。每个章节下列 ID 是**研究问题占位**，不是已经核实的结论；正式 `nonfiction-architect` 需依据 `research.md` 补充分项证据后再批准。
+> 本表第01—04章已建立25条可回溯主张的受限研究记录（见逐章 `.claims.json`），其余章节仍是**研究问题占位**，不是已核实结论；正式 `nonfiction-architect` 需依据 `research.md` 补充分项证据后再批准。
 
 | 主张编号 | 章 | 待检验的核心问题 | 来源线索 | 状态 |
 |---|---|---|---|---|
-| C01-01 | [01](draft/part-01-taxation-and-state/01.md) | 早期国家没有现代税务机关，靠什么维系王室和贵族的资源？ | 独立来源待查 | TODO_VERIFY |
-| C02-01 | [02](draft/part-01-taxation-and-state/02.md) | 当劳役难以按旧秩序获得，按地计征意味着什么？ | B01相关章：初税亩 | TODO_VERIFY |
-| C03-01 | [03](draft/part-01-taxation-and-state/03.md) | 国家能否绕开田亩，通过流通与资源经营筹财？ | 独立来源待查 | TODO_VERIFY |
-| C04-01 | [04](draft/part-01-taxation-and-state/04.md) | 秦国怎样把人丁、土地、军功和兵员变成可动员的组织？ | B01相关章：商鞅变法 | TODO_VERIFY |
+| C01-01 | [01](draft/part-01-taxation-and-state/01.md) | 早期国家没有现代税务机关，靠什么维系王室和贵族的资源？ | 独立来源待查 | RESEARCH_DRAFT（详见01.claims.json） |
+| C02-01 | [02](draft/part-01-taxation-and-state/02.md) | 当劳役难以按旧秩序获得，按地计征意味着什么？ | B01相关章：初税亩 | RESEARCH_DRAFT（详见02.claims.json） |
+| C03-01 | [03](draft/part-01-taxation-and-state/03.md) | 国家能否绕开田亩，通过流通与资源经营筹财？ | 独立来源待查 | RESEARCH_DRAFT（详见03.claims.json） |
+| C04-01 | [04](draft/part-01-taxation-and-state/04.md) | 秦国怎样把人丁、土地、军功和兵员变成可动员的组织？ | B01相关章：商鞅变法 | RESEARCH_DRAFT（详见04.claims.json） |
 | C05-01 | [05](draft/part-01-taxation-and-state/05.md) | 征发能力极强是否等于财政制度可持续？ | 独立来源待查 | TODO_VERIFY |
 | C06-01 | [06](draft/part-02-han-treasury/06.md) | 降低田租为何不等于各类家庭负担同步下降？ | B01相关章：轻田租 | TODO_VERIFY |
 | C07-01 | [07](draft/part-02-han-treasury/07.md) | 经济恢复为什么也可能重新分配国家和豪强的力量？ | B01相关章：国弊家丰 | TODO_VERIFY |
@@ -53,3 +53,7 @@
 ## 新增正式主张条目必须包含
 
 `claim_id、准确陈述、事件时间、原始出处或可信二手出处、精确页码/条款、是否直接支持、竞争解释、引用片段的最低必要范围、核验人员与日期、chapter_file`。只有对应来源能实质支持的命题才可升级为 `FACT_VERIFIED`。
+
+## 第一批研究主张映射
+
+第01—04章详见 `draft/part-01-taxation-and-state/01.claims.json`、`02.claims.json`、`03.claims.json`、`04.claims.json`。其25项条目将 `FACT_VERIFIED`（仅验证所述文本/物件/书目）、`BOOK_POSITION`、`INTERPRETATION` 明确区分，不以资料存在自动证明解释性因果。
