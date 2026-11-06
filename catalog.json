@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "2.0",
   "purpose": "中文原创短篇与知识叙事创作框架",
   "core_skill": "chief-narrative-editor",
   "genres": [
@@ -117,66 +117,143 @@
   "stages": [
     {
       "skill": "topic-development",
-      "name": "选题开发与定位",
-      "produces": "brief.md"
-    },
-    {
-      "skill": "story-architect",
-      "name": "故事策划与结构蓝图",
-      "produces": "outline.md"
-    },
-    {
-      "skill": "character-world",
-      "name": "人物世界观与约束系统",
-      "produces": "story-bible.md"
-    },
-    {
-      "skill": "plot-and-clues",
-      "name": "因果链悬念伏笔工程",
-      "produces": "outline.md"
+      "name": "选题策划",
+      "lane": "both",
+      "produces": [
+        "brief.md"
+      ]
     },
     {
       "skill": "fact-research",
-      "name": "非虚构资料核验与证据边界",
-      "produces": "research.md"
+      "name": "事实研究与核验",
+      "lane": "nonfiction",
+      "produces": [
+        "research.md"
+      ]
+    },
+    {
+      "skill": "story-architect",
+      "name": "虚构结构设计",
+      "lane": "fiction",
+      "produces": [
+        "outline.md"
+      ]
+    },
+    {
+      "skill": "character-world",
+      "name": "人物与世界观",
+      "lane": "fiction",
+      "produces": [
+        "story-bible.md"
+      ]
+    },
+    {
+      "skill": "plot-and-clues",
+      "name": "因果与伏笔账本",
+      "lane": "fiction",
+      "produces": [
+        "plot-ledger.md"
+      ]
+    },
+    {
+      "skill": "nonfiction-architect",
+      "name": "非虚构证据架构",
+      "lane": "nonfiction",
+      "produces": [
+        "outline.md",
+        "claim-ledger.md"
+      ]
     },
     {
       "skill": "chapter-writer",
-      "name": "分章写作执行",
-      "produces": "draft/NN.md"
+      "name": "虚构分章写作",
+      "lane": "fiction",
+      "produces": [
+        "draft/NN.md",
+        "chapter-state.json"
+      ]
+    },
+    {
+      "skill": "nonfiction-writer",
+      "name": "非虚构分章写作",
+      "lane": "nonfiction",
+      "produces": [
+        "draft/NN.md",
+        "draft/NN.claims.json"
+      ]
     },
     {
       "skill": "continuity-audit",
-      "name": "跨章连续性与事实一致性审计",
-      "produces": "qa-report.md"
+      "name": "连续性核验",
+      "lane": "both",
+      "produces": [
+        "qa/continuity-report.md"
+      ]
     },
     {
       "skill": "developmental-editor",
-      "name": "结构审稿与修订",
-      "produces": "qa-report.md"
+      "name": "独立结构审稿",
+      "lane": "both",
+      "produces": [
+        "qa/developmental-review.md"
+      ]
+    },
+    {
+      "skill": "revision-manager",
+      "name": "修订执行与记录",
+      "lane": "both",
+      "produces": [
+        "revised.md",
+        "qa/revision-log.md"
+      ]
     },
     {
       "skill": "line-edit",
-      "name": "语言节奏与文学性精修",
-      "produces": "final.md"
+      "name": "语言润色",
+      "lane": "both",
+      "produces": [
+        "edited.md"
+      ]
+    },
+    {
+      "skill": "final-approval",
+      "name": "终稿审核封版",
+      "lane": "both",
+      "produces": [
+        "qa/final-approval.md",
+        "final.md"
+      ]
     },
     {
       "skill": "publication-package",
-      "name": "终稿包装与归档",
-      "produces": "metadata.yaml"
+      "name": "发布资料包装",
+      "lane": "both",
+      "produces": [
+        "metadata.yaml"
+      ]
     }
   ],
   "rules": {
     "prompt_path": ".opencode/skills/<skill>/prompt.txt",
     "skill_path": ".opencode/skills/<skill>/SKILL.md",
-    "fictionality_nonfiction_requires_sources": true
+    "fictionality_nonfiction_requires_sources": true,
+    "workflow": "workflow.json",
+    "contract": "docs/contracts.md",
+    "nonfiction_research_before_outline": true,
+    "final_requires_gate": true
   },
   "skill_roots": {
     "canonical": ".opencode/skills",
     "mirrors": [
       ".pi/skills",
-      ".codex/skills"
+      ".codex/skills",
+      ".agents/skills"
     ],
+    "runtime": {
+      "opencode": ".opencode/skills",
+      "pi": ".pi/skills",
+      "codex": ".agents/skills"
+    },
     "sync_policy": "byte-identical"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "schema_version": "2.0",
+  "lane": "fiction",
+  "current_revision": 0,
+  "outline_approved": false,
+  "evidence_verified": false,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
+  "unresolved_blockers": [],
+  "edited_revision": null,
+  "final_approved": false
+}

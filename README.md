@@ -1,96 +1,70 @@
-# 知乎盐选风格原创写作工作台
+# 知乎盐选风格原创中文文章工作台
 
-> 用**注意力设计 → 阅读期待管理 → 价值兑现**组织原创中文短篇及知识叙事。
+采用 **注意力设计 → 阅读期待管理 → 价值兑现** 的故事与知识叙事结构，覆盖十种题材、虚构/非虚构独立写作流程和审稿修订闭环。本仓库与知乎官方无关联。
 
-本仓库用于管理写作提示词、OpenCode、Pi、Codex 三套镜像 Skills、文章分类、创作档案与独立审稿；不是知乎官方规则库，不保证平台收录、收益或发布。
+## 快速入口
+- [完整写作协议](docs/contracts.md) · [分支工作流](docs/workflow.md) · [跨代理兼容说明](docs/compatibility.md)
+- [核心主编 Skill](.opencode/skills/chief-narrative-editor/SKILL.md)：深度构思、类型路由、审稿门槛。
+- [完整原始主编 Prompt](.opencode/skills/chief-narrative-editor/prompt.txt)：保留 V1.0 全文；历史精简版另存 `prompt-condensed-v1.txt`。
+- 十种题材各有 `SKILL.md`、工作流 `prompt.txt` 和完整原版 `prompt-original.txt`。
+- 旧工作流 A/B/C 同样保留各自 `prompt-original.txt`。
 
-## 快速使用
+## 多代理目录
+| 工具 | 目录 | 说明 |
+|---|---|---|
+| OpenCode | `.opencode/skills/` | 维护源和默认项目目录 |
+| Pi | `.pi/skills/` | Pi 项目发现目录 |
+| Codex | `.agents/skills/` | Codex 标准项目发现目录 |
+| 兼容存档 | `.codex/skills/` | 保留此前指定的副本，但不是 Codex 标准自动发现目录 |
 
-1. 在仓库根目录使用 OpenCode、Pi 或 Codex；分别使用 `.opencode/skills/`、`.pi/skills/` 或 `.codex/skills/` 中对应的 `SKILL.md`。
-2. 让代理加载 `chief-narrative-editor`，确定主题、题材和虚构/非虚构边界。
-3. 再加载相应的 `genre-*` Skill，并完整读取该 Skill 的 `prompt.txt`。
-4. 按阶段调用选题、故事架构、人物世界观、伏笔设计、资料核验（需要时）、分章写作、一致性审计、结构审稿、文字精修和终稿归档。
-5. 将具体作品放进 `articles/<fiction|nonfiction>/<genre>/<article-slug>/`，使用 `articles/_template/` 中的文件作为起点。
+四个目录内容逐字节一致。OpenCode 与 Pi 也可能发现 `.agents/skills`，同名定义有确定的优先/警告行为，见 [兼容说明](docs/compatibility.md)。
 
-示例对话：「请加载 chief-narrative-editor 和 genre-mystery-detective，先调用 story-architect，为一个8000字、以身份谜团为核心的原创故事制作 brief、story-bible、outline；确认逻辑成立之后再分章写作。」
+## 十种题材归档
+- **现实逆袭**：`articles/fiction/realistic-comeback/` · `genre-realistic-comeback`
+- **职场博弈**：`articles/fiction/workplace-politics/` · `genre-workplace-politics`
+- **家庭伦理**：`articles/fiction/family-ethics/` · `genre-family-ethics`
+- **悬疑推理**：`articles/fiction/mystery-detective/` · `genre-mystery-detective`
+- **古风权谋**：`articles/fiction/historical-intrigue/` · `genre-historical-intrigue`
+- **规则怪谈与脑洞**：`articles/fiction/rules-fantasy/` · `genre-rules-fantasy`
+- **科幻与AI伦理**：`articles/fiction/ai-scifi/` · `genre-ai-scifi`
+- **青春成长**：`articles/fiction/coming-of-age/` · `genre-coming-of-age`
+- **历史与科学发现**：`articles/nonfiction/history-science/` · `genre-history-science`
+- **社会现实与商业调查**：`articles/nonfiction/social-business/` · `genre-social-business`
 
-## 分类目录
+## 两条写作流水线
+**虚构：** `topic-development → story-architect → character-world → plot-and-clues → chapter-writer → continuity-audit → developmental-editor → [revision-manager + 复审]* → line-edit → final-approval → publication-package`
 
-| 分类 | 归档目录 | Skills |
-| --- | --- | --- |
-| 现实逆袭 | `articles/fiction/realistic-comeback/` | `genre-realistic-comeback` |
-| 职场博弈 | `articles/fiction/workplace-politics/` | `genre-workplace-politics` |
-| 家庭伦理 | `articles/fiction/family-ethics/` | `genre-family-ethics` |
-| 悬疑推理 | `articles/fiction/mystery-detective/` | `genre-mystery-detective` |
-| 古风权谋 | `articles/fiction/historical-intrigue/` | `genre-historical-intrigue` |
-| 规则怪谈与脑洞 | `articles/fiction/rules-fantasy/` | `genre-rules-fantasy` |
-| 科幻与AI伦理 | `articles/fiction/ai-scifi/` | `genre-ai-scifi` |
-| 青春成长 | `articles/fiction/coming-of-age/` | `genre-coming-of-age` |
-| 历史与科学发现 | `articles/nonfiction/history-science/` | `genre-history-science` |
-| 社会现实与商业调查 | `articles/nonfiction/social-business/` | `genre-social-business` |
+**非虚构：** `topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → [fact-research 补核 + revision-manager + 复审]* → line-edit → final-approval → publication-package`
 
-## 多代理 Skill 镜像
+每篇文章保留 `brief.md`、`outline.md`、章稿、证据/伏笔文件、`workflow-state.json`、独立审稿报告与最终审定稿。旧作品保留现状，无自动状态升级。
 
-所有 21 套 Skills 都保持三份**逐字节一致**的副本，每份 Skill 均包含完整的 `SKILL.md` 和 `prompt.txt`：
-
-| 使用环境 | Skill 目录 | 维护策略 |
-| --- | --- | --- |
-| OpenCode | `.opencode/skills/` | 规范源（source of truth） |
-| Pi | `.pi/skills/` | 与 OpenCode 原样同步 |
-| Codex | `.codex/skills/` | 与 OpenCode 原样同步 |
-
-未来修改 Skill 时，应先编辑 `.opencode/skills/<skill>/SKILL.md` 或 `prompt.txt`，再将相同内容同步到另外两个目录。GitHub Actions 会检查三套内容完全相同，缺失或不一致都会使验证失败。这里仅复制仓库项目级 Skills，不改动用户机器上的全局配置。
-
-## 技能目录
-
-- 核心总控：`.opencode/skills/chief-narrative-editor/`（原通用 Prompt V1.0，强化深度构思、因果反推和跨类型路由）
-- 题材专属：10 个 `genre-*` Skill（每个都有完整 `SKILL.md` + 来自 V2.0 的原始 `prompt.txt`）
-- 写作阶段：`topic-development`、`story-architect`、`character-world`、`plot-and-clues`、`fact-research`、`chapter-writer`、`continuity-audit`、`developmental-editor`、`line-edit`、`publication-package`（每个都有独立 `prompt.txt`）
-
-原有 V2.0 的三个阶段 Prompt 分别保存在 `story-architect`（Prompt A）、`chapter-writer`（Prompt B）、`developmental-editor`（Prompt C）。
-
-## 创作阶段与产物
-
-| 阶段 | Skill | 主要产物 |
-| --- | --- | --- |
-| 选题开发与定位 | `topic-development` | `brief.md` |
-| 故事策划与结构蓝图 | `story-architect` | `outline.md` |
-| 人物世界观与约束系统 | `character-world` | `story-bible.md` |
-| 因果链悬念伏笔工程 | `plot-and-clues` | `outline.md` |
-| 非虚构资料核验与证据边界 | `fact-research` | `research.md` |
-| 分章写作执行 | `chapter-writer` | `draft/NN.md` |
-| 跨章连续性与事实一致性审计 | `continuity-audit` | `qa-report.md` |
-| 结构审稿与修订 | `developmental-editor` | `qa-report.md` |
-| 语言节奏与文学性精修 | `line-edit` | `final.md` |
-| 终稿包装与归档 | `publication-package` | `metadata.yaml` |
-
-作品建议的目录结构（实际作品需新建独立 slug 目录）：
-
+## 仓库目录（节选）
 ```text
-articles/fiction/mystery-detective/<article-slug>/
-├── metadata.yaml
-├── brief.md
-├── story-bible.md
-├── research.md
-├── outline.md
-├── draft/
-│   ├── 01.md
-│   └── 02.md
-├── qa-report.md
-└── final.md
+zhihu-articles/
+├── .opencode/skills/           # 主维护源
+├── .pi/skills/                 # Pi 副本
+├── .agents/skills/             # Codex 可发现副本
+├── .codex/skills/              # 兼容存档
+├── articles/
+│   ├── fiction/
+│   ├── nonfiction/
+│   └── _template/
+├── docs/contracts.md
+├── docs/workflow.md
+├── docs/compatibility.md
+├── catalog.json
+├── workflow.json
+└── scripts/
 ```
 
-模板位于 `articles/_template/`。非虚构强制维护 `research.md` 和来源矩阵。**文章存放在 articles，指令存放在 .opencode/skills，二者不要混用。**
+## 维护与验证
+```bash
+python scripts/sync_skills.py --check
+python scripts/sync_skills.py --write
+python scripts/validate_repo.py
+python -m unittest discover -s scripts -p 'test_*.py'
+```
+GitHub Actions 执行结构、镜像、流程契约与状态机模拟测试。它们不验证实际中文文学品质或平台收录，成稿仍需编辑审查与来源核对。
 
-## 质量标准
-
-- 开头有可兑现的真实问题，中段每一幕有实际推进，结尾兑现情绪或认知承诺。
-- 结构问题优先于语言问题；重大逻辑漏洞不得凭文字润色掩盖。
-- 历史、科学、现实调查不虚构事实、采访或参考文献；无法核实之处应明确标注。
-- 评分参考：开篇15、节奏15、信息差15、人物15、逻辑20、情绪与价值10、语言10（非官方，非虚构另需事实核验）。
-
-## 验证
-
-运行 `python scripts/validate_repo.py` 检查三套 Skills 的文件完整性及镜像一致性，以及分类和模板的结构完整性。GitHub Actions 会在提交时自动执行同一检查。
-
-更多详见 `AGENTS.md`、`docs/editorial-standards.md`、`catalog.json`。
+## 使用方式
+在仓库根目录运行适用的代理，要求先加载 `chief-narrative-editor`，再选定主类型 Skill 与当前阶段 Skill。先创作和审核可供复核的方案，再根据分支生成正文。保留用户提供的现有书稿和草稿；未完成的章稿不能直接设为 final。

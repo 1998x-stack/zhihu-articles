@@ -1,24 +1,28 @@
-# AGENTS.md｜OpenCode / Pi / Codex 项目代理协作规范
+# AGENTS.md｜OpenCode、Pi、Codex 共同写作协议
 
-本仓库的唯一创作总控为 `chief-narrative-editor`。不要将某种题材的 Prompt 直接当成所有类型通用的风格模板。
+本仓库采用主编统筹 + **严格阶段交付** 的写作体系，避免一次性生成导致剧情因果或史料边界失控。
 
-**Skill 目录映射**：OpenCode 使用 `.opencode/skills/`，Pi 使用 `.pi/skills/`，Codex 使用 `.codex/skills/`。三套内容是逐字节一致的镜像；`.opencode/skills/` 为维护源，任何 Skill 更新都应同步至另外两个目录并通过 `scripts/validate_repo.py` 验证。下文的 `.opencode/skills/` 路径在 Pi 与 Codex 中可替换为其对应的根目录。
+## 入口
+- 主控：`chief-narrative-editor`（对应根目录 `catalog.json`）。
+- 类型规则：从10种 `genre-*` Skills 中选择主类型，最多辅助一到两种副类型，但不可覆盖主类型的证据约束。
+- 写作分支：**fiction / nonfiction 必须先确定**。不能用虚构小说的分章写作器处理历史科学或调查文章。
+- Codex 自动加载的标准 Skill 路径是 `.agents/skills/`；OpenCode 使用 `.opencode/skills/`；Pi 使用 `.pi/skills/`。另保留 `.codex/skills/` 兼容性副本。四套内容相同。
+- 同名 Skill 在 Pi 和 OpenCode 的兼容路径可能被重复发现；名称和内容完全一致，按各平台优先级选择。详见 `docs/compatibility.md`。
 
-## 开始一篇新文章
-1. 先读取 `.opencode/skills/chief-narrative-editor/SKILL.md` 及其 `prompt.txt`，冻结主题与创作约束。
-2. 根据 `catalog.json` 选择一个主要类型 Skill，完整读取其 `SKILL.md` 与 `prompt.txt`；混合类型可参考副类型，但以主类型约束为准。
-3. 先执行 `topic-development` 与 `story-architect`，再使用 `character-world` 和 `plot-and-clues`，记录经得起因果审计的构思。
-4. 现实专业背景、历史科学或非虚构必须先 `fact-research`；证据不足时停止将推断当事实。
-5. 使用 `chapter-writer` 逐章写作；维持故事档案和章节状态，不改变已锁定规则。
-6. 执行 `continuity-audit`、`developmental-editor` 和 `line-edit`；通过后再 `publication-package`。
-7. 成稿归入 `articles/<分类>/<类型>/<slug>/`；及时更新 metadata 和创作状态。
+## 必要协议
+1. 先读 `docs/contracts.md`、`workflow.json` 和核心 Skill；再加载目标类型和当下阶段。
+2. `topic-development` 只做**一次三方案比较**并形成 brief；后续步骤不得反复重新选题。
+3. **非虚构**：`topic-development → fact-research → nonfiction-architect → nonfiction-writer`，史实先于架构。**虚构**：`topic-development → story-architect → character-world → plot-and-clues → chapter-writer`。
+4. 每一阶段只拥有自己的产物写入权，遵循 `docs/contracts.md`。不要越权覆盖旧大纲、审稿报告或终稿。
+5. 连续性审计和独立结构审稿必须是不同报告：`qa/continuity-report.md` 与 `qa/developmental-review.md`。
+6. 审稿未通过：`revision-manager` 修改 → 旧审稿失效 → `continuity-audit` 与 `developmental-editor` 针对新版本再次审核，直到通过或明确无法修复。
+7. 仅在最新审稿通过后运行 `line-edit`，输出 `edited.md`；由 `final-approval` 独占生成 `final.md`；发布包装只编辑 `metadata.yaml`。
+8. 执行写作或验收前按阶段使用 `python scripts/workflow_gate.py <article_dir> --target draft|edit|final|publish`；记录 `workflow-state.json`。自动校验只是机器闸门，不代替人工/模型实际审稿。
+9. 章节写作必须更新 `chapter-state.json`；非虚构必须在章节中保留 claim 到来源的可追溯对应。
+10. 不能编造证据、原始引文、采访或真实人物私下心理；未授权不得对外发布或假称已获平台收录。
 
-## 编辑纪律
-- 虚构故事允许想象，但不得移植受保护作品的标志性人物或大段表达。
-- 非虚构严禁编造历史引文、证据、统计、采访和引用；资料边界以 research 为准。
-- 不得用过度暴力、血腥、未成年人不适宜的露骨情节吸引流量。
-- 重要剧情变更须更新 story-bible、outline 与 qa-report，保证版本一致。
-- 不得未经请求直接执行外部发布、提交到第三方平台或宣称完成商业审核。
+## 原始 Prompt 保存
+核心通用 Prompt 的原始完整版为 `chief-narrative-editor/prompt.txt`；过去的精简版存为 `prompt-condensed-v1.txt`。十套题材 Prompt 的原文在各自 `prompt-original.txt`，阶段旧版 A/B/C 亦在对应目录保留。分阶段执行时优先遵循阶段输入输出权限，而不是照搬原始 Prompt 的“立即输出全文”。
 
-## 优先级
-用户具体任务 > 作品确定的事实与规则 > 核心 Skill > 主类型 Skill > 阶段 Skill > 语言风格偏好；遇到冲突，应透明说明并给出修复建议。
+## 修改 Skills
+`python scripts/sync_skills.py --write` 同步四套目录；`python scripts/validate_repo.py` 核验同步与协议；`python -m unittest discover -s scripts -p 'test_*.py'` 验证流程闸门。不得把结构检查成功冒称为实际创作质量或平台自动发现已实机测试成功。

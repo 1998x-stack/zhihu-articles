@@ -1,0 +1,225 @@
+{
+  "schema_version": "2.0",
+  "description": "Explicit fiction/nonfiction workflow with review-and-revision loop",
+  "branches": {
+    "fiction": [
+      "topic-development",
+      "story-architect",
+      "character-world",
+      "plot-and-clues",
+      "chapter-writer",
+      "continuity-audit",
+      "developmental-editor",
+      "line-edit",
+      "final-approval",
+      "publication-package"
+    ],
+    "nonfiction": [
+      "topic-development",
+      "fact-research",
+      "nonfiction-architect",
+      "nonfiction-writer",
+      "continuity-audit",
+      "developmental-editor",
+      "line-edit",
+      "final-approval",
+      "publication-package"
+    ]
+  },
+  "stage_contracts": {
+    "topic-development": {
+      "name": "选题策划",
+      "lane": "both",
+      "writes": [
+        "brief.md"
+      ],
+      "reads": [
+        "用户主题",
+        "目标读者",
+        "类型规范"
+      ]
+    },
+    "fact-research": {
+      "name": "事实研究与核验",
+      "lane": "nonfiction",
+      "writes": [
+        "research.md"
+      ],
+      "reads": [
+        "brief.md",
+        "原始资料"
+      ]
+    },
+    "story-architect": {
+      "name": "虚构结构设计",
+      "lane": "fiction",
+      "writes": [
+        "outline.md"
+      ],
+      "reads": [
+        "brief.md"
+      ]
+    },
+    "character-world": {
+      "name": "人物与世界观",
+      "lane": "fiction",
+      "writes": [
+        "story-bible.md"
+      ],
+      "reads": [
+        "brief.md",
+        "outline.md"
+      ]
+    },
+    "plot-and-clues": {
+      "name": "因果与伏笔账本",
+      "lane": "fiction",
+      "writes": [
+        "plot-ledger.md"
+      ],
+      "reads": [
+        "outline.md",
+        "story-bible.md"
+      ]
+    },
+    "nonfiction-architect": {
+      "name": "非虚构证据架构",
+      "lane": "nonfiction",
+      "writes": [
+        "outline.md",
+        "claim-ledger.md"
+      ],
+      "reads": [
+        "brief.md",
+        "research.md"
+      ]
+    },
+    "chapter-writer": {
+      "name": "虚构分章写作",
+      "lane": "fiction",
+      "writes": [
+        "draft/NN.md",
+        "chapter-state.json"
+      ],
+      "reads": [
+        "outline.md",
+        "story-bible.md",
+        "plot-ledger.md"
+      ]
+    },
+    "nonfiction-writer": {
+      "name": "非虚构分章写作",
+      "lane": "nonfiction",
+      "writes": [
+        "draft/NN.md",
+        "draft/NN.claims.json"
+      ],
+      "reads": [
+        "outline.md",
+        "research.md",
+        "claim-ledger.md"
+      ]
+    },
+    "continuity-audit": {
+      "name": "连续性核验",
+      "lane": "both",
+      "writes": [
+        "qa/continuity-report.md"
+      ],
+      "reads": [
+        "当前正文",
+        "相关档案"
+      ]
+    },
+    "developmental-editor": {
+      "name": "独立结构审稿",
+      "lane": "both",
+      "writes": [
+        "qa/developmental-review.md"
+      ],
+      "reads": [
+        "当前正文",
+        "qa/continuity-report.md"
+      ]
+    },
+    "revision-manager": {
+      "name": "修订执行与记录",
+      "lane": "both",
+      "writes": [
+        "revised.md",
+        "qa/revision-log.md"
+      ],
+      "reads": [
+        "审稿意见",
+        "当前正文"
+      ]
+    },
+    "line-edit": {
+      "name": "语言润色",
+      "lane": "both",
+      "writes": [
+        "edited.md"
+      ],
+      "reads": [
+        "本轮审稿通过的稿件"
+      ]
+    },
+    "final-approval": {
+      "name": "终稿审核封版",
+      "lane": "both",
+      "writes": [
+        "qa/final-approval.md",
+        "final.md"
+      ],
+      "reads": [
+        "edited.md",
+        "本轮审稿报告"
+      ]
+    },
+    "publication-package": {
+      "name": "发布资料包装",
+      "lane": "both",
+      "writes": [
+        "metadata.yaml"
+      ],
+      "reads": [
+        "final.md",
+        "qa/final-approval.md"
+      ]
+    }
+  },
+  "review_loop": {
+    "after": "developmental-editor",
+    "if": "review_status != PASS or unresolved_blockers present",
+    "run": [
+      "revision-manager",
+      "continuity-audit",
+      "developmental-editor"
+    ],
+    "max_retries": "No fixed bound; stop if unresolved evidence or no safe repair",
+    "rule": "revision-manager increments current_revision and invalidates all previous review and edit approvals"
+  },
+  "gates": {
+    "draft": "outline_approved=true and required branch artifacts exist; nonfiction requires verified evidence",
+    "edit": "review_status=PASS, reviewed_revision=current_revision, no blockers, both review reports",
+    "final": "edit gate + edited.md + edited_revision=current_revision",
+    "publish": "final gate + final_approved=true + final.md + qa/final-approval.md"
+  },
+  "artifact_owner_exceptions": {
+    "outline.md": "story-architect (fiction) OR nonfiction-architect (nonfiction)",
+    "draft/NN.md": "chapter-writer (fiction) OR nonfiction-writer (nonfiction)"
+  },
+  "requirements": {
+    "nonfiction_evidence_first": true,
+    "chapter_state_mandatory": true,
+    "revision_requires_rereview": true,
+    "quality_scores_not_substitute_for_gate": true
+  },
+  "discovery_roots": {
+    "opencode": ".opencode/skills",
+    "pi": ".pi/skills",
+    "codex": ".agents/skills",
+    "legacy_codex_archive": ".codex/skills",
+    "canonical_source": ".opencode/skills"
+  }
+}
