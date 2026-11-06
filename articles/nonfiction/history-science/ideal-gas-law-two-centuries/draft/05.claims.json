@@ -39,11 +39,12 @@
     {
       "claim_id": "G05-04",
       "source_ids": [
-        "S33"
+        "S33",
+        "S87"
       ],
-      "summary": "查理1783年氢气球载人飞行，不能混为热膨胀实验",
+      "summary": "1783-11-21蒙哥尔费热气球载人自由飞行在先；1783-12-01查理与罗伯特载人氢气球飞行；不可据气球航行证明1787热膨胀实验",
       "classification": "historical_museum",
-      "verification": "verified"
+      "verification": "verified_with_smithsonian_S33_S87"
     },
     {
       "claim_id": "G05-05",
