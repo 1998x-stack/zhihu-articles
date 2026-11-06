@@ -99,5 +99,21 @@
 | 07 | H07-17 | symbols enable rules and diffusion as explanatory editorial thesis not sole historical cause | research.md 第07章矩阵；L07-MAA-LANGUAGE;L07-MAA-LHOPITAL | editorial_qualified |
 | 07 | H07-18 | modern Riemann right rectangle sum for x on [0,1] yields 1/2 | research.md 第07章矩阵；MODERN-MATH | mathematically_verified |
 
+## 第08章专项主张
+
+| 08 | H08-01 | 伯克利生卒、数学训练与1734《分析者》 | research.md 第08章；B08-MACTUTOR-BERKELEY;B08-PRIMARY-WILKINS | 史实核实 |
+| 08 | H08-02 | 宗教论战语境及受信人身份边界 | research.md 第08章；B08-PRIMARY-WILKINS;B08-DARTMOUTH-EDITOR | 史实核实、身份不确定 |
+| 08 | H08-03 | 牛顿流数与莱布尼茨微分都在批评范围 | B08-PRIMARY-WILKINS;B08-SEP-BELL | 已核 |
+| 08 | H08-04 | 原书§§XIII—XVI反对增量假设前后切换 | B08-PRIMARY-WILKINS | 原典立场核实，不代替现代裁决 |
+| 08 | H08-05 | 原书§IX乘积增量批评 | B08-PRIMARY-WILKINS | 原典核实、避免过度简化 |
+| 08 | H08-06 | §XXXV“幽灵”短语及批评含义 | B08-PRIMARY-WILKINS;B08-MAA-HUFFMAN | 已核 |
+| 08 | H08-07 | 原书§§XXI—XXII提出错误抵消解释 | B08-PRIMARY-WILKINS | 原典观点，不作普遍数学命题 |
+| 08 | H08-08 | 1734—1742争论及1742麦克劳林著作 | B08-CAMBRIDGE-GUICCIARDINI;B08-MAA-HUFFMAN | 已核、因果谨慎 |
+| 08 | H08-09 | 达朗贝尔、柯西、魏尔斯特拉斯的后续路线 | B08-SEP-BELL | 概览核实，细节下章 |
+| 08 | H08-10 | 现代无穷小并非被一概否定 | B08-SEP-BELL | 概览核实 |
+| 08 | H08-11 | x²差商、表格和ε–δ极限证明 | B08-MODERN-MATH | 自拟现代数学已核 |
+| 08 | H08-12 | 乘积有限增量与微分法则区分 | B08-MODERN-MATH | 已核，需可微性 |
+| 08 | H08-13 | “第二次危机”为编辑性解释 | brief.md;outline.md | 解释性框架 |
+
 ## 后续章节状态
-第08—25章及序章、尾声仍待逐章专项核证。第01—07章已选主张的证据映射不等同全书终稿核验。
+第09—25章及序章、尾声仍待逐章专项核证。第01—08章已选主张的证据映射不等同全书终稿核验。
