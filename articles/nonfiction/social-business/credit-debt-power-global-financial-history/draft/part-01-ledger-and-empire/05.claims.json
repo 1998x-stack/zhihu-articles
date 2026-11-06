@@ -1,0 +1,237 @@
+{
+  "chapter": "05",
+  "title": "黄金、贡赋与商路：欧亚非的交换体系并非一个模板",
+  "lane": "nonfiction",
+  "draft_revision": 4,
+  "publication_ready": false,
+  "verification_scope": "Ancient text translations and manuscript object descriptions checked; archaeological and monograph claims often based on accessible abstracts; formal editions, new studies and peer review outstanding.",
+  "claims": [
+    {
+      "claim_id": "CH05-001",
+      "statement": "Muziris纸草P. Vindob. G40822为公元2世纪正反两面残缺文本",
+      "source_ids": [
+        "F-0501",
+        "F-0502"
+      ],
+      "classification": "primary_document",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-002",
+      "statement": "贷款合同涉及红海—科普托斯—亚历山大运输和仓储担保",
+      "source_ids": [
+        "F-0501",
+        "F-0502"
+      ],
+      "classification": "primary_document",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-003",
+      "statement": "纸草涉及tetarte约25%进口税但不可由此推全年贸易",
+      "source_ids": [
+        "F-0501",
+        "F-0502",
+        "F-0518"
+      ],
+      "classification": "fact_with_limits",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-004",
+      "statement": "Rathbone与De Romanis对该借款用途侧重不同",
+      "source_ids": [
+        "F-0501",
+        "F-0503"
+      ],
+      "classification": "competing_scholarship",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-005",
+      "statement": "一世纪航行记记载穆吉里斯胡椒、贵金属与远洋航季",
+      "source_ids": [
+        "F-0504"
+      ],
+      "classification": "translated_ancient_source",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-006",
+      "statement": "运输季节、仓储与执行风险并非单靠货币可消除",
+      "source_ids": [
+        "F-0501",
+        "F-0504"
+      ],
+      "classification": "author_mechanism",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-007",
+      "statement": "贝雷尼刻出土南亚相关宗教器物与公元248年前后双语铭文",
+      "source_ids": [
+        "F-0505"
+      ],
+      "classification": "archaeological_report",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-008",
+      "statement": "印度各地对罗马钱币存在储藏、改造和饰物等多重使用",
+      "source_ids": [
+        "F-0506"
+      ],
+      "classification": "numismatic_scholarship",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-009",
+      "statement": "航行记在阿杜利斯分别记载进出口与赠予国王的礼品",
+      "source_ids": [
+        "F-0504",
+        "F-0507"
+      ],
+      "classification": "translated_ancient_source",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-010",
+      "statement": "拉普塔商贸代理与政治权属是古代外部观察者的说法",
+      "source_ids": [
+        "F-0504",
+        "F-0507"
+      ],
+      "classification": "source_criticism",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-011",
+      "statement": "阿克苏姆依靠阿杜利斯参加红海网络，三世纪后期开始铸币",
+      "source_ids": [
+        "F-0508",
+        "F-0509"
+      ],
+      "classification": "historical_fact",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-012",
+      "statement": "阿克苏姆金币希腊文及当地钱币语言差异有跨区用途解释",
+      "source_ids": [
+        "F-0508",
+        "F-0509"
+      ],
+      "classification": "numismatic_interpretation",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-013",
+      "statement": "埃扎纳时期阿克苏姆币面宗教符号发生变化",
+      "source_ids": [
+        "F-0508"
+      ],
+      "classification": "museum_history",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-014",
+      "statement": "塔德梅卡9—10世纪有铸金相关陶模出土",
+      "source_ids": [
+        "F-0512",
+        "F-0513"
+      ],
+      "classification": "archaeological_hypothesis",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-015",
+      "statement": "无铭文金币坯块属研究者对陶模用途的解释",
+      "source_ids": [
+        "F-0512"
+      ],
+      "classification": "scholarly_hypothesis",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-016",
+      "statement": "塔德梅卡8—9世纪以来跨撒哈拉商贸有考古依据",
+      "source_ids": [
+        "F-0513"
+      ],
+      "classification": "archaeological_evidence",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-017",
+      "statement": "西非黄金北运出现时点和数量仍不确定",
+      "source_ids": [
+        "F-0514",
+        "F-0515"
+      ],
+      "classification": "historical_limits",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-018",
+      "statement": "十一世纪巴克里关于加纳的记载不是亲历见闻",
+      "source_ids": [
+        "F-0516"
+      ],
+      "classification": "primary_source_criticism",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-019",
+      "statement": "粟特古信2号Or.8212/95约313—314年写于河西收信人撒马尔罕",
+      "source_ids": [
+        "F-0510",
+        "F-0511"
+      ],
+      "classification": "primary_manuscript",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-020",
+      "statement": "古信涉及跨城商业伙伴、异地财产与家庭托付",
+      "source_ids": [
+        "F-0511",
+        "F-0517"
+      ],
+      "classification": "translated_ancient_source",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-021",
+      "statement": "政治礼物、税款和贡赋不能混同同一种权力义务",
+      "source_ids": [
+        "F-0504",
+        "F-0507",
+        "F-0514"
+      ],
+      "classification": "analytical_distinction",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-022",
+      "statement": "不同世纪与地区贸易不能拼接为唯一的古代全球市场",
+      "source_ids": [
+        "F-0501",
+        "F-0508",
+        "F-0510",
+        "F-0512"
+      ],
+      "classification": "comparative_boundary",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    },
+    {
+      "claim_id": "CH05-023",
+      "statement": "第六章需独立考证伊斯兰商贸代理、合伙和跨城结算",
+      "source_ids": [
+        "F-0517",
+        "F-0513"
+      ],
+      "classification": "narrative_bridge",
+      "verification_status": "research-draft; publication-crosscheck-pending"
+    }
+  ]
+}
