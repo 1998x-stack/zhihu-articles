@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "id": "the-laws-of-chance-probability",
+  "reading_notice": "全章节仅有写作设计占位，未经核实或审稿。",
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "序章｜当算法说90%时，它究竟知道什么",
+      "part": "序章",
+      "file": "draft/00.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-01",
+      "title": "命运、证词与偶然：概率出现之前怎样谈不确定",
+      "part": "第1部｜偶然第一次被计算",
+      "file": "draft/01.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-02",
+      "title": "1494年的未完比赛：帕乔利为何难以定义公平",
+      "part": "第1部｜偶然第一次被计算",
+      "file": "draft/02.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-03",
+      "title": "卡尔达诺的手稿：把不可预测拆成可数结果",
+      "part": "第1部｜偶然第一次被计算",
+      "file": "draft/03.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-04",
+      "title": "伽利略的三枚骰子：为什么两个和值不一样常见",
+      "part": "第1部｜偶然第一次被计算",
+      "file": "draft/04.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-05",
+      "title": "1654年的通信：帕斯卡与费马重新解决公平问题",
+      "part": "第2部｜公平成为一门数学",
+      "file": "draft/05.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-06",
+      "title": "帕斯卡三角形：未来的不确定如何化成组合数",
+      "part": "第2部｜公平成为一门数学",
+      "file": "draft/06.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-07",
+      "title": "1657年，惠更斯把公平写成期望",
+      "part": "第2部｜公平成为一门数学",
+      "file": "draft/07.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-08",
+      "title": "死亡记录到生命表：偶然如何成为社会问题",
+      "part": "第2部｜公平成为一门数学",
+      "file": "draft/08.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-09",
+      "title": "蒙莫尔的组合世界：结果太多还能算吗",
+      "part": "第3部｜大数中的秩序",
+      "file": "draft/09.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-10",
+      "title": "1713年《猜度术》：伯努利为何相信大数",
+      "part": "第3部｜大数中的秩序",
+      "file": "draft/10.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-11",
+      "title": "德莫弗《机会论》：组合计数升级为分析工具",
+      "part": "第3部｜大数中的秩序",
+      "file": "draft/11.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-12",
+      "title": "圣彼得堡悖论：为什么期望很大不等于理性",
+      "part": "第3部｜大数中的秩序",
+      "file": "draft/12.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-13",
+      "title": "德莫弗的钟形曲线：离散概率为何接近正态",
+      "part": "第4部｜从结果反推原因",
+      "file": "draft/13.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-14",
+      "title": "1763年的身后论文：贝叶斯从证据推测未知",
+      "part": "第4部｜从结果反推原因",
+      "file": "draft/14.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-15",
+      "title": "布丰的针：随机几何也能有概率吗",
+      "part": "第4部｜从结果反推原因",
+      "file": "draft/15.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-16",
+      "title": "拉普拉斯：概率分析如何进入天文测量",
+      "part": "第4部｜从结果反推原因",
+      "file": "draft/16.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-17",
+      "title": "勒让德与高斯：数据为什么要取最小二乘",
+      "part": "第5部｜误差、稀有事件与极限",
+      "file": "draft/17.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-18",
+      "title": "泊松：少见事件为什么有专属规律",
+      "part": "第5部｜误差、稀有事件与极限",
+      "file": "draft/18.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-19",
+      "title": "凯特勒的平均人：社会真的服从数学规律吗",
+      "part": "第5部｜误差、稀有事件与极限",
+      "file": "draft/19.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-20",
+      "title": "切比雪夫到李雅普诺夫：钟形规律有多普遍",
+      "part": "第5部｜误差、稀有事件与极限",
+      "file": "draft/20.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-21",
+      "title": "无限多种可能的难题：经典定义何时失效",
+      "part": "第6部｜给概率建立地基",
+      "file": "draft/21.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-22",
+      "title": "博雷尔与勒贝格：把长度变成概率的地基",
+      "part": "第6部｜给概率建立地基",
+      "file": "draft/22.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-23",
+      "title": "马尔可夫：如果下一步依赖上一步",
+      "part": "第6部｜给概率建立地基",
+      "file": "draft/23.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-24",
+      "title": "1933年柯尔莫哥洛夫：给概率一套公理",
+      "part": "第6部｜给概率建立地基",
+      "file": "draft/24.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-25",
+      "title": "巴舍利耶：1900年让概率开始描述时间",
+      "part": "第7部｜随机开始随时间运动",
+      "file": "draft/25.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-26",
+      "title": "布朗运动：爱因斯坦与维纳接力研究随机路径",
+      "part": "第7部｜随机开始随时间运动",
+      "file": "draft/26.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-27",
+      "title": "伊藤的难题：随机轨迹还能做微积分吗",
+      "part": "第7部｜随机开始随时间运动",
+      "file": "draft/27.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-28",
+      "title": "杜布与鞅：怎样数学化公平预测",
+      "part": "第7部｜随机开始随时间运动",
+      "file": "draft/28.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-29",
+      "title": "费舍尔：有限样本怎样揭示总体",
+      "part": "第8部｜不确定性成为科学方法",
+      "file": "draft/29.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-30",
+      "title": "内曼与皮尔逊：怎样控制统计判断的错误",
+      "part": "第8部｜不确定性成为科学方法",
+      "file": "draft/30.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-31",
+      "title": "香农：信息为什么能由概率定义",
+      "part": "第8部｜不确定性成为科学方法",
+      "file": "draft/31.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-32",
+      "title": "1949年蒙特卡罗：精确算不动就进行模拟",
+      "part": "第8部｜不确定性成为科学方法",
+      "file": "draft/32.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-33",
+      "title": "随机图：随机连接为何会诞生巨大网络",
+      "part": "第9部｜算法时代的概率",
+      "file": "draft/33.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-34",
+      "title": "从梅特罗波利斯到黑斯廷斯：用随机链抽样",
+      "part": "第9部｜算法时代的概率",
+      "file": "draft/34.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-35",
+      "title": "概率图模型与因果：相关能否解释原因",
+      "part": "第9部｜算法时代的概率",
+      "file": "draft/35.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-36",
+      "title": "人工智能说90%：算法真的知道多确定吗",
+      "part": "第9部｜算法时代的概率",
+      "file": "draft/36.md",
+      "status": "outline"
+    },
+    {
+      "id": "epilogue",
+      "title": "尾声｜偶然从未消失，我们只是学会了更准确地提问",
+      "part": "尾声",
+      "file": "draft/37.md",
+      "status": "outline"
+    }
+  ]
+}
