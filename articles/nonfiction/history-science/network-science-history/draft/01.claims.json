@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "chapter": "01",
+  "revision": 0,
+  "lane": "nonfiction",
+  "editorial_status": "draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "claims": [
+    {
+      "id": "NS-01-01",
+      "type": "historical_fact",
+      "claim": "E53 work was written 1735 and published 1741; 1736 may describe the journal-volume year",
+      "source_ids": [
+        "S20",
+        "S21"
+      ],
+      "locator": "Euler Archive E53 metadata; original journal citation",
+      "status": "verified_at_source_level"
+    },
+    {
+      "id": "NS-01-02",
+      "type": "historical_fact",
+      "claim": "Königsberg's seven bridges connect four land regions and Euler calls them A-D and a-g",
+      "source_ids": [
+        "S21"
+      ],
+      "locator": "Original §§2,4,6",
+      "status": "verified_at_source_level"
+    },
+    {
+      "id": "NS-01-03",
+      "type": "historical_fact",
+      "claim": "Euler argues full enumeration is laborious and seeks a more direct feasibility test",
+      "source_ids": [
+        "S21"
+      ],
+      "locator": "Original §3",
+      "status": "verified_at_source_level"
+    },
+    {
+      "id": "NS-01-04",
+      "type": "historical_fact",
+      "claim": "A seven-bridge walk requires eight region letters; A occurs 3 and B,C,D occur 2 each, totaling nine",
+      "source_ids": [
+        "S21"
+      ],
+      "locator": "Original §§4-9",
+      "status": "verified_at_source_level"
+    },
+    {
+      "id": "NS-01-05",
+      "type": "historical_fact",
+      "claim": "Euler states the sum of incidences is twice the number of bridges and recognizes odd counts come in pairs",
+      "source_ids": [
+        "S21"
+      ],
+      "locator": "Original §§16-17",
+      "status": "verified_at_source_level"
+    },
+    {
+      "id": "NS-01-06",
+      "type": "historical_context",
+      "claim": "Euler invokes Leibniz's geometry of position and treats the bridge problem as an example",
+      "source_ids": [
+        "S21",
+        "S23"
+      ],
+      "locator": "Original §1; Cambridge chapter overview",
+      "status": "verified_at_source_level"
+    },
+    {
+      "id": "NS-01-07",
+      "type": "modern_mathematical_derivation",
+      "claim": "A connected finite undirected multigraph has an Eulerian trail if and only if the number of odd-degree vertices is 0 or 2 (ignoring isolates); a closed circuit requires 0",
+      "source_ids": [
+        "S22"
+      ],
+      "locator": "Modern graph-theory interpretation, with constructivity explained in chapter",
+      "status": "derived_from_standard_math"
+    },
+    {
+      "id": "NS-01-08",
+      "type": "illustrative_counterfactual",
+      "claim": "Adding one hypothetical B-C edge changes degrees to 5,4,4,3 and yields the eight-edge trail A-B-A-C-A-D-B-C-D",
+      "source_ids": [],
+      "locator": "Hand-check against original bridge incidence table; this is NOT a historical construction",
+      "status": "mathematically_checked"
+    },
+    {
+      "id": "NS-01-09",
+      "type": "editorial_boundary",
+      "claim": "Sunday walking contest and invented dialogue have not been adopted as facts",
+      "source_ids": [
+        "S21",
+        "S22"
+      ],
+      "locator": "Original §2 merely reports hearing the problem; popular lore alone is insufficient",
+      "status": "excluded_from_historical_claims"
+    }
+  ],
+  "outstanding_checks": [
+    "Secondary transcriptions have occasional typographic variants; cross-check original facsimile before final approval.",
+    "Do not conflate the 1735 written/presentation and 1741 printed publication dates.",
+    "Nonfiction full-book evidence and outline gates remain false."
+  ]
+}
