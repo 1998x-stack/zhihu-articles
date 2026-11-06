@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 4,
+  "current_revision": 5,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -17,9 +17,12 @@
     "CH04-COMPARATIVE-FISCAL-ESTIMATE-REVIEW",
     "CH05-MUZIRIS-PAPYRUS-EDITION-CHECK",
     "CH05-AKSUM-SAHARA-SOURCE-CHECK",
-    "CH05-SOGDIAN-LETTER-PRIMARY-CHECK"
+    "CH05-SOGDIAN-LETTER-PRIMARY-CHECK",
+    "CH06-GENIZA-MANUSCRIPT-ORIGINAL-EDITION-CHECK",
+    "CH06-ISLAMIC-LEGAL-TEXT-PERIOD-BOUNDARIES",
+    "CH06-MAGHRIBI-REPUTATION-HISTORIOGRAPHY"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Part I Chapter 05 now research draft. Global revision 4, prior reviews stale. Outline/evidence gates still false; no final approval or publication claimed."
+  "notes": "Chapter 06 research draft written at global revision 5, with 16 sources and 21 tracked claims. Prior review revision 4 superseded. Book outline/evidence approval gates remain false; no final approval or publication."
 }
