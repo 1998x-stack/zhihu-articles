@@ -3,7 +3,169 @@
   "title": "一条通向零下273度的直线",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "与章节占位同步创建。正文和主张核查尚未开始，绝不等于已核实。"
+  "status": "draft_claims_traced",
+  "note": "依据本批专项研究映射；1848首次绝对温标与现代Kelvin不同；未独立审稿",
+  "claims": [
+    {
+      "claim_id": "G06-01",
+      "source_ids": [
+        "S04",
+        "S35"
+      ],
+      "summary": "盖吕萨克1802年0到100℃约0.375分数膨胀，是有限温差的经验数据",
+      "classification": "historical_limited",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-02",
+      "source_ids": [
+        "S04",
+        "S35",
+        "S37"
+      ],
+      "summary": "在额外采用直线模型时α≈0.00375/℃，零体积外推t≈−266.7℃",
+      "classification": "modern_calculation",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-03",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "summary": "将266.7取整267与1834克拉佩龙pv=R(267+t)相关",
+      "classification": "historical_verified",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-04",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "summary": "克拉佩龙1834年R在当时与选定气体数量基准相关，不是现代普适摩尔R",
+      "classification": "historical_qualified",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-05",
+      "source_ids": [
+        "S27",
+        "S52"
+      ],
+      "summary": "早期阿蒙顿等人的极寒估计与测温逐步改进，数字非一次发现",
+      "classification": "historical_synthesis",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-06",
+      "source_ids": [
+        "S43",
+        "S01",
+        "S02"
+      ],
+      "summary": "雷尼奥1847年前后更精密测温工作推动接近273的经验气体外推",
+      "classification": "historical_verified",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-07",
+      "source_ids": [
+        "S43",
+        "S44",
+        "S02"
+      ],
+      "summary": "汤姆孙1848年论文明确以卡诺热机及雷尼奥资料为基础，寻求不依赖特定物质的温标",
+      "classification": "primary_verified",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-08",
+      "source_ids": [
+        "S02",
+        "S44"
+      ],
+      "summary": "1848年的初版绝对温标在定义上并非现代线性开尔文温标，后续经1850年代发展调整",
+      "classification": "historiographic_qualified",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-09",
+      "source_ids": [
+        "S43",
+        "S52"
+      ],
+      "summary": "汤姆孙1848原文脚注指出空气温标向负温度外推约−273℃，不是实际液柱触及零体积",
+      "classification": "primary_verified",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-10",
+      "source_ids": [
+        "S52"
+      ],
+      "summary": "现代定义T[K]=t[℃]+273.15，273.15为温标原点关系，不是某次1802实测精度",
+      "classification": "modern_standard",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-11",
+      "source_ids": [
+        "S43",
+        "S02"
+      ],
+      "summary": "真实气体降温可能凝结/不再适合理想气体外推，零体积不是物理观测",
+      "classification": "physical_scope",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-12",
+      "source_ids": [
+        "S52"
+      ],
+      "summary": "0K不等于所有微观运动在量子意义上完全停止",
+      "classification": "modern_caveat",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-13",
+      "source_ids": [
+        "S38",
+        "S52"
+      ],
+      "summary": "现代定压定量理想气体V与热力学绝对温度T成正比",
+      "classification": "modern_science",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-14",
+      "source_ids": [
+        "S43",
+        "S44",
+        "S02"
+      ],
+      "summary": "热力学温标独立物质尺度与气体经验外推构成两条相关而不同的研究思路",
+      "classification": "historical_synthesis",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-15",
+      "source_ids": [
+        "S38"
+      ],
+      "summary": "即便固定P与T，比较体积仍需考虑气体多少，指向新变量",
+      "classification": "modern_transition",
+      "verification": "research_source_preverified"
+    },
+    {
+      "claim_id": "G06-16",
+      "source_ids": [
+        "S01",
+        "S43"
+      ],
+      "summary": "“直线穿过温标却不等于气体物理消失”是本章叙事模型",
+      "classification": "editorial_synthesis",
+      "verification": "research_source_preverified"
+    }
+  ]
 }
