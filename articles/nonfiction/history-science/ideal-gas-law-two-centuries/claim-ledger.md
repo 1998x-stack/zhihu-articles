@@ -1,6 +1,6 @@
 # 非虚构主张—来源总账
 
-> 本表为**已撰写的序章、第01—14章**建立实质追踪；15—16待写章只有章纲和候选来源，不视为事实核验完成。
+> 本表为**序章00及第01—16章**建立事实主张追踪；17份正文在完成全部草稿后仍须正式审稿与封版只有章纲和候选来源，不视为事实核验完成。
 
 | 章节 | claim_id | 关键主张 | 研究依据 | 类型与状态 |
 |---|---|---|---|---|
@@ -369,3 +369,62 @@
 | 14 | G14-19 | 章末衔接15章现代R和kB区别及各种模型适用条件 | research.md S67/S76 | transition |
 
 > 本章主张只获得初稿前置核证，独立审稿及终稿封版尚未进行。
+
+
+## 第15章｜从R到kB：五个字母的现代意义
+
+| 章节 | claim_id | 核心史实或解释与边界 | 来源 | 分类 |
+|---|---|---|---|---|
+| 15 | G15-01 | 现代理想气体状态方程PV=nRT中P压强、V体积、n物质的量、R摩尔气体常数、T热力学温度 | research.md S76/S80 | modern_def |
+| 15 | G15-02 | 微观表达PV=Nk_B T，N为指定气体实体的数目，适用理想气体模型 | research.md S76/S81 | modern_def |
+| 15 | G15-03 | n=N/N_A，N_A是阿伏伽德罗常数，单位mol^-1 | research.md S80/S79 | modern_def |
+| 15 | G15-04 | 由两式严格得到R=N_A k_B，而不是额外独立的微观物理定律 | research.md S79/S83/S76 | modern_derivation |
+| 15 | G15-05 | 现行SI定义N_A=6.02214076×10^23 mol^-1（精确） | research.md S80/S79 | official_exact |
+| 15 | G15-06 | 现行SI定义k_B=1.380649×10^-23 J K^-1（精确） | research.md S81/S79 | official_exact |
+| 15 | G15-07 | 因此现代R=8.31446261815324 J mol^-1 K^-1（两个SI定义常数精确相乘） | research.md S79/S83 | derived_exact |
+| 15 | G15-08 | 摩尔常数R单位J mol^-1 K^-1，k_B单位J K^-1，差别在按摩尔还是按单个实体标度 | research.md S80/S81/S83 | dimensional |
+| 15 | G15-09 | 国际计量大会2018年通过改革、2019年5月20日生效 | research.md S79/S82 | history_official |
+| 15 | G15-10 | 早期摩尔与开尔文的历史单位定义曾经不同，2019的精确值不可倒灌1811或1834年代 | research.md S85/S67/S80 | history_scope |
+| 15 | G15-11 | 1mol指恰好指定数量的实体，不是指一克，也不只指分子 | research.md S80 | definition |
+| 15 | G15-12 | 绝对温度T与摄氏t数值差273.15；273.15是现行精确单位关系，不是理想气体实验的五位精度 | research.md S86/S85/S52 | definition_historical |
+| 15 | G15-13 | 单位检查：1 Pa m³=1 J，因此PV与nRT均为能量量纲 | research.md S80/S81/S76 | dimensional_check |
+| 15 | G15-14 | 计算示例1mol、T=300K、P=100kPa，理想模型V≈24.94L（推导数） | research.md S76/S83 | modern_calculation |
+| 15 | G15-15 | P、T不变时理想气体V正比n；定n,T时P与V近似反比 | research.md S76 | modern_physics |
+| 15 | G15-16 | 宏观R与微观k_B是同一关系按每摩尔或每个粒子两种计量视角 | research.md S83/S76 | synthesis |
+| 15 | G15-17 | 三维单粒子平均平动动能3/2k_BT不能误写为多原子分子全部能量 | research.md S76 | modern_scope |
+| 15 | G15-18 | 与理想气体方程可区分的真实气体偏差由分子体积/相互作用引起，低压高温通常较近似 | research.md S84/S73 | physical_scope |
+| 15 | G15-19 | 无论常数按SI精确定义多少位，PV=nRT本身对真实气体仍是有条件的物理近似 | research.md S79/S84 | science_boundary |
+| 15 | G15-20 | 真实气体可用Z=PV/(nRT)衡量偏离，Z≈1仅表示相应条件下近似成立 | research.md S84 | modern_diagnostic |
+| 15 | G15-21 | 1834的R、1864按质量的R、1873摩尔R与现代SI精确R不能按字母原样视为同一年代成果 | research.md S64/S67/S68/S79 | history_link |
+| 15 | G15-22 | 本章回答符号和单位，尾声回收267、R与模型边界，符号不是完整历史 | research.md S01/S67/S84 | editorial_transition |
+
+> 本章仅达到事实前置核证标准，不能代替连续性审计、独立结构审稿或终稿批准。
+
+## 第16（尾声）章｜从267回望：一条不完美方程的价值
+
+| 章节 | claim_id | 核心史实或解释与边界 | 来源 | 分类 |
+|---|---|---|---|---|
+| 16 | G16-01 | 1834克拉佩龙热机论文出现pv=R(267+t)，其中t为摄氏温度 | research.md S63/S64 | primary_history |
+| 16 | G16-02 | 1802气体0→100℃约增0.375倍，假定线性后外推到−266.7℃，并非实测气体零体积 | research.md S04/S35/S01 | historical_and_model |
+| 16 | G16-03 | 267系旧时精度与经验参数，不能简单定为排印错误 | research.md S01/S02 | historical |
+| 16 | G16-04 | 克劳修斯1850数据近273，1848汤姆孙理论绝对尺度初版不等于现代Kelvin线性温标 | research.md S67/S43/S44 | historical_nuance |
+| 16 | G16-05 | 现代0K与−273.15℃精确对应来自温标定义，与当年外推、实际可到温度不同 | research.md S86/S79/S52 | modern_definition |
+| 16 | G16-06 | 1834公式R针对给定气体数量及参考状态，非现代普适摩尔R | research.md S64/S67 | primary_history |
+| 16 | G16-07 | 1873霍斯特曼按摩尔体积u写up=RT，提供普适计量基准的重要节点 | research.md S68/S67 | history_translation |
+| 16 | G16-08 | 现代n的摩尔量基准在2019年以N_A固定粒子数定义；这不是1811阿伏伽德罗亲测常数 | research.md S80/S41 | history_modern |
+| 16 | G16-09 | 现代R=N_A k_B，在理想气体P,V,T关系里联通宏观摩尔量与微观分子数 | research.md S79/S83/S76 | modern |
+| 16 | G16-10 | 17世纪气压、真空、气体压缩研究以托里拆利、帕斯卡、波义耳为代表，非单一人独立完成方程 | research.md S03/S06/S22 | history_synthesis |
+| 16 | G16-11 | 1662波义耳资料与马略特后续研究显示命名和优先权有区别 | research.md S18/S19/S24 | history_qualified |
+| 16 | G16-12 | 1808报告、1809刊行盖吕萨克化合体积规律，1811阿伏伽德罗假说再给粒子数量解释 | research.md S40/S41 | historical_sequence |
+| 16 | G16-13 | 1824卡诺热机追问与1834克拉佩龙图解数学化，各自原理论并非现代理想气体统计定律 | research.md S59/S63/S60 | historical_scope |
+| 16 | G16-14 | 1860年卡尔斯鲁厄会议、坎尼扎罗1858提要的会后传播推动原子分子概念趋于一致，非当日全体共识 | research.md S54/S56 | historical |
+| 16 | G16-15 | 19世纪克劳修斯、麦克斯韦、玻尔兹曼的微观研究解决解释机制问题，不等于三人同日完成统一理论 | research.md S70/S71 | history_synthesis |
+| 16 | G16-16 | 安德鲁斯1869临界实验与范德瓦耳斯1873理论揭示真实气体需要分子体积/吸引等修正 | research.md S73/S75 | historical |
+| 16 | G16-17 | 理想气体通常在稀薄高温条件下表现近似，在高密度低温可能偏离、甚至相变 | research.md S84 | modern_scope |
+| 16 | G16-18 | 现代方程适用前提明确：单一气相或理想混合气、可定义T、合理的状态范围，并保留误差检验 | research.md S76/S84 | physical_boundary |
+| 16 | G16-19 | 气体模型正确性与计量常数的数值精确性是两件不同的事 | research.md S79/S84 | epistemic |
+| 16 | G16-20 | 全书所谓接力是历史编辑比喻，各人原有问题与时间背景不同，并无同一协作计划 | research.md S01/S02/S67 | editorial_synthesis |
+| 16 | G16-21 | 完整初稿17份并非独立审稿、终稿或正式发表，后续依仓库工作流双审 | research.md docs/contracts.md/workflow.json | workflow_scope |
+| 16 | G16-22 | 面对失败的模型应追问前提和偏离原因，而不是把约等于宣称为永远精确 | research.md S84/S73 | editorial_conclusion |
+
+> 本章仅达到事实前置核证标准，不能代替连续性审计、独立结构审稿或终稿批准。
