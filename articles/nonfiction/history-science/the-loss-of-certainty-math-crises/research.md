@@ -586,3 +586,99 @@
 | H14-14 | 第15章才解释1891对角线法，第16章再进入CH | outline.md;R14-SEP-EARLY | 叙事边界 |
 
 **核算与待审**：双射n↦2n、n↦n²均为不同目标集合的单射满射；正有理数按有限和层枚举须避免重复；嵌套区间需闭区间、递减、长度趋0、每次避开第n项并援引实数完备性。1874 vs 1891不得混写。现阶段仅许可第12—14章初稿、主张映射与目录版本更新；双审、终稿与发布仍待独立流程。
+
+
+---
+
+## 第15—17章专项事实核验｜对角线、连续统假设与弗雷格的逻辑主义（2026-11-06）
+
+> 本节增量核验第15—17章初稿将使用的关键断言。历史来源优先1891年康托尔原始论文、哥德尔1938年与科恩1963年的论文、斯坦福哲学百科专题与弗雷格研究。文中另有“现代教学示范”，不能逆向写为原作者当时使用的数学符号或证明步骤。本轮只是证据资料包，独立连续性审稿和结构审稿仍待完成。
+
+### 第15章｜列不完的清单：对角线上的逃亡
+
+**来源索引**：
+- **R15-CANTOR-1891-ORIG**：Georg Cantor, “Ueber eine elementare Frage der Mannigfaltigkeitslehre”, 1891年德国数学家协会会议相关论文；以1890—1891会议卷在1892年出版的页码75—78保留。可复核的德文原文及出版元数据：https://onepagepapers.com/cantor-diagonal/ 。核心是由两个符号组成的无限序列全体无法列成可数名单；不等于他原文写下今日十进制小数排表。
+- **R15-CANTOR-1891-TRANS**：G. Cantor, 1891论文的英文译文与德文文本：https://mail.jamesrmeyer.com/infinite/cantors-original-1891-proof 。对原始两符号序列、反斜对角构造及“没有最大势”的推理提供文本比对；以德文版为一手依据，译文只辅助阅读。
+- **R15-SEP-EARLY**：José Ferreirós, “The Early Development of Set Theory”, Stanford Encyclopedia of Philosophy, https://plato.stanford.edu/entries/settheory-early/ 。区分1874实数不可数证明与1891对角线证明；集合论早期史及康托尔的贡献。
+- **R15-MODERN-MATH**：现代形式化演示：假设所有无穷二元序列 \(s_1,s_2,\ldots\) 可以枚举，令 \(t(n)=1-s_n(n)\)，则对任意n，\(t\ne s_n\)；不需要选择公理。可证明二元序列全体无法一一对应于自然数；以及幂集定理 \(A\to\mathcal P(A)\) 无满射，取 \(D=\{a\in A:a\notin f(a)\}\) 并反证。这里的量词、函数与现代记号都非1891原始逐字。
+- **R15-EXPANSION**：现代编码边界：二进制展开 \(0.0111\ldots_2=0.1000\ldots_2\)（二进制数值相同）导致“第n位改变则对应实数必不同”的表述有重编码漏洞。可以保留正式的无限二元序列论证而不依赖其作为实数小数的单射；如需把它们单射到实数，在三进制使用只含0与2的位，映射 \(s\mapsto\sum_{n\ge1} 2s(n)/3^n\)，若两个序列首次差异在n则主差2/3^n严格大于后面全部差异的最大绝对值1/3^n，故单射成立。注意三进制0.0222…=0.1000…，但后者含数字1，不属于仅0/2的受限编码集合，故不妨碍其中单射。
+- **R15-COUNTABILITY**：第14章已经展示整数、有理数可数与实数不可数，本章必须从两符号无限序列独立证明不可列，再展示其与实数之间的桥梁，不能只复写前章嵌套区间证明。
+
+| claim_id | 关键主张 | 证据 | 限定 |
+|---|---|---|---|
+| H15-01 | 1874与1891为康托尔的不同不可列证明路径 | R15-SEP-EARLY;R15-CANTOR-1891-ORIG | 已核，避免年代混淆 |
+| H15-02 | 1891原始文本针对两符号无限序列而非十进小数表 | R15-CANTOR-1891-ORIG;R15-CANTOR-1891-TRANS | 已核，版本/出版卷年有差异 |
+| H15-03 | 对任意二元序列列表翻转第n项可得到未列序列 | R15-CANTOR-1891-ORIG;R15-MODERN-MATH | 原典思想与现代符号分开 |
+| H15-04 | 每个n构造的新序列与第n序列在第n位不同 | R15-MODERN-MATH | 现代数学核实 |
+| H15-05 | 不可数性并非缺少一份更长的可数清单 | R15-MODERN-MATH | 量词语义限定 |
+| H15-06 | 普通二进制/十进制数展开有尾随重复表示问题 | R15-EXPANSION | 已核，禁止忽略 |
+| H15-07 | 限制0/2的三进制序列编码到[0,1]为单射 | R15-EXPANSION | 数学核实，现代教学 |
+| H15-08 | 二元序列集与自然数子集集的双射通过指示函数成立 | R15-MODERN-MATH | 现代数学核实 |
+| H15-09 | 幂集严格更大：任何A到P(A)函数均不满射 | R15-MODERN-MATH | 现代康托尔定理 |
+| H15-10 | 幂集论证不假定存在“所有集合的集合” | R15-MODERN-MATH | 避免以后章节罗素悖论 |
+| H15-11 | 与第16章的CH问题衔接，CH不是本章对角论证的结论 | outline.md;R15-SEP-EARLY | 编辑性时间线 |
+| H15-12 | 1891论证的逻辑推广不能简化为“一切数学证明都用改一位” | R15-CANTOR-1891-ORIG;R15-MODERN-MATH | 解释界限 |
+
+**数学检查**：任给枚举s_n，t_n=1−s_n(n)保证t和每个s_n至少一位不同。三进制编码在最早差异第k位产生2·3^(-k)，剩余位最大差绝对值为Σ_{n>k}2·3^(-n)=3^(-k)，因此总差非零。幂集D需先有集合A和函数f:A→P(A)；假设f(b)=D，则b∈D当且仅当b∉f(b)=D，矛盾。避免“无条件所有对象组成集合”。
+
+### 第16章｜连续统假设：相对一致性与独立性
+
+**来源索引**：
+- **R16-SEP-CH**：W. Hugh Woodin, “The Continuum Hypothesis”, Stanford Encyclopedia of Philosophy（2020年存档版保持完整历史导论），https://plato.stanford.edu/archives/fall2020/entries/continuum-hypothesis/ 。CH意为不存在介于可数无限和连续统基数之间的无限实数子集；在选择公理语境下等价 \(2^{\aleph_0}=\aleph_1\)。康托尔、希尔伯特1900年问题一；哥德尔与科恩相对一致性、学术解释分歧。
+- **R16-SEP-SET**：Stanford Encyclopedia of Philosophy, “Set Theory”, https://plato.stanford.edu/entries/set-theory/ ，forcing章节。哥德尔构造内模型L，在其中有GCH、AC；科恩1963/1964发展forcing给出否定CH的ZFC模型的相对一致性。模型是在给定起始背景和适当模型论手段下的解释，不是对“同一个固定结构同时CH和非CH”的证明。
+- **R16-GODEL-1938**：Kurt Gödel, “The Consistency of the Axiom of Choice and of the Generalized Continuum-Hypothesis”, Proceedings of the National Academy of Sciences (1938), https://pmc.ncbi.nlm.nih.gov/articles/PMC1077160/ 。初期证明在1938公布，1940专著进一步展开。论文的形式是若基础体系一致则加入AC及GCH的扩张不产生新矛盾，非绝对证明基础体系一致。
+- **R16-COHEN-1963**：Paul J. Cohen, “The Independence of the Continuum Hypothesis”, Proceedings of the National Academy of Sciences 50 (1963), 1143–1148 (Part I)；原论文文本链接 https://pmc.ncbi.nlm.nih.gov/articles/PMC221287/ （需访问时复核URL），关键结论参考R16-SEP-SET和R16-SEP-CH。1964续篇。若某原文URL验证不充分，以学术书目与SEP为准，不用此链接支撑精确原句。
+- **R16-SEP-GODEL**：Stanford Encyclopedia of Philosophy, “Kurt Gödel”, https://plato.stanford.edu/entries/goedel/ 。哥德尔的内模型以及其与不完全性工作不是同一项定理；学术观点对独立性之意义有分歧。
+- **R16-MODERN**：无穷基数记号 \(\aleph_0, \aleph_1,\mathfrak c=|\mathbb R|=2^{\aleph_0}\)；\(\aleph_1\)是第一个不可数阿列夫基数，要求有序基数/选择公理语境。康托尔定理只确保 \(2^{\aleph_0}>\aleph_0\)，不会给出是否恰为\(\aleph_1\)。CH等价（ZFC中）没有满足\(\aleph_0<|X|<\mathfrak c\)的实数子集X。形式独立性：若ZFC一致，则ZFC+CH、ZFC+¬CH均一致，因此ZFC既证明不了CH也证明不了¬CH。
+- **R16-FORCING-CAUTION**：单纯“给模型添加一个新的实数”通常不足以保证CH为假；forcing构造需要选择合适的偏序、基数保持条件和添加的实数族/模型结构。不能讲作任意往名单里塞入新数字就能制造\(\neg CH\)。
+
+| claim_id | 关键主张 | 证据 | 限定 |
+|---|---|---|---|
+| H16-01 | 康托尔的不可数发现提出“中间基数”问题 | R16-SEP-CH | 已核 |
+| H16-02 | \(\aleph_0,\mathfrak c,\aleph_1\)及CH准确含义 | R16-SEP-CH;R16-MODERN | ZFC语境 |
+| H16-03 | 康托尔定理无法判定CH | R16-MODERN | 数学核实 |
+| H16-04 | 希尔伯特1900年将CH列为问题一 | R16-SEP-CH | 已核 |
+| H16-05 | ZFC含ZF的集合公理及选择公理 | R16-SEP-SET | 已核概括 |
+| H16-06 | 哥德尔1938相对一致性与L、1940展开 | R16-GODEL-1938;R16-SEP-GODEL | 已核时间线 |
+| H16-07 | 在L中GCH成立，故CH成立，同时AC成立 | R16-SEP-SET | 数理限定 |
+| H16-08 | 科恩1963引入forcing，证明¬CH的相对一致性 | R16-SEP-SET;R16-SEP-CH | 已核 |
+| H16-09 | 从两项结果推出相对于ZFC的独立性需假定ZFC一致 | R16-SEP-CH;R16-MODERN | 强制条件 |
+| H16-10 | CH与¬CH不能在同一一致理论、同一解释下同时成立 | R16-MODERN | 语义限定 |
+| H16-11 | 独立不意味着“问题已被证明无意义”或“所有新公理等价” | R16-SEP-CH;R16-SEP-SET | 哲学分歧 |
+| H16-12 | 哥德尔不完全性≠CH独立性论证 | R16-SEP-GODEL;R16-SEP-CH | 定理区分 |
+| H16-13 | forcing不是随手加一个实数，需按模型构造 | R16-SEP-SET;R16-FORCING-CAUTION | 科学叙事边界 |
+| H16-14 | 本章历史回望20世纪，然后下章折返至19世纪末 | outline.md;R16-SEP-CH | 编辑性时间线 |
+
+**数学检查**：\(\mathcal P(\mathbb N)\)与二元序列空间等势，故连续统大小为 \(2^{\aleph_0}\)。取\(\aleph_1\)为最小不可数良序基数，则 ZFC 下 CH 写作 \(2^{\aleph_0}=\aleph_1\)。若ZFC自身不一致，相对一致性蕴含的“不能证明”形式需额外前提；“在不同模型中CH与¬CH分别成立”并非同一模型兼容矛盾。
+
+### 第17章｜弗雷格：从逻辑证明算术、及基本规律V的风险
+
+**来源索引**：
+- **R17-SEP-FREGE**：Stanford Encyclopedia of Philosophy, “Gottlob Frege”, https://plato.stanford.edu/entries/frege/ 。生卒1848—1925；1879 Begriffsschrift、1884 Grundlagen、1893/1903 Grundgesetze；概念与对象、外延与值域、逻辑主义计划、1902年罗素的信。
+- **R17-SEP-FREGELOGIC**：Stanford Encyclopedia of Philosophy, “Frege’s Logic”, https://plato.stanford.edu/entries/frege-logic/ 。弗雷格原符号与现代逻辑量词不同，1879与1893/1903的形式体系也存在重要差异，不应把现代\(\forall x \exists y\)当作其原版符号；基本规律V原始语义的精确说明。
+- **R17-SEP-LOGICISM**：Stanford Encyclopedia of Philosophy, “Logicism and Neologicism”, https://plato.stanford.edu/entries/logicism/ 。休谟原则（Hume's Principle，数目相同当且仅当可一一对应）、弗雷格的凯撒问题，逻辑主义项目的前提与讨论。
+- **R17-SEP-FREGETHEOREM**：Stanford Encyclopedia of Philosophy, “Frege’s Theorem and Foundations for Arithmetic”, https://plato.stanford.edu/entries/frege-theorem/ 。二阶逻辑加休谟原则可发展二阶算术；但从弗雷格原先将数定义为概念外延并推导休谟原则的路线，涉及不一致的基本规律V，不能因为现代弗雷格定理便宣布原书系统无问题。
+- **R17-SEP-FREGE-HILBERT**：Stanford Encyclopedia of Philosophy, “The Frege-Hilbert Controversy”, https://plato.stanford.edu/entries/frege-hilbert/ 。承接第13章，两人对公理是先有确定意义的真陈述还是可自由给出结构解释等问题有分歧。
+- **R17-SEP-RUSSELL**：Stanford Encyclopedia of Philosophy, Frege人物条目与logicism条目，核对1902年6月16日罗素致弗雷格信（信日期，而非无依据的收件当天），1903年第二卷的附录回应；本章只为下一章预埋，而非把全部罗素悖论推导提前占完。
+- **R17-MODERN-LOGIC**：现代演示：\(\forall x\,\exists y\,L(x,y)\)与\(\exists y\,\forall x\,L(x,y)\)逻辑量词顺序区别；休谟原则 \(\#F=\#G\iff F,G\)之间存在双射；外延原则的现代解释 \( \partial F=\partial G\iff \forall x(Fx\leftrightarrow Gx)\) 是简化版本，原书以值域操作符及函数值相同组织、对象/概念层级不同。单纯语言“定义了一个性质就一定能得到一个集合”并非对弗雷格体系的准确完整陈述；不可将 Basic Law V 与现代ZF分离公理混同。
+
+| claim_id | 关键主张 | 证据 | 限定 |
+|---|---|---|---|
+| H17-01 | 弗雷格1848—1925与1879/1884/1893/1903出版路线 | R17-SEP-FREGE;R17-SEP-FREGELOGIC | 已核 |
+| H17-02 | 1879《概念文字》推动量词逻辑系统发展 | R17-SEP-FREGELOGIC | 已核，避免单人独占所有逻辑发明 |
+| H17-03 | 量词顺序变动意味着不同主张，现代公式仅为教学 | R17-MODERN-LOGIC | 数理核实 |
+| H17-04 | 1884《算术基础》讨论数的概念与逻辑主义 | R17-SEP-FREGE;R17-SEP-LOGICISM | 已核 |
+| H17-05 | 休谟原则借双射刻画两个概念的数相同 | R17-SEP-LOGICISM;R17-MODERN-LOGIC | 原典思想，现代符号 |
+| H17-06 | 休谟原则仍涉及数对象与第二阶条件、逻辑基础哲学争议 | R17-SEP-LOGICISM;R17-SEP-FREGETHEOREM | 条件限定 |
+| H17-07 | 1893/1903《算术基本规律》引入值域/外延与规律V | R17-SEP-FREGELOGIC;R17-SEP-FREGE | 已核 |
+| H17-08 | 基本规律V概括为值域相等 iff 函数对全部自变量取值相同 | R17-SEP-FREGELOGIC | 精确原义优于简单ZF集合外延 |
+| H17-09 | 用概念的外延解释数对象，不能等同现代朴素集合推理全集 | R17-SEP-FREGE;R17-SEP-FREGETHEOREM | 类型/史学限定 |
+| H17-10 | 基本规律V使原体系陷入罗素矛盾，非一切二阶逻辑矛盾 | R17-SEP-FREGELOGIC;R17-SEP-FREGETHEOREM | 已核 |
+| H17-11 | 罗素1902年6月16日致信、第二卷1903年附录的区分 | R17-SEP-FREGE;R17-SEP-RUSSELL | 已核日期 |
+| H17-12 | 原体系矛盾不抹去量词逻辑与现代弗雷格定理的独立贡献 | R17-SEP-FREGETHEOREM;R17-SEP-FREGELOGIC | 学术史限定 |
+| H17-13 | 弗雷格与希尔伯特在公理语义上有真实分歧 | R17-SEP-FREGE-HILBERT | 历史核实 |
+| H17-14 | 与下一章罗素悖论的衔接仅引出基本漏洞，不提前伪造当场对白 | outline.md;R17-SEP-FREGE | 叙事边界 |
+
+**禁止误写**：基本规律V≠“任意属性生成ZF意义的集合”这一单句；弗雷格的原符号系统≠今天使用的∀、∃；罗素信的**落款日期**可核，但信到达的具体当天需谨慎；逻辑主义不等于无条件证明所有算术不需要任何背景公理；不可把1902年的发现写成1903年收信，或用人物内心独白代替档案。
+
+**本批许可**：根据以上来源撰写完整第15—17章初稿及claim maps，追加claim-ledger，更新三章阅读索引和写作状态。**未许可/未完成**：独立连续性审稿、结构审稿、润色终稿及发布包。
