@@ -1,0 +1,195 @@
+{
+  "chapter": "01",
+  "kind": "proposed_nonfiction_chapter",
+  "manuscript_path": "proposals/01.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "evidence_status": "PUBLIC_SOURCES_CHECKED_PRIMARY_LINE_BY_LINE_PENDING",
+  "claims": [
+    {
+      "claim_id": "E01-01",
+      "claim": "1581年罗伯特·诺曼出版The Newe Attractive并论述磁倾角；倾斜与水平指北是不同观察维度",
+      "claim_kind": "历史事实",
+      "sources": [
+        {
+          "source_id": "S01",
+          "url": "https://pwg.gsfc.nasa.gov/Education/mill_2.htm"
+        },
+        {
+          "source_id": "S02",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006RG000198"
+        }
+      ],
+      "verification": "已核二手学术综述；诺曼1581原始版本未逐页校核",
+      "manuscript_section": "§一/§三"
+    },
+    {
+      "claim_id": "E01-02",
+      "claim": "磁性定向与磁针技术早于1600年；中国与中世纪欧洲已有相关实践；跨文化传入路线应保留争议",
+      "claim_kind": "史学综述",
+      "sources": [
+        {
+          "source_id": "S01",
+          "url": "https://pwg.gsfc.nasa.gov/Education/mill_2.htm"
+        }
+      ],
+      "verification": "已核科学史综述；不主张确切单一传播路径",
+      "manuscript_section": "§二"
+    },
+    {
+      "claim_id": "E01-03",
+      "claim": "1269年Petrus Peregrinus讨论磁极等现象；吉尔伯特继承并扩展前人实验",
+      "claim_kind": "历史事实及贡献分配",
+      "sources": [
+        {
+          "source_id": "S02",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006RG000198"
+        }
+      ],
+      "verification": "已核2007年同行评议综述；原始书信待校",
+      "manuscript_section": "§二/§五"
+    },
+    {
+      "claim_id": "E01-04",
+      "claim": "1600年吉尔伯特出版《论磁》、提出地球有整体磁性，以球形磁石terrella模拟磁针方向与倾角",
+      "claim_kind": "历史事实/模型说明",
+      "sources": [
+        {
+          "source_id": "S03",
+          "url": "https://cdaweb.gsfc.nasa.gov/pub/documents/archived_websites/pwg.gsfc.nasa.gov/earthmag/DMGRev2.htm"
+        },
+        {
+          "source_id": "S04",
+          "url": "https://library.si.edu/digital-library/book/guilielmigilber00gilb"
+        }
+      ],
+      "verification": "公开机构综述、书目入口已核；原著图版逐页待核",
+      "manuscript_section": "§一/§四"
+    },
+    {
+      "claim_id": "E01-05",
+      "claim": "小地球模型能帮助解释定向与磁倾角，不能当作真实地球的完全精确模拟",
+      "claim_kind": "模型与现代解释",
+      "sources": [
+        {
+          "source_id": "S03",
+          "url": "https://cdaweb.gsfc.nasa.gov/pub/documents/archived_websites/pwg.gsfc.nasa.gov/earthmag/DMGRev2.htm"
+        },
+        {
+          "source_id": "S08",
+          "url": "https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism"
+        }
+      ],
+      "verification": "机构来源核对；模型适用限制由现代地磁知识支持",
+      "manuscript_section": "§四"
+    },
+    {
+      "claim_id": "E01-06",
+      "claim": "《论磁》论述磁极、磁化、磁针定向和摩擦起电差异；不是在1600年完成电磁统一",
+      "claim_kind": "原著内容与历史解释",
+      "sources": [
+        {
+          "source_id": "S05",
+          "url": "https://en.wikisource.org/wiki/On_the_Magnet"
+        },
+        {
+          "source_id": "S01",
+          "url": "https://pwg.gsfc.nasa.gov/Education/mill_2.htm"
+        }
+      ],
+      "verification": "已核1900年英译本目录与相关卷段及综述；原拉丁逐页待核",
+      "manuscript_section": "§五/§六"
+    },
+    {
+      "claim_id": "E01-07",
+      "claim": "吉尔伯特研究玻璃、琥珀等摩擦吸引并用versorium旋转指示器观察，注意环境湿度影响；未区分两种电荷",
+      "claim_kind": "原著内容/历史归属",
+      "sources": [
+        {
+          "source_id": "S05",
+          "url": "https://en.wikisource.org/wiki/On_the_Magnet"
+        },
+        {
+          "source_id": "S01",
+          "url": "https://pwg.gsfc.nasa.gov/Education/mill_2.htm"
+        }
+      ],
+      "verification": "已核英译本第二卷第2章和学术综述；拉丁原文细节待比",
+      "manuscript_section": "§六"
+    },
+    {
+      "claim_id": "E01-08",
+      "claim": "现代经典模型中磁针在外场下的转动力矩满足τ=m×B；磁倾角与磁偏角描述方向的不同投影",
+      "claim_kind": "现代物理解释",
+      "sources": [
+        {
+          "source_id": "S08",
+          "url": "https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism"
+        },
+        {
+          "source_id": "S09",
+          "url": "https://www.usgs.gov/faqs/what-declination"
+        }
+      ],
+      "verification": "地磁几何与方向性已核USGS；力矩公式为现代标准关系，建议正式出版前补权威教材页码",
+      "manuscript_section": "§七"
+    },
+    {
+      "claim_id": "E01-09",
+      "claim": "地球表面主磁场近似倾斜偶极；主要磁场来源与液态导电外核的地磁发电机作用相关，并非静态永磁核",
+      "claim_kind": "现代地球物理",
+      "sources": [
+        {
+          "source_id": "S08",
+          "url": "https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism"
+        },
+        {
+          "source_id": "S10",
+          "url": "https://www.usgs.gov/faqs/how-does-earths-core-generate-a-magnetic-field"
+        },
+        {
+          "source_id": "S11",
+          "url": "https://www.usgs.gov/faqs/earth-a-magnet"
+        }
+      ],
+      "verification": "已核USGS专题；与吉尔伯特1600年认识明确分离",
+      "manuscript_section": "§八"
+    },
+    {
+      "claim_id": "E01-10",
+      "claim": "1634年盖利布兰德确认伦敦磁偏角存在长期变化",
+      "claim_kind": "历史事实",
+      "sources": [
+        {
+          "source_id": "S12",
+          "url": "https://pwg.gsfc.nasa.gov/earthmag/milchron.htm"
+        }
+      ],
+      "verification": "已核NASA历史年表；1634原始出版物待核",
+      "manuscript_section": "§九"
+    },
+    {
+      "claim_id": "E01-11",
+      "claim": "磁作用的初步实验分类不等于后世完整电荷分类；玻璃和琥珀的双向排斥等问题属于后章",
+      "claim_kind": "科学叙事解释",
+      "sources": [
+        {
+          "source_id": "S05",
+          "url": "https://en.wikisource.org/wiki/On_the_Magnet"
+        },
+        {
+          "source_id": "S01",
+          "url": "https://pwg.gsfc.nasa.gov/Education/mill_2.htm"
+        }
+      ],
+      "verification": "历史研究范围已核；与下一章的叙事衔接非独立史实主张",
+      "manuscript_section": "§六/§九"
+    }
+  ],
+  "unresolved": [
+    "吉尔伯特1600年拉丁原著与1900年英译本图版逐页比对",
+    "诺曼1581、马里库尔1269与盖利布兰德1634原始版本核证",
+    "磁力矩公式的权威现代教材逐页出处",
+    "仓库outline/evidence写作闸门、两道独立审稿未批准"
+  ]
+}
