@@ -1,25 +1,100 @@
 {
   "chapter": "14",
-  "status": "PENDING",
+  "title": "莱布尼茨的 d 与 ∫：为什么记号会改变数学",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H01",
+    "H81",
+    "H82",
+    "H83",
+    "H84"
+  ],
   "claims": [
     {
       "id": "C14-01",
-      "statement": "算法如何变成可推广的符号",
-      "source_candidates": [
-        "H01",
-        "H02"
+      "kind": "historical_context",
+      "statement": "莱布尼茨1672年到巴黎后在惠更斯影响下深入学习几何、级数与求积方法。",
+      "source_ids": [
+        "H81"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor Leibniz biography Paris 1672 / Huygens; see ref [1]",
+      "verification": "SOURCE_LOCATED"
     },
     {
       "id": "C14-02",
-      "statement": "微分记号、积分记号及规则",
-      "source_candidates": [
-        "H01",
-        "H02"
+      "kind": "manuscript_notation",
+      "statement": "1675年10月29日手稿记载以拉长的S取代omn.表示求和；同年11月逐步组合积分与微分记号。",
+      "source_ids": [
+        "H82"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor Earliest Uses of Symbols of Calculus, Integral, critical edition series VII vol.5 pp.288-295,321-331",
+      "verification": "SOURCE_LOCATED_WITH_MANUSCRIPT_DISTINCTION"
+    },
+    {
+      "id": "C14-03",
+      "kind": "publication",
+      "statement": "1684年10月《学者纪事》第467—473页发表微分论文Nova methodus。",
+      "source_ids": [
+        "H83"
+      ],
+      "locator": "MAA Swetz Differential Calculus Acta Eruditorum October 1684 pp.467-473",
+      "verification": "SOURCE_LOCATED"
+    },
+    {
+      "id": "C14-04",
+      "kind": "publication",
+      "statement": "1686年6月《学者纪事》292—300页发表De geometria recondita，积分符号首次公开印行。",
+      "source_ids": [
+        "H84"
+      ],
+      "locator": "MAA Swetz Integral Calculus Acta Eruditorum June 1686 pp.292-300",
+      "verification": "SOURCE_LOCATED"
+    },
+    {
+      "id": "C14-05",
+      "kind": "math_modern",
+      "statement": "可微函数y=x²的差商极限等于2x，xy乘积微分为xdy+ydx。",
+      "source_ids": [
+        "H83"
+      ],
+      "locator": "modern difference quotient and product increment, independently recalculated",
+      "verification": "MATH_RECALCULATED_MODERN"
+    },
+    {
+      "id": "C14-06",
+      "kind": "math_modern",
+      "statement": "y=x³-3x斜率为3x²-3，x=-1为局部极大、x=1为局部极小，导数为零不是充分条件。",
+      "source_ids": [],
+      "locator": "independent derivative sign chart, counterexample y=x³",
+      "verification": "MATH_RECALCULATED"
+    },
+    {
+      "id": "C14-07",
+      "kind": "math_modern",
+      "statement": "现代∫0²x²dx=8/3，带上下限的现代排版不能归给莱布尼茨1686年原论文。",
+      "source_ids": [
+        "H82"
+      ],
+      "locator": "power antiderivative and MacTutor historical limits notation",
+      "verification": "MATH_RECALCULATED_WITH_NOTATION_CAVEAT"
+    },
+    {
+      "id": "C14-08",
+      "kind": "historical_interpretation",
+      "statement": "好用记号帮助方法传播，但牛顿与莱布尼茨贡献都涉及数学方法，不是仅有记号差异。",
+      "source_ids": [
+        "H01",
+        "H81"
+      ],
+      "locator": "MacTutor calculus history and Leibniz biography",
+      "verification": "INTERPRETATION_SUPPORTED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "全章为独立审稿前工作初稿，不可据SOURCE_LOCATED标注认定已完成整书证据批准。",
+    "1675手稿/1684微分印本/1686积分印本严格区分。",
+    "现代积分上下限和导数极限不等同十七世纪文本。",
+    "正文无真实人物的虚构对话或心理活动。"
+  ]
 }
