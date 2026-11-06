@@ -170,5 +170,13 @@
     "prompt_path": ".opencode/skills/<skill>/prompt.txt",
     "skill_path": ".opencode/skills/<skill>/SKILL.md",
     "fictionality_nonfiction_requires_sources": true
+  },
+  "skill_roots": {
+    "canonical": ".opencode/skills",
+    "mirrors": [
+      ".pi/skills",
+      ".codex/skills"
+    ],
+    "sync_policy": "byte-identical"
   }
 }

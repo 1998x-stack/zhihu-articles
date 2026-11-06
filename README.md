@@ -2,11 +2,11 @@
 
 > 用**注意力设计 → 阅读期待管理 → 价值兑现**组织原创中文短篇及知识叙事。
 
-本仓库用于管理写作提示词、OpenCode 项目 Skills、文章分类、创作档案与独立审稿；不是知乎官方规则库，不保证平台收录、收益或发布。
+本仓库用于管理写作提示词、OpenCode、Pi、Codex 三套镜像 Skills、文章分类、创作档案与独立审稿；不是知乎官方规则库，不保证平台收录、收益或发布。
 
 ## 快速使用
 
-1. 在仓库根目录打开 OpenCode；项目 Skills 会从 `.opencode/skills/<name>/SKILL.md` 被发现。
+1. 在仓库根目录使用 OpenCode、Pi 或 Codex；分别使用 `.opencode/skills/`、`.pi/skills/` 或 `.codex/skills/` 中对应的 `SKILL.md`。
 2. 让代理加载 `chief-narrative-editor`，确定主题、题材和虚构/非虚构边界。
 3. 再加载相应的 `genre-*` Skill，并完整读取该 Skill 的 `prompt.txt`。
 4. 按阶段调用选题、故事架构、人物世界观、伏笔设计、资料核验（需要时）、分章写作、一致性审计、结构审稿、文字精修和终稿归档。
@@ -28,6 +28,18 @@
 | 青春成长 | `articles/fiction/coming-of-age/` | `genre-coming-of-age` |
 | 历史与科学发现 | `articles/nonfiction/history-science/` | `genre-history-science` |
 | 社会现实与商业调查 | `articles/nonfiction/social-business/` | `genre-social-business` |
+
+## 多代理 Skill 镜像
+
+所有 21 套 Skills 都保持三份**逐字节一致**的副本，每份 Skill 均包含完整的 `SKILL.md` 和 `prompt.txt`：
+
+| 使用环境 | Skill 目录 | 维护策略 |
+| --- | --- | --- |
+| OpenCode | `.opencode/skills/` | 规范源（source of truth） |
+| Pi | `.pi/skills/` | 与 OpenCode 原样同步 |
+| Codex | `.codex/skills/` | 与 OpenCode 原样同步 |
+
+未来修改 Skill 时，应先编辑 `.opencode/skills/<skill>/SKILL.md` 或 `prompt.txt`，再将相同内容同步到另外两个目录。GitHub Actions 会检查三套内容完全相同，缺失或不一致都会使验证失败。这里仅复制仓库项目级 Skills，不改动用户机器上的全局配置。
 
 ## 技能目录
 
@@ -79,6 +91,6 @@ articles/fiction/mystery-detective/<article-slug>/
 
 ## 验证
 
-运行 `python scripts/validate_repo.py` 检查 Skills frontmatter、配套 Prompt、分类和模板的结构完整性。GitHub Actions 会在提交时自动执行同一检查。
+运行 `python scripts/validate_repo.py` 检查三套 Skills 的文件完整性及镜像一致性，以及分类和模板的结构完整性。GitHub Actions 会在提交时自动执行同一检查。
 
 更多详见 `AGENTS.md`、`docs/editorial-standards.md`、`catalog.json`。

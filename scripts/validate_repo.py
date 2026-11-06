@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate OpenCode skills, prompt coverage and article categorization."""
+"""Validate three mirrored skill trees, prompt coverage and article categorization."""
 from __future__ import annotations
 import json
 from pathlib import Path
@@ -35,6 +35,18 @@ for sid in skill_ids:
         errors.append(f"Invalid skill description in {sid}")
     if len(prompt.read_text(encoding="utf-8").strip()) < 200:
         errors.append(f"Prompt too short in {sid}")
+SKILL_ROOTS = (".opencode/skills", ".pi/skills", ".codex/skills")
+for sid in skill_ids:
+    source = ROOT / SKILL_ROOTS[0] / sid
+    for mirror_root in SKILL_ROOTS[1:]:
+        mirrored = ROOT / mirror_root / sid
+        for filename in ("SKILL.md", "prompt.txt"):
+            source_file = source / filename
+            mirrored_file = mirrored / filename
+            if not mirrored_file.is_file():
+                errors.append(f"Missing mirrored file: {mirror_root}/{sid}/{filename}")
+            elif source_file.is_file() and source_file.read_bytes() != mirrored_file.read_bytes():
+                errors.append(f"Mirror mismatch: {mirror_root}/{sid}/{filename}")
 for genre in catalog["genres"]:
     if not (ROOT / genre["archive"] / ".gitkeep").is_file():
         errors.append(f"Missing article category: {genre['archive']}")
@@ -44,4 +56,4 @@ for name in ("metadata.yaml","brief.md","story-bible.md","outline.md","research.
 if errors:
     print("\n".join("ERROR: " + e for e in errors), file=sys.stderr)
     sys.exit(1)
-print(f"OK: {len(skill_ids)} Skills, {len(catalog['genres'])} genre archives and article templates validated.")
+print(f"OK: {len(skill_ids)} Skills mirrored across {len(SKILL_ROOTS)} roots, {len(catalog['genres'])} genre archives and article templates validated.")

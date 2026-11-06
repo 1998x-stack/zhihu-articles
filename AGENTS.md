@@ -1,6 +1,8 @@
-# AGENTS.md｜OpenCode 项目代理协作规范
+# AGENTS.md｜OpenCode / Pi / Codex 项目代理协作规范
 
 本仓库的唯一创作总控为 `chief-narrative-editor`。不要将某种题材的 Prompt 直接当成所有类型通用的风格模板。
+
+**Skill 目录映射**：OpenCode 使用 `.opencode/skills/`，Pi 使用 `.pi/skills/`，Codex 使用 `.codex/skills/`。三套内容是逐字节一致的镜像；`.opencode/skills/` 为维护源，任何 Skill 更新都应同步至另外两个目录并通过 `scripts/validate_repo.py` 验证。下文的 `.opencode/skills/` 路径在 Pi 与 Codex 中可替换为其对应的根目录。
 
 ## 开始一篇新文章
 1. 先读取 `.opencode/skills/chief-narrative-editor/SKILL.md` 及其 `prompt.txt`，冻结主题与创作约束。
