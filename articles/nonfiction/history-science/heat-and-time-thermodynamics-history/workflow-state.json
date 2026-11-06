@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "序章00及第01—04章已建立前置来源、主张核验与正文初稿；第05—33章尚未逐章核实。evidence_verified=true仅在已写章节的有限范围成立，不等于全书或独立审稿通过。",
-  "approval_scope": "第00—04章依原始大纲及研究证据完成非虚构初稿，结构批准仅覆盖这些章节；第05—33章保持待证据核查的章节占位。",
-  "note": "本轮完成第02章17项、第03章17项、第04章18项主张与正文，连同前序00、01章共五章初稿；本轮未执行独立连续性审核和结构审稿，不得标为终稿或发布。"
+  "evidence_scope": "序章00及第01—07章已经建立逐章前置证据和非虚构正文初稿（本轮05章18、06章20、07章21条主张）；第08—33章未作逐章事实核证。全局evidence_verified仅限已写章节，不代表整书批准。",
+  "approval_scope": "第00—07章按原定大纲和局部资料核证进入正文初稿；第08—33章仍是待核证占位，outline_approved不代表这些章节已获实际章级批准。",
+  "note": "本轮三章05—07已落库并建立59条主张账本；当前书稿00—07为初稿，尚未进行独立连续性审计及结构审稿。review_status=PENDING、final_approved=false；不自动生成edited.md或final.md。"
 }
