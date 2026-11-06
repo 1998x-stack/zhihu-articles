@@ -1,7 +1,215 @@
 {
   "chapter": "03",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "research_ready",
+  "sources_verified": true,
+  "scope": "仅第03章列明史实与现代理论边界；正文仍须按对应主张写作，未经独立审稿",
+  "claims": [
+    {
+      "claim_id": "T03-01",
+      "claim": "布莱克区分温度变化与过程吸热，潜热/比热研究在格拉斯哥发展",
+      "type": "historical_fact",
+      "source_ids": [
+        "R38",
+        "R44"
+      ],
+      "locator": "大学人物传记与IUPAC历史综述",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-02",
+      "claim": "布莱克1762年讲述潜热研究但未在生前正式出版相应研究论文",
+      "type": "historical_fact",
+      "source_ids": [
+        "R38"
+      ],
+      "locator": "爱丁堡大学人物页",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-03",
+      "claim": "冰在融化时温度可接近不变而仍吸收热量，属相变潜热",
+      "type": "modern_physics",
+      "source_ids": [
+        "R41",
+        "R38"
+      ],
+      "locator": "黑潜热概念的现代解释",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-04",
+      "claim": "Q=mcΔT与Q=mL属于现代理想条件的教学重述，不是18世纪当事人公式",
+      "type": "modern_physics",
+      "source_ids": [
+        "R44",
+        "R41"
+      ],
+      "locator": "温度变化与相变热量的区分",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-05",
+      "claim": "1783年拉瓦锡和拉普拉斯合作研究冰量热器，融冰质量间接量热",
+      "type": "historical_fact",
+      "source_ids": [
+        "R43",
+        "R44",
+        "R42"
+      ],
+      "locator": "1783 Memoire与1789化学原著",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-06",
+      "claim": "该研究1783年发表或报告，但科学院Mémoires卷署1780并于1784印行，年代需区分",
+      "type": "historiography",
+      "source_ids": [
+        "R44",
+        "R43"
+      ],
+      "locator": "Fenby 1987导论/原著编排",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-07",
+      "claim": "冰量热器比较融冰量需考虑外界热交换，与理想隔热条件有关",
+      "type": "historical_measurement",
+      "source_ids": [
+        "R43",
+        "R42"
+      ],
+      "locator": "Memoire冰量热器使用论述",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-08",
+      "claim": "1789拉瓦锡将caloric热质纳入化学解释体系，非现代意义的元素",
+      "type": "historical_fact",
+      "source_ids": [
+        "R42",
+        "R41"
+      ],
+      "locator": "Lavoisier Elements及SEP §3.1",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-09",
+      "claim": "热质说能解释热的流向、潜热和热容量，但作为物质守恒理论面临新问题",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R41",
+        "R51"
+      ],
+      "locator": "SEP与Saslow对照",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-10",
+      "claim": "1783年拉瓦锡-拉普拉斯论著承认运动观点与流体观点各自解释范围，不能写成完全排斥前者",
+      "type": "historical_nuance",
+      "source_ids": [
+        "R43",
+        "R51"
+      ],
+      "locator": "原论文及Saslow 2020",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-11",
+      "claim": "伦福德1798年在金属制造加工摩擦发热现象基础上发表论文质疑热质可耗尽假说",
+      "type": "historical_fact",
+      "source_ids": [
+        "R45"
+      ],
+      "locator": "Royal Society manuscript catalogue",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-12",
+      "claim": "伦福德历史实验表明持续机械作用伴随发热，但未由此准确测得现代热功当量",
+      "type": "historical_boundary",
+      "source_ids": [
+        "R45",
+        "R51"
+      ],
+      "locator": "1798论文定位及后续历史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-13",
+      "claim": "戴维1799年发表摩擦热有关论文，观察冰因摩擦而融化",
+      "type": "historical_fact",
+      "source_ids": [
+        "R46"
+      ],
+      "locator": "Davy Essay Experiment II",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-14",
+      "claim": "戴维冰块摩擦实验不在真空里，另一实验是在抽空装置中做摩擦实验",
+      "type": "historiography",
+      "source_ids": [
+        "R46",
+        "R47"
+      ],
+      "locator": "1799原文实验II/III及Nature纠错",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-15",
+      "claim": "19世纪初热质论并未因单次实验立即消失，对量热实验仍有解释力",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R41",
+        "R51"
+      ],
+      "locator": "物理及化学哲学史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-16",
+      "claim": "现代内能为系统状态函数，热是能量传递方式，热不能当作装在物体里的独立守恒流体",
+      "type": "modern_physics",
+      "source_ids": [
+        "R50",
+        "R41"
+      ],
+      "locator": "现代热学与热质史对照",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T03-17",
+      "claim": "热质理论的成功与困境为卡诺1824年所接受的科学语境提供背景",
+      "type": "narrative_transition",
+      "source_ids": [
+        "R48",
+        "R41"
+      ],
+      "locator": "1824原著与化学史",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "已建立前置证据矩阵，仍非终稿核准",
+    "史学推断与现代公式已明确标注",
+    "原文引用仅做准确释义、不虚构对话与人物心理"
+  ]
 }
