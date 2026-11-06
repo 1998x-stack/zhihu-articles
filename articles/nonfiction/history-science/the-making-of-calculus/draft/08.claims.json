@@ -1,23 +1,131 @@
 {
   "chapter": "08",
-  "status": "PENDING",
+  "title": "卡瓦列里：一条线能够组成面积吗？",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H50",
+    "H51",
+    "H52",
+    "H53",
+    "H54"
+  ],
   "claims": [
     {
       "id": "C08-01",
-      "statement": "截面比较能否得面积",
-      "source_candidates": [
-        "H01"
+      "kind": "historical_date",
+      "statement": "卡瓦列里1627完成几何手稿，1635出版不可分量几何学。",
+      "source_ids": [
+        "H50",
+        "H51"
       ],
-      "verification": "PENDING"
+      "locator": "MAA title page; MacTutor biography manuscript and publication",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C08-02",
-      "statement": "不可分量法及其争论",
-      "source_candidates": [
-        "H01"
+      "kind": "historical_biography",
+      "statement": "卡瓦列里与伽利略保持联系、任职博洛尼亚数学教席。",
+      "source_ids": [
+        "H51"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor Cavalieri biography, 1629 Bologna appointment",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C08-03",
+      "kind": "historical_method",
+      "statement": "卡瓦列里比较平面图形全体平行截线长度及立体的对应截面。",
+      "source_ids": [
+        "H50",
+        "H51",
+        "H52",
+        "H54"
+      ],
+      "locator": "MAA book VII; SEP Infinity §2.2; Rossini section 1",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C08-04",
+      "kind": "mathematical_principle",
+      "statement": "同高的两平面普通图形若每层截线长度相等则面积相等；同高的普通立体同层截面积相等则体积相等。",
+      "source_ids": [
+        "H51",
+        "H53"
+      ],
+      "locator": "MacTutor Cavalieri principles; MAA 1647",
+      "verification": "MATH_CHECKED_WITH_MODERN_CONDITIONS"
+    },
+    {
+      "id": "C08-05",
+      "kind": "math_demonstration",
+      "statement": "矩形与平行剪切的区域在任意高度均有2长截线，面积皆为2。",
+      "source_ids": [
+        "H51"
+      ],
+      "locator": "independent finite area geometry R and P, didactic example",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C08-06",
+      "kind": "math_demonstration",
+      "statement": "球半径r与圆柱挖去双锥之各水平截面面积均π(r²-z²)，所以球体积4πr³/3。",
+      "source_ids": [
+        "H51",
+        "H52"
+      ],
+      "locator": "classical sphere-cylinder-cone cross-section comparison; independent algebra",
+      "verification": "MATH_CHECKED_MODERN_RECONSTRUCTION"
+    },
+    {
+      "id": "C08-07",
+      "kind": "math_logic",
+      "statement": "不可数多个零二维面积横线的并可以有正二维面积，不能按可数可加性直接求和。",
+      "source_ids": [
+        "H52"
+      ],
+      "locator": "SEP Infinity §2.2 and modern measure theory conceptual distinction",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C08-08",
+      "kind": "historical_controversy",
+      "statement": "Paul Guldin对卡瓦列里无限线组成连续面提出数学基础方面的质疑。",
+      "source_ids": [
+        "H51",
+        "H54"
+      ],
+      "locator": "MacTutor objection and historian discussion",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C08-09",
+      "kind": "historical_date",
+      "statement": "卡瓦列里1647《Exercitationes geometricae sex》进一步阐释并回应争议。",
+      "source_ids": [
+        "H53",
+        "H51"
+      ],
+      "locator": "MAA original 1647 edition; MacTutor",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C08-10",
+      "kind": "historical_boundary",
+      "statement": "托里拆利1644对无穷长实体体积研究属于后续扩展，不应挪作卡瓦列里1635的独创结论。",
+      "source_ids": [
+        "H52"
+      ],
+      "locator": "SEP Infinity §2.2",
+      "verification": "CROSS_CHECKED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "全体截线的比较原则与“把很多零面积的线直接加起来”不是一回事。",
+    "不可数并与可数可加性之别是现代数学解释。",
+    "球、柱与双锥例子是原创教学模型，非1635卡瓦列里原题。",
+    "古尔丁批评具有数学论证内容，不虚构私人冲突。",
+    "1627手稿、1635发表、1647答辩、1644托里拆利分别记述。",
+    "本章仅是有证据的工作初稿，未通过仓库正式双审。"
+  ]
 }
