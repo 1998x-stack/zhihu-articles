@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 11,
+  "current_revision": 14,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -32,9 +32,15 @@
     "CH11-POTOSI-LABOR-ARCHIVAL-REVIEW",
     "CH11-MANILA-SILVER-TRADE-ESTIMATES",
     "CH12-GENOA-PUBLIC-DEBT-PRIMARY-ARCHIVE",
-    "CH12-HOLLAND-SAVINGS-BOND-MARKET-SOURCES"
+    "CH12-HOLLAND-SAVINGS-BOND-MARKET-SOURCES",
+    "CH13-VOC-1602-CHARTER-1606-TRANSFER-ORIGINALS",
+    "CH13-VOC-1612-1623-PERMANENT-CAPITAL",
+    "CH13-BANDA-COLONIAL-ARCHIVE",
+    "CH14-1694-LOAN-AND-TAX-PRIMARY-RECORDS",
+    "CH15-1720-STOCK-DEBT-SWAP-ORIGINALS",
+    "CH15-SLAVERY-AND-HISTORIOGRAPHY-CROSSCHECK"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Batch chapters 10-12 are research-level prose drafts, 30 new sources and 45 tracked claims, revision 11. Supersedes prior reviews. outline_approved=false, evidence_verified=false, final_approved=false; formal release prohibited."
+  "notes": "Research-level drafts of chapters 13-15 completed in batch Revision 14; 30 source-ledger records and 51 tracked claims. Primary originals and full competing historiography remain unverified; outline_approved=false, evidence_verified=false, final_approved=false, review_status CHANGES_REQUIRED."
 }
