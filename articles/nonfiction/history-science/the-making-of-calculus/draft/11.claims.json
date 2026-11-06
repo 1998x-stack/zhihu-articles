@@ -1,25 +1,133 @@
 {
   "chapter": "11",
-  "status": "PENDING",
+  "title": "沃利斯、格雷戈里与巴罗：两种问题接近汇合",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H63",
+    "H64",
+    "H65",
+    "H66",
+    "H67",
+    "H68",
+    "H69",
+    "H70"
+  ],
   "claims": [
     {
       "id": "C11-01",
-      "statement": "求积和切线怎样互相帮助",
-      "source_candidates": [
-        "H01",
-        "H02"
+      "kind": "history",
+      "statement": "沃利斯《Arithmetica infinitorum》1656出版，尝试以数列、指数和插值研究求积。",
+      "source_ids": [
+        "H63",
+        "H64",
+        "H65"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor Wallis; Oxford Wallis history; MAA 1655–56 original editions",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C11-02",
-      "statement": "无穷算术及基本定理前史",
-      "source_candidates": [
-        "H01",
-        "H02"
+      "kind": "historical_method",
+      "statement": "沃利斯的求积方法推进了由几何向算术、代数的转换，不能等同现代黎曼积分。",
+      "source_ids": [
+        "H65",
+        "H66"
       ],
-      "verification": "PENDING"
+      "locator": "MAA original book; Stedall Oxford UP abstract",
+      "verification": "CROSS_CHECKED_WITH_BOUNDARY"
+    },
+    {
+      "id": "C11-03",
+      "kind": "math_demonstration",
+      "statement": "现代平方和S_N=Σ(k/N)²/N=(N+1)(2N+1)/(6N²)→1/3。",
+      "source_ids": [
+        "H63",
+        "H65"
+      ],
+      "locator": "independently derived finite-square sum and modern Riemann approximation",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C11-04",
+      "kind": "historical_scope",
+      "statement": "沃利斯将整数指数下的求积模式用插值向分数指数推广，推广的论证与现代形式不同。",
+      "source_ids": [
+        "H63",
+        "H66"
+      ],
+      "locator": "MacTutor Wallis interpolation, Stedall area methods",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C11-05",
+      "kind": "history",
+      "statement": "格雷戈里1667、1668发表有关求积、无穷方法及切线研究著作。",
+      "source_ids": [
+        "H67",
+        "H69"
+      ],
+      "locator": "MacTutor Gregory; 1650–1675 chronology",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C11-06",
+      "kind": "historical_method",
+      "statement": "格雷戈里1668书被史家认为触及求积与切线反向联系，但不能等同完整现代定理。",
+      "source_ids": [
+        "H67"
+      ],
+      "locator": "MacTutor Gregory Geometriae pars universalis analysis",
+      "verification": "QUALIFIED_HISTORY"
+    },
+    {
+      "id": "C11-07",
+      "kind": "history",
+      "statement": "巴罗《Lectiones Geometricae》1670年发表并从古典几何处理切线与面积。",
+      "source_ids": [
+        "H68",
+        "H69"
+      ],
+      "locator": "MAA Barrow lectures review; MacTutor 1670",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C11-08",
+      "kind": "historical_method",
+      "statement": "巴罗以几何方式关联求积与切线，是微积分基本定理的重要前史而非完整现代算法。",
+      "source_ids": [
+        "H68"
+      ],
+      "locator": "MAA Review Geometrical Lectures",
+      "verification": "CROSS_CHECKED_WITH_BOUNDARY"
+    },
+    {
+      "id": "C11-09",
+      "kind": "math_demonstration",
+      "statement": "若A(x)=x³/3，则x²h≤A(x+h)−A(x)≤(x+h)²h，h→0得到A'(x)=x²。",
+      "source_ids": [
+        "H68"
+      ],
+      "locator": "independent modern geometric inequality and polynomial check for x≥0 h>0",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C11-10",
+      "kind": "bridge",
+      "statement": "1664—1665牛顿学习包括沃利斯、笛卡尔等著作，后来拓展为求积与变化率的统一研究。",
+      "source_ids": [
+        "H70"
+      ],
+      "locator": "Newton Project Introduction mathematical notebooks",
+      "verification": "CROSS_CHECKED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "历史人物1667/1668/1670论著不可写成已经拥有今天微积分基本定理的形式。",
+    "完整的现代求和、积分、面积函数的差商图形是教学回译。",
+    "格雷戈里关于π的某些推理错误不作为已经成立的结果。",
+    "x≥0、h>0使用单调函数包围求新增面积，界限条件需要明确。",
+    "不能编造牛顿和这些人物的私人对话及准确师承。",
+    "工作初稿未过独立双审和全书工作流门禁。"
+  ]
 }
