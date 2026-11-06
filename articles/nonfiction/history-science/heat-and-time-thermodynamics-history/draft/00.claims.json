@@ -1,7 +1,161 @@
 {
   "chapter": "00",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "draft",
+  "sources_verified": true,
+  "scope": "仅本章所用的主要历史事实及现代物理解释；未构成独立审稿或整书全部核证",
+  "claims": [
+    {
+      "claim_id": "T00-01",
+      "claim": "序章算例采用400 K与300 K的理想两热源，其可逆效率上限为25%，100 J入热至多25 J净功、至少75 J排热。",
+      "type": "modern_physics",
+      "source_ids": [
+        "R20"
+      ],
+      "locator": "OpenStax §4.5及本章代数计算",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-02",
+      "claim": "循环热机的工作物质一周期回原状态，能量守恒有W=Qh−Qc。",
+      "type": "modern_physics",
+      "source_ids": [
+        "R20"
+      ],
+      "locator": "OpenStax §4.5",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-03",
+      "claim": "在相同两恒温热源间工作的可逆热机有最大效率，现实不可逆热机不超过它。",
+      "type": "modern_physics",
+      "source_ids": [
+        "R20"
+      ],
+      "locator": "OpenStax §4.5 Carnot's Principle",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-04",
+      "claim": "1712年纽科门第一台早期蒸汽抽水机在达德利附近投入使用。",
+      "type": "historical_fact",
+      "source_ids": [
+        "R19",
+        "R21"
+      ],
+      "locator": "Science Museum馆藏说明与博物馆历史文章",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-05",
+      "claim": "纽科门式大气机依靠缸内冷凝形成部分真空和外界大气压力推动活塞。",
+      "type": "historical_fact",
+      "source_ids": [
+        "R19"
+      ],
+      "locator": "Science Museum馆藏条目",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-06",
+      "claim": "瓦特1765年前后提出独立冷凝器，减少汽缸反复加热/冷却造成的燃料耗费。",
+      "type": "historical_fact",
+      "source_ids": [
+        "R02"
+      ],
+      "locator": "Saslow 2020 §5",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-07",
+      "claim": "卡诺1824年出版《论火的动力》，提出热机最大机械效果及对工作物质的依赖问题。",
+      "type": "historical_fact",
+      "source_ids": [
+        "R18",
+        "R01"
+      ],
+      "locator": "Carnot 1824原著开头问题段；APS历史说明",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-08",
+      "claim": "卡诺原著以热质在冷热源之间转移解释做功，并借可逆循环论证理想最大效果。",
+      "type": "historical_fact",
+      "source_ids": [
+        "R18",
+        "R02"
+      ],
+      "locator": "Carnot 1824原著冷热源及可逆过程段；Saslow §6",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-09",
+      "claim": "卡诺的1824年理论不是现代能量守恒的完整框架；现代效率公式属于后来的热力学重述。",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R18",
+        "R02",
+        "R20"
+      ],
+      "locator": "原著与Saslow历史研究、OpenStax对照",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-10",
+      "claim": "迈尔、焦耳及赫尔姆霍茨在1840年代推动热功等价与能量守恒认识。",
+      "type": "historical_fact",
+      "source_ids": [
+        "R02"
+      ],
+      "locator": "Saslow 2020 §8—9",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-11",
+      "claim": "克劳修斯1850年和汤姆孙1851年建立整合热功转化和热机方向性限制的框架。",
+      "type": "historical_fact",
+      "source_ids": [
+        "R02"
+      ],
+      "locator": "Saslow 2020 §10—11",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-12",
+      "claim": "单一热源循环地把热量全部转功且不引起其他变化为第二定律所禁止；条件限定不可省略。",
+      "type": "modern_physics",
+      "source_ids": [
+        "R20",
+        "R02"
+      ],
+      "locator": "OpenStax §4.4—4.5和Saslow §11",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-13",
+      "claim": "对两正温恒温热源循环热机，排热不等于能量消失，能量守恒与可行过程约束不同。",
+      "type": "modern_explanation",
+      "source_ids": [
+        "R20"
+      ],
+      "locator": "OpenStax §4.5与概念解释",
+      "verified": true
+    },
+    {
+      "claim_id": "T00-14",
+      "claim": "本章从煤矿问题到时间箭头的因果安排是编辑性框架，而非历史人物共同制定的路线。",
+      "type": "editorial_framing",
+      "source_ids": [
+        "R02",
+        "R18"
+      ],
+      "locator": "对时代先后与研究问题的编辑性组织",
+      "verified": true
+    }
+  ],
+  "editorial_notes": [
+    "第00章研究与章节结构核证不代表其他章节通过门禁。",
+    "所有历史人物原话仅以明确释义表达，没有虚构引文或对话。",
+    "现代卡诺公式与1824年热质理论明确分开。",
+    "开篇数字系公式导出的假设算例，并非历史实验记录。"
+  ]
 }

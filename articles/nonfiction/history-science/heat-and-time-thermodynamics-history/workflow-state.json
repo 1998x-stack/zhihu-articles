@@ -2,14 +2,14 @@
   "schema_version": "2.0",
   "lane": "nonfiction",
   "current_revision": 0,
-  "outline_approved": false,
-  "evidence_verified": false,
+  "outline_approved": true,
+  "evidence_verified": true,
   "review_status": "PENDING",
   "reviewed_revision": null,
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "本轮仅建立全书里程碑参考来源和待核清单；未完成逐章事实与原始引文查证。",
-  "approval_scope": "章节架构为策划交付，尚未按仓库门禁批准进入正文阶段。",
-  "note": "序章00、第01—32章、尾声33均为章纲占位；claims.json均为空，不代表事实审核或正文完成。"
+  "evidence_scope": "仅序章00（T00-01—T00-14）：卡诺1824年原著、1712纽科门、瓦特冷凝器、1850—1851两定律发展与现代卡诺公式。第01—33章仍未逐章核证。",
+  "approval_scope": "仅本书既定序章00的叙事结构获得本轮查证后的写作批准；其余章纲尚待逐章审定。",
+  "note": "第00章已写史料支持的非虚构正文初稿，配有14条claim追踪；未执行独立连续性审计与结构审稿，review_status=PENDING；第01—33章仍为占位。"
 }

@@ -7,7 +7,7 @@
 | ID | 文献/馆藏 | 链接 | 用途 |
 |---|---|---|---|
 | R01 | American Physical Society｜Sadi Carnot heat engines（历史二手） | [链接](https://www.aps.org/apsnews/2009/05/sadi-carnot-heat-engines) | 里程碑与选题线索；引文、页码、译名待逐章核实 |
-| R02 | P. R. L. Brown｜A History of Thermodynamics: The Missing Manual（学术历史综述） | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC7516509/) | 里程碑与选题线索；引文、页码、译名待逐章核实 |
+| R02 | Wayne M. Saslow｜A History of Thermodynamics: The Missing Manual（2020年学术历史综述） | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC7516509/) | 里程碑与选题线索；引文、页码、译名待逐章核实 |
 | R03 | J. P. Joule｜On the Mechanical Equivalent of Heat（1850论文重印） | [链接](https://www2.lawrence.edu/fast/STONEKIM/COURSES/Joule_1850.pdf) | 里程碑与选题线索；引文、页码、译名待逐章核实 |
 | R04 | Girolami 等｜The Combined Gas Law and Clapeyron's Thermodynamics（2020论文） | [链接](https://girolami-group.chemistry.illinois.edu/publications/publications/J.%20Chem.%20Eng.%20Data%202020%2C%2065%2C%20298.pdf) | 里程碑与选题线索；引文、页码、译名待逐章核实 |
 | R05 | Stanford Encyclopedia of Philosophy｜Boltzmann’s Work in Statistical Physics（学术综述） | [链接](https://plato.stanford.edu/entries/statphys-boltzmann/) | 里程碑与选题线索；引文、页码、译名待逐章核实 |
@@ -56,4 +56,24 @@
 ## 当前研究状态
 - 完成：全系列主线识别、部分高权重史实交叉参照、初步来源入口。
 - 未完成：逐章核心主张核证、准确页码/引文核验、部分原文检索、争议研究。
-- `workflow-state.json.evidence_verified=false` 保持不变，直到规定范围的实质证据经过单独核实。
+- 第00章的史实与现代公式已单独核查；`workflow-state.json` 的证据批准只覆盖00章。其余01—33章仍须逐章核证。
+
+
+## 第00章｜已核来源与具体证据矩阵（2026-11-06）
+
+> **核查范围限定：仅序章涉及的史实、基本公式、明确标注的教学算例。** 原始法文资料以所载电子文本比对；不在本章使用不可核实的逐字译引。其余章节仍未核证。
+
+| 来源ID | 类别 | 已检查的支持范围 | 边界 |
+|---|---|---|---|
+| R18 | 原著数字文本 | [Sadi Carnot, Réflexions sur la puissance motrice du feu (1824)｜法文原著文本](https://fr.wikisource.org/wiki/R%C3%A9flexions_sur_la_puissance_motrice_du_feu) | 支持1824年热机上限的提问、热质与冷热源的原始阐述；不直接支持现代η公式 |
+| R19 | 科学博物馆资料 | [Science Museum Group, Newcomen Atmospheric Engine｜馆藏](https://collection.sciencemuseumgroup.org.uk/objects/co50900/newcomen-atmospheric-engine) | 支持纽科门蒸汽机的馆藏/历史定位，不能把后世展品当作1712年原物 |
+| R20 | 现代物理教材 | [OpenStax, University Physics Volume 2, §4.5 The Carnot Cycle｜现代教材](https://openstax.org/books/university-physics-volume-2/pages/4-5-the-carnot-cycle) | 支持W、η、冷热源及可逆极限；并非早期历史原始文献 |
+| R21 | 科学博物馆资料 | [Science Museum, In Pursuit Of Power｜历史科普](https://blog.sciencemuseum.org.uk/a-new-age/) | 支持纽科门蒸汽机的馆藏/历史定位，不能把后世展品当作1712年原物 |
+| R01 | APS历史二手资料 | 1824年卡诺出版与理想热机课题 | 不能单靠它写人物隐秘心理 |
+| R02 | Saslow (2020), §§5—11 | 1765年瓦特冷凝器、1840年代热功等价、1850/1851两定律 | 个别史学论点属作者解释，不等于原始论文逐字引文 |
+
+### 可交给本章非虚构写作的结论
+- 完成前置核查：本章卡诺原著与热质背景、纽科门/瓦特里程碑、1850—1851理论框架、现代理想热机公式、教学算例。
+- 与现代解释分离：**W=Qh−Qc和η≤1−Tc/Th是现代书写，不能署作卡诺1824年原式**。
+- 不得写成历史事实：任何没有档案支持的私人对话、心理活动、装置具体运转当天的场景，以及“卡诺发明能量守恒”的说法。
+- 剩余核查范围：第01—33章的具体资料和公式，均不得凭本章核查宣称全书已审核。
