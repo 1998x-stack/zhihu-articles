@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "13",
+  "claims": [
+    {
+      "claim_id": "NS-13-01",
+      "type": "historical_fact",
+      "statement": "Clauset Shalizi Newman paper Power-Law Distributions in Empirical Data appeared SIAM Review 51(4):661-703 electronically 6 Nov 2009",
+      "source_ids": [
+        "S60"
+      ],
+      "locator": "p661 copyright metadata and online date",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-13-02",
+      "type": "historical_method",
+      "statement": "2009 paper organizes maximum likelihood threshold estimation, KS semiparametric bootstrap goodness of fit, and likelihood ratio comparison with rivals",
+      "source_ids": [
+        "S60"
+      ],
+      "locator": "p663 Box1 and pp665-688 methods",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-13-03",
+      "type": "mathematical_definition",
+      "statement": "Power law may hold only for x>=xmin; continuous density (alpha-1)/xmin*(x/xmin)^(-alpha) alpha>1",
+      "source_ids": [
+        "S60"
+      ],
+      "locator": "p663 eq2.1-2.2",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-13-04",
+      "type": "mathematical_result",
+      "statement": "Continuous-tail power law MLE alpha_hat=1+n/sum ln(x_i/xmin) for n qualifying independent observations",
+      "source_ids": [
+        "S60"
+      ],
+      "locator": "p665 eq3.1",
+      "verification_status": "primary_source_checked_with_continuous_only"
+    },
+    {
+      "claim_id": "NS-13-05",
+      "type": "mathematical_definition",
+      "statement": "Discrete degree-tail distribution uses x^-alpha/zeta(alpha,xmin), not naive continuous MLE",
+      "source_ids": [
+        "S60"
+      ],
+      "locator": "p663 eq2.3-2.4 and pp666-667",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-13-06",
+      "type": "historical_method",
+      "statement": "Choose xmin by minimizing KS distance between empirical CDF and fitted model in selected tail",
+      "source_ids": [
+        "S60"
+      ],
+      "locator": "pp671-672 eq3.9",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-13-07",
+      "type": "historical_method",
+      "statement": "Goodness of fit simulates synthetic data under fitted law and compares corresponding KS distances to empirical distance",
+      "source_ids": [
+        "S60"
+      ],
+      "locator": "pp675-677 and Box1",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-13-08",
+      "type": "historical_cutoff",
+      "statement": "Paper proposes p>0.1 as plausible and smaller p as rejection, not posterior probability law is true",
+      "source_ids": [
+        "S60"
+      ],
+      "locator": "p663 Box1; p676",
+      "verification_status": "primary_source_checked_with_statistical_caution"
+    },
+    {
+      "claim_id": "NS-13-09",
+      "type": "historical_comparison",
+      "statement": "Paper compares exponential, lognormal, stretched exponential and cutoff power-law alternatives with likelihood ratio methods",
+      "source_ids": [
+        "S60"
+      ],
+      "locator": "pp678-688 and Tables4-5",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-13-10",
+      "type": "historical_data",
+      "statement": "Of 24 empirical datasets, 17 were consistent with power law under goodness of fit and seven rejected, while competitor comparisons yield more qualified conclusions",
+      "source_ids": [
+        "S60"
+      ],
+      "locator": "pp681-685 section6 and Table3; p688 Table5",
+      "verification_status": "primary_source_checked_with_scope"
+    },
+    {
+      "claim_id": "NS-13-11",
+      "type": "mathematical_derivation",
+      "statement": "If PMF density tail decays k^-alpha with alpha>1, CCDF has asymptotic exponent alpha-1",
+      "source_ids": [
+        "S60",
+        "S61"
+      ],
+      "locator": "tail-sum integration approximation",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-13-12",
+      "type": "methodological_limit",
+      "statement": "Goodness of fit not rejection does not establish unique truth or generating causal mechanism and finite-sample statistical power matters",
+      "source_ids": [
+        "S60"
+      ],
+      "locator": "pp662-663 and discussion",
+      "verification_status": "primary_source_supported"
+    },
+    {
+      "claim_id": "NS-13-13",
+      "type": "continuity",
+      "statement": "1998 clustering/path question, 1999 hub formation model, 2009 evidence testing are distinct and do not establish navigability in Kleinberg's 2000 sense",
+      "source_ids": [
+        "S56",
+        "S57",
+        "S60",
+        "S09"
+      ],
+      "locator": "cross-chapter synthesis; historic timestamps preserved",
+      "verification_status": "supported_synthesis"
+    }
+  ],
+  "outstanding_checks": [
+    "Original-paper-specific claims checked with web-accessed facsimiles and metadata; complete publication line edit still pending.",
+    "Full-series outline_approved/evidence_verified remain false; not an approved final.",
+    "Independent continuity audit and developmental review required before publication."
+  ]
+}
