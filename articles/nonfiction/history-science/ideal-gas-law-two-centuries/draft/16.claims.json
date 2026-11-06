@@ -3,7 +3,232 @@
   "title": "从267回望：一条不完美方程的价值",
   "lane": "nonfiction",
   "revision": 0,
-  "status": "not_written_not_verified",
-  "claims": [],
-  "note": "仅占位；撰写尾声时必须追踪全部回收的史实和现代科学解释。"
+  "status": "draft_claims_traced",
+  "note": "尾声22条主张回收前15章史实及现行SI定义；‘接力’为编辑比喻，未经过独立双审。",
+  "claims": [
+    {
+      "claim_id": "G16-01",
+      "source_ids": [
+        "S63",
+        "S64"
+      ],
+      "summary": "1834克拉佩龙热机论文出现pv=R(267+t)，其中t为摄氏温度",
+      "classification": "primary_history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-02",
+      "source_ids": [
+        "S04",
+        "S35",
+        "S01"
+      ],
+      "summary": "1802气体0→100℃约增0.375倍，假定线性后外推到−266.7℃，并非实测气体零体积",
+      "classification": "historical_and_model",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-03",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "summary": "267系旧时精度与经验参数，不能简单定为排印错误",
+      "classification": "historical",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-04",
+      "source_ids": [
+        "S67",
+        "S43",
+        "S44"
+      ],
+      "summary": "克劳修斯1850数据近273，1848汤姆孙理论绝对尺度初版不等于现代Kelvin线性温标",
+      "classification": "historical_nuance",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-05",
+      "source_ids": [
+        "S86",
+        "S79",
+        "S52"
+      ],
+      "summary": "现代0K与−273.15℃精确对应来自温标定义，与当年外推、实际可到温度不同",
+      "classification": "modern_definition",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-06",
+      "source_ids": [
+        "S64",
+        "S67"
+      ],
+      "summary": "1834公式R针对给定气体数量及参考状态，非现代普适摩尔R",
+      "classification": "primary_history",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-07",
+      "source_ids": [
+        "S68",
+        "S67"
+      ],
+      "summary": "1873霍斯特曼按摩尔体积u写up=RT，提供普适计量基准的重要节点",
+      "classification": "history_translation",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-08",
+      "source_ids": [
+        "S80",
+        "S41"
+      ],
+      "summary": "现代n的摩尔量基准在2019年以N_A固定粒子数定义；这不是1811阿伏伽德罗亲测常数",
+      "classification": "history_modern",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-09",
+      "source_ids": [
+        "S79",
+        "S83",
+        "S76"
+      ],
+      "summary": "现代R=N_A k_B，在理想气体P,V,T关系里联通宏观摩尔量与微观分子数",
+      "classification": "modern",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-10",
+      "source_ids": [
+        "S03",
+        "S06",
+        "S22"
+      ],
+      "summary": "17世纪气压、真空、气体压缩研究以托里拆利、帕斯卡、波义耳为代表，非单一人独立完成方程",
+      "classification": "history_synthesis",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-11",
+      "source_ids": [
+        "S18",
+        "S19",
+        "S24"
+      ],
+      "summary": "1662波义耳资料与马略特后续研究显示命名和优先权有区别",
+      "classification": "history_qualified",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-12",
+      "source_ids": [
+        "S40",
+        "S41"
+      ],
+      "summary": "1808报告、1809刊行盖吕萨克化合体积规律，1811阿伏伽德罗假说再给粒子数量解释",
+      "classification": "historical_sequence",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-13",
+      "source_ids": [
+        "S59",
+        "S63",
+        "S60"
+      ],
+      "summary": "1824卡诺热机追问与1834克拉佩龙图解数学化，各自原理论并非现代理想气体统计定律",
+      "classification": "historical_scope",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-14",
+      "source_ids": [
+        "S54",
+        "S56"
+      ],
+      "summary": "1860年卡尔斯鲁厄会议、坎尼扎罗1858提要的会后传播推动原子分子概念趋于一致，非当日全体共识",
+      "classification": "historical",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-15",
+      "source_ids": [
+        "S70",
+        "S71"
+      ],
+      "summary": "19世纪克劳修斯、麦克斯韦、玻尔兹曼的微观研究解决解释机制问题，不等于三人同日完成统一理论",
+      "classification": "history_synthesis",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-16",
+      "source_ids": [
+        "S73",
+        "S75"
+      ],
+      "summary": "安德鲁斯1869临界实验与范德瓦耳斯1873理论揭示真实气体需要分子体积/吸引等修正",
+      "classification": "historical",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-17",
+      "source_ids": [
+        "S84"
+      ],
+      "summary": "理想气体通常在稀薄高温条件下表现近似，在高密度低温可能偏离、甚至相变",
+      "classification": "modern_scope",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-18",
+      "source_ids": [
+        "S76",
+        "S84"
+      ],
+      "summary": "现代方程适用前提明确：单一气相或理想混合气、可定义T、合理的状态范围，并保留误差检验",
+      "classification": "physical_boundary",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-19",
+      "source_ids": [
+        "S79",
+        "S84"
+      ],
+      "summary": "气体模型正确性与计量常数的数值精确性是两件不同的事",
+      "classification": "epistemic",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-20",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S67"
+      ],
+      "summary": "全书所谓接力是历史编辑比喻，各人原有问题与时间背景不同，并无同一协作计划",
+      "classification": "editorial_synthesis",
+      "verification": "preverified_in_research_scope"
+    },
+    {
+      "claim_id": "G16-21",
+      "source_ids": [],
+      "summary": "完整初稿17份并非独立审稿、终稿或正式发表，后续依仓库工作流双审",
+      "classification": "workflow_scope",
+      "verification": "workflow_contract_checked"
+    },
+    {
+      "claim_id": "G16-22",
+      "source_ids": [
+        "S84",
+        "S73"
+      ],
+      "summary": "面对失败的模型应追问前提和偏离原因，而不是把约等于宣称为永远精确",
+      "classification": "editorial_conclusion",
+      "verification": "preverified_in_research_scope"
+    }
+  ]
 }
