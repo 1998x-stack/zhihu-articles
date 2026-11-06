@@ -445,7 +445,7 @@
 | T14-09 | 可逆交换δQrev=T dS，实际不可逆过程不得直接等同 | modern_scope | R87,R96：entropy and differential |
 | T14-10 | dU=T dS−p dV限定固定组成、仅pV功 | modern_scope | R96：homogeneous simple body |
 | T14-11 | 现代Maxwell关系来自混合二阶偏导可交换 | modern_math | R96：U(S,V) smoothness |
-| T14-12 | ∂T/∂V|S=−∂p/∂S|V与Helmholtz关系可推导 | modern_formula | R96：second derivatives; algebra |
+| T14-12 | 固定S与V的混合偏导关系及Helmholtz势的麦克斯韦关系可推导 | modern_formula | R96：second derivatives; algebra |
 | T14-13 | 麦克斯韦关系名称不可无证据映射具体原始论文 | historiography | R96,R95：Gibbs原论文 |
 | T14-14 | 积分小圈使读者理解恰当与非恰当微分区别 | editorial_example | R99：path independent |
 | T14-15 | 第15章由状态曲面进入平衡和稳定性判断 | editorial_transition | R96,R101：Gibbs geometry |
