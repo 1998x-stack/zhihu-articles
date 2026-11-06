@@ -1,7 +1,280 @@
 {
   "chapter": "01",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "draft",
+  "sources_verified": true,
+  "scope": "本章T01-01至T01-22的史实、历史解释及现代教学公式；不包含02—33章；待独立审稿",
+  "claims": [
+    {
+      "claim_id": "T01-01",
+      "claim": "1725年Wheal Rose因纽科门式机器燃煤费用过高，矿业经营者决定开凿约2.4km排水巷道",
+      "type": "historical_fact",
+      "source_ids": [
+        "R22"
+      ],
+      "locator": "Wheal Rose分节",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-02",
+      "claim": "矿井排水依靠水桶、畜力、水轮和排水巷道等方法；排水巷道受地形及高度限制",
+      "type": "historical_context",
+      "source_ids": [
+        "R22",
+        "R23"
+      ],
+      "locator": "Drainage Adits总论",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-03",
+      "claim": "萨弗里1698年取得蒸汽抽水专利，1702年出版The Miner's Friend",
+      "type": "historical_fact",
+      "source_ids": [
+        "R26",
+        "R27"
+      ],
+      "locator": "原书扉页与APS历史资料",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-04",
+      "claim": "萨弗里式蒸汽泵利用蒸汽冷凝形成低压及蒸汽压力排水，不使用纽科门式动力活塞",
+      "type": "historical_mechanism",
+      "source_ids": [
+        "R23",
+        "R27",
+        "R26"
+      ],
+      "locator": "APS设计解释、原著图示",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-05",
+      "claim": "理想海平面大气压力下单纯吸水高度约10m，由现代Δp=ρgh推导，非原始萨弗里公式",
+      "type": "modern_physics",
+      "source_ids": [
+        "R27",
+        "R26"
+      ],
+      "locator": "流体静力学的后见解释",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-06",
+      "claim": "萨弗里装置的高压和密封、材料限制影响深矿普及",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R27",
+        "R30"
+      ],
+      "locator": "APS讨论及扩散史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-07",
+      "claim": "纽科门与John Calley合作推进1712年前后大气式蒸汽机",
+      "type": "historical_fact",
+      "source_ids": [
+        "R28",
+        "R25"
+      ],
+      "locator": "ASME地标与Science Museum",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-08",
+      "claim": "1712达德利附近是明确记载的早期里程碑，但Cornwall可能更早的证据使唯一首台判断有争议",
+      "type": "historical_contested",
+      "source_ids": [
+        "R25",
+        "R30",
+        "R23"
+      ],
+      "locator": "Science Museum与Nuvolari等人2011",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-09",
+      "claim": "纽科门机器采用近大气压蒸汽、开口汽缸、活塞、摆梁和矿井泵杆",
+      "type": "historical_mechanism",
+      "source_ids": [
+        "R24",
+        "R25",
+        "R28"
+      ],
+      "locator": "馆藏及ASME动力机械解说",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-10",
+      "claim": "典型循环为送蒸汽、缸内冷却凝结、压差使大气推动活塞下行、横梁驱动泵、复位",
+      "type": "historical_mechanism",
+      "source_ids": [
+        "R24",
+        "R25"
+      ],
+      "locator": "National Museums Scotland与Science Museum",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-11",
+      "claim": "纽科门式机器主要做功行程由大气压差作用于活塞，不等同高压蒸汽直接推动",
+      "type": "historical_mechanism",
+      "source_ids": [
+        "R24",
+        "R25",
+        "R28"
+      ],
+      "locator": "博物馆和工程学会说明",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-12",
+      "claim": "1717年Beighton版画记录1714年Griff机器，不能当作1712达德利实拍图",
+      "type": "historical_fact",
+      "source_ids": [
+        "R29"
+      ],
+      "locator": "Science Museum图像馆藏",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-13",
+      "claim": "在同一汽缸冷凝与重新送汽造成汽缸壁冷热交替，导致燃料浪费",
+      "type": "historical_engineering",
+      "source_ids": [
+        "R31",
+        "R32"
+      ],
+      "locator": "Science Museum独立冷凝器历史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-14",
+      "claim": "1729年前欧洲至少有约100台纽科门式机器投入使用",
+      "type": "historical_estimate",
+      "source_ids": [
+        "R24"
+      ],
+      "locator": "NMS历史说明",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-15",
+      "claim": "1727年Cornwall约5台，1740年约20台纽科门式机器",
+      "type": "historical_estimate",
+      "source_ids": [
+        "R23"
+      ],
+      "locator": "Cornish Mining纽科门章节",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-16",
+      "claim": "康沃尔依靠跨区域煤炭运输及历史税费，燃料地理价格差异影响蒸汽机经济性",
+      "type": "historical_economics",
+      "source_ids": [
+        "R23",
+        "R30"
+      ],
+      "locator": "Cornish Mining与Cliometrica经济史",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-17",
+      "claim": "现代F≈ΔpA解释受力，1m²近1标准大气压差约10万牛顿，仅教学条件",
+      "type": "modern_physics",
+      "source_ids": [
+        "R24",
+        "R25"
+      ],
+      "locator": "压力机制与经典力学计算",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-18",
+      "claim": "现代mgh计算1000kg水提升30m约294kJ，非纽科门机实测",
+      "type": "modern_physics",
+      "source_ids": [
+        "R22",
+        "R24"
+      ],
+      "locator": "重力势能定义与教学估算",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-19",
+      "claim": "整体有用能量比可用水势能增量除以燃料释放的热量表示，但不等同热机循环效率",
+      "type": "modern_physics",
+      "source_ids": [
+        "R31",
+        "R24"
+      ],
+      "locator": "系统边界下的后见能量核算",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-20",
+      "claim": "瓦特1765年前后模型及1769年独立冷凝器专利的方向是使汽缸保持热而在另一空间凝结",
+      "type": "historical_fact",
+      "source_ids": [
+        "R31",
+        "R32"
+      ],
+      "locator": "Science Museum研究与藏品",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-21",
+      "claim": "煤矿附近与远离燃煤产地的矿区采用机器的条件不同，机器经济性不等同理论效率",
+      "type": "historical_interpretation",
+      "source_ids": [
+        "R30",
+        "R23"
+      ],
+      "locator": "区域经济史与矿业档案",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T01-22",
+      "claim": "1725事件倒叙1698、1712到瓦特是编辑性叙事组织，不是历史人物共同拟定的理论方案",
+      "type": "editorial_framing",
+      "source_ids": [
+        "R22",
+        "R23",
+        "R30"
+      ],
+      "locator": "可核实事实重排，禁止伪装人物内心",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "Wheal Rose开篇事件有官方历史资料支持，人物对白未被编造。",
+    "1712年达德利机是可靠早期记录，Cornwall更早实例存在学术讨论。",
+    "现代公式和算例均标为后见解释，不代入18世纪当事人知识。",
+    "1791年Science Museum馆藏机器、1717年版画不是1712现场。",
+    "全部核查只涵盖01章；没有完成独立审稿或发布。"
+  ]
 }
