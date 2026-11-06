@@ -1,0 +1,160 @@
+{
+  "chapter": "07",
+  "title": "磁不是沿着直线飞出去的",
+  "kind": "independent_nonfiction_chapter_candidate",
+  "manuscript_path": "proposals/07.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_CHECK",
+  "claims": [
+    {
+      "claim_id": "E07-01",
+      "claim": "毕奥与萨伐尔研究导线对磁针作用的距离依赖，与安培电流间力路线不同",
+      "kind": "科学史事实与归属",
+      "source_ids": [
+        "S07-01",
+        "S07-02"
+      ],
+      "manuscript_section": "§一/§二",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E07-02",
+      "claim": "通过辅助磁体处理地磁，并以磁针小振动辅助推断作用强弱",
+      "kind": "实验史重构",
+      "source_ids": [
+        "S07-02"
+      ],
+      "manuscript_section": "§三",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E07-03",
+      "claim": "理想小振动测力与周期平方倒数相关，须注意阻尼与装置条件",
+      "kind": "现代数学解释",
+      "source_ids": [
+        "S07-02"
+      ],
+      "manuscript_section": "§三",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E07-04",
+      "claim": "1820年10月30日报告的长直线作用随垂直距离近似一次反比",
+      "kind": "历史实验证据",
+      "source_ids": [
+        "S07-01",
+        "S07-02"
+      ],
+      "manuscript_section": "§四",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E07-05",
+      "claim": "Laplace参与由整根长导线结果推论微小导线部分贡献的数学思路",
+      "kind": "科学史与贡献归属",
+      "source_ids": [
+        "S07-01",
+        "S07-02"
+      ],
+      "manuscript_section": "§五",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E07-06",
+      "claim": "历史的磁极/磁化假说不同于现代磁感应强度矢量与场理论",
+      "kind": "历史概念边界",
+      "source_ids": [
+        "S07-01",
+        "S07-02"
+      ],
+      "manuscript_section": "§五",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E07-07",
+      "claim": "现代微元毕奥萨伐尔公式含叉乘及1/r²，适用于稳恒电流",
+      "kind": "现代物理模型",
+      "source_ids": [
+        "S07-03"
+      ],
+      "manuscript_section": "§六",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E07-08",
+      "claim": "对无限长直导线积分得到B=μ0 I/(2πa)，与微元平方反比不矛盾",
+      "kind": "现代计算",
+      "source_ids": [
+        "S07-03",
+        "S07-04"
+      ],
+      "manuscript_section": "§四/§七",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E07-09",
+      "claim": "弯折导线历史研究有模型检验与修订，不能将不同印本混成同一次发现",
+      "kind": "史学解释",
+      "source_ids": [
+        "S07-01",
+        "S07-02"
+      ],
+      "manuscript_section": "§八",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E07-10",
+      "claim": "早期电流源随时间变化影响磁效应定量研究，为欧姆电路研究设置难题",
+      "kind": "历史事实及章节因果",
+      "source_ids": [
+        "S07-01",
+        "S07-05"
+      ],
+      "manuscript_section": "§九",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S07-01",
+      "title": "Blondel & Wolff: In Search of a Newtonian Law (1820-1826)",
+      "url": "https://ampere-archives.fr/histoire-electricite/parcours-historique/lois-courants/ampere-loi/eng",
+      "source_type": "法国科学史专题",
+      "checked_scope": "1820 10/30直线实验、12/18微元规律、Laplace数学桥梁及早期电池限制"
+    },
+    {
+      "source_id": "S07-02",
+      "title": "Erlichson 1998 Experiments of Biot and Savart",
+      "url": "https://materias.df.uba.ar/tdfa2020c1/files/2012/07/BiotSavart.pdf",
+      "source_type": "同行评议历史论文重刊",
+      "checked_scope": "至少首页截图与可检索正文已查；历史时序、辅助磁体、周期法、1/r规律"
+    },
+    {
+      "source_id": "S07-03",
+      "title": "OpenStax: Biot-Savart Law",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/12-1-the-biot-savart-law",
+      "source_type": "现代大学物理教材",
+      "checked_scope": "稳恒电流微元矢量式与夹角/叉乘，非1820原始公式"
+    },
+    {
+      "source_id": "S07-04",
+      "title": "OpenStax: Magnetic Field Due to Thin Straight Wire",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/12-2-magnetic-field-due-to-a-thin-straight-wire",
+      "source_type": "现代大学物理教材",
+      "checked_scope": "长直导线1/r结果与积分条件"
+    },
+    {
+      "source_id": "S07-05",
+      "title": "Oxford Handbook: Electromagnetism and Field Physics",
+      "url": "https://academic.oup.com/edited-volume/38638/chapter-abstract/335347320",
+      "source_type": "学术综述摘要",
+      "checked_scope": "安培、毕奥萨伐尔并行路线及后续1820s整体背景；仅摘要"
+    }
+  ],
+  "unresolved": [
+    "核对1820年10月30日、12月18日巴黎科学院原始院刊/手稿",
+    "核对Biot 1821与1824著作不同版本与反例争论",
+    "进一步独立审查Laplace微元推导归属、磁针周期计量装置与实验限制"
+  ]
+}
