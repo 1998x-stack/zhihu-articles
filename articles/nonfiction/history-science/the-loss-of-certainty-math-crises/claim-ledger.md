@@ -115,5 +115,46 @@
 | 08 | H08-12 | 乘积有限增量与微分法则区分 | B08-MODERN-MATH | 已核，需可微性 |
 | 08 | H08-13 | “第二次危机”为编辑性解释 | brief.md;outline.md | 解释性框架 |
 
+## 第09—11章专项主张
+
+| 10 | H10-01 | 欧几里得P5原文 | research.md 第10章专项；R10-EUCLID-I | 史料核实、按来源限定 |
+| 10 | H10-02 | I.27正向平行判定 | research.md 第10章专项；R10-EUCLID-27 | 史料核实、按来源限定 |
+| 10 | H10-03 | I.29依赖P5的逆向关系 | research.md 第10章专项；R10-EUCLID-I | 史料核实、按来源限定 |
+| 10 | H10-04 | I.31作平行线与I.32内角和 | research.md 第10章专项；R10-EUCLID-I | 史料核实、按来源限定 |
+| 10 | H10-05 | Playfair与P5条件性等价 | research.md 第10章专项；R10-SEP-GEOMETRY;R10-SEP-KHAYYAM | 史料核实、按来源限定 |
+| 10 | H10-06 | 普罗克洛斯及早期证明尝试 | research.md 第10章专项；R10-SEP-GEOMETRY | 史料核实、按来源限定 |
+| 10 | H10-07 | 海亚姆与伊斯兰平行公设研究 | research.md 第10章专项；R10-SEP-KHAYYAM;R10-IRANICA-KHAYYAM | 史料核实、按来源限定 |
+| 10 | H10-08 | 萨凯里1733四边形假设 | research.md 第10章专项；R10-SEP-GEOMETRY | 史料核实、按来源限定 |
+| 10 | H10-09 | 萨凯里锐角情形排除存在漏洞 | research.md 第10章专项；R10-SEP-GEOMETRY | 史料核实、按来源限定 |
+| 10 | H10-10 | 解析几何演示并非公设证明 | research.md 第10章专项；R10-MODERN-MATH | 现代数学/概念限定 |
+| 10 | H10-11 | 相对模型与独立性现代解释 | research.md 第10章专项；R10-SEP-GEOMETRY;R10-MODERN-MATH | 现代数学/概念限定 |
+| 10 | H10-12 | 第三部编辑框架 | research.md 第10章专项；brief.md;outline.md | 编辑性解释 |
+| 11 | H11-01 | 罗巴切夫斯基1826研究报告 | research.md 第11章专项；R11-MACTUTOR-LOB | 史料核实、按来源限定 |
+| 11 | H11-02 | 1829—1830首批公开发表 | research.md 第11章专项；R11-MACTUTOR-LOB;R11-MACTUTOR-TOPIC | 史料核实、按来源限定 |
+| 11 | H11-03 | 鲍耶绝对几何与分支 | research.md 第11章专项；R11-MACTUTOR-BOLYAI | 史料核实、按来源限定 |
+| 11 | H11-04 | 《附录》1831单行本/1832成书 | research.md 第11章专项；R11-ALEXITS;R11-HUNGARIAN-ACADEMY | 史料核实、按来源限定 |
+| 11 | H11-05 | 双曲几何多条不相交测地线 | research.md 第11章专项；R11-SEP-GEOMETRY;R11-MATHWORLD-DISK | 史料核实、按来源限定 |
+| 11 | H11-06 | 双曲三角形角和小于π | research.md 第11章专项；R11-SEP-GEOMETRY;R11-MODERN-MATH | 现代数学/概念限定 |
+| 11 | H11-07 | 角亏与面积公式 | research.md 第11章专项；R11-MODERN-MATH | 现代数学/概念限定 |
+| 11 | H11-08 | 圆盘模型的测地线与度量 | research.md 第11章专项；R11-MATHWORLD-DISK;R11-OSU-DISK | 史料核实、按来源限定 |
+| 11 | H11-09 | 高斯私下研究与公开贡献不同 | research.md 第11章专项；R11-MACTUTOR-LOB;R11-MACTUTOR-BOLYAI | 史料核实、按来源限定 |
+| 11 | H11-10 | 1832高斯回信 | research.md 第11章专项；R11-ALEXITS;R11-MACTUTOR-BOLYAI | 史料核实、按来源限定 |
+| 11 | H11-11 | 1868贝尔特拉米的模型 | research.md 第11章专项；R11-MACTUTOR-TOPIC;R11-SEP-GEOMETRY | 史料核实、按来源限定 |
+| 11 | H11-12 | 模型说明相对一致性 | research.md 第11章专项；R11-SEP-GEOMETRY;R11-MODERN-MATH | 现代数学/概念限定 |
+| 11 | H11-13 | 不同公理体系定理不相互形式冲突 | research.md 第11章专项；R11-SEP-GEOMETRY;R11-MODERN-MATH | 现代数学/概念限定 |
+| 11 | H11-14 | 反对传说式高斯优先权归因 | research.md 第11章专项；R11-MACTUTOR-LOB;R11-MACTUTOR-TOPIC | 史料核实、按来源限定 |
+| 09 | H09-01 | 第08章伯克利之争与后继严格化 | research.md 第09章专项；R09-CAUCHY-BIO;第08章research | 史料核实、按来源限定 |
+| 09 | H09-02 | 波尔查诺1817纯分析证明 | research.md 第09章专项；R09-BOLZANO | 史料核实、按来源限定 |
+| 09 | H09-03 | 柯西1821《分析教程》 | research.md 第09章专项；R09-CAUCHY-BIO;R09-CAUCHY-EXTRAS | 史料核实、按来源限定 |
+| 09 | H09-04 | 柯西的极限/无穷小历史语言 | research.md 第09章专项；R09-CAUCHY-EXTRAS | 史料核实、按来源限定 |
+| 09 | H09-05 | 数列函数极限误差定义 | research.md 第09章专项；R09-MODERN-MATH | 现代数学/概念限定 |
+| 09 | H09-06 | x²在2处ε–δ证明 | research.md 第09章专项；R09-MODERN-MATH | 现代数学/概念限定 |
+| 09 | H09-07 | |x|不可导与x^n点态极限 | research.md 第09章专项；R09-MODERN-MATH | 现代数学/概念限定 |
+| 09 | H09-08 | 1872魏尔斯特拉斯连续处处不可微 | research.md 第09章专项；R09-WEIERSTRASS | 史料核实、按来源限定 |
+| 09 | H09-09 | 戴德金1858/1872实数基础研究 | research.md 第09章专项；R09-DEDEKIND-SEP | 史料核实、按来源限定 |
+| 09 | H09-10 | √2与有理数不完备性 | research.md 第09章专项；R09-MODERN-MATH;R09-DEDEKIND-SEP | 现代数学/概念限定 |
+| 09 | H09-11 | 分析严格化是多路线演变 | research.md 第09章专项；R09-各史料 | 史料核实、按来源限定 |
+| 09 | H09-12 | 第二危机为编辑性命名 | research.md 第09章专项；brief.md;outline.md | 编辑性解释 |
+
 ## 后续章节状态
-第09—25章及序章、尾声仍待逐章专项核证。第01—08章已选主张的证据映射不等同全书终稿核验。
+第12—25章及序章、尾声仍待逐章专项核证。第01—11章已选主张的证据映射不等同全书终稿核验。
