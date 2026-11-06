@@ -1,0 +1,15 @@
+{
+  "schema_version": "2.0",
+  "lane": "nonfiction",
+  "current_revision": 0,
+  "outline_approved": false,
+  "evidence_verified": false,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
+  "unresolved_blockers": [],
+  "edited_revision": null,
+  "final_approved": false,
+  "evidence_scope": "已做若干公开里程碑核对；34篇的逐条出处、原著页码、实验细节和争议尚未系统核证。",
+  "approval_scope": "仅为章节策划占位，本轮未批准正式写作。",
+  "note": "00/01—32/33为占位；所有claims.json均为空且不代表查证通过。"
+}
