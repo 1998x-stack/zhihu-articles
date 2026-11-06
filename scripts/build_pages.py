@@ -237,7 +237,12 @@ def markdown_body(chapter: dict, source_root: Path, repo: str,
     content = chapter["_path"].read_text(encoding="utf-8")
     html = markdown.markdown(
         content,
-        extensions=["extra", "toc", "footnotes", "sane_lists", "admonition"],
+        extensions=["extra", "toc", "footnotes", "sane_lists", "admonition", "pymdownx.arithmatex"],
+        extension_configs={
+            # Normalize $...$, \(...\), $...$, \[...\], and TeX environments
+            # before Markdown consumes backslashes; generic HTML survives bleach.
+            "pymdownx.arithmatex": {"generic": True, "smart_dollar": True},
+        },
         output_format="html5",
     )
     soup = BeautifulSoup(html, "html.parser")

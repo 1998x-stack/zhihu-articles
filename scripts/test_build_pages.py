@@ -55,15 +55,30 @@ class PagesBuildTests(unittest.TestCase):
             for book_id, total in chapter_totals.items():
                 book = next(b for b in books if b["id"] == book_id)
                 self.assertEqual(book["chapterCount"], total, book_id)
-                self.assertIsNone(book["cover"], book_id)
+                self.assertEqual(book["cover"], "assets/covers/" + book_id + ".png")
+                self.assertTrue((output / book["cover"]).is_file(), book_id)
                 overview = (output / "read" / book_id / "index.html").read_text(encoding="utf-8")
-                self.assertIn("reader-cover-placeholder", overview)
-                self.assertIn("reader-cover-name", overview)
+                self.assertIn('class="reader-cover"', overview)
+                self.assertIn('src="../../assets/covers/' + book_id + '.png"', overview)
                 exported = json.loads((output / "read" / book_id / "book.json").read_text(encoding="utf-8"))
                 self.assertEqual(len(exported["chapters"]), total)
                 self.assertTrue(all(ch["href"].startswith("read/" + book_id + "/") for ch in exported["chapters"]))
             self.assertIn("章节占位", (output / "read/network-science-history/chapter-32/index.html").read_text(encoding="utf-8"))
             self.assertIn("正文初稿", (output / "read/ideal-gas-law-two-centuries/chapter-04/index.html").read_text(encoding="utf-8"))
+            # Existing manuscripts use several distinct LaTeX delimiters.
+            # These must survive Markdown -> HTML cleanup for MathJax.
+            gas_html = (output / "read/ideal-gas-law-two-centuries/prologue/index.html").read_text(encoding="utf-8")
+            self.assertIn('class="arithmatex"', gas_html)
+            self.assertIn(r"pv=R(267+t)", gas_html)
+            self.assertIn(r"\[", gas_html)
+            self.assertIn(r"\(R\)", gas_html)
+            maths_html = (output / "read/linear-algebra-history/chapter-01/index.html").read_text(encoding="utf-8")
+            self.assertIn(r"\begin{cases}", maths_html)
+            self.assertIn('class="arithmatex"', maths_html)
+            loss_html = (output / "read/the-loss-of-certainty-math-crises/chapter-02/index.html").read_text(encoding="utf-8")
+            self.assertIn(r"\(\sqrt2\)", loss_html)
+            self.assertIn("reader-math-warning", gas_html)
+            self.assertIn("readingRoomMathFallback", gas_html)
 
             chapter_html = (output / "read/the-loss-of-certainty-math-crises/chapter-02/index.html").read_text(encoding="utf-8")
             self.assertIn("希帕索斯的沉船", chapter_html)
@@ -88,6 +103,29 @@ class PagesBuildTests(unittest.TestCase):
             self.assertIn("IntersectionObserver", javascript)
             self.assertIn("reading-room-font-family", javascript)
             self.assertIn("reading-progress", javascript)
+
+    def test_math_syntax_families_and_plain_currency(self):
+        import markdown
+        snippet = (
+            r"行内 $x^2$、\(\frac{a}{b}\)，另有价格 $20 and $30。"
+            + "\n\n" + r"$$E=mc^2$$"
+            + "\n\n" + r"\[\int_0^1 x\,dx=\frac12\]"
+            + "\n\n" + "\\begin{align}\na &= b\\\\\nc &= d\n\\end{align}"
+            + "\n\n" + "代码 " + chr(96) + "$not_math$" + chr(96) + " 不应变公式"
+        )
+        rendered = markdown.markdown(
+            snippet,
+            extensions=["extra", "pymdownx.arithmatex"],
+            extension_configs={"pymdownx.arithmatex": {"generic": True, "smart_dollar": True}},
+        )
+        self.assertGreaterEqual(rendered.count('class="arithmatex"'), 4)
+        self.assertIn(r"\(x^2\)", rendered)
+        self.assertIn(r"\(\frac{a}{b}\)", rendered)
+        self.assertIn(r"\[E=mc^2\]", rendered)
+        self.assertIn(r"\[\int_0^1", rendered)
+        self.assertIn(r"\begin{align}", rendered)
+        self.assertIn("$20 and $30", rendered)
+        self.assertIn("$not_math$", rendered)
 
     def test_rejects_nonexistent_category(self):
         with self.assertRaisesRegex(ValueError, "Unknown genre"):

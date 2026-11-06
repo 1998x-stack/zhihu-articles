@@ -221,4 +221,8 @@
   }
 
   updateProgress();
+  // MathJax can change the document's final height after page load.
+  if (window.MathJax?.startup?.promise) {
+    window.MathJax.startup.promise.then(updateProgress).catch(() => {});
+  }
 })();

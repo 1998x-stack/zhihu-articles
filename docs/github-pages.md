@@ -179,3 +179,19 @@ python scripts/validate_repo.py
 - 微积分已有 `series.json`，图论已有 `chapters.json`，两者为原有研究资料，**新增的 `book.json` 是 Pages 阅读器的统一规范**，不要删除原先的研究记录。
 - 电磁学 `README.md` 将序章描述为候审稿，但目前 `draft/00.md` 实际仍是设计占位。因此标准章节索引按实际文件标记为 `outline`，待真正正文更新后再调整。
 - 标为 `draft` 的章节不意味着已通过独立审稿或可以声称正式出版。
+
+## 公式渲染与故障排查（2026-11 修复）
+
+Markdown 构建现在启用 `pymdownx.arithmatex` 的 `generic` 模式，在 Python-Markdown 转换 HTML **之前**保护 LaTeX，支持四种写法及 `\\begin{align}` 等环境：
+
+- 行内：`$x^2$` 或 `\\(x^2\\)`
+- 块级：`$$E=mc^2$$` 或 `\\[E=mc^2\\]`
+- 多行：`\\begin{align}a&=b\\\\c&=d\\end{align}`
+
+输出统一成为 `<span class="arithmatex">\\(...\\)</span>` 或 `<div class="arithmatex">\\[...\\]</div>`，再由 MathJax 3 渲染。HTML 清理保留这些安全的容器标签，不再吞掉 TeX 分隔符。普通货币的美元符号通过 `smart_dollar` 避免误判；代码围栏中的美元符号也不会触发数学公式。
+
+**CDN 故障**：优先 jsDelivr，失败则自动回退到 cdnjs；两个 CDN 均不可达时，站点将保留 LaTeX 文本并显示提示。MathJax 本身需要外网，不会假称完全离线可用。
+
+**构建自检**：单元测试现在检查真实的理想气体、线性代数、数学思想史章节中的原始 `\\[...`、`\\(...`、`\\begin{cases}`、`$...$`，以及内联美元货币与代码段。新增 PNG 文件也要通过构建校验与公开链接探测。
+
+注意：**引擎能显示公式不等于数学内容本身无误**；书稿中的公式推导、中文标点及历史表述仍需要作者按章节校对。
