@@ -497,3 +497,92 @@
 3. 在双曲几何中，‘不相交直线’通常为无穷多条；某些史料将边界的两条极限平行与其余超平行区分，禁止硬套现代中文术语到全部历史文本。
 4. 罗巴切夫斯基公开发表、鲍耶独立成稿、高斯私人通信三个维度不可用一个‘第一发现者’替代；不虚构私人阴谋、学者直接对话或无法核实的情绪。
 5. **本次专项材料只支持第09—11章初稿与主张追踪**；序章与第12—25章未新增专项核证。全书review_status仍为PENDING，未进入终审。
+
+
+---
+
+## 第12—14章专项事实核验：黎曼、希尔伯特、康托尔（2026-11-06）
+
+> 仅为当前三章所选断言提供可追溯依据；区分一手原典、可靠历史二手研究、现代教学重构及编辑性概括，不等同通过独立双审。
+
+### 第12章｜黎曼
+
+**来源**
+- **R12-SEP-GEOM**：Roberto Torretti, “Nineteenth Century Geometry”, Stanford Encyclopedia of Philosophy, §5, https://plato.stanford.edu/entries/geometry-19th/ 。1854年格丁根讲演、身后1867年出版、高斯曲面内在几何、n维连续多重体、度量/曲率、经验空间。
+- **R12-MACTUTOR**：MacTutor, “Bernhard Riemann”, https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/ 。1854年6月10日演说、1826—1866年人物时间线。
+- **R12-GRAY**：Jeremy Gray, “Bernhard Riemann, posthumous thesis ... (1867)”, Landmark Writings (2005), https://www.sciencedirect.com/science/article/pii/B9780444508713501200 。1854讲演/1867刊行及高维几何后续意义。
+- **R12-APS**：American Physical Society, “1854: Riemann’s classic lecture on curved space”, https://www.aps.org/apsnews/2013/06/riemanns-curved-space 。交叉参考，不取未经独立证实的现场情绪描述。
+- **R12-MODERN**：现代解析推导。半径R球面，赤道两点相隔90°、北极作第三顶点，三角均为大圆短弧：三角均为90°，角和270°、角超额π/2，面积=πR²/2（球面积八分之一）；地表测地半径r的小圆周长2πR sin(r/R)，平面对应2πr，0<r<πR。现代局部黎曼度量ds²=Σg_ij dx_i dx_j、g正定（此式和爱因斯坦洛伦兹时空的签名不同）。
+- **R12-RELATIVITY**：R12-SEP-GEOM与R12-GRAY支持黎曼作为广义几何源头；广义相对论属于1915年前后的爱因斯坦时代，不能把1854讲演等同引力理论或后来的全部微分几何。
+
+| claim_id | 限定主张 | 来源 | 状态 |
+|---|---|---|---|
+| H12-01 | 黎曼1854年6月10日格丁根讲演，人物1826—1866 | R12-MACTUTOR;R12-SEP-GEOM | 已核 |
+| H12-02 | 讲演身后刊出，1867为主流史料年份；个别目录卷期另记1868 | R12-SEP-GEOM;R12-GRAY | 已核并保留书目差异 |
+| H12-03 | 高斯曲面内在几何是前导，黎曼扩展至n维 | R12-SEP-GEOM | 已核 |
+| H12-04 | 研究流形、度量与可变曲率，不限固定曲率球面 | R12-SEP-GEOM;R12-MACTUTOR | 已核，现代术语不当原话 |
+| H12-05 | 正定度量局部长度计算与距离依赖规则 | R12-SEP-GEOM;R12-MODERN | 现代数学 |
+| H12-06 | 球面三个直角的测地三角形及面积 | R12-MODERN | 数学核算 |
+| H12-07 | 球面小圆周长2πRsin(r/R)及平面极限 | R12-MODERN | 数学核算 |
+| H12-08 | 局部近似平面不等于整体平直 | R12-SEP-GEOM;R12-MODERN | 概念核实 |
+| H12-09 | 黎曼把实际空间度量是否欧氏视为与测量有关的问题 | R12-SEP-GEOM | 已核 |
+| H12-10 | 后来的引力时空与黎曼正定度量需区分 | R12-RELATIVITY;R12-MODERN | 跨时代限定 |
+| H12-11 | “空间成为研究对象”系本书叙事概括 | brief.md;outline.md | 编辑性 |
+| H12-12 | 第11→12→13章为编排衔接，不是假定三人直接思想继承 | outline.md;draft/11.md | 编辑性 |
+
+**禁止误写**：球面上对踵点间有多条最短大圆弧，不能称所有两点都唯一最短线；正曲率球面不自动满足希尔伯特欧氏公理；1854年黎曼没有直接提出1915广义相对论；球面例子是现代讲解。
+
+### 第13章｜希尔伯特
+
+**来源**
+- **R13-SEP-FREGE**：Stanford Encyclopedia of Philosophy, “The Frege-Hilbert Controversy”, https://plato.stanford.edu/entries/frege-hilbert/ 。1899年《几何基础》、一致性与独立性、弗雷格针对公理解释与真值的不同哲学主张。
+- **R13-SEP-GEOM**：Stanford Encyclopedia of Philosophy, “Nineteenth Century Geometry”, §6, https://plato.stanford.edu/entries/geometry-19th/ 。帕施1882年几何次序、希尔伯特1899年与依实数坐标模型做相对一致性论证。
+- **R13-HILBERT-PRIMARY**：David Hilbert, The Foundations of Geometry (1902英译，德文初版1899)，可读扫描转录 https://studylib.net/doc/25541369/hilbert 。开篇点、直线、平面及五组联结/关联、次序、平行、全等、连续的公理；版本间组号与内容变化，不以某个版本的公理数目指称全部版本。
+- **R13-TOY**：现代教学玩具模型：点集合{A,B,C}，直线集合{{A,B},{B,C},{A,C}}，包含关系为“属于”。对任意两不同点唯一确定一条线，但**仅满足所选关联公理，不是完整欧氏几何模型**。
+- **R13-MODERN-LOGIC**：现代模型论表述：若A∪{¬P}有模型，则由健全性A不能证明P；用数系作为欧氏几何模型通常只得到“若基础数系一致，则解释出的几何理论一致”的相对一致性。不能变成绝对的几何/所有数学无矛盾证明。
+
+| claim_id | 限定主张 | 来源 | 状态 |
+|---|---|---|---|
+| H13-01 | 希尔伯特1899年《几何基础》出版，格丁根讲演背景 | R13-SEP-FREGE | 已核 |
+| H13-02 | 帕施1882年推进几何隐含次序关系的严格化 | R13-SEP-GEOM | 已核 |
+| H13-03 | 点、线、面及相互关系由公理限定 | R13-HILBERT-PRIMARY;R13-SEP-GEOM | 原典核实 |
+| H13-04 | 五类公理涵盖关联、次序、全等、平行、连续 | R13-HILBERT-PRIMARY | 已核，版本组号有差异 |
+| H13-05 | 两点定一线及三点玩具模型仅检验一条要求 | R13-HILBERT-PRIMARY;R13-TOY | 原典+现代类比 |
+| H13-06 | 利用模型检查公理独立性，不以直觉断言必然 | R13-SEP-FREGE;R13-MODERN-LOGIC | 现代逻辑 |
+| H13-07 | 坐标模型的几何一致性有数系一致性作为前提 | R13-SEP-GEOM;R13-MODERN-LOGIC | 相对一致性 |
+| H13-08 | 公理个数及后加连续性公理有版本变动 | R13-SEP-GEOM;R13-HILBERT-PRIMARY | 版本限定 |
+| H13-09 | 弗雷格/希尔伯特对公理意义、解释、一致性有争论 | R13-SEP-FREGE | 史学核实 |
+| H13-10 | 公理化由多人贡献，不是希尔伯特单人首次发明 | R13-SEP-GEOM | 史学限定 |
+| H13-11 | 模型须检验全部相关公理；不引未核的“桌椅啤酒杯”言论 | R13-MODERN-LOGIC;R13-HILBERT-PRIMARY | 概念+引文边界 |
+| H13-12 | 1899几何项目≠1920年代整个希尔伯特计划 | R13-SEP-FREGE;outline.md | 年代/叙事限定 |
+
+**禁止误写**：不以玩具模型证明整套几何无矛盾；不称“公理可以随意选、所有模型都真”；不引用无法核证的“桌椅啤酒杯”原话；不将弗雷格简单丑化成拒绝公理的人。
+
+### 第14章｜康托尔
+
+**来源**
+- **R14-SEP-EARLY**：José Ferreirós, “The Early Development of Set Theory”, Stanford Encyclopedia of Philosophy, https://plato.stanford.edu/entries/settheory-early/ 。1872年基础研究、1873康托尔与戴德金通信、实代数数可数及实数不可数、1874论文、1878等势与连续统问题；明确1874与1891证明方法不同。
+- **R14-CANTOR-1874**：Georg Cantor, “Über eine Eigenschaft des Inbegriffes aller reellen algebraischen Zahlen”, Journal für die reine und angewandte Mathematik 77 (1874):258–262，公开英文翻译和文本 https://jamesrmeyer.com/infinite/cantor-1874-uncountability-proof 。一手来源：代数数与实数不可列论证，其方法非1891对角线法。
+- **R14-SEP-INFINITY**：Stanford Encyclopedia of Philosophy, “Infinity”, https://plato.stanford.edu/entries/infinity/ 。双射、基数、序数比较，真子集与整体等势的无限现象。
+- **R14-SEP-SET**：Stanford Encyclopedia of Philosophy, “Set Theory” historical introduction, https://plato.stanford.edu/archives/spr2009/entries/set-theory/ 。伽利略讨论平方数与自然数数量悖论；1873康托尔发现。
+- **R14-MODERN**：现代数学演示：正整数n与偶数2n/平方数n²双射；整数按0,1,-1,2,-2...枚举；正有理数p/q按p+q层逐个排序并删非既约重复，扩展到所有有理数可数。实数区间不可数现代嵌套闭区间证明：给任意列举x1,x2...，取I0=[0,1]，选择非退化闭子区间I_n包含于I_{n-1}内部、避开x_n且长≤2^-n，得到唯一交点x，任意n有x∈I_n且x_n不属于I_n，故x不在列表。此为借鉴原论文思想的现代简化，不冒充1874逐字计算。
+- **R14-1891**：R14-SEP-EARLY对比1891对角线方法，下章专述。注意二进制/十进制展开存在非唯一表示，不可用未注明的位变换草率“证伪”。
+
+| claim_id | 限定主张 | 来源 | 状态 |
+|---|---|---|---|
+| H14-01 | 伽利略讨论平方数与所有整数的一一对应困惑 | R14-SEP-SET | 已核 |
+| H14-02 | 自然数、偶数、平方数双射等势 | R14-MODERN;R14-SEP-INFINITY | 数学核算 |
+| H14-03 | 康托尔研究从分析与点集问题发展出超穷观点 | R14-SEP-EARLY | 历史概括 |
+| H14-04 | 1873年与戴德金通信，代数数可数与实数不可数 | R14-SEP-EARLY | 已核并区分贡献 |
+| H14-05 | 1874年实代数数论文和实数不可列结果刊行 | R14-CANTOR-1874;R14-SEP-EARLY | 一手核实 |
+| H14-06 | 1874证明与1891对角线证明是不同路线 | R14-SEP-EARLY;R14-CANTOR-1874 | 史料核实 |
+| H14-07 | 有理数可数而在实线上稠密 | R14-MODERN | 数学核算 |
+| H14-08 | 嵌套闭区间避开任一列表项的现代解释 | R14-MODERN;R14-CANTOR-1874 | 现代重构 |
+| H14-09 | 基数相等以双射为准，和顺序类型区分 | R14-SEP-INFINITY | 概念核实 |
+| H14-10 | 实数不可数，基数严格高于自然数 | R14-SEP-EARLY;R14-MODERN | 定理已核 |
+| H14-11 | 康托尔和戴德金均有贡献，避免独自创造的传奇 | R14-SEP-EARLY | 史学限定 |
+| H14-12 | 无限集真子集可能等势但不是所有无限集等势 | R14-SEP-INFINITY;R14-MODERN | 数学限定 |
+| H14-13 | 1878等势及连续统研究不等于CH得到证明 | R14-SEP-EARLY | 史学限定 |
+| H14-14 | 第15章才解释1891对角线法，第16章再进入CH | outline.md;R14-SEP-EARLY | 叙事边界 |
+
+**核算与待审**：双射n↦2n、n↦n²均为不同目标集合的单射满射；正有理数按有限和层枚举须避免重复；嵌套区间需闭区间、递减、长度趋0、每次避开第n项并援引实数完备性。1874 vs 1891不得混写。现阶段仅许可第12—14章初稿、主张映射与目录版本更新；双审、终稿与发布仍待独立流程。
