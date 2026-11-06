@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 14,
+  "current_revision": 15,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -300,13 +300,58 @@
     },
     {
       "chapter": "16",
-      "status": "outline-only",
-      "question": "殖民奴役、保险和商业信用的收益及代价如何分配"
+      "status": "draft-written",
+      "question": "奴隶制、保险和殖民财政补偿如何将不平等的权益转化为可流通金融请求权",
+      "sources": [
+        "F-1601",
+        "F-1602",
+        "F-1603",
+        "F-1604",
+        "F-1605",
+        "F-1606",
+        "F-1607",
+        "F-1608"
+      ],
+      "next_question": "铁路建设需要的长期资本怎样由股份与债券动员"
+    },
+    {
+      "chapter": "17",
+      "status": "draft-written",
+      "question": "铁路股份、分期缴款、债券及公共补助怎样筹集资金又放大流动性风险",
+      "sources": [
+        "F-1701",
+        "F-1702",
+        "F-1703",
+        "F-1704",
+        "F-1705",
+        "F-1706",
+        "F-1707",
+        "F-1708"
+      ],
+      "next_question": "伦敦的承兑汇票与黄金平价如何支持全球资本与贸易结算"
+    },
+    {
+      "chapter": "18",
+      "status": "draft-written",
+      "question": "伦敦承兑贴现和金本位为何提高跨境清算效率又集中金融冲击",
+      "sources": [
+        "F-1801",
+        "F-1802",
+        "F-1803",
+        "F-1804",
+        "F-1805",
+        "F-1806",
+        "F-1807",
+        "F-1808",
+        "F-1809",
+        "F-1810"
+      ],
+      "next_question": "1907年美国信托公司挤兑为何推动流动性支持体系与美联储创设"
     }
   ],
-  "remaining_chapters": "17-40 outline-only",
+  "remaining_chapters": "19-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Prologue and chapters 01-15 have research-level drafts only; final fact and publication audits remain outstanding."
+  "notes": "Prologue and chapters 01-18 have research-level drafts only; chapter 16-18 added at revision 15 with 46 claim mappings and 26 source records. Formal evidence verification and book-wide editorial/publication approval remain outstanding."
 }
