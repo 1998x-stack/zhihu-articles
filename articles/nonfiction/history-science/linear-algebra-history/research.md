@@ -365,3 +365,74 @@
 | C14-07 | Royal Society保存Boole对论文的1858年审稿记录且推荐发表 | H14-S3 | 史实但不编造场景 |
 
 **可交付结论**：第12—14章历史骨架有独立外部依据；数学推导可验算；因年代前驱、公理化和一般证明的边界已查清，可交非虚构架构与正文。仍没有正式双审及终稿批准。
+
+
+## 第15—17章专项史料核证（2026-11-06）
+
+> **阶段：fact-research / 主类型：genre-history-science / 范围：仅第15—17章。** 本节先于本批次细纲及正文编写。史实来源包括原始文献书目、历史研究与专业学会材料；M15—M17仅为另行验证的现代数学推导。**不得把后世现代记号、演示题或史学解释当作历史原著原话。** 本批尚未通过独立连续性审计、独立结构审稿或终稿批准。
+
+### 第15章《凯莱—哈密顿：矩阵满足自己的方程吗》
+
+**来源**
+
+- **H15-S1｜MacTutor, Matrices and determinants**（数学史综合，https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/）。凯莱1858年在2×2情形证明、在3×3情形验证并声称一般成立；哈密顿1853四元数相关特殊情形；1878弗罗贝尼乌斯给出一般论证。不同数学语境与贡献不可互相抹去。
+- **H15-S2｜Wolfram MathWorld, Cayley–Hamilton Theorem**（专业公式/历史核验，https://mathworld.wolfram.com/Cayley-HamiltonTheorem.html）。一般命题 p_A(A)=0；凯莱的证明范围；二维公式。
+- **H15-S3｜F. G. Frobenius, Ueber lineare Substitutionen und bilineare Formen, Crelle Journal 84 (1878), 1–63**（一手论文书目，https://doi.org/10.1515/crelle-1878-18788403）。1878原始出版年，网页数字化上架的2019年**不是**当年论文发表年。
+- **H15-S4｜Arthur Cayley, A Memoir on the Theory of Matrices (1858)**（一手论文，https://www.jstor.org/stable/108649）。低阶特征方程与一般性断言。
+- **H15-S5｜MacTutor, Earliest Known Uses (C)**（术语及前驱，https://mathshistory.st-andrews.ac.uk/Miller/mathword/c/）。哈密顿1853四元数有关结果以及凯莱声明的一般性边界。
+- **M15｜现代自证**：A=[[2,1],[0,3]], p_A(t)=t²−5t+6，A²−5A+6I=0、A⁻¹=(5I−A)/6；n阶通用证明可由 adj(tI−A) 的系数递推获得；p_A(I)=2I，故定理不是“代入任何矩阵都为零”。
+
+| claim | 可用事实/定理 | 来源 | 证据强度与边界 |
+|---|---|---|---|
+| C15-01 | 1858凯莱证明低阶、表述一般；非一般完整证明 | H15-S1/S2/S4 | 学术历史，明确低阶证明/三阶核验差别 |
+| C15-02 | 1853哈密顿四元数有关特殊情形，是不同的研究语言 | H15-S1/S5 | 不推称其原文就是现代全部矩阵定理 |
+| C15-03 | 1878弗罗贝尼乌斯论文及一般证明 | H15-S1/S3 | 史料与出版物 |
+| C15-04 | p_A(A)=0 对任意域上方阵成立，示例可验 | H15-S2/M15 | 现代数学 |
+| C15-05 | 通用伴随矩阵证明需要先建立多项式恒等式，不能写det(A−A)=0为证明 | M15 | 现代证明与易错边界 |
+| C15-06 | 可逆时可用特征多项式把逆变成低次多项式 | M15 | 现代推论 |
+| C15-07 | 该成果把矩阵当代数对象，但不能把所有后续谱研究都归1858 | H15-S1/S2 | 史学解释 |
+
+### 第16章《弗罗贝尼乌斯与秩：变换究竟保留什么》
+
+**来源**
+
+- **H16-S1｜Frobenius, Ueber lineare Substitutionen und bilineare Formen (1878)**（原著期刊书目，https://doi.org/10.1515/crelle-1878-18788403）。一手发表，原始年份1878，1–63页，讨论线性代换和双线性型。
+- **H16-S2｜MacTutor, Matrices and determinants**（专业数学史，https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/）。1878论文涉及矩阵秩、标准形、正交性及一般凯莱—哈密顿定理；弗罗贝尼乌斯当时**并未**沿用matrix一词，1896年才了解到凯莱1858论文；1868魏尔斯特拉斯、1874克罗内克相关先例。
+- **H16-S3｜Jean-Luc Dorier, A general outline of the genesis of vector space theory, Historia Mathematica 22(3) (1995), 227–261**（专业史学，https://www.sciencedirect.com/science/article/pii/S0315086085710245）。线性方程研究及几何结构研究并行汇入线性观念；秩的抽象是长期积累，不能写1878从无到有。
+- **H16-S4｜MacTutor, Biographical/history discussion**（专业叙述，https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/）。不能混淆“矩阵秩”的1878系统定义、“nullity”的1884西尔维斯特文本及现代秩—零度定理。
+- **M16｜现代自证**：A=[[1,2,0],[2,4,0],[0,0,3]]，三阶行列式0但有二阶子式3≠0，秩2；核空间span{(-2,1,0)}，像空间span{(1,2,0),(0,0,3)}。左/右乘可逆矩阵保持秩；A与B同秩不保证相似：diag(1,0)与diag(2,0)同秩不同特征值。b=(1,2,3)相容且不唯一，b=(1,3,3)不相容。
+
+| claim | 命题 | 来源 | 限定 |
+|---|---|---|---|
+| C16-01 | 弗罗贝尼乌斯1878重要论文、以线性代换和双线性型为中心 | H16-S1/S2 | 史实，不强行写其当时用现代matrix术语 |
+| C16-02 | 秩、分类与不变量此前已有多人先行工作 | H16-S2/S3 | 历史脉络，多人贡献 |
+| C16-03 | 现代最大非零子式阶数与像维数、独立行列数一致 | M16 | 数学原理，非1878原文照排 |
+| C16-04 | 满秩/亏秩与核空间、解集区别，算例回代 | M16 | 现代数学 |
+| C16-05 | P A Q (P,Q可逆)秩不变；同秩不等于相似 | M16 | 现代数学，等价与相似不同 |
+| C16-06 | 1884西尔维斯特nullity、1896弗罗贝尼乌斯了解凯莱研究 | H16-S2/S4 | 时间线限制 |
+| C16-07 | 秩作为信息保存量与下一部特征方向形成不同问题 | H16-S3/M16 | 现代解释，非唯一历史传承 |
+
+### 第17章《欧拉与拉格朗日：旋转物体的隐藏方向》
+
+**来源**
+
+- **H17-S1｜Leonhard Euler and the mechanics of rigid bodies, European Journal of Physics 38 (2017)**（2016在线发表专业回顾，https://doi.org/10.1088/0143-0807/38/1/015001）。欧拉1738—1775相关刚体力学发展，1752/1765/1776著作，惯性张量分量、主惯性轴、欧拉角与欧拉方程；**不**断言在某一日完整发明现代对称矩阵谱定理。
+- **H17-S2｜1911 Encyclopaedia Britannica, Mechanics**（公版历史术语回顾，https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Mechanics）。1755 Segner主轴/永久轴早期研究，不得用“欧拉独自最先发现全部主轴”覆盖。
+- **H17-S3｜Pacific Euler Archive, Découverte d'un nouveau principe de mécanique**（原著著录及历史简介，https://scholarlycommons.pacific.edu/euler-works/177/）。著作**1750年撰写、1752年刊出**，涉及刚体与后来称作惯性张量的概念；年代须区分。
+- **H17-S4｜Lagrange and the secular equation, Lettera Matematica (2014)**（研究数学史，https://doi.org/10.1007/s40329-014-0051-3）。拉格朗日**1766年**关于小振动的论文；1788《分析力学》；特征方程/久期方程来自耦合微分方程，不直接等于今天矩阵记号。
+- **H17-S5｜MacTutor, Lagrange Analytical Mechanics**（数学史，https://mathshistory.st-andrews.ac.uk/Extras/Lagrange_Analytical_Mechanics/）。1788《分析力学》统一广义坐标与分析力学研究，不能把拉格朗日仅当成欧拉主轴定理的简单注脚。
+- **H17-S6｜MacTutor, Segner**（人物参考，https://mathshistory.st-andrews.ac.uk/Biographies/Segner/）。塞格纳的刚体研究背景。
+- **M17｜现代自证**：对称惯性矩阵I=[[3,1,0],[1,3,0],[0,0,5]]，正交单位特征向量u+=(1,1,0)/√2, u−=(1,−1,0)/√2, u3=(0,0,1)，特征值4,2,5；二次型3x²+2xy+3y²+5z²=4a²+2b²+5c²（a=(x+y)/√2,b=(x−y)/√2,c=z）。对照K=[[3,−1],[−1,3]]的小振动方程q¨+Kq=0：同相(1,1)模态ω²=2，反相(1,−1)模态ω²=4。
+
+| claim | 历史/数学 | 来源 | 保留边界 |
+|---|---|---|---|
+| C17-01 | 1755塞格纳关于主轴的早期研究 | H17-S2/S6 | 不写欧拉唯一首创 |
+| C17-02 | 欧拉1750撰写/1752刊出、1758相关工作/1765专著的刚体力学发展 | H17-S1/S3 | 收稿、研究、印行年份分清；1758具体细节引用时收窄 |
+| C17-03 | 拉格朗日1766小振动、1788《分析力学》推进特征方程研究 | H17-S4/S5 | 不冒充现代矩阵谱定理原文 |
+| C17-04 | 实对称惯性矩阵主轴为正交特征向量，数值例可检验 | M17 | 现代教学 |
+| C17-05 | 角动量L=Iω，非主轴方向可能不平行；动能可分解 | M17 | 现代力学表述 |
+| C17-06 | 耦合振动的独立模态与频率平方特征值关系 | H17-S4/M17 | 现代重构/历史动机分开 |
+| C17-07 | 正交主轴依赖实对称条件，不可把任意实矩阵都称可正交对角化 | M17 | 适用范围 |
+| C17-08 | 第17章从18世纪回溯，因谱理论历史起源早于矩阵代数而非年代错误 | H17-S1/S4 | 编辑顺序声明 |
+
+**可交付到下一阶段的证据结论**：第15—17章的叙事关键日期、论文与贡献归属有可检索的历史或专业材料支撑。数学例题已先行用独立符号计算复核，但文内仍须展示步骤。未得到资料支持的会议现场、人物引语、心理和单一首创说法一律不得写成事实。
