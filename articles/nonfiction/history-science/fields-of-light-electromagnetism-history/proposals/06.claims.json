@@ -1,0 +1,166 @@
+{
+  "chapter": "06",
+  "title": "两根导线为什么会相互拉扯",
+  "kind": "independent_nonfiction_chapter_candidate",
+  "manuscript_path": "proposals/06.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_CHECK",
+  "claims": [
+    {
+      "claim_id": "E06-01",
+      "claim": "1820年奥斯特发现推动巴黎安培探索电流间力",
+      "kind": "历史事实",
+      "source_ids": [
+        "S06-01",
+        "S06-04"
+      ],
+      "manuscript_section": "§一/§二",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E06-02",
+      "claim": "安培1820年9月18和25日有报告，并于10月2日整理相关研究",
+      "kind": "文献发表与宣读史",
+      "source_ids": [
+        "S06-02",
+        "S06-03"
+      ],
+      "manuscript_section": "§二",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E06-03",
+      "claim": "同向平行电流相吸、反向相斥是安培研究基本实验结果",
+      "kind": "历史物理结果",
+      "source_ids": [
+        "S06-01",
+        "S06-02"
+      ],
+      "manuscript_section": "§一/§三",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E06-04",
+      "claim": "安培历史研究区分静电张力与闭合回路电流效应",
+      "kind": "历史文本解释",
+      "source_ids": [
+        "S06-02"
+      ],
+      "manuscript_section": "§二",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E06-05",
+      "claim": "安培曾提出由微观环流解释磁体表现的设想",
+      "kind": "历史假说而非已证微观机制",
+      "source_ids": [
+        "S06-02",
+        "S06-04"
+      ],
+      "manuscript_section": "§四",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E06-06",
+      "claim": "安培1826理论系统地考察电流元素间作用、与现代场论不同",
+      "kind": "历史理论和年代",
+      "source_ids": [
+        "S06-04"
+      ],
+      "manuscript_section": "§五",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E06-07",
+      "claim": "长直导线磁力每单位长度现代关系F/L=μ0|I1I2|/(2πd)",
+      "kind": "现代近似物理",
+      "source_ids": [
+        "S06-05"
+      ],
+      "manuscript_section": "§六",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E06-08",
+      "claim": "静电点源平方反比与长直导线一次反比属于不同几何对象",
+      "kind": "现代物理解释",
+      "source_ids": [
+        "S06-05"
+      ],
+      "manuscript_section": "§六",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E06-09",
+      "claim": "国际单位制安培在2019年重新定义，不再以导线间力作为基本定义",
+      "kind": "现代计量史",
+      "source_ids": [
+        "S06-01",
+        "S06-06"
+      ],
+      "manuscript_section": "§七",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    },
+    {
+      "claim_id": "E06-10",
+      "claim": "安培早期理论不能等同现代电子自旋或麦克斯韦矢量方程",
+      "kind": "历史/现代严格区分",
+      "source_ids": [
+        "S06-04",
+        "S06-05"
+      ],
+      "manuscript_section": "§四/§八",
+      "verification": "已按公开资料核对支撑范围；原著及争议未完成全量双源审计"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S06-01",
+      "title": "NIST: Ampere History",
+      "url": "https://www.nist.gov/si-redefinition/ampere/ampere-history",
+      "source_type": "计量机构历史综述",
+      "checked_scope": "支持平行电流方向与力、旧SI定义与2019年更新"
+    },
+    {
+      "source_id": "S06-02",
+      "title": "Ampère October 2 1820 memoir English translation",
+      "url": "https://commons.princeton.edu/josephhenry/wp-content/uploads/sites/71/2025/07/Amperes-Memoir-translation.pdf",
+      "source_type": "历史论文现代英译",
+      "checked_scope": "可检索原文英译中9月18/25及10月2脉络；未进行逐页原版校勘"
+    },
+    {
+      "source_id": "S06-03",
+      "title": "Smithsonian Ampère memoir bibliographic catalog",
+      "url": "https://siris-libraries.si.edu/ipac20/ipac.jsp?index=BIB&term=110038",
+      "source_type": "馆藏书目",
+      "checked_scope": "可见1820、1822版本及不同学术报告先后"
+    },
+    {
+      "source_id": "S06-04",
+      "title": "Ampère Archives: Newtonian Law 1820-1826",
+      "url": "https://ampere-archives.fr/histoire-electricite/parcours-historique/lois-courants/ampere-loi/eng",
+      "source_type": "历史学者撰写专题",
+      "checked_scope": "安培电流理论、内部电流假说与数学关系；无完整1826原版页码"
+    },
+    {
+      "source_id": "S06-05",
+      "title": "OpenStax: Magnetic Force between Parallel Currents",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/12-3-magnetic-force-between-two-parallel-currents",
+      "source_type": "现代大学物理教材",
+      "checked_scope": "长直平行导线力公式及模型条件"
+    },
+    {
+      "source_id": "S06-06",
+      "title": "BIPM: SI Base Unit Ampere",
+      "url": "https://www.bipm.org/en/si-base-units/ampere",
+      "source_type": "国际计量标准",
+      "checked_scope": "2019后固定基本电荷数值的SI定义"
+    }
+  ],
+  "unresolved": [
+    "以原始法文文献核对1820年平行导线实验确切发现/报告日期",
+    "对照1826安培著作具体电流元素相互力、各版次及电磁解释",
+    "核验1820年代器材细节与后世科学史竞争解释"
+  ]
+}
