@@ -164,3 +164,48 @@
 
 - **H49** [Merton College Oxford｜*Mathematics at Merton*](https://www.merton.ox.ac.uk/mathematics-merton)，其中概述14世纪默顿计算学派；以及 [MacTutor｜*Nicole Oresme*](https://mathshistory.st-andrews.ac.uk/Biographies/Oresme/) 对奥雷姆的平均速度定理几何证明的研究。可与伽利略1638年的第三日文本比对：不能把平均速度定理视为伽利略独创，古人亦未使用现代符号。
 
+
+## 第08—10章｜不可分量、解析几何与拟等法：增量史料研究（2026-11-06）
+
+**批次定位**：按既定提纲专题推进。08（1635、1647）→09（1637）→10（1629—1630年代的研究、1638论争）并非逐年递增；10章应明确为**对更早手稿的时间回溯**。不修改先前已确立的主题和其他章节。
+
+### 已核对来源与可用范围
+
+- **H50** Mathematical Association of America，[*Mathematical Treasure: Cavalieri’s Geometria Indivisibilibus*](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-cavalieri-s-geometria-indivisibilibus)。资料含1635年《Geometria indivisibilibus》版本的标题页与卷七命题一图解；支持原著书名、版次及跨截线方法，**不是现代实数积分的证明**。
+- **H51** MacTutor，[Bonaventura Cavalieri](https://mathshistory.st-andrews.ac.uk/Biographies/Cavalieri/)，具体“Biography”第35—57行：1627年完成稿、1635年发表、1629年博洛尼亚数学教职；“all the lines / all the planes” 的比较及古尔丁（Paul Guldin）批评；1647年《Exercitationes geometricae sex》答辩。注意生平传记中的宗教与私生活轶事非本章研究要点。
+- **H52** Stanford Encyclopedia of Philosophy，[Infinity](https://plato.stanford.edu/entries/infinity/)，§2.2 “Theory of indivisibles and points at infinity”；支持1635不可分量与托里拆利1644年无穷长有限体积实例的不同历史层次；**不可将后者归于卡瓦列里**。
+- **H53** MAA，[Cavalieri’s Indivisibles (1647)](https://old.maa.org/press/periodicals/convergence/mathematical-treasure-cavalieris-indivisibles)。支持1647《Exercitationes geometricae sex》、修订回应批评、以相同高度同位平面截面积比较立体体积的原则。
+- **H54** Paolo Rossini，[*Giordano Bruno and Bonaventura Cavalieri*](https://repub.eur.nl/pub/127006/Rossini_Giordano-Bruno-and-Bonaventura-Cavalieri.pdf)，*Intellectual History Review*，相关节“Cavalieri’s method of indivisibles”：区别几何对象“all the lines/all the planes”与原子论的物理分割主张。**专用范围**为史学解释，若读PDF影印须逐页核对；不假称直接逐页核验。
+- **H55** Stanford Encyclopedia of Philosophy，[Descartes’ Mathematics](https://plato.stanford.edu/entries/descartes-mathematics/)，2025-04-07修订，§1、§3：1637《La Géométrie》作为《方法谈》附录；巴布斯问题、几何曲线的方程和按次数分类；不是笛卡尔独创现代直角坐标纸或已建立普遍导数。
+- **H56** Philip Beeley，[*Geometry*](https://www.cambridge.org/core/books/abs/cambridge-descartes-lexicon/geometry/1A4CC31CA915B00F7CCC91FEABBE9A0B)，*The Cambridge Descartes Lexicon* (2016)，书章摘要支持《几何学》作为1637年《方法谈》最后附录、莱顿Jan Maire印刷，以及代数化几何的问题背景。
+- **H57** AMS *Notices* (2022)，[*The Rise of Calculus*](https://doi.org/10.1090/noti2593)（原仓库H02）：摘要讨论卡瓦列里方法、笛卡尔以圆相切/代数重根求法线，以及费马的伪等式与之后的Hudde、de Sluse。可作跨章概览，但**不能仅凭综述判定1630年代所有算法的严格性**。
+- **H58** MacTutor，[Pierre de Fermat](https://mathshistory.st-andrews.ac.uk/Biographies/Fermat/)，第25—40行：1620年代末波尔多数学工作、约1629年的极值探索、1636年通信与手稿的不同传布阶段。**日期不能把‘研究出现’写成‘当年正式出版’**。
+- **H59** 费马著作原文编订本：[Œuvres de Fermat, tome I, “Maxima et Minima”](https://fr.wikisource.org/wiki/%C5%92uvres_de_Fermat/I/Maxima_et_Minima)，Tannery（1891）编辑，初篇“Methodus ad disquirendam maximam et minimam”及“De tangentibus linearum curvarum”：用变量A、附加量E、`adaequatio`、先除去E再舍去仍含E之项；原书举出将线段分成两份使矩形面积最大、抛物线切线问题。**编订文本不是1630年代当年的出版物，符号现代化须说明**。
+- **H60** Evelyne Barbin，[“Universality versus generality: an interpretation of the dispute over tangents between Descartes and Fermat”](https://academic.oup.com/edited-volume/41254/chapter-abstract/350819321)，*Oxford Handbook of Generality in Mathematics and the Sciences*，2017，pp.413–432；摘要明确1638年开始的切线方法争论，并区分笛卡尔方法追求的普遍性与费马方法的广泛规则。
+- **H61** Katz、Schaps、Shnider，[“Almost equal: Method of adequality from Diophantus to Fermat and beyond”](https://arxiv.org/abs/1210.7750) (2012)，摘要指出拟等意义存在多种史学解读；这是支持**解释存在争议**的研究，不应说“拟等=今天的ε-δ极限”或“拟等=现代非标准分析标准部”的确定史实。
+- **H62** Sébastien Maronne，[“The ovals in the Excerpta Mathematica and the origins of Descartes’ method of normals”](https://www.sciencedirect.com/science/article/pii/S0315086010000261)，*Historia Mathematica* 37(3) (2010) 460–484，摘要支持笛卡尔作法线与光学曲线的背景、早于1637的残篇著述须与正式出版分开。对代数重根方法的现代重构见H55和H57。
+
+### 分章关键主张与核证边界
+
+| 章 | 支撑主张 | 对应源 | 风险与修辞限定 |
+| --- | --- | --- | --- |
+| 08 | 1627稿、1635书、1647回应 | H50 H51 H53 | 研究、出版、回应三事件分开 |
+| 08 | 用全体平行截线/截面作几何量比较 | H51 H52 H54 | 不说面积等于「每条零面积线的数值直接求和」 |
+| 08 | 两图形相同高度、每层截线等长则面积相等 | H51 H53 | **同一高度逐一对应**，不是总长度巧合 |
+| 08 | 古尔丁质疑并非某一个“宗教集团禁数学”故事 | H51 H54 | 允许几何连续统的真实论证争议 |
+| 08 | 托里拆利发展不可分量理论 | H52 | 1644无穷立体是后续发展，不挪到1635 |
+| 09 | 1637《几何学》与《方法谈》关系、代数曲线 | H55 H56 | 代数几何仍受曲线构造合法性标准约束 |
+| 09 | 用相切圆的重根确定法线 | H57 H62 | 简单现代示例不冒充笛卡尔原题 |
+| 09 | 不是笛卡尔单人发明现代坐标系 | H55 | 维耶特及费马等人前史，纵横轴图为现代教学 |
+| 10 | 费马A与E的拟等法、矩形极值 | H59 H58 | E并非普通等号，不能先令E=0再除 |
+| 10 | 切线方法与1638争论 | H59 H60 H57 | 初始研究与争论时间回溯分开 |
+| 10 | 拟等具体意义有争议 | H61 H59 | 现代差商解释≠完整复原其论证 |
+| 10 | 与牛顿/莱布尼茨的普遍微分体系有差距 | H57 H55 | 评价贡献不走“某人独自发明微积分”口号 |
+
+### 教学数学检查计划
+
+- **08**：比较矩形 `0≤x≤2,0≤y≤1` 与平行剪切四边形 `y≤x≤y+2,0≤y≤1`；所有高度的水平截线长度恰好2；两者面积严格同为2。现代写法 `\int_0^1 2\,dy=2` 是后世回译，逻辑需要明确连续性/可测性条件。
+- **09**：比较抛物线 `y=x²` 和圆 `x²+(y−3/2)²=5/4`；消去y得 `(x²−1)²=0`，在 `(1,1)` 存在二重根；圆心至点法线斜率−1/2，因此切线斜率2。属于可复算的**现代改写模型**，不是1637原稿。
+- **10**：长10的线段分成x与10−x，矩形面积 `f(x)=x(10−x)`；`f(a+e)−f(a)=e(10−2a−e)`。经拟等、除e、去含e项求得a=5，另以 `25−(x−5)²≤25` 证明最大。现代切线 `[(a+e)²−a²]/e=2a+e\to2a` 为教学模型，不等于费马原始切线演算。
+ 
+**交付范围**：可以据以上材料撰写三篇*未审稿*章节与claims数据。整体`workflow-state.json`仍是 `outline_approved=false/evidence_verified=false/review_status=PENDING`；没有审稿工作流确认就不能升级为终稿。
