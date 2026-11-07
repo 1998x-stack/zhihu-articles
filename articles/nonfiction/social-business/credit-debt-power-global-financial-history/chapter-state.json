@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 18,
+  "current_revision": 21,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -407,13 +407,70 @@
     },
     {
       "chapter": "22",
+      "status": "draft-written",
+      "question": "1923恶性通胀如何使固定名义马克债权失去购买力与租赁马克如何恢复信用",
+      "next_question": "1929—1933美国通缩如何反过来加重名义债务和银行危机",
+      "sources": [
+        "F-2201",
+        "F-2202",
+        "F-2203",
+        "F-2204",
+        "F-2205",
+        "F-2206",
+        "F-2207",
+        "F-2208",
+        "F-2209",
+        "F-2210",
+        "F-2211"
+      ]
+    },
+    {
+      "chapter": "23",
+      "status": "draft-written",
+      "question": "1929股市崩盘以外的银行失败、金本位约束和信用中介损伤为何拖长大萧条",
+      "next_question": "1935中国货币改革为何回应白银价格和国内金融制度变化",
+      "sources": [
+        "F-2301",
+        "F-2302",
+        "F-2303",
+        "F-2304",
+        "F-2305",
+        "F-2306",
+        "F-2307",
+        "F-2308",
+        "F-2309",
+        "F-2310",
+        "F-2311",
+        "F-2312"
+      ]
+    },
+    {
+      "chapter": "24",
+      "status": "draft-written",
+      "question": "1935中国法币为何改写银币旧债与银行发钞法权，1948金圆券危机说明什么",
+      "next_question": "1944布雷顿森林如何处理多国货币之间的贸易清算承诺",
+      "sources": [
+        "F-2401",
+        "F-2402",
+        "F-2403",
+        "F-2404",
+        "F-2405",
+        "F-2406",
+        "F-2407",
+        "F-2408",
+        "F-2409",
+        "F-2410"
+      ]
+    },
+    {
+      "chapter": "25",
       "status": "outline-only",
-      "question": "1919—1924德国通胀与债务关系如何重组"
+      "question": "1944布雷顿森林为什么把美元放在中心"
     }
   ],
-  "remaining_chapters": "23-40 outline-only",
+  "remaining_chapters": "26-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Prologue and chapters 01-21 have research-level full drafts. Chapter 19-21 sources and claims indexed Revision 18. Primary verification and final approval pending."
+  "notes": "Prologue and chapters 01-24 written as research-level complete drafts; batch 22-24 revision21 evidence and independent review status tracked; no final approval."
 }

@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 18,
+  "current_revision": 21,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -55,9 +55,16 @@
     "CH20-1907-08-GOVERNMENT-REMITTANCE-DENOMINATOR",
     "CH20-1897-1908-NEW-BANK-CHARTERS",
     "CH21-1914-GOLD-STATUTE-LAW-VS-PRACTICE",
-    "CH21-GOLD-EXPORT-AND-WAR-BOND-ARCHIVES"
+    "CH21-GOLD-EXPORT-AND-WAR-BOND-ARCHIVES",
+    "CH22-RENTENBANK-1923-GERMAN-PRIMARY-ACT",
+    "CH22-HYPERINFLATION-SOCIAL-DISTRIBUTION",
+    "CH23-1930-33-BANK-SUSPENSION-VS-CLOSURE",
+    "CH23-GOLD-STANDARD-MONEY-CREDIT-COMPETING-ESTIMATES",
+    "CH24-1935-FABI-ORIGINAL-CHINESE-LEGAL-EDITION",
+    "CH24-US-SILVER-POLICY-CAUSAL-COUNTEREVIDENCE",
+    "CH24-1948-GOLD-YUAN-ORIGINAL-FISCAL-RECORDS"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Research-level full drafts of chapters 19-21 added in Revision 18. 33 new source records and 58 chapter claim mappings. Original company ledgers, competing piaohao chronology, and 1914 gold laws vs actual use await full independent primary verification. outline_approved=false, evidence_verified=false, final_approved=false; CHANGES_REQUIRED."
+  "notes": "Batch chapters 22-24 drafted and preliminarily source-audited in revision 21 (2026-11-07); 33 new provenance-labelled records and 65 mapped claims. German 1923 monetary acts, US Depression bank balance sheets, Chinese 1935 original decrees and 1948 regional reforms await publication-level checks. outline_approved=false, evidence_verified=false, final_approved=false, CHANGES_REQUIRED."
 }
