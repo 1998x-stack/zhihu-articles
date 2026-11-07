@@ -1,6 +1,6 @@
 # 章级主张—来源台账（规划态）
 
-> 本表第01—08章已建立58条可回溯主张的受限研究记录（01—04为25条、05—08为33条，见逐章 `.claims.json`），第09—45章仍是**研究问题占位**，不是已核实结论；正式 `nonfiction-architect` 需依据 `research.md` 补充分项证据后再批准。
+> 本表第01—12章已建立106条可回溯主张的受限研究记录（01—04为25条、05—08为33条、09—12为48条，见逐章 `.claims.json`），第13—45章仍是**研究问题占位**，不是已核实结论；正式 `nonfiction-architect` 需依据 `research.md` 补充分项证据后再批准。
 
 | 主张编号 | 章 | 待检验的核心问题 | 来源线索 | 状态 |
 |---|---|---|---|---|
@@ -12,10 +12,10 @@
 | C06-01 | [06](draft/part-02-han-treasury/06.md) | 降低田租为何不等于各类家庭负担同步下降？ | B01相关章：轻田租 | RESEARCH_DRAFT（详见06.claims.json） |
 | C07-01 | [07](draft/part-02-han-treasury/07.md) | 经济恢复为什么也可能重新分配国家和豪强的力量？ | B01相关章：国弊家丰 | RESEARCH_DRAFT（详见07.claims.json） |
 | C08-01 | [08](draft/part-02-han-treasury/08.md) | 持久战争及国家行动如何催生官营和流通干预？ | B01相关章：财政政策、国家专营 | RESEARCH_DRAFT（详见08.claims.json） |
-| C09-01 | [09](draft/part-02-han-treasury/09.md) | 维护财力与限制政府经营，哪一种治理方案更合理？ | B01相关章：国家专营 | TODO_VERIFY |
-| C10-01 | [10](draft/part-02-han-treasury/10.md) | 民间财富壮大为何可能伴随国家直接控制资源能力下降？ | B01相关章：国弊家丰、财富战争 | TODO_VERIFY |
-| C11-01 | [11](draft/part-03-land-and-labor/11.md) | 战争中的国家怎样把土地、劳动力和军粮重新组织起来？ | 独立来源待查 | TODO_VERIFY |
-| C12-01 | [12](draft/part-03-land-and-labor/12.md) | 均田制究竟是平均财富，还是恢复赋役承担者？ | B01相关章：均田制 | TODO_VERIFY |
+| C09-01 | [09](draft/part-02-han-treasury/09.md) | 维护财力与限制政府经营，哪一种治理方案更合理？ | B01相关章：国家专营 | RESEARCH_DRAFT（详见09.claims.json） |
+| C10-01 | [10](draft/part-02-han-treasury/10.md) | 民间财富壮大为何可能伴随国家直接控制资源能力下降？ | B01相关章：国弊家丰、财富战争 | RESEARCH_DRAFT（详见10.claims.json） |
+| C11-01 | [11](draft/part-03-land-and-labor/11.md) | 战争中的国家怎样把土地、劳动力和军粮重新组织起来？ | 独立来源待查 | RESEARCH_DRAFT（详见11.claims.json） |
+| C12-01 | [12](draft/part-03-land-and-labor/12.md) | 均田制究竟是平均财富，还是恢复赋役承担者？ | B01相关章：均田制 | RESEARCH_DRAFT（详见12.claims.json） |
 | C13-01 | [13](draft/part-03-land-and-labor/13.md) | 有粮是否就意味着有足够的人力、运输和社会承受力？ | B01相关章：徭役问题 | TODO_VERIFY |
 | C14-01 | [14](draft/part-03-land-and-labor/14.md) | 以丁为本的赋役为什么依赖土地与户籍条件？ | B01相关章：租庸调制 | TODO_VERIFY |
 | C15-01 | [15](draft/part-03-land-and-labor/15.md) | 战争破坏后的国家为什么不能恢复旧税制就万事大吉？ | B01相关章：租庸调制、两税法 | TODO_VERIFY |
@@ -66,3 +66,14 @@
 - 08：汉武帝政策组+安子毓2024年竞争解释+《盐铁论》编纂性质（Q10、Q11、Q21—Q25），9条。
 
 详细主张都在 `draft/part-01-taxation-and-state/05.claims.json` 和 `draft/part-02-han-treasury/06—08.claims.json`；`FACT_TEXT` 只证成文本有此记载，`BOOK_POSITION` 不证成史实，未完成原始史料逐字对照与独立终审。
+
+## 第三批（09—12）新增48条主张
+
+| 章次 | 主张数 | 关键史料与研究编号 | 约束 |
+|---|---:|---|---|
+| 09 盐铁会议 | 12 | T01—T06、B07 | 会议缘起、与《盐铁论》编纂年代分开 |
+| 10 东汉豪强 | 14 | T07—T13、B08 | 39年光武度田与后世土地依附不可混同 |
+| 11 曹魏屯田 | 10 | T14—T19 | 《三国志》史传数值、民屯军屯界限 |
+| 12 北魏均田 | 12 | T20—T25、B09 | 485年令文、486年前后编户与地方执行分开 |
+
+逐条核查见对应`09.claims.json`、`10.claims.json`、`11.claims.json`、`12.claims.json`；引用源账见`references/batch-03-source-ledger.csv`。史传原文是可证“记载”的证据，不等于逐条完成现场实证；争议性因果仍待独立审校。

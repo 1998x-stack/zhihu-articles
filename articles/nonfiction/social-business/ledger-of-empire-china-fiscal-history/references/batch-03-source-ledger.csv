@@ -1,0 +1,29 @@
+source_id,author_or_org,title,publication,url_or_location,source_type,supported_scope,access_level
+T01,桓宽,盐铁论·本议,西汉后期编纂,https://zh.wikisource.org/zh-hans/鹽鐵論_(四庫全書本)/卷01,transmitted_primary_later_edition,前81年会议文本开场、文学与大夫论证；非会议实录,full_web_text
+T02,班固等,汉书·昭帝纪,东汉编纂,https://zh.wikisource.org/zh-hans/漢書/卷007,early_historiography,始元六年二月问贤良文学、七月罢榷酤官及法律纳税卖酒,full_web_text
+T03,司马迁、班固,史记·平准书；汉书·食货志,西汉至东汉,https://zh.wikisource.org/zh-hans/平準書 ; https://zh.wikisource.org/zh-hans/漢書/卷024,early_historiography,武帝财政经营与军政支出背景；部分政策细节,full_web_text_previous_batch
+T04,杨勇,盐铁会议主题考,现代哲学 2017年第6期 页143—149,https://mphilosophy.sysu.edu.cn/sites/default/files/2020-07/现代哲学2017第6期.pdf,academic_paper,会议原议题为问民疾苦等宽泛治理问题之论证；学术解释非定论,pdf_extracted_text_screenshot_service_failed
+T05,Columbia University Asia for Educators,A Record of the Debate on Salt and Iron,教学节译,https://afe.easia.columbia.edu/main_pop/ps/ps_china-debate-salt-iron.htm,educational_translation,汉代盐铁争论立场及文本性质二手说明,public_web_text
+T06,戴丽华、谢世伟,试论西汉盐铁会议对当前税制改革的启示,税务研究 2026年第2期,https://swxh.cbpt.cnki.net/portal/journal/portal/client/paper/b5048c27037b8b8496a1beff9b0b59d0,academic_abstract,现代研究如何分析税源培植与税收治理；只用作学术解释,search_abstract_only
+T07,范晔,后汉书·刘隆传,南朝宋修史,https://www.njmuseum.org.cn/files/wshl/rbbook/gb/25/houhanshu/hhs24.html,early_historiography,建武十五年检核田亩户口、地方偏袒、官员问责,public_full_text
+T08,范晔；徐天麟,后汉书·光武帝纪；东汉会要 卷31,南朝宋史书和宋代汇编,https://zh.wikisource.org/zh-hant/東漢㑹要_(四庫全書本)/卷31,historiographic_compilation,建武十五年度田背景与诏令；汇编与原始传记有层级区别,public_compiled_text
+T09,徐天麟所录仲长统、荀悦及秦彭材料,东汉会要 卷31·田制,宋代汇编,https://zh.wikisource.org/zh-hant/東漢㑹要_(四庫全書本)/卷31,historiographic_compilation,豪强占田政治批评、建初三年秦彭土地等级文簿；非统计,public_compiled_text
+T10,魏收,魏书·食货志（卷110）,北齐修史,https://zh.wikisource.org/zh-hans/魏書/卷110,early_historiography,485均田令露田桑田牛奴婢及三长制法条；非全国完成率,full_web_text
+T11,陈寿,三国志·魏书·任峻传（卷16）,西晋修史,https://zh.wikisource.org/zh-hans/三國志/卷16,early_historiography,许下屯田、任峻典农中郎将、百万斛记载,full_web_text
+T12,陈寿、裴松之注,三国志·武帝纪（卷1）及魏书注文,西晋至南朝宋,https://zh.wikisource.org/wiki/三國志/卷01?uselang=ja,primary_historiography_commentary,建安元年枣祗韩浩建议、许下屯田；魏书夸功性质,full_web_text
+T13,杨荣新,曹魏屯田管理方式探索,四川大学学报哲社版 1989年第3期 106—112,https://journal.scu.edu.cn/info/1109/12295.htm,academic_abstract,196—264屯田年表及典农体系管理归属分歧,journal_abstract_only
+T14,李文娟；三国史研究者,二十世纪以来有关曹魏屯田的研究综述；三国史节选,2010；学术专著网络节选,https://m.fx361.com/news/2010/0815/13506336.html ; https://szzy.7lue.cn/read/cb997e253db564b6d19314be91523749/c9114eda187b7944b3cdc6b9895b3e6f.md,academic_review_and_excerpt,民屯军屯组织和屯田民依附程度、分成政策争议,readable_excerpt_not_whole_book
+T15,张金龙,北魏均田制研究史,文史哲 2015年第5期 108—127,https://www.lhp.sdu.edu.cn/info/1053/1716.htm,peer_reviewed_summary,均田渊源、性质、土地授受及执行争论,university_abstract_and_publisher_excerpt
+T16,张金龙,北魏均田制实施考论,首都师范大学学报 2017年第1期,https://m.fx361.com/news/2017/0516/21387710.html,peer_reviewed_excerpt,485颁令、全国推行与证据争议；当前只见网页节选,public_intro_excerpt
+T17,程念祺,通鉴三长制系年发微——兼论北魏均田制的性质和作用,中华文史论丛 2012年第3期,https://www.sass.org.cn/2012/1106/c1203a26511/page.htm,academic_summary,485/486两制相互联系与地区先行组织解释,academy_abstract
+T18,张金龙,北魏均田制颁行时间再议,烟台大学学报哲社版 2014年第5期,https://ygx.sxu.edu.cn/portals/search/allSearchList?match=like&pageNo=1&searchFld=keywordst&searchWord=颁行时间,academic_database_abstract,485颁布与486三长先后文本矛盾及实施时间差,database_search_abstract
+T19,柿沼阳平（Kakinuma Yohei）,戦国秦漢時代における塩鉄政策と国家的専制支配,史学雑誌 2010 119(1) 1—36,https://doi.org/10.24471/shigaku.119.1_1,academic_abstract,战国秦汉盐铁官营与征税私营并存及演化，非前81年单点统计,journal_abstract
+T20,美国国会图书馆,Yan tie lun: Shi juan / 鹽鐵論十卷,古籍馆藏书目,https://www.loc.gov/item/2021666477/,library_catalog,桓宽编纂及明代刻本的物证与书目资料,institutional_catalog
+T21,陈苏镇,东汉的豪族与吏治,文史哲 2010年第6期 41—58,https://ir.pku.edu.cn/handle/20.500.11897/163860?mode=full,academic_abstract,东汉豪族与国家行政互构以及抑制豪族的吏治政策,university_repository_abstract
+T22,Patricia Buckley Ebrey,The historical development of the aristocratic families,Cambridge University Press 1978 15—33,https://doi.org/10.1017/CBO9780511759857.003,academic_book_summary,两汉豪族与后世士族不属简单持续的单一集团,publisher_summary
+T23,Michael Loewe,Dynastic Decline in Eastern Han,Monumenta Serica 2019 67(1) 11—32,https://doi.org/10.1080/02549948.2019.1603430,peer_reviewed_abstract,东汉衰落多因素包括私人庄园、政治亲属及社会安置,journal_abstract
+T24,谢宇、董慕达（Miranda Brown）,天地之间：东汉官员的双重责任,社会 2011 31(4) 1—28,https://www.society.shu.edu.cn/CN/Y2011/V31/I4/1,peer_reviewed_abstract,东汉地方官员对中央和地方利益的双重责任,journal_abstract
+T25,日本山形大学研究者,建武度田政策始末攷(下) : 後漢の建国期における国家と社会,山形大学纪要社会科学 2003 33(2) 1—37,https://yamagata.repo.nii.ac.jp/records/1009,academic_abstract,建武39—40年度田清查及豪族土地不平等的专门研究,university_abstract
+B07,刘守刚,何以帝国·国家专营,浙江人民出版社 2022,user-provided EPUB: EPUB/xhtml/Section00007_0004.xhtml,user_book_author_view,盐铁会议两派财政国家经营解释；非实录,user_provided_ebook
+B08,刘守刚,何以帝国·国弊家丰／财富战争,浙江人民出版社 2022,user-provided EPUB: EPUB/xhtml/Section00007_0005.xhtml ; Section00007_0006.xhtml,user_book_author_view,豪强与国家财政竞争的作者观点；不可直接作为灭汉因果证据,user_provided_ebook
+B09,刘守刚,何以帝国·均田制,浙江人民出版社 2022,user-provided EPUB: EPUB/xhtml/Section00008_0002.xhtml,user_book_author_view,均田将土地人口赋役连接的财政解释；实施程度另核,user_provided_ebook

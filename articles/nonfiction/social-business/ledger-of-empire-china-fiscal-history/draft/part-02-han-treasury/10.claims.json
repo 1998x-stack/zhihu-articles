@@ -1,0 +1,179 @@
+{
+  "chapter": "10",
+  "status": "RESEARCH_DRAFT",
+  "review_status": "PENDING",
+  "scope": "bounded research evidence only; no independent review, no publication approval",
+  "claims": [
+    {
+      "claim_id": "C10-01",
+      "statement": "建武十五年朝廷要求调查垦田、户口和年龄",
+      "source_ids": [
+        "T07",
+        "T08"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "《后汉书》记录，并非现存原诏文",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-02",
+      "statement": "地方官在清查时偏袒豪右、侵刻羸弱",
+      "source_ids": [
+        "T07"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "史传定性，无法据此推算全国比例",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-03",
+      "statement": "河南南阳不可问反映对政治权贵的执行顾虑",
+      "source_ids": [
+        "T07"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "古代史书叙事，具体对话不能当现场录音",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-04",
+      "statement": "度田不实相关官员遭到追责",
+      "source_ids": [
+        "T07"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "事件记载不同版本需互校",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-05",
+      "statement": "仲长统有关豪人占田的批评具有东汉末政论立场",
+      "source_ids": [
+        "T09"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "政论修辞非全国地籍调查",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-06",
+      "statement": "田税与地主地租是两种不同的法律和经济关系",
+      "source_ids": [
+        "T09"
+      ],
+      "classification": "INTERPRETATION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "不能用史论比例推断全体农户真实税负",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-07",
+      "statement": "章帝建初三年秦彭实施分级田簿的案例",
+      "source_ids": [
+        "T09"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "后世汇编个案，不外推为全国规范",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-08",
+      "statement": "国家征收取决于登记与地方执行者的合作",
+      "source_ids": [
+        "T07",
+        "T09"
+      ],
+      "classification": "INTERPRETATION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "制度机制解释，非已量化因果",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-09",
+      "statement": "北魏荫附材料不能直接倒推东汉全部家庭依附关系",
+      "source_ids": [
+        "T10"
+      ],
+      "classification": "INTERPRETATION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "比较需要区分时代法律和政治背景",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-10",
+      "statement": "国弊家丰是刘守刚的跨朝代财政解释",
+      "source_ids": [
+        "B08"
+      ],
+      "classification": "BOOK_POSITION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "不等于豪强单因导致汉亡",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-11",
+      "statement": "东汉皇朝与豪族关系兼有支持与约束两个面向",
+      "source_ids": [
+        "T21"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "陈苏镇学术摘要，不能泛化全时期执行结果",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-12",
+      "statement": "两汉豪族和后世门阀家族不是同一固定集团",
+      "source_ids": [
+        "T22"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "剑桥出版社章节简介，未通读专著",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-13",
+      "statement": "东汉官员既对中央负责又对地方利益发生责任联系",
+      "source_ids": [
+        "T24"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "社会学解释框架，非所有官吏的具体心理",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    },
+    {
+      "claim_id": "C10-14",
+      "statement": "东汉衰落与政治、土地经营、人口安置多因素相关",
+      "source_ids": [
+        "T23",
+        "T25"
+      ],
+      "classification": "DISPUTED",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "两项学术观点并列，无法推断唯一决定因果",
+      "event_time": "东汉39年及后续",
+      "chapter_file": "draft/part-02-han-treasury/10.md"
+    }
+  ]
+}
