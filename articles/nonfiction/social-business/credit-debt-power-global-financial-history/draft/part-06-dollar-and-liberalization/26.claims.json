@@ -1,0 +1,228 @@
+{
+  "chapter": "26",
+  "chapter_batch": "25-27",
+  "lane": "nonfiction",
+  "revision": 24,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Official historical archives, 1944 treaty and proposal texts, 1971 speech and telegram, IMF and Fed historical source publications crosschecked. Original central-bank series and all primary contracts not independently publication-audited.",
+  "claims": [
+    {
+      "claim_id": "CH26-001",
+      "statement": "1971-08-15尼克松宣布暂停美元兑黄金等储备资产",
+      "source_ids": [
+        "F-2601",
+        "F-2602"
+      ],
+      "classification": "original_speech",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原话强调temporary，不能称当天永久法律废止"
+    },
+    {
+      "claim_id": "CH26-002",
+      "statement": "同一政策包括90天工资价格冻结与10%进口附加税",
+      "source_ids": [
+        "F-2601",
+        "F-2602"
+      ],
+      "classification": "policy_package",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "针对部分进口而非一切商品"
+    },
+    {
+      "claim_id": "CH26-003",
+      "statement": "外国官方兑金与美国居民国内使用纸美元属不同权利",
+      "source_ids": [
+        "F-2603"
+      ],
+      "classification": "institutional_legal_boundary",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是全部美元现金失效"
+    },
+    {
+      "claim_id": "CH26-004",
+      "statement": "特里芬难题涉及全球美元储备需要和黄金信心冲突",
+      "source_ids": [
+        "F-2604"
+      ],
+      "classification": "economic_historical_thesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非不依政策条件而恒真数学定理"
+    },
+    {
+      "claim_id": "CH26-005",
+      "statement": "1961伦敦Gold Pool合作干预私人黄金市场",
+      "source_ids": [
+        "F-2605"
+      ],
+      "classification": "financial_market_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原成员售金份额尚待各国原始报告"
+    },
+    {
+      "claim_id": "CH26-006",
+      "statement": "1968-03-17黄金双轨市场区分私人浮动价与官方每盎司35美元价",
+      "source_ids": [
+        "F-2605"
+      ],
+      "classification": "market_regime_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "1968不是全部官方兑金停止"
+    },
+    {
+      "claim_id": "CH26-007",
+      "statement": "1969IMF特别提款权法律制度建立，1970-01-01首批分配",
+      "source_ids": [
+        "F-2606",
+        "F-2607"
+      ],
+      "classification": "international_reserve_innovation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "SDR不等于商店通行纸币"
+    },
+    {
+      "claim_id": "CH26-008",
+      "statement": "1970首批分配约34亿SDR给104成员",
+      "source_ids": [
+        "F-2606"
+      ],
+      "classification": "quantitative_policy_record",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "这一批不是1970—72三年全部分配额"
+    },
+    {
+      "claim_id": "CH26-009",
+      "statement": "美国1960年代后期物价上涨且外部储备需求增加",
+      "source_ids": [
+        "F-2610",
+        "F-2608"
+      ],
+      "classification": "macroeconomic_historical_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能把通胀仅归因越战一项"
+    },
+    {
+      "claim_id": "CH26-010",
+      "statement": "1971-08-13至15戴维营制定新经济政策",
+      "source_ids": [
+        "F-2603"
+      ],
+      "classification": "event_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "人员决定过程需原始会议记录补校"
+    },
+    {
+      "claim_id": "CH26-011",
+      "statement": "1971-08-16美国发电报向西德说明停兑金与国内贸易政策",
+      "source_ids": [
+        "F-2609"
+      ],
+      "classification": "primary_diplomatic_record",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不得虚构对方私下情绪"
+    },
+    {
+      "claim_id": "CH26-012",
+      "statement": "一国国内美元现金购买力与对外国央行黄金兑付资格有别",
+      "source_ids": [
+        "F-2601",
+        "F-2603"
+      ],
+      "classification": "financial_institution_distinction",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "模型100美元为虚构"
+    },
+    {
+      "claim_id": "CH26-013",
+      "statement": "1971-12史密森协定重估汇率但未恢复完整黄金窗口",
+      "source_ids": [
+        "F-2608"
+      ],
+      "classification": "international_agreement",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能把新官方黄金价当实际可自由兑回"
+    },
+    {
+      "claim_id": "CH26-014",
+      "statement": "1971史密森美国金价35调整到38美元每金衡盎司",
+      "source_ids": [
+        "F-2608"
+      ],
+      "classification": "historical_parity",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "官方记账价非全部私人金市价格"
+    },
+    {
+      "claim_id": "CH26-015",
+      "statement": "史密森允许主要货币约±2.25%新波动区间",
+      "source_ids": [
+        "F-2608"
+      ],
+      "classification": "historical_exchange_rate_rule",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是所有国家无限制全部自由浮动"
+    },
+    {
+      "claim_id": "CH26-016",
+      "statement": "英镑1972年开始浮动、主要货币1973年普遍浮动",
+      "source_ids": [
+        "F-2608"
+      ],
+      "classification": "exchange_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "各国具体时点并不相同"
+    },
+    {
+      "claim_id": "CH26-017",
+      "statement": "1973美国再次调整官方美元金价约42美元每盎司",
+      "source_ids": [
+        "F-2608"
+      ],
+      "classification": "historical_price",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "精确42.22及生效日期正式法令待核"
+    },
+    {
+      "claim_id": "CH26-018",
+      "statement": "1976牙买加协议及1978第二修正案分别为达成与生效",
+      "source_ids": [
+        "F-2611"
+      ],
+      "classification": "international_legal_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "1978新Article IV不同1944旧第四条"
+    },
+    {
+      "claim_id": "CH26-019",
+      "statement": "1978制度允许多种成员汇率制度但有IMF监督义务",
+      "source_ids": [
+        "F-2611"
+      ],
+      "classification": "institutional_legal_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "自由选择汇率并非取消国际义务"
+    },
+    {
+      "claim_id": "CH26-020",
+      "statement": "国际美元负债和贸易网络并不因黄金窗口停止而自动清零",
+      "source_ids": [
+        "F-2604",
+        "F-2608"
+      ],
+      "classification": "financial_network_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "没有直接证明所有市场维持相同占比"
+    },
+    {
+      "claim_id": "CH26-021",
+      "statement": "美元利率和汇率变化形成随后跨境外债风险",
+      "source_ids": [
+        "F-2610",
+        "F-2608"
+      ],
+      "classification": "transition_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "第27章须独立审查具体债务合同"
+    }
+  ]
+}
