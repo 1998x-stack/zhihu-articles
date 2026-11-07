@@ -1,0 +1,29 @@
+source_id,author_or_org,title,publication,url_or_location,source_type,supported_scope,access_level
+Q01,中国国家博物馆,小城故事——湖南龙山里耶秦简文化展,2021,https://www.chnmuseum.cn/zl/gbxz/202104/t20210425_249933.shtml,museum_exhibition,秦统一时间、里耶简数及县级官署文书类型,public_full
+Q02,韩国学术平台收录研究,秦代县廷의 재정운용과 회계처리—里耶秦简为中心,2017,https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002258922,academic_abstract,迁陵县仓储谷物出纳、役徒供应的研究结论范围,abstract
+Q03,司马迁,史记·秦始皇本纪,西汉,https://ctext.org/shiji/qin-shi-huang-ben-ji/zhs,early_historiography,统一时间、郡县与秦始皇后期大型工程记述；巨大人数未独立确证,primary_transmitted
+Q04,Brian Lander,Making Use of the Land: The Political Ecology of China’s First Empire,2022,https://doi.org/10.1017/jch.2022.19,peer_reviewed_article,秦代粮食资源、交通、仓储与行政信息的组织方式,open_full
+Q05,谢坤,秦简牍所见仓储制度研究,2021,https://www.fdgwz.org.cn/Web/Show/5806,academic_book_listing,秦代仓廥及禀食制度专著目录和研究问题，不代表阅读全书,publisher_toc
+Q06,司马迁,史记·秦始皇本纪（工程劳役）,西汉,https://www.chinakongzi.org/content/2741_25241.html,early_historiography,关于道路宫室骊山工程的传世史家记录,primary_transmitted
+Q07,学术研究者,"Frontier walls, labour energetics and Qin imperial collapse",2025,https://www.sciencedirect.com/science/article/pii/S0305440325001621,peer_reviewed_abstract,北部边墙工程的劳力与运输能耗模型，非秦朝全国统计,abstract
+Q08,Chun Fung Tong,"State Power and Governance in Early Imperial China: The Collapse of the Qin Empire, 221–207 BCE",2024,https://www.degruyterbrill.com/document/doi/10.1515/9781438499390/html,academic_book_summary,秦亡解释中的地方资源短缺、行政沟通与新地社会关系；仅出版社概要,publisher_summary
+Q09,司马迁,史记·陈涉世家,西汉,https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7048,early_historiography,前209年陈涉吴广起义及后世叙述；不可当秦律实录,primary_transmitted
+Q10,司马迁,史记·平准书,西汉,https://zh.wikisource.org/zh-hans/%E5%B9%B3%E5%87%86%E4%B9%A6,early_historiography,汉兴困局、诸侯铸钱、盐铁、算缗、告缗、均输、平准,primary_transmitted
+Q11,班固等,汉书·食货志,东汉,https://zh.wikisource.org/zh-hans/%E6%BC%A2%E6%9B%B8/%E5%8D%B7024,early_historiography,高祖轻租、文景税制、武帝前库藏、兼并问题及政论,primary_transmitted
+Q12,班固等；清代汇编者,汉书·文帝纪、景帝纪；西汉会要卷51,东汉及后代,https://zh.wikisource.org/zh-hans/%E8%A5%BF%E6%BC%A2%E6%9C%83%E8%A6%81/%E5%8D%B751,historical_compilation,文帝十三年免田租、景帝减田半租与纪志年份异文,primary_and_compilation
+Q13,彭雨新,关于汉文帝免田租十三年的历史传说,1983,https://jhlt.cbpt.cnki.net/portal/journal/portal/client/paper/72ec0ec2c6000f20f61afcc7ba059733,academic_abstract,连续免租13年说的史学疑义；并非证明实际免租为零,abstract
+Q14,张进（晋文）课题组,秦汉土地制度研究——以简牍材料为中心（项目成果介绍）,2024,https://www.nopss.gov.cn/n1/2024/0509/c373410-40232174.html,academic_project_summary,秦汉租税亩数与产量口径、秦汉税制连续性、新材料修正,public_summary
+Q15,中国科学院自然科学史研究所相关研究,有关汉代农业生产的几个数字,2026在线公开,https://www.ihns.ac.cn/agri-his/history/zgns/dds/202607/t20260723_8254497.html,scholarly_explanation,算赋口赋役钱的传统估计，明确部分学者存在异说,web_article
+Q16,中国文化研究教育机构,The Field System and the Tax and Corvée System in Ancient China,2024前,https://mainuat.chiculture.org.hk/en/china-five-thousand-years/4071,educational_secondary,汉代口赋算赋常用口径（年龄/钱数）不是全时期条文,web_article
+Q17,李恒全,试论税田和秦的田租征收方式,2018,https://fdgwz.org.cn/Web/Show/4211,academic_article,张家山汉简对高爵免田租的律文释读及租税差异,open_full
+Q18,班固等,汉书·食货志（晁错财政政论）,东汉,https://zh.wikisource.org/zh-hans/%E6%BC%A2%E6%9B%B8/%E5%8D%B7024,early_historiography,晁错贵粟、商业与农业关系的政论，不是全国统计,primary_transmitted
+Q19,司马迁,史记·货殖列传,西汉,https://www.zhonghuashu.com/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7129,early_historiography,汉初开关梁与商贸、财富行业案例，非全面人口数据,primary_transmitted
+Q20,司马迁,史记·吴王濞列传,西汉,https://www.zhonghuashu.com/wiki/%E5%8F%B2%E8%A8%98%E4%B8%89%E5%AE%B6%E8%A8%BB/%E5%8D%B7106,early_historiography,吴国铜山铸钱、盐业及削藩政治背景,primary_transmitted
+Q21,鲁惟一等编,剑桥中国秦汉史·财政管理（公开译本节选）,原版1986；网络节选,https://szzy.7lue.cn/read/a87a6bc9d31aaad39bd59110b89399df/df0678d7a48b3b7efc59b3b45b85f8c2.md,secondary_excerpt,武帝财政改革、战时支出和盐铁官营年代；不是完整原版核校,web_excerpt
+Q22,中国社会科学网,汉武帝财政改革与中央集权的强化,2022,https://www.cssn.cn/skgz/bwyc/202208/t20220803_5462044.shtml,secondary_web_snippet,武帝币制调整和盐铁官营制度阶段；页面抓取不稳定，勿当详核全文,search_excerpt
+Q23,安子毓,汉武帝晚年政治取向转折辨疑,2024,https://xbbjb.ucass.edu.cn/__local/E/30/18/5F6072863A6A0ACA39C8B55C769_6381EF8E_1691E3.pdf,peer_reviewed_article,对武帝兴利动因不局限军事的学术解释及反论,pdf_full_intro_and_sections
+Q24,桓宽,盐铁论·本议,西汉后期编纂,https://zh.wikisource.org/zh-hans/%E9%B9%BD%E9%90%B5%E8%AB%96/%E5%8D%B7%E4%B8%80,later_debate_compilation,前81年贤良文学关于盐铁均输的争论文本，非会场逐字实录,primary_transmitted
+Q25,何明星、王景,盐铁论——难得的汉代经济掠影,2022,https://paper.people.com.cn/rmrbhwb/html/2022-08/18/content_25934730.htm,secondary_history,桓宽推衍整理会议对话的编纂性质,public_article
+B04,刘守刚,何以帝国·轻田租,2022,user-provided EPUB: EPUB/xhtml/Section00007_0002.xhtml,user_book_author_view,作者的轻田租税人财政后果论；非独立历史事实,user_source
+B05,刘守刚,何以帝国·国弊家丰,2022,user-provided EPUB: EPUB/xhtml/Section00007_0005.xhtml,user_book_author_view,作者对两汉豪强与国弊家丰的长期解释，不直推文景,user_source
+B06,刘守刚,何以帝国·财政政策／国家专营,2022,user-provided EPUB: EPUB/xhtml/Section00007_0003.xhtml; Section00007_0004.xhtml,user_book_author_view,作者积极治理及税商机制框架，不等于原始会议实录,user_source

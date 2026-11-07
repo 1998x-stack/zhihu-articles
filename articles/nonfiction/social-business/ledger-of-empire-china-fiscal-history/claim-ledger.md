@@ -1,6 +1,6 @@
 # 章级主张—来源台账（规划态）
 
-> 本表第01—04章已建立25条可回溯主张的受限研究记录（见逐章 `.claims.json`），其余章节仍是**研究问题占位**，不是已核实结论；正式 `nonfiction-architect` 需依据 `research.md` 补充分项证据后再批准。
+> 本表第01—08章已建立58条可回溯主张的受限研究记录（01—04为25条、05—08为33条，见逐章 `.claims.json`），第09—45章仍是**研究问题占位**，不是已核实结论；正式 `nonfiction-architect` 需依据 `research.md` 补充分项证据后再批准。
 
 | 主张编号 | 章 | 待检验的核心问题 | 来源线索 | 状态 |
 |---|---|---|---|---|
@@ -8,10 +8,10 @@
 | C02-01 | [02](draft/part-01-taxation-and-state/02.md) | 当劳役难以按旧秩序获得，按地计征意味着什么？ | B01相关章：初税亩 | RESEARCH_DRAFT（详见02.claims.json） |
 | C03-01 | [03](draft/part-01-taxation-and-state/03.md) | 国家能否绕开田亩，通过流通与资源经营筹财？ | 独立来源待查 | RESEARCH_DRAFT（详见03.claims.json） |
 | C04-01 | [04](draft/part-01-taxation-and-state/04.md) | 秦国怎样把人丁、土地、军功和兵员变成可动员的组织？ | B01相关章：商鞅变法 | RESEARCH_DRAFT（详见04.claims.json） |
-| C05-01 | [05](draft/part-01-taxation-and-state/05.md) | 征发能力极强是否等于财政制度可持续？ | 独立来源待查 | TODO_VERIFY |
-| C06-01 | [06](draft/part-02-han-treasury/06.md) | 降低田租为何不等于各类家庭负担同步下降？ | B01相关章：轻田租 | TODO_VERIFY |
-| C07-01 | [07](draft/part-02-han-treasury/07.md) | 经济恢复为什么也可能重新分配国家和豪强的力量？ | B01相关章：国弊家丰 | TODO_VERIFY |
-| C08-01 | [08](draft/part-02-han-treasury/08.md) | 持久战争及国家行动如何催生官营和流通干预？ | B01相关章：财政政策、国家专营 | TODO_VERIFY |
+| C05-01 | [05](draft/part-01-taxation-and-state/05.md) | 征发能力极强是否等于财政制度可持续？ | 独立来源待查 | RESEARCH_DRAFT（详见05.claims.json） |
+| C06-01 | [06](draft/part-02-han-treasury/06.md) | 降低田租为何不等于各类家庭负担同步下降？ | B01相关章：轻田租 | RESEARCH_DRAFT（详见06.claims.json） |
+| C07-01 | [07](draft/part-02-han-treasury/07.md) | 经济恢复为什么也可能重新分配国家和豪强的力量？ | B01相关章：国弊家丰 | RESEARCH_DRAFT（详见07.claims.json） |
+| C08-01 | [08](draft/part-02-han-treasury/08.md) | 持久战争及国家行动如何催生官营和流通干预？ | B01相关章：财政政策、国家专营 | RESEARCH_DRAFT（详见08.claims.json） |
 | C09-01 | [09](draft/part-02-han-treasury/09.md) | 维护财力与限制政府经营，哪一种治理方案更合理？ | B01相关章：国家专营 | TODO_VERIFY |
 | C10-01 | [10](draft/part-02-han-treasury/10.md) | 民间财富壮大为何可能伴随国家直接控制资源能力下降？ | B01相关章：国弊家丰、财富战争 | TODO_VERIFY |
 | C11-01 | [11](draft/part-03-land-and-labor/11.md) | 战争中的国家怎样把土地、劳动力和军粮重新组织起来？ | 独立来源待查 | TODO_VERIFY |
@@ -57,3 +57,12 @@
 ## 第一批研究主张映射
 
 第01—04章详见 `draft/part-01-taxation-and-state/01.claims.json`、`02.claims.json`、`03.claims.json`、`04.claims.json`。其25项条目将 `FACT_VERIFIED`（仅验证所述文本/物件/书目）、`BOOK_POSITION`、`INTERPRETATION` 明确区分，不以资料存在自动证明解释性因果。
+
+## 第二批（05—08）新增33条研究性主张
+
+- 05：《史记》+里耶秦简博物馆资料+秦代资源政治生态学论文+秦亡结构解释专著概要（Q01—Q10），8条。
+- 06：高祖、文景税制原文+2024出土简牍研究+免租年限异说（Q10—Q18），8条。
+- 07：文景社会财富、汉初铜钱与诸侯王资源、民间商业（Q10、Q11、Q14、Q17—Q21），8条。
+- 08：汉武帝政策组+安子毓2024年竞争解释+《盐铁论》编纂性质（Q10、Q11、Q21—Q25），9条。
+
+详细主张都在 `draft/part-01-taxation-and-state/05.claims.json` 和 `draft/part-02-han-treasury/06—08.claims.json`；`FACT_TEXT` 只证成文本有此记载，`BOOK_POSITION` 不证成史实，未完成原始史料逐字对照与独立终审。

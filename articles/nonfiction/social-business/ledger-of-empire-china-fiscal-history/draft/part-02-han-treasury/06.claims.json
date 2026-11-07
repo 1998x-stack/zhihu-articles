@@ -1,0 +1,91 @@
+{
+  "chapter": "06",
+  "status": "RESEARCH_DRAFT",
+  "review_status": "PENDING",
+  "scope": "bounded research evidence only; not an independent chapter fact-check or final approval",
+  "claims": [
+    {
+      "claim_id": "C06-01",
+      "statement": "汉初记载高祖轻田租十五税一、文帝免租诏、景帝三十税一",
+      "source_ids": [
+        "Q11",
+        "Q12"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "纪与志对景帝年份有不同记载"
+    },
+    {
+      "claim_id": "C06-02",
+      "statement": "文帝连续免租十三年存在历史研究质疑",
+      "source_ids": [
+        "Q13"
+      ],
+      "classification": "DISPUTED",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "研究摘要提出异议，不能裁定实际年限"
+    },
+    {
+      "claim_id": "C06-03",
+      "statement": "史记描述汉兴经济与生产遭遇困境",
+      "source_ids": [
+        "Q10"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "史家修辞不提供可量化全国统计"
+    },
+    {
+      "claim_id": "C06-04",
+      "statement": "新出简牍研究修正秦汉租税口径和征法",
+      "source_ids": [
+        "Q14"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "目前阅读公开项目成果报告，未阅专著全文"
+    },
+    {
+      "claim_id": "C06-05",
+      "statement": "汉代算赋通常解释为成年人口钱，口赋征儿童并随时期调整",
+      "source_ids": [
+        "Q15",
+        "Q16"
+      ],
+      "classification": "FACT_SECONDARY",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "年龄和数额不同阶段有异，不作单一整朝税表"
+    },
+    {
+      "claim_id": "C06-06",
+      "statement": "汉初不同身份存在田租等优免差异",
+      "source_ids": [
+        "Q17"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "依据张家山简牍释读及公开文章"
+    },
+    {
+      "claim_id": "C06-07",
+      "statement": "晁错政策建议联系商贾与农业、边防财政",
+      "source_ids": [
+        "Q18"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "政策意见不等于已执行或全国统计"
+    },
+    {
+      "claim_id": "C06-08",
+      "statement": "轻田租与人口赋钱可能带来非对称分配效果",
+      "source_ids": [
+        "B04",
+        "Q14"
+      ],
+      "classification": "INTERPRETATION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "作者观点与机制推演，非一条因果定律"
+    }
+  ]
+}
