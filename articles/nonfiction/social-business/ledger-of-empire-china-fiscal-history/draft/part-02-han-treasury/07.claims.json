@@ -1,0 +1,91 @@
+{
+  "chapter": "07",
+  "status": "RESEARCH_DRAFT",
+  "review_status": "PENDING",
+  "scope": "bounded research evidence only; not an independent chapter fact-check or final approval",
+  "claims": [
+    {
+      "claim_id": "C07-01",
+      "statement": "汉书描绘武帝初库藏粮食与社会繁荣并担忧兼并",
+      "source_ids": [
+        "Q11"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "史家总结须区分描述与统计"
+    },
+    {
+      "claim_id": "C07-02",
+      "statement": "史记货殖列传记汉初商路恢复与远方交易",
+      "source_ids": [
+        "Q19"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "对贸易的叙述有史家选材"
+    },
+    {
+      "claim_id": "C07-03",
+      "statement": "史记记吴王濞利用铜山和盐业、邓通获铸钱收益",
+      "source_ids": [
+        "Q10",
+        "Q20"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "财富不是七国之乱唯一因素"
+    },
+    {
+      "claim_id": "C07-04",
+      "statement": "早汉商人身份限制与经济活动并存",
+      "source_ids": [
+        "Q10"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "法令与实际社会生活分开"
+    },
+    {
+      "claim_id": "C07-05",
+      "statement": "秦汉初土地、租税以及身份减免存在多样形式",
+      "source_ids": [
+        "Q14",
+        "Q17"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "从简牍成果概述谨慎引用"
+    },
+    {
+      "claim_id": "C07-06",
+      "statement": "汉代政策家已经讨论商业与农业财政的紧张",
+      "source_ids": [
+        "Q18"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "言论不能推出全国发展曲线"
+    },
+    {
+      "claim_id": "C07-07",
+      "statement": "国弊家丰是刘守刚对长期两汉的解释框架",
+      "source_ids": [
+        "B05"
+      ],
+      "classification": "BOOK_POSITION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "不能误称文景时期国家已全面衰弱"
+    },
+    {
+      "claim_id": "C07-08",
+      "statement": "武帝朝国家支出结构改变推动寻找更多财政弹性",
+      "source_ids": [
+        "Q11",
+        "Q21"
+      ],
+      "classification": "INTERPRETATION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "不能把改革归因唯一指向战争"
+    }
+  ]
+}

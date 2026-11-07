@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "lane": "nonfiction",
-  "current_revision": 0,
+  "current_revision": 1,
   "outline_approved": true,
   "evidence_verified": true,
   "review_status": "PENDING",
@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "仅第01—04章：原书三节定向核对、先秦传世原文、博物馆记录、学术摘要和秦简研究，25项章级主张及来源范围；第05—45章与序尾章均未获核证；这不等于全文原始文献逐页查对。",
-  "approval_scope": "仅批准第01—04章在所列证据范围内的非虚构研究性初稿。第05—45章及序尾章仍不可越过前置研究。未通过双审、语言精修、最终封版和发布。",
-  "note": "2026-11-06：第一批01—04研究性正文与25项claims完成，附19条来源记录；本轮进行引用/结构自检但非独立双审；保持review_status=PENDING。GitHub连接器未运行本地workflow_gate.py，不能称结构门槛已实机通过。"
+  "evidence_scope": "01—08限定范围：首批01—04有19条研究入口/25条主张；第二批05—08有28条书目或材料入口/33条主张；第二批引用层级区分传世原文、馆藏、全文论文、学术摘要、出版社概要；09—45及00/99未完成前置核证。不能把整个系列看作已证实。",
+  "approval_scope": "仅01—08在所列有限研究证据基础上允许非虚构研究性初稿；第09—45及序尾不在范围内。未有独立continuity-audit/developmental-editor PASS，不能开始line-edit/final/publish。",
+  "note": "2026-11-07 第二批05—08：4篇研究性初稿、33条claims、28条来源登记、同一轮审查的两份precheck；current_revision=1用于记录扩展变更并使任何旧审稿结论失效。GitHub连接器流程未实际运行本地workflow_gate.py；质量审核未宣称通过。"
 }

@@ -1,6 +1,6 @@
 # 质量闸门（尚未实施审核）
 
-**当前：**第一批01—04研究性初稿已写，第05—45仍占位。第一批未经独立双审，没有终稿，不生成虚假的 `qa/continuity-report.md`、`qa/developmental-review.md`、`edited.md`、`final.md`。
+**当前：**第一批01—04及第二批05—08研究性初稿已写，第09—45和序尾仍占位。第一批未经独立双审，没有终稿，不生成虚假的 `qa/continuity-report.md`、`qa/developmental-review.md`、`edited.md`、`final.md`。
 
 ## 执行顺序
 
@@ -21,4 +21,12 @@
 
 ## 状态说明
 
-`workflow-state.json` 中 `outline_approved=true`、`evidence_verified=true`（**仅01—04章的限定证据范围**）、`review_status=PENDING`、`final_approved=false`；计划文件存在不代表写作闸门已经通过。
+`workflow-state.json` 中 `outline_approved=true`、`evidence_verified=true`（**仅01—08章的限定证据范围**）、`review_status=PENDING`、`final_approved=false`；计划文件存在不代表写作闸门已经通过。
+
+## 第二批（05—08）非独立预检
+
+- [时间线、因果与术语预检](batch-02-continuity-precheck.md)（不是正式continuity-audit报告）
+- [结构、解释深度与证据预检](batch-02-developmental-precheck.md)（不是正式developmental-editor报告）
+- [工序及未获批准事项](batch-02-gate-note.md)
+
+正式独立双审尚未执行，质量状态维持PENDING，不写正式`final.md`。
