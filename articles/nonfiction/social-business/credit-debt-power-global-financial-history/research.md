@@ -533,3 +533,45 @@
 第18章的伦敦黄金和承兑结算→第19章美国清算所外部信托挤兑→第20章中国分号汇兑与国家银行竞争，是**比较不同时空的金融组织失灵**，不能误写为美国1907危机直接造成中国票号衰退。第20章提到清末银两与纸币共存，并不意味着中国当时同英国一样普遍采用黄金本位。第21章开启第五部，转向欧洲战时黄金兑换与政府债务；这是议题转场而非中国票号导致世界大战。第22章应单独研究德国1919—1924年财政、赔款、币制和1923物价危机，不可只凭1914黄金兑付限制建立单因链。
 
 **所有本批章节的出版门槛仍未通过**：共同阻断为原始档案逐页核证、跨观点全文审查、outline_approved=false、evidence_verified=false。三章共33条来源和58项映射，仅获研究性初稿级别确认。
+
+## 第22—24章｜战后通胀、萧条信用与1935中国法币（2026-11-07；Revision 21研究矩阵）
+
+> 研究门槛：本节在完整正文之前建立证据边界。按仓库fact-research要求，先使用德国联邦议院、德国历史博物馆与联邦银行、联储与FDIC、美国国务院1935原始外交电报与国立博物馆等可追溯史料，再引经济史论文的竞争解释。新稿只具research-draft资格，不等于各国原始财政账簿逐页独立核实。
+
+### 第22章｜德国1923恶性通胀
+
+| 事实链 | 主要证据（后续F-2201等） | 可写内容／不得推断 |
+|---|---|---|
+| 1914—1918战争融资及1919—1922战后压力 | 德国联邦银行、联邦议院2023历史研究、Martin Geyer 2021 Oxford史学章节 | 战时非税收融资、战后财政和赔款争论长期累积；不可写作“1923突然因一笔赔款才首次印钱” |
+| 1923-01鲁尔占领及被动抵抗 | Deutsches Historisches Museum Ruhrbesetzung专题 | 政府为停工人员和军政开支筹资并承受产出损失；赔款是因素之一，不是单一货币数量决定式解释 |
+| 1923货币和资产财富转移 | 德国联邦议院、德国联邦银行、Geyer及2023 Review of Financial Studies论文 | 本币固定名义债权人严重受损，某些拥有不动产/股票者可能相对更能保值；不是一切名义债务同样清零 |
+| 1923-10—11稳定安排 | Deutsches Historisches Museum、德国联邦议院 | Rentenbank 10月15日制度建立；11月15日租赁马克发行，1 Rentenmark=1万亿Papiermark，美元约4.2 Rentenmark | Rentenmark抵押土地/工业资产不等于普通持票人随时可取金或拥有特定地产 |
+| 1924后续改革 | 德国历史博物馆、Sargent 1982财政制度研究 | Rentenmark为过渡币，1924 Reichsmark以及财政纪律/货币发行限制构成后续稳定；不能宣称靠改币名称立刻治愈全部社会伤害 |
+
+**核心竞争解释**：流行“战赔导致恶性通胀”与“中央银行机械滥印”均不足单独解释战时债务、财政制度、鲁尔生产冲击和货币期待相互作用。Sargent强调货币制度及财政规则发生可信改变；现代投资者交易研究说明“房地产总能抗通胀”并非无条件适用。证据入口：[德国议院](https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722)；[德国历史博物馆改革](https://www.dhm.de/lemo/kapitel/weimarer-republik/innenpolitik/waehrungsreform-1923)；[德国联邦银行](https://www.bundesbank.de/en/tasks/topics/inflation-lessons-learnt-from-history-666006)；[Sargent研究](https://www.nber.org/books-and-chapters/inflation-causes-and-effects/ends-four-big-inflations)。
+
+### 第23章｜1929崩盘、1930—1933银行与信用链
+
+| 时间链 | 史料入口 | 论证界限 |
+|---|---|---|
+| 1929年10月股票大幅跌价 | Federal Reserve History 1929 crash | 股市损失是冲击与预期变化，不等于当日所有商业银行都停付 |
+| 1930—1931局部银行恐慌 | 联储[Banking Panics 1930–31](https://www.federalreservehistory.org/essays/banking-panics-1930-31) | 银行挤兑、存款转现金和储备囤积令商业信贷缩小 |
+| 1931-09-21英国退出黄金承诺 | Bank of England年表，联储[1931—33国际恐慌](https://www.federalreservehistory.org/essays/banking-panics-1931-33) | 美国维护黄金的加息压力与救银行所需的扩张方向可能冲突 |
+| 1932—1933救济与银行假期 | [联储银行假期](https://www.federalreservehistory.org/essays/bank-holiday-of-1933)、[FDIC年表](https://www.fdic.gov/90years) | 1933-03-06美国宣布全国银行休业，03-09紧急法，03-12广播，03-13部分重开；1933-06-16 FDIC立法、1934-01-01才开始承保 |
+| 经济收缩机制与争论 | Bernanke [1983论文](https://www.nber.org/papers/w1054)、Bernanke/James [国际金本位](https://www.nber.org/papers/w3488)、Eichengreen [Golden Fetters](https://www.nber.org/books-and-chapters/golden-fetters-gold-standard-and-great-depression-1919-1939)、联储[FEDS 2024](https://www.federalreserve.gov/econres/feds/recovery-of-1933.htm) | 货币供给、信用中介损毁、金本位约束和财政扩张存在多种可交织解释；“美联储从未施策”不准确，1932曾实施公开市场购买 |
+
+**核心机制**：银行即便持有贷款资产，也不可能在所有储户同时提现时即时卖出；失败会破坏借款人征信和关系型信贷，进一步抑制就业与投资。价格下降使固定名义债务的实际负担加重，与德国1923价格暴涨的分配方向相反。FDIC“银行停业与正式失败”口径严格区分。
+
+### 第24章｜1935中国法币，银价与战争
+
+| 史料 | 支撑范围 | 反证／限制 |
+|---|---|---|
+| 1935-11-04上海领事至国务院电报、附改革官方摘要 | [FRUS原始档](https://history.state.gov/historicaldocuments/frus1935v03/d613) | 11月3日宣布、11月4日实施；中央、中国、交通三银行纸币为法币。改革容许某些其他已获准纸币在原额范围内暂行流通，并非当天销毁一切其他票 |
+| 1933银元与1934银出口政策 | [中国银行废两改元](https://www.boc.cn/aboutboc/ab7/200809/t20080926_6917.html)及[1936联储公报](https://fraser.stlouisfed.org/title/federal-reserve-bulletin-62/june-1936-20731/fulltext) | 1933-04银两计价改为银元为前置条件；1934-10出口银平衡税说明货币制度在1935前已有重大变化 |
+| 美国白银政策影响的对立研究 | Milton Friedman 1992 [期刊论文](https://www.journals.uchicago.edu/doi/10.1086/261807)；2022 [新估计](https://onlinelibrary.wiley.com/doi/full/10.1111/roie.12590)；ANU [结构估计](https://crawford.anu.edu.au/centre-applied-macroeconomic-analysis/content-centre/research/chinese-silver-standard-parity) | “美国白银法唯一导致中国货币危机”无学术一致结论，新研究对严重通缩证据提出质疑 |
+| 1935法币国际汇率管理 | [1935电报](https://history.state.gov/historicaldocuments/frus1935v03/d613)、[1936联储公报](https://fraser.stlouisfed.org/title/federal-reserve-bulletin-62/june-1936-20731/fulltext) | 银元与银锭强制纳入新的储备管理和兑换制度，官方承诺稳定汇率并非兑换黄金的相同承诺 |
+| 1937—1945战争财政与1948制度崩溃 | [中国国家博物馆1949实物介绍](https://www.chnmuseum.cn/zp/zpml/gmww/202112/t20211206_252614.shtml)、[中南财经政法大学纸币馆](https://museum.zuel.edu.cn/zghb_dc/zghb_cont/pic2-20267.html) | 1948-08金圆券以300万法币兑1元，1949币值进一步崩溃；并非1935新法实施当天已注定失败，更不能倒推所有通胀皆由白银外流单因造成 |
+
+**跨章逻辑**：第22章是物价急涨时债权价值受侵蚀，第23章是通缩时债权负担变重并使信用机构失败，第24章则是白银外流/汇率与改革政策环境下把金属货币改成管理纸币。历史不构成“一切纸币必然崩溃”或“一切贵金属本位必然稳定”的道德定律。下一章1944布雷顿森林须区分中国1935区域改革与战后美元黄金制度的法律对象。
+
+**本批出版级核证阻断**：德国Reichsbank/Rentenbank原始法令、1923宏观月度数据；美国地区银行1930—33资产负债和联储投放政策原始账；1935中文《法币政策实施办法》原文、各行兑银与外汇账；1948金圆券法令与实际执行的地区差异及人口社会代价。研究性草稿状态保持CHANGES_REQUIRED。
