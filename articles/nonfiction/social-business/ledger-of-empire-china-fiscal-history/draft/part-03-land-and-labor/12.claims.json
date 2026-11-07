@@ -1,0 +1,157 @@
+{
+  "chapter": "12",
+  "status": "RESEARCH_DRAFT",
+  "review_status": "PENDING",
+  "scope": "bounded research evidence only; no independent review, no publication approval",
+  "claims": [
+    {
+      "claim_id": "C12-01",
+      "statement": "孝文帝太和九年485颁布均田令",
+      "source_ids": [
+        "T10",
+        "T15"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "颁令时点与实际推广不应混同",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    },
+    {
+      "claim_id": "C12-02",
+      "statement": "十五岁以上男子授露田四十亩女子二十亩",
+      "source_ids": [
+        "T10"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "法令定额不等于实测人均地权",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    },
+    {
+      "claim_id": "C12-03",
+      "statement": "法令奴婢和耕牛也纳入授田资格",
+      "source_ids": [
+        "T10"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "身份不平等；条件和限额不可省略",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    },
+    {
+      "claim_id": "C12-04",
+      "statement": "露田和桑田还受、继承和交易规则不同",
+      "source_ids": [
+        "T10"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "不能统称所有田都终身国家所有",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    },
+    {
+      "claim_id": "C12-05",
+      "statement": "地狭地广地区规定不同调整方式",
+      "source_ids": [
+        "T10"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "实际执行范围待校核",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    },
+    {
+      "claim_id": "C12-06",
+      "statement": "北魏均田前已有计口授田及多元土地制背景",
+      "source_ids": [
+        "T10",
+        "T15"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "制度源流有学术解释差异",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    },
+    {
+      "claim_id": "C12-07",
+      "statement": "486三长制关联五家邻五邻里五里党和租调",
+      "source_ids": [
+        "T10"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "法令与全国实践差异",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    },
+    {
+      "claim_id": "C12-08",
+      "statement": "均田和三长先后在文献上存在张力",
+      "source_ids": [
+        "T17",
+        "T18"
+      ],
+      "classification": "DISPUTED",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "年代学争论需对照魏书高祖纪与李安世传",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    },
+    {
+      "claim_id": "C12-09",
+      "statement": "均田制实际推行程度存在研究分歧",
+      "source_ids": [
+        "T16",
+        "T15"
+      ],
+      "classification": "DISPUTED",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "研究者基于史籍碑铭存在不同判断",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    },
+    {
+      "claim_id": "C12-10",
+      "statement": "地方官员配公田且有更代交付规则",
+      "source_ids": [
+        "T10"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "官员公田不代表全部地方行政费用来源",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    },
+    {
+      "claim_id": "C12-11",
+      "statement": "人口授田可帮助税源登记与赋役组织",
+      "source_ids": [
+        "T10",
+        "T17"
+      ],
+      "classification": "INTERPRETATION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "政策目标及机制，不代表全国实际成效",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    },
+    {
+      "claim_id": "C12-12",
+      "statement": "刘守刚认为均田非平均地权而是财政与人口组织",
+      "source_ids": [
+        "B09"
+      ],
+      "classification": "BOOK_POSITION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "原书观点，另与史料和学界解释比较",
+      "event_time": "485—486年及后续",
+      "chapter_file": "draft/part-03-land-and-labor/12.md"
+    }
+  ]
+}

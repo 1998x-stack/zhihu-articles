@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "lane": "nonfiction",
-  "current_revision": 1,
+  "current_revision": 2,
   "outline_approved": true,
   "evidence_verified": true,
   "review_status": "PENDING",
@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "01—08限定范围：首批01—04有19条研究入口/25条主张；第二批05—08有28条书目或材料入口/33条主张；第二批引用层级区分传世原文、馆藏、全文论文、学术摘要、出版社概要；09—45及00/99未完成前置核证。不能把整个系列看作已证实。",
-  "approval_scope": "仅01—08在所列有限研究证据基础上允许非虚构研究性初稿；第09—45及序尾不在范围内。未有独立continuity-audit/developmental-editor PASS，不能开始line-edit/final/publish。",
-  "note": "2026-11-07 第二批05—08：4篇研究性初稿、33条claims、28条来源登记、同一轮审查的两份precheck；current_revision=1用于记录扩展变更并使任何旧审稿结论失效。GitHub连接器流程未实际运行本地workflow_gate.py；质量审核未宣称通过。"
+  "evidence_scope": "第01—12章受限研究：首批25主张/19来源、第二批33主张/28来源、第三批48主张/28来源，共106条研究性章级主张。各批含传世原文、考古、现代学术全文/摘要、出版社概要和原书观点；未获完整史料逐页交叉核证。第13—45及序尾未核证。",
+  "approval_scope": "仅允许01—12章已列证据范围内的研究性非虚构初稿；13—45、序章00、尾声99不在本次范围内。独立continuity-audit/developmental-editor、line-edit、final/publish仍未批准。",
+  "note": "2026-11-07 第三批09—12：4篇研究性正文、48项claims、28条来源登记、同一轮两份precheck（非独立双审）。current_revision=2并清空旧审批状态，机器workflow_gate.py未实机执行，不声称PASS。"
 }

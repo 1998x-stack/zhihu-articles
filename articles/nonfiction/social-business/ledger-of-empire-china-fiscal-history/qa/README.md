@@ -1,6 +1,6 @@
 # 质量闸门（尚未实施审核）
 
-**当前：**第一批01—04及第二批05—08研究性初稿已写，第09—45和序尾仍占位。第一批未经独立双审，没有终稿，不生成虚假的 `qa/continuity-report.md`、`qa/developmental-review.md`、`edited.md`、`final.md`。
+**当前：**第一至三批01—12研究性初稿已写，第13—45及序尾仍占位。第一批未经独立双审，没有终稿，不生成虚假的 `qa/continuity-report.md`、`qa/developmental-review.md`、`edited.md`、`final.md`。
 
 ## 执行顺序
 
@@ -21,7 +21,7 @@
 
 ## 状态说明
 
-`workflow-state.json` 中 `outline_approved=true`、`evidence_verified=true`（**仅01—08章的限定证据范围**）、`review_status=PENDING`、`final_approved=false`；计划文件存在不代表写作闸门已经通过。
+`workflow-state.json` 中 `outline_approved=true`、`evidence_verified=true`（**仅01—12章的限定证据范围**）、`review_status=PENDING`、`final_approved=false`；计划文件存在不代表写作闸门已经通过。
 
 ## 第二批（05—08）非独立预检
 
@@ -30,3 +30,11 @@
 - [工序及未获批准事项](batch-02-gate-note.md)
 
 正式独立双审尚未执行，质量状态维持PENDING，不写正式`final.md`。
+
+## 第三批（09—12）独立双审前资料
+
+- [第三批连续性预检](batch-03-continuity-precheck.md)：检出会议记载、东汉度田、曹魏屯田、北魏均田的时间与概念边界。
+- [第三批结构预检](batch-03-developmental-precheck.md)：四章各自故事承诺与下一章因果交接。
+- [第三批流程说明](batch-03-gate-note.md)：有限研究来源、预检不等于正式审稿或机器闸门PASS。
+
+**保留`review_status=PENDING`和`final_approved=false`。** 不生成无人正式确认的`continuity-report.md`、`developmental-review.md`或`final.md`。
