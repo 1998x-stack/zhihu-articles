@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 21,
+  "current_revision": 24,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -464,13 +464,72 @@
     },
     {
       "chapter": "25",
+      "status": "draft-written",
+      "question": "战后国际货币规则如何由1944美元黄金平价和国际机构逐步真正落地",
+      "next_question": "美元作为国际储备越多，为何越难维持固定黄金兑换",
+      "sources": [
+        "F-2501",
+        "F-2502",
+        "F-2503",
+        "F-2504",
+        "F-2505",
+        "F-2506",
+        "F-2507",
+        "F-2508",
+        "F-2509",
+        "F-2510",
+        "F-2511",
+        "F-2512"
+      ]
+    },
+    {
+      "chapter": "26",
+      "status": "draft-written",
+      "question": "1971年美国关闭黄金窗口后美元为什么继续作为国际支付中心",
+      "next_question": "石油盈余和离岸美元国际贷款如何放大浮动利率债务风险",
+      "sources": [
+        "F-2601",
+        "F-2602",
+        "F-2603",
+        "F-2604",
+        "F-2605",
+        "F-2606",
+        "F-2607",
+        "F-2608",
+        "F-2609",
+        "F-2610",
+        "F-2611"
+      ]
+    },
+    {
+      "chapter": "27",
+      "status": "draft-written",
+      "question": "1970年代石油美元回流为什么在1982变成墨西哥外债延期和国际银行风险",
+      "next_question": "离岸美元存贷款怎样不靠美国本土实体纸钞建立新的金融负债",
+      "sources": [
+        "F-2701",
+        "F-2702",
+        "F-2703",
+        "F-2704",
+        "F-2705",
+        "F-2706",
+        "F-2707",
+        "F-2708",
+        "F-2709",
+        "F-2710",
+        "F-2711",
+        "F-2712"
+      ]
+    },
+    {
+      "chapter": "28",
       "status": "outline-only",
-      "question": "1944布雷顿森林为什么把美元放在中心"
+      "question": "离岸美元市场如何通过银行账目形成跨境美元信用链"
     }
   ],
-  "remaining_chapters": "26-40 outline-only",
+  "remaining_chapters": "29-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Prologue and chapters 01-24 written as research-level complete drafts; batch 22-24 revision21 evidence and independent review status tracked; no final approval."
+  "notes": "Prologue and chapters 01-27 are research-level complete drafts; chapter 25-27 batch Revision24 has 35 references and 65 mapped claims, two review reports with unclosed primary-source blockers."
 }

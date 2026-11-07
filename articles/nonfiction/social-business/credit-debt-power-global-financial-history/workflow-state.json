@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 21,
+  "current_revision": 24,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -62,9 +62,16 @@
     "CH23-GOLD-STANDARD-MONEY-CREDIT-COMPETING-ESTIMATES",
     "CH24-1935-FABI-ORIGINAL-CHINESE-LEGAL-EDITION",
     "CH24-US-SILVER-POLICY-CAUSAL-COUNTEREVIDENCE",
-    "CH24-1948-GOLD-YUAN-ORIGINAL-FISCAL-RECORDS"
+    "CH24-1948-GOLD-YUAN-ORIGINAL-FISCAL-RECORDS",
+    "CH25-1944-BRETTON-WOODS-TREATY-AND-QUOTA-FULL-CHECK",
+    "CH25-1958-61-EXTERNAL-CONVERTIBILITY-ARTICLE-VIII",
+    "CH26-1968-1971-GOLD-POOL-OFFICIAL-CENTRAL-BANK-DATA",
+    "CH26-1971-SMITHSONIAN-1973-1978-RATE-REGIME-PRIMARY-CHECK",
+    "CH27-1982-MEXICO-ORIGINAL-BANK-MORATORIUM-NOTICE",
+    "CH27-1983-MEXICO-LOAN-FLOATING-RATE-CONTRACTS",
+    "CH27-PETRODOLLAR-ORIGIN-AND-HETEROGENEITY"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Batch chapters 22-24 drafted and preliminarily source-audited in revision 21 (2026-11-07); 33 new provenance-labelled records and 65 mapped claims. German 1923 monetary acts, US Depression bank balance sheets, Chinese 1935 original decrees and 1948 regional reforms await publication-level checks. outline_approved=false, evidence_verified=false, final_approved=false, CHANGES_REQUIRED."
+  "notes": "Research-level complete drafts of chapters 25–27 completed in Revision24 (2026-11-07); 35 source-ledger entries and 65 mapped claims. 1944 original quota/treaty, 1958/61 convertibility, 1961/68 gold pool, 1971/73 official gold window and float, Mexico 1982 bank notices and 1983 debt contracts need full original research; outline_approved=false, evidence_verified=false, final_approved=false; CHANGES_REQUIRED."
 }
