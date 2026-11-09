@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "chapter": "01",
+  "work": "deep-learning-history",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "research_scope": "first_batch_01_03",
+  "overall_review_status": "PENDING",
+  "claims": [
+    {
+      "claim_id": "C01-01",
+      "claim": "古希腊亚里士多德三段论及其范围",
+      "source_ids": [
+        "DL01"
+      ],
+      "kind": "historical",
+      "evidence_level": "academic_synthesis",
+      "limitations": "不推断其为现代完整形式逻辑",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C01-02",
+      "claim": "墨家关于名实分类、类比与论辩的研究",
+      "source_ids": [
+        "DL02"
+      ],
+      "kind": "historical",
+      "evidence_level": "academic_synthesis",
+      "limitations": "不是现代神经网络师承证据",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C01-02B",
+      "claim": "印度正理与佛教逻辑传统思考推理依据",
+      "source_ids": [
+        "DL03"
+      ],
+      "kind": "historical",
+      "evidence_level": "academic_synthesis",
+      "limitations": "多学派传统不混作一体",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C01-03",
+      "claim": "莱布尼茨的通用演算理想",
+      "source_ids": [
+        "DL04"
+      ],
+      "kind": "historical",
+      "evidence_level": "academic_synthesis",
+      "limitations": "不是已经建成计算机或程序语言",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C01-03B",
+      "claim": "布尔1847和1854著作；弗雷格1879概念文字",
+      "source_ids": [
+        "DL05",
+        "DL06"
+      ],
+      "kind": "historical",
+      "evidence_level": "academic_synthesis",
+      "limitations": "二者概念与贡献不可简单归并",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C01-04",
+      "claim": "近代概率发展及贝叶斯普赖斯1763期刊论文",
+      "source_ids": [
+        "DL07",
+        "DL08"
+      ],
+      "kind": "historical",
+      "evidence_level": "primary_plus_synthesis",
+      "limitations": "文献宣读/出版年份口径不可混淆",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C01-04B",
+      "claim": "牛顿微积分历史与莱布尼茨独立工作",
+      "source_ids": [
+        "DL09"
+      ],
+      "kind": "historical",
+      "evidence_level": "academic_synthesis",
+      "limitations": "不写为神经网络训练发明",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C01-05",
+      "claim": "条件概率示例真阳性10假阳性99",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "verified_arithmetic",
+      "limitations": "病例为假设，10/109≈0.091743",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C01-06",
+      "claim": "L(w)=(2w-6)^2，w=2，η=.1→w=2.8",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "verified_arithmetic",
+      "limitations": "导数8w-24=-8，损失4→0.16",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    }
+  ]
+}

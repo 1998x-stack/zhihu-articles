@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "chapter": "03",
+  "work": "deep-learning-history",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "research_scope": "first_batch_01_03",
+  "overall_review_status": "PENDING",
+  "claims": [
+    {
+      "claim_id": "C03-01",
+      "claim": "1943 McCulloch与Pitts期刊第5卷115–133",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "historical",
+      "evidence_level": "primary_publication",
+      "limitations": "题名与年份均据期刊元数据",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C03-02",
+      "claim": "全或无、阈值与抑制条件的模型抽象",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "technical_history",
+      "evidence_level": "primary_plus_reconstruction",
+      "limitations": "教学表达不是原始符号",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C03-03",
+      "claim": "固定连接、无现代梯度训练",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "technical_history",
+      "evidence_level": "bounded_interpretation",
+      "limitations": "只谈该模型，不能否认以后学习算法",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C03-04",
+      "claim": "AND阈值2、OR阈值1真值表",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "verified_logic",
+      "limitations": "模型解释示意，不是原论文逐字例子",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C03-05",
+      "claim": "NOT须合适激励和抑制条件",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "technical",
+      "evidence_level": "bounded_interpretation",
+      "limitations": "非无输入自动发放",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C03-06",
+      "claim": "有回路网络时间依赖与状态",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "technical_history",
+      "evidence_level": "primary_abstract",
+      "limitations": "不混同现代长时记忆",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C03-07",
+      "claim": "n个二值单元瞬时组合2^n个",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "verified_math",
+      "limitations": "其他时延与记忆需扩展状态",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C03-08",
+      "claim": "有限网络≠无需条件的通用计算机",
+      "source_ids": [
+        "R01",
+        "DL17"
+      ],
+      "kind": "technical_interpretation",
+      "evidence_level": "bounded",
+      "limitations": "理论资源条件与现实设备不同",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C03-09",
+      "claim": "能计算≠能学习≠能泛化≠能理解",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "editorial_interpretation",
+      "evidence_level": "bounded",
+      "limitations": "本章论证提炼而非1943逐字结论",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    }
+  ]
+}

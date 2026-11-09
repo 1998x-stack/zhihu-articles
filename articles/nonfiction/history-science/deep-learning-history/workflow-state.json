@@ -9,7 +9,9 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "第一批01—03章完成前置研究与局部大纲审核，可进入nonfiction-writer工作初稿；尚无独立审稿、语言精修、终稿批准。",
+  "stage_note": "第01—03章已写工作初稿+claims.json；前置证据与结构仅限本批核证。当前未通过独立双重审稿，禁止标记final。",
   "evidence_scope": "第01—03章中心史实与演示例题已按research.md的DL01—DL17和R01按主张范围核证；其余章节仍待研究。",
-  "outline_scope": "仅第01—03章的因果大纲与主张账本已完成核验与写作许可；其他章节仍为策划版。"
+  "outline_scope": "仅第01—03章的因果大纲与主张账本已完成核验与写作许可；其他章节仍为策划版。",
+  "draft_scope": "01—03；其余29个章节位置仍为策划占位",
+  "last_completed_working_draft_chapter": 3
 }

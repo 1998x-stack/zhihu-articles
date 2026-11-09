@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "last_chapter": 3,
+  "manuscript_revision": 0,
+  "chapter_status": {
+    "00": "outline",
+    "01": "draft",
+    "02": "draft",
+    "03": "draft",
+    "04": "outline"
+  },
+  "characters": {},
+  "timeline": [
+    {
+      "chapter": "01",
+      "coverage": "古代—19世纪：数学工具前史；不能称直接神经网络起源"
+    },
+    {
+      "chapter": "02",
+      "coverage": "19世纪—20世纪初：细胞结构/突触/生理信号"
+    },
+    {
+      "chapter": "03",
+      "coverage": "1943：McCulloch-Pitts形式网络"
+    }
+  ],
+  "unresolved_clues": [
+    "第04章：1949 Hebb经验—连接变化",
+    "第05章：1958感知机如何通过示例调整权重"
+  ],
+  "resolved_clues": [
+    "第01章数学形式化为何能表达明确计算",
+    "第02章神经生理怎样为阈值模型提供抽象条件",
+    "第03章能计算不等于能学习"
+  ],
+  "continuity_notes": [
+    "第01章历史数学前史为多文明并行比较，无暗示直接传授",
+    "第02章1906两位获奖者贡献和观点须分开写",
+    "第03章标题为反问句，正文明确否定‘两神经元等于通用计算机’",
+    "全部前三章为非虚构工作初稿，尚未独立审稿"
+  ],
+  "review_status": "PENDING"
+}

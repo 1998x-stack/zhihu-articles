@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "chapter": "02",
+  "work": "deep-learning-history",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "research_scope": "first_batch_01_03",
+  "overall_review_status": "PENDING",
+  "claims": [
+    {
+      "claim_id": "C02-01",
+      "claim": "1906 Golgi与Cajal获同一诺奖",
+      "source_ids": [
+        "DL10"
+      ],
+      "kind": "historical",
+      "evidence_level": "official_record",
+      "limitations": "获奖事实不暗示理论一致",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C02-02",
+      "claim": "1873黑色反应，Golgi与Cajal不同理论解释",
+      "source_ids": [
+        "DL11"
+      ],
+      "kind": "historical",
+      "evidence_level": "review_article",
+      "limitations": "不编造实验室对话",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C02-03",
+      "claim": "Cajal神经元学说与细胞连接解释",
+      "source_ids": [
+        "DL11"
+      ],
+      "kind": "historical",
+      "evidence_level": "review_article",
+      "limitations": "脑组织不能直接等同抽象图",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C02-04",
+      "claim": "Sherrington synapse用语定位1897，1906整合作用",
+      "source_ids": [
+        "DL12",
+        "DL13"
+      ],
+      "kind": "historical",
+      "evidence_level": "reviews",
+      "limitations": "避免宣称概念完全首创于该年",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C02-05",
+      "claim": "1928 Adrian与Bronk神经脉冲研究",
+      "source_ids": [
+        "DL14",
+        "DL15"
+      ],
+      "kind": "historical",
+      "evidence_level": "official_plus_primary",
+      "limitations": "单次动作电位特征不等于全部信息二值化",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C02-06",
+      "claim": "Lapicque1907研究与积分-发放模型前史",
+      "source_ids": [
+        "DL16"
+      ],
+      "kind": "historical",
+      "evidence_level": "research_history",
+      "limitations": "现代公式不是1907逐字原式",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C02-07",
+      "claim": "漏积分杯子示例步1 .6；步2 1.0触发",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "verified_arithmetic",
+      "limitations": "人为设定漏0.2和阈值1，不是实验数据",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C02-08",
+      "claim": "现代漏积分-发放微分方程",
+      "source_ids": [
+        "DL16"
+      ],
+      "kind": "didactic",
+      "evidence_level": "modern_reconstruction",
+      "limitations": "不宣称模型公式来源于Lapicque逐字",
+      "editorial_checked": true,
+      "independent_reviewed": false
+    }
+  ]
+}

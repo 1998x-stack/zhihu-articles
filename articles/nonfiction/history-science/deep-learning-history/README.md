@@ -6,7 +6,7 @@
 
 **归档**：`articles/nonfiction/history-science/deep-learning-history/` · **作品**：历史科学非虚构系列 · **主 Skill**：`genre-history-science` · **范围**：思想远源—2026-11-09（史实持续核验） · **面向读者**：对AI好奇、具备中学数学基础的中文读者。
 
-**当前状态**：仅完成全书**策划框架及32个章节占位**（序章00、正文章01—30、尾声31），**没有完成任何正文章节，没有通过独立审稿，也没有获得发布批准**。本书的 `evidence_verified=false`、`outline_approved=false`、`review_status=PENDING`；已有`research.md`是*前置书目和来源检索索引*，不是逐章证据核证完毕。预计正文章各3500—5500字，目标全书约13—17万字，详见 `metadata.yaml`。
+**当前状态**：序章00及第04—31章为章节策划占位（29篇），**第01—03章已完成可阅读的历史非虚构工作初稿及逐章来源映射**（3篇），尚未完成独立双重审稿、语言精修或终稿封版。首批中心史实已作范围限定的前置核证，`evidence_verified=true`与`outline_approved=true`**只在01—03章范围内成立**；`review_status=PENDING`。其他章节仍未核验，不得以全书已经审定理解。预计正文章各3500—5500字，全书约13—17万字。
 
 ## 从哪里开始
 
@@ -83,9 +83,9 @@
 
 > 区分远源思想与直接学术谱系。
 
-- [01｜古代没有深度学习：逻辑、概率和微分怎样成为远源工具？](draft/01.md) — 知识能否被形式化？不确定性怎样计算？〔策划占位〕
-- [02｜看见神经元之前：大脑为何会被理解成可计算的系统？](draft/02.md) — 神经活动能否抽象成离散信号？〔策划占位〕
-- [03｜1943年：两个逻辑神经元，真的能够构成一台计算机器？](draft/03.md) — 一群阈值元件能做什么逻辑运算？〔策划占位〕
+- [01｜古代没有深度学习：逻辑、概率和微分怎样成为远源工具？](draft/01.md) — 知识能否被形式化？不确定性怎样计算？〔工作初稿，未独立审稿〕
+- [02｜看见神经元之前：大脑为何会被理解成可计算的系统？](draft/02.md) — 神经活动能否抽象成离散信号？〔工作初稿，未独立审稿〕
+- [03｜1943年：两个逻辑神经元，真的能够构成一台计算机器？](draft/03.md) — 一群阈值元件能做什么逻辑运算？〔工作初稿，未独立审稿〕
 
 ### 第二部｜第一次机器学习的雄心
 
@@ -200,9 +200,9 @@
 本系列遵循仓库根目录 [AGENTS.md](../../../../AGENTS.md)、[workflow.json](../../../../workflow.json) 和 [docs/contracts.md](../../../../docs/contracts.md)。主类型为 `genre-history-science`，非虚构写作依次由对应阶段 Skill 负责：
 `chief-narrative-editor → genre-history-science → topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → line-edit → final-approval`。具体文件边界以 [仓库合同](../../../../docs/contracts.md) 为准。
 
-> **进度真实性**：`draft/NN.md` 当前全部是“章节策划占位”，没有正文完成。`claim-ledger.md`只是待核主张路径表，不代表所有证据已被核实。`workflow-state.json`未批准结构、未批准证据、未通过审稿。不得因为文件齐全就假装已获得放行。
+> **进度真实性**：仅第01—03章为含来源映射的可阅读工作初稿；其他29篇仍为策划占位。`workflow-state.json`的证据与大纲许可**严格限于本批**；审稿仍为PENDING。文件齐备、数学示例复算与策划复核均不等于独立审稿通过。
 
-正式开始第01—03章时：逐条补原论文和可靠二手研究、明确每个历史断言可证范围→经实际审查确认`evidence_verified`与`outline_approved`→运行 `python scripts/workflow_gate.py articles/nonfiction/history-science/deep-learning-history --target draft`→使用`nonfiction-writer`产出正文及每章`draft/NN.claims.json`→双重独立审稿。每写一批再核前后因果。后续补批不得重开选题或任意修改已冻结主线。
+第01—03章已经完成前置来源范围核证、工作初稿及`draft/NN.claims.json`；下一步进行**独立连续性审计与结构审稿**、处理修订建议，之后才能考虑`line-edit`与终稿封版。开始第二批第04—06章前，必须单独补充其原始史料与来源主张核证；每批写作仍须检查`python scripts/workflow_gate.py <article_dir> --target draft`，不可复用首批的证据范围。
 
 ## 八、编辑验收与不可犯的史学错误
 
@@ -213,4 +213,14 @@
 - 不能混淆**开放权重、开源代码、开放训练数据**三个层次。
 - 不能把榜单结果、实验室演示、厂商声称当作相同强度的证据。
 
-**版本日期**：2026-11-09；本轮仅为叙事策划与研究起始，后续事件应标明资料截至日期，并在文章发表前复核。
+**版本日期**：2026-11-09；本轮完成第01—03章工作初稿，未来章节仍在策划中。资料截至日期与审稿状态须在发表前重新确认。
+
+## 九、首批三章工作初稿的已实现入口
+
+| 章节 | 正文 | 证据映射 | 状态 |
+| --- | --- | --- | --- |
+| 01 逻辑、概率与微分的远源 | [draft/01.md](draft/01.md) | [01.claims.json](draft/01.claims.json) | 工作初稿、待独立审稿 |
+| 02 神经元学说与兴奋性 | [draft/02.md](draft/02.md) | [02.claims.json](draft/02.claims.json) | 工作初稿、待独立审稿 |
+| 03 1943形式网络 | [draft/03.md](draft/03.md) | [03.claims.json](draft/03.claims.json) | 工作初稿、待独立审稿 |
+
+初步数学/逻辑例题检查与结构自查见[连续性自查记录](qa/continuity-report.md)及[结构待审清单](qa/developmental-review.md)。**二者均不冒称独立审稿完成**。

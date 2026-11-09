@@ -2,9 +2,9 @@
   "schema_version": 1,
   "id": "deep-learning-history",
   "title": "让机器学会学习：一部深度学习发展史",
-  "reading_notice": "全32篇均为章节策划占位；无已完成正文，无独立审稿或发布许可。",
-  "outline_approved": false,
-  "evidence_verified": false,
+  "reading_notice": "第01—03章为历史非虚构工作初稿并附逐条证据映射；序章与第04—31章仍为策划占位。尚未通过独立审稿或终稿封版。",
+  "outline_approved": true,
+  "evidence_verified": true,
   "parts": [
     {
       "title": "第一部｜古老问题与现代前提",
@@ -128,10 +128,12 @@
       "part": "第一部｜古老问题与现代前提",
       "period": "古代—19世纪",
       "file": "draft/01.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
         "TO_VERIFY"
-      ]
+      ],
+      "claims_file": "draft/01.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-02",
@@ -140,10 +142,12 @@
       "part": "第一部｜古老问题与现代前提",
       "period": "19世纪—20世纪前半",
       "file": "draft/02.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
         "TO_VERIFY"
-      ]
+      ],
+      "claims_file": "draft/02.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-03",
@@ -152,10 +156,12 @@
       "part": "第一部｜古老问题与现代前提",
       "period": "1943",
       "file": "draft/03.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
         "R01"
-      ]
+      ],
+      "claims_file": "draft/03.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-04",
@@ -511,5 +517,7 @@
         "R20"
       ]
     }
-  ]
+  ],
+  "outline_scope": "仅01—03章",
+  "evidence_scope": "仅01—03章中心史实及例题"
 }
