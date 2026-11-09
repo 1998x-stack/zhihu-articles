@@ -1,23 +1,152 @@
 {
   "chapter": "27",
-  "status": "PENDING",
+  "title": "魏尔斯特拉斯：不用图形怎样定义趋近",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H157",
+    "H158",
+    "H159",
+    "H160",
+    "H161",
+    "H162",
+    "H165"
+  ],
   "claims": [
     {
       "id": "C27-01",
-      "statement": "极限如何变成精确量词",
-      "source_candidates": [
-        "H05"
+      "kind": "history",
+      "statement": "Weierstrass 1861 lectures employed inequality-based approach to differential calculus",
+      "source_ids": [
+        "H157",
+        "H158"
       ],
-      "verification": "PENDING"
+      "locator": "JSTAGE 2009 abstract; Volkert 2021 section on 1861 notes",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C27-02",
-      "statement": "ε–δ和一致收敛",
-      "source_candidates": [
-        "H05"
+      "kind": "historiography",
+      "statement": "Cauchy and Weierstrass approaches differ, but epsilon-delta rigor had multi-person development",
+      "source_ids": [
+        "H157",
+        "H160",
+        "H159"
       ],
-      "verification": "PENDING"
+      "locator": "JSTAGE, Grabiner and SEP",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C27-03",
+      "kind": "history_lectures",
+      "statement": "Weierstrass lectures and student notes document changes in uniform convergence expressions during 1861–1886",
+      "source_ids": [
+        "H158"
+      ],
+      "locator": "Volkert open full-text note comparison",
+      "verification": "OPEN_ACADEMIC_RESEARCH"
+    },
+    {
+      "id": "C27-04",
+      "kind": "history_terminology",
+      "statement": "Lecture terms and notation did not evolve monotonically, cannot backdate one printed wording to 1861",
+      "source_ids": [
+        "H158"
+      ],
+      "locator": "Volkert full text sections 4-6",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C27-05",
+      "kind": "modern_definition",
+      "statement": "epsilon-delta continuity: for each ε>0 exists δ>0 such that |x-a|<δ implies |f(x)-f(a)|<ε",
+      "source_ids": [
+        "H159"
+      ],
+      "locator": "SEP definition, modern standard",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C27-06",
+      "kind": "modern_math",
+      "statement": "f(x)=x² continuous at every a with δ=min(1,ε/(2|a|+1))",
+      "source_ids": [],
+      "locator": "factor x²-a² and triangle inequality",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C27-07",
+      "kind": "logic",
+      "statement": "Reversing ∀ε∃δ into ∃δ∀ε changes claim, generally false for x² at 3",
+      "source_ids": [],
+      "locator": "logical quantifier dependence counterexample",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C27-08",
+      "kind": "modern_definition",
+      "statement": "uniform convergence ∀ε∃N∀n≥N∀x∈E vs pointwise N may depend on x",
+      "source_ids": [
+        "H158"
+      ],
+      "locator": "Volkert history plus modern formal definition",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C27-09",
+      "kind": "modern_math",
+      "statement": "x^n pointwise limit on [0,1] discontinuous at 1, convergence not uniform",
+      "source_ids": [],
+      "locator": "x=2^(-1/n) ensures error 1/2",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C27-10",
+      "kind": "modern_math",
+      "statement": "x^n converges uniformly to 0 on [0,r] for 0<r<1",
+      "source_ids": [],
+      "locator": "sup x^n=r^n→0",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C27-11",
+      "kind": "history_scope",
+      "statement": "Uniform convergence related theorems in Weierstrass 1861-1886 notes, historic methods not one final exact modern formula",
+      "source_ids": [
+        "H158"
+      ],
+      "locator": "Volkert research, including notes variation",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C27-12",
+      "kind": "foundation",
+      "statement": "Cauchy sequence over Q may fail to converge in Q; real completeness needed for limits",
+      "source_ids": [
+        "H160",
+        "H162"
+      ],
+      "locator": "modern sqrt2 approximants + conceptual foundations",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C27-13",
+      "kind": "bridge",
+      "statement": "Precise epsilon-delta conditions motivate construction of complete real numbers, leading to Dedekind and Cantor",
+      "source_ids": [
+        "H160",
+        "H162",
+        "H165"
+      ],
+      "locator": "historical multiple trajectories and editorial bridge",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "魏尔斯特拉斯非独自首次发明ε–δ；概念在柯西、玻尔查诺及众人工作中演化。",
+    "1861—1886学生讲义用语不同，现代量词并非一份1861原稿的逐字录文。",
+    "x²和x^n的例子是现代可验证计算，不是假托历史原题。",
+    "等距逼近的有理数柯西列不保证在有理数域有极限。",
+    "未经过全书正式draft gate和独立双审。"
+  ]
 }
