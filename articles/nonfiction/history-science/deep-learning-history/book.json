@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "deep-learning-history",
   "title": "让机器学会学习：一部深度学习发展史",
-  "reading_notice": "第01—12章共12篇历史科学非虚构工作初稿并附逐章主张映射；序章00和第13—31章共20篇为策划占位。限域核实中心史实与教学算例，独立双重审稿/语言精修/封版均未完成。",
+  "reading_notice": "第01—15章共15篇非虚构工作初稿及逐章证据映射；序章00与16—31章共17篇策划占位。研究核查仅中心主张，独立双审、精修与最终封版均未完成。",
   "outline_approved": true,
   "evidence_verified": true,
   "parts": [
@@ -315,10 +315,15 @@
       "part": "第五部｜让深层网络重新可训练",
       "period": "2003",
       "file": "draft/13.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R07"
-      ]
+        "DL64",
+        "DL65",
+        "DL66",
+        "DL67"
+      ],
+      "claims_file": "draft/13.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-14",
@@ -327,10 +332,16 @@
       "part": "第五部｜让深层网络重新可训练",
       "period": "2006",
       "file": "draft/14.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R08"
-      ]
+        "DL68",
+        "DL69",
+        "DL70",
+        "DL71",
+        "DL72"
+      ],
+      "claims_file": "draft/14.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-15",
@@ -339,10 +350,15 @@
       "part": "第五部｜让深层网络重新可训练",
       "period": "约2009—2012",
       "file": "draft/15.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "TO_VERIFY"
-      ]
+        "DL73",
+        "DL74",
+        "DL75",
+        "DL76"
+      ],
+      "claims_file": "draft/15.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-16",
@@ -552,6 +568,6 @@
       ]
     }
   ],
-  "outline_scope": "分批细纲许可仅01—12章",
-  "evidence_scope": "限定中心史实与技术例题仅第01—12章"
+  "outline_scope": "仅01—15分章细纲",
+  "evidence_scope": "仅01—15中心史实与算例"
 }

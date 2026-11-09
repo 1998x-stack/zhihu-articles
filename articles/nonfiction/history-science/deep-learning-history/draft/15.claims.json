@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "15",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "only this chapter, limited primary-source review and didactic derivations",
+  "claims": [
+    {
+      "claim_id": "C15-01",
+      "claim": "2012综述对传统GMM-HMM与DNN声学角色的回顾",
+      "source_ids": [
+        "DL75"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "HMM负责时序，DNN替代/补充GMM声学评估",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C15-02",
+      "claim": "DNN输出上下文相关绑定三音素状态的后验概率",
+      "source_ids": [
+        "DL74",
+        "DL75"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是2012通用端到端文本生成",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C15-03",
+      "claim": "2011 Seide/Gang Li/Dong Yu论文与北京/雷德蒙德机构",
+      "source_ids": [
+        "DL73"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "机构地点不意味着研究者国籍",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C15-04",
+      "claim": "2011 RT03S Fisher单遍无关说话人WER27.4%→18.5%",
+      "source_ids": [
+        "DL73"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "只限论文同一基准和基线条件",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C15-05",
+      "claim": "2012 Dahl/Yu/Deng/Acero大词汇混合声学系统",
+      "source_ids": [
+        "DL74"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "出版社实验范围不能外推所有语音任务",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C15-06",
+      "claim": "2012跨Toronto/Microsoft/Google/IBM四组科研综述",
+      "source_ids": [
+        "DL75"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不能归于一个机构独占突破",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C15-07",
+      "claim": "ASRU2011北京/美团队声学特征研究",
+      "source_ids": [
+        "DL76"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "地区与个人国籍不可混为一谈",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C15-08",
+      "claim": "四词句单词替换的WER=25%及绝对/相对下降口径",
+      "source_ids": [
+        "AUTHOR_DERIVATION",
+        "DL73"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "教学句不属于原始实验，33%不是百分点数",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
