@@ -343,3 +343,11 @@
 - **可支持现代计算解释的内容**：理想力学摆线时间、简化折射必要条件、洛必达法则受限示例、Taylor余项及非解析光滑函数反例；须从历史叙述中明确隔离。
 - **不能宣布完成的工作**：洛必达与伯努利通信每一处精确页码、1715首版命题逐页转写、全部史学优先权细节、所有后续章节证据核证、任何独立审稿/终稿批准。
 - **写作门禁实况**：截至本条研究修订，项目 \`workflow-state.json\` 中 \`outline_approved=false\`、\`evidence_verified=false\`、\`review_status=PENDING\`，故下游写出的只能标注**工作初稿（未通过正式 draft gate）**，不得隐含合法封版或发布许可。
+
+
+### 4. 两项补充的原始材料入口（2026-11-09）
+
+- **H113** Daniel E. Otero，[MAA Convergence｜L’Hôpital’s Rule: A Mini-Primary Source Project for Calculus 1 Students](https://old.maa.org/node/3575254)，历史教材原命题与17世纪曲线不定比的转述；其中有洛必达原命题的英译和当时图示的讨论。**已核对公开正文主要段落**，它比现代「所有0/0均适用」的错误概括更谨慎。出处为现代数学教育与史料项目，不等于亲眼检查了1696初版本每个图版。
+- **H114** The Royal Society Collections，[Letter from Brook Taylor to John Machin](https://catalogues.royalsociety.org/calmview/Record.aspx?id=MS%2F82%2F2&src=CalmView.Catalog)，馆藏 **MS/82/2**，**1712-07-26**，记载此信联系 Kepler 运动问题与Halley求根方法，注明这是后来所谓Taylor定理在其书信中的早期记载。**核对的是馆藏目录的书目信息，不是四页手稿全文**。由此可写1712与1715两个史实节点，不可伪造原信逐字引文或把1717印本当1715首版。
+
+**批次尾注**：三篇已形成 \`draft/17—19.md\` 及逐章claims记录，均属于**专项史料范围内的工作初稿**；目前未据此更改全书门禁，也未执行独立历史/数学双审。下一步需复核洛必达1696初版与伯努利授课手稿的逐页对应、Taylor 1715初版特定命题、最速降线全局最优性证明的严格条件。
