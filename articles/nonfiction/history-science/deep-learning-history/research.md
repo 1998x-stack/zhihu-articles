@@ -249,3 +249,51 @@
 - 查明LeNet变体及1998论文表格中实验集、预处理、训练设置，正式书稿如要报模型误差须连同测评条件与原始表格，不从摘要推导性能优势。
 - 核查1997原文与2000版本在输入、输出、遗忘门以及后续peephole连接上的差异；本稿不归属未覆盖的后续变种。
 - SVM核优化与神经网络优化的“全局/局部”表述必须以条件、目标及模型非凸性为前提；训练数据质量和泛化风险不可由一种算法名称推出。
+
+
+## 九、第五批13—15章｜从可共享的词表示到深层初始化、声学模型（2026-11-09）
+
+> **仅针对本批的前置核验**：第13—15章写作之前核对原始发表年份、作者团队、算法机制、可复算例题及哪些结论属于特定实验。2003 JMLR原始论文、2006深度信念网络论文与2011 Interspeech论文已打开并查看PDF首页；本节不假称整篇所有数据表格均已独立审计。来自回顾性论文的历史评价，应与其描述的当年实验分开。以前各批的PENDING审稿状态不因本次追加事实研究而改变。
+
+| source_id | 原始日期与证据属性 | 可核入口 | 直接支持范围与警戒线 |
+| --- | --- | --- | --- |
+| DL64 | 2000会议版本，一手书目 | Bengio, Ducharme & Vincent, [A Neural Probabilistic Language Model](https://proceedings.neurips.cc/paper_files/paper/2000/hash/728f206c2a01bf572b5940d7d9a8fa4c-Abstract.html), NIPS 2000 | 该研究2000年已有三人署名的会议论文；**2003不是同名思想的首次出现**；会议归年与论文集出版年份不能任意混同 |
+| DL65 | 2003-02期刊正式版本；PDF首页已核 | Bengio, Ducharme, Vincent & Jauvin, [A Neural Probabilistic Language Model](https://jmlr.org/papers/v3/bengio03a.html), JMLR 3:1137–1155 | 四人作者、词分布式连续向量与条件概率共同训练；两组文本语料优于论文选定的n-gram比较条件，不能泛化所有语言任务 |
+| DL66 | 2003另一原始研究 | Bengio & Senécal, [Quick Training of Probabilistic Neural Nets by Importance Sampling](https://proceedings.mlr.press/r4/bengio03a.html), AISTATS 2003 | 词表softmax训练计算量（每条样本需考虑所有候选词），重要性采样加速探索；不将后来的negative sampling倒灌为2003标准方案 |
+| DL67 | 2013原始预印本 | Mikolov, Chen, Corrado & Dean, [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781), 2013-01 | word2vec相关结构是后来的工作；不得把2003 Bengio模型称作“2013 word2vec”或2017 Transformer |
+| DL68 | 2006-07同行评审原始论文；作者公开PDF首页已核 | Hinton, Osindero & Teh, [A Fast Learning Algorithm for Deep Belief Nets](https://pubmed.ncbi.nlm.nih.gov/16764513/), Neural Computation 18(7):1527–1554；[作者版PDF](https://www.stats.ox.ac.uk/~teh/research/unsup/nc2006.pdf) | DBN逐层贪心无监督训练，上两层无向关联记忆、下层定向生成连接；原论文生成模型进一步用对比式wake-sleep微调，**不可称所有阶段均为监督反向传播** |
+| DL69 | 2002一手论文 | Hinton, [Training Products of Experts by Minimizing Contrastive Divergence](https://pubmed.ncbi.nlm.nih.gov/12180402/), Neural Computation 14(8):1771–1800 | 对比散度作为概率模型训练方法；CD是近似学习工具，不等于对任何RBM都精确求出全似然梯度 |
+| DL70 | 2006-07-28 Science原始论文 | Hinton & Salakhutdinov, [Reducing the Dimensionality of Data with Neural Networks](https://pubmed.ncbi.nlm.nih.gov/16873662/), Science 313:504–507 | 用较好预训练初始化深层自编码器，再以梯度下降做重构微调；**与Hinton等2006 DBN原论文的生成式微调要分清** |
+| DL71 | 2006 NeurIPS会议研究（论文集也常标2007） | Bengio, Lamblin, Popovici & Larochelle, [Greedy Layer-Wise Training of Deep Networks](https://papers.nips.cc/paper/2006/hash/5da713a690c067105aeb2fae32403405-Abstract.html) | 蒙特利尔团队在2006会议节点探索分层无监督训练、与监督微调的其他安排；不把成果归功于单一多伦多团队 |
+| DL72 | 2009后续学术研究 | Larochelle, Bengio, Louradour & Lamblin, [Exploring Strategies for Training Deep Neural Networks](https://jmlr.org/papers/v10/larochelle09a.html), JMLR 10:1–40 | 比较预训练优化、正则化作用与变体；这是后世机制研究，不能冒充2006研究者已知道所有结论 |
+| DL73 | 2011-08语音领域原始会议论文；PDF首页已核 | Seide, Gang Li & Dong Yu, [Conversational Speech Transcription Using Context-Dependent Deep Neural Networks](https://www.isca-archive.org/interspeech_2011/seide11_interspeech.html), Interspeech 2011 pp.437–440 | 机构署名：北京Microsoft Research Asia和雷德蒙德Microsoft Research；RT03S Fisher测试单遍无说话人适配场景，GMM-HMM词错误率27.4%→CD-DNN-HMM 18.5%，绝对降8.9百分点，相对降约32.5%；**只限论文同条件** |
+| DL74 | 2012-01原始IEEE期刊论文 | Dahl, Dong Yu, Li Deng & Acero, [Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition](https://www.microsoft.com/en-us/research/publication/context-dependent-pre-trained-deep-neural-networks-for-large-vocabulary-speech-recognition/), IEEE Trans. Audio Speech Lang. Process. 20(1):30–42 | CD-DNN-HMM以DNN输出绑定三音素状态的后验概率，借已有HMM解码大词汇语音；特定商务搜索语音基准胜于给定GMM-HMM参照 |
+| DL75 | 2012-11四组团队综合评述（当事作者） | Hinton, Li Deng, Dong Yu et al., [Deep Neural Networks for Acoustic Modeling in Speech Recognition: The Shared Views of Four Research Groups](https://www.microsoft.com/en-us/research/publication/deep-neural-networks-for-acoustic-modeling-in-speech-recognition/), IEEE Signal Processing Magazine 29(6):82–97 | 四组来自多伦多、微软研究院、Google、IBM；2009—2012不同工作线整合成果，**HMM通常仍负责时序解码**，DNN多为声学模型，不等于当时端到端语音大模型 |
+| DL76 | 2011另一原始会议论文 | Seide, Gang Li, Xie Chen & Dong Yu, [Feature Engineering in Context-Dependent Deep Neural Networks for Conversational Speech Transcription](https://www.microsoft.com/en-us/research/publication/feature-engineering-in-context-dependent-deep-neural-networks-for-conversational-speech-transcription/), ASRU 2011 | 中国北京机构研究参与者及声学特征工程与适配任务；不得按作者拼写直接推断个人国籍或把团队贡献合并为单一天才故事 |
+
+### 13章史实决议：不是“2003才发明词向量”
+
+- 同名三人会议论文在**2000年**；四人JMLR版发表于**2003年2月**，第4位作者Christian Jauvin不可漏写。原论文的问题是语言序列条件概率的高维稀疏：词序列数目随词表大小和上下文长度组合增长，n-gram平滑有重要历史成绩，但难以只靠精确组合覆盖所有未见文本。
+- 同时学习词的连续分布式表示及预测下一词的概率，把不同文本语境之间的统计线索通过共享参数联系起来。**“未出现过的词序列”≠“词表里根本没这个新词”**；OOV、长距依赖和softmax计算成本仍是问题。论文对两组语料的表现不能直接推出开放式长文本理解。
+- **教学例题**：人工设3个候选下一词得分[2,1,0]，softmax概率约[0.665241,0.244728,0.090031]，三值和为1；只演示“连续得分如何变成候选概率”，不是2003真实实验或保证语义类比。若词表1万且连续四个词，理论不同组合数可达10^16，不等于实际模型必须完整存这么大参数表。
+
+### 14章史实决议：区分2006 DBN、深层自编码器与后来的监督微调
+
+- 2002 Hinton的CD论文提供训练概率模型的近似工具，2006 Hinton/Osindero/Teh采用逐层无监督训练构建**混合有向/无向的生成式DBN**，其原始文献采用对比式wake-sleep作生成微调；另一篇2006 *Science*论文将较好初始化与**深层自编码器反向传播微调**结合。这不是2006“发明反传”，也不是“原始DBN等于任意多层分类器”。
+- 2006 NeurIPS Bengio等团队及2009研究继续比较逐层预训练与深度优化，并非单个团队一项论文独占所有方法；预训练缓解了当时某些深网络的初始化与优化困境，但没有证明所有深度、任务、硬件都因此可训练。
+- **教学例题**：玩具RBM仅一可见单元v与一隐藏单元h，取隐偏置0、权重w=ln3，现代标准条件概率P(h=1|v)=σ(wv)；v=0时0.5、v=1时0.75。只是演示“隐藏特征如何根据观察随机激活”，不是2006论文的MNIST训练数据或实际CD采样链。
+
+### 15章史实决议：声学模型突破，而非一次性替换全部语音系统
+
+- 2000年代末—2012年的相关成果是研究团队与工业系统协同迭代。经典GMM-HMM系统中HMM处理声学状态时间变化，GMM评估短帧与状态的吻合；CD-DNN-HMM以深网络估计绑定三音素声学状态的后验概率，并经适当转换/解码与HMM等组件结合。
+- 2011 Seide、Gang Li、Dong Yu的Interspeech论文第一作者与第二作者的机构地点为**北京**，第三作者的机构地点为**美国雷德蒙德**，可证明跨地点合作，**不能由地点推断每个人国籍**。2012四组综述表明并非只有一家公司推动；2012 Dahl等原始期刊论文强调上下文相关声学建模与预训练。不要把所有2012工业成果写成2006 DBN“必然导致”的单一链条。
+- **具体基准**：2011 Interspeech论文在RT03S Fisher子集、单遍、说话人无关条件下将词错误率27.4%降至18.5%，相差8.9百分点；以27.4%为基数相对下降≈32.5%。**不允许省略测试条件并声称所有语音识别任务一律下降33%**。
+- **教学例题**：四个空格分隔英文词 reference “we need more data”，hypothesis “we need new data”，编辑距离替换1个，WER=(S+D+I)/N=1/4=25%。是自造教学，不是2011实验原句。若中文按字计数应称字错误率CER，不可和WER混用。
+
+### 独立审稿尚未完成
+
+1. 2000 NIPS会议原始完整PDF与2003 JMLR模型结构及正式出版年代需要按页码再次核对；本轮首屏/元数据核验足以支持概述而非全文逐行引用。
+2. DBN2006的有向/无向分层和生成微调与2006 Science的自编码器梯度微调必须分别审。对比散度的精确目标及计算代价仍需算法专审。
+3. 2011语音论文的模型规模（训练小时数/状态数/层数）可以按其论文范围引用，但不同基准或统计口径不可直接横比；如使用27.4与18.5必须注明单遍、说话人无关、RT03S Fisher数据条件。
+4. 不得虚构中国学者国籍、现场对话或实验日志；应以原论文中北京/雷德蒙德机构署名和原始作者列为准。
+5. 本轮所有章节仍为工作初稿研究范围；独立连续性审计和结构审稿没有PASS，最终版本未批准。
