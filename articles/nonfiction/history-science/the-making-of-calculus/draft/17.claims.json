@@ -1,23 +1,149 @@
 {
   "chapter": "17",
-  "status": "PENDING",
+  "title": "1696年最速降线：直线为何不是最快路线",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H102",
+    "H103",
+    "H104",
+    "H17",
+    "H19"
+  ],
   "claims": [
     {
       "id": "C17-01",
-      "statement": "哪条曲线滑落用时最短",
-      "source_candidates": [
-        "H07"
+      "kind": "history",
+      "statement": "1696年6月约翰·伯努利在Acta Eruditorum提出重力下滑最短时间问题",
+      "source_ids": [
+        "H102",
+        "H103"
       ],
-      "verification": "PENDING"
+      "locator": "Henry-Wanner 2017 p.147 §4; MacTutor opening",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C17-02",
-      "statement": "摆线与早期变分思维",
-      "source_candidates": [
-        "H07"
+      "kind": "historical_precursor",
+      "statement": "伽利略1638年研究相关问题但其一般圆弧最优结论不成立",
+      "source_ids": [
+        "H103"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor paragraphs on Galileo and 1638",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C17-03",
+      "kind": "history_publication",
+      "statement": "挑战延长至1697年复活节；多位作者解答且提交/公开发表口径不同",
+      "source_ids": [
+        "H102",
+        "H103"
+      ],
+      "locator": "Henry-Wanner pp.147–148; MacTutor submissions/publications",
+      "verification": "CROSS_CHECKED_QUALIFIED"
+    },
+    {
+      "id": "C17-04",
+      "kind": "history_method",
+      "statement": "约翰·伯努利用薄层光学折射类比及最短时间原则寻找摆线",
+      "source_ids": [
+        "H102",
+        "H103"
+      ],
+      "locator": "Henry-Wanner pp.147–149 equation 11 and 12",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C17-05",
+      "kind": "modern_physics",
+      "statement": "无摩擦恒定重力静止出发时v²=2gy与T=∫ds/√(2gy)",
+      "source_ids": [
+        "H102",
+        "H19"
+      ],
+      "locator": "modern energy derivation and dimension check",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C17-06",
+      "kind": "modern_variation",
+      "statement": "角度对竖直方向测量时sinφ/v常数推出y(1+y'^2)=2a",
+      "source_ids": [
+        "H102"
+      ],
+      "locator": "Henry-Wanner p.147–149 optical refraction; independently derived",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C17-07",
+      "kind": "modern_geometry",
+      "statement": "x=a(θ−sinθ),y=a(1−cosθ)满足y(1+y'^2)=2a",
+      "source_ids": [
+        "H102"
+      ],
+      "locator": "symbolic parameter differentiation",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C17-08",
+      "kind": "modern_comparison",
+      "statement": "固定端点(πa,2a)时T_cyc=π√(a/g)，T_line=√(π²+4)√(a/g)",
+      "source_ids": [
+        "H19"
+      ],
+      "locator": "independent arc-length/energy computation; same as prologue",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C17-09",
+      "kind": "modern_example",
+      "statement": "a=1m g=9.81m/s²时摆线1.003s直线1.189s约快15.6%",
+      "source_ids": [
+        "H19"
+      ],
+      "locator": "numeric values from prologue independently checked",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C17-10",
+      "kind": "proof_boundary",
+      "statement": "满足最优化必要条件不等于任意曲线全局最优；两轨道比较不等于全局证明",
+      "source_ids": [
+        "H102"
+      ],
+      "locator": "explicit logical caveat, modern variational distinction",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C17-11",
+      "kind": "history_contributions",
+      "statement": "雅各布、牛顿、莱布尼茨等解法与出版口径不同，不将其归于同一推导",
+      "source_ids": [
+        "H102",
+        "H103",
+        "H104"
+      ],
+      "locator": "Henry-Wanner 2017 §4; Royal Society CLP/1/30",
+      "verification": "CROSS_CHECKED_QUALIFIED"
+    },
+    {
+      "id": "C17-12",
+      "kind": "bridge",
+      "statement": "最速降线公开验证微积分方法，转入1696年的洛必达教材传播",
+      "source_ids": [
+        "H103",
+        "H105"
+      ],
+      "locator": "contextual timeline synthesis",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "所有公式属于现代回译，不是历史作者原符号。",
+    "本章只比较一组固定端点的摆线和直线，不能冒充完整全局最小性证明。",
+    "参与者数量须区分收到的解答与当年刊行的文章。",
+    "未经验证的牛顿私下心理和速答传说不予叙述。",
+    "本章状态不代表项目draft门禁或独立双审通过。"
+  ]
 }
