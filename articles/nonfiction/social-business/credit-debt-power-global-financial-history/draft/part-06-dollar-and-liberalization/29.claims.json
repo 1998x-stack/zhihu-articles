@@ -1,0 +1,205 @@
+{
+  "chapter": "29",
+  "chapter_batch": "28-30",
+  "lane": "nonfiction",
+  "revision": 25,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "BOJ retrospective speeches and research, 1991 official white paper, IMF and NBER studies; original price series and regulator notices not publication-audited.",
+  "claims": [
+    {
+      "claim_id": "CH29-001",
+      "statement": "1989年12月末日经指数约38915点；股票与土地价格非同步见顶",
+      "source_ids": [
+        "F-2901",
+        "F-2907"
+      ],
+      "classification": "market_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-002",
+      "statement": "1985年广场协议后日元迅速升值，构成日本经济背景",
+      "source_ids": [
+        "F-2902",
+        "F-2907"
+      ],
+      "classification": "policy_context",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-003",
+      "statement": "日本央行1986—1987年多次放松官方贴现率",
+      "source_ids": [
+        "F-2901",
+        "F-2902"
+      ],
+      "classification": "rate_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-004",
+      "statement": "日本官方贴现率由5%降至2.5%，1989年5月以前未再调升",
+      "source_ids": [
+        "F-2902"
+      ],
+      "classification": "official_rate",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-005",
+      "statement": "日本央行1989年5月起提高贴现率，并于1990年继续紧缩",
+      "source_ids": [
+        "F-2901",
+        "F-2902"
+      ],
+      "classification": "rate_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-006",
+      "statement": "金融自由化后大型制造企业能更多通过证券市场融资",
+      "source_ids": [
+        "F-2903",
+        "F-2905"
+      ],
+      "classification": "bank_customer_change",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-007",
+      "statement": "银行扩大房地产和中小企业贷款，关联客户结构调整",
+      "source_ids": [
+        "F-2903",
+        "F-2905"
+      ],
+      "classification": "financial_liberalization",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-008",
+      "statement": "土地抵押估值上涨可能提高可借贷规模",
+      "source_ids": [
+        "F-2902",
+        "F-2904"
+      ],
+      "classification": "author_balance_sheet_example",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-009",
+      "statement": "抵押品价格与贷款增长存在相互增强的可能",
+      "source_ids": [
+        "F-2904"
+      ],
+      "classification": "causal_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-010",
+      "statement": "1990年前后股价转弱比地价调整更早",
+      "source_ids": [
+        "F-2901",
+        "F-2907"
+      ],
+      "classification": "market_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-011",
+      "statement": "低消费物价涨幅与资产价格泡沫可以同时存在",
+      "source_ids": [
+        "F-2907"
+      ],
+      "classification": "inflation_boundary",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-012",
+      "statement": "Ito与Iwaisako研究认为低利率与真实经济增长不足解释全部资产涨幅",
+      "source_ids": [
+        "F-2904"
+      ],
+      "classification": "research_finding",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-013",
+      "statement": "1991政府白皮书记录房地产相关贷款结构变化",
+      "source_ids": [
+        "F-2908"
+      ],
+      "classification": "government_series",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-014",
+      "statement": "日本1990年前后调整涉及针对房地产贷款的行政监管",
+      "source_ids": [
+        "F-2901",
+        "F-2902"
+      ],
+      "classification": "regulatory_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-015",
+      "statement": "股价和地价下跌引致抵押价值下降和银行资产损伤",
+      "source_ids": [
+        "F-2902",
+        "F-2906"
+      ],
+      "classification": "balance_sheet_effect",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-016",
+      "statement": "银行问题贷款、监管宽容、贷款重组可延长调整过程",
+      "source_ids": [
+        "F-2905",
+        "F-2906"
+      ],
+      "classification": "bank_crisis_explanation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-017",
+      "statement": "不能将日本泡沫完全归因于广场协议或某一次加息",
+      "source_ids": [
+        "F-2902",
+        "F-2904",
+        "F-2905"
+      ],
+      "classification": "competing_explanation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    },
+    {
+      "claim_id": "CH29-018",
+      "statement": "资产风险转移工具与泡沫的抵押融资机制之间不是同一直接因果",
+      "source_ids": [
+        "F-2904",
+        "F-3002"
+      ],
+      "classification": "cross_chapter_caution",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+    }
+  ]
+}
