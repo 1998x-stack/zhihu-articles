@@ -1,23 +1,157 @@
 {
   "chapter": "22",
-  "status": "PENDING",
+  "title": "拉格朗日：微积分能摆脱无穷小吗",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H125",
+    "H126",
+    "H127",
+    "H128",
+    "H130",
+    "H111",
+    "H122",
+    "H05"
+  ],
   "claims": [
     {
       "id": "C22-01",
-      "statement": "变分与分析能否重新奠基",
-      "source_candidates": [
-        "H05"
+      "kind": "publication_history",
+      "statement": "1797巴黎出版拉格朗日Théorie des fonctions analytiques，其长副标题主张摆脱无穷小极限流数",
+      "source_ids": [
+        "H125",
+        "H126"
       ],
-      "verification": "PENDING"
+      "locator": "Kyoto University catalogue full French title; Fraser publisher abstract",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C22-02",
-      "statement": "变分法及幂级数基础方案",
-      "source_candidates": [
+      "kind": "historiography",
+      "statement": "早期1754—1761形式微积分与变分工作不能等同1797基础方案",
+      "source_ids": [
+        "H127",
+        "H130"
+      ],
+      "locator": "Cambridge Fraser book chapter summary",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C22-03",
+      "kind": "variations_history",
+      "statement": "欧拉1744变分法专著在先，拉格朗日后来推进变分技术",
+      "source_ids": [
+        "H122",
+        "H128"
+      ],
+      "locator": "Euler Archive E65, Serfaty 2014 abstract",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C22-04",
+      "kind": "modern_variation",
+      "statement": "C1函数y(0)=0,y(1)=1时J[y]=∫(y')²≥1且y=x唯一取等",
+      "source_ids": [],
+      "locator": "set y=x+η, integrate 2η', squared derivative nonnegative",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C22-05",
+      "kind": "historical_theory",
+      "statement": "1797方案试图从可用幂级数展开的函数的t系数定义导出函数",
+      "source_ids": [
+        "H125",
+        "H126"
+      ],
+      "locator": "1797 book title and Fraser scholarly summary",
+      "verification": "SOURCE_CHECKED_QUALIFIED"
+    },
+    {
+      "id": "C22-06",
+      "kind": "modern_algebra",
+      "statement": "f(x)=x³时f(x+t)中t一次项系数3x²",
+      "source_ids": [],
+      "locator": "exact binomial algebra",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C22-07",
+      "kind": "modern_algebra",
+      "statement": "两个幂级数乘积一次项系数Ag+fB产生现代乘积法则",
+      "source_ids": [],
+      "locator": "formal coefficient comparison",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C22-08",
+      "kind": "historical_caveat",
+      "statement": "形式展开代数对解析函数有用但一般函数不保证由Taylor系列表示",
+      "source_ids": [
+        "H126",
+        "H127",
+        "H111"
+      ],
+      "locator": "Fraser appraisal and modern flat-function counterexample",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C22-09",
+      "kind": "modern_counterexample",
+      "statement": "光滑平坦函数f=e^{-1/x²}在0的Taylor级数不表示邻域函数",
+      "source_ids": [
+        "H111"
+      ],
+      "locator": "chapter 19 + LibreTexts",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C22-10",
+      "kind": "modern_convergence",
+      "statement": "1/(1+x²)=Σ(-1)^n x^{2n}只在|x|<1成立；x=2发散",
+      "source_ids": [],
+      "locator": "geometric series with ratio -x²; independent check",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C22-11",
+      "kind": "historiography",
+      "statement": "拉格朗日的变分成果与晚期代数奠基的适用边界不应相互取消",
+      "source_ids": [
+        "H127",
+        "H128",
+        "H126"
+      ],
+      "locator": "Cambridge Fraser and Serfaty contextual interpretation",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C22-12",
+      "kind": "history_editions",
+      "statement": "1797首版和1813修订版须区分",
+      "source_ids": [
+        "H125",
+        "H130"
+      ],
+      "locator": "Kyoto 1797 edition and Fraser chronology",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C22-13",
+      "kind": "narrative_bridge",
+      "statement": "以泰勒普遍展开无法无条件奠基，引向玻尔查诺对连续性与证明的研究",
+      "source_ids": [
+        "H127",
         "H05"
       ],
-      "verification": "PENDING"
+      "locator": "historiographical interpretation; next chapter outline",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "1797长副标题是拉格朗日尝试而非证明成功。",
+    "早期变分研究与1797分析基础严格分期。",
+    "J[y]优化、代数多项式与Taylor反例均为现代数学解释，不伪作当年原题。",
+    "Cambridge/Fraser有公开摘要，原书命题逐页待核。",
+    "本章仍是未通过正式门禁的工作初稿。"
+  ]
 }
