@@ -405,3 +405,40 @@
 2. **必须限制的论点**：伯克利批评不等于整个微积分全为伪数学；欧拉的函数不是20世纪集合映射定义；拉格朗日试图以泰勒级数建立基础，但现代理论表明其无条件普遍性不成立。
 3. **尚待补核**：《分析学家》原始印刷页码与异文；欧拉1748/1755首版具体段落和1755「导数定义」逐字；拉格朗日1797首版推导式的确切页码、1760年代通信原文，以及变分算例是否与原文相同。当前不编造细节。
 4. **门禁与独立审稿**：只供完成第20—22章的历史非虚构**工作初稿**。正式 `workflow-state.json` 仍保持outline/evidence未全书认证；独立双审也未执行，任何验证条目不能自动升格为全书PASS。
+
+## 第23—25章专项来源核证｜1817连续性—1821极限—1822热传导（2026-11-09）
+
+> **范围**：原版/电子转写、著作馆藏、大学数学史研究摘要和现代演算资料。只准作尚未正式批准的工作初稿，不能据此改动全书 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING` 的状态。
+
+### 新增来源H131—H150及核验边界
+
+- **H131** [Stanford Encyclopedia of Philosophy: Bernard Bolzano](https://plato.stanford.edu/entries/bolzano/)；1817布拉格出版 *Rein analytischer Beweis…*，原题明确有关函数变号与方程实根的「纯分析证明」。**权威二手书目，非逐页原版核验。**
+- **H132** S. B. Russ, [*A translation of Bolzano's paper on the intermediate value theorem*](https://www.sciencedirect.com/science/article/pii/0315086080900361), *Historia Mathematica* 7(2) (1980), 156—185。摘要：1817论文较早明确处理连续和级数收敛。**只核公开摘要。**
+- **H133** Carmen Martínez Adame & Mariana Martínez González, [*Bolzano and the Foundation of the Real Continuum*](https://link.springer.com/article/10.1007/s44007-025-00182-w), *La Matematica* 5 (2026-01-29), article 14。**开放全文**提出：1817试图完成纯分析证明，但从现代完备性基础看未彻底建立实数连续体，已有近似上确界公理的深刻结构。与H132对「严密程度」的措辞须辨别，不写1817已经完成现代公理化。
+- **H134** Paul Rusnock, [*Grounding in Practice: Bolzano's Purely Analytic Proof*](https://academic.oup.com/book/41424/chapter-abstract/352755054), OUP 2022, pp.364—393。摘要：问题是理论根据，不可把画线直观当作分析证明。**只核公开摘要。**
+- **H135** [MacTutor: Bernard Bolzano](https://mathshistory.st-andrews.ac.uk/Biographies/Bolzano/)：1817著作、相关传播有限、Cauchy是否读过其文本缺乏直接证实。**史学传记，非原始通信。**
+- **H136** Augustin-Louis Cauchy, [*Cours d'analyse de l'École royale polytechnique*, 1821原法文电子转写](https://fr.wikisource.org/wiki/Cours_d%E2%80%99analyse_de_l%E2%80%99%C3%A9cole_royale_polytechnique/Texte_entier)，原版扉页1821，导言讲连续性、无穷小、收敛/发散及公式的限制条件。**Wikisource转写，部分排印错字尚待印本校勘。**
+- **H137** [MacTutor: Cauchy's Calculus](https://mathshistory.st-andrews.ac.uk/Extras/Cauchy_Calculus/)：1821教材对极限、趋零变量式无穷小、连续、级数和的摘译，强调项趋零只是级数收敛的必要不充分条件；所引导数段落来自相关微分学课程。**转述不是现代ε–δ原文。**
+- **H138** [*A.-L. Cauchy, Cours d'analyse (1821) and Résumé of the calculus (1823)*](https://www.sciencedirect.com/science/article/pii/B9780444508713501066), *Landmark Writings in Western Mathematics* (2005), pp.341—353。学术摘要明确分为1821基础分析书与1823微积分概要。**仅摘要。**
+- **H139** [SEP: Continuity and Infinitesimals](https://plato.stanford.edu/archives/fall2013/entries/continuity/)：Cauchy的无穷小是其数值逐渐趋于零的变量，不能把1821用语等同于独立的固定非零无穷小，也不能把整套现代ε–δ量词回贴。
+- **H140** Gilbert Arsac, [*III. La première démonstration de Cauchy (1821)*](https://stm.cairn.info/cauchy-abel-seidel-stokes-et-la-convergence-uniforme--9782705686918-page-57?lang=fr), Hermann 2013, pp.57—65。历史研究说明按现代逐点收敛理解1821的「连续函数级数和仍连续」命题则不真，需与原文语境区分。**公开摘要。**
+- **H141** Gilbert Arsac, [*VII. Cauchy découvre la convergence uniforme (1853)*](https://stm.cairn.info/cauchy-abel-seidel-stokes-et-la-convergence-uniforme--9782705686918-page-123?lang=fr), 2013, pp.123—138。1853更强收敛条件及其解释争论，**convergence uniforme不是1853原文术语**。**公开摘要。**
+- **H142** Michiyo Nakane, [*What is Cauchy's Revolution in Analysis?*](https://www.jstage.jst.go.jp/article/kisoron1954/35/1/35_1_21/_article/-char/en), 2007, 35(1):21—28。摘要强调以反例校正规则是19世纪严格化转折。**摘要已核。**
+- **H143** HKUST Library，[傅里叶1822年*Théorie analytique de la chaleur*初版馆藏](https://digitalcollections.hkust.edu.hk/Detail/objects/b458351)，巴黎Didot出版。**书目核对，非原版逐页命题核验。**
+- **H144** [MacTutor: Joseph Fourier](https://mathshistory.st-andrews.ac.uk/Biographies/Fourier/)：**1807-12-21**热学论文宣读、**1811**热学竞赛获奖但有评论限制、**1822**著作出版。**二手传记，不能编造现场对话或一票否决故事。**
+- **H145** [Cambridge UP: *The Analytical Theory of Heat*](https://www.cambridge.org/core/books/analytical-theory-of-heat/F6D4802336FABD1116DDA4AA3FE6EFAA)：原著法文1822，Freeman英译1878；**不要以英译日期误记首版**。
+- **H146** I. Grattan-Guinness, [*Joseph Fourier, Théorie analytique de la chaleur (1822)*](https://www.sciencedirect.com/science/article/pii/B9780444508713501078), *Landmark Writings…* (2005), 354—365。摘要分别讨论**能否表示一个函数**和**级数能否收敛到它**。**仅学术摘要。**
+- **H147** [Mathematics LibreTexts: The Heat Equation (Trench)](https://math.libretexts.org/Bookshelves/Differential_Equations/Elementary_Differential_Equations_with_Boundary_Value_Problems_%28Trench%29/12%253A_Fourier_Solutions_of_Partial_Differential_Equations/12.01%253A_The_Heat_Equation)：现代热方程正弦模态、系数和逐项求导的条件，提醒形式级数未必直接成实际解。
+- **H148** [Mathematics LibreTexts: PDEs, Separation of Variables, and the Heat Equation (Lebl)](https://math.libretexts.org/Bookshelves/Differential_Equations/Differential_Equations_for_Engineers_%28Lebl%29/4%3A_Fourier_series_and_PDEs/4.06%3A_PDEs_separation_of_variables_and_the_heat_equation)：`u_t=\kappa u_{xx}`、零温端点、正弦本征模态与`e^{-n²}`高频平滑。**现代教材，不是1822原题。**
+- **H149** [Brown University: Convergence of Fourier Series](https://www.cfm.brown.edu/people/dobrush/am34/Mathematica/ch5/converge.html)：在分段光滑/有限变差等适用条件下，傅里叶级数在跳点取左右极限平均，**不保证等于任意指定跳点函数值**。**现代收敛定理。**
+- **H150** [APMEP: Arsac书评 Cauchy, Abel, Seidel, Stokes et la convergence uniforme](https://www.apmep.fr/Cauchy-Abel-Seidel-Stokes-et-la)：1821、1826、1847、1853的级数反例与修订节点。**史学二手来源。**
+
+### 可写命题→来源映射及数学审查范围
+
+| 章节 | 可写史实（有来源） | 必须区分的现代数学示例 | 禁止越界 |
+| --- | --- | --- | --- |
+| **23** | 1817 *Rein analytischer Beweis*，分析不依赖几何图形，连续及变号中间根（H131—135） | \(f=x^3+x-1\) 二分法；有理数域的 \(x²-2\) 反例；嵌套闭区间/实数完备性 | H132 vs H133对1817严密性的判断不同；不称当代实数公理已形成，也不声称Cauchy直接抄袭 |
+| **24** | 1821分析教程与1823微积分概要，极限和变量无穷小、级数定义；1821级数和命题与1853修订（H136—142、H150） | 调和级数项趋零却发散；\(\sum\)的尾项准则；\([0,1]\)上\(x^n\)逐点极限不连续 | 现代ε–δ不是Cauchy原书逐字；不用「他完全解决严密性」概括 |
+| **25** | 1807宣读、1811获奖、1822首版；傅里叶级数和函数表示/收敛争论（H143—146） | 零温端点一维热方程两个正弦模态；方波傅里叶奇次正弦级数跳点取平均（H147—149） | 两个数学例子分别采用有限棒/周期函数模型，不能混淆边界；现代Dirichlet收敛条件不得假托1822原书 |
+
+**未核完事项**：1817德文小册子逐页证明引理及1840年以后版本异文；Cauchy 1821原印本的命题上下文、1823教材对应定义；傅里叶1822初版具体命题页码/1807评审原件/Dirichlet 1829首篇文章。所有工作初稿需显式标注这些局限。 `workflow-state.json` 不改变，尚未获正式独立双审。
