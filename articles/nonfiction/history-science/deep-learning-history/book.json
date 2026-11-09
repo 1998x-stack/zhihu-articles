@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "deep-learning-history",
   "title": "让机器学会学习：一部深度学习发展史",
-  "reading_notice": "01—06共6章为历史科学非虚构工作初稿并附逐章主张记录；序章00与07—31共26篇仍为策划占位。未通过独立审稿或最终封版。",
+  "reading_notice": "01—09共9章为可阅读历史科学非虚构工作初稿并附逐章主张记录；序章00与10—31共23篇仍为策划占位。前9章只获中心史实/大纲限域核查，独立审稿和终稿封版均未完成。",
   "outline_approved": true,
   "evidence_verified": true,
   "parts": [
@@ -213,10 +213,16 @@
       "part": "第三部｜不曾断流的多条路线",
       "period": "1970年代",
       "file": "draft/07.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "TO_VERIFY"
-      ]
+        "DL33",
+        "DL34",
+        "DL36",
+        "DL38",
+        "DL39"
+      ],
+      "claims_file": "draft/07.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-08",
@@ -225,11 +231,15 @@
       "part": "第三部｜不曾断流的多条路线",
       "period": "1980—1985",
       "file": "draft/08.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R03",
-        "R19"
-      ]
+        "DL40",
+        "DL41",
+        "DL43",
+        "DL44"
+      ],
+      "claims_file": "draft/08.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-09",
@@ -238,10 +248,14 @@
       "part": "第三部｜不曾断流的多条路线",
       "period": "1970—1986（回顾）",
       "file": "draft/09.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R04"
-      ]
+        "DL47",
+        "DL48",
+        "DL36"
+      ],
+      "claims_file": "draft/09.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-10",
@@ -524,6 +538,6 @@
       ]
     }
   ],
-  "outline_scope": "仅第01—06章",
-  "evidence_scope": "仅01—06中心史实和例题"
+  "outline_scope": "分批结构许可仅01—09",
+  "evidence_scope": "中心史实/教学例题仅01—09"
 }

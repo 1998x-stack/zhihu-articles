@@ -171,7 +171,7 @@
 | --- | --- | --- | --- |
 | DL33 | 1970硕士论文大学图书馆原始馆藏 | [Seppo Linnainmaa, Algoritmin kumulatiivinen pyöristysvirhe... (University of Helsinki, 1970)](https://www.finna.fi/Record/helka.9933382303506253) | 证明1970年已有该芬兰硕士论文；书目本身不证明1986作者直接使用了它 |
 | DL34 | 1976原始同行评审论文 | [Linnainmaa, Taylor expansion of the accumulated rounding error, BIT 16:146–160 (1976)](https://doi.org/10.1007/BF01931367) | 确定1976发表与误差反向累积分析主题；注意研究目标是数值误差 |
-| DL35 | 自动微分领域学术史 | [Griewank & Walther, On automatic differentiation and algorithmic linearization (2012/2014 available)](https://www.scielo.br/j/pope/a/kZ8M4LPYFryXQkdwHz7QXVx/?lang=en) | 讲述reverse AD与Linnainmaa前史，避免单一首次发明者争论 |
+| DL35 | 自动微分领域学术史 | [Andreas Griewank, On automatic differentiation and algorithmic linearization (2014)](https://www.scielo.br/j/pope/a/kZ8M4LPYFryXQkdwHz7QXVx/?lang=en) | 讲述reverse AD与Linnainmaa前史，避免单一首次发明者争论 |
 | DL36 | 计算/神经网络史学综述 | [Neural networks for perceptual processing: from simulation tools to theories, open access peer-reviewed review](https://pmc.ncbi.nlm.nih.gov/articles/PMC2323553/) | 指出1974 Werbos、1982 Parker与1986普及不同层级；二手史学概括需限定 |
 | DL37 | Werbos原学位论文再版书目评论 | [The Roots of Backpropagation: From Ordered Derivatives to Neural Networks (1996 review of 1974 Werbos thesis)](https://doi.org/10.1088/0954-898X/7/1/008) | 确认1974 Harvard博士论文及后来再版；不据此宣称无争议的全部发明优先权 |
 | DL38 | 史密森学会实物与年代记录 | [Intel 4004 Microprocessor, National Museum of American History, 1971](https://www.americanhistory.si.edu/collections/object/nmah_713495) | 1971微处理器商业化节点；不等于70年代具备现代深度网络训练算力 |

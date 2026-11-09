@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "09",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific, source-limited",
+  "claims": [
+    {
+      "claim_id": "C09-01",
+      "claim": "1986-10-09 Nature论文三作者与其摘要主张",
+      "source_ids": [
+        "DL47"
+      ],
+      "kind": "primary_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "强调隐藏表示学习，而非链式求导被首次发明",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C09-02",
+      "claim": "1970/1974/1976各领域的逆向导数先驱",
+      "source_ids": [
+        "DL33",
+        "DL34",
+        "DL35",
+        "DL36",
+        "DL37"
+      ],
+      "kind": "historiography",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不同归属维度，直接传承需额外证据",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C09-03",
+      "claim": "1985 LeCun会议摘要含隐藏单元学习探索",
+      "source_ids": [
+        "DL48"
+      ],
+      "kind": "primary_abstract",
+      "evidence_level": "QUALIFIED",
+      "limitations": "原PDF截图失败，只核可见摘要，不等同1986标准方法",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C09-04",
+      "claim": "链式法则与训练损失信用分配的区别",
+      "source_ids": [
+        "DL35",
+        "DL47"
+      ],
+      "kind": "technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "反向求导不自动定义目标或保证泛化",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C09-05",
+      "claim": "sigmoid两层更新L≈.052800→.052510",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "x=w=v=t=1, η=.1；两权重使用同一旧梯度同时更新",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C09-06",
+      "claim": "PDP范式与认知科学的后世回顾",
+      "source_ids": [
+        "DL49",
+        "DL50"
+      ],
+      "kind": "historiography",
+      "evidence_level": "INTERPRETATION",
+      "limitations": "后见影响不证明1986已解决训练大规模深网问题",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C09-07",
+      "claim": "1986为重要发表传播节点而非绝对唯一源头",
+      "source_ids": [
+        "DL47",
+        "DL36",
+        "DL48"
+      ],
+      "kind": "historical_interpretation",
+      "evidence_level": "QUALIFIED",
+      "limitations": "数学方法、模型应用和广泛传播须区分",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

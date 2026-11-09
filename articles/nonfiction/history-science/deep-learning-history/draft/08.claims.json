@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "08",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific, source-limited",
+  "claims": [
+    {
+      "claim_id": "C08-01",
+      "claim": "1979 Fukushima IJCAI会议已有neocognitron",
+      "source_ids": [
+        "DL40"
+      ],
+      "kind": "primary_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "1980不能称绝对首次亮相",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C08-02",
+      "claim": "1980福岛新认知机S/C层及无教师自组织",
+      "source_ids": [
+        "DL41"
+      ],
+      "kind": "primary_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不等同现代CNN反向传播训练方案",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C08-03",
+      "claim": "1982 Fukushima和Miyake进一步分析视觉形变",
+      "source_ids": [
+        "DL42"
+      ],
+      "kind": "primary_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "实验任务的稳健性不推广所有真实图片",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C08-04",
+      "claim": "1982 Hopfield联想记忆与内容寻址",
+      "source_ids": [
+        "DL43"
+      ],
+      "kind": "primary_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "能量下降需对称连接、异步单点更新等条件",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C08-05",
+      "claim": "1985 Ackley/Hinton/Sejnowski随机Boltzmann学习",
+      "source_ids": [
+        "DL44",
+        "DL46"
+      ],
+      "kind": "primary_plus_retrospective",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "概率模型与Hopfield或反传算法各有差异",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C08-06",
+      "claim": "2024诺奖为后来评价而不是当年即时认知",
+      "source_ids": [
+        "DL45"
+      ],
+      "kind": "historiographical_boundary",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "2024荣誉不应被逆向代入1980年代人物动机",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C08-07",
+      "claim": "三单元Hopfield±1异步恢复和能量+1→−3",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "特定单模式外积权重，一步恢复不保证任意噪声或模式容量",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
