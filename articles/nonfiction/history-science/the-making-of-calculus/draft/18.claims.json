@@ -1,25 +1,141 @@
 {
   "chapter": "18",
-  "status": "PENDING",
+  "title": "洛必达：微积分怎样进入第一批系统教材",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H105",
+    "H106",
+    "H107",
+    "H108",
+    "H112",
+    "H113"
+  ],
   "claims": [
     {
       "id": "C18-01",
-      "statement": "规则怎样成为可传授的算法",
-      "source_candidates": [
-        "H01",
-        "H09"
+      "statement": "1696年出版最早系统微分学教材之一，准确书名",
+      "kind": "history",
+      "source_ids": [
+        "H105",
+        "H112"
       ],
-      "verification": "PENDING"
+      "locator": "Brown 1696 catalogue; MAA bibliography",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C18-02",
-      "statement": "无穷小分析教材和洛必达法则",
-      "source_candidates": [
-        "H01",
-        "H09"
+      "statement": "前言明确集中讲微分学而非完整积分学",
+      "kind": "historical_scope",
+      "source_ids": [
+        "H106"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor preface translation",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C18-03",
+      "statement": "全书有规则、切线、极值、曲率等内容以及九节不定比问题",
+      "kind": "historical_structure",
+      "source_ids": [
+        "H105",
+        "H106"
+      ],
+      "locator": "Brown exhibit ninth section and preface",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C18-04",
+      "statement": "伯努利1691—1692授课影响前几章及后续内容",
+      "kind": "historical_contributions",
+      "source_ids": [
+        "H107",
+        "H108"
+      ],
+      "locator": "Bradley 2013 abstract; Springer 2015 description",
+      "verification": "ABSTRACT_SCOPE"
+    },
+    {
+      "id": "C18-05",
+      "statement": "两人1694—1696资助与教学协助有文献研究",
+      "kind": "historical_patronage",
+      "source_ids": [
+        "H107"
+      ],
+      "locator": "Bradley 2013 abstract",
+      "verification": "ABSTRACT_SCOPE"
+    },
+    {
+      "id": "C18-06",
+      "statement": "前言承认利用莱布尼茨与伯努利兄弟成果",
+      "kind": "historical_authorship",
+      "source_ids": [
+        "H106"
+      ],
+      "locator": "1696 preface translated",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C18-07",
+      "statement": "不能由授课直接推出全书纯代笔，归属需逐项比对",
+      "kind": "historiographical_caveat",
+      "source_ids": [
+        "H107",
+        "H108"
+      ],
+      "locator": "Bradley academic research & annotated edition",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C18-08",
+      "statement": "平方函数差商极限给2x",
+      "kind": "modern_math",
+      "source_ids": [],
+      "locator": "independent symbolic algebra",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C18-09",
+      "statement": "lim sin x/x=1，需法则条件或中值定理",
+      "kind": "modern_math",
+      "source_ids": [],
+      "locator": "derivative/mean value theorem",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C18-10",
+      "statement": "x sin(1/x)/x在0附近无双侧极限，0/0不足以决定值",
+      "kind": "modern_counterexample",
+      "source_ids": [],
+      "locator": "cancel x and oscillation",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C18-11",
+      "statement": "洛必达法则现代证明与历史无穷小表述不同",
+      "kind": "historical_boundary",
+      "source_ids": [
+        "H105",
+        "H113"
+      ],
+      "locator": "Brown and MAA primary-source lesson",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C18-12",
+      "statement": "教材化让微分学从专家方法转为系统学习对象",
+      "kind": "historical_synthesis",
+      "source_ids": [
+        "H105",
+        "H112"
+      ],
+      "locator": "Brown reception and MAA overview",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "Bradley具体页码尚未核对，仅公开摘要。",
+    "数学证明为现代教学重构。",
+    "本章未通过全书正式draft门禁与独立双审。"
+  ]
 }
