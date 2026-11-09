@@ -279,6 +279,7 @@ python scripts/workflow_state.py "$ARTICLE" new-revision --reason "修复动机�
 | [《连接的秩序：图论三百年》](articles/nonfiction/history-science/graph-theory-history/README.md) | 数学思想史 · 图论与网络发展史 · 非虚构系列 | `draft`：7部36章已规划；序章及01—18章有证据范围限定的正文初稿，19—37仍占位，独立审稿未完成 |
 | [《从方程到空间：一部线性代数思想发展史》](articles/nonfiction/history-science/linear-algebra-history/README.md) | 数学思想史 · 线性代数发展史 · 非虚构系列 | `outlined`：8部32章及序章、尾声已建立策划占位，正文待写 |
 | [《失去确定性：数学史上的三次危机与七次思想革命》](articles/nonfiction/history-science/the-loss-of-certainty-math-crises/README.md) | 数学思想史 · 历史科学非虚构 | `drafting`：第 01 章已有初稿，其他章节主要为结构占位 |
+| [《从切线到无穷：微积分的诞生与重建》](articles/nonfiction/history-science/the-making-of-calculus/README.md) | 数学思想史 · 微积分史 · 历史科学非虚构 | `outlined`：七部35章、序章及尾声；00—16为17篇未独立审稿工作初稿，17—36为20篇占位；全书审核门禁尚未通过 |
 | [《信用、债务与权力：一部世界金融史》](articles/nonfiction/social-business/credit-debt-power-global-financial-history/README.md) | 世界金融制度史 · 非虚构长篇 | `outlined`：大纲和章节占位，正文尚未完成 |
 | [《看不见的秩序：PV=nRT的两百年接力》](articles/nonfiction/history-science/ideal-gas-law-two-centuries/README.md) | 气体定律发现史 · 科学非虚构长文 | `drafting`：序章已有初稿，15章与尾声为占位 |
 

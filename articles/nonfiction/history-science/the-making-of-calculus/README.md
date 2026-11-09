@@ -178,6 +178,6 @@ the-making-of-calculus/
 └── qa/                            # 独立审稿工作区，不能以占位当PASS
 ```
 
-遵守仓库 [AGENTS.md](../../../AGENTS.md)（从本目录需返回仓库根目录阅读）、[文件契约](../../../../docs/contracts.md)与 [非虚构工作流](../../../../workflow.json)：`topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → …`。此处 README 和 `planning/`、`parts/`、`batches/` 是**编辑设计与任务分解，不是替代相关阶段已有权属文件的批准版本**。对后续20章逐章开展前置来源核证，再按真实审阅结果显式更新状态；不要仅因本目录完整就把 `evidence_verified`、`outline_approved` 或 `review_status` 改为通过。
+遵守仓库 [AGENTS.md](../../../../AGENTS.md)（从本目录需返回仓库根目录阅读）、[文件契约](../../../../docs/contracts.md)与 [非虚构工作流](../../../../workflow.json)：`topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → …`。此处 README 和 `planning/`、`parts/`、`batches/` 是**编辑设计与任务分解，不是替代相关阶段已有权属文件的批准版本**。对后续20章逐章开展前置来源核证，再按真实审阅结果显式更新状态；不要仅因本目录完整就把 `evidence_verified`、`outline_approved` 或 `review_status` 改为通过。
 
 **本专题是原创知识叙事工程，不代表知乎官方作品，也不保证平台收录或发布结果。**
