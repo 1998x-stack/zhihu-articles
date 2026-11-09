@@ -1,25 +1,160 @@
 {
   "chapter": "25",
-  "status": "PENDING",
+  "title": "傅里叶：热流与三角级数挑战函数观念",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H143",
+    "H144",
+    "H145",
+    "H146",
+    "H147",
+    "H148",
+    "H149",
+    "H10"
+  ],
   "claims": [
     {
       "id": "C25-01",
-      "statement": "复杂温度分布怎样展开",
-      "source_candidates": [
-        "H05",
-        "H10"
+      "kind": "history_1807",
+      "statement": "Fourier heat work presented 21 December 1807; initial scholarly objections including trigonometric representation",
+      "source_ids": [
+        "H144"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor biography detailed chronology",
+      "verification": "SOURCE_CHECKED"
     },
     {
       "id": "C25-02",
-      "statement": "傅里叶级数和收敛问题",
-      "source_candidates": [
-        "H05",
+      "kind": "history_1811",
+      "statement": "Fourier won 1811 prize on heat propagation with committee qualification",
+      "source_ids": [
+        "H144"
+      ],
+      "locator": "MacTutor biography prize narrative",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C25-03",
+      "kind": "history_1822",
+      "statement": "Fourier 1822 Théorie analytique de la chaleur first edition",
+      "source_ids": [
+        "H143",
+        "H145"
+      ],
+      "locator": "HKUST first edition catalogue and Cambridge translation metadata",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C25-04",
+      "kind": "history_translation",
+      "statement": "1878 Freeman English translation distinct from original French 1822 edition",
+      "source_ids": [
+        "H145"
+      ],
+      "locator": "Cambridge book description",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C25-05",
+      "kind": "modern_heat",
+      "statement": "u_t=κu_xx with ends fixed zero and initial f(x) yields sine modes",
+      "source_ids": [
+        "H147",
+        "H148"
+      ],
+      "locator": "LibreTexts modern heat equation separated variables",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C25-06",
+      "kind": "modern_heat",
+      "statement": "single sine mode decays e^{-κ(nπ/L)² t}",
+      "source_ids": [
+        "H147",
+        "H148"
+      ],
+      "locator": "direct differentiate in x twice and time once",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C25-07",
+      "kind": "modern_heat",
+      "statement": "sum of modes n=1 and n=3 satisfies heat eq and end conditions with 1/3 initial amplitude",
+      "source_ids": [],
+      "locator": "finite linearity, independent derivative check",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C25-08",
+      "kind": "modern_heat",
+      "statement": "n=3 spatial frequency decays 9 times faster in exponent than n=1",
+      "source_ids": [
+        "H148"
+      ],
+      "locator": "eigenvalue n² and κπ²/L²>0",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C25-09",
+      "kind": "modern_fourier",
+      "statement": "coefficients b_n=(2/L)∫_0^L f(x)sin(nπx/L)dx from orthogonality",
+      "source_ids": [
+        "H147",
+        "H148"
+      ],
+      "locator": "sine basis L² orthogonality calculation, conditions qualified",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C25-10",
+      "kind": "modern_fourier",
+      "statement": "square wave odd sine coefficients 4/(πn) for odd n and 0 for even n",
+      "source_ids": [
+        "H149"
+      ],
+      "locator": "direct integral split over ± half-period",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C25-11",
+      "kind": "modern_convergence",
+      "statement": "square wave Fourier series equals jump midpoint 0 at x=0 even if original assigned f(0)=1",
+      "source_ids": [
+        "H149"
+      ],
+      "locator": "Brown Fourier theorem for piecewise regular function, pointwise sum",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C25-12",
+      "kind": "historical_boundary",
+      "statement": "representation and convergence generality are distinct issues in Fourier's 1822 work; not solved for every arbitrary function",
+      "source_ids": [
+        "H146",
+        "H144"
+      ],
+      "locator": "Grattan-Guinness scholarly summary plus MacTutor",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C25-13",
+      "kind": "chapter_bridge",
+      "statement": "discontinuous functions can remain Riemann integrable, hence next chapter studies integrability conditions",
+      "source_ids": [
+        "H147",
+        "H149",
         "H10"
       ],
-      "verification": "PENDING"
+      "locator": "modern finitely discontinuous bounded functions example; historical bridge",
+      "verification": "MATH_AND_HISTORY_QUALIFIED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "1807研究、1811获奖、1822出版三节点准确区分，不声称Cauchy 1821直接启发Fourier 1807。",
+    "有限棒零温边界和周期方波为不同数学模型，不能混用。",
+    "热方程、正弦模态、方波系数与跳点收敛为现代教材推导，不冒称1822原文逐句。",
+    "分段光滑条件下跳点取平均，不对任何任意函数声称无条件点态重建。",
+    "原版逐页校勘及独立双审尚未完成。"
+  ]
 }
