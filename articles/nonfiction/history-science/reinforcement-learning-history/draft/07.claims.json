@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "chapter": "07",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "核对可访问的期刊会议出版信息、原始摘要与相关教材的限定范围事实；部分正文及定理尚未全文复核。各自数学例子为明确标注的原创教学重构。尚未独立双审。",
+  "alias_to_research_source_id": {
+    "C01": "R47",
+    "C02": "R01",
+    "C03": "R42",
+    "C04": "R48",
+    "C05": "R08"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-07-01",
+      "claim": "Bellman与Kalaba于1961年明确讨论动态规划控制中的高维状态向量困难",
+      "source_ids": [
+        "R47"
+      ],
+      "kind": "历史摘要",
+      "section": "二｜灾难并非夸张",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-07-02",
+      "claim": "有限MDP的值迭代与策略迭代是不同的动态规划算法",
+      "source_ids": [
+        "R01",
+        "R42"
+      ],
+      "kind": "现代方法",
+      "section": "三、四｜两种算法",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-07-03",
+      "claim": "Puterman与Shin于1978年研究改进型策略迭代的近似评价与计算比较",
+      "source_ids": [
+        "R48"
+      ],
+      "kind": "出版事实",
+      "section": "四｜策略迭代",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-07-04",
+      "claim": "十个变量各十档、四动作八字节的朴素表需要约320GB",
+      "source_ids": [],
+      "kind": "原创计算",
+      "section": "一｜存储",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-07-05",
+      "claim": "两状态同步值迭代第一轮A为2、第二轮A为4.5",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "原创示例",
+      "section": "三｜值迭代",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-07-06",
+      "claim": "在给定策略下A价值2，策略改进后A价值4.5",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "原创示例",
+      "section": "四｜策略迭代",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-07-07",
+      "claim": "四维每维五档为625状态，五十档为625万状态",
+      "source_ids": [],
+      "kind": "原创计算",
+      "section": "五｜维度",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-07-08",
+      "claim": "样本复杂度与已知模型下的计算量不能互相偷换",
+      "source_ids": [
+        "R01",
+        "R47"
+      ],
+      "kind": "概念边界",
+      "section": "二、六｜成本",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-07-09",
+      "claim": "高维状态困难可以尝试结构约简与近似，但没有普适免成本保证",
+      "source_ids": [
+        "R47",
+        "R48"
+      ],
+      "kind": "有限解释",
+      "section": "七｜近似",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "高维灾难术语英文原始首发页尚待比较原版著作",
+    "不能把表格增长当作所有MDP算法严格复杂度下界"
+  ]
+}

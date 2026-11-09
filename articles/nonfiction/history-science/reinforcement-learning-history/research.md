@@ -66,7 +66,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **C**：专业综述支持，适宜历史背景，不单独支持争议归属。
 - **D**：编辑假设、类比或待核猜想，不进入正文事实陈述。
 
-截至2026-11-09，第01—06章部分可访问的一手论文、出版信息及技术定义已开展**限定范围前置核验**；第07章以后及未通读完整著作的历史细节仍属 **B/C 或待核**。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
+截至2026-11-09，第01—09章已按各批次针对可访问的一手论文摘要、出版社记录和技术定义开展**限定范围前置核验**；第10章以后及未通读完整原著的争议细节仍属 **B/C 或待核**。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
 
 ## 第01—03章增量核证记录（2026-11-09）
 
@@ -121,3 +121,29 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 | ID | 补充原始机构记录 | 准确范围 |
 | --- | --- | --- |
 | R46 | [Howard, *Studies in Discrete Dynamic Programming*, MIT Sc.D. Thesis (1958)](https://dspace.mit.edu/entities/publication/0171fa39-3922-4636-a02f-a123fe63477f) | MIT机构馆藏“Date Issued 1958”，与[INFORMS传记](https://www.informs.org/content/view/full/269156)的1958博士年份一致。个人年表R43列作1959，属来源冲突；正文优先采用正式学位馆藏，1960年专著另见R42。 |
+
+## 第三批07—09章增量研究档案（2026-11-09）
+
+> 此处只对07—09的明确论断提供对应来源和技术解释，不是全书完整史实核证。正文的 C/Y/K来源缩写可通过各章 claims JSON 映射为R编号。
+
+| 新来源 | 论文或馆藏入口 | 本批证据范围与明确限制 |
+| --- | --- | --- |
+| R47 | [Bellman & Kalaba (1961), Reduction of Dimensionality, Dynamic Programming, and Control Processes](https://doi.org/10.1115/1.3658896) | ASME 83(1):82–84，原刊摘要关于高维控制问题；未验证短语最早出现 |
+| R48 | [Puterman & Shin (1978), Modified Policy Iteration Algorithms for Discounted Markov Decision Problems](https://doi.org/10.1287/mnsc.24.11.1127) | INFORMS Management Science 24(11):1127–1137，关于修改策略迭代、收敛、计算对比的原始摘要；定理证明待全读 |
+| R49 | [Sutton (1990), Integrated Modeling and Control Based on Reinforcement Learning and Dynamic Programming](https://papers.neurips.cc/paper_files/paper/1990/hash/d9fc5b73a8d78fad3d6dffe419384e70-Abstract.html) | NeurIPS官方会议摘要，Dyna-AHC及Dyna-Q；注意同年ICML论文R08另提Dyna-PI |
+| R50 | [Michie & Chambers (1968), BOXES: An Experiment in Adaptive Control](https://aitopics.org/download/classics%3A10C04649) | 历史原始研究存档，杆平衡自适应控制先驱；具体实验次数未核，正文不用 |
+| R51 | [Barto, Anderson & Sutton (1982), Synthesis of nonlinear control surfaces by a layered associative search network](https://pubmed.ncbi.nlm.nih.gov/7093360/) | PubMed论文书目摘要，Biological Cybernetics 43:175–185，是1983年工作的相关前驱 |
+| R52 | [C. W. Anderson, Publications: academic bibliography](https://www.cs.colostate.edu/~anderson/wp/publications/) | 作者学院公开书目，校对1983研究三位作者和1982工作脉络 |
+
+### 历史时间线与研究支线
+
+- **1961年高维难题**：Bellman—Kalaba原始出版摘要明确把高维状态向量视作动态规划在控制问题中的困难。不能未经版本考证就说“curse of dimensionality”一词必定首发于这篇论文。
+- **1990年Dyna**：ICML论文R08和NeurIPS论文R49均属Sutton1990研究，但不应当作同一篇：前者摘要列出 Dyna-PI、Dyna-Q，后者摘要列出 Dyna-AHC、Dyna-Q；都说明真实交互和学习模型基础上的规划相结合。
+- **1983年倒立摆**：IEEE R04明确为Barto、Sutton、Anderson三名作者，研究未知小车—杆动力学、失败信号与ASE/ACE。Michie与Chambers1968 BOXES及1982相关论文R51是前驱。第08章（1990）到第09章（1983）属于**教学认识顺序的历史回溯**，不能写作严格年代继承。
+
+### 数学独立复核和未尽证据
+
+- 07章：(10^{10})个状态、4动作、每值8字节=320GB（十进制，不计其他内存）；(5^4=625)、(50^4=6,250,000)；两状态同步值迭代 (V_1(A)=2, V_2(A)=4.5)。全部是作者设计的教学模型，不是1961原始实验。
+- 08章：确定性A→B→终点，(alpha=1,gamma=0.9)，经历两次真实更新后，使用学习模型重演A→B可使 (Q(A)=0.9)。**只有在模型相应转移正确时才能如此计算**。
+- 09章：现代教学式误差 (delta=0+0.9(-0.3)-0.2=-0.47)，更新 (0.2+0.2(-0.47)=0.106)；绝非1983 ACE准确原始参数更新。
+- R47、R48、R49及R04的关键论断主要核至权威出版社／会议的原始出版页面和摘要，原文所有证明与试验图表仍待独立全文二审，不可冒称终审或科研复现。

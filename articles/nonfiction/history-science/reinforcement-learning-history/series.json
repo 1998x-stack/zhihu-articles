@@ -3,7 +3,7 @@
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
   "status": "drafting",
-  "reading_notice": "第01—06章均为未独立审稿的非虚构工作初稿，且有逐章claims JSON；序章、尾声与第07—32章共28个单元仍为策划占位。当前仅01—06章有限定范围来源核查，不能据此宣布全书证据通过或发布。",
+  "reading_notice": "第01—09章有来源范围明确的非虚构工作初稿及claims JSON；序章、尾声与第10—32章共25个单元仍是策划占位。独立双审、全书事实核验及终稿均未完成。",
   "parts": [
     {
       "number": 1,
@@ -206,31 +206,45 @@
       "title": "知道规则也算不过来：维度灾难",
       "part": "第二部｜给未来写一条方程",
       "path": "draft/07.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R03",
-        "R01"
-      ]
+        "R47",
+        "R01",
+        "R42",
+        "R48",
+        "R08"
+      ],
+      "claims_path": "draft/07.claims.json"
     },
     {
       "id": "08",
       "title": "Dyna：如果世界的地图也要边走边画",
       "part": "第二部｜给未来写一条方程",
       "path": "draft/08.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R08"
-      ]
+        "R08",
+        "R49",
+        "R01",
+        "R04"
+      ],
+      "claims_path": "draft/08.claims.json"
     },
     {
       "id": "09",
       "title": "1983年的倒立摆：谁来评价还未结束的尝试",
       "part": "第三部｜奖励迟到时，机器如何学习",
       "path": "draft/09.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R04"
-      ]
+        "R04",
+        "R50",
+        "R51",
+        "R52",
+        "R01",
+        "R05"
+      ],
+      "claims_path": "draft/09.claims.json"
     },
     {
       "id": "10",
@@ -482,5 +496,5 @@
     }
   ],
   "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段",
-  "last_batch": "batches/04-06.md"
+  "last_batch": "batches/07-09.md"
 }
