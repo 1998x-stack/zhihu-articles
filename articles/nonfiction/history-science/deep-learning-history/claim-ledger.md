@@ -1,6 +1,6 @@
 # 主张账本｜章节 → 资料范围（规划版）
 
-> **状态全部为`PENDING`**。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
+> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章本批补充来源并核对中心主张；其他章节仍为PENDING。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
 
 | 章节 | claim_id | 本章需要核验的中心主张 | 候选source_id | 证据性质及待核点 | 状态 |
 | --- | --- | --- | --- | --- | --- |
@@ -64,3 +64,30 @@
 | 03 | C03-04 | 不能从该论文推出已能学习/泛化 | R01 | 史学解释 | 严格限于该论文网络假设 | SCOPED_VERIFIED |
 
 **核证状态说明**：以上仅对应首批谨慎写入的中心史实。书目年份与可见摘要核验不等于完整历史研究已经结束；正文内新增实质断言需补证。其余章节仍PENDING。
+
+## 第二批04—06章：非虚构细分主张与来源（工作稿许可）
+
+| 章节 | claim_id | 历史主张或可复算演示 | source_id | 类别 | 状态 |
+| --- | --- | --- | --- | --- | --- |
+| 04 | C04-01 | 1949年Hebb著作及研究前史 | DL18,DL19 | 历史事实 | SCOPED_VERIFIED |
+| 04 | C04-02 | 第62页的反复触发、连接效能增强假设 | DL18,DL20 | 原始摘录＋学术史 | SCOPED_VERIFIED |
+| 04 | C04-03 | cell assembly与phase sequence并非一个节点的简单规则 | DL19,DL20 | 历史解释 | SCOPED_VERIFIED |
+| 04 | C04-04 | 流行格言不是Hebb逐字原话 | DL21 | 争议澄清 | SCOPED_VERIFIED |
+| 04 | C04-05 | Δw=ηxy是后世教学算法简写 | AUTHOR_DERIVATION,DL20 | 现代教学重构 | DERIVATION_ONLY |
+| 04 | C04-06 | 赫布的理论有前驱研究 | DL20 | 学术史 | SCOPED_VERIFIED |
+| 05 | C05-01 | Rosenblatt 1958论文元数据与原文问题设定 | DL22,DL23 | 原始文献 | SCOPED_VERIFIED |
+| 05 | C05-02 | 1958年IBM704演示与媒体报道 | DL24 | 机构档案 | SCOPED_VERIFIED |
+| 05 | C05-03 | 感知机系统不能简单等同课本单神经元 | DL23,DL25 | 模型边界 | SCOPED_VERIFIED |
+| 05 | C05-04 | 可纠错的线性阈值模型与更新规则 | DL23,DL27 | 现代教学重构 | QUALIFIED |
+| 05 | C05-05 | Widrow–Hoff/LMS与感知机更新不同 | DL26,DL27 | 对照研究 | SCOPED_VERIFIED |
+| 05 | C05-06 | 感知机收敛只在满足条件下成立 | DL23,DL27 | 数学解释 | QUALIFIED |
+| 05 | C05-07 | 两步纠错得w=(2,0),b=0 | AUTHOR_DERIVATION | 数学演示 | VERIFIED_DERIVATION |
+| 06 | C06-01 | Minsky与Papert在1969年出版Perceptrons | DL28 | 出版史 | SCOPED_VERIFIED |
+| 06 | C06-02 | 单层线性阈值无法实现XOR | AUTHOR_PROOF,DL28 | 数学证明 | VERIFIED_DERIVATION |
+| 06 | C06-03 | 有隐藏层可表示XOR但不自动解决训练 | AUTHOR_PROOF,DL28 | 构造及限定 | VERIFIED_DERIVATION |
+| 06 | C06-04 | 1960已有Widrow–Hoff自适应误差路线 | DL26,DL32 | 原始论文 | SCOPED_VERIFIED |
+| 06 | C06-05 | 1969争议含学术社群解释与竞争观点 | DL29,DL31 | 学术史解释 | INTERPRETATION |
+| 06 | C06-06 | 1973 Lighthill报告与AI资金争议 | DL30 | 官方史学回顾 | SCOPED_VERIFIED |
+| 06 | C06-07 | 1969不是AI冬天唯一充分原因 | DL29,DL30 | 竞争解释 | INTERPRETATION |
+
+**注意**：此处仅代表允许撰写有来源约束的非虚构工作初稿，并不是全章逐句核准，更不是全书封版许可。

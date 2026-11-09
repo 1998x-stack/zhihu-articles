@@ -118,3 +118,47 @@
 | C03-02 | 全或无、阈值、抑制、固定连接作为形式理想化假设 | R01 | 论文摘要与原文可查说明；模型规则按原文解释范围 |
 | C03-03 | 非循环回路的命题逻辑表达与反馈回路之记忆 | R01 | 论文摘要直接支持；可计算性不泛化成两元件万能 |
 | C03-04 | 1943模型不含现代有监督权重学习/梯度优化 | R01 | 对该文形式假设的有限范围解释，不排除后续人工网络新算法 |
+
+## 六、第二批04—06章：前置史实研究与证据边界（2026-11-09）
+
+**范围说明**：本批仅对04—06章的中心年份、论文书目、理论支持范围和现代例题开展前置核证，不能外推为全书史料已审。1958 Rosenblatt与1960 Widrow–Hoff原论文PDF已查看首页原版；1949 Hebb原书大体量扫描截图未成功，关于原书第62页使用原文可见摘录与同行评审研究交叉核对，不能声称已完整校勘该书。1969专著以MIT出版社说明和后续学术史解释为证据，不对未逐页读到的证明作细节复述。
+
+| source_id | 可靠性类别 | 来源 | 可支持的具体范围 |
+| --- | --- | --- | --- |
+| DL18 | 原始著作书目与可见摘录 | [D. O. Hebb, The Organization of Behavior (1949)](https://www.angiologie-muenster.de/wp-content/uploads/2023/02/Hebb_1949_The_Organization_of_Behavior.pdf) | 第62页反复参与触发的假说、细胞集合及阶段序列（后两者见相应章节；需后续页码复核） |
+| DL19 | 同行评审历史综述 | [Richard E. Brown, Donald O. Hebb and the Organization of Behavior: 17 years in the writing (2020)](https://doi.org/10.1186/s13041-020-00567-8) | 1949出版、此前十余年研究，Hebb synapse、cell assembly和phase sequence相互关系 |
+| DL20 | 同行评审学术史 | [The Hebb Synapse Before Hebb (2021)](https://doi.org/10.3389/fnbeh.2021.732195) | 第62页原假设、赫布以前的联结与记忆思想，反对单人一夜发明的叙述 |
+| DL21 | 当事学者后世访谈及学术分析 | [Carla Shatz访谈 (2020)](https://blogs.imperial.ac.uk/neuron-topic/2020/04/02/interview-with-professor-carla-shatz-when-i-received-the-phd-in-neurobiology-from-harvard-medical-school-in-1976-i-was-the-first-woman-to-do-so/)；[历史分析](https://pmc.ncbi.nlm.nih.gov/articles/PMC4006178/) | “fire together, wire together”并非1949 Hebb逐字原话；Shatz自述其传播经历 |
+| DL22 | 1958原始论文元数据 | [Frank Rosenblatt, The Perceptron, Psychological Review 65(6):386–408](https://pubmed.ncbi.nlm.nih.gov/13602029/) | 论文的作者、期刊、年月、题目和页码 |
+| DL23 | 1958原始论文首页扫描 | [Rosenblatt 1958 PDF](https://henriquetmaia.github.io/pdf/papers/rosenblatt1958.pdf) | 感知、记忆、存储如何影响识别的核心问题；与后世单阈值模型不完全等同 |
+| DL24 | 康奈尔大学历史档案 | [Professor's perceptron paved the way for AI (2019)](https://psychology.cornell.edu/news/professors-perceptron-paved-way-ai-60-years-too-soon) | 1958年7月IBM 704上的感知机演示及当时报刊热情；校方历史叙事不能作独立效果评测 |
+| DL25 | 博物馆藏品记录（页面可用性待核） | [Smithsonian, Mark I Perceptron](https://www.si.edu/object/electronic-neural-network-mark-i-perceptron%3Anmah_334414) | S感知/A联络/R响应等单元与实物传统；不能仅据检索结果断言特定完工月份 |
+| DL26 | 1960原始论文首页扫描 | [Widrow & Hoff, Adaptive Switching Circuits](https://isl.stanford.edu/~widrow/papers/c1960adaptiveswitching.pdf) | ADALINE/自适应切换研究的误差驱动、训练示例与线性可分函数限制 |
+| DL27 | 研究团队教学材料 | [Stanford PDP Handbook: The Delta Rule](https://web.stanford.edu/group/pdplab/pdphandbookV3/handbookch5.html) | 感知机纠错与Widrow–Hoff/LMS既相关又不同 |
+| DL28 | 1969原始专著书目、出版方介绍 | [Minsky & Papert, Perceptrons (MIT Press)](https://mitpress.mit.edu/9780262130431/perceptrons/) | 1969著作、所讨论的特定架构、几何与函数类别的限制；不支持“所有神经网络都无效” |
+| DL29 | 科学社会学同行评审研究 | [Olazaran, A Sociological Study of the Official History of the Perceptrons Controversy (1996)](https://doi.org/10.1177/030631296026003005) | 学术权力、资源分配和符号主义的竞争解释；不构成唯一因果证明 |
+| DL30 | 英国议会上院研究回顾 | [AI in the UK: Historical background (2018)](https://publications.parliament.uk/pa/ld201719/ldselect/ldai/100/10005.htm) | 1973 Lighthill报告、英国AI领域政策背景及资金因果争议 |
+| DL31 | 研究者在再版序中的史学反思 | [Léon Bottou, Foreword to Perceptrons (2017)](https://leon.bottou.org/papers/bottou-foreword-2017) | “一本书是否杀死研究”并不足以概括数学争议 |
+| DL32 | 研究者论文目录 | [Stanford Widrow publication list](https://www-isl.stanford.edu/~widrow/publications.html) | 1960年Widrow–Hoff论文出版年、会议与页码 |
+
+### 事实核证结论
+
+**04章**：1949年Hebb关注的是神经活动反复参与产生长期连接效率变化的假设，同时提出细胞集合与阶段序列。其观点既有前驱研究，也不是现代误差反传。流行格言不是Hebb原话；现代 Δw=ηxy 只能作为教学简化。
+
+**05章**：1958原文首先是感知与记忆的理论模型；IBM 704的演示和后来的Mark I硬件不应混成同一场景。简化感知机可以通过带标签的误判纠错学会线性分界，收敛与泛化不是无条件保证。1960 Widrow–Hoff具有另一种基于误差与均方意义的训练规则。
+
+**06章**：XOR不可被单层线性阈值分类器实现，但有隐藏层的固定网络可以表达XOR，训练多层网络却是另外的问题。1969书对特定感知机架构给出了数学限制，学术与公共争议有复杂传播过程。1960年仍有自适应神经计算研究，1973年的Lighthill报告涉及AI研究资金与政策的另一路线，因此1969不是整个AI冬天的充分、唯一原因。
+
+### 可自行复算的现代例题，不冒充历史实验
+
+- Hebb简化教学式：若η=0.1，x=y=1，w=0.2→0.3；若x=0则此步无增长。该式不代表1949原书的完整生理模型。
+- 感知机更新式：若目标y与评分符号不相容，w←w+ηyx、b←b+ηy。正/负样本训练两步可得到w=(2,0)、b=0；这仅是线性阈值教学模型。
+- XOR证明：线性评分满足s(0,0)+s(1,1)=s(1,0)+s(0,1)。XOR要求左侧两项都负、右侧两项都非负，矛盾。
+- 两隐藏单元的构造：h1=step(x1+x2−0.5)，h2=step(x1+x2−1.5)，输出step(h1−2h2−0.5)正好是XOR。这说明表示可能，不说明如何由数据学出这种连接。
+
+### 待独立审稿重点
+
+1. 赫布1949年原书全文扫描仍需就细胞集合相关原页进一步核查。
+2. Rosenblatt原始多单元感知机与现代单神经元教学简化绝不等同；Mark I硬件具体年月暂不作肯定断言。
+3. 1969年原书的复杂拓扑和连通性证明不在本轮复现范围内。
+4. “AI冬天”的年代与具体经费因果，按独立史学研究核对；如来源不能支持绝对断言，必须改为解释性的有限表述。
