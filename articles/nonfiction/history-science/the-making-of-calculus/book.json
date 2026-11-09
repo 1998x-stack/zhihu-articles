@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "the-making-of-calculus",
   "title": "从切线到无穷：微积分的诞生与重建",
-  "reading_notice": "序章00和第01—19章共20篇已有带来源映射的未独立审稿工作初稿；第20—36章共17篇仍为策划占位。全书正式工作流的outline_approved=false、evidence_verified=false、review_status=PENDING；索引中的draft不等于质量批准。",
+  "reading_notice": "序章00与第01—22章共23篇已有逐章来源映射的未独立审稿工作初稿；第23—36章共14篇仍为策划占位。正式工作流outline_approved=false、evidence_verified=false、review_status=PENDING；索引draft不是质量认证。",
   "chapters": [
     {
       "id": "prologue",
@@ -149,21 +149,21 @@
       "title": "20｜伯克利的质问：无穷小消失之后还剩什么",
       "part": "第四部｜方法的胜利与裂缝",
       "file": "draft/20.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-21",
       "title": "21｜欧拉：函数成为微积分的共同语言",
       "part": "第四部｜方法的胜利与裂缝",
       "file": "draft/21.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-22",
       "title": "22｜拉格朗日：微积分能摆脱无穷小吗",
       "part": "第四部｜方法的胜利与裂缝",
       "file": "draft/22.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-23",

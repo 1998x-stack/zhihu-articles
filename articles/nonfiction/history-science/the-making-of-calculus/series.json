@@ -400,23 +400,48 @@
     {
       "id": "20",
       "title": "伯克利的质问：无穷小消失之后还剩什么",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/20.md",
-      "claims_path": "draft/20.claims.json"
+      "claims_path": "draft/20.claims.json",
+      "source_ids": [
+        "H115",
+        "H116",
+        "H117",
+        "H118",
+        "H05"
+      ]
     },
     {
       "id": "21",
       "title": "欧拉：函数成为微积分的共同语言",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/21.md",
-      "claims_path": "draft/21.claims.json"
+      "claims_path": "draft/21.claims.json",
+      "source_ids": [
+        "H119",
+        "H120",
+        "H121",
+        "H122",
+        "H123",
+        "H124",
+        "H129"
+      ]
     },
     {
       "id": "22",
       "title": "拉格朗日：微积分能摆脱无穷小吗",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/22.md",
-      "claims_path": "draft/22.claims.json"
+      "claims_path": "draft/22.claims.json",
+      "source_ids": [
+        "H125",
+        "H126",
+        "H127",
+        "H128",
+        "H130",
+        "H111",
+        "H122"
+      ]
     },
     {
       "id": "23",
