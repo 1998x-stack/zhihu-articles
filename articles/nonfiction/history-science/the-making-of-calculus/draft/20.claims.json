@@ -1,25 +1,142 @@
 {
   "chapter": "20",
-  "status": "PENDING",
+  "title": "伯克利的质问：无穷小消失之后还剩什么",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H115",
+    "H116",
+    "H117",
+    "H118",
+    "H05"
+  ],
   "claims": [
     {
       "id": "C20-01",
-      "statement": "先约掉又令零是否合逻辑",
-      "source_candidates": [
-        "H01",
-        "H05"
+      "kind": "history_publication",
+      "statement": "1734年George Berkeley出版The Analyst,考察当时分析方法的原则与论证",
+      "source_ids": [
+        "H115",
+        "H116",
+        "H117"
       ],
-      "verification": "PENDING"
+      "locator": "TCD full transcript opening and §§I—V; Google Books 1734 bibliography",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C20-02",
-      "statement": "对无穷小演算基础的批判",
-      "source_candidates": [
-        "H01",
-        "H05"
+      "kind": "history_method",
+      "statement": "伯克利分别谈及牛顿流数与无穷小差分",
+      "source_ids": [
+        "H115"
       ],
-      "verification": "PENDING"
+      "locator": "The Analyst §§III–V",
+      "verification": "PRIMARY_TEXT_CHECKED"
+    },
+    {
+      "id": "C20-03",
+      "kind": "history_critique",
+      "statement": "伯克利批评先把非零增量作为除数再直接视其消失的推理",
+      "source_ids": [
+        "H115"
+      ],
+      "locator": "The Analyst §§XIII–XVI and §XXXV",
+      "verification": "PRIMARY_TEXT_CHECKED"
+    },
+    {
+      "id": "C20-04",
+      "kind": "history_critique",
+      "statement": "《分析学家》§§XXI–XXIV研究抛物线切线和双重错误论点",
+      "source_ids": [
+        "H115"
+      ],
+      "locator": "The Analyst §§XXI–XXIV",
+      "verification": "PRIMARY_TEXT_CHECKED"
+    },
+    {
+      "id": "C20-05",
+      "kind": "history_quote",
+      "statement": "Ghosts of departed Quantities出自§XXXV",
+      "source_ids": [
+        "H115"
+      ],
+      "locator": "The Analyst §XXXV final paragraph",
+      "verification": "PRIMARY_TEXT_CHECKED"
+    },
+    {
+      "id": "C20-06",
+      "kind": "modern_math",
+      "statement": "x³差商h≠0时化简为3x²+3xh+h²，极限3x²",
+      "source_ids": [],
+      "locator": "independent algebraic expansion and limit",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C20-07",
+      "kind": "modern_math",
+      "statement": "|3xh+h²|≤(3|x|+1)|h| when |h|<1，得ε控制",
+      "source_ids": [],
+      "locator": "triangle inequality and quantified delta",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C20-08",
+      "kind": "historiographical",
+      "statement": "原文批评不能推断所有牛顿莱布尼茨具体推导都以同样方式非法操作",
+      "source_ids": [
+        "H115",
+        "H118"
+      ],
+      "locator": "historical reading and 2022 abstract",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C20-09",
+      "kind": "historical_response",
+      "statement": "Maclaurin于1742年出版Treatise of Fluxions，争论兼有数学和宗教/权威语境",
+      "source_ids": [
+        "H117",
+        "H118"
+      ],
+      "locator": "MAA description and Moriarty 2022 abstract",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C20-10",
+      "kind": "history_context",
+      "statement": "《分析学家》副标题是对不信者数学家的公开论辩设置，不臆断个人身份和动机",
+      "source_ids": [
+        "H115",
+        "H116",
+        "H118"
+      ],
+      "locator": "original full title and scholarly context",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C20-11",
+      "kind": "modern_counterexample",
+      "statement": "|x|在零左导数-1右导数1，普通导数不存在",
+      "source_ids": [],
+      "locator": "one-sided difference quotients",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C20-12",
+      "kind": "chapter_bridge",
+      "statement": "逻辑批评没有使微积分停滞，下一章转向欧拉的技术扩展",
+      "source_ids": [
+        "H117",
+        "H119"
+      ],
+      "locator": "historical chronology & synthetic transition",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "§XXXV直接引语在全文中只取极短片段；余为释义。",
+    "现代ε–δ证明不能冒充1734年原文，不能简化牛顿所有流数证明为同一漏洞。",
+    "Moriarty 2022只核对公开摘要，不能伪造全文页码。",
+    "尚未通过全书draft门禁、连续性审核和独立结构审稿。"
+  ]
 }
