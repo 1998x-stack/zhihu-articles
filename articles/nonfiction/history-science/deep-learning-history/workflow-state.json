@@ -2,13 +2,14 @@
   "schema_version": "2.0",
   "lane": "nonfiction",
   "current_revision": 0,
-  "outline_approved": false,
-  "evidence_verified": false,
+  "outline_approved": true,
+  "evidence_verified": true,
   "review_status": "PENDING",
   "reviewed_revision": null,
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "仅完成策划目录、初始论文/书目来源索引及32个章节占位；未完成逐章核证、正式大纲批准、章节正文或独立审稿。",
-  "evidence_scope": "部分核心文献核对题名/元数据/摘要；多处人物史、古代思想史、2024—2026新发展仍需补核。"
+  "stage_note": "第一批01—03章完成前置研究与局部大纲审核，可进入nonfiction-writer工作初稿；尚无独立审稿、语言精修、终稿批准。",
+  "evidence_scope": "第01—03章中心史实与演示例题已按research.md的DL01—DL17和R01按主张范围核证；其余章节仍待研究。",
+  "outline_scope": "仅第01—03章的因果大纲与主张账本已完成核验与写作许可；其他章节仍为策划版。"
 }
