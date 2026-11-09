@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "deep-learning-history",
   "title": "让机器学会学习：一部深度学习发展史",
-  "reading_notice": "第01—03章为历史非虚构工作初稿并附逐条证据映射；序章与第04—31章仍为策划占位。尚未通过独立审稿或终稿封版。",
+  "reading_notice": "01—06共6章为历史科学非虚构工作初稿并附逐章主张记录；序章00与07—31共26篇仍为策划占位。未通过独立审稿或最终封版。",
   "outline_approved": true,
   "evidence_verified": true,
   "parts": [
@@ -170,10 +170,12 @@
       "part": "第二部｜第一次机器学习的雄心",
       "period": "1949",
       "file": "draft/04.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
         "TO_VERIFY"
-      ]
+      ],
+      "claims_file": "draft/04.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-05",
@@ -182,11 +184,13 @@
       "part": "第二部｜第一次机器学习的雄心",
       "period": "1957—1958",
       "file": "draft/05.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
         "R02",
         "R24"
-      ]
+      ],
+      "claims_file": "draft/05.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-06",
@@ -195,10 +199,12 @@
       "part": "第二部｜第一次机器学习的雄心",
       "period": "1960—1970年代",
       "file": "draft/06.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
         "TO_VERIFY"
-      ]
+      ],
+      "claims_file": "draft/06.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-07",
@@ -518,6 +524,6 @@
       ]
     }
   ],
-  "outline_scope": "仅01—03章",
-  "evidence_scope": "仅01—03章中心史实及例题"
+  "outline_scope": "仅第01—06章",
+  "evidence_scope": "仅01—06中心史实和例题"
 }
