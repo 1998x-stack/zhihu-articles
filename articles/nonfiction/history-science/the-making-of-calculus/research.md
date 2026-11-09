@@ -292,3 +292,54 @@
 - **16**：不做“根据公式表象判抄袭”的伪证据；比较相同 \(y=x^2\) 时 \(dy=2x\,dx\)、\(\dot y=2x\dot x\)（链式表达在\(\dot x\ne0\)时可比较斜率），展示数学一致但研究语言不同；用明确年份分隔“发明/研究”“公开发表”“争议机构裁定”。现代专业史家依据存世手稿倾向承认独立发现；不可把皇家学会报告当作中立终审，也不可否定牛顿1660年代的历史先行研究。
 
 **状态**：仅研究已核查的出处/出处范围与数学复核，交付正文属于 \`DRAFT_UNREVIEWED\`。整书 \`workflow-state.json\` 必须保持 \`outline_approved=false/evidence_verified=false/review_status=PENDING\`，不得声称未经双审已经终审批准。
+
+
+## 第17—19章专项前置研究｜最速降线、首部微分教材、泰勒近似（2026-11-09）
+
+> **核验边界**：本条目为本批**可查的史料入口与限定范围**，不等于全书通过 \`evidence_verified\`、\`outline_approved\` 或独立审稿。本批仅在下列具体主张范围可进入**未批准工作初稿**。网页摘要未提供原书逐页可复核内容时，标明「原书页码待补」，不得虚构页码。
+
+### 1. 新增来源及支持范围
+
+- **H102** Philippe Henry、Gerhard Wanner，[*Johann Bernoulli and the cycloid: A theorem for posterity*](https://ems.press/content/serial-article-files/45593)，*Elemente der Mathematik* 72（2017），137—163，**印刷页147—149**第4节已逐页对照。页147记录1696年6月《Acta Eruditorum》公开挑战、原始拉丁题目、六个月期限以及后来延长至1697年复活节，并列出1697年5月解答；页147—149给出约翰·伯努利的折射类比及摆线方程。**边界**：这是研究论文和转引古文，不是1696年的全部当事人手稿；页147列举了若干「稿件/出版」而 MacTutor 对洛必达解答何时见刊记载不同，不写固定的公开发表人数。
+- **H103** MacTutor，[The brachistochrone problem](https://mathshistory.st-andrews.ac.uk/HistTopics/Brachistochrone/)，可见1696年约翰在《Acta Eruditorum》出题、伽利略1638年类似研究（将圆弧推为最速路线的结论不成立）、1697解答、折射思路、牛顿匿名解及后来欧拉—拉格朗日变分法。**边界**：教学史综述；与H102对「收到解答／刊出解答／后来发表」的不同口径并存。
+- **H104** Royal Society，[Paper on mathematical problems by Johannes Bernoulli](https://makingscience.royalsociety.org/items/clp_1_30/paper-on-mathematical-problems-by-johannes-jean-bernoulli)，**藏品CLP/1/30**，藏品记录为1697年、相关文本出版于《Philosophical Transactions》。**边界**：是收藏条目与编目说明，不单独证明牛顿何时做完或某段轶事。
+- **H105** Brown University, [History of Mathematics Text：L’Hospital (1696)](https://library.brown.edu/exhibits/archive/math/textfr.html)，馆藏／展览书目明确原版为 *Analyse des infiniment petits, pour l'intelligence des lignes courbes*，巴黎1696年；介绍十节组织、切线/极值/拐点/曲率及第九节不定比研究。**边界**：书目与展览说明非正文全文。
+- **H106** MacTutor，[L'Hôpital: *Analyse des infiniment petits* Preface](https://mathshistory.st-andrews.ac.uk/Extras/LHopital_Preface/)，1696年前言英译，**可逐段核对其范围与本人承认借用莱布尼茨及伯努利研究**；前言强调只处理微分学、不把未完成的积分学教材归为本书。**边界**：英译转写，不把前言自述当作各贡献归属的独立终审。
+- **H107** Robert E. Bradley，[De l'Hôpital, Bernoulli, and the genesis of *Analyse des infiniment petits*](https://doi.org/10.1080/17498430.2013.729916)，*BSHM Bulletin* 28（2013），16—24，**摘要可核**：开篇部分以约翰·伯努利1691—92授课手稿为基础，后文也有其协助，1694—96之间两人存在资助安排。**边界**：目前核查仅公开摘要，不能伪造全文页码与信函原句。
+- **H108** Robert E. Bradley、Salvatore J. Petrilli、C. Edward Sandifer，[*L’Hôpital's Analyse des infiniments petits: An Annotated Translation with Source Material by Johann Bernoulli*](https://link.springer.com/book/10.1007/978-3-319-17115-9)，Springer 2015。出版社介绍包括洛必达1696教材、伯努利教学材料以及往来书信，确认双方不同贡献；**未宣称已逐页查完注释本**。
+- **H109** MacTutor，[Brook Taylor](https://mathshistory.st-andrews.ac.uk/Biographies/Taylor/)，详述Taylor 1712年致Machin书信及**1715年** *Methodus incrementorum directa et inversa* 的两种展开论证、随后推广，也明确说明Gregory、Newton、Leibniz、Johann Bernoulli、de Moivre已有不同形式的成果。**边界**：不能把「1715年出版」写成首次有人想到幂级数；来源提到1785/1786间称谓流通时间，暂不硬定「命名第一年」。
+- **H110** [Bavarian State Library 1717年版 *Methodus incrementorum* 影印馆藏入口](https://commons.wikimedia.org/wiki/File:Methodus_incrementorum_directa_%26_inversa_%28IA_10053900bsb%29.pdf)。这是**1717年版**的影印资料入口，不是1715首版，正文仅在书目辨版时使用，**原文命题11、命题7精确页码待后续核对**。
+- **H111** [Mathematics LibreTexts｜Zakon，Taylor’s Theorem and Taylor’s Series](https://math.libretexts.org/Bookshelves/Analysis/Mathematical_Analysis_%28Zakon%29/05%3A_Differentiation_and_Antidifferentiation/5.06%3A_Differentials._Taylors_Theorem_and_Taylors_Series)，可检验Taylor余项与函数 \`f(0)=0, f(x)=exp(-1/x²) (x≠0)\` 的所有阶导数在0为零，却对任何非零x均为正的反例；**现代数学文献**，不是18世纪历史人物的认识。
+- **H112** MAA，[Mathematical Treasure: L’Hospital’s *Analyse des Infiniment Petits*](https://old.maa.org/node/871243)；确认1696初版、作者与莱布尼茨微分体系的传播。**边界**：通俗书史介绍，复杂贡献争论以H107/H108优先。
+
+### 2. 三章主张与证据矩阵（增量核查范围）
+
+| 章与编号 | 可写命题 | 来源与具体定位 | 结论性质／必须限定 |
+| --- | --- | --- | --- |
+| C17-01 | 1696年6月约翰·伯努利公开挑战，求固定两点间重力下滑最短时间 | H102印刷p.147§4；H103开头 | 文献所见；区分后续延长期限 |
+| C17-02 | 1697年形成多种解答，牛顿匿名发表；发表/应征人数口径有异 | H102 p.147；H103中段；H104藏品说明 | 文献所见＋口径限制，不虚构传闻 |
+| C17-03 | 约翰使用分层介质折射/最短时间类比，指向摆线 | H102 pp.147—149；H103中后段 | 研究论文明确支持；数学说明为现代回译 |
+| C17-04 | 伽利略曾研究类似问题但将圆弧认作最速轨道的结论不成立 | H103第2—4段 | 二手历史综述；需防止写成「伽利略什么都不懂」 |
+| C17-05 | 在光滑无摩擦、恒g、初速0、端点固定的模型中 \(T=\int ds/\sqrt{2gy}\) | H102 pp.147—149的物理动机＋本章独立数学推导 | 现代模型；不作历史原文引用 |
+| C17-06 | 薄层折射极限/变分必要条件导出 \(y(1+y'^2)=2a\)，摆线参数满足该式 | H102 p.148及本章参数复算 | 现代回译；**必要条件不是完整的全局最优性证明** |
+| C17-07 | 取(0,0)→(πa,2a)的摆线段，时间 \(π\sqrt{a/g}\)，直线 \(\sqrt{π^2+4}\sqrt{a/g}\) | 原稿序章00已有算例、H103/现代推导；本章独立代数检查 | 只比较两条轨道，不能当作「所有曲线最优」的证据 |
+| C17-08 | 雅各布的不同解法推动早期曲线最优化，但不能说当年已完成现代变分法 | H103后段，H102 §4 | 史学解释，需要区分不同方法 |
+| C18-01 | 洛必达1696年出版法语微分学系统教材，原版题名与出版地 | H105馆藏条目；H112 | 书目事实，可陈述为「常被视为首部微分学教材」 |
+| C18-02 | 前言说明书写的是微分部分，承认借用莱布尼茨与伯努利的方法 | H106前言英译；H112 | 一手前言译文，可归为作者自述 |
+| C18-03 | 伯努利1691—92授课对开篇影响大，其后材料亦有帮助 | H107摘要，H108出版社专著介绍 | 有学术研究支撑，勿定性整部完全代写 |
+| C18-04 | 教材先讲微分规则，再有切线、极值、拐点、焦散等问题，涉及不定比 | H105原版介绍；H106前言；H112 | 书籍结构有文献支持 |
+| C18-05 | 今日0/0极限规则的一个严格例子：\(\lim_{x\to0}(\sin x)/x=1\) | 本章现代微积分推导，要求可微及导数比极限条件 | 现代教学回译；**不是**1696书中此例的复刻 |
+| C18-06 | 洛必达法则有条件而非任意0/0都可机械推出 | 现代中值定理推导与条件说明 | 不把前言的无穷小语言冒充现代表述 |
+| C19-01 | Taylor 1715年出版 *Methodus incrementorum*，有此前1712年书信记录 | H109传记中后段；H110仅供辨版 | 书目和生平事实，不说首个幂级数 |
+| C19-02 | Gregory、Newton、Leibniz、Bernoulli、de Moivre等有先前相关研究 | H109贡献归属段 | 史学综述，不强作单一师承 |
+| C19-03 | 给定可微条件，\(f(x)=P_n(x)+R_n(x)\) 且余项可有界控制 | H111及本章独立推导 | 现代Taylor定理；1715原作者符号不同 |
+| C19-04 | \(e^x\) 在 \(0\le x\le0.5\) 的三次多项式余项小于0.00430 | H111定理与本章独立数值复算 | 数学结论；变量范围与余项条件须写明 |
+| C19-05 | \(e^{-1/x^2}\) 在0所有导数为0，但不等于0附近的Taylor级数 | H111反例段 | **现代**反例，不移植为1715年作者所知 |
+| C19-06 | 喀拉拉学派三角级数与欧洲级数可作概念比较，但未经证实不能推断直接传播 | 已有H03、H38—H40及 [跨文明比较](planning/cross-cultural-evidence.md) | 有关传播作为待核，不作确定历史传递 |
+
+### 3. 本批前置研究结论（限范围）
+
+- **可支持未审工作初稿的事实**：1696/1697挑战和答题轮廓、折射类比与摆线、洛必达1696教材及伯努利授课关系、泰勒1715著作与前驱贡献（分别有上表来源）。
+- **可支持现代计算解释的内容**：理想力学摆线时间、简化折射必要条件、洛必达法则受限示例、Taylor余项及非解析光滑函数反例；须从历史叙述中明确隔离。
+- **不能宣布完成的工作**：洛必达与伯努利通信每一处精确页码、1715首版命题逐页转写、全部史学优先权细节、所有后续章节证据核证、任何独立审稿/终稿批准。
+- **写作门禁实况**：截至本条研究修订，项目 \`workflow-state.json\` 中 \`outline_approved=false\`、\`evidence_verified=false\`、\`review_status=PENDING\`，故下游写出的只能标注**工作初稿（未通过正式 draft gate）**，不得隐含合法封版或发布许可。
