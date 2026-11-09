@@ -28,9 +28,17 @@
 | 1998 | LeCun/Bottou/Bengio/Haffner IEEE文档识别论文 | LeNet-5、GTN商业票据系统；部署处理量口径未消歧 | 10、12 |
 | 1998 | Burges SVM教程、Platt SMO技术报告 | 模型的数学目标与训练工程条件同样重要 | 12 |
 | 2000 | Gers/Schmidhuber/Cummins LSTM遗忘门 | 持续序列的自动重置问题，区别于1997原版 | 11 |
-| 2003 | Bengio等神经概率语言模型 | 词的分布式表示 | 13 |
-| 2006 | 深度信念网络逐层训练 | 训练条件改变 | 14 |
+| 2000 | Bengio/Ducharme/Vincent三作者NIPS神经概率语言模型会议论文 | 早于2003四作者期刊版本 | 13 |
+| 2002 | Hinton对比散度概率模型训练论文 | 为后续RBM逐层训练提供相关工具 | 14 |
+| 2003 | Bengio/Ducharme/Vincent/Jauvin JMLR神经概率语言模型 | 共同学习连续词表示与条件概率；非2013 word2vec | 13 |
+| 2006 | Hinton/Osindero/Teh深度信念网络逐层训练 | 混合有向/无向生成架构，原论文生成微调是对比式wake-sleep | 14 |
+| 2006 | Hinton/Salakhutdinov Science深自编码器 | 好的预训练初始化后使用梯度微调；与DBN生成微调有别 | 14 |
+| 2006 | Bengio/Lamblin/Popovici/Larochelle NIPS逐层训练 | 蒙特利尔研究方向，贡献归属不独占 | 14 |
 | 2009 | ImageNet大型图像库论文 | 与竞赛和AlexNet时序区分 | 16 |
+| 2011 | Seide/Gang Li/Dong Yu Interspeech语音研究 | 北京与雷德蒙德署名；RT03S Fisher单遍WER27.4%→18.5%，仅限指定基准 | 15 |
+| 2011 | Seide/Gang Li/Xie Chen/Dong Yu ASRU特征工程 | 声学变换及适配重要，不能只归因于网络层数 | 15 |
+| 2012 | Dahl/Dong Yu/Li Deng/Acero大词汇CD-DNN-HMM | DNN声学状态后验结合HMM时序解码 | 15 |
+| 2012 | Hinton/Li Deng/Dong Yu等四组团队综述 | Toronto、微软、Google、IBM多团队研究与应用进展 | 15 |
 | 2012 | AlexNet在图像分类取得重大进展 | 多因素，非GPU单因 | 00、17 |
 | 2014—2015 | 序列注意力和GAN路线 | 不同问题与方法分叉 | 20—21 |
 | 2015—2016 | ResNet残差学习 | 作者与机构具体归属看原论文 | 18 |
