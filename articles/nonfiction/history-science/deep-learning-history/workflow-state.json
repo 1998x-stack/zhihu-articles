@@ -1,0 +1,14 @@
+{
+  "schema_version": "2.0",
+  "lane": "nonfiction",
+  "current_revision": 0,
+  "outline_approved": false,
+  "evidence_verified": false,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
+  "unresolved_blockers": [],
+  "edited_revision": null,
+  "final_approved": false,
+  "stage_note": "仅完成策划目录、初始论文/书目来源索引及32个章节占位；未完成逐章核证、正式大纲批准、章节正文或独立审稿。",
+  "evidence_scope": "部分核心文献核对题名/元数据/摘要；多处人物史、古代思想史、2024—2026新发展仍需补核。"
+}
