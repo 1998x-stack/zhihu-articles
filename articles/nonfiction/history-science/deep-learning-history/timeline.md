@@ -20,8 +20,14 @@
 | 1985 | Ackley、Hinton、Sejnowski玻尔兹曼机学习论文 | 随机状态与能量学习，不等于监督反向传播 | 08 |
 | 1985 | LeCun Cognitiva阈值网络学习研究 | 已有隐藏层调整探索，不与1986 Nature方案混同 | 09 |
 | 1986-10-09 | Rumelhart–Hinton–Williams的Nature反向传播论文 | 可微隐藏层信用分配与表示学习，重要推广节点而非唯一发明起点 | 09 |
-| 1989—1998 | 卷积网络和文档识别系统 | 工业落地早于大规模通用胜利 | 10 |
-| 1997 | Hochreiter–Schmidhuber LSTM | 解决长延迟学习的部分困难 | 11 |
+| 1989 | LeCun等Backpropagation Applied to Handwritten Zip Code Recognition | 结合任务结构先验与反向传播；非1998才第一次相关研究 | 10 |
+| 1992 | Boser/Guyon/Vapnik最优间隔分类器 | 与神经网络视觉研究并行，有研究人员交叉 | 12 |
+| 1994 | Bengio/Simard/Frasconi长期依赖训练困难分析 | 记忆稳定性与可训练性存在张力 | 11 |
+| 1995 | Cortes/Vapnik支持向量网络论文 | 研究不可完美分隔数据与非线性映射 | 12 |
+| 1997 | Hochreiter/Schmidhuber原始LSTM论文 | CEC/输入输出门，**尚无2000年遗忘门** | 11 |
+| 1998 | LeCun/Bottou/Bengio/Haffner IEEE文档识别论文 | LeNet-5、GTN商业票据系统；部署处理量口径未消歧 | 10、12 |
+| 1998 | Burges SVM教程、Platt SMO技术报告 | 模型的数学目标与训练工程条件同样重要 | 12 |
+| 2000 | Gers/Schmidhuber/Cummins LSTM遗忘门 | 持续序列的自动重置问题，区别于1997原版 | 11 |
 | 2003 | Bengio等神经概率语言模型 | 词的分布式表示 | 13 |
 | 2006 | 深度信念网络逐层训练 | 训练条件改变 | 14 |
 | 2009 | ImageNet大型图像库论文 | 与竞赛和AlexNet时序区分 | 16 |

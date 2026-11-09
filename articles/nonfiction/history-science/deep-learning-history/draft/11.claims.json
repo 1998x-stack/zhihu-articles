@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "11",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "scoped center claims and technical examples for chapter 11",
+  "claims": [
+    {
+      "claim_id": "C11-01",
+      "claim": "1997论文回顾1991年Hochreiter对长依赖的分析",
+      "source_ids": [
+        "DL55"
+      ],
+      "kind": "historical_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "未直接逐页核对1991学位原文",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C11-02",
+      "claim": "Bengio/Simard/Frasconi1994论文阐述长依赖训练困难",
+      "source_ids": [
+        "DL56"
+      ],
+      "kind": "historical_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不把梯度消失等同RNN绝对无法保存信息",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C11-03",
+      "claim": "Hochreiter/Schmidhuber1997原始LSTM、CEC和乘性门控",
+      "source_ids": [
+        "DL55"
+      ],
+      "kind": "historical_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "大于1000时间步限于论文特定人工任务",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C11-04",
+      "claim": "2000 Gers/Schmidhuber/Cummins针对持续流引入遗忘门",
+      "source_ids": [
+        "DL57"
+      ],
+      "kind": "historical_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不能将2000的忘记门归属于1997原版",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C11-05",
+      "claim": "BPTT梯度连乘在某些条件下衰减或爆炸",
+      "source_ids": [
+        "DL55",
+        "DL56"
+      ],
+      "kind": "technical_interpretation",
+      "evidence_level": "QUALIFIED",
+      "limitations": "矩阵和非线性路径并非单常数模型",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C11-06",
+      "claim": "0.8^20≈0.011529；0.9^20≈0.121577",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "现代简化单路径例题，不是历史实验观测",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C11-07",
+      "claim": "门控记忆能改善但非无限可靠记忆",
+      "source_ids": [
+        "DL55",
+        "DL57"
+      ],
+      "kind": "scientific_limit",
+      "evidence_level": "QUALIFIED",
+      "limitations": "需考虑状态大小、持续输入与训练条件",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

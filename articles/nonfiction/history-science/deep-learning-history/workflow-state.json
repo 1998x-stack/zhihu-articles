@@ -9,9 +9,9 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "第四批10—12章前置来源DL51—DL63与26条核心主张已按有限范围核对并批准写作细纲；此时尚未独立双审，01—09章既有PENDING状态不变",
+  "stage_note": "第四批第10—12章的13项来源、23条分章主张及三篇正文工作初稿已完成；按限定范围完成数学算例核查；独立双重审稿未完成（PENDING），第13—31章及序章未核查",
   "evidence_scope": "第01—12章按批核对中心史实/技术机制与教学算例；第13—31章及序章00尚无本轮研究许可；10—12章原始论文细节与商业数字仍待独立审核",
   "outline_scope": "仅01—12章完成按来源约束的分章结构许可；第13—31章及序章00仍属策划，不代表全书审稿通过",
-  "draft_scope": "01—09章已有工作初稿（9篇），序章00及10—31共23篇仍为策划占位",
-  "last_completed_working_draft_chapter": 9
+  "draft_scope": "第01—12章已有可阅读工作初稿（12篇）；序章00及13—31章共20篇仍是策划占位",
+  "last_completed_working_draft_chapter": 12
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "deep-learning-history",
   "title": "让机器学会学习：一部深度学习发展史",
-  "reading_notice": "01—09共9章为可阅读历史科学非虚构工作初稿并附逐章主张记录；序章00与10—31共23篇仍为策划占位。前9章只获中心史实/大纲限域核查，独立审稿和终稿封版均未完成。",
+  "reading_notice": "第01—12章共12篇历史科学非虚构工作初稿并附逐章主张映射；序章00和第13—31章共20篇为策划占位。限域核实中心史实与教学算例，独立双重审稿/语言精修/封版均未完成。",
   "outline_approved": true,
   "evidence_verified": true,
   "parts": [
@@ -264,11 +264,15 @@
       "part": "第四部｜成功的孤岛与统计学习的竞争",
       "period": "1989—1998",
       "file": "draft/10.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R05",
-        "R03"
-      ]
+        "DL51",
+        "DL52",
+        "DL54",
+        "DL62"
+      ],
+      "claims_file": "draft/10.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-11",
@@ -277,10 +281,14 @@
       "part": "第四部｜成功的孤岛与统计学习的竞争",
       "period": "1991—1997",
       "file": "draft/11.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R06"
-      ]
+        "DL55",
+        "DL56",
+        "DL57"
+      ],
+      "claims_file": "draft/11.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-12",
@@ -289,10 +297,16 @@
       "part": "第四部｜成功的孤岛与统计学习的竞争",
       "period": "1990年代—2000年代初",
       "file": "draft/12.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "TO_VERIFY"
-      ]
+        "DL58",
+        "DL59",
+        "DL60",
+        "DL61",
+        "DL52"
+      ],
+      "claims_file": "draft/12.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-13",
@@ -538,6 +552,6 @@
       ]
     }
   ],
-  "outline_scope": "分批结构许可仅01—09",
-  "evidence_scope": "中心史实/教学例题仅01—09"
+  "outline_scope": "分批细纲许可仅01—12章",
+  "evidence_scope": "限定中心史实与技术例题仅第01—12章"
 }
