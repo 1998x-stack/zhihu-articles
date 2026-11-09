@@ -446,23 +446,49 @@
     {
       "id": "23",
       "title": "玻尔查诺：连续为什么能够保证中间值",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/23.md",
-      "claims_path": "draft/23.claims.json"
+      "claims_path": "draft/23.claims.json",
+      "source_ids": [
+        "H131",
+        "H132",
+        "H133",
+        "H134",
+        "H135"
+      ]
     },
     {
       "id": "24",
       "title": "柯西：怎样让极限替代模糊直觉",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/24.md",
-      "claims_path": "draft/24.claims.json"
+      "claims_path": "draft/24.claims.json",
+      "source_ids": [
+        "H136",
+        "H137",
+        "H138",
+        "H139",
+        "H140",
+        "H141",
+        "H142",
+        "H150"
+      ]
     },
     {
       "id": "25",
       "title": "傅里叶：热流与三角级数挑战函数观念",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/25.md",
-      "claims_path": "draft/25.claims.json"
+      "claims_path": "draft/25.claims.json",
+      "source_ids": [
+        "H143",
+        "H144",
+        "H145",
+        "H146",
+        "H147",
+        "H148",
+        "H149"
+      ]
     },
     {
       "id": "26",
