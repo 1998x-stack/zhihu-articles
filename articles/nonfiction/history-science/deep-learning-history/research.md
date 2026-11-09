@@ -206,3 +206,46 @@
 - 1985 LeCun会议论文PDF截图尝试遇服务器错误，公开文字摘要可定位，但不能引述图号或未观察到的页码。
 - Hopfield模型的稳定性需要对称权重、无自连接、合适更新约定等前提；不要把任意异步/同步操作都说成能量单调下降。
 - 1986 *Nature*原文摘要可核，本文不自行声称复现实验结果或优先权争议已有定论。
+
+
+## 八、第四批10—12章｜卷积识别、LSTM时序学习、SVM统计竞争：前置资料核验（2026-11-09）
+
+> **限定研究许可**：本次仅对第10—12章的论文作者、年代、核心模型机制、可复核教学计算和结论边界作前置核证。下列“来源元数据/摘要已核”不代表原论文全部页码及实验表格独立复现。尤其1998论文对商业支票处理量在摘要与导言有不同口径：本稿只说明论文报告已有商业部署，不复述精确日/月数量。1958感知机、1980福岛等前史沿用前批来源，不制造单人首创传奇。
+
+| ID | 来源类别 | 原始出处及入口 | 可信支持范围／不可越界之处 |
+| --- | --- | --- | --- |
+| DL51 | 原始研究/出版社论文元数据 | LeCun, Boser, Denker, Henderson, Howard, Hubbard & Jackel (1989), [Backpropagation Applied to Handwritten Zip Code Recognition](https://doi.org/10.1162/neco.1989.1.4.541), Neural Computation 1(4), 541–551 | 研究以任务结构约束提升泛化，用单个训练网络从标准化字形图像直接分类美国邮政编码手写数字；非1998才首次研究 |
+| DL52 | 原始研究/IEEE出版方官方摘要 | LeCun, Bottou, Bengio & Haffner (1998), [Gradient-Based Learning Applied to Document Recognition](https://proceedingsoftheieee.ieee.org/gradient-based-learning-applied-to-document-recognition/), Proceedings of the IEEE 86(11), 2278–2324; DOI 10.1109/5.726791 | CNN局部连接、共享权重、下采样、LeNet-5；文档管线含定位、切分、识别与语言模型；GTN全局训练；论文报告商业支票识别部署、特定标准数据集上的方法比较 |
+| DL53 | 论文作者书目索引 | [Léon Bottou个人论文目录：LeCun等1998](https://leon.bottou.org/papers/lecun-98h) | 核作者、期刊、卷号、页码、年份；不提供新实验数据 |
+| DL54 | 先驱原始论文（已有跨章来源） | Fukushima (1980), [Neocognitron](https://pubmed.ncbi.nlm.nih.gov/7370364/)（即前批DL41） | S/C层次与位置变化耐受；不把1980无监督新认知机等同1998可反传训练的CNN |
+| DL55 | 原始论文/MIT Press与PubMed | Hochreiter & Schmidhuber (1997), [Long Short-Term Memory](https://doi.org/10.1162/neco.1997.9.8.1735), Neural Computation 9(8):1735–1780, 1997-11-15 | 针对长距离时间依赖的衰减误差反流；constant error carousel与输入/输出门；原论文部分人工任务间隔超过1000时间步；非无条件“永久记忆” |
+| DL56 | 原始论文/IEEE与PubMed | Bengio, Simard & Frasconi (1994), [Learning Long-Term Dependencies with Gradient Descent Is Difficult](https://doi.org/10.1109/72.279181), IEEE Transactions on Neural Networks 5(2):157–166 | 长依赖、梯度优化与稳定保存信息之间的困难；并不证明任意RNN无法存储长时信息 |
+| DL57 | 原始论文/MIT Press与PubMed | Gers, Schmidhuber & Cummins (2000), [Learning to Forget: Continual Prediction with LSTM](https://doi.org/10.1162/089976600300015015), Neural Computation 12(10):2451–2471 | 为持续输入流中的自动重置引入**遗忘门（forget gate）**；不得把后来的完整三门公式直接归属于1997原始版本 |
+| DL58 | 原始论文/ACM会议书目 | Boser, Guyon & Vapnik (1992), [A Training Algorithm for Optimal Margin Classifiers](https://mlanthology.org/colt/1992/boser1992colt-training/), COLT pp.144–152 | 最大间隔、由关键训练样本支撑的边界、OCR比较；不是1995才首次提出所有相关思想 |
+| DL59 | 原始论文/Springer出版方 | Cortes & Vapnik (1995), [Support-Vector Networks](https://doi.org/10.1007/BF00994018), Machine Learning 20:273–297 | 把先前可分情形扩展到不可完美分隔的训练数据；非线性映射后线性边界；特定基准验证泛化表现，非对任何数据保证 |
+| DL60 | 同时代学术综述/原刊论文 | Burges (1998), [A Tutorial on Support Vector Machines for Pattern Recognition](https://doi.org/10.1023/A:1009715923555), Data Mining and Knowledge Discovery 2:121–167 | 软间隔、核函数、最大间隔、何时优化有全局解；作者也提醒通用泛化并非无条件保证 |
+| DL61 | 工程优化原始技术报告 | John Platt (1998), [Sequential Minimal Optimization: A Fast Algorithm for Training SVMs](https://www.microsoft.com/en-us/research/publication/sequential-minimal-optimization-a-fast-algorithm-for-training-support-vector-machines/), Microsoft Research MSR-TR-98-14 | SVM训练涉及二次规划，有效率与内存瓶颈；SMO将QP拆成可解析处理的小块，证明“凸目标≠零工程成本” |
+| DL62 | 数据来源/机构数据库说明 | [MNIST handwritten-digit data, Microsoft Learn](https://learn.microsoft.com/en-us/azure/open-datasets/dataset-mnist) | 标准的训练集60,000与测试集10,000；数据经尺寸归一和居中，不能当任意自然图像数据 |
+| DL63 | 后世对原论文分类与机制的复核 | [LeCun等1998论文的HTML学术转录／文本核对入口](https://tamnd.github.io/papers-reader/p/lecun-1998-lenet/en/) | 可检索作者对卷积网络的局部连接、权重共享、下采样的叙述，以及实验比较的具体上下文；应优先以IEEE原刊为证据，不把转录视作独立实验 |
+
+### 本批必须守住的三层历史分界
+
+**第10章：1989的邮政编码研究≠1998的LeNet-5与银行支票系统。** 1989 *Neural Computation*说明通过架构内的任务约束帮助泛化；1998 *Proceedings of the IEEE*是团队对文档识别和端到端/多模块训练的集中总结。LeNet-5的卷积、局部感受野、共享权重及下采样一起服务于二维图案变化，但“局部共享”首先带来平移**等变**，只有后续聚合/下采样与相应处理才得到一定**不变性/容忍度**，而非对任意变形完全不变。论文关于“数百万支票/日或月”存在摘要与正文口径差异，不在正文给无条件精确数。
+
+**第11章：1994理论困境、1997 LSTM、2000遗忘门是三个历史节点。** 1997论文提出常量误差旋转单元与乘性门控以改善长间隔任务；2000年才出现针对连续流自动清理状态的遗忘门。今天常用简化递推 c_t=f_t c_(t-1)+i_t g_t 属于含遗忘门版本的**现代教学重构**，不可写成“1997原论文已有完整三门标准式”；在f_t趋近1时梯度路径可较稳，长期依赖却仍受门控学习、容量与数据制约。
+
+**第12章：SVM并非被简单感知机打败后才横空出现的替代品。** 1992最大间隔研究与1995对不可分情形的扩展早于1998 LeNet-5综述。神经网络在若干OCR任务有竞争力且存在商用部署；SVM在另外一些基准与样本条件下具有工程吸引力。1998 IEEE论文称CNN优于其**论文比较的那组方法/条件**，不能外推“所有时期所有数据都赢SVM”；同理不能说SVM普遍胜过CNN。最大间隔是明确的几何与优化选择，并非数学上保证未知数据永不误判。
+
+### 本批教学推导与非史实声明
+
+1. 卷积局部权重复用：设五位序列x=[0,0,1,1,0]、核k=[-1,1]，采用ML常见互相关式局部打分，四处输出[0,1,0,-1]；平移成x'=[0,0,0,1,1]后得到[0,0,1,0]，位置改变但max局部响应仍为1。**仅为一维说明原理**，不能等同真实手写字体模型或1989论文实验。
+2. 衰减：若普通循环计算链局部导数乘积系数为0.8，跨20步影响为0.8^20≈0.0115292；现代带遗忘门示意在f=0.9保持20步为0.9^20≈0.121577，而f=1无该特定衰减。**这是受限乘法链例题**，不等于所有LSTM梯度或记忆衰减指数。
+3. SVM最大间隔：一维训练样本(x=-2,y=-1),(x=+2,y=+1)，选w=0.5,b=0满足y(wx+b)=1，决策边界x=0，距最近点2。两个样本就是简化例子的支持向量；此结论依赖点和硬间隔设定。
+4. 核思想与XOR：对0/1输入先构造φ=(x1,x2,x1*x2)，线性评分s=x1+x2−2x1x2−0.5便满足XOR。它是**显式非线性映射教学例**，不冒充1995原论文使用这四个点或证明某个核超参数适合所有数据。
+
+### 独立审稿未决问题
+
+- 核验1998原文中“每日/每月票据处理量”的上下文差别；当前不以精确数字做认知抓手。
+- 查明LeNet变体及1998论文表格中实验集、预处理、训练设置，正式书稿如要报模型误差须连同测评条件与原始表格，不从摘要推导性能优势。
+- 核查1997原文与2000版本在输入、输出、遗忘门以及后续peephole连接上的差异；本稿不归属未覆盖的后续变种。
+- SVM核优化与神经网络优化的“全局/局部”表述必须以条件、目标及模型非凸性为前提；训练数据质量和泛化风险不可由一种算法名称推出。
