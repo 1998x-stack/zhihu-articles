@@ -442,3 +442,42 @@
 | **25** | 1807宣读、1811获奖、1822首版；傅里叶级数和函数表示/收敛争论（H143—146） | 零温端点一维热方程两个正弦模态；方波傅里叶奇次正弦级数跳点取平均（H147—149） | 两个数学例子分别采用有限棒/周期函数模型，不能混淆边界；现代Dirichlet收敛条件不得假托1822原书 |
 
 **未核完事项**：1817德文小册子逐页证明引理及1840年以后版本异文；Cauchy 1821原印本的命题上下文、1823教材对应定义；傅里叶1822初版具体命题页码/1807评审原件/Dirichlet 1829首篇文章。所有工作初稿需显式标注这些局限。 `workflow-state.json` 不改变，尚未获正式独立双审。
+
+## 第26—28章专项事实研究｜积分、量词与实数基础（2026-11-09）
+
+> **工作范围**：基于学会出版书目、原始著作电子转写、学术史公开全文/摘要与当代分析学教材。仅授权**未过全书正式 draft gate 的工作初稿**；不能据此将 `outline_approved=false` 或 `evidence_verified=false` 改为真，也不能假称独立审稿通过。
+
+### 新来源登记：H151—H167（证据等级及限制）
+
+- **H151｜黎曼原文转写**：Bernhard Riemann, [*Ueber die Darstellbarkeit einer Function durch eine trigonometrische Reihe*](https://www.kurims.kyoto-u.ac.jp/EMIS/classics/Riemann/Trig.pdf)，D. R. Wilkins 1998/2000德语电子转写；篇首明确分「三角级数研究史」和包含「定积分概念与适用范围」的第二部分，戴德金序注说明**1854年提交大学就职资格论文**，序言署**1867年7月**。原文 §4 定积分相关命题可定位。**限度**：是现代排印/转录文本，非1854手稿原版；本轮网页PDF截图接口失败，不伪称完成版面复核。
+- **H152｜1867单行本版本**：[ETH Zürich馆藏：Riemann, *Ueber die Darstellbarkeit…*](https://www.e-rara.ch/zut/content/titleinfo/13665454)，明确**Göttingen 1867，47页**。**关键纠偏**：不能一概声称该文「1868年首次出版」。学术史文献将学会相关卷册年份列作1868，单行本却有1867出版记录；正文注明版本口径。
+- **H153｜1854手稿一手馆藏**：[Kalliope/Göttingen State and University Library，Cod. Ms. B. Riemann 8](https://kalliope.staatsbibliothek-berlin.de/de/ead?ead.id=DE-611-HS-3204968)，1854年论文手稿、后来印刷材料；**目录元数据**，不能虚构具体笔迹内容。
+- **H154｜三角级数、积分与Cantor的联系**：[Stanford Encyclopedia of Philosophy, *The Early Development of Set Theory*](https://plato.stanford.edu/entries/settheory-early/)，明确1854论文后来出版并推动不连续函数、积分和Cantor点集研究。正文与H152并置，避免单一「1868」刊行断言。
+- **H155｜Riemann可积性的现代数学定理**：Jiří Lebl，[*Basic Analysis*, section “The set of Riemann integrable functions”](https://www.jirka.org/ra/html/sec_riemannlebesgue.html)：有界函数在闭区间黎曼可积当且仅当不连续点集合测度为零，**这是后世的Lebesgue—Vitali判据，不可倒置给1854黎曼或1875达布**。用于说明跳点/稠密有理数函数之间差异。
+- **H156｜现代积分教材与历史研究**：[Cambridge University Press 现代积分论著节选](https://assets.cambridge.org/97813165/19134/excerpt/9781316519134_excerpt.pdf)：学术教材明确1867首刊，并区分Riemann原始定义与稍后**Darboux上下和**的简化呈现。**仅可核节选，PDF截图未复核**，不编造作者逐字。
+- **H157｜魏尔斯特拉斯与柯西ε–δ的差异**：[2009 *Journal of History of Science, Japan*: Cauchy's and Weierstrass's Contributions to the Formation of Analysis in Epsilonics](https://www.jstage.jst.go.jp/article/jhsj/48/251/48_142/_article/-char/en)，摘要：1861魏尔斯特拉斯微分学讲义以误差不等式说明关系；与柯西的趋零变量取向不同。**史学摘要，不能写成「他首创ε和δ这两个符号」**。
+- **H158｜一致收敛术语发展（开放全文）**：[Karoline Volkert, *The development of the concept of uniform convergence in Karl Weierstrass’s lectures and publications between 1861 and 1886*](https://link.springer.com/article/10.1007/s00407-020-00266-9), *Archive for History of Exact Sciences* 75 (2021)：公开全文使用学生笔记比较1861、1865、1870/71、1874、1878、1880/81与1886讲义，指出术语和量词精确性不总是线性增长。**不可说1861已有完整一致收敛现代标准词典，更不能随意将1841著作全集再版回写为当年原文**。
+- **H159｜现代ε–δ概念及历史定位**：[Stanford Encyclopedia of Philosophy, *Continuity and Infinitesimals*](https://plato.stanford.edu/entries/continuity/)：魏尔斯特拉斯给出熟悉的误差—控制尺度式连续定义，区分变量、函数与对应数值关系；非他独立一人完成严格化。
+- **H160｜严格性源流研究**：Judith V. Grabiner，[*From Proof-Technique to Definition: The Pre-History of Delta-Epsilon Methods*](https://www.cambridge.org/core/books/abs/historian-looks-back/from-prooftechnique-to-definition-the-prehistory-of-deltaepsilon-methods/8D62C9071F65496D28D3BFC0F22D82A5), *A Historian Looks Back* (2010)，出版商公开摘要强调Bolzano、Cauchy、Weierstrass、Dedekind是逐层暴露默认前提的过程；**只核摘要**。
+- **H161｜魏尔斯特拉斯生平/讲义传播**：[MacTutor: Karl Weierstrass](https://mathshistory.st-andrews.ac.uk/Biographies/Weierstrass/)，1854 Abelian functions论文及以后柏林讲授；**二手概述，不在缺证时虚构私人讲课对白**。
+- **H162｜戴德金1872原作史学馆藏**：[OUP: *Dedekind’s Mathematical Structuralism: From Galois Theory to Numbers, Sets, and Functions*](https://doi.org/10.1093/oso/9780190641221.003.0003)（书章公开摘要），说明其将实数化约为有理数的**分割**，但需要先认可有理数集合、分割整体等集合论前提；不宜说没有任何假设凭空造数。
+- **H163｜戴德金1858课堂动机/1872出版**：[MacTutor Dedekind英译史传](https://mathshistory.st-andrews.ac.uk/Strick/dedekind.pdf)与[SEP The Early Development of Set Theory](https://plato.stanford.edu/entries/settheory-early/)：1858讲授微分学时感到基础问题，1872发表 *Stetigkeit und irrationale Zahlen*。**原法文/德文内部心理不加无来源推测，课堂动机有作者前言史料依据**。
+- **H164｜Dedekind切割研究评介**：[Landmark Writings in Western Mathematics: *Richard Dedekind, Stetigkeit und irrationale Zahlen (1872)*](https://www.sciencedirect.com/science/chapter/edited-volume/pii/B9780444508713501248)，2005，553—563；公开摘要指出以纯文字/算术定义重建数轴连续性。**仅学术摘要**。
+- **H165｜康托尔1872论文与早期集合论**：[Springer: Georg Cantor, *Über die Ausdehnung eines Satzes aus der Theorie der trigonometrischen Reihen*（原1872，1984编集影印）](https://link.springer.com/book/10.1007/978-3-7091-9516-1)。书目及编者简介指向**有理基本列构造实数**与点集导集；不能误称1872就是其后来全部超限集合论的完成。
+- **H166｜康托尔1872实数构造与非现代等价类**：[Oliver Deiser, Cantors Darstellung von 1872 im Original](https://www.aleph1.info/?call=Puc&permalink=reellezahlen_1_3_Z11)，德国数学史原作照片/解说指出康托尔1872确有基本列表示，但**没有按现代等价类语言明说全部构造与完备性证明**；现代「柯西列按差趋零取等价类」须标教学回译。
+- **H167｜Cantor研究由傅里叶级数唯一性引出**：[MAA：*Georg Cantor at the Dawn of Point-Set Topology—Background*](https://old.maa.org/press/periodicals/convergence/georg-cantor-at-the-dawn-of-point-set-topology-background)，研究Heine的三角级数唯一性问题、Cantor1870/1871工作与1872文章，提醒多条路线不是1872两个人为了同一公理竞争「首创」。
+
+### 章节史实—数学分层核查矩阵
+
+| 工作主张 | 史实依据 | 现代推导与边界 |
+| --- | --- | --- |
+| **26｜1854/1867/1868** | H151原文序和H153手稿记录核1854，H152馆藏明确1867单行本，H154通史按学会卷1868记载 | 不能把三年合并，也不能声称黎曼首次使用「求积」 |
+| **26｜积分定义** | H151 §4；H155现代定义；H156后世史学 | 黎曼的**任意取样和与网格变细**；现代上下和法归达布式后续整理，不能直接写成黎曼原稿的上下和定义 |
+| **26｜不规则函数** | H151三角级数与积分需求、H155现代Lebesgue判据 | 单跳跃阶梯函数可积；有理数指示函数每个区间上确界1下确界0，不可黎曼积；稠密断点的Thomae可积，不能说「不连续就不可积」 |
+| **27｜1861讲授** | H157—H159，H160与H161交叉 | 当代\(\varepsilon\)-\(\delta\)证明\(x^2\)连续，取\(\delta=\min(1,\varepsilon/(2|a|+1))\)；现代语法不等于讲义逐字 |
+| **27｜一致收敛** | H158学生笔记不同年代发展 | \([0,1]\)上\(f_n=x^n\)点态收敛但不一致；\([0,r]\)且\(0<r<1\)上\(x^n\to0\)一致，证明\(\sup=r^n\to0\) |
+| **28｜1858/1872分割** | H162—H164；H163作者前言动机 | 用\(A=\{q\in\mathbb Q:q<0\text{ or }q^2<2\}\)定义切割，分清正负及上闭/无最大元；与有理数的密度区别 |
+| **28｜Cantor1872基本列** | H165—H167，兼H154关联三角级数 | 用有理逼近序列\(1,1.4,1.41,\ldots\)与分割同指\(\sqrt2\)；其形式取现代完成后的柯西列等价类，不把等价类语言反投给Cantor1872全文 |
+| **28｜跨章闭环** | H160/H162/H167及23、24、26、27章 | 现代闭区间套、中间值、柯西收敛保证基于实数完备性；这是建构的意义，不代表实数基础毫无集合论前提 |
+
+**待核/禁区**：黎曼1854手稿逐叶与1867/1868出版版面的一一对应；魏尔斯特拉斯1861原德文讲义准确符号及1870—1880年代重抄版本；戴德金1872原版原文具体句子；Cantor1872德文主要定理的原页。此登记只证明可为**限定式工作初稿**构建来源链；任何独立双审、正式门禁与终稿状态均不改变。
