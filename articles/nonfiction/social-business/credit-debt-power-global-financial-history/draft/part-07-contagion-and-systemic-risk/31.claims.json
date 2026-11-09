@@ -1,0 +1,241 @@
+{
+  "chapter": "31",
+  "chapter_batch": "31-33",
+  "lane": "nonfiction",
+  "revision": 26,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Official legal and policy archives, IMF contemporaneous records and official central bank histories; chapter-level fact crosschecks made, book-wide primary-edition audit not complete.",
+  "claims": [
+    {
+      "claim_id": "CH31-001",
+      "statement": "上海证券交易所于1990-11-26成立并于12-19正式开业",
+      "source_ids": [
+        "F-3103"
+      ],
+      "classification": "official_exchange_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "成立与开业不能混为一日"
+    },
+    {
+      "claim_id": "CH31-002",
+      "statement": "深圳证券交易所于1990-12-01开始营业、1991-07-03正式开业",
+      "source_ids": [
+        "F-3104"
+      ],
+      "classification": "official_exchange_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "试运作与正式开业分期"
+    },
+    {
+      "claim_id": "CH31-003",
+      "statement": "债务和普通股融资安排不同偿付顺序、所有权与价格风险",
+      "source_ids": [
+        "F-3103",
+        "F-3107"
+      ],
+      "classification": "institutional_finance_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "金融学机制说明，非交易所设立即保证效率"
+    },
+    {
+      "claim_id": "CH31-004",
+      "statement": "1979年恢复农业银行、明确中国银行外汇专业银行职能",
+      "source_ids": [
+        "F-3102"
+      ],
+      "classification": "bank_reform_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始国务院文件和银行年报需核"
+    },
+    {
+      "claim_id": "CH31-005",
+      "statement": "1983年9月中国人民银行获国务院决定专门行使央行职能",
+      "source_ids": [
+        "F-3101",
+        "F-3102"
+      ],
+      "classification": "central_bank_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "1984年工商银行承接业务另为一项"
+    },
+    {
+      "claim_id": "CH31-006",
+      "statement": "1984年1月工商银行设立并承接人民银行工商信贷储蓄业务",
+      "source_ids": [
+        "F-3102"
+      ],
+      "classification": "bank_reform_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "并非中国第一次出现银行"
+    },
+    {
+      "claim_id": "CH31-007",
+      "statement": "拨改贷逐步把一些财政投资安排改为须偿还银行贷款",
+      "source_ids": [
+        "F-3102",
+        "F-3107"
+      ],
+      "classification": "policy_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "100万元工厂为虚构教例，项目合同待核"
+    },
+    {
+      "claim_id": "CH31-008",
+      "statement": "1980年代后企业债券股票与国债等融资工具多样化",
+      "source_ids": [
+        "F-3107"
+      ],
+      "classification": "market_institution_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "各品种首发时间和口径需独立校勘"
+    },
+    {
+      "claim_id": "CH31-009",
+      "statement": "证券集中交易改善报价、信息披露与结算框架但不保证盈利",
+      "source_ids": [
+        "F-3103",
+        "F-3104"
+      ],
+      "classification": "institutional_analysis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不把交易市场存在等同实体项目质量"
+    },
+    {
+      "claim_id": "CH31-010",
+      "statement": "1992年至1998年证券监管逐步向集中统一监管调整",
+      "source_ids": [
+        "F-3107"
+      ],
+      "classification": "regulatory_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同政策年份和成立机构分辨"
+    },
+    {
+      "claim_id": "CH31-011",
+      "statement": "1995年人民银行法与商业银行法逐步建立法制框架",
+      "source_ids": [
+        "F-3102",
+        "F-3108"
+      ],
+      "classification": "financial_legislation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "F3108是2003修订整理文本要核原始条款"
+    },
+    {
+      "claim_id": "CH31-012",
+      "statement": "1993年底国务院金融体制改革决定涵盖政策金融、商业银行与外汇",
+      "source_ids": [
+        "F-3105"
+      ],
+      "classification": "primary_policy_document",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "政策方案与实际落实时间不同"
+    },
+    {
+      "claim_id": "CH31-013",
+      "statement": "1994政策性金融机构逐步建立并与商业银行功能分离",
+      "source_ids": [
+        "F-3102",
+        "F-3105"
+      ],
+      "classification": "institutional_reform",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能宣称所有政策风险自此消失"
+    },
+    {
+      "claim_id": "CH31-014",
+      "statement": "改革早期外汇留成和官方与调剂市场双轨共存",
+      "source_ids": [
+        "F-3106"
+      ],
+      "classification": "fx_regime_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "两类汇率相关制度而非无限自由兑换"
+    },
+    {
+      "claim_id": "CH31-015",
+      "statement": "1994年外汇留成改银行结售汇，实行单一有管理汇率安排",
+      "source_ids": [
+        "F-3105",
+        "F-3106"
+      ],
+      "classification": "fx_policy_change",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "并非1994资本项目全面开放"
+    },
+    {
+      "claim_id": "CH31-016",
+      "statement": "1996人民币实现经常项目可兑换并接受IMF第八条相关义务",
+      "source_ids": [
+        "F-3106"
+      ],
+      "classification": "intl_fx_law",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "经常项目与资本项目可兑换需区分"
+    },
+    {
+      "claim_id": "CH31-017",
+      "statement": "中国1997亚洲金融危机时采取汇率稳定与资本管理措施",
+      "source_ids": [
+        "F-3106",
+        "F-3201"
+      ],
+      "classification": "regional_crisis_comparison",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是中国银行完全无坏账的证据"
+    },
+    {
+      "claim_id": "CH31-018",
+      "statement": "1998特别国债补充国有银行资本金、1999设立四家资产管理公司",
+      "source_ids": [
+        "F-3102"
+      ],
+      "classification": "bank_rescue_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "资本注入和资产剥离不是旧损失自动消失"
+    },
+    {
+      "claim_id": "CH31-019",
+      "statement": "2003银行业监管职能从央行进一步调整为银监会承担",
+      "source_ids": [
+        "F-3107"
+      ],
+      "classification": "regulatory_reform_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "2003具体公告及法律条款待原件逐条核"
+    },
+    {
+      "claim_id": "CH31-020",
+      "statement": "2005年证监会正式启动上市公司股权分置改革试点",
+      "source_ids": [
+        "F-3110"
+      ],
+      "classification": "primary_market_policy",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于2005当年所有股份都完全流通"
+    },
+    {
+      "claim_id": "CH31-021",
+      "statement": "2005-07-21人民币汇率形成机制改革并规定1美元兑8.11元中间价",
+      "source_ids": [
+        "F-3109"
+      ],
+      "classification": "primary_fx_policy",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "8.11不是此后所有日子的固定汇率"
+    },
+    {
+      "claim_id": "CH31-022",
+      "statement": "金融市场改革是改变信用分配与损失承担而不是消除风险",
+      "source_ids": [
+        "F-3102",
+        "F-3105",
+        "F-3107"
+      ],
+      "classification": "author_causal_synthesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "解释性总论非单项可直接量化结论"
+    }
+  ]
+}
