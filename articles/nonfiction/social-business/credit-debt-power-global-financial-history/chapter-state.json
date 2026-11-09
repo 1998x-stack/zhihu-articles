@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 24,
+  "current_revision": 25,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -523,13 +523,53 @@
     },
     {
       "chapter": "28",
-      "status": "outline-only",
-      "question": "离岸美元市场如何通过银行账目形成跨境美元信用链"
+      "status": "draft-written",
+      "question": "银行怎样在美国境外创造和清算美元存贷款承诺",
+      "next_question": "日本国内为什么出现地产抵押和股价贷款的自我强化循环",
+      "sources": [
+        "F-2801",
+        "F-2802",
+        "F-2803",
+        "F-2804",
+        "F-2805"
+      ]
+    },
+    {
+      "chapter": "29",
+      "status": "draft-written",
+      "question": "日本金融自由化、低利率和土地抵押怎样相互放大资产价格与银行坏账",
+      "next_question": "风险管理模型与衍生品是否真能让系统免于同步抛售",
+      "sources": [
+        "F-2901",
+        "F-2902",
+        "F-2903",
+        "F-2904",
+        "F-2905",
+        "F-2906",
+        "F-2907",
+        "F-2908"
+      ]
+    },
+    {
+      "chapter": "30",
+      "status": "draft-written",
+      "question": "期权定价与动态对冲怎样转移个体风险却可能在市场压力期增强共同抛售",
+      "next_question": "改革开放后中国怎样建立自己的银行和资本市场制度",
+      "sources": [
+        "F-3001",
+        "F-3002",
+        "F-3003",
+        "F-3004",
+        "F-3005",
+        "F-3006",
+        "F-3007",
+        "F-3008"
+      ]
     }
   ],
-  "remaining_chapters": "29-40 outline-only",
+  "remaining_chapters": "31-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Prologue and chapters 01-27 are research-level complete drafts; chapter 25-27 batch Revision24 has 35 references and 65 mapped claims, two review reports with unclosed primary-source blockers."
+  "notes": "Prologue and chapters 01–30 research-level drafts. Revision25 wrote chapters 28–30 with 21 new literature leads and 54 claim mappings; total source ledger 331 rows. Publication-level original archival review, independent continuity and developmental review remain unpassed; chapter drafts do not imply workflow gates passed."
 }
