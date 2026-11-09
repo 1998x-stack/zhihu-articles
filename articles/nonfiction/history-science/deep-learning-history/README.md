@@ -197,7 +197,7 @@
 
 ## 七、先搭架子、再写正文的严格状态与顺序
 
-按照 [仓库AGENTS](../../../AGENTS.md) 的实际入口是根目录 `AGENTS.md`（由本目录相对定位请用 `../../../../AGENTS.md`），对应非虚构 Skill 依次为：
+本系列遵循仓库根目录 [AGENTS.md](../../../../AGENTS.md)、[workflow.json](../../../../workflow.json) 和 [docs/contracts.md](../../../../docs/contracts.md)。主类型为 `genre-history-science`，非虚构写作依次由对应阶段 Skill 负责：
 `chief-narrative-editor → genre-history-science → topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → line-edit → final-approval`。具体文件边界以 [仓库合同](../../../../docs/contracts.md) 为准。
 
 > **进度真实性**：`draft/NN.md` 当前全部是“章节策划占位”，没有正文完成。`claim-ledger.md`只是待核主张路径表，不代表所有证据已被核实。`workflow-state.json`未批准结构、未批准证据、未通过审稿。不得因为文件齐全就假装已获得放行。
