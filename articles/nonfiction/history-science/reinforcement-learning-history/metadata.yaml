@@ -1,0 +1,15 @@
+title: "奖励之后：一部强化学习思想发展史"
+subtitle_en: "After Reward: A History of Reinforcement Learning"
+slug: "reinforcement-learning-history"
+genre: "genre-history-science"
+fictionality: "nonfiction"
+format: "serial-narrative-nonfiction-book"
+status: "planning"
+target_words: 150000
+parts: 8
+chapters: 32
+total_units: 34
+summary: "从试错心理学、动态规划与时序差分的多条历史源流，追踪强化学习如何演变为价值学习、策略优化、深度强化学习、自我对弈、模型规划、偏好对齐和可验证奖励推理。当前仅完成策划占位与摘要级资料索引，尚未正式逐章写作与独立审核。"
+tags: ["强化学习", "人工智能史", "机器学习史", "贝尔曼方程", "时序差分", "Q-learning", "DQN", "AlphaGo", "RLHF", "GRPO", "科学思想史"]
+sources_required: true
+review_date: null

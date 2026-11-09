@@ -1,0 +1,13 @@
+{
+  "schema_version": "2.0",
+  "lane": "nonfiction",
+  "current_revision": 0,
+  "outline_approved": false,
+  "evidence_verified": false,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
+  "unresolved_blockers": [],
+  "edited_revision": null,
+  "final_approved": false,
+  "stage_note": "仅完成非虚构策划大纲与原始论文摘要级来源目录；34个章节文件均为占位，未动笔，未执行逐章证据核验、独立双审或工作流闸门。"
+}

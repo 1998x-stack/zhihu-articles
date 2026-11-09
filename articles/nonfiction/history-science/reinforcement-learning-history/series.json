@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "id": "reinforcement-learning-history",
+  "title": "奖励之后：一部强化学习思想发展史",
+  "status": "planning",
+  "reading_notice": "序章、32章、尾声均为章节策划占位；文献索引仅到部分摘要与出版记录；不等于正文、全书史实核证或正式审稿通过。",
+  "parts": [
+    {
+      "number": 1,
+      "title": "试错如何成为学习",
+      "period": "1890年代—1959",
+      "question": "奖励不是答案，为什么却能塑造行为？",
+      "chapters": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "给未来写一条方程",
+      "period": "1950年代—1990年前后",
+      "question": "如何比较眼前收益与未来结果？",
+      "chapters": [
+        "05",
+        "06",
+        "07",
+        "08"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "奖励迟到时，机器如何学习",
+      "period": "1983—1990年代",
+      "question": "最后才知道输赢，前面每一步如何获得评价？",
+      "chapters": [
+        "09",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "从评估行动到学习策略",
+      "period": "1980年代—1999",
+      "question": "不只学分数，能否学策略、技能与长期行为？",
+      "chapters": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "表格装不下世界",
+      "period": "1990年代—2010年代",
+      "question": "神经网络可以推广经验，为何也会让学习失控？",
+      "chapters": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "从街机到围棋",
+      "period": "2013—2018",
+      "question": "深度网络、搜索与自我对弈为何产生规模性突破？",
+      "chapters": [
+        "21",
+        "22",
+        "23",
+        "24"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "从游戏走进现实",
+      "period": "2017—2020年代",
+      "question": "探索昂贵、环境未知且动作连续时，算法如何落地？",
+      "chapters": [
+        "25",
+        "26",
+        "27",
+        "28"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "奖励由谁定义",
+      "period": "2000—2025",
+      "question": "当好坏难写成规则，能否从人类偏好或可检验结果学习？",
+      "chapters": [
+        "29",
+        "30",
+        "31",
+        "32"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "00",
+      "title": "序章｜2025年的奖杯：为什么两位研究者的工作改变了机器学习",
+      "part": "序章",
+      "path": "draft/00.md",
+      "status": "placeholder",
+      "sources": [
+        "R26",
+        "R01"
+      ]
+    },
+    {
+      "id": "01",
+      "title": "桑代克的迷箱：奖励为什么不是标准答案？",
+      "part": "第一部｜试错如何成为学习",
+      "path": "draft/01.md",
+      "status": "placeholder",
+      "sources": [
+        "R01"
+      ]
+    },
+    {
+      "id": "02",
+      "title": "斯金纳的操作箱：行为如何被后果塑造",
+      "part": "第一部｜试错如何成为学习",
+      "path": "draft/02.md",
+      "status": "placeholder",
+      "sources": [
+        "R01"
+      ]
+    },
+    {
+      "id": "03",
+      "title": "多臂老虎机：先探索还是先赚钱",
+      "part": "第一部｜试错如何成为学习",
+      "path": "draft/03.md",
+      "status": "placeholder",
+      "sources": [
+        "R01"
+      ]
+    },
+    {
+      "id": "04",
+      "title": "塞缪尔的跳棋：机器能比程序员更会下吗",
+      "part": "第一部｜试错如何成为学习",
+      "path": "draft/04.md",
+      "status": "placeholder",
+      "sources": [
+        "R02"
+      ]
+    },
+    {
+      "id": "05",
+      "title": "贝尔曼的逆向思考：眼前最优为何会输",
+      "part": "第二部｜给未来写一条方程",
+      "path": "draft/05.md",
+      "status": "placeholder",
+      "sources": [
+        "R03",
+        "R01"
+      ]
+    },
+    {
+      "id": "06",
+      "title": "马尔可夫决策：怎样用一个状态概括过去",
+      "part": "第二部｜给未来写一条方程",
+      "path": "draft/06.md",
+      "status": "placeholder",
+      "sources": [
+        "R01"
+      ]
+    },
+    {
+      "id": "07",
+      "title": "知道规则也算不过来：维度灾难",
+      "part": "第二部｜给未来写一条方程",
+      "path": "draft/07.md",
+      "status": "placeholder",
+      "sources": [
+        "R03",
+        "R01"
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Dyna：如果世界的地图也要边走边画",
+      "part": "第二部｜给未来写一条方程",
+      "path": "draft/08.md",
+      "status": "placeholder",
+      "sources": [
+        "R08"
+      ]
+    },
+    {
+      "id": "09",
+      "title": "1983年的倒立摆：谁来评价还未结束的尝试",
+      "part": "第三部｜奖励迟到时，机器如何学习",
+      "path": "draft/09.md",
+      "status": "placeholder",
+      "sources": [
+        "R04"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "萨顿的时序差分：结果未到，预测先改变",
+      "part": "第三部｜奖励迟到时，机器如何学习",
+      "path": "draft/10.md",
+      "status": "placeholder",
+      "sources": [
+        "R05"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "沃特金斯的 Q-learning：不按正在用的策略，也能学最优吗",
+      "part": "第三部｜奖励迟到时，机器如何学习",
+      "path": "draft/11.md",
+      "status": "placeholder",
+      "sources": [
+        "R06"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "SARSA：为什么照着实际走过的路学习会不同",
+      "part": "第三部｜奖励迟到时，机器如何学习",
+      "path": "draft/12.md",
+      "status": "placeholder",
+      "sources": [
+        "R01",
+        "R06"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "REINFORCE：不评估每一步，直接调整策略",
+      "part": "第四部｜从评估行动到学习策略",
+      "path": "draft/13.md",
+      "status": "placeholder",
+      "sources": [
+        "R07"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "演员与评论家：两种学习职责为什么需要配合",
+      "part": "第四部｜从评估行动到学习策略",
+      "path": "draft/14.md",
+      "status": "placeholder",
+      "sources": [
+        "R04",
+        "R07"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "TD-Gammon：自我对弈真的能够长出棋艺吗",
+      "part": "第四部｜从评估行动到学习策略",
+      "path": "draft/15.md",
+      "status": "placeholder",
+      "sources": [
+        "R09"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Options：机器为什么总要一步一步想",
+      "part": "第四部｜从评估行动到学习策略",
+      "path": "draft/16.md",
+      "status": "placeholder",
+      "sources": [
+        "R11"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "再给价值函数装上神经网络：推广经验的诱惑",
+      "part": "第五部｜表格装不下世界",
+      "path": "draft/17.md",
+      "status": "placeholder",
+      "sources": [
+        "R01",
+        "R09"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "致命三角：三个合理方法为什么放在一起会出错",
+      "part": "第五部｜表格装不下世界",
+      "path": "draft/18.md",
+      "status": "placeholder",
+      "sources": [
+        "R01"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "经验回放：让昨天的失败再次成为教材",
+      "part": "第五部｜表格装不下世界",
+      "path": "draft/19.md",
+      "status": "placeholder",
+      "sources": [
+        "R13",
+        "R01"
+      ]
+    },
+    {
+      "id": "20",
+      "title": "成功不等于可靠：强化学习该怎样接受检验",
+      "part": "第五部｜表格装不下世界",
+      "path": "draft/20.md",
+      "status": "placeholder",
+      "sources": [
+        "R13",
+        "R01"
+      ]
+    },
+    {
+      "id": "21",
+      "title": "DQN：机器只看像素，怎么学会打街机",
+      "part": "第六部｜从街机到围棋",
+      "path": "draft/21.md",
+      "status": "placeholder",
+      "sources": [
+        "R13"
+      ]
+    },
+    {
+      "id": "22",
+      "title": "AlphaGo：棋盘太大，学习为何需要搜索",
+      "part": "第六部｜从街机到围棋",
+      "path": "draft/22.md",
+      "status": "placeholder",
+      "sources": [
+        "R14"
+      ]
+    },
+    {
+      "id": "23",
+      "title": "AlphaGo Zero：不再读人类棋谱，会失去什么",
+      "part": "第六部｜从街机到围棋",
+      "path": "draft/23.md",
+      "status": "placeholder",
+      "sources": [
+        "R15"
+      ]
+    },
+    {
+      "id": "24",
+      "title": "AlphaZero：一种棋手如何学会三种棋",
+      "part": "第六部｜从街机到围棋",
+      "path": "draft/24.md",
+      "status": "placeholder",
+      "sources": [
+        "R16"
+      ]
+    },
+    {
+      "id": "25",
+      "title": "PPO：策略更新为什么不能每次都迈大步",
+      "part": "第七部｜从游戏走进现实",
+      "path": "draft/25.md",
+      "status": "placeholder",
+      "sources": [
+        "R17"
+      ]
+    },
+    {
+      "id": "26",
+      "title": "SAC：为什么让机器人保留一点随机性",
+      "part": "第七部｜从游戏走进现实",
+      "path": "draft/26.md",
+      "status": "placeholder",
+      "sources": [
+        "R18"
+      ]
+    },
+    {
+      "id": "27",
+      "title": "MuZero：不知道规则，还能在脑中下棋吗",
+      "part": "第七部｜从游戏走进现实",
+      "path": "draft/27.md",
+      "status": "placeholder",
+      "sources": [
+        "R19"
+      ]
+    },
+    {
+      "id": "28",
+      "title": "真实世界试错太贵：没有新经验还能学习吗",
+      "part": "第七部｜从游戏走进现实",
+      "path": "draft/28.md",
+      "status": "placeholder",
+      "sources": [
+        "R20"
+      ]
+    },
+    {
+      "id": "29",
+      "title": "逆强化学习：看别人怎么做，能猜到他想要什么吗",
+      "part": "第八部｜奖励由谁定义",
+      "path": "draft/29.md",
+      "status": "placeholder",
+      "sources": [
+        "R12"
+      ]
+    },
+    {
+      "id": "30",
+      "title": "人类反馈：如果好坏无法写成公式",
+      "part": "第八部｜奖励由谁定义",
+      "path": "draft/30.md",
+      "status": "placeholder",
+      "sources": [
+        "R21",
+        "R22"
+      ]
+    },
+    {
+      "id": "31",
+      "title": "DPO：不做常规强化学习，也能优化偏好吗",
+      "part": "第八部｜奖励由谁定义",
+      "path": "draft/31.md",
+      "status": "placeholder",
+      "sources": [
+        "R23"
+      ]
+    },
+    {
+      "id": "32",
+      "title": "可验证奖励与推理：语言模型如何学会多想一步",
+      "part": "第八部｜奖励由谁定义",
+      "path": "draft/32.md",
+      "status": "placeholder",
+      "sources": [
+        "R24",
+        "R25"
+      ]
+    },
+    {
+      "id": "33",
+      "title": "尾声｜奖励之后：一台机器究竟在追求什么",
+      "part": "尾声",
+      "path": "draft/33.md",
+      "status": "placeholder",
+      "sources": [
+        "R01",
+        "R25"
+      ]
+    }
+  ],
+  "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段"
+}
