@@ -1,6 +1,6 @@
 # 主张账本｜章节 → 资料范围（规划版）
 
-> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—12章已补充限定主张与原始论文核查；第13—31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
+> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—12章已补充限定主张与原始论文核查；第13—15章本批补充限域核证；第16—31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
 
 | 章节 | claim_id | 本章需要核验的中心主张 | 候选source_id | 证据性质及待核点 | 状态 |
 | --- | --- | --- | --- | --- | --- |
@@ -148,3 +148,34 @@
 | 12 | C12-09 | 方法选择需比较数据/调参/内存/可复现与泛化 | DL52,DL60,DL61 | INTERPRETATION | 具体任务的历史判断，而非SVM普遍最优 |
 
 此处SCOPED_VERIFIED仅指核心史实/出版社元数据/可见学术摘要按范围核对；尚未对全部原论文实验表格、商业数字和优先权史做独立全文审查。AUTHOR_DERIVATION是现代手算而非历史真实实验。07—09及此前仍保留PENDING的独立审稿，不得因新一批完成而复写旧审稿记录。
+
+## 第五批13—15章：中心主张与证据映射（非虚构工作初稿有限许可）
+
+| 章节 | claim_id | 史实或可核算主张 | source_id | 等级 | 防越界条件 |
+| --- | --- | --- | --- | --- | --- |
+| 13 | C13-01 | 2000 NIPS三人署名的神经概率语言模型会议论文 | DL64 | SCOPED_VERIFIED | 不要把2003当首次出现 |
+| 13 | C13-02 | 2003 JMLR期刊四人Bengio/Ducharme/Vincent/Jauvin与实验范围 | DL65 | SCOPED_VERIFIED | 论文只比较两组语料及所设n-gram |
+| 13 | C13-03 | 离散n-gram高维稀疏与共享分布式词表示 | DL64,DL65 | SCOPED_VERIFIED | 未见组合≠词表外新词；不是无条件理解 |
+| 13 | C13-04 | 2003 softmax训练复杂度与重要性采样探索 | DL66 | SCOPED_VERIFIED | 不归入2013负采样技术 |
+| 13 | C13-05 | 2013 Mikolov等word2vec系不同历史节点 | DL67 | SCOPED_VERIFIED | 不能把2003叫word2vec |
+| 13 | C13-06 | 模型可用共享词嵌入对相邻词串提供概率泛化 | DL65 | QUALIFIED | 上下文有限、稀疏和OOV仍在 |
+| 13 | C13-07 | 三个候选logits 2/1/0 softmax概率 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 现代示例非2003原文实验 |
+| 13 | C13-08 | 词表10000与4词组合理论空间10^16 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 组合数不是需显式存储的n-gram参数数 |
+| 14 | C14-01 | 2002 Hinton对比散度概率训练论文 | DL69 | SCOPED_VERIFIED | CD近似学习不等于精确全似然 |
+| 14 | C14-02 | 2006 Hinton/Osindero/Teh DBN论文作者年份页码 | DL68 | SCOPED_VERIFIED | 上两层无向、下层有向生成架构 |
+| 14 | C14-03 | 2006 DBN逐层无监督预训练及生成微调 | DL68 | SCOPED_VERIFIED | 原论文微调用对比式wake-sleep而非一概监督BP |
+| 14 | C14-04 | 2006 Hinton/Salakhutdinov深自编码器预训练与BP微调 | DL70 | SCOPED_VERIFIED | 不同于DBN原文生成微调 |
+| 14 | C14-05 | 2006 Bengio/Lamblin/Popovici/Larochelle分层训练研究 | DL71 | SCOPED_VERIFIED | 会议年份与论文集出版标签可能不同 |
+| 14 | C14-06 | 2009回顾预训练对优化与隐式正则化的研究 | DL72 | INTERPRETATION | 后续理解不可写作2006当时定论 |
+| 14 | C14-07 | 玩具RBM w=ln3时P(h=1|v=0/1)=0.5/0.75 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 一显一隐与原2006 MNIST模型不同 |
+| 14 | C14-08 | 2006不是BP首次发明或全面解决深度训练 | DL68,DL70,DL72 | QUALIFIED | 历史上的部分训练瓶颈改善 |
+| 15 | C15-01 | 2012综述对传统GMM-HMM与DNN声学角色的回顾 | DL75 | SCOPED_VERIFIED | HMM负责时序，DNN替代/补充GMM声学评估 |
+| 15 | C15-02 | DNN输出上下文相关绑定三音素状态的后验概率 | DL74,DL75 | SCOPED_VERIFIED | 不是2012通用端到端文本生成 |
+| 15 | C15-03 | 2011 Seide/Gang Li/Dong Yu论文与北京/雷德蒙德机构 | DL73 | SCOPED_VERIFIED | 机构地点不意味着研究者国籍 |
+| 15 | C15-04 | 2011 RT03S Fisher单遍无关说话人WER27.4%→18.5% | DL73 | SCOPED_VERIFIED | 只限论文同一基准和基线条件 |
+| 15 | C15-05 | 2012 Dahl/Yu/Deng/Acero大词汇混合声学系统 | DL74 | SCOPED_VERIFIED | 出版社实验范围不能外推所有语音任务 |
+| 15 | C15-06 | 2012跨Toronto/Microsoft/Google/IBM四组科研综述 | DL75 | SCOPED_VERIFIED | 不能归于一个机构独占突破 |
+| 15 | C15-07 | ASRU2011北京/美团队声学特征研究 | DL76 | SCOPED_VERIFIED | 地区与个人国籍不可混为一谈 |
+| 15 | C15-08 | 四词句单词替换的WER=25%及绝对/相对下降口径 | AUTHOR_DERIVATION,DL73 | VERIFIED_DERIVATION | 教学句不属于原始实验，33%不是百分点数 |
+
+这里的SCOPED_VERIFIED只覆盖原始出版物元数据、公开摘要与已核PDF首页的中心主张；不是全文事实审计。AUTHOR_DERIVATION只表示作者可复算的现代教学示例。前四批第01—12章依旧PENDING，后续章没有自动获得许可。
