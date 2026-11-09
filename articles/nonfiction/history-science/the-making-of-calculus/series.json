@@ -493,23 +493,46 @@
     {
       "id": "26",
       "title": "黎曼：不连续的函数也能有面积吗",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/26.md",
-      "claims_path": "draft/26.claims.json"
+      "claims_path": "draft/26.claims.json",
+      "source_ids": [
+        "H151",
+        "H152",
+        "H153",
+        "H154",
+        "H155",
+        "H156"
+      ]
     },
     {
       "id": "27",
       "title": "魏尔斯特拉斯：不用图形怎样定义趋近",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/27.md",
-      "claims_path": "draft/27.claims.json"
+      "claims_path": "draft/27.claims.json",
+      "source_ids": [
+        "H157",
+        "H158",
+        "H159",
+        "H160",
+        "H161"
+      ]
     },
     {
       "id": "28",
       "title": "戴德金与康托尔：数轴上真的没有空洞吗",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/28.md",
-      "claims_path": "draft/28.claims.json"
+      "claims_path": "draft/28.claims.json",
+      "source_ids": [
+        "H162",
+        "H163",
+        "H164",
+        "H165",
+        "H166",
+        "H167"
+      ]
     },
     {
       "id": "29",

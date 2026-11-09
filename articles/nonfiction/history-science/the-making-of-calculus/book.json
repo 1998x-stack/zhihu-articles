@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "the-making-of-calculus",
   "title": "从切线到无穷：微积分的诞生与重建",
-  "reading_notice": "序章00与第01—25章共26篇已有逐章来源映射的未独立审稿工作初稿；第26—36章共11篇仍为策划占位。全书正式工作流outline_approved=false、evidence_verified=false、review_status=PENDING；索引draft不等于审稿PASS、终稿或对外发布。",
+  "reading_notice": "序章00与第01—28章共29篇已有逐章来源映射的未独立审稿工作初稿；第29—36章共8篇仍为策划占位。全书正式工作流outline_approved=false、evidence_verified=false、review_status=PENDING；索引draft不等于审稿PASS、终稿或对外发布。",
   "chapters": [
     {
       "id": "prologue",
@@ -191,21 +191,21 @@
       "title": "26｜黎曼：不连续的函数也能有面积吗",
       "part": "第五部｜极限、函数与实数",
       "file": "draft/26.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-27",
       "title": "27｜魏尔斯特拉斯：不用图形怎样定义趋近",
       "part": "第五部｜极限、函数与实数",
       "file": "draft/27.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-28",
       "title": "28｜戴德金与康托尔：数轴上真的没有空洞吗",
       "part": "第五部｜极限、函数与实数",
       "file": "draft/28.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-29",
