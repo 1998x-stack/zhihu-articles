@@ -1,0 +1,198 @@
+{
+  "chapter": "30",
+  "chapter_batch": "28-30",
+  "lane": "nonfiction",
+  "revision": 25,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "SEC archival disclosure, Federal Reserve/IMF event analyses and BIS historical releases; original exchange tape, trading strategies, bilateral OTC contract data unverified.",
+  "claims": [
+    {
+      "claim_id": "CH30-001",
+      "statement": "CBOE在1973年4月26日正式开展标准化股票期权交易",
+      "source_ids": [
+        "F-3001"
+      ],
+      "classification": "exchange_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-002",
+      "statement": "CBOE首日交易标的为16只股票的看涨期权",
+      "source_ids": [
+        "F-3001"
+      ],
+      "classification": "exchange_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-003",
+      "statement": "1973年Black-Scholes和Merton论文奠定期权定价重要方法",
+      "source_ids": [
+        "F-3002"
+      ],
+      "classification": "financial_science_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-004",
+      "statement": "1997经济学奖授予Scholes与Merton，Black已去世",
+      "source_ids": [
+        "F-3002"
+      ],
+      "classification": "award_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-005",
+      "statement": "简化看涨期权买方拥有按约定价格购买标的的权利",
+      "source_ids": [
+        "F-3002"
+      ],
+      "classification": "contract_definition",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-006",
+      "statement": "看跌期权和动态对冲可用不同方式管理资产下跌风险",
+      "source_ids": [
+        "F-3002",
+        "F-3003"
+      ],
+      "classification": "financial_instrument",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-007",
+      "statement": "期权估值对标的价格、行权价、期限、利率和波动率敏感",
+      "source_ids": [
+        "F-3002"
+      ],
+      "classification": "valuation_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-008",
+      "statement": "定价与复制对冲依赖假设，不保证现实市场无摩擦",
+      "source_ids": [
+        "F-3002"
+      ],
+      "classification": "model_limits",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-009",
+      "statement": "1987年10月19日道指下跌22.6%",
+      "source_ids": [
+        "F-3003"
+      ],
+      "classification": "event_statistic",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-010",
+      "statement": "动态组合保险在下跌时通过卖出持仓或期货减少股市敞口",
+      "source_ids": [
+        "F-3003",
+        "F-3004"
+      ],
+      "classification": "hedging_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-011",
+      "statement": "同步对冲的卖单可能在市场流动性薄弱时放大价格压力",
+      "source_ids": [
+        "F-3003",
+        "F-3004"
+      ],
+      "classification": "market_feedback",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-012",
+      "statement": "1987年股灾并无组合保险单一决定论，交易设施与宏观因素亦重要",
+      "source_ids": [
+        "F-3004",
+        "F-3005"
+      ],
+      "classification": "competing_explanations",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-013",
+      "statement": "场内标准化产品与场外互换在信用与清算风险结构上存在差异",
+      "source_ids": [
+        "F-3001",
+        "F-3007"
+      ],
+      "classification": "institutional_comparison",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-014",
+      "statement": "1998年底全球OTC衍生品名义本金约80万亿美元",
+      "source_ids": [
+        "F-3006"
+      ],
+      "classification": "bounded_statistic",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-015",
+      "statement": "衍生品名义本金不同于未偿债务本金、市场价值或净信用敞口",
+      "source_ids": [
+        "F-3006",
+        "F-3007"
+      ],
+      "classification": "statistical_boundary",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-016",
+      "statement": "1987和1998危机中机构同步减仓与对手方风险可能相互放大",
+      "source_ids": [
+        "F-3008"
+      ],
+      "classification": "historical_comparison",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-017",
+      "statement": "衍生品对单一持有人可转移风险但不自动保证系统安全",
+      "source_ids": [
+        "F-3002",
+        "F-3008"
+      ],
+      "classification": "author_synthesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    },
+    {
+      "claim_id": "CH30-018",
+      "statement": "中国1978后制度建设需在本国框架讨论，非国际模型直接复制",
+      "source_ids": [
+        "F-3002"
+      ],
+      "classification": "cross_chapter_transition",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+    }
+  ]
+}
