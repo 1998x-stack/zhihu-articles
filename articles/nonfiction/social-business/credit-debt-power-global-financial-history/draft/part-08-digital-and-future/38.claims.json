@@ -1,0 +1,247 @@
+{
+  "chapter": "38",
+  "chapter_batch": "37-39",
+  "lane": "nonfiction",
+  "revision": 28,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Public central-bank primary notices, fiscal and financial regulations, official inquiry and regulator reviews, IMF research; original ledgers, legal editions and counterparties have not received book-wide independent publication verification.",
+  "claims": [
+    {
+      "claim_id": "CH38-001",
+      "statement": "2020年3月市场出现抢现金行为甚至美债被集中抛售",
+      "source_ids": [
+        "F-3801"
+      ],
+      "classification": "fsb_market_liquidity_inquiry",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "安全资产信用风险低不等于二级市场永远可即时无折价卖出"
+    },
+    {
+      "claim_id": "CH38-002",
+      "statement": "FSB调查指非银投资机构、赎回、杠杆与交易商承接限制共同放大市场冲击",
+      "source_ids": [
+        "F-3801"
+      ],
+      "classification": "multi_causal_market_malfunction",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "FSB报告为正式后世研究需原交易逐日核对"
+    },
+    {
+      "claim_id": "CH38-003",
+      "statement": "2020年全球实体停摆冲击企业营业现金流",
+      "source_ids": [
+        "F-3802"
+      ],
+      "classification": "contemporaneous_macro_analysis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "虚构制造企业收入案例不是历史实测"
+    },
+    {
+      "claim_id": "CH38-004",
+      "statement": "IMF 2020-04 WEO的大封锁增长数字为当时预测而非最终实际GDP",
+      "source_ids": [
+        "F-3802"
+      ],
+      "classification": "historical_forecast_classification",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能以后来真实数据倒写当时预计"
+    },
+    {
+      "claim_id": "CH38-005",
+      "statement": "资产价值与立即可用现金为不同概念",
+      "source_ids": [
+        "F-3801"
+      ],
+      "classification": "liquidity_vs_solvency",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "流动性支持不能治愈所有资不抵债"
+    },
+    {
+      "claim_id": "CH38-006",
+      "statement": "2020-03-15 Fed降利率区间至0-0.25%",
+      "source_ids": [
+        "F-3803"
+      ],
+      "classification": "primary_fomc_policy",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "须与更早3月3日紧急降息区分"
+    },
+    {
+      "claim_id": "CH38-007",
+      "statement": "2020-03-15 Fed宣布至少购入5000亿美元美债和2000亿美元机构MBS",
+      "source_ids": [
+        "F-3803"
+      ],
+      "classification": "primary_asset_purchase_commitment",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "最低目标不是当日实际成交额"
+    },
+    {
+      "claim_id": "CH38-008",
+      "statement": "美联储购债扩大央行资产和银行准备金，不等于无条件财政拨款",
+      "source_ids": [
+        "F-3803"
+      ],
+      "classification": "central_bank_balance_sheet_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "需会计与财政法律区分"
+    },
+    {
+      "claim_id": "CH38-009",
+      "statement": "2020-03-23 Fed改为按市场运转所需规模持续购买",
+      "source_ids": [
+        "F-3804"
+      ],
+      "classification": "primary_fomc_update",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能与3月15金额直接相加为永久新增额度"
+    },
+    {
+      "claim_id": "CH38-010",
+      "statement": "2020-03-17 Fed设立CPFF针对符合条件的商业票据短期融资",
+      "source_ids": [
+        "F-3805"
+      ],
+      "classification": "primary_credit_facility",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "SPV购票据不是所有公司获得赠款"
+    },
+    {
+      "claim_id": "CH38-011",
+      "statement": "2020-03-18 Fed设立MMLF帮助货币基金应对赎回",
+      "source_ids": [
+        "F-3806"
+      ],
+      "classification": "primary_credit_facility",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "金融机构买基金合格资产作抵押再借贷"
+    },
+    {
+      "claim_id": "CH38-012",
+      "statement": "CPFF与MMLF面向不同短期资金链环节",
+      "source_ids": [
+        "F-3805",
+        "F-3806"
+      ],
+      "classification": "instrument_comparison",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "两项支持不应误记为同一工具"
+    },
+    {
+      "claim_id": "CH38-013",
+      "statement": "金融稳定委员会认为2020银行较强资本流动性缓冲降低部分交易对手恐慌",
+      "source_ids": [
+        "F-3801"
+      ],
+      "classification": "post_2008_bank_regulation_comparison",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能说银行没有承接能力约束"
+    },
+    {
+      "claim_id": "CH38-014",
+      "statement": "2020年非银金融机构通过赎回与卖券放大流动性需求",
+      "source_ids": [
+        "F-3801"
+      ],
+      "classification": "nonbank_finance_risk",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "基金、交易商、杠杆者不是相同主体"
+    },
+    {
+      "claim_id": "CH38-015",
+      "statement": "2020-03-18 ECB推出初始7500亿欧元PEPP",
+      "source_ids": [
+        "F-3807"
+      ],
+      "classification": "primary_ecb_policy",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "2012 OMT与2020实际PEPP不同"
+    },
+    {
+      "claim_id": "CH38-016",
+      "statement": "PEPP初始7500亿是计划规模非当日已购资金",
+      "source_ids": [
+        "F-3807"
+      ],
+      "classification": "monetary_policy_quantity_scope",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "后续追加额度不能回推"
+    },
+    {
+      "claim_id": "CH38-017",
+      "statement": "2020-03-15常设美元互换线费用和期限调整",
+      "source_ids": [
+        "F-3808"
+      ],
+      "classification": "primary_international_liquidity_policy",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "外国央行先获取美元再在本地提供流动性"
+    },
+    {
+      "claim_id": "CH38-018",
+      "statement": "2020-03-19向九家海外央行建立临时美元互换安排",
+      "source_ids": [
+        "F-3809"
+      ],
+      "classification": "primary_international_liquidity_policy",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "额度不是已提款且不同机构额度不同"
+    },
+    {
+      "claim_id": "CH38-019",
+      "statement": "美元互换线回应美国境外银行与企业美元负债需求",
+      "source_ids": [
+        "F-3808",
+        "F-3809"
+      ],
+      "classification": "crossborder_dollar_funding",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是美联储直接向海外每家公司拨款"
+    },
+    {
+      "claim_id": "CH38-020",
+      "statement": "2020-03-31美联储宣布FIMA国债回购美元工具",
+      "source_ids": [
+        "F-3810"
+      ],
+      "classification": "primary_international_repo_policy",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "FIMA与外币互换线法律结构不同"
+    },
+    {
+      "claim_id": "CH38-021",
+      "statement": "央行购买贷款与财政转移支出都属于不同风险分担工具",
+      "source_ids": [
+        "F-3803",
+        "F-3805",
+        "F-3810"
+      ],
+      "classification": "policy_instrument_and_balance_sheet",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能将授权资金简单累加为财政最终净损失"
+    },
+    {
+      "claim_id": "CH38-022",
+      "statement": "2020市场支持与之后全球通胀因果不是单一线性关系",
+      "source_ids": [
+        "F-3801",
+        "F-3802"
+      ],
+      "classification": "competing_macro_causation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "需供应约束需求和价格等独立研究"
+    },
+    {
+      "claim_id": "CH38-023",
+      "statement": "市场救援后利率变化仍使银行持有长期资产面对久期风险",
+      "source_ids": [
+        "F-3803",
+        "F-3804"
+      ],
+      "classification": "cross_chapter_duration_bridge",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不宣称2020政策单独致2023银行倒闭"
+    }
+  ]
+}
