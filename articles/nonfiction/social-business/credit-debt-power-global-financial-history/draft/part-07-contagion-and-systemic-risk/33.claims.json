@@ -1,0 +1,242 @@
+{
+  "chapter": "33",
+  "chapter_batch": "31-33",
+  "lane": "nonfiction",
+  "revision": 26,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Official legal and policy archives, IMF contemporaneous records and official central bank histories; chapter-level fact crosschecks made, book-wide primary-edition audit not complete.",
+  "claims": [
+    {
+      "claim_id": "CH33-001",
+      "statement": "俄政府及央行1998-08-17声明包含汇率区间调整、本币债务重组和90天特定私人外债付款暂停",
+      "source_ids": [
+        "F-3301"
+      ],
+      "classification": "russian_original_primary_statement",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能推为所有对外主权债全面拒还"
+    },
+    {
+      "claim_id": "CH33-002",
+      "statement": "俄1990年代GKO和OFZ证券是政府预算与债务滚动的组成部分",
+      "source_ids": [
+        "F-3302",
+        "F-3303"
+      ],
+      "classification": "sovereign_debt_market",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "债券类别期限及持有人差异须核"
+    },
+    {
+      "claim_id": "CH33-003",
+      "statement": "俄财政收入压力、税收不足与亚洲风险外溢和油价冲击并存",
+      "source_ids": [
+        "F-3302",
+        "F-3303"
+      ],
+      "classification": "multicausal_sovereign_crisis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能归咎单一外国投机者"
+    },
+    {
+      "claim_id": "CH33-004",
+      "statement": "虚构债券价格90到70说明到期收益率上升与价格下降的机制",
+      "source_ids": [
+        "F-3303"
+      ],
+      "classification": "illustrative_bond_arithmetic",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "100/90/70均非1998俄罗斯实盘报价"
+    },
+    {
+      "claim_id": "CH33-005",
+      "statement": "俄罗斯1998年危机期间极高国债收益报价未必等于大额成交实际利率",
+      "source_ids": [
+        "F-3303"
+      ],
+      "classification": "market_liquidity_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "收益率峰值/当期成交区分"
+    },
+    {
+      "claim_id": "CH33-006",
+      "statement": "1998年7月IMF支持融资计划并未阻止8月危机",
+      "source_ids": [
+        "F-3302"
+      ],
+      "classification": "official_support_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "融资批准不等于无条件全部发放"
+    },
+    {
+      "claim_id": "CH33-007",
+      "statement": "俄罗斯议会未通过关键财政措施削弱了7月项目的可信度",
+      "source_ids": [
+        "F-3302"
+      ],
+      "classification": "fiscal_policy_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "无从单因解释全部资本退出"
+    },
+    {
+      "claim_id": "CH33-008",
+      "statement": "1998-08-17卢布先调整波动区间后在9月转入浮动",
+      "source_ids": [
+        "F-3301",
+        "F-3302"
+      ],
+      "classification": "fx_regime_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能说8月17当日完全自由浮动"
+    },
+    {
+      "claim_id": "CH33-009",
+      "statement": "1998-08-17本币GKO/OFZ特定到期国债重组及暂停交易",
+      "source_ids": [
+        "F-3301",
+        "F-3303"
+      ],
+      "classification": "domestic_sovereign_debt_restructuring",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于俄罗斯全部外币主权债违约"
+    },
+    {
+      "claim_id": "CH33-010",
+      "statement": "90天暂停适用于有具体限制的私人对外金融支付",
+      "source_ids": [
+        "F-3301",
+        "F-3302"
+      ],
+      "classification": "private_debt_standstill",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "政府外债和部分金融支付有例外"
+    },
+    {
+      "claim_id": "CH33-011",
+      "statement": "俄罗斯央行1998年报称危机使银行和支付系统出现严重中断",
+      "source_ids": [
+        "F-3303"
+      ],
+      "classification": "primary_bank_annual_report",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不把所有银行都说成相同破产"
+    },
+    {
+      "claim_id": "CH33-012",
+      "statement": "LTCM交易押注相对价值及价差收敛而非单一俄罗斯国债",
+      "source_ids": [
+        "F-3305"
+      ],
+      "classification": "hedge_fund_strategy_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能凭机构名称推断每一交易清单"
+    },
+    {
+      "claim_id": "CH33-013",
+      "statement": "LTCM在1997年末资产负债表债务约是资本的30倍",
+      "source_ids": [
+        "F-3305"
+      ],
+      "classification": "historical_leverage_stat",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "与1998年8月资产数据不同期"
+    },
+    {
+      "claim_id": "CH33-014",
+      "statement": "1998年8月末LTCM资产逾1250亿美元，1998年初权益约48亿美元",
+      "source_ids": [
+        "F-3306"
+      ],
+      "classification": "official_regulatory_account",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "日期与分母不同，非同日杠杆率"
+    },
+    {
+      "claim_id": "CH33-015",
+      "statement": "在多地做流动性溢价相关交易不能保证极端压力下分散风险",
+      "source_ids": [
+        "F-3304",
+        "F-3306"
+      ],
+      "classification": "correlated_liquidity_risk",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是全部风险资产必然同涨同跌"
+    },
+    {
+      "claim_id": "CH33-016",
+      "statement": "1998俄危机后国际信用价差异常扩大并诱发奔向流动性",
+      "source_ids": [
+        "F-3304",
+        "F-3306"
+      ],
+      "classification": "contemporaneous_market_contagion",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能简单量化单一俄违约作用份额"
+    },
+    {
+      "claim_id": "CH33-017",
+      "statement": "追加保证金和融资紧缩可以迫使高杠杆机构抛售头寸",
+      "source_ids": [
+        "F-3305",
+        "F-3306"
+      ],
+      "classification": "margin_spiral_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "教学例子100资产5资本非基金真实账目"
+    },
+    {
+      "claim_id": "CH33-018",
+      "statement": "1998-09-23 14家私人银行券商共同注资LTCM约36.25亿美元",
+      "source_ids": [
+        "F-3305"
+      ],
+      "classification": "private_consortium_recapitalization",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "约36亿美元是四舍五入数额"
+    },
+    {
+      "claim_id": "CH33-019",
+      "statement": "LTCM重组的出资取得约90%所有权且美联储没有直接出资",
+      "source_ids": [
+        "F-3305"
+      ],
+      "classification": "rescue_institutional_design",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "纽约联储协调与央行资产出资区分"
+    },
+    {
+      "claim_id": "CH33-020",
+      "statement": "美联储1998年国会证词讨论杠杆道德风险和市场处置问题",
+      "source_ids": [
+        "F-3307"
+      ],
+      "classification": "contemporaneous_policy_testimony",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "政策观点非所有争论最终裁决"
+    },
+    {
+      "claim_id": "CH33-021",
+      "statement": "俄罗斯金融危机与LTCM连锁交易以全球风险溢价和清算需求相联",
+      "source_ids": [
+        "F-3302",
+        "F-3304",
+        "F-3306"
+      ],
+      "classification": "crossmarket_causal_synthesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "并非俄罗斯直接签订所有LTCM合同"
+    },
+    {
+      "claim_id": "CH33-022",
+      "statement": "系统性流动性与证券融资风险为2008房贷证券化危机的机制先导",
+      "source_ids": [
+        "F-3305",
+        "F-3306"
+      ],
+      "classification": "forward_crosschapter_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "只是比较不代表俄罗斯造成2008年"
+    }
+  ]
+}
