@@ -244,11 +244,11 @@
 
 ### 数学复核与叙事约束
 
-- **11** 正整数p下现代归一化幂和 \`(1/N)∑_{k=1}^{N}(k/N)^p→1/(p+1)\`。p=2可由 \`∑k²=N(N+1)(2N+1)/6\` 严格复算。面积增长 \`A(x)=x³/3\` 则差商趋于 \`x²\`，是现代讲解反向关系的例子，**不能假作巴罗或格雷戈里的原稿公式**；需要把1656、1668、1670三个时间标记清楚。
-- **12** 对 \`|z|<1\`，广义二项式 \`(1+z)^{1/2}=1+z/2-z²/8+z³/16-5z⁴/128+…\`，截断精度用\`z=1/4\`数值计算。不能说原文有现代Σ记号；1665—1666成果是多条技术链交汇，并非只因瘟疫才从零开始研究。
-- **13** 令 \`x(t)=t²\`, \`y(t)=x(t)³=t⁶\`：\`ẋ=2t\`, \`ẏ=3x²ẋ=6t⁵\`。乘积法则来自小时间增量展开 \`(x+Δx)(y+Δy)\`，忽略二阶项需通过极限条件解释；现代 \`A(x)=x³/3\` 沿时间变化 \`Ȧ=x²ẋ\`，区分时间流数与把x当变量时的导数。与莱布尼茨\`d\`、积分符号的比较留给14章，完整基本定理主角留给15章。
+- **11** 正整数p下现代归一化幂和 `(1/N)∑_{k=1}^{N}(k/N)^p→1/(p+1)`。p=2可由 `∑k²=N(N+1)(2N+1)/6` 严格复算。面积增长 `A(x)=x³/3` 则差商趋于 `x²`，是现代讲解反向关系的例子，**不能假作巴罗或格雷戈里的原稿公式**；需要把1656、1668、1670三个时间标记清楚。
+- **12** 对 `|z|<1`，广义二项式 `(1+z)^{1/2}=1+z/2-z²/8+z³/16-5z⁴/128+…`，截断精度用`z=1/4`数值计算。不能说原文有现代Σ记号；1665—1666成果是多条技术链交汇，并非只因瘟疫才从零开始研究。
+- **13** 令 `x(t)=t²`, `y(t)=x(t)³=t⁶`：`ẋ=2t`, `ẏ=3x²ẋ=6t⁵`。乘积法则来自小时间增量展开 `(x+Δx)(y+Δy)`，忽略二阶项需通过极限条件解释；现代 `A(x)=x³/3` 沿时间变化 `Ȧ=x²ẋ`，区分时间流数与把x当变量时的导数。与莱布尼茨`d`、积分符号的比较留给14章，完整基本定理主角留给15章。
 - **真实性**：不要虚构牛顿身处房间、听到话语、苹果落下即发现微积分，不能将后世牛顿关于优先权的当事人说法视为没有争议的中立旁证。
-- **工作流**：三章为 \`DRAFT_UNREVIEWED\` 候选；整书 \`workflow-state.json\` 的 \`outline_approved=false/evidence_verified=false/review_status=PENDING\` 保持原样，不能宣称已通过正式双审/最终门禁。
+- **工作流**：三章为 `DRAFT_UNREVIEWED` 候选；整书 `workflow-state.json` 的 `outline_approved=false/evidence_verified=false/review_status=PENDING` 保持原样，不能宣称已通过正式双审/最终门禁。
 
 
 ## 第14—16章｜莱布尼茨符号、微积分基本定理、牛顿—莱布尼茨优先权争论（2026-11-06）
@@ -291,12 +291,12 @@
 - **15**：若f在[a,b]连续，第一部分 \(A(x)=\int_a^x f(t)dt\Rightarrow A'(x)=f(x)\)，用 \(m_h\le(A(x+h)-A(x))/h\le M_h\) 对h>0及h<0分析；第二部分若G'=f则积分=G(b)-G(a)。示例 \(\int_0^2(3x^2+2)\,dx=[x^3+2x]_0^2=12\)。函数跳变示例 \(f(t)=0\ (t<0),1\ (t\ge0)\)：从-1积到x的A在0为折点，无经典导数。强调**有向累计与几何面积不同**。
 - **16**：不做“根据公式表象判抄袭”的伪证据；比较相同 \(y=x^2\) 时 \(dy=2x\,dx\)、\(\dot y=2x\dot x\)（链式表达在\(\dot x\ne0\)时可比较斜率），展示数学一致但研究语言不同；用明确年份分隔“发明/研究”“公开发表”“争议机构裁定”。现代专业史家依据存世手稿倾向承认独立发现；不可把皇家学会报告当作中立终审，也不可否定牛顿1660年代的历史先行研究。
 
-**状态**：仅研究已核查的出处/出处范围与数学复核，交付正文属于 \`DRAFT_UNREVIEWED\`。整书 \`workflow-state.json\` 必须保持 \`outline_approved=false/evidence_verified=false/review_status=PENDING\`，不得声称未经双审已经终审批准。
+**状态**：仅研究已核查的出处/出处范围与数学复核，交付正文属于 `DRAFT_UNREVIEWED`。整书 `workflow-state.json` 必须保持 `outline_approved=false/evidence_verified=false/review_status=PENDING`，不得声称未经双审已经终审批准。
 
 
 ## 第17—19章专项前置研究｜最速降线、首部微分教材、泰勒近似（2026-11-09）
 
-> **核验边界**：本条目为本批**可查的史料入口与限定范围**，不等于全书通过 \`evidence_verified\`、\`outline_approved\` 或独立审稿。本批仅在下列具体主张范围可进入**未批准工作初稿**。网页摘要未提供原书逐页可复核内容时，标明「原书页码待补」，不得虚构页码。
+> **核验边界**：本条目为本批**可查的史料入口与限定范围**，不等于全书通过 `evidence_verified`、`outline_approved` 或独立审稿。本批仅在下列具体主张范围可进入**未批准工作初稿**。网页摘要未提供原书逐页可复核内容时，标明「原书页码待补」，不得虚构页码。
 
 ### 1. 新增来源及支持范围
 
@@ -309,7 +309,7 @@
 - **H108** Robert E. Bradley、Salvatore J. Petrilli、C. Edward Sandifer，[*L’Hôpital's Analyse des infiniments petits: An Annotated Translation with Source Material by Johann Bernoulli*](https://link.springer.com/book/10.1007/978-3-319-17115-9)，Springer 2015。出版社介绍包括洛必达1696教材、伯努利教学材料以及往来书信，确认双方不同贡献；**未宣称已逐页查完注释本**。
 - **H109** MacTutor，[Brook Taylor](https://mathshistory.st-andrews.ac.uk/Biographies/Taylor/)，详述Taylor 1712年致Machin书信及**1715年** *Methodus incrementorum directa et inversa* 的两种展开论证、随后推广，也明确说明Gregory、Newton、Leibniz、Johann Bernoulli、de Moivre已有不同形式的成果。**边界**：不能把「1715年出版」写成首次有人想到幂级数；来源提到1785/1786间称谓流通时间，暂不硬定「命名第一年」。
 - **H110** [Bavarian State Library 1717年版 *Methodus incrementorum* 影印馆藏入口](https://commons.wikimedia.org/wiki/File:Methodus_incrementorum_directa_%26_inversa_%28IA_10053900bsb%29.pdf)。这是**1717年版**的影印资料入口，不是1715首版，正文仅在书目辨版时使用，**原文命题11、命题7精确页码待后续核对**。
-- **H111** [Mathematics LibreTexts｜Zakon，Taylor’s Theorem and Taylor’s Series](https://math.libretexts.org/Bookshelves/Analysis/Mathematical_Analysis_%28Zakon%29/05%3A_Differentiation_and_Antidifferentiation/5.06%3A_Differentials._Taylors_Theorem_and_Taylors_Series)，可检验Taylor余项与函数 \`f(0)=0, f(x)=exp(-1/x²) (x≠0)\` 的所有阶导数在0为零，却对任何非零x均为正的反例；**现代数学文献**，不是18世纪历史人物的认识。
+- **H111** [Mathematics LibreTexts｜Zakon，Taylor’s Theorem and Taylor’s Series](https://math.libretexts.org/Bookshelves/Analysis/Mathematical_Analysis_%28Zakon%29/05%3A_Differentiation_and_Antidifferentiation/5.06%3A_Differentials._Taylors_Theorem_and_Taylors_Series)，可检验Taylor余项与函数 `f(0)=0, f(x)=exp(-1/x²) (x≠0)` 的所有阶导数在0为零，却对任何非零x均为正的反例；**现代数学文献**，不是18世纪历史人物的认识。
 - **H112** MAA，[Mathematical Treasure: L’Hospital’s *Analyse des Infiniment Petits*](https://old.maa.org/node/871243)；确认1696初版、作者与莱布尼茨微分体系的传播。**边界**：通俗书史介绍，复杂贡献争论以H107/H108优先。
 
 ### 2. 三章主张与证据矩阵（增量核查范围）
@@ -342,7 +342,7 @@
 - **可支持未审工作初稿的事实**：1696/1697挑战和答题轮廓、折射类比与摆线、洛必达1696教材及伯努利授课关系、泰勒1715著作与前驱贡献（分别有上表来源）。
 - **可支持现代计算解释的内容**：理想力学摆线时间、简化折射必要条件、洛必达法则受限示例、Taylor余项及非解析光滑函数反例；须从历史叙述中明确隔离。
 - **不能宣布完成的工作**：洛必达与伯努利通信每一处精确页码、1715首版命题逐页转写、全部史学优先权细节、所有后续章节证据核证、任何独立审稿/终稿批准。
-- **写作门禁实况**：截至本条研究修订，项目 \`workflow-state.json\` 中 \`outline_approved=false\`、\`evidence_verified=false\`、\`review_status=PENDING\`，故下游写出的只能标注**工作初稿（未通过正式 draft gate）**，不得隐含合法封版或发布许可。
+- **写作门禁实况**：截至本条研究修订，项目 `workflow-state.json` 中 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING`，故下游写出的只能标注**工作初稿（未通过正式 draft gate）**，不得隐含合法封版或发布许可。
 
 
 ### 4. 两项补充的原始材料入口（2026-11-09）
@@ -350,4 +350,4 @@
 - **H113** Daniel E. Otero，[MAA Convergence｜L’Hôpital’s Rule: A Mini-Primary Source Project for Calculus 1 Students](https://old.maa.org/node/3575254)，历史教材原命题与17世纪曲线不定比的转述；其中有洛必达原命题的英译和当时图示的讨论。**已核对公开正文主要段落**，它比现代「所有0/0均适用」的错误概括更谨慎。出处为现代数学教育与史料项目，不等于亲眼检查了1696初版本每个图版。
 - **H114** The Royal Society Collections，[Letter from Brook Taylor to John Machin](https://catalogues.royalsociety.org/calmview/Record.aspx?id=MS%2F82%2F2&src=CalmView.Catalog)，馆藏 **MS/82/2**，**1712-07-26**，记载此信联系 Kepler 运动问题与Halley求根方法，注明这是后来所谓Taylor定理在其书信中的早期记载。**核对的是馆藏目录的书目信息，不是四页手稿全文**。由此可写1712与1715两个史实节点，不可伪造原信逐字引文或把1717印本当1715首版。
 
-**批次尾注**：三篇已形成 \`draft/17—19.md\` 及逐章claims记录，均属于**专项史料范围内的工作初稿**；目前未据此更改全书门禁，也未执行独立历史/数学双审。下一步需复核洛必达1696初版与伯努利授课手稿的逐页对应、Taylor 1715初版特定命题、最速降线全局最优性证明的严格条件。
+**批次尾注**：三篇已形成 `draft/17—19.md` 及逐章claims记录，均属于**专项史料范围内的工作初稿**；目前未据此更改全书门禁，也未执行独立历史/数学双审。下一步需复核洛必达1696初版与伯努利授课手稿的逐页对应、Taylor 1715初版特定命题、最速降线全局最优性证明的严格条件。

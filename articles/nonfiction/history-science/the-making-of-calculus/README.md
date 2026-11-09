@@ -6,7 +6,7 @@
 
 **归档**：`articles/nonfiction/history-science/the-making-of-calculus/` · **主类型**：`genre-history-science` · **体裁**：可独立阅读的历史科学非虚构连载 · **读者**：有高中数学基础的好奇读者。
 
-**真实进度**：序章00与第01—16章为带逐章来源映射的**工作初稿（17篇，未独立审稿）**；17—36为**策划占位（20篇）**。全书共七部、35个正文章、1篇序章、1篇尾声。正式工作流仍为 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING`，不是已获批准的大纲或正式成稿。规模预估约13—20万字，目标值见 `metadata.yaml`。
+**真实进度**：序章00及第01—19章为带逐章来源映射的**工作初稿（20篇，未独立审稿）**；20—36仍为**策划占位（17篇）**。全书共七部、35个正文章、1篇序章、1篇尾声。正式工作流仍为 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING`，不是已获批准的大纲或正式成稿。规模预估约13—20万字，目标值见 `metadata.yaml`。
 
 ## 从这里开始
 
@@ -18,7 +18,7 @@
 | 希腊、中国、伊斯兰世界、印度与欧洲如何比较 | [跨文明比较与史料边界](planning/cross-cultural-evidence.md) |
 | 知乎盐选式知识叙事怎样落实到每章 | [分章创作协议](planning/chapter-blueprint.md) |
 | 史料入口、证据记录、年代定位 | [research](research.md) · [claim-ledger](claim-ledger.md) · [timeline](timeline.md) |
-| 后续三章一批的生产计划 | [批次导航](batches/README.md) · [下一批17—19](batches/17-19.md) |
+| 后续三章一批的生产计划 | [批次导航](batches/README.md) · [已撰写17—19](batches/17-19.md) · [下一批20—22](batches/20-22.md) |
 
 ## 一、核心立意：这不是「两个天才发明导数」的故事
 
@@ -97,9 +97,9 @@
 
 ### 第四部｜方法的胜利与裂缝（1696—18世纪末）
 
-- [17｜1696年最速降线：直线为何不是最快路线〔占位〕](draft/17.md)
-- [18｜洛必达：微积分怎样进入第一批系统教材〔占位〕](draft/18.md)
-- [19｜泰勒展开：曲线能用多项式代替吗〔占位〕](draft/19.md)
+- [17｜1696年最速降线：直线为何不是最快路线〔工作初稿〕](draft/17.md)
+- [18｜洛必达：微积分怎样进入第一批系统教材〔工作初稿〕](draft/18.md)
+- [19｜泰勒展开：曲线能用多项式代替吗〔工作初稿〕](draft/19.md)
 - [20｜伯克利的质问：无穷小消失之后还剩什么〔占位〕](draft/20.md)
 - [21｜欧拉：函数成为微积分的共同语言〔占位〕](draft/21.md)
 - [22｜拉格朗日：微积分能摆脱无穷小吗〔占位〕](draft/22.md)
@@ -170,7 +170,7 @@ the-making-of-calculus/
 ├── research.md · claim-ledger.md   # 既有史料索引与主张来源（不可冒充全书核验）
 ├── metadata.yaml · series.json     # 既有作品与逐章状态
 ├── workflow-state.json             # 机器闸门：未批准、未全书核验
-├── draft/                         # 00—16工作初稿；17—36占位；逐章claims.json
+├── draft/                         # 00—19工作初稿；20—36占位；逐章claims.json
 ├── assets/                        # 已有原创示意图
 ├── planning/                      # 本次增补：全书编辑设计、跨文明对照、章级协议
 ├── parts/                         # 本次增补：七部部级交接与占位工作纸

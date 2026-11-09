@@ -354,23 +354,48 @@
     {
       "id": "17",
       "title": "1696年最速降线：直线为何不是最快路线",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/17.md",
-      "claims_path": "draft/17.claims.json"
+      "claims_path": "draft/17.claims.json",
+      "source_ids": [
+        "H102",
+        "H103",
+        "H104",
+        "H17",
+        "H19"
+      ]
     },
     {
       "id": "18",
       "title": "洛必达：微积分怎样进入第一批系统教材",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/18.md",
-      "claims_path": "draft/18.claims.json"
+      "claims_path": "draft/18.claims.json",
+      "source_ids": [
+        "H105",
+        "H106",
+        "H107",
+        "H108",
+        "H112",
+        "H113"
+      ]
     },
     {
       "id": "19",
       "title": "泰勒展开：曲线能用多项式代替吗",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/19.md",
-      "claims_path": "draft/19.claims.json"
+      "claims_path": "draft/19.claims.json",
+      "source_ids": [
+        "H109",
+        "H110",
+        "H111",
+        "H114",
+        "H03",
+        "H38",
+        "H39",
+        "H40"
+      ]
     },
     {
       "id": "20",
