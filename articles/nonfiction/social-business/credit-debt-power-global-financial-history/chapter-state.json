@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 24,
+  "current_revision": 25,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -523,13 +523,51 @@
     },
     {
       "chapter": "28",
-      "status": "outline-only",
-      "question": "离岸美元市场如何通过银行账目形成跨境美元信用链"
+      "status": "draft-written",
+      "question": "离岸美元如何在美国境外的银行账簿形成跨境美元债权链",
+      "next_question": "日本国内宽松与金融自由化如何让银行信贷流入土地股票并反过来增加风险",
+      "sources": [
+        "F-2801",
+        "F-2802",
+        "F-2803",
+        "F-2804"
+      ]
+    },
+    {
+      "chapter": "29",
+      "status": "draft-written",
+      "question": "日本1980年代银行贷款与土地抵押估值如何相互放大、破灭后为何难以修复",
+      "next_question": "期权、互换与动态对冲能否把单家机构风险转移为系统风险",
+      "sources": [
+        "F-2901",
+        "F-2902",
+        "F-2903",
+        "F-2904",
+        "F-2905",
+        "F-2907",
+        "F-2908",
+        "F-3003"
+      ]
+    },
+    {
+      "chapter": "30",
+      "status": "draft-written",
+      "question": "1973后现代期权理论和衍生品交易如何转移风险、为什么共同对冲仍会形成连锁反馈",
+      "next_question": "改革开放后中国如何重建银行、交易所与资本市场并管理新型风险",
+      "sources": [
+        "F-3001",
+        "F-3002",
+        "F-3003",
+        "F-3004",
+        "F-3005",
+        "F-3006",
+        "F-3007"
+      ]
     }
   ],
-  "remaining_chapters": "29-40 outline-only",
+  "remaining_chapters": "31-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Prologue and chapters 01-27 are research-level complete drafts; chapter 25-27 batch Revision24 has 35 references and 65 mapped claims, two review reports with unclosed primary-source blockers."
+  "notes": "Revision25 chapters 28–30 research-level drafts: 18 new source-ledger entries and 51 mapped claims. Upstream outline_approved=false and evidence_verified=false; original primary-source reviews remain blocked. Prior Revision24 QA reports not current for Revision25."
 }
