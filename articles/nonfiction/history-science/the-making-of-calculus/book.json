@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "the-making-of-calculus",
   "title": "从切线到无穷：微积分的诞生与重建",
-  "reading_notice": "微积分序章已有研究工作初稿（未通过独立审稿），其余章节为规划占位，并非正式出版内容。",
+  "reading_notice": "序章00和第01—19章共20篇已有带来源映射的未独立审稿工作初稿；第20—36章共17篇仍为策划占位。全书正式工作流的outline_approved=false、evidence_verified=false、review_status=PENDING；索引中的draft不等于质量批准。",
   "chapters": [
     {
       "id": "prologue",
@@ -16,133 +16,133 @@
       "title": "01｜芝诺：走完一米，为何要跨过无限多段？",
       "part": "第一部｜无限的前史",
       "file": "draft/01.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-02",
       "title": "02｜欧多克索斯：不谈无穷小，怎样证明曲线面积？",
       "part": "第一部｜无限的前史",
       "file": "draft/02.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-03",
       "title": "03｜阿基米德：无限个小三角形能给出精确答案？",
       "part": "第一部｜无限的前史",
       "file": "draft/03.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-04",
       "title": "04｜刘徽的割圆：古代中国怎样逼近一个圆？",
       "part": "第一部｜无限的前史",
       "file": "draft/04.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-05",
       "title": "05｜马达瓦与喀拉拉：无穷级数在印度开花",
       "part": "第一部｜无限的前史",
       "file": "draft/05.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-06",
       "title": "06｜伽利略：平均速度不等于瞬间的速度",
       "part": "第二部｜曲线与运动的逼问",
       "file": "draft/06.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-07",
       "title": "07｜开普勒的酒桶：奇形怪状的体积怎么算？",
       "part": "第二部｜曲线与运动的逼问",
       "file": "draft/07.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-08",
       "title": "08｜卡瓦列里：一条线能够组成面积吗？",
       "part": "第二部｜曲线与运动的逼问",
       "file": "draft/08.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-09",
       "title": "09｜笛卡尔：把曲线写成方程",
       "part": "第二部｜曲线与运动的逼问",
       "file": "draft/09.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-10",
       "title": "10｜费马的拟等法：几乎相等到底算不算相等？",
       "part": "第二部｜曲线与运动的逼问",
       "file": "draft/10.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-11",
       "title": "11｜沃利斯、格雷戈里与巴罗：两种问题接近汇合",
       "part": "第二部｜曲线与运动的逼问",
       "file": "draft/11.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-12",
       "title": "12｜1666年的牛顿：一组手稿为什么改变数学",
       "part": "第三部｜两种微积分的诞生",
       "file": "draft/12.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-13",
       "title": "13｜流数法：牛顿从时间出发理解微分",
       "part": "第三部｜两种微积分的诞生",
       "file": "draft/13.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-14",
       "title": "14｜莱布尼茨的 d 与 ∫：为什么记号会改变数学",
       "part": "第三部｜两种微积分的诞生",
       "file": "draft/14.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-15",
       "title": "15｜微积分基本定理：面积与变化率竟是同一件事",
       "part": "第三部｜两种微积分的诞生",
       "file": "draft/15.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-16",
       "title": "16｜牛顿与莱布尼茨：发现者之争究竟争什么",
       "part": "第三部｜两种微积分的诞生",
       "file": "draft/16.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-17",
       "title": "17｜1696年最速降线：直线为何不是最快路线",
       "part": "第四部｜方法的胜利与裂缝",
       "file": "draft/17.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-18",
       "title": "18｜洛必达：微积分怎样进入第一批系统教材",
       "part": "第四部｜方法的胜利与裂缝",
       "file": "draft/18.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-19",
       "title": "19｜泰勒展开：曲线能用多项式代替吗",
       "part": "第四部｜方法的胜利与裂缝",
       "file": "draft/19.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-20",
