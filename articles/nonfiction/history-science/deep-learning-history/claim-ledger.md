@@ -1,6 +1,6 @@
 # 主张账本｜章节 → 资料范围（规划版）
 
-> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
+> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—12章已补充限定主张与原始论文核查；第13—31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
 
 | 章节 | claim_id | 本章需要核验的中心主张 | 候选source_id | 证据性质及待核点 | 状态 |
 | --- | --- | --- | --- | --- | --- |
@@ -118,3 +118,33 @@
 | 09 | C09-07 | 1986关键扩散节点而非从无到有 | DL47,DL36,DL48 | QUALIFIED | 不同作者具体贡献仍待完整史学审稿 |
 
 **该表用于07—09的非虚构工作初稿许可**；所谓SCOPED_VERIFIED是中心史实/元数据及公开可见论证范围的核对，不等于原论文全文逐页审定，DERIVATION仅指可复算的作者教学推导。未完成独立事实与结构双审。
+
+## 第四批10—12章：细分可追溯主张与有限核查权限
+
+| chapter | claim_id | 主张 | source_id | 核查状态 | 防误读边界 |
+| --- | --- | --- | --- | --- | --- |
+| 10 | C10-01 | 1989 USPS手写邮编数字研究与作者及论文范围 | DL51 | SCOPED_VERIFIED | 1989不是1998支票系统 |
+| 10 | C10-02 | 1998 LeCun/Bottou/Bengio/Haffner IEEE论文学术元数据 | DL52,DL53 | SCOPED_VERIFIED | 署名、页码、期刊与内容范围 |
+| 10 | C10-03 | 局部感受野/权重共享/下采样的CNN原理 | DL52,DL63 | SCOPED_VERIFIED | 等变不自动等于完全不变 |
+| 10 | C10-04 | 1998论文报告GTN模块级训练及商业银行支票识别 | DL52 | SCOPED_VERIFIED | 抽象/导言对日月数量不同口径；禁止精确量声明 |
+| 10 | C10-05 | 1980 Fukushima是更早视觉层级研究而非同一训练算法 | DL54,DL41 | SCOPED_VERIFIED | 不声称1989原始CNN独立无前驱 |
+| 10 | C10-06 | MNIST 60k训练/10k测试数据条件 | DL62 | SCOPED_VERIFIED | 不能把MNIST归为自然图像 |
+| 10 | C10-07 | 五位序列核扫描与最大聚合数值 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 一维互相关而非1998真实实验 |
+| 11 | C11-01 | 1991 Hochreiter长时依赖研究由1997论文回顾 | DL55 | SCOPED_VERIFIED | 只在作者论文所称范围引用 |
+| 11 | C11-02 | 1994 Bengio/Simard/Frasconi论文论证长依赖训练困难 | DL56 | SCOPED_VERIFIED | 不说RNN从原理上绝不能记忆 |
+| 11 | C11-03 | 1997 Hochreiter/Schmidhuber LSTM论文与constant error carousel | DL55 | SCOPED_VERIFIED | 实验>1000时间步是特定人工任务 |
+| 11 | C11-04 | 2000 Gers/Schmidhuber/Cummins引入忘记门 | DL57 | SCOPED_VERIFIED | 不能向1997倒灌标准三门式 |
+| 11 | C11-05 | 时间反向梯度连乘与可能爆炸/消失的解释 | DL55,DL56 | QUALIFIED | 具体权重/激活决定行为，不是所有递归必然衰减 |
+| 11 | C11-06 | 0.8^20及0.9^20数值例 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 现代教学受限模型，不归于1997实验 |
+| 11 | C11-07 | LSTM改进可学长依赖但不能无界可靠保存 | DL55,DL57 | QUALIFIED | 有限状态/门控/样本/优化均为边界 |
+| 12 | C12-01 | 1992 Boser/Guyon/Vapnik COLT最大间隔研究 | DL58 | SCOPED_VERIFIED | 不能归功于1995唯一首次提出 |
+| 12 | C12-02 | 1995 Cortes/Vapnik支持向量网络与不可分数据拓展 | DL59 | SCOPED_VERIFIED | 具体论文与误差处理范围 |
+| 12 | C12-03 | 核技巧与间隔/软间隔技术解释 | DL59,DL60 | SCOPED_VERIFIED | 非凸核选择不等于凸SVM参数训练 |
+| 12 | C12-04 | 1998 Platt SMO是为解决QP实际计算成本 | DL61 | SCOPED_VERIFIED | SVM训练从非没有工程困难 |
+| 12 | C12-05 | 1998 CNN论文同台比较方法且特定任务表现优 | DL52 | SCOPED_VERIFIED | 不推出全部任务网络优于SVM |
+| 12 | C12-06 | MNIST数据规模与测试集条件 | DL62 | SCOPED_VERIFIED | 实验量须尊重同数据、同预处理等比较 |
+| 12 | C12-07 | 硬间隔一维正负2与几何间隔2的推导 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 仅两点可分玩具例 |
+| 12 | C12-08 | XOR映射φ=(x1,x2,x1x2)的线性评分 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 用于解释非线性特征，不声称具体核自动推得该分类器 |
+| 12 | C12-09 | 方法选择需比较数据/调参/内存/可复现与泛化 | DL52,DL60,DL61 | INTERPRETATION | 具体任务的历史判断，而非SVM普遍最优 |
+
+此处SCOPED_VERIFIED仅指核心史实/出版社元数据/可见学术摘要按范围核对；尚未对全部原论文实验表格、商业数字和优先权史做独立全文审查。AUTHOR_DERIVATION是现代手算而非历史真实实验。07—09及此前仍保留PENDING的独立审稿，不得因新一批完成而复写旧审稿记录。
