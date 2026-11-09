@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 25,
+  "current_revision": 26,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -76,9 +76,19 @@
     "CH29-PLAZA-BOJ-POLICY-MULTICAUSAL-REVIEW",
     "CH30-CBOE-1973-OPENING-DATE-PRIMARY",
     "CH30-1981-SWAP-AND-1998-OTC-PRIMARY-CROSSCHECK",
-    "CH30-1987-PORTFOLIO-INSURANCE-1998-LTCM-PRIMARY-CHECK"
+    "CH30-1987-PORTFOLIO-INSURANCE-1998-LTCM-PRIMARY-CHECK",
+    "CH31-1979-1984-PBC-SPECIALIZED-BANKS-ORIGINAL-LAWS",
+    "CH31-1994-2005-SECURITIES-FX-ORIGINAL-RECORDS",
+    "CH31-1998-1999-AMC-BANK-RECAPITALIZATION-NET-COST",
+    "CH32-THAILAND-RESERVES-FORWARD-PRIMARY-BOOKS",
+    "CH32-KOREA-SHORT-EXTERNAL-DEBT-ROLLOVER-SERIES",
+    "CH32-INDONESIA-1997-BANK-RESOLUTION-PRIMARY-ORDERS",
+    "CH32-IMF-POLICY-AND-SOCIAL-IMPACT-INDEPENDENT-ESTIMATES",
+    "CH33-RUSSIA-1998-GKO-OFZ-NOVATION-AND-FOREX-PRIMARY",
+    "CH33-LTCM-TRADING-EXPOSURES-MARGIN-CONTRACTS",
+    "CH33-NEW-YORK-FED-RESCUE-LEGAL-ARRANGEMENTS"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Research-level drafts chapters 28–30 in Revision25 (2026-11-09), 18 new secondary/institutional/academic source entries and 51 mapped claims. All formal gates remain blocked: outline_approved=false, evidence_verified=false, CHANGES_REQUIRED, unresolved original-edition checks, prior Revision24 reviews stale; no line edit or final publishing approval."
+  "notes": "Revision26 research-level drafts chapters 31–33 (2026-11-09), 27 additional source-ledger entries and 66 claims mapped. All book-wide primary edition checks remain pending: outline_approved=false, evidence_verified=false, CHANGES_REQUIRED. Prior Revision24/25 reviews are stale; no line edit, final or publication authorization."
 }
