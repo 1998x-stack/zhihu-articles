@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "chapter": "06",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "所列一手文献的可访问页和发行记录为本章论断提供限定范围支持；历史著作并未全部逐页通读；作者数学例子与历史实验分开。",
+  "alias_to_research_source_id": {
+    "P01": "R41",
+    "P02": "R42",
+    "P03": "R01",
+    "P04": [
+      "R38",
+      "R39"
+    ],
+    "P05": "R43"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-06-01",
+      "claim": "Bellman1957的A Markovian Decision Process一手论文首页用决策最大化及状态转移加权递推",
+      "source_ids": [
+        "R41"
+      ],
+      "kind": "primary_mathematical",
+      "section": "二、八｜1957年",
+      "evidence_note": "p.679；受限于首页，不作全篇论证",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-06-02",
+      "claim": "Howard 1960出版Dynamic Programming and Markov Processes",
+      "source_ids": [
+        "R42",
+        "R43"
+      ],
+      "kind": "historical_fact",
+      "section": "二、八｜1960年",
+      "evidence_note": "Smithsonian、作者年表；全书未通读",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-06-03",
+      "claim": "现代MDP描述状态S、行动A、转移P、奖励R和折扣gamma",
+      "source_ids": [
+        "R01",
+        "R45"
+      ],
+      "kind": "modern_definition",
+      "section": "三｜MDP五对象",
+      "evidence_note": "非1957原始记号，有限折扣情形",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-06-04",
+      "claim": "Markov条件是在当前状态与行动已知时，额外完整历史不改变下一状态和奖励分布",
+      "source_ids": [
+        "R01",
+        "R45"
+      ],
+      "kind": "modern_definition",
+      "section": "四｜真正的马尔可夫条件",
+      "evidence_note": "状态充分性并不意味着过去不重要",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-06-05",
+      "claim": "策略pi、状态价值Vpi和动作价值Qpi的区分及其期望关系",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "modern_mathematical",
+      "section": "六｜策略状态价值动作价值",
+      "evidence_note": "基于有限动作的期望形式",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-06-06",
+      "claim": "机器人两动作模型：甲值5、乙以概率0.8值6.76，概率0.3时值3.16",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "五｜随机决策",
+      "evidence_note": "独立核算，纯教学数字",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-06-07",
+      "claim": "部分可观测环境可用状态信念/历史信息辅助建模，现代POMDP具有独立理论发展",
+      "source_ids": [
+        "R44",
+        "R01"
+      ],
+      "kind": "modern_boundary",
+      "section": "七｜看不见电池",
+      "evidence_note": "1998论文摘要与现代理解；不归给1957单篇",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-06-08",
+      "claim": "已知转移模型才能直接规划，不等于未知环境已学会P",
+      "source_ids": [
+        "R01",
+        "R41"
+      ],
+      "kind": "conceptual_scope",
+      "section": "九｜方程解决什么",
+      "evidence_note": "区分规划与学习",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-06-09",
+      "claim": "Markov链背景与MDP动作选择不同，不能将Markov本人表述为研究过现代RL",
+      "source_ids": [
+        "R01",
+        "R45"
+      ],
+      "kind": "historical_qualification",
+      "section": "二｜从链到决策",
+      "evidence_note": "避免单源起源叙事",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "Bellman1957只核对一手论文首页与登记，未完成六页所有证明",
+    "Howard1960专著未逐页通读",
+    "POMDP只以后世1998文献作为范围说明"
+  ]
+}

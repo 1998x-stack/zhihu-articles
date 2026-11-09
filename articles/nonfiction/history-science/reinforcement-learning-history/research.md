@@ -51,7 +51,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 
 - [ ] 1898 桑代克动物实验、斯金纳操作性条件作用的出版年代与原始叙事，防止“迷箱”奇闻化。
 - [ ] 多臂老虎机的 Thompson／Robbins 文献脉络和 bandit 与一般 RL 的分界。
-- [ ] Bellman 1957 初版、Howard 与 MDP 术语史；不可只用现代教材反推历史。
+- [x] Bellman《Dynamic Programming》1957初版及Howard《Dynamic Programming and Markov Processes》1960年出版信息已交叉核查；[ ] MDP术语更早流变及全书论证仍需深度复核，不能将现代教材记号倒推给早期作者。
 - [ ] Sutton 的 TD 方法此前 Samuel／Witten／其他前驱及首创归属。
 - [ ] Watkins 1989 论文、SARSA/Rummery-Niranjan 源流与收敛条件。
 - [ ] 经验回放技术的早期 Lin 论文与 DQN 的差别。
@@ -66,7 +66,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **C**：专业综述支持，适宜历史背景，不单独支持争议归属。
 - **D**：编辑假设、类比或待核猜想，不进入正文事实陈述。
 
-截至2026-11-09，第01—03章关键出版信息、可访问一手章节和对应技术定义已开展**限定范围前置核验**；其余章节以及三章中未通读完整著作的争议细节仍属 **B/C 或待核**。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
+截至2026-11-09，第01—06章部分可访问的一手论文、出版信息及技术定义已开展**限定范围前置核验**；第07章以后及未通读完整著作的历史细节仍属 **B/C 或待核**。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
 
 ## 第01—03章增量核证记录（2026-11-09）
 
@@ -91,3 +91,27 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 2. **02章：**1938 著作年份、1990 年研究者一手回顾及1957强化日程出版信息已核；APA术语区分负强化／惩罚；FR/FI的规则解释与计数、时间例子单独验算。**1957全书具体实验效应未逐图复核**，正文不引用未经核对的个体实验数字。
 3. **03章：**1933 Thompson期刊题名、年份与论文类型已核，**付费全文未通读**；Robbins 1952 §2 原始PDF的硬币规则和渐近平均损失讨论已核；现代遗憾定义、ε-greedy概率及 Beta 后验积分（5/6）独立验算，明确不倒推给1933作者。
 4. **尚未完成：**非虚构独立连续性审计、结构审稿、对全文所有脚注的逐段二次核查，以及第04章以后的全部证据验收。
+
+## 第二批04—06章增量研究与证据边界（2026-11-09）
+
+> 【限域】此节只支持04、05、06章的具体审定论断；未将整个书、全部出版物或后续章节事实核验判定为已完成。正文引用 M/D/P 别名，见对应 `claims.json` 映射。
+
+| 新来源 ID | 文献／馆藏入口 | 具体使用范围与限制 |
+| --- | --- | --- |
+| R37 | [Samuel, A. L. (1959), Some Studies in Machine Learning Using the Game of Checkers](https://gwern.net/doc/reinforcement-learning/model-free/1959-samuel.pdf) | IBM Journal of Research and Development 3(3):210–229，一手论文全文；核对pp.211—221及方法限制；IBM刊载书目信息 DOI:10.1147/rd.33.0210 |
+| R38 | [Bellman (1952), On the Theory of Dynamic Programming](https://doi.org/10.1073/pnas.38.8.716) | PNAS 38(8):716–719；期刊目录与影印；一手论文，早期递推与存在性条件 |
+| R39 | [Bellman (1954), The Theory of Dynamic Programming](https://www.ams.org/bull/1954-60-06/S0002-9904-1954-09848-8/S0002-9904-1954-09848-8.pdf) | Bulletin of AMS 60:503–515；1953报告／1954发表，最优性原理、确定／随机递推；主要核对pp.503—506 |
+| R40 | [Bellman, Dynamic Programming (Princeton 1957 first edition)](https://store.doverpublications.com/products/9780486317199) | Dover版次说明明确其重印1957年Princeton版；本轮仅核对出版版次，未逐页通读全书 |
+| R41 | [Bellman (1957), A Markovian Decision Process](https://iumj.s3-us-west-2.amazonaws.com/abstracts/56038_abs.pdf) | Journal of Mathematics and Mechanics 6(5):679–684；一手论文首页递推已核，其余证明页未获全文核验 |
+| R42 | [Howard (1960), Dynamic Programming and Markov Processes](https://www.si.edu/object/dynamic-programming-and-markov-processes%3Asiris_sil_26454) | Smithsonian馆藏记载1960、书名、136页、与MIT论文关系；馆藏书目核验，非全书细读 |
+| R43 | [Ronald A. Howard chronological bibliography](https://www.ronhoward.org/pure-ron/bibliography) | 研究者相关文献年表交叉佐证1959论文与1960专著，不是MDP首次概念的独家归属证据 |
+| R44 | [Kaelbling, Littman & Cassandra (1998), Planning and Acting in Partially Observable Stochastic Domains](https://www.sciencedirect.com/science/article/pii/S000437029800023X) | Artificial Intelligence 101(1–2):99–134；期刊摘要核证POMDP与隐藏状态问题；不倒叙归为1957论文结果 |
+| R45 | [Puterman (1994), Markov Decision Processes: Discrete Stochastic Dynamic Programming](https://doi.org/10.1002/9780470316887) | Wiley学术专著；正式出版记录与相关折扣MDP章节目录，作为现代数学边界参考 |
+
+### 三章历史先后与技术要点
+
+1. **04 塞缪尔1959**：一手论文全文核到页码：pp.211—213 已知规则、棋局搜索、评价函数和既有程序前驱；pp.214—221 记忆式学习与泛化、Alpha/Beta结构、局限性。**论文反对“完全从零”与“已证明最优收敛”**。
+2. **05 贝尔曼1952—1957**：1952 PNAS 38(8):716—719可查；1953年数学会报告、1954刊发原文明确最优性原理；1957《Dynamic Programming》是普林斯顿原版，书目已核，**全书未逐页核读**。1957《A Markovian Decision Process》只核到原文首页及期刊信息。
+3. **06 MDP谱系**：1957 Bellman论文首页给出状态转移概率加权递推；Howard 1960专著由史密森馆藏与作者年表交叉确认；1998 Kaelbling/Littman/Cassandra资料用于部分可观察问题的**后世理论边界**，并非1957理论已完整解决的结果。
+4. **教学演算复核**：04章两次评价函数权重变化(6,3.4)→(2,5)，minimax结果4；05章二元20阶段2^20=1,048,576、仓库收益11与折扣10.1/6.5；06章价值6.76与3.16，均为原创建模和独立验算，**不是历史实验数据**。
+5. **审核仍待做**：独立连续性审计、结构审稿和稿件级细节检查；上述证据记录用于当前初稿写作许可，不替代最终独立审稿。

@@ -69,7 +69,7 @@
 - **让读者追问**：程序能否通过比赛经验改进既有判断？
 - **必须讲清**：自我对弈、评价函数与早期机器学习。
 - **研究边界**：早期程序不是现代 DQN；区别学习与搜索。
-- **首轮来源**：[R02](https://doi.org/10.1147/rd.33.0210)（仅索引，不代表本章全量史实通过核验）。
+- **首轮来源**：[R37](https://gwern.net/doc/reinforcement-learning/model-free/1959-samuel.pdf)、[R02](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)（本批限定范围核证，形成工作初稿与claims JSON；未独立审稿）
 - **交给下一章**：怎样把长期决策拆解成此刻的可计算选择？
 - **章节占位**：[draft/04.md](draft/04.md)。
 
@@ -79,7 +79,7 @@
 - **让读者追问**：怎样把长期决策拆解成此刻的可计算选择？
 - **必须讲清**：最优性原理、价值函数、贝尔曼方程。
 - **研究边界**：动态规划最初并不等于从未知环境试错学习。
-- **首轮来源**：[R03](https://press.princeton.edu/books/paperback/9780691146683/dynamic-programming)、[R01](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)（仅索引，不代表本章全量史实通过核验）。
+- **首轮来源**：[R38](https://doi.org/10.1073/pnas.38.8.716)、[R39](https://www.ams.org/bull/1954-60-06/S0002-9904-1954-09848-8/S0002-9904-1954-09848-8.pdf)、[R01](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)、[R40](https://store.doverpublications.com/products/9780486317199)、[R41](https://iumj.s3-us-west-2.amazonaws.com/abstracts/56038_abs.pdf)（本批限定范围核证，形成工作初稿与claims JSON；未独立审稿）
 - **交给下一章**：历史无限长，决策理论为什么可以只看现在？
 - **章节占位**：[draft/05.md](draft/05.md)。
 
@@ -89,7 +89,7 @@
 - **让读者追问**：历史无限长，决策理论为什么可以只看现在？
 - **必须讲清**：马尔可夫性质、MDP、策略、回报。
 - **研究边界**：有限状态与完全可观察是假设而非自然定律。
-- **首轮来源**：[R01](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)（仅索引，不代表本章全量史实通过核验）。
+- **首轮来源**：[R41](https://iumj.s3-us-west-2.amazonaws.com/abstracts/56038_abs.pdf)、[R42](https://www.si.edu/object/dynamic-programming-and-markov-processes%3Asiris_sil_26454)、[R43](https://www.ronhoward.org/pure-ron/bibliography)、[R01](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)、[R45](https://doi.org/10.1002/9780470316887)、[R44](https://www.sciencedirect.com/science/article/pii/S000437029800023X)（本批限定范围核证，形成工作初稿与claims JSON；未独立审稿）
 - **交给下一章**：环境模型已知，为何仍难算出最优策略？
 - **章节占位**：[draft/06.md](draft/06.md)。
 
@@ -371,3 +371,7 @@
 ## 2026-11-09 第一批阶段记录
 
 第01—03章已按现有大纲形成正文初稿和逐章主张映射；第04—32章、序章及尾声仍为策划占位。针对首批章的史料与技术例子开展有限核验，不能把该进度推断成全书事实核证。全书大纲尚未经过独立终审，进入后续批次应在各章范围重复研究门禁。
+
+## 2026-11-09 第二批04—06章进度记录
+
+历史源流按读者理解顺序呈现，**1952/1954/1957贝尔曼研究在1959塞缪尔论文之前或同期**，不得写成“1959后贝尔曼才发现动态规划”。第04章强调搜索、记忆式学习与泛化并存；第05章为递推与状态价值；第06章为有随机状态转移的MDP并阐明状态充分性。各章新来源见研究档案R37—R45；三章正文与逐条claims已生成，但均属于`draft_unreviewed`。第07章以后仍未准入正文。
