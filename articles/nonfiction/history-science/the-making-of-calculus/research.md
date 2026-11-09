@@ -351,3 +351,57 @@
 - **H114** The Royal Society Collections，[Letter from Brook Taylor to John Machin](https://catalogues.royalsociety.org/calmview/Record.aspx?id=MS%2F82%2F2&src=CalmView.Catalog)，馆藏 **MS/82/2**，**1712-07-26**，记载此信联系 Kepler 运动问题与Halley求根方法，注明这是后来所谓Taylor定理在其书信中的早期记载。**核对的是馆藏目录的书目信息，不是四页手稿全文**。由此可写1712与1715两个史实节点，不可伪造原信逐字引文或把1717印本当1715首版。
 
 **批次尾注**：三篇已形成 `draft/17—19.md` 及逐章claims记录，均属于**专项史料范围内的工作初稿**；目前未据此更改全书门禁，也未执行独立历史/数学双审。下一步需复核洛必达1696初版与伯努利授课手稿的逐页对应、Taylor 1715初版特定命题、最速降线全局最优性证明的严格条件。
+
+## 第20—22章专项前置研究（2026-11-09）｜逻辑质疑—运算整合—代数奠基
+
+> **证据等级**：下列馆藏书目信息、一手原文网页与学术研究公开摘要/著作简介已完成相应范围核对；不宣称已读完一切原版。可供撰写可追溯的**工作初稿**，但全书 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING` 不变。以下现代例题属于教学重构，不是18世纪原文。
+
+### 新增来源目录（H115—H130）
+
+- **H115｜伯克利《分析学家》一手文本**：George Berkeley, [*The Analyst: A Discourse Addressed to an Infidel Mathematician*（1734）](https://www.maths.tcd.ie/pub/HistMath/People/Berkeley/Analyst/Analyst.html)，Trinity College Dublin的数学史网页转写。§§III—V分别讨论流数和无穷小，§§XIII—XVI质问增量的除去与消失，§§XXI—XXIV讨论抛物线切线与所谓双重错误，§XXXV质疑从非零增量商跨到零增量，§XXXV 末提出“Ghosts of departed Quantities”。**原文可查**，但网页为电子转写，不冒充亲验1734年实体原版所有版面。
+- **H116｜1734年原版书目**：[Google Books 1734年版《The Analyst》](https://books.google.ca/books?id=NSdcAAAAQAAJ)，书目记载George Berkeley、J. Tonson、1734及原版书名；仅用于核对首版年份和标题，不伪造纸本页码。
+- **H117｜数学史与影响**：MAA [Mathematical Treasure: George Berkeley’s *The Analyst*](https://old.maa.org/node/871239)，佐证1734年著作的书页与争论、后续Maclaurin等回应。其「基础薄弱」是历史评价，不能推出牛顿、莱布尼茨的每一个真实论证都犯相同错误。
+- **H118｜针对回应的专门研究**：Clare Marie Moriarty, [*Ructions over fluxions: Maclaurin's draft, The Analyst Controversy and Berkeley's anti-mathematical philosophy*](https://pubmed.ncbi.nlm.nih.gov/36174315/), *Studies in History and Philosophy of Science* **96** (2022), 77–86, DOI 10.1016/j.shpsa.2022.08.009。公开摘要支持：Maclaurin的《Treatise on Fluxions》1742年及其对伯克利的回应不仅涉及逻辑基础，也涉及宗教、修辞与数学权威。**本文核对摘要，不冒充全文精确页码。**
+- **H119｜欧拉1748数学著作**：Euler Archive, [E101 — *Introductio in analysin infinitorum*, vol. 1](https://scholarlycommons.pacific.edu/euler-works/101/)，**1745写作、1748出版**。档案简介核对：以函数为分析的中心组织对象；级数、无穷积、连分数、e和指数/对数，记号f(x)的使用。**边界**：其18世纪函数概念不能完全等同现代集合论的任意映射。
+- **H120｜1748原版馆藏**：ETH-Bibliothek Zürich，[1748年 *Introductio in analysin infinitorum*](https://www.e-rara.ch/doi/10.3931/e-rara-8740?lang=en)，馆藏书目原版出版地、年份、两卷与永久标识；**核的是馆藏数据，不称已逐页读完两卷原文**。
+- **H121｜欧拉微分学著作**：Euler Archive, [E212 — *Institutiones calculi differentialis*](https://scholarlycommons.pacific.edu/euler-works/212/)，**1748写作、1755出版**；这是完整专论的书目和主题索引，不应与1748《无穷分析引论》出版年份混写。
+- **H122｜欧拉变分法著作**：Euler Archive, [E65 — *Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes*](https://scholarlycommons.pacific.edu/euler-works/65/)，**1743年手稿完成、1744年出版**。归纳一般的最优曲线问题及变分法第一必要条件。**不要把今天的Euler–Lagrange符号和充分最小性定理写成1744年完全成熟的统一理论**。
+- **H123｜欧拉积分学著作**：Euler Archive, [E342 — *Institutionum calculi integralis*, vol. 1](https://scholarlycommons.pacific.edu/euler-works/342/)，**1768年第一卷出版**；英国/美国学术编目见三卷**1768—1770**（[Smithsonian馆藏](https://siris-libraries.si.edu/ipac20/ipac.jsp?aspect=subtab103&index=PAUTH&menu=search&profile=liball&ri=17&session=U77O03L589945.75802&source=~%21silibraries&term=Euler%2C+Leonhard%2C+1707-1783.+Institutiones+calculi+integralis.&uri=link%3D3100006~%211010824~%213100001~21300002)）；需区分写成与付印。
+- **H124｜欧拉数学传播研究**：MAA, [Mathematical Treasures: Euler’s Analysis of the Infinite](https://old.maa.org/press/periodicals/convergence/mathematical-treasures-eulers-analysis-of-the-infinite)，1748著作，指数、对数、奇偶函数及复指数关系。**史学展览短文，原版没有逐页校对。**
+- **H125｜拉格朗日1797首版馆藏**：京都大学贵重资料数字档案，[J. L. Lagrange, *Théorie des fonctions analytiques*](https://rmda.kulib.kyoto-u.ac.jp/item/rb00028932)，法文长副标题清楚表明尝试将微分学原则从“无穷小、消逝量、极限、流数”中摆脱，归约为“有限量的代数分析”。**1797**、巴黎共和国印刷局、276页，馆藏书目可查。副标题是作者自述的研究目标，不等于该目标已成功。
+- **H126｜拉格朗日1797著作学术评介**：Craig G. Fraser, [*Joseph Louis Lagrange, Théorie des fonctions analytiques, first edition (1797)*](https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780444508713501005), in *Landmark Writings in Western Mathematics 1640–1940* (2005), 258—276；出版社摘要可核其方法以“假定函数能作泰勒幂级数展开”为关键，并以代数操作建立微积分。**研究摘要不是原版全文；不伪造命题页码**。
+- **H127｜拉格朗日研究分期**：Craig G. Fraser, [*The Development of Lagrange’s Ideas on the Calculus: 1754–1797*](https://www.cambridge.org/core/books/abs/historian-looks-back/development-of-lagranges-ideas-on-the-calculus-17541797/6CF9485AAC1CF906C8A1E8AD8A68C5F9), in *A Historian Looks Back* (2010)。摘要明确警告：**1754—1761早期变分及微积分形式研究，不等于1797成熟的纯代数基础方案**。
+- **H128｜变分法学术简介**：Sylvia Serfaty, [*Lagrange and the calculus of variations*](https://doi.org/10.1007/s40329-014-0049-x), *Lettera Matematica* 2 (2014), 39—46。论文公开摘要及开头支持欧拉、拉格朗日共同推进广义最优化；文中现代记号的理论展示不能当作1760年代原稿逐字。
+- **H129｜欧拉积分学馆藏说明**：MAA, [Mathematical Treasures: Leonhard Euler’s Integral Calculus](https://old.maa.org/press/periodicals/convergence/mathematical-treasures-leonhard-eulers-integral-calculus)，明确三卷于1768—1770发表，且相关教材包含积分与微分方程计算；不夸张为第一次使用积分符号。
+- **H130｜拉格朗日函数论更晚修订**：Cambridge University Press, [*The Development of Lagrange's Ideas on the Calculus*](https://www.cambridge.org/core/books/abs/historian-looks-back/development-of-lagranges-ideas-on-the-calculus-17541797/6CF9485AAC1CF906C8A1E8AD8A68C5F9)，指出1797出版后还有1813新版；早期论文与晚期论证不能混为一时。
+
+### 分章可核事实／现代推导—主张映射
+
+| 章-编号 | 写作范围 | 证据出处 | 判断与边界 |
+| --- | --- | --- | --- |
+| C20-01 | 《分析学家》1734出版且针对流数和无穷小分析 | H115§I—V, H116, H117 | 原文/书目支撑，不虚构受众私人身份 |
+| C20-02 | 伯克利反对将非零增量先相除后直接令其为零 | H115§§XIII—XVI、§XXXV | 原文质疑，不能把牛顿所有推导都简化为同一错误 |
+| C20-03 | 《分析学家》讨论抛物线切线与双重错误 | H115§§XXI—XXIV | 可在正文概述，详细历史符号须回原文 |
+| C20-04 | “Ghosts of departed quantities”出现在伯克利的原文 | H115§XXXV末尾 | 引文可极短；不臆测其私人心理 |
+| C20-05 | 1742 Maclaurin《流数论》回应争论，同时有宗教/权威语境 | H117、H118摘要 | 研究解释限定，不写伯克利「终结微积分」 |
+| C20-06 | 对x²有差商=2x+h（h≠0）和现代极限=2x | 现代代数复算；H115§XVI供历史动机 | 本式现代解释；消去h后不是简单“带入h=0” |
+| C21-01 | 《无穷分析引论》1748出版并以函数组织分析 | H119 E101、H120原版馆藏、H124 | 记号/概念史，不能说Euler第一人使用函数 |
+| C21-02 | 1744欧拉出版变分法专著并研究一般最优曲线 | H122 E65 | 早于1748，篇章按主题回溯 |
+| C21-03 | 1755微分、1768—1770积分著作的发表序列 | H121 E212、H123 E342、H129 | 写作/发表分开 |
+| C21-04 | 函数、指数/对数、复指数关系与微分方程构成贯通框架 | H119、H124、H129 | 欧拉涉及对象广；公式现代证明要注明 |
+| C21-05 | y'=ky,y(0)=y0→y=y0e^{kx}是现代演算例 | 现代直接求导/初值检查 | 对所有实数k成立，不是声称欧拉首创该题 |
+| C21-06 | e^{ix}=cos x+i sin x可由现代收敛级数证明 | H124/现代独立计算 | 避免把形式展开和严格收敛无条件混同 |
+| C22-01 | 拉格朗日在欧拉之后推进变分法，且早期1754—1761工作不同于1797奠基 | H127、H128、H122 | 分期史学解释，禁止单线因果 |
+| C22-02 | 1797《解析函数论》原版题名旨在摆脱无穷小、极限、流数 | H125馆藏原文书目、H126 | 原文书名可查，目标不等于成功 |
+| C22-03 | 以f(x+t)=f(x)+A(x)t+B(x)t²+…的t一次项定义导出函数 | H126出版社摘要、H127史学 | 现代转写，适用须先有幂级数展开 |
+| C22-04 | f=x³代数展开时一次项系数3x² | 本章独立代数复算 | 不把t直接令0；依赖多项式恒等式 |
+| C22-05 | 一般光滑函数并不都能由局部Taylor级数重建 | 现有H111及前第19章 | 可简要回指既有反例而不重复全章 |
+| C22-06 | 变分例∫0¹(y')²dx在y(0)=0,y(1)=1时由y=x唯一极小 | 现代Cauchy–Schwarz或平方差 | 数学演示仅为现代变分法表述，不冒充Lagrange本人原例 |
+| C22-07 | 1797方法未彻底封闭分析基础，后续玻尔查诺和柯西等继续研究 | H126、H127、既有H05 | 应避免写成「拉格朗日错误→柯西一人最终解决」 |
+
+### 研究准入、未决问题及写作限制
+
+1. **可入工作初稿的事实**：伯克利1734一手论辩及后续回应；欧拉1744、1748、1755、1768—1770著作书目；拉格朗日早期变分研究与1797代数化奠基方案。核心出版信息有独立馆藏支持。
+2. **必须限制的论点**：伯克利批评不等于整个微积分全为伪数学；欧拉的函数不是20世纪集合映射定义；拉格朗日试图以泰勒级数建立基础，但现代理论表明其无条件普遍性不成立。
+3. **尚待补核**：《分析学家》原始印刷页码与异文；欧拉1748/1755首版具体段落和1755「导数定义」逐字；拉格朗日1797首版推导式的确切页码、1760年代通信原文，以及变分算例是否与原文相同。当前不编造细节。
+4. **门禁与独立审稿**：只供完成第20—22章的历史非虚构**工作初稿**。正式 `workflow-state.json` 仍保持outline/evidence未全书认证；独立双审也未执行，任何验证条目不能自动升格为全书PASS。
