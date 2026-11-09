@@ -1,6 +1,6 @@
 # 后续章节写作批次计划
 
-> 仅是未来写作调度，当前尚无正式章稿。每批三章（序章／尾声另行），每批先做 fact-research，再执行 nonfiction-architect 和 nonfiction-writer；只有实际审稿后才可能进入编辑与封版。
+> 仅是未来写作调度，第01—03章有工作初稿，但尚未独立审稿；其余章节仍为计划。每批三章（序章／尾声另行），每批先做 fact-research，再执行 nonfiction-architect 和 nonfiction-writer；只有实际审稿后才可能进入编辑与封版。
 
 | 批次 | 章号 | 本批推进目标 |
 | --- | --- | --- |
@@ -16,6 +16,6 @@
 | 10 | 28—30 | offline RL → inverse RL → 偏好学习 |
 | 11 | 31—32 | DPO → GRPO |
 
-[首批详细工作单](01-03.md) · [返回全书](../README.md)
+[首批工作初稿与核验记录](01-03.md) · [返回全书](../README.md)
 
 **操作约定**：每批新增实质性 `draft/NN.md` 内容时替换相应占位，并新增 `draft/NN.claims.json`；同时更新 `series.json` 真实章状态。不要通过占位文件数量计算成稿进度。

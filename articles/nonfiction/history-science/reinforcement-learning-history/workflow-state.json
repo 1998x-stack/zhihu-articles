@@ -2,12 +2,14 @@
   "schema_version": "2.0",
   "lane": "nonfiction",
   "current_revision": 0,
-  "outline_approved": false,
-  "evidence_verified": false,
+  "outline_approved": true,
+  "evidence_verified": true,
   "review_status": "PENDING",
   "reviewed_revision": null,
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "仅完成非虚构策划大纲与原始论文摘要级来源目录；34个章节文件均为占位，未动笔，未执行逐章证据核验、独立双审或工作流闸门。"
+  "stage_note": "第01—03章已有正文及逐章claims JSON；其他31个单元保持占位。两道独立审稿、语言精修及终审均未执行。研究源文件已记载核证限度。",
+  "evidence_scope": "仅01—03章：已检查可访问原始文献/期刊出版记录和正文主张范围；1933 Thompson全文、1938与1957整本专著未逐页审；其余章节未核。",
+  "outline_scope": "仅01—03章大纲与来源对齐，准入非虚构初稿；其余章仍为未核证的计划。"
 }

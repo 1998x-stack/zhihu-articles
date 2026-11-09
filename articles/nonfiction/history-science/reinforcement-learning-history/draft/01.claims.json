@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "chapter": "01",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "本批仅针对指定段落的出版元数据/可访问原始文本核查，章节尚未完成独立史料审稿；所有模型示例均为原创教学重构。",
+  "alias_to_research_source_id": {
+    "T01": "R27",
+    "T02": "R28",
+    "T03": "R29",
+    "T04": "R30",
+    "T05": "R01",
+    "S01": "R31",
+    "S02": "R32",
+    "S03": "R33",
+    "S04": "R34",
+    "S05": "R01",
+    "B01": "R35",
+    "B02": "R36",
+    "B03": "R01",
+    "B04": "R02"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-01-01",
+      "claim": "1898 桑代克原始研究使用不同机关的迷箱，记录动物多次逃脱用时",
+      "source_ids": [
+        "R27"
+      ],
+      "kind": "historical_fact",
+      "section": "一｜一只猫逃出来以后",
+      "evidence_note": "1898原始作品节选与书目；箱子不是单一机关",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-01-02",
+      "claim": "Cat 12 / Box A 在1911重印的一组24次记录由160秒起，总体缩短且不单调",
+      "source_ids": [
+        "R28"
+      ],
+      "kind": "primary_data",
+      "section": "二｜真正重要的不是第一次",
+      "evidence_note": "原文24项序列已逐数核对",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-01-03",
+      "claim": "24次记录前4次均值85秒，末4次均值6.75秒",
+      "source_ids": [
+        "R28"
+      ],
+      "kind": "author_calculation",
+      "section": "二｜真正重要的不是第一次",
+      "evidence_note": "使用原始数列作独立算术验算",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-01-04",
+      "claim": "效果律成熟系统表述见1911著作而非直接等于1898迷箱报告",
+      "source_ids": [
+        "R29",
+        "R30"
+      ],
+      "kind": "historical_qualification",
+      "section": "三｜效果律",
+      "evidence_note": "1911 p.244 和同行评议研究，避免倒推",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-01-05",
+      "claim": "效果律原始论述重视情境—反应联结及满足/不适后果",
+      "source_ids": [
+        "R29",
+        "R30"
+      ],
+      "kind": "historical_interpretation",
+      "section": "三｜效果律",
+      "evidence_note": "不可写成已有现代数值价值函数",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-01-06",
+      "claim": "p_new = p + α(1-p)是现代类比，在p=.2/α=.2时结果=.36",
+      "source_ids": [],
+      "kind": "teaching_reconstruction",
+      "section": "四｜把迷箱翻译成数学",
+      "evidence_note": "原创玩具规则；无任何历史归属",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-01-07",
+      "claim": "1911著作同时讨论效果律和练习律，以及其相互条件",
+      "source_ids": [
+        "R29"
+      ],
+      "kind": "historical_fact",
+      "section": "五｜重复，不等于学习",
+      "evidence_note": "1911 Chapter V 直接支持",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-01-08",
+      "claim": "现代RL不等于心理学迷箱实验，需额外讨论状态、长期回报和探索",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "conceptual_comparison",
+      "section": "六｜我们为什么仍然需要这个旧实验",
+      "evidence_note": "现代教材用作概念对照",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "1870—1911效果律概念演化与动物实验外推限制待独立史学审查"
+  ]
+}

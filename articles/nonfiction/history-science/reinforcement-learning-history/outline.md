@@ -39,7 +39,7 @@
 - **让读者追问**：奖赏如何改变下一次选择，而不是告诉行为者正确答案？
 - **必须讲清**：效果律、试错学习、行为反馈。
 - **研究边界**：不能把动物实验直接等同于现代强化学习算法；原始实验细节待核。
-- **首轮来源**：[R01](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)（仅索引，不代表本章全量史实通过核验）。
+- **首轮来源**：[R27](https://books.google.co.uk/books/about/Animal_Intelligence.html?id=jfJGAAAAYAAJ)、[R28](https://psychclassics.yorku.ca/Thorndike/Animal/chap2.htm)、[R29](https://psychclassics.yorku.ca/Thorndike/Animal/chap5.htm)、[R30](https://doi.org/10.1002/jeab.70073)、[R01](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)（本批限定范围核证，已生成非虚构工作初稿及claims JSON；仍待独立双审）
 - **交给下一章**：为什么一个动作的后果会改变未来动作的频率？
 - **章节占位**：[draft/01.md](draft/01.md)。
 
@@ -49,7 +49,7 @@
 - **让读者追问**：为什么一个动作的后果会改变未来动作的频率？
 - **必须讲清**：操作性条件作用、强化日程。
 - **研究边界**：区分心理学意义的强化与机器学习中的数值奖励；历史称谓待核。
-- **首轮来源**：[R01](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)（仅索引，不代表本章全量史实通过核验）。
+- **首轮来源**：[R31](https://www.bfskinner.org/product/the-behavior-of-organisms/)、[R32](https://garfield.library.upenn.edu/classics1990/A1990CK52100001.pdf)、[R34](https://dictionary.apa.org/negative-reinforcement)、[R33](https://www.bfskinner.org/product/schedules-of-reinforcement/)、[R01](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)（本批限定范围核证，已生成非虚构工作初稿及claims JSON；仍待独立双审）
 - **交给下一章**：没有哪台机器的收益率已知，如何避免永远选错？
 - **章节占位**：[draft/02.md](draft/02.md)。
 
@@ -59,7 +59,7 @@
 - **让读者追问**：没有哪台机器的收益率已知，如何避免永远选错？
 - **必须讲清**：探索—利用、序贯试验、遗憾。
 - **研究边界**：早期数学传统需补 Thompson／Robbins 等一手来源，不能将多臂老虎机等同于完整 MDP。
-- **首轮来源**：[R01](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)（仅索引，不代表本章全量史实通过核验）。
+- **首轮来源**：[R35](https://doi.org/10.1093/biomet/25.3-4.285)、[R36](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-58/issue-5/Some-aspects-of-the-sequential-design-of-experiments/bams/1183517370.pdf)、[R01](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)、[R02](https://mitpress.mit.edu/9780262039246/reinforcement-learning/)（本批限定范围核证，已生成非虚构工作初稿及claims JSON；仍待独立双审）
 - **交给下一章**：程序能否通过比赛经验改进既有判断？
 - **章节占位**：[draft/03.md](draft/03.md)。
 
@@ -367,3 +367,7 @@
 ## 叙事强制检查
 
 每章按“真实问题／人物处境 → 旧方法可做什么 → 真实失效条件 → 新方法与一个小例子 → 当时可知与事后理解 → 适用边界 → 下章悬问”推进。故事性来自可查事件与概念张力，不通过编造引文、私密心理或戏剧化会议制造高潮。公式第一次出现必须定义变量、解释假设与不能推出的结论。
+
+## 2026-11-09 第一批阶段记录
+
+第01—03章已按现有大纲形成正文初稿和逐章主张映射；第04—32章、序章及尾声仍为策划占位。针对首批章的史料与技术例子开展有限核验，不能把该进度推断成全书事实核证。全书大纲尚未经过独立终审，进入后续批次应在各章范围重复研究门禁。

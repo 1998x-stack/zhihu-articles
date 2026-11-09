@@ -2,8 +2,8 @@
   "schema_version": "1.0",
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
-  "status": "planning",
-  "reading_notice": "序章、32章、尾声均为章节策划占位；文献索引仅到部分摘要与出版记录；不等于正文、全书史实核证或正式审稿通过。",
+  "status": "drafting",
+  "reading_notice": "第01—03章具备未独立审稿的非虚构工作初稿及逐条claims JSON；序章、尾声、第04—32章共31个位置仍为策划占位。仅首批三章已作限定范围史料核验；全书没有通过双审或终稿批准。",
   "parts": [
     {
       "number": 1,
@@ -119,30 +119,44 @@
       "title": "桑代克的迷箱：奖励为什么不是标准答案？",
       "part": "第一部｜试错如何成为学习",
       "path": "draft/01.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
+        "R27",
+        "R28",
+        "R29",
+        "R30",
         "R01"
-      ]
+      ],
+      "claims_path": "draft/01.claims.json"
     },
     {
       "id": "02",
       "title": "斯金纳的操作箱：行为如何被后果塑造",
       "part": "第一部｜试错如何成为学习",
       "path": "draft/02.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
+        "R31",
+        "R32",
+        "R34",
+        "R33",
         "R01"
-      ]
+      ],
+      "claims_path": "draft/02.claims.json"
     },
     {
       "id": "03",
       "title": "多臂老虎机：先探索还是先赚钱",
       "part": "第一部｜试错如何成为学习",
       "path": "draft/03.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R01"
-      ]
+        "R35",
+        "R36",
+        "R01",
+        "R02"
+      ],
+      "claims_path": "draft/03.claims.json"
     },
     {
       "id": "04",
@@ -455,5 +469,6 @@
       ]
     }
   ],
-  "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段"
+  "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段",
+  "last_batch": "batches/01-03.md"
 }

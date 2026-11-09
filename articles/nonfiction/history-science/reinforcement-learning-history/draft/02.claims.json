@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "chapter": "02",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "本批仅针对指定段落的出版元数据/可访问原始文本核查，章节尚未完成独立史料审稿；所有模型示例均为原创教学重构。",
+  "alias_to_research_source_id": {
+    "T01": "R27",
+    "T02": "R28",
+    "T03": "R29",
+    "T04": "R30",
+    "T05": "R01",
+    "S01": "R31",
+    "S02": "R32",
+    "S03": "R33",
+    "S04": "R34",
+    "S05": "R01",
+    "B01": "R35",
+    "B02": "R36",
+    "B03": "R01",
+    "B04": "R02"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-02-01",
+      "claim": "Skinner 1938著作系统研究实验室白鼠的行为、强化及反应频率",
+      "source_ids": [
+        "R31",
+        "R32"
+      ],
+      "kind": "historical_fact",
+      "section": "二｜1938年",
+      "evidence_note": "著作记录＋作者1990追述",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-02-02",
+      "claim": "累计反应次数曲线斜率对应记录窗口的反应频率",
+      "source_ids": [
+        "R32"
+      ],
+      "kind": "scientific_explanation",
+      "section": "二｜1938年",
+      "evidence_note": "作者本人对累计记录与rate用途的回顾",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-02-03",
+      "claim": "Skinner自述Thorndike的效果律是操作性条件作用的先驱且实验条件不同",
+      "source_ids": [
+        "R32"
+      ],
+      "kind": "historical_fact",
+      "section": "二｜1938年",
+      "evidence_note": "1990回顾，不能伪装1938现场思想",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-02-04",
+      "claim": "负强化按定义是移除/预防/延迟厌恶刺激使行为发生概率提高",
+      "source_ids": [
+        "R34"
+      ],
+      "kind": "terminology",
+      "section": "三｜强化究竟强化了什么",
+      "evidence_note": "与惩罚不是同一分类",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-02-05",
+      "claim": "Ferster和Skinner合著1957年《强化日程》，研究不同安排下的行为",
+      "source_ids": [
+        "R33"
+      ],
+      "kind": "historical_fact",
+      "section": "四｜每次奖励一次",
+      "evidence_note": "1957原著与基金会记录",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-02-06",
+      "claim": "FR4每四次有效反应一次、FI60为60秒后第一合格反应一次",
+      "source_ids": [
+        "R33"
+      ],
+      "kind": "teaching_reconstruction",
+      "section": "四｜每次奖励一次",
+      "evidence_note": "规则演示，非原始个体数据",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-02-07",
+      "claim": "N(60)=6和N(120)=24构成前后一分钟0.1与0.3次/秒",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "五｜一条累计曲线",
+      "evidence_note": "数学例题独立验算；不能推出因果",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-02-08",
+      "claim": "心理学强化与现代MDP里的奖励及长期回报不能视为同一理论",
+      "source_ids": [
+        "R01",
+        "R31"
+      ],
+      "kind": "conceptual_comparison",
+      "section": "六｜实验室的强化",
+      "evidence_note": "后世类比，非直接师承证明",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "原始1938与1957专著全文没有逐页核查；强化日程实验具体效应不可越过来源概述"
+  ]
+}
