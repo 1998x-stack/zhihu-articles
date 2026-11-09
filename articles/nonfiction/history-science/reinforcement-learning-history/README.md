@@ -130,7 +130,7 @@
 | 文件 | 职责与用途 |
 | --- | --- |
 | [brief.md](brief.md) | 唯一一次三方案比较、读者承诺与已选立场 |
-| [research.md](research.md) | 来源编号 R01—R45、前两批限定范围核证与其余待核任务 |
+| [research.md](research.md) | 来源编号 R01—R46、前两批限定范围核证与其余待核任务 |
 | [outline.md](outline.md) | 全书及逐章研究问题、概念推进、风险和承接 |
 | [claim-ledger.md](claim-ledger.md) | 第01—06章证据映射与其余章节候选主张；仅限明示支持范围 |
 | [timeline.md](timeline.md) | 年份／发表与事件区别、并行历史线索 |

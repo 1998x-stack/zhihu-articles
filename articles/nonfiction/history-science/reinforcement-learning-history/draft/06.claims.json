@@ -12,7 +12,8 @@
       "R38",
       "R39"
     ],
-    "P05": "R43"
+    "P05": "R43",
+    "P06": "R46"
   },
   "claims": [
     {
@@ -124,6 +125,19 @@
       "kind": "historical_qualification",
       "section": "二｜从链到决策",
       "evidence_note": "避免单源起源叙事",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-06-10",
+      "claim": "Howard的MIT Studies in Discrete Dynamic Programming博士论文正式馆藏年份为1958，1960年出版相关专著",
+      "source_ids": [
+        "R46",
+        "R42"
+      ],
+      "kind": "historical_fact",
+      "section": "二｜从马尔可夫链到能够选择的过程",
+      "evidence_note": "MIT原始馆藏Issued 1958；史密森1960专著；个人年表误列1959，优先采用机构记录",
       "checked_for_draft": true,
       "independent_review": false
     }
