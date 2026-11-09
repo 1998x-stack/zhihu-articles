@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "chapter": "12",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "为当前第10—12章写作限定范围完成出版社/机构原始记录、作者公开文字与教材解释比对；部分PDF截图不可用、图表未完成目视二审。原创数值算例逐项复算，所有证据映射不是审稿PASS。",
+  "alias_to_research_source_id": {
+    "S01": "R01",
+    "S02": "R58",
+    "S03": "R59",
+    "S04": "R60",
+    "S05": "R57",
+    "S06": "R07"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-12-01",
+      "claim": "SARSA一步更新使用五元组s,a,r,s',a'，与Q-learning的max目标不同",
+      "source_ids": [
+        "R01",
+        "R57"
+      ],
+      "kind": "modern_algorithm",
+      "section": "二｜两种目标",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-12-02",
+      "claim": "同一教学样本Q-learning更新3.2，SARSA以实际a'值1更新.95",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "三｜数字区别",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-12-03",
+      "claim": "Rummery/Niranjan报告1994题名On-Line Q-Learning Using Connectionist Systems",
+      "source_ids": [
+        "R58",
+        "R59"
+      ],
+      "kind": "primary_publication",
+      "section": "四｜1994",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-12-04",
+      "claim": "1994作者报告称新方法Modified Connectionist Q-Learning（MCQ-L）而非SARSA",
+      "source_ids": [
+        "R58",
+        "R01"
+      ],
+      "kind": "historical_attribution",
+      "section": "四｜原名称",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-12-05",
+      "claim": "Sutton与Barto教材历史注释记载SARSA名称在1996年由Sutton引入",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "historical_attribution",
+      "section": "四｜后来命名",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-12-06",
+      "claim": "在策略学习使用按当前行为策略实际选取的a'形成TD目标",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "modern_definition",
+      "section": "二、六｜on-policy",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-12-07",
+      "claim": "悬崖行走教材例在固定探索影响下可呈现不同风险路线，但不意味SARSA普遍安全",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "teaching_example_scope",
+      "section": "五｜悬崖",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-12-08",
+      "claim": "SARSA会随Q变化改变epsilon-greedy行为，并非只能评估固定策略",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "modern_method",
+      "section": "六｜控制",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-12-09",
+      "claim": "Singh等2000研究单步在策略算法在特定探索及其他假设下的收敛",
+      "source_ids": [
+        "R60"
+      ],
+      "kind": "primary_theorem_scope",
+      "section": "七｜探索条件",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-12-10",
+      "claim": "GLIE等访问/极限贪心条件是数学渐近要求而非现实安全指令",
+      "source_ids": [
+        "R01",
+        "R60"
+      ],
+      "kind": "technical_qualification",
+      "section": "七｜局限",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-12-11",
+      "claim": "Williams1992 REINFORCE提供下一章策略直接优化的另一路线",
+      "source_ids": [
+        "R07"
+      ],
+      "kind": "chronology",
+      "section": "九｜下一章",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "剑桥1994技术报告完整原文未逐页复核，原名称与当今表格SARSA相关但不等同全部实现",
+    "SARSA命名年1996来自作者2018教材历史注释，不声称已目视找到1996首用句",
+    "悬崖案例属教材设定，不得推广为现实安全承诺"
+  ]
+}

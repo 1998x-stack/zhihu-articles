@@ -52,8 +52,8 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - [ ] 1898 桑代克动物实验、斯金纳操作性条件作用的出版年代与原始叙事，防止“迷箱”奇闻化。
 - [ ] 多臂老虎机的 Thompson／Robbins 文献脉络和 bandit 与一般 RL 的分界。
 - [x] Bellman《Dynamic Programming》1957初版及Howard《Dynamic Programming and Markov Processes》1960年出版信息已交叉核查；[ ] MDP术语更早流变及全书论证仍需深度复核，不能将现代教材记号倒推给早期作者。
-- [ ] Sutton 的 TD 方法此前 Samuel／Witten／其他前驱及首创归属。
-- [ ] Watkins 1989 论文、SARSA/Rummery-Niranjan 源流与收敛条件。
+- [x] 第10章已在1988年Sutton原始论文摘要及作者正文中核对Samuel、Holland、adaptive heuristic critic等TD前驱；[ ] 其他早期前驱的完整年代与技术同构程度尚需专题史学核对。
+- [x] 第11—12章已核对Watkins剑桥1989学位记录、Watkins/Dayan1992表格Q-learning定理摘要、Rummery/Niranjan1994报告公告以及Sutton1996命名的教材史学记录；[ ] 原始报告全文更新式与严格定理假设还需独立逐页复核。
 - [ ] 经验回放技术的早期 Lin 论文与 DQN 的差别。
 - [ ] 致命三角典型反例及成立条件；数学推导逐项验算。
 - [ ] 多智能体 RL、机器人控制、层次方法的遗漏贡献与性别／地域偏差。
@@ -66,7 +66,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **C**：专业综述支持，适宜历史背景，不单独支持争议归属。
 - **D**：编辑假设、类比或待核猜想，不进入正文事实陈述。
 
-截至2026-11-09，第01—09章已按各批次针对可访问的一手论文摘要、出版社记录和技术定义开展**限定范围前置核验**；第10章以后及未通读完整原著的争议细节仍属 **B/C 或待核**。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
+截至2026-11-09，第01—12章已分别针对各自可访问的一手原文片段、出版社与大学馆藏记录以及技术定义开展**限定范围前置核验**；第13章以后及未通读完整原著的争议细节仍属 **B/C 或待核**。不能据此宣布全书完成来源核查。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
 
 ## 第01—03章增量核证记录（2026-11-09）
 
@@ -147,3 +147,27 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - 08章：确定性A→B→终点，(alpha=1,gamma=0.9)，经历两次真实更新后，使用学习模型重演A→B可使 (Q(A)=0.9)。**只有在模型相应转移正确时才能如此计算**。
 - 09章：现代教学式误差 (delta=0+0.9(-0.3)-0.2=-0.47)，更新 (0.2+0.2(-0.47)=0.106)；绝非1983 ACE准确原始参数更新。
 - R47、R48、R49及R04的关键论断主要核至权威出版社／会议的原始出版页面和摘要，原文所有证明与试验图表仍待独立全文二审，不可冒称终审或科研复现。
+
+## 第四批10—12章研究与归属限度（2026-11-09）
+
+> 在本批中，`evidence_verified`只能指第10—12章所列可支持事实的**写作前核查**，不代表每份原始论文全部章节已完成目视复核。别名TD-/Q/S见逐章claims映射到R号。
+
+| 来源ID | 一手/学术资料入口 | 所支持的具体层级与限制 |
+| --- | --- | --- |
+| R53 | [Sutton (1988), Learning to Predict by the Methods of Temporal Differences](https://mlanthology.org/mlj/1988/sutton1988mlj-learning/) | Machine Learning 3:9–44，原刊题名、作者、摘要；TD作为预测方法的系统化、先驱（Samuel/Holland/自适应评价）、限定情形收敛 |
+| R54 | [Sutton (1988), original paper scan, random-walk §3.2](https://www.derongliu.org/adp/adp-cdrom/refs/sutton19880009.pdf) | 原论文文本摘录核对天气周一/周二例子和A—G七状态对称随机游走；截图服务未成功，不引用未经目视确认的图表坐标或性能数字 |
+| R55 | [Watkins (1989), Learning from Delayed Rewards, Cambridge PhD thesis](https://www.repository.cam.ac.uk/items/f1ce2aa9-2e01-4a08-92b7-1eec76b652ed) | 剑桥大学机构一手馆藏，1989-05-10学位论文提交记录、作者与摘要：从延迟奖励学有效行为、动态规划与增量学习 |
+| R56 | [Christopher Watkins, Reinforcement Learning: Some History (author recollection)](https://www.cs.rhul.ac.uk/home/chrisw/RL_some_history.html) | 作者本人历史回顾，1989年向Barto与Sutton分享草稿；属多年后回忆，不可虚构逐字会谈 |
+| R57 | [Watkins & Dayan (1992), Q-Learning, Machine Learning 8:279–292](https://doi.org/10.1007/BF00992698) | 原刊出版摘要与部分全文文本，离散表格、重复采样和学习率等条件下最优动作价值的概率一收敛；与1989论文分开 |
+| R58 | [G. A. Rummery (1994-10-04), TR166 author announcement and abstract](https://groups.google.com/g/comp.ai.neural-nets/c/GtWN2rmxvME) | 原作者1994公告：Rummery与Niranjan、Cambridge Engineering TR166、Modified Connectionist Q-Learning、在线更新/神经逼近；原文并非直接命名SARSA |
+| R59 | [Rummery & Niranjan (1994), Cambridge TR166 external academic bibliography](https://www.cs.utexas.edu/~shivaram/readings/b2hd-RummeryNiranjan1994.html) | 大学学术书目交叉确认1994技术报告号及原题；报告全部参数与实验图表尚未逐页核对 |
+| R60 | [Singh, Jaakkola, Littman & Szepesvari (2000), Convergence Results for Single-Step On-Policy Reinforcement-Learning Algorithms](https://doi.org/10.1023/A:1007678930559) | 原始期刊摘要，on-policy单步控制、递减/持续探索与特定条件收敛，不能外推到一般深度函数逼近 |
+| R61 | [Dayan & Sejnowski (1994), TD(lambda) Converges with Probability 1](https://www.gatsby.ucl.ac.uk/~dayan/papers/ds94.pdf) | 作者论文摘要与发布记录，对TD(lambda)部分形式加强概率一收敛结果，强调与1988期望收敛区别 |
+
+### 必须保留的时间线和科学条件
+
+- **1988 TD**：Sutton论文《Learning to Predict by the Methods of Temporal Differences》首先是**预测学习**的理论系统化；天气周一50%/周二75%是原文用来阐释TD的假设示例；七状态A—G随机游走来自原文§3.2。它明确承认1959 Samuel跳棋、Holland bucket brigade和更早adaptive heuristic critic的相关思想。TD(λ)、TD(0)的现代符号与原论文符号须区分，收敛结论不得无限推广。
+- **1989／1992 Q-learning**：剑桥大学馆藏Watkins博士论文提交日为1989-05-10，Watkins与Dayan1992期刊论文则专门详证表格有限Markov环境下，在充分采样和适当学习率等前提下的最优动作价值概率一收敛。**这不是任意离策略神经网络的全局保证**。
+- **1994／1996 SARSA**：Rummery与Niranjan1994剑桥工程系TR166摘要使用**Modified Connectionist Q-Learning**命名；Sutton与Barto2018教材历史注释将Sarsa名的引入归于Sutton1996；不能把1994技术报告标题改成“SARSA”。2000年Singh等提供特定探索条件下的在策略理论结果。
+- **现代同样数字不同目标**：设(Q(s,a)=2,r=-1,gamma=.9,alpha=.5,Q(s',左)=6,Q(s',右)=1)，下一实际动作选右。Q-learning目标4.4、一次更新3.2；SARSA目标-0.1、一次更新0.95。两者均正确且都是**作者自设教学例题**，不是学术论文原始实验。TD另例(p=.5)周二(p=.75)以(alpha=.2)更新至.55；状态估值.4→.4575，(delta=.23)。
+- **本批未完成**：1988论文与1992论文PDF截图服务失败，虽可获取原始文本段落、期刊摘要，但不能宣称所有图表已目视二核；1994剑桥TR166全文未完整阅读；尚无独立连续性审稿、发展审稿或终稿批准。

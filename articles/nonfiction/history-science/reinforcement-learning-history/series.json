@@ -3,7 +3,7 @@
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
   "status": "drafting",
-  "reading_notice": "第01—09章有来源范围明确的非虚构工作初稿及claims JSON；序章、尾声与第10—32章共25个单元仍是策划占位。独立双审、全书事实核验及终稿均未完成。",
+  "reading_notice": "01—12章已有各自范围限定的非虚构工作初稿与逐章claims JSON；序章、尾声和13—32章共22个叙事单元仍为策划占位。独立事实复审、结构双审、精修与终审尚未完成。",
   "parts": [
     {
       "number": 1,
@@ -251,31 +251,48 @@
       "title": "萨顿的时序差分：结果未到，预测先改变",
       "part": "第三部｜奖励迟到时，机器如何学习",
       "path": "draft/10.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R05"
-      ]
+        "R53",
+        "R54",
+        "R01",
+        "R61",
+        "R55",
+        "R57"
+      ],
+      "claims_path": "draft/10.claims.json"
     },
     {
       "id": "11",
       "title": "沃特金斯的 Q-learning：不按正在用的策略，也能学最优吗",
       "part": "第三部｜奖励迟到时，机器如何学习",
       "path": "draft/11.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R06"
-      ]
+        "R55",
+        "R56",
+        "R57",
+        "R01",
+        "R58",
+        "R59"
+      ],
+      "claims_path": "draft/11.claims.json"
     },
     {
       "id": "12",
       "title": "SARSA：为什么照着实际走过的路学习会不同",
       "part": "第三部｜奖励迟到时，机器如何学习",
       "path": "draft/12.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
         "R01",
-        "R06"
-      ]
+        "R57",
+        "R58",
+        "R59",
+        "R60",
+        "R07"
+      ],
+      "claims_path": "draft/12.claims.json"
     },
     {
       "id": "13",
@@ -496,5 +513,5 @@
     }
   ],
   "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段",
-  "last_batch": "batches/07-09.md"
+  "last_batch": "batches/10-12.md"
 }
