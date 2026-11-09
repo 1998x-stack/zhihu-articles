@@ -91,3 +91,30 @@
 | 06 | C06-07 | 1969不是AI冬天唯一充分原因 | DL29,DL30 | 竞争解释 | INTERPRETATION |
 
 **注意**：此处仅代表允许撰写有来源约束的非虚构工作初稿，并不是全章逐句核准，更不是全书封版许可。
+
+## 第三批07—09章：限定来源的细分主张账本
+
+| chapter | claim_id | 断言与知识解释 | source_id | 核查等级 | 必守边界 |
+| --- | --- | --- | --- | --- | --- |
+| 07 | C07-01 | 1970Linnainmaa芬兰硕士论文与1976论文 | DL33,DL34,DL35 | SCOPED_VERIFIED | 数值误差研究与逆向累积，而非直接训练神经网络 |
+| 07 | C07-02 | 1974 Werbos博士论文与后续多路研究先于1986 | DL36,DL37 | SCOPED_VERIFIED | 史学归属多源，仅作分层贡献 |
+| 07 | C07-03 | 反向模式求大量输入参数对单标量导数更有效 | DL35 | QUALIFIED | 效率依赖存储和计算图，不宣称常量时间 |
+| 07 | C07-04 | Ivakhnenko GMDH 1978统计选模路线 | DL39 | SCOPED_VERIFIED | 不称现代神经反传的同一算法 |
+| 07 | C07-05 | 1971 Intel4004史实与日本Busicom需求背景 | DL38 | SCOPED_VERIFIED | 硬件史不等于深度训练当时可行 |
+| 07 | C07-06 | u=ab+c的多偏导教学例 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | a=2,b=3,c=1得42,28,14 |
+| 08 | C08-01 | 1979福岛IJCAI新认知机会议论文 | DL40 | SCOPED_VERIFIED | 不能仅将1980写作首次问世 |
+| 08 | C08-02 | 1980S/C视觉层级和无教师自组织 | DL41 | SCOPED_VERIFIED | 只限定论文模型和实验，不等于现代CNN端到端反传 |
+| 08 | C08-03 | 1982后续视觉平移与形变容忍研究 | DL42 | SCOPED_VERIFIED | 模型实验声称不保证任意图片有效 |
+| 08 | C08-04 | 1982Hopfield联想记忆与部分线索恢复 | DL43 | SCOPED_VERIFIED | 对称连接异步更新等模型前提 |
+| 08 | C08-05 | 1985玻尔兹曼机论文的随机状态和学习 | DL44,DL46 | SCOPED_VERIFIED | 不与Hopfield确定性更新或反向传播混同 |
+| 08 | C08-06 | 2024诺奖后见之明不能替代1980年代史料 | DL45 | HISTORIOGRAPHICAL_LIMIT | 2024评价是事后荣誉 |
+| 08 | C08-07 | 三节点Hopfield模式恢复教学例 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 异步单点更新，非普遍容错保证 |
+| 09 | C09-01 | 1986-10-09Nature原论文作者与核心主张 | DL47 | SCOPED_VERIFIED | 原文摘要支持隐藏单位形成特征 |
+| 09 | C09-02 | Linnainmaa/Werbos等在不同领域较早探索相关方法 | DL33,DL34,DL35,DL36,DL37 | SCOPED_VERIFIED | 不造单向直接传授关系 |
+| 09 | C09-03 | 1985 LeCun会议已有隐藏层训练探索 | DL48 | QUALIFIED | 公开摘要已核，PDF截图失败，方法不直接等同Nature标准式 |
+| 09 | C09-04 | 链式法则反向分配隐藏层信用与梯度下降区别 | DL47,DL35 | TECHNICAL_DERIVATION | 只在可微训练设定下适用 |
+| 09 | C09-05 | 两层sigmoid手算梯度和更新 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 四舍五入值与精确复算不同 |
+| 09 | C09-06 | 1986PDP研究范式及后世影响 | DL49,DL50 | INTERPRETATION | 不能凭2010年代成果断言1986已解决深层训练 |
+| 09 | C09-07 | 1986关键扩散节点而非从无到有 | DL47,DL36,DL48 | QUALIFIED | 不同作者具体贡献仍待完整史学审稿 |
+
+**该表用于07—09的非虚构工作初稿许可**；所谓SCOPED_VERIFIED是中心史实/元数据及公开可见论证范围的核对，不等于原论文全文逐页审定，DERIVATION仅指可复算的作者教学推导。未完成独立事实与结构双审。

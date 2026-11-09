@@ -162,3 +162,47 @@
 2. Rosenblatt原始多单元感知机与现代单神经元教学简化绝不等同；Mark I硬件具体年月暂不作肯定断言。
 3. 1969年原书的复杂拓扑和连通性证明不在本轮复现范围内。
 4. “AI冬天”的年代与具体经费因果，按独立史学研究核对；如来源不能支持绝对断言，必须改为解释性的有限表述。
+
+## 七、第三批07—09章：独立事实研究与有限证据许可（2026-11-09）
+
+> 此批**只核对第07—09章拟写的中心史实、可复算的数学原理及史学争议**；不是全文逐句核证，更不是对序章和第10—31章的研究许可。优先原始论文出版社、大学馆藏、专业史学论文；后来的诺奖材料只能用于回顾，不能冒充1980年代的当时证据。有关PDF，1985 LeCun会议文本的页面截图无法取得，正文仅用其公开摘要可查范围，不据未看到的页面推断细节。
+
+| ID | 来源属性 | 文献 | 可支持范围与警戒线 |
+| --- | --- | --- | --- |
+| DL33 | 1970硕士论文大学图书馆原始馆藏 | [Seppo Linnainmaa, Algoritmin kumulatiivinen pyöristysvirhe... (University of Helsinki, 1970)](https://www.finna.fi/Record/helka.9933382303506253) | 证明1970年已有该芬兰硕士论文；书目本身不证明1986作者直接使用了它 |
+| DL34 | 1976原始同行评审论文 | [Linnainmaa, Taylor expansion of the accumulated rounding error, BIT 16:146–160 (1976)](https://doi.org/10.1007/BF01931367) | 确定1976发表与误差反向累积分析主题；注意研究目标是数值误差 |
+| DL35 | 自动微分领域学术史 | [Griewank & Walther, On automatic differentiation and algorithmic linearization (2012/2014 available)](https://www.scielo.br/j/pope/a/kZ8M4LPYFryXQkdwHz7QXVx/?lang=en) | 讲述reverse AD与Linnainmaa前史，避免单一首次发明者争论 |
+| DL36 | 计算/神经网络史学综述 | [Neural networks for perceptual processing: from simulation tools to theories, open access peer-reviewed review](https://pmc.ncbi.nlm.nih.gov/articles/PMC2323553/) | 指出1974 Werbos、1982 Parker与1986普及不同层级；二手史学概括需限定 |
+| DL37 | Werbos原学位论文再版书目评论 | [The Roots of Backpropagation: From Ordered Derivatives to Neural Networks (1996 review of 1974 Werbos thesis)](https://doi.org/10.1088/0954-898X/7/1/008) | 确认1974 Harvard博士论文及后来再版；不据此宣称无争议的全部发明优先权 |
+| DL38 | 史密森学会实物与年代记录 | [Intel 4004 Microprocessor, National Museum of American History, 1971](https://www.americanhistory.si.edu/collections/object/nmah_713495) | 1971微处理器商业化节点；不等于70年代具备现代深度网络训练算力 |
+| DL39 | 1978统计模型原始论文 | [Ivakhnenko, The group method of data handling in long-range forecasting, Technological Forecasting and Social Change (1978)](https://www.sciencedirect.com/science/article/pii/0040162578900574) | 自组织多项式/模型选择统计路线；不等同1986反向传播或现代深度神经网络 |
+| DL40 | 1979原始会议论文 | [Kunihiko Fukushima, Self-Organization of a Neural Network which Gives Position-Invariant Response, IJCAI 1979](https://ijcai.org/proceedings/1979/66) | 可核证1979已有neo-cognitron会议报告，不能把1980写作绝对首发 |
+| DL41 | 1980原始研究刊物 | [Fukushima, Neocognitron, Biological Cybernetics 36:193–202 (1980)](https://pubmed.ncbi.nlm.nih.gov/7370364/) | 自组织无教师、S/C交替、位置平移稳定性为论文模型的目标与结果 |
+| DL42 | 1982原始视觉研究 | [Fukushima & Miyake, Neocognitron: A new algorithm for pattern recognition tolerant of deformations and shifts (1982)](https://www.sciencedirect.com/science/article/pii/0031320382900243) | 1982后续方法描述与变形稳健性；不保证任意真实图像任务泛化 |
+| DL43 | 1982原始论文公开存档 | [Hopfield, Neural networks and physical systems with emergent collective computational abilities, PNAS 79:2554–2558 (1982)](https://pmc.ncbi.nlm.nih.gov/articles/PMC346238/) | 联想记忆、内容寻址和集体能量机制；模型不等同监督分类器 |
+| DL44 | 1985原始论文出版社信息 | [Ackley, Hinton & Sejnowski, A learning algorithm for Boltzmann machines, Cognitive Science 9:147–169 (1985)](https://doi.org/10.1016/S0364-0213(85)80012-4) | 1985论文作者、机制框架，统计物理和随机性；与反传为不同训练路线 |
+| DL45 | 诺奖官方公告：后见之明 | [Royal Swedish Academy of Sciences, Nobel Prize in Physics 2024 press release (2024-10-08)](https://www.nobelprize.org/prizes/physics/2024/press-release/) | 回顾Hopfield、Hinton的贡献；不是1980年代共同体当时评价 |
+| DL46 | 研究者晚近讲座性回顾 | [Hinton, Nobel Lecture: Boltzmann machines, Rev Mod Phys 97 030502 (2025)](https://doi.org/10.1103/RevModPhys.97.030502) | 指出玻尔兹曼机与反传为1980年代两种不同的梯度学习技术，回顾观点标注作者 |
+| DL47 | 原始论文期刊页面 | [Rumelhart, Hinton & Williams, Learning representations by back-propagating errors, Nature 323:533–536, 1986-10-09](https://www.nature.com/articles/323533a0) | 确证论文年份、作者、核心目的：优化输出差异并使隐藏单元形成特征 |
+| DL48 | 1985研究者一手会议文本摘要 | [Yann LeCun, A Learning Scheme for Assymetric Threshold Network, Cognitiva 85 (Paris, 1985)](https://yann.lecun.com/exdb/publis/pdf/lecun-85.pdf) | 1985已有隐藏层训练、非线性区分的研究探索；论文PDF视觉截图失败，只按公开可读摘要核对，不称等同标准1986反传 |
+| DL49 | 认知科学回顾性研究 | [Parallel Distributed Processing at 25: Further Explorations in the Microstructure of Cognition, Cognitive Science (2014)](https://onlinelibrary.wiley.com/doi/10.1111/cogs.12148) | 1986 PDP研究共同体的多领域背景；后世评价不同于原始实验 |
+| DL50 | 2025 PNAS学术人物史 | [Profile of John Hopfield and Geoffrey Hinton: 2024 Nobel laureates in Physics, PNAS (2025)](https://doi.org/10.1073/pnas.2423094122) | 关于1986研究形成过程为后世学术回顾；强调当时多个研究路线并行 |
+
+### 源流与因果核查
+
+- **07章：数字微分—训练求梯度—可实现的算力三个条件并行**。芬兰Linnainmaa1970学位论文与1976论文研究的是数值误差灵敏度及反向累积，不是当场训练多层神经网络；Werbos1974论文及1980年代Parker等研究说明应用与传播有各自历史。不能写成一条已经证实的师生传承链；逆向累积算导数与梯度下降优化是相邻而不同的步骤。1978 Ivakhnenko 的GMDH在统计模型选择上提供平行思路，但不等同今天基于反传训练的深度网络。1971 Intel 4004历史有博物馆可证，却不能证明早期微处理器使深网训练现实可行。
+- **08章：日本视觉层级—物理学联想记忆—随机生成学习**。1979福岛邦彦IJCAI已有neocognitron会议稿，1980 *Biological Cybernetics*的S/C层次与无教师自组织有原摘要；Hopfield1982强调内容寻址、模式恢复；Ackley/Hinton/Sejnowski 1985玻尔兹曼机强调随机状态和学习连接。模型结构、数据输入和训练目的三者都不同。不以2024诺奖“回头看”的认可代替1980年代成果的实际证据。
+- **09章：多层隐藏单位的信用分配问题**。1986 *Nature*论文（1986-10-09）明确以输出和期望差距为训练目标，强调隐藏单元学到任务特征；早期Werbos、Linnainmaa、LeCun等工作应在贡献维度上各自定位，不宣称1986首次发明一般链式求导/逆向微分/所有神经学习。需区分可微链式法则、逆向自动微分、反向传播计算梯度、优化器更新权重、成功泛化五层。
+
+### 现代教学例题，非历史实验记录
+
+1. **07章共享中间量**：u=a×b+c，L=u²。a=2,b=3,c=1时u=7,L=49，逆向得∂L/∂u=14、∂L/∂a=42、∂L/∂b=28、∂L/∂c=14。适合说明一次逆向遍历复用中间量，不证明任何1970年代论文做过同样训练。
+2. **08章联想记忆**：三元±1模式p=(+1,+1,-1)，用现代教学式w_ij=p_i p_j (i≠j)，若输入q=(+1,+1,+1)，同步与异步更新必须区分；取**异步只更新第3单元**：h_3=w_31 q_1+w_32 q_2=-2 → q_3从+1到-1，其余保持。该构造展示受约束的内容寻址，不代表系统无条件恢复任意噪声。
+3. **09章两层标量网络**：x=1,w=1,v=1,t=1，h=σ(wx)≈0.731059，y=σ(vh)≈0.675038，L=½(y-t)²≈0.052800。反传∂L/∂v≈−0.052113，∂L/∂w≈−0.014015；学习率0.1同时更新后L≈0.052510。教学计算须独立复算，只有在此例的条件下才展示损失下降。
+
+### 未解决的完整史学审读项
+
+- 1970芬兰学位论文与1974 Werbos学位论文的逐页技术原文尚未全部调阅；不虚构引用/文献传播关系。
+- 1985 LeCun会议论文PDF截图尝试遇服务器错误，公开文字摘要可定位，但不能引述图号或未观察到的页码。
+- Hopfield模型的稳定性需要对称权重、无自连接、合适更新约定等前提；不要把任意异步/同步操作都说成能量单调下降。
+- 1986 *Nature*原文摘要可核，本文不自行声称复现实验结果或优先权争议已有定论。

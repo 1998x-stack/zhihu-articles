@@ -9,9 +9,9 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "第01—06章完成工作初稿和逐章claims.json；证据和大纲仅限01—06中心主张，未独立连续性与结构双重审稿；后续章节未核验。",
-  "evidence_scope": "中心史实与数学例题已限域核对第01—06章，序章及第07—31章未据此批准；各章仍需独立事实审稿与原著复核。",
-  "outline_scope": "第01—06章完成章节细纲及限域研究；序章及第07—31章仍为全书策划提纲。",
+  "stage_note": "第三批07—09已完成来源登记、关键主张有限核证与细纲许可，进入nonfiction-writer工作初稿；前六章仍未完成独立双重审稿",
+  "evidence_scope": "第01—09章各批中心史实与教学算例已限域核对，序章00及第10—31章仍待逐章核验；07—09尚需独立事实审稿和原文细节复核",
+  "outline_scope": "第01—09章已分批核对叙事细纲，序章及第10—31章只保留策划提纲；不代表全书通过独立审稿",
   "draft_scope": "01—06章工作初稿（6篇）；序章00及07—31仍为26篇策划占位",
   "last_completed_working_draft_chapter": 6
 }
