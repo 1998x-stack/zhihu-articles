@@ -297,3 +297,42 @@
 3. 2011语音论文的模型规模（训练小时数/状态数/层数）可以按其论文范围引用，但不同基准或统计口径不可直接横比；如使用27.4与18.5必须注明单遍、说话人无关、RT03S Fisher数据条件。
 4. 不得虚构中国学者国籍、现场对话或实验日志；应以原论文中北京/雷德蒙德机构署名和原始作者列为准。
 5. 本轮所有章节仍为工作初稿研究范围；独立连续性审计和结构审稿没有PASS，最终版本未批准。
+
+## 十、第六批16—18章：ImageNet—AlexNet—ResNet限定史料核查（2026-11-10）
+
+> **本批仅核定16—18章中心史实、模型架构、可复算示例、指标口径与史学因果约束**。原始PDF已查看ImageNet 2009、AlexNet 2012（官方NIPS PDF首页及结果表）、ResNet 2016（CVPR首页及残差机制）。尚非三章全文每句的独立审稿，不授权16—18以外的任何章节，也不变更此前01—15的PENDING状态。
+
+| ID | 证据属性 | 原始文献 | 可支撑范围与必须警惕的细节 |
+| --- | --- | --- | --- |
+| DL77 | CVPR 2009 原始论文（ImageNet官网PDF已逐页目视核首页） | [Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, Li Fei-Fei; ImageNet: A Large-Scale Hierarchical Image Database](https://www.image-net.org/static_files/papers/imagenet_cvpr09.pdf) | 论文发布时12个子树、5247 synsets、320万图片；WordNet层级、众包标注；这不是2012竞赛的1000类子集 |
+| DL78 | CVPR 2009正式会议书目 | [ImageNet: A Large-Scale Hierarchical Image Database, IEEE CVPR 2009, pp.248–255](https://doi.org/10.1109/CVPR.2009.5206848) | 确认2009会议论文与作者、发布日期；不可把项目目标的数千万图片说成2009已实有 |
+| DL79 | IJCV 2015竞赛研究史（arXiv 2014先行版） | [Russakovsky et al., ImageNet Large Scale Visual Recognition Challenge](https://arxiv.org/abs/1409.0575) | ILSVRC自2010起年赛；2010起1000类图像分类与检测等任务；训练/验证/测试、隐藏测试答案、公开标准；2015期刊总结回溯，不能冒称2010当年回顾 |
+| DL80 | MIT存档及NIPS原始PDF，首页、结果表已目视核对 | [Krizhevsky, Sutskever & Hinton, ImageNet Classification with Deep Convolutional Neural Networks (2012)](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) | 2012 ILSVRC top-5 test 15.3%为七个CNN组合（五个相关模型+两个在更大ImageNet版本监督预训练的模型），第二名26.2%；2010数据单CNN test top1 37.5%、top5 17.0%不可与2012指标混同 |
+| DL81 | NeurIPS 2012官网摘要网页，与同站正式PDF数值有差异 | [NIPS 2012 paper landing page: ImageNet Classification with Deep Convolutional Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) | 网页摘要称1.3m与500k神经元/39.7%、18.9%；官方PDF首页则称1.2m、650k/37.5%、17.0%。本文统一以论文PDF+表格为口径并显式标记该矛盾 |
+| DL82 | ICLR 2015正式论文／2014预印本 | [Simonyan & Zisserman, Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556) | VGG 16–19个含权重层，2014 ILSVRC比赛对应、2015 ICLR正式发表；证明深度价值但不保证无限堆叠 |
+| DL83 | CVPR 2015正式论文，团队来自多机构 | [Szegedy et al., Going Deeper with Convolutions (Inception/GoogLeNet)](https://openaccess.thecvf.com/content_cvpr_2015/html/Szegedy_Going_Deeper_With_2015_CVPR_paper.html) | ILSVRC2014期间提出22层GoogLeNet、多尺度Inception模块，追求算力利用；不应由ResNet讲述中省去其他路线 |
+| DL84 | ICML 2015原始论文 | [Ioffe & Szegedy, Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://proceedings.mlr.press/v37/ioffe15.html) | 批归一化缓解当时优化困难；2015作者机制说法不应绝对当作后世唯一解释 |
+| DL85 | NIPS 2015原始论文 | [Srivastava, Greff & Schmidhuber, Training Very Deep Networks (Highway networks)](https://papers.nips.cc/paper_files/paper/2015/hash/215a71a12769b056c3c32e7299f1c5ed-Abstract.html) | 同年存在带可学习门控的捷径/信息高速公路网络；ResNet身份直连与Highway门控不同；不称跳连接2015首次诞生 |
+| DL86 | ResNet原始预印本2015-12-10 | [He, Zhang, Ren & Sun, Deep Residual Learning for Image Recognition, arXiv:1512.03385](https://arxiv.org/abs/1512.03385) | 2015预印本与ILSVRC2015获奖事实，不能把2016正式发表日误当竞赛时间 |
+| DL87 | CVPR 2016原始正式论文，PDF首页和机制章节已目视核对 | [He, Zhang, Ren & Sun, Deep Residual Learning for Image Recognition, CVPR2016 pp.770–778](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html) | plain 20/56层在CIFAR-10训练退化（较深训练误差更高）；残差块y=F(x)+x，有维度改变时投影；152层网络、ILSVRC2015集成top5 test3.57%；不把退化等同过拟合 |
+| DL88 | ECCV 2016后续机制研究 | [He, Zhang, Ren & Sun, Identity Mappings in Deep Residual Networks](https://mlanthology.org/eccv/2016/he2016eccv-identity/) | 探讨身份捷径和激活位置、pre-activation改进；属于2016后续，不可倒灌2015竞赛版本架构 |
+| DL89 | 作者论文内实验示例来源 | [ImageNet 2012 NeurIPS原文：Section 4/5/6 （GPU/ReLU/dropout/数据增强/训练时间）](https://courses.csail.mit.edu/6.803/pdf/2012%20hinton.pdf) | 原文报告两块NVIDIA GTX580 3GB GPU训练5–6日及多种技术协作；不宣称GPU或ReLU由该团队第一次发明 |
+
+### 技术与年代三重分界
+
+1. **ImageNet数据库 ≠ ILSVRC竞赛 ≠ 某次竞赛的训练集。** CVPR2009论文报告项目当时320万图、5247个WordNet同义词集合（synsets），竞赛自2010起，是从更大数据库组织出的分任务评测。不能将“ImageNet有320万图”当作“2012模型训练了320万图”，也不能把ImageNet等同猫狗二分类或1000类别的全部含义。2009论文报告子集标注抽查准确率，不是无限定的每张图100%真实标签。
+2. **2012成绩的三种口径**：NIPS官方PDF给ILSVRC-2010单模型top1=37.5%、top5=17.0%；ILSVRC-2012竞赛top5测试=15.3% **七CNN集成**（含在Fall2011 ImageNet版本做大类别**监督训练**的模型），第二名26.2%，下降10.9个百分点、相对下降约41.6%。NeurIPS官网网页摘要和同站正式PDF存在指标版本差异（详见DL81），本批依据直接核验的PDF表2，**不把15.3%称单个网络性能**。
+3. **2015竞赛 ≠ 2016正式发表**：He等ResNet 2015-12-10 arXiv预印本、ILSVRC2015获奖，CVPR2016正式论文。152层指模型层数；3.57%是 **网络集成**的ILSVRC2015 classification top-5测试错误率。CIFAR-10 plain 56比plain 20层的训练误差更高属于**优化退化**，不是简单过拟合或单凭梯度消失解释。跳连接历史另有Highway2015等相关研究，不能宣称He团队首次想到跨层信息路径。
+
+### 三个教学示例及边界
+
+- **16章Top-k**：人造四张图正确类别排名[1,3,6,4]，top-1错误3/4=75%，top-5错误1/4=25%；只描述给定排序的排行榜指标，不是官方2012比赛统计、也不证明模型理解语义。多数ILSVRC分类基准可采用top-5，须注明不同任务如检测的指标不同。
+- **17章ReLU+dropout**：ReLU(-2)=0, ReLU(3)=3；假设inverted dropout保留率p=1/2，原激活为4，训练一次变为0或8，期望值仍为4。该公式为现代实现教学化版本，dropout是训练过程的随机正则化，不等于预测时每个单元必随机开关。2012 paper 15.3 vs 26.2，相对差10.9/26.2≈41.6%。
+- **18章残差块**：设F(x)=-0.1x且x=2，普通映射F(x)=-0.2，导数-0.1；残差映射y=x+F(x)=1.8，导数1-0.1=0.9；五个完全相同的小模型线性块，普通导数(-0.1)^5=-0.00001、残差导数0.9^5=0.59049。只说明身份路径如何影响数学梯度，并不证明真实ResNet无梯度消失或实际网络有这组固定参数。若F'(x)≈-1则身份项亦可能被抵消。
+
+### 独立审稿必查
+
+- 2009 ImageNet志向数千万图、当时320万、后续ImageNet Fall 2011规模、ILSVRC2012训练约120万与1000类别的差异；与WordNet分类层级和AMT劳务关系不得虚构。
+- 2012 NIPS网页摘要与正式PDF不同，所有具体数字须标注本批选择的版本；15.3%七CNN集成与单CNN验证18.2%和2010单CNN test17.0%均不能混为一谈。
+- 2015 ILSVRC竞赛与2016 CVPR论文时间坐标，3.57%为集成；ResNet 2016 ECCV的pre-activation改善非2015原始结果。
+- 残差连接作用不能写成对梯度消失绝对免疫；其论文直接的训练退化证据比媒体口号重要。Highway网络/批归一化/VGG/Inception均为当时重要相邻研究路线。
