@@ -785,8 +785,7 @@
 | S163 | Petar Veličković et al., “Graph Attention Networks,” arXiv submitted Oct 2017, *ICLR 2018*. https://arxiv.org/abs/1710.10903；ICLR索引 https://mlanthology.org/iclr/2018/velickovic2018iclr-graph/ | GAT对邻居贡献学习归一化注意权重（可多头），不是任意远节点无代价地全局注意；2017预印本与2018会议版本分别标注 |
 | S164 | Keyulu Xu, Weihua Hu, Jure Leskovec, Stefanie Jegelka, “How Powerful Are Graph Neural Networks?”, arXiv 1 Oct 2018, *ICLR 2019*. https://arxiv.org/abs/1810.00826 | 后续GNN辨别力研究：一些邻域聚合方法不能区分某些非同构局部结构，不能声称任意GNN对所有非同构图都可识别 |
 | S165 | Nicolas Keriven, “Not Too Little, Not Too Much: A Theoretical Analysis of Graph (Over)Smoothing,” *NeurIPS 2022*. https://proceedings.neurips.cc/paper_files/paper/2022/hash/0f956ca6f667c62e0f71511773c86a59-Abstract-Conference.html | 后世对反复均值聚合可能过平滑的严格限定分析；不可把例子当作所有GNN必然失效的普遍定理 |
-
-| S166 | Réka Albert / Albert-László Barabási, “Statistical Mechanics of Complex Networks,” *Reviews of Modern Physics* 74(1) (30 Jan 2002), 47—97. https://doi.org/10.1103/RevModPhys.74.47；作者公开版本 https://www.barabasi.com/media/pub_imports/files/103.pdf | 后世系统综述精确BA度分布\\(P_k=2m(m+1)/[k(k+1)(k+2)]\\)、m=1时得到4/[k(k+1)(k+2)]及极限幂律k^{-3}；不将该精确主方程形式直接归为1999四页Science原文公式 |
+| S166 | Réka Albert / Albert-László Barabási, “Statistical Mechanics of Complex Networks,” *Reviews of Modern Physics* 74(1) (30 Jan 2002), 47—97. https://doi.org/10.1103/RevModPhys.74.47；作者公开版本 https://www.barabasi.com/media/pub_imports/files/103.pdf | 后世系统综述精确BA度分布\(P_k=2m(m+1)/[k(k+1)(k+2)]\)、m=1时得到4/[k(k+1)(k+2)]及极限幂律k^{-3}；不将该精确主方程形式直接归为1999四页Science原文公式 |
 
 ### 章节事实与数学前提矩阵
 
