@@ -27,3 +27,6 @@ description: 非虚构分章写作；仅在nonfiction流程需要依据证据矩
 
 ## 三章一批与书架索引交接
 本阶段只写本章正文与 claim 证据映射；每批交接实际章号、题名、分部、Markdown 源路径、仍待审的 `draft` 状态，由主编/仓库维护者据此更新站点 `book.json`，不扩大写入权。新增系列须有 `README.md + book.json` 并执行 `python scripts/build_pages.py --check-catalog`；不因网页可读而宣称出版或已通过双审。详见 `docs/pages-publishing.md`。
+
+## 每批章节进度自动核验
+写作 Agent 交接真实正文、章级证据和 `book.json` 的对应条目状态，由主编/维护者按事实更新；仅为 `proposals/` 生成的候审稿不可冒充正式 `draft`。每批更新后执行 `python scripts/check_series_progress.py --write` 和 `python scripts/check_series_progress.py --check`，同步 README 与 `chapter-state.json.progress_summary`，并通过 `scripts/build_pages.py --check-catalog`。派生快照绝不授予正式双审、终稿封版或外部发布许可。详见 `docs/pages-publishing.md`。

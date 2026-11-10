@@ -43,3 +43,6 @@ description: 中文叙事总主编与流程路由器；当用户提出新文章�
 
 ## GitHub Pages 收录与正式出版的双层闸门
 新增专题、三章一批更新或站点导航任务必须读取 `docs/pages-publishing.md`；交接唯一系列 slug、归档路径、`README.md`、`book.json` 的章号/标题/分部/路径/`status`，由站点维护者核对并同步。运行 `python scripts/build_pages.py --check-catalog`。工作初稿可以在 Pages 阅读，但**不意味着知乎发布、两道审稿通过或终稿批准**；不得以公开可见代替 `workflow_gate.py --target publish`，不得凭 `metadata.yaml` 自动提升 `workflow-state.json`。
+
+## 每批章节进度自动核验
+写作 Agent 交接真实正文、章级证据和 `book.json` 的对应条目状态，由主编/维护者按事实更新；仅为 `proposals/` 生成的候审稿不可冒充正式 `draft`。每批更新后执行 `python scripts/check_series_progress.py --write` 和 `python scripts/check_series_progress.py --check`，同步 README 与 `chapter-state.json.progress_summary`，并通过 `scripts/build_pages.py --check-catalog`。派生快照绝不授予正式双审、终稿封版或外部发布许可。详见 `docs/pages-publishing.md`。
