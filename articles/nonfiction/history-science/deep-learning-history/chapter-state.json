@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "last_chapter": 15,
+  "last_chapter": 18,
   "manuscript_revision": 0,
   "chapter_status": {
     "10": "draft",
@@ -10,7 +10,10 @@
     "13": "draft",
     "14": "draft",
     "15": "draft",
-    "16": "outline",
+    "16": "draft",
+    "17": "draft",
+    "18": "draft",
+    "19": "outline",
     "00": "outline",
     "01": "draft",
     "02": "draft",
@@ -83,12 +86,24 @@
     {
       "chapter": "15",
       "coverage": "2011 Interspeech北京与雷德蒙德研究RT03S Fisher WER27.4%→18.5%；2012 Dahl等声学模型和四组研究综述"
+    },
+    {
+      "chapter": "16",
+      "coverage": "2009 CVPR ImageNet大库320万图/5247synsets；ILSVRC2010开始共用评测；2012 1000类1281167训练、50000验证、100000测试"
+    },
+    {
+      "chapter": "17",
+      "coverage": "2012 Krizhevsky/Sutskever/Hinton NIPS CNN；ILSVRC2012七CNN集成Top5测试15.3%、第二名26.2%；网页摘要与原始PDF数值不同"
+    },
+    {
+      "chapter": "18",
+      "coverage": "2014 VGG/Inception；2015 BatchNorm/Highway/ResNet预印本与竞赛；2016 CVPR ResNet、ECCV身份映射后续"
     }
   ],
   "unresolved_clues": [
-    "16章：ImageNet数据与ILSVRC竞赛如何提供共同评价？",
-    "17章：2012 AlexNet如何结合GPU、ReLU、dropout和数据？",
-    "18章：残差学习为何改善更深网络优化？"
+    "19章：不同句长的序列怎样经神经网络映射成另一句？",
+    "20章：机器翻译中的对齐与注意力为何改变长序列瓶颈？",
+    "21章：2017 Transformer怎样摆脱循环依赖并调整比较基准？"
   ],
   "resolved_clues": [
     "第01章数学形式化为何能表达明确计算",
@@ -105,7 +120,10 @@
     "第12章SVM最大间隔、软间隔与核映射的统计动机，不构造SVM全面击败神经网络的假史",
     "13章用共享词向量与softmax解释词串概率泛化",
     "14章区分生成DBN微调与深自编码器反向传播微调",
-    "15章区分DNN声学模型与HMM解码，并记录特定RT03S基准结果"
+    "15章区分DNN声学模型与HMM解码，并记录特定RT03S基准结果",
+    "16章区分ImageNet数据库与年度ILSVRC子集及Top-1/Top-5",
+    "17章15.3%为七CNN集成Top-5测试错误，复核官网网页与PDF数字冲突",
+    "18章训练退化与过拟合不同，身份残差路径的toy梯度可复算"
   ],
   "continuity_notes": [
     "第01章历史数学前史为多文明并行比较，无暗示直接传授",
@@ -131,7 +149,13 @@
     "2006原始DBN用wake-sleep而同年自编码器可用梯度微调",
     "2011作者机构北京/雷德蒙德不代表个人国籍",
     "2011 RT03S基准8.9百分点与相对约32.5%不同",
-    "第01—15章全部未独立双重审稿"
+    "第01—15章全部未独立双重审稿",
+    "2009 ImageNet320万图片与2012竞赛1281167训练图不同",
+    "2012 NIPS网页摘要与正式PDF不同，本批采用直接核对PDF结果表",
+    "2012的15.3 Top-5是七CNN集成含更大类别监督预训练的模型，不能称单个AlexNet",
+    "2015 ResNet预印本及竞赛，2016 CVPR正式发表；3.57%是集成Top-5测试误差",
+    "2015 Highway门控与ResNet身份捷径应同时保留，退化不等于过拟合",
+    "第01—18章均为工作初稿，独立双重审稿尚未完成"
   ],
   "review_status": "PENDING"
 }

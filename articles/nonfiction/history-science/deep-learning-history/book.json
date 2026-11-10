@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "deep-learning-history",
   "title": "让机器学会学习：一部深度学习发展史",
-  "reading_notice": "第01—15章共15篇非虚构工作初稿及逐章证据映射；序章00与16—31章共17篇策划占位。研究核查仅中心主张，独立双审、精修与最终封版均未完成。",
+  "reading_notice": "第01—18章18篇有实际工作初稿和逐章主张记录；序章00与19—31共14篇仍为策划占位。全部中心史实与数学例题只按各批范围核查，独立双重审稿、语言精修及终稿批准均未完成。",
   "outline_approved": true,
   "evidence_verified": true,
   "parts": [
@@ -367,10 +367,14 @@
       "part": "第六部｜2012之后的规模革命",
       "period": "2009—2012",
       "file": "draft/16.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R09"
-      ]
+        "DL77",
+        "DL78",
+        "DL79"
+      ],
+      "claims_file": "draft/16.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-17",
@@ -379,10 +383,14 @@
       "part": "第六部｜2012之后的规模革命",
       "period": "2012",
       "file": "draft/17.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R10"
-      ]
+        "DL80",
+        "DL81",
+        "DL89"
+      ],
+      "claims_file": "draft/17.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-18",
@@ -391,10 +399,18 @@
       "part": "第六部｜2012之后的规模革命",
       "period": "2015—2016",
       "file": "draft/18.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R11"
-      ]
+        "DL82",
+        "DL83",
+        "DL84",
+        "DL85",
+        "DL86",
+        "DL87",
+        "DL88"
+      ],
+      "claims_file": "draft/18.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-19",
@@ -568,6 +584,6 @@
       ]
     }
   ],
-  "outline_scope": "仅01—15分章细纲",
-  "evidence_scope": "仅01—15中心史实与算例"
+  "outline_scope": "已按来源核对叙事细纲仅01—18章",
+  "evidence_scope": "限定中心史实和数学示例仅01—18章"
 }

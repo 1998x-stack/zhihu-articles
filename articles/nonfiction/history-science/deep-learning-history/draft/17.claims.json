@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "17",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific center claims from the published PDF and didactic examples; independent fact audit pending",
+  "claims": [
+    {
+      "claim_id": "C17-01",
+      "claim": "2012 AlexNet三作者与五卷积三全连接设计",
+      "source_ids": [
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "按照正式PDF而非冲突网页摘要",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-02",
+      "claim": "两块GTX580、ReLU、随机增强、dropout等组合",
+      "source_ids": [
+        "DL80",
+        "DL89"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不归功单个硬件/技术首次发明",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-03",
+      "claim": "NeurIPS网页与论文PDF摘要数值有差异",
+      "source_ids": [
+        "DL80",
+        "DL81"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "DISCREPANCY_VERIFIED",
+      "limitations": "选原始PDF及测试表作指标版本",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-04",
+      "claim": "ILSVRC2010 single CNN top1 37.5 top5 17.0",
+      "source_ids": [
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不能与2012集成成绩混同",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-05",
+      "claim": "ILSVRC2012 Top5测试七CNN集成15.3与第二名26.2",
+      "source_ids": [
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "含更大ImageNet版本的监督预训练",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-06",
+      "claim": "竞赛Top5降低10.9百分点和相对约41.6%",
+      "source_ids": [
+        "AUTHOR_DERIVATION",
+        "DL80"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "错误率下降不是准确率增加41.6百分点",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-07",
+      "claim": "ReLU(-2)/ReLU(3)及dropout期望示例",
+      "source_ids": [
+        "AUTHOR_DERIVATION",
+        "DL80"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "现代inverted dropout不等于原始论文每个实现",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-08",
+      "claim": "卷积网络史早于2012且成效需限定基准",
+      "source_ids": [
+        "DL52",
+        "DL80",
+        "DL79"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "INTERPRETATION",
+      "limitations": "LeNet先驱与ILSVRC特定任务",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

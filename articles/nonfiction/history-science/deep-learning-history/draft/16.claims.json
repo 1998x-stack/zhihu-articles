@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "16",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific center claims from the published PDF and didactic examples; independent fact audit pending",
+  "claims": [
+    {
+      "claim_id": "C16-01",
+      "claim": "2009 ImageNet规模320万图5247 synsets/12子树",
+      "source_ids": [
+        "DL77",
+        "DL78"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "当年数据库，不等于2012竞赛子集",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-02",
+      "claim": "WordNet层级/AMT众包标注及质量流程",
+      "source_ids": [
+        "DL77"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "抽查准确率不保证每个标签正确",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-03",
+      "claim": "2010起ILSVRC共享训练/测试规则",
+      "source_ids": [
+        "DL79"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "赛事不是全部ImageNet数据库",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-04",
+      "claim": "2010/2012比赛使用千类约百万训练图片",
+      "source_ids": [
+        "DL79",
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "版本具体数字需按年份分开",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-05",
+      "claim": "四张样本正确类名次[1,3,6,4]的Top-k计算",
+      "source_ids": [
+        "AUTHOR_DERIVATION",
+        "DL79"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "Top1错误75%，Top5错误25%，自造例题",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-06",
+      "claim": "竞赛共同评测推动可比较进展，前有PASCAL VOC",
+      "source_ids": [
+        "DL79"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "INTERPRETATION",
+      "limitations": "不是首创所有公开视觉评测",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-07",
+      "claim": "2009数据集与2012获奖模型训练集版本不一",
+      "source_ids": [
+        "DL77",
+        "DL79",
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不把数据库320万当2012训练量",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-08",
+      "claim": "标签类别和众包标注本身有边界与选择偏差",
+      "source_ids": [
+        "DL77",
+        "DL79"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "榜单指标不等于现实普适智能",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

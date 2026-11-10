@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "18",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific center claims from the published PDF and didactic examples; independent fact audit pending",
+  "claims": [
+    {
+      "claim_id": "C18-01",
+      "claim": "2015 ResNet预印本及2016正式CVPR",
+      "source_ids": [
+        "DL86",
+        "DL87"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "2015比赛与2016出版年份分开",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-02",
+      "claim": "CIFAR10 plain20与plain56更深训练误差反而更高",
+      "source_ids": [
+        "DL87"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "退化不是简单过拟合",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-03",
+      "claim": "y=F(x)+x与维度不符时投影捷径",
+      "source_ids": [
+        "DL87"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "简化表达非完整原论文所有激活设计",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-04",
+      "claim": "残差及普通五步链toy梯度0.59049和-1e-5",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "不证明ResNet一概不会梯度消失",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-05",
+      "claim": "ILSVRC2015 ResNet集成Top5测试3.57",
+      "source_ids": [
+        "DL86",
+        "DL87"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是单个152层模型结果",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-06",
+      "claim": "2014VGG/GoogLeNet与2015BatchNorm并行线",
+      "source_ids": [
+        "DL82",
+        "DL83",
+        "DL84"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "多研究群体无单一发明者",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-07",
+      "claim": "2015 Highway带门捷径研究更早于ResNet预印本",
+      "source_ids": [
+        "DL85",
+        "DL87"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "身份直连与可学习门不同",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-08",
+      "claim": "2016 ECCV预激活是原ResNet之后改进",
+      "source_ids": [
+        "DL88"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不可倒灌到2015获奖版本",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
