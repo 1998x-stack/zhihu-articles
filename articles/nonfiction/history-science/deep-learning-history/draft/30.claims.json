@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "30",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "source_coverage": "scoped original academic articles, official announcements, version-specific licenses; author-written toy calculations; independent paper-by-paper audit still pending",
+  "claims": [
+    {
+      "claim_id": "C30-01",
+      "claim": "FlashAttention2022 IO优化精确attention与二次分数代价区别",
+      "source_ids": [
+        "DL154"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不宣称所有attention计算变线性",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-02",
+      "claim": "vLLM PagedAttention SOSP2023以KV cache分页改善吞吐",
+      "source_ids": [
+        "DL155"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "吞吐提升有指定模型硬件/负载对照",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-03",
+      "claim": "OpenAI o1 2024-09测试时推理RL研究",
+      "source_ids": [
+        "DL156"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "机构自述，测试时较长文本不保证任意问题正确",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-04",
+      "claim": "DeepSeekR1Zero2025没有SFT预置但已有pretrained base并用RL，完整R1冷启动多阶段",
+      "source_ids": [
+        "DL157",
+        "DL152"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不要宣称从零数据学出推理或R1纯RL",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-05",
+      "claim": "2025 Qwen3提供thinking/non-thinking及思考预算实验机制",
+      "source_ids": [
+        "DL150"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是推理预算首次提出或保证永远增强",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-06",
+      "claim": "2026-01 Nature HLE 2500专家题基准，评测不能等于所有现实任务",
+      "source_ids": [
+        "DL158"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "静态题库与开放世界验证不同",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-07",
+      "claim": "2026-08 Fan等预印本共享预算评测发现分配不理想",
+      "source_ids": [
+        "DL159"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "PREPRINT_QUALIFIED",
+      "limitations": "2026未正式复制的限定模型/任务结论",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-08",
+      "claim": "两题6/4预算得6分、5/5得1分的教育演算",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "阈值作者设定并非真实模型的效率曲线",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

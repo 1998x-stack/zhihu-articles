@@ -3,7 +3,7 @@
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
   "status": "drafting",
-  "reading_notice": "01—27章均有经限定史料核对的非虚构工作初稿和逐章claims JSON，未通过独立双审、完整实验复核或终稿。序章、尾声与第28—32章共7个单元仍属明确策划占位，未发布。",
+  "reading_notice": "第01—30章已完成限定史料核证支持的非虚构工作初稿及逐章claims JSON，未完成独立双审、完整原刊/代码复验或终稿。序章、尾声、第31—32章共4个叙事单元仍为明确策划占位。",
   "parts": [
     {
       "number": 1,
@@ -538,31 +538,49 @@
       "title": "真实世界试错太贵：没有新经验还能学习吗",
       "part": "第七部｜从游戏走进现实",
       "path": "draft/28.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R20"
-      ]
+        "R109",
+        "R110",
+        "R111",
+        "R112",
+        "R20",
+        "R12"
+      ],
+      "claims_path": "draft/28.claims.json"
     },
     {
       "id": "29",
       "title": "逆强化学习：看别人怎么做，能猜到他想要什么吗",
       "part": "第八部｜奖励由谁定义",
       "path": "draft/29.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R12"
-      ]
+        "R12",
+        "R113",
+        "R114",
+        "R103",
+        "R115",
+        "R118"
+      ],
+      "claims_path": "draft/29.claims.json"
     },
     {
       "id": "30",
       "title": "人类反馈：如果好坏无法写成公式",
       "part": "第八部｜奖励由谁定义",
       "path": "draft/30.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
+        "R115",
+        "R116",
+        "R117",
+        "R118",
         "R21",
-        "R22"
-      ]
+        "R22",
+        "R23"
+      ],
+      "claims_path": "draft/30.claims.json"
     },
     {
       "id": "31",
@@ -598,5 +616,5 @@
     }
   ],
   "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段",
-  "last_batch": "batches/25-27.md"
+  "last_batch": "batches/28-30.md"
 }

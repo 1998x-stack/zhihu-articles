@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "chapter": "29",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "依据ICML2019 BCQ、NeurIPS2019 BEAR、NeurIPS2020 CQL、ICML2000 IRL、ICML2004学徒学习、AAAI2008 MaxEnt IRL、NeurIPS2017行为片段偏好、2019及2020语言模型偏好、NeurIPS2022 InstructGPT官方一手记录作限定写作前核证。所有作者数学算例与发表实验分离；无独立二审。",
+  "alias_to_research_source_id": {
+    "I01": "R12",
+    "I02": "R113",
+    "I03": "R114",
+    "I04": "R103",
+    "I05": "R115",
+    "I06": "R118"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-29-01",
+      "claim": "Ng与Russell在ICML2000论文提出IRL算法并强调同一策略对应大量可行奖励的degeneracy",
+      "source_ids": [
+        "R12"
+      ],
+      "kind": "primary_history",
+      "section": "一、三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-02",
+      "claim": "正向RL已知奖励求策略，IRL给观察策略或轨迹推测奖励，不能当数学唯一逆函数",
+      "source_ids": [
+        "R12"
+      ],
+      "kind": "definition",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-03",
+      "claim": "原创单状态左右动作三奖励(5,4)、(100,0)、(1,-9)均支持选左",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-04",
+      "claim": "全零奖励在一类任务里使所有策略价值相同，解释为何需要避免退化的标准",
+      "source_ids": [
+        "R12"
+      ],
+      "kind": "primary_issue",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-05",
+      "claim": "Ng Russell2000提出完整专家策略与有限轨迹的不同算法方案及线性规划启发式",
+      "source_ids": [
+        "R12"
+      ],
+      "kind": "primary_algorithm",
+      "section": "四、五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-06",
+      "claim": "IRL通常需要关于动力学、专家接近最优与奖励表示的假设，不能读取真实人类内心",
+      "source_ids": [
+        "R12",
+        "R113"
+      ],
+      "kind": "assumption_scope",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-07",
+      "claim": "Abbeel与Ng的ICML2004学徒学习依据已知特征下线性未知奖励，追求专家表现近似",
+      "source_ids": [
+        "R113"
+      ],
+      "kind": "primary_result",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-08",
+      "claim": "特征期望接近可在权重约束下控制回报差，但不能无条件保证未表示的真实目标",
+      "source_ids": [
+        "R113"
+      ],
+      "kind": "method_scope",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-09",
+      "claim": "原创路线甲特征(8,9)乙(10,2)，权重(.5,2)下甲22乙9",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-10",
+      "claim": "另一权重(1,.5)下甲12.5乙11，均选甲，约束7w_s>=2w_t",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-11",
+      "claim": "Ng Harada Russell1999奖励塑形中潜势差分在相应条件下保最优策略",
+      "source_ids": [
+        "R114"
+      ],
+      "kind": "primary_theory",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-12",
+      "claim": "Ziebart等2008 AAAI研究最大熵IRL以概率建模噪声和不完美示范",
+      "source_ids": [
+        "R103"
+      ],
+      "kind": "primary_history",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-13",
+      "claim": "在受限确定性轨迹模型中P(tau)与exp(theta^T phi(tau))成比例，不能忽略随机转移",
+      "source_ids": [
+        "R103"
+      ],
+      "kind": "theory_scope",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-14",
+      "claim": "行为克隆直接拟合状态动作，IRL求可解释行为的奖励，偏好比较取得另一种目标证据",
+      "source_ids": [
+        "R12",
+        "R113",
+        "R115"
+      ],
+      "kind": "conceptual_distinction",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-15",
+      "claim": "历史方法互有优劣，不能断言IRL总优于行为克隆或专家行为都精确最优",
+      "source_ids": [
+        "R12",
+        "R113",
+        "R103"
+      ],
+      "kind": "scope_boundary",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-29-16",
+      "claim": "2017轨迹比较偏好与2022语言模型应用为不同任务、不同史料与训练流程",
+      "source_ids": [
+        "R115",
+        "R118"
+      ],
+      "kind": "chronology",
+      "section": "十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "IRL依赖环境模型、专家近优、奖励特征等假设；任何同一行为均不可声称唯一真实心理动机",
+    "原路线与权重全部虚构，1999塑形论文保策略结论条件严格限定",
+    "2008最大熵IRL路径概率公式最简形式假设确定性或适当模型，不能直接无条件外推"
+  ]
+}

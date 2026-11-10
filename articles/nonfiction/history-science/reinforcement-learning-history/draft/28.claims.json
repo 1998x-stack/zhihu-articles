@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "chapter": "28",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "依据ICML2019 BCQ、NeurIPS2019 BEAR、NeurIPS2020 CQL、ICML2000 IRL、ICML2004学徒学习、AAAI2008 MaxEnt IRL、NeurIPS2017行为片段偏好、2019及2020语言模型偏好、NeurIPS2022 InstructGPT官方一手记录作限定写作前核证。所有作者数学算例与发表实验分离；无独立二审。",
+  "alias_to_research_source_id": {
+    "F01": "R109",
+    "F02": "R110",
+    "F03": "R111",
+    "F04": "R112",
+    "F05": "R01",
+    "F06": "R12"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-28-01",
+      "claim": "2018年12月BCQ预印本与2019年ICML正式发表是不同公开节点",
+      "source_ids": [
+        "R109"
+      ],
+      "kind": "publication_history",
+      "section": "二",
+      "evidence_note": "不能把2019会议视为首次写出全部思想",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-02",
+      "claim": "固定数据离线RL在训练过程中不继续采集新环境样本，不等于普通离策略可以在线补数据",
+      "source_ids": [
+        "R109",
+        "R111"
+      ],
+      "kind": "definition",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-03",
+      "claim": "分布外动作在函数逼近中可能有虚高Q，并通过max和Bellman自举影响其它状态",
+      "source_ids": [
+        "R109",
+        "R110",
+        "R111"
+      ],
+      "kind": "technical_mechanism",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-04",
+      "claim": "仓库机器人甲数据支持价值5，乙未支持Q估20是原创例，不是实验值",
+      "source_ids": [],
+      "kind": "author_example",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-05",
+      "claim": "BCQ2019旨在把动作选择限制到数据行为分布附近，并在连续动作上使用生成式候选",
+      "source_ids": [
+        "R109"
+      ],
+      "kind": "primary_method",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-06",
+      "claim": "BCQ不是纯行为克隆，也没有任意真实环境安全保证",
+      "source_ids": [
+        "R109"
+      ],
+      "kind": "method_scope",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-07",
+      "claim": "BEAR于NeurIPS2019讨论固定批次中的bootstrapping error accumulation及数据外动作",
+      "source_ids": [
+        "R110"
+      ],
+      "kind": "primary_result",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-08",
+      "claim": "BEAR约束备份或学习策略的行为分布偏离，以缓解数据外自举误差",
+      "source_ids": [
+        "R110"
+      ],
+      "kind": "primary_method",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-09",
+      "claim": "CQL由Kumar、Zhou、Tucker、Levine发表于NeurIPS2020",
+      "source_ids": [
+        "R111",
+        "R20"
+      ],
+      "kind": "bibliography",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-10",
+      "claim": "CQL在Bellman拟合外加入保守Q正则，对未见高分动作施加相对压力",
+      "source_ids": [
+        "R111"
+      ],
+      "kind": "primary_algorithm",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-11",
+      "claim": "离散logsumexp近似CQL项是特定形式，连续动作采用采样/积分近似",
+      "source_ids": [
+        "R111"
+      ],
+      "kind": "theory_boundary",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-12",
+      "claim": "CQL理论下界需数据覆盖及估计误差与正则强度等条件，不能作为任意安全保证",
+      "source_ids": [
+        "R111"
+      ],
+      "kind": "theory_scope",
+      "section": "六、七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-13",
+      "claim": "原创二动作CQL正则项Qknown5、Qunknown8得3.048587，未知降至4得0.313262",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-14",
+      "claim": "D4RL在2020预印本及后续ICLR2021研究混合策略、多任务与示范等离线数据基准",
+      "source_ids": [
+        "R112"
+      ],
+      "kind": "research_history",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-15",
+      "claim": "固定数据之外存在多个与记录相容的环境，无法从无区分信息保证判定未试动作真实后果",
+      "source_ids": [
+        "R109",
+        "R111"
+      ],
+      "kind": "information_limit",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-28-16",
+      "claim": "离线RL已给奖励但缺反事实动作结果，IRL则反过来从示范推测未知奖励",
+      "source_ids": [
+        "R12",
+        "R111"
+      ],
+      "kind": "conceptual_bridge",
+      "section": "十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "2019 BEAR原刊正式作者名单与部分早期预印本不同，应以NeurIPS会议页为准",
+    "CQL下界理论有数据分布、近似误差及正则强度条件，不能扩为现实设备安全保证",
+    "仓库/数值均为作者自创，未运行BCQ、BEAR、CQL原始代码或完整模拟对照"
+  ]
+}

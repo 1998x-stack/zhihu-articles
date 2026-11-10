@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "29",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "source_coverage": "scoped original academic articles, official announcements, version-specific licenses; author-written toy calculations; independent paper-by-paper audit still pending",
+  "claims": [
+    {
+      "claim_id": "C29-01",
+      "claim": "跨国作者机构贡献不能由姓名或国籍直接归属单一国家",
+      "source_ids": [
+        "DL107",
+        "DL87"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "HISTORICAL_INTERPRETATION",
+      "limitations": "只据正式作者所属机构与合作证据",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-02",
+      "claim": "Meta 2023 Llama2开放权重但社区许可存在700m MAU条款",
+      "source_ids": [
+        "DL146"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "版本限定，不套用其他Llama授权",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-03",
+      "claim": "Ai2 OLMo 2024公开权重训练数据训练代码与日志",
+      "source_ids": [
+        "DL147",
+        "DL160"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "该具体公开流程较全面，但复现仍有计算成本",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-04",
+      "claim": "OSI2024 Open Source AI Definition 1.0不只要求可下载权重",
+      "source_ids": [
+        "DL148"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "OSI定义须和个人口语化开源用法区分",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-05",
+      "claim": "Qwen2.5 2024部分Apache2.0例外而Qwen3 2025技术报告称Apache2.0",
+      "source_ids": [
+        "DL149",
+        "DL150"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "VERSION_SPECIFIC",
+      "limitations": "逐模型版本授权不可直接跨代套用",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-06",
+      "claim": "DeepSeekV3 2024 MoE 671B总参数37B激活及2.788m H800 GPU小时论文报告",
+      "source_ids": [
+        "DL151"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "总GPU时非研发全部成本、总参数非每token激活",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-07",
+      "claim": "2025 R1 Zero与R1训练阶段不同、主体MIT与蒸馏基座许可差别",
+      "source_ids": [
+        "DL152",
+        "DL153"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "Llama派生并非所有MIT；R1Zero不等于无预训练",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-08",
+      "claim": "MoE 8×10M+5M共85M与2×10M+5M激活25M",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "教学数字，与DeepSeek实际架构无关",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

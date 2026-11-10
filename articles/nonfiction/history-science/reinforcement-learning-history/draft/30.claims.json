@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0",
+  "chapter": "30",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "依据ICML2019 BCQ、NeurIPS2019 BEAR、NeurIPS2020 CQL、ICML2000 IRL、ICML2004学徒学习、AAAI2008 MaxEnt IRL、NeurIPS2017行为片段偏好、2019及2020语言模型偏好、NeurIPS2022 InstructGPT官方一手记录作限定写作前核证。所有作者数学算例与发表实验分离；无独立二审。",
+  "alias_to_research_source_id": {
+    "H01": "R115",
+    "H02": "R116",
+    "H03": "R117",
+    "H04": "R118",
+    "H05": "R23"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-30-01",
+      "claim": "Christiano等NeurIPS2017原论文研究在Atari与MuJoCo模拟机器人用人类比较学习奖励",
+      "source_ids": [
+        "R115",
+        "R21"
+      ],
+      "kind": "primary_history",
+      "section": "一、六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-02",
+      "claim": "2017比较对象是短轨迹片段而非对每一步由人直接评分",
+      "source_ids": [
+        "R115"
+      ],
+      "kind": "primary_data_definition",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-03",
+      "claim": "对片段按预测即时奖励求和，偏好概率可由Bradley–Terry/softmax形式建模",
+      "source_ids": [
+        "R115"
+      ],
+      "kind": "primary_equation",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-04",
+      "claim": "原创A片段总3、B总1，则偏好概率sigma(2)=0.880797",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-05",
+      "claim": "两片段总分同时加相同常数偏好概率不变，按步加常数若长度不同则不一定",
+      "source_ids": [],
+      "kind": "author_math_boundary",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-06",
+      "claim": "2017流程含策略环境交互、选片段人类比较、训练奖励估计，三种过程相互促进",
+      "source_ids": [
+        "R115"
+      ],
+      "kind": "primary_method",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-07",
+      "claim": "官方NeurIPS摘要反馈约0.1%交互，某原文PDF摘要少于1%，均不能说每步有人打分",
+      "source_ids": [
+        "R115",
+        "R21"
+      ],
+      "kind": "version_note",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-08",
+      "claim": "2017部分实验约一小时人类反馈量级，效果限模拟机器人与具体Atari任务及比较协议",
+      "source_ids": [
+        "R115"
+      ],
+      "kind": "experiment_scope",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-09",
+      "claim": "2017论文明确引用此前Akrour、Wilson、TAMER等偏好/人类反馈研究，非首次提出",
+      "source_ids": [
+        "R115"
+      ],
+      "kind": "historical_attribution",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-10",
+      "claim": "Ziegler等2019语言模型偏好微调研究连接早期偏好训练与语言生成",
+      "source_ids": [
+        "R116"
+      ],
+      "kind": "primary_history",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-11",
+      "claim": "Stiennon等NeurIPS2020以人类比较训练奖励模型来改善摘要偏好评价",
+      "source_ids": [
+        "R117"
+      ],
+      "kind": "primary_history",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-12",
+      "claim": "Ouyang等NeurIPS2022 InstructGPT路线为SFT示范→RM排序→PPO优化",
+      "source_ids": [
+        "R118",
+        "R22"
+      ],
+      "kind": "primary_workflow",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-13",
+      "claim": "2022论文使用语言模型的回答排名，不同于2017的机器人动作轨迹视频比较",
+      "source_ids": [
+        "R115",
+        "R118"
+      ],
+      "kind": "cross_method_boundary",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-14",
+      "claim": "2022 PPO训练还对参考SFT模型施加每token KL惩罚，不等于只有PPO自身裁剪",
+      "source_ids": [
+        "R118"
+      ],
+      "kind": "primary_implementation",
+      "section": "十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-15",
+      "claim": "2022论文1.3B InstructGPT在其人类评测提示分布上比175B GPT-3更受偏好",
+      "source_ids": [
+        "R118"
+      ],
+      "kind": "primary_metric",
+      "section": "十一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-16",
+      "claim": "上述比较不等于1.3B在所有语言与推理任务全面超越175B",
+      "source_ids": [
+        "R118"
+      ],
+      "kind": "evidence_scope",
+      "section": "十一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-17",
+      "claim": "Ouyang2022明确说方法对齐特定标注者和研究者的陈述偏好，而非普遍人类价值",
+      "source_ids": [
+        "R118"
+      ],
+      "kind": "research_limit",
+      "section": "十一、十二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-18",
+      "claim": "优化学习奖励模型可能利用代理分数漏洞/未知输出区域，KL和偏好训练不提供普遍正确性保证",
+      "source_ids": [
+        "R118",
+        "R115"
+      ],
+      "kind": "optimization_risk",
+      "section": "十二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-30-19",
+      "claim": "DPO2023是基于偏好对的另一种训练路径，不能回溯成2022 InstructGPT已不用PPO",
+      "source_ids": [
+        "R23",
+        "R118"
+      ],
+      "kind": "future_boundary",
+      "section": "十三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "2017 NeurIPS官方摘要约0.1%而某可访问PDF版本摘要少于1%，本批只按各自版本限缩表达",
+    "机器人实验是模拟控制，2017不是所有人类反馈工作起点",
+    "2022 InstructGPT 1.3B相较175B是特定偏好基准而非全面能力冠军",
+    "奖励模型评分可能偏离真实目标；不能将标注者群体偏好写为全体人类价值",
+    "2019/2020语言模型中间工作单列，2022训练流程不同于2017仿真机器人偏好对"
+  ]
+}
