@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "17",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "source-scoped primary-paper/checklist review only; no independent full review",
+  "claims": [
+    {
+      "claim_id": "C17-01",
+      "claim": "2012神经网络论文由Krizhevsky Sutskever Hinton署名，CNN有此前传统",
+      "source_ids": [
+        "DL80",
+        "R03",
+        "R05"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不能称2012首次发明CNN",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-02",
+      "claim": "五卷积三全连接及约6000万参数，双GTX580 3GB训练五至六天",
+      "source_ids": [
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "按论文PDF报告特定模型",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-03",
+      "claim": "ReLU数据增强dropout GPU组合且各解决不同训练限制",
+      "source_ids": [
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不可单因素归因",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-04",
+      "claim": "2010 ILSVRC测试top1 37.5和top5 17.0",
+      "source_ids": [
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "仅2010数据，非2012成绩",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-05",
+      "claim": "2012一CNN验证top5 18.2、五CNN 16.4、七CNN测试15.3",
+      "source_ids": [
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "七网络集成含2011更大数据预训练",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-06",
+      "claim": "2012第二名测试top5 26.2，与15.3相差10.9百分点相对下降41.6%",
+      "source_ids": [
+        "DL80",
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "historical_plus_didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "相对误差率下降不等于准确率增加百分点",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-07",
+      "claim": "ReLU映射负二零三到零零三",
+      "source_ids": [
+        "DL80",
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "现代解释，不是2012原始实验",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C17-08",
+      "claim": "NeurIPS HTML摘要/PDF元数据不一致，数字依PDF表1表2",
+      "source_ids": [
+        "DL80"
+      ],
+      "kind": "evidence_caveat",
+      "evidence_level": "QUALIFIED",
+      "limitations": "不得假装确定差异成因",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
