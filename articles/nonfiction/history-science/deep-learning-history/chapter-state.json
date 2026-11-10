@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "last_chapter": 15,
+  "last_chapter": 18,
   "manuscript_revision": 0,
   "chapter_status": {
     "10": "draft",
@@ -10,7 +10,9 @@
     "13": "draft",
     "14": "draft",
     "15": "draft",
-    "16": "outline",
+    "16": "draft",
+    "17": "draft",
+    "18": "draft",
     "00": "outline",
     "01": "draft",
     "02": "draft",
@@ -83,12 +85,24 @@
     {
       "chapter": "15",
       "coverage": "2011 Interspeech北京与雷德蒙德研究RT03S Fisher WER27.4%→18.5%；2012 Dahl等声学模型和四组研究综述"
+    },
+    {
+      "chapter": "16",
+      "coverage": "2009 ImageNet CVPR数据库，2010启动ILSVRC，2012官方1000类/120万训练/5万验证/约10万测试；数据库与竞赛分离"
+    },
+    {
+      "chapter": "17",
+      "coverage": "2012 Krizhevsky/Sutskever/Hinton NIPS官方PDF；2010单CNN测试top1/5=37.5/17.0，2012单CNN验证top5=18.2、七CNN集成测试15.3、第二名26.2"
+    },
+    {
+      "chapter": "18",
+      "coverage": "2015预印本/2016 CVPR四作者ResNet；CIFAR plain20/56退化，ImageNet plain18/34与ResNet18/34验证top1对照；2015集成top5 test3.57"
     }
   ],
   "unresolved_clues": [
-    "16章：ImageNet数据与ILSVRC竞赛如何提供共同评价？",
-    "17章：2012 AlexNet如何结合GPU、ReLU、dropout和数据？",
-    "18章：残差学习为何改善更深网络优化？"
+    "19章：从词向量走向可变长编码器/解码器时信息如何保留？",
+    "20章：长句翻译为何出现固定向量瓶颈？",
+    "21章：辨认与生成的目标函数为何不同？"
   ],
   "resolved_clues": [
     "第01章数学形式化为何能表达明确计算",
@@ -105,7 +119,10 @@
     "第12章SVM最大间隔、软间隔与核映射的统计动机，不构造SVM全面击败神经网络的假史",
     "13章用共享词向量与softmax解释词串概率泛化",
     "14章区分生成DBN微调与深自编码器反向传播微调",
-    "15章区分DNN声学模型与HMM解码，并记录特定RT03S基准结果"
+    "15章区分DNN声学模型与HMM解码，并记录特定RT03S基准结果",
+    "16章已区分2009 ImageNet数据库和2012竞赛训练子集，top-5教学算例为作者构造",
+    "17章将2010测试、2012单CNN验证和2012七CNN集成比赛结果严格拆分，避免GPU单因叙述",
+    "18章区分训练优化退化、过拟合和梯度消失，plain/ResNet对照固定ImageNet top-1验证口径"
   ],
   "continuity_notes": [
     "第01章历史数学前史为多文明并行比较，无暗示直接传授",
@@ -131,7 +148,11 @@
     "2006原始DBN用wake-sleep而同年自编码器可用梯度微调",
     "2011作者机构北京/雷德蒙德不代表个人国籍",
     "2011 RT03S基准8.9百分点与相对约32.5%不同",
-    "第01—15章全部未独立双重审稿"
+    "第01—15章全部未独立双重审稿",
+    "第16—18章限定核对官方PDF及比赛资料，不代表独立科学史审稿",
+    "第17章NeurIPS HTML摘要与PDF个别数字不一致，引用只按PDF Table1/2",
+    "第18章论文2015年预印本与2016年CVPR出版不同，3.57%是集成top-5 test",
+    "第01—18章全部工作初稿仍未完成独立双审"
   ],
   "review_status": "PENDING"
 }
