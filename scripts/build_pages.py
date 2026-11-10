@@ -522,11 +522,36 @@ def build(output: Path, external_root: Path | None = None,
     print(f"Built {len(books)} books in {len(genres)} shelves and {chapter_count} readable chapters → {out}")
 
 
+def check_catalog() -> int:
+    """Fast, dependency-free preflight: every series is indexed and safe to render."""
+    catalog = load_json(ROOT / "catalog.json")
+    genres = [{"name": item["name"], "skill": item["skill"], "kind": item["kind"]}
+              for item in catalog["genres"]]
+    books = discover_books(catalog, load_json(SITE / "assets/data/books.json"))
+    validate_books(genres, books)
+    total = 0
+    for book in books:
+        if book.get("source", {}).get("repository") != "self":
+            continue  # External sources are checked by the Pages checkout/build.
+        source = read_manifest(book, external_root=None)
+        if source is None:
+            raise ValueError(f"Missing local chapter manifest: {book['id']}")
+        total += len(source[0]["chapters"])
+    print(f"OK: {len(books)} registered series, {total} local chapter routes, "
+          "no unindexed manuscript series")
+    return len(books)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Build the public ebook library")
     parser.add_argument("--out", default=str(ROOT / "_site"), type=Path)
     parser.add_argument("--external-root", type=Path,
                         default=ROOT / "external" / "the-empty-spaces")
     parser.add_argument("--require-all-sources", action="store_true")
+    parser.add_argument("--check-catalog", action="store_true",
+                        help="Validate complete series and safe chapter manifests without rendering HTML")
     args = parser.parse_args()
-    build(args.out, args.external_root, args.require_all_sources)
+    if args.check_catalog:
+        check_catalog()
+    else:
+        build(args.out, args.external_root, args.require_all_sources)

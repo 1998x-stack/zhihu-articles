@@ -43,6 +43,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Check shelf registration and chapter manifests
+        run: python scripts/build_pages.py --check-catalog
       - name: Install Markdown renderer
         run: python -m pip install -r scripts/requirements-pages.txt
       - name: Build the public bookshelf and all mapped chapters
