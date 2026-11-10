@@ -481,3 +481,40 @@
 | **28｜跨章闭环** | H160/H162/H167及23、24、26、27章 | 现代闭区间套、中间值、柯西收敛保证基于实数完备性；这是建构的意义，不代表实数基础毫无集合论前提 |
 
 **待核/禁区**：黎曼1854手稿逐叶与1867/1868出版版面的一一对应；魏尔斯特拉斯1861原德文讲义准确符号及1870—1880年代重抄版本；戴德金1872原版原文具体句子；Cantor1872德文主要定理的原页。此登记只证明可为**限定式工作初稿**构建来源链；任何独立双审、正式门禁与终稿状态均不改变。
+
+## 第29—31章专项研究｜连续的怪物、可积性界限、可测积分（2026-11-10）
+
+> **工作范围**：1875/1901原始文献电子转写与存档、2009/2026当代学术研究、现代数学教材。以可核资料核对年代、贡献归属、主张及误差条件；这只支持**来源注明且待审的工作初稿**，正式 `workflow-state.json` 中 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING` 继续保持。PDF原文需先截图核验，本轮对达布1875第65、69、70页已使用截图复核。
+
+### 资料注册H168—H187（历史事实/学术解释/现代数学分层）
+
+- **H168｜1875发表的魏尔斯特拉斯反例**：德国数学期刊第79卷目录，[1875 *Journal für die reine und angewandte Mathematik*, Paul du Bois-Reymond, *Versuch einer Classification der willkürlichen Functionen reeller Argumente nach ihren Aenderungen in den kleinsten Intervallen*](https://de.wikisource.org/wiki/Journal_f%C3%BCr_die_reine_und_angewandte_Mathematik/Inhalt)，起始p.21；[Deutsche Biographie du Bois-Reymond著作索引](https://www.deutsche-biographie.de/gnd1012183734.html?language=en)独立核对**1875, vol.79, pp.21—37**。此为**书目**，不是原版全文校勘。
+- **H169｜魏尔斯特拉斯1872成果与1875传播**：Jon Johnsen，[*Simple Proofs of Nowhere-Differentiability for Weierstrass's Function and Cases of Slow Growth*](https://www.researchgate.net/publication/226912704_Simple_Proofs_of_Nowhere-Differentiability_for_Weierstrass%27s_Function_and_Cases_of_Slow_Growth)，公开论文文字明确**1872呈现**和充分条件 \(0<a<1\)、奇整数\(b>1\)、\(ab>1+3\pi/2\)（现代换符号）；Hardy 1916放宽条件。研究论文公开内容，原始柏林报告/1875德文全文未逐页核对。
+- **H170｜Bolzano早期更早的怪函数与后世重发现**：Elías Fuentes Guillén，[*Bolzano's Mathematical Legacy Reconsidered*](https://link.springer.com/article/10.1007/s44007-025-00193-7)，*La Matematica* 5, article 44，**2026-06-25开放全文**。作者明确：玻尔查诺的构造不晚于**1834年**，其手稿函数论1930年才印出；玻尔查诺原论证明确到不具有导数的点稠密，后世工作证明其函数实际处处不可微。**重大编辑限制**：不说玻尔查诺自己已经以完整现代证明写出全域不可微。
+- **H171｜Bolzano条目及文献边界**：[Stanford Encyclopedia of Philosophy, Bernard Bolzano](https://plato.stanford.edu/entries/bolzano/)，§11分析学，指出其《函数论》后世出版、构造连续非可微函数。二手学术条目，可与H170互校，不以二手标题取代手稿的具体证明。
+- **H172｜原始魏尔斯特拉斯反例的现代证明条件**：[*On the structure of plane continuous curves*, Ch.3, §3.1](https://gredos.usal.es/bitstream/handle/10366/148594/Memoria%20tfg_Juan%20Zaragoza%20Chichell.pdf?isAllowed=y&sequence=1)：从现代函数 \(W(x)=\sum_{n\ge0}a^n\cos(\pi b^n x)\)、\(0<a<1\)、奇整数\(b>1\)、\(ab>1+3\pi/2\)，证明处处连续与处处不可微。该PDF来自大学学位论文，检索中明确列公式；**未逐页截图，不能冒充独立核验全文**；用作算法核对的次级来源，最终定理也与H169一致。
+- **H173｜数学对象的严谨示例**：[John McCarthy, *An Everywhere Continuous Nowhere Differentiable Function*, *American Mathematical Monthly* 60(10) (1953)](https://www-formal.stanford.edu/jmc/weierstrass.pdf)，公开摘要介绍更简单的现代例子及魏尔斯特拉斯充分条件。**非1872史料；本轮未做PDF截图，不作原页引文**。
+- **H174｜Darboux1875论文原始期刊书目**：[Numdam: Gaston Darboux, *Mémoire sur les fonctions discontinues*](https://archive.numdam.org/item/ASENS_1875_2_4__57_0/)，*Annales scientifiques de l'École Normale Supérieure*, 2e série, vol.4 (1875), **pp.57—112**, DOI 10.24033/asens.122。书目一手记录。
+- **H175｜Darboux1875原版全文数字扫描**：[Numdam全文PDF扫描](https://www.hist-math.fr/textes/Darboux1875_FonctionsDiscontinues.pdf)，**原刊p.65**定义上和\(M=\sum M_i\delta_i\)、下和\(m=\sum m_i\delta_i\)、振荡和\(\Delta=\sum\Delta_i\delta_i\)，且\(\Delta=M-m\)；**原刊p.70**说明 \(\Delta_{ab}=0\iff M_{ab}=m_{ab}\)的两大分类。**已用网页PDF的屏幕截图核对原始版面p.65、69、70**；不能把这和另一条「导函数具有介值性」的达布定理混成同一结论。
+- **H176｜Darboux导函数介值性属于另一结果**：Israel Halperin，[*Discontinuous functions with the Darboux property*](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/CC224B9D70EB9D8729096B730DEDDDC3/S0008439559051141a.pdf/discontinuous_functions_with_the_darboux_property.pdf)，*Canadian Mathematical Bulletin* 2(2) (1959), pp.111–118；历史引言指出Darboux1875证明了**导函数的介值性质**，这与其上/下积分判据应分开。PDF来源仅公开摘录，未经截图，不引原页。
+- **H177｜现代达布判据及Thomae函数**：Jiří Lebl，[*Basic Analysis: The set of Riemann integrable functions*](https://www.jirka.org/ra/html/sec_riemannlebesgue.html)，有界函数在闭区间上达布判据，Riemann—Lebesgue判据及稠密有理点跳跃函数例。**现代数学教材，不能称1875当时已有测度零判据**。
+- **H178｜Lebesgue1901一手论文**：H. Lebesgue，[*Sur une généralisation de l'intégrale définie*](https://fr.wikisource.org/wiki/Sur_une_g%C3%A9n%C3%A9ralisation_de_l%E2%80%99int%C3%A9grale_d%C3%A9finie)，*Comptes rendus* 132 (1901) **pp.1025—1028**。法文电子转写第1025页开头明确对照Riemann按自变量\(x\)分割与新方法按函数值\(y\)分层（原文关于两种推广方式）；**已核公开电子转写，未做原件逐页校勘**。
+- **H179｜Lebesgue1902学位论文年代**：[MacTutor Henri Lebesgue传记](https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/)：1901发表短论、**1902博士论文 *Intégrale, longueur, aire*，米兰 *Annali di Matematica***。补充[UNESP 2015博士研究翻译介绍](https://repositorio.unesp.br/entities/publication/6f8d7bd4-f687-40c7-b0bf-267fdb9a61ba)，确认该论文发表年份与研究核心。二级资料，不声称看过1902全论文。
+- **H180｜1904《积分讲义》一手资料**：[Henri Lebesgue, *Leçons sur l’intégration et la recherche des fonctions primitives*](https://fr.wikisource.org/wiki/Livre%3ALebesgue_-_Le%C3%A7ons_sur_l%27int%C3%A9gration_et_la_recherche_des_fonctions_primitives%2C_1904.djvu)，**巴黎1904**，目录标第VII章“Les fonctions sommables” p.98，前言自述取材自**1902—1903**教学。**Wikisource扫描目录与文本转写，非独立纸本**。
+- **H181｜Lebesgue与Borel/Jordan先行测度工作**：[MacTutor Henri Lebesgue](https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/)及2002研究综述[Hoare & Lord, “Intégrale, longueur, aire”](https://www.cambridge.org/core/journals/mathematical-gazette/article/abs/integrate-longueur-aire-the-centenary-of-the-lebesgue-integral/BB648E62EEC0D9ACDDE0707C98E3683E)。承认Borel/Jordan先行工作；不能说“勒贝格一人创造了所有测度论”。
+- **H182｜Lebesgue本人对先行工作的后来评价**：Lebesgue 1918，[*Remarques sur les théories de la mesure et de l'intégration*](https://perso.lpsm.paris/~mazliak/Lebesgue_1918.pdf)，原文公开摘录提Borel1895开集覆盖与可数集测度、1898讲义及自己的1901年4月工作；**PDF未做截图，若正文引用仅概述，原文详细断言待截图核验**。
+- **H183｜1901/1902/1904出版年区分**：[MacTutor Earliest Known Uses: Lebesgue Integral](https://mathshistory.st-andrews.ac.uk/Miller/mathword/l/)，1899—1901短论→**1901-04-29**介绍积分的Comptes Rendus笔记→**1902**博士论文；1904教材由H180核证。**不能把发明时间笼统写成1902首次**。
+- **H184｜现代Lebesgue积分对单点及可数集**：[Measure theory and the Lebesgue integral, University of Florida (M. Jury)](https://people.clas.ufl.edu/mjury/files/measurenotes6feb2019.pdf)，2019课程讲义含简单函数的测度积分、单调收敛定理和证明；**仅检索文本片段，未逐页截图，不冒充核对整份PDF**。配合基础测度论标准证明：可数点集测度零、指示函数积分等于集合测度。
+- **H185｜极限交换条件**：同H184，单调收敛定理 \(0\le f_n\uparrow f\) **可测**时有 \(\int f_n\uparrow\int f\)，积分可取+\(\infty\)；**并非任意无条件交换极限与积分**。现代数学，不标为1901原版逐字定理。
+- **H186｜1901原文中的原函数问题**：H178第1025页明确表示Riemann意义下有些导函数不可积，积分方法与求原函数问题相关；不把Lebesgue的新积分写作“仅仅能积分有理数指示函数”这一单一动机。
+- **H187｜函数积分层次比较**：H177与H178、H184综合：每个Riemann可积（闭有限区间有界）函数也是Lebesgue可积且积分相同，存在Lebesgue可积但不Riemann可积者。**现代数学通行结论；非1901原文全套证明。**
+
+### 本批史实—数学主张映射／例题门禁
+
+| 章节 | 准入事实依据 | 现代例子及必须保留的条件 |
+| --- | --- | --- |
+| **29** | Weierstrass 1872报告/1875 du Bois-Reymond传播H168—169；Bolzano不晚于1834/1930刊印与1930后认证H170—171 | \(W(x)=\sum_{n=0}^{\infty}(1/2)^n\cos(\pi13^n x)\)。\(|\cos|\le1\)与几何级数保证**一致收敛和连续**，\(ab=6.5>1+3\pi/2\)符合一个处处不可微的充分条件。单独以\(h=13^{-m}\)说明\(x=0\)差商\(\le-2(13/2)^m\to-\infty\)，仅证**该点**，全域结论依专门定理；“形式上逐项求导发散”**不构成证明**。本例为现代选择的参数，不称1872本人所举数字 |
+| **30** | 1875 Darboux论文原版p.65/70 H174—175，另一Daroux导数介值定理H176 | \(U(P)=\sum M_i\Delta x_i\)、\(L(P)=\sum m_i\Delta x_i\)，\(U-L=\sum\mathrm{osc}(f,I_i)\Delta x_i\)。有界\(f\)黎曼可积\(\iff\forall\varepsilon>0\,\exists P:U(P)-L(P)<\varepsilon\)。单跳跃函数每格振荡集中在1/2附近；Dirichlet \(U-L=1\)。Thomae证明：对任意\(\varepsilon\)，先取\(N\)让除有限q≤N外尖峰高度≤1/N，再孤立有限尖峰于总长度小的区间；下和恒0，上和任意小。**先后分别选有限高度阈值与例外区间** |
+| **31** | H178 1901原注按函数值分层；H179 1902论文；H180 1904讲义；H181 Borel/Jordan先行 | \(1_{\mathbb Q\cap[0,1]}\)不黎曼可积但Lebesgue可积=0；列出有理数\(\{r_k\}\)，设\(f_n=1_{\{r_1,\dots,r_n\}}\)，每个仅在有限点为1、Riemann积分0，点态递增到Dirichlet函数，后者仍Lebesgue积分0。现代**单调收敛**只对非负可测递增函数成立；可数覆盖\(\sum\varepsilon/2^{k+1}\)可压得任意小。对于任意函数/非可测集合，不能无条件赋值积分；对一般实值函数要求绝对可积\(\int |f|<\infty\)才能称有限Lebesgue积分 |
+
+**待核与禁止伪证**：Weierstrass 1872柏林学院记录及1875 du Bois-Reymond原刊逐页；Bolzano1930函数论原文与后世定理证明；Darboux论文的导数介值性质具体页码、上/下和p.70已原页截图；Lebesgue1901法文注的全集页码、1902博士论文原版及1904讲义逐页。不能把当代小参数例子当历史人物原作。不得伪造qa双审、正式证据认证或发布状态。
