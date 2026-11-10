@@ -704,14 +704,14 @@
 
 ### 批次研究结论
 
-**仅第28—30章**满足可写成研究性初稿的限定资料支撑条件。正文每章配套 claim_id→source_id 文件。第31—37章保持 TODO_VERIFY，review_status 保持PENDING，final_approved=false。真实史实、现代定理、作者构造例图分别标明，不假造数学家对白与现场。
+**历史批次结论（第28—30章交付时）**：当时新增的第28—30章满足限定资料支持的研究性初稿写作条件；当时第31—37章尚为 TODO_VERIFY。随后第31—33章专项前置研究已另行增补（见下节）；**当前仅第34—37章仍是规划占位和 TODO_VERIFY**。正文每章配套 claim_id→source_id 文件；review_status 保持 PENDING、final_approved=false。真实史实、现代定理、作者构造例图分别标明，不假造数学家对白与现场。
 
 
 ---
 
 ## 第31—33章专项前置史料与模型核证｜2026-11-10
 
-> **阶段限定：** 以下资料只支持新增第31—33章的研究性工作初稿写作。类型为 nonfiction / genre-history-science，依仓库 fact-research → nonfiction-architect → nonfiction-writer 文件所有权执行。参考书目通过出版社、原始报告及大学存档核对了出版节点与核心定义；讲解中的矩阵算例、双块Graphon及六人网络是当代作者自制数学例子。**尚未完成独立审稿、全页校勘、最终封版。** 第34—37章仍TODO_VERIFY。
+> **阶段限定：** 以下资料只支持新增第31—33章的研究性工作初稿写作。类型为 nonfiction / genre-history-science，依仓库 fact-research → nonfiction-architect → nonfiction-writer 文件所有权执行。参考书目通过出版社、原始报告及大学存档核对了出版节点与核心定义；讲解中的矩阵算例、双块Graphon及十二节点环格点是当代作者自制数学例子。**尚未完成独立审稿、全页校勘、最终封版。** 第34—37章仍TODO_VERIFY。
 
 ### 新增来源 S139—S150
 
