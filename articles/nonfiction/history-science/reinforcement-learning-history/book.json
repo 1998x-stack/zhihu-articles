@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
-  "reading_notice": "第01—15章为未通过独立双审的研究性工作初稿；其余章节仍属策划占位，读者页面展示并不等于发表或完成史实核验。",
+  "reading_notice": "第01—21章为来源范围限定的未独立双审历史科学工作初稿；序章、尾声和第22—32章共13篇仍为规划占位。章节可阅读不意味着全书事实核验或批准。",
   "description": "从试错心理学、动态规划与时序差分出发，串联价值学习、策略优化、深度强化学习、自我对弈及人类反馈与可验证奖励。",
   "chapters": [
     {
@@ -122,42 +122,42 @@
       "title": "Options：机器为什么总要一步一步想",
       "part": "第四部｜从评估行动到学习策略",
       "file": "draft/16.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-17",
       "title": "再给价值函数装上神经网络：推广经验的诱惑",
       "part": "第五部｜表格装不下世界",
       "file": "draft/17.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-18",
       "title": "致命三角：三个合理方法为什么放在一起会出错",
       "part": "第五部｜表格装不下世界",
       "file": "draft/18.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-19",
       "title": "经验回放：让昨天的失败再次成为教材",
       "part": "第五部｜表格装不下世界",
       "file": "draft/19.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-20",
       "title": "成功不等于可靠：强化学习该怎样接受检验",
       "part": "第五部｜表格装不下世界",
       "file": "draft/20.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-21",
       "title": "DQN：机器只看像素，怎么学会打街机",
       "part": "第六部｜从街机到围棋",
       "file": "draft/21.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-22",

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "network-science-history",
   "title": "连接的真相：一部网络科学发展史",
-  "reading_notice": "本系列只有序章叙事样段与章节规划卡，均非完整且经过审校的正式文章。",
+  "reading_notice": "第01—19章为独立审稿前的非虚构研究性正文初稿；序章00、第20—32章与尾声仍为策划占位。公开章节不代表独立事实核验、结构审稿、终稿批准或正式出版。",
   "chapters": [
     {
       "id": "prologue",
@@ -16,133 +16,133 @@
       "title": "01｜七座桥的困局：欧拉删掉了距离",
       "part": "第1部｜连接的诞生",
       "file": "draft/01.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-02",
       "title": "02｜从电路到树：连接开始拥有方程",
       "part": "第1部｜连接的诞生",
       "file": "draft/02.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-03",
       "title": "03｜把关系画出来：莫雷诺的社会图",
       "part": "第1部｜连接的诞生",
       "file": "draft/03.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-04",
       "title": "04｜谁最重要：中心性的几种含义",
       "part": "第1部｜连接的诞生",
       "file": "draft/04.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-05",
       "title": "05｜用骰子创造网络：随机图的双重起点",
       "part": "第2部｜随机、距离与弱关系",
       "file": "draft/05.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-06",
       "title": "06｜只加一条边，世界为何突然连通",
       "part": "第2部｜随机、距离与弱关系",
       "file": "draft/06.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-07",
       "title": "07｜六度之隔：米尔格拉姆的信件",
       "part": "第2部｜随机、距离与弱关系",
       "file": "draft/07.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-08",
       "title": "08｜弱关系的力量：陌生人连接两种世界",
       "part": "第2部｜随机、距离与弱关系",
       "file": "draft/08.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-09",
       "title": "09｜中心性之争：弗里曼澄清概念",
       "part": "第2部｜随机、距离与弱关系",
       "file": "draft/09.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-10",
       "title": "10｜互联网成为实验室：测量真实网络",
       "part": "第3部｜真实网络的反叛",
       "file": "draft/10.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-11",
       "title": "11｜1998年：几条捷径缩小世界",
       "part": "第3部｜真实网络的反叛",
       "file": "draft/11.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-12",
       "title": "12｜1999年：超级枢纽从哪里来",
       "part": "第3部｜真实网络的反叛",
       "file": "draft/12.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-13",
       "title": "13｜幂律审判：漂亮直线未必是真相",
       "part": "第3部｜真实网络的反叛",
       "file": "draft/13.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-14",
       "title": "14｜很近，不等于找得到路",
       "part": "第3部｜真实网络的反叛",
       "file": "draft/14.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-15",
       "title": "15｜拔掉一个枢纽：网络为什么脆弱",
       "part": "第4部｜网络内部的隐藏结构",
       "file": "draft/15.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-16",
       "title": "16｜朋友的朋友：聚类与同配性",
       "part": "第4部｜网络内部的隐藏结构",
       "file": "draft/16.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-17",
       "title": "17｜找到看不见的部落：社群发现",
       "part": "第4部｜网络内部的隐藏结构",
       "file": "draft/17.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-18",
       "title": "18｜模块度：社群划分有了评分",
       "part": "第4部｜网络内部的隐藏结构",
       "file": "draft/18.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-19",
       "title": "19｜三点之间的秘密：网络模体",
       "part": "第4部｜网络内部的隐藏结构",
       "file": "draft/19.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-20",
