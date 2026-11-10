@@ -66,7 +66,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **C**：专业综述支持，适宜历史背景，不单独支持争议归属。
 - **D**：编辑假设、类比或待核猜想，不进入正文事实陈述。
 
-截至2026-11-09，第01—12章已分别针对各自可访问的一手原文片段、出版社与大学馆藏记录以及技术定义开展**限定范围前置核验**；第13章以后及未通读完整原著的争议细节仍属 **B/C 或待核**。不能据此宣布全书完成来源核查。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
+截至2026-11-10，第01—15章已依各批次对可访问原始论文、出版记录及特定技术主张开展**有限范围前置核验**；第16章以后以及尚未逐页复核的原刊细节仍为待核。本书未完成全书事实核验、独立双审或终审。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
 
 ## 第01—03章增量核证记录（2026-11-09）
 
@@ -171,3 +171,31 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **1994／1996 SARSA**：Rummery与Niranjan1994剑桥工程系TR166摘要使用**Modified Connectionist Q-Learning**命名；Sutton与Barto2018教材历史注释将Sarsa名的引入归于Sutton1996；不能把1994技术报告标题改成“SARSA”。2000年Singh等提供特定探索条件下的在策略理论结果。
 - **现代同样数字不同目标**：设(Q(s,a)=2,r=-1,gamma=.9,alpha=.5,Q(s',左)=6,Q(s',右)=1)，下一实际动作选右。Q-learning目标4.4、一次更新3.2；SARSA目标-0.1、一次更新0.95。两者均正确且都是**作者自设教学例题**，不是学术论文原始实验。TD另例(p=.5)周二(p=.75)以(alpha=.2)更新至.55；状态估值.4→.4575，(delta=.23)。
 - **本批未完成**：1988论文与1992论文PDF截图服务失败，虽可获取原始文本段落、期刊摘要，但不能宣称所有图表已目视二核；1994剑桥TR166全文未完整阅读；尚无独立连续性审稿、发展审稿或终稿批准。
+
+## 第五批13—15章增量研究（2026-11-10）
+
+> 【证据范围】仅支持本批正文的具体历史/数学论断，不代表书籍全文来源验证已完成。F/AC/TG别名由逐章claims JSON映射到对应R号。所有人工数学样本均不作历史实验数据。
+
+| 新来源 | 权威论文或研究入口 | 已支持的论断及审稿限制 |
+| --- | --- | --- |
+| R62 | [Williams (1992), Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning](https://doi.org/10.1007/BF00992696) | 一手期刊8:229–256及可访问原文影印；随机单元、期望奖励梯度、即时和受限延迟强化；数学保证并非任意序贯任务通用定理 |
+| R63 | [Ronald J. Williams author publication bibliography](https://ccs.neu.edu/home/rjw/pubs.html) | 作者本人书目，1992期刊论文与1991/1990相关研究脉络；不是复杂定理的独立证明 |
+| R64 | [Barto Sutton Anderson (1983), Neuronlike Adaptive Elements ...](https://doi.org/10.1109/TSMC.1983.6313077) | 原始IEEE论文与可访问影印，对ASE/ACE角色、1983历史先后、BOXES先驱；既有R04但本批精读原文首页与前言 |
+| R65 | [Sutton McAllester Singh Mansour (1999), Policy Gradient Methods for RL with Function Approximation](https://proceedings.neurips.cc/paper_files/paper/1999/hash/464d828b85b0bed98e80ade0a5c43b0f-Abstract.html) | 1999 NeurIPS官方摘要，明确可参数化随机策略、动作价值/优势辅助策略梯度与条件性局部最优结论 |
+| R66 | [Konda Tsitsiklis (1999), Actor-Critic Algorithms](https://papers.nips.cc/paper/1999/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html) | 另一篇独立1999 NeurIPS论文，双时间尺度、线性TD Critic、近似梯度Actor；不与R65混为一篇 |
+| R67 | [Konda Tsitsiklis, On Actor-Critic Algorithms, SIAM journal](https://doi.org/10.1137/S0363012901385691) | 后续一手期刊摘要，双时间尺度Critic线性逼近与受限收敛结果；不扩展为任意深度神经网络 |
+| R68 | [Tesauro (1992), Practical Issues in Temporal Difference Learning](https://research.ibm.com/publications/practical-issues-in-temporal-difference-learning) | IBM原始研究目录/摘要，Machine Learning 8:257–277，纯棋盘表示与自我对弈可达较强中等水平 |
+| R69 | [Tesauro (1993), TD-Gammon A Self-Teaching Backgammon Program Achieves Master-Level Play](https://research.ibm.com/publications/td-gammon-a-self-teaching-backgammon-program-achieves-master-level-play) | IBM AAAI Fall Symposium 1993-10-22记录，明确纯棋盘版本与加手工特征版本的水平区别 |
+| R70 | [Tesauro (1994), TD-Gammon ..., Neural Computation 6(2):215–219](https://doi.org/10.1162/neco.1994.6.2.215) | 1994正式期刊论文与摘要，清楚区别raw board中等水平与手工特征后大师水平；不同于1993会议 |
+| R71 | [Tesauro (1995), Temporal Difference Learning and TD-Gammon](https://www.bkgm.com/articles/tesauro/tdl.html) | 原作者1995 Communications of the ACM 38(3):58–68授权转载全文；版本细节、40隐藏单元/20万盘、51盘净负13点、38盘净负7点、四输出与随机骰子解释 |
+| R72 | [Tesauro (2002), Programming Backgammon Using Self-Teaching Neural Nets](https://research.ibm.com/publications/programming-backgammon-using-self-teaching-neural-nets) | IBM原始期刊论文摘要，后续总结浅层搜索与doubling策略如何增强自学评价；不倒推到1992版 |
+| R73 | [Tesauro (1989), Neurogammon Wins Computer Olympiad](https://doi.org/10.1162/neco.1989.1.3.321) | Neural Computation 1(3):321–323期刊书目及原文摘要，Neurogammon神经网络用专家数据训练，1989计算机奥林匹克双陆棋竞赛 |
+| R74 | [Tesauro and Sejnowski (1989), A Parallel Network That Learns to Play Backgammon](https://doi.org/10.1016/0004-3702(89)90017-9) | Artificial Intelligence 39:357–390原始期刊摘要，人类专家评估位置数据训练的神经网络，交叉佐证Neurogammon监督路线 |
+
+### 三章核心史学—技术边界
+
+1. **REINFORCE（1992）**：Williams原始论文研究随机连接主义网络梯度，适用于即时强化和有限延迟任务；现代对数导数的整轨迹策略梯度是一种教学对照，不可当作原文对任意时序任务的统一证明。原创sigmoid训练数值p=0.7，alpha=0.1，抽中左得G=1，则theta增加0.03，p_new≈0.706262；左右+1/-1的两动作期望梯度0.42。
+2. **Actor-Critic（1983及1999以后）**：Barto/Sutton/Anderson1983原文有ASE/ACE两类元件；1992 Williams在其原论文中已回顾这一先驱。1999年Konda/Tsitsiklis双时间尺度研究R66与Sutton/McAllester/Singh/Mansour策略梯度研究R65是两篇不同论文。现代教学样本TD误差0.23、Critic价值0.446、Actor权重变化0.0069、概率约0.701447，绝非1983实验。
+3. **TD-Gammon（1992/1993/1994/1995）**：1992纯棋盘版本达较强中等水平；1993/1994论文明确手工特征版本达到强大师水平；1995授权转载提供更完整方法、40隐藏单元/20万盘纯输入结果、51盘净负13点和38盘净负7点等数值。相应单位是**点数而非输盘**；有限测试不证明普遍击败世界最强。后续版本涉及2-ply搜索，doubling模块不等同同一训练中的完全自发策略。
+4. **Neurogammon及先驱**：1989 Tesauro与Sejnowski原论文有专家评估的监督学习线路，1989Tesauro记录计算机奥林匹克双陆棋比赛；不能写成Tesauro首次就放弃专家数据直接创造TD-Gammon。
+5. **未完成事项**：1992 Williams所有推导的逐式二审、1999 Konda证明条件及1995 ACM原刊图表对比未全部独立审阅；章节连续性与发展性审稿均待真实单独执行。阶段仍为`draft_unreviewed`，`review_status=PENDING`。

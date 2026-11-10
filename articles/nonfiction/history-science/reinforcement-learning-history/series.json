@@ -3,7 +3,7 @@
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
   "status": "drafting",
-  "reading_notice": "01—12章已有各自范围限定的非虚构工作初稿与逐章claims JSON；序章、尾声和13—32章共22个叙事单元仍为策划占位。独立事实复审、结构双审、精修与终审尚未完成。",
+  "reading_notice": "第01—15章均为尚未独立双审的非虚构工作初稿，拥有逐章claims JSON及指定范围的来源核对；序章、尾声和第16—32章共19个位置仍为策划占位。未完成全书核证、终稿或任何平台发布。",
   "parts": [
     {
       "number": 1,
@@ -299,31 +299,49 @@
       "title": "REINFORCE：不评估每一步，直接调整策略",
       "part": "第四部｜从评估行动到学习策略",
       "path": "draft/13.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R07"
-      ]
+        "R62",
+        "R63",
+        "R01",
+        "R64",
+        "R65"
+      ],
+      "claims_path": "draft/13.claims.json"
     },
     {
       "id": "14",
       "title": "演员与评论家：两种学习职责为什么需要配合",
       "part": "第四部｜从评估行动到学习策略",
       "path": "draft/14.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
+        "R64",
         "R04",
-        "R07"
-      ]
+        "R01",
+        "R65",
+        "R66",
+        "R67",
+        "R62"
+      ],
+      "claims_path": "draft/14.claims.json"
     },
     {
       "id": "15",
       "title": "TD-Gammon：自我对弈真的能够长出棋艺吗",
       "part": "第四部｜从评估行动到学习策略",
       "path": "draft/15.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R09"
-      ]
+        "R68",
+        "R69",
+        "R70",
+        "R71",
+        "R73",
+        "R74",
+        "R72"
+      ],
+      "claims_path": "draft/15.claims.json"
     },
     {
       "id": "16",
@@ -513,5 +531,5 @@
     }
   ],
   "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段",
-  "last_batch": "batches/10-12.md"
+  "last_batch": "batches/13-15.md"
 }

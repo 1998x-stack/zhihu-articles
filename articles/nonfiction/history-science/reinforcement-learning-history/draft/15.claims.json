@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "chapter": "15",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "本轮特定主张已针对可访问的1992 Williams一手原文、1983 Barto等一手摘要/前言、1999 NeurIPS期刊记录、Tesauro1992—1995原始出版及作者授权转载进行限定范围前置核证。现代算法表达与原创教学数值不等于历史论文实验。未进行独立双审。",
+  "alias_to_research_source_id": {
+    "TG01": "R68",
+    "TG02": "R69",
+    "TG03": "R70",
+    "TG04": "R71",
+    "TG05": "R72",
+    "TG06": "R73"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-15-01",
+      "claim": "Tesauro1992 Machine Learning论文报告TD(lambda)训练双陆棋自我对弈和强中等水平",
+      "source_ids": [
+        "R68"
+      ],
+      "kind": "primary_abstract",
+      "section": "一、六｜1992",
+      "evidence_note": "IBM一手期刊摘要",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-02",
+      "claim": "Tesauro1993会议和1994Neural Computation论文分别报告handcrafted features改善至master level",
+      "source_ids": [
+        "R69",
+        "R70"
+      ],
+      "kind": "historical_fact",
+      "section": "一、七｜版本演进",
+      "evidence_note": "分别记载1993/1994",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-03",
+      "claim": "Tesauro1995 Communications ACM38(3):58–68有授权转载可访问原文",
+      "source_ids": [
+        "R71"
+      ],
+      "kind": "publication_fact",
+      "section": "史料说明",
+      "evidence_note": "版本和数据源来自1995原作者全文",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-04",
+      "claim": "Neurogammon在1989相关论文描述用专家棋局示范/评分数据训练与获计算机奥林匹克双陆棋比赛",
+      "source_ids": [
+        "R73",
+        "R74",
+        "R71"
+      ],
+      "kind": "historical_fact",
+      "section": "三｜监督学习前驱",
+      "evidence_note": "不同于TD-Gammon训练方式",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-05",
+      "claim": "双陆棋随机骰子导致状态丰富与搜索分支复杂；不能无条件推广到确定性游戏",
+      "source_ids": [
+        "R71"
+      ],
+      "kind": "primary_method",
+      "section": "二、十｜骰子",
+      "evidence_note": "作者原始解释",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-06",
+      "claim": "TD-Gammon用多层感知机估值，1995版描述四输出对应正常胜与gammon结局",
+      "source_ids": [
+        "R71"
+      ],
+      "kind": "primary_method",
+      "section": "四｜评价网络",
+      "evidence_note": "教学单标量为简化",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-07",
+      "claim": "训练时同一网络为双方合法行动评分，通过自我对弈获得TD(lambda)学习信号",
+      "source_ids": [
+        "R71",
+        "R68"
+      ],
+      "kind": "primary_method",
+      "section": "四、五｜方法",
+      "evidence_note": "已知规则合法动作，不能写空白世界",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-08",
+      "claim": "TD示例0.55加.2*(.60-.55)=.56，终点例.60+.2*(1-.60)=.68",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "五｜最小更新",
+      "evidence_note": "现代单标量教学例",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-09",
+      "claim": "1995作者报告纯棋盘编码40隐藏单元训练20万盘达较强中等水平",
+      "source_ids": [
+        "R71"
+      ],
+      "kind": "primary_result",
+      "section": "六｜纯输入实验",
+      "evidence_note": "不能挪用到强版本",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-10",
+      "claim": "后续版本加入手工特征及部分两步搜索提升表现；doubling策略不是同一神经网络自发习得",
+      "source_ids": [
+        "R71",
+        "R72"
+      ],
+      "kind": "primary_method_limit",
+      "section": "七｜人工贡献",
+      "evidence_note": "版本区分必需",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-11",
+      "claim": "1995原文报告1991年版1.0 51盘累计净负13点、1992版2.0 38盘净负7点",
+      "source_ids": [
+        "R71"
+      ],
+      "kind": "primary_result",
+      "section": "八｜对人类测试",
+      "evidence_note": "单位点而非盘，非随机多种条件定理",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-12",
+      "claim": "-13/51约-0.255点/盘，非赢/输盘数",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "八｜量纲验算",
+      "evidence_note": "原始报告数据的作者计算",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-13",
+      "claim": "绝对价值估计可能偏差较大但候选棋步相对排序仍可靠，是作者1995的解释线索",
+      "source_ids": [
+        "R71"
+      ],
+      "kind": "primary_interpretation",
+      "section": "九｜相对排序",
+      "evidence_note": "不可视为普适理论保证",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-14",
+      "claim": "原作者认为随机骰子帮助自我对弈接触更丰富状态，且游戏可反复模拟重开",
+      "source_ids": [
+        "R71"
+      ],
+      "kind": "primary_interpretation",
+      "section": "十｜训练条件",
+      "evidence_note": "不保证最优探索",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-15-15",
+      "claim": "Tesauro2002后续文章重点处理浅层搜索和doubling模块，不能倒写1992raw版完整具备",
+      "source_ids": [
+        "R72"
+      ],
+      "kind": "later_boundary",
+      "section": "十一｜发展",
+      "evidence_note": "回顾而非同时",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "1995授权转载全文可以核具体数字，但专门原刊印刷图表尚未独立目视复核",
+    "1992纯棋盘强中等版本与后续手工特征、2-ply搜索大师版本必须分开",
+    "对人类测试单位是points不是games；有限对局不足以证明普遍胜率",
+    "1992-95开发过程已知合法规则、奖励、输入编码，自我对弈不等于无任何人类设计"
+  ]
+}

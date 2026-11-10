@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "chapter": "14",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "本轮特定主张已针对可访问的1992 Williams一手原文、1983 Barto等一手摘要/前言、1999 NeurIPS期刊记录、Tesauro1992—1995原始出版及作者授权转载进行限定范围前置核证。现代算法表达与原创教学数值不等于历史论文实验。未进行独立双审。",
+  "alias_to_research_source_id": {
+    "AC01": "R64",
+    "AC02": "R01",
+    "AC03": "R65",
+    "AC04": "R66",
+    "AC05": "R67",
+    "AC06": "R62"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-14-01",
+      "claim": "Barto-Sutton-Anderson1983论文以ASE与ACE组合解决模拟倒立摆稀疏失败评价问题",
+      "source_ids": [
+        "R64",
+        "R04"
+      ],
+      "kind": "primary_method",
+      "section": "二｜1983先驱",
+      "evidence_note": "三位作者、原文角色与BOXES对比",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-02",
+      "claim": "ASE负责状态与输出关联的行动搜索，ACE形成更有信息量的评价",
+      "source_ids": [
+        "R64"
+      ],
+      "kind": "primary_method",
+      "section": "二｜两种角色",
+      "evidence_note": "不可等同所有现代actor-critic模型",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-03",
+      "claim": "现代Actor可表示pi_theta，Critic可以估计V/Q/优势，二者参数与职责可分开",
+      "source_ids": [
+        "R01",
+        "R65"
+      ],
+      "kind": "modern_definition",
+      "section": "三｜参数化分工",
+      "evidence_note": "多种算法族而非唯一架构",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-04",
+      "claim": "现代delta=r+gammaV(s')-V(s)可作一阶评估信号，基于准确Critic有条件对应优势估计",
+      "source_ids": [
+        "R01",
+        "R65"
+      ],
+      "kind": "modern_math",
+      "section": "四、六｜TD优势",
+      "evidence_note": "不把单样本当真优势",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-05",
+      "claim": "示例V=.4、Vnext=.7、r=0、gamma=.9得delta=.23，alphaCritic=.2更新V=.446",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "四｜价值样本",
+      "evidence_note": "原创表格式演示",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-06",
+      "claim": "示例演员p=.7、alpha=.1、delta=.23、gradlog=.3得delta_theta=.0069，新p约.701447",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "五｜演员更新",
+      "evidence_note": "原创现代actor-critic数学",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-07",
+      "claim": "A_pi(s,a)=Q_pi(s,a)-V_pi(s)，示例7-5=2、4-5=-1",
+      "source_ids": [
+        "R01",
+        "R65"
+      ],
+      "kind": "modern_math",
+      "section": "六｜优势",
+      "evidence_note": "优势非绝对奖励",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-08",
+      "claim": "演员与评论家并行更新可能产生策略评价滞后、偏差和学习率耦合",
+      "source_ids": [
+        "R66",
+        "R67",
+        "R01"
+      ],
+      "kind": "technical_limitation",
+      "section": "七｜相互误导",
+      "evidence_note": "不能保证无条件稳定",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-09",
+      "claim": "Konda与Tsitsiklis1999独立NeurIPS论文研究双时间尺度actor-critic线性TD critic",
+      "source_ids": [
+        "R66"
+      ],
+      "kind": "historical_fact",
+      "section": "七｜后期理论",
+      "evidence_note": "不同于同年R65",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-10",
+      "claim": "Sutton McAllester Singh Mansour1999政策梯度论文是另一篇同年NeurIPS论文",
+      "source_ids": [
+        "R65"
+      ],
+      "kind": "historical_fact",
+      "section": "七、八｜并行研究",
+      "evidence_note": "理论结果条件性局部最优",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-11",
+      "claim": "Konda和Tsitsiklis后续SIAM论文给出受限设定的收敛分析，不是所有深度模型",
+      "source_ids": [
+        "R67"
+      ],
+      "kind": "primary_scope",
+      "section": "七｜审稿边界",
+      "evidence_note": "摘要级范围",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-12",
+      "claim": "1992Williams原文已将1983路线视作actor-critic前驱，历史并非1992之后发明两角色",
+      "source_ids": [
+        "R62",
+        "R64"
+      ],
+      "kind": "historical_chronology",
+      "section": "八｜归属",
+      "evidence_note": "Williams原文引述",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-14-13",
+      "claim": "无Critic的回报式REINFORCE可成立，但可能方差较大；critic不是所有策略梯度法的必需模块",
+      "source_ids": [
+        "R62",
+        "R01"
+      ],
+      "kind": "conceptual_scope",
+      "section": "九｜反例",
+      "evidence_note": "用精度与复杂度区分",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "1983 ASE/ACE不能等同今日标准深度actor-critic逐式实现",
+    "1999两个独立NeurIPS论文不合并；2003等后续理论不能移作1999结论",
+    "critic在相关条件才提供优势估计，演员与评论家联动可能出现误差"
+  ]
+}

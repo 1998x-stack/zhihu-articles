@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "chapter": "13",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "本轮特定主张已针对可访问的1992 Williams一手原文、1983 Barto等一手摘要/前言、1999 NeurIPS期刊记录、Tesauro1992—1995原始出版及作者授权转载进行限定范围前置核证。现代算法表达与原创教学数值不等于历史论文实验。未进行独立双审。",
+  "alias_to_research_source_id": {
+    "F01": "R62",
+    "F02": "R01",
+    "F03": "R64",
+    "F04": "R65",
+    "F05": "R63"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-13-01",
+      "claim": "Williams1992在Machine Learning 8:229–256提出REINFORCE随机连接主义梯度算法",
+      "source_ids": [
+        "R62",
+        "R63"
+      ],
+      "kind": "historical_fact",
+      "section": "一、七｜1992论文",
+      "evidence_note": "原始论文首页及官方摘要",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-13-02",
+      "claim": "Williams原论文把适用情形限定为即时强化及某些有限延迟强化",
+      "source_ids": [
+        "R62"
+      ],
+      "kind": "primary_scope",
+      "section": "三、七｜原文边界",
+      "evidence_note": "防止将现代理论统称1992已完整证明",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-13-03",
+      "claim": "随机可微策略可直接参数化动作选择概率，不必预先维护精确的每动作Q表",
+      "source_ids": [
+        "R62",
+        "R01"
+      ],
+      "kind": "technical_interpretation",
+      "section": "二｜从价值到策略",
+      "evidence_note": "现代策略梯度与1992原文联结",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-13-04",
+      "claim": "一步bandit的log导数恒等式在给定条件下提供期望奖励梯度",
+      "source_ids": [
+        "R62",
+        "R01"
+      ],
+      "kind": "math_derivation",
+      "section": "三｜对数导数技巧",
+      "evidence_note": "有限离散动作；环境奖励不依赖θ",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-13-05",
+      "claim": "p=.7且抽中左G=1、alpha=.1时theta增加.03，概率约.706262",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "四｜两动作策略",
+      "evidence_note": "原创sigmoid例子",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-13-06",
+      "claim": "p=.7、左右奖励+1/-1时J=.4、真实参数梯度=.42",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "五｜方差",
+      "evidence_note": "真梯度与0.3/0.7两样本期望一致",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-13-07",
+      "claim": "与动作无关的状态基线不会改变期望策略梯度，且不保证任取基线都降低方差",
+      "source_ids": [
+        "R01",
+        "R62"
+      ],
+      "kind": "modern_math_boundary",
+      "section": "六｜基线",
+      "evidence_note": "数学零期望性质",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-13-08",
+      "claim": "一次随机回报梯度样本不保证一次更新后真实绩效改善",
+      "source_ids": [
+        "R62"
+      ],
+      "kind": "bounded_claim",
+      "section": "五、七｜方差",
+      "evidence_note": "原始论文讨论限制",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-13-09",
+      "claim": "1983 Barto-Sutton-Anderson ASE/ACE历史上早于1992REINFORCE",
+      "source_ids": [
+        "R64",
+        "R62"
+      ],
+      "kind": "historical_chronology",
+      "section": "六｜演员评论家先驱",
+      "evidence_note": "不能倒写因果",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-13-10",
+      "claim": "1999 Sutton等NeurIPS对策略梯度与近似动作价值及优势关系继续系统分析",
+      "source_ids": [
+        "R65"
+      ],
+      "kind": "historical_fact",
+      "section": "参考与下一章",
+      "evidence_note": "后续不同论文",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-13-11",
+      "claim": "适当参数化随机策略可扩展到连续动作，但本文伯努利模型只含离散动作",
+      "source_ids": [
+        "R01",
+        "R62"
+      ],
+      "kind": "conceptual_limit",
+      "section": "七｜连续动作",
+      "evidence_note": "不声称1992模型自动适用任意连续分布",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-13-12",
+      "claim": "Williams的论文并非此前所有随机强化学习研究的起点",
+      "source_ids": [
+        "R62",
+        "R63"
+      ],
+      "kind": "attribution_boundary",
+      "section": "二、八｜研究前驱",
+      "evidence_note": "文献引用早期相关工作",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "Williams1992以即时强化及受限延迟任务为理论主体；现代整轨迹REINFORCE不能倒写成原文任意时序保证",
+    "单样本梯度不能保证单步改善或无条件收敛",
+    "baseline的零期望依赖仅状态依赖且可微/期望交换等适当条件"
+  ]
+}
