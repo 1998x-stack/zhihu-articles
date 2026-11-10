@@ -1,12 +1,125 @@
 {
   "chapter": "24",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S08",
-    "S15"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Kuhn1955 Wiley原刊、Berge1957 PNAS原刊、Edmonds1965 Cambridge原刊；Princeton 2002课堂笔记与2026 JAR形式证明支撑奇圈收缩的现代解释；六顶点算例为作者构造。",
+  "claims": [
+    {
+      "claim_id": "GT24-01",
+      "claim": "Edmonds 1965一般图最大基数匹配算法以奇圈花朵收缩处理交替搜索",
+      "source_ids": [
+        "S112",
+        "S113"
+      ],
+      "status": "PRIMARY_AND_MODERN"
+    },
+    {
+      "claim_id": "GT24-02",
+      "claim": "极大匹配不能直接添加边，而最大匹配是全局最大基数",
+      "source_ids": [
+        "S111",
+        "S112"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT24-03",
+      "claim": "四点路径上中间边匹配极大却不最大",
+      "source_ids": [
+        "S111"
+      ],
+      "status": "AUTHOR_EXAMPLE_MODERN"
+    },
+    {
+      "claim_id": "GT24-04",
+      "claim": "增广路径翻转未匹配与匹配边使基数增加1",
+      "source_ids": [
+        "S111",
+        "S112"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT24-05",
+      "claim": "Berge1957原刊与最大匹配当且仅当不存在增广路径的现代标准判据",
+      "source_ids": [
+        "S111"
+      ],
+      "status": "PRIMARY_BIBLIO_MODERN_FORM"
+    },
+    {
+      "claim_id": "GT24-06",
+      "claim": "Kuhn1955匈牙利指派方法的二分带权任务、König/Egerváry源流，不等同一般图匹配",
+      "source_ids": [
+        "S110"
+      ],
+      "status": "PRIMARY_BIBLIO_SCOPE"
+    },
+    {
+      "claim_id": "GT24-07",
+      "claim": "r,x,a,b,c,y六点图中三角形交替奇圈会让同一点出现不同奇偶到达路线",
+      "source_ids": [
+        "S113"
+      ],
+      "status": "AUTHOR_CONSTRUCTION_MODERN"
+    },
+    {
+      "claim_id": "GT24-08",
+      "claim": "收缩后r-x-B-y增广，展开r-x-a-c-b-y翻转得到3条匹配边",
+      "source_ids": [
+        "S113"
+      ],
+      "status": "AUTHOR_EXAMPLE_VERIFIED"
+    },
+    {
+      "claim_id": "GT24-09",
+      "claim": "花朵相对当前匹配定义交替奇圈、基点、梗，而非所有奇圈",
+      "source_ids": [
+        "S112",
+        "S113",
+        "S114"
+      ],
+      "status": "MODERN_THEOREM_DEFINITION"
+    },
+    {
+      "claim_id": "GT24-10",
+      "claim": "适当定义的花朵收缩保留原图与收缩图增广路径存在性的等价性，需合法展开",
+      "source_ids": [
+        "S113",
+        "S114"
+      ],
+      "status": "MODERN_CORRECTNESS_THEOREM"
+    },
+    {
+      "claim_id": "GT24-11",
+      "claim": "Edmonds Paths Trees and Flowers 1965 CJM17:449-467题录与提出一般图高效最大匹配算法",
+      "source_ids": [
+        "S112"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT24-12",
+      "claim": "1935 Hall、1947 Tutte、1955 Kuhn、1957 Berge、1965 Edmonds是不同问题与贡献的连续发展",
+      "source_ids": [
+        "S70",
+        "S75",
+        "S110",
+        "S111",
+        "S112"
+      ],
+      "status": "HISTORICAL_SYNTHESIS_SCOPED"
+    },
+    {
+      "claim_id": "GT24-13",
+      "claim": "一般图最大基数匹配在Edmonds算法下多项式可解，不等同所有图优化任务易解",
+      "source_ids": [
+        "S112",
+        "S113",
+        "S114"
+      ],
+      "status": "COMPLEXITY_BOUNDARY"
+    }
+  ]
 }
