@@ -1,0 +1,185 @@
+{
+  "chapter": "23",
+  "title": "1905年，爱因斯坦为何从电与磁谈起",
+  "manuscript_path": "proposals/23.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E23-01",
+      "statement": "爱因斯坦1905论文开篇讨论磁铁和导体相对运动的解释不对称",
+      "kind": "原论文事实",
+      "section": "一",
+      "source_ids": [
+        "S23-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-02",
+      "statement": "洛伦兹力q(E+u×B)作为现代教学公式，非当年论文原样排印",
+      "kind": "现代公式",
+      "section": "二",
+      "source_ids": [
+        "S23-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-03",
+      "statement": "洛伦兹和庞加莱在1905年以前贡献相关理论与同步讨论",
+      "kind": "科学史",
+      "section": "三",
+      "source_ids": [
+        "S23-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-04",
+      "statement": "1905理论提出相对性原理与光速不变公设",
+      "kind": "原论文事实",
+      "section": "四",
+      "source_ids": [
+        "S23-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-05",
+      "statement": "伽利略共同绝对时间与光速不变原则有结构冲突",
+      "kind": "现代推导",
+      "section": "四",
+      "source_ids": [
+        "S23-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-06",
+      "statement": "1905论文第1节使用往返光信号定义异地钟同步",
+      "kind": "原论文事实",
+      "section": "五",
+      "source_ids": [
+        "S23-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-07",
+      "statement": "洛伦兹变换中的t'依赖x，现代标准符号写法",
+      "kind": "现代公式",
+      "section": "六",
+      "source_ids": [
+        "S23-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-08",
+      "statement": "同时性相对性由Δt'=γ(Δt-vΔx/c²)得出",
+      "kind": "数学推导",
+      "section": "六",
+      "source_ids": [
+        "S23-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-09",
+      "statement": "时间延缓Δt=γΔτ应注明固有时间与参考系",
+      "kind": "现代教学",
+      "section": "七",
+      "source_ids": [
+        "S23-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-10",
+      "statement": "长度收缩L=L0/γ要求在测量系同时记录两端",
+      "kind": "现代教学",
+      "section": "七",
+      "source_ids": [
+        "S23-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-11",
+      "statement": "1887实验不应写成1905理论产生的唯一直接动因",
+      "kind": "史学分歧",
+      "section": "八",
+      "source_ids": [
+        "S23-03",
+        "S23-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-12",
+      "statement": "1905与1908张量/几何表达的历史阶段不同",
+      "kind": "史学界限",
+      "section": "二、九",
+      "source_ids": [
+        "S23-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E23-13",
+      "statement": "从电磁学的惯性系一致性问题转向重新定义时空测量",
+      "kind": "理论史解释",
+      "section": "九、十",
+      "source_ids": [
+        "S23-01",
+        "S23-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S23-01",
+      "title": "Einstein 1905 On the Electrodynamics of Moving Bodies",
+      "url": "https://gisinb.ch/gisin/physique/relativite/Paper_en1/Einstein.html",
+      "source_type": "原始研究/原论文入口",
+      "scope": "原论文英译；磁铁导体、两公设、同步、时间和长度"
+    },
+    {
+      "source_id": "S23-02",
+      "title": "Stanford Gravity Probe B: Einstein's Spacetime",
+      "url": "https://einstein.stanford.edu/SPACETIME/spacetime2",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "1905与1908闵可夫斯基几何语言区别"
+    },
+    {
+      "source_id": "S23-03",
+      "title": "Darrigol, Can we trust Einstein’s accounts of genesis of SR?",
+      "url": "https://www.sciencedirect.com/science/article/am/pii/S0039368121000492",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "相对论产生的多路线及个人影响史学分析"
+    },
+    {
+      "source_id": "S23-04",
+      "title": "APS Michelson Morley historical feature",
+      "url": "https://www.aps.org/apsnews/2007/11/november-1887-michelson-uminiferous-ether",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "1887实验与1905理论关系，非唯一因果"
+    },
+    {
+      "source_id": "S23-05",
+      "title": "OpenStax University Physics: Maxwell's Equations",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "现代电磁学，物理量及SI教学表达"
+    }
+  ],
+  "unresolved": [
+    "1905德文原刊与英文译文逐句核验",
+    "对1895—1906洛伦兹/庞加莱原始贡献的出版时间和形式做归属核对",
+    "现代SI公式与原论文符号区分",
+    "爱因斯坦思想起源不能靠单一自述裁定"
+  ]
+}
