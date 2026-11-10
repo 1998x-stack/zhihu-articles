@@ -1,7 +1,186 @@
 {
   "chapter": "15",
-  "status": "placeholder",
-  "claims": [],
-  "sources_verified": false,
-  "note": "本文件是未来非虚构正文主张的空账本；目前章节仅是提纲，不代表已完成事实核查。"
+  "status": "draft",
+  "sources_verified": true,
+  "scope": "第15章局部非虚构初稿与15条主张已有研究来源追溯；R95—R101本批前置核查，独立双审未执行，本状态不外推到其他章节。",
+  "claims": [
+    {
+      "claim_id": "T15-01",
+      "claim": "1873年4—5月Gibbs发表Graphical Methods...",
+      "type": "bibliography",
+      "source_ids": [
+        "R95"
+      ],
+      "locator": "Transactions II pp309–342",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-02",
+      "claim": "原著提出T-S等图示并指出pV图早已普及",
+      "type": "primary_source",
+      "source_ids": [
+        "R95"
+      ],
+      "locator": "opening",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-03",
+      "claim": "1873年12月Gibbs发表曲面论文",
+      "type": "bibliography",
+      "source_ids": [
+        "R96"
+      ],
+      "locator": "Transactions II pp382–404",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-04",
+      "claim": "曲面使用体积v、熵η、能量ε的三坐标",
+      "type": "primary_source",
+      "source_ids": [
+        "R96"
+      ],
+      "locator": "opening equations",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-05",
+      "claim": "温度与压力由U(S,V)曲面切平面斜率决定",
+      "type": "historical_physics",
+      "source_ids": [
+        "R96"
+      ],
+      "locator": "eq(1)–(3)",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-06",
+      "claim": "同T与p不充分确保纯物质两相平衡，还需化学势条件",
+      "type": "modern_physics",
+      "source_ids": [
+        "R96",
+        "R101"
+      ],
+      "locator": "equilibrium conditions",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-07",
+      "claim": "共存态的公共切平面几何条件有原文依据",
+      "type": "historical_physics",
+      "source_ids": [
+        "R96"
+      ],
+      "locator": "surface coexistence discussion",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-08",
+      "claim": "曲面不是物质实体，而是可能的平衡态关系图",
+      "type": "editorial_explanation",
+      "source_ids": [
+        "R96"
+      ],
+      "locator": "geometric representation",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-09",
+      "claim": "平衡判据从孤立总熵极大可以转换为固定外参势极小",
+      "type": "modern_thermodynamics",
+      "source_ids": [
+        "R97",
+        "R101"
+      ],
+      "locator": "max S min G",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-10",
+      "claim": "现代定义G=U+pV−TS及可控外参意义",
+      "type": "modern_formula",
+      "source_ids": [
+        "R101"
+      ],
+      "locator": "free enthalpy",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-11",
+      "claim": "恒温恒压、闭系仅pV功等条件下ΔG≤0",
+      "type": "modern_scope",
+      "source_ids": [
+        "R101",
+        "R99"
+      ],
+      "locator": "constraint",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-12",
+      "claim": "U、S、V广延而T、p强度，须区别相与状态",
+      "type": "modern_theory",
+      "source_ids": [
+        "R96",
+        "R101"
+      ],
+      "locator": "R96,R101",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-13",
+      "claim": "1873曲面与1875—78非均相平衡论文不可混同",
+      "type": "historical_sequence",
+      "source_ids": [
+        "R95",
+        "R96",
+        "R98"
+      ],
+      "locator": "R95,R96,R98",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-14",
+      "claim": "局部极小的稳定性需允许扰动并比较邻近状态",
+      "type": "modern_scope",
+      "source_ids": [
+        "R97",
+        "R101"
+      ],
+      "locator": "R97,R101",
+      "verified": true,
+      "independent_review": "PENDING"
+    },
+    {
+      "claim_id": "T15-15",
+      "claim": "第16章从一个物质转向多相多组分的自由度",
+      "type": "editorial_transition",
+      "source_ids": [
+        "R98",
+        "R100"
+      ],
+      "locator": "R98,R100",
+      "verified": true,
+      "independent_review": "PENDING"
+    }
+  ],
+  "editorial_notes": [
+    "原始论文日期与现代符号分离",
+    "不编造真实人物对话、心理、试验或引文",
+    "仅draft，所有claim independent_review=PENDING"
+  ]
 }

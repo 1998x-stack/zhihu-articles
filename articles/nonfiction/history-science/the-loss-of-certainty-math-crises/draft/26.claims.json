@@ -1,0 +1,68 @@
+{
+  "chapter": "26",
+  "title": "尾声：今天，我们为什么仍然相信数学",
+  "lane": "nonfiction",
+  "revision": 14,
+  "status": "draft_claims_traced",
+  "evidence_scope": "research.md对应第25章与尾声专项来源；数学演示与历史原典相互区分",
+  "notes": [
+    "对应正文为草稿；既未完成Schema 2.0连续性审计，也未通过独立结构审稿",
+    "未执行语言精修或终稿批准；不得将本字段当作审稿合格证明"
+  ],
+  "claims": [
+    {
+      "claim_id": "E26-01",
+      "statement": "三次危机和七变革属于编辑分段",
+      "source_id": "RE26-STRUCTURE",
+      "verification_status": "editorial_interpretation"
+    },
+    {
+      "claim_id": "E26-02",
+      "statement": "不可公度、比例理论与芝诺问题的回顾",
+      "source_id": "RE26-ANCIENT",
+      "verification_status": "book_synthesis"
+    },
+    {
+      "claim_id": "E26-03",
+      "statement": "微积分、伯克利批评与19世纪分析严密化",
+      "source_id": "RE26-CALCULUS",
+      "verification_status": "book_synthesis"
+    },
+    {
+      "claim_id": "E26-04",
+      "statement": "非欧几何与公理模型层次",
+      "source_id": "RE26-GEOMETRY",
+      "verification_status": "book_synthesis"
+    },
+    {
+      "claim_id": "E26-05",
+      "statement": "康托尔无穷基数与CH独立性需要说明前提",
+      "source_id": "RE26-INFINITY",
+      "verification_status": "book_synthesis"
+    },
+    {
+      "claim_id": "E26-06",
+      "statement": "1902 Russell-Frege矛盾及1908后集合公理化",
+      "source_id": "RE26-FOUNDATION",
+      "verification_status": "book_synthesis"
+    },
+    {
+      "claim_id": "E26-07",
+      "statement": "希尔伯特、哥德尔、图灵与机器证明问题的区分",
+      "source_id": "RE26-PROOFS",
+      "verification_status": "book_synthesis"
+    },
+    {
+      "claim_id": "E26-08",
+      "statement": "信任来自明确前提、可审查推理及明晰边界的书内归纳",
+      "source_id": "RE26-INTERPRETATION",
+      "verification_status": "editorial_interpretation"
+    },
+    {
+      "claim_id": "E26-09",
+      "statement": "序章仍为占位、尾声不视为全书封版",
+      "source_id": "RE26-PROLOGUE-STATE",
+      "verification_status": "workflow_fact"
+    }
+  ]
+}

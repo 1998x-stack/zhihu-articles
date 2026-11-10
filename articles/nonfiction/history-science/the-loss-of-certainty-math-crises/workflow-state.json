@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "lane": "nonfiction",
-  "current_revision": 12,
+  "current_revision": 14,
   "outline_approved": true,
   "evidence_verified": true,
   "review_status": "PENDING",
@@ -9,6 +9,6 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "仅第01—23章本书选定的历史主张和现代数学演示有专项核证记录；第24章以后待逐章核证",
+  "evidence_scope": "第01—25章和尾声选定主张具备来源记录；序章仍待资料核实，整体审稿未完成",
   "migration_note": "旧作品由2026-11-06的新工作流补建；历史稿件未经过Schema 2.0双审，review_status仍为PENDING"
 }

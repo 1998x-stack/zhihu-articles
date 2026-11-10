@@ -1,6 +1,177 @@
 {
   "chapter_id": "22",
-  "status": "UNVERIFIED",
-  "claims": [],
-  "note": "写作占位；未核实任何具体史实或公式归属。"
+  "status": "DRAFT_SOURCE_REVIEWED_NOT_FINAL",
+  "review_status": "PENDING",
+  "verification_scope": "Evidence claims linked to scholarly or first-edition catalog references where indicated; modern examples independently derived. Originals not comprehensively collated; approval gates remain pending.",
+  "sources": [
+    {
+      "source_id": "P22-S1",
+      "title": "Borel 1898 Leçons sur la théorie des fonctions, first edition catalog",
+      "url": "https://commons.wikimedia.org/wiki/File:Le%C3%A7ons_sur_la_th%C3%A9orie_des_fonctions_(IA_leconstheoriefon00borerich).pdf",
+      "kind": "digitized_original_catalog"
+    },
+    {
+      "source_id": "P22-S2",
+      "title": "Barone Novikoff History of Axiomatic Probability (1978)",
+      "url": "https://www.math.purdue.edu/~eremenko/Pdf/barone.pdf",
+      "kind": "peer_reviewed_history"
+    },
+    {
+      "source_id": "P22-S3",
+      "title": "Henri Lebesgue Remarques sur les theories de la mesure, 1918",
+      "url": "https://www.numdam.org/item/ASENS_1918_3_35__191_0/",
+      "kind": "primary_retrospective"
+    },
+    {
+      "source_id": "P22-S4",
+      "title": "Hoare Lord Centenary Lebesgue integral (2002)",
+      "url": "https://www.cambridge.org/core/journals/mathematical-gazette/article/abs/integrate-longueur-aire-the-centenary-of-the-lebesgue-integral/BB648E62EEC0D9ACDDE0707C98E3683E",
+      "kind": "peer_reviewed_math_history"
+    },
+    {
+      "source_id": "P22-S5",
+      "title": "BnF Lebesgue 1904 Leçons sur l'intégration first edition",
+      "url": "https://catalogue.bnf.fr/ark%3A/12148/cb30759541r",
+      "kind": "original_edition_catalog"
+    },
+    {
+      "source_id": "P22-S6",
+      "title": "University Toronto measure theory introduction and chronology",
+      "url": "https://www.math.utoronto.ca/almut/MAT1000/SS-Real.pdf",
+      "kind": "textbook_measure_history"
+    },
+    {
+      "source_id": "P22-S7",
+      "title": "MAA Kolmogorov Foundations book review",
+      "url": "https://old.maa.org/press/maa-reviews/foundations-of-the-theory-of-probability",
+      "kind": "academic_book_review"
+    },
+    {
+      "source_id": "P22-S8",
+      "title": "ANU lecture notes Cantor uncountable null set",
+      "url": "https://maths-people.anu.edu.au/john/Assets/Lecture%20Notes/measure_theory.pdf",
+      "kind": "university_measure_reference"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C22-01",
+      "statement": "Borel issued Leçons sur la théorie des fonctions in 1898",
+      "source_ids": [
+        "P22-S1"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C22-02",
+      "statement": "Historical studies trace Borel 1895 covering result and his 1898 discussions of set length",
+      "source_ids": [
+        "P22-S2",
+        "P22-S3"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C22-03",
+      "statement": "Lebesgue initiated relevant integration results in 1901 and completed Intégrale longueur aire thesis in 1902",
+      "source_ids": [
+        "P22-S3",
+        "P22-S4"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C22-04",
+      "statement": "BnF catalogs 1904 Lebesgue Leçons sur l'intégration published by Gauthier-Villars",
+      "source_ids": [
+        "P22-S5"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C22-05",
+      "statement": "Lebesgue retrospective from 1918 is not same class of document as his 1901/02 papers",
+      "source_ids": [
+        "P22-S3"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C22-06",
+      "statement": "Later standard outer-measure formula takes infimum sums of lengths over countable interval covers",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENT_DERIVATION"
+    },
+    {
+      "claim_id": "C22-07",
+      "statement": "Countable subset of [0,1], including its rational points, has Lebesgue measure zero",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENT_DERIVATION"
+    },
+    {
+      "claim_id": "C22-08",
+      "statement": "Dirichlet indicator of rationals has upper Darboux integral 1 lower 0, yet Lebesgue integral zero",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENT_DERIVATION"
+    },
+    {
+      "claim_id": "C22-09",
+      "statement": "Cantor ternary set is uncountable and has Lebesgue measure zero; removed lengths sum to one",
+      "source_ids": [
+        "P22-S8"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C22-10",
+      "statement": "Borel sigma algebra generated by open intervals differs from Lebesgue measurable completed algebra",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENT_DERIVATION"
+    },
+    {
+      "claim_id": "C22-11",
+      "statement": "No translation-invariant countably additive extension of Lebesgue length exists on all subsets in usual set theory",
+      "source_ids": [
+        "P22-S6"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C22-12",
+      "statement": "Vitali non-measurable set emerged 1905; date must not be assigned to Borel 1898",
+      "source_ids": [
+        "P22-S6"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    },
+    {
+      "claim_id": "C22-13",
+      "statement": "Lebesgue length restricted to unit interval yields probability measure P(A)=m(A)",
+      "source_ids": [],
+      "category": "modern_math_reconstruction",
+      "verification": "INDEPENDENT_DERIVATION"
+    },
+    {
+      "claim_id": "C22-14",
+      "statement": "Kolmogorov's 1933 unified probability axioms followed not preceded Borel and Lebesgue",
+      "source_ids": [
+        "P22-S2",
+        "P22-S7"
+      ],
+      "category": "historical_or_documentary",
+      "verification": "SOURCE_SCOPED"
+    }
+  ]
 }

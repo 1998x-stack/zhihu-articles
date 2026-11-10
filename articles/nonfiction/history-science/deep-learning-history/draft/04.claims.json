@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "04",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "only this chapter's documented claims",
+  "claims": [
+    {
+      "claim_id": "C04-01",
+      "claim": "Hebb 1949出版及其长期研究前史",
+      "source_ids": [
+        "DL18",
+        "DL19"
+      ],
+      "kind": "historical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "书目及公开史学摘要核查",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C04-02",
+      "claim": "反复参与发放提高突触效能的假设",
+      "source_ids": [
+        "DL18",
+        "DL20"
+      ],
+      "kind": "historical_theory",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "原书62页可见摘录与同行评审研究，未全书逐页校勘",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C04-03",
+      "claim": "细胞集合和阶段序列属于不同理论层级",
+      "source_ids": [
+        "DL19",
+        "DL20"
+      ],
+      "kind": "historical_theory",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不等同现代多层神经网络",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C04-04",
+      "claim": "流行fire together wire together非1949原话",
+      "source_ids": [
+        "DL21"
+      ],
+      "kind": "attribution_dispute",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "根据Shatz自述及后世学术研究",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C04-05",
+      "claim": "Δw=ηxy及0.2→0.3为教学重构",
+      "source_ids": [
+        "AUTHOR_DERIVATION",
+        "DL20"
+      ],
+      "kind": "didactic",
+      "evidence_level": "DERIVATION_ONLY",
+      "limitations": "非1949原式，缺少生理细节及规范化",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C04-06",
+      "claim": "Hebb理论有先行思想与相关工作",
+      "source_ids": [
+        "DL20"
+      ],
+      "kind": "historiography",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "仅断言存在前史，不列唯一发明者",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

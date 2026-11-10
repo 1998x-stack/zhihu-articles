@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "10",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "scoped center claims and technical examples for chapter 10",
+  "claims": [
+    {
+      "claim_id": "C10-01",
+      "claim": "1989美国邮政编码手写数字神经网络原论文",
+      "source_ids": [
+        "DL51"
+      ],
+      "kind": "historical_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "作者含Boser；1989不是1998银行支票部署",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C10-02",
+      "claim": "1998 IEEE四作者论文及其卷/期/页信息",
+      "source_ids": [
+        "DL52",
+        "DL53"
+      ],
+      "kind": "publication_metadata",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "作者LeCun/Bottou/Bengio/Haffner，非1989同一署名",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C10-03",
+      "claim": "CNN局部感受野、共享权重、下采样的机制",
+      "source_ids": [
+        "DL52",
+        "DL63"
+      ],
+      "kind": "historical_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "局部等变与整体位置容忍不能无条件等同",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C10-04",
+      "claim": "1998论文的GTN文档模块级训练和商业票据部署",
+      "source_ids": [
+        "DL52"
+      ],
+      "kind": "historical_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "摘要/导言对商业处理量日月口径不同，不引用精确数量",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C10-05",
+      "claim": "福岛1980新认知机是结构前驱但训练方案不同",
+      "source_ids": [
+        "DL54",
+        "DL41"
+      ],
+      "kind": "historiographical_scope",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不把1980模型称现代反传CNN",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C10-06",
+      "claim": "MNIST六万训练一万测试及归一化前处理",
+      "source_ids": [
+        "DL62"
+      ],
+      "kind": "dataset_metadata",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "特定手写数字基准非任意图像",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C10-07",
+      "claim": "核[-1,1]对两条五位数组的局部扫描与max=1",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "采用ML互相关扫描；并非LeNet真实层/实验样本",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

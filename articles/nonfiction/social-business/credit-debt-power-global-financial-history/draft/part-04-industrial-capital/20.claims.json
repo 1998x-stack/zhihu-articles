@@ -1,0 +1,220 @@
+{
+  "chapter": "20",
+  "chapter_batch": "19-21",
+  "lane": "nonfiction",
+  "revision": 18,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Official institutional records, contemporary law excerpts and academic history checked; original manuscript registers and competing scholarly full texts still pending",
+  "claims": [
+    {
+      "claim_id": "CH20-001",
+      "statement": "1897年5月27日中国通商银行在上海开业",
+      "source_ids": [
+        "F-2001",
+        "F-2007"
+      ],
+      "classification": "institutional_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "第一家华资新式银行以定义为限"
+    },
+    {
+      "claim_id": "CH20-002",
+      "statement": "中国通商银行初始申报股本450万两、招商局认股80万两",
+      "source_ids": [
+        "F-2001"
+      ],
+      "classification": "quantitative_claim",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "认股不等于同日全数实缴"
+    },
+    {
+      "claim_id": "CH20-003",
+      "statement": "晋商票号分号、印章及核销账记录组织异地汇兑",
+      "source_ids": [
+        "F-2002"
+      ],
+      "classification": "historical_business_practice",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "典型程序不可任意套到所有分号"
+    },
+    {
+      "claim_id": "CH20-004",
+      "statement": "票号起源日升昌1823通行说与1797等学术意见冲突",
+      "source_ids": [
+        "F-2002",
+        "F-2003",
+        "F-2004"
+      ],
+      "classification": "historiographical_dispute",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "仍缺同时代登记和定义一致的第一证明"
+    },
+    {
+      "claim_id": "CH20-005",
+      "statement": "票号除汇兑也经营存贷款及清末官款业务",
+      "source_ids": [
+        "F-2004"
+      ],
+      "classification": "economic_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能称纯粹传递票据服务"
+    },
+    {
+      "claim_id": "CH20-006",
+      "statement": "地方异地汇兑需要收款分号兑付并承担存贷错配",
+      "source_ids": [
+        "F-2002",
+        "F-2004"
+      ],
+      "classification": "author_finance_model",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "现代100/90例非史料账本"
+    },
+    {
+      "claim_id": "CH20-007",
+      "statement": "清末票号经办官款增加同时产生财政依赖",
+      "source_ids": [
+        "F-2004"
+      ],
+      "classification": "scholarly_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "地区时期个体票号差异大"
+    },
+    {
+      "claim_id": "CH20-008",
+      "statement": "明清钱庄钱铺银号经营兑换存放贷款及合伙资本",
+      "source_ids": [
+        "F-2005"
+      ],
+      "classification": "historical_institution",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能只称纯银钱兑换铺"
+    },
+    {
+      "claim_id": "CH20-009",
+      "statement": "上海钱庄依托外商银行往来发展申汇与埠际结算",
+      "source_ids": [
+        "F-2006"
+      ],
+      "classification": "regional_economic_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "传统地域分工并非一成不变"
+    },
+    {
+      "claim_id": "CH20-010",
+      "statement": "1897盛宣怀《通商银局章程》及《节略》由上图档案保管",
+      "source_ids": [
+        "F-2007"
+      ],
+      "classification": "archival_catalogue",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "馆藏条目不等于全文逐行完成校勘"
+    },
+    {
+      "claim_id": "CH20-011",
+      "statement": "通商银行银两与银元票据有上海博物馆原始文物说明",
+      "source_ids": [
+        "F-2008"
+      ],
+      "classification": "museum_object",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "两类票存在不等于全国流通或同一兑换标准"
+    },
+    {
+      "claim_id": "CH20-012",
+      "statement": "1897新银行兼有股份组织外贸汇兑和国家特许",
+      "source_ids": [
+        "F-2001",
+        "F-2007",
+        "F-2008"
+      ],
+      "classification": "institutional_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "官商经营权益应分清"
+    },
+    {
+      "claim_id": "CH20-013",
+      "statement": "1905年8月户部银行创设并于1908年2月改为大清银行",
+      "source_ids": [
+        "F-2009"
+      ],
+      "classification": "official_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "官署成立不能推定统一全国发钞成功"
+    },
+    {
+      "claim_id": "CH20-014",
+      "statement": "大清银行承担部分国库及发钞中央银行性质职能",
+      "source_ids": [
+        "F-2009"
+      ],
+      "classification": "historical_function",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不称现代监管完全成熟"
+    },
+    {
+      "claim_id": "CH20-015",
+      "statement": "研究引1907至1908官款汇兑从637万到262万两",
+      "source_ids": [
+        "F-2004"
+      ],
+      "classification": "contested_quantitative_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "限于所引用研究定义与相关范围，非行业总额"
+    },
+    {
+      "claim_id": "CH20-016",
+      "statement": "官款转移、分号治理和政治冲击可能共同加剧票号衰退",
+      "source_ids": [
+        "F-2004",
+        "F-2010"
+      ],
+      "classification": "multi_causal_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能一因概括所有机构"
+    },
+    {
+      "claim_id": "CH20-017",
+      "statement": "1911辛亥革命影响票号兑付与大清银行分行正常运作",
+      "source_ids": [
+        "F-2004",
+        "F-2009"
+      ],
+      "classification": "political_finance_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "两类机构都承受政治支付风险"
+    },
+    {
+      "claim_id": "CH20-018",
+      "statement": "日本1872国立银行是依据国法设立的私人银行",
+      "source_ids": [
+        "F-2011"
+      ],
+      "classification": "comparative_institution",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "国立不等于国有中央银行"
+    },
+    {
+      "claim_id": "CH20-019",
+      "statement": "日本央行1882年开业、1885发券、1899旧券退出",
+      "source_ids": [
+        "F-2012"
+      ],
+      "classification": "chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "日本制度不能直接推论中国唯一改革路径"
+    },
+    {
+      "claim_id": "CH20-020",
+      "statement": "中国汇兑网络与日本国民银行制度只是功能比较，无线性直接复制",
+      "source_ids": [
+        "F-2011",
+        "F-2004"
+      ],
+      "classification": "comparative_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "应明确两国财政、政治、货币差异"
+    }
+  ]
+}

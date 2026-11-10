@@ -1,25 +1,162 @@
 {
   "chapter": "26",
-  "status": "PENDING",
+  "title": "黎曼：不连续的函数也能有面积吗",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H151",
+    "H152",
+    "H153",
+    "H154",
+    "H155",
+    "H156",
+    "H157"
+  ],
   "claims": [
     {
       "id": "C26-01",
-      "statement": "哪些函数可以由分割求和来积分",
-      "source_candidates": [
-        "H10",
-        "H11"
+      "kind": "history",
+      "statement": "黎曼1854提交研究三角级数表示的就职资格论文，含积分概念与适用范围",
+      "source_ids": [
+        "H151",
+        "H153"
       ],
-      "verification": "PENDING"
+      "locator": "Riemann §4 and Dedekind 1867 preface; Göttingen manuscript catalogue",
+      "verification": "PRIMARY_TEXT_AND_CATALOGUE"
     },
     {
       "id": "C26-02",
-      "statement": "黎曼和与可积性",
-      "source_candidates": [
-        "H10",
-        "H11"
+      "kind": "history_editions",
+      "statement": "1854原稿、1867独立印本、1868学会卷册文献口径不可混为同一年",
+      "source_ids": [
+        "H151",
+        "H152",
+        "H154"
       ],
-      "verification": "PENDING"
+      "locator": "Dedekind preface July 1867; ETH 1867 edition; SEP 1868 convention",
+      "verification": "CROSS_CHECKED_DATE_VARIANT"
+    },
+    {
+      "id": "C26-03",
+      "kind": "history_context",
+      "statement": "研究傅里叶级数表示时黎曼需明确何种函数可被定积分处理",
+      "source_ids": [
+        "H151",
+        "H154"
+      ],
+      "locator": "Riemann original introduction and SEP",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C26-04",
+      "kind": "modern_definition",
+      "statement": "有界函数的任意采样黎曼和在网格→0时统一到I的定义",
+      "source_ids": [
+        "H155",
+        "H151"
+      ],
+      "locator": "modern tagged partition definition vs historical §4",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C26-05",
+      "kind": "modern_math",
+      "statement": "单跳跃f=0于[0,1/2),f=1于[1/2,1]黎曼可积，积分1/2",
+      "source_ids": [
+        "H155"
+      ],
+      "locator": "tagged partition absolute error ≤2 mesh width",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C26-06",
+      "kind": "modern_math",
+      "statement": "有理数指示函数在任何区间有理/无理点均稠密，取样和可恒0或1",
+      "source_ids": [
+        "H155"
+      ],
+      "locator": "density of Q and R\\Q; every partition allows both",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C26-07",
+      "kind": "modern_math",
+      "statement": "Dirichlet rational indicator on [0,1] is not Riemann integrable",
+      "source_ids": [
+        "H155"
+      ],
+      "locator": "two sample choices difference 1 at arbitrary mesh",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C26-08",
+      "kind": "modern_math",
+      "statement": "Thomae function with height inverse reduced denominator is Riemann integrable and integral 0",
+      "source_ids": [
+        "H155"
+      ],
+      "locator": "modern analysis theorem; deferred full epsilon proof",
+      "verification": "MODERN_MATH_REFERENCED"
+    },
+    {
+      "id": "C26-09",
+      "kind": "historiography",
+      "statement": "dense discontinuities do not alone determine Riemann integrability",
+      "source_ids": [
+        "H155"
+      ],
+      "locator": "Thomae vs Dirichlet comparison",
+      "verification": "MATH_QUALIFIED"
+    },
+    {
+      "id": "C26-10",
+      "kind": "historiography",
+      "statement": "Darboux upper and lower sums were later streamlined presentation, not Riemann 1854 original form",
+      "source_ids": [
+        "H156",
+        "H151"
+      ],
+      "locator": "Cambridge history excerpt and original text",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C26-11",
+      "kind": "historiography",
+      "statement": "Lebesgue criterion: bounded f Riemann integrable iff discontinuities measure zero is modern later theorem",
+      "source_ids": [
+        "H155"
+      ],
+      "locator": "Lebl theorem with historical dating caveat",
+      "verification": "MODERN_MATH_NOT_1854"
+    },
+    {
+      "id": "C26-12",
+      "kind": "chapter_link",
+      "statement": "Fourier coefficients motivated integration limits and then epsilon quantifier rigor",
+      "source_ids": [
+        "H151",
+        "H154",
+        "H157"
+      ],
+      "locator": "historical problem and editorial chapter bridge",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C26-13",
+      "kind": "chapter_boundary",
+      "statement": "Correctness of integral is quantifier-independent of partition and tags, not mere ability to approximate one chosen sum",
+      "source_ids": [
+        "H155"
+      ],
+      "locator": "modern definition scope",
+      "verification": "MATH_CHECKED_MODERN"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "黎曼1854提交，1867独立印本已核，部分学会卷册1868口径另列，不把首次出版死写1868。",
+    "任意采样和与ε–δ公式为现代统一表述；上/下和及测度判据均系后世发展。",
+    "阶梯、Dirichlet与Thomae三个例子是现代教学核算，不伪称黎曼原文逐字。",
+    "PDF截图接口不可用，原版逐页需补核。",
+    "未通过全书draft门禁及独立双审。"
+  ]
 }

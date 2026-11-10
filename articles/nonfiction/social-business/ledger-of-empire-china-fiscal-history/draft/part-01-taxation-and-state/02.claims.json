@@ -1,0 +1,63 @@
+{
+  "chapter": "02",
+  "status": "RESEARCH_DRAFT",
+  "review_status": "PENDING",
+  "revision": 0,
+  "evidence_scope": "核心史料文本或学术摘要核对；未做全集及逐页一手校勘；部分因果为明确标记的解释模型",
+  "claims": [
+    {
+      "claim_id": "C02-01",
+      "claim": "鲁宣公十五年经文记载秋初税亩。",
+      "source_ids": [
+        "R06"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "纪年按传统公元前594年"
+    },
+    {
+      "claim_id": "C02-02",
+      "claim": "左传对初税亩有非礼评价。",
+      "source_ids": [
+        "R07"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "古人评价不等于现代判定"
+    },
+    {
+      "claim_id": "C02-03",
+      "claim": "公羊传以履亩而税解释初税亩。",
+      "source_ids": [
+        "R08"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "是传世解释"
+    },
+    {
+      "claim_id": "C02-04",
+      "claim": "经文同年有虫害饥馑记载。",
+      "source_ids": [
+        "R06"
+      ],
+      "status": "FACT_VERIFIED",
+      "caveat": "不能当作税制导致饥荒的因果证据"
+    },
+    {
+      "claim_id": "C02-05",
+      "claim": "从税人到税地是刘守刚的国家转型解释。",
+      "source_ids": [
+        "B02"
+      ],
+      "status": "BOOK_POSITION",
+      "caveat": "争议性宏观论述"
+    },
+    {
+      "claim_id": "C02-06",
+      "claim": "以田亩为依据征收需要土地信息和地方组织。",
+      "source_ids": [
+        "R08"
+      ],
+      "status": "INTERPRETATION",
+      "caveat": "逻辑推演，不等于当年已建统一地籍"
+    }
+  ]
+}

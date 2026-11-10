@@ -1,0 +1,250 @@
+{
+  "chapter": "24",
+  "chapter_batch": "22-24",
+  "lane": "nonfiction",
+  "revision": 21,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Institutional historical pages, primary diplomatic and bank records, original-object descriptions and academic research reviewed. Key statutes, economic time-series and full competing scholarly source editions still pending.",
+  "claims": [
+    {
+      "claim_id": "CH24-001",
+      "statement": "1935-11-03国民政府决定货币改革，11-04起法币政策生效",
+      "source_ids": [
+        "F-2401",
+        "F-2407"
+      ],
+      "classification": "primary_contemporary_document",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "美国电报为中文法律的当时转录摘要非原始中文全文"
+    },
+    {
+      "claim_id": "CH24-002",
+      "statement": "中央、中国、交通三银行最初获得法币发行资格",
+      "source_ids": [
+        "F-2401"
+      ],
+      "classification": "primary_government_summary",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "1935-12农民银行另后纳入，不可当初四行"
+    },
+    {
+      "claim_id": "CH24-003",
+      "statement": "1935法令允许按规定用法币偿还原以白银计价的私人债务",
+      "source_ids": [
+        "F-2401"
+      ],
+      "classification": "contractual_legal_rule",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "法律法偿力与市场银价不相同"
+    },
+    {
+      "claim_id": "CH24-004",
+      "statement": "1935收兑银元及银锭，官方准备金和发行管理重新安排",
+      "source_ids": [
+        "F-2401"
+      ],
+      "classification": "monetary_statute",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同成色以净含银等折价"
+    },
+    {
+      "claim_id": "CH24-005",
+      "statement": "部分获准其他银行纸票可在原额范围继续流通后逐步收回",
+      "source_ids": [
+        "F-2401"
+      ],
+      "classification": "legal_transition",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能称11-04其他全部纸票瞬间作废"
+    },
+    {
+      "claim_id": "CH24-006",
+      "statement": "中国1933-04-05废两改元是1935法币前一阶段",
+      "source_ids": [
+        "F-2402"
+      ],
+      "classification": "economic_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "统一银元和法币改制不是同一改革"
+    },
+    {
+      "claim_id": "CH24-007",
+      "statement": "1934美国白银收购政策变化影响国际银价及中国货币环境",
+      "source_ids": [
+        "F-2403",
+        "F-2404"
+      ],
+      "classification": "external_shock",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是唯一国家财政约束"
+    },
+    {
+      "claim_id": "CH24-008",
+      "statement": "中国1934-10开始设置出口银平衡税及管理汇兑措施",
+      "source_ids": [
+        "F-2403"
+      ],
+      "classification": "contemporaneous_record",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能断言1935之前政府从未干预汇率"
+    },
+    {
+      "claim_id": "CH24-009",
+      "statement": "Friedman认为美国白银法导致中国严重通缩并迫使改革",
+      "source_ids": [
+        "F-2404"
+      ],
+      "classification": "contested_academic_argument",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能称学术界唯一结论"
+    },
+    {
+      "claim_id": "CH24-010",
+      "statement": "2022实证研究对严重货币紧缩通缩程度提出反证",
+      "source_ids": [
+        "F-2405"
+      ],
+      "classification": "competing_econometric_model",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "新样本和假设仍待进一步复核"
+    },
+    {
+      "claim_id": "CH24-011",
+      "statement": "ANU结构性研究认为1934法令和银本位自身不能独立解释终结",
+      "source_ids": [
+        "F-2406"
+      ],
+      "classification": "competing_econometric_model",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "样本与结构识别不能简单代替史料"
+    },
+    {
+      "claim_id": "CH24-012",
+      "statement": "原法承诺指定银行提供外汇买卖支持汇价",
+      "source_ids": [
+        "F-2401",
+        "F-2403"
+      ],
+      "classification": "institutional_legal_rule",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "名义上不限量不等于现实无限储备"
+    },
+    {
+      "claim_id": "CH24-013",
+      "statement": "法币与银元法律清偿力的变动不等于旧银行信用凭证从来不存在",
+      "source_ids": [
+        "F-2401",
+        "F-2402"
+      ],
+      "classification": "monetary_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "1935前已有多种银行券"
+    },
+    {
+      "claim_id": "CH24-014",
+      "statement": "中国农民银行后于1935年12月获得相关法币发行资格",
+      "source_ids": [
+        "F-2407"
+      ],
+      "classification": "museum_institutional_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非11月4日初始三行"
+    },
+    {
+      "claim_id": "CH24-015",
+      "statement": "1935年改革可集中支付和银行准备金，不保证未来永久购买力稳定",
+      "source_ids": [
+        "F-2401",
+        "F-2403"
+      ],
+      "classification": "institutional_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "教学100单位非原始银贷契约"
+    },
+    {
+      "claim_id": "CH24-016",
+      "statement": "1937后战争及1940年代财政变动与1935原始政策目的不等同",
+      "source_ids": [
+        "F-2407",
+        "F-2408"
+      ],
+      "classification": "historical_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不应自1935纸币制度单因推出1948崩溃"
+    },
+    {
+      "claim_id": "CH24-017",
+      "statement": "1948-08金圆券按300万法币兑换1元发行",
+      "source_ids": [
+        "F-2407",
+        "F-2408"
+      ],
+      "classification": "museum_archival_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "发行日期、正式失效与地区兑换不同"
+    },
+    {
+      "claim_id": "CH24-018",
+      "statement": "1949新疆省银行陆拾亿元票是省币不等于金圆券或1935三行法币",
+      "source_ids": [
+        "F-2408"
+      ],
+      "classification": "museum_original_object",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不得用省币价格推算全国统一法币购买力"
+    },
+    {
+      "claim_id": "CH24-019",
+      "statement": "1948后金圆券危机伴随内战财政赤字及货币发行加速",
+      "source_ids": [
+        "F-2408"
+      ],
+      "classification": "economic_historical_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "战争供给税收与预期多重成因"
+    },
+    {
+      "claim_id": "CH24-020",
+      "statement": "1935法币汇兑稳定依托外汇储备与银行管理而不是普通无条件兑银",
+      "source_ids": [
+        "F-2401",
+        "F-2403"
+      ],
+      "classification": "institutional_distinction",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "法律法币与金本位承诺不能混同"
+    },
+    {
+      "claim_id": "CH24-021",
+      "statement": "Austin Dean强调1935银体系终结涉及中国国家建构与国际银贸易",
+      "source_ids": [
+        "F-2409"
+      ],
+      "classification": "historiographical_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "只核公开章节摘要；原书全章待校"
+    },
+    {
+      "claim_id": "CH24-022",
+      "statement": "1937出版《新货币政策实录》含改革措施及11种法令附录线索",
+      "source_ids": [
+        "F-2410"
+      ],
+      "classification": "archival_bibliography",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "正文没有逐页阅读其原始PDF"
+    },
+    {
+      "claim_id": "CH24-023",
+      "statement": "1935改革与1944布雷顿森林的美元黄金体系非直接同一法律制度",
+      "source_ids": [
+        "F-2401",
+        "F-2409"
+      ],
+      "classification": "cross_chapter_caveat",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "国家国内法偿和国际货币协议属不同对象"
+    }
+  ]
+}

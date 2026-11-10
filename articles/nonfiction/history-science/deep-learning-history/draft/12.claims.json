@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "12",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "scoped center claims and technical examples for chapter 12",
+  "claims": [
+    {
+      "claim_id": "C12-01",
+      "claim": "1992 Boser/Guyon/Vapnik提出最优间隔训练方案",
+      "source_ids": [
+        "DL58"
+      ],
+      "kind": "primary_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不同贡献阶段不全部归于1995",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C12-02",
+      "claim": "1995 Cortes/Vapnik支持向量网络及不可分数据扩展",
+      "source_ids": [
+        "DL59"
+      ],
+      "kind": "primary_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "核映射和软间隔不保证所有任务泛化",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C12-03",
+      "claim": "固定适当正定核/标准SVM下优化与非线性特征",
+      "source_ids": [
+        "DL59",
+        "DL60"
+      ],
+      "kind": "technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "优化目标凸不等于核超参选择与总成本皆简单",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C12-04",
+      "claim": "1998 Platt的SMO改善SVM二次规划训练成本",
+      "source_ids": [
+        "DL61"
+      ],
+      "kind": "primary_technical_report",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "当时仍需解决存储/速度瓶颈",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C12-05",
+      "claim": "1998论文报告其标准数字实验CNN优于被比较方法",
+      "source_ids": [
+        "DL52"
+      ],
+      "kind": "experimental_scope",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是历史上所有SVM/NN条件的普遍排名",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C12-06",
+      "claim": "MNIST训练/测试数据量与评测条件",
+      "source_ids": [
+        "DL62"
+      ],
+      "kind": "dataset_metadata",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "无同一测试条件不得直接对比指标",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C12-07",
+      "claim": "一维训练样本±2硬间隔规范式的margin=2",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "w=0.5,b=0是特定两点构造",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C12-08",
+      "claim": "显式映射φ=(x1,x2,x1x2)和XOR四行评分",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "不是1995论文实验，也不证明任意核会自动获得此式",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C12-09",
+      "claim": "方法应随样本规模、泛化、硬件和调参条件选择",
+      "source_ids": [
+        "DL52",
+        "DL60",
+        "DL61"
+      ],
+      "kind": "historical_interpretation",
+      "evidence_level": "INTERPRETATION",
+      "limitations": "不声称SVM曾普遍取代全部神经网络",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

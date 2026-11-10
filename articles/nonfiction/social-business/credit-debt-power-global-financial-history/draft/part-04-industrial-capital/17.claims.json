@@ -1,0 +1,164 @@
+{
+  "chapter": "17",
+  "chapter_batch": "16-18",
+  "lane": "nonfiction",
+  "revision": 15,
+  "publication_ready": false,
+  "review_status": "PENDING",
+  "evidence_scope": "Reviewed accessible institutional and scholarly pages; original archive volumes, full legal records, and competing primary editions remain unverified",
+  "claims": [
+    {
+      "claim_id": "CH17-001",
+      "statement": "1844至1846年英国出现大规模铁路推广与证券热潮",
+      "source_ids": [
+        "F-1701",
+        "F-1702"
+      ],
+      "classification": "industrial_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不等于所有线路已建成并盈利"
+    },
+    {
+      "claim_id": "CH17-002",
+      "statement": "1846年提出超过七百份铁路议案，1845至1847年授权八千五百九十英里线路",
+      "source_ids": [
+        "F-1701"
+      ],
+      "classification": "historical_data",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "议案和授权里程并非运营里程"
+    },
+    {
+      "claim_id": "CH17-003",
+      "statement": "铁路项目需要长期前置资本而非短期贸易流动资金",
+      "source_ids": [
+        "F-1702"
+      ],
+      "classification": "economic_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "项目间工期和资本结构差异明显"
+    },
+    {
+      "claim_id": "CH17-004",
+      "statement": "英国铁路项目授权与征地、成立企业等涉及议会私人法案程序",
+      "source_ids": [
+        "F-1702"
+      ],
+      "classification": "legal_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "具体法案和权利类别需逐项核对"
+    },
+    {
+      "claim_id": "CH17-005",
+      "statement": "部分缴款股份使认购人先缴少量资本而承担后续缴款义务",
+      "source_ids": [
+        "F-1703"
+      ],
+      "classification": "securities_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不将其直接等同现代融资融券"
+    },
+    {
+      "claim_id": "CH17-006",
+      "statement": "追加缴款在市场下跌时可能增加投资者出售压力",
+      "source_ids": [
+        "F-1703"
+      ],
+      "classification": "academic_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "原论文摘要层级，待检验量化模型"
+    },
+    {
+      "claim_id": "CH17-007",
+      "statement": "铁路建设的社会效益未必转化成公司股息和早期股东收益",
+      "source_ids": [
+        "F-1702"
+      ],
+      "classification": "economic_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不否认已建成基础设施的公共功能"
+    },
+    {
+      "claim_id": "CH17-008",
+      "statement": "英国1847年金融紧张包含农业冲击和银行兑付约束，非纯铁路泡沫",
+      "source_ids": [
+        "F-1704"
+      ],
+      "classification": "contested_macroeconomic_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "经济史各解释需比较"
+    },
+    {
+      "claim_id": "CH17-009",
+      "statement": "美国1862年太平洋铁路法涉及联邦土地与贷款支持",
+      "source_ids": [
+        "F-1705"
+      ],
+      "classification": "government_finance",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不能与英国私人法案融资混同"
+    },
+    {
+      "claim_id": "CH17-010",
+      "statement": "1869年美国跨大陆铁路完成接轨，工程涉及移民劳动者与原住民土地权利",
+      "source_ids": [
+        "F-1705"
+      ],
+      "classification": "transport_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "原住民具体土地史和劳工条件需进一步查证"
+    },
+    {
+      "claim_id": "CH17-011",
+      "statement": "美国1873年金融恐慌与铁路证券、跨国资本及杰伊库克公司失败有关",
+      "source_ids": [
+        "F-1706",
+        "F-1707"
+      ],
+      "classification": "financial_crisis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "铁路只是结构性因素之一"
+    },
+    {
+      "claim_id": "CH17-012",
+      "statement": "1873年9月18日杰伊库克公司失败是危机重要触发事件",
+      "source_ids": [
+        "F-1707"
+      ],
+      "classification": "historical_event",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "需要与欧洲维也纳证券波动的日期分开"
+    },
+    {
+      "claim_id": "CH17-013",
+      "statement": "铁路负债与资产回收期可能形成期限错配",
+      "source_ids": [
+        "F-1707"
+      ],
+      "classification": "mechanism_explanation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "文中40/60例子纯教学示意"
+    },
+    {
+      "claim_id": "CH17-014",
+      "statement": "早期铁路证券狂热的解释存在会计披露与治理结构的竞争解释",
+      "source_ids": [
+        "F-1708"
+      ],
+      "classification": "contested_historiography",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不可推断所有企业都蓄意欺诈"
+    },
+    {
+      "claim_id": "CH17-015",
+      "statement": "跨国铁路投资导致海外项目融资与汇兑风险联系增强",
+      "source_ids": [
+        "F-1706",
+        "F-1707"
+      ],
+      "classification": "chapter_bridge",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不同国家的项目、债务币种和期限应分开"
+    }
+  ]
+}

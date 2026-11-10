@@ -1,0 +1,132 @@
+{
+  "chapter": "11",
+  "status": "RESEARCH_DRAFT",
+  "review_status": "PENDING",
+  "scope": "bounded research evidence only; no independent review, no publication approval",
+  "claims": [
+    {
+      "claim_id": "C11-01",
+      "statement": "建安元年196曹操采纳枣祗韩浩等屯田建议",
+      "source_ids": [
+        "T12",
+        "T11"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "《三国志》当代历史后出记载",
+      "event_time": "196—264年",
+      "chapter_file": "draft/part-03-land-and-labor/11.md"
+    },
+    {
+      "claim_id": "C11-02",
+      "statement": "任峻负责典农中郎将，许下募民屯田",
+      "source_ids": [
+        "T11"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "任峻传记含颂扬色彩",
+      "event_time": "196—264年",
+      "chapter_file": "draft/part-03-land-and-labor/11.md"
+    },
+    {
+      "claim_id": "C11-03",
+      "statement": "史书记载许下屯田谷百万斛",
+      "source_ids": [
+        "T11",
+        "T12"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "不能转成全国统计或现代吨数",
+      "event_time": "196—264年",
+      "chapter_file": "draft/part-03-land-and-labor/11.md"
+    },
+    {
+      "claim_id": "C11-04",
+      "statement": "屯田包含政权对土地劳力仓储的组织",
+      "source_ids": [
+        "T11",
+        "T14"
+      ],
+      "classification": "INTERPRETATION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "制度总体机制；各地执行模式有差异",
+      "event_time": "196—264年",
+      "chapter_file": "draft/part-03-land-and-labor/11.md"
+    },
+    {
+      "claim_id": "C11-05",
+      "statement": "民屯军屯是有用但不绝对的历史研究类型",
+      "source_ids": [
+        "T14"
+      ],
+      "classification": "DISPUTED",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "后人分类，不可当所有原始法规正式名称",
+      "event_time": "196—264年",
+      "chapter_file": "draft/part-03-land-and-labor/11.md"
+    },
+    {
+      "claim_id": "C11-06",
+      "statement": "曹魏屯田具体归属中央不同机关有分歧",
+      "source_ids": [
+        "T13"
+      ],
+      "classification": "DISPUTED",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "仅期刊摘要所概述之三种说法",
+      "event_time": "196—264年",
+      "chapter_file": "draft/part-03-land-and-labor/11.md"
+    },
+    {
+      "claim_id": "C11-07",
+      "statement": "屯田制度约自196延续至264年前后",
+      "source_ids": [
+        "T13"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "属于学术论述的概括年限",
+      "event_time": "196—264年",
+      "chapter_file": "draft/part-03-land-and-labor/11.md"
+    },
+    {
+      "claim_id": "C11-08",
+      "statement": "屯田分成比例不能在全时期全地域按同一标准计算",
+      "source_ids": [
+        "T14"
+      ],
+      "classification": "DISPUTED",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "民屯、军屯、牛具条件存在研究分歧",
+      "event_time": "196—264年",
+      "chapter_file": "draft/part-03-land-and-labor/11.md"
+    },
+    {
+      "claim_id": "C11-09",
+      "statement": "北魏均田制度源流多元而非直接照抄曹魏",
+      "source_ids": [
+        "T15"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "张金龙研究史摘要级支持",
+      "event_time": "196—264年",
+      "chapter_file": "draft/part-03-land-and-labor/11.md"
+    },
+    {
+      "claim_id": "C11-10",
+      "statement": "屯田改善军粮物流是有条件的制度推论",
+      "source_ids": [
+        "T11",
+        "T14"
+      ],
+      "classification": "INTERPRETATION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "未估算实际全国运输成本变化",
+      "event_time": "196—264年",
+      "chapter_file": "draft/part-03-land-and-labor/11.md"
+    }
+  ]
+}

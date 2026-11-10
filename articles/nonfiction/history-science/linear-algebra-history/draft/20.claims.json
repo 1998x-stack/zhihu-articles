@@ -1,0 +1,92 @@
+{
+  "chapter": "20",
+  "title": "希尔伯特与施密特：无限维也能谈谱吗",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "H20-S1": "https://mathshistory.st-andrews.ac.uk/Biographies/Fredholm/",
+    "H20-S2": "https://old.maa.org/press/periodicals/convergence/math-origins-eigenvectors-and-eigenvalues",
+    "H20-S3": "https://mathshistory.st-andrews.ac.uk/Biographies/Schmidt/",
+    "H20-S4": "https://encyclopediaofmath.org/wiki/Integral_equation_with_symmetric_kernel",
+    "H20-S5": "https://link.springer.com/book/10.1007/978-3-322-84410-1",
+    "H20-S6": "https://mathshistory.st-andrews.ac.uk/Extras/Weyl_problems/",
+    "M20": "本章第4—8节现代L2积分算子、紧自伴谱定理、min核与乘法算子反例，独立符号校验"
+  },
+  "claims": [
+    {
+      "claim_id": "C20-01",
+      "source_ids": [
+        "H20-S1",
+        "H20-S2"
+      ],
+      "kind": "historical_precursor",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C20-02",
+      "source_ids": [
+        "H20-S2",
+        "H20-S4"
+      ],
+      "kind": "historical_contribution",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C20-03",
+      "source_ids": [
+        "H20-S3",
+        "H20-S4",
+        "H20-S6"
+      ],
+      "kind": "historical_dates",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C20-04",
+      "source_ids": [
+        "M20"
+      ],
+      "kind": "modern_math",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C20-05",
+      "source_ids": [
+        "H20-S4",
+        "M20"
+      ],
+      "kind": "modern_math_theorem",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C20-06",
+      "source_ids": [
+        "M20"
+      ],
+      "kind": "modern_math_counterexample",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C20-07",
+      "source_ids": [
+        "H20-S3",
+        "H20-S6"
+      ],
+      "kind": "editorial_bridge",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    }
+  ],
+  "notes": [
+    "Fredholm1903、Hilbert1904、Schmidt1907与1908分别标注",
+    "不能无条件把自伴称为有离散本征基",
+    "紧自伴定理中包含核空间与零谱点限制",
+    "未完成正式双审"
+  ]
+}

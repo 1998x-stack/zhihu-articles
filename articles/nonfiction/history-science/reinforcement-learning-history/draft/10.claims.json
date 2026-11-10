@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "chapter": "10",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "为当前第10—12章写作限定范围完成出版社/机构原始记录、作者公开文字与教材解释比对；部分PDF截图不可用、图表未完成目视二审。原创数值算例逐项复算，所有证据映射不是审稿PASS。",
+  "alias_to_research_source_id": {
+    "TD-01": "R53",
+    "TD-02": [
+      "R02",
+      "R04"
+    ],
+    "TD-03": "R54",
+    "TD-04": "R01",
+    "TD-05": "R61",
+    "TD-06": "R55",
+    "TD-07": "R57"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-10-01",
+      "claim": "Sutton1988论文发表于Machine Learning 3:9—44，重点是预测及相邻预测差异",
+      "source_ids": [
+        "R53"
+      ],
+      "kind": "historical_fact",
+      "section": "一、八｜历史主张",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-10-02",
+      "claim": "1988原论文用星期一和星期二预测周末降雨概率变化解释TD直觉",
+      "source_ids": [
+        "R54",
+        "R53"
+      ],
+      "kind": "primary_example",
+      "section": "一、三｜天气预测",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-10-03",
+      "claim": "TD思想先于1988，论文明确列Samuel、Holland与adaptive heuristic critic等先例",
+      "source_ids": [
+        "R53",
+        "R54"
+      ],
+      "kind": "historical_attribution",
+      "section": "八｜贡献归属",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-10-04",
+      "claim": "1988原论文§3.2设置A—G共七状态，五个中间状态的对称随机游走",
+      "source_ids": [
+        "R54"
+      ],
+      "kind": "primary_method",
+      "section": "五｜随机游走",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-10-05",
+      "claim": "对称随机游走右终止概率依次为1/6至5/6",
+      "source_ids": [
+        "R54"
+      ],
+      "kind": "author_derivation",
+      "section": "五｜随机游走",
+      "evidence_note": "由对称转移+边界条件数学推导",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-10-06",
+      "claim": "天气示例p=.5、下一预测=.75、alpha=.2时旧预测更新为.55",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "三｜预测提前更新",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-10-07",
+      "claim": "现代TD(0)形式delta=r+gamma V(s')-V(s)，数值delta=.23，新V=.4575",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "author_calculation",
+      "section": "四｜现代TD(0)",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-10-08",
+      "claim": "现代TD(lambda)资格迹可将当前预测误差传播到较早状态",
+      "source_ids": [
+        "R01",
+        "R53"
+      ],
+      "kind": "modern_mathematical",
+      "section": "七｜TD(lambda)",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-10-09",
+      "claim": "lambda=0与较大lambda的机制对比，lambda=1与MC前向回报须限条件",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "technical_qualification",
+      "section": "七｜资格迹边界",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-10-10",
+      "claim": "1988收敛结论属特殊情形，后来Dayan/Sejnowski扩展概率一结论",
+      "source_ids": [
+        "R53",
+        "R61"
+      ],
+      "kind": "historical_math",
+      "section": "六｜理论范围",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-10-11",
+      "claim": "Watkins1989剑桥学位与Watkins/Dayan1992期刊论文是下一章桥梁",
+      "source_ids": [
+        "R55",
+        "R57"
+      ],
+      "kind": "chronology",
+      "section": "九｜下一章",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "1988随机游走图表和具体曲线未完成目视二次核验，文中不使用图表性能数字",
+    "TD(0)与TD(lambda)公式为现代教材化表达，非1988原文逐式复写",
+    "严禁把特殊情形收敛推广至任意深度函数逼近"
+  ]
+}

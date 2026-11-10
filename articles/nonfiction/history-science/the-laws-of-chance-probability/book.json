@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "the-laws-of-chance-probability",
-  "reading_notice": "第02—20章为已附章节级来源与现代数学说明的研究初稿，仍待独立审稿和终稿封版；序章、第01章及第21—37章为写作占位。",
+  "reading_notice": "第02—23章为附章节级史料与现代数学推导的非虚构研究初稿，仍待独立审稿和终稿批准；序章、第01章及第24—37章为写作占位。",
   "chapters": [
     {
       "id": "prologue",
@@ -155,21 +155,21 @@
       "title": "无限多种可能的难题：经典定义何时失效",
       "part": "第6部｜给概率建立地基",
       "file": "draft/21.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-22",
       "title": "博雷尔与勒贝格：把长度变成概率的地基",
       "part": "第6部｜给概率建立地基",
       "file": "draft/22.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-23",
       "title": "马尔可夫：如果下一步依赖上一步",
       "part": "第6部｜给概率建立地基",
       "file": "draft/23.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-24",

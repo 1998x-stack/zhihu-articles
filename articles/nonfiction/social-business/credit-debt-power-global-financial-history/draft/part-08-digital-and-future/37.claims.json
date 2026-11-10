@@ -1,0 +1,249 @@
+{
+  "chapter": "37",
+  "chapter_batch": "37-39",
+  "lane": "nonfiction",
+  "revision": 28,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Public central-bank primary notices, fiscal and financial regulations, official inquiry and regulator reviews, IMF research; original ledgers, legal editions and counterparties have not received book-wide independent publication verification.",
+  "claims": [
+    {
+      "claim_id": "CH37-001",
+      "statement": "2020年8月20日住建部央行重点房企座谈会形成资金监测和融资管理规则",
+      "source_ids": [
+        "F-3706"
+      ],
+      "classification": "official_policy_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "会议通稿不含三道红线具体阈值"
+    },
+    {
+      "claim_id": "CH37-002",
+      "statement": "住房预售资金支付与未来交房义务时间不同",
+      "source_ids": [
+        "F-3707"
+      ],
+      "classification": "developer_cash_flow_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "历史预售监管与具体合同分地区"
+    },
+    {
+      "claim_id": "CH37-003",
+      "statement": "2005-07-21 PBC汇率改革和当时美元兑8.11中间价",
+      "source_ids": [
+        "F-3109"
+      ],
+      "classification": "primary_fx_policy",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "汇率不是房价；中间价不是长期盯住水平"
+    },
+    {
+      "claim_id": "CH37-004",
+      "statement": "外汇改革后资本流动仍按阶段管理",
+      "source_ids": [
+        "F-3701"
+      ],
+      "classification": "fx_policy_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不可将资本账户推为全面自由流动"
+    },
+    {
+      "claim_id": "CH37-005",
+      "statement": "2008-11-09中国宣布扩大内需计划与财政货币政策调整",
+      "source_ids": [
+        "F-3702"
+      ],
+      "classification": "policy_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "政策宣布不等于所有资金同日到账"
+    },
+    {
+      "claim_id": "CH37-006",
+      "statement": "2008Q4至2010年四万亿规模包含中央新增约1.18万亿与地方社会投资",
+      "source_ids": [
+        "F-3703"
+      ],
+      "classification": "primary_investment_plan",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "投资计划数额不等于中央财政全部支出"
+    },
+    {
+      "claim_id": "CH37-007",
+      "statement": "2008刺激政策同时存在短期稳需求与长期项目融资评价两个问题",
+      "source_ids": [
+        "F-3702",
+        "F-3703"
+      ],
+      "classification": "competing_policy_effects",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能以后续问题倒推所有投资无效"
+    },
+    {
+      "claim_id": "CH37-008",
+      "statement": "LGFV为企业法人但具有地方公共项目融资联系",
+      "source_ids": [
+        "F-3704",
+        "F-3708"
+      ],
+      "classification": "legal_fiscal_institution",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "平台债券不等于全部法定政府直接债务"
+    },
+    {
+      "claim_id": "CH37-009",
+      "statement": "地方平台项目未来现金流与公共利益收益不一定同一来源",
+      "source_ids": [
+        "F-3708"
+      ],
+      "classification": "fiscal_credit_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "百亿元交通项目纯属虚构"
+    },
+    {
+      "claim_id": "CH37-010",
+      "statement": "2014国发43号约束地方政府债务及违规担保并建立规范融资机制",
+      "source_ids": [
+        "F-3704"
+      ],
+      "classification": "primary_government_debt_rule",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "政府文件发布不代表存量欠款自动偿清"
+    },
+    {
+      "claim_id": "CH37-011",
+      "statement": "政府预算内债务和企业债务应依法区分",
+      "source_ids": [
+        "F-3704"
+      ],
+      "classification": "legal_balance_sheet_distinction",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "隐性财政或有支持仍需独立核证"
+    },
+    {
+      "claim_id": "CH37-012",
+      "statement": "住房按揭开发贷款地方土地出让收入和房企预售现金相互联系但科目不同",
+      "source_ids": [
+        "F-3707",
+        "F-3708"
+      ],
+      "classification": "credit_network_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不应简单相加为一笔全国房贷"
+    },
+    {
+      "claim_id": "CH37-013",
+      "statement": "房地产拥有居住需求与投资融资双重属性",
+      "source_ids": [
+        "F-3705",
+        "F-3707"
+      ],
+      "classification": "housing_asset_analysis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "城市间需求与价格异质"
+    },
+    {
+      "claim_id": "CH37-014",
+      "statement": "2016年中央经济工作会议强调住房居住用途与防止泡沫和大起大落",
+      "source_ids": [
+        "F-3705"
+      ],
+      "classification": "primary_policy_statement",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是禁止所有住房投资"
+    },
+    {
+      "claim_id": "CH37-015",
+      "statement": "2018资管新规约束刚兑资金池嵌套和期限错配",
+      "source_ids": [
+        "F-3709"
+      ],
+      "classification": "primary_asset_management_rule",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非只针对房地产且过渡期后续调整"
+    },
+    {
+      "claim_id": "CH37-016",
+      "statement": "多层非标融资结构可能将短期资金投入长期项目",
+      "source_ids": [
+        "F-3709"
+      ],
+      "classification": "asset_liability_mismatch",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能认定中国所有资管产品均等同LTCM"
+    },
+    {
+      "claim_id": "CH37-017",
+      "statement": "2020年资金监测和融资规则意在增强房企债务透明和风险约束",
+      "source_ids": [
+        "F-3706"
+      ],
+      "classification": "policy_design_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "会议通稿不能确认所有公司实际试点时间"
+    },
+    {
+      "claim_id": "CH37-018",
+      "statement": "房地产融资收紧与企业杠杆累积和市场供求变化共同作用",
+      "source_ids": [
+        "F-3706",
+        "F-3707"
+      ],
+      "classification": "competing_causal_explanation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "时序不证明任何一项政策是唯一原因"
+    },
+    {
+      "claim_id": "CH37-019",
+      "statement": "2021下半年起房企销售与预售回款压力损及交付信心",
+      "source_ids": [
+        "F-3707"
+      ],
+      "classification": "country_economic_review",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "IMF后世研究需结合国内分地区统计"
+    },
+    {
+      "claim_id": "CH37-020",
+      "statement": "土地出让减少与地方平台融资压力可形成反馈",
+      "source_ids": [
+        "F-3708"
+      ],
+      "classification": "local_finance_feedback",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同省市资产负债结构明显不同"
+    },
+    {
+      "claim_id": "CH37-021",
+      "statement": "银行、开发商、购房者、施工企业和地方公共部门有不同合同索取权",
+      "source_ids": [
+        "F-3704",
+        "F-3707"
+      ],
+      "classification": "rights_and_credit_distribution",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不把购房者付款自动等同政府担保债"
+    },
+    {
+      "claim_id": "CH37-022",
+      "statement": "中国地产与地方信贷调整的解释应保留城市化、收入和政策多因素",
+      "source_ids": [
+        "F-3707",
+        "F-3708"
+      ],
+      "classification": "competing_multi_factor_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "宏观相关不能替代微观因果识别"
+    },
+    {
+      "claim_id": "CH37-023",
+      "statement": "长期资产未必可按明日债务到期时间变现，连接2020流动性冲击",
+      "source_ids": [
+        "F-3707",
+        "F-3708"
+      ],
+      "classification": "cross_chapter_synthesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "并非2020全球疫情由中国房地产造成"
+    }
+  ]
+}

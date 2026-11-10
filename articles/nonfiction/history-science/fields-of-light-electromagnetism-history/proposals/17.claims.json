@@ -1,0 +1,182 @@
+{
+  "chapter": "17",
+  "title": "电能沿着哪里流动：不是只看导线",
+  "kind": "independent_nonfiction_chapter_candidate",
+  "manuscript_path": "proposals/17.md",
+  "revision": 0,
+  "review_status": "NOT_SUBMITTED_TO_WORKFLOW_GATE",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_CHECK",
+  "claims": [
+    {
+      "claim_id": "E17-01",
+      "statement": "论文1883-12-17提交、1884-01-10宣读、1884刊于175卷343-361页",
+      "claim_kind": "书目日期",
+      "source_ids": [
+        "S17-01",
+        "S17-04"
+      ],
+      "manuscript_section": "二",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E17-02",
+      "statement": "汤姆孙与亚当斯分别于1884-04-11、06-10提交评审",
+      "claim_kind": "皇家学会一手档案",
+      "source_ids": [
+        "S17-02",
+        "S17-03"
+      ],
+      "manuscript_section": "二",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E17-03",
+      "statement": "电路功率P=UI描述总能量收支，不单独决定空间能流路径",
+      "claim_kind": "现代物理解释",
+      "source_ids": [
+        "S17-05"
+      ],
+      "manuscript_section": "三",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E17-04",
+      "statement": "坡印廷论文强调导线周围电磁场在能量传递中的作用",
+      "claim_kind": "原文论旨",
+      "source_ids": [
+        "S17-01",
+        "S17-07"
+      ],
+      "manuscript_section": "二、四",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E17-05",
+      "statement": "现代坡印廷矢量S=E×H与真空(E×B)/μ0代表局域能流密度",
+      "claim_kind": "现代公式",
+      "source_ids": [
+        "S17-05"
+      ],
+      "manuscript_section": "四",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E17-06",
+      "statement": "理想化电阻模型中能流可穿过导体表面转化为热",
+      "claim_kind": "限定物理推导",
+      "source_ids": [
+        "S17-01",
+        "S17-07"
+      ],
+      "manuscript_section": "五",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E17-07",
+      "statement": "实际金属内外能流依几何与边界条件，不能断言只在导线外",
+      "claim_kind": "现代物理边界",
+      "source_ids": [
+        "S17-05"
+      ],
+      "manuscript_section": "五、八",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E17-08",
+      "statement": "局域能量守恒∂u/∂t+∇·S=-J·E是现代SI重述",
+      "claim_kind": "现代数学推导",
+      "source_ids": [
+        "S17-05"
+      ],
+      "manuscript_section": "六",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E17-09",
+      "statement": "场能u=1/2 ε0E²+B²/(2μ0)限于现代真空经典理论",
+      "claim_kind": "现代物理边界",
+      "source_ids": [
+        "S17-05"
+      ],
+      "manuscript_section": "六",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E17-10",
+      "statement": "Heaviside 1884-1885研究含位移电流的能流与Poynting形成独立相关路线",
+      "claim_kind": "学术史解释待原著查证",
+      "source_ids": [
+        "S17-06"
+      ],
+      "manuscript_section": "七",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    },
+    {
+      "claim_id": "E17-11",
+      "statement": "场的能量输运使无需金属连线的波传播成为可检测问题",
+      "claim_kind": "理论因果",
+      "source_ids": [
+        "S17-01",
+        "S17-05"
+      ],
+      "manuscript_section": "九、十",
+      "verification": "PARTIAL_PUBLIC_SOURCE_CHECK: 原始页码与争议仍待正式审核"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S17-01",
+      "title": "Poynting 1884 original On the Transfer of Energy",
+      "url": "https://en.wikisource.org/wiki/Page:PoyntingTransfer.djvu/1",
+      "source_type": "原著校读转录",
+      "verification_scope": "题头1883-12-17收稿、1884-01-10宣读，论文讨论导线外空间和能量路径。原页完整数学公式另核。"
+    },
+    {
+      "source_id": "S17-02",
+      "title": "Royal Society RR/9/234 Kelvin referee report",
+      "url": "https://makingscience.royalsociety.org/items/rr_9_234/referees-report-by-william-thomson-lord-kelvin-on-a-paper-on-the-transfer-of-energy-in-the-electromagnetic-field-by-john-henry-poynting",
+      "source_type": "皇家学会一手审稿档案",
+      "verification_scope": "1884-04-11汤姆孙审阅、建议刊行；不能由此推演个人对话。"
+    },
+    {
+      "source_id": "S17-03",
+      "title": "Royal Society RR/9/235 Adams referee report",
+      "url": "https://makingscience.royalsociety.org/items/rr_9_235/referees-report-by-william-grylls-adams-on-a-paper-on-the-transfer-of-energy-in-the-electromagnetic-field-by-john-henry-poynting",
+      "source_type": "皇家学会一手审稿档案",
+      "verification_scope": "1884-06-10亚当斯的独立审阅及刊行建议。"
+    },
+    {
+      "source_id": "S17-04",
+      "title": "Royal Society Philosophical Transactions 175 book contents",
+      "url": "https://www.jstor.org/stable/i207040",
+      "source_type": "原刊书目",
+      "verification_scope": "1884 Poynting 343—361页；出版年份与宣读日期区分。"
+    },
+    {
+      "source_id": "S17-05",
+      "title": "OpenStax University Physics 2 Ch 16 Summary",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/16-summary",
+      "source_type": "现代大学物理",
+      "verification_scope": "用于现代电磁波能流与能量密度直觉，非1884年历史记号；对局域守恒需额外现代电动力学教材交叉。"
+    },
+    {
+      "source_id": "S17-06",
+      "title": "Darrigol Electrodynamics from Ampère to Einstein",
+      "url": "https://global.oup.com/academic/product/electrodynamics-from-ampere-to-einstein-9780198505945",
+      "source_type": "学术史专著书目",
+      "verification_scope": "Heaviside独立能流研究及Poynting背景的扩展阅读；全本受限尚未逐页核查。"
+    },
+    {
+      "source_id": "S17-07",
+      "title": "Poynting 1884 original full-text educational transcription",
+      "url": "https://spacetimemetric.com/library/stm-94d96d4235",
+      "source_type": "公版原著转录",
+      "verification_scope": "正文开篇能量场研究的论旨与方向；该转录的公式和插图未完整校核。"
+    }
+  ],
+  "unresolved": [
+    "Poynting 1884完整原刊各案例公式与原单位制逐页对照",
+    "Heaviside 1884-1885发表节点及原创性依原文校核",
+    "电阻表面与内部能流的具体场解边界条件、现代坡印廷守恒需高水平物理教材复核"
+  ]
+}

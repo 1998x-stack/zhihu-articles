@@ -1,0 +1,158 @@
+{
+  "chapter": "16",
+  "chapter_batch": "16-18",
+  "lane": "nonfiction",
+  "revision": 15,
+  "publication_ready": false,
+  "review_status": "PENDING",
+  "evidence_scope": "Reviewed accessible institutional and scholarly pages; original archive volumes, full legal records, and competing primary editions remain unverified",
+  "claims": [
+    {
+      "claim_id": "CH16-001",
+      "statement": "1833年英国议会通过帝国殖民地奴隶制废除相关法律，之后补偿支付给当时被承认为奴隶所有者的索赔人",
+      "source_ids": [
+        "F-1601",
+        "F-1602",
+        "F-1608"
+      ],
+      "classification": "legal_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "适用地区、过渡条款及不同补偿类别应查原法令"
+    },
+    {
+      "claim_id": "CH16-002",
+      "statement": "英国政府设定两千万英镑补偿安排，英格兰银行参与办理",
+      "source_ids": [
+        "F-1602",
+        "F-1608"
+      ],
+      "classification": "government_finance",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "两千万不等于所有补偿证券的交易记录金额"
+    },
+    {
+      "claim_id": "CH16-003",
+      "statement": "远洋贸易中商人可能通过贷款合伙保险缓解现金流时间差",
+      "source_ids": [
+        "F-1603"
+      ],
+      "classification": "mechanism_explanation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "是典型机制而非每个航次的固定结构"
+    },
+    {
+      "claim_id": "CH16-004",
+      "statement": "劳合社海上保险参与包括奴隶制经济在内的跨洋商业风险分配",
+      "source_ids": [
+        "F-1603"
+      ],
+      "classification": "financial_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不能把全部保险业务等同奴隶贸易"
+    },
+    {
+      "claim_id": "CH16-005",
+      "statement": "奴隶贸易航次资料需区分不同航段地区数据与估算边界",
+      "source_ids": [
+        "F-1604",
+        "F-1606"
+      ],
+      "classification": "dataset_methodology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不推断每一张航次记录包含全部字段"
+    },
+    {
+      "claim_id": "CH16-006",
+      "statement": "相关奴隶贸易保险诉讼的责任边界在法律史研究中存在复杂争议",
+      "source_ids": [
+        "F-1605"
+      ],
+      "classification": "legal_historiography",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "原始判决文本仍待校勘"
+    },
+    {
+      "claim_id": "CH16-007",
+      "statement": "某些后被并入劳埃德银行集团的机构与种植园和奴隶制抵押融资相关",
+      "source_ids": [
+        "F-1607"
+      ],
+      "classification": "institutional_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不能将后世集团统称为当时统一主体"
+    },
+    {
+      "claim_id": "CH16-008",
+      "statement": "殖民制度承认的财产请求不等于现代道德意义上的正当资产",
+      "source_ids": [
+        "F-1601",
+        "F-1608"
+      ],
+      "classification": "normative_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "区分历史法律事实与作者伦理分析"
+    },
+    {
+      "claim_id": "CH16-009",
+      "statement": "补偿财政包含借款与政府公债支付安排",
+      "source_ids": [
+        "F-1602"
+      ],
+      "classification": "public_finance_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "贷款条款及原始政府账目待校"
+    },
+    {
+      "claim_id": "CH16-010",
+      "statement": "银行对1835至1843年部分补偿证券追踪约一万三千五百笔交易",
+      "source_ids": [
+        "F-1602"
+      ],
+      "classification": "archive_data",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "仅指定证券子样本，不可充作所有两千万英镑款项"
+    },
+    {
+      "claim_id": "CH16-011",
+      "statement": "金融代理及银行家因办理补偿证券获得佣金或相关收益",
+      "source_ids": [
+        "F-1602"
+      ],
+      "classification": "archival_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "不可将换手额等同纯利润"
+    },
+    {
+      "claim_id": "CH16-012",
+      "statement": "UCL奴隶所有权遗产研究利用补偿索赔追踪财富和政治商业关系",
+      "source_ids": [
+        "F-1608"
+      ],
+      "classification": "research_methodology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "历史关联不证明工业革命资金唯一来源"
+    },
+    {
+      "claim_id": "CH16-013",
+      "statement": "用资产负债表理解殖民关系会漏掉旧法未承认的受害者权益",
+      "source_ids": [
+        "F-1601",
+        "F-1607",
+        "F-1608"
+      ],
+      "classification": "author_analysis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "解释性框架非可直接从单一账目读出"
+    },
+    {
+      "claim_id": "CH16-014",
+      "statement": "铁路长期资本需求与殖民贸易融资工具存在时间结构上的不同",
+      "source_ids": [
+        "F-1701"
+      ],
+      "classification": "chapter_bridge",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLISHED",
+      "caveat": "比较现代机制非断言所有铁路资本源于殖民利润"
+    }
+  ]
+}

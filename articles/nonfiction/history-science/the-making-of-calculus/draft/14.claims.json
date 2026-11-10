@@ -4,97 +4,139 @@
   "status": "DRAFT_UNREVIEWED",
   "revision": 0,
   "source_register": [
-    "H01",
     "H81",
     "H82",
     "H83",
-    "H84"
+    "H84",
+    "H86",
+    "H87",
+    "H88"
   ],
   "claims": [
     {
       "id": "C14-01",
-      "kind": "historical_context",
-      "statement": "莱布尼茨1672年到巴黎后在惠更斯影响下深入学习几何、级数与求积方法。",
+      "kind": "history",
+      "statement": "莱布尼茨1672巴黎求学、受惠更斯等影响并在1670年代逐渐发展自己的微积分。",
       "source_ids": [
         "H81"
       ],
-      "locator": "MacTutor Leibniz biography Paris 1672 / Huygens; see ref [1]",
-      "verification": "SOURCE_LOCATED"
+      "locator": "MacTutor Leibniz biography, Paris 1672–76",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C14-02",
-      "kind": "manuscript_notation",
-      "statement": "1675年10月29日手稿记载以拉长的S取代omn.表示求和；同年11月逐步组合积分与微分记号。",
+      "kind": "history",
+      "statement": "1675年11月21日手稿已有积分符号与微分乘积规则，1676幂法则渐成熟。",
       "source_ids": [
-        "H82"
+        "H81",
+        "H87"
       ],
-      "locator": "MacTutor Earliest Uses of Symbols of Calculus, Integral, critical edition series VII vol.5 pp.288-295,321-331",
-      "verification": "SOURCE_LOCATED_WITH_MANUSCRIPT_DISTINCTION"
+      "locator": "MacTutor lines 60–61; MAA Leibniz original papers overview",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C14-03",
-      "kind": "publication",
-      "statement": "1684年10月《学者纪事》第467—473页发表微分论文Nova methodus。",
+      "kind": "primary_publication",
+      "statement": "1684年10月《Acta Eruditorum》pp.467–473论文首度公开详述d微分规则。",
       "source_ids": [
-        "H83"
+        "H82",
+        "H86"
       ],
-      "locator": "MAA Swetz Differential Calculus Acta Eruditorum October 1684 pp.467-473",
-      "verification": "SOURCE_LOCATED"
+      "locator": "MAA Acta original 1684 pp467–473; Lemley printing editions",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C14-04",
-      "kind": "publication",
-      "statement": "1686年6月《学者纪事》292—300页发表De geometria recondita，积分符号首次公开印行。",
-      "source_ids": [
-        "H84"
-      ],
-      "locator": "MAA Swetz Integral Calculus Acta Eruditorum June 1686 pp.292-300",
-      "verification": "SOURCE_LOCATED"
-    },
-    {
-      "id": "C14-05",
-      "kind": "math_modern",
-      "statement": "可微函数y=x²的差商极限为2x，d(xy)=xdy+ydx；商法则对y=(x²+1)/(x+1)在x=1处给出斜率1/2（x≠−1）。",
+      "kind": "primary_publication",
+      "statement": "1686年6月论文pp.292–300首次公开发表积分记号∫。",
       "source_ids": [
         "H83"
       ],
-      "locator": "modern difference quotient, product and quotient rules, independently recalculated including denominator restriction",
-      "verification": "MATH_RECALCULATED_MODERN"
+      "locator": "MAA Acta original 1686 pp292–300",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C14-05",
+      "kind": "historical_math",
+      "statement": "1684论文包括和、差、乘积、商及幂微分规则，但没有现代极限形式的完备证明。",
+      "source_ids": [
+        "H82",
+        "H84"
+      ],
+      "locator": "MAA Leibniz differential paper; SEP Continuity and Infinitesimals",
+      "verification": "CROSS_CHECKED_WITH_BOUNDARY"
     },
     {
       "id": "C14-06",
-      "kind": "math_modern",
-      "statement": "y=x³-3x斜率为3x²-3，x=-1为局部极大、x=1为局部极小，导数为零不是充分条件。",
-      "source_ids": [],
-      "locator": "independent derivative sign chart, counterexample y=x³",
-      "verification": "MATH_RECALCULATED"
+      "kind": "math_demonstration",
+      "statement": "y=x²(x+1)两条路线均得dy=(3x²+2x)dx，在x=2切线经过(2,12)、斜率16。",
+      "source_ids": [
+        "H84"
+      ],
+      "locator": "independent algebra differentiation and product rule cross-check",
+      "verification": "MATH_CHECKED_MODERN"
     },
     {
       "id": "C14-07",
-      "kind": "math_modern",
-      "statement": "现代∫0²x²dx=8/3，带上下限的现代排版不能归给莱布尼茨1686年原论文。",
+      "kind": "modern_math",
+      "statement": "Δ(uv) =uΔv+vΔu+ΔuΔv；对可微量第二阶项的差商极限为0。",
       "source_ids": [
-        "H82"
+        "H84"
       ],
-      "locator": "power antiderivative and MacTutor historical limits notation",
-      "verification": "MATH_RECALCULATED_WITH_NOTATION_CAVEAT"
+      "locator": "modern differentiability assumptions and product rule proof",
+      "verification": "MATH_CHECKED_MODERN"
     },
     {
       "id": "C14-08",
-      "kind": "historical_interpretation",
-      "statement": "好用记号帮助方法传播，但牛顿与莱布尼茨贡献都涉及数学方法，不是仅有记号差异。",
+      "kind": "historical_math",
+      "statement": "∫符号源于求和思想，d与∫的互逆在1686论文p297已有明确表述。",
       "source_ids": [
-        "H01",
-        "H81"
+        "H83",
+        "H87"
       ],
-      "locator": "MacTutor calculus history and Leibniz biography",
-      "verification": "INTERPRETATION_SUPPORTED"
+      "locator": "MAA Leibniz 1686 page297 source gloss and integrals",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C14-09",
+      "kind": "modern_math",
+      "statement": "d(x²)=2x dx，∫2x dx=x²+C，∫0² 2x dx=4；后者现代限号解释。",
+      "source_ids": [
+        "H83",
+        "H88"
+      ],
+      "locator": "independent modern antiderivative and triangle area comparison",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C14-10",
+      "kind": "interpretive_boundary",
+      "statement": "历史d、∫符号使用不能等同现代函数与ε–δ极限定义；16—17世纪基础仍有争论。",
+      "source_ids": [
+        "H81",
+        "H84"
+      ],
+      "locator": "MacTutor Leibniz limits; SEP infinite quantities",
+      "verification": "QUALIFIED"
+    },
+    {
+      "id": "C14-11",
+      "kind": "history_context",
+      "statement": "符号可复用规则推动微积分交流，但不意味一篇1684论文包含整门现代微积分。",
+      "source_ids": [
+        "H82",
+        "H87"
+      ],
+      "locator": "MAA publication and history context",
+      "verification": "CROSS_CHECKED"
     }
   ],
   "caveats": [
-    "全章为独立审稿前工作初稿，不可据SOURCE_LOCATED标注认定已完成整书证据批准。",
-    "1675手稿/1684微分印本/1686积分印本严格区分。",
-    "现代积分上下限和导数极限不等同十七世纪文本。",
-    "正文无真实人物的虚构对话或心理活动。"
+    "1675手稿、1684微分论文与1686积分论文必须分清。",
+    "∫与d互逆在1686有原文史料，不可断言是现代微积分基本定理所有条件的证明。",
+    "现代极限的乘积法则演示不能冒充17世纪原文。",
+    "馆藏原书图版授权未获得，不嵌入复制，使用原创SVG。",
+    "1630—1670年代前人贡献及Newton独立史料留有交叉引用。",
+    "仅工作初稿，未完成独立两道审稿门禁。"
   ]
 }

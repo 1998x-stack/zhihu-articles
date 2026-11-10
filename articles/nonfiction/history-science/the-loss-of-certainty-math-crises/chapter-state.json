@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "work": "the-loss-of-certainty-math-crises",
+  "lane": "nonfiction",
+  "current_revision": 14,
+  "chapter_progress": {
+    "22": {
+      "title": "希尔伯特的计划：给所有证明做一次总保险",
+      "status": "draft",
+      "body": "draft/22.md",
+      "claims": "draft/22.claims.json",
+      "source_revision": 12,
+      "core_question": "能否使用有限主义方法为强大数学体系证明一致性？",
+      "outgoing_problem": "证明与证明能力能否进入数学对象层面的研究？"
+    },
+    "23": {
+      "title": "哥德尔：有些命题，从系统内部永远到不了",
+      "status": "draft",
+      "body": "draft/23.md",
+      "claims": "draft/23.claims.json",
+      "source_revision": 12,
+      "core_question": "一个足够强且一致的有效形式系统能否决定全部算术句子、证明自身一致性？",
+      "outgoing_problem": "形式证明边界之外，机械判定又有哪些限制？"
+    },
+    "24": {
+      "title": "图灵：不存在的万能判题机器",
+      "status": "draft",
+      "body": "draft/24.md",
+      "claims": "draft/24.claims.json",
+      "source_revision": 13,
+      "core_question": "是否有一种对全部一阶逻辑公式或全部程序的停机性都保证给出答案的一般算法？",
+      "key_distinction": "1936年图灵原始circle-free/PRINT问题不同于现代HALT?；丘奇—图灵论题也不等于形式模型等价定理。",
+      "outgoing_problem": "不可判定性的边界内，机器如何参与可信的具体数学证明？"
+    },
+    "25": {
+      "title": "四色定理：当机器成为证明者",
+      "status": "draft",
+      "body": "draft/25.md",
+      "claims": "draft/25.claims.json",
+      "source_revision": 14,
+      "core_question": "机器做完庞大的有限计算，怎样让证明仍然可审查、可信？",
+      "key_distinction": "1976公布和1977正式论文不同；1990年代633构型改进仍为计算机辅助；2005 Coq完整核查及2008撰文区分",
+      "outgoing_problem": "数学的可靠性源于什么层次的前提、证明和证据？"
+    },
+    "26": {
+      "title": "尾声：今天，我们为什么仍然相信数学",
+      "status": "draft",
+      "body": "draft/26.md",
+      "claims": "draft/26.claims.json",
+      "source_revision": 14,
+      "core_question": "当公理、无穷、形式证明和计算都存在明确边界，我们为何仍有理由相信数学？",
+      "key_distinction": "三次危机七变革属编辑性组织框架；数学证明的前提与经验模型的有效性不同",
+      "outgoing_problem": "返回序章1902年通信作为预设的全书框架，但draft/00.md仍未成文"
+    }
+  },
+  "pending_next": "draft/00.md 序章核证与撰写；全书跨章连续性审计、独立结构审稿、必要修订和终稿流程",
+  "continuity_constraints": [
+    "第22章的有限主义一致性证明、句子完备性与有效可判定性不可混为一谈",
+    "第23章第一/第二不完备性定理限定足够强、有效公理化及一致性等假设",
+    "第24章的D(D)属于现代教学证明，不写成图灵1936原稿的原句",
+    "第25章应明确区分可机械检查的有限证明证据和不存在的全能判题程序",
+    "第25章不得把计算机运行结果等同于已核查形式证明；四色成立针对有限平面图且共有边界才算邻接",
+    "尾声须明确三次危机七次革命是本书编辑组织方式，不能宣称学界统一定数",
+    "序章仍为占位，不能把全书草稿收束当作全书已正式完成"
+  ],
+  "review_status": "PENDING",
+  "note": "本文件记录25章与尾声新增连续性状态；工作流仍为PENDING，未进行正式双重审核或最终批准。"
+}

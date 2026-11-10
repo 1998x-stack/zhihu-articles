@@ -4,92 +4,142 @@
   "status": "DRAFT_UNREVIEWED",
   "revision": 0,
   "source_register": [
+    "H83",
     "H85",
+    "H88",
     "H89",
     "H90",
-    "H84",
-    "H71",
-    "H72"
+    "H91",
+    "H92",
+    "H93"
   ],
   "claims": [
     {
       "id": "C15-01",
-      "kind": "historical_scope",
-      "statement": "求积与切线是17世纪后半叶逐渐联系的不同问题，其会合并非牛顿或莱布尼茨凭空完成。",
+      "kind": "modern_math",
+      "statement": "对于[a,b]上连续f，定义A(x)=∫a^x f(t)dt，则内部A'(x)=f(x)。",
       "source_ids": [
-        "H85"
+        "H88",
+        "H89"
       ],
-      "locator": "MAA Teaching the Fundamental Theorem, historical introduction",
-      "verification": "SOURCE_LOCATED"
+      "locator": "OpenStax theorem 5.3/5.4; MIT §5C proof",
+      "verification": "MATH_CHECKED"
     },
     {
       "id": "C15-02",
-      "kind": "math_modern",
-      "statement": "若f连续，面积/累积函数A(x)=∫aˣ f(t)dt在内点可微且A′(x)=f(x)。",
-      "source_ids": [],
-      "locator": "independent bound by interval minima/maxima; continuity; both one-sided increments",
-      "verification": "MATH_RECALCULATED_WITH_CONDITIONS"
+      "kind": "modern_math",
+      "statement": "对h>0用区间最值夹逼面积差商，h<0为有向积分也收敛f(x)。",
+      "source_ids": [
+        "H88",
+        "H89"
+      ],
+      "locator": "continuity and average value/squeeze argument",
+      "verification": "MATH_CHECKED_WITH_SIDES"
     },
     {
       "id": "C15-03",
-      "kind": "math_modern",
-      "statement": "若f连续且F′=f，则∫aᵇ f(x)dx=F(b)−F(a)。",
-      "source_ids": [],
-      "locator": "A′=F′ => A−F constant by mean value theorem",
-      "verification": "MATH_RECALCULATED_WITH_CONDITIONS"
+      "kind": "modern_math",
+      "statement": "若G'=f，G与A在区间内导数相同，故∫a^b f=G(b)-G(a)。",
+      "source_ids": [
+        "H88",
+        "H89"
+      ],
+      "locator": "OpenStax part 2; constant difference via mean-value theorem",
+      "verification": "MATH_CHECKED"
     },
     {
       "id": "C15-04",
-      "kind": "math_modern",
-      "statement": "∫0²x² dx=8/3；等距右端点平方和极限亦等于8/3。",
-      "source_ids": [],
-      "locator": "Sn=8(n+1)(2n+1)/(6n²), n→∞",
-      "verification": "MATH_RECALCULATED"
+      "kind": "math_demonstration",
+      "statement": "∫0² (3x²+2)dx=[x³+2x]0²=12，面积函数求导回原函数。",
+      "source_ids": [
+        "H88"
+      ],
+      "locator": "independent antiderivative arithmetic",
+      "verification": "MATH_CHECKED"
     },
     {
       "id": "C15-05",
-      "kind": "math_modern",
-      "statement": "∫1³(2t+1)dt=10；∫0²(2t−2)dt=0但∫0²|2t−2|dt=2，说明有符号累积不同于非负几何面积。",
-      "source_ids": [],
-      "locator": "F(t)=t²+t; G(t)=t²−2t; independent piecewise absolute integral",
-      "verification": "MATH_RECALCULATED"
+      "kind": "counterexample",
+      "statement": "f=0(x<0),1(x≥0)从−1累计得A=max(x,0)，原点不可微，故不能去掉连续性条件。",
+      "source_ids": [
+        "H89"
+      ],
+      "locator": "MIT step-function continuity caveat; independent construction",
+      "verification": "MATH_CHECKED"
     },
     {
       "id": "C15-06",
-      "kind": "historical_sources",
-      "statement": "格雷戈里1668年、巴罗1670年分别推进了求积与切线之间的联系。",
+      "kind": "signed_integral",
+      "statement": "∫0²(2x−2)dx=0，而两侧几何面积各1，绝对总面积为2。",
       "source_ids": [
-        "H89",
-        "H90"
+        "H88"
       ],
-      "locator": "MacTutor James Gregory; MAA Barrow geometric lectures",
-      "verification": "SOURCE_LOCATED"
+      "locator": "independent signed integral and triangles",
+      "verification": "MATH_CHECKED"
     },
     {
       "id": "C15-07",
-      "kind": "historical_sources",
-      "statement": "牛顿早期手稿与莱布尼茨1686年论文也包含求积和切线/微分互逆关系的研究。",
+      "kind": "historical_scope",
+      "statement": "格雷戈里1668、巴罗1670几何方法已经讨论求积切线反向关系。",
       "source_ids": [
-        "H71",
-        "H72",
-        "H84"
+        "H90",
+        "H92"
       ],
-      "locator": "Newton Project October 1666 manuscript; MAA Leibniz 1686 integral calculus",
-      "verification": "SOURCE_LOCATED_WITH_HISTORICAL_CAVEAT"
+      "locator": "MacTutor Rise of Calculus; Cambridge Sources chronology",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C15-08",
-      "kind": "counterexample",
-      "statement": "阶跃f(x)=0(x<0),1(x≥0)可积，但累积函数在0处导数不存在。",
-      "source_ids": [],
-      "locator": "A(x)=0 for x≤0, A(x)=x for x>0; one-sided derivatives 0 and 1",
-      "verification": "MATH_RECALCULATED"
+      "kind": "historical_scope",
+      "statement": "牛顿1666手稿研究反求流数以及求积关系，但不等于现代完整证明体系。",
+      "source_ids": [
+        "H90",
+        "H92"
+      ],
+      "locator": "MacTutor Newton 1666 account; Cambridge historical framing",
+      "verification": "CROSS_CHECKED_WITH_LIMIT"
+    },
+    {
+      "id": "C15-09",
+      "kind": "primary_history",
+      "statement": "莱布尼茨1686年论文讨论d与∫逆向联系，1693年继续以几何证明作一般化表述。",
+      "source_ids": [
+        "H83",
+        "H85",
+        "H93"
+      ],
+      "locator": "MAA 1686 p297 and 1693 Acta overview",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C15-10",
+      "kind": "historiography",
+      "statement": "Nauenberg2014比较Barrow1670几何证明与Leibniz1693几何证明；借鉴关系为学术论证不可泛化整个理论被抄。",
+      "source_ids": [
+        "H91"
+      ],
+      "locator": "Annals of Science 71(3) abstract; historical interpretive scope",
+      "verification": "QUALIFIED_HISTORICAL_INTERPRETATION"
+    },
+    {
+      "id": "C15-11",
+      "kind": "historical_method",
+      "statement": "求积与求切线方法经历多条贡献路线，不能把现代基本定理首创全归于单一人物。",
+      "source_ids": [
+        "H90",
+        "H92",
+        "H85"
+      ],
+      "locator": "MacTutor; Cambridge historical overview; MAA 1693",
+      "verification": "CROSS_CHECKED_WITH_SCOPE"
     }
   ],
   "caveats": [
-    "全部现代定理证明用连续性、定积分与中值定理，不能冒充十七世纪原文。",
-    "第一部分的连续性条件是充分条件，不能将反例过度推广为所有不连续函数都失败。",
-    "第二部分需存在原函数，本文用连续函数版本，避免无条件推广。",
-    "审稿状态不自动变更。"
+    "FTC现代两部分的严密论证不是1660—1693年原始手稿中的现成ε–δ证明。",
+    "第一部分以f连续为条件，外点端点使用单侧导数应明确；跳变反例破坏处处等于。",
+    "积分是有向累积，不能将有符号面积混淆普通几何正面积。",
+    "若f连续且G'=f，则两端相减；任意不规则f需另说。",
+    "Barrow/Leibniz1693几何证明存在史学比较，不凭一篇摘要直接定抄袭。",
+    "章节为未双审工作初稿，全局门禁维持PENDING。"
   ]
 }

@@ -1,0 +1,175 @@
+{
+  "chapter": "28",
+  "chapter_batch": "28-30",
+  "lane": "nonfiction",
+  "revision": 25,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Secondary central-bank/IMF/BIS institutional research and selected original publications; independent full primary-edition audit pending.",
+  "claims": [
+    {
+      "claim_id": "CH28-001",
+      "statement": "离岸美元主要指美国境外银行账簿中的美元计价存款和相关信用业务",
+      "source_ids": [
+        "F-2801",
+        "F-2803"
+      ],
+      "classification": "definition",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非欧洲共同货币欧元，亦非必须存放实体纸币"
+    },
+    {
+      "claim_id": "CH28-002",
+      "statement": "1955伦敦已有提供有别于美国国内利率条件的美元存款业务",
+      "source_ids": [
+        "F-2801"
+      ],
+      "classification": "historical_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始存款报价簿待核"
+    },
+    {
+      "claim_id": "CH28-003",
+      "statement": "1966美国存款利率约束增强，美国银行经伦敦机构补充融资",
+      "source_ids": [
+        "F-2801"
+      ],
+      "classification": "banking_regulation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不代表美国全部机构皆通过伦敦融资"
+    },
+    {
+      "claim_id": "CH28-004",
+      "statement": "银行美元负债与美国往来银行结算资产是不同会计对象",
+      "source_ids": [
+        "F-2801",
+        "F-2803"
+      ],
+      "classification": "balance_sheet_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "100和80均为虚构教学数额"
+    },
+    {
+      "claim_id": "CH28-005",
+      "statement": "离岸银行贷出美元能形成存款债权但跨行支付仍有结算约束",
+      "source_ids": [
+        "F-2801",
+        "F-2803"
+      ],
+      "classification": "banking_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非不受限制无限创造可结算美元"
+    },
+    {
+      "claim_id": "CH28-006",
+      "statement": "1957英国对英镑融资第三国贸易的限制有利于伦敦美元融资",
+      "source_ids": [
+        "F-2802"
+      ],
+      "classification": "historical_regulatory_change",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "英国原始法令待核且非唯一原因"
+    },
+    {
+      "claim_id": "CH28-007",
+      "statement": "监管利率上限、准备金及存款保险成本改变境内外融资竞争",
+      "source_ids": [
+        "F-2801"
+      ],
+      "classification": "regulatory_arbitrage",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "银行行为不意味着监管目标全部失效"
+    },
+    {
+      "claim_id": "CH28-008",
+      "statement": "BIS1960年代开始收集国际银行头寸统计",
+      "source_ids": [
+        "F-2803"
+      ],
+      "classification": "statistical_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "locational口径和consolidated口径需区分"
+    },
+    {
+      "claim_id": "CH28-009",
+      "statement": "BIS估算1963国际银行债权与世界GDP之比仍不足2%",
+      "source_ids": [
+        "F-2801"
+      ],
+      "classification": "historical_statistic",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等同于欧洲美元存款余额"
+    },
+    {
+      "claim_id": "CH28-010",
+      "statement": "1963美国利息平衡税及1965对外信贷限制推动部分离岸替代融资",
+      "source_ids": [
+        "F-2802"
+      ],
+      "classification": "policy_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "直接作用与替代路径需核原始条款"
+    },
+    {
+      "claim_id": "CH28-011",
+      "statement": "1969美国对某些海外美元资金来源实施准备金要求",
+      "source_ids": [
+        "F-2801"
+      ],
+      "classification": "policy_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "具体适用对象与法律生效日待核"
+    },
+    {
+      "claim_id": "CH28-012",
+      "statement": "LIBOR等市场基准与伦敦美元同业融资的历史地位有关",
+      "source_ids": [
+        "F-2801"
+      ],
+      "classification": "interest_benchmark_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不把LIBOR等同联邦基金利率"
+    },
+    {
+      "claim_id": "CH28-013",
+      "statement": "跨国银行融资期限差异和再融资压力可以扩散",
+      "source_ids": [
+        "F-2801"
+      ],
+      "classification": "systemic_liquidity_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "各次危机原因不同不可单因归责"
+    },
+    {
+      "claim_id": "CH28-014",
+      "statement": "1974赫斯塔特关闭显示两币种非同步支付的本金结算风险",
+      "source_ids": [
+        "F-2804"
+      ],
+      "classification": "fx_settlement_case",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "并非所有离岸美元存款违约"
+    },
+    {
+      "claim_id": "CH28-015",
+      "statement": "跨境美元信用并非美国发行权之外的完全独立货币",
+      "source_ids": [
+        "F-2801",
+        "F-2803"
+      ],
+      "classification": "synthetic_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "跨国监管与支付约束均存在"
+    },
+    {
+      "claim_id": "CH28-016",
+      "statement": "1980年代日本银行扩大国际银行市场活动",
+      "source_ids": [
+        "F-2801"
+      ],
+      "classification": "historical_transition",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能据此断言其直接单独造成日本资产泡沫"
+    }
+  ]
+}

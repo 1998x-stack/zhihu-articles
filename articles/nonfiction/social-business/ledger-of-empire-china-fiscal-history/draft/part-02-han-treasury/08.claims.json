@@ -1,0 +1,102 @@
+{
+  "chapter": "08",
+  "status": "RESEARCH_DRAFT",
+  "review_status": "PENDING",
+  "scope": "bounded research evidence only; not an independent chapter fact-check or final approval",
+  "claims": [
+    {
+      "claim_id": "C08-01",
+      "statement": "史记汉书记录武帝时期盐铁、币制和税收经营改革",
+      "source_ids": [
+        "Q10",
+        "Q11"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "两书叙述编年和立场有所不同"
+    },
+    {
+      "claim_id": "C08-02",
+      "statement": "盐铁官营在元狩年间经历分期推进",
+      "source_ids": [
+        "Q21",
+        "Q22"
+      ],
+      "classification": "DISPUTED",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "起始年份不同研究处理不同，不作全国单日"
+    },
+    {
+      "claim_id": "C08-03",
+      "statement": "算缗与告缗是商人财产登记追索的工具",
+      "source_ids": [
+        "Q10"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "史记所录大规模追索非现代司法抽样"
+    },
+    {
+      "claim_id": "C08-04",
+      "statement": "元封元年前后桑弘羊组织均输和平准政策",
+      "source_ids": [
+        "Q10"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "以史记相关段落为纲，制度跨年发展"
+    },
+    {
+      "claim_id": "C08-05",
+      "statement": "均输调运应对赋输远运成本，平准拟调节货物价格",
+      "source_ids": [
+        "Q10"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "政策目标不等于全部地区真实成效"
+    },
+    {
+      "claim_id": "C08-06",
+      "statement": "2024学术文章对武帝兴利政策动因提出非军事解释",
+      "source_ids": [
+        "Q23"
+      ],
+      "classification": "DISPUTED",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "学者研究及竞争解释，不把观点视定论"
+    },
+    {
+      "claim_id": "C08-07",
+      "statement": "盐铁官营既带来财政资源也引出商品质量和权力风险讨论",
+      "source_ids": [
+        "Q10",
+        "Q24"
+      ],
+      "classification": "INTERPRETATION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "政策争论文本后出、含修辞和立场"
+    },
+    {
+      "claim_id": "C08-08",
+      "statement": "前81年盐铁会议材料经桓宽加工成盐铁论",
+      "source_ids": [
+        "Q24",
+        "Q25"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "编纂文本不是会场录音"
+    },
+    {
+      "claim_id": "C08-09",
+      "statement": "积极治理税商是刘守刚的现代财政分析框架",
+      "source_ids": [
+        "B06"
+      ],
+      "classification": "BOOK_POSITION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "不得当桑弘羊原话"
+    }
+  ]
+}

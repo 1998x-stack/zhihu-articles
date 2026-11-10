@@ -1,16 +1,16 @@
 {
   "schema_version": "2.0",
   "lane": "nonfiction",
-  "current_revision": 1,
+  "current_revision": 2,
   "outline_approved": true,
   "evidence_verified": true,
   "review_status": "PASS",
-  "reviewed_revision": 1,
+  "reviewed_revision": 2,
   "unresolved_blockers": [],
-  "edited_revision": null,
+  "edited_revision": 2,
   "final_approved": false,
   "evidence_scope": "序章00及第01—15章、尾声16共17份正文均完成章级前置核证；最终批次G15-01—G15-22及G16-01—G16-22已映射来源；下一步全书独立双审",
-  "approval_scope": "revision 1的continuity-audit与developmental-editor两份不同的复审报告均为PASS且版号一致，允许进入line-edit；尚未生成edited.md及正式终审许可。",
-  "note": "rev1双审通过：qa/continuity-report.md和qa/developmental-review.md均为revision_count:1/status:PASS；306个主张编号在revised.md保留。接下来进行line-edit，正式本地workflow_gate.py尚未运行，未生成终稿。",
-  "revision_reason": "修复首轮审稿C-01—C-04及D-01—D-06；新增S87并将17章初稿构造成可复审revised.md。"
+  "approval_scope": "revision2 continuity-audit与developmental-editor分别PASS，edited_revision=2；可交独立终审，正式workflow_gate.py尚待执行。",
+  "note": "2026-11-06：revision2双审PASS；与main分支已有rev1 line-edit成果整合后，生成revision2 edited.md（保留17篇、306条主张、关键公式）。远程等效门禁条件已检查，但未实际运行仓库workflow_gate.py。final-approval为HOLD，final_approved=false。",
+  "revision_reason": "DR1-01 修复S87书目404、DR1-02修复book.json阅读状态及rev2附录工作流说明；旧双审结论失效"
 }

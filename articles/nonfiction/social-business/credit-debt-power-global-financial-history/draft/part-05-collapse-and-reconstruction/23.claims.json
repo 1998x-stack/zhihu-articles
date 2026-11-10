@@ -1,0 +1,236 @@
+{
+  "chapter": "23",
+  "chapter_batch": "22-24",
+  "lane": "nonfiction",
+  "revision": 21,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Institutional historical pages, primary diplomatic and bank records, original-object descriptions and academic research reviewed. Key statutes, economic time-series and full competing scholarly source editions still pending.",
+  "claims": [
+    {
+      "claim_id": "CH23-001",
+      "statement": "1933-03-06罗斯福宣布全国银行休业行政措施",
+      "source_ids": [
+        "F-2301",
+        "F-2307"
+      ],
+      "classification": "official_event",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "银行假期并非所有银行最终倒闭"
+    },
+    {
+      "claim_id": "CH23-002",
+      "statement": "1929-10-28美股道指单日跌近13%",
+      "source_ids": [
+        "F-2303"
+      ],
+      "classification": "historical_market_price",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是同一日实际国内产出跌13%"
+    },
+    {
+      "claim_id": "CH23-003",
+      "statement": "美国经济1929夏开始下降，银行恐慌更集中于1930—1933年",
+      "source_ids": [
+        "F-2302",
+        "F-2304"
+      ],
+      "classification": "economic_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "股市崩盘和银行危机不属于同一时间"
+    },
+    {
+      "claim_id": "CH23-004",
+      "statement": "资产仍存时银行可因提款集中而缺乏短期流动性",
+      "source_ids": [
+        "F-2304"
+      ],
+      "classification": "balance_sheet_model",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "100存款及10现款虚构"
+    },
+    {
+      "claim_id": "CH23-005",
+      "statement": "1930年前后大量美银行非联储会员且支持资格不同",
+      "source_ids": [
+        "F-2304"
+      ],
+      "classification": "institutional_data",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非会员并不解释所有银行失败"
+    },
+    {
+      "claim_id": "CH23-006",
+      "statement": "Bernanke1983强调银行倒闭毁损信贷判断信息及融资渠道",
+      "source_ids": [
+        "F-2305"
+      ],
+      "classification": "peer_reviewed_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "对Friedman货币解释的补充，不是反对货币紧缩"
+    },
+    {
+      "claim_id": "CH23-007",
+      "statement": "1929秋到1933冬美国货币供应量减少近30%",
+      "source_ids": [
+        "F-2302"
+      ],
+      "classification": "historical_aggregate",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于物价在各地同比例下跌"
+    },
+    {
+      "claim_id": "CH23-008",
+      "statement": "价格下跌抬高固定名义债务实际负担及银行不良贷款风险",
+      "source_ids": [
+        "F-2302",
+        "F-2305"
+      ],
+      "classification": "debt_deflation_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "虚构100单位模型"
+    },
+    {
+      "claim_id": "CH23-009",
+      "statement": "1931-09-21英国退出黄金兑换承诺",
+      "source_ids": [
+        "F-2306"
+      ],
+      "classification": "official_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "外国黄金政策与美国银行法不同"
+    },
+    {
+      "claim_id": "CH23-010",
+      "statement": "1931美国内外黄金现金提款构成双重储备压力",
+      "source_ids": [
+        "F-2306"
+      ],
+      "classification": "financial_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "外部黄金流出与居民现金提款须分开"
+    },
+    {
+      "claim_id": "CH23-011",
+      "statement": "维护黄金的贴现率上调可能加重国内信用收缩",
+      "source_ids": [
+        "F-2306",
+        "F-2308"
+      ],
+      "classification": "competing_policy_goals",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能用该机制解释所有国家年份"
+    },
+    {
+      "claim_id": "CH23-012",
+      "statement": "1932年RFC支持机构及联储约10亿美元公开市场购债",
+      "source_ids": [
+        "F-2306"
+      ],
+      "classification": "institutional_policy_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "Fed并非整个1930—33毫无作为"
+    },
+    {
+      "claim_id": "CH23-013",
+      "statement": "一些银行因怕求助公开引发信心风险而不愿借RFC",
+      "source_ids": [
+        "F-2306"
+      ],
+      "classification": "institutional_incentive",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不可推断所有受困银行均如此"
+    },
+    {
+      "claim_id": "CH23-014",
+      "statement": "1933-03-09紧急银行法与03-13银行重开分属法律和运营两时点",
+      "source_ids": [
+        "F-2301"
+      ],
+      "classification": "official_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "最初紧急措施不等于后续存款保险"
+    },
+    {
+      "claim_id": "CH23-015",
+      "statement": "1933-03-12罗斯福广播鼓励对重开银行信心",
+      "source_ids": [
+        "F-2301",
+        "F-2307"
+      ],
+      "classification": "historical_event",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不编造总统除官方记录外的发言"
+    },
+    {
+      "claim_id": "CH23-016",
+      "statement": "1933-06-16银行法创建FDIC，1934-01-01开始2500美元保险",
+      "source_ids": [
+        "F-2307"
+      ],
+      "classification": "legal_implementation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "1933休业期间并未自动全面承保"
+    },
+    {
+      "claim_id": "CH23-017",
+      "statement": "FDIC估计1930—33约9000家银行暂停营业",
+      "source_ids": [
+        "F-2307"
+      ],
+      "classification": "historical_statistic",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "暂停≠全部立即永久清算"
+    },
+    {
+      "claim_id": "CH23-018",
+      "statement": "美国大萧条总产出下滑约30%、失业率1933约25%",
+      "source_ids": [
+        "F-2311"
+      ],
+      "classification": "macro_historical_statistic",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "统计定义不同、非逐年银行失败线性关系"
+    },
+    {
+      "claim_id": "CH23-019",
+      "statement": "Eichengreen强调国际金本位限制和跨国通缩传播",
+      "source_ids": [
+        "F-2308"
+      ],
+      "classification": "scholarly_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于美国股市唯一传染来源"
+    },
+    {
+      "claim_id": "CH23-020",
+      "statement": "Bernanke/James国际样本研究银行恐慌与通缩反馈",
+      "source_ids": [
+        "F-2309"
+      ],
+      "classification": "comparative_academic_study",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "各国样本含制度差异"
+    },
+    {
+      "claim_id": "CH23-021",
+      "statement": "2024修订联储研究强调1933财政与国债制度可能帮助复苏",
+      "source_ids": [
+        "F-2310"
+      ],
+      "classification": "competing_working_paper",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "作者研究非Fed统一官方政策立场"
+    },
+    {
+      "claim_id": "CH23-022",
+      "statement": "中国1935银本位改革与美国1934白银政策因果研究存在争论",
+      "source_ids": [
+        "F-2312"
+      ],
+      "classification": "cross_chapter_transition",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "国际商品价变动不等于单一政策解释中国全部改革"
+    }
+  ]
+}

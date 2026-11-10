@@ -1,0 +1,573 @@
+{
+  "schema_version": 1,
+  "id": "deep-learning-history",
+  "title": "让机器学会学习：一部深度学习发展史",
+  "reading_notice": "第01—15章共15篇非虚构工作初稿及逐章证据映射；序章00与16—31章共17篇策划占位。研究核查仅中心主张，独立双审、精修与最终封版均未完成。",
+  "outline_approved": true,
+  "evidence_verified": true,
+  "parts": [
+    {
+      "title": "第一部｜古老问题与现代前提",
+      "period": "古代思想—1943",
+      "question": "计算、概率和神经活动能否合成一种可学习的机器？",
+      "chapters": [
+        "01",
+        "02",
+        "03"
+      ]
+    },
+    {
+      "title": "第二部｜第一次机器学习的雄心",
+      "period": "1949—1969",
+      "question": "连接强度可调整，机器就真的会学习吗？",
+      "chapters": [
+        "04",
+        "05",
+        "06"
+      ]
+    },
+    {
+      "title": "第三部｜不曾断流的多条路线",
+      "period": "1970—1986",
+      "question": "一层无法处理的难题，叠加多层是否就能解决？",
+      "chapters": [
+        "07",
+        "08",
+        "09"
+      ]
+    },
+    {
+      "title": "第四部｜成功的孤岛与统计学习的竞争",
+      "period": "1989—2005",
+      "question": "既然神经网络可以工作，为何仍不是主角？",
+      "chapters": [
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "title": "第五部｜让深层网络重新可训练",
+      "period": "2003—2012",
+      "question": "为什么旧思想换了训练方法后又活了？",
+      "chapters": [
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "title": "第六部｜2012之后的规模革命",
+      "period": "2009—2015",
+      "question": "新成果究竟来自架构、数据、计算还是训练技巧？",
+      "chapters": [
+        "16",
+        "17",
+        "18"
+      ]
+    },
+    {
+      "title": "第七部｜机器开始处理语言与生成",
+      "period": "2013—2022",
+      "question": "识别世界和生成世界，是否依赖同一种表示？",
+      "chapters": [
+        "19",
+        "20",
+        "21"
+      ]
+    },
+    {
+      "title": "第八部｜预训练与规模化范式",
+      "period": "2017—2020",
+      "question": "同一模型如何跨任务迁移？规模又意味着什么？",
+      "chapters": [
+        "22",
+        "23",
+        "24"
+      ]
+    },
+    {
+      "title": "第九部｜智能进入棋盘、实验室和多模态",
+      "period": "2016—2022（专题回溯）",
+      "question": "神经网络如何与搜索、科学知识、跨模态数据结合？",
+      "chapters": [
+        "25",
+        "26",
+        "27"
+      ]
+    },
+    {
+      "title": "第十部｜全球竞合与开放问题",
+      "period": "2022—2026",
+      "question": "一个会答题的模型，何时成为可靠系统？",
+      "chapters": [
+        "28",
+        "29",
+        "30"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "prologue",
+      "number": "00",
+      "title": "序章｜2012年，一张榜单为何让世界重新押注神经网络？",
+      "part": "序章",
+      "period": "2012（倒叙）",
+      "file": "draft/00.md",
+      "status": "outline",
+      "source_hints": [
+        "R09",
+        "R10"
+      ]
+    },
+    {
+      "id": "chapter-01",
+      "number": "01",
+      "title": "古代没有深度学习：逻辑、概率和微分怎样成为远源工具？",
+      "part": "第一部｜古老问题与现代前提",
+      "period": "古代—19世纪",
+      "file": "draft/01.md",
+      "status": "draft",
+      "source_hints": [
+        "TO_VERIFY"
+      ],
+      "claims_file": "draft/01.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-02",
+      "number": "02",
+      "title": "看见神经元之前：大脑为何会被理解成可计算的系统？",
+      "part": "第一部｜古老问题与现代前提",
+      "period": "19世纪—20世纪前半",
+      "file": "draft/02.md",
+      "status": "draft",
+      "source_hints": [
+        "TO_VERIFY"
+      ],
+      "claims_file": "draft/02.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-03",
+      "number": "03",
+      "title": "1943年：两个逻辑神经元，真的能够构成一台计算机器？",
+      "part": "第一部｜古老问题与现代前提",
+      "period": "1943",
+      "file": "draft/03.md",
+      "status": "draft",
+      "source_hints": [
+        "R01"
+      ],
+      "claims_file": "draft/03.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-04",
+      "number": "04",
+      "title": "赫布的猜想：经验怎样改变神经元之间的连接？",
+      "part": "第二部｜第一次机器学习的雄心",
+      "period": "1949",
+      "file": "draft/04.md",
+      "status": "draft",
+      "source_hints": [
+        "TO_VERIFY"
+      ],
+      "claims_file": "draft/04.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-05",
+      "number": "05",
+      "title": "1958年感知机：机器学会了画线，距离理解还有多远？",
+      "part": "第二部｜第一次机器学习的雄心",
+      "period": "1957—1958",
+      "file": "draft/05.md",
+      "status": "draft",
+      "source_hints": [
+        "R02",
+        "R24"
+      ],
+      "claims_file": "draft/05.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-06",
+      "number": "06",
+      "title": "异或难题：为什么1969年的批评不等于整个AI寒冬？",
+      "part": "第二部｜第一次机器学习的雄心",
+      "period": "1960—1970年代",
+      "file": "draft/06.md",
+      "status": "draft",
+      "source_hints": [
+        "TO_VERIFY"
+      ],
+      "claims_file": "draft/06.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-07",
+      "number": "07",
+      "title": "研究没有熄火：自动微分、统计方法与硬件怎样埋伏笔？",
+      "part": "第三部｜不曾断流的多条路线",
+      "period": "1970年代",
+      "file": "draft/07.md",
+      "status": "draft",
+      "source_hints": [
+        "DL33",
+        "DL34",
+        "DL36",
+        "DL38",
+        "DL39"
+      ],
+      "claims_file": "draft/07.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-08",
+      "number": "08",
+      "title": "日本的视觉层级与物理学的记忆：网络为何需要结构？",
+      "part": "第三部｜不曾断流的多条路线",
+      "period": "1980—1985",
+      "file": "draft/08.md",
+      "status": "draft",
+      "source_hints": [
+        "DL40",
+        "DL41",
+        "DL43",
+        "DL44"
+      ],
+      "claims_file": "draft/08.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-09",
+      "number": "09",
+      "title": "1986年反向传播：误差怎样越过隐藏层？",
+      "part": "第三部｜不曾断流的多条路线",
+      "period": "1970—1986（回顾）",
+      "file": "draft/09.md",
+      "status": "draft",
+      "source_hints": [
+        "DL47",
+        "DL48",
+        "DL36"
+      ],
+      "claims_file": "draft/09.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-10",
+      "number": "10",
+      "title": "卷积网络读取支票：为什么视觉需要共享权重？",
+      "part": "第四部｜成功的孤岛与统计学习的竞争",
+      "period": "1989—1998",
+      "file": "draft/10.md",
+      "status": "draft",
+      "source_hints": [
+        "DL51",
+        "DL52",
+        "DL54",
+        "DL62"
+      ],
+      "claims_file": "draft/10.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-11",
+      "number": "11",
+      "title": "LSTM：长序列为什么会让梯度逐渐失忆？",
+      "part": "第四部｜成功的孤岛与统计学习的竞争",
+      "period": "1991—1997",
+      "file": "draft/11.md",
+      "status": "draft",
+      "source_hints": [
+        "DL55",
+        "DL56",
+        "DL57"
+      ],
+      "claims_file": "draft/11.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-12",
+      "number": "12",
+      "title": "支持向量机时代：神经网络为什么一度没有优势？",
+      "part": "第四部｜成功的孤岛与统计学习的竞争",
+      "period": "1990年代—2000年代初",
+      "file": "draft/12.md",
+      "status": "draft",
+      "source_hints": [
+        "DL58",
+        "DL59",
+        "DL60",
+        "DL61",
+        "DL52"
+      ],
+      "claims_file": "draft/12.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-13",
+      "number": "13",
+      "title": "2003年：词语如何变成可学习的坐标？",
+      "part": "第五部｜让深层网络重新可训练",
+      "period": "2003",
+      "file": "draft/13.md",
+      "status": "draft",
+      "source_hints": [
+        "DL64",
+        "DL65",
+        "DL66",
+        "DL67"
+      ],
+      "claims_file": "draft/13.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-14",
+      "number": "14",
+      "title": "2006年：深度信念网络怎样让多层训练重新可行？",
+      "part": "第五部｜让深层网络重新可训练",
+      "period": "2006",
+      "file": "draft/14.md",
+      "status": "draft",
+      "source_hints": [
+        "DL68",
+        "DL69",
+        "DL70",
+        "DL71",
+        "DL72"
+      ],
+      "claims_file": "draft/14.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-15",
+      "number": "15",
+      "title": "声音先开口：深度学习如何逐步改变语音识别？",
+      "part": "第五部｜让深层网络重新可训练",
+      "period": "约2009—2012",
+      "file": "draft/15.md",
+      "status": "draft",
+      "source_hints": [
+        "DL73",
+        "DL74",
+        "DL75",
+        "DL76"
+      ],
+      "claims_file": "draft/15.claims.json",
+      "review_status": "PENDING"
+    },
+    {
+      "id": "chapter-16",
+      "number": "16",
+      "title": "ImageNet：为什么一个数据集能够改变研究方向？",
+      "part": "第六部｜2012之后的规模革命",
+      "period": "2009—2012",
+      "file": "draft/16.md",
+      "status": "outline",
+      "source_hints": [
+        "R09"
+      ]
+    },
+    {
+      "id": "chapter-17",
+      "number": "17",
+      "title": "AlexNet：2012年的胜利，到底是何种组合拳？",
+      "part": "第六部｜2012之后的规模革命",
+      "period": "2012",
+      "file": "draft/17.md",
+      "status": "outline",
+      "source_hints": [
+        "R10"
+      ]
+    },
+    {
+      "id": "chapter-18",
+      "number": "18",
+      "title": "残差连接：越深越难训练，绕一条路为何有用？",
+      "part": "第六部｜2012之后的规模革命",
+      "period": "2015—2016",
+      "file": "draft/18.md",
+      "status": "outline",
+      "source_hints": [
+        "R11"
+      ]
+    },
+    {
+      "id": "chapter-19",
+      "number": "19",
+      "title": "词向量走向翻译：语义能否在高维空间里被组合？",
+      "part": "第七部｜机器开始处理语言与生成",
+      "period": "2013—2014",
+      "file": "draft/19.md",
+      "status": "outline",
+      "source_hints": [
+        "R07",
+        "TO_VERIFY"
+      ]
+    },
+    {
+      "id": "chapter-20",
+      "number": "20",
+      "title": "2014年的注意力：为什么不该把整句压成一个向量？",
+      "part": "第七部｜机器开始处理语言与生成",
+      "period": "2014—2015",
+      "file": "draft/20.md",
+      "status": "outline",
+      "source_hints": [
+        "R12"
+      ]
+    },
+    {
+      "id": "chapter-21",
+      "number": "21",
+      "title": "从GAN到扩散模型：机器为什么能合成不存在的图像？",
+      "part": "第七部｜机器开始处理语言与生成",
+      "period": "2014—2022（专题回溯）",
+      "file": "draft/21.md",
+      "status": "outline",
+      "source_hints": [
+        "R13",
+        "R17"
+      ]
+    },
+    {
+      "id": "chapter-22",
+      "number": "22",
+      "title": "2017年Transformer：序列为何摆脱必须逐步计算的束缚？",
+      "part": "第八部｜预训练与规模化范式",
+      "period": "2017",
+      "file": "draft/22.md",
+      "status": "outline",
+      "source_hints": [
+        "R14",
+        "R12"
+      ]
+    },
+    {
+      "id": "chapter-23",
+      "number": "23",
+      "title": "BERT与GPT：预训练为什么改变了每个任务重做模型的时代？",
+      "part": "第八部｜预训练与规模化范式",
+      "period": "2018—2019",
+      "file": "draft/23.md",
+      "status": "outline",
+      "source_hints": [
+        "R22",
+        "TO_VERIFY"
+      ]
+    },
+    {
+      "id": "chapter-24",
+      "number": "24",
+      "title": "规模定律与GPT-3：参数越多，就必然越聪明吗？",
+      "part": "第八部｜预训练与规模化范式",
+      "period": "2020—2022",
+      "file": "draft/24.md",
+      "status": "outline",
+      "source_hints": [
+        "R21",
+        "TO_VERIFY"
+      ]
+    },
+    {
+      "id": "chapter-25",
+      "number": "25",
+      "title": "AlphaGo：神经网络、搜索和强化学习为什么必须联手？",
+      "part": "第九部｜智能进入棋盘、实验室和多模态",
+      "period": "2016—2017（专题回溯）",
+      "file": "draft/25.md",
+      "status": "outline",
+      "source_hints": [
+        "R15"
+      ]
+    },
+    {
+      "id": "chapter-26",
+      "number": "26",
+      "title": "AlphaFold2：预测蛋白质结构是否等于解释生命？",
+      "part": "第九部｜智能进入棋盘、实验室和多模态",
+      "period": "2020—2021（专题回溯）",
+      "file": "draft/26.md",
+      "status": "outline",
+      "source_hints": [
+        "R16"
+      ]
+    },
+    {
+      "id": "chapter-27",
+      "number": "27",
+      "title": "图像与文字相遇：多模态学习为何变成新的基础设施？",
+      "part": "第九部｜智能进入棋盘、实验室和多模态",
+      "period": "2021—2022",
+      "file": "draft/27.md",
+      "status": "outline",
+      "source_hints": [
+        "R23",
+        "R17"
+      ]
+    },
+    {
+      "id": "chapter-28",
+      "number": "28",
+      "title": "ChatGPT之后：为什么会聊天，不等于知识可靠？",
+      "part": "第十部｜全球竞合与开放问题",
+      "period": "2022—2023",
+      "file": "draft/28.md",
+      "status": "outline",
+      "source_hints": [
+        "R18"
+      ]
+    },
+    {
+      "id": "chapter-29",
+      "number": "29",
+      "title": "从研究到全球生态：中国团队与开放模型如何参与重塑格局？",
+      "part": "第十部｜全球竞合与开放问题",
+      "period": "2015—2025（专题回溯）",
+      "file": "draft/29.md",
+      "status": "outline",
+      "source_hints": [
+        "R11",
+        "R20",
+        "TO_VERIFY"
+      ]
+    },
+    {
+      "id": "chapter-30",
+      "number": "30",
+      "title": "2024—2026：更长的推理、更低的成本，以及尚未通过的考试",
+      "part": "第十部｜全球竞合与开放问题",
+      "period": "2024—2026（持续更新）",
+      "file": "draft/30.md",
+      "status": "outline",
+      "source_hints": [
+        "R19",
+        "R20",
+        "TO_VERIFY"
+      ]
+    },
+    {
+      "id": "epilogue",
+      "number": "31",
+      "title": "尾声｜机器终于会学习了吗：八十年后的四个未解问题",
+      "part": "尾声",
+      "period": "回顾/开放结尾",
+      "file": "draft/31.md",
+      "status": "outline",
+      "source_hints": [
+        "R01",
+        "R10",
+        "R14",
+        "R16",
+        "R18",
+        "R20"
+      ]
+    }
+  ],
+  "outline_scope": "仅01—15分章细纲",
+  "evidence_scope": "仅01—15中心史实与算例"
+}

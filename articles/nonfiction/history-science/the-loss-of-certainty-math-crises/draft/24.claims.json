@@ -1,0 +1,127 @@
+{
+  "chapter": "24",
+  "title": "图灵：不存在的万能判题机器",
+  "lane": "nonfiction",
+  "revision": 13,
+  "status": "draft_claims_traced",
+  "notes": [
+    "第22/23章原有正文与claims保持原状，本批重点补齐第24章",
+    "详细来源与核证范围见research.md新增的第24章专项证据矩阵",
+    "本章现代D(D)反证不是图灵1936年论文的逐字证明",
+    "未完成独立连续性审核、结构审稿、语言精修与最终封版"
+  ],
+  "claims": [
+    {
+      "claim_id": "H24-01",
+      "statement": "希尔伯特与阿克曼1928年提出的一阶逻辑一般判定问题",
+      "source_id": "R24-SEP-ENTSCHEIDUNG",
+      "claim_type": "historical_fact",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-02",
+      "statement": "经典命题逻辑真值表可判定，一阶逻辑的普遍量化无法以同一有限表完成一般判定",
+      "source_id": "R24-MODERN-MATH;R24-SEP-ENTSCHEIDUNG",
+      "claim_type": "modern_mathematics",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-03",
+      "statement": "一阶逻辑有效性与可证明性通过逻辑完备性相对应",
+      "source_id": "R24-SEP-ENTSCHEIDUNG",
+      "claim_type": "mathematical_fact",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-04",
+      "statement": "图灵论文1936年5月28日收稿，1937年期刊卷次出版",
+      "source_id": "R24-TURING-1937",
+      "claim_type": "bibliography",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-05",
+      "statement": "图灵机器的有限状态、符号、规则及潜在无界纸带",
+      "source_id": "R24-TURING-1937;R24-SEP-TURING",
+      "claim_type": "historical_fact",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-06",
+      "statement": "程序描述可编码，通用图灵机器可模拟被编码机器",
+      "source_id": "R24-SEP-TURING;R24-TURING-1937",
+      "claim_type": "mathematical_fact",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-07",
+      "statement": "有限次运行尚未停机并不能确定程序永不停机",
+      "source_id": "R24-MODERN-MATH",
+      "claim_type": "modern_mathematics",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-08",
+      "statement": "现代停机问题通过假设总判定器H并构造D(D)而反证",
+      "source_id": "R24-MODERN-MATH;R24-SEP-TURING",
+      "claim_type": "modern_derivation",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-09",
+      "statement": "图灵circle-free与PRINT?/CIRC?问题不是现代HALT?的字面同义表达",
+      "source_id": "R24-SEP-TURING;R24-LOGCOM-HISTORY",
+      "claim_type": "historical_distinction",
+      "verification_status": "verified_qualified"
+    },
+    {
+      "claim_id": "H24-10",
+      "statement": "图灵将关于机械过程的不可判定结果应用于一阶判定问题",
+      "source_id": "R24-TURING-1937;R24-SEP-ENTSCHEIDUNG",
+      "claim_type": "historical_fact",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-11",
+      "statement": "丘奇与图灵独立在1936年前后给出一般判定问题否定结论",
+      "source_id": "R24-SEP-CHURCH;R24-SEP-ENTSCHEIDUNG",
+      "claim_type": "historical_fact",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-12",
+      "statement": "图灵计算、lambda可定义及递归可计算在经典框架中刻画相同函数类",
+      "source_id": "R24-SEP-CHURCH;R24-SEP-THESIS",
+      "claim_type": "mathematical_fact",
+      "verification_status": "verified_qualified"
+    },
+    {
+      "claim_id": "H24-13",
+      "statement": "丘奇-图灵论题联系直观有效计算与形式模型，须区分形式等价定理",
+      "source_id": "R24-SEP-THESIS",
+      "claim_type": "conceptual_distinction",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-14",
+      "statement": "标准一阶有效式集合可枚举但没有完整判定算法",
+      "source_id": "R24-SEP-ENTSCHEIDUNG;R24-MODERN-MATH",
+      "claim_type": "mathematical_fact",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-15",
+      "statement": "不可判定不等于每个实例不能验证，也不同于计算代价高",
+      "source_id": "R24-SEP-COMPUTABILITY;R24-MODERN-MATH",
+      "claim_type": "conceptual_distinction",
+      "verification_status": "verified"
+    },
+    {
+      "claim_id": "H24-16",
+      "statement": "与第25章四色定理的衔接属于作者编辑性脉络而非单向历史起因",
+      "source_id": "outline.md;story-bible.md",
+      "claim_type": "editorial_inference",
+      "verification_status": "qualified"
+    }
+  ]
+}

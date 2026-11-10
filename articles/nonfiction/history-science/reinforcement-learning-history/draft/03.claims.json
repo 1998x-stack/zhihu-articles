@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "chapter": "03",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "本批仅针对指定段落的出版元数据/可访问原始文本核查，章节尚未完成独立史料审稿；所有模型示例均为原创教学重构。",
+  "alias_to_research_source_id": {
+    "T01": "R27",
+    "T02": "R28",
+    "T03": "R29",
+    "T04": "R30",
+    "T05": "R01",
+    "S01": "R31",
+    "S02": "R32",
+    "S03": "R33",
+    "S04": "R34",
+    "S05": "R01",
+    "B01": "R35",
+    "B02": "R36",
+    "B03": "R01",
+    "B04": "R02"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-03-01",
+      "claim": "Thompson 1933论文以两组样本比较未知成功概率为题",
+      "source_ids": [
+        "R35"
+      ],
+      "kind": "historical_fact",
+      "section": "二｜心理学问行为如何改变",
+      "evidence_note": "仅验证期刊题名年份与书目；全文受限",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-03-02",
+      "claim": "Robbins 1952论文研究依既有观察自适应选择下一总体的序贯设计",
+      "source_ids": [
+        "R36"
+      ],
+      "kind": "historical_fact",
+      "section": "二｜心理学问行为如何改变",
+      "evidence_note": "原文§1—2",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-03-03",
+      "claim": "Robbins §2例子为两枚正面概率未知的硬币，并讨论依据上次正反切换或保留的规则",
+      "source_ids": [
+        "R36"
+      ],
+      "kind": "historical_fact",
+      "section": "五｜罗宾斯真正提出的难题",
+      "evidence_note": "原文§2",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-03-04",
+      "claim": "Robbins讨论渐近平均损失为零的规则，涉及稀疏且持续的探索",
+      "source_ids": [
+        "R36"
+      ],
+      "kind": "historical_mathematical",
+      "section": "五｜罗宾斯真正提出的难题",
+      "evidence_note": "原文§2的极限陈述，非固定期限最优性",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-03-05",
+      "claim": "样本均值3/4与2/5、真实均值.6与.8、100次遗憾20均为原创数学示例",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "三｜为什么选眼下胜率最高的",
+      "evidence_note": "不当成历史实验数据",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-03-06",
+      "claim": "现代期望遗憾定义与固定均值bandit公式的推导",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "modern_mathematical",
+      "section": "四｜遗憾",
+      "evidence_note": "依固定环境等条件，需与1952记号分开",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-03-07",
+      "claim": "epsilon=0.1时如果探索阶段两臂均匀随机，当前贪心动作的实际选择概率0.95",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "author_calculation",
+      "section": "六｜从朴素的 ε-greedy",
+      "evidence_note": "计算0.9+0.1/2，区别0.1不是选择非最优臂的概率",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-03-08",
+      "claim": "均匀Beta先验、A一成功B一失败时后验胜率 P(pA>pB)=5/6",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "七｜汤普森的问题",
+      "evidence_note": "现代示例，已独立验算积分；非1933原文算法",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-03-09",
+      "claim": "基础bandit通常无动作驱动的外部状态转移，不能等同完整MDP",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "conceptual_comparison",
+      "section": "八｜为什么这还不是完整的强化学习",
+      "evidence_note": "参照现代教材的章节划分",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-03-10",
+      "claim": "1959年Arthur Samuel跳棋学习论文是下一章桥梁",
+      "source_ids": [
+        "R02"
+      ],
+      "kind": "historical_fact",
+      "section": "九｜下一步",
+      "evidence_note": "书目与DOI核证，不预判细节",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "1933 Thompson文章全文受限，不把现代后验抽样法归于原文；1952原文极限定义与现代遗憾符号必须分开"
+  ]
+}

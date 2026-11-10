@@ -1,23 +1,160 @@
 {
   "chapter": "28",
-  "status": "PENDING",
+  "title": "戴德金与康托尔：数轴上真的没有空洞吗",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H162",
+    "H163",
+    "H164",
+    "H165",
+    "H166",
+    "H167",
+    "H154",
+    "H160"
+  ],
   "claims": [
     {
       "id": "C28-01",
-      "statement": "完备的实数系统如何建构",
-      "source_candidates": [
-        "H11"
+      "kind": "history_publication",
+      "statement": "Dedekind conceived continuity foundation while teaching differential calculus in Zurich 1858, published Stetigkeit und irrationale Zahlen 1872",
+      "source_ids": [
+        "H163",
+        "H164"
       ],
-      "verification": "PENDING"
+      "locator": "Dedekind historical translated preface & 1872 bibliographic scholarly appraisal",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C28-02",
-      "statement": "戴德金分割与柯西列",
-      "source_candidates": [
-        "H11"
+      "kind": "history_program",
+      "statement": "Dedekind sought purely arithmetic construction of real continuum via cuts",
+      "source_ids": [
+        "H162",
+        "H164"
       ],
-      "verification": "PENDING"
+      "locator": "OUP structuralism & Landmark Writings historical summary",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C28-03",
+      "kind": "modern_definition",
+      "statement": "Dedekind cut lower part A⊂Q is nonempty proper downward-closed with no greatest element",
+      "source_ids": [
+        "H162"
+      ],
+      "locator": "modern equivalent cut representation; OUP scholarly overview",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C28-04",
+      "kind": "modern_math",
+      "statement": "A={q∈Q:q<0 or q²<2} is a Dedekind cut representing sqrt2",
+      "source_ids": [
+        "H162"
+      ],
+      "locator": "independent checking of partition and downward closure, no max",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C28-05",
+      "kind": "modern_math",
+      "statement": "No rational q satisfies q²=2; hence sqrt2 cut has no rational boundary point",
+      "source_ids": [],
+      "locator": "classical parity proof and ordering of rationals",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C28-06",
+      "kind": "history_foundation",
+      "statement": "Dedekind needs assumptions on sets of rationals and all cuts; not ex nihilo proof without premises",
+      "source_ids": [
+        "H162"
+      ],
+      "locator": "OUP structuralism account explicit proviso",
+      "verification": "ACADEMIC_CHECKED"
+    },
+    {
+      "id": "C28-07",
+      "kind": "history_1872",
+      "statement": "Cantor 1872 Über die Ausdehnung eines Satzes ... in trigonometrical series research used fundamental rational sequences",
+      "source_ids": [
+        "H165",
+        "H166",
+        "H167"
+      ],
+      "locator": "Springer volume and historical original analysis",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C28-08",
+      "kind": "history_context",
+      "statement": "Cantor's interest in trigonometric series uniqueness related to Heine 1870 and 1872 set/real number development",
+      "source_ids": [
+        "H167",
+        "H154"
+      ],
+      "locator": "MAA historiography and SEP",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C28-09",
+      "kind": "modern_math",
+      "statement": "Decimal rational approximants 1,1.4,1.41,… form a Cauchy sequence over Q but have no limit in Q",
+      "source_ids": [],
+      "locator": "truncation bounds and irrationality sqrt2",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C28-10",
+      "kind": "modern_construction",
+      "statement": "Modern real Cauchy sequence construction identifies two rational Cauchy sequences when difference→0",
+      "source_ids": [
+        "H166",
+        "H162"
+      ],
+      "locator": "present-day equivalent-class language, NOT direct 1872 wording",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C28-11",
+      "kind": "historiography",
+      "statement": "Cantor1872 original does not explicitly implement today standard Cauchy equivalence classes nor full proof in present-day notation",
+      "source_ids": [
+        "H166"
+      ],
+      "locator": "Deiser original-facsimile historical comments",
+      "verification": "HISTORICAL_BOUNDARY"
+    },
+    {
+      "id": "C28-12",
+      "kind": "math_foundation",
+      "statement": "Dedekind cuts and Cauchy-sequence equivalence classes yield isomorphic complete ordered fields",
+      "source_ids": [
+        "H162",
+        "H165"
+      ],
+      "locator": "standard modern real construction theorem",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C28-13",
+      "kind": "chapter_bridge",
+      "statement": "Real completeness validates earlier limits; continuity alone will not guarantee differentiability; next chapter pathology",
+      "source_ids": [
+        "H160",
+        "H162",
+        "H161"
+      ],
+      "locator": "foundation link and future chapter narrative boundary",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "Dedekind 1858教学中形成思想与1872出版严格分开。",
+    "Cantor1872基本列来源于三角级数研究，不能称当年完成其后全部集合论。",
+    "现代柯西列等价类及切割标准化符号是教学重述，不能强加给1872原稿。",
+    "戴德金构造依靠有理数集合和分割整体等前提。",
+    "本批仍未获得全书正式draft gate与独立双审。"
+  ]
 }

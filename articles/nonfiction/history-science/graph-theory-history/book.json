@@ -2,140 +2,140 @@
   "schema_version": 1,
   "id": "graph-theory-history",
   "title": "连接的秩序：图论三百年",
-  "reading_notice": "图论全书处于策划阶段，全部章节均为编辑占位；原 chapters.json 保留研究细目，book.json 负责阅读映射。",
+  "reading_notice": "序章及01—18章为非虚构初稿，19—37章仍为规划占位；全书未通过独立审稿或终稿批准。",
   "chapters": [
     {
       "id": "prologue",
       "title": "序章｜七座桥，为什么没有一条路能走通",
       "part": "序章",
       "file": "draft/00.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-01",
       "title": "01｜七座桥：欧拉把城市删成点与线",
       "part": "第一部｜点与线的诞生",
       "file": "draft/01.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-02",
       "title": "02｜多面体为什么总是剩下一个2",
       "part": "第一部｜点与线的诞生",
       "file": "draft/02.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-03",
       "title": "03｜电流找到了图论中的第一片森林",
       "part": "第一部｜点与线的诞生",
       "file": "draft/03.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-04",
       "title": "04｜走遍每座城市，与走遍每座桥有什么不同",
       "part": "第一部｜点与线的诞生",
       "file": "draft/04.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-05",
       "title": "05｜一棵树，为什么有 n 的 n−2 次方种长法",
       "part": "第一部｜点与线的诞生",
       "file": "draft/05.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-06",
       "title": "06｜四色猜想：给一张地图上色怎么如此困难",
       "part": "第二部｜颜色的战争",
       "file": "draft/06.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-07",
       "title": "07｜一份被相信十一年的证明",
       "part": "第二部｜颜色的战争",
       "file": "draft/07.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-08",
       "title": "08｜颜色被写成了多项式",
       "part": "第二部｜颜色的战争",
       "file": "draft/08.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-09",
       "title": "09｜两张画不平的图，拦住了整个世界",
       "part": "第二部｜颜色的战争",
       "file": "draft/09.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-10",
       "title": "10｜四色定理：当证明开始依赖计算机",
       "part": "第二部｜颜色的战争",
       "file": "draft/10.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-11",
       "title": "11｜切断一张网，到底需要多少刀",
       "part": "第三部｜连接与分配",
       "file": "draft/11.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-12",
       "title": "12｜工人与岗位：为什么二分图如此特殊",
       "part": "第三部｜连接与分配",
       "file": "draft/12.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-13",
       "title": "13｜婚姻定理：每个人都能分到不同的选择吗",
       "part": "第三部｜连接与分配",
       "file": "draft/13.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-14",
       "title": "14｜图论终于拥有自己的教科书",
       "part": "第三部｜连接与分配",
       "file": "draft/14.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-15",
       "title": "15｜奇数个顶点，为什么阻挡完美匹配",
       "part": "第三部｜连接与分配",
       "file": "draft/15.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-16",
       "title": "16｜六个人里为何躲不开某种关系",
       "part": "第四部｜混乱中的必然",
       "file": "draft/16.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-17",
       "title": "17｜没有三角形的网络，最多能有多少条边",
       "part": "第四部｜混乱中的必然",
       "file": "draft/17.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-18",
       "title": "18｜证明存在，却拿不出一个例子",
       "part": "第四部｜混乱中的必然",
       "file": "draft/18.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-19",

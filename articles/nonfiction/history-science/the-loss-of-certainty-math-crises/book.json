@@ -176,21 +176,21 @@
       "title": "24｜图灵：不存在的万能判题机器",
       "part": "第六部 证明的边界",
       "file": "draft/24.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-25",
       "title": "25｜四色定理：当机器成为证明者",
       "part": "第六部 证明的边界",
       "file": "draft/25.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "epilogue",
       "title": "尾声｜今天，我们为什么仍然相信数学",
       "part": "第六部 证明的边界",
       "file": "draft/26.md",
-      "status": "outline"
+      "status": "draft"
     }
   ]
 }

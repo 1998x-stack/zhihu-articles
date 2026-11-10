@@ -1,0 +1,17 @@
+{
+  "schema_version": "2.0",
+  "lane": "nonfiction",
+  "current_revision": 0,
+  "outline_approved": true,
+  "evidence_verified": true,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
+  "unresolved_blockers": [],
+  "edited_revision": null,
+  "final_approved": false,
+  "stage_note": "第六批16—18章节13项来源DL77—DL89、24条主张限域核验和分章细纲完成，可进入nonfiction-writer；独立事实结构审稿仍PENDING",
+  "evidence_scope": "仅第01—18章分批核对中心史实/论文PDF/教学算例；第19—31章及序章00仍无工作稿核查许可",
+  "outline_scope": "限01—18章已按来源约束细纲，19—31及序章00仍在策划",
+  "draft_scope": "01—15共15篇非虚构工作初稿；序章00和16—31章共17篇仍为策划占位",
+  "last_completed_working_draft_chapter": 15
+}

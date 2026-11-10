@@ -1,0 +1,248 @@
+{
+  "chapter": "27",
+  "chapter_batch": "25-27",
+  "lane": "nonfiction",
+  "revision": 24,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Official historical archives, 1944 treaty and proposal texts, 1971 speech and telegram, IMF and Fed historical source publications crosschecked. Original central-bank series and all primary contracts not independently publication-audited.",
+  "claims": [
+    {
+      "claim_id": "CH27-001",
+      "statement": "1982年8月墨西哥提出无法足额支付外债并请求三个月本金延期",
+      "source_ids": [
+        "F-2701"
+      ],
+      "classification": "sovereign_debt_event",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是永久拒还全部外债"
+    },
+    {
+      "claim_id": "CH27-002",
+      "statement": "墨西哥1982外债规模约800亿美元",
+      "source_ids": [
+        "F-2702"
+      ],
+      "classification": "historic_magnitude",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是全部债务同月到期"
+    },
+    {
+      "claim_id": "CH27-003",
+      "statement": "1974主要石油出口国经常项目顺差约680亿美元",
+      "source_ids": [
+        "F-2703"
+      ],
+      "classification": "macro_historical_data",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "合计经常账户顺差非某银行存款额"
+    },
+    {
+      "claim_id": "CH27-004",
+      "statement": "石油美元回流是油款盈余经银行和国际金融市场变成跨境贷款",
+      "source_ids": [
+        "F-2703",
+        "F-2704"
+      ],
+      "classification": "financial_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是独立于美元的新石油币"
+    },
+    {
+      "claim_id": "CH27-005",
+      "statement": "银行持石油美元存款并贷出美元贷款是不同资产负债关系",
+      "source_ids": [
+        "F-2704"
+      ],
+      "classification": "pedagogical_balance_sheet",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "100存款80贷款为虚构示例"
+    },
+    {
+      "claim_id": "CH27-006",
+      "statement": "IMF Oil Facility于1974建立并1974至76支持45发展中国家约24亿美元",
+      "source_ids": [
+        "F-2703"
+      ],
+      "classification": "official_financing_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "与商业银行浮息合同不同"
+    },
+    {
+      "claim_id": "CH27-007",
+      "statement": "石油美元回流包含私人/官方路径且非全部美元贷款的唯一来源",
+      "source_ids": [
+        "F-2703",
+        "F-2704"
+      ],
+      "classification": "causal_boundary",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "并非某份秘密协议创造全部美元"
+    },
+    {
+      "claim_id": "CH27-008",
+      "statement": "墨西哥1970年代石油收入预期助长大额外债和公共支出",
+      "source_ids": [
+        "F-2705"
+      ],
+      "classification": "macro_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "本国财政、汇率资本流动也是原因"
+    },
+    {
+      "claim_id": "CH27-009",
+      "statement": "墨西哥1982危机涉及汇率高估、财政扩张和资本外逃",
+      "source_ids": [
+        "F-2701",
+        "F-2705"
+      ],
+      "classification": "competing_causal_explanations",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不可归因于油价单因"
+    },
+    {
+      "claim_id": "CH27-010",
+      "statement": "国际银行部分美元贷款以LIBOR为基准浮动调整利息",
+      "source_ids": [
+        "F-2704"
+      ],
+      "classification": "contractual_risk_structure",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "美元同业报价和联邦基金利率非一个指标"
+    },
+    {
+      "claim_id": "CH27-011",
+      "statement": "浮息本金不变市场利率上升可增加实际美元债息支出",
+      "source_ids": [
+        "F-2704"
+      ],
+      "classification": "pedagogical_arithmetic",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "1亿美元与5%和12%是虚构例子"
+    },
+    {
+      "claim_id": "CH27-012",
+      "statement": "1979-10-06Volcker宣布美国准备金/货币操作转向",
+      "source_ids": [
+        "F-2706"
+      ],
+      "classification": "central_bank_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于当日所有银行贷款同步涨息"
+    },
+    {
+      "claim_id": "CH27-013",
+      "statement": "美国联邦基金率1981年一度约19%",
+      "source_ids": [
+        "F-2707"
+      ],
+      "classification": "historic_rate_fact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是墨西哥贷款合约LIBOR"
+    },
+    {
+      "claim_id": "CH27-014",
+      "statement": "美国通胀紧缩与世界衰退使借款国出口和融资能力受影响",
+      "source_ids": [
+        "F-2702",
+        "F-2708"
+      ],
+      "classification": "multicausal_risk",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "需区分内外条件"
+    },
+    {
+      "claim_id": "CH27-015",
+      "statement": "墨西哥、巴西、阿根廷面对相同全球冲击而债务结构不同",
+      "source_ids": [
+        "F-2702",
+        "F-2708"
+      ],
+      "classification": "comparative_caveat",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非拉美国家全体同月违约"
+    },
+    {
+      "claim_id": "CH27-016",
+      "statement": "1983墨西哥重组约190亿本金、50亿同业展期、50亿新增中期贷款",
+      "source_ids": [
+        "F-2709"
+      ],
+      "classification": "debt_restructuring_terms",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "三项性质不同，不能总当现金赠款"
+    },
+    {
+      "claim_id": "CH27-017",
+      "statement": "国际重组需要协调500多家银行的参与与搭便车问题",
+      "source_ids": [
+        "F-2709"
+      ],
+      "classification": "creditor_collective_action",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "关键比例参与条款需原始文本核查"
+    },
+    {
+      "claim_id": "CH27-018",
+      "statement": "1985贝克计划侧重改革及新增融资未普遍削减存量本金",
+      "source_ids": [
+        "F-2710"
+      ],
+      "classification": "policy_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是1982即有Brady减债"
+    },
+    {
+      "claim_id": "CH27-019",
+      "statement": "1989Brady计划更重本金削减和新债券/担保结构",
+      "source_ids": [
+        "F-2711"
+      ],
+      "classification": "policy_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是全部债务无条件减免"
+    },
+    {
+      "claim_id": "CH27-020",
+      "statement": "Brady债券可利用美国国债等抵押信用增强",
+      "source_ids": [
+        "F-2711"
+      ],
+      "classification": "financial_instrument",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "具体各国条件不同"
+    },
+    {
+      "claim_id": "CH27-021",
+      "statement": "拉美1980年代长期增长损失及社会成本分配不均",
+      "source_ids": [
+        "F-2708",
+        "F-2712"
+      ],
+      "classification": "development_effect",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能认为所有国家同时完全同样崩溃"
+    },
+    {
+      "claim_id": "CH27-022",
+      "statement": "石油美元回流解决资金今天的去向不保证未来偿付日期资金充足",
+      "source_ids": [
+        "F-2703",
+        "F-2704"
+      ],
+      "classification": "author_explanatory_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "因果框架非统计回归证明"
+    },
+    {
+      "claim_id": "CH27-023",
+      "statement": "国际美元债务可在美国境外银行账簿创造和转手",
+      "source_ids": [
+        "F-2704"
+      ],
+      "classification": "cross_chapter_bridge",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "第28章需要独立核对离岸美元网络史"
+    }
+  ]
+}

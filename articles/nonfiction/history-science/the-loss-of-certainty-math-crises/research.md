@@ -889,3 +889,110 @@
 **核算与红线**：素数幂编码用第i个素数的正指数(a_i+1)以免丢失尾部零，唯一分解可逆；Gödel句是关于“证明存在”的数学句，不是自然语言“本句为假”；1931原版ω-一致性与1936罗瑟一般一致性的区别必须明说；1930逻辑语义完备与1931公理理论不完备是不同“完备”；一致性定理只限满足条件的有效公理化算术理论，不论证“任何人类知识都不可靠”。
 
 **本批许可交付**：第21—23章完整初稿、claim映射、目录与写作版本递增；独立双审、线编辑、终稿及发布仍未完成。
+
+
+## 第24章专项证据矩阵｜图灵、丘奇与一般判定问题（新增）
+
+> 资料分层：期刊原始论文及出版元数据支持篇名、时间、构造与研究主题；SEP支持史学叙述与理论边界；现代停机证明、例子与公式是作者独立整理的现代教学重述。**这部分核证不等于全书终稿审校。**
+
+### 可追溯来源
+
+- **R24-TURING-1937**：A. M. Turing, “On Computable Numbers, with an Application to the Entscheidungsproblem”, *Proceedings of the London Mathematical Society*, ser. 2, vol. 42 (1937), pp. 230–265, DOI https://doi.org/10.1112/plms/s2-42.1.230 。期刊显示“Received 28 May 1936”；按1937期刊卷次引文，不将投稿、宣读和卷次混成一个日期。
+- **R24-SEP-TURING**：*Stanford Encyclopedia of Philosophy*, “Turing Machines” (rev. 2025-05-21), https://plato.stanford.edu/entries/turing-machine/ 。支持有限状态、纸带、规则表、通用机器、可计算实数、circle-free、CIRC?/PRINT?、原始判定问题及现代HALT?之间的异同。
+- **R24-SEP-ENTSCHEIDUNG**：*Stanford Encyclopedia of Philosophy*, “The Church-Turing Thesis: The Rise and Fall of the Entscheidungsproblem”, https://plato.stanford.edu/entries/church-turing/decision-problem.html 。Hilbert & Ackermann 1928的普遍有效式/可满足性表述；一阶逻辑的证明可判定性版本与哥德尔逻辑完备性的联系；丘奇和图灵各自的1936年不可判定结果。
+- **R24-SEP-THESIS**：*Stanford Encyclopedia of Philosophy*, “The Church-Turing Thesis”, https://plato.stanford.edu/entries/church-turing/ 。论题连接非形式直觉的“有效方法”和形式机器计算；历史版本与后来的强化版本不可混写。
+- **R24-SEP-COMPUTABILITY**：*Stanford Encyclopedia of Philosophy*, “Computability and Complexity”, https://plato.stanford.edu/entries/computability/ 。通用机、停机性、可计算函数与算法边界的现代解释。
+- **R24-SEP-CHURCH**：*Stanford Encyclopedia of Philosophy*, “Alonzo Church”, https://plato.stanford.edu/entries/church/ 。丘奇与图灵独立工作、$\lambda$ 演算与递归性、波斯特同时期的贡献。
+- **R24-LOGCOM-HISTORY**：Joel David Hamkins and Theodor Nenu, *Journal of Logic and Computation*, 36(1) (January 2026), “Did Turing prove the undecidability of the halting problem?”, DOI https://doi.org/10.1093/logcom/exaf075 。专门提示将图灵1936年circle-free原始任务等同于现代HALT?并不准确。作者应避免声称论文中已逐字呈现现代停机问题的标准证法。
+- **R24-MODERN-MATH**：本章自拟教学演示与严格推理。有限真值表可处理命题逻辑；一元编码111→1111；$H(P,x)$停机性总判定器假设与$D(D)$反证；一阶有效性可由标准演绎系统枚举证明但不存在全部输入停机的判定算法。现代例子不冒充图灵原论文细节。
+
+### 主要主张逐项核对
+
+| Claim | 主张 | 主要来源 | 核证/边界 |
+|---|---|---|---|
+| H24-01 | Hilbert—Ackermann 1928对一阶判定问题的有效性/可满足性提问 | R24-SEP-ENTSCHEIDUNG | 已核；不得扩展为“所有数学命题”同一问题 |
+| H24-02 | 命题逻辑真值表给出总判定；一阶一般问题不同 | R24-MODERN-MATH; R24-SEP-ENTSCHEIDUNG | 数学已核，限定经典逻辑 |
+| H24-03 | 有效性与可证明性的对应使用一阶逻辑完备性 | R24-SEP-ENTSCHEIDUNG | 已核，不能混成算术理论句子完备性 |
+| H24-04 | Turing论文1936年收稿、期刊卷次通常标1937年 | R24-TURING-1937 | 出版元数据已核 |
+| H24-05 | 抽象机器有限状态、有限字母表、带/头及有限规则 | R24-TURING-1937; R24-SEP-TURING | 已核；现代课堂简化记法 |
+| H24-06 | 机器规则可编码为数据，通用机器可模拟不同机器 | R24-TURING-1937; R24-SEP-TURING | 已核，非实体电脑制造史 |
+| H24-07 | 长时间未停机不等于能证实永不停止 | R24-MODERN-MATH | 已核；搜索与总判定需区分 |
+| H24-08 | 现代HALT?对角反证H→D→D(D) | R24-MODERN-MATH; R24-SEP-TURING | 已核；明示是现代重述 |
+| H24-09 | 1936原始circle-free/CIRC?/PRINT?与现代HALT?不等同 | R24-SEP-TURING; R24-LOGCOM-HISTORY | 已核；circle-free≠简单“停机” |
+| H24-10 | 原始计算不可判定性应用于一阶逻辑判定问题 | R24-TURING-1937; R24-SEP-ENTSCHEIDUNG | 已核；避免省略归约方向 |
+| H24-11 | 丘奇1936独立得出一般判定问题的否定结果 | R24-SEP-CHURCH; R24-SEP-ENTSCHEIDUNG | 已核，非图灵唯一贡献 |
+| H24-12 | $\lambda$ 演算、递归函数与图灵可计算相关形式类等价 | R24-SEP-CHURCH; R24-SEP-THESIS | 已核，形式等价不等于论题已被证明 |
+| H24-13 | 丘奇—图灵论题连接直观有效算法与形式可计算性 | R24-SEP-THESIS | 已核；不扩大到思维或所有物理理论 |
+| H24-14 | 一阶有效式可枚举，但一般有效性不可判定 | R24-SEP-ENTSCHEIDUNG; R24-MODERN-MATH | 已核，须保留“经典一阶逻辑一般问题”限定 |
+| H24-15 | 可判定性与可计算难度、具体程序验证并不相同 | R24-SEP-COMPUTABILITY; R24-MODERN-MATH | 已核，避免所有实例不可判断的误读 |
+| H24-16 | 从图灵到第25章机器辅助证明是本书编辑性衔接 | outline.md; story-bible.md | 编排解释，不冒充历史单线因果 |
+
+**写作红线**：不要写成“图灵1936年已经给出现代HALT?的逐字反证”；不要把circle-free译成普通死循环；不要把1931哥德尔不完备定理自动等同1936判定问题的解决；不要把有效计算的历史论题包装成关于所有物理装置或人类思维的普遍定理。
+
+
+## 第25章专项证据矩阵｜四色定理、计算机辅助证明与机器核查
+
+> 研究时点：2026-11-06。史实限于以下可核查研究与参与者材料；数学推导属于作者现代教学复述，不冒充1976年论文原始表述。不同版本的可约构型数量不尽相同，避免没有限定地使用单一精确数值。
+
+### 可核查来源
+
+- **R25-AMS-WILSON**：Robin Wilson, “The Four Color Theorem”, *Notices of the American Mathematical Society* (2023), https://doi.org/10.1090/noti2781 。详述1852 Guthrie、1879 Kempe、1890 Heawood、Heesch、1976宣布/1977论文、数学界反应及1990年代改进。
+- **R25-GATECH-THOMAS**：Neil Robertson、Daniel Sanders、Paul Seymour、Robin Thomas，“The Four Color Theorem”, https://thomas.math.gatech.edu/FC/fourcolor.html 。研究团队自述，涵盖共边邻接、633个可约构型、不可避免集、放电法、形式证明与实际计算核验的差别。
+- **R25-1997-JCTB**：Robertson, Sanders, Seymour, Thomas，“The Four-Colour Theorem”, *Journal of Combinatorial Theory, Series B*, DOI https://doi.org/10.1006/jctb.1997.1750 。计算机辅助的改进证明。
+- **R25-1977-ORIGINAL**：Appel & Haken，“Every planar map is four colorable. Part I. Discharging”, *Illinois Journal of Mathematics* 21 (1977), 429–490; Appel, Haken & John Koch，“Part II. Reducibility”, 同刊21 (1977), 491–567。书目信息见 R25-GATECH-THOMAS 的参考文献。
+- **R25-CORNELL-GONTHIER**：Georges Gonthier，“Verifying the Four Colour Theorem”, Cornell Nuprl, 2004–2005, https://nuprl-web.cs.cornell.edu/KB/show.php?ID=627 。介绍 Coq 机器核查、形式规范、检查器与实际计算之间的不同。
+- **R25-GONTHIER-2008**：Georges Gonthier，“Formal Proof—The Four-Color Theorem”, *Notices of the AMS* 55(11) (2008), 1382–1393, https://www.ams.org/notices/200811/tx081101382p.pdf 。作者回顾说明2005年完成全面形式化核查，2008年发表文章；与部分二手资料说“2004年左右”存在表述差别，以作者自述为准。
+- **R25-MACTUTOR**：MacTutor，“The four colour theorem”, https://mathshistory.st-andrews.ac.uk/HistTopics/The_four_colour_theorem/ 。Guthrie、Kempe、Heawood、Heesch及五色定理史。
+- **R25-MODERN-EULER**：作者独立数学演算。对V≥3的简单连通平面三角剖分，Euler关系 V−E+F=2，三角面满足3F=2E，故E=3V−6；握手引理给出∑(6−deg(v))=12，至少有一顶点度数不超过5。该恒等式不是四色定理完整证明；放电法需另设严格转移规则及局部构型验证。
+
+### 逐条主张与证据
+
+| Claim | 主张 | 来源 | 边界 |
+|---|---|---|---|
+| H25-01 | 四色定理适用于共边地图/无自环有限平面图顶点染色 | R25-GATECH-THOMAS | 共点不计邻接 |
+| H25-02 | Guthrie于1852年提出猜想，由兄长转问德摩根 | R25-GATECH-THOMAS;R25-MACTUTOR | 不虚构个人情境 |
+| H25-03 | Kempe 1879错误证明，Heawood 1890指出漏洞 | R25-AMS-WILSON;R25-GATECH-THOMAS | 推翻的是证明而非命题 |
+| H25-04 | Heawood给出五色定理，四色仍待证明 | R25-MACTUTOR | 五色与四色区分 |
+| H25-05 | Euler与握手引理给出平面三角剖分低度顶点 | R25-MODERN-EULER | 现代演示 |
+| H25-06 | 最小反例、不可避免集与可约构型的反证框架 | R25-GATECH-THOMAS;R25-AMS-WILSON | 非仅依靠Euler公式 |
+| H25-07 | 放电法守恒总电荷并推出某种局部构型必出现 | R25-GATECH-THOMAS;R25-MODERN-EULER | 必须验证具体分配规则 |
+| H25-08 | Heesch等人推动可约与放电方法 | R25-GATECH-THOMAS;R25-AMS-WILSON | 多人贡献 |
+| H25-09 | Appel-Haken 1976宣布，1977两部分论文与Koch贡献 | R25-AMS-WILSON;R25-1977-ORIGINAL | 宣布/发表不同 |
+| H25-10 | 计算机验证有限但庞大的配置，非穷举所有地图 | R25-AMS-WILSON;R25-GATECH-THOMAS | 逻辑框架先于枚举 |
+| H25-11 | 原证明在预印、刊行及后来整理中配置数量不同 | R25-AMS-WILSON;R25-GATECH-THOMAS | 避免单一固定数字 |
+| H25-12 | Robertson等人633构型改进仍使用计算机 | R25-GATECH-THOMAS;R25-1997-JCTB | 非纯手算 |
+| H25-13 | Gonthier 2005完成Coq形式验证并在2008年阐述 | R25-GONTHIER-2008;R25-CORNELL-GONTHIER | 不等于全部数学形式化 |
+| H25-14 | 形式证明仍需检查陈述/核查程序等信任链 | R25-GONTHIER-2008;R25-GATECH-THOMAS | 不保证无条件绝对安全 |
+| H25-15 | 图灵不可判定性不排斥具体有限计算核查 | draft/24.md;R25-GATECH-THOMAS | 概念衔接非单线史学 |
+| H25-16 | 全书收束于可公开前提、可核查证据及边界 | outline.md;story-bible.md | 编辑性主题阐释 |
+
+## 尾声专项来源与框架核查
+
+> 尾声主要综合已研究的全书25章；不再编造新史事。“三次危机”与“七次思想革命”为本书的编辑结构，不是数学史学界共同认可的历史事件计数。
+
+- **RE26-STRUCTURE**：既有 brief.md、outline.md、story-bible.md。六部25章、三危机七变革与阅读承诺。
+- **RE26-ANCIENT**：第01—05章与相应 H01—H05 历史证据；不可公度与古典量理论，芝诺/级数现代解释，穷竭思想。
+- **RE26-CALCULUS**：第06—09章与 H06—H09：微积分发展、伯克利1734年批评、19世纪分析严密化；避免“原来微积分完全错误”。
+- **RE26-GEOMETRY**：第10—13章与 H10—H13：公设、非欧几何与模型，不宣称欧几里得几何被全面废除。
+- **RE26-INFINITY**：第14—16章与 H14—H16：无穷基数与CH在ZFC中的相对独立性，不把独立、悖论混淆。
+- **RE26-FOUNDATION**：第17—21章与 H17—H21：罗素—弗雷格1902年通信、策梅洛规则及后续体系，不能称已给出公理的绝对一致性证明。
+- **RE26-PROOFS**：第22—25章与 H22—H25：希尔伯特、哥德尔、丘奇—图灵、机器证明；限制的对象各不相同。
+- **RE26-INTERPRETATION**：作者解释性归纳“明确前提、可核查推理、诚实陈述适用边界”，不是历史人物共同提出的口号。
+- **RE26-PROLOGUE-STATE**：draft/00.md 目前仍是序章占位；尾声可呼应序章所设1902年通信钩子，但不可宣称序章已形成正式全文或全书已经终稿批准。
+
+尾声禁写：不宣布“第四次危机必然发生”；不宣称所有形式系统都可从内部证明绝对安全；纯数学证明与经验模型评价不可混同；保留阅读价值同时避免绝对化。
+
+
+### 尾声 E26 主张映射
+
+| Claim | 核验与解释对象 | 证据 |
+|---|---|---|
+| E26-01 | 三次危机七次变革不是学界定数 | RE26-STRUCTURE |
+| E26-02 | 古希腊不可公度与比例、芝诺论证 | RE26-ANCIENT |
+| E26-03 | 微积分演进与分析严密化 | RE26-CALCULUS |
+| E26-04 | 公理、模型与多种几何 | RE26-GEOMETRY |
+| E26-05 | 无穷基数与连续统假设独立性的限制 | RE26-INFINITY |
+| E26-06 | 罗素悖论与集合公理化制度 | RE26-FOUNDATION |
+| E26-07 | 形式证明、不完备、判定与机器核查之分 | RE26-PROOFS |
+| E26-08 | 明确前提、可复核推理与边界意识是作者归纳 | RE26-INTERPRETATION |
+| E26-09 | 当前序章仍是占位、未完成终稿封版 | RE26-PROLOGUE-STATE |

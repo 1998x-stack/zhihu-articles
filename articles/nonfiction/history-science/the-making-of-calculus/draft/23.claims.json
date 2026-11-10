@@ -1,23 +1,144 @@
 {
   "chapter": "23",
-  "status": "PENDING",
+  "title": "玻尔查诺：连续为什么能够保证中间值",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H131",
+    "H132",
+    "H133",
+    "H134",
+    "H135",
+    "H138"
+  ],
   "claims": [
     {
       "id": "C23-01",
-      "statement": "画一条线为何不是严格证明",
-      "source_candidates": [
-        "H05"
+      "kind": "history_bibliography",
+      "statement": "Bolzano 1817 publication Rein analytischer Beweis, Prague, title concerns roots between opposite signs",
+      "source_ids": [
+        "H131",
+        "H132"
       ],
-      "verification": "PENDING"
+      "locator": "SEP original bibliography + Russ abstract",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C23-02",
-      "statement": "连续性与中间值命题",
-      "source_candidates": [
-        "H05"
+      "kind": "historiography",
+      "statement": "Bolzano sought purely analytical grounding, objected to using geometrical intuition as a premise",
+      "source_ids": [
+        "H134",
+        "H131"
       ],
-      "verification": "PENDING"
+      "locator": "Rusnock 2022 abstract & SEP",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C23-03",
+      "kind": "history_concept",
+      "statement": "Bolzano 1817 developed significant continuity and series convergence notions",
+      "source_ids": [
+        "H132",
+        "H135"
+      ],
+      "locator": "Russ 1980 abstract, MacTutor",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C23-04",
+      "kind": "history_limitation",
+      "statement": "Bolzano 1817 does not automatically count as full modern axiomatic real continuum; scholarly evaluation nuanced",
+      "source_ids": [
+        "H133",
+        "H132"
+      ],
+      "locator": "2026 open-access full text vs 1980 abstract",
+      "verification": "CONTESTED_QUALIFIED"
+    },
+    {
+      "id": "C23-05",
+      "kind": "math_example",
+      "statement": "x³+x-1 on [0,1] continuous with endpoint values -1 and 1",
+      "source_ids": [],
+      "locator": "polynomial continuity and direct endpoint substitutions",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C23-06",
+      "kind": "math_example",
+      "statement": "Four bisections leave [5/8,11/16], signs -67/512 and 51/4096",
+      "source_ids": [],
+      "locator": "exact fractions from binomial arithmetic",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C23-07",
+      "kind": "math_proof",
+      "statement": "Nested real closed intervals length (b-a)/2^n imply unique point via real completeness",
+      "source_ids": [
+        "H133"
+      ],
+      "locator": "modern nested interval theorem; open-access 2026 foundation discussion",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C23-08",
+      "kind": "math_proof",
+      "statement": "Continuous f and retained endpoint signs imply f(c)=0",
+      "source_ids": [],
+      "locator": "continuity on nested endpoints and squeeze argument",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C23-09",
+      "kind": "math_counterexample",
+      "statement": "Rational domain q²-2 has negative value at 1 positive at 2 no rational root",
+      "source_ids": [],
+      "locator": "irrationality of sqrt(2); relative continuity of polynomial",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C23-10",
+      "kind": "history_influence",
+      "statement": "Bolzano publication chronology does not demonstrate direct borrowing by Cauchy; limited circulation",
+      "source_ids": [
+        "H135",
+        "H131"
+      ],
+      "locator": "MacTutor biography and SEP",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C23-11",
+      "kind": "historiography",
+      "statement": "Mathematical rigor grows through clarifying assumptions rather than single author finishing it",
+      "source_ids": [
+        "H133",
+        "H134",
+        "H132"
+      ],
+      "locator": "academic synthesis with contested foundation boundary",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C23-12",
+      "kind": "chapter_bridge",
+      "statement": "Questions of continuity and real completeness lead to Cauchy 1821 and later real number constructions",
+      "source_ids": [
+        "H131",
+        "H138",
+        "H133"
+      ],
+      "locator": "dated chronology and editorial bridge",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "玻尔查诺1817中间值证明与现代实数完备性不同，2026学术文献对此讨论。",
+    "不以1817→1821出版先后宣称Bolzano向Cauchy直接传授。",
+    "二分法、实数闭区间套及有理数域反例为现代重构。",
+    "早期原版完整论证页码与德文引理仍待逐页补核。",
+    "正式draft gate和独立双审仍未通过。"
+  ]
 }

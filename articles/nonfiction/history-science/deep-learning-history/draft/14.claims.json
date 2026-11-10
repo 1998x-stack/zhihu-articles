@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "14",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "only this chapter, limited primary-source review and didactic derivations",
+  "claims": [
+    {
+      "claim_id": "C14-01",
+      "claim": "2002 Hinton对比散度概率训练论文",
+      "source_ids": [
+        "DL69"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "CD近似学习不等于精确全似然",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C14-02",
+      "claim": "2006 Hinton/Osindero/Teh DBN论文作者年份页码",
+      "source_ids": [
+        "DL68"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "上两层无向、下层有向生成架构",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C14-03",
+      "claim": "2006 DBN逐层无监督预训练及生成微调",
+      "source_ids": [
+        "DL68"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "原论文微调用对比式wake-sleep而非一概监督BP",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C14-04",
+      "claim": "2006 Hinton/Salakhutdinov深自编码器预训练与BP微调",
+      "source_ids": [
+        "DL70"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不同于DBN原文生成微调",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C14-05",
+      "claim": "2006 Bengio/Lamblin/Popovici/Larochelle分层训练研究",
+      "source_ids": [
+        "DL71"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "会议年份与论文集出版标签可能不同",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C14-06",
+      "claim": "2009回顾预训练对优化与隐式正则化的研究",
+      "source_ids": [
+        "DL72"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "INTERPRETATION",
+      "limitations": "后续理解不可写作2006当时定论",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C14-07",
+      "claim": "玩具RBM w=ln3时P(h=1",
+      "source_ids": [
+        "v=0/1)=0.5/0.75"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "AUTHOR_DERIVATION",
+      "limitations": "VERIFIED_DERIVATION",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C14-08",
+      "claim": "2006不是BP首次发明或全面解决深度训练",
+      "source_ids": [
+        "DL68",
+        "DL70",
+        "DL72"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "历史上的部分训练瓶颈改善",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

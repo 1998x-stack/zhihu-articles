@@ -1,0 +1,157 @@
+{
+  "chapter": "09",
+  "status": "RESEARCH_DRAFT",
+  "review_status": "PENDING",
+  "scope": "bounded research evidence only; no independent review, no publication approval",
+  "claims": [
+    {
+      "claim_id": "C09-01",
+      "statement": "汉昭帝始元六年二月询问贤良文学民所疾苦",
+      "source_ids": [
+        "T02"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "纪载为东汉编纂的史传，不是诏书原件",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    },
+    {
+      "claim_id": "C09-02",
+      "statement": "同年七月罢榷酤官，盐铁官营主干未在此次一并废除",
+      "source_ids": [
+        "T02",
+        "T01"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "酒税改由依法占租，不等同卖酒无需税",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    },
+    {
+      "claim_id": "C09-03",
+      "statement": "盐铁会议可能不是会前预设的唯一专题",
+      "source_ids": [
+        "T04",
+        "T02"
+      ],
+      "classification": "DISPUTED",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "杨勇2017年的史料比较观点，不能写作所有学者共识",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    },
+    {
+      "claim_id": "C09-04",
+      "statement": "盐铁论为后出编纂文本，不是逐句录音",
+      "source_ids": [
+        "T01",
+        "T05"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "古书对话带有编者组织与政治取向",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    },
+    {
+      "claim_id": "C09-05",
+      "statement": "贤良文学主张罢盐铁酒榷均输，批评与民争利",
+      "source_ids": [
+        "T01"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "仅证明文本展现此论点，非每个发言者真言",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    },
+    {
+      "claim_id": "C09-06",
+      "statement": "御史大夫一方辩护军政财政与边防支持能力",
+      "source_ids": [
+        "T01"
+      ],
+      "classification": "FACT_TEXT",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "辩护理由来自文本；不证明国家净利",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    },
+    {
+      "claim_id": "C09-07",
+      "statement": "不同专卖和均输平准的成本收益不可合为一项税率",
+      "source_ids": [
+        "T03",
+        "T01"
+      ],
+      "classification": "INTERPRETATION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "分析框架；无汉代全国一致成本收益数据",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    },
+    {
+      "claim_id": "C09-08",
+      "statement": "国库毛收入社会福利和治理成本须分账",
+      "source_ids": [
+        "T03",
+        "T05"
+      ],
+      "classification": "INTERPRETATION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "现代财政分析方法；非古代术语",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    },
+    {
+      "claim_id": "C09-09",
+      "statement": "古代盐铁管理曾有官营和私营纳税两类形式",
+      "source_ids": [
+        "T19"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "跨时期比较，不能直推前81年具体结构",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    },
+    {
+      "claim_id": "C09-10",
+      "statement": "美国国会图书馆古籍记录说明桓宽编纂性质",
+      "source_ids": [
+        "T20"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "馆藏书目证成文本来源，不证成会场发言真实性",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    },
+    {
+      "claim_id": "C09-11",
+      "statement": "近年研究继续以税源培植和财政职能解读会议",
+      "source_ids": [
+        "T06"
+      ],
+      "classification": "FACT_RESEARCH",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "仅期刊摘要，非已阅论文全文",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    },
+    {
+      "claim_id": "C09-12",
+      "statement": "刘守刚支持以国家积极治理与税商视角理解会议",
+      "source_ids": [
+        "B07"
+      ],
+      "classification": "BOOK_POSITION",
+      "source_status": "matched_to_retrieved_source_scope",
+      "limitations": "仅验证书中作者观点",
+      "event_time": "前81年及后出文本",
+      "chapter_file": "draft/part-02-han-treasury/09.md"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "chapter": "34",
+  "chapter_batch": "34-36",
+  "lane": "nonfiction",
+  "revision": 27,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Institutional primary regulations and announcements; official crises reports; central bank and payment-system historical records; selected peer-reviewed literature, with source editions not book-wide publication-verified.",
+  "claims": [
+    {
+      "claim_id": "CH34-001",
+      "statement": "2008-09-16 Reserve Primary Fund净值降至0.97美元，前一日雷曼已申请破产",
+      "source_ids": [
+        "F-3401"
+      ],
+      "classification": "official_event_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "面值变化与全体货币基金损失不同"
+    },
+    {
+      "claim_id": "CH34-002",
+      "statement": "Reserve Primary Fund持有雷曼商业票据约7.85亿美元",
+      "source_ids": [
+        "F-3401"
+      ],
+      "classification": "official_timeline_quantity",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "机构历史回顾，审计持仓与相关口径待查"
+    },
+    {
+      "claim_id": "CH34-003",
+      "statement": "货币基金赎回可能减少企业商业票据的资金供给",
+      "source_ids": [
+        "F-3401",
+        "F-3404"
+      ],
+      "classification": "short_term_funding_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是所有公司均在同日失去融资"
+    },
+    {
+      "claim_id": "CH34-004",
+      "statement": "长期住房抵押贷款能通过发行MBS分配现金流及信用风险",
+      "source_ids": [
+        "F-3402",
+        "F-3403"
+      ],
+      "classification": "securitization_institutional_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "100万元住房与80万元贷款案例为虚构"
+    },
+    {
+      "claim_id": "CH34-005",
+      "statement": "贷款发放者证券安排人评级机构及投资者激励不一致",
+      "source_ids": [
+        "F-3402",
+        "F-3403"
+      ],
+      "classification": "principal_agent_analysis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能因此推断所有参与机构均有违法行为"
+    },
+    {
+      "claim_id": "CH34-006",
+      "statement": "FCIC调查区分住房信贷链、CDO链和影子银行融资",
+      "source_ids": [
+        "F-3403"
+      ],
+      "classification": "inquiry_scope",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "图书馆目录提供范围非逐项实证"
+    },
+    {
+      "claim_id": "CH34-007",
+      "statement": "MBS级别安排可按顺序分配抵押贷款池损失",
+      "source_ids": [
+        "F-3403"
+      ],
+      "classification": "structured_finance_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "虚构1亿元100笔案例非2008产品条款"
+    },
+    {
+      "claim_id": "CH34-008",
+      "statement": "证券分层不能消除基础贷款池全部预期损失",
+      "source_ids": [
+        "F-3403"
+      ],
+      "classification": "causal_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "高级层通常也有残余尾部风险"
+    },
+    {
+      "claim_id": "CH34-009",
+      "statement": "CDO通过再包装将风险暴露继续传递到不同投资者",
+      "source_ids": [
+        "F-3403"
+      ],
+      "classification": "securitization_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同CDO结构不相同，具体产品待查"
+    },
+    {
+      "claim_id": "CH34-010",
+      "statement": "房价上涨及预期影响借款人再融资和贷款标准判断",
+      "source_ids": [
+        "F-3402",
+        "F-3404"
+      ],
+      "classification": "credit_cycle_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不可说所有浮动或次级贷款都违约"
+    },
+    {
+      "claim_id": "CH34-011",
+      "statement": "FCIC多数与少数意见在危机原因排序上不相同",
+      "source_ids": [
+        "F-3402"
+      ],
+      "classification": "competing_interpretations",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "官方多数结论不是统一学术共识"
+    },
+    {
+      "claim_id": "CH34-012",
+      "statement": "已出售房贷的银行仍可能持有证券并对表外工具有支持义务",
+      "source_ids": [
+        "F-3403",
+        "F-3404"
+      ],
+      "classification": "balance_sheet_risk_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "资产出售不等于每项风险都完整留存"
+    },
+    {
+      "claim_id": "CH34-013",
+      "statement": "回购协议和商业票据构成短期批发融资体系",
+      "source_ids": [
+        "F-3404"
+      ],
+      "classification": "institutional_market_structure",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "回购/ABCP/无担保商业票据合约与担保不同"
+    },
+    {
+      "claim_id": "CH34-014",
+      "statement": "资金提供者不展期与提高回购折价能触发被迫抛售",
+      "source_ids": [
+        "F-3404"
+      ],
+      "classification": "repo_run_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非所有融资安排都按相同条款到期"
+    },
+    {
+      "claim_id": "CH34-015",
+      "statement": "2007年住房证券问题已冲击融资和银行资本状况",
+      "source_ids": [
+        "F-3404",
+        "F-3405"
+      ],
+      "classification": "chronological_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能将2008-09雷曼视唯一危机起点"
+    },
+    {
+      "claim_id": "CH34-016",
+      "statement": "贝尔斯登2008-03-14获纽约联储通过JPM融资安排",
+      "source_ids": [
+        "F-3406"
+      ],
+      "classification": "official_institution_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "过桥贷款与之后收购结构有区别"
+    },
+    {
+      "claim_id": "CH34-017",
+      "statement": "2008-09-07房利美房地美由FHFA接管",
+      "source_ids": [
+        "F-3401"
+      ],
+      "classification": "official_event_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "监管接管与政府立即清偿所有房贷不同"
+    },
+    {
+      "claim_id": "CH34-018",
+      "statement": "2008-09-15雷曼兄弟控股公司申请破产保护",
+      "source_ids": [
+        "F-3401"
+      ],
+      "classification": "official_event_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同关联公司破产时间与法律辖区待查"
+    },
+    {
+      "claim_id": "CH34-019",
+      "statement": "2008-09-16 AIG获最高850亿美元联储紧急信贷额度",
+      "source_ids": [
+        "F-3401",
+        "F-3405"
+      ],
+      "classification": "emergency_credit_notice",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "额度不是损失或当日现金支出"
+    },
+    {
+      "claim_id": "CH34-020",
+      "statement": "雷曼破产放大各交易对手信用及结算不确定性",
+      "source_ids": [
+        "F-3401",
+        "F-3405"
+      ],
+      "classification": "systemic_funding_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不归因为雷曼是全部经济衰退的唯一原因"
+    },
+    {
+      "claim_id": "CH34-021",
+      "statement": "2008-10-03 TARP法定初始授权7000亿美元",
+      "source_ids": [
+        "F-3401",
+        "F-3407"
+      ],
+      "classification": "primary_program_authorization",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "法定额度不是财政实际支出"
+    },
+    {
+      "claim_id": "CH34-022",
+      "statement": "2010后TARP法定授权上限减为4750亿美元",
+      "source_ids": [
+        "F-3407"
+      ],
+      "classification": "treasury_historical_finance",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "各项投入、偿还、净损失须单独核"
+    },
+    {
+      "claim_id": "CH34-023",
+      "statement": "TARP与联储紧急借贷及FDIC流动性保证属不同工具",
+      "source_ids": [
+        "F-3401",
+        "F-3407"
+      ],
+      "classification": "policy_instrument_comparison",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不可总额直接相加称净救助成本"
+    },
+    {
+      "claim_id": "CH34-024",
+      "statement": "危机影响就业住房及信贷可得性但个体损失分布不均",
+      "source_ids": [
+        "F-3402"
+      ],
+      "classification": "social_impact_synthesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不得编造真实失房家庭采访"
+    },
+    {
+      "claim_id": "CH34-025",
+      "statement": "金融市场结构、杠杆、监管、信用审批多因素共同作用",
+      "source_ids": [
+        "F-3402",
+        "F-3404"
+      ],
+      "classification": "competing_causal_synthesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是只有证券化、次级借款人或监管任一因素"
+    },
+    {
+      "claim_id": "CH34-026",
+      "statement": "2008银行救助和公共财政压力为欧元区后续危机提供可比机制",
+      "source_ids": [
+        "F-3405",
+        "F-3407"
+      ],
+      "classification": "cross_chapter_bridge",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "欧元主权危机有独立财政与制度历史"
+    }
+  ]
+}

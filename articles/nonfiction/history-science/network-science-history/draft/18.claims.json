@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "18",
+  "claims": [
+    {
+      "claim_id": "NS-18-01",
+      "type": "historical_fact",
+      "statement": "Newman Girvan Finding and Evaluating Community Structure in Networks was published Phys Rev E 69 026113 on Feb 26 2004",
+      "source_ids": [
+        "S72"
+      ],
+      "locator": "APS article metadata",
+      "verification_status": "publisher_verified"
+    },
+    {
+      "claim_id": "NS-18-02",
+      "type": "historical_definition",
+      "statement": "Modularity compares actual within-community edges with configuration-model expected values preserving degree sequence in expectation",
+      "source_ids": [
+        "S72"
+      ],
+      "locator": "2004 paper modularity definition",
+      "verification_status": "primary_source_checked"
+    },
+    {
+      "claim_id": "NS-18-03",
+      "type": "mathematical_definition",
+      "statement": "For undirected unweighted graph with m>0 Q=(1/2m) sum_ij(Aij - ki kj/(2m)) delta(ci,cj)",
+      "source_ids": [
+        "S72"
+      ],
+      "locator": "equivalent standard modularity matrix formulation",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-18-04",
+      "type": "mathematical_definition",
+      "statement": "Same Q equals sum_c(lc/m -(dc/(2m))²) with lc inside edges dc sum of degrees",
+      "source_ids": [
+        "S72"
+      ],
+      "locator": "algebraically equivalent within-group expression",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-18-05",
+      "type": "mathematical_example",
+      "statement": "Two triangles and one cross-edge total m7, all one group Q0, two separate triangles Q5/14",
+      "source_ids": [],
+      "locator": "computed from l=3,d=7 per community",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-18-06",
+      "type": "historical_fact",
+      "statement": "Blondel Guillaume Lambiotte Lefebvre published Fast unfolding of communities in large networks JSTAT P10008 9 October 2008",
+      "source_ids": [
+        "S73"
+      ],
+      "locator": "IOP publisher metadata and journal PDF",
+      "verification_status": "publisher_primary_verified"
+    },
+    {
+      "claim_id": "NS-18-07",
+      "type": "algorithm",
+      "statement": "Louvain alternates locally moving nodes for modularity gain and aggregating communities into weighted supernodes with self-loops",
+      "source_ids": [
+        "S73"
+      ],
+      "locator": "2008 JSTAT methodology Section2",
+      "verification_status": "original_checked"
+    },
+    {
+      "claim_id": "NS-18-08",
+      "type": "historical_data",
+      "statement": "Published 2008 paper describes Belgian mobile network of about two million customers and web graph 118 million nodes with over one billion links",
+      "source_ids": [
+        "S73"
+      ],
+      "locator": "JSTAT version of record abstract; preprint alternative population counts not copied",
+      "verification_status": "primary_version_checked"
+    },
+    {
+      "claim_id": "NS-18-09",
+      "type": "historical_fact",
+      "statement": "Fortunato Barthelemy Resolution limit in community detection was online Dec26 2006, PNAS issue dated Jan2 2007 vol104 pp36-41",
+      "source_ids": [
+        "S74"
+      ],
+      "locator": "PubMed and journal metadata",
+      "verification_status": "publisher_verified"
+    },
+    {
+      "claim_id": "NS-18-10",
+      "type": "mathematical_example",
+      "statement": "Ring of ten disjoint 3-cliques joined into ring by one edge per neighboring pair has m40 and Q0.65 when ten cliques partition, merging one adjacent pair raises Q to .655",
+      "source_ids": [],
+      "locator": "10*3 internal edges +10 cross; independently numerically verified",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-18-11",
+      "type": "mathematical_derivation",
+      "statement": "For ring of K triangles under same construction merging one adjacent pair changes modularity by (K-8)/(4K²), positive K>8",
+      "source_ids": [
+        "S74"
+      ],
+      "locator": "original application of resolution-limit logic, verified for K=8,9,10,12",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-18-12",
+      "type": "historical_correction",
+      "statement": "Traag Waltman van Eck 2019 Scientific Reports demonstrates Louvain can produce poorly connected or disconnected communities and introduces Leiden with connectedness guarantees",
+      "source_ids": [
+        "S75"
+      ],
+      "locator": "2019 Nature publisher abstract and article",
+      "verification_status": "primary_fulltext_checked"
+    },
+    {
+      "claim_id": "NS-18-13",
+      "type": "scope",
+      "statement": "Louvain is heuristic local optimizer not guaranteed global maximum; high modularity does not establish uniquely true identity communities",
+      "source_ids": [
+        "S72",
+        "S73",
+        "S74",
+        "S75"
+      ],
+      "locator": "2008 algorithm and later resolution/connectedness criticism",
+      "verification_status": "qualified_synthesis"
+    }
+  ],
+  "outstanding_checks": [
+    "The book-wide outline_approved/evidence_verified are currently false, so these are sourced research drafts, not approved chapters.",
+    "Independent cross-chapter continuity audit and developmental review still required before line-edit and final approval.",
+    "In formal evidence pass, separately validate original journal page figures and random-network normalization conventions."
+  ]
+}

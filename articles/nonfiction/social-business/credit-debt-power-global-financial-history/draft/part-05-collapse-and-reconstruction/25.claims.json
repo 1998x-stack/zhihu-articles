@@ -1,0 +1,231 @@
+{
+  "chapter": "25",
+  "chapter_batch": "25-27",
+  "lane": "nonfiction",
+  "revision": 24,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Official historical archives, 1944 treaty and proposal texts, 1971 speech and telegram, IMF and Fed historical source publications crosschecked. Original central-bank series and all primary contracts not independently publication-audited.",
+  "claims": [
+    {
+      "claim_id": "CH25-001",
+      "statement": "1944-07-01至22日44国代表在布雷顿森林讨论国际金融体系",
+      "source_ids": [
+        "F-2501"
+      ],
+      "classification": "archive_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "出席代表不等于国家间或殖民地完全平等发言"
+    },
+    {
+      "claim_id": "CH25-002",
+      "statement": "1944会议产生IMF及IBRD协定草案，未在1944年即可实际放贷",
+      "source_ids": [
+        "F-2501",
+        "F-2505"
+      ],
+      "classification": "institutional_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "草案、成立、开业各为独立时间节点"
+    },
+    {
+      "claim_id": "CH25-003",
+      "statement": "1930年代国际汇率和贸易冲突是战后设计背景之一",
+      "source_ids": [
+        "F-2509"
+      ],
+      "classification": "historical_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能把战争因果简化成外汇竞争"
+    },
+    {
+      "claim_id": "CH25-004",
+      "statement": "Keynes国际清算同盟提出bancor作为央行清算账户单位",
+      "source_ids": [
+        "F-2503"
+      ],
+      "classification": "primary_proposal",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "bancor不是所有居民商店流通的金币"
+    },
+    {
+      "claim_id": "CH25-005",
+      "statement": "Keynes清算同盟拟使顺差和逆差国都承担调整责任",
+      "source_ids": [
+        "F-2503",
+        "F-2511"
+      ],
+      "classification": "competing_design",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同版本规定的数额与惩罚规则不完全相同"
+    },
+    {
+      "claim_id": "CH25-006",
+      "statement": "White 1942/43计划以成员份额支持国际稳定基金",
+      "source_ids": [
+        "F-2504"
+      ],
+      "classification": "primary_proposal",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "White方案不等于完全拒绝一切国际单位"
+    },
+    {
+      "claim_id": "CH25-007",
+      "statement": "英美草案1942至44经历多次互相吸收与多边妥协",
+      "source_ids": [
+        "F-2511",
+        "F-2512"
+      ],
+      "classification": "negotiation_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非简单一人赢另一人输"
+    },
+    {
+      "claim_id": "CH25-008",
+      "statement": "美国美元的官方黄金价格每金衡盎司35美元",
+      "source_ids": [
+        "F-2510",
+        "F-2509"
+      ],
+      "classification": "historical_parity",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "主要涉及政府官方兑换制度不是私人无条件兑金"
+    },
+    {
+      "claim_id": "CH25-009",
+      "statement": "1944原Article IV平价可用金或1944-07-01美元金含量表达",
+      "source_ids": [
+        "F-2502"
+      ],
+      "classification": "primary_treaty",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "区别1978之后的新Article IV"
+    },
+    {
+      "claim_id": "CH25-010",
+      "statement": "官方兑换与全球任何私人凭一美元兑金权不同",
+      "source_ids": [
+        "F-2509",
+        "F-2502"
+      ],
+      "classification": "legal_institutional_boundary",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能把官方金窗口当每个私人储户的保险柜"
+    },
+    {
+      "claim_id": "CH25-011",
+      "statement": "1944协定即期汇率通常在平价上下1%的范围",
+      "source_ids": [
+        "F-2502"
+      ],
+      "classification": "primary_treaty",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "具体适用范围需看原第四条第3款"
+    },
+    {
+      "claim_id": "CH25-012",
+      "statement": "发生根本国际收支失衡可按程序改变平价",
+      "source_ids": [
+        "F-2502"
+      ],
+      "classification": "primary_treaty",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非政府可随意无条件贬值"
+    },
+    {
+      "claim_id": "CH25-013",
+      "statement": "IMF通过份额安排支持成员短中期国际收支困难",
+      "source_ids": [
+        "F-2506",
+        "F-2502"
+      ],
+      "classification": "institutional_purpose",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于无条件兜底所有外债"
+    },
+    {
+      "claim_id": "CH25-014",
+      "statement": "IBRD专注较长期战后重建和基础设施融资",
+      "source_ids": [
+        "F-2501",
+        "F-2505"
+      ],
+      "classification": "institutional_purpose",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "与IMF短期外汇支持有不同功能"
+    },
+    {
+      "claim_id": "CH25-015",
+      "statement": "1947法国申请5亿美元重建贷款最终获2.5亿美元",
+      "source_ids": [
+        "F-2507"
+      ],
+      "classification": "original_project_archive",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "批准额不是1944会议当时直接拨付"
+    },
+    {
+      "claim_id": "CH25-016",
+      "statement": "1947-05-09世界银行首笔法国重建贷款签署",
+      "source_ids": [
+        "F-2507"
+      ],
+      "classification": "archive_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "需要区别批准、签约、支用"
+    },
+    {
+      "claim_id": "CH25-017",
+      "statement": "1945-12-27正式成立、IBRD1946-06-25开业、IMF1947-03运营",
+      "source_ids": [
+        "F-2505",
+        "F-2506"
+      ],
+      "classification": "institutional_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同官网日期分属不同机构"
+    },
+    {
+      "claim_id": "CH25-018",
+      "statement": "1958-12-29西欧14国推进经常项目外部可兑换",
+      "source_ids": [
+        "F-2508"
+      ],
+      "classification": "historical_policy_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于资本项目完全自由化"
+    },
+    {
+      "claim_id": "CH25-019",
+      "statement": "1958外部可兑换与1961正式接受IMF第八条义务不同",
+      "source_ids": [
+        "F-2508"
+      ],
+      "classification": "legal_policy_distinction",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "各成员正式接受时点需另核"
+    },
+    {
+      "claim_id": "CH25-020",
+      "statement": "1944参会的国家代表与实际受影响殖民地区发言权不同",
+      "source_ids": [
+        "F-2501",
+        "F-2512"
+      ],
+      "classification": "institutional_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能凭国际二字假设普遍平等"
+    },
+    {
+      "claim_id": "CH25-021",
+      "statement": "美元储备供应增长与美国有限黄金储备构成后续压力",
+      "source_ids": [
+        "F-2509",
+        "F-2510"
+      ],
+      "classification": "cross_chapter_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "这是后续历史解释，非1944现场预测原话"
+    }
+  ]
+}

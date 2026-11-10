@@ -1,0 +1,227 @@
+{
+  "chapter": "22",
+  "chapter_batch": "22-24",
+  "lane": "nonfiction",
+  "revision": 21,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Institutional historical pages, primary diplomatic and bank records, original-object descriptions and academic research reviewed. Key statutes, economic time-series and full competing scholarly source editions still pending.",
+  "claims": [
+    {
+      "claim_id": "CH22-001",
+      "statement": "1923-11-15德国租赁马克发行，一新马克=一万亿纸马克",
+      "source_ids": [
+        "F-2201",
+        "F-2202"
+      ],
+      "classification": "chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "德国议院与历史博物馆二手官方整理，法令原德文待核"
+    },
+    {
+      "claim_id": "CH22-002",
+      "statement": "1923年11月美元汇价约4.2万亿纸马克、4.2租赁马克",
+      "source_ids": [
+        "F-2201",
+        "F-2202"
+      ],
+      "classification": "economic_historical_data",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "汇率时点与币种定义需核"
+    },
+    {
+      "claim_id": "CH22-003",
+      "statement": "第一次世界大战德国军费经发行债券与央行融资扩大",
+      "source_ids": [
+        "F-2203",
+        "F-2201"
+      ],
+      "classification": "monetary_fiscal_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能认为1914前后所有战争国家同政策"
+    },
+    {
+      "claim_id": "CH22-004",
+      "statement": "魏玛1919至1923政治重组与赔款压力并存",
+      "source_ids": [
+        "F-2204",
+        "F-2205"
+      ],
+      "classification": "historical_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "通胀非1923突然仅由赔款造成"
+    },
+    {
+      "claim_id": "CH22-005",
+      "statement": "德国赔款外汇义务与国内马克工资是不同货币财政账",
+      "source_ids": [
+        "F-2205",
+        "F-2203"
+      ],
+      "classification": "author_finance_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不可将国际赔款直接等同国内赤字"
+    },
+    {
+      "claim_id": "CH22-006",
+      "statement": "1923-01-11法比军队进入鲁尔、政府支持被动抵抗",
+      "source_ids": [
+        "F-2206",
+        "F-2201"
+      ],
+      "classification": "historical_event",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "武装冲突、政治目的需与财政后果分开"
+    },
+    {
+      "claim_id": "CH22-007",
+      "statement": "鲁尔抵抗使税收及产出下降与财政开支增加形成双重压力",
+      "source_ids": [
+        "F-2206",
+        "F-2201"
+      ],
+      "classification": "multi_causal_explanation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非单一印钞机械因果"
+    },
+    {
+      "claim_id": "CH22-008",
+      "statement": "恶性通胀时按日发薪、以实物或其他凭证付款等反应出现",
+      "source_ids": [
+        "F-2203",
+        "F-2211"
+      ],
+      "classification": "social_economic_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是所有德国市场停止金钱交易"
+    },
+    {
+      "claim_id": "CH22-009",
+      "statement": "货币持有意愿降低可能提高流通速度和价格调整频率",
+      "source_ids": [
+        "F-2203",
+        "F-2208"
+      ],
+      "classification": "economic_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "教学解释不是单独计量的全德国速度序列"
+    },
+    {
+      "claim_id": "CH22-010",
+      "statement": "固定马克名义债权可能严重缩水、某些债务人相对受益",
+      "source_ids": [
+        "F-2201",
+        "F-2203"
+      ],
+      "classification": "distributional_evidence",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "固定债权与外币或指数合同不同"
+    },
+    {
+      "claim_id": "CH22-011",
+      "statement": "100借款变110且价格涨100倍为现代虚构教学例",
+      "source_ids": [
+        "F-2201"
+      ],
+      "classification": "pedagogical_model",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是史料原始债务"
+    },
+    {
+      "claim_id": "CH22-012",
+      "statement": "房地产和不同股票外币并不自动等比例对冲通胀",
+      "source_ids": [
+        "F-2207"
+      ],
+      "classification": "scholarly_counterexample",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "金融资产样本研究不能泛化所有人"
+    },
+    {
+      "claim_id": "CH22-013",
+      "statement": "美元汇价、马克面额和某家庭实际财富不是同一概念",
+      "source_ids": [
+        "F-2201",
+        "F-2208"
+      ],
+      "classification": "analytic_distinction",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不得把4.2万亿汇率写成所有人财富缩小倍数"
+    },
+    {
+      "claim_id": "CH22-014",
+      "statement": "1923-10-15租赁银行制度成立，11-15发行纸币",
+      "source_ids": [
+        "F-2202"
+      ],
+      "classification": "chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "要与1924帝国马克另分"
+    },
+    {
+      "claim_id": "CH22-015",
+      "statement": "租赁马克的土地与企业资产法律抵押不意味着凭券直接换地",
+      "source_ids": [
+        "F-2202"
+      ],
+      "classification": "institutional_legal_limit",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "兑金与抵押债权不同"
+    },
+    {
+      "claim_id": "CH22-016",
+      "statement": "租赁马克稳定伴随被动抵抗停止、财政支出削减与税收改变",
+      "source_ids": [
+        "F-2201",
+        "F-2202",
+        "F-2206"
+      ],
+      "classification": "multi_causal_evidence",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "发行新纸币不是充分条件"
+    },
+    {
+      "claim_id": "CH22-017",
+      "statement": "Sargent比较认为可信财政规则变化帮助恶性通胀终结",
+      "source_ids": [
+        "F-2209"
+      ],
+      "classification": "contested_scholarly_model",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "需同其他稳币解释复核"
+    },
+    {
+      "claim_id": "CH22-018",
+      "statement": "1924年Reichsmark和道威斯计划属于后续重建",
+      "source_ids": [
+        "F-2202",
+        "F-2205"
+      ],
+      "classification": "chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "Rentenmark不等于1924新法币同一政府发行性质"
+    },
+    {
+      "claim_id": "CH22-019",
+      "statement": "币值稳定不意味着补回原持有人失去的购买力",
+      "source_ids": [
+        "F-2208",
+        "F-2201"
+      ],
+      "classification": "social_policy_inference",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "需区分法律赔偿政策与实际经济损失"
+    },
+    {
+      "claim_id": "CH22-020",
+      "statement": "恶性通胀消灭旧名义债权、通缩则可使名义债务更难偿还",
+      "source_ids": [
+        "F-2201",
+        "F-2203"
+      ],
+      "classification": "comparative_model",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "美国1930年代史须第23章独立验证"
+    }
+  ]
+}

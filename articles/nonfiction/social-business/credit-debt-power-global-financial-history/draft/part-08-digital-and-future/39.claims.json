@@ -1,0 +1,278 @@
+{
+  "chapter": "39",
+  "chapter_batch": "37-39",
+  "lane": "nonfiction",
+  "revision": 28,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Public central-bank primary notices, fiscal and financial regulations, official inquiry and regulator reviews, IMF research; original ledgers, legal editions and counterparties have not received book-wide independent publication verification.",
+  "claims": [
+    {
+      "claim_id": "CH39-001",
+      "statement": "2023-03-09 SVB当天存款流出约420亿美元",
+      "source_ids": [
+        "F-3901"
+      ],
+      "classification": "contemporaneous_fdic_testimony",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "付款请求与已结算外流定义需核"
+    },
+    {
+      "claim_id": "CH39-002",
+      "statement": "2023-03-10加州监管关闭SVB并委任FDIC接管",
+      "source_ids": [
+        "F-3902"
+      ],
+      "classification": "primary_bank_closure_notice",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是普通企业主动申请破产的同义词"
+    },
+    {
+      "claim_id": "CH39-003",
+      "statement": "长期固定利率债券通常因市场收益率上行而下跌",
+      "source_ids": [
+        "F-3903"
+      ],
+      "classification": "duration_economic_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "票息100/2纯虚构教例非SVB证券"
+    },
+    {
+      "claim_id": "CH39-004",
+      "statement": "低信用违约风险美债并非没有市价与流动性风险",
+      "source_ids": [
+        "F-3903"
+      ],
+      "classification": "rate_vs_credit_risk",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "美债与机构MBS久期需分别核"
+    },
+    {
+      "claim_id": "CH39-005",
+      "statement": "SVB 2019约710亿美元资产到2021超2110亿美元",
+      "source_ids": [
+        "F-3903"
+      ],
+      "classification": "primary_regulatory_review_stat",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "年份和银行集团并表定义待银行10-K"
+    },
+    {
+      "claim_id": "CH39-006",
+      "statement": "SVB存款集中科技创投和大额未受保客户",
+      "source_ids": [
+        "F-3903"
+      ],
+      "classification": "bank_business_model_concentration",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能认为所有科技企业违法协调提款"
+    },
+    {
+      "claim_id": "CH39-007",
+      "statement": "SVB提款恐慌由高未保险存款与行业客户信息传播放大",
+      "source_ids": [
+        "F-3901",
+        "F-3903"
+      ],
+      "classification": "bank_run_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "技术速度不是唯一因果"
+    },
+    {
+      "claim_id": "CH39-008",
+      "statement": "SVB 2023-03-08出售AFS证券约18亿美元税后亏损并准备融资",
+      "source_ids": [
+        "F-3901"
+      ],
+      "classification": "bank_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同公告对1.8 billion after-tax与融资目标口径需核"
+    },
+    {
+      "claim_id": "CH39-009",
+      "statement": "AFS与HTM会计列示不等于经济市场价格不变",
+      "source_ids": [
+        "F-3903"
+      ],
+      "classification": "accounting_vs_liquidity_risk",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "真实银行财报与资产类别需核"
+    },
+    {
+      "claim_id": "CH39-010",
+      "statement": "25万美元是FDIC常规账户保险限额规则基本口径",
+      "source_ids": [
+        "F-3902"
+      ],
+      "classification": "primary_deposit_insurance_notice",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "保险额度依账户所有权类别"
+    },
+    {
+      "claim_id": "CH39-011",
+      "statement": "3月10日SVB初始处置仅确保受保存款即时可达",
+      "source_ids": [
+        "F-3902"
+      ],
+      "classification": "resolution_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不要以后来3月12全存款保护倒写3月10"
+    },
+    {
+      "claim_id": "CH39-012",
+      "statement": "3月12日美国三机构以系统风险例外保护SVB Signature全部存款人",
+      "source_ids": [
+        "F-3904"
+      ],
+      "classification": "primary_joint_resolution_policy",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "保护存款不等于保护股东及所有债权人"
+    },
+    {
+      "claim_id": "CH39-013",
+      "statement": "股东和部分无担保债权人并未获3月12日同等保护",
+      "source_ids": [
+        "F-3904"
+      ],
+      "classification": "resolution_loss_waterfall",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "最终金额及DIF追偿需后续账"
+    },
+    {
+      "claim_id": "CH39-014",
+      "statement": "2023-03-12 Fed推出BTFP合格高质量证券按面值作抵押最长一年贷款",
+      "source_ids": [
+        "F-3905"
+      ],
+      "classification": "primary_fed_facility",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "按面值是BTFP抵押规则不是市价修复"
+    },
+    {
+      "claim_id": "CH39-015",
+      "statement": "BTFP于2024-03-11停止提供新贷款",
+      "source_ids": [
+        "F-3905"
+      ],
+      "classification": "emergency_facility_end_date",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "停止新贷款不等于此前贷款均同日到期"
+    },
+    {
+      "claim_id": "CH39-016",
+      "statement": "2023-03-12 Signature Bank关闭且本行问题和SVB不同",
+      "source_ids": [
+        "F-3904",
+        "F-3906"
+      ],
+      "classification": "distinct_bank_failure_modes",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "管理不善/治理缺陷FDIC正式复盘"
+    },
+    {
+      "claim_id": "CH39-017",
+      "statement": "2023-05-01 First Republic被FDIC接管后JPM接收全部存款和大部分资产",
+      "source_ids": [
+        "F-3907"
+      ],
+      "classification": "primary_purchase_assumption",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "须核后续资产处置细节"
+    },
+    {
+      "claim_id": "CH39-018",
+      "statement": "First Republic长期住宅贷款和存款结构受利率变化影响",
+      "source_ids": [
+        "F-3908"
+      ],
+      "classification": "bank_supervision_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "非SVB完全相同资产结构"
+    },
+    {
+      "claim_id": "CH39-019",
+      "statement": "First Republic按最低成本原则处置而非新用系统性例外",
+      "source_ids": [
+        "F-3909"
+      ],
+      "classification": "regulatory_resolution_comparison",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "法律工具与3月SVB系统性例外区别"
+    },
+    {
+      "claim_id": "CH39-020",
+      "statement": "瑞士FINMA于2023-03-19批准UBS收购瑞信及国家流动性支持",
+      "source_ids": [
+        "F-3910",
+        "F-3911"
+      ],
+      "classification": "swiss_primary_resolution_notice",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同美国FDIC接管"
+    },
+    {
+      "claim_id": "CH39-021",
+      "statement": "瑞信长期信任治理问题在2023美国银行冲击前已存在",
+      "source_ids": [
+        "F-3910"
+      ],
+      "classification": "historical_causal_comparison",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不把瑞信简单说成持有美债久期问题"
+    },
+    {
+      "claim_id": "CH39-022",
+      "statement": "瑞信约160亿瑞郎AT1名义债券减记与政府财政拨款性质不同",
+      "source_ids": [
+        "F-3910"
+      ],
+      "classification": "bank_capital_loss_absorption",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "名义规模与实际净值经济损失口径不同"
+    },
+    {
+      "claim_id": "CH39-023",
+      "statement": "2023-03-23 FINMA说明AT1发行条款和紧急援助触发法律依据",
+      "source_ids": [
+        "F-3912"
+      ],
+      "classification": "primary_contractual_loss_event",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原监管解释非未来所有法院最终判决"
+    },
+    {
+      "claim_id": "CH39-024",
+      "statement": "2023-11 FDIC通过特别征费筹集额外存保基金相关成本",
+      "source_ids": [
+        "F-3913"
+      ],
+      "classification": "deposit_insurance_special_assessment",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "2023估计不等于最终实际纳税与银行经济负担"
+    },
+    {
+      "claim_id": "CH39-025",
+      "statement": "数字转账提高挤兑速度但风险管理、客户集中、资产久期为前置条件",
+      "source_ids": [
+        "F-3901",
+        "F-3903",
+        "F-3906"
+      ],
+      "classification": "competing_financial_causation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不将银行失败全归于手机或社交媒体"
+    },
+    {
+      "claim_id": "CH39-026",
+      "statement": "存款美元与金融投资产品储备和赎回承诺不同，连接第40章稳定币",
+      "source_ids": [
+        "F-3904",
+        "F-3905",
+        "F-3912"
+      ],
+      "classification": "cross_chapter_redemption_bridge",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不代表所有稳定币与银行存款有同等法律保障"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "05",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "only this chapter's documented claims",
+  "claims": [
+    {
+      "claim_id": "C05-01",
+      "claim": "1958年Rosenblatt论文信息与研究问题",
+      "source_ids": [
+        "DL22",
+        "DL23"
+      ],
+      "kind": "primary_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "期刊数据和首页扫描",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C05-02",
+      "claim": "1958年7月IBM704感知机公开演示",
+      "source_ids": [
+        "DL24"
+      ],
+      "kind": "institutional_history",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "50次试验来自康奈尔大学历史文章，非独立验证",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C05-03",
+      "claim": "原始感知机不等同单阈值节点",
+      "source_ids": [
+        "DL23",
+        "DL25"
+      ],
+      "kind": "model_scope",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "Smithsonian馆藏页面直接打开失败，依赖检索级记录和原文区分",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C05-04",
+      "claim": "可调线性阈值及带标签纠错机制",
+      "source_ids": [
+        "DL23",
+        "DL27"
+      ],
+      "kind": "modern_reconstruction",
+      "evidence_level": "QUALIFIED",
+      "limitations": "教学化方程并非1958全部模型",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C05-05",
+      "claim": "LMS与感知机规则有关但优化目标不同",
+      "source_ids": [
+        "DL26",
+        "DL27"
+      ],
+      "kind": "technical_history",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "1960论文首页已查，详式由PDP教学资料辅助",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C05-06",
+      "claim": "感知机收敛有线性可分条件",
+      "source_ids": [
+        "DL23",
+        "DL27"
+      ],
+      "kind": "mathematical_background",
+      "evidence_level": "QUALIFIED",
+      "limitations": "正文不声称复核Novikoff完整定理证明",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C05-07",
+      "claim": "四卡片两次更新得到w=(2,0),b=0",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "手动计算与独立Python测试一致",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

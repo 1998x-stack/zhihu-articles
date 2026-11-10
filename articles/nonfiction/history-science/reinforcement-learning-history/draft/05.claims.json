@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "chapter": "05",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "所列一手文献的可访问页和发行记录为本章论断提供限定范围支持；历史著作并未全部逐页通读；作者数学例子与历史实验分开。",
+  "alias_to_research_source_id": {
+    "D01": "R38",
+    "D02": "R39",
+    "D03": "R40",
+    "D04": "R41",
+    "D05": "R01"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-05-01",
+      "claim": "Bellman的On the Theory of Dynamic Programming 发表于1952年PNAS",
+      "source_ids": [
+        "R38"
+      ],
+      "kind": "historical_fact",
+      "section": "一｜今天赚八块为何可能输",
+      "evidence_note": "38(8):716—719，定义随机序贯决策",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-05-02",
+      "claim": "Bellman 1954论文取材于1953年美国数学会报告，发表于1954年Bulletin AMS",
+      "source_ids": [
+        "R39"
+      ],
+      "kind": "historical_fact",
+      "section": "二｜为什么不能枚举全部计划",
+      "evidence_note": "p.503首页的演讲／发表备注",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-05-03",
+      "claim": "最优性原理要求最优策略的剩余选择相对到达状态仍为最优",
+      "source_ids": [
+        "R39"
+      ],
+      "kind": "primary_mathematical",
+      "section": "三｜最优性原理",
+      "evidence_note": "p.504明确表述；不等于即时贪心",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-05-04",
+      "claim": "有限时域的值函数递推是Bellman思想的现代教学形式，需已知或可用的状态转移/奖励",
+      "source_ids": [
+        "R38",
+        "R39",
+        "R01"
+      ],
+      "kind": "technical_interpretation",
+      "section": "四｜贝尔曼递推",
+      "evidence_note": "现代符号与原文区分",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-05-05",
+      "claim": "1957年Dynamic Programming著作确为Princeton初版，后世重印",
+      "source_ids": [
+        "R40"
+      ],
+      "kind": "publication_fact",
+      "section": "七｜1952、1954、1957",
+      "evidence_note": "Dover出版方版次说明；未读完整书",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-05-06",
+      "claim": "1957年Bellman发表A Markovian Decision Process，并出现状态转移概率的递推结构",
+      "source_ids": [
+        "R41"
+      ],
+      "kind": "primary_mathematical",
+      "section": "七｜1952、1954、1957",
+      "evidence_note": "p.679首页；不声称全篇已审",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-05-07",
+      "claim": "20次二元选择共有2^20=1048576条静态动作序列",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "二｜不能枚举",
+      "evidence_note": "教学例题；真实随机策略树更复杂",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-05-08",
+      "claim": "两阶段仓库回报11>8、折扣0.9得到10.1、折扣0.5得到6.5",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "五｜从后往前算",
+      "evidence_note": "教学例题；由给定数值验算",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-05-09",
+      "claim": "Bellman1952文献标识了Wald及Arrow、Blackwell等相关前驱",
+      "source_ids": [
+        "R38"
+      ],
+      "kind": "historical_attribution",
+      "section": "二｜直接枚举",
+      "evidence_note": "p.717避免英雄史",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "1957书本仍仅做出版记录核查",
+    "现代值函数符号和原始Bellman数学表达须显式区分"
+  ]
+}

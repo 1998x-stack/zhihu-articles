@@ -1,0 +1,187 @@
+{
+  "chapter": "30",
+  "chapter_batch": "28-30",
+  "lane": "nonfiction",
+  "revision": 25,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Secondary central-bank/IMF/BIS institutional research and selected original publications; independent full primary-edition audit pending.",
+  "claims": [
+    {
+      "claim_id": "CH30-001",
+      "statement": "Cboe在1973年开始组织标准化上市股票期权交易",
+      "source_ids": [
+        "F-3002"
+      ],
+      "classification": "market_institution_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "Cboe不同页面的首交易日期有待原始公告核定"
+    },
+    {
+      "claim_id": "CH30-002",
+      "statement": "布莱克与斯科尔斯1973年发表期权定价相关原论文",
+      "source_ids": [
+        "F-3001"
+      ],
+      "classification": "academic_primary_publication",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "衍生品在1973年前即存在，非从零发明"
+    },
+    {
+      "claim_id": "CH30-003",
+      "statement": "期权定价依靠无套利与动态复制等理论关系",
+      "source_ids": [
+        "F-3001"
+      ],
+      "classification": "financial_theory",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "连续交易、价格过程等是理论假设"
+    },
+    {
+      "claim_id": "CH30-004",
+      "statement": "远期互换期权能够改变现金流条件并转移特定风险",
+      "source_ids": [
+        "F-3001",
+        "F-3004"
+      ],
+      "classification": "financial_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "虚构出口商教学例子不为真实合同"
+    },
+    {
+      "claim_id": "CH30-005",
+      "statement": "1981年世界银行与IBM有货币互换融资安排",
+      "source_ids": [
+        "F-3004"
+      ],
+      "classification": "swap_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "正式合同原件未独立查验"
+    },
+    {
+      "claim_id": "CH30-006",
+      "statement": "世界银行称1982财年货币互换名义交易规模约7.58亿美元",
+      "source_ids": [
+        "F-3004"
+      ],
+      "classification": "historical_nominal_value",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不等于净损失金额"
+    },
+    {
+      "claim_id": "CH30-007",
+      "statement": "世界银行称1983财年货币互换名义交易规模约17.3亿美元",
+      "source_ids": [
+        "F-3004"
+      ],
+      "classification": "historical_nominal_value",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "财年口径与当日余额不同"
+    },
+    {
+      "claim_id": "CH30-008",
+      "statement": "1987年10月19日道指单日跌幅约22.6%",
+      "source_ids": [
+        "F-3003"
+      ],
+      "classification": "market_historical_data",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "仅道指当天，并非全部资产同步跌幅"
+    },
+    {
+      "claim_id": "CH30-009",
+      "statement": "动态投资组合保险可能在跌势中增加卖压并形成反馈",
+      "source_ids": [
+        "F-3003",
+        "F-3006"
+      ],
+      "classification": "market_microstructure",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是1987股灾唯一原因"
+    },
+    {
+      "claim_id": "CH30-010",
+      "statement": "模型假设交易连续流动，危机时实际成交价与市场深度可能偏离",
+      "source_ids": [
+        "F-3001",
+        "F-3006"
+      ],
+      "classification": "model_limit",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "理论模型非交易执行的担保"
+    },
+    {
+      "claim_id": "CH30-011",
+      "statement": "BIS1998年6月末场外衍生品名义本金约72万亿美元",
+      "source_ids": [
+        "F-3005"
+      ],
+      "classification": "otc_market_statistic",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "统计覆盖全球OTC未到期合约，非亏损"
+    },
+    {
+      "claim_id": "CH30-012",
+      "statement": "BIS1998年6月末相应总市值约2.6万亿美元",
+      "source_ids": [
+        "F-3005"
+      ],
+      "classification": "otc_market_statistic",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "gross market value不等于净风险敞口"
+    },
+    {
+      "claim_id": "CH30-013",
+      "statement": "名义本金、总市值、净风险敞口与损失是不同概念",
+      "source_ids": [
+        "F-3005"
+      ],
+      "classification": "measurement_distinction",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "需要考虑净额抵消与抵押"
+    },
+    {
+      "claim_id": "CH30-014",
+      "statement": "1998年LTCM危机涉及杠杆、流动性与交易对手相互依赖",
+      "source_ids": [
+        "F-3007",
+        "F-3006"
+      ],
+      "classification": "ltcm_historical_case",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不得归咎于某个公式单独错误"
+    },
+    {
+      "claim_id": "CH30-015",
+      "statement": "1998年9月23日14家私营银行券商约36亿美元重组LTCM",
+      "source_ids": [
+        "F-3007"
+      ],
+      "classification": "ltcm_recapitalization",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "纽约联储协调不等于使用联储资金直接注资"
+    },
+    {
+      "claim_id": "CH30-016",
+      "statement": "合同增加可能让特定风险被分散而系统网络敞口在某处重新集中",
+      "source_ids": [
+        "F-3005",
+        "F-3006"
+      ],
+      "classification": "systemic_risk_synthesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "说明可能机制，非普遍因果估计"
+    },
+    {
+      "claim_id": "CH30-017",
+      "statement": "风险管理须同时考察杠杆、保证金、市场流动性与交易对手信用",
+      "source_ids": [
+        "F-3006",
+        "F-3007"
+      ],
+      "classification": "risk_framework",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能只靠期权定价公式衡量整体安全"
+    }
+  ]
+}

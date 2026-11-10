@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "chapter": "09",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "核对可访问的期刊会议出版信息、原始摘要与相关教材的限定范围事实；部分正文及定理尚未全文复核。各自数学例子为明确标注的原创教学重构。尚未独立双审。",
+  "alias_to_research_source_id": {
+    "K01": "R04",
+    "K02": "R50",
+    "K03": "R01",
+    "K04": "R05",
+    "K05": "R51",
+    "K06": "R52"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-09-01",
+      "claim": "1983年Barto Sutton Anderson在IEEE研究小车倒立摆学习控制",
+      "source_ids": [
+        "R04"
+      ],
+      "kind": "论文摘要",
+      "section": "一、二｜任务",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-09-02",
+      "claim": "其设定在未知运动方程下仅通过倾角过限或小车达轨道端点得到失败评价",
+      "source_ids": [
+        "R04"
+      ],
+      "kind": "论文摘要",
+      "section": "二｜失败条件",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-09-03",
+      "claim": "ASE负责联想搜索行动而ACE产生比原始反馈更丰富的内部评价",
+      "source_ids": [
+        "R04"
+      ],
+      "kind": "论文摘要",
+      "section": "四｜ASE和ACE",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-09-04",
+      "claim": "没有每一步的奖惩标签不等于缺乏角度等状态观测",
+      "source_ids": [
+        "R04"
+      ],
+      "kind": "技术边界",
+      "section": "二｜观测",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-09-05",
+      "claim": "终局失败信号给前期动作归因存在信用分配困难",
+      "source_ids": [
+        "R04",
+        "R01"
+      ],
+      "kind": "现代概括",
+      "section": "三｜信用分配",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-09-06",
+      "claim": "教学式delta=-0.47、学习率0.2、更新后的V=0.106",
+      "source_ids": [],
+      "kind": "原创计算",
+      "section": "五｜现代TD类比",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-09-07",
+      "claim": "1968年Michie与Chambers的BOXES是杆平衡的更早工作",
+      "source_ids": [
+        "R50",
+        "R04"
+      ],
+      "kind": "先驱研究",
+      "section": "六｜BOXES",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-09-08",
+      "claim": "Barto Anderson Sutton于1982年有分层联想网络控制论文",
+      "source_ids": [
+        "R51",
+        "R52"
+      ],
+      "kind": "先驱研究",
+      "section": "六｜1982研究",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-09-09",
+      "claim": "1988年Sutton TD论文是下一章理论节点而非全部预测差异思想的唯一源头",
+      "source_ids": [
+        "R05",
+        "R01"
+      ],
+      "kind": "年代边界",
+      "section": "九｜1988TD",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-09-10",
+      "claim": "倒立摆研究早于1990Dyna，两者不是后一项导致前一项的因果链",
+      "source_ids": [
+        "R04",
+        "R08"
+      ],
+      "kind": "年代边界",
+      "section": "八｜回顾",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "1983原始论文全部实验图表与参数更新尚待逐页复核",
+    "现代TD例子不能冒称1983 ACE原始公式",
+    "更早的BOXES与1982研究须保留归属"
+  ]
+}

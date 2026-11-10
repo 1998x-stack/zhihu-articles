@@ -1,0 +1,239 @@
+{
+  "chapter": "32",
+  "chapter_batch": "31-33",
+  "lane": "nonfiction",
+  "revision": 26,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Official legal and policy archives, IMF contemporaneous records and official central bank histories; chapter-level fact crosschecks made, book-wide primary-edition audit not complete.",
+  "claims": [
+    {
+      "claim_id": "CH32-001",
+      "statement": "泰国在1997-07-02停止原有美元盯住安排而让泰铢浮动",
+      "source_ids": [
+        "F-3201",
+        "F-3202"
+      ],
+      "classification": "official_crisis_chronology",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "并非泰国工厂同日停止生产"
+    },
+    {
+      "claim_id": "CH32-002",
+      "statement": "亚洲资本流入与银行和企业治理薄弱问题相互作用",
+      "source_ids": [
+        "F-3202"
+      ],
+      "classification": "multicausal_crisis_explanation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "增长真实存在，不等于外资皆错误"
+    },
+    {
+      "claim_id": "CH32-003",
+      "statement": "美元负债本币收入的汇率错配可能在本币贬值时增大偿债压力",
+      "source_ids": [
+        "F-3202"
+      ],
+      "classification": "currency_mismatch_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "1亿美元25变40是假设非历史汇率"
+    },
+    {
+      "claim_id": "CH32-004",
+      "statement": "短期美元贷款与长期资产有不同到期和流动性安排",
+      "source_ids": [
+        "F-3202",
+        "F-3208"
+      ],
+      "classification": "maturity_mismatch_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "短期外债占比需要按国家统计"
+    },
+    {
+      "claim_id": "CH32-005",
+      "statement": "泰国1995-96经常账户赤字约占GDP7.8%与7.9%",
+      "source_ids": [
+        "F-3201"
+      ],
+      "classification": "historical_external_balance",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能把经常账户赤字等同即将违约"
+    },
+    {
+      "claim_id": "CH32-006",
+      "statement": "泰国央行在即期和远期汇市干预使可用储备判断复杂",
+      "source_ids": [
+        "F-3202"
+      ],
+      "classification": "reserve_policy_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "净远期头寸与表面外储不同"
+    },
+    {
+      "claim_id": "CH32-007",
+      "statement": "IMF于1997-08-20批准泰国最高29亿SDR备用贷款安排",
+      "source_ids": [
+        "F-3203"
+      ],
+      "classification": "primary_imf_press_release",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "当日只可提款12亿SDR非全额"
+    },
+    {
+      "claim_id": "CH32-008",
+      "statement": "泰国援助双边多边整体承诺约172亿美元",
+      "source_ids": [
+        "F-3204"
+      ],
+      "classification": "aid_package_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "IMF自有额度与合计承诺不同"
+    },
+    {
+      "claim_id": "CH32-009",
+      "statement": "IMF救助后针对超过预期的冲击修订泰国调整安排",
+      "source_ids": [
+        "F-3204"
+      ],
+      "classification": "program_revision_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不宣称某一政策没有净成本"
+    },
+    {
+      "claim_id": "CH32-010",
+      "statement": "印尼1997-11-01关闭16家银行而有限存款保障未稳住信心",
+      "source_ids": [
+        "F-3205"
+      ],
+      "classification": "bank_resolution_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "责任归因需结合政府执行与政治环境"
+    },
+    {
+      "claim_id": "CH32-011",
+      "statement": "印尼危机中汇率、银行、政治冲击和社会损失并存",
+      "source_ids": [
+        "F-3205",
+        "F-3207"
+      ],
+      "classification": "country_specific_causal_context",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是韩国泰国同一版本"
+    },
+    {
+      "claim_id": "CH32-012",
+      "statement": "IMF于1997-12-04向韩国批准155亿SDR约210亿美元安排",
+      "source_ids": [
+        "F-3206"
+      ],
+      "classification": "primary_imf_press_release",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "批准额度不等于同日全部拨款"
+    },
+    {
+      "claim_id": "CH32-013",
+      "statement": "韩国1997-09末外部负债约1800亿美元其中短债980亿",
+      "source_ids": [
+        "F-3208"
+      ],
+      "classification": "historical_external_debt",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "IMF2000国别口径须原表核"
+    },
+    {
+      "claim_id": "CH32-014",
+      "statement": "韩国外国银行减少短期外债展期加剧融资压力",
+      "source_ids": [
+        "F-3208"
+      ],
+      "classification": "international_funding_liquidity",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "续借率下降不等于同额资金已出境"
+    },
+    {
+      "claim_id": "CH32-015",
+      "statement": "经常项目、证券资本和银行借贷构成不同跨境资金流动类型",
+      "source_ids": [
+        "F-3202",
+        "F-3209"
+      ],
+      "classification": "financial_flows_distinction",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "债务到期和净资本流动分开"
+    },
+    {
+      "claim_id": "CH32-016",
+      "statement": "投资者跨国重新评估使1997亚洲市场冲击向非亚洲新兴市场扩散",
+      "source_ids": [
+        "F-3209"
+      ],
+      "classification": "crisis_contagion",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "俄罗斯1998自身财政因素另须考虑"
+    },
+    {
+      "claim_id": "CH32-017",
+      "statement": "危机期政策争论涉及货币财政调整、金融处置与保障存款",
+      "source_ids": [
+        "F-3204",
+        "F-3205"
+      ],
+      "classification": "competing_policy_interpretation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能仅由事后复苏判断各条件均优"
+    },
+    {
+      "claim_id": "CH32-018",
+      "statement": "韩国1998年实际GDP跌约5.8%",
+      "source_ids": [
+        "F-3210"
+      ],
+      "classification": "postcrisis_gdp",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "GDP增速时期定义按IMF1999"
+    },
+    {
+      "claim_id": "CH32-019",
+      "statement": "韩国1999年2月失业率接近9%而危机前不到3%",
+      "source_ids": [
+        "F-3210"
+      ],
+      "classification": "labor_market_impact",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "失业与贫困需分国研究"
+    },
+    {
+      "claim_id": "CH32-020",
+      "statement": "中国危机时期资本账户结构与东南亚诸国不同",
+      "source_ids": [
+        "F-3106",
+        "F-3201"
+      ],
+      "classification": "regional_policy_comparison",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能推出中国完全免受经济冲击"
+    },
+    {
+      "claim_id": "CH32-021",
+      "statement": "亚洲金融危机暴露货币错配、期限错配与金融监管协调问题",
+      "source_ids": [
+        "F-3202",
+        "F-3205",
+        "F-3208"
+      ],
+      "classification": "multicountry_synthesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "三国仍有重要异质性"
+    },
+    {
+      "claim_id": "CH32-022",
+      "statement": "俄罗斯1998年危机受全球风险偏好变化及国内财政共同影响",
+      "source_ids": [
+        "F-3209"
+      ],
+      "classification": "forward_bridge",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "下一章独立核俄国原始政策文本"
+    }
+  ]
+}

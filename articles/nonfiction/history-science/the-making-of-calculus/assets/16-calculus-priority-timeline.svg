@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 525" role="img" aria-labelledby="t d"><title id="t">牛顿莱布尼茨微积分优先权争论的三条时间线</title><desc id="d">按研究手稿、公开论文、调查与争论分为三行。手稿行1666牛顿、1675莱布尼茨、1676通信。公开论文行1684莱布尼茨微分、1686积分。争论行1699法蒂奥、1708至1710开尔、1712委员会报告、1713文集、1715牛顿匿名评论。分层表明先研究与先发表不是同一回事。</desc><rect width="1180" height="525" rx="18" fill="#f8fafc"/>
+<text x="29" y="45" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="24" font-weight="700" fill="#0f172a">同一场争论，至少有三条不同的时间线</text>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">
+<text x="30" y="92" font-size="20" fill="#1d4ed8" font-weight="700">研究与通信</text>
+<rect x="220" y="63" width="272" height="68" rx="12" fill="#dbeafe" stroke="#94a3b8" stroke-width="1"/><text x="234" y="90" font-size="19" font-weight="700" fill="#0f172a">1666 牛顿</text><text x="234" y="115" font-size="15" fill="#334155">流数、求积早期手稿</text>
+<rect x="515" y="63" width="272" height="68" rx="12" fill="#dbeafe" stroke="#94a3b8" stroke-width="1"/><text x="529" y="90" font-size="19" font-weight="700" fill="#0f172a">1675 莱布尼茨</text><text x="529" y="115" font-size="15" fill="#334155">积分记号等手稿</text>
+<rect x="811" y="63" width="340" height="68" rx="12" fill="#dbeafe" stroke="#94a3b8" stroke-width="1"/><text x="825" y="90" font-size="19" font-weight="700" fill="#0f172a">1676 两人通信</text><text x="825" y="115" font-size="15" fill="#334155">有成果交换，但非完整方法公开</text>
+<path d="M493 97 L514 97 M788 97 L810 97" fill="none" stroke="#2563eb" stroke-width="3"/>
+<text x="30" y="228" font-size="20" fill="#047857" font-weight="700">公开发表</text>
+<rect x="220" y="200" width="439" height="68" rx="12" fill="#dcfce7" stroke="#94a3b8" stroke-width="1"/><text x="234" y="227" font-size="19" font-weight="700" fill="#0f172a">1684 莱布尼茨</text><text x="234" y="252" font-size="15" fill="#334155">《学者纪事》刊出微分规则</text>
+<rect x="686" y="200" width="465" height="68" rx="12" fill="#dcfce7" stroke="#94a3b8" stroke-width="1"/><text x="700" y="227" font-size="19" font-weight="700" fill="#0f172a">1686 莱布尼茨</text><text x="700" y="252" font-size="15" fill="#334155">发表积分方法及求和记号</text>
+<path d="M660 236 L685 236" fill="none" stroke="#059669" stroke-width="3"/>
+<text x="30" y="363" font-size="20" fill="#9a3412" font-weight="700">指控与裁决</text>
+<rect x="220" y="334" width="215" height="68" rx="12" fill="#ffedd5" stroke="#94a3b8" stroke-width="1"/><text x="234" y="361" font-size="19" font-weight="700" fill="#0f172a">1699 法蒂奥</text><text x="234" y="386" font-size="15" fill="#334155">质疑优先权</text>
+<rect x="447" y="334" width="215" height="68" rx="12" fill="#ffedd5" stroke="#94a3b8" stroke-width="1"/><text x="461" y="361" font-size="19" font-weight="700" fill="#0f172a">1708—1710 开尔</text><text x="461" y="386" font-size="15" fill="#334155">指控与发表</text>
+<rect x="674" y="334" width="215" height="68" rx="12" fill="#ffedd5" stroke="#94a3b8" stroke-width="1"/><text x="688" y="361" font-size="19" font-weight="700" fill="#0f172a">1712 报告</text><text x="688" y="386" font-size="15" fill="#334155">皇家学会调查</text>
+<rect x="901" y="334" width="250" height="68" rx="12" fill="#ffedd5" stroke="#94a3b8" stroke-width="1"/><text x="915" y="361" font-size="19" font-weight="700" fill="#0f172a">1713／1715</text><text x="915" y="386" font-size="15" fill="#334155">文集及匿名评论</text>
+<path d="M435 370 L446 370 M662 370 L673 370 M889 370 L900 370" fill="none" stroke="#ea580c" stroke-width="2.5"/>
+<text x="31" y="458" font-size="19" fill="#0f172a" font-weight="700">最重要的区别：手稿更早 ≠ 印刷发表更早 ≠ 抄袭已被证明。</text>
+<text x="31" y="490" font-size="14" fill="#64748b">原创历史事件信息图，节点均有对应史料；不把机构报告视为独立中立终审。</text>
+</g></svg>

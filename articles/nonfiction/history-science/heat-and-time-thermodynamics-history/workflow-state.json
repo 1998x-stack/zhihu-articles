@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "序章00及第01—13章的非虚构正文初稿已分别建立前置史实研究与逐条主张证据；本轮11章21条、12章21条、13章22条（合计64条）。第14—33章仍未逐章核证。evidence_verified是已写章节的局部范围，不代表全书独立审稿通过。",
-  "approval_scope": "第00—13章依当前书稿章纲、局部研究证据成文；第14—33章继续是待事实核对的规划占位。outline_approved字段不能解释为全书终审许可。",
-  "note": "本轮完成第11—13章正文初稿与64条主张，已更新research.md、claim-ledger.md、README.md及逐章claims.json。第00—13章目前仅为初稿，独立连续性与结构审稿尚未执行；review_status=PENDING，final_approved=false。"
+  "evidence_scope": "序章00及第01—16章有逐章前置研究和可追溯来源主张，新增第14章15条、第15章15条、第16章16条；第17—33章仍未逐章核证。evidence_verified仅表示已写章节前置研究范围，不代表全文独立审稿或终稿批准。",
+  "approval_scope": "第00—16章依现有章纲和局部研究材料成文；第17—33章继续是待核证占位。outline_approved是写作阶段许可，不是独立审稿批准。",
+  "note": "本轮完成第14—16章初稿、46条主张、R95—R101增量来源及章节导航同步。与既有00—13章一样，目前仅为初稿；双审未执行，review_status=PENDING；无edited.md/final.md批准。"
 }

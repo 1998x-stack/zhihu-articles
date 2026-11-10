@@ -1,0 +1,90 @@
+{
+  "chapter": "18",
+  "title": "柯西1829：寻找不改变方向的向量",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "H18-S1": "https://www.cambridge.org/core/books/oeuvres-completes/sur-lequation-a-laide-de-laquelle-on-determine-les-inegalites-seculaires-des-mouvements-des-planetes/ACBB0ACB1EA7F0834C5EF84133C67950",
+    "H18-S2": "https://old.maa.org/press/periodicals/convergence/math-origins-eigenvectors-and-eigenvalues",
+    "H18-S3": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "H18-S4": "https://www.sciencedirect.com/science/article/pii/0315086075900324",
+    "H18-S5": "https://doi.org/10.1007/s40329-014-0051-3",
+    "M18": "本章第3—8节现代矩阵谱、瑞利商、正交证明及反例，独立代数校验"
+  },
+  "claims": [
+    {
+      "claim_id": "C18-01",
+      "source_ids": [
+        "H18-S2",
+        "H18-S5"
+      ],
+      "kind": "historical_multiple_lineages",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C18-02",
+      "source_ids": [
+        "H18-S1",
+        "H18-S2",
+        "H18-S3"
+      ],
+      "kind": "historical_dates",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C18-03",
+      "source_ids": [
+        "H18-S2",
+        "H18-S4"
+      ],
+      "kind": "historical_contribution",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C18-04",
+      "source_ids": [
+        "M18"
+      ],
+      "kind": "modern_math",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C18-05",
+      "source_ids": [
+        "M18"
+      ],
+      "kind": "modern_math",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C18-06",
+      "source_ids": [
+        "M18"
+      ],
+      "kind": "modern_math_caveat",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C18-07",
+      "source_ids": [
+        "H18-S2",
+        "M18"
+      ],
+      "kind": "editorial_bridge",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    }
+  ],
+  "notes": [
+    "1826问题陈述和1829论文分别处理",
+    "原著书目确认不等于逐页法文校勘",
+    "现代共轭转置与瑞利商证明不归为柯西原文",
+    "未完成正式连续性审计和独立审稿"
+  ]
+}

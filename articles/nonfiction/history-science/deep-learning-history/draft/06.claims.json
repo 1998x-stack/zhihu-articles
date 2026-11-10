@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "06",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "only this chapter's documented claims",
+  "claims": [
+    {
+      "claim_id": "C06-01",
+      "claim": "Perceptrons1969由Minsky Papert著MIT Press出版",
+      "source_ids": [
+        "DL28"
+      ],
+      "kind": "bibliography",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "出版商目录核验",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C06-02",
+      "claim": "单阈值线性评分无法实现XOR",
+      "source_ids": [
+        "AUTHOR_PROOF",
+        "DL28"
+      ],
+      "kind": "mathematical_proof",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "四点评分恒等式矛盾证明",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C06-03",
+      "claim": "两隐藏单元实现XOR但不解决自动训练",
+      "source_ids": [
+        "AUTHOR_PROOF",
+        "DL28"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "四行真值表独立运行检查",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C06-04",
+      "claim": "1960 Widrow-Hoff自适应研究与线性限制",
+      "source_ids": [
+        "DL26",
+        "DL32"
+      ],
+      "kind": "primary_publication",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "原文首页及研究者目录",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C06-05",
+      "claim": "1969争论还有制度竞争解释及后世反思",
+      "source_ids": [
+        "DL29",
+        "DL31"
+      ],
+      "kind": "historiography",
+      "evidence_level": "INTERPRETATION",
+      "limitations": "不能推出唯一因果",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C06-06",
+      "claim": "1973 Lighthill报告与英国AI研究背景",
+      "source_ids": [
+        "DL30"
+      ],
+      "kind": "official_history",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "实际经费削减因果有争议",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C06-07",
+      "claim": "一本书不能被认定为AI冬天唯一充分原因",
+      "source_ids": [
+        "DL29",
+        "DL30"
+      ],
+      "kind": "causal_interpretation",
+      "evidence_level": "INTERPRETATION",
+      "limitations": "多地区多领域原因需要进一步历史证据",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
