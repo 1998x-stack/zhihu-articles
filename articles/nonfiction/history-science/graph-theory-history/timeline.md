@@ -45,17 +45,33 @@
 | 1998—1999 | PageRank、小世界与优先连接模型 | 32—34 |
 | 1998-01-29 | Page/Brin/Motwani/Winograd四人署名PageRank原始手稿 | 32 |
 | 1998 | Brin/Page Google原型期刊论文；Watts–Strogatz《Nature》小世界模型 | 32—33 |
+| 1999 | Barabási—Albert《Science》增长与线性优先连接模型（幂律结论须保留模型前提） | 34 |
 | 2000 | Kleinberg《Navigation in a Small World》区分短链存在与局部寻找 | 33 |
 | 2002—2006 | 社群检测、稠密图极限相关工作 | 31、35 |
+| 2002 | Albert—Barabási《Reviews of Modern Physics》系统综述BA模型精确度分布与复杂网络统计力学 | 34 |
+| 2002 | Girvan—Newman《PNAS》边介数社群检测算法 | 35 |
 | 2004—2005 | 贡蒂耶完成四色定理的Coq形式化核验 | 10 |
 | 2004 | 《Graph Minors XX. Wagner’s Conjecture》完成有限图小式良拟序定理证明 | 29 |
 | 2004报告／2006论文 | Lovász—Szegedy《Limits of Dense Graph Sequences》，稠密Graphon极限 | 31 |
+| 2004 | Newman—Girvan《Physical Review E》模块度及划分评价 | 35 |
 | 2005—2018 | 从早期GNN到图卷积、注意力与采样 | 36 |
+| 2005 | Gori、Monfardini、Scarselli《IJCNN》早期图神经网络模型 | 36 |
+| 2006 | Newman《PNAS》模块度矩阵谱社群检测；有别于2002边介数算法 | 35 |
+| 2007 | Fortunato—Barthélemy《PNAS》模块度分辨率极限（2006年底在线） | 35 |
 | 2008 | Borgs等稠密图列同态频率与cut度量收敛 | 31 |
+| 2009 | Scarselli等《IEEE TNN》GNN系统论文（2008线上）；Clauset等《SIAM Review》幂律统计检验 | 34、36 |
 | 2010 | 《Graph Minors XXIII》继续系列研究，不应写2004为系列终止 | 29 |
 | 2012 | Lovász《Large Networks and Graph Limits》AMS专著 | 31 |
+| 2016预印／2017发表 | Kipf—Welling GCN；2017 GraphSAGE与MPNN相互独立 | 36 |
+| 2017预印／2018发表 | Veličković等GAT局部邻居注意力网络 | 36 |
+| 2018预印／2019发表 | Xu等GNN辨别能力研究，为后世模型边界 | 36 |
+| 2019 | Broido—Clauset《Nature Communications》无标度网络并非普遍的统计研究 | 34 |
+| 2022 | Keriven过平滑理论分析，属于早期GNN研究后续评估 | 36 |
 
 ## 必须保留的史学边界
+- BA1999增长与线性优先连接的幂律理论、Albert—Barabási2002精确分布及2009/2019统计检验要分开；小世界不自动意味着无标度。
+- Girvan—Newman2002边介数算法、Newman—Girvan2004模块度评估、Newman2006谱方法、2007分辨率极限各有所指；模块度Q按原图计算。
+- Gori等2005早期GNN、Scarselli等2009期刊、GCN2016/2017、GraphSAGE/MPNN2017、GAT2017/2018及后世辨别力/过平滑研究不得混成单一年份。
 - Graphon稠密图列：2004研究报告、2006期刊、2008收敛度量、2012专著各有不同节点；不能把对称无向极限用于一般稀疏有向网页图。
 - PageRank原稿1998-01-29为Page/Brin/Motwani/Winograd四人署名；Brin/Page1998搜索引擎原型论文、后续1999书目版本是不同载体。
 - Milgram1967研究问题与Travers—Milgram1969实验分开；296起始、64完成、5.2中间人仅限完成链，非全球任意两人六步定理。
