@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "last_chapter": 27,
+  "last_chapter": 30,
   "manuscript_revision": 0,
   "chapter_status": {
     "10": "draft",
@@ -22,7 +22,9 @@
     "25": "draft",
     "26": "draft",
     "27": "draft",
-    "28": "outline",
+    "28": "draft",
+    "29": "draft",
+    "30": "draft",
     "00": "outline",
     "01": "draft",
     "02": "draft",
@@ -143,12 +145,22 @@
     {
       "chapter": "27",
       "coverage": "2021 CLIP约4亿双塔图文对比与ALIGN约18亿噪声图文对；2021 DALL-E自回归文图tokens；2022 DALL-E2 CLIP潜表示先验+扩散decoder及另一条LDM压缩潜空间交叉注意力"
+    },
+    {
+      "chapter": "28",
+      "coverage": "2017人类偏好强化学习控制研究→2022 InstructGPT SFT/偏好奖励PPO→2022-11-30 ChatGPT研究预览→2022 TruthfulQA→2023 GPT4/DPO；人类偏好不等于事实正确"
+    },
+    {
+      "chapter": "29",
+      "coverage": "2017跨组织Transformer/ResNet研究回溯→2023 Llama2社区许可→2024 Ai2 OLMo/OSI1.0/Qwen2.5/DeepSeekV3→2025 Qwen3/R1；权重与训练开放、总与活跃参数、许可版本区别"
+    },
+    {
+      "chapter": "30",
+      "coverage": "2022 FlashAttention IO tiling、2023 PagedAttention KV缓存→2024 o1测试时计算→2025 R1/Qwen3→2026 Nature HLE及8月预印本多题预算；限论文条件和公开日期"
     }
   ],
   "unresolved_clues": [
-    "28章：指令微调、人类反馈与2022公开对话式产品之间真实先后及贡献如何核实？",
-    "29章：开源模型的权重发布、许可与研究可复现如何区分？",
-    "30章：2024—2026高效推理、规模与能力评测有哪些可验证进展与限制？"
+    "序章00与尾声31仍未写：全书回收第17章的2012条件、第24章规模界限与第30章能力/成本/验证张力，不能冒称正式封版"
   ],
   "resolved_clues": [
     "第01章数学形式化为何能表达明确计算",
@@ -177,7 +189,10 @@
     "24章测试交叉熵经验律≠全部智能，GPT3 few-shot推断无梯度更新，Chinchilla更小却用更多token",
     "25章策略网络先验可与搜索访问分布不同，2015/2016/2017比赛对象区别已保留",
     "26章CASP14结构域GDT_TS92.4与Cα RMSD95 0.96Å不同量纲，AF2不等于2018旧版本",
-    "27章CLIP图文对齐/检索不等于文生图本体，DALL-E1/2/LDM分属不同生成机制"
+    "27章CLIP图文对齐/检索不等于文生图本体，DALL-E1/2/LDM分属不同生成机制",
+    "28章2017人类偏好控制任务、2022 InstructGPT论文、2022-11-30产品发布与2023 GPT4/DPO分开；偏好≠事实",
+    "29章开放权重、训练过程、OSI许可/商业条件分别核对；2024 Qwen2.5例外和2025 Qwen3不同，DeepSeekV3总/活跃参数区分",
+    "30章2022 FlashAttention与2023 PagedAttention任务不同，2024 o1与2025 R1的推理训练对照，2026 HLE及预印本的适用范围，待完整独立评审"
   ],
   "continuity_notes": [
     "第01章历史数学前史为多文明并行比较，无暗示直接传授",
@@ -231,14 +246,18 @@
     "蛋白质结构预测≠动态功能解释，GDT_TS分数≠正确蛋白质百分比，RMSD95为特定结构域口径",
     "2021 CLIP12作者图文对比4亿对，ALIGN同期10作者18亿噪声对；CLIP零样本分类不是直接生成图像",
     "2021 DALL-E原版自回归、2022 DALL-E2 CLIP latent prior+diffusion decoder、2022 LDM压缩潜空间cross-attention三者分开",
-    "第01—27章全为PENDING独立双重审稿工作初稿，不自动发布"
+    "第01—27章全为PENDING独立双重审稿工作初稿，不自动发布",
+    "28章由27图文表示转向对话产品，人类偏好目标和事实真伪不得混同",
+    "29章2017研究网络专题回溯不代表国籍传承；开放权重、OSI开放定义、底座衍生许可证及MoE总/活跃区分",
+    "30章系统IO优化不等于推理算法，2026预印本不能宣称已同行评审定论，HLE考题与实际可靠使用区别",
+    "第01—30章共30篇未独立双审，序章00与尾声31仍占位，最终封版未获批准"
   ],
   "review_status": "PENDING",
   "progress_summary": {
     "source": "book.json",
     "total": 32,
-    "draft": 24,
-    "outline": 8,
+    "draft": 30,
+    "outline": 2,
     "final": 0,
     "proposals": 0,
     "review_status": "PENDING",
