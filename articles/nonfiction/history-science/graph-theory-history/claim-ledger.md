@@ -29,9 +29,9 @@
 | 25 | GT25-01—GT25-12：Cook1971、Karp1972、P/NP、归约方向、3SAT→CLIQUE、NP完全与P≠NP未证 | S115—S117（详见research.md） | VERIFIED_SCOPED（仅25；1971原文与现代归约形式区分） |
 | 26 | GT26-01—GT26-15：二近似顶点覆盖、Johnson1974、Christofides1976度量TSP、Downey–Fellows1995、FPT二叉分支 | S118—S122（详见research.md） | VERIFIED_SCOPED（仅26；保证条件与历史原刊区分） |
 | 27 | GT27-01—GT27-11：L=D−A、二次型、零特征值、Fiedler1973代数连通度、矩阵树史与加边单调性 | S123—S125（详见research.md） | VERIFIED_SCOPED（仅27；谱推导是现代解释） |
-| 28 | GT28-01：3连通平面图嵌入唯一性及其边界 | S01、S06、S11 | TODO_VERIFY |
-| 29 | GT29-01：图小式定理与良拟序 | S01、S06、S11 | TODO_VERIFY |
-| 30 | GT30-01：树宽、树分解与动态规划 | S01、S06、S11 | TODO_VERIFY |
+| 28 | GT28-01—GT28-10：Whitney1932不同论文及3连通球面嵌入唯一性、旋转次序、K₂,₄二连通反例、对偶图 | S126—S129、S138（见research.md） | VERIFIED_SCOPED（仅28；现代嵌入表述/教学例与原刊分开） |
+| 29 | GT29-01—GT29-12：删边缩边、小式良拟序、有限禁小式、Graph Minors I 1983/XX 2004/XXIII 2010的时间边界 | S130—S134、S137（见research.md） | VERIFIED_SCOPED（仅29；理论存在性≠自动实用算法） |
+| 30 | GT30-01—GT30-13：树分解三条件、C₄袋例、Vertex Cover动态规划、Robertson–Seymour1986、Courcelle1990、Bodlaender1996 | S134—S137（见research.md） | VERIFIED_SCOPED（仅30；固定树宽及具体算法前提保留） |
 | 31 | GT31-01：稠密图极限、graphon与稀疏图的区别 | S01、S06、S11 | TODO_VERIFY |
 | 32 | GT32-01：PageRank、阻尼随机游走与有向网络 | S01、S10 | TODO_VERIFY |
 | 33 | GT33-01：小世界模型、聚类与平均路径 | S01、S10 | TODO_VERIFY |
