@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 2,
+  "editorial_status": "p0_repair_working_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "review_status": "PENDING",
+  "chapter": "31",
+  "claims": [
+    {
+      "claim_id": "NS-31-01",
+      "type": "model_definition",
+      "statement": "Graph neural networks support learned node representations via permutation-compatible shared neighbor aggregation, distinct from memorized node IDs",
+      "source_ids": [
+        "S107",
+        "S109",
+        "S110"
+      ],
+      "locator": "GNN lineages and inductive/messaging frameworks, scoped",
+      "verification_status": "formal_synthesis_checked"
+    },
+    {
+      "claim_id": "NS-31-02",
+      "type": "historical_paper",
+      "statement": "Scarselli et al The Graph Neural Network Model printed IEEE TNN 20(1):61-80 Jan2009, online Dec9 2008",
+      "source_ids": [
+        "S107"
+      ],
+      "locator": "IEEE publication metadata plus PubMed record",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-31-03",
+      "type": "teaching_example",
+      "statement": "For path A-B-C self+neighbor mean with features (1,0,1), first layer (.5,2/3,.5)",
+      "source_ids": [],
+      "locator": "Author pedagogical mean aggregation; explicitly not original Kipf symmetric GCN outputs",
+      "verification_status": "independently_computed"
+    },
+    {
+      "claim_id": "NS-31-04",
+      "type": "teaching_example",
+      "statement": "Second mean layer on chain outputs (7/12,5/9,7/12), showing two-hop information enters via B",
+      "source_ids": [],
+      "locator": "Author exact fractions computed by same mean aggregation convention",
+      "verification_status": "independently_computed"
+    },
+    {
+      "claim_id": "NS-31-05",
+      "type": "publication_versions",
+      "statement": "Kipf Welling GCN arXiv v1 Sep9 2016 published ICLR 2017",
+      "source_ids": [
+        "S108"
+      ],
+      "locator": "arxiv v1 timestamp and OpenReview conference PDF",
+      "verification_status": "version_record_checked"
+    },
+    {
+      "claim_id": "NS-31-06",
+      "type": "mathematical_model",
+      "statement": "Classic symmetric GCN layer H'=sigma(Dtilde^-1/2 Atilde Dtilde^-1/2 H W) with Atilde=A+I differs from row mean toy",
+      "source_ids": [
+        "S108"
+      ],
+      "locator": "Original ICLR 2017 eq for normalized convolution",
+      "verification_status": "paper_equation_checked"
+    },
+    {
+      "claim_id": "NS-31-07",
+      "type": "historical_paper",
+      "statement": "Hamilton Ying Leskovec GraphSAGE NeurIPS 2017 learns sampled neighborhood aggregation function inductive with node features",
+      "source_ids": [
+        "S109"
+      ],
+      "locator": "NeurIPS original proceedings abstract",
+      "verification_status": "publisher_primary_checked"
+    },
+    {
+      "claim_id": "NS-31-08",
+      "type": "historical_paper",
+      "statement": "Gilmer Schoenholz Riley Vinyals Dahl ICML2017 PMLR70:1263–1272 MPNN umbrella formulation for quantum chemistry",
+      "source_ids": [
+        "S110"
+      ],
+      "locator": "PMLR original publisher abstract and citation",
+      "verification_status": "publisher_primary_checked"
+    },
+    {
+      "claim_id": "NS-31-09",
+      "type": "mathematical_counterexample",
+      "statement": "Under identical node features, shared permutation-invariant local multiset aggregator, graph C6 and K3 union K3 both n6 2-regular yield identical node features at every layer and same sum/mean graph readout",
+      "source_ids": [],
+      "locator": "Author constructed induction proof, scope excludes global position/motif features or higher order GNNs",
+      "verification_status": "independently_proved"
+    },
+    {
+      "claim_id": "NS-31-10",
+      "type": "historical_theory",
+      "statement": "Xu Hu Leskovec Jegelka preprint 2018 ICLR2019 analyze neighborhood GNN distinguishing power vs Weisfeiler Lehman style methods",
+      "source_ids": [
+        "S111"
+      ],
+      "locator": "Author pdf and ICLR paper abstract",
+      "verification_status": "primary_theory_checked"
+    },
+    {
+      "claim_id": "NS-31-11",
+      "type": "model_limitations",
+      "statement": "Repeated graph convolution can oversmooth under some settings, distant info can oversquash via bottlenecks, neither means all deep GNN fail",
+      "source_ids": [
+        "S112",
+        "S113"
+      ],
+      "locator": "Li Han Wu AAAI2018 and Alon Yahav ICLR2021 primary sources, model-qualified",
+      "verification_status": "primary_papers_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Original-paper titles, dates and selected sections checked; chapter claims require an independent full-text fact review and developmental/continuity review at revision2.",
+    "Author-made numerical examples and counterexamples were independently computed, not historical studies or empirical data.",
+    "Outline and evidence book-wide gates remain false, final_approved=false; web readability does not mean platform publication."
+  ]
+}

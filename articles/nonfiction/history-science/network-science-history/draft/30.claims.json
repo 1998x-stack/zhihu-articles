@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 2,
+  "editorial_status": "p0_repair_working_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "review_status": "PENDING",
+  "chapter": "30",
+  "claims": [
+    {
+      "claim_id": "NS-30-01",
+      "type": "historical_paper",
+      "statement": "Perozzi Al-Rfou Skiena DeepWalk Online Learning of Social Representations KDD 2014 pages701-710",
+      "source_ids": [
+        "S105"
+      ],
+      "locator": "Google Research publication and ACM DOI metadata",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-30-02",
+      "type": "teaching_example",
+      "statement": "Unbiased random walk on toy undirected 3-leaf star B center gives from B equal probabilities1/3 and stated example sequences allowed",
+      "source_ids": [],
+      "locator": "Author-defined A-B B-C B-D and sample paths; not DeepWalk experiments",
+      "verification_status": "independently_computed"
+    },
+    {
+      "claim_id": "NS-30-03",
+      "type": "algorithm_definition",
+      "statement": "DeepWalk samples truncated random walks as sentences for skipgram-inspired node-context representation; simplified dot product not exact training implementation",
+      "source_ids": [
+        "S105"
+      ],
+      "locator": "DeepWalk 2014 abstract and training mechanism, original implementation distinctions",
+      "verification_status": "primary_paper_checked_scope_limited"
+    },
+    {
+      "claim_id": "NS-30-04",
+      "type": "model_limitation",
+      "statement": "Learned embeddings are task- and objective-relative and lack unique axis semantics; global orthogonal transform can preserve inner products",
+      "source_ids": [],
+      "locator": "Standard linear algebra derivation and author interpretation, no empirical personality assertion",
+      "verification_status": "mathematically_derived"
+    },
+    {
+      "claim_id": "NS-30-05",
+      "type": "historical_paper",
+      "statement": "Grover Leskovec node2vec KDD2016 855-864 DOI10.1145/2939672.2939754",
+      "source_ids": [
+        "S106"
+      ],
+      "locator": "PubMed/PMC original author manuscript and final form",
+      "verification_status": "primary_paper_checked"
+    },
+    {
+      "claim_id": "NS-30-06",
+      "type": "algorithm_definition",
+      "statement": "node2vec second order walk transition uses previous node t and p return q in-out bias; BFS DFS are soft analogies",
+      "source_ids": [
+        "S106"
+      ],
+      "locator": "PMC primary paper random walk Fig2 p/q description",
+      "verification_status": "primary_paper_checked"
+    },
+    {
+      "claim_id": "NS-30-07",
+      "type": "teaching_example",
+      "statement": "For p2 q0.5 and previous t current v, candidates distances0 1 2 have weights0.5,1,2 giving probabilities1/7,2/7,4/7",
+      "source_ids": [
+        "S106"
+      ],
+      "locator": "Author toy unweighted graph t-v,t-B,v-B,v-C and exact normalisation",
+      "verification_status": "independently_computed"
+    },
+    {
+      "claim_id": "NS-30-08",
+      "type": "model_scope",
+      "statement": "Biased walks can trade off preserving neighborhoods/homophily and structural role similarity, no guaranteed learned semantics",
+      "source_ids": [
+        "S106"
+      ],
+      "locator": "node2vec primary article motivation and limitations",
+      "verification_status": "primary_paper_checked_qualified"
+    }
+  ],
+  "outstanding_checks": [
+    "Original-paper titles, dates and selected sections checked; chapter claims require an independent full-text fact review and developmental/continuity review at revision2.",
+    "Author-made numerical examples and counterexamples were independently computed, not historical studies or empirical data.",
+    "Outline and evidence book-wide gates remain false, final_approved=false; web readability does not mean platform publication."
+  ]
+}
