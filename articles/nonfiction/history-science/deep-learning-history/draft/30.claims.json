@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "30",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "DL150,DL152,DL154-DL159; 2026 publications/preprints are time-limited; author toy examples; pending independent detailed review",
+  "claims": [
+    {
+      "claim_id": "C30-01",
+      "claim": "2022 FlashAttention使用IO-aware分块减少精确注意力的GPU读写",
+      "source_ids": [
+        "DL154"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不等于全部标准全局注意力算术降至线性",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-02",
+      "claim": "2023 PagedAttention vLLM引入KV-cache分页管理提高特定实验吞吐",
+      "source_ids": [
+        "DL155"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "特定对照结果不能泛化任意硬件",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-03",
+      "claim": "2024-09 o1官方报告增加训练与测试时计算改进部分推理任务",
+      "source_ids": [
+        "DL156"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "官方报告与独立复测区分，额外思考不保证正确",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-04",
+      "claim": "2025 R1-Zero建立在预训练基础模型之上与正式R1有不同后训练阶段",
+      "source_ids": [
+        "DL152",
+        "DL157"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "无传统SFT预置不等于没有预训练",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-05",
+      "claim": "2025 Qwen3技术报告列思考/非思考模式和预算控制",
+      "source_ids": [
+        "DL150"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "某个模式不是所有任务永远最优",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-06",
+      "claim": "2026-01 Nature HLE基准包含约2500多学科专家级问题",
+      "source_ids": [
+        "DL158"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "并非对所有现实工作可靠性的充分测试",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-07",
+      "claim": "2026-08多题共享计算预算研究发现受试模型可能分配不理想",
+      "source_ids": [
+        "DL159"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "PREPRINT_SCOPED",
+      "limitations": "尚属预印本和指定实验，不当作普遍定论",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-08",
+      "claim": "10单位分配6+4得6分而5+5得1分的阈值课堂例题",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "人为设定阈值和价值，非DL159真实模型结果",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-09",
+      "claim": "同价单位1000到1500，局部费用增50%，不等于真实API总费用",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "缓存、硬件、型号和请求组合均不同",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C30-10",
+      "claim": "训练算力、单次推理延迟、并发吞吐和任务真实性四指标不能混同",
+      "source_ids": [
+        "DL154",
+        "DL155",
+        "DL156",
+        "DL158"
+      ],
+      "kind": "analysis",
+      "evidence_level": "QUALIFIED",
+      "limitations": "属于作者分析分类，非同一论文报告的统一指标",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
