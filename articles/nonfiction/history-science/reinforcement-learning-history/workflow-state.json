@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "01—27章已有尚未独立双审的正文工作初稿及claims JSON；第九批25—27含2017PPO裁剪代理目标、2018SAC与后续温度扩展、2019/2020MuZero潜在动力学模型。review_status=PENDING；未语言精修、终审或发布。",
-  "evidence_scope": "仅第01—27章史实、算法与实验主张在各批次明确范围内完成可访问原论文/官方登记的写作前核查；25—27章的全实验统计、版本细节与代码仍待独立二审；序章、尾声和28—32章7个单元未获本批核查准入。",
-  "outline_scope": "第01—27章具备限定来源支持的非虚构分章结构及工作初稿；序章、尾声及第28—32章须另执行fact-research与nonfiction-architect阶段。"
+  "stage_note": "01—30章有尚未独立双审的正文工作初稿与claims JSON；第十批28—30分别为2019/2020离线RL、2000逆强化学习及后续学徒/最大熵、2017偏好反馈→2022 InstructGPT（2019/2020语言桥梁）。review_status=PENDING，未终审/未发布。",
+  "evidence_scope": "仅第01—30章史实和研究主张分别完成可访问一手研究的限定范围写作前核查；第28—30章原文所有统计表、完整理论证明和代码尚未独立双审；序章、尾声和31—32章4个单元无本批准入许可。",
+  "outline_scope": "第01—30章形成有逐章来源与认知主线支撑的工作初稿结构；序章、尾声和第31—32章仍应分别执行fact-research及nonfiction-architect。"
 }

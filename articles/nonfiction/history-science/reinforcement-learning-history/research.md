@@ -66,7 +66,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **C**：专业综述支持，适宜历史背景，不单独支持争议归属。
 - **D**：编辑假设、类比或待核猜想，不进入正文事实陈述。
 
-截至2026-11-10，第01—27章已依各批次在明示范围核对可访问原始论文、研究登记和部分方法/结果；第28章以后及未复核的完整实验表、训练代码仍待核。未完成全书独立双审、终审及发布。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
+截至2026-11-10，第01—30章已在逐章具体支持范围内核对可访问一手研究、原始方法/出版记录与原创验算；第31章以后、序章尾声以及尚未独立复审的完整实验与代码仍待核。未完成全书独立双审、终审及发布。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
 
 ## 第01—03章增量核证记录（2026-11-09）
 
@@ -313,3 +313,39 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - [ ] SAC2018初版与同年末扩展模型结构、温度调整算法细节和机器人真实环境配置逐式二审。
 - [ ] MuZero Nature正式全部补充实验表、合法行动/终止特定实现、2019与2020版本差异逐条复核；原刊网页访问限制已以论文原始预印本交叉核查。
 - [ ] 独立连续性审计、发展审稿、语言精修及终审均未执行；`review_status=PENDING`，且后续第28章需另行前置研究。
+
+## 第十批28—30章增量史料和证据有效范围（2026-11-10）
+
+> 本批只对离线RL、IRL及人类偏好奖励学习各自章节所需事实作限定写作前核证。正文[F]/[I]/[H]来源别名按逐章claims JSON映射至R号。不把原论文的数学条件扩成普遍有效性或安全保证；不冒充独立二审与完整实验复现。
+
+| 新来源ID | 一手论文或原始档案 | 限定支持及历史注意 |
+| --- | --- | --- |
+| R109 | [Fujimoto, Meger & Precup (2019), Off-Policy Deep Reinforcement Learning without Exploration](https://proceedings.mlr.press/v97/fujimoto19a.html) | ICML2019 PMLR97:2052-2062一手会议页；2018-12 arxiv初稿。固定批次学习中的extrapolation error，BCQ用数据附近动作限制离策略Q外推，理论与实验有设定限制。 |
+| R110 | [Kumar, Fu, Soh, Tucker & Levine (2019), Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction](https://proceedings.neurips.cc/paper/2019/hash/c2073ffa77b5357a498057413bb09d3a-Abstract.html) | NeurIPS2019正式会议页含Matthew Soh；预印本部分名单不同。BEAR分析数据外动作参与Bellman备份导致自举误差积累，约束动作分布，不能声称绝对稳健。 |
+| R111 | [Kumar, Zhou, Tucker & Levine (2020), Conservative Q-Learning for Offline Reinforcement Learning](https://proceedings.neurips.cc/paper/2020/hash/0d2b2061826a5df3221116a5085a6052-Abstract.html) | NeurIPS2020一手论文与PDF第3节已核：Bellman拟合加保守Q正则。低估/下界与策略改进保证受数据分布、逼近误差、置信概率与正则强度等条件约束，非任意真实世界安全证书。 |
+| R112 | [Fu, Kumar, Nachum, Tucker & Levine (2020), D4RL: Datasets for Deep Data-Driven Reinforcement Learning](https://arxiv.org/abs/2004.07219) | 2020-04-15预印本；后续2021 ICLR基准发表，应区分。研究混合策略、手工控制器、示范与多任务等离线数据类型的评测困难。 |
+| R113 | [Abbeel & Ng (2004), Apprenticeship Learning via Inverse Reinforcement Learning](https://doi.org/10.1145/1015330.1015430) | ICML2004正式会议论文；奖励假定为已知特征的线性组合，算法求近似专家表现，不承诺唯一恢复真实未知奖励或所有安全要求。 |
+| R114 | [Ng, Harada & Russell (1999), Policy Invariance Under Reward Transformations: Theory and Application to Reward Shaping](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/NgHaradaRussell-shaping-ICML1999.pdf) | ICML1999一手文献，潜势差分形式的奖励塑形在限定假设下不改变最优策略，展示奖励表示并不唯一；不是任意奖励改写都保策略。 |
+| R115 | [Christiano, Leike, Brown, Martic, Legg & Amodei (2017), Deep Reinforcement Learning from Human Preferences](https://papers.nips.cc/paper/2017/hash/d5e2c0adad503c91f91df240d0cd4e49-Abstract.html) | NeurIPS2017官方记录及全文PDF已目视。短轨迹片段两两比较，学习奖励预测，再用策略与环境互动优化；Atari和MuJoCo模拟任务。官方摘要约0.1%交互反馈，某全文版本摘要写少于1%，保留版本差异。 |
+| R116 | [Ziegler et al. (2019), Fine-Tuning Language Models from Human Preferences](https://arxiv.org/abs/1909.08593) | 2019-09-18预印本，语言模型续写与摘要偏好微调的中间史料，不能以2022 InstructGPT替换其先驱地位。 |
+| R117 | [Stiennon et al. (2020), Learning to Summarize from Human Feedback](https://papers.nips.cc/paper/2020/hash/1f89885d556929e98d3ef9b86448f951-Abstract.html) | NeurIPS2020一手会议论文：人类比较摘要、奖励模型、强化学习优化摘要，包含标注者偏好与质量代理指标的限制。2022论文明确承接这条方法路线。 |
+| R118 | [Ouyang et al. (2022), Training Language Models to Follow Instructions with Human Feedback](https://proceedings.neurips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract.html) | NeurIPS2022一手原文与PDF已目视：SFT示范→RM排序→PPO，另有参考SFT策略的逐token KL惩罚。1.3B受偏好胜175B GPT-3仅限其标注者及提示评估；论文明确仅对应特定群体陈述偏好，不等于全人类价值。 |
+
+### 三种“证据缺失”不能混为一谈
+
+- **第28章固定批次离线RL**：R109 2019 BCQ指出分布外动作extrapolation误差，R110 2019 BEAR分析数据外自举误差传播，R111 2020 CQL引入保守Q正则并在限定假设下证明价值下界/改善。离线是训练时不再与环境交互增添数据；off-policy只是数据生成策略与目标策略可不同。2018-12 BCQ预印本先于2019 ICML正式发表，2020 D4RL原始预印本先于后续ICLR基准版本。**此类研究的真实世界安全性没有得到本章证明**。
+- **第29章逆强化学习**：R12 Ng/Russell ICML2000论文以观察行为推断可能奖励，并明确同一最优策略对应多种奖励函数的degeneracy；R113 Abbeel/Ng ICML2004在已知特征线性奖励假设下研究学徒表现；R114 ICML1999潜势奖励塑形可保策略，R103 AAAI2008最大熵IRL在噪声示范下引入概率轨迹分布。不同历史年份按知识问题倒叙排列，不能宣称2000首次研究所有模仿或一眼看穿人的心理。
+- **第30章人类反馈与语言模型**：R115 2017 NeurIPS片段比较/奖励预测/策略优化，机器人为MuJoCo仿真并含Atari，不是2022语言模型实验。其官方摘要说约0.1%互动反馈，可访问一手PDF摘要说少于1%，都是研究设定，不应混淆成逐帧人评分。R116 2019语言偏好续写及摘要、R117 2020摘要偏好研究填补历史桥梁。R118 NeurIPS2022 InstructGPT经过SFT→偏好RM→PPO和参考SFT策略KL。1.3B优于175B只限特定人类评价分布；论文自述并未获得广泛普遍“人类价值”。
+
+### 全部原创教学数学（不是论文实验）
+
+- **28**：仓库未见动作自设估值5对20，表明价值模型能输出不可靠数字但不代表真实后果。单状态两动作CQL示意，已见Q=5、未见Q=8时C=log(1+exp3)≈3.048587；未见Q降至4时C=log(1+exp−1)≈0.313262。只计算一项正则，不等于完整模型训练轨迹。
+- **29**：一步左右选择的三种奖励(5,4),(100,0),(1,-9)都使左最优。路线甲特征(8,9)、乙(10,2)，权重(.5,2)下甲22乙9，权重(1,.5)下甲12.5乙11；选甲约束7w安全≥2w时间，示范不能唯一反推权重。
+- **30**：A片段总奖励预测3、B为1，Bradley-Terry偏好概率sigma(2)≈0.880797；同加总分常数保持比较概率而不代表绝对效用。注意每步奖励同加常数对不同长度片段未必保持比较。
+
+### 待独立复核的阻断项
+
+- [ ] BCQ/BEAR/CQL所有证明假设、超参数、完整对照实验和D4RL数据协议，不能将NeurIPS摘要2—5倍等实验数据推广任何场景。
+- [ ] ICML2000 IRL算法三类情况的完整定理条件、2004学徒特征期望、2008最大熵随机转移处理与1999奖励塑形终局约定。
+- [ ] 2017人类反馈不同版本0.1%与少于1%文字的确切实验分母、2019/2020/2022全部统计与语言标注指南及安全外推。
+- [ ] 本批连续性审计、发展性双审、语言精修和终审均尚未完成。第31—32章及序章、尾声尚未获本批研究准入。
