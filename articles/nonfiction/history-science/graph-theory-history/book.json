@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "graph-theory-history",
   "title": "连接的秩序：图论三百年",
-  "reading_notice": "序章00至第21章共22篇为有来源映射的历史科学非虚构工作初稿；第22—37章共16篇为待撰写的编辑占位。第19—21章完成随机图相变、塞迈雷迪正则性及最小生成树算法史的研究初稿并保留32条逐章主张映射。全书正式工作流审稿仍为PENDING，非终稿或知乎发布。",
+  "reading_notice": "序章00至第24章共25篇为有章级来源映射的历史科学非虚构工作初稿；第25—37章共13篇仍为规划占位。最新第22—24章是最短路径、最大流—最小割与一般图匹配的花朵收缩三篇研究初稿，新增37条主张映射。全书独立双审仍为PENDING，非正式终稿或知乎发布。",
   "chapters": [
     {
       "id": "prologue",
@@ -163,21 +163,21 @@
       "title": "22｜最短的路，为什么不能永远沿眼前最短走",
       "part": "第五部｜让定理成为程序",
       "file": "draft/22.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-23",
       "title": "23｜一张图里，究竟能流过多少水",
       "part": "第五部｜让定理成为程序",
       "file": "draft/23.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-24",
       "title": "24｜奇圈里的那朵花：匹配算法跨过一道坎",
       "part": "第五部｜让定理成为程序",
       "file": "draft/24.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-25",

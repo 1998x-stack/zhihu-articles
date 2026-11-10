@@ -1,12 +1,105 @@
 {
   "chapter": "22",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S08",
-    "S15"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Dijkstra 1959 Springer/公开论文；Bellman 1958 AMS、Ford 1956 由Schrijver历史研究引证、Moore 1959出版书目；现代最短路反例和复杂度为作者演绎，不冒充1950年代原文。",
+  "claims": [
+    {
+      "claim_id": "GT22-01",
+      "claim": "最小生成树优化全体建设总成本，而单源最短路优化起点到各目标的路径权重",
+      "source_ids": [
+        "S101",
+        "S103"
+      ],
+      "status": "CONCEPT_DISTINCTION"
+    },
+    {
+      "claim_id": "GT22-02",
+      "claim": "局部选择最便宜的出边不保证全程最短；A/B/C/T教学反例101对4",
+      "source_ids": [
+        "S101"
+      ],
+      "status": "AUTHOR_EXAMPLE_MODERN"
+    },
+    {
+      "claim_id": "GT22-03",
+      "claim": "最短路暂定标号松弛d(v)>d(u)+w(u,v)可更新",
+      "source_ids": [
+        "S102",
+        "S103"
+      ],
+      "status": "MODERN_ALGORITHM"
+    },
+    {
+      "claim_id": "GT22-04",
+      "claim": "A到E有向八边实例的Dijkstra标号0,1,3,4,7及A-C-B-D-E费用7",
+      "source_ids": [
+        "S101"
+      ],
+      "status": "AUTHOR_EXAMPLE_VERIFIED_ARITHMETIC"
+    },
+    {
+      "claim_id": "GT22-05",
+      "claim": "Dijkstra在非负权图中选取暂定距离最小者可永久确认的反证证明",
+      "source_ids": [
+        "S101"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT22-06",
+      "claim": "Dijkstra1959论文Numerische Mathematik 1:269-271提出MST与最短路两道不同问题",
+      "source_ids": [
+        "S101"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT22-07",
+      "claim": "Ford RAND报告1956与Bellman1958动态规划最短路论文的贡献需分别叙述",
+      "source_ids": [
+        "S102",
+        "S103",
+        "S105"
+      ],
+      "status": "HISTORICAL_SCOPED"
+    },
+    {
+      "claim_id": "GT22-08",
+      "claim": "Edward Moore最短路迷宫论文集1959出版285-292页、出版年份区别于会议史",
+      "source_ids": [
+        "S104"
+      ],
+      "status": "BIBLIO_SCOPED"
+    },
+    {
+      "claim_id": "GT22-09",
+      "claim": "三点有向负边A-B2 A-C5 C-B-4反例可使Dijkstra提前封存B=2而真实最短为1",
+      "source_ids": [
+        "S101",
+        "S103"
+      ],
+      "status": "AUTHOR_COUNTEREXAMPLE_MODERN"
+    },
+    {
+      "claim_id": "GT22-10",
+      "claim": "Bellman-Ford标准现代形式V-1轮松弛和可达负权环检测界线",
+      "source_ids": [
+        "S102",
+        "S103"
+      ],
+      "status": "MODERN_ALGORITHM_BOUNDARY"
+    },
+    {
+      "claim_id": "GT22-11",
+      "claim": "BFS适用于无权最短路、Dijkstra典型非负加权、Bellman-Ford允许负权且典型O(VE)",
+      "source_ids": [
+        "S101",
+        "S102",
+        "S103"
+      ],
+      "status": "MODERN_COMPLEXITY_SCOPED"
+    }
+  ]
 }
