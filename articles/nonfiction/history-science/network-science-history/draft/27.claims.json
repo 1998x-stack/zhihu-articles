@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "27",
+  "revision": 1,
+  "editorial_status": "p0_repair_working_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "review_status": "PENDING",
+  "claims": [
+    {
+      "claim_id": "NS-27-01",
+      "type": "conceptual_boundary",
+      "statement": "Pairwise triangles/motifs alone do not imply one joint 3-person recorded event",
+      "source_ids": [
+        "S98"
+      ],
+      "locator": "2020 higher-order review, graph projection discussion",
+      "verification_status": "review_scope_checked"
+    },
+    {
+      "claim_id": "NS-27-02",
+      "type": "mathematical_definition",
+      "statement": "Hyperedge e={A,B,C} represents one 3-member relational unit and need not imply three separate 2-member events",
+      "source_ids": [
+        "S98"
+      ],
+      "locator": "2020 review hypergraph definitions; event semantics supplied by author",
+      "verification_status": "mathematical_definition_checked"
+    },
+    {
+      "claim_id": "NS-27-03",
+      "type": "teaching_example",
+      "statement": "Hyperedge set {{ABC}} and pairwise event set {{AB},{AC},{BC}} have identical clique projection K3 but different original event sets",
+      "source_ids": [],
+      "locator": "Author-defined projections with one vs three events",
+      "verification_status": "math_checked_author_created"
+    },
+    {
+      "claim_id": "NS-27-04",
+      "type": "mathematical_definition",
+      "statement": "Abstract simplicial complexes are closed under taking nonempty subsets; face inclusion does not assert separate historical meetings",
+      "source_ids": [
+        "S98"
+      ],
+      "locator": "2020 review simplicial complexes; distinction mathematical closure vs recorded event",
+      "verification_status": "mathematical_definition_checked"
+    },
+    {
+      "claim_id": "NS-27-05",
+      "type": "historical_publication",
+      "statement": "Benson Gleich Leskovec Science353(6295):163-166 July8 2016 shows higher-order motif-based network organization, not necessarily literal group events",
+      "source_ids": [
+        "S96"
+      ],
+      "locator": "Science/PubMed 2016 publication record and abstract",
+      "verification_status": "publisher_abstract_checked"
+    },
+    {
+      "claim_id": "NS-27-06",
+      "type": "historical_publication",
+      "statement": "Iacopini Petri Barrat Latora Nature Communications10:2485 June6 2019 published Simplicial Models of Social Contagion",
+      "source_ids": [
+        "S97"
+      ],
+      "locator": "Nature Communications original metadata and abstract",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-27-07",
+      "type": "teaching_example",
+      "statement": "Toy hazard h_A=beta1 m_A+beta2 q_A with beta1=1 beta2=2, m2, q0/1 yields h2/4; not a quoted original or measured effect",
+      "source_ids": [],
+      "locator": "Author-defined teaching model and direct arithmetic",
+      "verification_status": "math_checked_author_created"
+    },
+    {
+      "claim_id": "NS-27-08",
+      "type": "model_specific_result",
+      "statement": "Simplicial contagion models with higher-order reinforcement can exhibit discontinuous/hysteretic transitions under model-dependent conditions",
+      "source_ids": [
+        "S97"
+      ],
+      "locator": "2019 paper abstract and theory results; parameter-qualified",
+      "verification_status": "journal_source_qualified"
+    },
+    {
+      "claim_id": "NS-27-09",
+      "type": "historical_publication",
+      "statement": "Battiston Cencetti Iacopini Latora Lucas Patania Young Petri Physics Reports874:1-92 (2020) synthesizes networks beyond pairwise interactions",
+      "source_ids": [
+        "S98"
+      ],
+      "locator": "Turing institutional repository and publication metadata",
+      "verification_status": "publisher_record_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Source metadata and selected abstract/full-text scopes checked; independent claim-by-claim original-paper review remains incomplete.",
+    "All author-created toy graphs, mathematical formulas and counterexamples must be kept separate from genuine study data.",
+    "Book-wide outline_approved/evidence_verified remain false; this is not review PASS, final approval or platform publication."
+  ]
+}

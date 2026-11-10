@@ -2,20 +2,20 @@
   "schema_version": "1.0",
   "lane": "nonfiction",
   "tracking_mode": "partial-batch-continuity-plus-derived-progress",
-  "note": "第20—25章为已登记研究性初稿，23—25章跨第五/六部；章级进度用于续写和派生站点展示，不代表独立事实核验或全书工作流审批。",
+  "note": "全书审校P0新增第26—28章，revision1。23—25章与其余稿件仍需新版本统一双审；全书目录、站点进度不等于正式证据/大纲闸门获批。",
   "progress_summary": {
     "source": "book.json",
     "total": 34,
-    "draft": 25,
-    "outline": 9,
+    "draft": 28,
+    "outline": 6,
     "final": 0,
     "proposals": 0,
     "review_status": "PENDING",
     "final_approved": false
   },
-  "current_revision": 0,
-  "last_written_chapter": "25",
-  "latest_batch": "23-25",
+  "current_revision": 1,
+  "last_written_chapter": "28",
+  "latest_batch": "26-28",
   "chapter_progress": {
     "20": {
       "title": "网络流行病学的前史：从SIR开始",
@@ -102,6 +102,49 @@
       "core_question": "同样三条静态边为什么在不同接触时序下有不同可达性？",
       "outgoing_problem": "边的时间戳无法表达不同关系类型，多层网络如何建模？",
       "continuity_boundary": "Kempe2002在先、Pan2011实证、Holme/Saramäki2012综述；时间存在路径不代表实际传播或因果影响"
+    },
+    "26": {
+      "title": "现实不止一层：多层网络",
+      "status": "draft",
+      "body": "draft/26.md",
+      "claims": "draft/26.claims.json",
+      "source_ids": [
+        "S18",
+        "S94",
+        "S95"
+      ],
+      "core_question": "同样三个人，关系分层和汇总为何产生不同聚类与可达性？",
+      "outgoing_problem": "一次三人共同活动能否分解为三次双人关系？",
+      "continuity_boundary": "多层框架与依赖网络故障模型不同；身份复制不是多个人"
+    },
+    "27": {
+      "title": "三个人不是三条边：高阶关系",
+      "status": "draft",
+      "body": "draft/27.md",
+      "claims": "draft/27.claims.json",
+      "source_ids": [
+        "S96",
+        "S97",
+        "S98"
+      ],
+      "core_question": "高阶群体事件为什么无法从二元投影三角形唯一重构？",
+      "outgoing_problem": "模拟的行为级联能否从观察数据识别真实同伴影响？",
+      "continuity_boundary": "单纯复形对面闭合不等于真实双人会议；高阶动力学非社会因果证实"
+    },
+    "28": {
+      "title": "连接是影响，还是彼此相似",
+      "status": "draft",
+      "body": "draft/28.md",
+      "claims": "draft/28.claims.json",
+      "source_ids": [
+        "S99",
+        "S100",
+        "S101",
+        "S102"
+      ],
+      "core_question": "相似朋友和同步采用为什么不能证明沿边的因果影响？",
+      "outgoing_problem": "若机器能猜中下一条边，就算理解网络了吗？",
+      "continuity_boundary": "同质性/共享环境/社会影响可混杂；2009结果仅原样本估计；干扰潜在结果需暴露假设"
     }
   },
   "review_status": "PENDING"

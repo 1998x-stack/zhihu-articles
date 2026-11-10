@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "26",
+  "revision": 1,
+  "editorial_status": "p0_repair_working_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "review_status": "PENDING",
+  "claims": [
+    {
+      "claim_id": "NS-26-01",
+      "type": "conceptual_boundary",
+      "statement": "Temporal edge order and layer/relationship semantics are different missing dimensions in aggregated graphs",
+      "source_ids": [
+        "S18"
+      ],
+      "locator": "Kivelä 2014 Introduction/definition scope, plus connection to prior ch25",
+      "verification_status": "survey_context_checked"
+    },
+    {
+      "claim_id": "NS-26-02",
+      "type": "teaching_example",
+      "statement": "Work A-B,B-C, club A-C produce aggregate K3 though neither layer has a triangle",
+      "source_ids": [],
+      "locator": "Author-defined toy graph; 3 edges union, no layer triangles",
+      "verification_status": "math_checked_author_created"
+    },
+    {
+      "claim_id": "NS-26-03",
+      "type": "historical_publication",
+      "statement": "Buldyrev Parshani Paul Stanley Havlin Nature464:1025-1028 appeared April15 2010 and studies interdependent failure cascades",
+      "source_ids": [
+        "S94"
+      ],
+      "locator": "Nature primary publication metadata, title/authors/abstract",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-26-04",
+      "type": "historical_publication",
+      "statement": "Kivelä et al 2014 J Complex Networks2:203-271 and Boccaletti et al 2014 Physics Reports544:1-122 are review/standardization not origin of multilayer thought",
+      "source_ids": [
+        "S18",
+        "S95"
+      ],
+      "locator": "Oxford Academic and Physics Reports publication metadata",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-26-05",
+      "type": "mathematical_definition",
+      "statement": "Multilayer network framework has state nodes (node,layer) and intra/interlayer adjacency; not necessarily all entities present all layers",
+      "source_ids": [
+        "S18",
+        "S95"
+      ],
+      "locator": "Kivelä et al 2014 multilayer review supra adjacency framework",
+      "verification_status": "model_scope_checked"
+    },
+    {
+      "claim_id": "NS-26-06",
+      "type": "teaching_comparison",
+      "statement": "In work layer A degree1 and B degree2; aggregate A degree2 and a triangle, so different centrality/closure interpretations",
+      "source_ids": [],
+      "locator": "Author-created A-B B-C vs A-C example; arithmetic direct",
+      "verification_status": "math_checked_author_created"
+    },
+    {
+      "claim_id": "NS-26-07",
+      "type": "model_specific_result",
+      "statement": "Interdependent network coupling under Buldyrev assumptions can change percolation/cascading resilience; not generic claim every multi-layer network weaker",
+      "source_ids": [
+        "S94"
+      ],
+      "locator": "Nature 2010 abstract and model description",
+      "verification_status": "publisher_abstract_qualified"
+    },
+    {
+      "claim_id": "NS-26-08",
+      "type": "teaching_matrix",
+      "statement": "Two 3-node layers can be represented by 6x6 supra adjacency [[A1,wI],[wI,A2]] only for corresponding node-pair interlayer couplings",
+      "source_ids": [
+        "S18"
+      ],
+      "locator": "Author pedagogical two-layer matrix, special coupling case",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-26-09",
+      "type": "editorial_inference",
+      "statement": "Number of observed layers does not by itself improve model fidelity without consistent identities, edge meaning and data quality",
+      "source_ids": [
+        "S18",
+        "S95"
+      ],
+      "locator": "Survey treatment of representation choices; author's methodological inference",
+      "verification_status": "qualified_inference"
+    }
+  ],
+  "outstanding_checks": [
+    "Source metadata and selected abstract/full-text scopes checked; independent claim-by-claim original-paper review remains incomplete.",
+    "All author-created toy graphs, mathematical formulas and counterexamples must be kept separate from genuine study data.",
+    "Book-wide outline_approved/evidence_verified remain false; this is not review PASS, final approval or platform publication."
+  ]
+}

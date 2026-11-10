@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "network-science-history",
   "title": "连接的真相：一部网络科学发展史",
-  "reading_notice": "第01—25章共25篇为带逐条主张映射的历史科学非虚构研究性工作初稿；序章00、第26—32章和尾声33共9篇仍是策划占位。第23—25章完成同步、PageRank/HITS与时间网络跨部批次。全书 outline_approved=false、evidence_verified=false、review_status=PENDING、final_approved=false；工作初稿不等于独立双审或正式出版批准。",
+  "reading_notice": "第01—28章共28篇为已有逐项主张记录的历史科学非虚构研究性工作初稿；序章00、第29—32章及尾声33共6篇仍是策划占位。全书P0退修第一批完成第26—28章（多层/高阶/网络因果），已经产生修订版本1；旧 revision0 审校报告只作为历史问题单，必须针对新稿重新审核。全书 outline_approved=false、evidence_verified=false、review_status=PENDING、final_approved=false；工作初稿不等于独立双审或出版批准。",
   "chapters": [
     {
       "id": "prologue",
@@ -203,21 +203,27 @@
       "title": "26｜现实不止一层：多层网络",
       "part": "第6部｜一张图装不下现实世界",
       "file": "draft/26.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/26.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-27",
       "title": "27｜三个人不是三条边：高阶关系",
       "part": "第6部｜一张图装不下现实世界",
       "file": "draft/27.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/27.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-28",
       "title": "28｜连接是影响，还是彼此相似",
       "part": "第6部｜一张图装不下现实世界",
       "file": "draft/28.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/28.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-29",

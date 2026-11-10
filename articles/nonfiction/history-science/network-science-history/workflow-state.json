@@ -1,12 +1,13 @@
 {
   "schema_version": "2.0",
   "lane": "nonfiction",
-  "current_revision": 0,
+  "current_revision": 1,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "PENDING",
   "reviewed_revision": null,
   "unresolved_blockers": [],
   "edited_revision": null,
-  "final_approved": false
+  "final_approved": false,
+  "revision_note": "2026-11-10 全书审校P0缺稿整改新增第26—28章实质研究初稿；revision0首轮QA结论CHANGES_REQUIRED历史保留，新版本待两道独立复审；原outline_approved/evidence_verified均false。"
 }
