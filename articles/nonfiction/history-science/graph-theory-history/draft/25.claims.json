@@ -1,12 +1,113 @@
 {
   "chapter": "25",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S08",
-    "S15"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Cook1971第三届STOC转写含转录者修订注释；Karp1972 Springer出版社原刊书目及文本转录；Clay官方2026仍标P vs NP未解。3-SAT至CLIQUE构造为标准现代归约解释，不是Karp/Cook原文案例。",
+  "claims": [
+    {
+      "claim_id": "GT25-01",
+      "claim": "匹配多项式算法与Hamiltonian回路一般判定问题的不同复杂性引出Cook/Karp归约研究",
+      "source_ids": [
+        "S112",
+        "S115",
+        "S116"
+      ],
+      "status": "HISTORICAL_SCOPE"
+    },
+    {
+      "claim_id": "GT25-02",
+      "claim": "哈密顿回路证书为顶点次序及每步边，能多项式核验",
+      "source_ids": [
+        "S116",
+        "S117"
+      ],
+      "status": "MODERN_COMPLEXITY_DEFINITION"
+    },
+    {
+      "claim_id": "GT25-03",
+      "claim": "P与NP以判定问题和多项式可验证YES证书定义，P包含于NP",
+      "source_ids": [
+        "S115",
+        "S116"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT25-04",
+      "claim": "Cook1971原题The Complexity of Theorem-Proving Procedures，原文重言式与查询归约，后世SAT转述需区分",
+      "source_ids": [
+        "S115"
+      ],
+      "status": "PRIMARY_TEXT_SCOPED"
+    },
+    {
+      "claim_id": "GT25-05",
+      "claim": "Cook-Levin NP完全性奠基，Levin独立贡献，SAT现代表述",
+      "source_ids": [
+        "S115",
+        "S116",
+        "S117"
+      ],
+      "status": "HISTORICAL_INTERPRETATION_SCOPED"
+    },
+    {
+      "claim_id": "GT25-06",
+      "claim": "多项式多对一归约A≤pB映射保留是否性，若B∈P且A≤pB则A∈P",
+      "source_ids": [
+        "S116"
+      ],
+      "status": "MODERN_REDUCTION_THEOREM"
+    },
+    {
+      "claim_id": "GT25-07",
+      "claim": "3SAT三子句phi=(a∨b)(¬a∨c)(¬b∨c)对应三点团的自制示例",
+      "source_ids": [
+        "S116"
+      ],
+      "status": "MODERN_AUTHOR_EXAMPLE"
+    },
+    {
+      "claim_id": "GT25-08",
+      "claim": "一般3SAT到CLIQUE的子句文字顶点构造，矛盾文字不连边，k点团等价可满足",
+      "source_ids": [
+        "S116"
+      ],
+      "status": "MODERN_REDUCTION_PROOF"
+    },
+    {
+      "claim_id": "GT25-09",
+      "claim": "Karp1972 Reducibility Among Combinatorial Problems收入Complexity of Computer Computations 85—103",
+      "source_ids": [
+        "S116"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT25-10",
+      "claim": "NP-hard与NP-complete定义及证明NP完全需要成员关系和已知完全问题归约",
+      "source_ids": [
+        "S116"
+      ],
+      "status": "MODERN_THEORY"
+    },
+    {
+      "claim_id": "GT25-11",
+      "claim": "最大匹配、MST、最短路在P，Hamiltonian回路与一般顶点覆盖判定NP完全，二分图覆盖多项式",
+      "source_ids": [
+        "S116",
+        "S112",
+        "S65"
+      ],
+      "status": "PROBLEM_CLASS_DISTINCTION"
+    },
+    {
+      "claim_id": "GT25-12",
+      "claim": "截至2026-11-10 Clay官方仍将P vs NP列未解，NP完全并未证明P≠NP",
+      "source_ids": [
+        "S117"
+      ],
+      "status": "CURRENT_OFFICIAL_AND_LOGIC"
+    }
+  ]
 }
