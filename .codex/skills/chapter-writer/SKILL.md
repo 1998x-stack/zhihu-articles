@@ -24,3 +24,6 @@ description: 虚构分章写作；仅在fiction流程需要依据故事蓝图续
 - 文件主写入者唯一、输出范围明确；不得通过“润色”掩盖关键错误。
 - 对本轮文稿版本负责；新版本必须重新复审。
 - 对非虚构先核对来源和事实强度；对虚构先核对动机、资源、时间线和公平线索。
+
+## 分章交付与网站目录交接
+每批交付包含章节 id/题名/分部、`draft/NN.md` 路径及实际 `outline/draft` 状态，提供给主编/仓库维护者同步 `book.json`；站点导航文件不属于本阶段正文写入权。新系列需有 `README.md + book.json`，并验证 `python scripts/build_pages.py --check-catalog`。公开工作稿不等于正式平台发布；参见 `docs/pages-publishing.md`。

@@ -24,3 +24,6 @@ description: 非虚构证据叙事架构；仅在nonfiction流程需要依据 re
 - 文件主写入者唯一、输出范围明确；不得通过“润色”掩盖关键错误。
 - 对本轮文稿版本负责；新版本必须重新复审。
 - 对非虚构先核对来源和事实强度；对虚构先核对动机、资源、时间线和公平线索。
+
+## 大纲交接到网站阅读目录
+为新系列或三章批次提供唯一 chapter id、标题、分部和实际 Markdown 路径的映射，交由仓库维护者维护 `book.json`。未写正文的章节明确标记 `outline`，不得把待核提纲或来源线索描述成已审定内容。`book.json` 是导航派生产物而非本阶段所有文件；新书需通过 `python scripts/build_pages.py --check-catalog`。参见 `docs/pages-publishing.md`。
