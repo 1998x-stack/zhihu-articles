@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "lane": "nonfiction",
   "tracking_mode": "partial-batch-continuity-plus-derived-progress",
-  "note": "序章00—尾声37共38篇正文工作初稿已齐，书稿进入独立史实、公式、连续性与结构审稿；工作初稿覆盖不等于发布、终稿审定或审稿PASS。",
+  "note": "00—37共38篇工作初稿齐全，423条不同claim_id可追踪。全书正式四项首轮审校已出报告，结论CHANGES_REQUIRED；阻断见workflow-state.json和qa/，禁止以初稿100%误写终稿或审校通过。",
   "progress_summary": {
     "source": "book.json",
     "total": 38,
@@ -10,11 +10,11 @@
     "outline": 0,
     "final": 0,
     "proposals": 0,
-    "review_status": "PENDING",
+    "review_status": "CHANGES_REQUIRED",
     "final_approved": false
   },
   "current_revision": 0,
-  "review_status": "PENDING",
+  "review_status": "CHANGES_REQUIRED",
   "last_written_chapter": "37",
   "latest_batch": "37-epilogue-and-full-review",
   "chapter_progress": {
