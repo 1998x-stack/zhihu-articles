@@ -1,0 +1,282 @@
+{
+  "chapter": "33",
+  "title": "从琥珀到光子：看不见的场如何改变世界",
+  "part": "尾声",
+  "manuscript_path": "proposals/33.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E33-01",
+      "statement": "吉尔伯特1600 De Magnete为磁与电研究的重要早期史料",
+      "kind": "原刊/历史背景",
+      "section": "二",
+      "source_ids": [
+        "S33-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-02",
+      "statement": "伏打电堆1800年前后建立持续电流实验路线",
+      "kind": "历史事实",
+      "section": "二",
+      "source_ids": [
+        "S33-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-03",
+      "statement": "奥斯特1820磁针电流效应与法拉第1821电磁旋转、1831感应前后相连",
+      "kind": "跨章时间线",
+      "section": "三",
+      "source_ids": [
+        "S33-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-04",
+      "statement": "法拉第力线与场观念发展不能说已是现代麦克斯韦四方程",
+      "kind": "科学史解释",
+      "section": "三",
+      "source_ids": [
+        "S33-03",
+        "S33-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-05",
+      "statement": "现代真空SI中的旋度方程对应有限速度c=1/sqrt(μ0ε0)",
+      "kind": "现代公式",
+      "section": "四",
+      "source_ids": [
+        "S33-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-06",
+      "statement": "Maxwell 1861—1865将电磁波速与光联系，Hertz 1880年代给予实验支持",
+      "kind": "理论史",
+      "section": "四",
+      "source_ids": [
+        "S33-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-07",
+      "statement": "1887 Michelson Morley实验只是检验具体以太漂移预言，非所有以太模型总否定",
+      "kind": "方法论与科学史",
+      "section": "五",
+      "source_ids": [
+        "S33-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-08",
+      "statement": "Einstein 1905磁铁导体开篇且论及未测到地球相对光媒介运动",
+      "kind": "原文事实",
+      "section": "五",
+      "source_ids": [
+        "S33-06"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-09",
+      "statement": "Einstein 1905已有电磁分量变换，Minkowski后续强调四维几何整理",
+      "kind": "科学史归属",
+      "section": "六",
+      "source_ids": [
+        "S33-06",
+        "S33-07"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-10",
+      "statement": "Planck 1900能量元统计与成熟自由光子概念存在历史差别",
+      "kind": "科学史边界",
+      "section": "七",
+      "source_ids": [
+        "S33-08"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-11",
+      "statement": "光量子E=hν与后来电磁场量子态是关联而非同一时刻完成",
+      "kind": "跨章理论史",
+      "section": "七",
+      "source_ids": [
+        "S33-08"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-12",
+      "statement": "QED重整化不同研究路线在1965诺贝尔奖获表彰，Dyson亦有贡献",
+      "kind": "历史归属",
+      "section": "八",
+      "source_ids": [
+        "S33-09"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-13",
+      "statement": "Yang Mills1954与后续电弱规范理论独立建构阶段应区分",
+      "kind": "跨章理论史",
+      "section": "八",
+      "source_ids": [
+        "S33-10"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-14",
+      "statement": "弱中性流1973、W/Z1983、Higgs2012为不同层级检验",
+      "kind": "实验史",
+      "section": "八",
+      "source_ids": [
+        "S33-10",
+        "S33-11",
+        "S33-12"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-15",
+      "statement": "经典电磁学是相对论和量子理论在适用极限的重要结构",
+      "kind": "理论解释",
+      "section": "十、十一",
+      "source_ids": [
+        "S33-04",
+        "S33-06"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-16",
+      "statement": "电弱统一尚不是包含强引力等全部基本作用的完成的最终统一",
+      "kind": "理论边界",
+      "section": "八、十一",
+      "source_ids": [
+        "S33-10",
+        "S33-12"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E33-17",
+      "statement": "全书尾声须区分电磁理论、工程技术、社会协作不可简化成单一人物发明史",
+      "kind": "编辑归纳",
+      "section": "九、十二",
+      "source_ids": [
+        "S33-03",
+        "S33-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S33-01",
+      "title": "Gilbert De Magnete 1600 archival search",
+      "url": "https://archive.org/search?query=William+Gilbert+De+Magnete",
+      "source_type": "馆藏版本检索（非逐页引文）",
+      "scope": "1600著作目录入口；各译文需与版本页核对"
+    },
+    {
+      "source_id": "S33-02",
+      "title": "Britannica Volta biography",
+      "url": "https://www.britannica.com/biography/Alessandro-Volta",
+      "source_type": "二手权威人物史",
+      "scope": "伏打电堆、1800持续电流背景"
+    },
+    {
+      "source_id": "S33-03",
+      "title": "Royal Institution Michael Faraday biography",
+      "url": "https://www.rigb.org/explore-science/explore/person/michael-faraday-1791-1867",
+      "source_type": "一手机构人物档案",
+      "scope": "1821转动、1831感应、1845场理论发展"
+    },
+    {
+      "source_id": "S33-04",
+      "title": "James Clerk Maxwell Foundation biography",
+      "url": "https://www.clerkmaxwellfoundation.org/html/about_maxwell.html",
+      "source_type": "一手纪念基金会机构史",
+      "scope": "1861—1865理论发展与电磁波/光联系"
+    },
+    {
+      "source_id": "S33-05",
+      "title": "Michelson Morley AJS 34 1887",
+      "url": "https://ajsonline.org/article/62505-on-the-relative-motion-of-the-earth-and-the-luminiferous-ether",
+      "source_type": "原刊论文入口",
+      "scope": "1887特定以太风实验边界"
+    },
+    {
+      "source_id": "S33-06",
+      "title": "Einstein 1905 moving bodies English translation",
+      "url": "https://gisinb.ch/gisin/physique/relativite/Paper_en1/Einstein.html",
+      "source_type": "原论文译文",
+      "scope": "磁铁导体/相对光媒介未检出/时钟同步/电磁分量变换"
+    },
+    {
+      "source_id": "S33-07",
+      "title": "Stanford Gravity Probe B spacetime history",
+      "url": "https://einstein.stanford.edu/SPACETIME/spacetime2",
+      "source_type": "大学科学史教育资料",
+      "scope": "1905到Minkowski四维系统化的区别"
+    },
+    {
+      "source_id": "S33-08",
+      "title": "APS 2002 Planck blackbody history",
+      "url": "https://www.aps.org/apsnews/2002/10/this-month-in-physics-history",
+      "source_type": "专业学会科学史",
+      "scope": "1900能量元与成熟自由光子不应合并"
+    },
+    {
+      "source_id": "S33-09",
+      "title": "NobelPrize.org Physics 1965",
+      "url": "https://www.nobelprize.org/prizes/physics/1965/summary/",
+      "source_type": "官方奖项史",
+      "scope": "Tomonaga Schwinger Feynman对QED贡献（须补Dyson）"
+    },
+    {
+      "source_id": "S33-10",
+      "title": "Nobel 1979 press release",
+      "url": "https://www.nobelprize.org/prizes/physics/1979/press-release/",
+      "source_type": "奖项官方新闻稿",
+      "scope": "电弱理论发展与GWS贡献"
+    },
+    {
+      "source_id": "S33-11",
+      "title": "CERN W/Z discovery history",
+      "url": "https://home.cern/carrying-weak-force-thirty-years-w-boson/",
+      "source_type": "机构研究史",
+      "scope": "1983新媒介粒子实证"
+    },
+    {
+      "source_id": "S33-12",
+      "title": "ATLAS Higgs discovery",
+      "url": "https://atlas.cern/Discover/Physics/Higgs",
+      "source_type": "机构实验史",
+      "scope": "2012新玻色子实证与后续审视"
+    }
+  ],
+  "unresolved": [
+    "全书序章00与31章之间所有跨章时间线、发明贡献、现代方程适用域需要全面审校",
+    "吉尔伯特原刊与中文译本、伏打和奥斯特等原始文件需补页码而非仅可靠二手入口",
+    "1887Michelson–Morley观测记录与1905相对论归属问题仍受PR #64专项审查的CHANGES_REQUIRED约束",
+    "现代Maxwell式及电磁场张量在SI/度规约定下必须与第24章修订一致",
+    "无线通信、电力、激光的技术史涉及工程师、合作者和社会因素，尾声不能替代各章出处",
+    "尾声完成不意味着正式QA、事实核验、版权、出版工作流获得授权"
+  ]
+}

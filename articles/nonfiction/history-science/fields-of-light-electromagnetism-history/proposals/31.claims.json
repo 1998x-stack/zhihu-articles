@@ -1,0 +1,262 @@
+{
+  "chapter": "31",
+  "title": "W、Z与希格斯：统一理论如何接受审判",
+  "part": "第八部｜更大的统一：从规范场到量子光技术",
+  "manuscript_path": "proposals/31.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E31-01",
+      "statement": "1973 Gargamelle中性流证据与1983 Z直接产生不同",
+      "kind": "实验史/界限",
+      "section": "二",
+      "source_ids": [
+        "S31-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-02",
+      "statement": "SPS改造为高能质子反质子对撞机以产生W/Z",
+      "kind": "加速器史",
+      "section": "三",
+      "source_ids": [
+        "S31-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-03",
+      "statement": "van der Meer随机冷却帮助实现足够密集的反质子束",
+      "kind": "工程史",
+      "section": "三",
+      "source_ids": [
+        "S31-02",
+        "S31-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-04",
+      "statement": "UA1 UA2两个实验合作组提供相互补充的实验核对",
+      "kind": "合作实验史",
+      "section": "三、五",
+      "source_ids": [
+        "S31-02",
+        "S31-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-05",
+      "statement": "1984物理诺贝尔奖颁给Rubbia和van der Meer",
+      "kind": "奖项史",
+      "section": "三",
+      "source_ids": [
+        "S31-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-06",
+      "statement": "W±到带电轻子及(反)中微子衰变可以通过横向动量不平衡研究",
+      "kind": "现代实验方法",
+      "section": "四",
+      "source_ids": [
+        "S31-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-07",
+      "statement": "1983年1月UA1 UA2报告W候选、1月25日公开新闻发布",
+      "kind": "历史日期",
+      "section": "五",
+      "source_ids": [
+        "S31-02",
+        "S31-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-08",
+      "statement": "1983年春Z通过e+e−、μ+μ−等末态重建得到发现证据",
+      "kind": "实验史/现代方法",
+      "section": "五",
+      "source_ids": [
+        "S31-04",
+        "S31-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-09",
+      "statement": "Z在1983年的公开通知有5月与6月等节点不能混用",
+      "kind": "科学史争议",
+      "section": "五",
+      "source_ids": [
+        "S31-04",
+        "S31-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-10",
+      "statement": "树级电弱模型有mW=mZcosθW等关系，具体数值需辐射修正",
+      "kind": "现代公式",
+      "section": "六",
+      "source_ids": [
+        "S31-07"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-11",
+      "statement": "Higgs机制解释W/Z树级质量与光子无静质量，并非质子质量全部来源",
+      "kind": "现代物理/边界",
+      "section": "七",
+      "source_ids": [
+        "S31-07"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-12",
+      "statement": "2012年7月4日ATLAS和CMS独立公布约125GeV处新玻色子",
+      "kind": "当日官方声明",
+      "section": "八",
+      "source_ids": [
+        "S31-06",
+        "S31-07"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-13",
+      "statement": "H→γγ可用于重建希格斯候选的双光子不变质量且最低阶耦合经圈过程",
+      "kind": "现代实验理论",
+      "section": "八",
+      "source_ids": [
+        "S31-07"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-14",
+      "statement": "五西格玛需理解为在背景模型与统计假设下的检验量",
+      "kind": "统计解释",
+      "section": "九",
+      "source_ids": [
+        "S31-06",
+        "S31-08"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-15",
+      "statement": "2012发现新玻色子与后续测定自旋及耦合是不同阶段",
+      "kind": "实验史",
+      "section": "九",
+      "source_ids": [
+        "S31-07"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-16",
+      "statement": "2013 Nobel授予Englert Higgs，但1964机制贡献不止二人",
+      "kind": "贡献归属",
+      "section": "九",
+      "source_ids": [
+        "S31-09",
+        "S31-07"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E31-17",
+      "statement": "标准模型不自动解决暗物质及完整量子引力问题",
+      "kind": "理论界限/展望",
+      "section": "十一",
+      "source_ids": [
+        "S31-07"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S31-01",
+      "title": "CERN Gargamelle history",
+      "url": "https://home.cern/science/experiments/gargamelle",
+      "source_type": "CERN实验史",
+      "scope": "1973弱中性流是间接过程证据而非实在Z产生事件"
+    },
+    {
+      "source_id": "S31-02",
+      "title": "CERN Thirty years of the W boson",
+      "url": "https://home.cern/carrying-weak-force-thirty-years-w-boson/",
+      "source_type": "机构实验史",
+      "scope": "SPS质子反质子改造、随机冷却、UA1/UA2候选分析"
+    },
+    {
+      "source_id": "S31-03",
+      "title": "NobelPrize.org Physics 1984",
+      "url": "https://www.nobelprize.org/prizes/physics/1984/summary/",
+      "source_type": "官方奖项记录",
+      "scope": "Carlo Rubbia Simon van der Meer获奖及表彰内容"
+    },
+    {
+      "source_id": "S31-04",
+      "title": "CERN Repository spring of W and Z (2003)",
+      "url": "https://repository.cern/records/s6ee1-gkr92",
+      "source_type": "机构历史文献",
+      "scope": "1983 W/Z宣布、合作组与初始质量估计；后世回顾"
+    },
+    {
+      "source_id": "S31-05",
+      "title": "CERN archives UA1 collaboration",
+      "url": "https://archives.web.cern.ch/CERN_archive/guide/experimental_physics/SPS/isaua1/",
+      "source_type": "一手档案目录",
+      "scope": "UA1档案及1983 W/Z新闻/公开宣布的不同日期"
+    },
+    {
+      "source_id": "S31-06",
+      "title": "CERN 4 July 2012 discovery announcement",
+      "url": "https://home.cern/cern-experiments-observe-particle-consistent-with-long-sought-higgs-boson/",
+      "source_type": "当日机构新闻稿",
+      "scope": "ATLAS CMS独立的新玻色子约125—126GeV与显著性"
+    },
+    {
+      "source_id": "S31-07",
+      "title": "ATLAS Higgs boson landmark discovery",
+      "url": "https://atlas.cern/Discover/Physics/Higgs",
+      "source_type": "实验合作组教育资料",
+      "scope": "2012发现与2013获奖、后续性质与衰变"
+    },
+    {
+      "source_id": "S31-08",
+      "title": "CERN How did we discover Higgs",
+      "url": "https://home.cern/science/physics/higgs-boson/how",
+      "source_type": "机构实验统计解释",
+      "scope": "五西格玛、背景、质量峰定义与谨慎解释"
+    },
+    {
+      "source_id": "S31-09",
+      "title": "NobelPrize.org Physics 2013",
+      "url": "https://www.nobelprize.org/prizes/physics/2013/summary/",
+      "source_type": "官方奖项记录",
+      "scope": "Englert Higgs获奖范围；非全部贡献者名录"
+    }
+  ],
+  "unresolved": [
+    "逐篇核对1983年UA1/UA2 W候选原始论文及Z候选原始论文的事件数、背景和时间",
+    "CERN 5月27日与6月1日等Z发现日期按报告/新闻发布/归档正式公告分开",
+    "验证W->eν横动量缺失处理对初始横动量/探测器系统误差的近似条件",
+    "补充标准模型树级质量关系、希格斯到双光子的圈图计算及单位约定的独立数学复核",
+    "用ATLAS/CMS 2012原始PRL/Physics Letters B论文核对各渠道五西格玛与组合定义",
+    "区分2012新玻色子发现与2013之后自旋宇称和耦合性质的检验过程"
+  ]
+}

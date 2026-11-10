@@ -1,0 +1,279 @@
+{
+  "chapter": "32",
+  "title": "从一束激光到单个光子：电磁学还会怎样发展",
+  "part": "第八部｜更大的统一：从规范场到量子光技术",
+  "manuscript_path": "proposals/32.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E32-01",
+      "statement": "Townes Basov Prokhorov推动maser量子电子学，1958Schawlow和Townes光学方案",
+      "kind": "科学史",
+      "section": "二",
+      "source_ids": [
+        "S32-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-02",
+      "statement": "Maiman 1960年5月16日工作红宝石激光器",
+      "kind": "实验史",
+      "section": "二",
+      "source_ids": [
+        "S32-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-03",
+      "statement": "1964物理诺贝尔奖相关理论与Maiman首台设备不等于同一事",
+      "kind": "奖项与贡献边界",
+      "section": "二",
+      "source_ids": [
+        "S32-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-04",
+      "statement": "受激/自发辐射的n+1占据因子是适用相互作用下的现代量子理论解释",
+      "kind": "现代理论",
+      "section": "三",
+      "source_ids": [
+        "S32-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-05",
+      "statement": "理想单模相干态数目服从均值|α|²泊松分布",
+      "kind": "现代量子光学",
+      "section": "四",
+      "source_ids": [
+        "S32-12"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-06",
+      "statement": "Poisson均值1时P0=1/e P1=1/e P(n≥2)=1−2/e",
+      "kind": "数学演算",
+      "section": "四",
+      "source_ids": [
+        "S32-12"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-07",
+      "statement": "二阶相干函数g2(0)=1对应理想相干态，理想单光子数目态为0",
+      "kind": "现代量子光学",
+      "section": "五",
+      "source_ids": [
+        "S32-03",
+        "S32-12"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-08",
+      "statement": "1977 Kimble Dagenais Mandel实验报道共振荧光反聚束",
+      "kind": "原刊事实",
+      "section": "五",
+      "source_ids": [
+        "S32-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-09",
+      "statement": "双光子入射50:50分光器符合率下降须光子不可区分和时间匹配",
+      "kind": "现代理论/实验",
+      "section": "六",
+      "source_ids": [
+        "S32-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-10",
+      "statement": "Hong Ou Mandel 1987原刊使用双光子干涉测极短时间间隔",
+      "kind": "原刊事实",
+      "section": "六",
+      "source_ids": [
+        "S32-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-11",
+      "statement": "Bouwmeester Pan等人1997在Nature发表纠缠辅助光子量子态传输实验",
+      "kind": "原刊事实",
+      "section": "七",
+      "source_ids": [
+        "S32-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-12",
+      "statement": "量子态传输并不以超光速传递可控信息",
+      "kind": "量子信息理论边界",
+      "section": "七",
+      "source_ids": [
+        "S32-05",
+        "S32-06"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-13",
+      "statement": "Clauser Aspect Zeilinger获得2022物理诺贝尔奖",
+      "kind": "奖项史",
+      "section": "七",
+      "source_ids": [
+        "S32-06"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-14",
+      "statement": "Haroche/Wineland获得2012奖项，并有腔QED与激光离子控制不同路径",
+      "kind": "科研史",
+      "section": "八",
+      "source_ids": [
+        "S32-07",
+        "S32-08"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-15",
+      "statement": "单光子源纯度、效率、亮度、不可区分性与探测性能不能互相等同",
+      "kind": "技术限制",
+      "section": "九",
+      "source_ids": [
+        "S32-09",
+        "S32-10"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-16",
+      "statement": "2018奖项含光镊与超短高强度脉冲",
+      "kind": "奖项史",
+      "section": "十",
+      "source_ids": [
+        "S32-11"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    },
+    {
+      "claim_id": "E32-17",
+      "statement": "2005奖项含Glauber量子光学相干与Hall/Hänsch频率测量",
+      "kind": "奖项史",
+      "section": "十",
+      "source_ids": [
+        "S32-12"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; verify first-edition full text, experimental statistical conditions, formula conventions and expert review before approval"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S32-01",
+      "title": "NobelPrize.org laser history",
+      "url": "https://educationalgames.nobelprize.org/educational/physics/laser/facts/history.html",
+      "source_type": "机构科普历史",
+      "scope": "maser、1958激光理论与1960Maiman实现"
+    },
+    {
+      "source_id": "S32-02",
+      "title": "German Patent Office laser history",
+      "url": "https://www.dpma.de/english/our_office/publications/milestones/inventionsthatmadehistory/laser/index.html",
+      "source_type": "德国官方科技史",
+      "scope": "1960年5月16日红宝石激光与首台设备"
+    },
+    {
+      "source_id": "S32-03",
+      "title": "Kimble Dagenais Mandel 1977 PRL",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.39.691",
+      "source_type": "原始实验论文",
+      "scope": "钠原子共振荧光光子反聚束及刊日"
+    },
+    {
+      "source_id": "S32-04",
+      "title": "Hong Ou Mandel 1987 PRL",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.59.2044",
+      "source_type": "原始实验论文",
+      "scope": "双光子干涉、时间间隔测量"
+    },
+    {
+      "source_id": "S32-05",
+      "title": "Bouwmeester et al Nature 390 1997",
+      "url": "https://doi.org/10.1038/37539",
+      "source_type": "原始实验论文",
+      "scope": "纠缠光子支持量子态传输，不支持超光速发送信息"
+    },
+    {
+      "source_id": "S32-06",
+      "title": "NobelPrize.org physics 2022 press release",
+      "url": "https://www.nobelprize.org/prizes/physics/2022/press-release/",
+      "source_type": "官方奖项新闻稿",
+      "scope": "Bell不等式与纠缠光子实验及共同获奖"
+    },
+    {
+      "source_id": "S32-07",
+      "title": "Nobel Haroche 2012 lecture",
+      "url": "https://www.nobelprize.org/prizes/physics/2012/haroche/lecture/",
+      "source_type": "参与者学术讲演",
+      "scope": "腔QED和单光子非破坏性读出；需与原论文核对"
+    },
+    {
+      "source_id": "S32-08",
+      "title": "NIST Wineland 2012 award news",
+      "url": "https://www.nist.gov/news-events/news/2012/10/nists-david-j-wineland-wins-2012-nobel-prize-physics",
+      "source_type": "科研机构历史",
+      "scope": "离子捕获、激光控制、2012 Nobel"
+    },
+    {
+      "source_id": "S32-09",
+      "title": "NIST nonclassical light sources",
+      "url": "https://www.nist.gov/pml/productsservices/quantum-networks-nist/technologies-quantum-networks/sources-nonclassical-light",
+      "source_type": "科研机构技术资料",
+      "scope": "单光源纯度亮度不可区分性工程限制"
+    },
+    {
+      "source_id": "S32-10",
+      "title": "NIST high performance quantum-dot single-photon",
+      "url": "https://www.nist.gov/publications/high-performance-semiconductor-quantum-dot-single-photon-sources",
+      "source_type": "科研综述条目",
+      "scope": "按需单光子性能制约及扩展场景"
+    },
+    {
+      "source_id": "S32-11",
+      "title": "NobelPrize.org 2018 Physics press release",
+      "url": "https://www.nobelprize.org/prizes/physics/2018/press-release/",
+      "source_type": "官方奖项新闻稿",
+      "scope": "optical tweezers/chirped pulse amplification贡献"
+    },
+    {
+      "source_id": "S32-12",
+      "title": "NobelPrize.org 2005 Physics",
+      "url": "https://www.nobelprize.org/prizes/physics/2005/summary/",
+      "source_type": "官方奖项记录",
+      "scope": "Glauber光学相干理论、Hall Hänsch激光光谱及频率梳"
+    }
+  ],
+  "unresolved": [
+    "早期maser与激光原始期刊、专利优先权及首次设备年份需要精确归属",
+    "相干态泊松分布、g2正则序及实验探测器时间窗的数学适用条件需独立复核",
+    "1977反聚束与1978单原子共振荧光相干工作不可混为同一实验",
+    "1987 HOM原论文测量对象和现代双光子聚束演示之间的术语范围需核对",
+    "1997量子态传输实验的后选择成功率与经典通信约束需回看原始实验方法",
+    "量子密钥分发与量子计算的工程性能、实际安全模型不能套用单次实验宣传"
+  ]
+}
