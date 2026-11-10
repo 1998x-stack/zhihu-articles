@@ -1,12 +1,121 @@
 {
   "chapter": "23",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S08",
-    "S15"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Ford–Fulkerson 1956 Cambridge原刊及Yale转载、1956运输论文与1972 Edmonds–Karp ACM原刊；残量网络证书、四点教学示例和复杂度为后世现代形式。",
+  "claims": [
+    {
+      "claim_id": "GT23-01",
+      "claim": "多路径共享容量的最大流目标不同于单条最短路",
+      "source_ids": [
+        "S106",
+        "S109"
+      ],
+      "status": "MODEL_DISTINCTION"
+    },
+    {
+      "claim_id": "GT23-02",
+      "claim": "可行流的容量约束、非源汇中转顶点流量守恒",
+      "source_ids": [
+        "S106",
+        "S109"
+      ],
+      "status": "MODEL_DEFINITION"
+    },
+    {
+      "claim_id": "GT23-03",
+      "claim": "四点五弧单位容量网络坏初始路线可只送1但最大可送2",
+      "source_ids": [
+        "S109"
+      ],
+      "status": "AUTHOR_EXAMPLE_MODERN"
+    },
+    {
+      "claim_id": "GT23-04",
+      "claim": "残量网络正向c-f、反向f代表增流或撤销原分配",
+      "source_ids": [
+        "S108",
+        "S109"
+      ],
+      "status": "MODERN_RESIDUAL_DEFINITION"
+    },
+    {
+      "claim_id": "GT23-05",
+      "claim": "残量路径s-b-a-t撤回a-b并将四点图总流由1增加到2",
+      "source_ids": [
+        "S108",
+        "S109"
+      ],
+      "status": "AUTHOR_EXAMPLE_MODERN"
+    },
+    {
+      "claim_id": "GT23-06",
+      "claim": "有向s-t割仅计从S向外的边容量，不计反向进入边",
+      "source_ids": [
+        "S106",
+        "S109"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT23-07",
+      "claim": "任意可行流值不超过任意s-t割容量的守恒与不等式证明",
+      "source_ids": [
+        "S106",
+        "S109"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT23-08",
+      "claim": "残量中不可达t时可达集确定一条与当前流等值的割，因此最大流等于最小割",
+      "source_ids": [
+        "S106",
+        "S109"
+      ],
+      "status": "THEOREM_MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT23-09",
+      "claim": "Ford与Fulkerson1956加拿大数学杂志8卷399-404原刊题录",
+      "source_ids": [
+        "S106"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT23-10",
+      "claim": "原刊开篇援引T. Harris铁路容量问题、第1节非构造性证明与第2节受限计算方案",
+      "source_ids": [
+        "S106"
+      ],
+      "status": "PRIMARY_TEXT_SCOPED"
+    },
+    {
+      "claim_id": "GT23-11",
+      "claim": "Ford-Fulkerson另篇1956运输论文用标号过程处理最大流相关计算",
+      "source_ids": [
+        "S107"
+      ],
+      "status": "PRIMARY_BIBLIO_ABSTRACT"
+    },
+    {
+      "claim_id": "GT23-12",
+      "claim": "整数容量任意增广有数值上界但无一般强多项式保证；一般实容量不当选路可能不终止",
+      "source_ids": [
+        "S108",
+        "S109"
+      ],
+      "status": "MODERN_ALGORITHM_BOUNDARY"
+    },
+    {
+      "claim_id": "GT23-13",
+      "claim": "Edmonds-Karp 1972最短边数增广规则有容量无关多项式界，常见O(VE²)实现",
+      "source_ids": [
+        "S108"
+      ],
+      "status": "PRIMARY_PAPER_AND_MODERN_ANALYSIS"
+    }
+  ]
 }
