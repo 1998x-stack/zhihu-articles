@@ -1,12 +1,116 @@
 {
   "chapter": "21",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S08",
-    "S15"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Borůvka 1926/ Jarník 1930 学术史综述、Kruskal 1956 AMS 原刊、Prim 1957 Bell System 原刊与引用文献；割交换证明及五城市算例为现代原创教学演绎。",
+  "claims": [
+    {
+      "claim_id": "GT21-01",
+      "claim": "MST是全局最小生成树成本构造任务而非仅证明连接存在",
+      "source_ids": [
+        "S96",
+        "S97",
+        "S98"
+      ],
+      "status": "THEOREM_AND_HISTORY_CONTEXT"
+    },
+    {
+      "claim_id": "GT21-02",
+      "claim": "正权连通子图可删环变生成树，生成树 n−1 边；负权需与连通子图任务区分",
+      "source_ids": [
+        "S99"
+      ],
+      "status": "MODERN_DEFINITION_AND_PROOF"
+    },
+    {
+      "claim_id": "GT21-03",
+      "claim": "五城市 AB2 AC3 BD5 CE7 总成本17的 Kruskal 教学演示",
+      "source_ids": [
+        "S97",
+        "S99"
+      ],
+      "status": "AUTHOR_EXAMPLE_MODERN"
+    },
+    {
+      "claim_id": "GT21-04",
+      "claim": "割上轻边可在某一MST中出现，严格唯一最轻边属于所有MST",
+      "source_ids": [
+        "S99"
+      ],
+      "status": "MODERN_CUT_PROPERTY"
+    },
+    {
+      "claim_id": "GT21-05",
+      "claim": "通过在最优树内加轻边再删环上一条跨割边的交换证明",
+      "source_ids": [
+        "S99"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT21-06",
+      "claim": "Borůvka 1926 两篇文章、经济电力网络的历史背景",
+      "source_ids": [
+        "S96",
+        "S100"
+      ],
+      "status": "HISTORICAL_SECONDARY_SUPPORTED"
+    },
+    {
+      "claim_id": "GT21-07",
+      "claim": "Borůvka 现代形式逐组件选轻边、同步合并与并列权重处理",
+      "source_ids": [
+        "S96",
+        "S99"
+      ],
+      "status": "MODERN_ALGORITHM"
+    },
+    {
+      "claim_id": "GT21-08",
+      "claim": "Jarník–Prim 按当前树到外部最轻边逐步扩张",
+      "source_ids": [
+        "S96",
+        "S99"
+      ],
+      "status": "MODERN_ALGORITHM"
+    },
+    {
+      "claim_id": "GT21-09",
+      "claim": "Jarník 1930、Prim 1957、Dijkstra 后续算法的优先权边界",
+      "source_ids": [
+        "S96",
+        "S98",
+        "S99",
+        "S100"
+      ],
+      "status": "HISTORICAL_SCOPED"
+    },
+    {
+      "claim_id": "GT21-10",
+      "claim": "Kruskal 1956 AMS Proc.卷7第48—50页论文题录与算法",
+      "source_ids": [
+        "S97"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT21-11",
+      "claim": "Prim 1957 Bell System Technical Journal 卷36 1389—1401页，包含前人引用及通信网络例子",
+      "source_ids": [
+        "S98"
+      ],
+      "status": "PRIMARY_PAPER_SUPPORTED"
+    },
+    {
+      "claim_id": "GT21-12",
+      "claim": "割交换论证支撑MST贪心，但不能迁移成最短路径/TSP/Steiner的自动正确性",
+      "source_ids": [
+        "S97",
+        "S98",
+        "S99"
+      ],
+      "status": "MODERN_SCOPE_BOUNDARY"
+    }
+  ]
 }

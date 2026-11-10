@@ -1,12 +1,100 @@
 {
   "chapter": "20",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S12",
-    "S13"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "1975 Acta Arith.、1978 CNRS 论文题录及 Abel Prize 对弱二分图形式/一般图形式区分；正则对与能量递增解释使用 Tao 的现代论述。",
+  "claims": [
+    {
+      "claim_id": "GT20-01",
+      "claim": "Szemerédi 规则划分目标：给任意足够大的图找近似规则的多数块对",
+      "source_ids": [
+        "S92",
+        "S93",
+        "S95"
+      ],
+      "status": "HISTORICAL_AND_THEOREM_OVERVIEW"
+    },
+    {
+      "claim_id": "GT20-02",
+      "claim": "总密度 1/2 不保证大子块密度相近，8×8 两对角块为教学反例",
+      "source_ids": [
+        "S93"
+      ],
+      "status": "AUTHOR_EXAMPLE_MODERN"
+    },
+    {
+      "claim_id": "GT20-03",
+      "claim": "ε-正则对的密度条件、子集大小阈值与局部偏差上界",
+      "source_ids": [
+        "S93",
+        "S94"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT20-04",
+      "claim": "存在有界块数的近等分且除至多 εk² 块对外均 ε-正则",
+      "source_ids": [
+        "S92",
+        "S93"
+      ],
+      "status": "THEOREM_MODERN_FORM"
+    },
+    {
+      "claim_id": "GT20-05",
+      "claim": "Szemerédi 1975 Acta Arith. 长等差数列和正密度定理工作",
+      "source_ids": [
+        "S91",
+        "S95"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT20-06",
+      "claim": "1975 较弱二分图工具、1976 Orsay 会议、1978 一般图文献正式出版",
+      "source_ids": [
+        "S91",
+        "S92",
+        "S94",
+        "S95"
+      ],
+      "status": "HISTORICAL_CHRONOLOGY_SCOPED"
+    },
+    {
+      "claim_id": "GT20-07",
+      "claim": "平方密度加权指标用于刻画细化揭示的结构，八×八例子原粗能量0.25细能量0.5",
+      "source_ids": [
+        "S93"
+      ],
+      "status": "MODERN_ILLUSTRATION"
+    },
+    {
+      "claim_id": "GT20-08",
+      "claim": "能量递增有界导致正则划分在有界轮数内出现的证明路线",
+      "source_ids": [
+        "S93",
+        "S94"
+      ],
+      "status": "MODERN_PROOF_SKETCH"
+    },
+    {
+      "claim_id": "GT20-09",
+      "claim": "常见正则引理上界可能塔式增长，稠密应用与稀疏版之间必须区分",
+      "source_ids": [
+        "S93",
+        "S94"
+      ],
+      "status": "MODERN_SCOPE_AND_COMPLEXITY"
+    },
+    {
+      "claim_id": "GT20-10",
+      "claim": "定理提供粗粒度稳定近似并不意味着生成机制随机或划分成本小",
+      "source_ids": [
+        "S93",
+        "S95"
+      ],
+      "status": "METHODOLOGICAL_BOUNDARY"
+    }
+  ]
 }
