@@ -49,7 +49,7 @@ class DeepLearningFinalBatchRegressionTests(unittest.TestCase):
                 self.assertGreaterEqual(len(re.findall(r"[\u4e00-\u9fff]",md)),3500)
                 self.assertGreaterEqual(len(re.findall(r"^## [一二三四五六七八九十]+、",md,re.M)),7)
                 self.assertIn("工作初稿",md[:500])
-                self.assertIn("待",md)
+                self.assertIn("PENDING",md[:500])
                 claims=json.loads((BOOK/chapter["claims_file"]).read_text(encoding="utf-8"))
                 self.assertEqual(claims["chapter"],number)
                 self.assertEqual(claims["status"],"working_draft")
@@ -70,7 +70,7 @@ class DeepLearningFinalBatchRegressionTests(unittest.TestCase):
                         else:
                             self.assertRegex(source,r"^DL\d{3}$")
                             self.assertIn(source,self.research)
-                self.assertIn("## 主要",md)
+                self.assertIn("https://",md)
 
     def test_cross_chapter_navigation_and_author_review_material_are_present(self):
         readme=(BOOK/"README.md").read_text(encoding="utf-8")
