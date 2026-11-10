@@ -2,20 +2,20 @@
   "schema_version": "1.0",
   "lane": "nonfiction",
   "tracking_mode": "partial-batch-continuity-plus-derived-progress",
-  "note": "全书审校P0新增第26—28章，revision1。23—25章与其余稿件仍需新版本统一双审；全书目录、站点进度不等于正式证据/大纲闸门获批。",
+  "note": "全书审校P0第29—31章已补，revision2；尚有00、32、33三篇缺稿，旧章节主张行内追溯与独立事实/结构双审继续待办，工作初稿不构成审核许可。",
   "progress_summary": {
     "source": "book.json",
     "total": 34,
-    "draft": 28,
-    "outline": 6,
+    "draft": 31,
+    "outline": 3,
     "final": 0,
     "proposals": 0,
     "review_status": "PENDING",
     "final_approved": false
   },
-  "current_revision": 1,
-  "last_written_chapter": "28",
-  "latest_batch": "26-28",
+  "current_revision": 2,
+  "last_written_chapter": "31",
+  "latest_batch": "29-31",
   "chapter_progress": {
     "20": {
       "title": "网络流行病学的前史：从SIR开始",
@@ -145,6 +145,50 @@
       "core_question": "相似朋友和同步采用为什么不能证明沿边的因果影响？",
       "outgoing_problem": "若机器能猜中下一条边，就算理解网络了吗？",
       "continuity_boundary": "同质性/共享环境/社会影响可混杂；2009结果仅原样本估计；干扰潜在结果需暴露假设"
+    },
+    "29": {
+      "title": "猜中下一条边：链接预测",
+      "status": "draft",
+      "body": "draft/29.md",
+      "claims": "draft/29.claims.json",
+      "source_ids": [
+        "S103",
+        "S104"
+      ],
+      "core_question": "从过去网络快照怎样检验对未来新边的预测？",
+      "outgoing_problem": "手工相似性指标如何转化为可学习的节点结构表示？",
+      "continuity_boundary": "CIKM2003先于期刊2007；时间预测不同于随机删边恢复；预测准确不证明因果"
+    },
+    "30": {
+      "title": "把关系装进向量：图嵌入",
+      "status": "draft",
+      "body": "draft/30.md",
+      "claims": "draft/30.claims.json",
+      "source_ids": [
+        "S105",
+        "S106"
+      ],
+      "core_question": "没有单词的图如何借随机游走序列学习节点上下文表示？",
+      "outgoing_problem": "能否通过共享邻居汇聚函数为新节点生成表示？",
+      "continuity_boundary": "DeepWalk2014/ node2vec2016不同，p/q只是随机游走偏置；嵌入向量不等于人格或因果"
+    },
+    "31": {
+      "title": "图神经网络：每个节点向邻居学习",
+      "status": "draft",
+      "body": "draft/31.md",
+      "claims": "draft/31.claims.json",
+      "source_ids": [
+        "S107",
+        "S108",
+        "S109",
+        "S110",
+        "S111",
+        "S112",
+        "S113"
+      ],
+      "core_question": "共享邻居聚合如何学习，为何仍可能无法区分六环与两个三角形？",
+      "outgoing_problem": "模型预测得准是否就能解释网络中的真实机制？",
+      "continuity_boundary": "Scarselli2008在线2009见刊、GCN2016/2017、GraphSAGE和MPNN2017；均值教学例子不等于对称GCN；局部区分界限按模型限定"
     }
   },
   "review_status": "PENDING"

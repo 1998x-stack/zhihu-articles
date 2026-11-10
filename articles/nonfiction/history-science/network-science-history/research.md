@@ -353,3 +353,29 @@
 **第28章自建反例**：十人分成两个五人同偏好团、组内完全连边且预先规定社交影响为零，依边随机抽样的两端偏好相同率100%；相关≠因果。干扰潜在结果Y_i(z_i,z_-i)属于现代数学解释，不能没有设计就估计出实际“社交传染”。
 
 **待独立复核**：多层/依赖网络严格分类；单纯复形的面闭合与事件层的不同语义；2009论文300%—700%计算分母与模型；2008论文干扰的处理分配范围；全书提纲/证据闸门依旧未批准。
+
+### 第29—31章｜第七部 P0 补稿（2026-11-10，revision2）原始来源与推导边界
+
+此处记录可复核出版元数据、模型原文和作者自建数学演算。**尚未取得独立逐条全文源核、发展性双审或整书发布许可**。第29章与第28章的区别是**预测新增边**而非因果识别；第30章是随机游走上下文嵌入，不等同于第31章的全部图神经网络架构。
+
+| 来源ID | 一手论文/可信学术出版入口 | 精确使用范围 |
+|---|---|---|
+| **S103** | David Liben-Nowell & Jon Kleinberg, [“The Link-Prediction Problem for Social Networks,” *JASIST* 58(7):1019—1031 (2007)](https://doi.org/10.1002/asi.20591)，[作者PDF](https://cs.carleton.edu/faculty/dlibenno/papers/link-prediction/link.pdf) | 正文明确记有2003年CIKM会议的短篇先行版；研究的是以已有合作图预测未来新增合作边与多种接近性分数对比。不是预测所有人的真实友谊。 |
+| **S104** | Lada A. Adamic & Eytan Adar, [“Friends and Neighbors on the Web,” *Social Networks* 25(3):211—230 (2003)](https://doi.org/10.1016/S0378-8733(03)00009-1) | 网络邻居、主页/关系特征分析传统；后世链接预测中的Adamic—Adar权重不意味着原研究宣称共同朋友可证明因果。 |
+| **S105** | Bryan Perozzi, Rami Al-Rfou & Steven Skiena, [“DeepWalk: Online Learning of Social Representations,” *ACM SIGKDD* 2014:701—710](https://doi.org/10.1145/2623330.2623732)，[作者研究条目](https://www.alrfou.com/publication/deepwalk/) | 截断随机游走与语言模型式节点上下文表示，原始训练目标含具体优化安排；不得将现代点积示意当成全部DeepWalk实现。 |
+| **S106** | Aditya Grover & Jure Leskovec, [“node2vec: Scalable Feature Learning for Networks,” *ACM SIGKDD* 2016:855—864](https://doi.org/10.1145/2939672.2939754)，[开放原文](https://pmc.ncbi.nlm.nih.gov/articles/PMC5108654/) | 二阶偏置随机游走、回返参数p和进出参数q；BFS/DFS是采样方向近似比喻，绝非严格确定性图遍历。 |
+| **S107** | Franco Scarselli, Marco Gori, Ah Chung Tsoi, Markus Hagenbuchner & Gabriele Monfardini, [“The Graph Neural Network Model,” *IEEE TNN* 20(1):61—80 (2009-01)](https://doi.org/10.1109/TNN.2008.2005605) | 原文IEEE记录为2008-12-09在线发表、2009-01期刊卷期；早期GNN与后世GCN的传播/训练定义不同。 |
+| **S108** | Thomas N. Kipf & Max Welling, [“Semi-Supervised Classification with Graph Convolutional Networks,” 2016-09预印本、ICLR 2017](https://arxiv.org/abs/1609.02907)，[ICLR原文](https://openreview.net/forum?id=SJU4ayYgl) | 自环和对称度归一化GCN算子，明确区别于第31章作者自造行均值聚合的数值。 |
+| **S109** | William L. Hamilton, Rex Ying & Jure Leskovec, [“Inductive Representation Learning on Large Graphs,” *NeurIPS* 2017](https://proceedings.neurips.cc/paper_files/paper/2017/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html) | GraphSAGE采样/聚合节点特征形成归纳式表示；归纳处理未见节点不代表对任意分布外网络都有效。 |
+| **S110** | Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals & George E. Dahl, [“Neural Message Passing for Quantum Chemistry,” *ICML/PMLR* 70:1263—1272 (2017)](https://proceedings.mlr.press/v70/gilmer17a.html) | 统一若干图学习模型的消息传递MPNN框架，主要讨论分子/化学属性任务，非所有GNN的首次发明。 |
+| **S111** | Keyulu Xu, Weihua Hu, Jure Leskovec & Stefanie Jegelka, [“How Powerful Are Graph Neural Networks?” 2018预印本、ICLR 2019](https://arxiv.org/abs/1810.00826) | 研究聚合式GNN表达能力与Weisfeiler–Lehman测试的联系；对受限模型家族的区分能力结论不可推广至所有高阶/位置增强GNN。 |
+| **S112** | Qimai Li, Zhichao Han & Xiao-Ming Wu, [“Deeper Insights into Graph Convolutional Networks for Semi-Supervised Learning,” *AAAI* 32 (2018)](https://doi.org/10.1609/aaai.v32i1.11604) | 将GCN分析为特定Laplacian smoothing、说明过度混合可引起过平滑；不能归纳为任何深度架构的必然失效。 |
+| **S113** | Uri Alon & Eran Yahav, [“On the Bottleneck of Graph Neural Networks and Its Practical Implications,” *ICLR* 2021](https://mlanthology.org/iclr/2021/alon2021iclr-bottleneck/) | 固定维度消息经过长程狭窄通路可导致over-squashing；前驱理论和适用模型不同于2018过平滑。 |
+
+**第29章数学例题**：六节点边AC、AD、BC、BD、CE、DF，A/B共同邻居{C,D}得2，A/E共同邻居{C}得1，A/F共同邻居{D}得1；1000候选对仅10条新边，始终预测无边的总体准确率99%但召回率0，排名前10有3真阳性时Precision@10=0.3。**作者自行定义，非真实合作网络观测**。
+
+**第30章数学例题**：四节点无向星A—B—C与B—D，自B以无偏游走分别去A/C/D概率各1/3；另设节点t→v后下一候选t/B/C距前驱t分别为0/1/2，且均与v相邻，参数p=2、q=1/2，权重(0.5,1,2)，总3.5，概率(1/7,2/7,4/7)。仅作转移机制解释，不能作为真实DeepWalk/node2vec训练表现。
+
+**第31章数学例题**：三节点链A—B—C，初始特征(1,0,1)，以**非GCN原公式**的自环邻居均值第一层为(1/2,2/3,1/2)，第二层(7/12,5/9,7/12)；六环C6与两个三角形K3∪K3的6节点6边每个度2，若节点输入全部同值、共享置换不变邻居多重集合聚合且图级读出为sum/mean，则两图每层节点表示相同、图输出也相同。它只是**受限模型的数学反例**，不是“全部GNN无法辨别三角形”。
+
+**待独立审校特别要求**：2003CIKM与2007期刊版的版本界线；图上过去/未来边时间泄漏；DeepWalk语言上下文并非词义；2016 node2vec与2017 GraphSAGE不同；GCN归一化/均值不同；2019表达能力界限与2021过压缩理论的模型假设；所有作者演算无历史数据身份。

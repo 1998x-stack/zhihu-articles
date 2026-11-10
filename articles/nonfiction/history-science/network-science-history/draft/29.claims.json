@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 2,
+  "editorial_status": "p0_repair_working_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "review_status": "PENDING",
+  "chapter": "29",
+  "claims": [
+    {
+      "claim_id": "NS-29-01",
+      "type": "model_definition",
+      "statement": "Link prediction from snapshot G_t attempts rank/forecast absent edges appearing in specified later window, not causal attribution",
+      "source_ids": [
+        "S103"
+      ],
+      "locator": "Liben-Nowell Kleinberg 2007 introduction formal problem, explicit t/t'",
+      "verification_status": "primary_paper_checked"
+    },
+    {
+      "claim_id": "NS-29-02",
+      "type": "history",
+      "statement": "Liben-Nowell Kleinberg abbreviated CIKM 2003 paper predates expanded 2007 JASIST 58(7):1019–1031 article",
+      "source_ids": [
+        "S103"
+      ],
+      "locator": "Author-hosted 2007 paper front note plus Wiley publisher March26 first publication",
+      "verification_status": "author_pdf_publisher_checked"
+    },
+    {
+      "claim_id": "NS-29-03",
+      "type": "teaching_example",
+      "statement": "Undirected toy edges AC AD BC BD CE DF give common neighbors CN(A,B)=2 CN(A,E)=1 and CN(A,F)=1",
+      "source_ids": [],
+      "locator": "Author-invented 6-vertex graph; explicit neighbor set arithmetic",
+      "verification_status": "independently_computed"
+    },
+    {
+      "claim_id": "NS-29-04",
+      "type": "historical_paper",
+      "statement": "Adamic and Adar Friends and Neighbors on the Web Social Networks 25(3):211-230 July 2003 empirical homepage-based network analysis",
+      "source_ids": [
+        "S104"
+      ],
+      "locator": "Elsevier publisher title pages year and abstract",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-29-05",
+      "type": "method_definition",
+      "statement": "Adamic–Adar score sums 1/log(kz) over common neighbors, downweighting hubs in specified simple graph",
+      "source_ids": [
+        "S103",
+        "S104"
+      ],
+      "locator": "Liben-Nowell Kleinberg 2007 measures of proximity; secondary author method explanation",
+      "verification_status": "formal_method_scope_checked"
+    },
+    {
+      "claim_id": "NS-29-06",
+      "type": "methodological_boundary",
+      "statement": "Time split of prediction training/evaluation must exclude target-period edges; random held-out edge reconstruction differs from forecasting new ties",
+      "source_ids": [
+        "S103"
+      ],
+      "locator": "Author paper task definition plus logical anti-leakage derivation",
+      "verification_status": "methodology_qualified"
+    },
+    {
+      "claim_id": "NS-29-07",
+      "type": "teaching_example",
+      "statement": "With 10 future positives out of 1000 pairs, all-negative classifier accuracy99 percent and recall0; precision@10=3/10 if 3 hits",
+      "source_ids": [],
+      "locator": "Author numerical example checked independently, not historical paper results",
+      "verification_status": "independently_computed"
+    },
+    {
+      "claim_id": "NS-29-08",
+      "type": "empirical_paper",
+      "statement": "2007 authors compare proximity methods in large coauthorship networks, finding structure contains useful predictive signal in those data",
+      "source_ids": [
+        "S103"
+      ],
+      "locator": "Wiley article abstract and paper; no universal network prediction conclusion",
+      "verification_status": "primary_paper_scope_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Original-paper titles, dates and selected sections checked; chapter claims require an independent full-text fact review and developmental/continuity review at revision2.",
+    "Author-made numerical examples and counterexamples were independently computed, not historical studies or empirical data.",
+    "Outline and evidence book-wide gates remain false, final_approved=false; web readability does not mean platform publication."
+  ]
+}
