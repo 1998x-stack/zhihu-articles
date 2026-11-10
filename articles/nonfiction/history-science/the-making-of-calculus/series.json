@@ -537,23 +537,50 @@
     {
       "id": "29",
       "title": "魏尔斯特拉斯的怪物：连续却处处不可微",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/29.md",
-      "claims_path": "draft/29.claims.json"
+      "claims_path": "draft/29.claims.json",
+      "source_ids": [
+        "H168",
+        "H169",
+        "H170",
+        "H171",
+        "H172",
+        "H173"
+      ]
     },
     {
       "id": "30",
       "title": "达布：上和与下和什么时候一致",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/30.md",
-      "claims_path": "draft/30.claims.json"
+      "claims_path": "draft/30.claims.json",
+      "source_ids": [
+        "H174",
+        "H175",
+        "H176",
+        "H177",
+        "H178"
+      ]
     },
     {
       "id": "31",
       "title": "勒贝格：改变求和顺序，为什么能积分更多函数",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/31.md",
-      "claims_path": "draft/31.claims.json"
+      "claims_path": "draft/31.claims.json",
+      "source_ids": [
+        "H178",
+        "H179",
+        "H180",
+        "H181",
+        "H182",
+        "H183",
+        "H184",
+        "H185",
+        "H186",
+        "H187"
+      ]
     },
     {
       "id": "32",
