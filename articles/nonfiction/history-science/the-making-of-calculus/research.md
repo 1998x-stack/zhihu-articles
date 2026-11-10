@@ -566,3 +566,37 @@
 - 1906Fréchet度量空间雏形、1907Riesz/FischerL²和1932Banach教科书的角色各不相同，不能说Hilbert“发明”所有函数空间。
 - 1960年代Robinson的方法为现代可严谨成立的另一体系，不意味着Newton/Leibniz当时已经拥有transfer、standard part与超滤子理论，也不能据此取消前述极限方法。
 - 只可继续写**有证据边界的工作初稿**；正式证据认证/大纲审核/连续性与结构双审均仍是独立后续工作。
+
+## 第35—36章最终批次专项证据｜计算图、链式法则与回到最速降线（2026-11-10）
+
+> **阶段限制**：H213—H230作为逐条可追溯研究记录；先史实后架构。可支持带来源范围说明的未审工作初稿，**不代表全书evidence_verified=true**。第35章为37篇规划中的最后一章正文，第36章为尾声；最后一批仅两篇，不虚增第37章。
+
+### H213—H230：原始论文、档案、现代机制与回环
+
+- **H213｜Wengert1964原刊第463页扫描**：R. E. Wengert, [*A Simple Automatic Derivative Evaluation Program*](https://www.cs.princeton.edu/courses/archive/fall19/cos597C/files/wengert1964.pdf), *Communications of the ACM* **7(8), 463—464 (August 1964)**；**原版第463页已使用网页PDF截图检查**：作者明确将复杂代数函数分解为中间变量、用基本函数子程序同时算函数值和导数，并通过输入切向量1/0得到偏导。作为原始学术史料，不等于现代所有计算图AD系统。
+- **H214｜Wengert1964发行书目**：[dblp](https://dblp.org/rec/journals/cacm/Wengert64), DOI 10.1145/355586.364791，**1964-08**；及[autodiff.org出版档案](https://users.fmi.uni-jena.de/~autodiff/?id=wengert1964asa&module=Publications&submenu=list+publications)，可独立复核书目页码与摘要。
+- **H215｜Linnainmaa1976原始期刊摘要**：Seppo Linnainmaa, [*Taylor expansion of the accumulated rounding error*](https://doi.org/10.1007/BF01931367), *BIT Numerical Mathematics* **16, 146—160 (1976)**；出版商摘要记载局部舍入误差对最终误差的Taylor展开及误差影响分析。**仅核出版商摘要，未逐页原文**；不能把整篇描述成神经网络训练论文。
+- **H216｜Linnainmaa1970芬兰文硕士论文书目**：H215原刊**参考文献**列为1970年赫尔辛基大学计算机科学系硕士论文，题为“The representation of the cumulative rounding error of an algorithm as a Taylor expansion of the local rounding errors”（芬兰文）；2018数学史综述H217与Schmidhuber历史述评H221指向反向累积。**这是原刊1976参考文献和史学二手引用，不是论文原页全文核对**。
+- **H217｜2018 JMLR权威综述**：Baydin, Pearlmutter, Radul, Siskind, [*Automatic Differentiation in Machine Learning: a Survey*](https://www.jmlr.org/papers/v18/17-468.html), *Journal of Machine Learning Research* **18(153):1—43 (2018)**，官方发表页：自动微分比神经网络误差反传范围更广、分前向/反向模式、区分数值差分/符号微分、历史脉络。**只读官方摘要与结构性引述，未宣称全文逐页核查**。
+- **H218｜JAX官方数学文档**：[Forward- and reverse-mode autodiff in JAX](https://docs.jax.dev/en/latest/jacobian-vector-products.html)，官方文档清晰区分**JVP \(Jv\)** 与**VJP \(v^\mathsf TJ\)**；每次种子对应一列/一行Jacobian；标量输出、多参数时反向较有优势；运算与内存代价都依图结构和实现。属于现代技术说明，非历史最早出处。
+- **H219｜Speelpenning1980原始报告馆藏**：B. Speelpenning, [*Compiling Fast Partial Derivatives of Functions Given by Algorithms*](https://digital.library.unt.edu/ark:/67531/metadc1065146/), University of Illinois **1980**，UNT大学数字馆藏：报告描述Jake编译器、复杂控制流、对比有限差分的实验；**只核官方馆藏元数据与开放摘要，尚未逐页核完整报告**。
+- **H220｜1986神经网络反向传播一手论文**：D. E. Rumelhart, G. E. Hinton, R. J. Williams, [*Learning representations by back-propagating errors*](https://www.nature.com/articles/323533a0), *Nature* **323, 533—536 (1986-10-09)**；官方页面摘要说用反传调整网络连接权重以最小化预测与目标差，**不把1986等同反向模式的最初发现**。
+- **H221｜反向传播历史有争议的二手追溯**：Jürgen Schmidhuber, [*Who Invented Backpropagation?*](https://people.idsia.ch/~juergen/who-invented-backpropagation.html)，从1970Linnainmaa、1971Ostrovskii等、1973Dreyfus、1974Werbos到1980Speelpenning与1986 Rumelhart等；**作者本人有观点并非无争议裁判**，必须与H215—H220及其他综述互校，明确反向模式AD与神经网络误差传播问题的异同。
+- **H222｜Werbos1974原始博士论文书目**：Paul John Werbos, [*Beyond Regression: New Tools for Prediction and Analysis in the Behavioral Sciences*](https://perceptrondemo.com/assets/PJW_thesis_Beyond_Regression_1974-4b63aa5f.pdf)，哈佛大学博士论文封面**1974-08**；检索得到扫描封面，**未使用截图检查全文，不据此断言哪些精确推导已完整写出**。H221提供历史争议的二手语境。
+- **H223｜数值差分与实际自动求导**：H217与H218、[JAX自动求导教程](https://docs.jax.dev/en/latest/automatic-differentiation.html)；对于可微、由支持的基本运算构成、执行轨迹固定的程序，AD通过链式法则计算执行轨迹的导数，**无差分截断误差但会受浮点舍入、程序分支、非光滑点、非支持原语等限制**。
+- **H224｜反向模式内存取舍**：[SIAM, Griewank & Walther, *Evaluating Derivatives*, §12](https://epubs.siam.org/doi/10.1137/1.9780898717761.ch12)，权威专著章节摘要说明反向累积需保存/重建中间值，涉及checkpointing与存储-重算权衡。**只核出版商章节摘要**。
+- **H225｜最速降线1696挑战与1697结论**：[MacTutor, The brachistochrone problem](https://mathshistory.st-andrews.ac.uk/HistTopics/Brachistochrone/)，1696 Johann Bernoulli在*Acta Eruditorum*提出固定端点、无摩擦、重力、从静止出发的最短时间曲线；1697发表多方解，包括Leibniz、两伯努利、Newton；**最速降线为合适参数的摆线弧，非一般最短直线**。不无来源讲Newton私密“一夜解题”当确定事实。
+- **H226｜1696—1697现代专业史学**：[*Johann Bernoulli and the cycloid: A theorem for posterity*](https://ems.press/content/serial-article-files/45593?nt=1), 2017学术文章关于折射类比、1697的多方解答与国际交流；**专业PDF搜索文本，未逐页截图，不宣称直接核其逐页正文**。
+- **H227｜变分曲线的现代数学形式**：H225与旧研究H102—H114、H122、H127共同支持：令向下深度\(y>0\)且速度\(v=\sqrt{2gy}\)，无摩擦理想重力下走时\(T[y]=\int\sqrt{1+y'^2}/\sqrt{2gy}\,dx\)；端点\(y(0)=0\)的奇性必须采用极限或参数曲线处理，不直接声称任意可微函数均满足Euler–Lagrange光滑条件。**现代回译，非1697原式**。
+- **H228｜全书史学结构跨文化边界**：既有H01—H187与[MacTutor最速降线](https://mathshistory.st-andrews.ac.uk/HistTopics/Brachistochrone/)汇总：希腊穷竭、中国割圆、印度级数、伊斯兰世界的数学研究，须分别说明时间、文本、方法与传播证据，**不假称跨地域之间存在一条已证单线传授链**。
+- **H229｜条件与反例复核的现代教材背景**：H177（黎曼/达布积分可积性），H195（L¹/L²函数空间），H203（分布），H208/H209（非标准分析），H218（JVP/VJP）分别具有不同对象和限定；尾声不得说「广义函数、无穷小、机器导数最终都是同一个数学定义」。
+- **H230｜最终批次的例题独立验算计划**：现代例子 \(F(x,y)=(xy+x^2)^2\) 在(2,3)取值100；图拆为 \(a=xy=6\)、\(b=x^2=4\)、\(c=a+b=10\)、\(F=c^2=100\)。反向adjoints：\(\bar c=20,\bar a=20,\bar b=20,\partial_xF=20y+20(2x)=140,\partial_yF=20x=40\)。前向单位x种子导数140、单位y种子40。以 \(h\ne0\) 作x向前差分有 \(140+69h+14h^2+h^3\)，截断误差显式非零；这是当代教学推导，**不是Wengert1964原论文的原题**。
+
+### 35—36写作决策与史实强度
+
+| 章 | 核证与核心收益 | 禁止的历史或数学过度推断 |
+| --- | --- | --- |
+| **35 自动微分** | H213原刊**1964 p.463截图**；H215—216的1970/1976，H219 1980馆藏，H220 1986 Nature；H217—218现代机制；H230复算图与梯度。 | 不说Wengert发明反向模式、不说Linnainmaa1970训练了神经网络、不说1986是反向传播数学上的唯一发明、不说AD数值无浮点误差、不说任何程序任何分支都可微。 |
+| **36 尾声** | H225—227回收1696/1697最速降线与现代路径时间泛函；H228承认不同文明贡献的独立性和联系证据边界；H229逐章回收可微、可积、空间、分布、超实数和程序差分的**条件**。 | 不制造人物临终独白、不声称牛顿一夜破解为原始档案确证、不把计算方法无误差或AI模型自动有效当成数学结论、不把工作初稿冒充已经全部正式事实审定。 |
+
+**尚待核实**：Wengert1964第464页后续段落未完整截图校对；Linnainmaa1970芬兰文原硕士论文全文、1976期刊原文逐页；Speelpenning1980馆藏PDF全文；Beda等1959研究文献精确翻译和年代；1696／1697《Acta Eruditorum》原刊全部页面。以上未完成不允许将研究登记标为正式全书证据批准。
