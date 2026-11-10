@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "deep-learning-history",
   "title": "让机器学会学习：一部深度学习发展史",
-  "reading_notice": "第01—18章18篇有实际工作初稿和逐章主张记录；序章00与19—31共14篇仍为策划占位。全部中心史实与数学例题只按各批范围核查，独立双重审稿、语言精修及终稿批准均未完成。",
+  "reading_notice": "第01—21章共21篇有完整历史科学非虚构工作初稿和逐章主张文件；序章00及22—31章共11篇仍是规划占位。各批核实限定的论文发表、基本机制与教学算例，不代表已做正式独立事实/结构双重审稿；语言精修、封版、发布未完成。",
   "outline_approved": true,
   "evidence_verified": true,
   "parts": [
@@ -419,11 +419,16 @@
       "part": "第七部｜机器开始处理语言与生成",
       "period": "2013—2014",
       "file": "draft/19.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R07",
-        "TO_VERIFY"
-      ]
+        "DL90",
+        "DL91",
+        "DL92",
+        "DL105",
+        "DL106"
+      ],
+      "claims_file": "draft/19.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-20",
@@ -432,10 +437,15 @@
       "part": "第七部｜机器开始处理语言与生成",
       "period": "2014—2015",
       "file": "draft/20.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R12"
-      ]
+        "DL93",
+        "DL94",
+        "DL95",
+        "DL96"
+      ],
+      "claims_file": "draft/20.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-21",
@@ -444,11 +454,19 @@
       "part": "第七部｜机器开始处理语言与生成",
       "period": "2014—2022（专题回溯）",
       "file": "draft/21.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R13",
-        "R17"
-      ]
+        "DL97",
+        "DL98",
+        "DL99",
+        "DL100",
+        "DL101",
+        "DL102",
+        "DL103",
+        "DL104"
+      ],
+      "claims_file": "draft/21.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-22",
@@ -584,6 +602,6 @@
       ]
     }
   ],
-  "outline_scope": "已按来源核对叙事细纲仅01—18章",
-  "evidence_scope": "限定中心史实和数学示例仅01—18章"
+  "outline_scope": "按来源约束的分批细纲仅01—21章",
+  "evidence_scope": "仅01—21章限域中心史实与示例"
 }

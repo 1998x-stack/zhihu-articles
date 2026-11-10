@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "last_chapter": 18,
+  "last_chapter": 21,
   "manuscript_revision": 0,
   "chapter_status": {
     "10": "draft",
@@ -13,7 +13,10 @@
     "16": "draft",
     "17": "draft",
     "18": "draft",
-    "19": "outline",
+    "19": "draft",
+    "20": "draft",
+    "21": "draft",
+    "22": "outline",
     "00": "outline",
     "01": "draft",
     "02": "draft",
@@ -98,12 +101,24 @@
     {
       "chapter": "18",
       "coverage": "2014 VGG/Inception；2015 BatchNorm/Highway/ResNet预印本与竞赛；2016 CVPR ResNet、ECCV身份映射后续"
+    },
+    {
+      "chapter": "19",
+      "coverage": "2013词向量研究，2014-06 Cho等RNN短语编码器—解码器（EMNLP七作者）、2014-09 Sutskever/Vinyals/Le深LSTM seq2seq NIPS；英法34.8/33.3 BLEU，重排36.5另设置"
+    },
+    {
+      "chapter": "20",
+      "coverage": "2014-09 Bahdanau/Cho/Bengio注意力预印本，2015 ICLR正式发表，2015 Luong/Pham/Manning的global/local attention；2017 Transformer留22章"
+    },
+    {
+      "chapter": "21",
+      "coverage": "2013-12 VAE预印本/2014 ICLR、2014八作者GAN、2015扩散、2019 score、2020 DDPM、2022潜空间扩散；跨年代专题回溯后第22章回到2017"
     }
   ],
   "unresolved_clues": [
-    "19章：不同句长的序列怎样经神经网络映射成另一句？",
-    "20章：机器翻译中的对齐与注意力为何改变长序列瓶颈？",
-    "21章：2017 Transformer怎样摆脱循环依赖并调整比较基准？"
+    "22章：2017 Transformer如何在序列计算中以注意力取代循环并提供位置？",
+    "23章：预训练Transformer如何出现双向编码、语言模型和迁移学习分叉？",
+    "24章：模型规模、数据、算力如何形成经验规律？"
   ],
   "resolved_clues": [
     "第01章数学形式化为何能表达明确计算",
@@ -123,7 +138,10 @@
     "15章区分DNN声学模型与HMM解码，并记录特定RT03S基准结果",
     "16章区分ImageNet数据库与年度ILSVRC子集及Top-1/Top-5",
     "17章15.3%为七CNN集成Top-5测试错误，复核官网网页与PDF数字冲突",
-    "18章训练退化与过拟合不同，身份残差路径的toy梯度可复算"
+    "18章训练退化与过拟合不同，身份残差路径的toy梯度可复算",
+    "19章区分EMNLP短语特征和NIPS深LSTM端到端变长序列，演示0.8×0.5链式概率",
+    "20章区分2014预印本和2015 ICLR，算出[0.5,0.25,0.25]动态信息分配及加权上下文",
+    "21章区分2014 GAN和VAE、2015扩散、2019 score、2020 DDPM、2022潜空间扩散，并保留2017时间回溯说明"
   ],
   "continuity_notes": [
     "第01章历史数学前史为多文明并行比较，无暗示直接传授",
@@ -155,7 +173,13 @@
     "2012的15.3 Top-5是七CNN集成含更大类别监督预训练的模型，不能称单个AlexNet",
     "2015 ResNet预印本及竞赛，2016 CVPR正式发表；3.57%是集成Top-5测试误差",
     "2015 Highway门控与ResNet身份捷径应同时保留，退化不等于过拟合",
-    "第01—18章均为工作初稿，独立双重审稿尚未完成"
+    "第01—18章均为工作初稿，独立双重审稿尚未完成",
+    "2014 Cho等EMNLP七人短语概率特征不等于Sutskever等NIPS三人的端到端系统",
+    "34.8和33.3为论文条件下BLEU分数，36.5为统计候选重排设置",
+    "Bahdanau预印本2014-09而ICLR正式2015，注意力不是2017 Transformer首创",
+    "GAN为Goodfellow等八人2014研究，VAE并行、扩散2015已有、DDPM2020和LDM2022各自方法不同",
+    "第21章专题跨度2014—2022，下章22专题回到2017而非宣称按时间顺延",
+    "第01—21章独立双审未完成，状态仍PENDING"
   ],
   "review_status": "PENDING"
 }

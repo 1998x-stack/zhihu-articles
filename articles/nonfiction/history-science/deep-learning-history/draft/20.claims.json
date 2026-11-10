@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "20",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "limited chapter-specific primary publication abstracts, archival metadata and author-constructed calculations; independent paper-by-paper audit pending",
+  "claims": [
+    {
+      "claim_id": "C20-01",
+      "claim": "2014-09-01 Bahdanau/Cho/Bengio预印本与2015 ICLR发表",
+      "source_ids": [
+        "DL93",
+        "DL94"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "出版年份与传播节点分开",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-02",
+      "claim": "固定向量可能构成瓶颈是该论文假设与实验研究动机",
+      "source_ids": [
+        "DL93",
+        "DL94"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不能宣称2014所有长句seq2seq无效",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-03",
+      "claim": "解码步骤相关的软对齐权重及按源隐藏状态求和",
+      "source_ids": [
+        "DL93"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "这时的注意力不等于2017 Transformer自注意力",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-04",
+      "claim": "softmax(ln2,0,0)权重[0.5,0.25,0.25]及上下文0.5",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "标量教学例非论文真实对齐热图",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-05",
+      "claim": "2015 Luong/Pham/Manning比较全局与局部注意力",
+      "source_ids": [
+        "DL95"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "英德特定WMT BLEU不能直接与英法对照",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-06",
+      "claim": "Bahdanau论文与Cho2014研究团队交叉，仍有不同模型目标",
+      "source_ids": [
+        "DL90",
+        "DL93"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不能合成一篇论文或全员同署名",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-07",
+      "claim": "注意力权重提供可学习信息路由，而非因果可解释性保证",
+      "source_ids": [
+        "DL93",
+        "DL95"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "高权重不是被翻译模型完整理解的充分证据",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-08",
+      "claim": "2017 Transformer第22章才讨论，2014/15先有编码解码注意力",
+      "source_ids": [
+        "DL96",
+        "DL93"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不把Transformer全部结构倒灌2014",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

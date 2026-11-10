@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "19",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "limited chapter-specific primary publication abstracts, archival metadata and author-constructed calculations; independent paper-by-paper audit pending",
+  "claims": [
+    {
+      "claim_id": "C19-01",
+      "claim": "2013词向量路线已出现，向序列翻译并非仅加总词向量",
+      "source_ids": [
+        "DL105",
+        "DL90",
+        "DL91"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "词向量近似不等于完整语义理解或语法推理",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-02",
+      "claim": "EMNLP2014 Cho等七作者RNN Encoder–Decoder原论文与SMT短语特征",
+      "source_ids": [
+        "DL90"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "其论文不是整套传统SMT已全部端到端替换",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-03",
+      "claim": "NIPS2014 Sutskever/Vinyals/Le多层LSTM端到端seq2seq",
+      "source_ids": [
+        "DL91",
+        "DL92"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "变长序列到固定维度再自回归解码，非Transformer",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-04",
+      "claim": "2014 WMT14英法34.8 BLEU vs 33.3基线；重排后36.5",
+      "source_ids": [
+        "DL91",
+        "DL106"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "仅论文同条件，重排另一个系统设置；BLEU非准确率",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-05",
+      "claim": "源序列顺序反转在2014论文中被报告改善优化",
+      "source_ids": [
+        "DL91"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "该训练技巧不是翻译定义，也不是所有语言必要步骤",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-06",
+      "claim": "有限长编码可表达语序，但并不代表无限长句可无损传递",
+      "source_ids": [
+        "DL90",
+        "DL91",
+        "DL93"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "固定维度未必在所有长句任务失败，论文有相反实验例",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-07",
+      "claim": "两输出token链式概率0.8×0.5=0.4",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "虚构教学序列非2014论文真实译句",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-08",
+      "claim": "词表示学习与序列到序列条件生成的历史关联",
+      "source_ids": [
+        "DL65",
+        "DL90",
+        "DL91"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "INTERPRETATION",
+      "limitations": "研究路线汇合，不主张单一作者全部独立发明",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

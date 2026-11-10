@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "21",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "limited chapter-specific primary publication abstracts, archival metadata and author-constructed calculations; independent paper-by-paper audit pending",
+  "claims": [
+    {
+      "claim_id": "C21-01",
+      "claim": "2014 Goodfellow等八作者GAN原论文双模型对抗训练",
+      "source_ids": [
+        "DL97"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "D真实分辨与生成器G是不同目标的训练博弈",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-02",
+      "claim": "GAN理想匹配D=0.5属于理论限制且实际训练可不稳定",
+      "source_ids": [
+        "DL97"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "不能推出所有实际训练收敛",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-03",
+      "claim": "2013末Kingma/Welling到2014VAE与2014Rezende另一生成路线",
+      "source_ids": [
+        "DL98",
+        "DL99"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "VAE非GAN变种，亦不等于扩散",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-04",
+      "claim": "2015 Sohl-Dickstein等非平衡热力学扩散前向破坏逆向生成",
+      "source_ids": [
+        "DL100"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "扩散生成并非2020首次发明",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-05",
+      "claim": "2019 Song/Ermon score多噪声尺度生成相关路线",
+      "source_ids": [
+        "DL101"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "score与扩散路径相关但非2014GAN鉴别器",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-06",
+      "claim": "2020 Ho/Jain/Abbeel DDPM去噪扩散模型",
+      "source_ids": [
+        "DL102"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不同数据/模型/基准不能声称普遍胜GAN",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-07",
+      "claim": "2022 Rombach等LDM在自编码器潜空间扩散并引入文本条件",
+      "source_ids": [
+        "DL103",
+        "DL104"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "低维压缩有损、非零算力和非全模型独创",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-08",
+      "claim": "GAN log toy及扩散单步x1 toy的数值",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "人造数字不是原论文真实实验或收敛证明",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
