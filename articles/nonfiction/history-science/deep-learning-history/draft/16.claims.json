@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "16",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "source-scoped primary-paper/checklist review only; no independent full review",
+  "claims": [
+    {
+      "claim_id": "C16-01",
+      "claim": "2009 ImageNet数据库六作者与WordNet词义集",
+      "source_ids": [
+        "DL77"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "论文首页与§1，不能等同ILSVRC竞赛",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-02",
+      "claim": "2009 CVPR论文报告12子树、5247词义集、约320万图",
+      "source_ids": [
+        "DL77"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "只对应当年数据库快照，不是计划50百万",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-03",
+      "claim": "候选图像搜索与AMT众包人工核验",
+      "source_ids": [
+        "DL77"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "人工核验不等于零误标",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-04",
+      "claim": "ILSVRC从2010开始形成分类等共同视觉评价",
+      "source_ids": [
+        "DL78",
+        "DL79"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "数据库/比赛不同，后期回顾为2015",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-05",
+      "claim": "2012竞赛1000类，约120万训练、5万验证与约10万测试",
+      "source_ids": [
+        "DL78"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "仅2012竞赛分割，不等同全部ImageNet",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-06",
+      "claim": "top-5定义与验证/测试用途区分",
+      "source_ids": [
+        "DL78",
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "假定正确类在指定类别空间里",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-07",
+      "claim": "五张假设样本top-5错两张得40%",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "纯作者例题不是原论文实验",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C16-08",
+      "claim": "评价指标与标签设计决定可以比较的问题边界",
+      "source_ids": [
+        "DL77",
+        "DL79"
+      ],
+      "kind": "interpretation",
+      "evidence_level": "QUALIFIED",
+      "limitations": "不得夸为对所有视觉理解、偏差/可靠性的实证证明",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
