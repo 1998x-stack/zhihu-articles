@@ -51,3 +51,7 @@
 承接普朗克1900年能量统计，重点转换到光传播与物质交换的量子解释；1905—1925年证据接受的漫长过程为第27章辐射场量子化创造需求。
 
 **流转限制：本章只存在于 `proposals/26.md`，保留 `draft/26.md` 原策划占位，不修改 `workflow-state.json` 或 `book.json` 中的 `outline` 状态。**
+
+
+## 2026-11-10 原刊增量核查（非正式审定）
+本批新增原始论文页级核对与数学复算，集中记录于 [原刊史料报告](25-27-primary-source-audit.md) 及 [公式核验](25-27-formula-audit.md)；审稿分工记录见 [连续性审计](../qa/continuity-report-ch25-27.md)、[结构审稿](../qa/developmental-review-ch25-27.md)。已核的指定页不意味着本章所有14条主张均达到原刊全文核对。正式审稿、全书 evidence_verified 与 final_approved 均未获批准。
