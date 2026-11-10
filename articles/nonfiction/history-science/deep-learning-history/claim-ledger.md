@@ -1,6 +1,6 @@
 # 主张账本｜章节 → 资料范围（规划版）
 
-> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—12章已补充限定主张与原始论文核查；第13—15章本批补充限域核证；第16—18章此前已限域核查，第19—21章本批完成限定核查，第22—24章本批补核，第25—27章本批限定核查，第28—31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
+> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—12章已补充限定主张与原始论文核查；第13—15章本批补充限域核证；第16—18章此前已限域核查，第19—21章本批完成限定核查，第22—24章本批补核，第25—27章本批限定核查，第28—30章本批限域核查，第31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
 
 | 章节 | claim_id | 本章需要核验的中心主张 | 候选source_id | 证据性质及待核点 | 状态 |
 | --- | --- | --- | --- | --- | --- |
@@ -303,3 +303,34 @@
 | 27 | C27-08 | toy单位向量余弦0.8vs0及softmax约0.690 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 仅2候选文本、tau1；分数不证明事实或生成 |
 
 本表仅为限定研究与作者例题的写作闸门。SCOPED_VERIFIED不等于独立事实/结构审稿PASS；教学题均为AUTHOR_DERIVATION，不可冒充原始比赛或原论文训练参数。第01—27章均无最终批准。
+
+## 第十批28—30章｜24条逐章主张矩阵（2026-11-10）
+
+| chapter | claim_id | 主张 | source_ids | 前置核查等级 | 限制条件 |
+| --- | --- | --- | --- | --- | --- |
+| 28 | C28-01 | 2017 Christiano等人类偏好研究早于2022语言模型RLHF | DL140 | SCOPED_VERIFIED | 模拟游戏任务，非2017 ChatGPT产品 |
+| 28 | C28-02 | 2022 Ouyang等20作者InstructGPT SFT偏好排序奖励模型PPO的分段方法 | DL141 | SCOPED_VERIFIED | 具体训练不是模型纯靠人类投票直接生成所有答案 |
+| 28 | C28-03 | 1.3B InstructGPT在特定人类偏好评测优于175B GPT3 | DL141 | SCOPED_VERIFIED | 人类偏好分布，不是所有事实问答能力更强 |
+| 28 | C28-04 | ChatGPT于2022-11-30发布研究预览及多轮交互 | DL142 | SCOPED_VERIFIED | 不能倒称RLHF或Transformer从此首创 |
+| 28 | C28-05 | TruthfulQA 2022 817题38领域测量常见人类错误信念 | DL143 | SCOPED_VERIFIED | 不是2026任意模型成绩 |
+| 28 | C28-06 | 2023 GPT4技术报告强调幻觉与推理限制，改进不等于完美 | DL144 | SCOPED_VERIFIED | 不把GPT4能力倒灌2022初版ChatGPT |
+| 28 | C28-07 | 2023 DPO不同偏好优化方法，不用独立奖励模型PPO管线 | DL145 | SCOPED_VERIFIED | 存在任务/约束差异，不宣称全面优于RLHF |
+| 28 | C28-08 | 玩具偏好2/3与reward softmax约0.731的例题 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 虚构评价，不代表世界事实正确率 |
+| 29 | C29-01 | 跨国作者机构贡献不能由姓名或国籍直接归属单一国家 | DL107,DL87 | HISTORICAL_INTERPRETATION | 只据正式作者所属机构与合作证据 |
+| 29 | C29-02 | Meta 2023 Llama2开放权重但社区许可存在700m MAU条款 | DL146 | SCOPED_VERIFIED | 版本限定，不套用其他Llama授权 |
+| 29 | C29-03 | Ai2 OLMo 2024公开权重训练数据训练代码与日志 | DL147,DL160 | SCOPED_VERIFIED | 该具体公开流程较全面，但复现仍有计算成本 |
+| 29 | C29-04 | OSI2024 Open Source AI Definition 1.0不只要求可下载权重 | DL148 | SCOPED_VERIFIED | OSI定义须和个人口语化开源用法区分 |
+| 29 | C29-05 | Qwen2.5 2024部分Apache2.0例外而Qwen3 2025技术报告称Apache2.0 | DL149,DL150 | VERSION_SPECIFIC | 逐模型版本授权不可直接跨代套用 |
+| 29 | C29-06 | DeepSeekV3 2024 MoE 671B总参数37B激活及2.788m H800 GPU小时论文报告 | DL151 | SCOPED_VERIFIED | 总GPU时非研发全部成本、总参数非每token激活 |
+| 29 | C29-07 | 2025 R1 Zero与R1训练阶段不同、主体MIT与蒸馏基座许可差别 | DL152,DL153 | SCOPED_VERIFIED | Llama派生并非所有MIT；R1Zero不等于无预训练 |
+| 29 | C29-08 | MoE 8×10M+5M共85M与2×10M+5M激活25M | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 教学数字，与DeepSeek实际架构无关 |
+| 30 | C30-01 | FlashAttention2022 IO优化精确attention与二次分数代价区别 | DL154 | SCOPED_VERIFIED | 不宣称所有attention计算变线性 |
+| 30 | C30-02 | vLLM PagedAttention SOSP2023以KV cache分页改善吞吐 | DL155 | SCOPED_VERIFIED | 吞吐提升有指定模型硬件/负载对照 |
+| 30 | C30-03 | OpenAI o1 2024-09测试时推理RL研究 | DL156 | SCOPED_VERIFIED | 机构自述，测试时较长文本不保证任意问题正确 |
+| 30 | C30-04 | DeepSeekR1Zero2025没有SFT预置但已有pretrained base并用RL，完整R1冷启动多阶段 | DL157,DL152 | SCOPED_VERIFIED | 不要宣称从零数据学出推理或R1纯RL |
+| 30 | C30-05 | 2025 Qwen3提供thinking/non-thinking及思考预算实验机制 | DL150 | SCOPED_VERIFIED | 不是推理预算首次提出或保证永远增强 |
+| 30 | C30-06 | 2026-01 Nature HLE 2500专家题基准，评测不能等于所有现实任务 | DL158 | SCOPED_VERIFIED | 静态题库与开放世界验证不同 |
+| 30 | C30-07 | 2026-08 Fan等预印本共享预算评测发现分配不理想 | DL159 | PREPRINT_QUALIFIED | 2026未正式复制的限定模型/任务结论 |
+| 30 | C30-08 | 两题6/4预算得6分、5/5得1分的教育演算 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 阈值作者设定并非真实模型的效率曲线 |
+
+`SCOPED_VERIFIED`只表示核对公开原始论文/官方档案的有限历史断言；`PREPRINT_QUALIFIED`表明仍是预印本研究；`AUTHOR_DERIVATION`为自造可复算示例。**全书未完成独立事实/结构双审，绝不授予PASS。**
