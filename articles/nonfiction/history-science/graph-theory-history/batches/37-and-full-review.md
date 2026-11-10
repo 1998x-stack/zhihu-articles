@@ -1,6 +1,6 @@
 # 图论史｜尾声37完成与全书审校首轮交接
 
-**批次日期：** 2026-11-10 · **工作分支：** \`content/graph-theory-history-epilogue-qa-20261110\` · **前置依赖：** \`content/graph-theory-history-34-36-20261110\`（PR #65 当前未合并） · **流程：** nonfiction / genre-history-science。
+**批次日期：** 2026-11-10 · **工作分支：** \`content/graph-theory-history-epilogue-qa-20261110\` · **前置依赖：** \`content/graph-theory-history-34-36-20261110\`（PR #65 已合并至 main，本 PR #69 已调整目标分支为 main） · **流程：** nonfiction / genre-history-science。
 
 ## 实际完成交付
 
