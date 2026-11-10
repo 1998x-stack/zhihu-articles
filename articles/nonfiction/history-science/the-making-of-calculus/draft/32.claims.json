@@ -1,23 +1,157 @@
 {
   "chapter": "32",
-  "status": "PENDING",
+  "title": "希尔伯特与巴拿赫：当函数变成空间里的点",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H188",
+    "H189",
+    "H190",
+    "H191",
+    "H192",
+    "H193",
+    "H194",
+    "H195",
+    "H196",
+    "H197",
+    "H203",
+    "H187"
+  ],
   "claims": [
     {
       "id": "C32-01",
-      "statement": "函数序列怎样整体收敛",
-      "source_candidates": [
-        "H14"
+      "kind": "history",
+      "statement": "Hilbert 1904 onward published papers on linear integral equations; 1904–1910 series inspired spectral theory",
+      "source_ids": [
+        "H188",
+        "H189"
       ],
-      "verification": "PENDING"
+      "locator": "MAA scholarly synthesis + 1984 functional-analysis history",
+      "verification": "SOURCE_CHECKED"
     },
     {
       "id": "C32-02",
-      "statement": "函数空间、范数与算子",
-      "source_candidates": [
-        "H14"
+      "kind": "history",
+      "statement": "Frechet 1906 Sur quelques points du calcul fonctionnel 22:1–72 advanced abstract metric and limit concepts",
+      "source_ids": [
+        "H190",
+        "H191"
       ],
-      "verification": "PENDING"
+      "locator": "1906 journal DOI and MacTutor biographical analysis",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C32-03",
+      "kind": "historiography",
+      "statement": "1907 Riesz and Fischer contributed L² completeness and orthogonal expansions related to Lebesgue integration",
+      "source_ids": [
+        "H192",
+        "H196"
+      ],
+      "locator": "scholarly history and theorem survey excerpts",
+      "verification": "SCOPE_QUALIFIED"
+    },
+    {
+      "id": "C32-04",
+      "kind": "history_primary",
+      "statement": "Banach 1922 Fundamenta Mathematicae 3:133–181 article on abstract operations and integral equations",
+      "source_ids": [
+        "H193"
+      ],
+      "locator": "Polish Academy primary journal page",
+      "verification": "PRIMARY_BIBLIOGRAPHY"
+    },
+    {
+      "id": "C32-05",
+      "kind": "history_edition",
+      "statement": "Banach 1931 Polish Operacje liniowe and 1932 French Théorie des opérations linéaires distinction",
+      "source_ids": [
+        "H194"
+      ],
+      "locator": "University of Warsaw encyclopedia bibliography",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C32-06",
+      "kind": "modern_norm",
+      "statement": "sup distance between x and x² on [0,1] is 1/4",
+      "source_ids": [],
+      "locator": "quadratic maximizing x(1-x) at 1/2",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C32-07",
+      "kind": "modern_norm",
+      "statement": "L1 distance of x and x² is 1/6, L2 distance sqrt(1/30)",
+      "source_ids": [],
+      "locator": "exact integration x-x² and (x-x²)²",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C32-08",
+      "kind": "modern_completeness",
+      "statement": "C([0,1]) with supremum norm complete; with L1 norm not complete",
+      "source_ids": [
+        "H195"
+      ],
+      "locator": "modern functional analysis theorem and explicit ramp example",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C32-09",
+      "kind": "modern_example",
+      "statement": "continuous ramp r_n transitions across interval width2/n with L1-distance to step 1/(2n)",
+      "source_ids": [],
+      "locator": "sum two triangular errors of area1/(4n) each",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C32-10",
+      "kind": "modern_definition",
+      "statement": "L1 and L2 are functions modulo almost-everywhere equality with integral norms, ensuring norm definiteness",
+      "source_ids": [
+        "H195",
+        "H187"
+      ],
+      "locator": "modern Lebesgue function-space formalism",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C32-11",
+      "kind": "modern_definition",
+      "statement": "Banach space complete normed linear, Hilbert space complete inner product; L2 both but L1 not inner-product-induced in general",
+      "source_ids": [
+        "H195"
+      ],
+      "locator": "modern course definition and standard parallelogram law",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C32-12",
+      "kind": "modern_operator",
+      "statement": "T(f)=∫_0^1 f is bounded linear L1 functional with |T(f)|≤||f||1",
+      "source_ids": [],
+      "locator": "integral linearity and triangle inequality",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C32-13",
+      "kind": "bridge",
+      "statement": "Distributions act as continuous functionals on test-function spaces, not ordinary pointwise functions",
+      "source_ids": [
+        "H197",
+        "H203"
+      ],
+      "locator": "Schwartz primary and NIST terminology",
+      "verification": "SOURCE_CHECKED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "1904 Hilbert integral equation is not identical to modern axiomatic Hilbert space; Fréchet1906 and Riesz-Fischer1907 separate contributions.",
+    "Banach 1922 paper and 1931 Polish / 1932 French treatise are different works and dates.",
+    "Different norms yield different function-space completions, and L1/L2 use a.e. equality classes.",
+    "Ramp function n≥3 has L1 distance1/(2n), discontinuous limit not contained in C([0,1]); no false sup convergence.",
+    "Historical original monographs not fully paginated in this batch, PDF references are scoped.",
+    "No independent review / final approval; workflow remains PENDING."
+  ]
 }
