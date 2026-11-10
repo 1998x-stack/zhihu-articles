@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "00—24章仅限相应史料/数学主张创作前置核验；第22章S101—S105、第23章S106—S109、第24章S110—S114。第25—37章仍为TODO_VERIFY，不等于逐字原刊校勘或独立双审。",
-  "approval_scope": "00—24章的既定结构与限定事实研究支持非虚构工作初稿写作；第25—37章仍须事前查证。正式独立双审、语言精修、终稿封版和外部发布均未批准。",
-  "note": "2026-11-10：在既定19—21章后续写第22—24章，新增3篇研究性初稿和37条章级主张映射；仅扩充有限核证范围。review_status=PENDING、reviewed_revision=null、edited_revision=null、final_approved=false，未冒充正式审校。"
+  "evidence_scope": "00—27章仅限对应章节史料与数学主张创作前置核证；第25章S115—S117、第26章S118—S122、第27章S123—S125。第28—37章仍TODO_VERIFY，不等于独立事实审阅或论文原文全页校勘。",
+  "approval_scope": "00—27章的既定结构与限定事实研究可作为非虚构研究性工作初稿的输入；28—37仍需前置查证。独立连续性、结构审稿、语言精修、终稿封版及对外发布均未批准。",
+  "note": "2026-11-10：新增第25—27章三篇研究性初稿、38条主张映射；研究范围限定到27，保持review_status=PENDING、reviewed_revision=null、edited_revision=null、final_approved=false。"
 }
