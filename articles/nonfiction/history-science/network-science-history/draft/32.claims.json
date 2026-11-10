@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "32",
+  "revision": 3,
+  "editorial_status": "p0_completed_working_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "review_status": "PENDING",
+  "claims": [
+    {
+      "claim_id": "NS-32-01",
+      "type": "methodological_boundary",
+      "statement": "Predictive graph evaluation must specify task, available-time features, split, imbalance and metrics to support deployment claims",
+      "source_ids": [
+        "S116",
+        "S117",
+        "S103"
+      ],
+      "locator": "Shchur evaluation analysis, OGB 2020 split protocols, link prediction paper; synthesis",
+      "verification_status": "methodology_source_scope_limited"
+    },
+    {
+      "claim_id": "NS-32-02",
+      "type": "historical_publication",
+      "statement": "Shchur Mumme Bojchevski Gunnemann Pitfalls of Graph Neural Network Evaluation arxiv first published Nov2018 shows split and tuning differences can affect model ranking",
+      "source_ids": [
+        "S116"
+      ],
+      "locator": "arxiv abs1811.05868 v1 date and original abstract",
+      "verification_status": "primary_abstract_checked"
+    },
+    {
+      "claim_id": "NS-32-03",
+      "type": "historical_publication",
+      "statement": "Hu Fey Zitnik Dong Ren Liu Catasta Leskovec NeurIPS2020 introduced Open Graph Benchmark dataset and standardized evaluations",
+      "source_ids": [
+        "S117"
+      ],
+      "locator": "NeurIPS2020 original proceedings author list and abstract",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-32-04",
+      "type": "benchmark_scope",
+      "statement": "OGB splits and metrics are dataset-specific, with application-driven temporal or other schemes; not all OGB data temporally split",
+      "source_ids": [
+        "S117"
+      ],
+      "locator": "OGB original paper and institutional dataset documentation; scope qualified",
+      "verification_status": "primary_paper_and_project_checked"
+    },
+    {
+      "claim_id": "NS-32-05",
+      "type": "distribution_shift_inference",
+      "statement": "A model that succeeds on one historical graph distribution may fail on future or changed populations, requires test instead of assuming generalization",
+      "source_ids": [
+        "S117",
+        "S116"
+      ],
+      "locator": "NeurIPS2020 original abstract on OOD and splits plus author scenario",
+      "verification_status": "qualified_conceptual_synthesis"
+    },
+    {
+      "claim_id": "NS-32-06",
+      "type": "teaching_counterexample",
+      "statement": "SCM A X=U Y=U and SCM B X=U Y=X with fair Bernoulli U are observationally identical X=Y, but under do(X=1) cause Y1 probability0.5 vs1",
+      "source_ids": [],
+      "locator": "Author-defined two SCMS, exact enumeration; intervention breaks X assignment only",
+      "verification_status": "independently_computed_author_created"
+    },
+    {
+      "claim_id": "NS-32-07",
+      "type": "historical_methodology",
+      "statement": "Judea Pearl Causal Inference in Statistics An Overview Statistics Surveys3:96-146 (2009) emphasizes assumptions, interventions and counterfactual claims",
+      "source_ids": [
+        "S115"
+      ],
+      "locator": "2009 Statistics Surveys DOI10.1214/09-SS057 original text and abstract",
+      "verification_status": "journal_article_checked"
+    },
+    {
+      "claim_id": "NS-32-08",
+      "type": "causal_boundary",
+      "statement": "Model feature contribution or importance explains computed prediction but does not by itself identify real causal contribution to outcome",
+      "source_ids": [
+        "S115",
+        "S101"
+      ],
+      "locator": "Pearl SCM survey and Shalizi Thomas observational confounding; author's synthesis",
+      "verification_status": "qualified_synthesis"
+    },
+    {
+      "claim_id": "NS-32-09",
+      "type": "cross_chapter_synthesis",
+      "statement": "Euler proof of graph path existence, graph ML prediction and causal explanation are distinct types of claims with different evidence",
+      "source_ids": [
+        "S114",
+        "S117",
+        "S115"
+      ],
+      "locator": "Euler E53 / OGB / Pearl original text interpreted in book-wide epistemic comparison",
+      "verification_status": "qualified_historical_synthesis"
+    }
+  ],
+  "outstanding_checks": [
+    "Book-wide evidence_verified=false and outline_approved=false; fact and structural independent dual review not completed.",
+    "Cross-chapter claim source IDs require an independent original-paper scope audit and consistent editorial terminology.",
+    "Author-made models and toy demonstrations are not study data or causal evidence."
+  ]
+}

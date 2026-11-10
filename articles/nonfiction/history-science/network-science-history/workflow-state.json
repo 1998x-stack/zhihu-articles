@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "lane": "nonfiction",
-  "current_revision": 2,
+  "current_revision": 3,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "PENDING",
@@ -9,5 +9,5 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "revision_note": "2026-11-10 全书审校P0补稿第29—31章，27条新章级主张，revision2；00/32/33仍占位，revision0报告和revision1增量交接均非本版本PASS；保持大纲/证据闸门false，正式review_status=PENDING与final_approved=false。"
+  "revision_note": "2026-11-10 全书P0最后补齐序章00、第32章与尾声33，新增27条主张，revision3全部34篇均是待审研究性工作初稿。仅消除缺正文子阻断；早期证据ID追溯与原始论文/数学核验未通过，旧revision0首轮报告CHANGES_REQUIRED为历史快照；未进行revision3正式独立双审。大纲/证据闸门false，review_status=PENDING，final_approved=false。"
 }
