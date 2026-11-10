@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "33",
+  "revision": 3,
+  "editorial_status": "p0_completed_working_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "review_status": "PENDING",
+  "claims": [
+    {
+      "claim_id": "NS-33-01",
+      "type": "historical_math",
+      "statement": "Euler Königsberg bridge abstract gives degree multiset5,3,3,3, forbidding Euler path; this solves existence not distance/time/social impact",
+      "source_ids": [
+        "S114"
+      ],
+      "locator": "Euler Archive E53, author-computed multigraph degrees, book chapter01",
+      "verification_status": "archival_and_mathematical_check"
+    },
+    {
+      "claim_id": "NS-33-02",
+      "type": "historical_synthesis",
+      "statement": "WS1998 path/clustering model and BA1999 growth preferential attachment model have different research objectives",
+      "source_ids": [
+        "S06",
+        "S07"
+      ],
+      "locator": "Original Nature 1998 and Science1999 abstracts and book prologue",
+      "verification_status": "primary_abstract_checked"
+    },
+    {
+      "claim_id": "NS-33-03",
+      "type": "historical_data",
+      "statement": "Travers Milgram 1969 reports296 starters64 completed chains and successful-chain mean5.2 intermediaries, not universal shortest-path theorem",
+      "source_ids": [
+        "S45"
+      ],
+      "locator": "Travers and Milgram Sociometry32(4):425-443 (1969), original pp425/429–431, successful chain conditional count; ch07 primary source",
+      "verification_status": "source_scope_checked_needs_full_text_independent_review"
+    },
+    {
+      "claim_id": "NS-33-04",
+      "type": "teaching_example",
+      "statement": "Static A-B-C-D chain can have no A-to-D time-respecting path when CD and BC contacts precede AB, under one-way time-respecting messages",
+      "source_ids": [
+        "S17",
+        "S92"
+      ],
+      "locator": "Author reused chapter25 three-event reverse chronology; depends contact and waiting assumptions",
+      "verification_status": "mathematically_checked_toy"
+    },
+    {
+      "claim_id": "NS-33-05",
+      "type": "methodology_synthesis",
+      "statement": "Link prediction, random walk embedding and GNN can improve task-specific representation/prediction but do not automatically yield universal causal models",
+      "source_ids": [
+        "S103",
+        "S105",
+        "S106",
+        "S108",
+        "S109"
+      ],
+      "locator": "Original papers chapters29-31 and chapter32 boundary",
+      "verification_status": "source_restricted_synthesis"
+    },
+    {
+      "claim_id": "NS-33-06",
+      "type": "editorial_conceptual_map",
+      "statement": "Structure, time-respecting paths, relationship semantics, dynamical modeling, evaluation and causal identification are distinct successive tasks",
+      "source_ids": [
+        "S17",
+        "S18",
+        "S101",
+        "S115"
+      ],
+      "locator": "Cross-chapter definitions 25–32; conceptual author summary",
+      "verification_status": "editorial_synthesis"
+    },
+    {
+      "claim_id": "NS-33-07",
+      "type": "historical_comparison",
+      "statement": "Different historical models address different levels of network question and later limits refine rather than retroactively negate the older result",
+      "source_ids": [
+        "S114",
+        "S06",
+        "S07",
+        "S08"
+      ],
+      "locator": "Euler, 1998 Nature, 1999 Science, 2009 Clauset tests; interpretive boundaries",
+      "verification_status": "qualified_historical_inference"
+    },
+    {
+      "claim_id": "NS-33-08",
+      "type": "editorial_method",
+      "statement": "Five closing checklist questions about data semantics, abstraction, proof vs prediction vs causal claims, counterexamples, falsification are author pedagogical framework",
+      "source_ids": [],
+      "locator": "Author-created five questions derived from manuscript, not an external scholar's quote",
+      "verification_status": "author_editorial_framework"
+    },
+    {
+      "claim_id": "NS-33-09",
+      "type": "editorial_conclusion",
+      "statement": "Network abstraction is useful when its stated question, assumptions, evidence and failure conditions are explicit; not claim a universal theorem",
+      "source_ids": [],
+      "locator": "Author philosophical synthesis of the 34-part manuscript",
+      "verification_status": "author_editorial_synthesis"
+    }
+  ],
+  "outstanding_checks": [
+    "Book-wide evidence_verified=false and outline_approved=false; fact and structural independent dual review not completed.",
+    "Cross-chapter claim source IDs require an independent original-paper scope audit and consistent editorial terminology.",
+    "Author-made models and toy demonstrations are not study data or causal evidence."
+  ]
+}

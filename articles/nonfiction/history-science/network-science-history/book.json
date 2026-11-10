@@ -2,14 +2,16 @@
   "schema_version": 1,
   "id": "network-science-history",
   "title": "连接的真相：一部网络科学发展史",
-  "reading_notice": "第01—31章共31篇研究性初稿；序章00、第32章及尾声33仍3篇策划占位。第29—31章P0补稿为revision2：链接预测、图嵌入、图神经网络，新稿未经独立双审。revision0初轮QA报告与revision1增量交接是历史记录，不能认定revision2通过审校。outline_approved=false、evidence_verified=false、review_status=PENDING、final_approved=false；站点可读不等于正式出版。",
+  "reading_notice": "全书序章00、第01—32章及尾声33共34篇均已存在独立的历史科学非虚构研究性工作初稿；本轮revision3补齐00、32、33三篇并附逐条主张，全部规划占位清零，但它们均非正式终稿或独立事实/结构双审通过。此前revision0初轮CHANGES_REQUIRED报告只作为历史问题单；上游 outline_approved=false、evidence_verified=false、review_status=PENDING、final_approved=false，仍需P1逐条证据与数学史核验、正式独立双审与终稿封版。",
   "chapters": [
     {
       "id": "prologue",
       "title": "序章｜1998年，一条捷径和一个超级节点",
       "part": "序章",
       "file": "draft/00.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/00.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-01",
@@ -257,14 +259,18 @@
       "title": "32｜机器会预测，就理解世界了吗",
       "part": "第7部｜从网络定律到图学习",
       "file": "draft/32.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/32.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "epilogue",
       "title": "尾声｜一张图，从来不是整个世界",
       "part": "尾声",
       "file": "draft/33.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/33.claims.json",
+      "review_status": "PENDING"
     }
   ]
 }

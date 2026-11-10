@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "00",
+  "revision": 3,
+  "editorial_status": "p0_completed_working_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "review_status": "PENDING",
+  "claims": [
+    {
+      "claim_id": "NS-00-01",
+      "type": "editorial_synthesis",
+      "statement": "1998 small-world and 1999 preferential attachment offer distinct network science questions, not a complete causal description of all real networks",
+      "source_ids": [
+        "S06",
+        "S07"
+      ],
+      "locator": "Nature393:440–442 and Science286:509–512 original abstracts; noncausal comparison",
+      "verification_status": "original_publisher_metadata_checked_scope_limited"
+    },
+    {
+      "claim_id": "NS-00-02",
+      "type": "historical_publication",
+      "statement": "Duncan Watts and Steven Strogatz Collective dynamics of small-world networks Nature393:440–442 was published 1998-06-04",
+      "source_ids": [
+        "S06"
+      ],
+      "locator": "Nature 1998 DOI10.1038/30918 publisher metadata",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-00-03",
+      "type": "model_definition",
+      "statement": "WS original model rewires edges of initially regular network with probability, examining clustering and path length, not simple unrestricted addition of edges",
+      "source_ids": [
+        "S06"
+      ],
+      "locator": "Nature 1998 abstract and paper construction; distinguish toy addition",
+      "verification_status": "publisher_abstract_checked"
+    },
+    {
+      "claim_id": "NS-00-04",
+      "type": "teaching_example",
+      "statement": "Toy cycle A-B-C-D-E-F-A has distance(A,D)=3; adding A-D reduces it to1; explicit added-edge case is not WS rewiring",
+      "source_ids": [],
+      "locator": "Author invented 6-node cycle and one new edge; direct shortest path enumeration",
+      "verification_status": "independently_computed_author_created"
+    },
+    {
+      "claim_id": "NS-00-05",
+      "type": "historical_publication",
+      "statement": "Albert-Laszlo Barabasi and Reka Albert Emergence of scaling in random networks Science286:509–512 published Oct15 1999",
+      "source_ids": [
+        "S07"
+      ],
+      "locator": "Science original publisher metadata and abstract",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-00-06",
+      "type": "model_definition",
+      "statement": "BA original generative mechanism combines growth with preferential attachment and can produce heterogeneous scale-free degree distributions under assumptions",
+      "source_ids": [
+        "S07"
+      ],
+      "locator": "Science 1999 original abstract; do not infer all real systems exact power laws",
+      "verification_status": "publisher_abstract_checked_scope_limited"
+    },
+    {
+      "claim_id": "NS-00-07",
+      "type": "historical_publication",
+      "statement": "Euler E53 manuscript linked to 1735 work, 1736 nominal volume year and actual printed 1741; do not collapse dates",
+      "source_ids": [
+        "S114"
+      ],
+      "locator": "Euler Archive E53 author record written date 1735 published date1741 vol8 nominal 1736",
+      "verification_status": "archive_record_checked"
+    },
+    {
+      "claim_id": "NS-00-08",
+      "type": "mathematical_result",
+      "statement": "Königsberg bridge multigraph has degrees5,3,3,3 therefore four odd-degree vertices so no edge-simple Euler trail under connected graph theorem",
+      "source_ids": [
+        "S114"
+      ],
+      "locator": "Euler E53 plus modern parity proof and book chapter01; four odd-degree numbers checked",
+      "verification_status": "mathematically_proved"
+    },
+    {
+      "claim_id": "NS-00-09",
+      "type": "editorial_structure",
+      "statement": "Seven book parts organized by question and may revisit older works rather than claiming strict linear causal scholar succession",
+      "source_ids": [],
+      "locator": "Author's book outline and original brief; not historical empirical claim",
+      "verification_status": "editorial_mapping_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Book-wide evidence_verified=false and outline_approved=false; fact and structural independent dual review not completed.",
+    "Cross-chapter claim source IDs require an independent original-paper scope audit and consistent editorial terminology.",
+    "Author-made models and toy demonstrations are not study data or causal evidence."
+  ]
+}

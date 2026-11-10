@@ -379,3 +379,24 @@
 **第31章数学例题**：三节点链A—B—C，初始特征(1,0,1)，以**非GCN原公式**的自环邻居均值第一层为(1/2,2/3,1/2)，第二层(7/12,5/9,7/12)；六环C6与两个三角形K3∪K3的6节点6边每个度2，若节点输入全部同值、共享置换不变邻居多重集合聚合且图级读出为sum/mean，则两图每层节点表示相同、图输出也相同。它只是**受限模型的数学反例**，不是“全部GNN无法辨别三角形”。
 
 **待独立审校特别要求**：2003CIKM与2007期刊版的版本界线；图上过去/未来边时间泄漏；DeepWalk语言上下文并非词义；2016 node2vec与2017 GraphSAGE不同；GCN归一化/均值不同；2019表达能力界限与2021过压缩理论的模型假设；所有作者演算无历史数据身份。
+
+### 序章00、第32章、尾声33｜P0完整稿收束史料与认识边界（2026-11-10，revision3）
+
+本批不是给任何尚未经独立核证的内容颁发 `evidence_verified`。对于序章与尾声，按**已有原始研究归属→现代数学语言→作者论证的边界**核查；第32章新增基准评测/因果推断的一手与主要研究文献。以下列表仅说明“可以支持什么”，其余逐句与原刊交叉审校仍待完成。
+
+| 来源ID | 原始论文或专业档案入口 | 可支持的结论和禁止的偷换 |
+|---|---|---|
+| **S114** | Leonhard Euler, [Euler Archive E53: *Solutio problematis ad geometriam situs pertinentis*](https://scholarlycommons.pacific.edu/euler-works/53/)；参考[美国数学协会史料介绍](https://old.maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-problem) | 原稿撰写/报告1735、期卷标1736、实际刊行1741需分开；现代图论奇度数/欧拉通路语言是后世规范化，不能称欧拉已有全部现代图论符号。 |
+| **S115** | Judea Pearl, [“Causal Inference in Statistics: An Overview,” *Statistics Surveys* 3:96—146 (2009)](https://doi.org/10.1214/09-SS057) | 结构因果模型、潜在结果与干预/反事实推断的假设；2009综述不是“因果科学首次出现”；作者自造U/X/Y反例仅借一般符号教学，不冒充原刊实验。 |
+| **S116** | Oleksandr Shchur, Maximilian Mumme, Aleksandar Bojchevski & Stephan Günnemann, [“Pitfalls of Graph Neural Network Evaluation,” arXiv:1811.05868 (2018-11-14初版)](https://arxiv.org/abs/1811.05868) | 图学习架构实验中划分/训练/调参条件可能改变模型比较结果；本文是预印本研究，不写成“2018年所有GNN证明无效”。 |
+| **S117** | Weihua Hu, Matthias Fey, Marinka Zitnik, Yuxiao Dong, Hongyu Ren, Bowen Liu, Michele Catasta & Jure Leskovec, [“Open Graph Benchmark: Datasets for Machine Learning on Graphs,” *NeurIPS* 33 (2020)](https://proceedings.neurips.cc/paper/2020/hash/fb60d411a5c5b72b2e7d3527cfc84fd0-Abstract.html)，[OGB项目](https://ogb.stanford.edu/) | 节点/边/图任务及不同数据集特定划分与评测标准；不是所有数据集按时间划分，也不是单凭benchmark排行榜就建立真实因果。 |
+
+**继承来源**：序章与尾声沿用 **S06** Watts–Strogatz, *Nature* 393:440—442 (1998-06-04) 和 **S07** Barabási–Albert, *Science* 286:509—512 (1999-10-15)，以及第07章 **S45** Travers–Milgram, *Sociometry* 32(4):425—443 (1969)：296起始、64完成链、5.2中间人只限定成功链。序章并无把1998/1999两篇合成单一理论的证据，后两者为不同假设与研究问题。
+
+**第00章作者自造环图**：六节点无向环 `A-B-C-D-E-F-A` 的A到D最短3步，**新增**A–D直接边以后为1步；这演示捷径效果，不是WS1998的**重连**实验。七桥陆地区域度数5、3、3、3是对原问题的现代数学计数，属于可严格判定的存在性结论。
+
+**第32章作者自造反事实**：共同二元外生变量U~Bernoulli(1/2)。甲：X=U,Y=U；乙：X=U,Y=X。两个世界观察到的(X,Y)均为(0,0)与(1,1)各一半；但do(X=1)令甲P(Y=1)=1/2，乙P(Y=1)=1。干预仅替换X的结构方程，保持U的分布与其余结构不变。**不是观测平台实证或2009 Pearl文章中的专有实验**。
+
+**第33章**不是新增历史科学实验，而是通过**S114、S06、S07、S45、S08、S17、S18、S92—S117**等原书结构/时间/关系/预测/因果问题，给出作者的整书综合。尾声“五道审核追问”是作者提出的方法清单，不冒充外部学者的名言。
+
+**必须进入下一轮独立复核的高优先级项**：统一第01章E53来源的日期和图论术语，第07章成功链统计口径，序章1998“重连”与自造“加边”，第32章OGB具体数据集划分／Shchur版本／Pearl干预假设，所有章节的跨章引用及数学算例。全书34篇有初稿不等于已获双审或定稿。

@@ -2,20 +2,20 @@
   "schema_version": "1.0",
   "lane": "nonfiction",
   "tracking_mode": "partial-batch-continuity-plus-derived-progress",
-  "note": "全书审校P0第29—31章已补，revision2；尚有00、32、33三篇缺稿，旧章节主张行内追溯与独立事实/结构双审继续待办，工作初稿不构成审核许可。",
+  "note": "全书P0缺正文补稿子项完成：00序章、01—32章、33尾声均有研究性初稿（34/34）；revision3仍待P1旧证据ID锚点、文献数学逐项独立复核和双审；总稿件齐不等于审核PASS。",
   "progress_summary": {
     "source": "book.json",
     "total": 34,
-    "draft": 31,
-    "outline": 3,
+    "draft": 34,
+    "outline": 0,
     "final": 0,
     "proposals": 0,
     "review_status": "PENDING",
     "final_approved": false
   },
-  "current_revision": 2,
-  "last_written_chapter": "31",
-  "latest_batch": "29-31",
+  "current_revision": 3,
+  "last_written_chapter": "33",
+  "latest_batch": "00-32-33",
   "chapter_progress": {
     "20": {
       "title": "网络流行病学的前史：从SIR开始",
@@ -189,6 +189,52 @@
       "core_question": "共享邻居聚合如何学习，为何仍可能无法区分六环与两个三角形？",
       "outgoing_problem": "模型预测得准是否就能解释网络中的真实机制？",
       "continuity_boundary": "Scarselli2008在线2009见刊、GCN2016/2017、GraphSAGE和MPNN2017；均值教学例子不等于对称GCN；局部区分界限按模型限定"
+    },
+    "32": {
+      "title": "机器会预测，就理解世界了吗",
+      "status": "draft",
+      "body": "draft/32.md",
+      "claims": "draft/32.claims.json",
+      "source_ids": [
+        "S115",
+        "S116",
+        "S117"
+      ],
+      "core_question": "为什么两个观察分布完全相同的网络因果机制会对同一干预给出不同结果？",
+      "outgoing_problem": "当图始终不完整，它为什么仍是科学工具？",
+      "continuity_boundary": "2018 GNN评测预印本、2020 OGB实际拆分以及Pearl2009综述归属分清；作者自造双SCM不是历史实测"
+    },
+    "33": {
+      "title": "一张图，从来不是整个世界",
+      "status": "draft",
+      "body": "draft/33.md",
+      "claims": "draft/33.claims.json",
+      "source_ids": [
+        "S114",
+        "S06",
+        "S07",
+        "S45",
+        "S17",
+        "S18",
+        "S115"
+      ],
+      "core_question": "图舍弃了现实哪些信息，何时仍能为具体问题提供可靠知识？",
+      "outgoing_problem": "进入全书P1证据/模型审校与真正独立双审，而非再规划新章",
+      "continuity_boundary": "回收七桥奇度、六度成功链分母、时间路径及预测/因果证据边界；作者认识论总结不是史料引文"
+    },
+    "00": {
+      "title": "1998年，一条捷径和一个超级节点",
+      "status": "draft",
+      "body": "draft/00.md",
+      "claims": "draft/00.claims.json",
+      "source_ids": [
+        "S06",
+        "S07",
+        "S114"
+      ],
+      "core_question": "为什么1998的小世界与1999的超级枢纽是不同问题，并需要回到欧拉七桥？",
+      "outgoing_problem": "欧拉如何舍弃桥长，只留下结构约束来证明不可走遍？",
+      "continuity_boundary": "WS1998重连≠作者自造加边图；BA1999不是所有真实网络都幂律；E53撰写1735/卷标1736/刊行1741分开"
     }
   },
   "review_status": "PENDING"
