@@ -1,0 +1,201 @@
+{
+  "chapter": "25",
+  "title": "黑体辐射：完美的经典波为什么算错了",
+  "manuscript_path": "proposals/25.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E25-01",
+      "statement": "理想黑体在热平衡时其辐射谱由温度决定",
+      "kind": "现代理论",
+      "section": "一、二",
+      "source_ids": [
+        "S25-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-02",
+      "statement": "空腔小孔是近似实现黑体辐射的重要实验模型",
+      "kind": "物理实验原理",
+      "section": "二",
+      "source_ids": [
+        "S25-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-03",
+      "statement": "卢默、普林斯海姆、鲁本斯、库尔鲍姆等实验推进长波段精密测量",
+      "kind": "实验史",
+      "section": "二、三",
+      "source_ids": [
+        "S25-03",
+        "S25-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-04",
+      "statement": "维恩分布律在部分波段适用却不能解释全部谱数据",
+      "kind": "科学史及近似",
+      "section": "三",
+      "source_ids": [
+        "S25-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-05",
+      "statement": "普朗克1900年10月19日提出适合全谱的分布公式",
+      "kind": "发表史",
+      "section": "四",
+      "source_ids": [
+        "S25-01",
+        "S25-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-06",
+      "statement": "现代频率谱能量密度公式uν=(8πhν³/c³)/(exp(hν/kT)-1)",
+      "kind": "现代公式",
+      "section": "四",
+      "source_ids": [
+        "S25-02",
+        "S25-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-07",
+      "statement": "1900年12月14日普朗克使用能量元及振子统计计数",
+      "kind": "发表史",
+      "section": "五",
+      "source_ids": [
+        "S25-01",
+        "S25-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-08",
+      "statement": "能量元ε=hν不意味着1900年已建立成熟自由光子模型",
+      "kind": "历史边界",
+      "section": "五、六",
+      "source_ids": [
+        "S25-01",
+        "S25-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-09",
+      "statement": "单模式能量增量hν与温度对应的高频抑制是现代教学解释",
+      "kind": "现代物理解释",
+      "section": "六",
+      "source_ids": [
+        "S25-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-10",
+      "statement": "瑞利—金斯低频公式可由经典等分与电磁模式计数得到",
+      "kind": "现代公式",
+      "section": "七",
+      "source_ids": [
+        "S25-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-11",
+      "statement": "对瑞利—金斯高频无界外推得到发散积分，不等于实验测得无穷大",
+      "kind": "物理和逻辑边界",
+      "section": "七",
+      "source_ids": [
+        "S25-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-12",
+      "statement": "紫外灾难的后世名称和瑞利—金斯推导时间线不得倒签为普朗克1900年的唯一动机",
+      "kind": "科学史争议",
+      "section": "七",
+      "source_ids": [
+        "S25-01",
+        "S25-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-13",
+      "statement": "普朗克公式低频极限趋向瑞利—金斯结果、高频受指数压制",
+      "kind": "现代推导",
+      "section": "八",
+      "source_ids": [
+        "S25-02",
+        "S25-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E25-14",
+      "statement": "量子能量分配问题与1905年光量子论文有历史联系但概念不同",
+      "kind": "跨章衔接",
+      "section": "九、十",
+      "source_ids": [
+        "S25-05",
+        "S25-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S25-01",
+      "title": "APS, This Month in Physics History: October 1900",
+      "url": "https://www.aps.org/apsnews/2002/10/this-month-in-physics-history",
+      "source_type": "学会科学史文章",
+      "scope": "1900年10月19日公式报告、12月14日统计推导与能量元"
+    },
+    {
+      "source_id": "S25-02",
+      "title": "APS Physics: The Tumultuous Birth of Quantum Mechanics",
+      "url": "https://physics.aps.org/articles/v18/24",
+      "source_type": "后世科学史综述",
+      "scope": "黑体谱、维恩定律与普朗克研究的历史概貌"
+    },
+    {
+      "source_id": "S25-03",
+      "title": "Max Planck, On the Law of the Energy Distribution in the Normal Spectrum (1901)",
+      "url": "https://zenodo.org/records/10520385",
+      "source_type": "1901原论文英文再译入口",
+      "scope": "光谱数据、维恩近似与1901发表版；原德文排印未核对"
+    },
+    {
+      "source_id": "S25-04",
+      "title": "Max Planck 1900, On the Theory of the Energy Distribution Law",
+      "url": "https://commons.princeton.edu/josephhenry/wp-content/uploads/sites/71/2021/01/Planck-1900-Distribution-Law.pdf",
+      "source_type": "1900论文历史译本入口",
+      "scope": "统计能量元、振子分配；未逐页审核PDF"
+    },
+    {
+      "source_id": "S25-05",
+      "title": "Library of Congress: Einstein's Annus Mirabilis",
+      "url": "https://guides.loc.gov/einstein-annus-mirabilis/1905-papers",
+      "source_type": "美国国会图书馆论文索引",
+      "scope": "1905光量子论文背景，作为第26章衔接"
+    }
+  ],
+  "unresolved": [
+    "核对1900年10月、12月会议报告及1901原论文原版页码与发行日期",
+    "区分普朗克在1900—1901年的能量元统计与后来振子能级的解释",
+    "厘清瑞利、金斯、埃伦费斯特及紫外灾难一词的精确先后史",
+    "校核频率谱uν与波长谱uλ之转换及现代SI符号"
+  ]
+}
