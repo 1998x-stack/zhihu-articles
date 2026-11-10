@@ -303,3 +303,38 @@
 | 27 | C27-08 | toy单位向量余弦0.8vs0及softmax约0.690 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 仅2候选文本、tau1；分数不证明事实或生成 |
 
 本表仅为限定研究与作者例题的写作闸门。SCOPED_VERIFIED不等于独立事实/结构审稿PASS；教学题均为AUTHOR_DERIVATION，不可冒充原始比赛或原论文训练参数。第01—27章均无最终批准。
+
+## 第十批28—30章：中心主张与证据矩阵（2026-11-10）
+
+| chapter | claim_id | 历史/科学论断 | source_ids | 研究等级 | 必须保留的条件 |
+| --- | --- | --- | --- | --- | --- |
+| 28 | C28-01 | 2017 Christiano等人类偏好强化学习研究针对控制任务，早于大模型聊天产品 | DL140 | SCOPED_VERIFIED | 不是2017年ChatGPT或完整语言RLHF管线 |
+| 28 | C28-02 | 2022 Ouyang等InstructGPT训练包含SFT、偏好排序、奖励模型与PPO | DL141 | SCOPED_VERIFIED | 论文特定数据与训练设置 |
+| 28 | C28-03 | 1.3B InstructGPT在限定人类偏好评测优于175B GPT3 | DL141 | SCOPED_VERIFIED | 不代表所有任务或事实正确率优于大模型 |
+| 28 | C28-04 | ChatGPT于2022-11-30作为对话研究预览公开，与InstructGPT研究相关 | DL142 | SCOPED_VERIFIED | 产品发布不代表首次发明RLHF/Transformer |
+| 28 | C28-05 | TruthfulQA在2022 ACL论文包括817个问题38类别 | DL143 | SCOPED_VERIFIED | 仅限论文测试对象与评测规则 |
+| 28 | C28-06 | 2023 GPT4技术报告仍列幻觉与错误限制 | DL144 | SCOPED_VERIFIED | 与2022 ChatGPT初代模型版本分开 |
+| 28 | C28-07 | 2023 DPO提供直接偏好优化的替代训练目标 | DL145 | SCOPED_VERIFIED | 不是所有后训练都不用奖励模型 |
+| 28 | C28-08 | 教学3名偏好A占2/3、softmax奖励差1得0.7311 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 作者假设数值不是PPO公式或事实准确率 |
+| 29 | C29-01 | 开放权重、代码、数据信息与OSI开源AI自由是不同开放维度 | DL148,DL147 | SCOPED_VERIFIED | 不自动赋予任何特定型号法律许可 |
+| 29 | C29-02 | 2023 Llama2社区许可存在特定商用条款和七亿MAU授权门槛 | DL146 | SCOPED_VERIFIED | 不是七亿用户以下一切行为无条件合法 |
+| 29 | C29-03 | 2024 Ai2 OLMo公开训练代码、权重和数据相关研究材料 | DL147,DL160 | SCOPED_VERIFIED | 有资料不等于零成本重训 |
+| 29 | C29-04 | 2024 Qwen2.5部分型号3B/72B许可不等同系列其他型号 | DL149 | SCOPED_VERIFIED | 具体模型许可证需逐版本核对 |
+| 29 | C29-05 | Qwen3报告描述稠密与MoE架构、思考/非思考模式 | DL150 | SCOPED_VERIFIED | 不倒灌2024 Qwen2.5许可 |
+| 29 | C29-06 | DeepSeekV3报告列671B总参数37B逐token激活 | DL151 | SCOPED_VERIFIED | 活跃参数不等于全部模型存储 |
+| 29 | C29-07 | V3报告2.788m H800 GPU hours不能直接等同总研发美元预算 | DL151 | QUALIFIED | 费用需包含训练阶段界定及更多成本项目 |
+| 29 | C29-08 | R1-Zero与R1正式训练流程不同，2025公开及Nature正式发表时序要分开 | DL152,DL157 | SCOPED_VERIFIED | R1-Zero也有基础预训练，不是从零学习全部语言 |
+| 29 | C29-09 | DeepSeekR1模型及蒸馏型号可能受不同底座许可证约束 | DL153 | SCOPED_VERIFIED | 主模型MIT不意味着所有Llama衍生模型相同 |
+| 29 | C29-10 | 自造8×10M+5M=85M及2×10M+5M=25M，激活占29.41% | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 并非真实DeepSeek层数/路由或性能 |
+| 30 | C30-01 | 2022 FlashAttention使用IO-aware分块减少精确注意力的GPU读写 | DL154 | SCOPED_VERIFIED | 不等于全部标准全局注意力算术降至线性 |
+| 30 | C30-02 | 2023 PagedAttention vLLM引入KV-cache分页管理提高特定实验吞吐 | DL155 | SCOPED_VERIFIED | 特定对照结果不能泛化任意硬件 |
+| 30 | C30-03 | 2024-09 o1官方报告增加训练与测试时计算改进部分推理任务 | DL156 | SCOPED_VERIFIED | 官方报告与独立复测区分，额外思考不保证正确 |
+| 30 | C30-04 | 2025 R1-Zero建立在预训练基础模型之上与正式R1有不同后训练阶段 | DL152,DL157 | SCOPED_VERIFIED | 无传统SFT预置不等于没有预训练 |
+| 30 | C30-05 | 2025 Qwen3技术报告列思考/非思考模式和预算控制 | DL150 | SCOPED_VERIFIED | 某个模式不是所有任务永远最优 |
+| 30 | C30-06 | 2026-01 Nature HLE基准包含约2500多学科专家级问题 | DL158 | SCOPED_VERIFIED | 并非对所有现实工作可靠性的充分测试 |
+| 30 | C30-07 | 2026-08多题共享计算预算研究发现受试模型可能分配不理想 | DL159 | PREPRINT_SCOPED | 尚属预印本和指定实验，不当作普遍定论 |
+| 30 | C30-08 | 10单位分配6+4得6分而5+5得1分的阈值课堂例题 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 人为设定阈值和价值，非DL159真实模型结果 |
+| 30 | C30-09 | 同价单位1000到1500，局部费用增50%，不等于真实API总费用 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 缓存、硬件、型号和请求组合均不同 |
+| 30 | C30-10 | 训练算力、单次推理延迟、并发吞吐和任务真实性四指标不能混同 | DL154,DL155,DL156,DL158 | QUALIFIED | 属于作者分析分类，非同一论文报告的统一指标 |
+
+**状态**：DL140—DL161仅对28—30中心史实、原始论文、模型机制与许可证、教学计算提供限域研究；28条主张均未完成独立事实/连续性及结构双审，不得凭作者自查标记PASS。
