@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "01—21章均有未独立双审的正文初稿和claims JSON；第七批19—21涉及Lin1992经验回放、2013/2018/2021评测方法、2013/2015 DQN不同论文口径。review_status=PENDING，尚未语言精修或终稿发布。",
-  "evidence_scope": "仅第01—21章的具体出版、技术与实验主张完成可访问一手论文/官方摘要/原文的限定写作前核查；第19—21章的部分全表、种子与代码仍待独立核实；序章、尾声和第22—32章共13个叙事单元无当前批准的证据写作范围。",
-  "outline_scope": "第01—21章已根据各批次来源形成可交给非虚构初稿写作的研究叙事结构；序章、尾声和22—32章仍须逐章新增核查与大纲批准。"
+  "stage_note": "01—24章有非虚构工作初稿及逐章claims JSON；第八批22—24包括2016 AlphaGo监督+搜索、2017 AlphaGo Zero零人类棋谱、2017预印本/2018 Science AlphaZero分别训练三种棋实例。review_status=PENDING，未独立双审、未封版、未发布。",
+  "evidence_scope": "仅第01—24章明确所列历史与技术主张完成可访问原论文/学术出版社记录/研究方说明的限定范围前置核查；22—24章的部分补充赛事表/代码与随机条件仍待独立二审。序章、尾声和25—32章十个单元仍无本批准入。",
+  "outline_scope": "第01—24章受所在批次证据支撑的非虚构章节结构已进入工作初稿；序章、尾声和第25—32章尚需逐章做fact-research和nonfiction-architect准入。"
 }

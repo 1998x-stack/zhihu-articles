@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "chapter": "24",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "依据2016Nature AlphaGo原文、2017Nature Zero原文、2017arXiv AlphaZero初稿及2018Science正式论文/作者公告进行写作前限定范围核证。全部教学数字单独标为原创。未完整独立二审所有图表与补充材料。",
+  "alias_to_research_source_id": {
+    "AZ01": "R95",
+    "AZ02": "R96",
+    "AZ03": "R97",
+    "AZ04": "R93",
+    "AZ05": "R98"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-24-01",
+      "claim": "AlphaZero早期预印本2017-12-05 arxiv 1712.01815与2018-12-07 Science正式论文分开",
+      "source_ids": [
+        "R95",
+        "R96",
+        "R16"
+      ],
+      "kind": "publication_chronology",
+      "section": "一、二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-02",
+      "claim": "2017 arxiv题名包括Chess and Shogi而Science2018题名包括chess shogi Go",
+      "source_ids": [
+        "R95",
+        "R96"
+      ],
+      "kind": "bibliography",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-03",
+      "claim": "2018 Science作者明确用单一核心算法和网络架构分别处理三种棋类",
+      "source_ids": [
+        "R96"
+      ],
+      "kind": "primary_method",
+      "section": "一、三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-04",
+      "claim": "2018原文报告为chess shogi Go分别训练了separate instances，而非统一一套权重零训练迁移",
+      "source_ids": [
+        "R96"
+      ],
+      "kind": "primary_training",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-05",
+      "claim": "AlphaZero使用策略价值联合网络(p,v)=fθ(s)、MCTS和自对弈训练样本(s,π,z)",
+      "source_ids": [
+        "R96",
+        "R93"
+      ],
+      "kind": "primary_algorithm",
+      "section": "三、六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-06",
+      "claim": "AlphaZero和棋结果用z=-1/0/+1表示输/和/赢并优化预期结果",
+      "source_ids": [
+        "R96"
+      ],
+      "kind": "primary_reward_scope",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-07",
+      "claim": "原创两动作结果分布甲赢.45和.50输.05=预期.40，乙赢.50和.10输.40=预期.10",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-08",
+      "claim": "AlphaZero在训练和搜索时不用围棋8种旋转镜像对称增强，适配非对称国际象棋/将棋规则",
+      "source_ids": [
+        "R96"
+      ],
+      "kind": "primary_architecture",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-09",
+      "claim": "不同游戏仍由人类提供基本规则、状态和合法动作编码，不是完全无规则",
+      "source_ids": [
+        "R96",
+        "R98"
+      ],
+      "kind": "domain_boundary",
+      "section": "四、六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-10",
+      "claim": "AlphaZero大多数核心超参数一致，但探索噪声和学习率日程有例外",
+      "source_ids": [
+        "R96"
+      ],
+      "kind": "primary_scope",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-11",
+      "claim": "Science2018训练时长约9小时棋、12小时将棋、13天围棋分别在各实例上报告",
+      "source_ids": [
+        "R96",
+        "R98"
+      ],
+      "kind": "primary_experiment",
+      "section": "八",
+      "evidence_note": "不是普通电脑对人类的学习速度",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-12",
+      "claim": "2018论文训练配置含5000第一代TPU自对弈与16第二代TPU优化网络",
+      "source_ids": [
+        "R96"
+      ],
+      "kind": "primary_hardware",
+      "section": "八",
+      "evidence_note": "计算资源不可省略",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-13",
+      "claim": "2018论文对Stockfish、Elmo及早期AlphaGo版本有指定规则与时限下比较",
+      "source_ids": [
+        "R96"
+      ],
+      "kind": "primary_evaluation",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-14",
+      "claim": "Stockfish/Elmo的测试胜负不能无条件外推所有后继引擎或任意不同硬件赛制",
+      "source_ids": [
+        "R96"
+      ],
+      "kind": "evaluation_boundary",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-15",
+      "claim": "2018 DeepMind官方明确2017初版与2018扩充评估区别",
+      "source_ids": [
+        "R97"
+      ],
+      "kind": "official_history",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-16",
+      "claim": "同一学习算法跨三种完全信息对抗棋类成功并非不完全信息或连续物理场景通用证明",
+      "source_ids": [
+        "R96"
+      ],
+      "kind": "generalization_limit",
+      "section": "十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-24-17",
+      "claim": "AlphaZero保留显式树搜索，不能写成神经网络使树搜索不再需要",
+      "source_ids": [
+        "R96"
+      ],
+      "kind": "technical_boundary",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "2017预印本标题与2018Science正式论文及评估配置分别记录",
+    "同一个算法/架构≠训练完成的相同一套权重无缝跨游戏迁移；正式原文separate instances",
+    "9h/12h/13days属于高并行TPU墙上时间，必须列计算条件",
+    "国际象棋/将棋有和棋，+1/0/-1预期回报与围棋二元胜率区别；算法并非无任务规则",
+    "Stockfish/Elmo比较属于论文指定时限版本与实验条件，未二审全部附加对局表"
+  ]
+}

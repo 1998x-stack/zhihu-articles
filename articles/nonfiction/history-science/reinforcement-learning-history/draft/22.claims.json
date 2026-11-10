@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "chapter": "22",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "依据2016Nature AlphaGo原文、2017Nature Zero原文、2017arXiv AlphaZero初稿及2018Science正式论文/作者公告进行写作前限定范围核证。全部教学数字单独标为原创。未完整独立二审所有图表与补充材料。",
+  "alias_to_research_source_id": {
+    "G01": "R90",
+    "G02": "R93",
+    "G03": "R91",
+    "G04": "R92",
+    "G05": "R90"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-22-01",
+      "claim": "Silver、Huang等2016年1月Nature论文发表在529:484—489",
+      "source_ids": [
+        "R90",
+        "R14"
+      ],
+      "kind": "publication",
+      "section": "一、八",
+      "evidence_note": "发表在2016年3月李世石比赛之前",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-02",
+      "claim": "2016 AlphaGo策略网络先从人类专家对局监督学习，再经自我对弈强化学习",
+      "source_ids": [
+        "R90"
+      ],
+      "kind": "primary_method",
+      "section": "三、四",
+      "evidence_note": "不是zero human data",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-03",
+      "claim": "2016监督策略网络使用KGS三千万位置，测试专家下棋预测准确率57.0%",
+      "source_ids": [
+        "R90",
+        "R92"
+      ],
+      "kind": "primary_result",
+      "section": "三",
+      "evidence_note": "57%是动作预测率非对人类胜率",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-04",
+      "claim": "2016论文对照此前人类落子预测研究44.4%准确率，任务为held-out分类",
+      "source_ids": [
+        "R90"
+      ],
+      "kind": "primary_comparison",
+      "section": "三",
+      "evidence_note": "不可当比赛胜率",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-05",
+      "claim": "2016网络分别包括监督策略、强化策略、价值和快速rollout策略",
+      "source_ids": [
+        "R90"
+      ],
+      "kind": "primary_architecture",
+      "section": "四至七",
+      "evidence_note": "当时方法与2017 Zero不同",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-06",
+      "claim": "围棋搜索近似分支数250、深度150是论文量级描述，而非每一局面不变常数",
+      "source_ids": [
+        "R90"
+      ],
+      "kind": "primary_context",
+      "section": "二",
+      "evidence_note": "源于论文游戏树复杂度概述",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-07",
+      "claim": "250^3=15625000、250^10≈9.5367e23为原创固定分支树路径计算",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "二",
+      "evidence_note": "不是实际去重棋盘局面数",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-08",
+      "claim": "策略网络概率p(a|s)提供搜索动作先验，不能直接解释为获胜概率",
+      "source_ids": [
+        "R90"
+      ],
+      "kind": "technical_definition",
+      "section": "四、六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-09",
+      "claim": "价值网络预测后续胜负结果，价值与快速rollout评价可加权用于树搜索",
+      "source_ids": [
+        "R90"
+      ],
+      "kind": "primary_method",
+      "section": "五、七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-10",
+      "claim": "教学v=.6, rollout=.2,lambda=.25，混合结果.5",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "七",
+      "evidence_note": "不是原论文训练超参数",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-11",
+      "claim": "2016 MCTS结合Q(s,a)、先验P(s,a)、访问次数N(s,a)与探索U",
+      "source_ids": [
+        "R90"
+      ],
+      "kind": "primary_algorithm",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-12",
+      "claim": "MCTS与策略先验在AlphaGo前已有研究，不能宣称DeepMind首次发明树搜索",
+      "source_ids": [
+        "R90"
+      ],
+      "kind": "historical_boundary",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-13",
+      "claim": "2015-10 AlphaGo对樊麾5:0、2016-03对李世石4:1为两次独立比赛",
+      "source_ids": [
+        "R90",
+        "R91"
+      ],
+      "kind": "match_chronology",
+      "section": "八",
+      "evidence_note": "1月论文不可能含3月赛事",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-14",
+      "claim": "2016论文报告特定评测对其它围棋程序99.8%胜率，不是对全部人类胜率",
+      "source_ids": [
+        "R90"
+      ],
+      "kind": "primary_result",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-22-15",
+      "claim": "策略网络没有搜索时仍有很强表现，但2016比赛系统把网络与搜索结合",
+      "source_ids": [
+        "R90"
+      ],
+      "kind": "primary_method",
+      "section": "四、九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "2016 Nature发表在李世石对局之前；2015樊麾5:0与2016李世石4:1必须在各自有来源的时间线上写",
+    "2016网络含人类棋谱监督学习、rollout；绝不能用2017 Zero不需人类数据论替代",
+    "原始论文几张实验曲线及补充比赛配置未全部独立二审"
+  ]
+}

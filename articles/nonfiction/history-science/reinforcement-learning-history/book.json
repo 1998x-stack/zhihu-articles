@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
-  "reading_notice": "第01—15章为未通过独立双审的研究性工作初稿；其余章节仍属策划占位，读者页面展示并不等于发表或完成史实核验。",
+  "reading_notice": "正文初稿01—24章均未通过独立双审、史料全文核证或终审；其余10个单元明确标记待撰写。GitHub Pages阅读展示并不等于正式发表。",
   "description": "从试错心理学、动态规划与时序差分出发，串联价值学习、策略优化、深度强化学习、自我对弈及人类反馈与可验证奖励。",
   "chapters": [
     {
@@ -122,63 +122,63 @@
       "title": "Options：机器为什么总要一步一步想",
       "part": "第四部｜从评估行动到学习策略",
       "file": "draft/16.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-17",
       "title": "再给价值函数装上神经网络：推广经验的诱惑",
       "part": "第五部｜表格装不下世界",
       "file": "draft/17.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-18",
       "title": "致命三角：三个合理方法为什么放在一起会出错",
       "part": "第五部｜表格装不下世界",
       "file": "draft/18.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-19",
       "title": "经验回放：让昨天的失败再次成为教材",
       "part": "第五部｜表格装不下世界",
       "file": "draft/19.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-20",
       "title": "成功不等于可靠：强化学习该怎样接受检验",
       "part": "第五部｜表格装不下世界",
       "file": "draft/20.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-21",
       "title": "DQN：机器只看像素，怎么学会打街机",
       "part": "第六部｜从街机到围棋",
       "file": "draft/21.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-22",
       "title": "AlphaGo：棋盘太大，学习为何需要搜索",
       "part": "第六部｜从街机到围棋",
       "file": "draft/22.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-23",
       "title": "AlphaGo Zero：不再读人类棋谱，会失去什么",
       "part": "第六部｜从街机到围棋",
       "file": "draft/23.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-24",
       "title": "AlphaZero：一种棋手如何学会三种棋",
       "part": "第六部｜从街机到围棋",
       "file": "draft/24.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-25",

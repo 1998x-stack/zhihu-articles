@@ -66,7 +66,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **C**：专业综述支持，适宜历史背景，不单独支持争议归属。
 - **D**：编辑假设、类比或待核猜想，不进入正文事实陈述。
 
-截至2026-11-10，第01—21章已按各自批次对可访问原始研究、出版记录及明示具体主张开展**限定范围写作前核验**；第22章以后及部分未逐页复核的论文实验表格/代码仍待核。未完成全书独立双审、终审及发布。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
+截至2026-11-10，第01—24章已依各批次在具体支持范围内核对可访问的原始研究、出版社及研究方官方材料；第25章以后及原论文尚未独立二核的补充实验仍待核。未完成全书独立双审、终审及发布。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
 
 ## 第01—03章增量核证记录（2026-11-09）
 
@@ -248,3 +248,32 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **20原创统计演算**：A种子0/0/0/0/150 vs B18/19/20/21/22，均值30 vs20、中位数0 vs20，25配对中A>B为5/25。8数值的普通均值22.5与IQM10；人类归一化用随机/人类基线演示50%与200%。全部为作者创设，不可挪成发表论文实测。
 - **21原创TD示例**：Q预测2、即时奖励1、下一状态冻结目标网络最高Q=4、γ=.99，目标4.96、误差2.96；单参数插值2.296不等于DQN真正的共享参数批量梯度更新。
 - **仍待**：原始DQN完整扩展表的逐项统计复核、2018/2021重复实验程序和随机种子分配的逐代码确认、不同benchmark的统计单位与IQM区间计算参数。章节均未做独立连续性或发展性审稿，不能把前置核验当`review_status=PASS`。
+
+## 第八批22—24章来源档案与精确版本边界（2026-11-10）
+
+> 【证据有效范围】仅支持本批AlphaGo/Zero/AlphaZero章节所述历史、技术及限定赛事表现。本文没有独立运行原作者训练/比赛程序，也未完成全部补充对局表与训练随机种子二次复核。正文[G]/[Z]/[AZ]标注经claims JSON对应R编号。
+
+| 新来源ID | 一手研究或官方资料 | 支持的具体主张和限制 |
+| --- | --- | --- |
+| R90 | [Silver, Huang et al. (2016), Mastering the game of Go with deep neural networks and tree search](https://deepmind-media.storage.googleapis.com/alphago/AlphaGoNaturePaper.pdf) | Nature 529:484–489, 2016-01-28原论文PDF（已目视首页及p.485）；人类KGS三千万位置/57.0%模仿预测、SL/RL策略网络、价值网络、快速rollout与MCTS、2015 Fan Hui5:0及其它程序99.8%属于特定测试 |
+| R91 | [Google DeepMind, AlphaGo official research retrospective](https://deepmind.google/research/alphago/) | 研究方官方赛事回顾：2015-10 Fan Hui5:0与2016-03 Lee Sedol4:1分开；较后写成不用于模拟2016论文提前报道比赛 |
+| R92 | [Google Research (2016), AlphaGo: Mastering the ancient game of Go with Machine Learning](https://research.google/blog/alphago-mastering-the-ancient-game-of-go-with-machine-learning/) | 同期官方方法说明与KGS30m/57%核对；属于研究者公开解说，不取代2016期刊方法正文 |
+| R93 | [Silver, Schrittwieser, Simonyan et al. (2017), Mastering the game of Go without human knowledge](https://gwern.net/doc/reinforcement-learning/model/alphago/2017-silver.pdf) | Nature 550:354–359, 2017-10-19原论文PDF，已目视Fig.1–2页面。无专家棋谱、联合策略价值网络、MCTS训练循环、(s,π,z)、3天20 blocks约490万盘/每搜索1600模拟和软件AlphaGo Lee100:0；另有40天40 blocks版本 |
+| R94 | [Nature (2017), AlphaGo Zero journal page and extended data records](https://www.nature.com/articles/nature24270) | 官方期刊记录及Extended Data 图注：3天20 blocks对AlphaGo Lee与40天40 blocks对AlphaGo Master是不同设置；不声称所有补充谱和图独立二核 |
+| R95 | [Silver et al. (2017), Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm](https://arxiv.org/abs/1712.01815) | 2017-12-05 arxiv原始预印本（题名Chess and Shogi）；初步评估与2018正式Science版本不得混写 |
+| R96 | [Silver et al. (2018), A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](https://gwern.net/doc/reinforcement-learning/model/alphago/2018-silver.pdf) | Science 362:1140–1144, 2018-12-07原始论文，已目视首页。明确three separate instances、+1/0/-1结果、去除围棋旋转对称特殊处理、例外探索噪声和学习率日程、9h/12h/13days以及5000第一代TPU自对弈、16第二代TPU训练。完整补充表尚待独立复核 |
+| R97 | [Google DeepMind (2018-12-06), AlphaZero: Shedding new light on chess, shogi, and Go](https://deepmind.google/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/) | 研究团队同期说明：2017是预备结果，2018正式Science为更新、扩充评测，不能将新版全部细节追溯到2017 |
+| R98 | [Google DeepMind, AlphaZero and MuZero research overview](https://deepmind.google/research/alphazero-and-muzero/) | 研究方概览，对9h chess/12h shogi/13days Go与自对弈/规则依赖进行交叉确认；宣传性概括须让位于R96原始论文 |
+
+### 必须不能混写的三组时间线
+
+- **2015—2016 AlphaGo**：2016-01-28 Nature原始论文报告人类KGS三千万位置训练策略、57%专家下一步预测准确率（非对局胜率），策略强化学习、价值网络、rollout辅助MCTS，另报告2015-10 Fan Hui 5:0。**2016-03 Lee Sedol 4:1发生于原论文之后**，应从赛事官方材料R91核，不能当作2016-01论文所报实验。论文的99.8%是对所比较其它围棋程序的测试成绩，不是对人类。
+- **2017 AlphaGo Zero**：2017-10-19 Nature论文取消专家棋谱监督，改用联合策略价值网络与搜索训练循环；三天20残差块、约490万自我对弈、每搜索1600模拟，**100:0对手是AlphaGo Lee软件**而非真人；四十天40块与AlphaGo Master的另项比较不得拼成一段。
+- **2017—2018 AlphaZero**：arxiv v1日期2017-12-05，正式Science论文2018-12-07，作者官方声明后者是进一步评价。Science的“一个算法和架构”是为chess/shogi/Go训练**separate instances**；不是一份训练好的权重直接通用。核心目标z∈{-1,0,1}支持和棋，去除围棋旋转对称特殊处理，多数超参数相同但探索噪声/学习率日程例外，计算为5000第一代TPU自对弈和16第二代TPU训练，墙上时间9h/12h/13days。
+
+### 本批原创数学验算与限制
+
+- **22**：设固定分支因子250，三层路径250³=15625000，十层250¹⁰≈9.5367×10²³，仅示指数增长，不是实际去重棋盘状态。教学虚构叶节点v=.6、rollout=.2、λ=.25得混合.5。
+- **23**：原创根访问N=(60,30,10)，τ=1则π=(.6,.3,.1)；虚构价值v=.4、终局z=1则平方误差.36。并不代表2017任何真实棋盘搜索统计。
+- **24**：原创国际象棋二动作概率：甲胜.45和.50负.05，目标+1/0/-1得.40；乙胜.50和.10负.40，得.10。用于解释最大化预期结果与最大化胜率可能不同，不是Stockfish/Elmo真实对局概率。
+- **仍待审核**：2016/2017全补充实验和2018Science附加对局数据独立二核、原始棋谱核查、跨版本赛事软件具体配置；本批未执行独立连续性及结构审稿。
