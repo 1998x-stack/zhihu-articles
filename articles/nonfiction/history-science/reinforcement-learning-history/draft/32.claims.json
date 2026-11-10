@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0",
+  "chapter": "32",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "2026-11-10限域写作前核证：ACM 2025-03-05关于2024图灵奖官方原文、1983三作者倒立摆论文/2018教材、2023 NeurIPS DPO正式论文与2023预印本、2024 DeepSeekMath GRPO原论文、2025 DeepSeek-R1 1月预印本和9月Nature。作者数值单列，未复现代码/全实验/独立双审。",
+  "alias_to_research_source_id": {
+    "G01": "R121",
+    "G02": "R122",
+    "G03": "R123",
+    "G04": "R99",
+    "G05": "R118",
+    "G06": "R120"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-32-01",
+      "claim": "GRPO由Shao等2024-02-05 DeepSeekMath arxiv首次提出，不是2025R1才发明",
+      "source_ids": [
+        "R121",
+        "R24"
+      ],
+      "kind": "priority_chronology",
+      "section": "一、二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-02",
+      "claim": "DeepSeekMath以DeepSeek Coder Base v1.5 7B继续预训练，数学相关token约120B再经后续训练",
+      "source_ids": [
+        "R121"
+      ],
+      "kind": "primary_pretrain",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-03",
+      "claim": "DeepSeekMath原表MATH top1 DeepSeekMath-Instruct7B 46.8%, DeepSeekMath-RL7B 51.7%",
+      "source_ids": [
+        "R121"
+      ],
+      "kind": "primary_metric",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-04",
+      "claim": "该51.7%归属于论文全部训练配置，不能只归因GRPO单一算法或随机起点",
+      "source_ids": [
+        "R121"
+      ],
+      "kind": "evaluation_scope",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-05",
+      "claim": "GRPO使用同题G条采样输出及组奖励均值、标准差计算相对优势以免独立Critic",
+      "source_ids": [
+        "R121"
+      ],
+      "kind": "primary_algorithm",
+      "section": "三、四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-06",
+      "claim": "GRPO并非不需要奖励评估器，DeepSeekMath还研究结果和过程奖励模型",
+      "source_ids": [
+        "R121"
+      ],
+      "kind": "scope_boundary",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-07",
+      "claim": "GRPO还使用PPO式概率比clip和相对参考策略的KL正则，非只有组均值",
+      "source_ids": [
+        "R121"
+      ],
+      "kind": "primary_algorithm",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-08",
+      "claim": "原创四回答结果(1,0,1,0)组均值.5总体std.5优势(+1,-1,+1,-1)",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-09",
+      "claim": "全奖励(1,1,1,1)导致标准差0，原数学式无定义；具体实现保护方法需要代码核查",
+      "source_ids": [
+        "R121"
+      ],
+      "kind": "math_edge_case",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-10",
+      "claim": "同组全对或全错的二元奖励缺乏组间相对排序信号，但其他正则项仍可能变化",
+      "source_ids": [
+        "R121"
+      ],
+      "kind": "algorithm_boundary",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-11",
+      "claim": "验证器只检查x^2=9的单个根3会遗漏-3，是作者虚构的验证覆盖反例",
+      "source_ids": [],
+      "kind": "author_example",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-12",
+      "claim": "有限代码测试通过不等于正式正确性证明，最终答案对也不验证全部推理步骤",
+      "source_ids": [
+        "R123"
+      ],
+      "kind": "verification_limit",
+      "section": "六、十一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-13",
+      "claim": "DeepSeek R1预印本2025-01-22，Nature正式online2025-09-17，不能将两版数值默认完全一致",
+      "source_ids": [
+        "R122",
+        "R123",
+        "R25"
+      ],
+      "kind": "publication_chronology",
+      "section": "七、八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-14",
+      "claim": "DeepSeek R1 Zero基于预训练DeepSeek V3 Base开始RL，未事先执行专门推理SFT，非随机网络",
+      "source_ids": [
+        "R122",
+        "R123"
+      ],
+      "kind": "primary_training",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-15",
+      "claim": "R1 Zero使用GRPO和规则式准确率/格式奖励，论文对一般任务与最终R1另有奖励模型",
+      "source_ids": [
+        "R123"
+      ],
+      "kind": "primary_method",
+      "section": "七、九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-16",
+      "claim": "2025Nature Fig1报告R1 Zero AIME2024平均pass1从15.6%到77.9%而自一致性86.7%",
+      "source_ids": [
+        "R123"
+      ],
+      "kind": "primary_metric",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-17",
+      "claim": "这些成绩属于指定AIME评估，不可扩张为所有任务或无预训练的性能",
+      "source_ids": [
+        "R123"
+      ],
+      "kind": "metric_scope",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-18",
+      "claim": "最终R1流程有cold-start SFT、推理RL、拒绝采样与新SFT、后续广义RL等步骤",
+      "source_ids": [
+        "R123"
+      ],
+      "kind": "primary_multistage",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-19",
+      "claim": "2025Nature作者记载R1 Zero语言混合/可读性等问题，最终R1有多阶段缓解",
+      "source_ids": [
+        "R123"
+      ],
+      "kind": "primary_limitation",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-20",
+      "claim": "GRPO与DPO不是简单进化替代：GRPO采样与组奖励策略更新，DPO固定偏好数据分类式损失",
+      "source_ids": [
+        "R121",
+        "R120"
+      ],
+      "kind": "method_comparison",
+      "section": "十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-21",
+      "claim": "模型生成多次自检文字不能证明其内在心理机制或每一步推理可靠",
+      "source_ids": [
+        "R123"
+      ],
+      "kind": "interpretation_boundary",
+      "section": "七、十一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-22",
+      "claim": "准确率、推断自一致性与答案验证都是独立口径；长输出并非可靠性的充分条件",
+      "source_ids": [
+        "R123"
+      ],
+      "kind": "evaluation_boundary",
+      "section": "八、十一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-32-23",
+      "claim": "与1983稀疏反馈、1988 TD等是概念问题相似非直接方法等价或同一实验",
+      "source_ids": [
+        "R04",
+        "R05",
+        "R121"
+      ],
+      "kind": "historical_synthesis",
+      "section": "十二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "DeepSeekMath GRPO源于2024-02而非2025R1；GRPO省Critic不省奖励模型/规则",
+    "DeepSeekMath 51.7 MATH是整体模型与训练设置，不能只算GRPO的因果改善",
+    "2025R1 Zero出自预训练DeepSeek-V3 Base，零指没有RL前专用SFT",
+    "2025 Nature 15.6→77.9与86.7自一致性是不同评估口径并保留版本日期",
+    "GRPO组内同分标准差为零，论文公式未规定通用可直接计算处理；具体代码待查",
+    "验证答案不验证全链推理；长可见文字不能证明内心/意识",
+    "最终DeepSeek-R1含cold-start SFT/两轮RL等，不可与Zero混成全程无SFT"
+  ]
+}

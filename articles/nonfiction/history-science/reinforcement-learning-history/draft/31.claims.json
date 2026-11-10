@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0",
+  "chapter": "31",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "2026-11-10限域写作前核证：ACM 2025-03-05关于2024图灵奖官方原文、1983三作者倒立摆论文/2018教材、2023 NeurIPS DPO正式论文与2023预印本、2024 DeepSeekMath GRPO原论文、2025 DeepSeek-R1 1月预印本和9月Nature。作者数值单列，未复现代码/全实验/独立双审。",
+  "alias_to_research_source_id": {
+    "D01": "R119",
+    "D02": "R120",
+    "D03": "R118",
+    "D04": "R121",
+    "D05": "R123"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-31-01",
+      "claim": "Rafailov等DPO于2023-05-29 arxiv首发，并在NeurIPS2023正式发表",
+      "source_ids": [
+        "R119",
+        "R120",
+        "R23"
+      ],
+      "kind": "publication_chronology",
+      "section": "一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-02",
+      "claim": "DPO基于现成偏好对，微调时不用单独训练奖励模型或运行常规PPO采样更新循环",
+      "source_ids": [
+        "R120"
+      ],
+      "kind": "primary_contribution",
+      "section": "一、七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-03",
+      "claim": "2022 InstructGPT SFT→RM→PPO+参考KL是另一条有实际价值的RLHF路线",
+      "source_ids": [
+        "R118"
+      ],
+      "kind": "historical_comparison",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-04",
+      "claim": "DPO出自KL正则的奖励优化目标，参考策略不能从公式中遗漏",
+      "source_ids": [
+        "R120"
+      ],
+      "kind": "primary_theory",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-05",
+      "claim": "给定奖励及参考策略时有解析形式pi_star∝pi_ref exp(r/beta)",
+      "source_ids": [
+        "R120"
+      ],
+      "kind": "primary_equation",
+      "section": "四",
+      "evidence_note": "受正则目标与分布假设约束",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-06",
+      "claim": "奖励可重参数化r=beta log(pi_star/pi_ref)+beta log Z(x)",
+      "source_ids": [
+        "R120"
+      ],
+      "kind": "primary_equation",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-07",
+      "claim": "同输入的回答偏好比较使log Z(x)项在奖励差中抵消",
+      "source_ids": [
+        "R120"
+      ],
+      "kind": "primary_derivation",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-08",
+      "claim": "Bradley Terry比较概率在DPO推导里化为参考政策修正的log概率比sigmoid",
+      "source_ids": [
+        "R120"
+      ],
+      "kind": "primary_derivation",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-09",
+      "claim": "DPO经典损失为-log sigmoid(beta log ratio_w − beta log ratio_l)的偏好对期望",
+      "source_ids": [
+        "R120"
+      ],
+      "kind": "primary_equation",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-10",
+      "claim": "DPO不把原始人类偏好等同客观事实，也不是唯一真实人类效用反演",
+      "source_ids": [
+        "R120",
+        "R118"
+      ],
+      "kind": "data_scope",
+      "section": "五、八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-11",
+      "claim": "原创二回答归一化参考(.5,.5)和初始政策(.5,.5)，预测偏好概率.5损失.6931",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-12",
+      "claim": "原创当前政策(.8,.2)时beta1 log4→偏好概率.8，损失.2231",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-13",
+      "claim": "仅两个答案玩具概率不是实际语言模型任意长回答完整序列概率",
+      "source_ids": [],
+      "kind": "author_scope",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-14",
+      "claim": "DPO理论源于正则化RL，但常见训练为离线分类式策略微调，不应无条件定性为完全不涉及RL",
+      "source_ids": [
+        "R120"
+      ],
+      "kind": "classification_boundary",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-15",
+      "claim": "经典DPO固定偏好对微调不需要每个梯度步骤重新采样输出，但训练数据仍需先生成候选",
+      "source_ids": [
+        "R120"
+      ],
+      "kind": "primary_scope",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-16",
+      "claim": "参考策略及偏好数据分布限制模型可靠性，不能保证长链推理或事实正确",
+      "source_ids": [
+        "R120",
+        "R118"
+      ],
+      "kind": "inference_limit",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-17",
+      "claim": "2023原文报告在情感控制、摘要和单轮对话中与PPO RLHF可比或更优的特定实验表现",
+      "source_ids": [
+        "R120"
+      ],
+      "kind": "primary_evaluation",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-18",
+      "claim": "DPO实验比较不能推出在所有模型、语种、数据/任务上普遍超过PPO",
+      "source_ids": [
+        "R120"
+      ],
+      "kind": "generalization_limit",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-19",
+      "claim": "2024GRPO用于带奖励反馈的策略优化，与2023DPO的固定偏好对分类更新不同",
+      "source_ids": [
+        "R121",
+        "R120"
+      ],
+      "kind": "bridge_comparison",
+      "section": "十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-31-20",
+      "claim": "DPO不是2017人类偏好学习首创，2017—2020相关工作具有不同独立贡献",
+      "source_ids": [
+        "R115",
+        "R116",
+        "R117",
+        "R120"
+      ],
+      "kind": "historical_context",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "DPO来自KL正则RL目标解析推导但通常通过固定偏好对分类训练，不应称完全与RL无关",
+    "原模型闭式最优策略结论依赖假设，深度训练不是解析最优保证",
+    "偏好数据获得阶段仍需要候选生成和人工/其它方式评选；不用每步采样≠永不采样",
+    "仅A/B两答概率例为特设归一化玩具，不能当实际大语言模型回答序列概率",
+    "NeurIPS2023实验不允许跨任务/模型/标注者绝对化为DPO优于所有PPO"
+  ]
+}

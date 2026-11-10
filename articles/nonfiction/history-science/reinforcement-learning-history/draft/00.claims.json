@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0",
+  "chapter": "00",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "2026-11-10限域写作前核证：ACM 2025-03-05关于2024图灵奖官方原文、1983三作者倒立摆论文/2018教材、2023 NeurIPS DPO正式论文与2023预印本、2024 DeepSeekMath GRPO原论文、2025 DeepSeek-R1 1月预印本和9月Nature。作者数值单列，未复现代码/全实验/独立双审。",
+  "alias_to_research_source_id": {
+    "A01": "R124",
+    "A02": [
+      "R27",
+      "R28",
+      "R29"
+    ],
+    "A03": "R03",
+    "A04": "R02",
+    "A05": "R01",
+    "A06": [
+      "R04",
+      "R125"
+    ],
+    "A07": "R05",
+    "A08": "R26"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-00-01",
+      "claim": "ACM于2025年3月5日正式公布2024年度ACM A.M.图灵奖得主为Barto与Sutton",
+      "source_ids": [
+        "R124",
+        "R26"
+      ],
+      "kind": "primary_award_date",
+      "section": "一",
+      "evidence_note": "奖项年度2024不等于公告年份2025",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-02",
+      "claim": "ACM称两人获奖由于强化学习的概念与算法基础贡献而非独自发明全部现代AI",
+      "source_ids": [
+        "R124"
+      ],
+      "kind": "primary_citation_scope",
+      "section": "一、七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-03",
+      "claim": "Thorndike1898年动物迷箱及试错实验为行为学习前史，不等于现代Q-learning",
+      "source_ids": [
+        "R27",
+        "R28",
+        "R29",
+        "R01"
+      ],
+      "kind": "primary_history",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-04",
+      "claim": "奖励是行为反馈信号而非逐步正确动作示范；长期折扣回报有时间权衡",
+      "source_ids": [
+        "R01",
+        "R124"
+      ],
+      "kind": "textbook_concept",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-05",
+      "claim": "原创2步例：A当下1终止，B先0再2，gamma=.9时G(B)=1.8且大于A=1",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-06",
+      "claim": "原创折扣改成gamma=.4时B=0.8小于A=1，说明偏好取决于目标假设",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-07",
+      "claim": "Bellman1957 Dynamic Programming一手历史与Samuel1959机器跳棋属于不同发展支线",
+      "source_ids": [
+        "R03",
+        "R02"
+      ],
+      "kind": "historical_chronology",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-08",
+      "claim": "Sutton Barto2018教材概述试错、最优控制与TD源流交汇，并非逐式师承链",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "historiography",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-09",
+      "claim": "Barto Sutton Anderson三人在1983 IEEE论文共同署名，不能省掉Anderson",
+      "source_ids": [
+        "R04",
+        "R125"
+      ],
+      "kind": "primary_authorship",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-10",
+      "claim": "1983工作为未知动力学的模拟倒立摆、ASE与ACE分工且只有稀疏失败信号",
+      "source_ids": [
+        "R04",
+        "R125"
+      ],
+      "kind": "primary_methods",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-11",
+      "claim": "1983模拟控制成绩不能冒充真实道路车辆运行或2025系统实验",
+      "source_ids": [
+        "R04"
+      ],
+      "kind": "scope_boundary",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-12",
+      "claim": "Sutton1988 Machine Learning论文研究通过temporal differences学习预测",
+      "source_ids": [
+        "R05"
+      ],
+      "kind": "primary_history",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-13",
+      "claim": "原创TD玩具V=.4,V_next=.7,gamma=.9得delta=.23，alpha=.5得Vnew=.515",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-14",
+      "claim": "现代TD(0)玩具式不能冒充1983 ACE实际学习式或1988论文的七状态实验原数字",
+      "source_ids": [
+        "R05",
+        "R04"
+      ],
+      "kind": "methodological_boundary",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-15",
+      "claim": "强化学习史还有Watkins、Dayan、Samuel、Bellman等并行贡献，不是一位获奖者单线发明",
+      "source_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R06",
+        "R124"
+      ],
+      "kind": "historical_attribution",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-16",
+      "claim": "目标奖励和真实价值可能分歧，是后续IRL/人类偏好/规则奖励的研究难题",
+      "source_ids": [
+        "R12",
+        "R118",
+        "R123"
+      ],
+      "kind": "synthesis_boundary",
+      "section": "八",
+      "evidence_note": "属跨研究的审慎概念联结而非ACM奖项官方保证",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-17",
+      "claim": "序章采用2025公告回望1898—2025，并在阅读顺序回到1898迷箱，不暗示直传",
+      "source_ids": [
+        "R124",
+        "R27"
+      ],
+      "kind": "narrative_chronology",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-00-18",
+      "claim": "ACM与NSF官方奖项来源同时列出，但获奖公布日优先ACM官方原文",
+      "source_ids": [
+        "R124",
+        "R26"
+      ],
+      "kind": "source_priority",
+      "section": "参考",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "奖项必须明确2024年度、2025-03-05公告，不能编造现场颁奖感受/对话",
+    "1983倒立摆论文三位作者且为模拟控制，不可宣称现代真实机器人实验",
+    "1898动物行为、1957控制数学、1988TD仅为研究源流比较，不是严格师承",
+    "所有两步回报和TD演示属于作者原创，不当作历史实验值"
+  ]
+}
