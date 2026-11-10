@@ -1,12 +1,105 @@
 {
   "chapter": "19",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S12",
-    "S13"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "1959 Gilbert 与 Erdős–Rényi 原刊题录；Erdős–Rényi 1960 原文模型、临界尺度；现代 AMS 阈值综述。渐近数学及教学类比与历史原文分离。",
+  "claims": [
+    {
+      "claim_id": "GT19-01",
+      "claim": "1947随机着色的存在性用途与1959—60随机图典型结构研究目标不同",
+      "source_ids": [
+        "S84",
+        "S88",
+        "S89"
+      ],
+      "status": "HISTORICAL_COMPARISON"
+    },
+    {
+      "claim_id": "GT19-02",
+      "claim": "G(n,p) 独立边模型及 G(n,m) 固定边数模型定义、总边数期望",
+      "source_ids": [
+        "S87",
+        "S88",
+        "S89"
+      ],
+      "status": "MODEL_AND_DERIVATION"
+    },
+    {
+      "claim_id": "GT19-03",
+      "claim": "Gilbert 1959、Erdős–Rényi 1959 与 1960 三篇工作的出版和贡献范围",
+      "source_ids": [
+        "S87",
+        "S88",
+        "S89"
+      ],
+      "status": "PRIMARY_BIBLIO_SCOPED"
+    },
+    {
+      "claim_id": "GT19-04",
+      "claim": "连通分量、巨型分量与整图连通是不同图性质",
+      "source_ids": [
+        "S89",
+        "S90"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT19-05",
+      "claim": "局部探索的泊松分支近似平均后代 c=np，c=1 为临界线索",
+      "source_ids": [
+        "S89",
+        "S90"
+      ],
+      "status": "MODERN_HEURISTIC"
+    },
+    {
+      "claim_id": "GT19-06",
+      "claim": "经典 G(n,c/n) 的亚临界对数级、临界 n^(2/3) 与超临界线性级最大分量",
+      "source_ids": [
+        "S89",
+        "S90"
+      ],
+      "status": "MODERN_ASYMPTOTIC_RESULT"
+    },
+    {
+      "claim_id": "GT19-07",
+      "claim": "超临界巨型分量占比 rho=1-exp(-c rho)，来自泊松分支生存概率",
+      "source_ids": [
+        "S89",
+        "S90"
+      ],
+      "status": "MODERN_DERIVATION"
+    },
+    {
+      "claim_id": "GT19-08",
+      "claim": "孤立点期望 n(1-p)^(n-1) 与连通临界 p≈log(n)/n，不等于巨型分量临界 p≈1/n",
+      "source_ids": [
+        "S88",
+        "S89",
+        "S90"
+      ],
+      "status": "PRIMARY_AND_MODERN_RESULT"
+    },
+    {
+      "claim_id": "GT19-09",
+      "claim": "阈值属于特定模型/性质且高概率渐近断言不适用于每个有限实例",
+      "source_ids": [
+        "S89",
+        "S90"
+      ],
+      "status": "METHODOLOGY_BOUNDARY"
+    },
+    {
+      "claim_id": "GT19-10",
+      "claim": "1959—1960 典型结构与阈值思想的数学史定位；避免声称真实网络均服从ER模型",
+      "source_ids": [
+        "S87",
+        "S88",
+        "S89",
+        "S90"
+      ],
+      "status": "HISTORICAL_SCOPED_INTERPRETATION"
+    }
+  ]
 }
