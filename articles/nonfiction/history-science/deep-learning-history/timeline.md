@@ -10,9 +10,9 @@
 | 1958 | Rosenblatt感知机论文、IBM704演示 | 论文与硬件演示应分开；校方回顾不是独立测评 | 05 |
 | 1960 | Widrow–Hoff自适应切换电路/LMS路线 | 感知机之外的另一类误差驱动训练机制 | 05—06 |
 | 1969 | Minsky、Papert出版Perceptrons | 对特定架构与计算几何任务的数学限制；不可误推所有多层模型无效 | 06 |
-| 1973 | 英国Lighthill报告 | 英国AI研究政策与期待问题；经费因果仍有争议 | 06 |
 | 1970/1976 | 芬兰Linnainmaa硕士论文与BIT论文 | 数值舍入误差/逆向灵敏度研究；不是现代神经网络训练 | 07 |
 | 1971 | Intel 4004微处理器商业发布 | 日本Busicom项目背景；不能推出当年具备现代深网训练条件 | 07 |
+| 1973 | 英国Lighthill报告 | 英国AI研究政策与期待问题；经费因果仍有争议 | 06 |
 | 1974 | Werbos的哈佛博士论文 | 非线性预测与反向敏感度路线；不臆造直接师承 | 07 |
 | 1978 | Ivakhnenko GMDH统计自组织模型论文 | 结构选择路线与梯度训练各异 | 07 |
 | 1979/1980 | Fukushima新认知机IJCAI会议/期刊 | 日本视觉研究：S/C层次、无教师自组织；非现代CNN端到端反传 | 08 |
@@ -42,49 +42,48 @@
 | 2012 | Hinton/Li Deng/Dong Yu等四组团队综述 | Toronto、微软、Google、IBM多团队研究与应用进展 | 15 |
 | 2012 | Krizhevsky/Sutskever/Hinton的NIPS论文与ILSVRC结果 | 七CNN集成Top-5测试15.3%、第二名26.2%；ReLU、GPU、增强、dropout等协同 | 00、17 |
 | 2013-12 | Kingma/Welling VAE预印本（ICLR2014） | 变分潜变量生成，与GAN独立路线 | 21 |
+| 2014 | Goodfellow等八作者GAN以及Rezende等潜变量模型 | 对抗与变分生成并行研究 | 21 |
+| 2014 | VGG/GoogLeNet在ILSVRC前后探索更深结构 | VGG2014预印本、2015 ICLR；Inception研究2015 CVPR正式刊出 | 18 |
 | 2014-06→10 | Cho等七作者RNN Encoder–Decoder论文 | EMNLP2014短语翻译神经概率特征 | 19 |
 | 2014-09→NIPS | Sutskever/Vinyals/Le深LSTM seq2seq | WMT英法BLEU34.8与33.3；候选重排36.5另设置 | 19 |
 | 2014-09→2015 | Bahdanau/Cho/Bengio注意力预印本与ICLR | 解码时软对齐，不等于2017 Transformer | 20 |
-| 2014 | Goodfellow等八作者GAN以及Rezende等潜变量模型 | 对抗与变分生成并行研究 | 21 |
-| 2014 | VGG/GoogLeNet在ILSVRC前后探索更深结构 | VGG2014预印本、2015 ICLR；Inception研究2015 CVPR正式刊出 | 18 |
 | 2015 | Ioffe/Szegedy批归一化与Srivastava等Highway Networks | 训练与信息流不同路线，不应归于ResNet独家首发 | 18 |
 | 2015 | Sohl-Dickstein等扩散生成与Luong/Pham/Manning神经注意力 | 扩散前向加噪与逆向建模；global/local注意力 | 20、21 |
+| 2015 | AlphaGo与樊麾五盘正式对局 | 原始AlphaGo 5:0，Nature论文于2016发表 | 25 |
 | 2015-12-10 | He/Zhang/Ren/Sun ResNet arXiv首版，ILSVRC2015获奖 | 152层网络，竞赛3.57%为Top-5测试集成结果 | 18 |
 | 2016 | ResNet CVPR正式论文与后续ECCV Identity Mappings | 训练退化的实验验证、身份捷径与后续预激活调整分开 | 18 |
-| 2015 | AlphaGo与樊麾五盘正式对局 | 原始AlphaGo 5:0，Nature论文于2016发表 | 25 |
 | 2016-01→03 | Silver/Huang等Nature AlphaGo论文、对李世石五番棋 | 策略/价值网络+MCTS与人类监督/自对弈；李世石赛事4:1第四局人类获胜 | 25 |
+| 2017 | Christiano/Leike/Brown等人类偏好强化学习研究 | Atari/模拟控制场景，后来的语言反馈研究方法前史 | 28 |
+| 2017-06→NIPS | Vaswani等八作者Transformer论文 | NeurIPS正式PDF英德28.4BLEU，网页摘要版本数字有差异；并行训练不等于逐token推断并行 | 22 |
 | 2017-10 | AlphaGo Zero Nature论文 | 规则＋自我对弈＋MCTS，对已发表旧程序100:0，不是人类100盘 | 25 |
 | 2017-12→2018-12 | AlphaZero预印本与Science正式论文 | 围棋/国际象棋/将棋规则已知，自我对弈与搜索协作 | 25 |
-| 2017-06→NIPS | Vaswani等八作者Transformer论文 | NeurIPS正式PDF英德28.4BLEU，网页摘要版本数字有差异；并行训练不等于逐token推断并行 | 22 |
-| 2019 | Song/Ermon多噪声尺度score生成 | 与扩散相邻，非GAN判别器 | 21 |
+| 2018→2020-01 | CASP13旧AlphaFold参加评测与Senior等Nature论文 | 旧结构势能路线，非2020 AlphaFold2模型 | 26 |
 | 2018-01→07 | Howard/Ruder ULMFiT | LSTM语言模型微调迁移路线，早于/同期于Transformer语言模型研究 | 23 |
 | 2018-06 | Peters等NAACL ELMo、Radford等GPT早期研究 | 双向LSTM上下文表示及Transformer生成预训练+微调是不同路线 | 23 |
 | 2018-10→2019-06 | Devlin/Chang/Lee/Toutanova BERT | 2018预印本、2019 NAACL正式；MLM15%预测token、原版NSP | 23 |
+| 2019 | Song/Ermon多噪声尺度score生成 | 与扩散相邻，非GAN判别器 | 21 |
 | 2019-02 | GPT-2研究公布 | GPT的后续生成式模型，不是2018首版研究 | 23 |
+| 2020 | Ho/Jain/Abbeel DDPM | 去噪扩散概率模型 | 21 |
+| 2020→2021 | CASP14 AlphaFold2盲测与Jumper等Nature论文 | domain GDT_TS median92.4、Cα RMSD95 median0.96Å，不能当全蛋白正确率 | 26 |
 | 2020-01 | Kaplan等十作者语言模型规模定律 | 参数、训练数据、算力与交叉熵的经验幂律；不等于普适智能定律 | 24 |
 | 2020-05→NeurIPS | Brown等GPT-3 1750亿参数论文 | zero/one/few-shot文本上下文推理不更新权重；不同于2018 GPT微调 | 24 |
-| 2020 | Ho/Jain/Abbeel DDPM | 去噪扩散概率模型 | 21 |
-| 2018→2020-01 | CASP13旧AlphaFold参加评测与Senior等Nature论文 | 旧结构势能路线，非2020 AlphaFold2模型 | 26 |
-| 2020→2021 | CASP14 AlphaFold2盲测与Jumper等Nature论文 | domain GDT_TS median92.4、Cα RMSD95 median0.96Å，不能当全蛋白正确率 | 26 |
-| 2021-07 | 人类蛋白组AlphaFold预测资源及Nature论文 | 98.5%蛋白覆盖，可信残基仅58%，很高置信约36% | 26 |
 | 2021 | Radford等CLIP与Jia等ALIGN分别发表于ICML | 图文双塔对比学习：CLIP约4亿、ALIGN约18亿噪声配对，各自研究 | 27 |
 | 2021 | Ramesh等DALL-E初代ICML论文 | 文本与图像token自回归生成；不是CLIP匹配器 | 27 |
-| 2022-04 | Ramesh等第二代DALL-E/CLIP图像潜表示 | 文本到CLIP image latent先验，扩散decoder生成图像 | 27 |
-| 2022 | Rombach等CVPR潜空间扩散 | 压缩视觉latent扩散与cross-attention文本条件，另一路线 | 21、27 |
-| 2022-03→NeurIPS | Hoffmann等计算最优语言模型训练研究 | Chinchilla70B/约1.4万亿tokens对照Gopher280B，同训练算力下数据与模型平衡 | 24 |
+| 2021-07 | 人类蛋白组AlphaFold预测资源及Nature论文 | 98.5%蛋白覆盖，可信残基仅58%，很高置信约36% | 26 |
 | 2022 | Rombach/Blattmann/Lorenz/Esser/Ommer潜空间扩散 | 自编码器潜空间去噪与条件生成，第21章跨年代专题 | 21 |
-| 2017 | Christiano/Leike/Brown等人类偏好强化学习研究 | Atari/模拟控制场景，后来的语言反馈研究方法前史 | 28 |
+| 2022-03→NeurIPS | Hoffmann等计算最优语言模型训练研究 | Chinchilla70B/约1.4万亿tokens对照Gopher280B，同训练算力下数据与模型平衡 | 24 |
 | 2022-03→NeurIPS | Ouyang等20人InstructGPT论文 | 人类示范SFT→偏好排序→奖励模型→PPO；小模型在人类偏好任务胜大模型不等于总知识更强 | 28 |
-| 2022-11-30 | ChatGPT公开研究预览 | 产品发布事实与学术评价区分 | 28 |
+| 2022-04 | Ramesh等第二代DALL-E/CLIP图像潜表示 | 文本到CLIP image latent先验，扩散decoder生成图像 | 27 |
 | 2022-05 | Lin/Hilton/Evans TruthfulQA ACL正式论文 | 817题/38领域考察人类常见误解，2022模型对照不能套用2026 | 28 |
-| 2023-03 | GPT-4技术报告 | 较强性能仍有幻觉与错误推理，非2022初版ChatGPT表现 | 28 |
+| 2022-11-30 | ChatGPT公开研究预览 | 产品发布事实与学术评价区分 | 28 |
 | 2023 | Rafailov等DPO NeurIPS研究 | 用偏好优化替代独立RM+PPO管线的不同方式 | 28 |
+| 2023-03 | GPT-4技术报告 | 较强性能仍有幻觉与错误推理，非2022初版ChatGPT表现 | 28 |
 | 2023-07-18 | Meta Llama2社区授权 | 公开权重/代码，不等于OSI全部自由；700m月活条款 | 29 |
 | 2023-10 | Kwon等vLLM PagedAttention SOSP | KV cache分页管理增加特定服务负载吞吐 | 30 |
-| 2024-10-08 | 诺贝尔物理学奖授予Hopfield与Hinton | 回顾性评价而非单一发明者判定 | 08、30 |
 | 2024-02 | Ai2 OLMo研究发布 | 权重、预训练数据、训练代码与日志支持较完整研究开放 | 29 |
 | 2024-09-12 | OpenAI o1模型早期公开 | RL与测试时计算研究，官方任务成绩不等于一切环境可靠 | 30 |
 | 2024-09-19 | Qwen2.5团队发布 | 多规模模型并非所有授权均Apache2.0，须核对3B/72B | 29 |
+| 2024-10-08 | 诺贝尔物理学奖授予Hopfield与Hinton | 回顾性评价而非单一发明者判定 | 08、30 |
 | 2024-10-28 | OSI Open Source AI Definition 1.0 | 训练数据信息、代码、参数及使用/修改/分享自由 | 29 |
 | 2024-12-27 | DeepSeek-V3技术报告 | MoE671B总/37B每token激活，论文自报278.8万H800 GPU小时 | 29 |
 | 2025-01-20 | DeepSeek-R1发布 | 厂商声明，模型评估需独立复核 | 29—30 |
@@ -93,3 +92,5 @@
 | 2026-01-28 | Humanity's Last Exam Nature正式论文 | 约2500专家题基准不是现实世界通用能力证明 | 30 |
 | 2026-08 | Fan/Cheng/Li等共享测试时预算预印本 | 多题共享token预算对分配策略提出新挑战；尚属预印本 | 30 |
 | 2026-11-10 | 第01—30章正文十批工作初稿核查截止 | 序章00与尾声31仍策划；独立双审/终稿未完成 | 28—31 |
+
+_本表按事件或论文首个相关年份排序；跨年范围按开始年份定位，叙事章节按专题顺序安排，二者不可混淆。_
