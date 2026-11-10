@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
-  "status": "drafting",
+  "status": "reviewing",
   "reading_notice": "序章00、正文01—32、尾声33合计34篇均为有逐章claims的非虚构工作初稿；已转入全书作者侧首轮审校，独立事实/连续性和结构双审、原文及实验完整复核、终稿审批与知乎出版尚未完成。",
   "parts": [
     {
@@ -647,6 +647,6 @@
       "claims_path": "draft/33.claims.json"
     }
   ],
-  "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段",
+  "batch_policy": "原定34个叙事单元已有完整工作初稿，现转入全书事实/连续性与发展性审校，不新造章节；独立审稿是否通过只由workflow-state.json与有效报告决定。",
   "last_batch": "batches/closing-33-audit.md"
 }
