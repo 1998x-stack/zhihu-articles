@@ -4,12 +4,19 @@
   "current_revision": 0,
   "outline_approved": true,
   "evidence_verified": true,
-  "review_status": "PENDING",
+  "review_status": "CHANGES_REQUIRED",
   "reviewed_revision": null,
-  "unresolved_blockers": [],
+  "unresolved_blockers": [
+    "F-H01",
+    "F-H02",
+    "M-H01",
+    "C-H01",
+    "D-H01",
+    "D-H02"
+  ],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "序章00至第36章仅完成相应资料的创作前置限定核证；第34章S151—S153及S166、第35章S154—S157、第36章S158—S165。尾声37仍是TODO_VERIFY，所有章节尚未完成独立事实双审或逐页原刊核对。",
-  "approval_scope": "序章00—36章既定结构与限定研究可支持非虚构工作初稿编写；仅尾声37尚待前置核证。独立连续性审计、结构审稿、语言精修、正式终稿及对外发布尚未批准。",
-  "note": "2026-11-10：第34—36章新增3篇研究性初稿、37条主张映射；模型假设、方法限制及出处见research.md。保持review_status=PENDING、reviewed_revision=null、edited_revision=null、final_approved=false。"
+  "evidence_scope": "第00—37章均完成分章写作前限定研究与claim来源映射，共423条；正式史实核验首轮报告qa/fact-check-report.md只抽核原刊关键节点，F-H01/F-H02未完成逐条页码原始史料复核。",
+  "approval_scope": "全书38/38仅为工作初稿覆盖；2026-11-10已正式生成四项审校报告，结论CHANGES_REQUIRED。qa数学M-H01、连续性C-H01、结构D-H01/D-H02待修订并对新版本复审。未批准line-edit、final-approval或知乎平台发布。",
+  "note": "review_round_1（revision_count=0）已执行四种独立文件：qa/fact-check-report.md、qa/math-review.md、qa/continuity-report.md、qa/developmental-review.md；已核示例算术通过，但源文逐页/深层数学及时间线遗留阻断。reviewed_revision=null因为未PASS，禁止虚构审批。"
 }

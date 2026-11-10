@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "graph-theory-history",
   "title": "连接的秩序：图论三百年",
-  "reading_notice": "图论史序章00至第36章已有37篇具来源映射的非虚构研究性工作初稿；仅尾声第37章（book.json ID=epilogue）仍为编辑占位。最新第34—36章为BA优先连接与无标度争议、Girvan—Newman社群检测及2005—2018图神经网络发展，共37条主张。所有正文均待独立双审，review_status=PENDING，0篇final，未正式发布。",
+  "reading_notice": "图论史序章00、正文01—36、尾声37共38篇均有来源映射的工作初稿（423条独立claim_id），0篇final。已在2026-11-10完成首轮史实/数学/连续性/结构审稿报告，结论CHANGES_REQUIRED，存在F-H01/F-H02/M-H01/C-H01等阻断；待修订与独立复审，final_approved=false，未正式平台发布。",
   "chapters": [
     {
       "id": "prologue",
@@ -268,7 +268,7 @@
       "title": "尾声｜世界不是一张图，却可以用图理解",
       "part": "尾声",
       "file": "draft/37.md",
-      "status": "outline"
+      "status": "draft"
     }
   ]
 }

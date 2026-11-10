@@ -1,12 +1,107 @@
 {
   "chapter": "37",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S02",
-    "S03"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "仅尾声前置史料S167—S169与已经写成的旧章节核心定理进行跨章限定对读；欧拉历史出版节点与现代欧拉判据分开，时间网络三点例与结尾观点均为现代创作，未完成全书独立史实与数学终审。",
+  "claims": [
+    {
+      "claim_id": "GT37-01",
+      "claim": "七桥问题的核心抽象舍去长度位置，保留陆地与七座桥的连接关系；当代可表达为多重图",
+      "source_ids": [
+        "S167"
+      ],
+      "status": "HISTORICAL_FACT_PLUS_MODERN_FORM"
+    },
+    {
+      "claim_id": "GT37-02",
+      "claim": "现代欧拉通路的奇度条件与七桥图度序(5,3,3,3)推出无恰过七边一次的路线",
+      "source_ids": [
+        "S167",
+        "S02"
+      ],
+      "status": "MODERN_MATH_PROOF"
+    },
+    {
+      "claim_id": "GT37-03",
+      "claim": "Euler七桥论文写于1735，标卷1736但实际刊印1741，原始与现代语言不能混",
+      "source_ids": [
+        "S167"
+      ],
+      "status": "PRIMARY_BIBLIO_CHRONOLOGY"
+    },
+    {
+      "claim_id": "GT37-04",
+      "claim": "欧拉/哈密顿/生成树/最短路/最大流/四色/匹配的目标不同，不能视同一问题",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "status": "MODERN_GRAPH_MODEL_DISTINCTION"
+    },
+    {
+      "claim_id": "GT37-05",
+      "claim": "若AB只在t2接触、BC只在t1接触，静态投影连通但A向C无依时间的传播路",
+      "source_ids": [
+        "S168"
+      ],
+      "status": "AUTHOR_TEMPORAL_EXAMPLE_VERIFIED"
+    },
+    {
+      "claim_id": "GT37-06",
+      "claim": "Holme-Saramaki2012 Physics Reports519研究边随时间激活与静态模型局限",
+      "source_ids": [
+        "S168"
+      ],
+      "status": "PRIMARY_PUBLICATION"
+    },
+    {
+      "claim_id": "GT37-07",
+      "claim": "Kivela等2014 J Complex Networks2(3)系统梳理多层关系网络，不能自动解决建模误差",
+      "source_ids": [
+        "S169"
+      ],
+      "status": "PRIMARY_PUBLICATION_SCOPE"
+    },
+    {
+      "claim_id": "GT37-08",
+      "claim": "PageRank/模块度/优先连接/GNN分别给出模型内分数与预测而非自动事实、因果真理",
+      "source_ids": [
+        "S143",
+        "S151",
+        "S155",
+        "S160",
+        "S164"
+      ],
+      "status": "CROSS_CHAPTER_BOUNDARY"
+    },
+    {
+      "claim_id": "GT37-09",
+      "claim": "节点与边定义、方向、时间、权重、多层及观测覆盖影响图任务和结果",
+      "source_ids": [
+        "S168",
+        "S169"
+      ],
+      "status": "MODELLING_PRINCIPLES"
+    },
+    {
+      "claim_id": "GT37-10",
+      "claim": "欧拉通路/平面性/容量流/谱与GNN使用不同假设和保留信息，数学抽象有条件",
+      "source_ids": [
+        "S02",
+        "S168",
+        "S169"
+      ],
+      "status": "CROSS_CHAPTER_SYNTHESIS"
+    },
+    {
+      "claim_id": "GT37-11",
+      "claim": "尾声关于‘世界不是一张图、模型围绕问题选择’是明确表述的编者方法论结论",
+      "source_ids": [
+        "S168",
+        "S169"
+      ],
+      "status": "EDITORIAL_SYNTHESIS_NOT_HISTORICAL_QUOTE"
+    }
+  ]
 }
