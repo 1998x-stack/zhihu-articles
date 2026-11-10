@@ -518,3 +518,51 @@
 | **31** | H178 1901原注按函数值分层；H179 1902论文；H180 1904讲义；H181 Borel/Jordan先行 | \(1_{\mathbb Q\cap[0,1]}\)不黎曼可积但Lebesgue可积=0；列出有理数\(\{r_k\}\)，设\(f_n=1_{\{r_1,\dots,r_n\}}\)，每个仅在有限点为1、Riemann积分0，点态递增到Dirichlet函数，后者仍Lebesgue积分0。现代**单调收敛**只对非负可测递增函数成立；可数覆盖\(\sum\varepsilon/2^{k+1}\)可压得任意小。对于任意函数/非可测集合，不能无条件赋值积分；对一般实值函数要求绝对可积\(\int |f|<\infty\)才能称有限Lebesgue积分 |
 
 **待核与禁止伪证**：Weierstrass 1872柏林学院记录及1875 du Bois-Reymond原刊逐页；Bolzano1930函数论原文与后世定理证明；Darboux论文的导数介值性质具体页码、上/下和p.70已原页截图；Lebesgue1901法文注的全集页码、1902博士论文原版及1904讲义逐页。不能把当代小参数例子当历史人物原作。不得伪造qa双审、正式证据认证或发布状态。
+
+## 第32—34章专项研究｜把函数变成对象、把脉冲变成泛函、把无穷小变成数（2026-11-10）
+
+> **证据等级提醒**：本节含历史原始期刊馆藏、Schwartz论文影印与Robinson本人前言版面、专业数学史研究、现代教材。其结论只授权 **source-scoped的未审工作初稿**；不能擅自改变`workflow-state.json` 的 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING`。跨第六、七部是**知识问题桥梁**，非断言三套理论互为直接历史师承。
+
+### H188—H211：史料注册（历史事实、史学解释与现代数学演示分别核对）
+
+- **H188｜希尔伯特积分方程研究的原始年份与问题**：[MAA, *Math Origins: Eigenvectors and Eigenvalues*](https://old.maa.org/press/periodicals/convergence/math-origins-eigenvectors-and-eigenvalues)，引用**1904年**Hilbert《Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen》与核函数积分算子。二手学术综述，能支撑年代、方程类型，**不能假称1904已有现代全部Hilbert-space公理**。
+- **H189｜希尔伯特1904—1910研究史专文**：[*The Emergence of Functional Analysis and Some of Its Forefathers*, *Historia Mathematica* 11 (1984)](https://home.agh.edu.pl/~rudol/History_of_F_A_beginings.pdf)；检索学术内容核Hilbert 1904—1910六篇积分方程论文、1906对平方可和序列的推广与1912集结，亦介绍Riesz/Fischer 1907。**PDF原版尚未逐页截图，本次仅用可检索的学术片段，不声称全部页码已核。**
+- **H190｜弗雷歇1906论文一手期刊记录**：Maurice Fréchet，[*Sur quelques points du calcul fonctionnel*](https://doi.org/10.1007/BF03018603)，*Rendiconti del Circolo Matematico di Palermo* 22 (1906), **pp.1—72**；内容关注抽象极限、距离、连续；1906文献**尚未写出全部今人规范的“度量空间”名称**。一手期刊书目，文本全文未逐页校对。
+- **H191｜弗雷歇贡献解释**：[MacTutor, Maurice Fréchet](https://mathshistory.st-andrews.ac.uk/Biographies/Frechet/)：1906论文于**1906-04-02**提交，引入度量空间雏形，但术语“metric space”后来与Hausdorff有关；不可声称他独立发明全部拓扑理论。
+- **H192｜Riesz/Fischer1907与L²**：[John Horváth, *On the Riesz–Fischer theorem*](https://nuhag-old.univie.ac.at/FEICOURS/ws0506/Riesz-Fisher.pdf)，学术论文说明**1907**L²平方积分、完备性、正交函数展开，且提醒两种“Riesz—Fischer theorem”含义不同。**PDF未截图，引用仅公开摘要/文本片段**。
+- **H193｜Banach1922一手期刊馆藏**：[Polish Academy of Sciences IMPAN, Stefan Banach, *Sur les opérations dans les ensembles abstraits et leur application aux équations intégrales*](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/3/0/92453/sur-les-operations-dans-les-ensembles-abstraits-et-leur-application-aux-equations-integrales)，*Fundamenta Mathematicae* 3 (1922), **pp.133—181**，DOI 10.4064/fm-3-1-133-181。期刊原记录与摘要可查，不冒称全文每段已读。
+- **H194｜Banach1931波文与1932法文书目区别**：[University of Warsaw Polish Encyclopedia, Stefan Banach bibliography](https://encyklopedia.slw.uw.edu.pl/articles/banach-stefan/)：**1931**波兰文 *Teoria operacji. T. I. Operacje liniowe*；**1932**法文 *Théorie des opérations linéaires*，不误以1932为Banach第一次书面提出完备赋范空间。
+- **H195｜现代函数空间数学依据**：[Princeton MAT520 Functional Analysis notes (2025)](https://web.math.princeton.edu/~shapiro/PDFs/teaching/MAT520_fall_2025/MAT520_Lecture_Notes.pdf)：`C([0,1])`在上确界范数下完备；在L²型范数下的连续函数空间不完备；L²为平方可积函数**按几乎处处相等取商**形成Hilbert空间。**现代教材PDF未逐页截图；可从基本定义独立复算**。
+- **H196｜Riesz-Fischer/函数空间早期传播综览**：[Functional analysis history lecture](https://courses.mai.liu.se/GU/TATM85/FA-history.pdf)，1907 Riesz/Fischer、Fréchet与积分的传播；**现代课程史学PDF，未逐页截图**，不引其精确页。
+- **H197｜Schwartz第一手时期文献影印**：Laurent Schwartz，[*Théorie des distributions et transformation de Fourier*](https://www.numdam.org/item/AUG_1947-1948__23__7_0.pdf)，*Annales de l’Université de Grenoble* 23 (1947–1948), **pp.7—24**；**原刊p.7的PDF截图已查**：定义 \(\mathcal D\) 为光滑紧支撑测试函数空间，分布 \(T\) 为其上连续线性形式；首注追引其在同刊卷21**1945年**发表的 *Généralisation de la notion de fonction…*，并声明此为**1947年6月南锡讲座**的简述。**关键**：与部分二手传记写“第一篇1948”出现书目口径差异，优先按首注核“1945卷册”但不推测实际流通年份。
+- **H198｜Schwartz1948与1950/1951传播史**：[MacTutor, Laurent Schwartz](https://mathshistory.st-andrews.ac.uk/Biographies/Schwartz/)：Schwartz以分布理论严谨统一Heaviside、Dirac式应用，**1950/1951**双卷《Théorie des distributions》；二手传记认为首次相关文章发表于1948，与H197影印脚注追记1945需并列，**不将一项独断覆盖另一项**。
+- **H199｜Schwartz1950原书馆藏**：[Google Books馆藏书目, *Théorie des distributions*, vol.I](https://books.google.com/books?id=bKUgAAAAMAAJ)，巴黎Hermann **1950**，对应书目，1951第II卷由H198学术传记支持，别虚构已逐页读过两卷。
+- **H200｜分布理论传播史学**：[Paumier & Aubin, *From Nancy to Copenhagen to the World*](https://www.sciencedirect.com/science/article/abs/pii/S0315086017300320)，*Historia Mathematica* (2017)，公开摘要/部分正文论1940年代后期的学术网络及1950—51专著传播，证明不应写成某日独立“魔法发明”。**只核开放片段**。
+- **H201｜Sobolev先驱，避免独占归功**：[Yu. V. Egorov, *A contribution to the theory of generalized functions*](https://www.mathnet.ru/links/d14cfd00cd90066f3610b11939ad567e/rm4781_eng.pdf)，*Russian Math Surveys* 45(5),1990：1935—1936 Sobolev已用测试函数线性泛函与广义解，Schwartz1940s建立更广框架。**学术PDF摘要/公开文本，未截图逐页**。
+- **H202｜Dirac在量子力学中的工具与版本**：[Stanford Encyclopedia of Philosophy, *Quantum Theory: von Neumann vs. Dirac*](https://plato.stanford.edu/archives/spr2015/entries/qt-nvd/)，Diracδ并非他的孤立原创，但量子力学与**1930**教科书推进其应用；后来分布理论、rigged Hilbert space进一步严格化。
+- **H203｜NIST官方分布定义/求导**：[NIST DLMF, §1.16 Distributions](https://dlmf.nist.gov/1.16)：测试函数 \(C_c^\infty\)，分布为测试函数空间上连续线性泛函，\(\langle T',\varphi\rangle=-\langle T,\varphi'\rangle\)，Dirac \(\langle\delta,\varphi\rangle=\varphi(0)\)，阶跃的分布导数是δ。**现代标准定义，非Schwartz1945逐字符号**。
+- **H204｜Dirac/Heaviside不是普通Lebesgue函数**：[International Tables for Crystallography, *Origins*](https://onlinelibrary.wiley.com/iucr/itc/Bb/ch1o3v0001/sec1o3o2o3o1/)：若普通函数在非零点处为零，普通Lebesgue积分必为零，不能同时作为“δ函数”满足单位积分；distribution是新的对象，不等于传统函数突然违背积分定理。
+- **H205｜数学演算示例**：[MIT 18.034 Honor Differential Equations, lecture 23](https://studylib.net/doc/13559660/18.034-honors-differential-equations)：现代对测试函数的δ取样与分布导数说明，\(\langle H',\varphi\rangle=-\int_0^\infty\varphi'(x)dx=\varphi(0)\)；来自课程二手转存，不是原史料。
+- **H206｜Robinson1966原著前言一手影印**：Abraham Robinson，[*Non-standard Analysis* (1966 first ed.; 1996 Princeton reprint of revised edition) preview](https://api.pageplace.de/preview/DT0400.9781400884223_A27168958/preview-9781400884223_A27168958.pdf)，**作者原前言p.xiii截图核对**：自述1960秋形成构想、**1960年11月普林斯顿报告、1961年1月逻辑学会报告、1961年荷兰科学院论文**；说明受Skolem非标准算术启发。**该电子版1996重印，不把1996当成原创日期**。
+- **H207｜1961原文书目/1966专著**：[National Academy of Sciences, *Abraham Robinson*, Biographical Memoirs](https://www.nationalacademies.org/read/10683/chapter/15) 与[美国科学院回忆录书目PDF](https://www.nasonline.org/wp-content/uploads/2024/06/robinson-abraham.pdf)：1961 *Non-standard Analysis*, Proc. Royal Netherlands Acad. 64 / Indagationes Math. 23 pp.432—440；**1966** North-Holland *Non-standard Analysis* 首版。一手篇章书目经学术传记核对，未逐页核1961论文全文。
+- **H208｜逻辑与非标准分析历史评价**：[SEP, *Continuity and Infinitesimals*](https://plato.stanford.edu/entries/continuity/)及[SEP, *Infinity*](https://plato.stanford.edu/entries/infinity/)：1958 Schmieden/Laugwitz其他尝试、1960–1966 Robinson模型论突破，需承认多条严密化路径；非标准无限小与普通实数系统的阿基米德性质不矛盾，因为使用**扩张的非阿基米德有序域**。
+- **H209｜现代超实数构造**：[University of Chicago, Isaac Davis, *An Introduction to Nonstandard Analysis*](https://math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Davis.pdf)，2009课程论文给出超幂 \({}^\ast\mathbb R=\mathbb R^\mathbb N/\mathcal U\) 与非主超滤子（常依赖选择公理式原理）、transfer对适用的一阶内部断言成立；**现代教学，PDF未截图整页**。不声称Robinson1961具体采用本章数字例子。
+- **H210｜原前言与现代代数事实**：H206原书前言+H209现代构造交叉：\(\eta=[(1/n)]\in{}^\ast\mathbb R\)为**正、非零、比任何正标准实数小**的无穷小（对标准\(r>0\)，仅有限多n有1/n≥r）。仅称**任意正标准实数**，不称“比扩张域任何正数都小”（\(\eta/2\)亦正且更小）。
+- **H211｜标准部与微分示例**：H209及H208：每个有限超实数有唯一相差无穷小的标准实数\(\operatorname{st}\)，导数可写 \(\operatorname{st}(({}^\ast f(a+\eta)-f(a))/\eta)\)（满足可微及标准点等条件）；\(f=x^2,a=3\)得\(\operatorname{st}(6+\eta)=6\)。**“取标准部”不是把非零η直接设零**；必须区分内部/外部性质及transfer适用范围。
+- **H212｜非标准分析不直接等于Schwartz分布**：H203/H206/H208：分布对象为测试函数空间上的连续线性泛函；超实数是扩张数域中的元素。二者可以在额外理论中发生联系，但本批**不说Schwartz分布是无限小本身，不写33→34直接推论**。
+
+### 事实主张／数学例子准入矩阵
+
+| 章 | 核证主张 | 现代核算与绝不越界 |
+| --- | --- | --- |
+| **32** | Hilbert1904积分方程、Fréchet1906抽象距离、Riesz/Fischer1907L²、Banach1922论文、1931波兰文与1932法文专著（H188—196） | \(\|x-x^2\|_\infty=1/4\), \(\|x-x^2\|_1=1/6\), \(\|x-x^2\|_2=\sqrt{1/30}\)。连续函数斜坡近似阶跃：在L¹范数下Cauchy却没有连续极限，\(\mathrm L^1\)以**几乎处处等价类**补全；\(\mathrm C([0,1])\)在sup范数完备，不能说所有“函数空间”自动完备。Hilbert space需内积且完备，Banach space只需范数且完备 |
+| **33** | Schwartz1945原论文被1947—48本人文章追引，1950/51双卷传播，Sobolev1935/36与Dirac/Heaviside在先（H197—205） | \(\delta(\varphi)=\varphi(0)\)；\(H'(x)\)普通导数除了0为0，但作为分布\(\langle H',\varphi\rangle=-\int_0^\infty\varphi'(x)dx=\varphi(0)\)。\(\delta'(\varphi)=-\varphi'(0)\)。若把δ误作非零点零的普通函数，Lebesgue积分只能0；不是“无穷大函数”或“密度在0一点无限高”。并非任意分布都有天然可相乘定义，尤其δ²须另设理论条件 |
+| **34** | Robinson作者前言截图：1960秋思想、11月报告、1961讲座/论文、1966首版；1958 Schmieden/Laugwitz先行（H206—211） | 现代超幂构造η=[(1/n)]为正非零无穷小；\(\frac{(3+\eta)^2-3^2}{\eta}=6+\eta\)，\(\mathrm{st}=6\)。transfer只适用于正确形式化的一阶**内部**陈述，标准部是外部操作；不能由此说非标准实数满足普通实数**所有**二阶完备性。不能把无穷小当作任何仪器能直接测量的物理极小量 |
+
+### 待核问题与工作流不变量
+
+- 对H189/H192/H195/H196/H201/H209等PDF只核公开片段而未用截图逐页，不可声称逐页核对；H197原刊p.7与H206原序p.xiii**已截图核查**。
+- Schwartz的1945第一篇与MacTutor“first published 1948”描述冲突，文中只报告**本人1947—48原刊首页脚注可证明的1945卷册自引**及1950/51书出版，暂不裁定其他书目的争论。
+- 1906Fréchet度量空间雏形、1907Riesz/FischerL²和1932Banach教科书的角色各不相同，不能说Hilbert“发明”所有函数空间。
+- 1960年代Robinson的方法为现代可严谨成立的另一体系，不意味着Newton/Leibniz当时已经拥有transfer、standard part与超滤子理论，也不能据此取消前述极限方法。
+- 只可继续写**有证据边界的工作初稿**；正式证据认证/大纲审核/连续性与结构双审均仍是独立后续工作。
