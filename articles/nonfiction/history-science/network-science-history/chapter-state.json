@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "tracking_mode": "derived-publication-index",
+  "note": "本文件仅保存派生进度，不代表任何写作或审稿动作已发生。",
+  "progress_summary": {
+    "source": "book.json",
+    "total": 34,
+    "draft": 19,
+    "outline": 15,
+    "final": 0,
+    "proposals": 0,
+    "review_status": "PENDING",
+    "final_approved": false
+  }
+}

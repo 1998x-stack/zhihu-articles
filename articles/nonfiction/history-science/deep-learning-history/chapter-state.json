@@ -207,5 +207,15 @@
     "25章回溯2016/17 AlphaGo是专题编排，不是2022语言模型规模必然结果",
     "第01—24章均待独立连续性事实审稿与结构审稿（PENDING）"
   ],
-  "review_status": "PENDING"
+  "review_status": "PENDING",
+  "progress_summary": {
+    "source": "book.json",
+    "total": 32,
+    "draft": 24,
+    "outline": 8,
+    "final": 0,
+    "proposals": 0,
+    "review_status": "PENDING",
+    "final_approved": false
+  }
 }

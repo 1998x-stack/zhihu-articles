@@ -1,5 +1,9 @@
 # 从方程到空间：一部线性代数思想发展史
 
+<!-- SERIES_PROGRESS:START -->
+> **系列进度（自动核对，非出版许可）**：规划 34 篇 · 工作初稿 20 篇 · 策划占位 14 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
+<!-- SERIES_PROGRESS:END -->
+
 *From Equations to Spaces: A History of Linear Algebra*
 
 > 一张用于解方程的算筹表，为什么最终会变成描述高维空间、量子状态和现代计算的通用语言？

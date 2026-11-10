@@ -14,6 +14,8 @@ jobs:
         run: python scripts/sync_skills.py --check
       - name: Validate SKILL metadata, routing, ownership, templates
         run: python scripts/validate_repo.py
+      - name: Check chapter progress and README / state consistency
+        run: python scripts/check_series_progress.py --check
       - name: Check complete site shelf and chapter registry
         run: python scripts/build_pages.py --check-catalog
       - name: Install ebook renderer dependencies

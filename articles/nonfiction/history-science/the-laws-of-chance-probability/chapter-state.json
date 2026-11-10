@@ -102,5 +102,15 @@
     "08": "draft",
     "09": "draft"
   },
-  "evidence_state": "PARTIAL_CHAPTER_CLAIM_REVIEW_NOT_WORKFLOW_VERIFIED"
+  "evidence_state": "PARTIAL_CHAPTER_CLAIM_REVIEW_NOT_WORKFLOW_VERIFIED",
+  "progress_summary": {
+    "source": "book.json",
+    "total": 38,
+    "draft": 22,
+    "outline": 16,
+    "final": 0,
+    "proposals": 0,
+    "review_status": "PENDING",
+    "final_approved": false
+  }
 }

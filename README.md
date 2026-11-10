@@ -285,18 +285,26 @@ python scripts/build_pages.py --out _site
 
 ## 现有作品
 
-这些目录用于实际创作和检验长篇知识叙事方法，**作品状态以各自 `metadata.yaml` 为准**。
+本仓库当前收录 **14 个系列**。避免在根 README 保留易过期的人工章数和审稿结论；**每本书的实时工作进度以其 README 顶部自动生成的「系列进度」区块及 `book.json` 为准**，正式审核状态以 `workflow-state.json` 为准。在线目录：[GitHub Pages 数字书房](https://1998x-stack.github.io/zhihu-articles/)。
 
-| 作品 | 类型 | 当前归档状态 |
-| --- | --- | --- |
-| [《连接的秩序：图论三百年》](articles/nonfiction/history-science/graph-theory-history/README.md) | 数学思想史 · 图论与网络发展史 · 非虚构系列 | `draft`：7部36章已规划；序章及01—18章有证据范围限定的正文初稿，19—37仍占位，独立审稿未完成 |
-| [《从方程到空间：一部线性代数思想发展史》](articles/nonfiction/history-science/linear-algebra-history/README.md) | 数学思想史 · 线性代数发展史 · 非虚构系列 | `outlined`：8部32章及序章、尾声已建立策划占位，正文待写 |
-| [《失去确定性：数学史上的三次危机与七次思想革命》](articles/nonfiction/history-science/the-loss-of-certainty-math-crises/README.md) | 数学思想史 · 历史科学非虚构 | `drafting`：第 01 章已有初稿，其他章节主要为结构占位 |
-| [《从切线到无穷：微积分的诞生与重建》](articles/nonfiction/history-science/the-making-of-calculus/README.md) | 数学思想史 · 微积分史 · 历史科学非虚构 | `outlined`：七部35章、序章及尾声，00—36共37篇工作初稿全部已写、带逐章来源映射，占位0篇；全书证据/独立双审/终稿门禁尚未通过 |
-| [《信用、债务与权力：一部世界金融史》](articles/nonfiction/social-business/credit-debt-power-global-financial-history/README.md) | 世界金融制度史 · 非虚构长篇 | `outlined`：大纲和章节占位，正文尚未完成 |
-| [《看不见的秩序：PV=nRT的两百年接力》](articles/nonfiction/history-science/ideal-gas-law-two-centuries/README.md) | 气体定律发现史 · 科学非虚构长文 | `drafting`：序章已有初稿，15章与尾声为占位 |
+| 系列 | 仓库分册 |
+| --- | --- |
+| 深度学习史 | [查看进度和章节](articles/nonfiction/history-science/deep-learning-history/README.md) |
+| 电磁学史（22 篇独立候审稿） | [查看进度和章节](articles/nonfiction/history-science/fields-of-light-electromagnetism-history/README.md) |
+| 图论史 | [查看进度和章节](articles/nonfiction/history-science/graph-theory-history/README.md) |
+| 热力学史 | [查看进度和章节](articles/nonfiction/history-science/heat-and-time-thermodynamics-history/README.md) |
+| 理想气体史 | [查看进度和章节](articles/nonfiction/history-science/ideal-gas-law-two-centuries/README.md) |
+| 线性代数史 | [查看进度和章节](articles/nonfiction/history-science/linear-algebra-history/README.md) |
+| 网络科学史 | [查看进度和章节](articles/nonfiction/history-science/network-science-history/README.md) |
+| 强化学习史 | [查看进度和章节](articles/nonfiction/history-science/reinforcement-learning-history/README.md) |
+| 元素周期律发现史《空位》 | [查看进度和章节](articles/nonfiction/history-science/the-empty-spaces/README.md) |
+| 概率论史 | [查看进度和章节](articles/nonfiction/history-science/the-laws-of-chance-probability/README.md) |
+| 数学思想史《失去确定性》 | [查看进度和章节](articles/nonfiction/history-science/the-loss-of-certainty-math-crises/README.md) |
+| 微积分史 | [查看进度和章节](articles/nonfiction/history-science/the-making-of-calculus/README.md) |
+| 世界金融史 | [查看进度和章节](articles/nonfiction/social-business/credit-debt-power-global-financial-history/README.md) |
+| 中华财政史《帝国的账本》 | [查看进度和章节](articles/nonfiction/social-business/ledger-of-empire-china-fiscal-history/README.md) |
 
-这些项目不是已正式发布的作品，也不应将章节占位文件视为成稿。
+**注：**电磁学史的 `proposals/` 候审稿与正式工作初稿分开计数。理想气体史修订版已通过独立双审、尚待终审封版；其他初稿亦不等于正式出版稿。
 
 ## 维护与测试
 

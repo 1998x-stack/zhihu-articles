@@ -51,3 +51,20 @@ python scripts/build_pages.py --out _site
 | 网站可读被误当发表 | 明确标出待审状态；网站展示不等于 `workflow_gate.py --target publish` 或知乎发布 |
 
 不要将构建产物 `_site/` 提交进 Git，也不要为通过构建篡改审稿记录或自动把工作初稿标为终稿。
+
+## 章节进度不一致：强制 CI 门禁
+
+全仓库有多个独立进度表示：\`book.json\`（站点可阅读章级状态）、\`README.md\`（人工说明和自动快照）、\`chapter-state.json\`（某些系列仅追踪局部章节的续写记录）、\`workflow-state.json\`（真正的独立审稿和终稿审批）以及少数系列的 \`series.json\`（兼容早期索引）。
+
+**单一责任源**：\`book.json\` 的每章 \`outline / draft / final\` 仅用于章节展示进度；\`workflow-state.json\` 决定双审/终稿状态。README 的机器进度和 \`chapter-state.json.progress_summary\` 均为派生快照，不能反过来修改审稿状态。
+
+每批写作交付流程：
+
+1. 先确认对应 Markdown 是否已成为真正的工作初稿及其章级来源记录；**候审稿 \`proposals/\` 不得直接冒充正式 \`draft\`**。
+2. 维护者按真实稿件逐条更新 \`book.json chapters[].status\`，同步有意义的 \`chapter-state.json\` 详细字段；若 \`series.json\` 存在，也必须一致。
+3. 运行 \`python scripts/check_series_progress.py --write\` 仅刷新 README 自动区块和 chapter-state 的派生摘要。不会改动任何审稿许可，也不会凭长文自动把 outline 改成 draft。
+4. 运行 \`python scripts/check_series_progress.py --check\`、\`python scripts/build_pages.py --check-catalog\`，必要时执行全部单元测试及 Pages 构建。
+5. CI 在 PR 与 main push 自动执行；Pages 发布也会先校验，故「新增稿件忘记登记」「详细章级状态与书架冲突」「README 数值未同步」「缺失外部来源」不能静默通过。
+
+为避免重复数据过期，\`site/assets/data/books.json\` 的静态卡片现在只保留封面、作者、主题和不含瞬时进度的介绍。站点部署数据的 \`status\`、\`note\` 与章节计数以清单构建时自动生成。**这些数字仅代表作品工作进展，不证明历史事实已经独立核验，也不等于对外发表。**
+

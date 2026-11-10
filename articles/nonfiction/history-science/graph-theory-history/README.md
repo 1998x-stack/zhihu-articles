@@ -1,4 +1,8 @@
 # 连接的秩序：图论三百年
+
+<!-- SERIES_PROGRESS:START -->
+> **系列进度（自动核对，非出版许可）**：规划 38 篇 · 工作初稿 19 篇 · 策划占位 19 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
+<!-- SERIES_PROGRESS:END -->
 *The Order of Connections: Three Centuries of Graph Theory*
 
 > 从七座桥，到无数个互相连接的节点：图论如何成为理解复杂世界的数学。

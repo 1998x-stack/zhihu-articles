@@ -43,6 +43,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Check chapter progress and README / state consistency
+        run: python scripts/check_series_progress.py --check
       - name: Check shelf registration and chapter manifests
         run: python scripts/build_pages.py --check-catalog
       - name: Install Markdown renderer

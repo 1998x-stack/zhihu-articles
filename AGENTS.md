@@ -30,6 +30,13 @@
 - **网站自动发现**：`scripts/build_pages.py` 扫描 `catalog.json` 的归档路径，将新作品自动加入书架。已有 `site/assets/data/books.json` 是可选的陈列定制，不再是唯一入口；缺封面使用文字封面。
 - **必须验证**：`python scripts/build_pages.py --check-catalog`、`python scripts/sync_skills.py --check`、`python -m unittest discover -s scripts -p 'test_*.py'`。新系列缺 `book.json` 时必须构建失败，不能静默跳过。合并后检查 GitHub Actions 的 Pages build、deploy 和站内书籍/章节路由。详见 `docs/pages-publishing.md`。
 
+## 章节进度同步（每一批均必须执行）
+- 一章进入真实工作初稿时，由主编/仓库维护者根据实际正文、章级来源记录**明确更新**该系列 \`book.json\` 的 \`chapters[].status\`（\`outline\` → \`draft\`）；并同步原有 \`chapter-state.json\` 的详细章级字段。不可仅凭文件大小批量晋升，\`proposals/\` 候审稿仍须单独统计。
+- 完成正文与书籍清单同步后执行 \`python scripts/check_series_progress.py --write\`：只更新所有系列 README 的机器进度区块及 \`chapter-state.json.progress_summary\` 派生快照，不会篡改 \`book.json\`、\`workflow-state.json\`、审稿结果或正文。
+- 提交前执行 \`python scripts/check_series_progress.py --check\` 与 \`python scripts/build_pages.py --check-catalog\`；\`validate.yml\` 与 \`pages.yml\` 均会阻断陈旧的书目状态、README 进度和章级派生快照。详细见 \`docs/pages-publishing.md\`。
+- 旧有 chapter-state 可能仅追踪某一批次的连续性记录；允许其覆盖范围不完整，但**已记录的**章节与主工作流版本、审稿状态必须一致。未创建该文件的系列会生成仅用于同步的衍生摘要，绝不能假称续写检查或审稿已实际发生。
+- \`site/assets/data/books.json\` 只保留人工编辑的封面与长期有效简介，不维护 \`status\`、\`note\` 等易过期进度；公开书架在构建时按 \`book.json\` 自动计算，避免双重事实源。
+
 ## 原始 Prompt 保存
 核心通用 Prompt 的原始完整版为 `chief-narrative-editor/prompt.txt`；过去的精简版存为 `prompt-condensed-v1.txt`。十套题材 Prompt 的原文在各自 `prompt-original.txt`，阶段旧版 A/B/C 亦在对应目录保留。分阶段执行时优先遵循阶段输入输出权限，而不是照搬原始 Prompt 的“立即输出全文”。
 

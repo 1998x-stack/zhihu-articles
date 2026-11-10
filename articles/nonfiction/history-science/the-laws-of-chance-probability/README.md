@@ -1,5 +1,9 @@
 # 偶然的法则：从骰子到算法的概率论史
 
+<!-- SERIES_PROGRESS:START -->
+> **系列进度（自动核对，非出版许可）**：规划 38 篇 · 工作初稿 22 篇 · 策划占位 16 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
+<!-- SERIES_PROGRESS:END -->
+
 *The Laws of Chance: A History from Dice to Algorithms*
 
 > 为什么单次事件不能确定，而大量事件却能产生可计算的规律？

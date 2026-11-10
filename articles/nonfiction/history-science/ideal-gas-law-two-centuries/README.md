@@ -1,5 +1,9 @@
 # 看不见的秩序：PV=nRT的两百年接力
 
+<!-- SERIES_PROGRESS:START -->
+> **系列进度（自动核对，非出版许可）**：规划 17 篇 · 工作初稿 17 篇 · 策划占位 0 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PASS · 最终封版 否。
+<!-- SERIES_PROGRESS:END -->
+
 *The Invisible Order: Two Centuries Behind the Ideal Gas Law*
 
 > 1834年，一位工程师把一条气体规律写成了 `pv=R(267+t)`。为什么这里是267，而不是今天的273.15？从一根玻璃管到无数分子的运动，这个差异恰好藏着一场跨越两百年的科学接力。

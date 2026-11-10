@@ -64,5 +64,15 @@
     "序章仍为占位，不能把全书草稿收束当作全书已正式完成"
   ],
   "review_status": "PENDING",
-  "note": "本文件记录25章与尾声新增连续性状态；工作流仍为PENDING，未进行正式双重审核或最终批准。"
+  "note": "本文件记录25章与尾声新增连续性状态；工作流仍为PENDING，未进行正式双重审核或最终批准。",
+  "progress_summary": {
+    "source": "book.json",
+    "total": 27,
+    "draft": 26,
+    "outline": 1,
+    "final": 0,
+    "proposals": 0,
+    "review_status": "PENDING",
+    "final_approved": false
+  }
 }
