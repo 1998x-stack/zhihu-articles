@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "21",
+  "claims": [
+    {
+      "claim_id": "NS-21-01",
+      "type": "historical_publication",
+      "statement": "Pastor-Satorras and Vespignani PRL 86 pp3200-3203 published April 2 2001; SIS infinite scale-free setting threshold vanishing",
+      "source_ids": [
+        "S15"
+      ],
+      "locator": "APS publisher DOI abstract and article",
+      "verification_status": "publisher_record_and_abstract_checked"
+    },
+    {
+      "claim_id": "NS-21-02",
+      "type": "mathematical_degree_bias",
+      "statement": "Random edge endpoint degree expectation equals <k^2>/<k> for undirected graph with degrees k",
+      "source_ids": [
+        "S01"
+      ],
+      "locator": "degree weighting derivation; same principle prior chapter16",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-21-03",
+      "type": "mathematical_threshold",
+      "statement": "For uncorrelated heterogeneous mean-field SIS beta/mu lambda, threshold lambda_c=<k>/<k^2>; not universal fixed graph exact threshold",
+      "source_ids": [
+        "S80"
+      ],
+      "locator": "Pastor-Satorras Vespignani PRE 65 035108(R), Eq 1-4 and assumptions",
+      "verification_status": "source_equations_checked"
+    },
+    {
+      "claim_id": "NS-21-04",
+      "type": "teaching_example",
+      "statement": "Six-cycle degree (2,2,2,2,2,2) gives avg2 avgSquare4 proxy lambda .5; connected six-node six-edge graph AB AC AD AE BC DF has degrees 4,2,2,2,1,1 giving avg2 avgSquare5 proxy .4",
+      "source_ids": [],
+      "locator": "author graph degree verified; only HMF plug-in illustration",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-21-05",
+      "type": "historical_finite_size",
+      "statement": "2002 finite scale-free network study distinguishes bounded cutoffs nonzero effective thresholds from infinite-size vanishing limit",
+      "source_ids": [
+        "S80"
+      ],
+      "locator": "PRE 65 035108(R) Mar 7 2002 publisher abstract",
+      "verification_status": "publisher_record_and_equations_checked"
+    },
+    {
+      "claim_id": "NS-21-06",
+      "type": "later_development",
+      "statement": "Fixed-network SIS thresholds require care; quenched theories and max-hub effects not identical with HMF, Castellano/Pastor-Satorras 2010",
+      "source_ids": [
+        "S81"
+      ],
+      "locator": "arXiv 1010.1646 abstract and published paper",
+      "verification_status": "abstract_checked_with_model_caveats"
+    },
+    {
+      "claim_id": "NS-21-07",
+      "type": "historical_intervention_model",
+      "statement": "Pastor-Satorras and Vespignani 2002 immunization models compare random and targeted strategies in heterogeneous networks",
+      "source_ids": [
+        "S82"
+      ],
+      "locator": "PRE 65 036104 published Feb 8 2002 publisher abstract",
+      "verification_status": "publisher_record_and_abstract_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Series-wide outline_approved=false and evidence_verified=false; chapter is a research draft, not an authorized final or formally reviewed manuscript.",
+    "Independent cross-chapter continuity, mathematical fact review, developmental editing and final approval are pending.",
+    "Teaching graphs, numerical examples and modern notation must not be represented as original-paper data."
+  ]
+}

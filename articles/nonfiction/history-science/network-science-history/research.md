@@ -279,3 +279,25 @@
 - 全书正式审稿尚未开始；不擅自更改 workflow-state.json（outline_approved=false, evidence_verified=false, review_status=PENDING），亦不称任何章节为最终出版稿。
 - 独立连续性审计需检查17—19章术语：桥/局部桥/边介数、聚类/社群、零模型/配置模型、模块度/模体显著性之间不混淆。
 - 正式事实编辑须进一步复核Zachary 1977观察期原刊措辞、PNAS原刊图4、JSTAT版本间人数差异，以及Milo模体原始n−1子图控制的适用条件。
+
+
+### 第20—22章｜第五部前置研究与模型分界（2026-11-10 本批增量）
+
+以下来源用于第20—22章研究性工作初稿；**论文题名、期刊元数据和明确可核的摘要/全文与作者自造教学算例分层记录**，不授予全书 \`evidence_verified\` 或独立审稿批准。
+
+| 来源 ID | 一手论文、可靠学术研究与入口 | 核对范围及不能扩大解释之处 |
+|---|---|---|
+| **S78** | Fred Brauer, [“Mathematical epidemiology: Past, present, and future,” *Infectious Disease Modelling* 2:113—127 (2017)](https://pmc.ncbi.nlm.nih.gov/articles/PMC6001967/) | 综述并列出1927年克马克—麦肯德里克感染年龄/传播核的更一般形式与后世三方程SIR特例；说明 \(\mathcal R_0\) 的现代定义、Ross/Macdonald历史脉络。不能将现代 \(\beta,\gamma,\mathcal R_0\) 记号冒称1927年原始符号。 |
+| **S79** | Smith et al., [“Ross, Macdonald, and a Theory for the Dynamics and Control of Mosquito-Transmitted Pathogens,” *PLOS Pathogens* (2012)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3320609/) | Ross 1908、1911及与Hilda Hudson 1916—17的研究早于Kermack/McKendrick 1927；不把疾病数学的创立全部归于1927。 |
+| **S80** | Romualdo Pastor-Satorras & Alessandro Vespignani, [“Epidemic Dynamics in Finite Size Scale-Free Networks,” *Physical Review E* 65, 035108(R), 2002-03-07](https://doi.org/10.1103/PhysRevE.65.035108) | 异质平均场SIS：\(\lambda_c=\langle k\rangle/\langle k^2\rangle\)，有限连接截止产生非零有效阈值，规模增加可趋零。数学推导对特定无度相关近似适用，不是有限真实网络严格通用阈值。 |
+| **S81** | Claudio Castellano & Romualdo Pastor-Satorras, [“Thresholds for Epidemic Spreading in Networks,” *Physical Review Letters* 105, 218701 (2010-11-17)](https://doi.org/10.1103/PhysRevLett.105.218701)；[预印本](https://arxiv.org/abs/1010.1646) | 后续固定网络淬火分析指出SIS门槛下降可与最大枢纽和谱有关，某些情形与HMF极限预测不一致；不要把2001/2002异质平均场作为唯一完整理论。 |
+| **S82** | Pastor-Satorras & Vespignani, [“Immunization of Complex Networks,” *Physical Review E* 65, 036104 (2002-02-08)](https://doi.org/10.1103/PhysRevE.65.036104) | 在作者网络模型中定向免疫与均匀随机免疫表现不同；不对现实群体防疫效果作无数据因果推广。 |
+| **S83** | Mark Granovetter, [“Threshold Models of Collective Behavior,” *American Journal of Sociology* 83(6):1420—1443 (1978-05-01)](https://doi.org/10.1086/226707) | 集体行为行动阈值先驱，强调门槛分布对结果的重要性；不同于2002年Watts明确以**局部网络邻居比例**和随机图级联提出的模型。 |
+
+**第20章事实锚点**：S77（1927原文元数据及阈值）、S78（原文一般形式与现代教学SIR区别）、S79（罗斯和赫德森在先）。现代简单SIR模型中，封闭 \(N=1000\)、\(S=990,I=10,\beta=.3,\gamma=.1\) 时新增速率2.97，退出速率1，净增1.97；当 \(S=300,I=10\) 时净变-.1。最终规模 \(\mathcal R_0=2\) 的非零解约.796812；计算是模型演示，不是1927年观测。两个三角形与六环图同平均度2但可达性不同，不能因此主张每条接触必然传播。
+
+**第21章事实锚点**：S15（2001发表、模型和无限极限）、S80（2002有限规模修正）、S81（2010固定网络理论后续）、S82（2002免疫策略）。作者六节点环六边平均度2、二阶矩4，HMF代入.5；图 AB,AC,AD,AE,BC,DF 同样平均度2、二阶矩5，HMF代入.4，**只展示度二阶矩差异**，不能宣称这是六节点有限随机过程的精确长期存活阈值。
+
+**第22章事实锚点**：S83（1978先驱）、S16（2002 Watts PNAS全文、收稿2001-05-29/接受2002-02-14/发表2002-04-30）。六节点路径A—B—C—D—E—F与中心B的五叶星形图：每图均5边，统一阈值.4，初始种子A，逐轮同时更新后前者数量依次1、2、3、4、5、6，后者停在1。全部为作者自建教学图；Watts的脆弱节点 \(\phi\leq1/k\)、巨大脆弱连通分量及级联窗口是随机网络模型结论，**不**是所有真实社交媒体或基础设施的唯一机理。
+
+**待独立审稿特别核查**：三章的SIR/SIS/社会阈值各有不同状态转换和临界量；将 \(\mathcal R_0\)、\(\lambda_c\) 与 \(\phi_i\) 当成一个“感染率阈值”属严重误读。1927史料与2017术语不可时代倒灌；2001“无阈值”指无限网络渐近与特定近似，有限网络及后来QMF研究需分别说明；社交级联为机制假说，不能从传播曲线自动推断社会因果。
