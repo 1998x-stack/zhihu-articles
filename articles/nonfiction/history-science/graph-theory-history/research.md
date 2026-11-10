@@ -817,3 +817,27 @@
 ### 阶段结论
 
 仅授予**第34—36章研究性工作初稿写作所需的限定前置核证范围**。全书正式双审、精修、终稿及平台发布均未批准；不自动解除第37章\`TODO_VERIFY\`。
+
+
+---
+
+## 尾声37限定前置史料核证｜2026-11-10
+
+> **事实编辑／写作准入限定：** 本节先于尾声正文写入，不代表对全书独立史实核验已经完成。尾声以经典欧拉论文、现代网络的时间性、多层性与既有学科章节来源为范围；数学示例为编写者原创构造，不可声称对应某个历史现场。
+
+| ID | 资料 | 限定支持范围 |
+|---|---|---|
+| S167 | Euler Archive / University of the Pacific, Leonhard Euler, *Solutio problematis ad geometriam situs pertinentis* (Eneström E053), research written 1735, issued in \`Commentarii academiae scientiarum Petropolitanae\` vol. 8 (nominal year 1736), actually printed 1741, pp.128—140. https://scholarlycommons.pacific.edu/euler-works/53/；MAA historical reading https://old.maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-problem | 七桥问题、论文写作与印行日期、把岸区与桥梁抽象为连通关系的历史解释；不要把现代全部顶点—边术语直接声称为1735年作者的原话 |
+| S168 | Petter Holme / Jari Saramäki, “Temporal Networks,” *Physics Reports* 519(3) (2012), 97—125. https://doi.org/10.1016/j.physrep.2012.03.001；机构出版记录 https://research.aalto.fi/en/publications/temporal-networks/ | 时间网络中边在特定时刻或时段激活；静态可达路径未必对应按时间依序可走的路径。原文不支持虚构特定人物的社交行为 |
+| S169 | Mikko Kivelä, Alex Arenas, Marc Barthélemy, James P. Gleeson, Yamir Moreno, Mason A. Porter, “Multilayer Networks,” *Journal of Complex Networks* 2(3) (2014), 203—271, online 14 July 2014. https://doi.org/10.1093/comnet/cnu016；出版社 https://academic.oup.com/comnet/article/2/3/203/2841130 | 现实网络涉及多种关系、多个层和相互依赖网络，单层无权静态图可丢失信息；具体分层如何影响结果需由应用模型定义，不能说多层模型自动解决事实判断 |
+
+### 尾声准入与复核表
+
+- **历史事实：** 欧拉七桥论文研究1735、卷标1736、实刊1741；欧拉原文所研究为每座桥恰好过一次的可行性，现代形式化为欧拉通路问题，原图四块陆地共七桥，度序(5,3,3,3)且四奇度→无欧拉通路。这一现代图论推导不等于历史手稿原句。
+- **数学模型差异：** 同一批节点和边在静态无向模型可连通，带方向、时间限制或其他权重后可能不再满足相同可达性；必须给出具体可验证例子和条件。作者自制三节点时间例：A—B唯一互动在t=2，B—C唯一互动在t=1，从A出发t≥0无法先走AB再走BC，虽然静态投影存在A-B-C两边路径。若“可以等待”也不改变这个例子。
+- **模型与任务：** 最短路、最大流、图谱、PageRank、度分布、社群检测、GNN各解决不同任务、依赖不同假设。图论并非单一万能公式；将现实中抽象为节点/边之前需说明顶点、边、时间、方向、权重与观测覆盖。
+- **出版界限：** \`draft/37.md\` 和 \`draft/37.claims.json\` 将标记\`draft\`并新增claim_id到来源映射；从此全书38/38仅是初稿覆盖，不能自动宣称事实终审、结构审稿通过或知乎平台出版。正式审校须由对应QA报告记录问题和结果。
+
+### 研究阶段边界
+
+本节是**尾声的分章前置资料核证**，并没有对00—36每个历史日期/数学证明逐页重新核对。后续全书\`qa/fact-check-report.md\`及\`qa/math-review.md\`应把“覆盖率、抽查比例、发现的问题、待补核清单”与“通过结论”明确区分。
