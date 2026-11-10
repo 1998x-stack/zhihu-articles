@@ -1,4 +1,4 @@
-"""Final 28–30 chapter completeness and source-scope regression checks.
+"""Final 28–30 chapters and closing 00/31 manuscript regression checks.
 
 This test protects manuscript/page integrity. It cannot perform independent
 fact-checking, scientific peer review, licensing advice or author sign-off.
@@ -26,15 +26,16 @@ class DeepLearningFinalBatchRegressionTests(unittest.TestCase):
     def test_public_reader_manifest_stays_honest(self):
         chapters=self.manifest["chapters"]
         self.assertEqual(len(chapters),32)
-        self.assertEqual(sum(c["status"]=="draft" for c in chapters),30)
-        self.assertEqual({c["number"] for c in chapters if c["status"]=="outline"},{"00","31"})
+        self.assertEqual(sum(c["status"]=="draft" for c in chapters),32)
+        self.assertEqual({c["number"] for c in chapters if c["status"]=="outline"},set())
+        self.assertEqual({c["number"] for c in chapters if c["status"]=="draft" and c["number"] in {"00","31"}},{"00","31"})
         self.assertFalse(any(c["status"]=="final" for c in chapters))
-        self.assertEqual(self.state["last_chapter"],30)
+        self.assertEqual(self.state["last_chapter"],31)
         self.assertEqual((self.state["progress_summary"]["draft"],
-                          self.state["progress_summary"]["outline"]),(30,2))
+                          self.state["progress_summary"]["outline"]),(32,0))
         self.assertEqual(self.workflow["review_status"],"PENDING")
         self.assertFalse(self.workflow["final_approved"])
-        self.assertEqual(self.workflow["last_completed_working_draft_chapter"],30)
+        self.assertEqual(self.workflow["last_completed_working_draft_chapter"],31)
 
     def test_three_chapters_are_real_long_form_nonfiction_and_claims_traced(self):
         for i in (28,29,30):
@@ -80,8 +81,8 @@ class DeepLearningFinalBatchRegressionTests(unittest.TestCase):
             self.assertIn(f"draft/{n}.md",readme)
             self.assertIn(f"draft/{n}.md",batch)
             self.assertIn(f"{n}.claims.json",readme)
-        self.assertIn("工作初稿 30 篇",readme)
-        self.assertIn("策划占位 2 篇",readme)
+        self.assertIn("工作初稿 32 篇",readme)
+        self.assertIn("策划占位 0 篇",readme)
         self.assertIn("工作初稿三篇",batches)
         self.assertTrue((BOOK/"qa/batch-28-30-self-check.md").exists())
         self.assertTrue((BOOK/"qa/batch-28-30-review-brief.md").exists())
