@@ -34,14 +34,16 @@
 | 2006 | Hinton/Osindero/Teh深度信念网络逐层训练 | 混合有向/无向生成架构，原论文生成微调是对比式wake-sleep | 14 |
 | 2006 | Hinton/Salakhutdinov Science深自编码器 | 好的预训练初始化后使用梯度微调；与DBN生成微调有别 | 14 |
 | 2006 | Bengio/Lamblin/Popovici/Larochelle NIPS逐层训练 | 蒙特利尔研究方向，贡献归属不独占 | 14 |
-| 2009 | ImageNet大型图像库论文 | 与竞赛和AlexNet时序区分 | 16 |
+| 2009 | Deng等ImageNet大型图像库CVPR论文[DL77] | 论文时点12子树、5,247 synsets、约320万图；**数据库**不同于随后赛事任务 | 16 |
+| 2010 | ILSVRC正式系列视觉挑战开始[DL79] | ImageNet为底层数据库，竞赛只是选定任务与评价协议 | 16 |
 | 2011 | Seide/Gang Li/Dong Yu Interspeech语音研究 | 北京与雷德蒙德署名；RT03S Fisher单遍WER27.4%→18.5%，仅限指定基准 | 15 |
 | 2011 | Seide/Gang Li/Xie Chen/Dong Yu ASRU特征工程 | 声学变换及适配重要，不能只归因于网络层数 | 15 |
 | 2012 | Dahl/Dong Yu/Li Deng/Acero大词汇CD-DNN-HMM | DNN声学状态后验结合HMM时序解码 | 15 |
 | 2012 | Hinton/Li Deng/Dong Yu等四组团队综述 | Toronto、微软、Google、IBM多团队研究与应用进展 | 15 |
-| 2012 | AlexNet在图像分类取得重大进展 | 多因素，非GPU单因 | 00、17 |
+| 2012 | ILSVRC官方竞赛分类数据规范[DL78] | 1000类、约120万训练、5万验证、约10万测试；并非ImageNet数据库全部 | 16 |
+| 2012 | Krizhevsky/Sutskever/Hinton NIPS论文；AlexNet系统在ILSVRC取得领先[DL80] | 2012单CNN验证top-5=18.2%；七CNN集成测试top-5=15.3%对第二名26.2%，须区分2010与2012口径 | 00、17 |
 | 2014—2015 | 序列注意力和GAN路线 | 不同问题与方法分叉 | 20—21 |
-| 2015—2016 | ResNet残差学习 | 作者与机构具体归属看原论文 | 18 |
+| 2015-12 / 2016 | He/Zhang/Ren/Sun残差学习预印本 / CVPR论文[DL81] | plain网络加深可出现更高训练误差；ImageNet 18/34层对照、2015年集成top-5 test=3.57%分口径 | 18 |
 | 2016 | AlphaGo论文发表 | 搜索、强化学习与神经网络协同 | 25 |
 | 2017 | Transformer论文发表 | 注意力机制并非始于2017 | 22 |
 | 2018 | BERT预训练论文 | GPT同代路线需补原论文核对 | 23 |
