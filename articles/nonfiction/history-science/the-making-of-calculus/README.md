@@ -6,7 +6,7 @@
 
 **归档**：`articles/nonfiction/history-science/the-making-of-calculus/` · **主类型**：`genre-history-science` · **体裁**：可独立阅读的历史科学非虚构连载 · **读者**：有高中数学基础的好奇读者。
 
-**真实进度**：序章00及第01—34章为带逐章来源映射的**工作初稿（35篇，未独立审稿）**；35—36仍为**策划占位（2篇）**。全书共七部、35个正文章、1篇序章、1篇尾声。正式工作流仍为 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING`，不是已获批准的大纲或正式成稿。规模预估约13—20万字，目标值见 `metadata.yaml`。
+**真实进度**：序章00、第01—35章与尾声36的**37篇均已有逐章来源映射的工作初稿（全部未独立审稿）**；规划占位剩余**0篇**。全书共七部、35个正文章、1篇序章、1篇尾声。正式工作流仍为 `outline_approved=false`、`evidence_verified=false`、`review_status=PENDING`，不是已获批准的大纲或正式成稿。规模预估约13—20万字，目标值见 `metadata.yaml`。
 
 ## 从这里开始
 
@@ -18,7 +18,7 @@
 | 希腊、中国、伊斯兰世界、印度与欧洲如何比较 | [跨文明比较与史料边界](planning/cross-cultural-evidence.md) |
 | 知乎盐选式知识叙事怎样落实到每章 | [分章创作协议](planning/chapter-blueprint.md) |
 | 史料入口、证据记录、年代定位 | [research](research.md) · [claim-ledger](claim-ledger.md) · [timeline](timeline.md) |
-| 后续三章一批的生产计划 | [批次导航](batches/README.md) · [已撰写17—19](batches/17-19.md) · [已撰写20—22](batches/20-22.md) · [已撰写23—25](batches/23-25.md) · [已撰写26—28](batches/26-28.md) · [已撰写29—31](batches/29-31.md) · [已撰写32—34](batches/32-34.md) · [最后一批35—36](batches/35-36.md) |
+| 后续三章一批的生产计划 | [批次导航](batches/README.md) · [已撰写17—19](batches/17-19.md) · [已撰写20—22](batches/20-22.md) · [已撰写23—25](batches/23-25.md) · [已撰写26—28](batches/26-28.md) · [已撰写29—31](batches/29-31.md) · [已撰写32—34](batches/32-34.md) · [最后一批35—36已撰写](batches/35-36.md) |
 
 ## 一、核心立意：这不是「两个天才发明导数」的故事
 
@@ -124,8 +124,8 @@
 
 - [33｜施瓦茨：不能求经典导数的对象仍可微分吗〔工作初稿〕](draft/33.md)
 - [34｜鲁滨逊：无穷小怎样重新获得数学身份〔工作初稿〕](draft/34.md)
-- [35｜自动微分：计算机怎样真正执行链式法则〔占位〕](draft/35.md)
-- [36｜尾声：为什么今天仍在重新发明微积分？〔占位〕](draft/36.md)
+- [35｜自动微分：计算机怎样真正执行链式法则〔工作初稿〕](draft/35.md)
+- [36｜尾声：为什么今天仍在重新发明微积分？〔工作初稿〕](draft/36.md)
 
 ## 四、历史转折：用「旧方法的能力边界」而非名人排序组织叙事
 
@@ -170,7 +170,7 @@ the-making-of-calculus/
 ├── research.md · claim-ledger.md   # 既有史料索引与主张来源（不可冒充全书核验）
 ├── metadata.yaml · series.json     # 既有作品与逐章状态
 ├── workflow-state.json             # 机器闸门：未批准、未全书核验
-├── draft/                         # 00—34工作初稿；35—36占位；逐章claims.json
+├── draft/                         # 00—36均为未审工作初稿；占位0篇；逐章claims.json
 ├── assets/                        # 已有原创示意图
 ├── planning/                      # 本次增补：全书编辑设计、跨文明对照、章级协议
 ├── parts/                         # 本次增补：七部部级交接与占位工作纸
