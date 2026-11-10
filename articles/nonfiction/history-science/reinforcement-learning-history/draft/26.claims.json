@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "chapter": "26",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "根据2015TRPO、2017PPO预印本、2018SAC ICML与2018扩展、2019MuZero arxiv及2020Nature一手论文作特定范围事实前置核对。原创数学另标记。没有独立二审全部原始图表、算法代码或终稿。",
+  "alias_to_research_source_id": {
+    "S01": "R101",
+    "S02": "R102",
+    "S03": "R107",
+    "S04": "R103",
+    "S05": "R104"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-26-01",
+      "claim": "Haarnoja等四作者2018 ICML发表SAC PMLR80:1861-1870",
+      "source_ids": [
+        "R101",
+        "R18"
+      ],
+      "kind": "primary_bibliography",
+      "section": "一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-02",
+      "claim": "SAC结合off-policy经验复用、最大熵目标与随机actor-critic处理连续动作控制",
+      "source_ids": [
+        "R101"
+      ],
+      "kind": "primary_method",
+      "section": "一、六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-03",
+      "claim": "连续动作多维组合难以逐项列举，1000^3=10^9为作者离散化算例",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-04",
+      "claim": "最大熵目标增加alpha*H(pi(.|s))奖励，alpha为温度参数",
+      "source_ids": [
+        "R101"
+      ],
+      "kind": "primary_math",
+      "section": "三",
+      "evidence_note": "离散熵与连续微分熵不同",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-05",
+      "claim": "离散两动作均匀概率熵为ln2≈.6931，与持续动作原始实验非同一对象",
+      "source_ids": [
+        "R101"
+      ],
+      "kind": "modern_math",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-06",
+      "claim": "原创单步奖励3和2，等概率动作期望2.5，alpha1的soft价值3.1931，alpha.1价值2.5693",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-07",
+      "claim": "只比较均匀与确定分布不代表alpha1下均匀分布为全局最优",
+      "source_ids": [
+        "R101",
+        "R105"
+      ],
+      "kind": "scope_boundary",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-08",
+      "claim": "最大熵强化学习与softQ等前驱存在，SAC非首次引入熵或随机策略",
+      "source_ids": [
+        "R101",
+        "R105",
+        "R103"
+      ],
+      "kind": "historical_attribution",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-09",
+      "claim": "SAC经验缓冲复用过去策略数据，但仍受离策略+函数近似+自举潜在失稳约束",
+      "source_ids": [
+        "R101",
+        "R01"
+      ],
+      "kind": "method_limit",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-10",
+      "claim": "2018 ICML原始SAC采用两套Q函数取最小值来缓解高估偏差，与TD3为同时期研究",
+      "source_ids": [
+        "R101",
+        "R104"
+      ],
+      "kind": "primary_architecture",
+      "section": "六、七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-11",
+      "claim": "原创双Critic甲(9,6)、乙(7,7)，取较小值得甲6乙7，不说明何者真实最优",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-12",
+      "claim": "2018 ICML论文有连续控制基准的样本效率与种子稳定性实验，但非机器人万能安全证明",
+      "source_ids": [
+        "R101"
+      ],
+      "kind": "primary_experiment_scope",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-13",
+      "claim": "2018-12-13后续SAC Algorithms and Applications预印本引入约束式自动熵温度等修改",
+      "source_ids": [
+        "R102"
+      ],
+      "kind": "publication_chronology",
+      "section": "八",
+      "evidence_note": "不能归为2018七月原版的一切",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-14",
+      "claim": "后续扩展研究包含四足机器人行走和灵巧手控制实验，结果受具体环境和硬件限制",
+      "source_ids": [
+        "R102"
+      ],
+      "kind": "primary_experiment",
+      "section": "八、九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-15",
+      "claim": "温度自动调节仍需目标熵与其它训练设计，不等于人类超参数从此归零",
+      "source_ids": [
+        "R102"
+      ],
+      "kind": "implementation_scope",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-26-16",
+      "claim": "SAC为model-free方法，MuZero另沿模型学习+MCTS路线发展，不是SAC后继模块",
+      "source_ids": [
+        "R101",
+        "R107"
+      ],
+      "kind": "conceptual_bridge",
+      "section": "十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "离散两动作entropy教学与原SAC连续微分熵严格区分",
+    "2018七月ICML SAC与2018十二月应用扩展中自动温度调节严格按时间区分",
+    "双Critic取min缓解高估而非总是正确，真实机器人实验不支持任何安全泛化"
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "chapter": "27",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "根据2015TRPO、2017PPO预印本、2018SAC ICML与2018扩展、2019MuZero arxiv及2020Nature一手论文作特定范围事实前置核对。原创数学另标记。没有独立二审全部原始图表、算法代码或终稿。",
+  "alias_to_research_source_id": {
+    "M01": "R106",
+    "M02": "R107",
+    "M03": [
+      "R106",
+      "R08"
+    ],
+    "M04": "R108",
+    "M05": "R96"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-27-01",
+      "claim": "Schrittwieser等MuZero 2019-11-19 arxiv1911.08265预印本、2020-12-23 Nature正式刊载",
+      "source_ids": [
+        "R106",
+        "R107",
+        "R19"
+      ],
+      "kind": "primary_chronology",
+      "section": "一、八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-02",
+      "claim": "MuZero结合学习模型与树搜索，不要求预先提供完整真实环境动力学模型",
+      "source_ids": [
+        "R106",
+        "R107"
+      ],
+      "kind": "primary_method",
+      "section": "一、二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-03",
+      "claim": "Dyna、Predictron、TreeQN和价值预测网络为此前模型学习/价值等价路线，MuZero非第一次学模型",
+      "source_ids": [
+        "R106",
+        "R08"
+      ],
+      "kind": "historical_attribution",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-04",
+      "claim": "MuZero表示函数h将观察历史编码为潜在状态s0",
+      "source_ids": [
+        "R106"
+      ],
+      "kind": "primary_equation",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-05",
+      "claim": "潜在动力学函数g(s,a)输出下一潜在状态和奖励预测，不要求像素重建",
+      "source_ids": [
+        "R106"
+      ],
+      "kind": "primary_equation",
+      "section": "三、十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-06",
+      "claim": "预测函数f(s)输出策略分布与价值估计，和g协同供树搜索",
+      "source_ids": [
+        "R106"
+      ],
+      "kind": "primary_equation",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-07",
+      "claim": "原始MuZero对潜在状态不附加真实物理语义或完整观察重建约束",
+      "source_ids": [
+        "R106"
+      ],
+      "kind": "primary_design",
+      "section": "二、十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-08",
+      "claim": "原创两步虚构左路径1,2,末价值3 gamma.9得5.23，右路径2,0,末价值2得3.62",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-09",
+      "claim": "MuZero实际训练利用真实轨迹、所观测奖励、搜索策略及价值目标，并使用重放缓冲区",
+      "source_ids": [
+        "R106"
+      ],
+      "kind": "primary_method",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-10",
+      "claim": "MuZero根节点可从真实环境获得合法动作并屏蔽不合法，搜索树内部不再调用规则逐节点屏蔽",
+      "source_ids": [
+        "R106"
+      ],
+      "kind": "primary_implementation",
+      "section": "六",
+      "evidence_note": "原始预印本Methods",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-11",
+      "claim": "MuZero内部树不按已知真实终局规则停止，价值由网络预测",
+      "source_ids": [
+        "R106"
+      ],
+      "kind": "primary_implementation",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-12",
+      "claim": "原始论文在57款Atari游戏与围棋国际象棋将棋做模型规划评估",
+      "source_ids": [
+        "R107",
+        "R106"
+      ],
+      "kind": "primary_experiment",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-13",
+      "claim": "2019预印本报告57款中42款MuZero表现超过该论文比较的R2D2基准，不代表所有游戏全优",
+      "source_ids": [
+        "R106"
+      ],
+      "kind": "primary_metric",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-14",
+      "claim": "MuZero Reanalyze用当前网络的搜索刷新旧轨迹目标，2亿帧设置与基本MuZero大交互预算需区分",
+      "source_ids": [
+        "R106"
+      ],
+      "kind": "primary_version_boundary",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-15",
+      "claim": "高性能在游戏和模拟环境的特定基准中，不能推成现实工业/医疗控制一般安全保证",
+      "source_ids": [
+        "R107",
+        "R106"
+      ],
+      "kind": "scope_boundary",
+      "section": "八、十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-16",
+      "claim": "与AlphaZero具有精确游戏模拟器的设置相比，MuZero用学习到的潜在动力学支持树搜索",
+      "source_ids": [
+        "R96",
+        "R106"
+      ],
+      "kind": "comparison",
+      "section": "十一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-27-17",
+      "claim": "MuZero并非无动作接口、观察反馈或奖励监督，zero是模型规则事先未知而非完全无信息",
+      "source_ids": [
+        "R106"
+      ],
+      "kind": "main_limitation",
+      "section": "六、十一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "2019初版、2020修订和2020年12月Nature发表有版本差异，详细结果需比对原刊",
+    "MuZero根节点合法动作由外部环境提供、树内才不用真实规则屏蔽，不可宣称零动作/观察/奖励反馈",
+    "2019预印本57款Atari中42胜R2D2及Reanalyze2亿帧是特定比较口径",
+    "潜在动力学并无真实状态重建保证，搜索有效性不能扩展为可靠物理模拟和现实安全"
+  ]
+}

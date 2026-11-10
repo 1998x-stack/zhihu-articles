@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
-  "reading_notice": "正文初稿01—24章均未通过独立双审、史料全文核证或终审；其余10个单元明确标记待撰写。GitHub Pages阅读展示并不等于正式发表。",
+  "reading_notice": "第01—27章为经限定范围史料核对的未审校正文初稿，非独立双审/终稿；序章、尾声及28—32章共7个位置仍待撰写。网页可读不代表正式出版或完成事实核验。",
   "description": "从试错心理学、动态规划与时序差分出发，串联价值学习、策略优化、深度强化学习、自我对弈及人类反馈与可验证奖励。",
   "chapters": [
     {
@@ -185,21 +185,21 @@
       "title": "PPO：策略更新为什么不能每次都迈大步",
       "part": "第七部｜从游戏走进现实",
       "file": "draft/25.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-26",
       "title": "SAC：为什么让机器人保留一点随机性",
       "part": "第七部｜从游戏走进现实",
       "file": "draft/26.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-27",
       "title": "MuZero：不知道规则，还能在脑中下棋吗",
       "part": "第七部｜从游戏走进现实",
       "file": "draft/27.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-28",

@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "chapter": "25",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "根据2015TRPO、2017PPO预印本、2018SAC ICML与2018扩展、2019MuZero arxiv及2020Nature一手论文作特定范围事实前置核对。原创数学另标记。没有独立二审全部原始图表、算法代码或终稿。",
+  "alias_to_research_source_id": {
+    "P01": "R99",
+    "P02": "R100",
+    "P03": "R101"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-25-01",
+      "claim": "Schulman等PPO预印本于2017-07-20提交arxiv1707.06347，2017-08-28有修订",
+      "source_ids": [
+        "R99",
+        "R17"
+      ],
+      "kind": "primary_bibliography",
+      "section": "一、八",
+      "evidence_note": "不将其误写为2017Nature正式期刊",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-02",
+      "claim": "PPO交替在环境采集相对新鲜的数据并在同批经验上进行多epoch小批量优化",
+      "source_ids": [
+        "R99"
+      ],
+      "kind": "primary_method",
+      "section": "二、七",
+      "evidence_note": "非无限期离策略旧数据复用",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-03",
+      "claim": "TRPO2015 ICML论文讨论理论策略改进界与实际近似约束优化方法",
+      "source_ids": [
+        "R100"
+      ],
+      "kind": "primary_history",
+      "section": "三",
+      "evidence_note": "不可无条件外推到PPO",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-04",
+      "claim": "TRPO的常见实际形式使用平均KL散度信赖约束限制策略差异",
+      "source_ids": [
+        "R100",
+        "R99"
+      ],
+      "kind": "modern_math",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-05",
+      "claim": "PPO定义样本动作新旧概率比r=pi_new(a|s)/pi_old(a|s)",
+      "source_ids": [
+        "R99"
+      ],
+      "kind": "primary_equation",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-06",
+      "claim": "Clipped surrogate为min(r*A,clip(r,1-e,1+e)*A)的经验平均",
+      "source_ids": [
+        "R99"
+      ],
+      "kind": "primary_equation",
+      "section": "五",
+      "evidence_note": "论文原文§3式(7)及Fig.1",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-07",
+      "claim": "正优势+2、旧概率.4、新.6时r=1.5，e=.2给clipped贡献2.4，而非裁剪前3",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-08",
+      "claim": "负优势-2、旧.4、新.2时r=.5，e=.2给min(-1,-1.6)=-1.6",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-09",
+      "claim": "裁剪的是代理目标贡献，不是把所有新策略动作概率硬性限制在旧策略(1+-e)内",
+      "source_ids": [
+        "R99"
+      ],
+      "kind": "primary_scope",
+      "section": "五、六",
+      "evidence_note": "不把局部代理目标当硬约束",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-10",
+      "claim": "PPO原始论文还分析KL penalty目标及自适应惩罚而非仅clip一种形式",
+      "source_ids": [
+        "R99"
+      ],
+      "kind": "primary_history",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-11",
+      "claim": "原文在Atari与模拟连续控制中做经验比较，报告相对竞争力非对未来所有算法普遍胜率",
+      "source_ids": [
+        "R99"
+      ],
+      "kind": "primary_experiment",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-12",
+      "claim": "PPO clipped目标是未裁剪代理目标的保守下界，不保证真实期望回报单调改善",
+      "source_ids": [
+        "R99",
+        "R100"
+      ],
+      "kind": "theory_scope",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-13",
+      "claim": "共享网络参数、旧轨迹与优势估计误差等均可使实际策略变化超过局部直观裁剪范围",
+      "source_ids": [
+        "R99"
+      ],
+      "kind": "technical_limit",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-14",
+      "claim": "PPO与DQN/AlphaZero解决不同问题，PPO常用于直接参数化随机策略，连续动作适用视定义",
+      "source_ids": [
+        "R99",
+        "R13",
+        "R96"
+      ],
+      "kind": "conceptual_bridge",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-25-15",
+      "claim": "后续一些工程实现用近似KL早停属于具体实现，不可倒写成所有原始PPO必需规则",
+      "source_ids": [
+        "R99"
+      ],
+      "kind": "implementation_boundary",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "2017 PPO论文是arxiv预印本，不得称正式Nature实验",
+    "clip仅局部代理目标限制，不是新旧动作概率硬约束或无条件单调策略回报改进",
+    "TRPO的理论单调界与实践近似算法不同；后续早停实现不可强加原始论文"
+  ]
+}

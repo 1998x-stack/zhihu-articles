@@ -66,7 +66,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **C**：专业综述支持，适宜历史背景，不单独支持争议归属。
 - **D**：编辑假设、类比或待核猜想，不进入正文事实陈述。
 
-截至2026-11-10，第01—24章已依各批次在具体支持范围内核对可访问的原始研究、出版社及研究方官方材料；第25章以后及原论文尚未独立二核的补充实验仍待核。未完成全书独立双审、终审及发布。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
+截至2026-11-10，第01—27章已依各批次在明示范围核对可访问原始论文、研究登记和部分方法/结果；第28章以后及未复核的完整实验表、训练代码仍待核。未完成全书独立双审、终审及发布。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
 
 ## 第01—03章增量核证记录（2026-11-09）
 
@@ -277,3 +277,39 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **23**：原创根访问N=(60,30,10)，τ=1则π=(.6,.3,.1)；虚构价值v=.4、终局z=1则平方误差.36。并不代表2017任何真实棋盘搜索统计。
 - **24**：原创国际象棋二动作概率：甲胜.45和.50负.05，目标+1/0/-1得.40；乙胜.50和.10负.40，得.10。用于解释最大化预期结果与最大化胜率可能不同，不是Stockfish/Elmo真实对局概率。
 - **仍待审核**：2016/2017全补充实验和2018Science附加对局数据独立二核、原始棋谱核查、跨版本赛事软件具体配置；本批未执行独立连续性及结构审稿。
+
+## 第九批25—27章史料核证与现代公式边界（2026-11-10）
+
+> 【写作前证据限定】本批只对PPO、SAC、MuZero的发表时间、核心方法、某些一手论文实验和现代数学教学例作针对性核对。绝不代表全部定理、补充表、代码及复现已独立二审。P/S/M正文别名与R号对应关系见逐章claims JSON。
+
+| 新编号 | 一手研究或原作者官方说明 | 可支持的论断及来源限度 |
+| --- | --- | --- |
+| R99 | [Schulman et al. (2017), Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) | 2017-07-20首发、2017-08-28v2；原论文PDF第3节Fig.1与公式(6)–(7)已目视。正/负优势裁剪代理目标、同批数据多epoch更新、KL penalty变体；不保证新策略真回报严格单调 |
+| R100 | [Schulman et al. (2015), Trust Region Policy Optimization](https://proceedings.mlr.press/v37/schulman15.html) | ICML2015 PMLR37:1889-1897。区分理论信赖域性能界与实践近似/线搜索算法，不能把TRPO正式理论界直接移为PPO算法保证 |
+| R101 | [Haarnoja et al. (2018), Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](https://proceedings.mlr.press/v80/haarnoja18b.html) | ICML2018 PMLR80:1861–1870；原文PDF首页及第二页已目视，最大熵随机actor-critic、离策略经验重放、双Q/min估值与连续控制性能；不是所有真实机器人绝对安全证明 |
+| R102 | [Haarnoja et al. (2018-12-13), Soft Actor-Critic Algorithms and Applications](https://arxiv.org/abs/1812.05905) | 原SAC后续扩展的arxiv预印本；摘要明确约束式自动调节熵温度、四足机器人与灵巧手实验。不可倒写2018年7月ICML初版已经包含扩展中一切方法 |
+| R103 | [Ziebart, Maas, Bagnell & Dey (2008), Maximum Entropy Inverse Reinforcement Learning](https://www.cs.cmu.edu/~bziebart/publications/maxentirl-bziebart.pdf) | AAAI2008相关最大熵思想先例；不等于SAC随机Actor-Critic算法的逐式发明 |
+| R104 | [Fujimoto, van Hoof & Meger (2018), Addressing Function Approximation Error in Actor-Critic Methods](https://proceedings.mlr.press/v80/fujimoto18a.html) | ICML2018 TD3同期研究：双Q取min缓解高估及延迟策略更新；SAC与TD3有同期技术比较而非单线继承 |
+| R105 | [Haarnoja, Tang, Abbeel & Levine (2017), Reinforcement Learning with Deep Energy-Based Policies](https://proceedings.mlr.press/v70/haarnoja17a.html) | ICML2017 PMLR70:1352-1361最大熵soft Q-learning、能量策略前驱；SAC并非首次将最大熵用于学习 |
+| R106 | [Schrittwieser et al. (2019-11-19), Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/abs/1911.08265) | MuZero原始arxiv预印本及2020-02修订，原文Fig.1已目视。h、g、f表示/动力学/预测、奖励+策略+价值训练，Methods说明根节点可使用合法行动mask而树内不逐层调用真规则；57 Atari、42/57 R2D2、Reanalyze样本设置属版本特定 |
+| R107 | [Schrittwieser et al. (2020-12-23), Mastering Atari, Go, chess and shogi by planning with a learned model](https://doi.org/10.1038/s41586-020-03051-4) | Nature588:604–609正式发表，论文官方摘要确认57 Atari、棋类性能与无需事先提供完整动力学模型；网页部分正文有访问限制，细节交叉以R106可访问预印本为准 |
+| R108 | [Google DeepMind (2020-12-23), MuZero: Mastering Go, chess, shogi and Atari without rules](https://deepmind.google/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/) | 研究团队同期说明，2019先出初版，2020正式发表；宣传性without rules须以原论文的根节点合法行动、观察和奖励说明限缩 |
+
+### 技术—史学三条关键区分
+
+- **PPO 2017**：PPO原始论文为2017-07-20 arxiv、2017-08-28v2；代理目标`min(rA,clip(r,1−ε,1+ε)A)`，并有KL惩罚替代形式；同批轨迹数据多epoch优化不等于可无限训练旧数据。2015 TRPO理论改进界不可直接外推为PPO每次实际环境回报单调保证。
+- **SAC 2018**：2018-07 ICML初版为随机off-policy actor-critic＋最大熵与双Q缓解高估；2018-12-13后续扩展才明确引入约束式自动熵温度调节并报告四足/灵巧手实验。最大熵路线早于SAC（R103/R105），不能称SAC首创熵或随机动作。离散Shannon熵教学与原始连续动作的微分熵数学语义分开。
+- **MuZero 2019/2020**：2019-11-19 arxiv初稿，2020-12-23 Nature正式；预先未知的是准确动力学/完整棋类模拟器，并不是没有动作集合/真实交互/奖励。原论文Methods明确搜索树根可以询问真实环境合法动作进行mask，**只有树内部不再调用真实规则逐层mask**。学得的潜在状态无需能够重建真实画面，训练目标为奖励、搜索策略和价值。Atari共57款；42/57与R2D2比较及Reanalyze2亿帧设置属于特定预印本实验口径。
+
+### 三章原创数学演算
+
+- **25**：旧动作概率.4、新.6、正优势+2、ε=.2：r=1.5、原代理贡献3、clip贡献2.4；负优势−2、新概率.2：r=.5、原贡献−1、clip贡献−1.6。**PPO并未将真实概率强制硬夹到[0.8,1.2]倍内**。
+- **26**：离散两动作奖励3/2，均匀分布期望奖励2.5、熵ln2≈.6931；α=1软目标3.1931、α=.1为2.5693，仅是与确定性选择的对照，均匀概率不是一般最优解。原创双Critic9/6、7/7取min结果6和7，不代表真值。
+- **27**：虚构两步潜在推演：左即时奖励1/2、两步后价值3，γ=.9，得5.23；右奖励2/0、末价值2，得3.62。只是路径价值演算，不能当作原始MuZero完整MCTS或游戏实验。
+
+### 阻断与独立核证待办
+
+- [ ] PPO原始实验多任务全部随机种子/超参数和KL penalty计算过程二核；实际真实回报保证不可从代理下界推出。
+- [ ] SAC2018初版与同年末扩展模型结构、温度调整算法细节和机器人真实环境配置逐式二审。
+- [ ] MuZero Nature正式全部补充实验表、合法行动/终止特定实现、2019与2020版本差异逐条复核；原刊网页访问限制已以论文原始预印本交叉核查。
+- [ ] 独立连续性审计、发展审稿、语言精修及终审均未执行；`review_status=PENDING`，且后续第28章需另行前置研究。

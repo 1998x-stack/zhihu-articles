@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "01—24章有非虚构工作初稿及逐章claims JSON；第八批22—24包括2016 AlphaGo监督+搜索、2017 AlphaGo Zero零人类棋谱、2017预印本/2018 Science AlphaZero分别训练三种棋实例。review_status=PENDING，未独立双审、未封版、未发布。",
-  "evidence_scope": "仅第01—24章明确所列历史与技术主张完成可访问原论文/学术出版社记录/研究方说明的限定范围前置核查；22—24章的部分补充赛事表/代码与随机条件仍待独立二审。序章、尾声和25—32章十个单元仍无本批准入。",
-  "outline_scope": "第01—24章受所在批次证据支撑的非虚构章节结构已进入工作初稿；序章、尾声和第25—32章尚需逐章做fact-research和nonfiction-architect准入。"
+  "stage_note": "01—27章已有尚未独立双审的正文工作初稿及claims JSON；第九批25—27含2017PPO裁剪代理目标、2018SAC与后续温度扩展、2019/2020MuZero潜在动力学模型。review_status=PENDING；未语言精修、终审或发布。",
+  "evidence_scope": "仅第01—27章史实、算法与实验主张在各批次明确范围内完成可访问原论文/官方登记的写作前核查；25—27章的全实验统计、版本细节与代码仍待独立二审；序章、尾声和28—32章7个单元未获本批核查准入。",
+  "outline_scope": "第01—27章具备限定来源支持的非虚构分章结构及工作初稿；序章、尾声及第28—32章须另执行fact-research与nonfiction-architect阶段。"
 }
