@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "graph-theory-history",
   "title": "连接的秩序：图论三百年",
-  "reading_notice": "图论史序章00、36篇正文01—36及尾声37，共38篇均已建立正文工作初稿与章级来源映射；2026-11-10尾声已写，新增11条限定证据主张，至此38/38初稿覆盖完成。全书已启动史实/公式/连续性/独立结构审稿，审稿结论见qa报告；初稿覆盖不是事实审定，0篇final、final_approved=false，尚未正式发表。",
+  "reading_notice": "图论史序章00、正文01—36、尾声37共38篇均有来源映射的工作初稿（423条独立claim_id），0篇final。已在2026-11-10完成首轮史实/数学/连续性/结构审稿报告，结论CHANGES_REQUIRED，存在F-H01/F-H02/M-H01/C-H01等阻断；待修订与独立复审，final_approved=false，未正式平台发布。",
   "chapters": [
     {
       "id": "prologue",
