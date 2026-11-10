@@ -52,13 +52,18 @@
 | 2015-12-10 | He/Zhang/Ren/Sun ResNet arXiv首版，ILSVRC2015获奖 | 152层网络，竞赛3.57%为Top-5测试集成结果 | 18 |
 | 2016 | ResNet CVPR正式论文与后续ECCV Identity Mappings | 训练退化的实验验证、身份捷径与后续预激活调整分开 | 18 |
 | 2016 | AlphaGo论文发表 | 搜索、强化学习与神经网络协同 | 25 |
-| 2017 | Transformer论文发表 | 注意力机制并非始于2017 | 22 |
+| 2017-06→NIPS | Vaswani等八作者Transformer论文 | NeurIPS正式PDF英德28.4BLEU，网页摘要版本数字有差异；并行训练不等于逐token推断并行 | 22 |
 | 2019 | Song/Ermon多噪声尺度score生成 | 与扩散相邻，非GAN判别器 | 21 |
-| 2018 | BERT预训练论文 | GPT同代路线需补原论文核对 | 23 |
-| 2020 | 语言模型规模定律研究 | 实验范围以论文条件为限 | 24 |
+| 2018-01→07 | Howard/Ruder ULMFiT | LSTM语言模型微调迁移路线，早于/同期于Transformer语言模型研究 | 23 |
+| 2018-06 | Peters等NAACL ELMo、Radford等GPT早期研究 | 双向LSTM上下文表示及Transformer生成预训练+微调是不同路线 | 23 |
+| 2018-10→2019-06 | Devlin/Chang/Lee/Toutanova BERT | 2018预印本、2019 NAACL正式；MLM15%预测token、原版NSP | 23 |
+| 2019-02 | GPT-2研究公布 | GPT的后续生成式模型，不是2018首版研究 | 23 |
+| 2020-01 | Kaplan等十作者语言模型规模定律 | 参数、训练数据、算力与交叉熵的经验幂律；不等于普适智能定律 | 24 |
+| 2020-05→NeurIPS | Brown等GPT-3 1750亿参数论文 | zero/one/few-shot文本上下文推理不更新权重；不同于2018 GPT微调 | 24 |
 | 2020 | Ho/Jain/Abbeel DDPM | 去噪扩散概率模型 | 21 |
 | 2020—2021 | AlphaFold2 CASP14与Nature论文 | 科学预测的边界不可夸大 | 26 |
 | 2021—2022 | CLIP与潜扩散相关论文 | 跨模态表示、生成是不同任务 | 27 |
+| 2022-03→NeurIPS | Hoffmann等计算最优语言模型训练研究 | Chinchilla70B/约1.4万亿tokens对照Gopher280B，同训练算力下数据与模型平衡 | 24 |
 | 2022 | Rombach/Blattmann/Lorenz/Esser/Ommer潜空间扩散 | 自编码器潜空间去噪与条件生成，第21章跨年代专题 | 21 |
 | 2022-11-30 | ChatGPT公开研究预览 | 产品发布事实与学术评价区分 | 28 |
 | 2024-10-08 | 诺贝尔物理学奖授予Hopfield与Hinton | 回顾性评价而非单一发明者判定 | 08、30 |

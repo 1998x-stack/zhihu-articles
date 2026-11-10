@@ -6,7 +6,7 @@
 
 **归档**：`articles/nonfiction/history-science/deep-learning-history/` · **作品**：历史科学非虚构系列 · **主 Skill**：`genre-history-science` · **范围**：思想远源—2026-11-09（史实持续核验） · **面向读者**：对AI好奇、具备中学数学基础的中文读者。
 
-**当前状态**：第01—21章共21篇可阅读历史科学非虚构**工作初稿及逐章主张文件**；序章00和第22—31章共11篇仍为策划占位。七批中心史实、模型机制和教学例题已按来源限定核验；evidence_verified、outline_approved仅指01—21章的有限证据范围，非全书独立审稿批准。review_status=PENDING，独立事实/结构双重审稿、语言精修、封版和发布尚未完成。全书30章正文、序章和尾声各一篇。
+**当前状态**：第01—24章共24篇可阅读的历史科学非虚构**工作初稿及逐章来源映射**；序章00及第25—31章共8篇仍是策划占位。八批的中心史实、技术机制与现代教学例题已按各自原始文献限定范围核证；`evidence_verified=true`与`outline_approved=true`**仅对第01—24章已列的有限范围成立**，非全书独立审稿批准。`review_status=PENDING`，独立事实/结构双审、语言精修、封版及发布均未完成。全书30章正文、序章与尾声各一篇。
 
 ## 从哪里开始
 
@@ -139,9 +139,9 @@
 
 > Transformer和预训练改变开发方式。
 
-- [22｜2017年Transformer：序列为何摆脱必须逐步计算的束缚？](draft/22.md) — 长依赖与并行训练怎样兼顾？〔策划占位〕
-- [23｜BERT与GPT：预训练为什么改变了每个任务重做模型的时代？](draft/23.md) — 有海量无标注文本，如何用于下游任务？〔策划占位〕
-- [24｜规模定律与GPT-3：参数越多，就必然越聪明吗？](draft/24.md) — 性能能否用数据、参数和算力的规律解释？〔策划占位〕
+- [22｜2017年Transformer：序列为何摆脱必须逐步计算的束缚？](draft/22.md) — 长依赖与并行训练怎样兼顾？〔工作初稿，待独立审稿〕
+- [23｜BERT与GPT：预训练为什么改变了每个任务重做模型的时代？](draft/23.md) — 有海量无标注文本，如何用于下游任务？〔工作初稿，待独立审稿〕
+- [24｜规模定律与GPT-3：参数越多，就必然越聪明吗？](draft/24.md) — 性能能否用数据、参数和算力的规律解释？〔工作初稿，待独立审稿〕
 
 ### 第九部｜智能进入棋盘、实验室和多模态
 
@@ -200,9 +200,9 @@
 本系列遵循仓库根目录 [AGENTS.md](../../../../AGENTS.md)、[workflow.json](../../../../workflow.json) 和 [docs/contracts.md](../../../../docs/contracts.md)。主类型为 `genre-history-science`，非虚构写作依次由对应阶段 Skill 负责：
 `chief-narrative-editor → genre-history-science → topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → line-edit → final-approval`。具体文件边界以 [仓库合同](../../../../docs/contracts.md) 为准。
 
-> **进度真实性**：01—21共21篇已有真实正文与分章claims.json，其余11篇仍策划占位。史料/大纲许可仅限各批中心论点；作者数学算例与文件读回不能冒充独立双重审稿，审稿仍PENDING。
+> **进度真实性**：第01—24章已有24篇真实正文和逐章`draft/NN.claims.json`，剩余8篇仍是策划占位。原文研究/大纲许可仅限01—24各自列出的史实、机制与教学例题；作者算例自检、GitHub文件核验不等于独立双审PASS，审稿仍PENDING。
 
-第01—21章已经形成七批连续工作初稿及来源映射，尚待独立事实、连续性与结构审稿。第22—24章必须另核2017 Transformer、预训练与规模规律原始论文，不得使用第七批的有限史料许可。
+第01—24章已经形成八批连续工作初稿与逐章来源映射，尚待独立事实、连续性及结构审稿并据此修订。下一批25—27章须分别核查AlphaGo、AlphaFold与CLIP/多模态的正式研究记录及指标限制，不能沿用第八批的有限研究许可。
 
 ## 八、编辑验收与不可犯的史学错误
 
@@ -213,7 +213,7 @@
 - 不能混淆**开放权重、开源代码、开放训练数据**三个层次。
 - 不能把榜单结果、实验室演示、厂商声称当作相同强度的证据。
 
-**版本日期**：2026-11-10；本轮已完成第01—21章工作初稿，第22章及以后仍在策划中。资料截至日期与审稿状态须在发表前重新确认。
+**版本日期**：2026-11-10；本轮已完成第01—24章工作初稿，第25章及以后仍在策划中。资料截至日期与审稿状态须在发表前重新确认。
 
 ## 九、首批三章工作初稿的已实现入口
 
@@ -284,3 +284,13 @@
 | 21 GAN与扩散生成 | [draft/21.md](draft/21.md) | [21.claims.json](draft/21.claims.json) | 工作初稿，待独立审稿 |
 
 [第七批工作纸](batches/19-21.md) · [DL90—DL106研究资料](research.md) · [作者侧QA自查](qa/batch-19-21-self-check.md)。
+
+## 十七、第八批22—24章：正文、史料与待审任务
+
+| 章节 | 已提交正文 | 逐章来源映射 | 状态 |
+| --- | --- | --- | --- |
+| 22 2017 Transformer | [draft/22.md](draft/22.md) | [22.claims.json](draft/22.claims.json) | 工作初稿，独立审稿待办 |
+| 23 ELMo、ULMFiT、BERT与GPT | [draft/23.md](draft/23.md) | [23.claims.json](draft/23.claims.json) | 工作初稿，独立审稿待办 |
+| 24 规模定律、GPT-3与Chinchilla | [draft/24.md](draft/24.md) | [24.claims.json](draft/24.claims.json) | 工作初稿，独立审稿待办 |
+
+[第八批工作纸](batches/22-24.md) · [原始研究DL107—DL122](research.md) · [作者侧算例与连续性自查](qa/batch-22-24-self-check.md) · [独立审稿任务书](qa/batch-22-24-review-brief.md)。**本批不更改此前独立审稿状态。**
