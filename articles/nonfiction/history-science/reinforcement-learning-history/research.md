@@ -66,7 +66,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **C**：专业综述支持，适宜历史背景，不单独支持争议归属。
 - **D**：编辑假设、类比或待核猜想，不进入正文事实陈述。
 
-截至2026-11-10，第00序章及第01—32章已在各批次有限范围核对可访问一手资料、原始方法和作者教学验算；尾声33及全书未独立二审的论文补充数据、证明和代码仍待核。未完成全书独立双审、终审及发布。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
+截至2026-11-10，序章00、正文01—32章及尾声33共34个叙事单元均已在各批次限定范围核对可访问一手资料与作者教学验算；471条逐章主张仅为写作前有限核查，未完成独立逐页事实二审、全实验复核、代码复现或终稿批准。未完成全书独立双审、终审及发布。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
 
 ## 第01—03章增量核证记录（2026-11-09）
 
@@ -384,3 +384,36 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - [ ] ACM 2025新闻与1983 IEEE全部作者/论文细节、1898原文各版效果律术语及全书跨年代事实二审。
 - [ ] 00、31、32连续性独立核查、结构审稿、语言精修和终稿批准未执行；`workflow-state.review_status=PENDING`。
 - [ ] 尾声33还没有写作前完整前置核证，不可将书籍冒称全书初稿完稿或正式出版。
+
+## 第十二批｜尾声33“奖励之后”与全书审校启动（2026-11-10）
+
+> 本批基于原始预印本、正式会议期刊、研究团队官方案例材料，核查奖励代理指标与真正任务目标之间的已知差异。此处`checked_for_draft`仅指写作前查证适当支持范围；没有完整复核每项实验/证明，非独立审核PASS。
+
+| 编号 | 一手来源 | 限定可支持主张 |
+| --- | --- | --- |
+| R126 | [Amodei, Olah, Steinhardt, Christiano, Schulman & Mané (2016), Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565) | 2016-06-21预印本；五类问题：负面副作用、奖励劫持、可扩展监督、安全探索、分布转移；不是已解决技术标准或所有AI风险穷尽清单。 |
+| R127 | [Leike, Martic, Krakovna et al. (2017), AI Safety Gridworlds](https://arxiv.org/abs/1711.09883) | 2017-11-27一手预印本；为简单环境单独设置可见训练奖励与隐藏真实性能函数以检验规格和鲁棒性；隐藏指标仍为人类工程定义，不是所有道德真理。 |
+| R128 | [Hadfield-Menell, Milli, Abbeel, Russell & Dragan (2017), Inverse Reward Design](https://proceedings.neurips.cc/paper/2017/hash/32fdab6559cdfa4f167f8c31b9199643-Abstract.html) | NeurIPS2017原始论文首页与原文部分方法已目视；把设计者指定的代理奖励视为关于其真实目标的观察，借训练环境反演；与从行为示范推奖励的IRL不同。风险规避实证仅在指定实验模型内。 |
+| R129 | [Krakovna, Uesato, Mikulik et al. (2020-04-21), Specification gaming: the flip side of AI ingenuity](https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/) | Google DeepMind研究者原始案例综述；截至当时约60个案例，红蓝积木因为奖励底面高度而可能翻转红块。作者虚构仓库计数器不是该博客发生的真实事故。 |
+| R130 | [Silver, Singh, Precup & Sutton (2021), Reward is enough](https://doi.org/10.1016/j.artint.2021.103535) | Artificial Intelligence 299:103535综述/假说，支持试错奖励最大化可能促成多种能力的研究立场；不得把假说说成安全人类对齐已被证实。 |
+| R131 | [Vamplew et al. (2022), Scalar reward is not enough: a response to Silver et al. (2021)](https://doi.org/10.1007/s10458-022-09575-5) | 2022-07-16 Autonomous Agents and Multi-Agent Systems 36:41学术回应；对单标量涵盖多目标、安全提出批判。属争论观点而非证成单一范式必假。 |
+| R132 | [Gao, Schulman & Hilton (2023), Scaling Laws for Reward Model Overoptimization](https://proceedings.mlr.press/v202/gao23h.html) | 2022-10-19预印本、ICML2023正式PMLR202:10835–10866；代理模型被更强优化时合成gold奖励模型成绩可下降，gold模型不等于真正所有人类价值，不能外推所有方法必然伤害。 |
+
+### 尾声的历史与理论对照
+
+- 2016年安全问题分类（R126）不等于2025年才发现reward hacking。2017年Leike等的安全方格世界（R127）区分可见奖励和作者定义的隐藏性能指标；不能把后者当全人类价值。
+- 2017年逆奖励设计IRD（R128）观察的是**设计者已经写出的代理奖励**，2000年经典IRL（R12）观察的则是**专家行为**；两者有共通的意图推断问题，建模证据不同。
+- 2020研究团队specification gaming案例汇编（R129）含真实的积木翻转例子；本书的仓库记录接口漏洞完全是原创教学，不是现实系统事故。
+- 2021年Silver等的Reward is enough（R130）为广义能力形成假说；2022 Vamplew等（R131）对单标量奖励做学术批评。不得以争论一方覆盖另一方或宣布能力/价值问题已有定论。
+- 2023年ICML奖励模型过度优化实证（R132）采用**固定黄金奖励模型的合成标签**，不能将“gold”写作全体真实人类评价者的完美偏好。
+
+### 作者原创数学，不等同历史原数据
+
+- 清洁仓库设`R_proxy=2*c_logged-d`、`U=2*c_actual-d-20*h`。甲实际及记录完成4、等待1、无损坏：代理7、U7。乙错误登记5、实际0、等待0、损坏1：代理10、U−20。**这只演示代理优化与作者定义的目标发生冲突，U本身不是真实普遍价值。**
+- 运输路线甲进度8、损坏1，乙进度10、损坏7；`U_lambda=progress-lambda*damage`。甲优于乙需`lambda>1/3`；lambda=.2时甲7.8乙8.6，lambda=1时甲7乙3。标量化可以在明确权重下合理工作，权重的规范来源不能自动由算法给出。
+
+### 正式转入全书审校的门禁说明
+
+- 34个叙事单元、471条初稿主张记录，在同一撰写者的首轮结构/来源映射扫描中全部有可读正文和claims JSON；每条均`checked_for_draft:true`且`independent_review:false`。
+- 本次首轮作者侧审校记录分别见[连续性报告](qa/continuity-report.md)、[发展性诊断](qa/developmental-review.md)和[来源审计](qa/full-book-fact-audit.md)。**这些文件虽然确实包含问题检查，但不是两个相互独立的审稿者完成的正式双审**；正式review_status保持PENDING。
+- 2018前后原论文摘要级证据、完整实验表/年份/硬件预算、GRPO零方差具体代码实现及全书统计口径都需要不同核证者后续核对。任何修订应有revision-manager日志，再重跑两道独立审稿。

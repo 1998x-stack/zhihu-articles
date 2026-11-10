@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "00序章及第01—32章共33篇工作初稿和claims JSON，第十一批为2024图灵奖(2025公告)序章、2023DPO、2024GRPO与2025DeepSeek-R1；尾声33为唯一占位。全书review_status=PENDING，未独立连续性/结构双审、语言精修、终审及知乎发布。",
-  "evidence_scope": "仅序章00与第01—32章历史事实/算法主张在各批次具体范围内核对可访问的一手原论文或颁奖机构公告；第十一批00、31—32数学/实验及论文版本有核查限制，完整代码与补充材料均待独立二审。尾声33尚未完成专章写作前研究。",
-  "outline_scope": "序章00与第01—32章已有研究支持的非虚构结构及工作初稿；尾声33仍须执行fact-research与nonfiction-architect，不能进入正文或终稿。"
+  "stage_note": "2026-11-10：全书34/34份工作初稿＋471条主张。尾声33补齐；全书首轮扫描发现01缺序章返回链、23处书架标题标点差异与历史来源须独立二核。正式continuity-audit/developmental-editor未PASS，review_status=PENDING，final_approved=false。",
+  "evidence_scope": "序章00、正文01—32、尾声33共34篇在各批限定范围内有一手来源研究档案和逐章claims；新增R126—R132。471条主张checked_for_draft仅属写作前限定核查，尚未获独立逐页事实/公式/实验与代码二审。",
+  "outline_scope": "34个原定叙事单元已有工作初稿；已正式进入全书审校，qa三份报告是同一执行者作者侧首轮问题诊断，不冒充独立双审通过。"
 }

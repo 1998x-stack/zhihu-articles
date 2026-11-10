@@ -1,14 +1,14 @@
 # 奖励之后：一部强化学习思想发展史
 
 <!-- SERIES_PROGRESS:START -->
-> **系列进度（自动核对，非出版许可）**：规划 34 篇 · 工作初稿 33 篇 · 策划占位 1 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
+> **系列进度（自动核对，非出版许可）**：规划 34 篇 · 工作初稿 34 篇 · 策划占位 0 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
 <!-- SERIES_PROGRESS:END -->
 
 *After Reward: A History of Reinforcement Learning*
 
 > 2025年，2024年度图灵奖授予萨顿与巴尔托。早年研究如何让机器通过反馈学习的人，为什么最终成了今天人工智能的基础人物？这条路并不是从一台会下棋的电脑直接通往聊天模型，而是几条曾经分离的思想之河不断相遇。奖项公布时间见 [NSF 官方公告](https://www.nsf.gov/news/ai-pioneers-andrew-barto-richard-sutton-win-2025-turing)。
 
-**分类**：科学思想史／人工智能发展史／非虚构知识连载。**规模**：八部32章＋序章、尾声，约15万字（编辑目标）。**状态**：`drafting`；序章00及第01—32章共33篇为未独立审稿的非虚构工作初稿，均附逐章主张来源映射；尾声33为唯一策划占位。未通过全书事实核验、独立双审或终审。
+**分类**：科学思想史／人工智能发展史／非虚构知识连载。**规模**：八部32章＋序章、尾声，约15万字（编辑目标）。**状态**：`drafting`；序章00、正文01—32和尾声33共34篇均为未独立审稿的非虚构工作初稿，附逐章主张来源映射；已正式转入全书审校，尚未通过独立双审。未通过全书事实核验、独立双审或终审。
 
 ## 一、贯穿全书的问题
 
@@ -134,9 +134,9 @@
 | 文件 | 职责与用途 |
 | --- | --- |
 | [brief.md](brief.md) | 唯一一次三方案比较、读者承诺与已选立场 |
-| [research.md](research.md) | 来源编号 R01—R125、前十一批限定范围核证与其余待核任务 |
+| [research.md](research.md) | 来源编号 R01—R132、前十二批限定范围核证与全书独立审校待办 |
 | [outline.md](outline.md) | 全书及逐章研究问题、概念推进、风险和承接 |
-| [claim-ledger.md](claim-ledger.md) | 序章00及第01—32章证据映射与尾声33候选主张；仅限明示支持范围 |
+| [claim-ledger.md](claim-ledger.md) | 序章00、正文01—32及尾声33全部34篇证据映射；仅限写作前明示支持范围 |
 | [timeline.md](timeline.md) | 年份／发表与事件区别、并行历史线索 |
 | [concept-map.md](concept-map.md) | 六支线与关键概念分界 |
 | [series.json](series.json) | 可由程序读取的八部34单元目录及真实状态 |
@@ -159,7 +159,7 @@
 
 `topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor →（必要时修订和双重复审）→ line-edit → final-approval → publication-package`。
 
-**当前真实状态**：序章00与第01—32章有范围限定的来源与概念核证及工作初稿；`evidence_verified=true`、`outline_approved=true` 仅代表**当前已核实的序章00与第01—32章写作准入**，不得扩大解释为全书所有章节核证。全书 `review_status=PENDING`，尾声33唯一叙事单元尚未获写作许可；进入下一批前须针对对应章节另行核验、补充大纲并运行工作流闸门。
+**当前真实状态**：序章00与第01—33章有范围限定的来源与概念核证及工作初稿；`evidence_verified=true`、`outline_approved=true` 仅代表**当前已核实的序章00与第01—33章写作准入**，不得扩大解释为全书所有章节核证。全书 `review_status=PENDING`，全部34篇原定叙事单元尚未获写作许可；进入下一批前须针对对应章节另行核验、补充大纲并运行工作流闸门。
 
 > 本项目借鉴知乎盐选式知识叙事的阅读组织方式，不隶属于知乎，也不代表已在任何平台发布。
 
@@ -253,3 +253,18 @@
 - [32｜可验证奖励与推理：语言模型如何学会多想一步](draft/32.md)（[来源映射](draft/32.claims.json)）：2024 DeepSeekMath提出GRPO，2025 R1-Zero跳过RL前专用SFT但以预训练V3 Base为起点；最终R1含多阶段SFT/RL，规则验证不保证全部推理真实。
 
 [第十一批史料、数学验算与待独立复核交接](batches/00-31-32.md)。`book.json`、`series.json`、`chapter-state.json`与本README进度派生段统一到33篇工作初稿、1篇占位，**尾声33仍未撰写**，`review_status=PENDING`。站内可读不等于终审批准或知乎发表。
+
+
+## 二十、第十二批｜尾声33完稿，正式转入全书审校（2026-11-10）
+
+[33｜尾声｜奖励之后：一台机器究竟在追求什么](draft/33.md)（[26条主张映射](draft/33.claims.json)）：从2020 DeepMind研究团队specification gaming实际案例引入，再用**明确标记的作者虚构仓库**解释代理奖励错位；梳理2016五类AI安全困难、2017安全方格世界与IRD、2021／2022奖励统一范式争论、2023合成奖励模型过度优化实证；不对未来能力和安全作无证预测。
+
+**全书已有34/34份未独立审稿的工作初稿、累计471条主张记录**，不是34篇终稿。网站目录book.json、原始章节索引series.json、派生chapter-state.json与本页进度块同步为34个draft、0个outline、0个final。
+
+本批已真正启动全书审校，提交第一轮扫描与独立审核待办：
+
+- [连续性首轮报告](qa/continuity-report.md)：逐章标题/导航、34章编号、23处标题标点差异、01章缺返回序章链接等；不等于独立连续性PASS。
+- [发展性首轮诊断](qa/developmental-review.md)：读者承诺、八部问题递进、篇幅、重复定义与知识兑现；不等于独立结构PASS。
+- [事实与数学审计矩阵](qa/full-book-fact-audit.md)：按八个组列出关键历史年份、人物贡献、公式支持范围、论文版本及实验口径与待办。
+
+[第十二批工作交接](batches/closing-33-audit.md) · [审稿工作区说明](qa/README.md)。**review_status=PENDING；正式独立双审、语言精修、终稿批准与知乎发布均未发生。**

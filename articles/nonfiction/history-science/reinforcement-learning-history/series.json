@@ -3,7 +3,7 @@
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
   "status": "drafting",
-  "reading_notice": "序章00与正文第01—32章共33篇已形成有限一手资料支持的非虚构工作初稿并附逐章claims JSON；尾声33仍属策划占位。全部未独立事实/连续性和结构双审、未全文实验复核、未终稿批准或出版。",
+  "reading_notice": "序章00、正文01—32、尾声33合计34篇均为有逐章claims的非虚构工作初稿；已转入全书作者侧首轮审校，独立事实/连续性和结构双审、原文及实验完整复核、终稿审批与知乎出版尚未完成。",
   "parts": [
     {
       "number": 1,
@@ -630,13 +630,23 @@
       "title": "尾声｜奖励之后：一台机器究竟在追求什么",
       "part": "尾声",
       "path": "draft/33.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
+        "R126",
+        "R127",
+        "R128",
+        "R129",
+        "R130",
+        "R131",
+        "R132",
+        "R124",
         "R01",
-        "R25"
-      ]
+        "R12",
+        "R123"
+      ],
+      "claims_path": "draft/33.claims.json"
     }
   ],
   "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段",
-  "last_batch": "batches/00-31-32.md"
+  "last_batch": "batches/closing-33-audit.md"
 }

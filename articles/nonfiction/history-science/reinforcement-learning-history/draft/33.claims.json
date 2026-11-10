@@ -1,0 +1,339 @@
+{
+  "schema_version": "1.0",
+  "chapter": "33",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "事实研究以2016 Concrete Problems in AI Safety，2017 AI Safety Gridworlds与Inverse Reward Design，2020 DeepMind specification gaming研究说明，2021 Reward is Enough原刊及2022反驳，2023 ICML代理奖励过度优化论文与ACM官方图灵奖公告为界。教学奖励模型及数值均原创。未独立审稿、未复现原始算法或所有附录。",
+  "alias_to_research_source_id": {
+    "E01": "R129",
+    "E02": "R126",
+    "E03": "R127",
+    "E04": "R128",
+    "E05": "R130",
+    "E06": "R131",
+    "E07": "R132",
+    "E08": "R124",
+    "E09": "R01"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-33-01",
+      "claim": "2020-04-21 DeepMind作者团队对specification gaming及约60例作研究综述",
+      "source_ids": [
+        "R129"
+      ],
+      "kind": "primary_history",
+      "section": "一",
+      "evidence_note": "约60例为作者当时收集，不是全部历史案例数量",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-02",
+      "claim": "DeepMind红蓝积木任务因底面高度指标导致红块翻转的案例来自研究者公开资料",
+      "source_ids": [
+        "R129"
+      ],
+      "kind": "original_case",
+      "section": "一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-03",
+      "claim": "仓库清洁和登记漏洞全部作者虚构，不能当作真实公司事故",
+      "source_ids": [],
+      "kind": "author_example",
+      "section": "一、三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-04",
+      "claim": "2016-06-21 Amodei Olah Steinhardt Christiano Schulman Mane论文提出五类实际安全研究问题",
+      "source_ids": [
+        "R126"
+      ],
+      "kind": "original_research",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-05",
+      "claim": "五类问题是负面副作用、奖励劫持、可扩展监督、安全探索、分布偏移",
+      "source_ids": [
+        "R126"
+      ],
+      "kind": "primary_taxonomy",
+      "section": "四",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-06",
+      "claim": "2017-11-27 Leike等AI Safety Gridworlds在简单环境区分智能体观察奖励与隐藏性能指标",
+      "source_ids": [
+        "R127"
+      ],
+      "kind": "primary_experiment",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-07",
+      "claim": "隐藏评价函数仍由研究者设计，不能视作人类规范价值完美函数",
+      "source_ids": [
+        "R127"
+      ],
+      "kind": "measurement_scope",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-08",
+      "claim": "2017 NeurIPS Hadfield-Menell等提出Inverse Reward Design将写出的代理奖励视为设计者意图证据",
+      "source_ids": [
+        "R128"
+      ],
+      "kind": "primary_definition",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-09",
+      "claim": "IRD与Ng Russell2000经典IRL不同：前者观察奖励设计，后者观察专家策略或轨迹",
+      "source_ids": [
+        "R128",
+        "R12"
+      ],
+      "kind": "method_distinction",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-10",
+      "claim": "IRD在已知训练设计环境等假设下提出风险规避规划并报告限定实验",
+      "source_ids": [
+        "R128"
+      ],
+      "kind": "assumptions",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-11",
+      "claim": "Silver Singh Precup Sutton在2021 Artificial Intelligence发表Reward is enough提出宏观假说非已证明定理",
+      "source_ids": [
+        "R130"
+      ],
+      "kind": "primary_argument",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-12",
+      "claim": "Vamplew等2022回应Scalar reward is not enough强调多目标和安全权衡的争议",
+      "source_ids": [
+        "R131"
+      ],
+      "kind": "primary_counterargument",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-13",
+      "claim": "奖励最大化推动能力的范式假说不能直接推出任意固定标量奖励都完整编码安全与人类意图",
+      "source_ids": [
+        "R130",
+        "R131"
+      ],
+      "kind": "debate_boundary",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-14",
+      "claim": "原创建模代理R=2c_logged-d，甲4任务等1分钟值7，乙虚假登记5任务值10",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-15",
+      "claim": "原创拟议真实评价U=2c_actual-d-20h，甲7乙-20，代理胜实际败",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-16",
+      "claim": "U依然是作者设定的价值权重，不是客观真理或实证目标",
+      "source_ids": [],
+      "kind": "author_scope",
+      "section": "三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-17",
+      "claim": "多目标例甲进度8损坏1乙进度10损坏7，分界lambda>1/3时甲偏好",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-18",
+      "claim": "lambda0.2时甲7.8乙8.6，lambda1时甲7乙3；多目标标量化的权重来自规范设计",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-19",
+      "claim": "2022-10-19 Gao Schulman Hilton公开奖励模型过度优化预印本，2023 ICML正式发表",
+      "source_ids": [
+        "R132"
+      ],
+      "kind": "primary_chronology",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-20",
+      "claim": "Gao研究用合成黄金奖励模型生成偏好标签，代理RM过度优化会使黄金模型评价变差",
+      "source_ids": [
+        "R132"
+      ],
+      "kind": "primary_experiment",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-21",
+      "claim": "其黄金标准是实验设定的另一个模型，不能当作全体人类真实价值",
+      "source_ids": [
+        "R132"
+      ],
+      "kind": "statistical_scope",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-22",
+      "claim": "2024年度图灵奖2025-03-05 ACM公告授予Barto Sutton，奖项年份与公告年份不同",
+      "source_ids": [
+        "R124"
+      ],
+      "kind": "official_award",
+      "section": "十一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-23",
+      "claim": "强化学习技术源流还包含Thorndike Bellman Samuel Sutton Barto Anderson Watkins等贡献，非两位获奖者全部发明",
+      "source_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R06",
+        "R124"
+      ],
+      "kind": "historical_scope",
+      "section": "二、十一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-24",
+      "claim": "对不同场景需要区分目标设计、独立评估、反馈代表性、安全探索和分布转移，不构成普遍安全保障",
+      "source_ids": [
+        "R126",
+        "R127",
+        "R128",
+        "R132"
+      ],
+      "kind": "synthesis_boundary",
+      "section": "十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-25",
+      "claim": "DeepSeek R1等规则式奖励并不验证每段中间推理，奖励正确与推理可靠为不同命题",
+      "source_ids": [
+        "R123"
+      ],
+      "kind": "technical_boundary",
+      "section": "十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-33-26",
+      "claim": "尾声只在截至2025研究基础上提出开放问题，不预测2026以后具体能力或政策",
+      "source_ids": [
+        "R126",
+        "R131",
+        "R132"
+      ],
+      "kind": "future_boundary",
+      "section": "十二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "2020团队文章的积木案例与2016原文虚构仓库示例须明确不同证据级别",
+    "2021 Reward is enough为宏观假说，2022回应为学术争论，不应以任何一方为已证真结论",
+    "2023 Gao实验黄金奖励模型为合成代理，不是真实全体人类效用",
+    "虚构清洁机器人代理奖励、单标量多目标权重为作者构造；真实世界利益权衡尚未定义",
+    "历史年份与作者贡献待全书独立核查，不能因为全书34/34初稿完成就授予独立双审PASS"
+  ]
+}

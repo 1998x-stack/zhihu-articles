@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
-  "reading_notice": "序章00、01—32章合计33篇均为工作初稿、待独立审校与终稿审批；尾声33仍为唯一明确占位。可在GitHub Pages阅读不等于已出版或事实独立双审通过。",
+  "reading_notice": "全书34篇均有可读工作初稿；已进入作者侧首轮全书审校，独立事实复审、连续性审稿和结构审稿尚未完成，review_status=PENDING，final_approved=false。网页可读不代表正式出版。",
   "description": "从试错心理学、动态规划与时序差分出发，串联价值学习、策略优化、深度强化学习、自我对弈及人类反馈与可验证奖励。",
   "chapters": [
     {
@@ -241,7 +241,7 @@
       "title": "尾声｜奖励之后：一台机器究竟在追求什么",
       "part": "尾声",
       "file": "draft/33.md",
-      "status": "outline"
+      "status": "draft"
     }
   ]
 }
