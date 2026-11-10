@@ -51,7 +51,10 @@
 | 2015 | Sohl-Dickstein等扩散生成与Luong/Pham/Manning神经注意力 | 扩散前向加噪与逆向建模；global/local注意力 | 20、21 |
 | 2015-12-10 | He/Zhang/Ren/Sun ResNet arXiv首版，ILSVRC2015获奖 | 152层网络，竞赛3.57%为Top-5测试集成结果 | 18 |
 | 2016 | ResNet CVPR正式论文与后续ECCV Identity Mappings | 训练退化的实验验证、身份捷径与后续预激活调整分开 | 18 |
-| 2016 | AlphaGo论文发表 | 搜索、强化学习与神经网络协同 | 25 |
+| 2015 | AlphaGo与樊麾五盘正式对局 | 原始AlphaGo 5:0，Nature论文于2016发表 | 25 |
+| 2016-01→03 | Silver/Huang等Nature AlphaGo论文、对李世石五番棋 | 策略/价值网络+MCTS与人类监督/自对弈；李世石赛事4:1第四局人类获胜 | 25 |
+| 2017-10 | AlphaGo Zero Nature论文 | 规则＋自我对弈＋MCTS，对已发表旧程序100:0，不是人类100盘 | 25 |
+| 2017-12→2018-12 | AlphaZero预印本与Science正式论文 | 围棋/国际象棋/将棋规则已知，自我对弈与搜索协作 | 25 |
 | 2017-06→NIPS | Vaswani等八作者Transformer论文 | NeurIPS正式PDF英德28.4BLEU，网页摘要版本数字有差异；并行训练不等于逐token推断并行 | 22 |
 | 2019 | Song/Ermon多噪声尺度score生成 | 与扩散相邻，非GAN判别器 | 21 |
 | 2018-01→07 | Howard/Ruder ULMFiT | LSTM语言模型微调迁移路线，早于/同期于Transformer语言模型研究 | 23 |
@@ -61,8 +64,13 @@
 | 2020-01 | Kaplan等十作者语言模型规模定律 | 参数、训练数据、算力与交叉熵的经验幂律；不等于普适智能定律 | 24 |
 | 2020-05→NeurIPS | Brown等GPT-3 1750亿参数论文 | zero/one/few-shot文本上下文推理不更新权重；不同于2018 GPT微调 | 24 |
 | 2020 | Ho/Jain/Abbeel DDPM | 去噪扩散概率模型 | 21 |
-| 2020—2021 | AlphaFold2 CASP14与Nature论文 | 科学预测的边界不可夸大 | 26 |
-| 2021—2022 | CLIP与潜扩散相关论文 | 跨模态表示、生成是不同任务 | 27 |
+| 2018→2020-01 | CASP13旧AlphaFold参加评测与Senior等Nature论文 | 旧结构势能路线，非2020 AlphaFold2模型 | 26 |
+| 2020→2021 | CASP14 AlphaFold2盲测与Jumper等Nature论文 | domain GDT_TS median92.4、Cα RMSD95 median0.96Å，不能当全蛋白正确率 | 26 |
+| 2021-07 | 人类蛋白组AlphaFold预测资源及Nature论文 | 98.5%蛋白覆盖，可信残基仅58%，很高置信约36% | 26 |
+| 2021 | Radford等CLIP与Jia等ALIGN分别发表于ICML | 图文双塔对比学习：CLIP约4亿、ALIGN约18亿噪声配对，各自研究 | 27 |
+| 2021 | Ramesh等DALL-E初代ICML论文 | 文本与图像token自回归生成；不是CLIP匹配器 | 27 |
+| 2022-04 | Ramesh等第二代DALL-E/CLIP图像潜表示 | 文本到CLIP image latent先验，扩散decoder生成图像 | 27 |
+| 2022 | Rombach等CVPR潜空间扩散 | 压缩视觉latent扩散与cross-attention文本条件，另一路线 | 21、27 |
 | 2022-03→NeurIPS | Hoffmann等计算最优语言模型训练研究 | Chinchilla70B/约1.4万亿tokens对照Gopher280B，同训练算力下数据与模型平衡 | 24 |
 | 2022 | Rombach/Blattmann/Lorenz/Esser/Ommer潜空间扩散 | 自编码器潜空间去噪与条件生成，第21章跨年代专题 | 21 |
 | 2022-11-30 | ChatGPT公开研究预览 | 产品发布事实与学术评价区分 | 28 |
