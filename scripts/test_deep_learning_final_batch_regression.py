@@ -33,7 +33,10 @@ class DeepLearningFinalBatchRegressionTests(unittest.TestCase):
         self.assertEqual(self.state["last_chapter"],31)
         self.assertEqual((self.state["progress_summary"]["draft"],
                           self.state["progress_summary"]["outline"]),(32,0))
-        self.assertEqual(self.workflow["review_status"],"PENDING")
+        self.assertIn(self.workflow["review_status"],("PENDING","CHANGES_REQUIRED"))
+        if self.workflow["review_status"]=="CHANGES_REQUIRED":
+            self.assertTrue(self.workflow["unresolved_blockers"])
+        self.assertIsNone(self.workflow["reviewed_revision"])
         self.assertFalse(self.workflow["final_approved"])
         self.assertEqual(self.workflow["last_completed_working_draft_chapter"],31)
 
