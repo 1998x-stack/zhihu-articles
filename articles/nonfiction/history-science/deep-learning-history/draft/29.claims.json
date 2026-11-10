@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "29",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "DL146-DL153,DL157,DL160 plus previously checked Transformer/ResNet scope, versioned permits, independently unreviewed",
+  "claims": [
+    {
+      "claim_id": "C29-01",
+      "claim": "开放权重、代码、数据信息与OSI开源AI自由是不同开放维度",
+      "source_ids": [
+        "DL148",
+        "DL147"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不自动赋予任何特定型号法律许可",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-02",
+      "claim": "2023 Llama2社区许可存在特定商用条款和七亿MAU授权门槛",
+      "source_ids": [
+        "DL146"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是七亿用户以下一切行为无条件合法",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-03",
+      "claim": "2024 Ai2 OLMo公开训练代码、权重和数据相关研究材料",
+      "source_ids": [
+        "DL147",
+        "DL160"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "有资料不等于零成本重训",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-04",
+      "claim": "2024 Qwen2.5部分型号3B/72B许可不等同系列其他型号",
+      "source_ids": [
+        "DL149"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "具体模型许可证需逐版本核对",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-05",
+      "claim": "Qwen3报告描述稠密与MoE架构、思考/非思考模式",
+      "source_ids": [
+        "DL150"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不倒灌2024 Qwen2.5许可",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-06",
+      "claim": "DeepSeekV3报告列671B总参数37B逐token激活",
+      "source_ids": [
+        "DL151"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "活跃参数不等于全部模型存储",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-07",
+      "claim": "V3报告2.788m H800 GPU hours不能直接等同总研发美元预算",
+      "source_ids": [
+        "DL151"
+      ],
+      "kind": "analysis",
+      "evidence_level": "QUALIFIED",
+      "limitations": "费用需包含训练阶段界定及更多成本项目",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-08",
+      "claim": "R1-Zero与R1正式训练流程不同，2025公开及Nature正式发表时序要分开",
+      "source_ids": [
+        "DL152",
+        "DL157"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "R1-Zero也有基础预训练，不是从零学习全部语言",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-09",
+      "claim": "DeepSeekR1模型及蒸馏型号可能受不同底座许可证约束",
+      "source_ids": [
+        "DL153"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "主模型MIT不意味着所有Llama衍生模型相同",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C29-10",
+      "claim": "自造8×10M+5M=85M及2×10M+5M=25M，激活占29.41%",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "并非真实DeepSeek层数/路由或性能",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
