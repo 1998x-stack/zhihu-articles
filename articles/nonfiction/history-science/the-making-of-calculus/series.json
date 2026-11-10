@@ -354,86 +354,185 @@
     {
       "id": "17",
       "title": "1696年最速降线：直线为何不是最快路线",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/17.md",
-      "claims_path": "draft/17.claims.json"
+      "claims_path": "draft/17.claims.json",
+      "source_ids": [
+        "H102",
+        "H103",
+        "H104",
+        "H17",
+        "H19"
+      ]
     },
     {
       "id": "18",
       "title": "洛必达：微积分怎样进入第一批系统教材",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/18.md",
-      "claims_path": "draft/18.claims.json"
+      "claims_path": "draft/18.claims.json",
+      "source_ids": [
+        "H105",
+        "H106",
+        "H107",
+        "H108",
+        "H112",
+        "H113"
+      ]
     },
     {
       "id": "19",
       "title": "泰勒展开：曲线能用多项式代替吗",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/19.md",
-      "claims_path": "draft/19.claims.json"
+      "claims_path": "draft/19.claims.json",
+      "source_ids": [
+        "H109",
+        "H110",
+        "H111",
+        "H114",
+        "H03",
+        "H38",
+        "H39",
+        "H40"
+      ]
     },
     {
       "id": "20",
       "title": "伯克利的质问：无穷小消失之后还剩什么",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/20.md",
-      "claims_path": "draft/20.claims.json"
+      "claims_path": "draft/20.claims.json",
+      "source_ids": [
+        "H115",
+        "H116",
+        "H117",
+        "H118",
+        "H05"
+      ]
     },
     {
       "id": "21",
       "title": "欧拉：函数成为微积分的共同语言",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/21.md",
-      "claims_path": "draft/21.claims.json"
+      "claims_path": "draft/21.claims.json",
+      "source_ids": [
+        "H119",
+        "H120",
+        "H121",
+        "H122",
+        "H123",
+        "H124",
+        "H129"
+      ]
     },
     {
       "id": "22",
       "title": "拉格朗日：微积分能摆脱无穷小吗",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/22.md",
-      "claims_path": "draft/22.claims.json"
+      "claims_path": "draft/22.claims.json",
+      "source_ids": [
+        "H125",
+        "H126",
+        "H127",
+        "H128",
+        "H130",
+        "H111",
+        "H122"
+      ]
     },
     {
       "id": "23",
       "title": "玻尔查诺：连续为什么能够保证中间值",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/23.md",
-      "claims_path": "draft/23.claims.json"
+      "claims_path": "draft/23.claims.json",
+      "source_ids": [
+        "H131",
+        "H132",
+        "H133",
+        "H134",
+        "H135"
+      ]
     },
     {
       "id": "24",
       "title": "柯西：怎样让极限替代模糊直觉",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/24.md",
-      "claims_path": "draft/24.claims.json"
+      "claims_path": "draft/24.claims.json",
+      "source_ids": [
+        "H136",
+        "H137",
+        "H138",
+        "H139",
+        "H140",
+        "H141",
+        "H142",
+        "H150"
+      ]
     },
     {
       "id": "25",
       "title": "傅里叶：热流与三角级数挑战函数观念",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/25.md",
-      "claims_path": "draft/25.claims.json"
+      "claims_path": "draft/25.claims.json",
+      "source_ids": [
+        "H143",
+        "H144",
+        "H145",
+        "H146",
+        "H147",
+        "H148",
+        "H149"
+      ]
     },
     {
       "id": "26",
       "title": "黎曼：不连续的函数也能有面积吗",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/26.md",
-      "claims_path": "draft/26.claims.json"
+      "claims_path": "draft/26.claims.json",
+      "source_ids": [
+        "H151",
+        "H152",
+        "H153",
+        "H154",
+        "H155",
+        "H156"
+      ]
     },
     {
       "id": "27",
       "title": "魏尔斯特拉斯：不用图形怎样定义趋近",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/27.md",
-      "claims_path": "draft/27.claims.json"
+      "claims_path": "draft/27.claims.json",
+      "source_ids": [
+        "H157",
+        "H158",
+        "H159",
+        "H160",
+        "H161"
+      ]
     },
     {
       "id": "28",
       "title": "戴德金与康托尔：数轴上真的没有空洞吗",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/28.md",
-      "claims_path": "draft/28.claims.json"
+      "claims_path": "draft/28.claims.json",
+      "source_ids": [
+        "H162",
+        "H163",
+        "H164",
+        "H165",
+        "H166",
+        "H167"
+      ]
     },
     {
       "id": "29",

@@ -436,3 +436,66 @@
 | C17-08 | 第17章从18世纪回溯，因谱理论历史起源早于矩阵代数而非年代错误 | H17-S1/S4 | 编辑顺序声明 |
 
 **可交付到下一阶段的证据结论**：第15—17章的叙事关键日期、论文与贡献归属有可检索的历史或专业材料支撑。数学例题已先行用独立符号计算复核，但文内仍须展示步骤。未得到资料支持的会议现场、人物引语、心理和单一首创说法一律不得写成事实。
+
+
+## 第18—20章专项史料核证｜2026-11-06
+
+**核证范围**：第五部末三章；依据可检索的原著书目、大学数学史资料、数学史研究论文及数学百科，完成具体历史主张的出处定位。原著著录不等于已逐页校勘原始法文与德文；涉及原典技术细节均以专业史学研究支持的有限措辞表达。M18—M20为独立的**现代教学演算**，不归因于历史人物。
+
+### 第18章：柯西1829与实对称谱
+
+- **H18-S1｜Cauchy, “Sur l'équation à l'aide de laquelle on détermine les inégalités séculaires des mouvements des planètes” (1829)**，原著在《Exercices de mathématiques》1829年卷，Cambridge原著数字化书目：https://www.cambridge.org/core/books/oeuvres-completes/sur-lequation-a-laide-de-laquelle-on-determine-les-inegalites-seculaires-des-mouvements-des-planetes/ACBB0ACB1EA7F0834C5EF84133C67950 。书目已核；不声称逐页核验法文论证。
+- **H18-S2｜MAA, “Math Origins: Eigenvectors and Eigenvalues”**，https://old.maa.org/press/periodicals/convergence/math-origins-eigenvectors-and-eigenvalues 。指出1826年柯西关于二次曲面主轴的说明，以及1829年对实对称问题根为实数的直接证明；解释该问题与天体力学“久期方程”的联系。
+- **H18-S3｜MacTutor, “Matrices and determinants”**，https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/ 。1826二次型中的 tableau、可对角化结果、与现代矩阵术语的年代区别。
+- **H18-S4｜“Cauchy and the spectral theory of matrices”, Historia Mathematica (1975)**，https://www.sciencedirect.com/science/article/pii/0315086075900324 。摘要明确柯西1829为实对称矩阵特征值实性的早期一般证明，并将其置于18世纪长期前驱中。
+- **H18-S5｜“Lagrange and the secular equation” (2014)**，https://doi.org/10.1007/s40329-014-0051-3 。说明柯西与拉格朗日的久期方程不是简单单线师承，且重复根问题具有史学重要性。
+
+| claim | 说明 | 来源 | 边界 |
+|---|---|---|---|
+| C18-01 | 十八世纪主轴与久期方程是柯西工作之前的背景 | H18-S2/S5；第17章来源 | 不写成柯西独创全部谱思想 |
+| C18-02 | 1826研究动机及1829相关论文的时间线 | H18-S1/S2/S3 | 1826说明和1829发表不混淆 |
+| C18-03 | 柯西1829对对称问题实根作出关键直接论证 | H18-S2/S4 | 不称其以现代矩阵术语写出今日定理全文 |
+| C18-04 | 实对称矩阵特征值实及异特征值正交 | M18 | 现代代数证明 |
+| C18-05 | 二次型极值与正交对角化、重根时选基 | M18 | 实对称、有限维 |
+| C18-06 | 非对称反例和复特征值反例 | M18 | 不将特殊结论推广到全部实矩阵 |
+| C18-07 | 从第17章力学主轴到第19章缺陷矩阵的概念链 | H18-S2/S3、M18 | 编辑组织并非历史人物间直接传承 |
+
+### 第19章：若尔当与标准形
+
+- **H19-S1｜Camille Jordan, Traité des substitutions et des équations algébriques (1870)**，原著书目及“Des substitutions linéaires”目录：https://books.google.com/books/about/Trait%C3%A9_des_substitutions_et_des_%C3%A9quati.html?id=1ZQoc0-V08YC ；BnF馆藏原著影印目录：https://fr.wikisource.org/wiki/Livre:Jordan_-_Trait%C3%A9_des_substitutions_et_des_%C3%A9quations_alg%C3%A9briques,_1870.djvu 。书目及章题核实，未冒称完成原著各页译注。
+- **H19-S2｜MacTutor, “Camille Jordan”**，https://mathshistory.st-andrews.ac.uk/Biographies/Jordan/ 。1870著作、线性代换标准形、最初讨论有限域情境而非今日复数域全矩阵陈述。
+- **H19-S3｜MacTutor, “Matrices and determinants”**，https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/ 。强调1870标准形出现于素数阶有限域线性代换背景，先驱包括魏尔斯特拉斯。
+- **H19-S4｜Oxford Handbook, “Algebraic generality versus arithmetic generality in the 1874 controversy between C. Jordan and L. Kronecker”**，https://academic.oup.com/edited-volume/41254/chapter-abstract/350819867 。1874围绕若尔当标准形与魏尔斯特拉斯初等因子定理的观点和一般性之争。
+- **H19-S5｜1870著作当代书评（1871），Bulletin des sciences mathématiques et astronomiques**，https://www.numdam.org/item/BSMA_1871__2__161_0/ 。作为出版年/流通的额外历史著录，未用来证实全部现代定理。
+
+| claim | 说明 | 来源 | 边界 |
+|---|---|---|---|
+| C19-01 | 1870《代换与代数方程论》包括线性代换与标准形 | H19-S1/S2 | 不称原书是现代矩阵教材 |
+| C19-02 | 魏尔斯特拉斯及克罗内克相关工作和1874争论 | H19-S3/S4 | 不将若尔当描写为无前驱的唯一创始 |
+| C19-03 | 1870最初有限域问题与今日复数域Jordan形区分 | H19-S2/S3 | 现代定理为后见整理 |
+| C19-04 | 重根导致特征向量不足的3×3示例 | M19 | 现代自建矩阵 |
+| C19-05 | 广义特征向量链与幂、矩阵指数 | M19 | 复域/例中实数情形 |
+| C19-06 | 特征多项式相同而Jordan结构可异 | M19 | 相似不变量需更丰富 |
+| C19-07 | 对称矩阵总可对角化，非对称矩阵可能不可 | M18/M19 | 两类问题不互相矛盾 |
+
+### 第20章：积分方程、Hilbert–Schmidt理论与无限维谱
+
+- **H20-S1｜MacTutor, “Ivar Fredholm”**，https://mathshistory.st-andrews.ac.uk/Biographies/Fredholm/ 。1903文章及其哥廷根传播、希尔伯特接受研究的时间顺序。
+- **H20-S2｜MAA, “Math Origins: Eigenvectors and Eigenvalues”**，https://old.maa.org/press/periodicals/convergence/math-origins-eigenvectors-and-eigenvalues 。希尔伯特1904研究积分方程和 eigenvalue 术语的历史。
+- **H20-S3｜MacTutor, “Erhard Schmidt”**，https://mathshistory.st-andrews.ac.uk/Biographies/Schmidt/ 。施密特1905博士、1907积分方程两篇研究、1908无穷多个未知量与序列空间的研究；不写Gram–Schmidt正交化为两人共同首次发明。
+- **H20-S4｜Encyclopedia of Mathematics, “Integral equation with symmetric kernel”**，https://encyclopediaofmath.org/wiki/Integral_equation_with_symmetric_kernel 。希尔伯特1904、施密特1907的理论分工与实对称核。
+- **H20-S5｜Springer原始论文重印汇编书目，Hilbert & Schmidt**，https://link.springer.com/book/10.1007/978-3-322-84410-1 。确认希尔伯特和施密特作品题目，未将1989重印误当研究年份。
+- **H20-S6｜MacTutor, “Weyl problems”**，https://mathshistory.st-andrews.ac.uk/Extras/Weyl_problems/ 。希尔伯特最初并非采用当代公理化Hilbert空间定义；后来的谱理论比紧核问题更广。
+- **M20｜现代函数分析例题**：区间[0,1]上核K(x,t)=xt的秩一自伴积分算子；单位特征函数sqrt(3)x、非零特征值1/3；核为正交补（无限维）。紧自伴算子谱定理需补充闭包、零特征空间、非零特征值的有限重数/零点聚集限制。乘法算子(Mf)(x)=xf(x)为自伴非紧反例，谱[0,1]而无特征向量。
+
+| claim | 说明 | 来源 | 边界 |
+|---|---|---|---|
+| C20-01 | Fredholm 1903先驱与Hilbert1904研究关系 | H20-S1/S2 | 有更早19世纪积分方程前驱 |
+| C20-02 | Hilbert1904实对称核、特征值特征函数 | H20-S2/S4 | 不能以今日抽象定理全文直接归属原文 |
+| C20-03 | Schmidt1907推进、1908序列空间 | H20-S3/S4/S6 | 不单人发明完备抽象Hilbert空间 |
+| C20-04 | 积分核xt与L²中的内积特征计算 | M20 | 完全现代构造 |
+| C20-05 | 紧自伴谱定理的条件和本征展开 | H20-S4/M20 | 包含零空间；无限谱只可向零聚集 |
+| C20-06 | 非紧自伴乘法算子具连续谱、无特征函数 | M20 | 不把一切无限维算子说成可特征展开 |
+| C20-07 | 第21章公理化问题由空间结构需要引出 | H20-S3/S6 | 章节顺序为概念教学，不是历史先后 |
+
+**增量研究交付边界**：三章已有经过专业史学资料交叉核对的主要历史框架和可在正文验证的现代推导。具体原典逐页校勘、1907论文定理形式细部仍应留待正式史学复审。任何标为“DRAFT”的章节均未经过独立双审、精修或终稿批准。

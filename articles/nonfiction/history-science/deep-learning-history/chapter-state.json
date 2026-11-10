@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "last_chapter": 15,
+  "manuscript_revision": 0,
+  "chapter_status": {
+    "10": "draft",
+    "11": "draft",
+    "12": "draft",
+    "13": "draft",
+    "14": "draft",
+    "15": "draft",
+    "16": "outline",
+    "00": "outline",
+    "01": "draft",
+    "02": "draft",
+    "03": "draft",
+    "04": "draft",
+    "05": "draft",
+    "06": "draft",
+    "07": "draft",
+    "08": "draft",
+    "09": "draft"
+  },
+  "characters": {},
+  "timeline": [
+    {
+      "chapter": "01",
+      "coverage": "古代—19世纪：数学工具前史；不能称直接神经网络起源"
+    },
+    {
+      "chapter": "02",
+      "coverage": "19世纪—20世纪初：细胞结构/突触/生理信号"
+    },
+    {
+      "chapter": "03",
+      "coverage": "1943：McCulloch-Pitts形式网络"
+    },
+    {
+      "chapter": "04",
+      "coverage": "1949 Hebb行为组织：突触效能、细胞集合、阶段序列；格言非原话"
+    },
+    {
+      "chapter": "05",
+      "coverage": "1958 Rosenblatt感知机论文及IBM模拟演示；1960 Widrow–Hoff作为相邻并行路线"
+    },
+    {
+      "chapter": "06",
+      "coverage": "1969 Minsky–Papert专著；1973 Lighthill属于后续英国政策回顾"
+    },
+    {
+      "chapter": "07",
+      "coverage": "1970 Linnainmaa芬兰学位论文；1971 Intel4004；1974 Werbos；1976 Linnainmaa论文；1978 GMDH统计模型；并行非直传"
+    },
+    {
+      "chapter": "08",
+      "coverage": "1979 IJCAI福岛新认知机会议；1980期刊；1982 Hopfield；1985玻尔兹曼机；2024诺奖仅回顾"
+    },
+    {
+      "chapter": "09",
+      "coverage": "1985 LeCun会议探索；1986-10-09 Rumelhart-Hinton-Williams Nature论文及PDP背景；先驱与影响分开"
+    },
+    {
+      "chapter": "10",
+      "coverage": "1980福岛前驱；1989 LeCun等美国邮编研究；1998 IEEE四作者LeNet-5、GTN与银行票据部署，处理量日/月口径不决"
+    },
+    {
+      "chapter": "11",
+      "coverage": "1991 Hochreiter分析（1997论文回顾）；1994 Bengio/Simard/Frasconi；1997 LSTM CEC；2000 Gers等遗忘门"
+    },
+    {
+      "chapter": "12",
+      "coverage": "1992 Boser/Guyon/Vapnik最大间隔；1995 Cortes/Vapnik软间隔；1998 Burges教程/Platt SMO；与同代OCR神经网络并行"
+    },
+    {
+      "chapter": "13",
+      "coverage": "2000 NIPS三人神经概率语言模型与2003 JMLR四人期刊版；2013 word2vec为另一个后续节点"
+    },
+    {
+      "chapter": "14",
+      "coverage": "2002对比散度，2006 Hinton/Osindero/Teh DBN生成微调、Hinton/Salakhutdinov深自编码器梯度微调，2006 Bengio等逐层训练"
+    },
+    {
+      "chapter": "15",
+      "coverage": "2011 Interspeech北京与雷德蒙德研究RT03S Fisher WER27.4%→18.5%；2012 Dahl等声学模型和四组研究综述"
+    }
+  ],
+  "unresolved_clues": [
+    "16章：ImageNet数据与ILSVRC竞赛如何提供共同评价？",
+    "17章：2012 AlexNet如何结合GPU、ReLU、dropout和数据？",
+    "18章：残差学习为何改善更深网络优化？"
+  ],
+  "resolved_clues": [
+    "第01章数学形式化为何能表达明确计算",
+    "第02章神经生理怎样为阈值模型提供抽象条件",
+    "第03章能计算不等于能学习",
+    "第04章连接效率可能随经验改变，与现代误差反馈训练不是同一回事",
+    "第05章监督纠错可调整线性分类边界",
+    "第06章XOR不能单层线性分类，但可通过隐藏层表达",
+    "第07章将自动微分和神经网络优化分开，计算图反向求导可复算",
+    "第08章区分视觉结构、联想记忆和随机Boltzmann训练",
+    "第09章可微隐藏层信用分配以及1986之前先驱和1986推广的区别",
+    "第10章将1989邮政编码、1998 LeNet-5与商业票据识别分开，卷积核共享演示可复算",
+    "第11章将1997 CEC和2000遗忘门严格分开，20步衰减系数可复算",
+    "第12章SVM最大间隔、软间隔与核映射的统计动机，不构造SVM全面击败神经网络的假史",
+    "13章用共享词向量与softmax解释词串概率泛化",
+    "14章区分生成DBN微调与深自编码器反向传播微调",
+    "15章区分DNN声学模型与HMM解码，并记录特定RT03S基准结果"
+  ],
+  "continuity_notes": [
+    "第01章历史数学前史为多文明并行比较，无暗示直接传授",
+    "第02章1906两位获奖者贡献和观点须分开写",
+    "第03章标题为反问句，正文明确否定‘两神经元等于通用计算机’",
+    "全部前三章为非虚构工作初稿，尚未独立审稿",
+    "04章1949所谓fire together口号非Hebb逐字原话",
+    "05章1958计算机演示与后来Mark I硬件不混为一谈",
+    "06章单层XOR定理不能推论所有多层网络无效",
+    "06章1969书与1973英国Lighthill报告分别说明，AI冬天不采单因论",
+    "第01—06章全部待独立双重审稿",
+    "1979 Fukushima会议论文与1980期刊不能混称首次发表",
+    "1982 Hopfield教学例必须使用对称权重和异步单元更新",
+    "1985 Boltzmann与1986反向传播是不同训练机制",
+    "1970/1974/1985/1986的贡献按算法先驱、训练模型、传播来区分",
+    "第01—09章全部为工作初稿，尚未独立双重审稿",
+    "1998论文摘要日处理与正文月处理口径不同，正文只描述商业部署不使用不明数字",
+    "卷积共享权重导致一定等变，后续池化可能提高位置容忍，不等于普适完全不变",
+    "1997 LSTM原版不含2000遗忘门",
+    "一维最大间隔范例严格限定两点与硬间隔",
+    "第01—12章均未完成独立双重审稿；当前稿件修订数0且review_status=PENDING",
+    "2000 NIPS三作者与2003 JMLR四作者分开",
+    "2006原始DBN用wake-sleep而同年自编码器可用梯度微调",
+    "2011作者机构北京/雷德蒙德不代表个人国籍",
+    "2011 RT03S基准8.9百分点与相对约32.5%不同",
+    "第01—15章全部未独立双重审稿"
+  ],
+  "review_status": "PENDING"
+}

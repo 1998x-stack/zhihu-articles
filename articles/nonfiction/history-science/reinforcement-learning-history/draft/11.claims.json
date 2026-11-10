@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "chapter": "11",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "为当前第10—12章写作限定范围完成出版社/机构原始记录、作者公开文字与教材解释比对；部分PDF截图不可用、图表未完成目视二审。原创数值算例逐项复算，所有证据映射不是审稿PASS。",
+  "alias_to_research_source_id": {
+    "Q01": "R57",
+    "Q02": "R55",
+    "Q03": "R56",
+    "Q04": "R01",
+    "Q05": "R58",
+    "Q06": "R60"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-11-01",
+      "claim": "Watkins剑桥博士论文Learning from Delayed Rewards完成于1989-05-10",
+      "source_ids": [
+        "R55"
+      ],
+      "kind": "institutional_fact",
+      "section": "二｜1989",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-11-02",
+      "claim": "Watkins本人回顾1989与Barto和Sutton交流草稿，但不能推断逐字会谈",
+      "source_ids": [
+        "R56"
+      ],
+      "kind": "author_recollection",
+      "section": "二｜研究互动",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-11-03",
+      "claim": "1992 Watkins与Dayan合著Q-Learning而非1989同一出版事件",
+      "source_ids": [
+        "R57",
+        "R55"
+      ],
+      "kind": "historical_fact",
+      "section": "七、九｜论文与证明",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-11-04",
+      "claim": "Q(s,a)是动作价值，目标是最优动作价值而非直接学习动作转移模型",
+      "source_ids": [
+        "R57",
+        "R01"
+      ],
+      "kind": "definition",
+      "section": "三、六｜动作价值",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-11-05",
+      "claim": "Q-learning更新目标r+gamma max_a Q(s',a)独立于随后实际选择的动作",
+      "source_ids": [
+        "R57",
+        "R01"
+      ],
+      "kind": "modern_algorithm",
+      "section": "四、八｜离策略",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-11-06",
+      "claim": "原创例子Q=2,r=-1,gamma=.9,alpha=.5,max next=6，target4.4更新到3.2",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "五｜共用算例",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-11-07",
+      "claim": "model-free指基础更新不必显式学习P(s'|s,a)，不等于没有环境假设",
+      "source_ids": [
+        "R57",
+        "R01"
+      ],
+      "kind": "bounded_comparison",
+      "section": "六｜模型与学习",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-11-08",
+      "claim": "Watkins/Dayan1992证明有受限条件的表格最优Q概率一收敛",
+      "source_ids": [
+        "R57"
+      ],
+      "kind": "primary_theorem_scope",
+      "section": "七｜收敛范围",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-11-09",
+      "claim": "无界/非充分探索或神经网络函数逼近不由1992表格定理自动保证",
+      "source_ids": [
+        "R57",
+        "R01"
+      ],
+      "kind": "technical_limit",
+      "section": "七、八｜局限",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-11-10",
+      "claim": "1989剑桥博士涉及动物行为与有限经验的增量最优行为学习",
+      "source_ids": [
+        "R55"
+      ],
+      "kind": "historical_context",
+      "section": "二｜跨学科",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-11-11",
+      "claim": "Rummery与Niranjan1994报告为SARSA史发展相关工作",
+      "source_ids": [
+        "R58",
+        "R59",
+        "R01"
+      ],
+      "kind": "chronology",
+      "section": "十｜下一章",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "Watkins个人历史回顾与当时论文原件不同证据层级，不能虚构对话",
+    "表格Q-learning概率一收敛结论需完整列出探索/学习率等限制",
+    "Q-learning和SARSA共用例子必须在相同状态动作与实际后续动作假设下比较"
+  ]
+}

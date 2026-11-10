@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "chapter": "04",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "所列一手文献的可访问页和发行记录为本章论断提供限定范围支持；历史著作并未全部逐页通读；作者数学例子与历史实验分开。",
+  "alias_to_research_source_id": {
+    "M01": "R37",
+    "M02": "R37",
+    "M03": "R01"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-04-01",
+      "claim": "Samuel1959论文刊于IBM Journal 3(3):210—229；报告系统在限定测试条件下可以超过程序作者",
+      "source_ids": [
+        "R37",
+        "R02"
+      ],
+      "kind": "historical_fact",
+      "section": "一｜作者写下的程序",
+      "evidence_note": "1959原论文摘要；勿引申世界冠军、通用智能",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-04-02",
+      "claim": "跳棋任务规则、合法动作、终局目标、局面判定及搜索结构被程序员明确提供",
+      "source_ids": [
+        "R37"
+      ],
+      "kind": "primary_method",
+      "section": "二｜为什么选跳棋",
+      "evidence_note": "pp.211—212；不是从零学规则",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-04-03",
+      "claim": "采用前瞻搜索与minimax回传、评价多项式评分局面",
+      "source_ids": [
+        "R37"
+      ],
+      "kind": "primary_method",
+      "section": "二｜为什么选跳棋",
+      "evidence_note": "pp.212—213；搜索与学习分开",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-04-04",
+      "claim": "评价多项式含棋子优势和位置特征，相关参数由设计与学习共同确定",
+      "source_ids": [
+        "R37"
+      ],
+      "kind": "primary_method",
+      "section": "三｜让棋盘变成数字",
+      "evidence_note": "pp.212、218；符号V_hat系现代重构",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-04-05",
+      "claim": "论文区分rote learning与learning by generalization，分别面对存储与泛化难题",
+      "source_ids": [
+        "R37"
+      ],
+      "kind": "primary_method",
+      "section": "四｜两种学习",
+      "evidence_note": "pp.214—221",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-04-06",
+      "claim": "Alpha/Beta对弈作为学习评价机制，Alpha更新，Beta一局中相对稳定",
+      "source_ids": [
+        "R37"
+      ],
+      "kind": "primary_method",
+      "section": "五｜机器和自己下棋",
+      "evidence_note": "p.218；不能称为AlphaGo同构训练",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-04-07",
+      "claim": "1959作者明确指出实验不足以证明学习完全稳定或最优参数保证",
+      "source_ids": [
+        "R37"
+      ],
+      "kind": "primary_caveat",
+      "section": "七｜原论文保留意见",
+      "evidence_note": "p.220，保留当时的否定性限制",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-04-08",
+      "claim": "评价特征两组权重计算6/3.4→2/5和极大极小结果4",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "三及六｜教学例题",
+      "evidence_note": "原创数学演示，独立验证，非Samuel实验",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-04-09",
+      "claim": "论文承认相关Shannon1950/Strachey1952博弈程序前驱",
+      "source_ids": [
+        "R37"
+      ],
+      "kind": "historical_attribution",
+      "section": "五｜机器和自己下棋",
+      "evidence_note": "p.212；源流而非单一发明",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "IBM原文只证明其特定性能主张，不能宣称通用棋手冠军/必然收敛",
+    "1959原始程序的精确学习更新不应等同现代深度RL"
+  ]
+}

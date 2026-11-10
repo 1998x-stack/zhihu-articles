@@ -1,25 +1,158 @@
 {
   "chapter": "24",
-  "status": "PENDING",
+  "title": "柯西：怎样让极限替代模糊直觉",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H136",
+    "H137",
+    "H138",
+    "H139",
+    "H140",
+    "H141",
+    "H142",
+    "H150",
+    "H146",
+    "H149"
+  ],
   "claims": [
     {
       "id": "C24-01",
-      "statement": "极限、连续、微分与积分如何定义",
-      "source_candidates": [
-        "H05",
-        "H10"
+      "kind": "history_publication",
+      "statement": "1821年Cauchy出版Cours d'analyse第一部分",
+      "source_ids": [
+        "H136",
+        "H138"
       ],
-      "verification": "PENDING"
+      "locator": "original French transcription title page; 2005 research abstract",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C24-02",
-      "statement": "分析教程、极限与收敛准则",
-      "source_candidates": [
-        "H05",
-        "H10"
+      "kind": "history_publication",
+      "statement": "1823年Cauchy的Résumé de calcul infinitésimal与1821书不同",
+      "source_ids": [
+        "H138"
       ],
-      "verification": "PENDING"
+      "locator": "Landmark Writings 2005 publisher abstract",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C24-03",
+      "kind": "historical_method",
+      "statement": "1821导言反对不顾适用域推广代数公式，强调条件和精确性",
+      "source_ids": [
+        "H136",
+        "H137"
+      ],
+      "locator": "1821 introduction French primary text, MacTutor translation",
+      "verification": "PRIMARY_TEXT_CHECKED"
+    },
+    {
+      "id": "C24-04",
+      "kind": "historical_definition",
+      "statement": "Cauchy极限由变量逼近定义，无穷小为趋于零的变量",
+      "source_ids": [
+        "H136",
+        "H137",
+        "H139"
+      ],
+      "locator": "Cauchy's calculus translated definitions, SEP",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C24-05",
+      "kind": "historical_definition",
+      "statement": "Cauchy连续性用小自变量增量导致小函数增量解释，非现代ε-δ逐字",
+      "source_ids": [
+        "H136",
+        "H137",
+        "H139"
+      ],
+      "locator": "1821 continuity passage and historical interpretation",
+      "verification": "QUALIFIED_TRANSLATION"
+    },
+    {
+      "id": "C24-06",
+      "kind": "history_series",
+      "statement": "Cauchy认定项趋零是级数收敛必要而非充分，采用尾和接近判据",
+      "source_ids": [
+        "H137"
+      ],
+      "locator": "MacTutor Cauchy's Calculus section series",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C24-07",
+      "kind": "modern_math",
+      "statement": "harmonic series diverges by grouping blocks with sums >=1/2 despite 1/n→0",
+      "source_ids": [],
+      "locator": "independent lower bound by dyadic groups",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C24-08",
+      "kind": "modern_math",
+      "statement": "geometric series Σ 2^-n=2 and remainder after n=0..N equals2^-N",
+      "source_ids": [],
+      "locator": "finite geometric sum identity",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C24-09",
+      "kind": "modern_math",
+      "statement": "modern Cauchy tail criterion equivalent to convergence in complete reals",
+      "source_ids": [],
+      "locator": "Cauchy criterion + completeness qualification",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C24-10",
+      "kind": "modern_counterexample",
+      "statement": "x^n continuous on [0,1] converges pointwise to discontinuous limit",
+      "source_ids": [],
+      "locator": "pointwise x<1→0 and at 1→1; nonuniform x=2^-1/n",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C24-11",
+      "kind": "modern_counterexample",
+      "statement": "sum Σ_{n>=0}(x^n-x^{n+1}) equals1 for x<1 and0 for x=1",
+      "source_ids": [],
+      "locator": "telescoping finite sums 1-x^{N+1}",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C24-12",
+      "kind": "historiography",
+      "statement": "Cauchy1821 continuity-of-sum statement needs care; Abel1826, Seidel/Stokes1847, Cauchy1853 further development",
+      "source_ids": [
+        "H140",
+        "H141",
+        "H150",
+        "H142"
+      ],
+      "locator": "Arsac excerpts and 2007 historiography",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C24-13",
+      "kind": "chapter_bridge",
+      "statement": "Functions of trigonometric series and heat equations expose need to distinguish pointwise representation from convergence",
+      "source_ids": [
+        "H146",
+        "H149",
+        "H142"
+      ],
+      "locator": "Fourier appraisal and modern Fourier convergence",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "1821与1823出版和内容区别明确。",
+    "Cauchy仍使用infinitesimal一词，其含义为趋零变量；现代ε–δ不是1821逐字版本。",
+    "1821级数命题的历史解读与1853修订有学术争议，不作单一时代审判。",
+    "x^n与望远镜级数是现代构造，不冒充原著反例。",
+    "尚未通过全书draft gate、连续性审稿与独立结构审稿。"
+  ]
 }

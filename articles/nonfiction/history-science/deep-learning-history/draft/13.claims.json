@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "13",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "only this chapter, limited primary-source review and didactic derivations",
+  "claims": [
+    {
+      "claim_id": "C13-01",
+      "claim": "2000 NIPS三人署名的神经概率语言模型会议论文",
+      "source_ids": [
+        "DL64"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不要把2003当首次出现",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C13-02",
+      "claim": "2003 JMLR期刊四人Bengio/Ducharme/Vincent/Jauvin与实验范围",
+      "source_ids": [
+        "DL65"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "论文只比较两组语料及所设n-gram",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C13-03",
+      "claim": "离散n-gram高维稀疏与共享分布式词表示",
+      "source_ids": [
+        "DL64",
+        "DL65"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "未见组合≠词表外新词；不是无条件理解",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C13-04",
+      "claim": "2003 softmax训练复杂度与重要性采样探索",
+      "source_ids": [
+        "DL66"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不归入2013负采样技术",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C13-05",
+      "claim": "2013 Mikolov等word2vec系不同历史节点",
+      "source_ids": [
+        "DL67"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不能把2003叫word2vec",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C13-06",
+      "claim": "模型可用共享词嵌入对相邻词串提供概率泛化",
+      "source_ids": [
+        "DL65"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "上下文有限、稀疏和OOV仍在",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C13-07",
+      "claim": "三个候选logits 2/1/0 softmax概率",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "现代示例非2003原文实验",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C13-08",
+      "claim": "词表10000与4词组合理论空间10^16",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "组合数不是需显式存储的n-gram参数数",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

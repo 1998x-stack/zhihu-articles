@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "heat-and-time-thermodynamics-history",
   "title": "热与时间：一部热力学的诞生史",
-  "reading_notice": "热力学序章 00 是正文初稿（待独立审稿）；第 01—32 章及尾声 33 为结构规划占位。",
+  "reading_notice": "热力学序章00与第01—16章为来源可追踪的正文初稿（未完成独立审稿）；第17—32章及尾声33为结构占位。",
   "chapters": [
     {
       "id": "prologue",
@@ -16,112 +16,112 @@
       "title": "01｜抽水机为什么要吃掉一座煤山",
       "part": "第一部｜蒸汽与火：机器提出的问题",
       "file": "draft/01.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-02",
       "title": "02｜瓦特的独立冷凝器：效率来自哪里",
       "part": "第一部｜蒸汽与火：机器提出的问题",
       "file": "draft/02.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-03",
       "title": "03｜热是一种流体吗：热质论的黄金时代",
       "part": "第一部｜蒸汽与火：机器提出的问题",
       "file": "draft/03.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-04",
       "title": "04｜卡诺的赌注：热机效率有天花板吗",
       "part": "第一部｜蒸汽与火：机器提出的问题",
       "file": "draft/04.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-05",
       "title": "05｜卡诺的悖论：热没有消失，功从何而来",
       "part": "第二部｜能量革命：热不再是物质",
       "file": "draft/05.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-06",
       "title": "06｜迈尔的推断：热与运动有同一份账本",
       "part": "第二部｜能量革命：热不再是物质",
       "file": "draft/06.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-07",
       "title": "07｜焦耳的重锤：热功当量不是一个巧合",
       "part": "第二部｜能量革命：热不再是物质",
       "file": "draft/07.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-08",
       "title": "08｜克劳修斯如何调和两种看似敌对的理论",
       "part": "第二部｜能量革命：热不再是物质",
       "file": "draft/08.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-09",
       "title": "09｜温度计之外：什么是绝对温度",
       "part": "第三部｜时间的方向：第二定律与熵",
       "file": "draft/09.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-10",
       "title": "10｜一条定律为什么要说“不可能”",
       "part": "第三部｜时间的方向：第二定律与熵",
       "file": "draft/10.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-11",
       "title": "11｜1865年，克劳修斯给不可逆性取名：熵",
       "part": "第三部｜时间的方向：第二定律与熵",
       "file": "draft/11.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-12",
       "title": "12｜时间之箭：热为什么不会自己倒流",
       "part": "第三部｜时间的方向：第二定律与熵",
       "file": "draft/12.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-13",
       "title": "13｜1834年，克拉佩龙把循环画在纸上",
       "part": "第四部｜平衡的几何：热力学成为数学",
       "file": "draft/13.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-14",
       "title": "14｜为什么dU和δQ不能混写",
       "part": "第四部｜平衡的几何：热力学成为数学",
       "file": "draft/14.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-15",
       "title": "15｜吉布斯的曲面：平衡为什么能画成几何",
       "part": "第四部｜平衡的几何：热力学成为数学",
       "file": "draft/15.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-16",
       "title": "16｜一条相律，把水、冰与蒸汽放在同一张表",
       "part": "第四部｜平衡的几何：热力学成为数学",
       "file": "draft/16.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-17",

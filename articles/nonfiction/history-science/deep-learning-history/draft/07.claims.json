@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "07",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific, source-limited",
+  "claims": [
+    {
+      "claim_id": "C07-01",
+      "claim": "1970芬兰硕士论文与1976数值误差论文",
+      "source_ids": [
+        "DL33",
+        "DL34",
+        "DL35"
+      ],
+      "kind": "historical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "研究数值计算误差，不是现代神经网络学习实验",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C07-02",
+      "claim": "1974 Werbos与早期相关研究",
+      "source_ids": [
+        "DL36",
+        "DL37"
+      ],
+      "kind": "historiography",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不声称后来的研究者必然直接师承或独占优先权",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C07-03",
+      "claim": "反向模式AD多参数标量损失计算优势",
+      "source_ids": [
+        "DL35"
+      ],
+      "kind": "technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "需要前向缓存或重算，不能声称没有内存成本",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C07-04",
+      "claim": "1978 Ivakhnenko GMDH统计选模路线",
+      "source_ids": [
+        "DL39"
+      ],
+      "kind": "historical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不能冒称1986反向传播神经网络",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C07-05",
+      "claim": "1971 Intel4004商用微处理器史实",
+      "source_ids": [
+        "DL38"
+      ],
+      "kind": "hardware_history",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "1971计算能力不等于可训练现代深网",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C07-06",
+      "claim": "u=ab+c，L=u² 的反向梯度42/28/14",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "a=2,b=3,c=1，现代自造例题，非论文原始实验",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

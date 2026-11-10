@@ -1,23 +1,151 @@
 {
   "chapter": "29",
-  "status": "PENDING",
+  "title": "魏尔斯特拉斯的怪物：连续却处处不可微",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H168",
+    "H169",
+    "H170",
+    "H171",
+    "H172",
+    "H173",
+    "H177",
+    "H174",
+    "H175"
+  ],
   "claims": [
     {
       "id": "C29-01",
-      "statement": "连续为何不意味着光滑",
-      "source_candidates": [
-        "H05"
+      "kind": "history",
+      "statement": "1872 Weierstrass presented a continuous nowhere differentiable function; 1875 du Bois-Reymond published relevant work",
+      "source_ids": [
+        "H168",
+        "H169"
       ],
-      "verification": "PENDING"
+      "locator": "year and du Bois-Reymond 1875 vol 79 pp21-37",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C29-02",
-      "statement": "连续处处不可微的反例",
-      "source_candidates": [
-        "H05"
+      "kind": "history_priority",
+      "statement": "Bolzano's pre-1834 manuscript contains earlier construction, printed 1930, original dense non-differentiability proof distinguished from later global result",
+      "source_ids": [
+        "H170",
+        "H171"
       ],
-      "verification": "PENDING"
+      "locator": "2026 open-access historiography and SEP",
+      "verification": "CROSS_CHECKED_HISTORICAL_BOUNDARY"
+    },
+    {
+      "id": "C29-03",
+      "kind": "history_limitation",
+      "statement": "Riemann 1861 earlier unpublished suggestions debated; cannot infer complete contemporary proof",
+      "source_ids": [
+        "H169",
+        "H170"
+      ],
+      "locator": "scholarly historical account with cautious attribution",
+      "verification": "QUALIFIED"
+    },
+    {
+      "id": "C29-04",
+      "kind": "math_definition",
+      "statement": "continuity does not imply differentiation; |x| not differentiable at 0",
+      "source_ids": [],
+      "locator": "left and right difference quotients ±1",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C29-05",
+      "kind": "math_original_form",
+      "statement": "classical W(x)=Σa^n cos(π b^n x) with a∈(0,1), b odd integer and ab>1+3π/2 is continuous nowhere differentiable",
+      "source_ids": [
+        "H169",
+        "H172"
+      ],
+      "locator": "classical sufficient conditions in math research",
+      "verification": "MATH_THEOREM_SOURCE_CHECKED"
+    },
+    {
+      "id": "C29-06",
+      "kind": "math_parameters",
+      "statement": "a=1/2,b=13 satisfy ab=6.5 > 1+3π/2",
+      "source_ids": [],
+      "locator": "arithmetic 6.5 > 5.7124",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C29-07",
+      "kind": "math_uniform",
+      "statement": "W series uniformly absolutely converges with tail bound Σ_{n>N}2^-n=2^-N",
+      "source_ids": [],
+      "locator": "Weierstrass M-test and geometric series",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C29-08",
+      "kind": "math_continuity",
+      "statement": "uniform limit of continuous finite cosine sums continuous on R",
+      "source_ids": [],
+      "locator": "uniform limit theorem",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C29-09",
+      "kind": "math_difference_quotient",
+      "statement": "h_m=13^-m at x=0 yields [W(h_m)-W(0)]/h_m ≤ -2(13/2)^m",
+      "source_ids": [],
+      "locator": "all cosine differences at maximum nonpositive and m-th term -2·2^-m",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C29-10",
+      "kind": "math_proof_boundary",
+      "statement": "x=0 difference quotient only proves nondifferentiability at 0, not every point",
+      "source_ids": [
+        "H169",
+        "H172"
+      ],
+      "locator": "full theorem sourced separately; explicit method limitation",
+      "verification": "QUALIFIED"
+    },
+    {
+      "id": "C29-11",
+      "kind": "math_proof_boundary",
+      "statement": "formal termwise derivative series divergence does not entail failure of derivative of the sum",
+      "source_ids": [],
+      "locator": "interchange of limit and derivative requires hypotheses",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C29-12",
+      "kind": "math_integrability",
+      "statement": "W continuous on closed bounded intervals hence Riemann integrable despite nowhere differentiable",
+      "source_ids": [
+        "H177"
+      ],
+      "locator": "standard Riemann integrability theorem, independent",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C29-13",
+      "kind": "editorial_bridge",
+      "statement": "smoothness not equivalent to integrability; next Darboux upper and lower sums",
+      "source_ids": [
+        "H174",
+        "H175"
+      ],
+      "locator": "historical 1875 paper and conceptual bridge",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "Bolzano1834/1930 separates priority and publication; original Bolzano dense nondifferentiability proof and later full theorem distinguish.",
+    "Weierstrass1872 presentation vs du Bois-Reymond1875 print distinguished.",
+    "Chosen a=.5 b=13 is present-day example not specifically Weierstrass 1872 chosen constants.",
+    "Difference quotient at x=0 not a complete proof of nowhere differentiability; cite full standard theorem.",
+    "Neither divergent formal derivative series nor rough image substitutes a proof.",
+    "Unreviewed project workflow gate unchanged."
+  ]
 }

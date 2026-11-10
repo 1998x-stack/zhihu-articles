@@ -1,23 +1,161 @@
 {
   "chapter": "21",
-  "status": "PENDING",
+  "title": "欧拉：函数成为微积分的共同语言",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H119",
+    "H120",
+    "H121",
+    "H122",
+    "H123",
+    "H124",
+    "H129",
+    "H01"
+  ],
   "claims": [
     {
       "id": "C21-01",
-      "statement": "指数、级数和微分方程如何整合",
-      "source_candidates": [
-        "H01"
+      "kind": "publication_history",
+      "statement": "欧拉1748出版Introductio两卷且第一卷对应E101，写成于1745前后",
+      "source_ids": [
+        "H119",
+        "H120"
       ],
-      "verification": "PENDING"
+      "locator": "Euler Archive E101 metadata; ETH first edition",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C21-02",
-      "statement": "函数观念与系统计算方法",
-      "source_candidates": [
+      "kind": "function_history",
+      "statement": "1748著作以函数为分析组织中心，涵盖级数、无穷积、连分数等",
+      "source_ids": [
+        "H119",
+        "H124"
+      ],
+      "locator": "Euler Archive E101 summary and MAA treasure",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C21-03",
+      "kind": "concept_boundary",
+      "statement": "欧拉的函数观念不等于现代任意集合映射定义，也非函数一词首创",
+      "source_ids": [
+        "H119",
+        "H124",
         "H01"
       ],
-      "verification": "PENDING"
+      "locator": "Euler Archive emphasis; historiographic limit",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C21-04",
+      "kind": "publication_history",
+      "statement": "欧拉1744发表E65变分法专著，手稿1743已完成",
+      "source_ids": [
+        "H122"
+      ],
+      "locator": "Euler Archive E65 published/written dates",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C21-05",
+      "kind": "publication_history",
+      "statement": "欧拉1755发表微分学E212，手稿写成1748",
+      "source_ids": [
+        "H121"
+      ],
+      "locator": "Euler Archive E212 dates",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C21-06",
+      "kind": "publication_history",
+      "statement": "欧拉1768—1770发表积分学前三卷",
+      "source_ids": [
+        "H123",
+        "H129"
+      ],
+      "locator": "E342 volume 1 and MAA three volumes",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C21-07",
+      "kind": "modern_math",
+      "statement": "y'=2y,y(0)=3的解y=3e^(2t)且满足初值",
+      "source_ids": [],
+      "locator": "direct derivative & initial value check",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C21-08",
+      "kind": "modern_math",
+      "statement": "复指数关系e^(iθ)=cosθ+i sinθ及e^(iπ)+1=0可由绝对收敛级数分组",
+      "source_ids": [
+        "H119",
+        "H124"
+      ],
+      "locator": "MAA Euler identity; modern series calculation",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C21-09",
+      "kind": "historical_math",
+      "statement": "1748研究推动指数/对数与三角函数统一研究，但原证明非现代形式",
+      "source_ids": [
+        "H119",
+        "H124"
+      ],
+      "locator": "Euler Archive & MAA",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C21-10",
+      "kind": "variations",
+      "statement": "E65包含较一般曲线最优化，后世写作函数泛函J[y]只是现代解释",
+      "source_ids": [
+        "H122"
+      ],
+      "locator": "Euler Archive E65 catalogue research summary",
+      "verification": "SOURCE_CHECKED_MODERN_TRANSLATION"
+    },
+    {
+      "id": "C21-11",
+      "kind": "historical_boundary",
+      "statement": "1744先于1748，章节按观念分组而非强行声称时间顺序",
+      "source_ids": [
+        "H122",
+        "H119"
+      ],
+      "locator": "E65 and E101 dates",
+      "verification": "DATE_CHECKED"
+    },
+    {
+      "id": "C21-12",
+      "kind": "analysis_boundary",
+      "statement": "无穷级数的加和与换序条件不能由符号相似无条件保证",
+      "source_ids": [],
+      "locator": "modern absolute convergence and series principle",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C21-13",
+      "kind": "narrative_bridge",
+      "statement": "欧拉函数中心技术扩张为拉格朗日的代数奠基问题创造背景，但两者并非单因果",
+      "source_ids": [
+        "H119",
+        "H125",
+        "H127"
+      ],
+      "locator": "historical writings and Fraser appraisal",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "Euler Archive和馆藏所载1744、1748、1755、1768—1770为各书出版年，不能与研究时间互换。",
+    "函数概念历史化，不回写20世纪集合论定义。",
+    "复数级数与微分方程例子为现代数学回译。",
+    "本章不把变分必要条件误写为完整全局最优性充分条件。",
+    "正式draft gate与独立双审仍未通过。"
+  ]
 }

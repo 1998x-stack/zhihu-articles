@@ -704,6 +704,8 @@ G04-01至G04-18拥有可追溯资料或明确的编辑性/现代解释标记，�
 
 | ID | 书目与链接 | 核对结论与限制 |
 |---|---|---|
-| S87 | Smithsonian Institution, National Air and Space Museum, “The Ascent of the Great Montgolfier Balloon,” https://www.si.edu/object/nasm_A19680126000 （史密森学会航空航天馆官方馆藏历史介绍） | 1783年11月21日Pilâtre de Rozier与Marquis d’Arlandes首次载人自由飞行，使用蒙哥尔费热气球；12月1日Charles与Robert完成首次载人氢气球自由飞行。两种‘第一’的类别不同。支持第05章修订中的明确区分；**不能从升空活动推论查理1787年膨胀实验已经发生**。 |
+| S87 | Library of Congress, “The Dream of Flight” (early ballooning section), https://www.loc.gov/exhibits/dreamofflight/dream-dream.html （美国国会图书馆展览史料；2026-11-06复核可读取） | 明确列出1783年11月21日Pilâtre de Rozier与Marquis d’Arlandes搭乘蒙哥尔费热气球完成最早的载人自由飞行；**12月1日查理与罗伯特乘氢气球的事实由S33史密森学会资料交叉支持**。两种“第一”类别不同；此项不证明1787年热膨胀实验。 |
 
 > 增量核证触发自首轮continuity审计C-01：原标题‘首先让巴黎看见空气力量’不宜暗示查理率先完成一切载人自由飞行。S87与既有S33互相补充，原有1802论文的证据边界不变。
+
+> **S87链接维护（2026-11-06，revision 2）**：先前记录的Smithsonian对象URL `https://www.si.edu/object/nasm_A19680126000` 返回404，故用可读取的Library of Congress展览页核实11月21日优先权，并沿用S33核实12月1日氢气球飞行。只更正证据入口，不增加新的历史事实或代替第05章1787年的缺源实验细节。

@@ -1,25 +1,159 @@
 {
   "chapter": "19",
-  "status": "PENDING",
+  "title": "泰勒展开：曲线能用多项式代替吗",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H109",
+    "H110",
+    "H111",
+    "H114",
+    "H03",
+    "H38",
+    "H39",
+    "H40"
+  ],
   "claims": [
     {
       "id": "C19-01",
-      "statement": "复杂函数如何局部近似",
-      "source_candidates": [
-        "H01",
-        "H05"
+      "statement": "泰勒1715发表Methodus incrementorum，1712书信已有相关思路",
+      "kind": "bibliography",
+      "source_ids": [
+        "H109",
+        "H114"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor biography and Royal Society MS/82/2",
+      "verification": "CROSS_CHECKED"
     },
     {
       "id": "C19-02",
-      "statement": "展开式与余项",
-      "source_candidates": [
-        "H01",
-        "H05"
+      "statement": "1712年7月26日致John Machin信与Kepler等问题相关",
+      "kind": "archive",
+      "source_ids": [
+        "H114"
       ],
-      "verification": "PENDING"
+      "locator": "Royal Society catalogue MS/82/2",
+      "verification": "SOURCE_CHECKED_CATALOGUE"
+    },
+    {
+      "id": "C19-03",
+      "statement": "Gregory Newton Leibniz Johann Bernoulli de Moivre已有相关形式",
+      "kind": "historiography",
+      "source_ids": [
+        "H109"
+      ],
+      "locator": "MacTutor Taylor prior contributions paragraphs",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C19-04",
+      "statement": "印度喀拉拉级数可比但不证实直接传播到泰勒",
+      "kind": "transmission_boundary",
+      "source_ids": [
+        "H03",
+        "H38",
+        "H39",
+        "H40"
+      ],
+      "locator": "existing chapter 05 and research register",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C19-05",
+      "statement": "对f在a的n阶导数匹配决定Taylor系数f^(k)(a)/k!",
+      "kind": "modern_math",
+      "source_ids": [
+        "H111"
+      ],
+      "locator": "derivative matching derivation",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C19-06",
+      "statement": "适当光滑性下Taylor余项形式R_n=f^(n+1)(ξ)(x-a)^(n+1)/(n+1)!",
+      "kind": "modern_theorem",
+      "source_ids": [
+        "H111"
+      ],
+      "locator": "Taylor theorem with Lagrange remainder",
+      "verification": "MATH_CHECKED_CONDITIONAL"
+    },
+    {
+      "id": "C19-07",
+      "statement": "e^x在0的三次展开1+x+x²/2+x³/6",
+      "kind": "modern_math",
+      "source_ids": [
+        "H111"
+      ],
+      "locator": "derivatives of exponential",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C19-08",
+      "statement": "x∈[0,0.5]的三次余项小于0.00430，x=0.5误差约0.002888",
+      "kind": "modern_numeric",
+      "source_ids": [
+        "H111"
+      ],
+      "locator": "bound e^0.5*(0.5)^4/24 and numerical crosscheck",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C19-09",
+      "statement": "x=2时P3(2)=19/3而e²约7.389，局部近似精度不能随距离保留",
+      "kind": "modern_numeric",
+      "source_ids": [],
+      "locator": "P3(2) arithmetic vs exp(2)",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C19-10",
+      "statement": "1/(1−x)=Σx^n仅|x|<1，x=2级数发散",
+      "kind": "modern_convergence",
+      "source_ids": [
+        "H111"
+      ],
+      "locator": "geometric series ratio domain",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C19-11",
+      "statement": "f(0)=0,f(x)=e^(−1/x²)在零全部导数0，但原点周围函数非零",
+      "kind": "modern_counterexample",
+      "source_ids": [
+        "H111"
+      ],
+      "locator": "LibreTexts flat function section",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C19-12",
+      "statement": "无限次可微不保证由自身Taylor级数表示，解析性更强",
+      "kind": "modern_concept",
+      "source_ids": [
+        "H111"
+      ],
+      "locator": "counterexample consequence",
+      "verification": "MATH_CHECKED"
+    },
+    {
+      "id": "C19-13",
+      "statement": "历史1715著作不能等同现代严格泰勒余项定理与反例",
+      "kind": "historical_boundary",
+      "source_ids": [
+        "H109",
+        "H110",
+        "H111"
+      ],
+      "locator": "historical book vs modern teaching source",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "1717版影印不等于1715首版逐页核证。",
+    "1712书信与1715出版明确分开。",
+    "所有公式和非解析反例为现代回译。",
+    "喀拉拉与欧洲传播路径不得无证据推定。",
+    "未通过全书正式draft gate及独立双审。"
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "schema_version": "2.0",
+  "lane": "nonfiction",
+  "current_revision": 0,
+  "outline_approved": true,
+  "evidence_verified": true,
+  "review_status": "PENDING",
+  "reviewed_revision": null,
+  "unresolved_blockers": [],
+  "edited_revision": null,
+  "final_approved": false,
+  "stage_note": "第01—12章有非虚构工作初稿及逐章claims JSON。第10—12章新增TD预测、Q-learning离策略控制和SARSA在策略控制的历史—数值对照；review_status=PENDING；无独立双审或终稿。",
+  "evidence_scope": "仅01—12章的明确具体主张完成可访问原论文摘要、大学馆藏记录和部分一手正文的限定范围写作前核查；10—12章全部PDF图表及1994报告全文尚未独立复核。余下22个位置尚无写作前证据核验。",
+  "outline_scope": "截至第12章的已有章节大纲与所列来源形成书稿写作准入；序章、尾声和第13—32章尚未获得各自针对性核证和本批写作许可。"
+}
