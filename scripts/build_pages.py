@@ -157,7 +157,7 @@ def validate_books(genres: list[dict], books: list[dict]) -> None:
         seen.add(book_id)
         if book.get("genre") not in genre_ids:
             raise ValueError(f"Unknown genre for {book_id}: {book.get('genre')}")
-        for key in ("title", "author", "status", "description", "url"):
+        for key in ("title", "author", "description", "url"):
             if not isinstance(book.get(key), str) or not book[key].strip():
                 raise ValueError(f"{book_id} requires nonempty {key}")
         if urlsplit(book["url"]).scheme != "https":

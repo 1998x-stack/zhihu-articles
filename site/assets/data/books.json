@@ -6,8 +6,7 @@
     "author": "1998x-stack",
     "genre": "genre-history-science",
     "type": "科学发现史 · 长篇",
-    "status": "创作中",
-    "description": "一张给尚未发现的元素预留座位的表，为什么改变了科学家认识物质的方式？从拉瓦锡到门捷列夫，追寻元素周期律的发现、竞争与验证。序章与部分章节已有初稿，正在持续核校史料。",
+    "description": "一张给尚未发现的元素预留座位的表，为什么改变了科学家认识物质的方式？从拉瓦锡到门捷列夫，追寻元素周期律的发现、竞争与验证。仍在持续核校史料。",
     "tags": [
       "化学史",
       "门捷列夫",
@@ -15,7 +14,6 @@
       "科学革命"
     ],
     "url": "https://github.com/1998x-stack/The-Empty-Spaces",
-    "note": "序章及第一部部分章节为初稿，尚需史料审校；其余章节尚未完成。",
     "cover": "assets/covers/the-empty-spaces.png",
     "coverShort": "空位",
     "coverEyebrow": "THE EMPTY SPACES",
@@ -37,8 +35,7 @@
     "author": "1998x-stack",
     "genre": "genre-history-science",
     "type": "数学思想史 · 长篇",
-    "status": "创作中",
-    "description": "从不可公度量到集合论悖论，从微积分的严密化到哥德尔与图灵：当数学的根基一次次受到质疑，人们怎样重新建立确定性？目前只有部分章节形成初稿。",
+    "description": "从不可公度量到集合论悖论，从微积分的严密化到哥德尔与图灵：当数学的根基一次次受到质疑，人们怎样重新建立确定性？",
     "tags": [
       "数学史",
       "数学基础",
@@ -46,7 +43,6 @@
       "科学哲学"
     ],
     "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/the-loss-of-certainty-math-crises",
-    "note": "仓库说明显示仅第 01 章有长篇初稿，其他章节主要为占位；并非已出版读本。",
     "cover": "assets/covers/the-loss-of-certainty-math-crises.png",
     "coverShort": "失去\n确定性",
     "coverEyebrow": "THE LOSS OF CERTAINTY",
@@ -68,8 +64,7 @@
     "author": "1998x-stack",
     "genre": "genre-social-business",
     "type": "金融制度史 · 长篇",
-    "status": "创作中",
-    "description": "从古代泥板上的借贷记载，到全球银行、货币制度与现代金融危机，追问信用为何成立、承诺如何流通，以及规则如何在危机后被重塑。当前序章已有初稿，其余章节大多尚在规划。",
+    "description": "从古代泥板上的借贷记载，到全球银行、货币制度与现代金融危机，追问信用为何成立、承诺如何流通，以及规则如何在危机后被重塑。",
     "tags": [
       "世界金融史",
       "信用与债务",
@@ -77,7 +72,6 @@
       "商业与社会"
     ],
     "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/social-business/credit-debt-power-global-financial-history",
-    "note": "序章有初稿，其余章节与尾声主要为占位；未进入正式出版状态。",
     "cover": "assets/covers/credit-debt-power-global-financial-history.png",
     "coverShort": "信用\n债务\n与权力",
     "coverEyebrow": "A GLOBAL HISTORY OF FINANCE",
@@ -99,8 +93,7 @@
     "author": "1998x-stack",
     "genre": "genre-history-science",
     "type": "数学与网络科学史 · 长篇",
-    "status": "初稿创作中",
-    "description": "八部三十二章，追溯消元、行列式、向量、矩阵、特征值、公理化与数值线性代数的交叉发展。现阶段仅完成系列设计与章节占位。",
+    "description": "八部三十二章，追溯消元、行列式、向量、矩阵、特征值、公理化与数值线性代数的交叉发展。",
     "tags": [
       "线性代数",
       "数学史",
@@ -110,7 +103,6 @@
       "知识叙事"
     ],
     "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/linear-algebra-history",
-    "note": "当前 1 篇为尚未通过正式审校的正文初稿，其余 33 篇为章节占位；作品并非正式出版。",
     "cover": "assets/covers/linear-algebra-history.png",
     "coverShort": "从方程到空间",
     "coverEyebrow": "FROM EQUATIONS TO SPACES",
@@ -132,7 +124,6 @@
     "author": "1998x-stack",
     "genre": "genre-history-science",
     "type": "数学与网络科学史 · 长篇",
-    "status": "策划中",
     "description": "以公平、期望、大数、逆概率、极限、测度公理、随机过程、统计、模拟与AI预测的连锁问题重建概率论发展史。",
     "tags": [
       "概率论史",
@@ -143,7 +134,6 @@
       "知识叙事"
     ],
     "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/the-laws-of-chance-probability",
-    "note": "当前 38 篇章节文件仍为策划占位，尚无经过正式审校的正文。",
     "cover": "assets/covers/the-laws-of-chance-probability.png",
     "coverShort": "偶然的法则",
     "coverEyebrow": "THE LAWS OF CHANCE",
@@ -165,7 +155,6 @@
     "author": "1998x-stack",
     "genre": "genre-history-science",
     "type": "数学与网络科学史 · 长篇",
-    "status": "初稿创作中",
     "description": "以曲线求积和瞬时变化两条线索解释微积分的诞生、严密化与现代扩展。",
     "tags": [
       "数学史",
@@ -176,7 +165,6 @@
       "莱布尼茨"
     ],
     "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/the-making-of-calculus",
-    "note": "当前 1 篇为尚未通过正式审校的正文初稿，其余 36 篇为章节占位；作品并非正式出版。",
     "cover": "assets/covers/the-making-of-calculus.png",
     "coverShort": "从切线到无穷",
     "coverEyebrow": "THE MAKING OF CALCULUS",
@@ -198,7 +186,6 @@
     "author": "1998x-stack",
     "genre": "genre-history-science",
     "type": "数学与网络科学史 · 长篇",
-    "status": "策划中",
     "description": "七桥、树与回路、四色、匹配、极值、随机图、网络流、复杂性、图小式、互联网与图学习的数学思想史。采用专题因果叙事与编年核查双轴。",
     "tags": [
       "图论",
@@ -210,7 +197,6 @@
       "知乎盐选知识叙事"
     ],
     "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/graph-theory-history",
-    "note": "当前 38 篇章节文件仍为策划占位，尚无经过正式审校的正文。",
     "cover": "assets/covers/graph-theory-history.png",
     "coverShort": "连接的秩序",
     "coverEyebrow": "THE ORDER OF CONNECTIONS",
@@ -232,8 +218,7 @@
     "author": "1998x-stack",
     "genre": "genre-history-science",
     "type": "物理科学史 · 长篇",
-    "status": "初稿创作中",
-    "description": "从蒸汽机的效率困境出发，追踪热质论与热功等价冲突、能量守恒与第二定律、熵及热力学势、统计力学、量子与低温、非平衡涨落、信息热力学和黑洞热力学。以史实和物理矛盾为因果主线，所有章节目前为待核查占位。",
+    "description": "从蒸汽机的效率困境出发，追踪热质论与热功等价冲突、能量守恒与第二定律、熵及热力学势、统计力学、量子与低温、非平衡涨落、信息热力学和黑洞热力学。以史实和物理矛盾为因果主线。",
     "tags": [
       "热力学",
       "科学史",
@@ -248,7 +233,6 @@
       "信息热力学"
     ],
     "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/heat-and-time-thermodynamics-history",
-    "note": "当前 1 篇为尚未通过正式审校的正文初稿，其余 33 篇为章节占位；作品并非正式出版。",
     "cover": "assets/covers/heat-and-time-thermodynamics-history.png",
     "coverShort": "热与时间",
     "coverEyebrow": "HEAT AND TIME",
@@ -270,7 +254,6 @@
     "author": "1998x-stack",
     "genre": "genre-history-science",
     "type": "物理科学史 · 长篇",
-    "status": "策划中",
     "description": "从静电和磁石出发，沿着实验、场、电磁波、相对论、量子电动力学与电弱统一的因果链讲述电磁学史。",
     "tags": [
       "电磁学",
@@ -280,7 +263,6 @@
       "量子电动力学"
     ],
     "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/fields-of-light-electromagnetism-history",
-    "note": "当前 34 篇章节文件仍为策划占位，尚无经过正式审校的正文。",
     "cover": "assets/covers/fields-of-light-electromagnetism-history.png",
     "coverShort": "看不见的场",
     "coverEyebrow": "FIELDS OF LIGHT",
@@ -302,7 +284,6 @@
     "author": "1998x-stack",
     "genre": "genre-history-science",
     "type": "物理科学史 · 长篇",
-    "status": "初稿创作中",
     "description": "从1834年克拉佩龙公式里的267回溯两百年的气体科学：波义耳的玻璃管、查理与盖-吕萨克的温度研究、阿伏伽德罗的分子假说、卡诺热机、克劳修斯与霍斯特曼的改写，再到统计物理和真实气体。强调实验、证据和模型边界，而非单一天才传说。",
     "tags": [
       "理想气体",
@@ -313,7 +294,6 @@
       "知识叙事"
     ],
     "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/ideal-gas-law-two-centuries",
-    "note": "当前 5 篇为尚未通过正式审校的正文初稿，其余 12 篇为章节占位；作品并非正式出版。",
     "cover": "assets/covers/ideal-gas-law-two-centuries.png",
     "coverShort": "看不见的秩序",
     "coverEyebrow": "THE INVISIBLE ORDER",
@@ -335,7 +315,6 @@
     "author": "1998x-stack",
     "genre": "genre-history-science",
     "type": "数学与网络科学史 · 长篇",
-    "status": "策划中",
     "description": "从七桥到图神经网络，以问题、证据、人物与定理呈现网络科学的历史。",
     "tags": [
       "network-science",
@@ -343,7 +322,6 @@
       "complex-networks"
     ],
     "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/articles/nonfiction/history-science/network-science-history",
-    "note": "当前 34 篇章节文件仍为策划占位，尚无经过正式审校的正文。",
     "cover": "assets/covers/network-science-history.png",
     "coverShort": "连接的真相",
     "coverEyebrow": "THE SCIENCE OF CONNECTIONS",
