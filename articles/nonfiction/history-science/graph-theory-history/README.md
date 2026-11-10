@@ -1,7 +1,7 @@
 # 连接的秩序：图论三百年
 
 <!-- SERIES_PROGRESS:START -->
-> **系列进度（自动核对，非出版许可）**：规划 38 篇 · 工作初稿 38 篇 · 策划占位 0 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
+> **系列进度（自动核对，非出版许可）**：规划 38 篇 · 工作初稿 38 篇 · 策划占位 0 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 CHANGES_REQUIRED · 最终封版 否。
 <!-- SERIES_PROGRESS:END -->
 *The Order of Connections: Three Centuries of Graph Theory*
 
@@ -155,7 +155,7 @@
 - [chapters.json](chapters.json)：机器可读章节目录。
 - [workflow-state.json](workflow-state.json)：当前审批与事实核证状态。
 
-第00—37章 `draft/NN.md` 均为**创作初稿**，对应 `draft/NN.claims.json` 有来源与限定核证范围；全书独立史实/数学/连续性/结构审校从本批正式启动，具体审稿状态以 [workflow-state.json](workflow-state.json) 和 [QA报告](qa/) 为准，未正式封版或对外发布。
+第00—37章 `draft/NN.md` 均为**创作初稿**，对应 `draft/NN.claims.json` 有来源与限定核证范围；全书独立史实/数学/连续性/结构审校首轮已执行，当前结论 **CHANGES_REQUIRED**；事实/公式关键核证与年表时间线仍有阻断，具体见 [workflow-state.json](workflow-state.json)、[史实报告](qa/fact-check-report.md)、[公式报告](qa/math-review.md)、[连续性报告](qa/continuity-report.md)、[结构审稿](qa/developmental-review.md)。**未正式封版或对外发布**。
 
 ## 序章的叙事切入口
 一座城市有七座桥。人们想找到一条路线，让每座桥恰好被走过一次。看起来只要足够耐心，总能试遍所有走法。但问题真正的突破，来自一次出人意料的删减：道路有多长、桥怎样弯曲、河水向哪里流，都可以从问题里消失。留下来的只有四块陆地，以及它们之间的连接。
