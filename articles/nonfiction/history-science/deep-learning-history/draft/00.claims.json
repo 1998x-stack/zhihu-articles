@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "00",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific original papers, historic competition records, scholarly reviews, license documentation and explicitly constructed toy examples; no independent whole-paper audit",
+  "official_chapter": true,
+  "claims": [
+    {
+      "claim_id": "C00-01",
+      "claim": "2012 ILSVRC分类Top5官方SuperVision15.315%与ISI26.172%",
+      "source_ids": [
+        "DL162",
+        "DL163"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "官方表率、不是同条件单模型对照",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C00-02",
+      "claim": "同赛事SuperVision 15.315%含额外数据，16.422%只用指定数据",
+      "source_ids": [
+        "DL162"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "两项不能和单CNN表现混同",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C00-03",
+      "claim": "15.3%由七CNN集成，不是单CNN误差",
+      "source_ids": [
+        "DL80",
+        "DL163"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "原论文PDF与网页摘要存在版本差异",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C00-04",
+      "claim": "2009 ImageNet 3.2m/5247类与2012千类竞赛子集不同",
+      "source_ids": [
+        "DL77",
+        "DL79"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "2009数据库不是2012完整训练集",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C00-05",
+      "claim": "CNN/反传/形式神经网络早于2012，贡献非孤立单项",
+      "source_ids": [
+        "DL166",
+        "DL47",
+        "DL80",
+        "DL164"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "HISTORICAL_SYNTHESIS",
+      "limitations": "思想路线独立且各有时代限制",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C00-06",
+      "claim": "2012 GPU、ReLU、数据增强、dropout与可比大规模评测共同作用",
+      "source_ids": [
+        "DL80",
+        "DL89",
+        "DL79"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不得宣称2012首次发明组成部分",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C00-07",
+      "claim": "Top5类别排名的正确答案未进前五才算错误",
+      "source_ids": [
+        "DL79",
+        "DL162"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不等于一个图只有5种可能类",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C00-08",
+      "claim": "10000张假想图1530与2620错误相差1090的示例",
+      "source_ids": [
+        "AUTHOR_DERIVATION",
+        "DL162"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "假想数据集/四舍五入百分数；非原比赛规模",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

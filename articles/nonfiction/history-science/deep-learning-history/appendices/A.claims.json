@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "A",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific original papers, historic competition records, scholarly reviews, license documentation and explicitly constructed toy examples; no independent whole-paper audit",
+  "official_chapter": false,
+  "claims": [
+    {
+      "claim_id": "CA-01",
+      "claim": "2012并非CNN发明日期",
+      "source_ids": [
+        "DL52",
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "早期LeNet与2012 AlexNet架构/任务有别",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "CA-02",
+      "claim": "2012Top5 15.315%含额外数据与七CNN集成",
+      "source_ids": [
+        "DL162",
+        "DL80"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不同提交16.422%需一并注明",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "CA-03",
+      "claim": "ImageNet/ILSVRC测量分类而非完整理解",
+      "source_ids": [
+        "DL79",
+        "DL162"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "TECHNICAL_QUALIFIED",
+      "limitations": "图像标注本身有边界",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "CA-04",
+      "claim": "反传在1986推广不代表此前零源头",
+      "source_ids": [
+        "DL47"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "HISTORICAL_QUALIFIED",
+      "limitations": "更早研究见第07章不同前史和原始文献",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "CA-05",
+      "claim": "1969批评/AI寒冬没有让所有神经网研究停止",
+      "source_ids": [
+        "DL43",
+        "DL47"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "HISTORICAL_QUALIFIED",
+      "limitations": "跨国多条路线并行，不归为直接反驳因果",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "CA-06",
+      "claim": "注意力于2014/15已用于翻译，2017 Transformer属结构组合",
+      "source_ids": [
+        "DL93",
+        "DL107"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "2017不等于所有注意力始点",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "CA-07",
+      "claim": "GPT2018与BERT2018/19有不同目标与结构",
+      "source_ids": [
+        "DL113",
+        "DL114",
+        "DL115"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是单纯同架构尺寸差异",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "CA-08",
+      "claim": "AlphaGo Zero仍使用围棋规则与MCTS",
+      "source_ids": [
+        "DL125"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "100:0对旧程序不是人类",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "CA-09",
+      "claim": "AlphaFold CASP14 GDT_TS92.4不是92.4%完全预测正确",
+      "source_ids": [
+        "DL128",
+        "DL129"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "结构域中位评估不等于动态与功能预测",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "CA-10",
+      "claim": "开放权重、偏好得分、事实可靠性不是同一承诺",
+      "source_ids": [
+        "DL141",
+        "DL143",
+        "DL148"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "HISTORICAL_SYNTHESIS",
+      "limitations": "不宣称一个许可证或一个测试证明全部治理",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

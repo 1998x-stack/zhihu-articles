@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "31",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific original papers, historic competition records, scholarly reviews, license documentation and explicitly constructed toy examples; no independent whole-paper audit",
+  "official_chapter": true,
+  "claims": [
+    {
+      "claim_id": "C31-01",
+      "claim": "1943形式神经元与1986可微隐藏层训练的任务不同",
+      "source_ids": [
+        "DL166",
+        "DL47"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "HISTORICAL_SYNTHESIS",
+      "limitations": "不把逻辑神经元当成已经会反传",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C31-02",
+      "claim": "2012 AlexNet高分依赖结构与数据硬件和评测组合",
+      "source_ids": [
+        "DL162",
+        "DL163",
+        "DL164"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "七CNN组合，不是通用视觉理解证明",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C31-03",
+      "claim": "2020规模律与2022 Chinchilla是特定损失/算力经验研究",
+      "source_ids": [
+        "DL117",
+        "DL119"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不推为全部智能必然指数",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C31-04",
+      "claim": "2017 Transformer与2018 GPT/BERT机制目标不同",
+      "source_ids": [
+        "DL107",
+        "DL113",
+        "DL115"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "模型表示有效不自动解决理解的定义",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C31-05",
+      "claim": "AlphaGo、AlphaFold、CLIP分别是棋决策、结构预测、图文匹配",
+      "source_ids": [
+        "DL123",
+        "DL125",
+        "DL128",
+        "DL134"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "TECHNICAL_QUALIFIED",
+      "limitations": "指标不能横向排名一个智能总分",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C31-06",
+      "claim": "TruthfulQA/人评/2026 HLE测量不同任务的可靠性范围",
+      "source_ids": [
+        "DL143",
+        "DL141",
+        "DL158"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "2026研究仍随模型版本变动",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C31-07",
+      "claim": "2024 Nobel官方认可Hopfield/Hinton奠基工作但非所有贡献",
+      "source_ids": [
+        "DL165"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "诺奖回顾非唯一作者证明",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C31-08",
+      "claim": "虚构两样本集合90/100 Top5与5/20高风险错不互推",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "作者设定、不同分母，不是原研究数值",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
