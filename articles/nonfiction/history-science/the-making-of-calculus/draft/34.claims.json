@@ -1,23 +1,166 @@
 {
   "chapter": "34",
-  "status": "PENDING",
+  "title": "鲁滨逊：无穷小怎样重新获得数学身份",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H206",
+    "H207",
+    "H208",
+    "H209",
+    "H210",
+    "H211",
+    "H212",
+    "H203"
+  ],
   "claims": [
     {
       "id": "C34-01",
-      "statement": "非零无穷小是否可能严格化",
-      "source_candidates": [
-        "H15"
+      "kind": "history_primary",
+      "statement": "Robinson own preface reports fall1960 idea, November1960 Princeton seminar, January1961 ASL address, 1961 Amsterdam paper",
+      "source_ids": [
+        "H206"
       ],
-      "verification": "PENDING"
+      "locator": "original preface p.xiii PDF screenshot",
+      "verification": "PRIMARY_PAGE_CHECKED"
     },
     {
       "id": "C34-02",
-      "statement": "非标准分析与超实数",
-      "source_candidates": [
-        "H15"
+      "kind": "history_edition",
+      "statement": "Robinson Non-standard Analysis first edition1966; revised edition1974 and Princeton reprint1996 differentiated",
+      "source_ids": [
+        "H206",
+        "H207"
       ],
-      "verification": "PENDING"
+      "locator": "original edition front matter and NAS bibliography",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C34-03",
+      "kind": "history_influences",
+      "statement": "Skolem nonstandard arithmetic inspired Robinson; earlier 1958 Schmieden/Laugwitz efforts distinct",
+      "source_ids": [
+        "H206",
+        "H208"
+      ],
+      "locator": "Robinson original preface and SEP scholarly history",
+      "verification": "SOURCE_CHECKED"
+    },
+    {
+      "id": "C34-04",
+      "kind": "modern_real",
+      "statement": "no positive ordinary real eta smaller than 1/n for all ordinary positive integers n (Archimedean)",
+      "source_ids": [
+        "H208"
+      ],
+      "locator": "Archimedean property and direct contradiction",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C34-05",
+      "kind": "modern_construction",
+      "statement": "hyperreal ultrapower *R=R^N/U for nonprincipal ultrafilter U and componentwise algebra quotient",
+      "source_ids": [
+        "H209"
+      ],
+      "locator": "University of Chicago modern construction notes",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C34-06",
+      "kind": "modern_logic",
+      "statement": "nonprincipal ultrafilter includes cofinite excludes finite sets and supports ordered field extension; existence uses choice-related principles",
+      "source_ids": [
+        "H209"
+      ],
+      "locator": "ultrafilter axioms in modern construction",
+      "verification": "MATH_QUALIFIED"
+    },
+    {
+      "id": "C34-07",
+      "kind": "modern_infinitesimal",
+      "statement": "eta=[1/n]>0, eta !=0 and eta<r every positive standard real r",
+      "source_ids": [
+        "H209",
+        "H210"
+      ],
+      "locator": "cofinite comparison sets and quotient equality",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C34-08",
+      "kind": "modern_infinite",
+      "statement": "H=1/eta=[n] exceeds every standard positive integer and H eta=1",
+      "source_ids": [
+        "H209"
+      ],
+      "locator": "coordinatewise inverse and eventual positivity",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C34-09",
+      "kind": "modern_standard_part",
+      "statement": "every finite hyperreal has unique real standard part; st(6+eta)=6",
+      "source_ids": [
+        "H208",
+        "H211"
+      ],
+      "locator": "real completeness and unique infinitesimal proximity",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C34-10",
+      "kind": "modern_derivative",
+      "statement": "derivative of x² at 3 via st(((3+eta)²-9)/eta)=6, no eta=0 division",
+      "source_ids": [
+        "H209",
+        "H211"
+      ],
+      "locator": "algebraic polynomial expansion and standard part",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C34-11",
+      "kind": "logic_boundary",
+      "statement": "transfer applies suitable first-order internal statements, not arbitrary second-order completeness or external standard part",
+      "source_ids": [
+        "H209",
+        "H208"
+      ],
+      "locator": "modern model theory semantics and caution",
+      "verification": "QUALIFIED_LOGIC"
+    },
+    {
+      "id": "C34-12",
+      "kind": "historiography",
+      "statement": "Robinson rigor does not validate all original seventeenth century infinitesimal steps or replace standard analysis",
+      "source_ids": [
+        "H206",
+        "H208"
+      ],
+      "locator": "historical vs modern axiom distinction",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C34-13",
+      "kind": "bridge",
+      "statement": "distribution delta and hyperreal infinitesimal are distinct mathematical objects; neither ordinary programming differentiation by default",
+      "source_ids": [
+        "H203",
+        "H212",
+        "H206"
+      ],
+      "locator": "distinct definitions and editorial chapter35 hook",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "1960 Nov, 1961, 1966 distinguished using author original preface; 1996 is a reprint.",
+    "Skolem prior nonstandard models and 1958 Schmieden/Laugwitz are historically separate and credited.",
+    "Nonprincipal ultrafilter construction assumes a nontrivial set-theoretic existence principle; not naive limit of sequences.",
+    "Infinitesimal eta positive nonzero below every positive STANDARD real, not below every positive hyperreal.",
+    "st operation is different from setting eta=0; transfer applies only suitable first-order internal statements.",
+    "Modern model theory does not grant Newton/Leibniz historical knowledge of these axioms.",
+    "No independent QA or full official draft gate approval."
+  ]
 }
