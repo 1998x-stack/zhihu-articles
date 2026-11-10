@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "18",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "source-scoped primary-paper/checklist review only; no independent full review",
+  "claims": [
+    {
+      "claim_id": "C18-01",
+      "claim": "四作者2015公开预印本2016正式CVPR",
+      "source_ids": [
+        "DL81"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "首次公开与正式会议出版分开",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-02",
+      "claim": "CIFAR-10 56层plain相对20层plain出现更高训练错误",
+      "source_ids": [
+        "DL81"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "Fig1实验条件，不能外推所有网络",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-03",
+      "claim": "残差F(x)=H(x)-x和H(x)=x+F(x)可用恒等旁路实现",
+      "source_ids": [
+        "DL81"
+      ],
+      "kind": "mechanism",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "需相同维度或投影处理",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-04",
+      "claim": "ImageNet plain18验证top1 27.94,plain34 28.54",
+      "source_ids": [
+        "DL81"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "Table2验证top1与10crop，非训练错误数值",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-05",
+      "claim": "ImageNet ResNet18验证top1 27.88,ResNet34 25.03",
+      "source_ids": [
+        "DL81"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "Table2原作者训练设置",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-06",
+      "claim": "ILSVRC 2015 ResNet集成测试top5错误3.57",
+      "source_ids": [
+        "DL81"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "是集成测试不是单个152层",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-07",
+      "claim": "H(3)=5 F(3)=2教学例和简化局部导数I+dF/dx",
+      "source_ids": [
+        "DL81",
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "含激活/投影的真实结构不可一概套用",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C18-08",
+      "claim": "退化是深层plain网络训练优化困难，不是必然过拟合或简单梯度消失",
+      "source_ids": [
+        "DL81"
+      ],
+      "kind": "interpretation",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "原论文作者的实验解释不等于普遍优化定理",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
