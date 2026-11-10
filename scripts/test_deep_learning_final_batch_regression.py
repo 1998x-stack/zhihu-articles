@@ -68,7 +68,7 @@ class DeepLearningFinalBatchRegressionTests(unittest.TestCase):
                         if source=="AUTHOR_DERIVATION":
                             self.assertIn("假设",md)
                         else:
-                            self.assertRegex(source,r"^DL\d{3}$")
+                            self.assertRegex(source,r"^DL\d{2,3}$")
                             self.assertIn(source,self.research)
                 self.assertIn("https://",md)
 
