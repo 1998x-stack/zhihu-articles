@@ -585,23 +585,54 @@
     {
       "id": "32",
       "title": "希尔伯特与巴拿赫：当函数变成空间里的点",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/32.md",
-      "claims_path": "draft/32.claims.json"
+      "claims_path": "draft/32.claims.json",
+      "source_ids": [
+        "H188",
+        "H189",
+        "H190",
+        "H191",
+        "H192",
+        "H193",
+        "H194",
+        "H195",
+        "H196"
+      ]
     },
     {
       "id": "33",
       "title": "施瓦茨：不能求经典导数的对象仍可微分吗",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/33.md",
-      "claims_path": "draft/33.claims.json"
+      "claims_path": "draft/33.claims.json",
+      "source_ids": [
+        "H197",
+        "H198",
+        "H199",
+        "H200",
+        "H201",
+        "H202",
+        "H203",
+        "H204",
+        "H205"
+      ]
     },
     {
       "id": "34",
       "title": "鲁滨逊：无穷小怎样重新获得数学身份",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/34.md",
-      "claims_path": "draft/34.claims.json"
+      "claims_path": "draft/34.claims.json",
+      "source_ids": [
+        "H206",
+        "H207",
+        "H208",
+        "H209",
+        "H210",
+        "H211",
+        "H212"
+      ]
     },
     {
       "id": "35",

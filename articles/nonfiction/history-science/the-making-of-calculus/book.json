@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "the-making-of-calculus",
   "title": "从切线到无穷：微积分的诞生与重建",
-  "reading_notice": "序章00与第01—31章共32篇已有逐章来源映射的未独立审稿工作初稿；第32—36章共5篇仍为策划占位。全书正式工作流outline_approved=false、evidence_verified=false、review_status=PENDING；索引draft不等于审稿PASS、终稿或对外发布。",
+  "reading_notice": "序章00与第01—34章共35篇已有逐章来源映射的未独立审稿工作初稿；第35—36章共2篇仍为策划占位。全书正式工作流outline_approved=false、evidence_verified=false、review_status=PENDING；索引draft不等于审稿PASS、终稿或对外发布。",
   "chapters": [
     {
       "id": "prologue",
@@ -233,21 +233,21 @@
       "title": "32｜希尔伯特与巴拿赫：当函数变成空间里的点",
       "part": "第六部｜病态函数改变积分",
       "file": "draft/32.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-33",
       "title": "33｜施瓦茨：不能求经典导数的对象仍可微分吗",
       "part": "第七部｜走出纸面的微积分",
       "file": "draft/33.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-34",
       "title": "34｜鲁滨逊：无穷小怎样重新获得数学身份",
       "part": "第七部｜走出纸面的微积分",
       "file": "draft/34.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-35",
