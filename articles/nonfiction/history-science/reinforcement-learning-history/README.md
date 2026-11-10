@@ -268,3 +268,5 @@
 - [事实与数学审计矩阵](qa/full-book-fact-audit.md)：按八个组列出关键历史年份、人物贡献、公式支持范围、论文版本及实验口径与待办。
 
 [第十二批工作交接](batches/closing-33-audit.md) · [审稿工作区说明](qa/README.md)。**review_status=PENDING；正式独立双审、语言精修、终稿批准与知乎发布均未发生。**
+
+**全书审校正式追踪入口**：[GitHub Issue #52｜独立事实核验、连续性与发展性双审](https://github.com/1998x-stack/zhihu-articles/issues/52)。该Issue仍为OPEN，审稿签核和实际修订尚待完成；`review_status=PENDING`，不得用Issue的存在冒充独立PASS。

@@ -17,3 +17,7 @@
 下一步必须由独立fact-research、continuity-audit、developmental-editor针对同一当前修订开展核查；整改用revision-manager记录，新的修订使旧报告失效。line-edit、final-approval、publication-package不能越过门禁。
 
 [全书目录](../README.md) · [研究档案](../research.md) · [证据账本](../claim-ledger.md)
+
+## 正式任务追踪
+
+[GitHub Issue #52｜34篇全书独立审核任务与验收清单](https://github.com/1998x-stack/zhihu-articles/issues/52)已创建，当前OPEN且未标记任何独立审稿PASS。所有后续修订、二核与审稿结论应在该任务下可追溯记录。
