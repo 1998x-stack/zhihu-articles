@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "last_chapter": 18,
+  "last_chapter": 21,
   "manuscript_revision": 0,
   "chapter_status": {
     "10": "draft",
@@ -13,7 +13,9 @@
     "16": "draft",
     "17": "draft",
     "18": "draft",
-    "19": "outline",
+    "19": "draft",
+    "20": "draft",
+    "21": "draft",
     "00": "outline",
     "01": "draft",
     "02": "draft",
@@ -98,12 +100,24 @@
     {
       "chapter": "18",
       "coverage": "2014 VGG/Inception；2015 BatchNorm/Highway/ResNet预印本与竞赛；2016 CVPR ResNet、ECCV身份映射后续"
+    },
+    {
+      "chapter": "19",
+      "coverage": "2014 Cho等七作者EMNLP RNN Encoder–Decoder辅助SMT与Sutskever/Vinyals/Le三作者NIPS端到端seq2seq；BLEU34.8/33.3/36.5按系统模式解释"
+    },
+    {
+      "chapter": "20",
+      "coverage": "2014-09 Bahdanau/Cho/Bengio注意力预印本，2015 ICLR发表；软对齐归一化权重逐目标词产生context"
+    },
+    {
+      "chapter": "21",
+      "coverage": "2013/14 VAE、2014 GAN、2015扩散前驱、2020 DDPM、2022 LDM专题回溯；架构、训练目标与出版口径分开"
     }
   ],
   "unresolved_clues": [
-    "19章：不同句长的序列怎样经神经网络映射成另一句？",
-    "20章：机器翻译中的对齐与注意力为何改变长序列瓶颈？",
-    "21章：2017 Transformer怎样摆脱循环依赖并调整比较基准？"
+    "22章：序列的远距离依赖与并行训练怎样在2017 Transformer中重新组织？",
+    "23章：预训练目标为什么能用于多种下游任务？",
+    "24章：数据、模型与计算预算的关系怎样被验证？"
   ],
   "resolved_clues": [
     "第01章数学形式化为何能表达明确计算",
@@ -123,7 +137,10 @@
     "15章区分DNN声学模型与HMM解码，并记录特定RT03S基准结果",
     "16章区分ImageNet数据库与年度ILSVRC子集及Top-1/Top-5",
     "17章15.3%为七CNN集成Top-5测试错误，复核官网网页与PDF数字冲突",
-    "18章训练退化与过拟合不同，身份残差路径的toy梯度可复算"
+    "18章训练退化与过拟合不同，身份残差路径的toy梯度可复算",
+    "19章：序列到序列使变长输入输出进入同一可训练概率框架，但固定句向量是潜在瓶颈",
+    "20章：可微软对齐使译词每步可动态取用不同来源位置，并不等于2017 Transformer",
+    "21章：GAN、VAE、扩散和LDM各有目标与历史先后，生成逼真并不构成理解证明"
   ],
   "continuity_notes": [
     "第01章历史数学前史为多文明并行比较，无暗示直接传授",
@@ -155,7 +172,11 @@
     "2012的15.3 Top-5是七CNN集成含更大类别监督预训练的模型，不能称单个AlexNet",
     "2015 ResNet预印本及竞赛，2016 CVPR正式发表；3.57%是集成Top-5测试误差",
     "2015 Highway门控与ResNet身份捷径应同时保留，退化不等于过拟合",
-    "第01—18章均为工作初稿，独立双重审稿尚未完成"
+    "第01—18章均为工作初稿，独立双重审稿尚未完成",
+    "2014 EMNLP七作者Cho论文与NIPS三作者Sutskever论文不同，BLEU口径只来自后者",
+    "Bahdanau注意力2014预印本/2015 ICLR正式发表，研究假设非固定向量不可能定理",
+    "第21章跨2014—2022主题回溯，2015扩散与2020 DDPM、2022 LDM的模型目标不混淆",
+    "第01—21章均为作者工作初稿，独立事实/结构双审PENDING"
   ],
   "review_status": "PENDING"
 }
