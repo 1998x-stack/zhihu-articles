@@ -1,11 +1,108 @@
 {
   "chapter": "33",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S10"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Milgram1967 Psychology Today原文；Travers/Milgram1969 Sociometry原刊及296/64/5.2完成链数据；Granovetter1973弱关系、Watts/Strogatz1998 Nature重连模型、Kleinberg2000可导航性。十二点例子为作者构造而非原始仿真。",
+  "claims": [
+    {
+      "claim_id": "GT33-01",
+      "claim": "高局部聚类与低全局平均最短路可在某些网络共存，不等于人人六步",
+      "source_ids": [
+        "S149",
+        "S147"
+      ],
+      "status": "MODEL_CORE"
+    },
+    {
+      "claim_id": "GT33-02",
+      "claim": "Milgram1967 Psychology Today提出小世界熟人链问题，不是全球六步证明",
+      "source_ids": [
+        "S146"
+      ],
+      "status": "PRIMARY_HISTORY"
+    },
+    {
+      "claim_id": "GT33-03",
+      "claim": "Travers/Milgram1969 Sociometry32:425-443初始296、完成64条、成功链平均5.2中间人，样本有失访偏差",
+      "source_ids": [
+        "S147"
+      ],
+      "status": "PRIMARY_EXPERIMENT"
+    },
+    {
+      "claim_id": "GT33-04",
+      "claim": "短路径存在与参与者仅靠本地熟人信息能否导航为不同问题，Kleinberg2000研究后者",
+      "source_ids": [
+        "S150"
+      ],
+      "status": "NAVIGATION_DISTINCTION"
+    },
+    {
+      "claim_id": "GT33-05",
+      "claim": "无向图局部聚类系数C_v=邻居间实际边数除以binomial(k,2)，k<2的口径需声明",
+      "source_ids": [
+        "S149"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT33-06",
+      "claim": "平均最短路径L须指定连通可达点对或连通分量口径，不可无说明丢弃无限距离",
+      "source_ids": [
+        "S149",
+        "S150"
+      ],
+      "status": "PATH_METRIC_BOUNDARY"
+    },
+    {
+      "claim_id": "GT33-07",
+      "claim": "12节点环每点连接±1±2，k=4且邻居间3条边，C=1/2",
+      "source_ids": [
+        "S149"
+      ],
+      "status": "AUTHOR_CONSTRUCTION"
+    },
+    {
+      "claim_id": "GT33-08",
+      "claim": "十二点环添加0—6远程边使0到6距离3降至1，平均聚类从0.5到0.4667",
+      "source_ids": [
+        "S149"
+      ],
+      "status": "AUTHOR_ARITHMETIC_EXAMPLE"
+    },
+    {
+      "claim_id": "GT33-09",
+      "claim": "Watts/Strogatz Nature393:440-442于1998-06-04正式出版并研究随机重连网络",
+      "source_ids": [
+        "S149"
+      ],
+      "status": "PRIMARY_BIBLIO"
+    },
+    {
+      "claim_id": "GT33-10",
+      "claim": "WS模型以p重连规则格点，中间窗口可能同时高聚类和短特征路径",
+      "source_ids": [
+        "S149"
+      ],
+      "status": "MODEL_RESULTS_SCOPED"
+    },
+    {
+      "claim_id": "GT33-11",
+      "claim": "Granovetter1973 American Journal of Sociology78:1360-1380弱关系跨社群及信息传播，非所有弱边都是拓扑桥",
+      "source_ids": [
+        "S148"
+      ],
+      "status": "SOCIAL_SCIENCE_SCOPE"
+    },
+    {
+      "claim_id": "GT33-12",
+      "claim": "小世界短路径及高聚类不推出无标度度数分布或少数超级枢纽必然存在",
+      "source_ids": [
+        "S149",
+        "S150"
+      ],
+      "status": "NEXT_CHAPTER_BOUNDARY"
+    }
+  ]
 }
