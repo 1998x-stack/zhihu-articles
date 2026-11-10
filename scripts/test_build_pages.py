@@ -74,7 +74,13 @@ class PagesBuildTests(unittest.TestCase):
                 exported = json.loads((output / "read" / book_id / "book.json").read_text(encoding="utf-8"))
                 self.assertEqual(len(exported["chapters"]), total)
                 self.assertTrue(all(ch["href"].startswith("read/" + book_id + "/") for ch in exported["chapters"]))
-            self.assertIn("章节占位", (output / "read/network-science-history/chapter-32/index.html").read_text(encoding="utf-8"))
+            # Chapter 32 and the prologue/epilogue are now working drafts,
+            # not editorially approved finals or planning placeholders.
+            for chapter in ("prologue", "chapter-32", "epilogue"):
+                html = (output / "read/network-science-history" / chapter / "index.html").read_text(encoding="utf-8")
+                self.assertIn("正文初稿", html)
+                self.assertNotIn("章节占位", html)
+                self.assertIn("待审校", html)
             self.assertIn("正文初稿", (output / "read/ideal-gas-law-two-centuries/chapter-04/index.html").read_text(encoding="utf-8"))
             # Existing manuscripts use several distinct LaTeX delimiters.
             # These must survive Markdown -> HTML cleanup for MathJax.
