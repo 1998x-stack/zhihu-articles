@@ -297,3 +297,31 @@
 3. 2011语音论文的模型规模（训练小时数/状态数/层数）可以按其论文范围引用，但不同基准或统计口径不可直接横比；如使用27.4与18.5必须注明单遍、说话人无关、RT03S Fisher数据条件。
 4. 不得虚构中国学者国籍、现场对话或实验日志；应以原论文中北京/雷德蒙德机构署名和原始作者列为准。
 5. 本轮所有章节仍为工作初稿研究范围；独立连续性审计和结构审稿没有PASS，最终版本未批准。
+
+
+## 第六批16—18章限定证据复核（2026-11-10，非独立审稿）
+
+> 本节只为第16—18章的**史实与机制性工作初稿**提供有界证据。核查了三篇原论文的公开PDF首页/关键表格以及2012竞赛官方说明；正式同行史学审阅、重复实验、全部图表核对仍未完成。本节不能将全书evidence_verified外推为全部资料已核。
+
+| ID | 原始来源、时间与可核链接 | 检查点 / 精确支持范围 | 边界 |
+| --- | --- | --- | --- |
+| DL77 | Deng, Dong, Socher, Li-Jia Li, Kai Li, Li Fei-Fei, “ImageNet: A Large-Scale Hierarchical Image Database”, CVPR **2009**, [论文PDF](https://www.image-net.org/static_files/papers/imagenet_cvpr09.pdf) | PDF p.1摘要与§2：当时12个子树、**5,247个synsets、约320万图像**；基于WordNet词义集；§3.2通过Amazon Mechanical Turk进行人工候选图核实。 | **2009快照**，不能拿来描述2012竞赛训练集的1000类/120万图像；原论文50百万是长远目标，不是2009已完成数。 |
+| DL78 | ImageNet团队， [ILSVRC 2012官方挑战页面](https://image-net.org/challenges/LSVRC/2012/)，2012 | Data节：挑战分类为1000类，训练集约**120万**图像，验证集50,000，官方验证+测试共150,000；测试标签当时不公开。 | 比赛任务子集与整个ImageNet数据库不等价；不同年份任务、评估口径不得直接排序。 |
+| DL79 | Russakovsky et al., “ImageNet Large Scale Visual Recognition Challenge”, IJCV **2015**, 115:211–252，[arXiv稿](https://arxiv.org/abs/1409.0575)、[期刊记录](https://link.springer.com/article/10.1007/s11263-015-0816-y) | 自2010年起的ILSVRC体系性回顾；数据采集/评测协议、分类与检测任务分别说明，含数据集与评测的局限。 | **2015回顾文章**不属于2009建库或2012论文当时的原始发表；后见之明应明确标注。 |
+| DL80 | Krizhevsky, Sutskever & Hinton, “ImageNet Classification with Deep Convolutional Neural Networks”, NeurIPS/NIPS **2012**, [官方PDF](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) | PDF p.1、§3–§6、Table 1/2：5卷积+3全连接学习层；两块GTX580 3GB，训练约5–6天；**ILSVRC-2010 test top-1 37.5%、top-5 17.0%；ILSVRC-2012单CNN验证top-5 18.2%、7模型集成测试top-5 15.3%，竞赛第二名26.2%**。 | 2012年**15.3%是混合预训练模型的集成比赛结果**，不是单个AlexNet的表现；NIPS网页摘要与该PDF在2010示例数字存在不一致，本批采用PDF并记录版本风险。2010与2012的数字不可混称。 |
+| DL81 | He, Zhang, Ren & Sun, “Deep Residual Learning for Image Recognition”, [2015-12预印本](https://arxiv.org/abs/1512.03385)、CVPR **2016** [官方开放PDF](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) | PDF p.770–775，Fig.1、Fig.2、Fig.4、Table 2：CIFAR-10较深**plain 56层比20层训练误差更大**；ImageNet plain 18层top-1验证错误率27.94%、plain34层28.54%，ResNet-18为27.88%、ResNet-34为25.03%；论文Table 5所述ILSVRC2015集成测试top-5错误率**3.57%**。 | 高训练误差是**优化退化**证据，不等于单纯过拟合或所有情形下都由梯度消失造成；3.57%是集成测试，非任意单模型。2015先公开预印本，2016发表于CVPR。 |
+
+### 本批结构性核验结论
+
+1. **ImageNet ≠ ILSVRC ≠ ILSVRC-2012训练切片**：2009建库论文的320万与2012挑战训练120万不矛盾，统计对象和版本不同。[DL77,DL78,DL79]
+2. **AlexNet结果保留双口径**：2010数据上的单网络37.5/17.0，2012挑战18.2%单模型验证 vs 15.3%七模型集成测试，禁止将后者与2010结果拼成“同一次试验”。[DL80]
+3. **赛事比较应按指标**：top-5错误率是正确类不出现在前五个候选中的比例。2012年15.3%与26.2%差**10.9个百分点**，相对误差下降10.9/26.2≈**41.6%**；不等于准确率提高41.6个百分点。算术为作者可复算示例。[DL80,AUTHOR_DERIVATION]
+4. **残差不是凭空增加信息**：当映射H(x)适合保留已有表征时，学习F(x)=H(x)-x并叠加x，提供优化的方便路径；x+F(x)为形状一致/适当投影条件下的块表示，不能写成所有网络“梯度永远不消失”。[DL81]
+5. **ResNet实验口径**：Fig.1与Fig.4的plain深层训练误差更高是退化；Table2显示plain34（28.54）高于plain18（27.94），而ResNet34（25.03）低于ResNet18（27.88）。这组为**ImageNet验证top-1**，与2015年ILSVRC top-5集成3.57%不同。[DL81]
+
+### 非虚构审查边界 / 待审问题
+
+- 第16—18章允许使用以上已核到原始论文与比赛官方页面的**有限史实与教学计算**写作工作初稿；争议、历史“第一”、平台归因须保守。
+- ImageNet的类别构造、网页搜索和人工标注都包含采样和社会语义边界；本批不做未经独立数据研究支持的偏见量化、人工标注质量的绝对化断言。
+- 将NeurIPS官方网站HTML摘要与PDF版本差异登记为开放的版本复核事项；优先使用链接的正式论文PDF表与具体实验口径。
+- 独立的连续性/事实审计、结构审稿、修订精修与最终发布继续标记PENDING。本记录不等同同行审稿，也不证明实验复现。
