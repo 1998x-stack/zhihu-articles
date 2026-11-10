@@ -179,3 +179,34 @@
 | 15 | C15-08 | 四词句单词替换的WER=25%及绝对/相对下降口径 | AUTHOR_DERIVATION,DL73 | VERIFIED_DERIVATION | 教学句不属于原始实验，33%不是百分点数 |
 
 这里的SCOPED_VERIFIED只覆盖原始出版物元数据、公开摘要与已核PDF首页的中心主张；不是全文事实审计。AUTHOR_DERIVATION只表示作者可复算的现代教学示例。前四批第01—12章依旧PENDING，后续章没有自动获得许可。
+
+## 第六批16—18章：分章证据映射
+
+| chapter | claim_id | 主张 | source_ids | 证据等级 | 限制 |
+| --- | --- | --- | --- | --- | --- |
+| 16 | C16-01 | 2009 ImageNet规模320万图5247 synsets/12子树 | DL77,DL78 | SCOPED_VERIFIED | 当年数据库，不等于2012竞赛子集 |
+| 16 | C16-02 | WordNet层级/AMT众包标注及质量流程 | DL77 | SCOPED_VERIFIED | 抽查准确率不保证每个标签正确 |
+| 16 | C16-03 | 2010起ILSVRC共享训练/测试规则 | DL79 | SCOPED_VERIFIED | 赛事不是全部ImageNet数据库 |
+| 16 | C16-04 | 2010/2012比赛使用千类约百万训练图片 | DL79,DL80 | QUALIFIED | 版本具体数字需按年份分开 |
+| 16 | C16-05 | 四张样本正确类名次[1,3,6,4]的Top-k计算 | AUTHOR_DERIVATION,DL79 | VERIFIED_DERIVATION | Top1错误75%，Top5错误25%，自造例题 |
+| 16 | C16-06 | 竞赛共同评测推动可比较进展，前有PASCAL VOC | DL79 | INTERPRETATION | 不是首创所有公开视觉评测 |
+| 16 | C16-07 | 2009数据集与2012获奖模型训练集版本不一 | DL77,DL79,DL80 | SCOPED_VERIFIED | 不把数据库320万当2012训练量 |
+| 16 | C16-08 | 标签类别和众包标注本身有边界与选择偏差 | DL77,DL79 | QUALIFIED | 榜单指标不等于现实普适智能 |
+| 17 | C17-01 | 2012 AlexNet三作者与五卷积三全连接设计 | DL80 | SCOPED_VERIFIED | 按照正式PDF而非冲突网页摘要 |
+| 17 | C17-02 | 两块GTX580、ReLU、随机增强、dropout等组合 | DL80,DL89 | SCOPED_VERIFIED | 不归功单个硬件/技术首次发明 |
+| 17 | C17-03 | NeurIPS网页与论文PDF摘要数值有差异 | DL80,DL81 | DISCREPANCY_VERIFIED | 选原始PDF及测试表作指标版本 |
+| 17 | C17-04 | ILSVRC2010 single CNN top1 37.5 top5 17.0 | DL80 | SCOPED_VERIFIED | 不能与2012集成成绩混同 |
+| 17 | C17-05 | ILSVRC2012 Top5测试七CNN集成15.3与第二名26.2 | DL80 | SCOPED_VERIFIED | 含更大ImageNet版本的监督预训练 |
+| 17 | C17-06 | 竞赛Top5降低10.9百分点和相对约41.6% | AUTHOR_DERIVATION,DL80 | VERIFIED_DERIVATION | 错误率下降不是准确率增加41.6百分点 |
+| 17 | C17-07 | ReLU(-2)/ReLU(3)及dropout期望示例 | AUTHOR_DERIVATION,DL80 | VERIFIED_DERIVATION | 现代inverted dropout不等于原始论文每个实现 |
+| 17 | C17-08 | 卷积网络史早于2012且成效需限定基准 | DL52,DL80,DL79 | INTERPRETATION | LeNet先驱与ILSVRC特定任务 |
+| 18 | C18-01 | 2015 ResNet预印本及2016正式CVPR | DL86,DL87 | SCOPED_VERIFIED | 2015比赛与2016出版年份分开 |
+| 18 | C18-02 | CIFAR10 plain20与plain56更深训练误差反而更高 | DL87 | SCOPED_VERIFIED | 退化不是简单过拟合 |
+| 18 | C18-03 | y=F(x)+x与维度不符时投影捷径 | DL87 | SCOPED_VERIFIED | 简化表达非完整原论文所有激活设计 |
+| 18 | C18-04 | 残差及普通五步链toy梯度0.59049和-1e-5 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 不证明ResNet一概不会梯度消失 |
+| 18 | C18-05 | ILSVRC2015 ResNet集成Top5测试3.57 | DL86,DL87 | SCOPED_VERIFIED | 不是单个152层模型结果 |
+| 18 | C18-06 | 2014VGG/GoogLeNet与2015BatchNorm并行线 | DL82,DL83,DL84 | SCOPED_VERIFIED | 多研究群体无单一发明者 |
+| 18 | C18-07 | 2015 Highway带门捷径研究更早于ResNet预印本 | DL85,DL87 | SCOPED_VERIFIED | 身份直连与可学习门不同 |
+| 18 | C18-08 | 2016 ECCV预激活是原ResNet之后改进 | DL88 | SCOPED_VERIFIED | 不可倒灌到2015获奖版本 |
+
+此处SCOPED_VERIFIED仅代表可进入工作初稿的中心文献核对，AUTHOR_DERIVATION为现代教学推导，均未独立双审通过。
