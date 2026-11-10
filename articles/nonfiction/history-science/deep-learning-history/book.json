@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "deep-learning-history",
   "title": "让机器学会学习：一部深度学习发展史",
-  "reading_notice": "第01—27章共27篇有真实历史科学非虚构工作初稿及逐章主张映射；序章00与28—31章共5篇仍为策划占位。各批前置核查仅限中心论文与机制和教学例题，独立事实/连续性与结构双重审稿、语言精修、终稿批准、发布均未完成。",
+  "reading_notice": "第01—30章30篇正文全部形成完整历史科学非虚构工作初稿及逐章来源主张，尚有序章00与尾声31两个策划占位。各批只核证限定中心史实、模型机制、许可和教学例题；独立事实/连续性与结构双重审稿、语言精修、终稿批准与出版均未完成。",
   "outline_approved": true,
   "evidence_verified": true,
   "parts": [
@@ -587,10 +587,17 @@
       "part": "第十部｜全球竞合与开放问题",
       "period": "2022—2023",
       "file": "draft/28.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R18"
-      ]
+        "DL140",
+        "DL141",
+        "DL142",
+        "DL143",
+        "DL144",
+        "DL145"
+      ],
+      "claims_file": "draft/28.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-29",
@@ -599,12 +606,19 @@
       "part": "第十部｜全球竞合与开放问题",
       "period": "2015—2025（专题回溯）",
       "file": "draft/29.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R11",
-        "R20",
-        "TO_VERIFY"
-      ]
+        "DL146",
+        "DL147",
+        "DL148",
+        "DL149",
+        "DL150",
+        "DL151",
+        "DL152",
+        "DL153"
+      ],
+      "claims_file": "draft/29.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-30",
@@ -613,12 +627,17 @@
       "part": "第十部｜全球竞合与开放问题",
       "period": "2024—2026（持续更新）",
       "file": "draft/30.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R19",
-        "R20",
-        "TO_VERIFY"
-      ]
+        "DL154",
+        "DL155",
+        "DL156",
+        "DL157",
+        "DL158",
+        "DL159"
+      ],
+      "claims_file": "draft/30.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "epilogue",
@@ -638,6 +657,6 @@
       ]
     }
   ],
-  "outline_scope": "按来源约束的细纲限第01—27章",
-  "evidence_scope": "仅第01—27章中心史实、出版数据、实验边界与教学例题限域研究"
+  "outline_scope": "仅第01—30章已形成来源约束细纲；序章/尾声仍策划",
+  "evidence_scope": "仅第01—30章有限来源与中心断言核查；序章00和尾声31未核证"
 }

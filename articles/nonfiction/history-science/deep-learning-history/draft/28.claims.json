@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "28",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "source_coverage": "scoped original academic articles, official announcements, version-specific licenses; author-written toy calculations; independent paper-by-paper audit still pending",
+  "claims": [
+    {
+      "claim_id": "C28-01",
+      "claim": "2017 Christiano等人类偏好研究早于2022语言模型RLHF",
+      "source_ids": [
+        "DL140"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "模拟游戏任务，非2017 ChatGPT产品",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C28-02",
+      "claim": "2022 Ouyang等20作者InstructGPT SFT偏好排序奖励模型PPO的分段方法",
+      "source_ids": [
+        "DL141"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "具体训练不是模型纯靠人类投票直接生成所有答案",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C28-03",
+      "claim": "1.3B InstructGPT在特定人类偏好评测优于175B GPT3",
+      "source_ids": [
+        "DL141"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "人类偏好分布，不是所有事实问答能力更强",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C28-04",
+      "claim": "ChatGPT于2022-11-30发布研究预览及多轮交互",
+      "source_ids": [
+        "DL142"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不能倒称RLHF或Transformer从此首创",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C28-05",
+      "claim": "TruthfulQA 2022 817题38领域测量常见人类错误信念",
+      "source_ids": [
+        "DL143"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是2026任意模型成绩",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C28-06",
+      "claim": "2023 GPT4技术报告强调幻觉与推理限制，改进不等于完美",
+      "source_ids": [
+        "DL144"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不把GPT4能力倒灌2022初版ChatGPT",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C28-07",
+      "claim": "2023 DPO不同偏好优化方法，不用独立奖励模型PPO管线",
+      "source_ids": [
+        "DL145"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "存在任务/约束差异，不宣称全面优于RLHF",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C28-08",
+      "claim": "玩具偏好2/3与reward softmax约0.731的例题",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "虚构评价，不代表世界事实正确率",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

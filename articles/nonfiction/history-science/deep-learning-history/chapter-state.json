@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "last_chapter": 27,
+  "last_chapter": 30,
   "manuscript_revision": 0,
   "chapter_status": {
     "10": "draft",
@@ -22,7 +22,10 @@
     "25": "draft",
     "26": "draft",
     "27": "draft",
-    "28": "outline",
+    "28": "draft",
+    "29": "draft",
+    "30": "draft",
+    "31": "outline",
     "00": "outline",
     "01": "draft",
     "02": "draft",
@@ -143,12 +146,24 @@
     {
       "chapter": "27",
       "coverage": "2021 CLIP约4亿双塔图文对比与ALIGN约18亿噪声图文对；2021 DALL-E自回归文图tokens；2022 DALL-E2 CLIP潜表示先验+扩散decoder及另一条LDM压缩潜空间交叉注意力"
+    },
+    {
+      "chapter": "28",
+      "coverage": "2017 Christiano等偏好强化学习；2022 InstructGPT 20作者的SFT→偏好→奖励模型→PPO；2022-11-30 ChatGPT研究预览；2022 TruthfulQA、2023 GPT4局限与DPO"
+    },
+    {
+      "chapter": "29",
+      "coverage": "2017—2025国际合著/开放生态；2023 Meta Llama2许可700m MAU、2024 Ai2 OLMo完整研究流程、OSI1.0、2024 Qwen2.5许可证例外、DeepSeekV3 MoE671B/37B、2025 Qwen3与R1发布/授权"
+    },
+    {
+      "chapter": "30",
+      "coverage": "2022 FlashAttention、2023 vLLM PagedAttention、2024-09 o1；2025 DeepSeekR1 RL/Qwen3模式；2026-01 Nature HLE2500题与2026-08共享推理预算预印本，截止2026-11-10"
     }
   ],
   "unresolved_clues": [
-    "28章：指令微调、人类反馈与2022公开对话式产品之间真实先后及贡献如何核实？",
-    "29章：开源模型的权重发布、许可与研究可复现如何区分？",
-    "30章：2024—2026高效推理、规模与能力评测有哪些可验证进展与限制？"
+    "00序章：2012 AlexNet首尾倒叙如何不夸张单模型/集成测试错误率与史料版本？",
+    "31尾声：四个未解问题怎样连接1943/2012/2026，而不推演未经验证的未来事件？",
+    "全书01—30：事实/连续性与结构独立双审、修订、线编、终稿批准未执行"
   ],
   "resolved_clues": [
     "第01章数学形式化为何能表达明确计算",
@@ -177,7 +192,10 @@
     "24章测试交叉熵经验律≠全部智能，GPT3 few-shot推断无梯度更新，Chinchilla更小却用更多token",
     "25章策略网络先验可与搜索访问分布不同，2015/2016/2017比赛对象区别已保留",
     "26章CASP14结构域GDT_TS92.4与Cα RMSD95 0.96Å不同量纲，AF2不等于2018旧版本",
-    "27章CLIP图文对齐/检索不等于文生图本体，DALL-E1/2/LDM分属不同生成机制"
+    "27章CLIP图文对齐/检索不等于文生图本体，DALL-E1/2/LDM分属不同生成机制",
+    "28章用户偏好频率和奖励分数不等于可验证事实，2017人类偏好研究、2022 InstructGPT/ChatGPT和2023 DPO分开",
+    "29章权重可得与OSI意义上开放源码AI不同，Qwen各型号许可/DeepSeek蒸馏基座许可分别标注",
+    "30章训练/推理/服务吞吐/评测不可混，2026 HLE已Nature发表而共享预算失败属8月预印本，toy6/4对5/5独立可算"
   ],
   "continuity_notes": [
     "第01章历史数学前史为多文明并行比较，无暗示直接传授",
@@ -231,7 +249,16 @@
     "蛋白质结构预测≠动态功能解释，GDT_TS分数≠正确蛋白质百分比，RMSD95为特定结构域口径",
     "2021 CLIP12作者图文对比4亿对，ALIGN同期10作者18亿噪声对；CLIP零样本分类不是直接生成图像",
     "2021 DALL-E原版自回归、2022 DALL-E2 CLIP latent prior+diffusion decoder、2022 LDM压缩潜空间cross-attention三者分开",
-    "第01—27章全为PENDING独立双重审稿工作初稿，不自动发布"
+    "第01—27章全为PENDING独立双重审稿工作初稿，不自动发布",
+    "2022-11-30为ChatGPT研究预览产品发布，RLHF与偏好学习已有2017/2022原始研究",
+    "InstructGPT1.3B与GPT3 175B比较仅限论文人类偏好提示集，不能当全任务准确率",
+    "2023 DPO与RLHF PPO为不同偏好优化流程，真实回答正确性仍需独立核证",
+    "2023 Llama2社区许可有700m月活条款；2024 OSI定义要求数据来源信息+训练和运行代码+参数，开放权重≠完全开放源码",
+    "2024 Qwen2.5 3B/72B版非Apache2.0，2025 Qwen3报告有独立发布授权；逐模型查license",
+    "2024 DeepSeekV3 671B总参数37B每token激活；2.788m H800 GPU小时是论文报告的训练计算，不是全部研发费用",
+    "2025 DeepSeekR1Zero不先做SFT但仍从预训练基础模型出发；完整R1有冷启动/SFT/RL多阶段；派生Llama保留其原许可证",
+    "2026-01 Nature HLE同行发表，2026-08测试时共享预算研究是预印本，不以网页实时榜单排名作为稳定史实",
+    "30章正文完成≠序章00/尾声31完成≠独立事实/结构双审、终稿或出版已完成"
   ],
   "review_status": "PENDING",
   "progress_summary": {
