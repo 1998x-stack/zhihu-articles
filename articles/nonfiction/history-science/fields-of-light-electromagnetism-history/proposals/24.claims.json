@@ -1,0 +1,208 @@
+{
+  "chapter": "24",
+  "title": "电场与磁场，可能只是时空的两张面孔",
+  "manuscript_path": "proposals/24.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E24-01",
+      "statement": "单一电磁场的电磁分量可依惯性参考系变化",
+      "kind": "现代物理",
+      "section": "一、六",
+      "source_ids": [
+        "S24-01",
+        "S24-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-02",
+      "statement": "闵可夫斯基1907讲演与1908运动介质电动力学论文推动四维形式",
+      "kind": "科学史",
+      "section": "二",
+      "source_ids": [
+        "S24-03",
+        "S24-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-03",
+      "statement": "1908年科隆时空讲演出版于1909年",
+      "kind": "发表史",
+      "section": "二",
+      "source_ids": [
+        "S24-02",
+        "S24-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-04",
+      "statement": "时空间隔c²Δt²-Δx²-Δy²-Δz²为洛伦兹不变量",
+      "kind": "现代公式",
+      "section": "三",
+      "source_ids": [
+        "S24-01",
+        "S24-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-05",
+      "statement": "反对称4×4场张量包含六个独立分量",
+      "kind": "现代数学",
+      "section": "四",
+      "source_ids": [
+        "S24-04",
+        "S24-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-06",
+      "statement": "现代SI场变换中E'⊥=γ(E⊥+v×B), B'⊥=γ(B⊥-v×E/c²)",
+      "kind": "现代公式",
+      "section": "五",
+      "source_ids": [
+        "S24-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-07",
+      "statement": "纯横向电场在相对运动参考系出现磁分量",
+      "kind": "教学推导",
+      "section": "五",
+      "source_ids": [
+        "S24-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-08",
+      "statement": "场分量变化不意味着额外创造独立物理作用",
+      "kind": "理论解释",
+      "section": "六",
+      "source_ids": [
+        "S24-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-09",
+      "statement": "E²-c²B²与E·B是洛伦兹不变量",
+      "kind": "现代公式",
+      "section": "七",
+      "source_ids": [
+        "S24-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-10",
+      "statement": "非零纯电场不可能通过惯性变换成为纯磁场",
+      "kind": "推导",
+      "section": "七",
+      "source_ids": [
+        "S24-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-11",
+      "statement": "理想真空平面电磁波满足E·B=0及E=cB",
+      "kind": "现代物理",
+      "section": "七",
+      "source_ids": [
+        "S24-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-12",
+      "statement": "现代协变Maxwell方程不是1908作者原始符号的直接照搬",
+      "kind": "科学史/记号",
+      "section": "八",
+      "source_ids": [
+        "S24-03",
+        "S24-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-13",
+      "statement": "普朗克1900量子研究与相对论史并行而非随后启动",
+      "kind": "跨章时间线",
+      "section": "九、十",
+      "source_ids": [
+        "S24-06"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E24-14",
+      "statement": "经典电磁时空统一不等于光与物质的完整量子理论",
+      "kind": "理论边界",
+      "section": "九、十",
+      "source_ids": [
+        "S24-05",
+        "S24-06"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S24-01",
+      "title": "Einstein 1905 On the Electrodynamics of Moving Bodies",
+      "url": "https://gisinb.ch/gisin/physique/relativite/Paper_en1/Einstein.html",
+      "source_type": "原始研究/原论文入口",
+      "scope": "早期相对论动力学基础"
+    },
+    {
+      "source_id": "S24-02",
+      "title": "Stanford Gravity Probe B: Einstein's Spacetime",
+      "url": "https://einstein.stanford.edu/SPACETIME/spacetime2",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "闵可夫斯基时空历史摘要"
+    },
+    {
+      "source_id": "S24-03",
+      "title": "Pérez Ferreirós de Paz (2026), Hermann Minkowski and special relativity",
+      "url": "https://link.springer.com/article/10.1140/epjh/s13129-026-00124-2",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "同行研究；1907—1909讲演、四维电动力学及史学贡献"
+    },
+    {
+      "source_id": "S24-04",
+      "title": "MIT 8.033 lecture notes: Transforming electric and magnetic fields",
+      "url": "https://web.mit.edu/sahughes/www/8.033/lec11.pdf",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "现代教学；场变换、张量；PDF未在本轮逐页查证"
+    },
+    {
+      "source_id": "S24-05",
+      "title": "Hehl et al (2008), Maxwell’s equations in Minkowski’s world",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/andp.200852009-1006",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "科学史与现代重述；早期协变方程"
+    },
+    {
+      "source_id": "S24-06",
+      "title": "Project timeline of electromagnetism",
+      "url": "https://github.com/1998x-stack/zhihu-articles/blob/main/articles/nonfiction/history-science/fields-of-light-electromagnetism-history/timeline.md",
+      "source_type": "项目内策划资料",
+      "scope": "项目既有写作时间线；不是独立外部史实证据"
+    }
+  ],
+  "unresolved": [
+    "核对闵可夫斯基1907/1908/1909原刊及演讲文字的实际发表先后",
+    "按SI和相对速度方向复核E/B变换号数以及四维方程约定",
+    "查核原场张量记号与后世Fμν的关系",
+    "对电磁不变量和理想波的条件做独立教材核对",
+    "1900—1915多路线时间回溯衔接第25章"
+  ]
+}
