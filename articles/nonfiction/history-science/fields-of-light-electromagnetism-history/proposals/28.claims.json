@@ -1,0 +1,229 @@
+{
+  "chapter": "28",
+  "title": "无穷大之后：量子电动力学为什么没有崩溃",
+  "part": "第七部｜量子革命：光不再只是经典波",
+  "manuscript_path": "proposals/28.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E28-01",
+      "statement": "1947年兰姆—雷瑟福德测量给出氢原子2S/2P能级分裂",
+      "kind": "实验史",
+      "section": "一、三",
+      "source_ids": [
+        "S28-01",
+        "S28-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-02",
+      "statement": "电子反常磁矩是推动QED辐射修正研究的重要观测",
+      "kind": "实验史",
+      "section": "一、五",
+      "source_ids": [
+        "S28-02",
+        "S28-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-03",
+      "statement": "带电粒子自能及量子辐射修正在高动量积分中可导致发散",
+      "kind": "现代理论/历史困难",
+      "section": "二",
+      "source_ids": [
+        "S28-03",
+        "S28-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-04",
+      "statement": "兰姆位移约1058 MHz是频率差量级且ΔE=hΔν",
+      "kind": "实验量级/现代式",
+      "section": "三",
+      "source_ids": [
+        "S28-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-05",
+      "statement": "1947谢尔特岛会议推动兰姆位移与电子磁矩的研究",
+      "kind": "历史事件",
+      "section": "三",
+      "source_ids": [
+        "S28-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-06",
+      "statement": "Bethe 1947给出兰姆位移非相对论近似解释，尚不等于完整相对论QED",
+      "kind": "科学史",
+      "section": "三",
+      "source_ids": [
+        "S28-01",
+        "S28-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-07",
+      "statement": "正则化用于暂时定义高能积分，重整化通过物理条件约束参数与反项",
+      "kind": "现代教学",
+      "section": "四",
+      "source_ids": [
+        "S28-03",
+        "S28-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-08",
+      "statement": "裸参数与已测量物理参数不能不经计算被直接等同",
+      "kind": "现代重整化理论",
+      "section": "四",
+      "source_ids": [
+        "S28-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-09",
+      "statement": "电子反常磁矩ae=(g−2)/2最低阶QED贡献α/(2π)",
+      "kind": "现代公式",
+      "section": "五",
+      "source_ids": [
+        "S28-02",
+        "S28-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-10",
+      "statement": "Schwinger关于反常磁矩修正1947形成、1948发表",
+      "kind": "文献/贡献史",
+      "section": "五",
+      "source_ids": [
+        "S28-02",
+        "S28-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-11",
+      "statement": "Tomonaga Schwinger Feynman三人获得1965物理学诺贝尔奖",
+      "kind": "奖项记录",
+      "section": "六",
+      "source_ids": [
+        "S28-06"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-12",
+      "statement": "Tomonaga Schwinger Feynman采用彼此不同的相对论QED计算路径",
+      "kind": "科学史比较",
+      "section": "六",
+      "source_ids": [
+        "S28-04",
+        "S28-07"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-13",
+      "statement": "Dyson 1949推动不同QED方法等价与重整化的系统化",
+      "kind": "科学史",
+      "section": "六",
+      "source_ids": [
+        "S28-01",
+        "S28-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-14",
+      "statement": "QED成功不是所有阶数、所有能标上的严格非微扰完备定理",
+      "kind": "理论限定",
+      "section": "七",
+      "source_ids": [
+        "S28-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E28-15",
+      "statement": "量子电磁理论的结构为第29章规范原则引入背景",
+      "kind": "叙事推断",
+      "section": "九",
+      "source_ids": [
+        "S28-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S28-01",
+      "title": "Physical Review 125 years 1947 Lamb shift and 1948 QED",
+      "url": "https://journals.aps.org/125years/2015-weyl-fermions",
+      "source_type": "APS院史时间轴",
+      "scope": "Lamb/Retherford、Bethe、Schwinger/Feynman/Dyson发展概况"
+    },
+    {
+      "source_id": "S28-02",
+      "title": "Electron Spin and Its History, Annual Review",
+      "url": "https://doi.org/10.1146/annurev-nucl-102711-094908",
+      "source_type": "同行评议历史综述",
+      "scope": "Lamb shift频率量级、电子反常磁矩与1947年进展"
+    },
+    {
+      "source_id": "S28-03",
+      "title": "The sources of Schwinger's Green's functions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1142349/",
+      "source_type": "学术研究综述",
+      "scope": "1947—1950相对论QED、Bethe、Kramers、Schwinger"
+    },
+    {
+      "source_id": "S28-04",
+      "title": "Sin-Itiro Tomonaga Nobel Lecture, Development of Quantum Electrodynamics",
+      "url": "https://www.nobelprize.org/prizes/physics/1965/tomonaga/lecture/",
+      "source_type": "历史参与者讲演",
+      "scope": "朝永和同辈研究的联系；参与者回忆有主观性"
+    },
+    {
+      "source_id": "S28-05",
+      "title": "Nobel Schwinger Facts",
+      "url": "https://www.nobelprize.org/prizes/physics/1965/schwinger/facts/",
+      "source_type": "诺贝尔机构史料",
+      "scope": "Schwinger 1948重整化贡献"
+    },
+    {
+      "source_id": "S28-06",
+      "title": "Nobel 1965 Physics Summary",
+      "url": "https://www.nobelprize.org/prizes/physics/1965/summary/",
+      "source_type": "奖项原始机构记录",
+      "scope": "1965得主三人及获奖原因"
+    },
+    {
+      "source_id": "S28-07",
+      "title": "Nature Reviews Physics 2025 QED retrospective",
+      "url": "https://www.nature.com/articles/s42254-025-00877-7",
+      "source_type": "回顾性学术科普",
+      "scope": "三人不同路径与QED历史背景"
+    }
+  ],
+  "unresolved": [
+    "Bethe 1947原论文精确数字、局限性与先行Kramers贡献逐页复查",
+    "兰姆位移实验原发表和1058MHz数值采用哪一实验阶段须核对",
+    "Schwinger 1947成果与1948原刊清单区别",
+    "Tomonaga战时日本团队独立成果与国际传播时序核对",
+    "Dyson两篇1949论文与论证有限阶重整化的准确范围",
+    "反常磁矩α/(2π)与电荷/精细结构常数单位及高阶修正的读者解释"
+  ]
+}

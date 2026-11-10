@@ -1,0 +1,239 @@
+{
+  "chapter": "30",
+  "title": "电与弱力：第二次电磁统一是怎样发生的",
+  "part": "第八部｜更大的统一：从规范场到量子光技术",
+  "manuscript_path": "proposals/30.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E30-01",
+      "statement": "电磁作用由无质量光子媒介，弱作用低能呈短程且手征不对称",
+      "kind": "现代理论/历史背景",
+      "section": "一",
+      "source_ids": [
+        "S30-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-02",
+      "statement": "Yang Mills 1954不能直接等同成熟电弱理论",
+      "kind": "科学史界限",
+      "section": "二",
+      "source_ids": [
+        "S30-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-03",
+      "statement": "Glashow 1961发表弱相互作用部分对称性重要论文",
+      "kind": "文献史",
+      "section": "三",
+      "source_ids": [
+        "S30-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-04",
+      "statement": "成熟电弱规范结构SU(2)L×U(1)Y与Q=T3+Y/2取决于超荷约定",
+      "kind": "现代模型记号",
+      "section": "三",
+      "source_ids": [
+        "S30-04",
+        "S30-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-05",
+      "statement": "规范场显式质量与局域规范结构的相容性是早期模型难题",
+      "kind": "现代理论与历史缺口",
+      "section": "四",
+      "source_ids": [
+        "S30-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-06",
+      "statement": "1964 Brout-Englert Higgs Guralnik-Hagen-Kibble等相互独立贡献质量生成机制",
+      "kind": "科学史贡献",
+      "section": "五",
+      "source_ids": [
+        "S30-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-07",
+      "statement": "1967 Weinberg A Model of Leptons发表于PRL19 1264",
+      "kind": "原论文书目",
+      "section": "六",
+      "source_ids": [
+        "S30-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-08",
+      "statement": "Salam 1968研究及Glashow Weinberg Salam贡献应和其他先行理论区分",
+      "kind": "贡献归属",
+      "section": "六",
+      "source_ids": [
+        "S30-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-09",
+      "statement": "A=Bcosθ+W3sinθ与Z=W3cosθ−Bsinθ是现代中性场混合写法",
+      "kind": "现代理论公式",
+      "section": "七",
+      "source_ids": [
+        "S30-04",
+        "S30-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-10",
+      "statement": "e=g sinθ=g' cosθ与tanθ=g'/g需要固定耦合归一化",
+      "kind": "现代理论公式",
+      "section": "七",
+      "source_ids": [
+        "S30-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-11",
+      "statement": "树级单标量双重态关系mW=gv/2、mZ=v√(g²+g'²)/2、mγ=0",
+      "kind": "现代理论适用条件",
+      "section": "八",
+      "source_ids": [
+        "S30-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-12",
+      "statement": "'t Hooft Veltman约1971—72为规范理论重整化作关键贡献",
+      "kind": "科学史",
+      "section": "九",
+      "source_ids": [
+        "S30-06"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-13",
+      "statement": "Gargamelle 1973年7月19日公布弱中性流证据，9月正式论文",
+      "kind": "实验史",
+      "section": "十",
+      "source_ids": [
+        "S30-07",
+        "S30-08"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-14",
+      "statement": "1973中性流属间接弱中性媒介证据而非直接观察Z玻色子",
+      "kind": "实验结论边界",
+      "section": "十",
+      "source_ids": [
+        "S30-07",
+        "S30-09"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E30-15",
+      "statement": "1979 Nobel颁给Glashow Salam Weinberg，W/Z直接发现发生于1983",
+      "kind": "奖项/时间线",
+      "section": "十一、十二",
+      "source_ids": [
+        "S30-01",
+        "S30-07"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S30-01",
+      "title": "Nobel Press release 1979 electroweak",
+      "url": "https://www.nobelprize.org/prizes/physics/1979/press-release/",
+      "source_type": "1979机构原始新闻稿",
+      "scope": "三位获奖人、宇称破缺、中性流等"
+    },
+    {
+      "source_id": "S30-02",
+      "title": "Yang Mills 1954 Physical Review",
+      "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.96.191",
+      "source_type": "原刊出版社入口",
+      "scope": "非阿贝尔规范场的早期源流"
+    },
+    {
+      "source_id": "S30-03",
+      "title": "Glashow 1961 Partial-symmetries of Weak Interactions",
+      "url": "https://doi.org/10.1016/0029-5582(61)90469-2",
+      "source_type": "1961论文DOI",
+      "scope": "Glashow模型与1961发表史"
+    },
+    {
+      "source_id": "S30-04",
+      "title": "Weinberg 1967 A Model of Leptons",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.19.1264",
+      "source_type": "1967原论文出版社入口",
+      "scope": "1967模型、轻子、对称性破缺；原刊引用1964研究"
+    },
+    {
+      "source_id": "S30-05",
+      "title": "APS PRL milestone A Model of Leptons",
+      "url": "https://journals.aps.org/prl/50years/milestones",
+      "source_type": "学会专业回顾",
+      "scope": "弱电统一及物理光子/WZ场属性"
+    },
+    {
+      "source_id": "S30-06",
+      "title": "Nobel 1999 physics prize press release",
+      "url": "https://www.nobelprize.org/prizes/physics/1999/press-release/",
+      "source_type": "诺贝尔机构史料",
+      "scope": "'t Hooft Veltman重整化规范理论贡献"
+    },
+    {
+      "source_id": "S30-07",
+      "title": "CERN Gargamelle experiment historical page",
+      "url": "https://home.cern/science/experiments/gargamelle/",
+      "source_type": "机构一手实验史回顾",
+      "scope": "Gargamelle、1973弱中性流公布/论文、WZ 1983"
+    },
+    {
+      "source_id": "S30-08",
+      "title": "CERN 50 years giant electroweak discoveries",
+      "url": "https://home.cern/50-years-giant-electroweak-discoveries/",
+      "source_type": "2023机构历史专文",
+      "scope": "1973 7月19报告、1983 WZ及历史脉络"
+    },
+    {
+      "source_id": "S30-09",
+      "title": "Nature 2023 historical account of electroweak discovery",
+      "url": "https://www.nature.com/articles/d41586-023-02296-z",
+      "source_type": "科技史报道",
+      "scope": "1972初始候选事件、1973中性流与后续争议"
+    }
+  ],
+  "unresolved": [
+    "Glashow 1961原文模型和今天SU(2)L×U(1)Y语言之间的差异应逐页补注",
+    "Salam 1968会议发言与正式发表的年份及Ward贡献区分",
+    "Brout Englert Higgs GHK工作、Goldstone/Kibble承接以及质子质量界限需专项审读",
+    "1971—72 't Hooft Veltman可重整化证明的完整范围及原论文书目",
+    "树级式在不同超荷归一化、自然单位和重整化方案下不可直接数值混用",
+    "1973 Gargamelle中性流证据与1972首次候选事件、1974后续接受过程需要细化"
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "chapter": "29",
+  "title": "规范对称性：一个数学自由度怎么变成理论原则",
+  "part": "第八部｜更大的统一：从规范场到量子光技术",
+  "manuscript_path": "proposals/29.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E29-01",
+      "statement": "电磁势的规范变换A'=A+∇χ与Φ'=Φ−∂tχ保留同一E和B",
+      "kind": "现代理论演算",
+      "section": "一、二",
+      "source_ids": [
+        "S29-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-02",
+      "statement": "B=∇×A与E=−∇Φ−∂tA是现代SI的电磁势表达",
+      "kind": "现代公式",
+      "section": "二",
+      "source_ids": [
+        "S29-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-03",
+      "statement": "洛伦茨规范历史归属应区分Ludvig Lorenz与Hendrik Lorentz",
+      "kind": "科学史/命名",
+      "section": "三",
+      "source_ids": [
+        "S29-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-04",
+      "statement": "1918 Weyl原始规范设想涉及长度尺度，不等于后来量子相位",
+      "kind": "科学史纠误",
+      "section": "四",
+      "source_ids": [
+        "S29-01",
+        "S29-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-05",
+      "statement": "1926 Fock工作建立电磁势变化与量子波函数相位协变的关系",
+      "kind": "原始贡献归属",
+      "section": "五",
+      "source_ids": [
+        "S29-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-06",
+      "statement": "Weyl 1929进一步确立量子相位的规范不变原理",
+      "kind": "科学史",
+      "section": "五",
+      "source_ids": [
+        "S29-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-07",
+      "statement": "局域相位变化使普通微分出现多余∇θ项，协变导数可抵消",
+      "kind": "现代理论推导",
+      "section": "五、六",
+      "source_ids": [
+        "S29-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-08",
+      "statement": "ψ'=exp(iqχ/ℏ)ψ与D=∇−iqA/ℏ、Dt=∂t+iqΦ/ℏ自洽",
+      "kind": "现代SI公式",
+      "section": "六",
+      "source_ids": [
+        "S29-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-09",
+      "statement": "局域规范冗余不等于势单点数值本身可直接测量",
+      "kind": "概念边界",
+      "section": "七",
+      "source_ids": [
+        "S29-01",
+        "S29-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-10",
+      "statement": "Aharonov Bohm量子相位结果为更晚历史，闭合路径相位可与磁通有关",
+      "kind": "现代效应/年代",
+      "section": "七",
+      "source_ids": [
+        "S29-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-11",
+      "statement": "Yang Mills论文1954年10月1日发表于Physical Review96 191",
+      "kind": "原刊书目",
+      "section": "八",
+      "source_ids": [
+        "S29-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-12",
+      "statement": "1954 Yang Mills讨论同位旋的局域化及非阿贝尔规范结构，而非完成电弱标准模型",
+      "kind": "科学史",
+      "section": "八",
+      "source_ids": [
+        "S29-04",
+        "S29-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-13",
+      "statement": "现代SU(2)非阿贝尔规范场强含交换子项并引致基本规范自耦合",
+      "kind": "现代场论公式",
+      "section": "九",
+      "source_ids": [
+        "S29-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-14",
+      "statement": "局域规范不变性并不能单独证明自然界必有对应的力或全部场内容",
+      "kind": "理论推断",
+      "section": "六、十",
+      "source_ids": [
+        "S29-02",
+        "S29-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    },
+    {
+      "claim_id": "E29-15",
+      "statement": "质量生成和重整化问题仍须1960—1970年代后续理论处理",
+      "kind": "跨章历史",
+      "section": "十",
+      "source_ids": [
+        "S29-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; primary-original full-text, page-level historical attribution and independent formula review pending"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S29-01",
+      "title": "Jackson Okun 2001 Historical roots of gauge invariance",
+      "url": "https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.73.663",
+      "source_type": "同行评议历史综述",
+      "scope": "经典电磁势规范、L. Lorenz与H. Lorentz、Fock 1926/Weyl1929/Yang Mills1954"
+    },
+    {
+      "source_id": "S29-02",
+      "title": "Stanford Encyclopedia of Philosophy Gauge Theories",
+      "url": "https://plato.stanford.edu/entries/gauge-theories/",
+      "source_type": "学术哲学历史综述",
+      "scope": "1918 Weyl尺度规范与量子相位理论发展；条目须检查版本"
+    },
+    {
+      "source_id": "S29-03",
+      "title": "APS News Aharonov Bohm history",
+      "url": "https://www.aps.org/apsnews/2009/08/august-1959-aharonov-bohm-effect",
+      "source_type": "学会历史文章",
+      "scope": "1959年后量子相位及规范势整体作用；链接和先行史仍待查"
+    },
+    {
+      "source_id": "S29-04",
+      "title": "Yang Mills Phys Rev 96 191 (1954)",
+      "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.96.191",
+      "source_type": "1954原始研究出版社入口",
+      "scope": "同位旋局域规范、非阿贝尔规范场与非线性"
+    },
+    {
+      "source_id": "S29-05",
+      "title": "Nobel 1979 Physics press release",
+      "url": "https://www.nobelprize.org/prizes/physics/1979/press-release/",
+      "source_type": "诺贝尔机构史料",
+      "scope": "杨—米尔斯与电弱理论的历史承接"
+    }
+  ],
+  "unresolved": [
+    "Weyl 1918原文与Einstein针对尺度规范提出的精确反驳应查原函件",
+    "Fock 1926贡献与Schrödinger/Klein及Weyl 1929先后顺序更细核对",
+    "关于Aharonov-Bohm 1959先行研究的多作者署名/实验接受史仍需严谨版本",
+    "场强非阿贝尔交换子公式需固定生成元、耦合及符号约定；当前正文已说明自然单位",
+    "关于Lorenz规范历史的中文姓名译法应全书统一",
+    "SEP Gauge Theories条目版次和具体支持段落核对"
+  ]
+}
