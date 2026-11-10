@@ -1,23 +1,167 @@
 {
   "chapter": "33",
-  "status": "PENDING",
+  "title": "施瓦茨：不能求经典导数的对象仍可微分吗",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H197",
+    "H198",
+    "H199",
+    "H200",
+    "H201",
+    "H202",
+    "H203",
+    "H204",
+    "H205",
+    "H206"
+  ],
   "claims": [
     {
       "id": "C33-01",
-      "statement": "脉冲和阶跃怎样进入方程",
-      "source_candidates": [
-        "H12"
+      "kind": "history_context",
+      "statement": "Heaviside impulse methods and Dirac delta use preceded Schwartz, popularized via Dirac quantum mechanics/1930 text",
+      "source_ids": [
+        "H202",
+        "H204"
       ],
-      "verification": "PENDING"
+      "locator": "SEP histories and mathematical origins review",
+      "verification": "SOURCE_CHECKED"
     },
     {
       "id": "C33-02",
-      "statement": "分布理论与弱导数",
-      "source_candidates": [
-        "H12"
+      "kind": "history_predecessor",
+      "statement": "Sobolev in 1935–36 used generalized functionals/solutions prior to full Schwartz distribution theory",
+      "source_ids": [
+        "H201"
       ],
-      "verification": "PENDING"
+      "locator": "Egorov 1990 historical survey",
+      "verification": "ACADEMIC_SOURCE_SCOPED"
+    },
+    {
+      "id": "C33-03",
+      "kind": "history_primary",
+      "statement": "Schwartz 1947–48 original Grenoble vol23 p7 defines test functions and distributions as continuous linear forms",
+      "source_ids": [
+        "H197"
+      ],
+      "locator": "Numdam original journal p7 screenshot inspected",
+      "verification": "PRIMARY_PAGE_CHECKED"
+    },
+    {
+      "id": "C33-04",
+      "kind": "history_primary",
+      "statement": "Schwartz 1947–48 article p7 footnote cites prior 1945 vol21 article and 1947 Nancy conference",
+      "source_ids": [
+        "H197"
+      ],
+      "locator": "Numdam image original p7 footnotes",
+      "verification": "PRIMARY_PAGE_CHECKED"
+    },
+    {
+      "id": "C33-05",
+      "kind": "history_publication",
+      "statement": "Schwartz theory two-volume Théorie des distributions published 1950 and 1951; 1948 first-publication secondary discrepancy caveated",
+      "source_ids": [
+        "H198",
+        "H199",
+        "H200"
+      ],
+      "locator": "MacTutor, 1950 bibliographic record, history paper",
+      "verification": "SOURCE_CHECKED_QUALIFIED"
+    },
+    {
+      "id": "C33-06",
+      "kind": "modern_definition",
+      "statement": "D(R)=smooth compactly supported test functions and distribution continuous linear functional on D with test-function topology",
+      "source_ids": [
+        "H197",
+        "H203"
+      ],
+      "locator": "historical p7 text and NIST modern definitions",
+      "verification": "MATHEMATICS_AND_HISTORY"
+    },
+    {
+      "id": "C33-07",
+      "kind": "math_delta",
+      "statement": "Dirac distribution delta maps test phi to phi(0), not ordinary Lebesgue density with value infinity at zero",
+      "source_ids": [
+        "H203",
+        "H204"
+      ],
+      "locator": "NIST distribution chapter and origins proof",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C33-08",
+      "kind": "math_derivative",
+      "statement": "distribution derivative <T',phi>=-<T,phi'> for all compactly supported smooth test phi",
+      "source_ids": [
+        "H203"
+      ],
+      "locator": "NIST derivative definition",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C33-09",
+      "kind": "math_heaviside",
+      "statement": "Heaviside step H' equals delta distribution by -∫_0∞ phi'=phi(0)",
+      "source_ids": [
+        "H203",
+        "H205"
+      ],
+      "locator": "independent integration by parts on test functions",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C33-10",
+      "kind": "math_delta_prime",
+      "statement": "delta' acting on phi equals -phi'(0), well-defined distribution",
+      "source_ids": [
+        "H203"
+      ],
+      "locator": "apply derivative definition to Dirac functional",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C33-11",
+      "kind": "math_mollifier",
+      "statement": "rectangle pulse height1/eps on [0,eps] converges to delta as distributions, not pointwise ordinary functions",
+      "source_ids": [
+        "H203",
+        "H205"
+      ],
+      "locator": "uniform continuity mean value average over shrinking interval",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C33-12",
+      "kind": "math_boundary",
+      "statement": "arbitrary products of distributions are not generally defined, e.g. delta squared, though smooth fδ=f(0)δ",
+      "source_ids": [
+        "H203",
+        "H201"
+      ],
+      "locator": "standard Schwartz distribution limitations",
+      "verification": "QUALIFIED_MATH"
+    },
+    {
+      "id": "C33-13",
+      "kind": "concept_bridge",
+      "statement": "Schwartz extends function objects, Robinson nonstandard analysis extends number system; no direct necessary genealogy",
+      "source_ids": [
+        "H197",
+        "H206"
+      ],
+      "locator": "distinct primary programs and editorial comparison",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "Schwartz journal p7 directly cites 1945 prior vol21; MacTutor first 1948 wording remains a catalog interpretation discrepancy, not silently erased.",
+    "Sobolev and Heaviside/Dirac historical contributions predate Schwartz framework.",
+    "delta is not ordinary function infinite only at x=0; it is continuous linear distribution (also Dirac measure).",
+    "Heaviside distribution derivative not classical derivative or ordinary L1 density.",
+    "General distribution multiplication undefined without special structure; no unqualified delta².",
+    "No independent dual review or full formal draft gate approval."
+  ]
 }
