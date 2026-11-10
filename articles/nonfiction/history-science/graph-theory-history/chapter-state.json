@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "lane": "nonfiction",
   "tracking_mode": "partial-batch-continuity-plus-derived-progress",
-  "note": "本章级续写记录仅用于第19—21章批次交接与派生进度，不是全书审校或正式出版许可证。",
+  "note": "19—24章续写记录仅作批次交接和章节进度核对，来源验证是限定范围，不代表独立双审或正式出版许可。",
   "progress_summary": {
     "source": "book.json",
     "total": 38,
-    "draft": 22,
-    "outline": 16,
+    "draft": 25,
+    "outline": 13,
     "final": 0,
     "proposals": 0,
     "review_status": "PENDING",
@@ -15,8 +15,8 @@
   },
   "current_revision": 0,
   "review_status": "PENDING",
-  "last_written_chapter": "21",
-  "latest_batch": "19-21",
+  "last_written_chapter": "24",
+  "latest_batch": "22-24",
   "chapter_progress": {
     "19": {
       "title": "随机连线之后，巨大的连通块从何而来",
@@ -64,6 +64,53 @@
       "core_question": "何种割交换证明保证逐步选便宜边仍能获得全局最小生成树？",
       "outgoing_problem": "最小总线路成本为何不能推出起点到终点的最短路径？",
       "continuity_boundary": "Borůvka1926/Jarník1930/Kruskal1956/Prim1957优先权；MST≠最短路≠TSP；正/负权讨论条件"
+    },
+    "22": {
+      "title": "最短的路，为什么不能永远沿眼前最短走",
+      "status": "draft",
+      "body": "draft/22.md",
+      "claims": "draft/22.claims.json",
+      "source_ids": [
+        "S101",
+        "S102",
+        "S103",
+        "S104",
+        "S105"
+      ],
+      "core_question": "为什么局部最便宜边不等于全程最短，非负权如何保证Dijkstra固定标号安全？",
+      "outgoing_problem": "单条路线的最小花费如何变为许多路径共享容量的最大总流量？",
+      "continuity_boundary": "MST≠单源最短路；非负边权是Dijkstra永久标号前提；Ford1956/Bellman1958/Moore1959/Dijkstra1959史实分列"
+    },
+    "23": {
+      "title": "一张图里，究竟能流过多少水",
+      "status": "draft",
+      "body": "draft/23.md",
+      "claims": "draft/23.claims.json",
+      "source_ids": [
+        "S106",
+        "S107",
+        "S108",
+        "S109"
+      ],
+      "core_question": "为什么撤回旧流量的残量网络可找到更大流，并由最小割证明最优？",
+      "outgoing_problem": "在边互斥的匹配问题中，奇数圈为什么妨碍普通交替路径搜索？",
+      "continuity_boundary": "反向残量≠实体反向水管；1956原刊定理/标号计算与1972复杂度改进分开；整数与无理数终止区别"
+    },
+    "24": {
+      "title": "奇圈里的那朵花：匹配算法跨过一道坎",
+      "status": "draft",
+      "body": "draft/24.md",
+      "claims": "draft/24.claims.json",
+      "source_ids": [
+        "S110",
+        "S111",
+        "S112",
+        "S113",
+        "S114"
+      ],
+      "core_question": "花朵为何是相对匹配的交替奇圈，收缩与展开为什么保留增广路径？",
+      "outgoing_problem": "匹配可多项式求解，不代表哈密顿回路等组合任务都易求，复杂性边界何在？",
+      "continuity_boundary": "极大≠最大；Kuhn1955是二分带权指派，Berge1957判据，Edmonds1965一般图无权最大基数匹配；并非任意奇圈均可收缩"
     }
   }
 }
