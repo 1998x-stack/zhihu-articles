@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "graph-theory-history",
   "title": "连接的秩序：图论三百年",
-  "reading_notice": "图论史序章00至第27章共28篇为有章级来源映射的非虚构工作初稿；第28—37章共10篇为待研究写作占位。第25—27章新增Cook–Karp NP完全性、近似/参数化算法与Fiedler代数连通度三章、38条可追溯主张。全书独立双审仍PENDING，非正式终稿或知乎平台发布。",
+  "reading_notice": "图论史序章00至第30章共31篇为有章级来源映射的非虚构工作初稿；第31—37章共7篇仍为待研究写作占位。最新第28—30章是惠特尼1932平面嵌入唯一性、罗伯逊—西摩图小式良拟序与树宽动态规划三篇初稿，共35条逐章主张。独立双审仍为PENDING，未终审或知乎平台发布。",
   "chapters": [
     {
       "id": "prologue",
@@ -205,21 +205,21 @@
       "title": "28｜画法千变万化，骨架却可能唯一",
       "part": "第六部｜看见深层骨架",
       "file": "draft/28.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-29",
       "title": "29｜二十多篇论文，只为证明图不会无限混乱",
       "part": "第六部｜看见深层骨架",
       "file": "draft/29.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-30",
       "title": "30｜像树一样的图，为什么突然变得容易计算",
       "part": "第六部｜看见深层骨架",
       "file": "draft/30.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-31",
