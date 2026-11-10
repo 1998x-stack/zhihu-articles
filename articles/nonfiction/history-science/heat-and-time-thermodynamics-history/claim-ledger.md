@@ -18,9 +18,9 @@
 | 11 | 如何比较不同热过程中无法恢复的变化？ | R82—R94与已有史料 | 21条核心主张已登记并完成正文初稿，待独立审稿 |
 | 12 | 熵增是否等于“时间本身有了方程”？ | R82—R94与已有史料 | 21条核心主张已登记并完成正文初稿，待独立审稿 |
 | 13 | 热机过程能否成为可视化、可计算的曲线？ | R82—R94与已有史料 | 22条核心主张已登记并完成正文初稿，待独立审稿 |
-| 14 | 怎样区分系统拥有的状态量与穿越边界的过程量？ | R02、R06 | 占位，待核证 |
-| 15 | 同一物质在什么条件下会更换相态？ | R06、R07 | 占位，待核证 |
-| 16 | 多相、多成分的平衡还有多少自由度？ | R06、R07 | 占位，待核证 |
+| 14 | 怎样区分系统拥有的状态量与穿越边界的过程量？ | R02、R06 | 已建逐章来源主张，正文初稿待独立双审 |
+| 15 | 同一物质在什么条件下会更换相态？ | R06、R07 | 已建逐章来源主张，正文初稿待独立双审 |
+| 16 | 多相、多成分的平衡还有多少自由度？ | R06、R07 | 已建逐章来源主张，正文初稿待独立双审 |
 | 17 | 微观碰撞能否产生宏观温度与输运现象？ | R05 | 占位，待核证 |
 | 18 | 全部分子是否都具有同样速度？ | R05 | 占位，待核证 |
 | 19 | 怎样由分子碰撞推导宏观演化方向？ | R05 | 占位，待核证 |
@@ -425,3 +425,68 @@
 | T13-21 | 原始论文用数学图像替代机器零件叙述，是科学方法贡献 | historical_interpretation | R92,R93：history reviews |
 | T13-22 | 第14章将区分循环路径函数Q/W与状态函数U/S，作为逻辑后继 | editorial_transition | R87,R93：modern thermodynamics |
 
+
+## 第14—16章：证据与主张矩阵（2026-11-06）
+
+> 研究 R95—R101 已核对上述三章的关键出版时间、主要命题与现代限定；本节为非虚构写作所用来源矩阵，独立审稿与终稿审定仍为 **PENDING**。每章 claims JSON 须与下列条目一一对应。
+
+### 14｜逐条证据定位
+
+| ID | 主张 | 类型 | 研究ID与定位 |
+|---|---|---|---|
+| T14-01 | 状态函数U只由平衡端态决定，Q与W是过程量 | modern_theory | R99：OpenStax §3.3 |
+| T14-02 | 系统对外做功为正，闭系ΔU=Q−W | modern_formula | R99：first law |
+| T14-03 | 准静态简单压缩/膨胀W=∫p dV依过程路径 | modern_formula | R90,R99：pV process |
+| T14-04 | 循环∮dU=0，∮δQ=∮δW但可以非零 | modern_theory | R99,R90：first law + area |
+| T14-05 | 不能定义‘物体存储的热量Q’作为状态量 | modern_scope | R99：heat in transit |
+| T14-06 | 1865熵命名与1854循环积分先后分开 | historical_sequence | R83,R74 |
+| T14-07 | 1873 Gibbs表面论文原式dε=t dη−p dv | primary_source | R96：p382起始方程 |
+| T14-08 | U(S,V)偏导导出T、−p在固定组成平衡态下 | modern_interpretation | R96：eq(1)–(3) |
+| T14-09 | 可逆交换δQrev=T dS，实际不可逆过程不得直接等同 | modern_scope | R87,R96：entropy and differential |
+| T14-10 | dU=T dS−p dV限定固定组成、仅pV功 | modern_scope | R96：homogeneous simple body |
+| T14-11 | 现代Maxwell关系来自混合二阶偏导可交换 | modern_math | R96：U(S,V) smoothness |
+| T14-12 | 固定S与V的混合偏导关系及Helmholtz势的麦克斯韦关系可推导 | modern_formula | R96：second derivatives; algebra |
+| T14-13 | 麦克斯韦关系名称不可无证据映射具体原始论文 | historiography | R96,R95：Gibbs原论文 |
+| T14-14 | 积分小圈使读者理解恰当与非恰当微分区别 | editorial_example | R99：path independent |
+| T14-15 | 第15章由状态曲面进入平衡和稳定性判断 | editorial_transition | R96,R101：Gibbs geometry |
+
+### 15｜逐条证据定位
+
+| ID | 主张 | 类型 | 研究ID与定位 |
+|---|---|---|---|
+| T15-01 | 1873年4—5月Gibbs发表Graphical Methods... | bibliography | R95：Transactions II pp309–342 |
+| T15-02 | 原著提出T-S等图示并指出pV图早已普及 | primary_source | R95：opening |
+| T15-03 | 1873年12月Gibbs发表曲面论文 | bibliography | R96：Transactions II pp382–404 |
+| T15-04 | 曲面使用体积v、熵η、能量ε的三坐标 | primary_source | R96：opening equations |
+| T15-05 | 温度与压力由U(S,V)曲面切平面斜率决定 | historical_physics | R96：eq(1)–(3) |
+| T15-06 | 同T与p不充分确保纯物质两相平衡，还需化学势条件 | modern_physics | R96,R101：equilibrium conditions |
+| T15-07 | 共存态的公共切平面几何条件有原文依据 | historical_physics | R96：surface coexistence discussion |
+| T15-08 | 曲面不是物质实体，而是可能的平衡态关系图 | editorial_explanation | R96：geometric representation |
+| T15-09 | 平衡判据从孤立总熵极大可以转换为固定外参势极小 | modern_thermodynamics | R97,R101：max S min G |
+| T15-10 | 现代定义G=U+pV−TS及可控外参意义 | modern_formula | R101：free enthalpy |
+| T15-11 | 恒温恒压、闭系仅pV功等条件下ΔG≤0 | modern_scope | R101,R99：constraint |
+| T15-12 | U、S、V广延而T、p强度，须区别相与状态 | modern_theory | R96,R101 |
+| T15-13 | 1873曲面与1875—78非均相平衡论文不可混同 | historical_sequence | R95,R96,R98 |
+| T15-14 | 局部极小的稳定性需允许扰动并比较邻近状态 | modern_scope | R97,R101 |
+| T15-15 | 第16章从一个物质转向多相多组分的自由度 | editorial_transition | R98,R100 |
+
+### 16｜逐条证据定位
+
+| ID | 主张 | 类型 | 研究ID与定位 |
+|---|---|---|---|
+| T16-01 | 吉布斯非均相平衡长论文发表于1875—1878两部分 | bibliography | R97,R98,R101 |
+| T16-02 | 1878作者摘要强调固定能量下熵极大/固定熵能量极小 | primary_source | R97：author abstract |
+| T16-03 | 相数P与组分数C是不同的计数对象 | modern_definition | R100：ch II |
+| T16-04 | 相是内部性质均一并可区分的平衡物质区域 | modern_definition | R100：ch II |
+| T16-05 | 组分数为表达各相组成所需的最小独立成分数 | modern_definition | R100：ch II |
+| T16-06 | 多相平衡同一组分跨相化学势相等 | modern_theory | R100：ch II derivation |
+| T16-07 | 非反应普通体系自由度F=C−P+2 | modern_formula | R100：ch II p16 |
+| T16-08 | 两外参温度与压强及相内组分分数变量的计数 | modern_derivation | R100：ch II pp18–20 |
+| T16-09 | 化学势平衡贡献C(P−1)独立约束的典型推导 | modern_derivation | R100：ch II pp18–20 |
+| T16-10 | 纯水一相F2、双相F1、三相F0 | modern_example | R100：ch III |
+| T16-11 | 三相点不是任意温压条件下水冰汽都稳定共存 | modern_scope | R100：ch III |
+| T16-12 | 不需声称水一相即一定只有液体；固体/气体也可单相 | modern_scope | R100：phase definitions |
+| T16-13 | 有独立反应、外场或额外约束时不可机械套用2 | modern_scope | R100：ch II limits |
+| T16-14 | 相律不计算三相点的具体数值或相变速度 | modern_scope | R100：ch II and ch III |
+| T16-15 | 相律历史推广是渐进的，Roozeboom1887的传播贡献可列 | historical_context | R100：1908 prefatory history |
+| T16-16 | 衔接第17章：宏观理论不以分子假设作前提 | editorial_transition | R100：ch II; R05 kinetic history |
