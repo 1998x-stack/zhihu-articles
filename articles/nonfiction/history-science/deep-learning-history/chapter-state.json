@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "last_chapter": 21,
+  "last_chapter": 24,
   "manuscript_revision": 0,
   "chapter_status": {
     "10": "draft",
@@ -16,7 +16,10 @@
     "19": "draft",
     "20": "draft",
     "21": "draft",
-    "22": "outline",
+    "22": "draft",
+    "23": "draft",
+    "24": "draft",
+    "25": "outline",
     "00": "outline",
     "01": "draft",
     "02": "draft",
@@ -113,12 +116,24 @@
     {
       "chapter": "21",
       "coverage": "2013-12 VAE预印本/2014 ICLR、2014八作者GAN、2015扩散、2019 score、2020 DDPM、2022潜空间扩散；跨年代专题回溯后第22章回到2017"
+    },
+    {
+      "chapter": "22",
+      "coverage": "2017-06 NeurIPS原始Transformer八作者；编码/解码与QKV多头attention、位置和残差，PDF英德28.4BLEU与网页版本不同；训练并行vs逐token推断"
+    },
+    {
+      "chapter": "23",
+      "coverage": "2018 ELMo与ULMFiT分别为上下文LSTM表示和微调路线；2018-06 GPT原始四作者、2018-10 BERT预印本/2019-06 NAACL，2019 GPT2后续"
+    },
+    {
+      "chapter": "24",
+      "coverage": "2020-01 Kaplan规模幂律；2020-05 GPT3 175B参数上下文fewshot无梯度更新；2022 Chinchilla70B/约1.4T tokens与Gopher280B固定预算比较"
     }
   ],
   "unresolved_clues": [
-    "22章：2017 Transformer如何在序列计算中以注意力取代循环并提供位置？",
-    "23章：预训练Transformer如何出现双向编码、语言模型和迁移学习分叉？",
-    "24章：模型规模、数据、算力如何形成经验规律？"
+    "25章：2016 AlphaGo为何需要深网络、蒙特卡洛树搜索与强化学习协作？",
+    "26章：AlphaFold2如何评估蛋白质结构预测的科学意义与限制？",
+    "27章：视觉—文本共享表示和跨模态条件生成在什么实验条件下出现？"
   ],
   "resolved_clues": [
     "第01章数学形式化为何能表达明确计算",
@@ -141,7 +156,10 @@
     "18章训练退化与过拟合不同，身份残差路径的toy梯度可复算",
     "19章区分EMNLP短语特征和NIPS深LSTM端到端变长序列，演示0.8×0.5链式概率",
     "20章区分2014预印本和2015 ICLR，算出[0.5,0.25,0.25]动态信息分配及加权上下文",
-    "21章区分2014 GAN和VAE、2015扩散、2019 score、2020 DDPM、2022潜空间扩散，并保留2017时间回溯说明"
+    "21章区分2014 GAN和VAE、2015扩散、2019 score、2020 DDPM、2022潜空间扩散，并保留2017时间回溯说明",
+    "22章对NeurIPS2017 PDF/网页/arxiv有差异的BLEU指标做版本记录，QKV scaled-dot toy输出1可复算",
+    "23章ELMo/ULMFiT/GPT/BERT训练目标及2018/2019年份分开，MLM比例采用150→120/15/15",
+    "24章测试交叉熵经验律≠全部智能，GPT3 few-shot推断无梯度更新，Chinchilla更小却用更多token"
   ],
   "continuity_notes": [
     "第01章历史数学前史为多文明并行比较，无暗示直接传授",
@@ -179,14 +197,22 @@
     "Bahdanau预印本2014-09而ICLR正式2015，注意力不是2017 Transformer首创",
     "GAN为Goodfellow等八人2014研究，VAE并行、扩散2015已有、DDPM2020和LDM2022各自方法不同",
     "第21章专题跨度2014—2022，下章22专题回到2017而非宣称按时间顺延",
-    "第01—21章独立双审未完成，状态仍PENDING"
+    "第01—21章独立双审未完成，状态仍PENDING",
+    "Transformer2017原PDF英德28.4BLEU，会议网页摘要与预印本数值不一致，正文只用原PDF的英德数字",
+    "Transformer训练已知序列可并行而自回归推断依旧逐token；全局自注意力n平方成对关系成本",
+    "GPT2018四作者预训练+微调与GPT3 2020上下文few-shot无梯度更新不同",
+    "ELMo/ULMFiT为2018 LSTM系其他研究者成果，不将迁移学习归为GPT/BERT首次",
+    "BERT2018-10首版/2019正式会议，MLM15%选中token的80/10/10策略与全体token分母不同",
+    "2022 Chinchilla70B/约1.4T token、Gopher280B，同算力对比，20token/参数非普遍定律",
+    "25章回溯2016/17 AlphaGo是专题编排，不是2022语言模型规模必然结果",
+    "第01—24章均待独立连续性事实审稿与结构审稿（PENDING）"
   ],
   "review_status": "PENDING",
   "progress_summary": {
     "source": "book.json",
     "total": 32,
-    "draft": 21,
-    "outline": 11,
+    "draft": 24,
+    "outline": 8,
     "final": 0,
     "proposals": 0,
     "review_status": "PENDING",

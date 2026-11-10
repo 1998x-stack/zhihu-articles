@@ -3,7 +3,7 @@
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
   "status": "drafting",
-  "reading_notice": "第01—21章拥有来源边界明确的非虚构工作初稿及逐章claims JSON；序章、尾声和第22—32章共13个叙事单元仍属策划占位。全书未完成独立双审、原刊全部实验/代码核对、终稿或发布。",
+  "reading_notice": "第01—24章具有范围限定的非虚构工作初稿和逐章claims JSON，未通过独立双审或终稿；序章、尾声与第25—32章共10个位置仍为策划占位，原始论文附加实验、定稿与平台发表尚未完成。",
   "parts": [
     {
       "number": 1,
@@ -442,30 +442,46 @@
       "title": "AlphaGo：棋盘太大，学习为何需要搜索",
       "part": "第六部｜从街机到围棋",
       "path": "draft/22.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R14"
-      ]
+        "R90",
+        "R14",
+        "R91",
+        "R92",
+        "R93"
+      ],
+      "claims_path": "draft/22.claims.json"
     },
     {
       "id": "23",
       "title": "AlphaGo Zero：不再读人类棋谱，会失去什么",
       "part": "第六部｜从街机到围棋",
       "path": "draft/23.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R15"
-      ]
+        "R93",
+        "R15",
+        "R90",
+        "R94",
+        "R96"
+      ],
+      "claims_path": "draft/23.claims.json"
     },
     {
       "id": "24",
       "title": "AlphaZero：一种棋手如何学会三种棋",
       "part": "第六部｜从街机到围棋",
       "path": "draft/24.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R16"
-      ]
+        "R95",
+        "R96",
+        "R16",
+        "R98",
+        "R93",
+        "R97"
+      ],
+      "claims_path": "draft/24.claims.json"
     },
     {
       "id": "25",
@@ -562,5 +578,5 @@
     }
   ],
   "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段",
-  "last_batch": "batches/19-21.md"
+  "last_batch": "batches/22-24.md"
 }

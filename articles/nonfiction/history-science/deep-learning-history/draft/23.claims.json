@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "23",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "limited chapter-specific primary publication metadata, conference paper excerpts, source summaries, and independently computed toy examples; no independent full-paper audit",
+  "claims": [
+    {
+      "claim_id": "C23-01",
+      "claim": "2018 ELMo NAACL上下文相关词表示双向LM",
+      "source_ids": [
+        "DL110"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "ELMo使用LSTM而非BERT Transformer",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C23-02",
+      "claim": "2018 Howard/Ruder ULMFiT语言模型迁移微调",
+      "source_ids": [
+        "DL111"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "预训练微调范式不是GPT或BERT一方首创",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C23-03",
+      "claim": "2018-06 Radford等GPT原论文与左到右生成预训练及监督微调",
+      "source_ids": [
+        "DL112",
+        "DL113"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是GPT3推理中few-shot不更新权重",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C23-04",
+      "claim": "2018-10 BERT预印本、2019-06 NAACL四作者正式发表",
+      "source_ids": [
+        "DL114",
+        "DL115"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "2019不是第一次公开",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C23-05",
+      "claim": "BERT Transformer encoder与MLM双向语境、原NSP",
+      "source_ids": [
+        "DL114",
+        "DL115"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "双向编码不意味着原版直接自回归生成",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C23-06",
+      "claim": "BERT 15% token选预测；所选80/10/10替换策略",
+      "source_ids": [
+        "DL114",
+        "DL115"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "绝不能说总token中80%被遮罩",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C23-07",
+      "claim": "2019 GPT2后续生成式LM公开研究",
+      "source_ids": [
+        "DL116"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "2019早期公开策略随时间改变，不延伸产品能力",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C23-08",
+      "claim": "1000 token选150及120/15/15，以及GPT/BERT条件示例",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "人为构造期望比例，真实随机批次不保证恰好整齐",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

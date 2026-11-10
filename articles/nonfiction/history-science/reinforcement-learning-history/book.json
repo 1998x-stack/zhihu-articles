@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
-  "reading_notice": "第01—21章为来源范围限定的未独立双审历史科学工作初稿；序章、尾声和第22—32章共13篇仍为规划占位。章节可阅读不意味着全书事实核验或批准。",
+  "reading_notice": "正文初稿01—24章均未通过独立双审、史料全文核证或终审；其余10个单元明确标记待撰写。GitHub Pages阅读展示并不等于正式发表。",
   "description": "从试错心理学、动态规划与时序差分出发，串联价值学习、策略优化、深度强化学习、自我对弈及人类反馈与可验证奖励。",
   "chapters": [
     {
@@ -164,21 +164,21 @@
       "title": "AlphaGo：棋盘太大，学习为何需要搜索",
       "part": "第六部｜从街机到围棋",
       "file": "draft/22.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-23",
       "title": "AlphaGo Zero：不再读人类棋谱，会失去什么",
       "part": "第六部｜从街机到围棋",
       "file": "draft/23.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-24",
       "title": "AlphaZero：一种棋手如何学会三种棋",
       "part": "第六部｜从街机到围棋",
       "file": "draft/24.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-25",

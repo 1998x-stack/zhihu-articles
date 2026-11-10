@@ -1,29 +1,177 @@
 {
   "chapter": "36",
-  "status": "PENDING",
+  "title": "尾声：为什么今天仍在重新发明微积分",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H225",
+    "H226",
+    "H227",
+    "H228",
+    "H229",
+    "H230",
+    "H102",
+    "H103",
+    "H177",
+    "H203",
+    "H208",
+    "H217",
+    "H218",
+    "H223"
+  ],
   "claims": [
     {
       "id": "C36-01",
-      "statement": "现代自动微分、分布和广义积分，究竟延续了哪条核心思想？",
-      "source_candidates": [
-        "H01",
-        "H05",
-        "H10",
-        "H13"
+      "kind": "historical",
+      "statement": "Johann Bernoulli posed brachistochrone June1696 and solutions incl Bernoulli family, Newton, Leibniz published by 1697; cycloid under ideal setup",
+      "source_ids": [
+        "H225",
+        "H226",
+        "H102",
+        "H103"
       ],
-      "verification": "PENDING"
+      "locator": "MacTutor historical synthesis & 2017 article with original chronology",
+      "verification": "SOURCE_CHECKED"
     },
     {
       "id": "C36-02",
-      "statement": "回看局部变化、整体累积、证明条件和对象扩展",
-      "source_candidates": [
-        "H01",
-        "H05",
-        "H10",
-        "H13"
+      "kind": "mathematical_model",
+      "statement": "ideal frictionless uniform gravity speed v=sqrt(2gy) from rest after drop y and time T=∫ds/v",
+      "source_ids": [
+        "H227"
       ],
-      "verification": "PENDING"
+      "locator": "energy conservation and time formula, modern not 1697 primary notation",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C36-03",
+      "kind": "mathematical_parametric",
+      "statement": "cycloid x=a(θ−sinθ), y=a(1−cosθ) θ0..π reaches (πa,2a) and takes time πsqrt(a/g)",
+      "source_ids": [
+        "H227",
+        "H225"
+      ],
+      "locator": "parametric speed derivation, positive θ and endpoint limit",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C36-04",
+      "kind": "mathematical_comparison",
+      "statement": "line from same endpoints time sqrt(π²+4)sqrt(a/g), ratio π/sqrt(π²+4) ≈0.844",
+      "source_ids": [
+        "H227"
+      ],
+      "locator": "uniform acceleration component along line and exact division",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C36-05",
+      "kind": "proof_boundary",
+      "statement": "cycloid beating straight line one endpoint pair is not proof of global optimality among all curves",
+      "source_ids": [
+        "H225",
+        "H226"
+      ],
+      "locator": "historical brachistochrone theorem vs illustrative comparison",
+      "verification": "QUALIFIED"
+    },
+    {
+      "id": "C36-06",
+      "kind": "historiography",
+      "statement": "Greek exhaustion Chinese circle method Indian series Islamic math contributions cannot be assumed single demonstrable transmission lineage",
+      "source_ids": [
+        "H228"
+      ],
+      "locator": "existing cross-cultural research files and historical qualification",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C36-07",
+      "kind": "historical_foundations",
+      "statement": "Newton/Leibniz integrated differential/integral algorithms with separate concepts, publication/credit histories and predecessors",
+      "source_ids": [
+        "H228",
+        "H225"
+      ],
+      "locator": "prior chapter12-16 source registries and historical framing",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C36-08",
+      "kind": "math_fundamental",
+      "statement": "fundamental theorem links local and accumulated change under required regularity assumptions, not arbitrary functions",
+      "source_ids": [
+        "H229"
+      ],
+      "locator": "modern theorem and limitations from prior chapter 15",
+      "verification": "MATH_SCOPE_QUALIFIED"
+    },
+    {
+      "id": "C36-09",
+      "kind": "math_fundamentals",
+      "statement": "continuity does not imply differentiability; Lebesgue extends Riemann while measurement/measurability assumptions remain",
+      "source_ids": [
+        "H229",
+        "H177"
+      ],
+      "locator": "Weierstrass and Darboux/Lebesgue prior math comparisons",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C36-10",
+      "kind": "concept_distinction",
+      "statement": "Banach/Hilbert function space, Schwartz distribution, Robinson hyperreal are different mathematical kinds, not one definition",
+      "source_ids": [
+        "H229",
+        "H203",
+        "H208"
+      ],
+      "locator": "distinct fundamental definitions with chapter32-34 evidence",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C36-11",
+      "kind": "math_ad",
+      "statement": "forward/reverse AD as chain-rule program transformations do not guarantee arbitrary program differentiability or real-world model validity",
+      "source_ids": [
+        "H217",
+        "H218",
+        "H223"
+      ],
+      "locator": "JMLR official and JAX docs plus mathematical limits",
+      "verification": "MATH_SCOPE_QUALIFIED"
+    },
+    {
+      "id": "C36-12",
+      "kind": "ethics_of_history",
+      "statement": "avoid assigning private anecdotes or lone-inventor status without primary record; 1696/1697 publication and proof differentiated",
+      "source_ids": [
+        "H225",
+        "H226",
+        "H228"
+      ],
+      "locator": "qualified scholarship and cross-chapter historical methodology",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C36-13",
+      "kind": "editorial_conclusion",
+      "statement": "four lenses controllable infinity, calculable change, provable conditions, executable operations synthesize book, not historical single lineage",
+      "source_ids": [
+        "H228",
+        "H229",
+        "H230"
+      ],
+      "locator": "editorial integration of chapter-scoped research without new unsupported facts",
+      "verification": "EDITORIAL_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "1696 and 1697 historical sources distinguished and anecdotal Newton one-night story not asserted as independently documented.",
+    "Math modern brachistochrone derivation under idealized uniform gravity, no friction, one endpoint configuration; demonstrating faster than chord not global proof.",
+    "y=0 start singularity is handled by parameter limit and never division at zero.",
+    "Cross-cultural comparisons not treated as direct transmission absent records.",
+    "Not every function differentiable/integrable, not every AD program correct or numerical gradient globally optimal.",
+    "No independent dual review, formal proof verification, final approval, or platform publication despite plan's full draft coverage."
+  ]
 }

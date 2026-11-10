@@ -637,16 +637,46 @@
     {
       "id": "35",
       "title": "自动微分：计算机怎样真正执行链式法则",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/35.md",
-      "claims_path": "draft/35.claims.json"
+      "claims_path": "draft/35.claims.json",
+      "source_ids": [
+        "H213",
+        "H214",
+        "H215",
+        "H216",
+        "H217",
+        "H218",
+        "H219",
+        "H220",
+        "H221",
+        "H222",
+        "H223",
+        "H224",
+        "H230"
+      ]
     },
     {
       "id": "36",
       "title": "尾声：为什么今天仍在重新发明微积分？",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "path": "draft/36.md",
-      "claims_path": "draft/36.claims.json"
+      "claims_path": "draft/36.claims.json",
+      "source_ids": [
+        "H225",
+        "H226",
+        "H227",
+        "H228",
+        "H229",
+        "H230",
+        "H102",
+        "H103",
+        "H177",
+        "H203",
+        "H208",
+        "H217",
+        "H218"
+      ]
     }
   ]
 }

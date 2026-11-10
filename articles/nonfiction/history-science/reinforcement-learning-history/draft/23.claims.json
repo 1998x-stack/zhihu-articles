@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "chapter": "23",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "依据2016Nature AlphaGo原文、2017Nature Zero原文、2017arXiv AlphaZero初稿及2018Science正式论文/作者公告进行写作前限定范围核证。全部教学数字单独标为原创。未完整独立二审所有图表与补充材料。",
+  "alias_to_research_source_id": {
+    "Z01": "R93",
+    "Z02": "R90",
+    "Z03": "R94",
+    "Z04": "R96"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-23-01",
+      "claim": "2017年10月19日Nature发表Silver等AlphaGo Zero研究550:354—359",
+      "source_ids": [
+        "R93",
+        "R15"
+      ],
+      "kind": "publication",
+      "section": "一",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-02",
+      "claim": "2017方法从随机行为开始，不使用人类对局示范训练，只根据规则与自我对弈",
+      "source_ids": [
+        "R93"
+      ],
+      "kind": "primary_method",
+      "section": "一、二、八",
+      "evidence_note": "Zero不表示无人类设计",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-03",
+      "claim": "Zero使用联合策略价值网络fθ(s)=(p,v)，旧AlphaGo为分立网络",
+      "source_ids": [
+        "R93",
+        "R90"
+      ],
+      "kind": "primary_architecture",
+      "section": "二、三",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-04",
+      "claim": "Zero搜索不再执行旧AlphaGo快速rollout模拟到终局机制",
+      "source_ids": [
+        "R93",
+        "R90"
+      ],
+      "kind": "primary_method",
+      "section": "二",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-05",
+      "claim": "MCTS访问次数在搜索结果中形成π_a∝N(s,a)^(1/τ)，不同于原始网络p",
+      "source_ids": [
+        "R93"
+      ],
+      "kind": "primary_algorithm",
+      "section": "四、五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-06",
+      "claim": "原创根访问60/30/10、tau=1形成π=.6/.3/.1",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "五",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-07",
+      "claim": "网络以搜索分布π与终局结果z构成训练监督，联合损失有价值误差、交叉熵、L2",
+      "source_ids": [
+        "R93"
+      ],
+      "kind": "primary_equation",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-08",
+      "claim": "原创价值预测v=.4、终局z=1得平方误差.36",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "六",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-09",
+      "claim": "Zero训练循环把搜索改进的行为作为下一轮神经网络训练目标",
+      "source_ids": [
+        "R93"
+      ],
+      "kind": "primary_mechanism",
+      "section": "四、十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-10",
+      "claim": "2017论文三天20残差块实验产生4.9百万盘自我对弈、每MCTS约1600模拟",
+      "source_ids": [
+        "R93"
+      ],
+      "kind": "primary_experiment",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-11",
+      "claim": "该三天版本规定条件下100:0击败程序AlphaGo Lee，并非对李世石真人100胜",
+      "source_ids": [
+        "R93",
+        "R94"
+      ],
+      "kind": "primary_comparison",
+      "section": "一、七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-12",
+      "claim": "2017论文另有40残差块约40天训练版本，与AlphaGo Master作另项比赛比较",
+      "source_ids": [
+        "R93",
+        "R94"
+      ],
+      "kind": "primary_experiment",
+      "section": "七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-13",
+      "claim": "论文Zero仅不采用人类棋谱/手工围棋战术，仍知规则、终局得分、合法动作",
+      "source_ids": [
+        "R93"
+      ],
+      "kind": "domain_boundary",
+      "section": "八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-14",
+      "claim": "围棋旋转镜像对称可用于Zero数据增强，但不能直接照搬国际象棋",
+      "source_ids": [
+        "R93",
+        "R96"
+      ],
+      "kind": "transfer_boundary",
+      "section": "十",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-15",
+      "claim": "作者记录出现与人类定式相似的局面模式，却不代表重建完整人类围棋思想史",
+      "source_ids": [
+        "R93"
+      ],
+      "kind": "primary_qualitative",
+      "section": "九",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-23-16",
+      "claim": "围棋自对弈模拟可廉价反复运行，三天训练并不代表普通电脑72小时零成本",
+      "source_ids": [
+        "R93"
+      ],
+      "kind": "compute_caveat",
+      "section": "七、八",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "3天/20块/490万自对弈/1600模拟与40天/40块的两套实验严格区分",
+    "100:0对手是AlphaGo Lee软件而非李世石本人或人类高手",
+    "Zero不意味着无围棋规则、无搜索或无大量并行计算",
+    "定式图样只代表论文的局部观察，不可普遍化为机器重建所有人类棋理"
+  ]
+}

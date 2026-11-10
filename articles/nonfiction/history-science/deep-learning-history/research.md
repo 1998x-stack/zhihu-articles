@@ -385,3 +385,57 @@ Bahdanau/Cho/Bengio论文**2014-09-01预印本→ICLR2015**；提出解码每个
 - 2014-09先公开Bahdanau注意力，2015 ICLR正式发表；没有2017 Transformer自注意力的完整计算架构。2015 Luong attention路线说明非独家单一发明。
 - GAN2014与VAE2014、diffusion2015、score2019、DDPM2020、LDM2022方法目标、采样与评估差异不能化为“同一个生成模型”；本文并非跨所有生成质量基准定胜负。
 - 用户要求非虚构知乎盐选风格，不准虚构研究者实验室对话、心理、图像截图或未提供的具体算法运行结果。所有演算标注现代作者例题。第01—18章独立审核继续PENDING。
+
+## 十二、第八批22—24章：Transformer、双路线预训练、规模定律与GPT-3（2026-11-10）
+
+> **限定范围前置核查**：已经核对2017 Transformer原始NeurIPS正式PDF首页/模型机制段，另用NeurIPS/ACL会议档案、机构原始论文与公告核对2018—2022关键论文时间、作者与摘要。依仓库阶段契约，此处不是独立审稿PASS，不表示所有论文的全部图表已复现。第22—24章之外的写作许可不扩大。
+
+| ID | 证据类型 | 原始文献 | 可支持论断与禁止混淆 |
+| --- | --- | --- | --- |
+| DL107 | 2017 NeurIPS原始正式会议PDF，首屏已截图 | [Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser & Polosukhin, Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) | 八作者、6层编码/解码、QKV、scale/sqrt(d_k)、8-head、正余弦位置编码、残差/层归一化；PDF摘要28.4英德BLEU、41.0英法BLEU（不同摘要有版本差异）。 |
+| DL108 | 2017 NeurIPS论文门户，版本差异证据 | [Attention is All you Need, NeurIPS 2017 abstract landing page](https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html) | 网页摘要写27.5英德、41.1英法，**与同站PDF 28.4/41.0不一致**；正文只采用PDF版数字并主动说明。 |
+| DL109 | 2017-06-12预印本，另一版本 | [Vaswani et al., arXiv:1706.03762 Attention Is All You Need](https://arxiv.org/abs/1706.03762) | 部分arXiv摘要写41.8英法，进一步证明存在版本数字问题；不混用。 |
+| DL110 | 2018 NAACL原始会议 | [Peters, Neumann, Iyyer, Gardner, Clark, Lee & Zettlemoyer, Deep Contextualized Word Representations (ELMo)](https://aclanthology.org/N18-1202/) | 2018双向LSTM语言模型导出上下文词表示，多义词语境变化；**不是基于Transformer的BERT**。 |
+| DL111 | 2018 ACL正式会议 | [Howard & Ruder, Universal Language Model Fine-tuning for Text Classification (ULMFiT)](https://aclanthology.org/P18-1031/) | 预训练/微调迁移路线2018已有LSTM系；原论文在6文本分类任务显示收益，不是Google或OpenAI独占思想。 |
+| DL112 | 2018-06-11机构研究公告 | [OpenAI, Improving language understanding with unsupervised learning](https://openai.com/index/language-unsupervised/) | GPT早期方案将Transformer与生成式语言模型预训练、各任务有监督微调组合；公告的具体基准有时不如其他方法，不宣称全面第一。 |
+| DL113 | 2018原始技术报告 | [Radford, Narasimhan, Salimans & Sutskever, Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | GPT(2018)四作者，因果左到右Transformer语言模型预训练后按具体任务微调；不等于GPT-3 few-shot无权重更新。 |
+| DL114 | 2018-10-11首版预印本 | [Devlin, Chang, Lee & Toutanova, BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) | BERT双向Transformer encoder, MLM, 原始版NSP，**2018公开不是2019才首发**；15%token选择预测，选中的80%MASK、10%随机、10%不变。 |
+| DL115 | 2019-06 NAACL正式会议 | [Devlin, Chang, Lee & Toutanova, BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/) | 四位作者、2019正式会议4171–4186；原实验在11类NLP任务有竞争结果，不能外推所有下游任务。 |
+| DL116 | 2019-02-14官方研究公告 | [OpenAI, Better Language Models and Their Implications (GPT-2)](https://openai.com/index/better-language-models/) | GPT-2是2019后续生成式LM，阶段性release政策也随着时间变化，不能称2019永久未公开。 |
+| DL117 | 2020-01-23原始论文与官方摘要 | [Kaplan et al., Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) | 在论文测量范围内测试交叉熵loss随模型N、数据D、计算量C近似幂律；当时提出较大模型/较少token的compute efficiency安排，**实验归纳而非所有任务数学定律**。 |
+| DL118 | 2020 NeurIPS正式论文 | [Brown, Mann, Ryder et al., Language Models are Few-Shot Learners](https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html) | GPT-3为175B参数的自回归LM；zero/one/few-shot示例仅在推理输入上下文中，无梯度更新/微调；原文明确承认多任务能力缺陷与训练语料污染等方法风险。 |
+| DL119 | 2022-03预印本、2022 NeurIPS正式论文 | [Hoffmann, Borgeaud, Mensch et al., Training Compute-Optimal Large Language Models / An Empirical Analysis of Compute-Optimal Large Language Model Training](https://proceedings.neurips.cc/paper_files/paper/2022/hash/c1e2faff6f588870935f114ebe04a3e5-Abstract.html) | 四百余模型实验，计算预算固定下N和D适宜共同增长；Chinchilla70B与Gopher280B相近训练算力、前者约四倍训练数据并在论文多项基准上领先；实验拟合条件限制明显。 |
+| DL120 | 2022-04-12官方研究解读 | [Google DeepMind, An empirical analysis of compute-optimal large language model training](https://deepmind.google/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/) | 对compute-optimal与部署推理成本解释；不是超越所有模型的永恒保证。 |
+| DL121 | 2021原始研究前史 | [Rae et al., Scaling Language Models: Methods, Analysis & Insights from Training Gopher](https://arxiv.org/abs/2112.11446) | Gopher 280B原始论文，2022 Chinchilla的相近算力对照参照；勿将此数据条件与GPT-3混用。 |
+| DL122 | 2020-05-28 GPT-3预印本记录 | [Brown et al., Language Models are Few-Shot Learners, arXiv:2005.14165](https://arxiv.org/abs/2005.14165) | 2020年5月公开、后NeurIPS2020；GPT-3正式论断是few-shot上下文学习而非当时已完成通用可靠推理。 |
+
+### 第22章：正式PDF与网页摘要数字有冲突
+
+- **准确论文身份**：八作者Ashish Vaswani、Noam Shazeer、Niki Parmar、Jakob Uszkoreit、Llion Jones、Aidan N. Gomez、Lukasz Kaiser、Illia Polosukhin，NIPS2017；2017年6月已有预印本。PDF首页贡献脚注列多位作者分工，故不得将其称作某一人独创注意力。2014/2015 Bahdanau/Cho/Bengio已经采用跨源注意力，2017改变的是以自注意力为核心的完整序列结构。
+- **2017正式会议PDF为本批数字依据**：WMT14英德28.4 BLEU、英法41.0 BLEU；官网网页摘要则列27.5与41.1，arXiv摘要有英法41.8。只使用原PDF的英德28.4作单一例子，另一组仅记录文献异文。各BLEU数字均是翻译评估，不是“28.4%句子正确”。
+- **机制**：编码器6层，每层多头自注意力＋前馈；解码器6层，每层因果遮罩自注意力＋编码器/解码器注意力＋前馈。源/目标都有位置编码、残差连接及layer norm。Scaled dot-product attention = softmax(QKᵀ/√d_k)V，原实验h=8，d_model=512，d_k=64。位置编码原实验用不同频率sin/cos，学习式位置表示亦有比较；**没有循环不等于完全没有序列位置**。
+- **并行限定**：训练阶段已知目标序列，可用因果遮罩并行计算多个位置；**自回归推断仍须一个token接一个token地产生**。完全全局attention简单实现包含n²成对分数与长上下文内存成本，不能宣传序列变长总更快。自注意力也非2017首次出现于全部研究。
+- **算例**：q=(√2,0)、k₁=(ln3,0)、k₂=(0,1)、d_k=2，点积分数除√2得到[ln3,0]，权重[0.75,0.25]。值v₁=2、v₂=-2，加权结果=1.0。此为作者手工安排的单头标量V，不是2017真实模型权重。
+
+### 第23章：2018两条迁移路线，不制造“谁先发明预训练”的伪冲突
+
+- ELMo（Peters等NAACL2018）利用双向LSTM语言模型提供**上下文相关词表示**；ULMFiT（Howard/Ruder ACL2018）展示LSTM LM预训练后微调分类任务。GPT（Radford/Narasimhan/Salimans/Sutskever）2018-06官方公告结合**Transformer解码式左到右语言建模与任务微调**，而非GPT-3式推理只看示例且不修改权重。
+- BERT四作者2018-10-11首版预印本、2019-06 NAACL正式论文。BERT使用双向Transformer**编码器**，masked LM以及原始版的NSP；选择15% WordPiece位置预测，所选中80%替换[MASK]、10%随机词片、10%原样不变。并非把原始文本的15%全部变成[MASK]，更不是所有训练步骤都在单词层而不是词片层。
+- **现代教学**：若虚构训练批有1000个token位置，按期望比例选择150个作为MLM预测位；对应120个[MASK]、15随机替换、15不变（实际随机样本不需刚好精确）。GPT输入“我 今天 去”要预测下一token，BERT输入“我 [MASK] 去 学校”能借右侧位置；两任务不互相包含。2020 GPT-3的few-shot无梯度更新与2018 GPT微调**不是同一事实**。
+- GPT-2 2019是独立后续节点；不能用今天模型产品能力倒写为2018原版已经能够处理任意多轮对话、工具或长推理。
+
+### 第24章：参数、训练token、算力在同一约束下的权衡
+
+- Kaplan等（2020-01）测量特定语言模型训练的**交叉熵损失**与N（参数量）、D（训练token）、C（训练计算）近似幂律关系。经验曲线不等于“倍增参数必倍增智能”“无限提升保证”。当时偏向更大模型、较少训练步的高效方案，在测量目标和约束下有成立条件。
+- Brown等GPT-3（2020-05/NeurIPS2020）自回归1750亿参数（175B），zero/one/few-shot**在推理阶段不更新模型权重**；只将示例置于文本上下文。原文同时报告多个困难任务/数据污染、偏差与文本可靠性问题。
+- Hoffmann等（2022 NeurIPS）在**训练计算预算固定**下，经验发现模型参数和训练token应更均衡增长。Chinchilla 70B参数、约1.4万亿tokens，对照Gopher 280B参数、较少训练tokens，在论文报告的测试任务上表现更好，二者大致相同的训练算力。70B不是“全世界所有任务最优”，也不意味着更新模型以后参数越多在任何约束下都无用。
+- **算例**：20亿参数×400亿token与40亿参数×200亿token，参数量与训练token乘积都为800亿²；若采用训练FLOPs≈6ND的粗略估计，则两者成本同阶，**性能谁更高需实验**。70B与1.4T对应约20训练token/参数，是Chinchilla这个实验配置比值，不能宣布业界永恒经验常数。玩具幂律E(N)=A N^-0.1表示N翻倍时误差余量乘2^-0.1≈0.933（改善约6.7%，并非两倍）；指数-0.1由作者任意设定，不是Kaplan论文实际拟合指数。
+- **制度与商业代价**：更大的模型训练通常需要昂贵的算力与数据质量治理；固定算力下更适当的模型/数据平衡还能降低推断成本，但是否适用取决于目标、训练分布、数据清洗、模型结构及实际环境。2020原论文的预训练损失与few-shot任务得分是不同指标，不能据一项推出事实可靠性和伦理治理已解决。
+
+### 独立审稿未决事项
+
+1. NeurIPS2017网页/正式PDF/arXiv三者数字冲突；全书22章只使用正式PDF已核值，若新增实验表必须注明原PDF版本与任务。对Transformer原始作者脚注、8头和position details逐页复审。
+2. ULMFiT、ELMo、GPT2018和BERT2018/2019原始训练目标、模型架构及预训练-微调阶段归属独立核查，BERT遮罩采样按所选预测token而非总token百分比记述。
+3. Kaplan2020、Brown GPT-3 2020、Hoffmann2022在不同模型、样本、预算及指标上的结果不能化作“参数唯一决定智能”的口号。
+4. 第25章AlphaGo研究是**时间回溯**（2016—2017），并非2022规模定律直接产物；须在第24章尾与下一部开篇明确。
+5. 此前第01—21章均仍为工作初稿并待独立双重审稿。本批独立审稿、终稿批准仍PENDING。

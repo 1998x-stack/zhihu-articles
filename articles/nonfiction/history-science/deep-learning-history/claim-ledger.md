@@ -1,6 +1,6 @@
 # 主张账本｜章节 → 资料范围（规划版）
 
-> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—12章已补充限定主张与原始论文核查；第13—15章本批补充限域核证；第16—18章此前已限域核查，第19—21章本批完成限定核查，第22—31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
+> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—12章已补充限定主张与原始论文核查；第13—15章本批补充限域核证；第16—18章此前已限域核查，第19—21章本批完成限定核查，第22—24章本批补核，第25—31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
 
 | 章节 | claim_id | 本章需要核验的中心主张 | 候选source_id | 证据性质及待核点 | 状态 |
 | --- | --- | --- | --- | --- | --- |
@@ -241,3 +241,34 @@
 | 21 | C21-08 | GAN log toy及扩散单步x1 toy的数值 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 人造数字不是原论文真实实验或收敛证明 |
 
 以上SCOPED_VERIFIED指原始出版物、原始摘要、日期和中心模型机制在限定范围核对；AUTHOR_DERIVATION是本次作者教学示例。**尚未完成独立事实、连续性及结构审稿**，不准标记PASS或进行最终发布。
+
+## 第八批22—24章：逐章主张与来源映射
+
+| chapter | claim_id | 可核断言 | source_ids | 前置核验等级 | 禁止外推 |
+| --- | --- | --- | --- | --- | --- |
+| 22 | C22-01 | 2017 NeurIPS Transformer八作者与2017-06预印本 | DL107,DL109 | SCOPED_VERIFIED | 多作者不同贡献，2014/15已有attention |
+| 22 | C22-02 | 原始正式PDF的英德28.4 BLEU与其他版本摘要差异 | DL107,DL108,DL109 | VERSION_DISCREPANCY | 2017官网网页27.5英德、41.1英法、PDF28.4/41.0、arxiv部分摘要41.8，禁混用 |
+| 22 | C22-03 | Transformer原版6层编码+6层解码，包含三类注意力与位置 | DL107 | SCOPED_VERIFIED | 不是当时所有Transformer都decoder-only |
+| 22 | C22-04 | scaled dot product与Q K V多头并行且保留残差层归一化 | DL107 | SCOPED_VERIFIED | 多头并非分别必等于人类可命名语义 |
+| 22 | C22-05 | 训练可并行处理序列位置但自回归推断仍逐token | DL107 | TECHNICAL_QUALIFIED | 不能说整句输出一步完成或长序列成本为常数 |
+| 22 | C22-06 | 全局自注意力序列长度成对交互O(n²)及顺序编码 | DL107 | SCOPED_VERIFIED | 计算项与实际硬件速度不同，位置不被省略 |
+| 22 | C22-07 | 玩具QKV点积经缩放后权重3/4和1/4，输出1 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 人为构造的单头向量/标量值示例 |
+| 22 | C22-08 | Transformer不是attention最初出现，序列到序列前史 | DL93,DL95,DL107 | CHRONOLOGY | Bahdanau与Luong早于Transformer |
+| 23 | C23-01 | 2018 ELMo NAACL上下文相关词表示双向LM | DL110 | SCOPED_VERIFIED | ELMo使用LSTM而非BERT Transformer |
+| 23 | C23-02 | 2018 Howard/Ruder ULMFiT语言模型迁移微调 | DL111 | SCOPED_VERIFIED | 预训练微调范式不是GPT或BERT一方首创 |
+| 23 | C23-03 | 2018-06 Radford等GPT原论文与左到右生成预训练及监督微调 | DL112,DL113 | SCOPED_VERIFIED | 不是GPT3推理中few-shot不更新权重 |
+| 23 | C23-04 | 2018-10 BERT预印本、2019-06 NAACL四作者正式发表 | DL114,DL115 | SCOPED_VERIFIED | 2019不是第一次公开 |
+| 23 | C23-05 | BERT Transformer encoder与MLM双向语境、原NSP | DL114,DL115 | SCOPED_VERIFIED | 双向编码不意味着原版直接自回归生成 |
+| 23 | C23-06 | BERT 15% token选预测；所选80/10/10替换策略 | DL114,DL115 | SCOPED_VERIFIED | 绝不能说总token中80%被遮罩 |
+| 23 | C23-07 | 2019 GPT2后续生成式LM公开研究 | DL116 | SCOPED_VERIFIED | 2019早期公开策略随时间改变，不延伸产品能力 |
+| 23 | C23-08 | 1000 token选150及120/15/15，以及GPT/BERT条件示例 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 人为构造期望比例，真实随机批次不保证恰好整齐 |
+| 24 | C24-01 | 2020 Kaplan等模型数据算力与测试交叉熵的幂律测量 | DL117 | SCOPED_VERIFIED | 经验关系不保证所有能力无限改善 |
+| 24 | C24-02 | Kaplan固定预算下大模型短训练的结论具指定测量条件 | DL117 | TECHNICAL_QUALIFIED | 后续Chinchilla提出不同compute-optimal经验安排 |
+| 24 | C24-03 | 2020 Brown等GPT3 175B自回归语言模型及NeurIPS发表 | DL118,DL122 | SCOPED_VERIFIED | 研究论文年份不是产品上线年份 |
+| 24 | C24-04 | GPT3 zero/one/few-shot上下文推理无梯度更新 | DL118 | SCOPED_VERIFIED | few-shot ≠ 下游微调 ≠ 证明人类式学习 |
+| 24 | C24-05 | 原始GPT3论文承认任务缺陷、评测数据污染及语言偏差风险 | DL118 | SCOPED_VERIFIED | 不能外推到所有后续模型结论 |
+| 24 | C24-06 | 2022 Hoffmann等Chinchilla70B与Gopher280B、token更充分 | DL119,DL120,DL121 | SCOPED_VERIFIED | 同训练算力和论文基准条件，不是恒定最佳规模 |
+| 24 | C24-07 | Chinchilla训练70B与约1.4T tokens比值20与预算乘积演示 | DL119,AUTHOR_DERIVATION | VERIFIED_DERIVATION | 20是该模型配置比值，非普适最优token/param |
+| 24 | C24-08 | 作者自造幂律0.1指数与2^-0.1≈0.933 | AUTHOR_DERIVATION,DL117 | VERIFIED_DERIVATION | 非Kaplan拟合指数，不能把loss改善当准确率或智能增长 |
+
+**核查不是批准**：SCOPED_VERIFIED表示中心历史元数据和指定技术描述的限定核对；VERSION_DISCREPANCY记录相互冲突的原始文献版本；AUTHOR_DERIVATION是当代教学示例。各章均未独立双审通过，状态PENDING。
