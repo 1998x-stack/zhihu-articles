@@ -2,20 +2,20 @@
   "schema_version": "1.0",
   "lane": "nonfiction",
   "tracking_mode": "partial-batch-continuity-plus-derived-progress",
-  "note": "第20—22章只记录已完成的研究性初稿、来源与批次承接；原有全书审稿闸门未通过，派生进度不代表审稿许可。",
+  "note": "第20—25章为已登记研究性初稿，23—25章跨第五/六部；章级进度用于续写和派生站点展示，不代表独立事实核验或全书工作流审批。",
   "progress_summary": {
     "source": "book.json",
     "total": 34,
-    "draft": 22,
-    "outline": 12,
+    "draft": 25,
+    "outline": 9,
     "final": 0,
     "proposals": 0,
     "review_status": "PENDING",
     "final_approved": false
   },
   "current_revision": 0,
-  "last_written_chapter": "22",
-  "latest_batch": "20-22",
+  "last_written_chapter": "25",
+  "latest_batch": "23-25",
   "chapter_progress": {
     "20": {
       "title": "网络流行病学的前史：从SIR开始",
@@ -58,6 +58,50 @@
       "core_question": "相同一位种子为何在路径和星形图中产生截然不同结果？",
       "outgoing_problem": "持续振荡的节点如何通过连接同步？",
       "continuity_boundary": "Watts邻居行为比例阈值≠SIS感染速率阈值；社会现象类比非因果验证"
+    },
+    "23": {
+      "title": "同时起舞：连接和同步",
+      "status": "draft",
+      "body": "draft/23.md",
+      "claims": "draft/23.claims.json",
+      "source_ids": [
+        "S84",
+        "S85",
+        "S86",
+        "S87",
+        "S88"
+      ],
+      "core_question": "自然频率不同的振荡器怎样在耦合作用下相位锁定？",
+      "outgoing_problem": "网页上的方向性链接怎样产生权威与排序？",
+      "continuity_boundary": "Winfree1967在先、Kuramoto1975模型、后世标准写法与复杂网络谱临界分别限定；相位锁定不等于完全同相"
+    },
+    "24": {
+      "title": "一条链接的权力：从排名到导航",
+      "status": "draft",
+      "body": "draft/24.md",
+      "claims": "draft/24.claims.json",
+      "source_ids": [
+        "S89",
+        "S90",
+        "S91"
+      ],
+      "core_question": "为什么不能仅用被链接次数决定网页重要性？",
+      "outgoing_problem": "把跨时间出现的链接汇总后会丢掉什么？",
+      "continuity_boundary": "Kleinberg HITS 1997/1998/1999、四作者PageRank报告1998、两作者Google论文1998，且算法分数不是现实可信度"
+    },
+    "25": {
+      "title": "一张静态图藏住了什么",
+      "status": "draft",
+      "body": "draft/25.md",
+      "claims": "draft/25.claims.json",
+      "source_ids": [
+        "S17",
+        "S92",
+        "S93"
+      ],
+      "core_question": "同样三条静态边为什么在不同接触时序下有不同可达性？",
+      "outgoing_problem": "边的时间戳无法表达不同关系类型，多层网络如何建模？",
+      "continuity_boundary": "Kempe2002在先、Pan2011实证、Holme/Saramäki2012综述；时间存在路径不代表实际传播或因果影响"
     }
   },
   "review_status": "PENDING"

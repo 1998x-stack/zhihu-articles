@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "24",
+  "claims": [
+    {
+      "claim_id": "NS-24-01",
+      "type": "historical_priority",
+      "statement": "Kleinberg HITS 1997 May IBM RJ10076, 1998 SODA proceedings, 1999 JACM46(5):604–632 extended version",
+      "source_ids": [
+        "S89"
+      ],
+      "locator": "Cornell author's publication listing, JACM DOI and paper cover",
+      "verification_status": "author_record_checked"
+    },
+    {
+      "claim_id": "NS-24-02",
+      "type": "algorithm_definition",
+      "statement": "HITS distinguishes topical hub and authority scores and mutually reinforcing normalization iterations",
+      "source_ids": [
+        "S89"
+      ],
+      "locator": "Kleinberg article abstract and alternating scheme",
+      "verification_status": "primary_text_checked"
+    },
+    {
+      "claim_id": "NS-24-03",
+      "type": "mathematical_example",
+      "statement": "Four-page directed graph A->C,A->D,B->C with initial h_A=h_B=1 yields a_C=2,a_D=1 then h_A=3,h_B=2 before normalization",
+      "source_ids": [],
+      "locator": "Author-created first-step HITS calculation; deliberately not final convergence",
+      "verification_status": "independent_calculation_checked"
+    },
+    {
+      "claim_id": "NS-24-04",
+      "type": "historical_bibliography",
+      "statement": "The PageRank Citation Ranking technical report dated January29 1998 credits Page Brin Motwani Winograd",
+      "source_ids": [
+        "S90"
+      ],
+      "locator": "Original report header and title/authors; distinct from Google Anatomy",
+      "verification_status": "original_report_header_checked"
+    },
+    {
+      "claim_id": "NS-24-05",
+      "type": "historical_bibliography",
+      "statement": "Brin and Page Google Anatomy 1998 Computer Networks & ISDN Systems vol30 pp107–117 describes the large search system including hyperlinks and indexing",
+      "source_ids": [
+        "S91"
+      ],
+      "locator": "Google Research original bibliography and paper abstract",
+      "verification_status": "publisher_original_record_checked"
+    },
+    {
+      "claim_id": "NS-24-06",
+      "type": "algorithm_definition",
+      "statement": "PageRank p=alpha P^T p+(1-alpha)v for row stochastic link transitions plus teleportation with dangling-node treatment",
+      "source_ids": [
+        "S90",
+        "S91"
+      ],
+      "locator": "Modern normalized random surfer formulation; must not equate to real click counts",
+      "verification_status": "model_convention_checked"
+    },
+    {
+      "claim_id": "NS-24-07",
+      "type": "mathematical_example",
+      "statement": "Toy graph A->B,B->C,C->B, alpha=.8 and uniform teleport yields p=(.0666667,.4814815,.4518519)",
+      "source_ids": [],
+      "locator": "Independently solved 3x3 stationary equations, sum=1; hypothetical pages",
+      "verification_status": "independent_calculation_checked"
+    },
+    {
+      "claim_id": "NS-24-08",
+      "type": "model_comparison",
+      "statement": "HITS query-related authority/hub scores versus PageRank global link-based importance as originally framed; modern engines use many signals",
+      "source_ids": [
+        "S89",
+        "S90",
+        "S91"
+      ],
+      "locator": "Original paper methodological scopes, not modern search engine inventory",
+      "verification_status": "original_model_qualified"
+    },
+    {
+      "claim_id": "NS-24-09",
+      "type": "model_boundary",
+      "statement": "A link can be citation, criticism, spam or copy; link score alone does not verify truth or endorsement",
+      "source_ids": [
+        "S91"
+      ],
+      "locator": "Google Anatomy paper notes uncontrolled web challenges; careful author methodological inference",
+      "verification_status": "qualified_inference"
+    }
+  ],
+  "outstanding_checks": [
+    "Full-book outline_approved=false and evidence_verified=false; this batch remains sourced research drafts, not approved nonfiction workflow output.",
+    "Independent fact/continuity and developmental review, line edit and final approval are not completed.",
+    "Contemporary mathematical conventions and author-created examples must not be passed off as historical original experiments or empirical data."
+  ]
+}

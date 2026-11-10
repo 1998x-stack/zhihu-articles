@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "network-science-history",
   "title": "连接的真相：一部网络科学发展史",
-  "reading_notice": "第01—22章共22篇已写成历史科学非虚构研究性工作初稿（含第20—22章新批次）；序章00、第23—32章与尾声33共12篇仍为策划占位。全书正式工作流 outline_approved=false、evidence_verified=false、review_status=PENDING；上述初稿并非已通过独立双审或终稿批准，站点展示不等于对外发表。",
+  "reading_notice": "第01—25章共25篇为带逐条主张映射的历史科学非虚构研究性工作初稿；序章00、第26—32章和尾声33共9篇仍是策划占位。第23—25章完成同步、PageRank/HITS与时间网络跨部批次。全书 outline_approved=false、evidence_verified=false、review_status=PENDING、final_approved=false；工作初稿不等于独立双审或正式出版批准。",
   "chapters": [
     {
       "id": "prologue",
@@ -176,21 +176,27 @@
       "title": "23｜同时起舞：连接和同步",
       "part": "第5部｜当连接开始传递命运",
       "file": "draft/23.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/23.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-24",
       "title": "24｜一条链接的权力：从排名到导航",
       "part": "第5部｜当连接开始传递命运",
       "file": "draft/24.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/24.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-25",
       "title": "25｜一张静态图藏住了什么",
       "part": "第6部｜一张图装不下现实世界",
       "file": "draft/25.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/25.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-26",

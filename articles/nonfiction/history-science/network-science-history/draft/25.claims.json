@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "25",
+  "claims": [
+    {
+      "claim_id": "NS-25-01",
+      "type": "model_definition",
+      "statement": "Time-aggregated graph records contact ever observed, hides event ordering, timing and duration",
+      "source_ids": [
+        "S17",
+        "S92"
+      ],
+      "locator": "Holme Saramäki 2012 overview and Kempe 2002 temporal graph definition",
+      "verification_status": "survey_checked"
+    },
+    {
+      "claim_id": "NS-25-02",
+      "type": "historical_bibliography",
+      "statement": "Kempe Kleinberg Kumar Connectivity and Inference Problems for Temporal Networks appeared JCSS 64(4) 820–842 June2002",
+      "source_ids": [
+        "S92"
+      ],
+      "locator": "Publisher original DOI issue and abstract",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-25-03",
+      "type": "mathematical_example",
+      "statement": "Same A–B,B–C,C–D static chain scheduled 9,10,11 permits A->D, reverse 9 CD,10 BC,11 AB blocks A->D yet permits D->A from 8:30",
+      "source_ids": [],
+      "locator": "Author-created event sorting simulation with instantaneous bidirectional exchanges",
+      "verification_status": "independent_event_simulation_checked"
+    },
+    {
+      "claim_id": "NS-25-04",
+      "type": "formal_definition",
+      "statement": "Time-respecting paths have non-decreasing event times in Kempe 2002; strict increase chosen in author example to avoid zero-delay simultaneous cascades",
+      "source_ids": [
+        "S92",
+        "S17"
+      ],
+      "locator": "Original paper abstract non-decreasing and review conventions",
+      "verification_status": "original_scope_checked"
+    },
+    {
+      "claim_id": "NS-25-05",
+      "type": "teaching_example",
+      "statement": "Maximum 30-minute intermediate waiting invalidates chain with 60-minute gaps despite time-respecting order",
+      "source_ids": [],
+      "locator": "Author-defined per-hop waiting constraint; model-specific not disease policy",
+      "verification_status": "independent_calculation_checked"
+    },
+    {
+      "claim_id": "NS-25-06",
+      "type": "methodological_distinction",
+      "statement": "Earliest arrival, fastest duration, minimum hops differ in temporal path objectives",
+      "source_ids": [
+        "S17",
+        "S92"
+      ],
+      "locator": "2012 review path measurement definitions; example hypothetical",
+      "verification_status": "review_scope_checked"
+    },
+    {
+      "claim_id": "NS-25-07",
+      "type": "historical_empirical",
+      "statement": "Pan Saramäki PRE84 016105 published July18 2011 studied temporal path lengths, correlations, centrality in empirical human communication and air transport",
+      "source_ids": [
+        "S93"
+      ],
+      "locator": "APS publisher publication and abstract; only dataset-qualified claims",
+      "verification_status": "publisher_abstract_checked"
+    },
+    {
+      "claim_id": "NS-25-08",
+      "type": "historical_synthesis",
+      "statement": "Holme Saramäki Temporal Networks Physics Reports 519(3) pp97–125 in 2012 reviews prior interdisciplinary research, not invention of temporal graphs",
+      "source_ids": [
+        "S17",
+        "S92"
+      ],
+      "locator": "Publisher bibliographic record, PDF abstract, 2002 earlier paper",
+      "verification_status": "review_and_priority_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Full-book outline_approved=false and evidence_verified=false; this batch remains sourced research drafts, not approved nonfiction workflow output.",
+    "Independent fact/continuity and developmental review, line edit and final approval are not completed.",
+    "Contemporary mathematical conventions and author-created examples must not be passed off as historical original experiments or empirical data."
+  ]
+}
