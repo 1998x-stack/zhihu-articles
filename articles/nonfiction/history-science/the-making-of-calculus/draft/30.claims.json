@@ -1,23 +1,149 @@
 {
   "chapter": "30",
-  "status": "PENDING",
+  "title": "达布：上和与下和什么时候一致",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H174",
+    "H175",
+    "H176",
+    "H177",
+    "H178"
+  ],
   "claims": [
     {
       "id": "C30-01",
-      "statement": "黎曼积分怎样得到可检验的判据",
-      "source_candidates": [
-        "H10"
+      "kind": "history_bibliography",
+      "statement": "Darboux Mémoire sur les fonctions discontinues 1875 Annales ENS série2 vol4 pages57–112",
+      "source_ids": [
+        "H174"
       ],
-      "verification": "PENDING"
+      "locator": "Numdam primary catalog DOI10.24033/asens.122",
+      "verification": "PRIMARY_BIBLIOGRAPHY"
     },
     {
       "id": "C30-02",
-      "statement": "上积分、下积分",
-      "source_candidates": [
-        "H10"
+      "kind": "primary_formula",
+      "statement": "original p65 defines upper M, lower m, oscillation Δ sums with Δ=M−m",
+      "source_ids": [
+        "H175"
       ],
-      "verification": "PENDING"
+      "locator": "1875 original scan p65 screenshot verified",
+      "verification": "PRIMARY_PAGE_CHECKED"
+    },
+    {
+      "id": "C30-03",
+      "kind": "primary_conclusion",
+      "statement": "original p70 Δ_ab=0 iff limits of upper and lower sums coincide",
+      "source_ids": [
+        "H175"
+      ],
+      "locator": "1875 original scan p70 screenshot verified",
+      "verification": "PRIMARY_PAGE_CHECKED"
+    },
+    {
+      "id": "C30-04",
+      "kind": "math_definition",
+      "statement": "for bounded real f partition P defines Mi=sup f on interval, mi=inf f, U=ΣMiΔx and L=ΣmiΔx",
+      "source_ids": [
+        "H175",
+        "H177"
+      ],
+      "locator": "historical formula translated into modern notation",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C30-05",
+      "kind": "math_inequality",
+      "statement": "every tagged Riemann sum lies between L(P) and U(P)",
+      "source_ids": [],
+      "locator": "mi≤f(xi)≤Mi termwise",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C30-06",
+      "kind": "math_refinement",
+      "statement": "refining a partition does not increase U or decrease L",
+      "source_ids": [
+        "H175"
+      ],
+      "locator": "Darboux p65 refinements + inequality",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C30-07",
+      "kind": "math_criterion",
+      "statement": "bounded f on closed interval Riemann integrable iff for each ε>0 exists P U−L<ε",
+      "source_ids": [
+        "H175",
+        "H177"
+      ],
+      "locator": "Darboux criterion for bounded functions",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C30-08",
+      "kind": "math_example",
+      "statement": "single-step f=0 left half,1 right half has U−L≤2mesh and integral1/2",
+      "source_ids": [],
+      "locator": "only intervals incident to x=1/2 contribute oscillation",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C30-09",
+      "kind": "math_counterexample",
+      "statement": "Dirichlet 1_Q on [0,1] has U=1 L=0 for any finite partition",
+      "source_ids": [
+        "H177"
+      ],
+      "locator": "density of rational and irrational points",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C30-10",
+      "kind": "math_definition",
+      "statement": "Thomae function 1/q at reduced p/q and0 on irrational, discontinuous at all rational yet Riemann integrable",
+      "source_ids": [
+        "H177"
+      ],
+      "locator": "modern function theorem and denominator property",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C30-11",
+      "kind": "math_proof",
+      "statement": "Thomae upper sums <ε using finite set q≤N enclosed in short intervals and remaining bound≤1/(N+1)",
+      "source_ids": [],
+      "locator": "finite spike cover with total length<ε/2",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C30-12",
+      "kind": "historiography",
+      "statement": "Darboux intermediate value property of derivatives is distinct from upper/lower sum integrability",
+      "source_ids": [
+        "H176",
+        "H175"
+      ],
+      "locator": "1959 historical summary vs 1875 original",
+      "verification": "QUALIFIED"
+    },
+    {
+      "id": "C30-13",
+      "kind": "bridge",
+      "statement": "Darboux x-axis interval partition contrasts Lebesgue 1901 division by y-values and measure",
+      "source_ids": [
+        "H178"
+      ],
+      "locator": "Lebesgue 1901 original opening",
+      "verification": "PRIMARY_TEXT_CHECKED"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "Darboux original pages p65/p70 verified with PDF screenshots; modern notation clearly marked.",
+    "Use bounded f on closed interval for Darboux criterion; do not claim all functions on arbitrary domains.",
+    "Derivative intermediate-value Darboux theorem is another result, not same as integral criterion.",
+    "Thomae proof selects finite high spikes and covers in short partition cells; not just counts discontinuities.",
+    "Workflow gates and independent review still pending."
+  ]
 }
