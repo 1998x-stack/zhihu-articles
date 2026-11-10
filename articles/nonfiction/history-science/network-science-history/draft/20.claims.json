@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "20",
+  "claims": [
+    {
+      "claim_id": "NS-20-01",
+      "type": "historical_predecessor",
+      "statement": "Ross 1908/1911 malaria dynamic modeling and Ross-Hudson work preceded 1927 Kermack-McKendrick",
+      "source_ids": [
+        "S79"
+      ],
+      "locator": "Smith et al. 2012 Ross-Macdonald historical paper, sections on Ross 1908-17",
+      "verification_status": "source_article_checked"
+    },
+    {
+      "claim_id": "NS-20-02",
+      "type": "historical_bibliography",
+      "statement": "Kermack and McKendrick epidemic paper published in 1927 Proceedings Royal Society A vol 115 pp700-721",
+      "source_ids": [
+        "S77"
+      ],
+      "locator": "Royal Society DOI original bibliographic record",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-20-03",
+      "type": "historical_model_scope",
+      "statement": "1927 paper contains infection-age dependent framework; three-ODE textbook constant-rate SIR is special later formulation",
+      "source_ids": [
+        "S77",
+        "S78"
+      ],
+      "locator": "Brauer 2017 equations (1) general and (3) special; original 1927 introduction and threshold treatment",
+      "verification_status": "secondary_formal_comparison_checked"
+    },
+    {
+      "claim_id": "NS-20-04",
+      "type": "mathematical_model",
+      "statement": "Modern homogeneous mass-action SIR N fixed, dS=-beta SI/N, dI=beta SI/N-gamma I, dR=gamma I",
+      "source_ids": [
+        "S78"
+      ],
+      "locator": "Brauer 2017 Section 2.1, normalisation beta is modern convention",
+      "verification_status": "mathematically_derived_from_model"
+    },
+    {
+      "claim_id": "NS-20-05",
+      "type": "teaching_example",
+      "statement": "N1000 S990 I10 beta .3 gamma .1 implies infection2.97 recovery1 dI1.97; at S300 I10 infection.9 dI-.1",
+      "source_ids": [],
+      "locator": "author arithmetic independently verified; rates not integer observed cases",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-20-06",
+      "type": "mathematical_threshold",
+      "statement": "In constant-parameter simple SIR Reff(t)=(beta/gamma)S/N and sign dI determined by Reff-1",
+      "source_ids": [
+        "S78"
+      ],
+      "locator": "Brauer 2017 reproduction-number discussion plus direct factorization of ODE",
+      "verification_status": "mathematically_derived_from_model"
+    },
+    {
+      "claim_id": "NS-20-07",
+      "type": "history_of_notation",
+      "statement": "Kermack-McKendrick had threshold insight but modern R0 name and symbol matured after 1927, Macdonald 1957 contributed naming",
+      "source_ids": [
+        "S78"
+      ],
+      "locator": "Brauer 2017 historical note on basic reproduction number and Macdonald",
+      "verification_status": "historically_qualified"
+    },
+    {
+      "claim_id": "NS-20-08",
+      "type": "mathematical_final_size",
+      "statement": "Classic closed SIR near fully susceptible initial state has 1-z=exp(-R0 z) final size relation; R0=2 yields z≈.796812",
+      "source_ids": [
+        "S78"
+      ],
+      "locator": "modern textbook final-size relation and independent numerical check",
+      "verification_status": "mathematically_checked_with_initial_assumptions"
+    },
+    {
+      "claim_id": "NS-20-09",
+      "type": "teaching_network",
+      "statement": "C6 cycle and two disconnected triangles share six vertices six edges mean degree2 but reachability differs",
+      "source_ids": [],
+      "locator": "author-defined simple graphs and elementary connectivity proof",
+      "verification_status": "mathematically_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Series-wide outline_approved=false and evidence_verified=false; chapter is a research draft, not an authorized final or formally reviewed manuscript.",
+    "Independent cross-chapter continuity, mathematical fact review, developmental editing and final approval are pending.",
+    "Teaching graphs, numerical examples and modern notation must not be represented as original-paper data."
+  ]
+}

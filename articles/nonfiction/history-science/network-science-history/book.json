@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "network-science-history",
   "title": "连接的真相：一部网络科学发展史",
-  "reading_notice": "第01—19章为独立审稿前的非虚构研究性正文初稿；序章00、第20—32章与尾声仍为策划占位。公开章节不代表独立事实核验、结构审稿、终稿批准或正式出版。",
+  "reading_notice": "第01—22章共22篇已写成历史科学非虚构研究性工作初稿（含第20—22章新批次）；序章00、第23—32章与尾声33共12篇仍为策划占位。全书正式工作流 outline_approved=false、evidence_verified=false、review_status=PENDING；上述初稿并非已通过独立双审或终稿批准，站点展示不等于对外发表。",
   "chapters": [
     {
       "id": "prologue",
@@ -149,21 +149,27 @@
       "title": "20｜网络流行病学的前史：从SIR开始",
       "part": "第5部｜当连接开始传递命运",
       "file": "draft/20.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/20.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-21",
       "title": "21｜传播门槛：枢纽改变了流行的数学",
       "part": "第5部｜当连接开始传递命运",
       "file": "draft/21.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/21.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-22",
       "title": "22｜小刺激，大雪崩：社会级联",
       "part": "第5部｜当连接开始传递命运",
       "file": "draft/22.md",
-      "status": "outline"
+      "status": "draft",
+      "claims_file": "draft/22.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-23",

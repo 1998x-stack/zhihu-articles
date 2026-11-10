@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "22",
+  "claims": [
+    {
+      "claim_id": "NS-22-01",
+      "type": "historical_predecessor",
+      "statement": "Granovetter Threshold Models of Collective Behavior appeared in AJS 83(6) pp1420-1443 May1978, aggregate threshold behavior is prior to Watts",
+      "source_ids": [
+        "S83"
+      ],
+      "locator": "University of Chicago Press publisher DOI record",
+      "verification_status": "publisher_record_and_abstract_checked"
+    },
+    {
+      "claim_id": "NS-22-02",
+      "type": "historical_publication",
+      "statement": "Duncan J Watts A Simple Model of Global Cascades on Random Networks PNAS 99(9) pp5766-5771 Apr30 2002; received May29 2001 accepted Feb14 2002",
+      "source_ids": [
+        "S16"
+      ],
+      "locator": "PMC full article publication metadata",
+      "verification_status": "journal_fulltext_checked"
+    },
+    {
+      "claim_id": "NS-22-03",
+      "type": "model_definition",
+      "statement": "Binary irreversible local threshold dynamics node i activates if m_i/k_i >= phi_i; do not assume stochastic infection or universal reversibility",
+      "source_ids": [
+        "S16"
+      ],
+      "locator": "PNAS original full text decision rule; simultaneous classroom updates are an author pedagogical convention",
+      "verification_status": "journal_fulltext_checked"
+    },
+    {
+      "claim_id": "NS-22-04",
+      "type": "teaching_example",
+      "statement": "Six-node path A-B-C-D-E-F with threshold .4 seed A updates to full cascade in 5 rounds; six-node star center B with seed leaf A stays size1",
+      "source_ids": [],
+      "locator": "author-invented graphs computed under synchronous threshold updates; not empirical or original-paper simulation",
+      "verification_status": "mathematically_checked"
+    },
+    {
+      "claim_id": "NS-22-05",
+      "type": "model_vulnerability",
+      "statement": "Single active neighbor triggers node iff 1/k >= phi; uniform phi.2 implies k<=5 vulnerable",
+      "source_ids": [
+        "S16"
+      ],
+      "locator": "PNAS text on vulnerable vertices phi<=1/k; arithmetic derived",
+      "verification_status": "journal_text_and_math_checked"
+    },
+    {
+      "claim_id": "NS-22-06",
+      "type": "network_condition",
+      "statement": "Percolation of vulnerable vertices provides cascade condition in Watts random network locally tree-like limit; does not apply universally to all network topologies",
+      "source_ids": [
+        "S16"
+      ],
+      "locator": "PNAS Eq5 and percolating vulnerable cluster reasoning",
+      "verification_status": "journal_text_checked_with_assumptions"
+    },
+    {
+      "claim_id": "NS-22-07",
+      "type": "nonmonotonic_connectivity",
+      "statement": "For random networks with uniform thresholds, global cascades may appear in intermediate cascade window bounded by low-connectivity fragmentation and high-connectivity local stability",
+      "source_ids": [
+        "S16"
+      ],
+      "locator": "PNAS Figure 1, Figure 2, and discussion",
+      "verification_status": "journal_fulltext_checked_with_scope"
+    },
+    {
+      "claim_id": "NS-22-08",
+      "type": "size_distribution",
+      "statement": "Watts 2002 distinguishes rare global cascades and regimes exhibiting power-law like vs bimodal size distributions within specific random-network ensembles",
+      "source_ids": [
+        "S16"
+      ],
+      "locator": "PNAS abstract, Figure 3, discussion",
+      "verification_status": "journal_fulltext_checked_with_scope"
+    }
+  ],
+  "outstanding_checks": [
+    "Series-wide outline_approved=false and evidence_verified=false; chapter is a research draft, not an authorized final or formally reviewed manuscript.",
+    "Independent cross-chapter continuity, mathematical fact review, developmental editing and final approval are pending.",
+    "Teaching graphs, numerical examples and modern notation must not be represented as original-paper data."
+  ]
+}
