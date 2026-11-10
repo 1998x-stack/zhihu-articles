@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "graph-theory-history",
   "title": "连接的秩序：图论三百年",
-  "reading_notice": "图论史序章00至第33章共34篇已有来源映射的非虚构研究性工作初稿；第34—37章共4篇仍是规划占位。第31—33章新增稠密Graphon、PageRank有向随机游走和小世界网络三章，共35条主张映射。独立双审仍PENDING，非正式终稿或知乎平台发布。",
+  "reading_notice": "图论史序章00至第36章已有37篇具来源映射的非虚构研究性工作初稿；仅尾声第37章（book.json ID=epilogue）仍为编辑占位。最新第34—36章为BA优先连接与无标度争议、Girvan—Newman社群检测及2005—2018图神经网络发展，共37条主张。所有正文均待独立双审，review_status=PENDING，0篇final，未正式发布。",
   "chapters": [
     {
       "id": "prologue",
@@ -247,21 +247,21 @@
       "title": "34｜为什么少数节点拥有大量连接",
       "part": "第七部｜世界成为网络",
       "file": "draft/34.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-35",
       "title": "35｜朋友的朋友，会不会形成隐秘的社区",
       "part": "第七部｜世界成为网络",
       "file": "draft/35.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-36",
       "title": "36｜当神经网络学会读取连接关系",
       "part": "第七部｜世界成为网络",
       "file": "draft/36.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "epilogue",
