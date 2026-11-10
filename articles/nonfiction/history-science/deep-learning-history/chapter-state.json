@@ -174,7 +174,10 @@
   "unresolved_clues": [
     "全书00—31共32篇及附录A需独立事实/连续性与结构双审，必要时修订并进行双重复审",
     "2026前沿评测、开源许可、原论文版次及实验口径须由独立事实编辑再次审核",
-    "所有正文仅工作初稿；final_approved仍false，尚未正式发表"
+    "所有正文仅工作初稿；final_approved仍false，尚未正式发表",
+    "FA-001第14章C14-07 ledger和claims来源ID损坏，须先修复",
+    "FA-002部分核心正文来源与claims映射不对称，需按实质论点重建",
+    "ED-001 00/16/17/31及21/27等跨章重复，修订后结构复审"
   ],
   "resolved_clues": [
     "第01章数学形式化为何能表达明确计算",
@@ -278,7 +281,7 @@
     "2012 ILSVRC官方SuperVision 15.315含额外2011数据/16.422仅赛事数据，均是集成提交，不是单模型因果对照",
     "1943形式网络、1986反传、2024诺奖、2026年HLE分别按原始日期和出版级别解释"
   ],
-  "review_status": "PENDING",
+  "review_status": "CHANGES_REQUIRED",
   "progress_summary": {
     "source": "book.json",
     "total": 32,
@@ -286,7 +289,7 @@
     "outline": 0,
     "final": 0,
     "proposals": 0,
-    "review_status": "PENDING",
+    "review_status": "CHANGES_REQUIRED",
     "final_approved": false
   }
 }

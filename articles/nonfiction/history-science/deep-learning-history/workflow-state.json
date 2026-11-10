@@ -4,14 +4,22 @@
   "current_revision": 0,
   "outline_approved": true,
   "evidence_verified": true,
-  "review_status": "PENDING",
+  "review_status": "CHANGES_REQUIRED",
   "reviewed_revision": null,
-  "unresolved_blockers": [],
+  "unresolved_blockers": [
+    "FA-001",
+    "FA-002",
+    "FA-003",
+    "FA-004",
+    "ED-001"
+  ],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "特别收官批：00序章7520字符、31尾声8595字符与附录A7234字符均完成；DL162—DL166新增来源、26条主张；正式32篇均为待审工作初稿，独立事实/结构双审PENDING",
+  "stage_note": "2026-11-10第00—31章首轮全书连续性/来源映射与结构编辑已提交两份审稿报告；发现第14章claim映射损坏、前3章旧字段、目录来源占位和跨章重复，结论CHANGES_REQUIRED；该阶段未完成外部独立166份原始文献逐条审校；待revision-manager修订及新版本双重复审",
   "evidence_scope": "第00—31章32篇中心史实/教学机制与例题有限核证；附录A单独核证且不计正式章节；未逐页独立事实审稿",
   "outline_scope": "原定序章00、正文01—30、尾声31已有各自限域细纲；附录A非编号可独立撰写",
   "draft_scope": "原定序章00、正文01—30、尾声31共32篇工作初稿全部完成，另有非编号专题附录A一篇工作初稿",
-  "last_completed_working_draft_chapter": 31
+  "last_completed_working_draft_chapter": 31,
+  "audit_scope": "第00—31章32篇及附录A，全部逐章结构、来源映射扫描和重点原始资料样本核对；未逐页独立证实全部249条主张",
+  "audit_round": 1
 }
