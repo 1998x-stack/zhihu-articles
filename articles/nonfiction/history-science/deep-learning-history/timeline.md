@@ -41,17 +41,25 @@
 | 2012 | Dahl/Dong Yu/Li Deng/Acero大词汇CD-DNN-HMM | DNN声学状态后验结合HMM时序解码 | 15 |
 | 2012 | Hinton/Li Deng/Dong Yu等四组团队综述 | Toronto、微软、Google、IBM多团队研究与应用进展 | 15 |
 | 2012 | Krizhevsky/Sutskever/Hinton的NIPS论文与ILSVRC结果 | 七CNN集成Top-5测试15.3%、第二名26.2%；ReLU、GPU、增强、dropout等协同 | 00、17 |
-| 2014—2015 | 序列注意力和GAN路线 | 不同问题与方法分叉 | 20—21 |
+| 2013-12 | Kingma/Welling VAE预印本（ICLR2014） | 变分潜变量生成，与GAN独立路线 | 21 |
+| 2014-06→10 | Cho等七作者RNN Encoder–Decoder论文 | EMNLP2014短语翻译神经概率特征 | 19 |
+| 2014-09→NIPS | Sutskever/Vinyals/Le深LSTM seq2seq | WMT英法BLEU34.8与33.3；候选重排36.5另设置 | 19 |
+| 2014-09→2015 | Bahdanau/Cho/Bengio注意力预印本与ICLR | 解码时软对齐，不等于2017 Transformer | 20 |
+| 2014 | Goodfellow等八作者GAN以及Rezende等潜变量模型 | 对抗与变分生成并行研究 | 21 |
 | 2014 | VGG/GoogLeNet在ILSVRC前后探索更深结构 | VGG2014预印本、2015 ICLR；Inception研究2015 CVPR正式刊出 | 18 |
 | 2015 | Ioffe/Szegedy批归一化与Srivastava等Highway Networks | 训练与信息流不同路线，不应归于ResNet独家首发 | 18 |
+| 2015 | Sohl-Dickstein等扩散生成与Luong/Pham/Manning神经注意力 | 扩散前向加噪与逆向建模；global/local注意力 | 20、21 |
 | 2015-12-10 | He/Zhang/Ren/Sun ResNet arXiv首版，ILSVRC2015获奖 | 152层网络，竞赛3.57%为Top-5测试集成结果 | 18 |
 | 2016 | ResNet CVPR正式论文与后续ECCV Identity Mappings | 训练退化的实验验证、身份捷径与后续预激活调整分开 | 18 |
 | 2016 | AlphaGo论文发表 | 搜索、强化学习与神经网络协同 | 25 |
 | 2017 | Transformer论文发表 | 注意力机制并非始于2017 | 22 |
+| 2019 | Song/Ermon多噪声尺度score生成 | 与扩散相邻，非GAN判别器 | 21 |
 | 2018 | BERT预训练论文 | GPT同代路线需补原论文核对 | 23 |
 | 2020 | 语言模型规模定律研究 | 实验范围以论文条件为限 | 24 |
+| 2020 | Ho/Jain/Abbeel DDPM | 去噪扩散概率模型 | 21 |
 | 2020—2021 | AlphaFold2 CASP14与Nature论文 | 科学预测的边界不可夸大 | 26 |
 | 2021—2022 | CLIP与潜扩散相关论文 | 跨模态表示、生成是不同任务 | 27 |
+| 2022 | Rombach/Blattmann/Lorenz/Esser/Ommer潜空间扩散 | 自编码器潜空间去噪与条件生成，第21章跨年代专题 | 21 |
 | 2022-11-30 | ChatGPT公开研究预览 | 产品发布事实与学术评价区分 | 28 |
 | 2024-10-08 | 诺贝尔物理学奖授予Hopfield与Hinton | 回顾性评价而非单一发明者判定 | 08、30 |
 | 2025-01-20 | DeepSeek-R1发布 | 厂商声明，模型评估需独立复核 | 29—30 |
