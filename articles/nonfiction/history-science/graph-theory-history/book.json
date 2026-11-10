@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "graph-theory-history",
   "title": "连接的秩序：图论三百年",
-  "reading_notice": "序章00至第24章共25篇为有章级来源映射的历史科学非虚构工作初稿；第25—37章共13篇仍为规划占位。最新第22—24章是最短路径、最大流—最小割与一般图匹配的花朵收缩三篇研究初稿，新增37条主张映射。全书独立双审仍为PENDING，非正式终稿或知乎发布。",
+  "reading_notice": "图论史序章00至第27章共28篇为有章级来源映射的非虚构工作初稿；第28—37章共10篇为待研究写作占位。第25—27章新增Cook–Karp NP完全性、近似/参数化算法与Fiedler代数连通度三章、38条可追溯主张。全书独立双审仍PENDING，非正式终稿或知乎平台发布。",
   "chapters": [
     {
       "id": "prologue",
@@ -184,21 +184,21 @@
       "title": "25｜为什么有些图问题，电脑也难以承诺",
       "part": "第五部｜让定理成为程序",
       "file": "draft/25.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-26",
       "title": "26｜算不完，就没有办法了吗",
       "part": "第五部｜让定理成为程序",
       "file": "draft/26.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-27",
       "title": "27｜一张图，为什么可以听见它的频率",
       "part": "第六部｜看见深层骨架",
       "file": "draft/27.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-28",

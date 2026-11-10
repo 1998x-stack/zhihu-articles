@@ -26,9 +26,9 @@
 | 22 | GT22-01—GT22-11：最短路与松弛、非负Dijkstra、Ford/Bellman/Moore史学、负权反例及复杂度 | S101—S105（研究范围见research.md） | VERIFIED_SCOPED（仅22；非负边权与史料边界） |
 | 23 | GT23-01—GT23-13：容量守恒、残量反向边、最大流—最小割、1956两篇论文及1972路径选择研究 | S106—S109（详见research.md） | VERIFIED_SCOPED（仅23；现代证明/历史原文区分） |
 | 24 | GT24-01—GT24-13：极大与最大匹配、Berge增广路径、Kuhn1955指派、Edmonds1965花朵及收缩展开 | S110—S114（详见research.md） | VERIFIED_SCOPED（仅24；自制六点示例另证） |
-| 25 | GT25-01：NP完全性、归约与P/NP问题 | S01、S08、S15 | TODO_VERIFY |
-| 26 | GT26-01：近似算法、参数化算法与启发式的保证差异 | S01、S08、S15 | TODO_VERIFY |
-| 27 | GT27-01：图拉普拉斯与代数连通度 | S01、S06、S11 | TODO_VERIFY |
+| 25 | GT25-01—GT25-12：Cook1971、Karp1972、P/NP、归约方向、3SAT→CLIQUE、NP完全与P≠NP未证 | S115—S117（详见research.md） | VERIFIED_SCOPED（仅25；1971原文与现代归约形式区分） |
+| 26 | GT26-01—GT26-15：二近似顶点覆盖、Johnson1974、Christofides1976度量TSP、Downey–Fellows1995、FPT二叉分支 | S118—S122（详见research.md） | VERIFIED_SCOPED（仅26；保证条件与历史原刊区分） |
+| 27 | GT27-01—GT27-11：L=D−A、二次型、零特征值、Fiedler1973代数连通度、矩阵树史与加边单调性 | S123—S125（详见research.md） | VERIFIED_SCOPED（仅27；谱推导是现代解释） |
 | 28 | GT28-01：3连通平面图嵌入唯一性及其边界 | S01、S06、S11 | TODO_VERIFY |
 | 29 | GT29-01：图小式定理与良拟序 | S01、S06、S11 | TODO_VERIFY |
 | 30 | GT30-01：树宽、树分解与动态规划 | S01、S06、S11 | TODO_VERIFY |

@@ -1,12 +1,140 @@
 {
   "chapter": "26",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S08",
-    "S15"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Johnson1974 JCSS出版社原刊、Christofides1976 CMU原始技术报告（非2022重刊作为首次），Downey/Fellows1995 SIAM原刊；Princeton近似证明与CLRS形式化版本支持现代顶点覆盖演绎。",
+  "claims": [
+    {
+      "claim_id": "GT26-01",
+      "claim": "一般最小顶点覆盖为NP完全判定任务，近似/参数化可改变要求",
+      "source_ids": [
+        "S116",
+        "S118",
+        "S120"
+      ],
+      "status": "PROBLEM_CONTEXT"
+    },
+    {
+      "claim_id": "GT26-02",
+      "claim": "近似多项式质量比、FPT f(k)n^O(1)、启发式未必保证三者严格区分",
+      "source_ids": [
+        "S118",
+        "S120",
+        "S121"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT26-03",
+      "claim": "顶点覆盖C每条边至少一端属于C，OPT为最小覆盖大小",
+      "source_ids": [
+        "S121",
+        "S122"
+      ],
+      "status": "MODERN_FORMAL_DEFINITION"
+    },
+    {
+      "claim_id": "GT26-04",
+      "claim": "反复选择一条边的两个端点并删除接触边的二近似过程",
+      "source_ids": [
+        "S121",
+        "S122"
+      ],
+      "status": "MODERN_ALGORITHM"
+    },
+    {
+      "claim_id": "GT26-05",
+      "claim": "算法选边不相交形成极大匹配但不要求最大匹配",
+      "source_ids": [
+        "S121",
+        "S122"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT26-06",
+      "claim": "选边匹配M给OPT≥|M|而算法得2|M|，故二近似",
+      "source_ids": [
+        "S121",
+        "S122"
+      ],
+      "status": "MODERN_APPROX_GUARANTEE"
+    },
+    {
+      "claim_id": "GT26-07",
+      "claim": "3点星形A-B,A-C中OPT=1算法可返回2紧达2倍界",
+      "source_ids": [
+        "S121"
+      ],
+      "status": "AUTHOR_EXAMPLE"
+    },
+    {
+      "claim_id": "GT26-08",
+      "claim": "Johnson1974 JCSS9卷256—278研究近似算法最坏表现与集合覆盖对数比",
+      "source_ids": [
+        "S118"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT26-09",
+      "claim": "Christofides1976 CMU报告No.388提出三角不等式度量TSP 3/2上界",
+      "source_ids": [
+        "S119"
+      ],
+      "status": "PRIMARY_REPORT_VERIFIED"
+    },
+    {
+      "claim_id": "GT26-10",
+      "claim": "Christofides组合MST、奇度顶点最小完美匹配、Euler多重图与shortcut",
+      "source_ids": [
+        "S119"
+      ],
+      "status": "MODERN_ALGORITHM_EXPLANATION"
+    },
+    {
+      "claim_id": "GT26-11",
+      "claim": "度量对称TSP的1.5近似来源于MST≤OPT，matching≤OPT/2以及三角不等式",
+      "source_ids": [
+        "S119"
+      ],
+      "status": "MODERN_APPROX_PROOF"
+    },
+    {
+      "claim_id": "GT26-12",
+      "claim": "FPT的f(k)n^O(1)形式与对参数和输入规模的不同计量",
+      "source_ids": [
+        "S120"
+      ],
+      "status": "MODERN_PARAMETER_DEFINITION"
+    },
+    {
+      "claim_id": "GT26-13",
+      "claim": "Downey/Fellows SIAM Journal on Computing 24(4)1995页873—921参数化复杂性与W层级",
+      "source_ids": [
+        "S120"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT26-14",
+      "claim": "顶点覆盖k预算每条未覆盖边至少选一端，二叉分支2^k poly(n)精确判定",
+      "source_ids": [
+        "S120",
+        "S121"
+      ],
+      "status": "MODERN_FPT_PROOF"
+    },
+    {
+      "claim_id": "GT26-15",
+      "claim": "近似/参数化精确/无质量保证启发式不可互换，工程经验不构成最坏保证",
+      "source_ids": [
+        "S118",
+        "S120",
+        "S121"
+      ],
+      "status": "METHODOLOGY_BOUNDARY"
+    }
+  ]
 }

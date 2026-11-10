@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "lane": "nonfiction",
   "tracking_mode": "partial-batch-continuity-plus-derived-progress",
-  "note": "19—24章续写记录仅作批次交接和章节进度核对，来源验证是限定范围，不代表独立双审或正式出版许可。",
+  "note": "第19—27章批次交接与章级来源信息，不代表任何独立双审或正式出版许可。",
   "progress_summary": {
     "source": "book.json",
     "total": 38,
-    "draft": 25,
-    "outline": 13,
+    "draft": 28,
+    "outline": 10,
     "final": 0,
     "proposals": 0,
     "review_status": "PENDING",
@@ -15,8 +15,8 @@
   },
   "current_revision": 0,
   "review_status": "PENDING",
-  "last_written_chapter": "24",
-  "latest_batch": "22-24",
+  "last_written_chapter": "27",
+  "latest_batch": "25-27",
   "chapter_progress": {
     "19": {
       "title": "随机连线之后，巨大的连通块从何而来",
@@ -111,6 +111,50 @@
       "core_question": "花朵为何是相对匹配的交替奇圈，收缩与展开为什么保留增广路径？",
       "outgoing_problem": "匹配可多项式求解，不代表哈密顿回路等组合任务都易求，复杂性边界何在？",
       "continuity_boundary": "极大≠最大；Kuhn1955是二分带权指派，Berge1957判据，Edmonds1965一般图无权最大基数匹配；并非任意奇圈均可收缩"
+    },
+    "25": {
+      "title": "为什么有些图问题，电脑也难以承诺",
+      "status": "draft",
+      "body": "draft/25.md",
+      "claims": "draft/25.claims.json",
+      "source_ids": [
+        "S115",
+        "S116",
+        "S117"
+      ],
+      "core_question": "为什么核验哈密顿回路容易而求解未必有已知多项式算法；归约方向如何刻画共同困难？",
+      "outgoing_problem": "如果精确多项式算法未找到，近似与参数化能提供什么不同保证？",
+      "continuity_boundary": "P与NP为判定问题；Cook1971重言式及查询归约不同于现代3SAT简化；NP完全并未证明P≠NP；现代3SAT→CLIQUE教学构造"
+    },
+    "26": {
+      "title": "算不完，就没有办法了吗",
+      "status": "draft",
+      "body": "draft/26.md",
+      "claims": "draft/26.claims.json",
+      "source_ids": [
+        "S118",
+        "S119",
+        "S120",
+        "S121",
+        "S122"
+      ],
+      "core_question": "有质量保证的近似与小参数精确算法为何可以在一般NP完全问题上发挥作用？",
+      "outgoing_problem": "由算法复杂性转向连续矩阵表示，能否用特征值刻画网络连通骨架？",
+      "continuity_boundary": "最小顶点覆盖2近似≠精确；Christofides1.5只适用于度量对称TSP；顶点覆盖k分支FPT不代表所有NP完全问题FPT；1995正式刊印"
+    },
+    "27": {
+      "title": "一张图，为什么可以听见它的频率",
+      "status": "draft",
+      "body": "draft/27.md",
+      "claims": "draft/27.claims.json",
+      "source_ids": [
+        "S123",
+        "S124",
+        "S125"
+      ],
+      "core_question": "Laplacian第二小特征值如何量化连通，为什么0值与断开严格等价？",
+      "outgoing_problem": "从谱刻画结构到平面3连通图的嵌入唯一性，哪些性质不随画法改变？",
+      "continuity_boundary": "Fiedler1971会议报告/1972收稿/1973发表；Kirchhoff1847原始电路与后世矩阵树定理区别；lambda2不等于最小割且跨图大小不可盲比"
     }
   }
 }

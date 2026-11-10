@@ -600,3 +600,56 @@
 - 新增**37条章级主张**：第22章11条、第23章13条、第24章13条，全部必须在正文内有对应\`[GTNN-NN]\`标记，详细见chapter claims。
 - 史实敏感点供独立审校：Moore论文集1959与会议日期、Ford RAND原版页码、1956论文非构造性部分、Kuhn带权指派与Edmonds一般图匹配，原文用语与现代教材统一版本之间的距离。
 - \`review_status\`继续\`PENDING\`，不是独立事实核验、结构双审、精修或\`final_approved\`；第25—37章仍是\`TODO_VERIFY\`。
+
+
+---
+
+## 第25—27章专项核证｜2026-11-10
+
+> **本章组只放行第25—27章的研究性工作初稿，不授予全书正式双审、修订、语言精修、终稿许可。** 依既定第五部→第六部结构阅读第24章交接。本次主要利用：Cook 1971公开转录、Karp 1972原论文转录与书目、Clay官方当前状态、Johnson1974出版社、Christofides1976原始技术报告、Downey–Fellows1995原刊、Fiedler1973完整期刊数字档案及Kirchhoff数学史研究。原文与现代教材重构严格分开。
+
+### 新增可追溯来源 S115—S125
+
+| ID | 书目与链接 | 可支持范围、核验程度与限制 |
+|---|---|---|
+| S115 | Stephen A. Cook, “The Complexity of Theorem-Proving Procedures,” *STOC '71* (1971), 151—158。公开打字稿转录：https://www-cs.stanford.edu/people/swong/cs/cook-NP-completeness.pdf | 原文第1页摘要、重言式与查询归约、非确定性多项式计算；提供转录说明，非原始版面影印；不可用今日3-SAT证明逐字替代 |
+| S116 | Richard M. Karp, “Reducibility Among Combinatorial Problems,” *Complexity of Computer Computations* (1972), 85—103。DOI https://doi.org/10.1007/978-1-4684-2001-2_9，现代公开转录 https://tamnd.github.io/papers-reader/p/karp-1972-reducibility/en/ | 原作列出NP完全、归约关系、CLIQUE/NODE COVER/HAMILTON CIRCUIT等判定任务；不能用名录声称已证明P≠NP |
+| S117 | Clay Mathematics Institute, “P vs NP,” https://www.claymath.org/millennium/p-vs-np/ | 2026-11-10官方仍列为Unsolved；Levin独立工作有官方历史概述；是当前状态而非1971原始论文 |
+| S118 | David S. Johnson, “Approximation Algorithms for Combinatorial Problems,” *Journal of Computer and System Sciences* 9(3) (1974), 256—278。https://doi.org/10.1016/S0022-0000(74)80044-9 | 1974出版社题录与摘要，近似比最坏情形分析与集合覆盖对数界；未把所有算法技巧归为Johnson首次发明 |
+| S119 | Nicos Christofides, *Worst-Case Analysis of a New Heuristic for the Travelling Salesman Problem*, Carnegie-Mellon Management Sciences Research Report 388, February 1976。https://www.ibr.cs.tu-bs.de/courses/ss21/na/uebungen/ADA025602.pdf | 原始技术报告封面及报告文档摘要，三角不等式、MST和完美匹配、3/2保证；2022重刊不能当原始年份 |
+| S120 | Rod G. Downey / Michael R. Fellows, “Fixed-Parameter Tractability and Completeness I: Basic Results,” *SIAM Journal on Computing* 24(4) (1995), 873—921。https://homepages.ecs.vuw.ac.nz/~downey/publications/1.pdf | 1995期刊正式版本，FPT/W层级论证；原文注释说明1991早期会议材料与1992收稿，不能声称1995首次产生参数化算法 |
+| S121 | Princeton COS226, “Intractability”, lecture 23/2024. https://www.cs.princeton.edu/courses/archive/fall24/cos226/lectures/Intractability.pdf | 现代顶点覆盖二近似与极大匹配证书，作者讲解依定义与简单证明；非1974的原始逐字方法 |
+| S122 | *CLRS-Lean*, “The Vertex-Cover Problem” (4th Edition Ch.35 formalization). https://tanktechnology.github.io/CLRS-Lean/CLRSLean/FourthEdition/Chapter_35/Section_35_1_The_Vertex_Cover_Problem/ | 现代形式化的最大匹配下界、极大匹配端点形成覆盖及二近似证明；不推断某算法具有全部最佳近似性质 |
+| S123 | Miroslav Fiedler, “Algebraic Connectivity of Graphs,” *Czechoslovak Mathematical Journal* 23(2) (1973), 298—305。https://dml.cz/bitstream/handle/10338.dmlcz/101168/CzechMathJ_23-1973-2_11.pdf | 原刊第298页直接载明1971五月会议报告、1972年4月收稿、1973正式发表；将第二小特征值定义为algebraic connectivity，并述零值与不连通充要关系 |
+| S124 | Graph Laplacian and Matrix–Tree Theorem, University of Ulm lecture notes §5.1. https://www.uni-ulm.de/fileadmin/website_uni_ulm/mawi.inst.010/mugnolo/graphenskript-defin.pdf | 现代L=D−A、矩阵树定理、二次型与Rayleigh商说明；个别四点特征值由作者直接核算 |
+| S125 | “What Kirchhoff Actually did Concerning Spanning Trees in Electrical Networks and its Relationship to Modern Graph-Theoretical Work,” 数学史综述 https://hrcak.srce.hr/index.php/en/clanak/255139 | 1847原始电路工作与后世纪念性“矩阵树定理”归属之间的史学边界；不能冒称逐页读取基尔霍夫德文全文 |
+
+### 第25章｜Cook–Karp 与NP完全（GT25-01—GT25-12）
+
+- **GT25-01—03：** 区分指数穷举缺少算法与已证明指数下界；P/NP是判定问题复杂度类，NP要求YES证书多项式验证，P⊆NP（S115—S117，现代数学定义）。
+- **GT25-04—06：** Cook1971原文论证对象（重言式、查询归约）与后世3-SAT、多对一归约形式分开；归约方向A≤pB必须保留，不能倒写（S115—S116）。
+- **GT25-07—08：** 三子句示例\((a\lor b)\land(\neg a\lor c)\land(\neg b\lor c)\) 与三点团等价，构图每个子句每个文字各有独立顶点（S116支持标准归约，实际例子是作者构造）。
+- **GT25-09—12：** Karp1972发表年份、二十一个判定任务与匹配/哈密顿分野；NP-hard≠NP-complete；Clay截至本批仍列P vs NP未解（S116—S117，S112/S65历史辅证）。
+- **重大边界：** 不能把NP完全写成P≠NP已被证明，也不能说每个实例都难；任何哈密顿/旅行商优化版都要区分对应判定版。
+
+### 第26章｜近似、FPT与启发式（GT26-01—GT26-15）
+
+- **GT26-01—07：** 顶点覆盖双端点算法生成极大匹配M、保证\(|C|=2|M|\le2OPT\)。三点星形A—B、A—C中OPT=1但算法可能返回2为自制可复核例子（S121—S122）。
+- **GT26-08：** Johnson1974原刊JCSS9(3):256—278及近似最坏情形比较（S118）。
+- **GT26-09—11：** Christofides1976原始CMU报告No.388，度量对称TSP前提、MST≤OPT、奇度完美匹配≤OPT/2、三角不等式允许快捷跳点，因此1.5倍保证（S119）。没有三角不等式绝不可照搬。
+- **GT26-12—14：** Downey/Fellows1995 FPT/W层级论文（S120）；顶点覆盖预算\(k\)下对任一未覆盖边分支选u/v，在每步消耗预算一单位，得到\(2^k\mathrm{poly}(n)\)精确算法；不等于所有NP完全问题FPT。
+- **GT26-15：** 有近似保证、参数精确与经验启发式三种承诺不同（S118、S120—S122）。
+- **重大边界：** 1976研究报告与2022重刊区别；1995期刊与1991/1992前期材料区别；“最坏质量保证”不是“实测平均表现”。
+
+### 第27章｜Laplacian与Fiedler（GT27-01—GT27-11）
+
+- **GT27-01—05：** 无向无权图 \(L=D-A\)、\(x^TLx=\sum_{uv\in E}(x_u-x_v)^2\)、零空间维度=连通分量个数、\(\lambda_2=\min_{x\perp\mathbf1,\|x\|=1}x^TLx\)（S123—S124）。这是现代教学推导，不把「图会发声」当作物理史实。
+- **GT27-06：** 两条分离K2的特征值0,0,2,2；四点路径P4的0, \(2-\sqrt2\), 2, \(2+\sqrt2\)；K4的0,4,4,4。该比较仅在固定4顶点、无权组合拉普拉斯下讨论。
+- **GT27-07—08：** Fiedler1973《Algebraic Connectivity of Graphs》正式发表；1971五月报告、1972四月收稿必须分清（S123原刊第298页）。
+- **GT27-09：** 矩阵树主子式行列式计数及Kirchhoff1847电路研究与后世表述的归属界线（S124—S125）。
+- **GT27-10—11：** 加一条正边的拉普拉斯变为\(L+bb^T\)，固定顶点集合使\(\lambda_2\)不降；Fiedler向量可用于谱划分但**不等于**任意最小割最优解（S123—S124）。
+- **重大边界：** \(\lambda_2\)与边连通度/最小割有联系，但数值不普遍相等；谱图划分并非自动得到最优离散社群。
+
+### 批次结论
+
+三篇替换第25—27章规划占位，增加**38条主张（12+15+11）**及相应来源映射。仅可登记为**待独立双审工作初稿**；第28—37章仍为TODO_VERIFY。第27章为第六部开篇，时间线由20世纪算法史回看1847基尔霍夫电路及1973谱连通研究，是专题组织而非严格年代单轴。

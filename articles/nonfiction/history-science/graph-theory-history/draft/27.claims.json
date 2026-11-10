@@ -1,12 +1,104 @@
 {
   "chapter": "27",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S06",
-    "S11"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Fiedler1973 Czechoslovak Mathematical Journal原刊第298页及DML数字档案（1971会议、1972收稿、1973发表）；矩阵树定理现代教材及史学关于Kirchhoff1847原始目标的争议；四点图谱、Rayleigh二次型为现代直接推导。",
+  "claims": [
+    {
+      "claim_id": "GT27-01",
+      "claim": "拉普拉斯第二小特征值可指示无向图是否连通及谱结构",
+      "source_ids": [
+        "S123"
+      ],
+      "status": "PRIMARY_AND_MODERN"
+    },
+    {
+      "claim_id": "GT27-02",
+      "claim": "无向无权简单图的L=D-A，P4具体矩阵与行和为零",
+      "source_ids": [
+        "S123",
+        "S124"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT27-03",
+      "claim": "二次型xTLx=sum_edges(xu-xv)^2，L实对称半正定",
+      "source_ids": [
+        "S123",
+        "S124"
+      ],
+      "status": "MODERN_MATH_DERIVATION"
+    },
+    {
+      "claim_id": "GT27-04",
+      "claim": "零特征值重数等于连通分量数；连通时lambda2>0",
+      "source_ids": [
+        "S123",
+        "S124"
+      ],
+      "status": "MODERN_PROOF"
+    },
+    {
+      "claim_id": "GT27-05",
+      "claim": "lambda2是x垂直1且范数1时最小Rayleigh能量",
+      "source_ids": [
+        "S123"
+      ],
+      "status": "PRIMARY_TEXT_AND_MODERN"
+    },
+    {
+      "claim_id": "GT27-06",
+      "claim": "两条分离边lambda2=0，四点路径2-sqrt2，K4为4；数字为现代算例",
+      "source_ids": [
+        "S123",
+        "S124"
+      ],
+      "status": "AUTHOR_EXAMPLE_VERIFIED"
+    },
+    {
+      "claim_id": "GT27-07",
+      "claim": "Fiedler1973 Algebraic Connectivity of Graphs刊于CMJ23(2) 298—305并命名a(G)",
+      "source_ids": [
+        "S123"
+      ],
+      "status": "PRIMARY_BIBLIO_AND_TEXT"
+    },
+    {
+      "claim_id": "GT27-08",
+      "claim": "原刊首页记录1971五月会议报告、1972四月收稿、1973出版",
+      "source_ids": [
+        "S123"
+      ],
+      "status": "PRIMARY_PUBLICATION_CHRONOLOGY"
+    },
+    {
+      "claim_id": "GT27-09",
+      "claim": "矩阵树定理L主子式行列式等于生成树数；Kirchhoff1847目标应按史学界限叙述",
+      "source_ids": [
+        "S124",
+        "S125"
+      ],
+      "status": "MODERN_THEOREM_AND_HISTORICAL_BOUNDARY"
+    },
+    {
+      "claim_id": "GT27-10",
+      "claim": "固定顶点不负权加边L'=L+bbT使lambda2不能降低",
+      "source_ids": [
+        "S123",
+        "S124"
+      ],
+      "status": "MODERN_RAYLEIGH_PROOF"
+    },
+    {
+      "claim_id": "GT27-11",
+      "claim": "Fiedler向量可启发谱划分但简单阈值切分不保证每种离散割全局最优",
+      "source_ids": [
+        "S123",
+        "S124"
+      ],
+      "status": "MODERN_SCOPE_BOUNDARY"
+    }
+  ]
 }
