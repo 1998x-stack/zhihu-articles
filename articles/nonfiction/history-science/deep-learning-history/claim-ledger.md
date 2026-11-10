@@ -23,9 +23,9 @@
 | 16 | C16-CORE | 数据标注、类别规模、公开基准产生共同评测坐标 | R09 | 需补全原文页码、版本和竞争解释 | PENDING |
 | 17 | C17-CORE | CNN、GPU、ReLU、dropout、数据增强相互协作 | R10 | 需补全原文页码、版本和竞争解释 | PENDING |
 | 18 | C18-CORE | 解释残差函数与优化便利以及可堆叠性 | R11 | 需补全原文页码、版本和竞争解释 | PENDING |
-| 19 | C19-CORE | 从词表示转向编码器—解码器与序列建模 | R07,TO_VERIFY | 包含未定位或未独立核验的关键史实 | PENDING |
-| 20 | C20-CORE | 逐步对齐输入片段，解释注意力的用途 | R12 | 需补全原文页码、版本和竞争解释 | PENDING |
-| 21 | C21-CORE | 比较对抗学习、去噪生成和潜空间效率 | R13,R17 | 需补全原文页码、版本和竞争解释 | PENDING |
+| 19 | C19-CORE | 从词表示转向编码器—解码器与序列建模 | R07,DL90,DL91 | 只核2014两类原论文和指定翻译实验，独立审稿仍待办 | SCOPED_VERIFIED |
+| 20 | C20-CORE | 逐步对齐输入片段，解释注意力的用途 | R12,DL92 | 2014预印本/2015会议、软对齐只限模型及翻译任务 | SCOPED_VERIFIED |
+| 21 | C21-CORE | 比较对抗学习、去噪生成和潜空间效率 | R13,R17,DL93,DL94,DL95,DL96,DL97 | GAN/VAE/扩散/LDM不同路线和实验边界 | SCOPED_VERIFIED |
 | 22 | C22-CORE | 解释自注意力、位置表示、并行化 | R14,R12 | 需补全原文页码、版本和竞争解释 | PENDING |
 | 23 | C23-CORE | 对比双向编码、因果语言建模、微调迁移 | R22,TO_VERIFY | 包含未定位或未独立核验的关键史实 | PENDING |
 | 24 | C24-CORE | 经验规模律、上下文学习与成本约束 | R21,TO_VERIFY | 包含未定位或未独立核验的关键史实 | PENDING |
@@ -210,3 +210,35 @@
 | 18 | C18-08 | 2016 ECCV预激活是原ResNet之后改进 | DL88 | SCOPED_VERIFIED | 不可倒灌到2015获奖版本 |
 
 此处SCOPED_VERIFIED仅代表可进入工作初稿的中心文献核对，AUTHOR_DERIVATION为现代教学推导，均未独立双审通过。
+
+
+## 第七批19—21章已核主张（有限原始来源范围，非独立审稿）
+
+| 章 | claim_id | 具体主张 | source_ids | 本批范围 | 不能推定 |
+| --- | --- | --- | --- | --- | --- |
+| 19 | C19-01 | 2014 Cho等七作者EMNLP RNN Encoder–Decoder引入短语式翻译评分辅助特征 | DL90 | SCOPED_VERIFIED | 不是独立替换整套SMT |
+| 19 | C19-02 | 2014 Sutskever/Vinyals/Le多层LSTM序列到序列，固定长度中间向量 | DL91 | SCOPED_VERIFIED | 不是2014唯一seq2seq起源 |
+| 19 | C19-03 | LSTM任务WMT14英法测试BLEU34.8对原SMT33.3，SMT候选重排36.5 | DL91 | SCOPED_VERIFIED | 只限论文给定设置，三个数不同系统模式 |
+| 19 | C19-04 | 仅反转来源句的词序可改变训练优化依赖 | DL91 | SCOPED_VERIFIED | 目标句词序未倒序，不改变正确译文 |
+| 19 | C19-05 | 词向量/序列隐藏状态/整句表示是不同层次表示 | R07,DL90,DL91 | QUALIFIED | 分布式相似性不等于语言理解 |
+| 19 | C19-06 | 两步条件概率0.6乘0.5等于0.3 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 教学虚构概率非论文实验 |
+| 19 | C19-07 | 固定瓶颈是待改善设计条件，并非所有长句实验必定失败 | DL91,DL92 | QUALIFIED | 原论文报告某些长句仍可训练 |
+| 19 | C19-08 | 两条2014论文研究目的与合作作者不同 | DL90,DL91 | SCOPED_VERIFIED | 不写成直接师承或单人发明 |
+| 20 | C20-01 | Bahdanau/Cho/Bengio 2014-09预印本、2015 ICLR正式论文 | DL92 | SCOPED_VERIFIED | 两种年份均正确但含义不同 |
+| 20 | C20-02 | 固定维度来源句向量可能成为瓶颈，是研究假设 | DL92 | SCOPED_VERIFIED | 不是信息论通用不可能定理 |
+| 20 | C20-03 | 软对齐以来源位置打分、归一化为权重，按目标时刻形成context | DL92 | SCOPED_VERIFIED | 不把attention权重直接等同解释性对齐 |
+| 20 | C20-04 | 编码器保留来源位置表示、解码器生成每一步目标条件概率 | DL92 | SCOPED_VERIFIED | 不是Transformer纯注意力架构 |
+| 20 | C20-05 | 任意分数0/ln2/ln3归一化为1/6、2/6、3/6 | AUTHOR_DERIVATION,DL92 | VERIFIED_DERIVATION | 教学示例，不是论文真实热图 |
+| 20 | C20-06 | 权重随生成时刻改变而更新来源上下文 | DL92 | SCOPED_VERIFIED | 不能保证总对准真实翻译词 |
+| 20 | C20-07 | 2014注意力方案早于2017 Transformer | DL92,R14 | SCOPED_VERIFIED | 两者设计与计算方式不相同 |
+| 20 | C20-08 | 长句与比较基准的优劣只可在论文实验限制下叙述 | DL91,DL92 | QUALIFIED | 不宣称全面打败短语翻译 |
+| 21 | C21-01 | 2014 Goodfellow等八作者GAN论文的G-D对抗训练形式 | DL93 | SCOPED_VERIFIED | 理论均衡不保证现实收敛 |
+| 21 | C21-02 | G分布与数据分布相同时理想判别器输出1/2 | DL93 | SCOPED_VERIFIED | 只在论文所述理想分析条件 |
+| 21 | C21-03 | Kingma/Welling 2013预印本/ICLR2014变分编码与重参数化 | DL94 | SCOPED_VERIFIED | VAE不是GAN/Diffusion的别称 |
+| 21 | C21-04 | Sohl-Dickstein等ICML2015前向加噪与逆向生成 | DL95 | SCOPED_VERIFIED | DDPM并非发明全部扩散概念 |
+| 21 | C21-05 | Ho/Jain/Abbeel NeurIPS2020 DDPM与指定CIFAR10 FID3.17 | DL96 | SCOPED_VERIFIED | FID只限当时指定数据与设置 |
+| 21 | C21-06 | Rombach等CVPR2022在潜空间扩散、使用cross-attention接受文本条件 | DL97 | SCOPED_VERIFIED | 不等于无损压缩或首创attention |
+| 21 | C21-07 | 一步加噪β=0.36 x0=1 ε=0时x1=0.8 | AUTHOR_DERIVATION,DL95,DL96 | VERIFIED_DERIVATION | 特定噪声样例，非生成实验 |
+| 21 | C21-08 | GAN、VAE、扩散、LDM以不同优化目标与成本构建生成模型 | DL93,DL94,DL95,DL96,DL97 | INTERPRETATION | 不能伪造架构间直接继承或单一排名 |
+
+> SCOPED_VERIFIED只表示**限定原始史料可用于工作初稿**，不是独立全文审校。AUTHOR_DERIVATION为作者自算示例。第19—21章完成工作稿前与之后均不得声称真实实验复现、编辑通过或平台发布。
