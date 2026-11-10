@@ -1,23 +1,172 @@
 {
   "chapter": "35",
-  "status": "PENDING",
+  "title": "自动微分：计算机怎样真正执行链式法则",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H213",
+    "H214",
+    "H215",
+    "H216",
+    "H217",
+    "H218",
+    "H219",
+    "H220",
+    "H221",
+    "H222",
+    "H223",
+    "H224",
+    "H230"
+  ],
   "claims": [
     {
       "id": "C35-01",
-      "statement": "程序的导数怎样高效获得",
-      "source_candidates": [
-        "H13"
+      "kind": "history_primary",
+      "statement": "Wengert CACM 1964 7(8) p463-464 published automatic derivative evaluation by composing elementary operations with intermediate variables",
+      "source_ids": [
+        "H213",
+        "H214"
       ],
-      "verification": "PENDING"
+      "locator": "p463 original screenshot and dblp journal record",
+      "verification": "PRIMARY_PAGE_CHECKED"
     },
     {
       "id": "C35-02",
-      "statement": "前向模式、反向模式和计算图",
-      "source_candidates": [
-        "H13"
+      "kind": "history_original",
+      "statement": "Wengert p463 uses unit input tangent and zero other tangents to compute partial derivatives",
+      "source_ids": [
+        "H213"
       ],
-      "verification": "PENDING"
+      "locator": "original scanned page p463 partial derivatives paragraph",
+      "verification": "PRIMARY_PAGE_CHECKED"
+    },
+    {
+      "id": "C35-03",
+      "kind": "history_historical",
+      "statement": "Linnainmaa 1970 Finnish thesis reference in 1976 BIT paper, reverse accumulation background distinct from NN training",
+      "source_ids": [
+        "H215",
+        "H216",
+        "H221"
+      ],
+      "locator": "1976 bibliography and qualified research history",
+      "verification": "SCOPE_CHECKED"
+    },
+    {
+      "id": "C35-04",
+      "kind": "history_primary_catalog",
+      "statement": "Speelpenning 1980 compiler Jake report compares gradient computation with numerical differencing",
+      "source_ids": [
+        "H219"
+      ],
+      "locator": "UNT university digital original report metadata and abstract",
+      "verification": "PRIMARY_CATALOG"
+    },
+    {
+      "id": "C35-05",
+      "kind": "history_primary_catalog",
+      "statement": "Rumelhart Hinton Williams Nature 1986 paper on error back-propagating internal representations, not first reverse AD",
+      "source_ids": [
+        "H220",
+        "H221"
+      ],
+      "locator": "Nature original abstract and survey historical context",
+      "verification": "SCOPE_CHECKED"
+    },
+    {
+      "id": "C35-06",
+      "kind": "historiography",
+      "statement": "AD history multi-source, reverse mode precedes canonical 1986 neural network study; AD broader than neural-network backprop",
+      "source_ids": [
+        "H217",
+        "H221",
+        "H215"
+      ],
+      "locator": "JMLR survey, independent history caveats",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C35-07",
+      "kind": "modern_math",
+      "statement": "F=(xy+x²)² at (2,3) =100 with a=6,b=4,c=10",
+      "source_ids": [
+        "H230"
+      ],
+      "locator": "exact arithmetic",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C35-08",
+      "kind": "modern_math",
+      "statement": "forward mode seed dx=1 dy=0 gives 140, seed dx=0 dy=1 gives 40",
+      "source_ids": [
+        "H230",
+        "H218"
+      ],
+      "locator": "dual propagation of elementary operations",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C35-09",
+      "kind": "modern_math",
+      "statement": "reverse mode adjoint accumulates x via xy and x² paths: 60+80=140, y=40",
+      "source_ids": [
+        "H230",
+        "H218"
+      ],
+      "locator": "reverse chain rule with path contributions added",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C35-10",
+      "kind": "modern_math",
+      "statement": "finite forward difference of F at x=2,y=3 is 140+69h+14h²+h³, not exact derivative for finite h",
+      "source_ids": [
+        "H230"
+      ],
+      "locator": "expanded (10+7h+h²)^2",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C35-11",
+      "kind": "modern_definition",
+      "statement": "AD vs finite differencing vs symbolic differentiation; no h truncation not no floating error",
+      "source_ids": [
+        "H217",
+        "H223"
+      ],
+      "locator": "JMLR AD definitions and JAX modern docs",
+      "verification": "SCOPE_CHECKED"
+    },
+    {
+      "id": "C35-12",
+      "kind": "modern_method",
+      "statement": "JVP Jv forward and VJP uᵀJ reverse, n input m output performance depends shape and implementation; reverse checkpointing",
+      "source_ids": [
+        "H218",
+        "H224"
+      ],
+      "locator": "official JAX and SIAM textbook summary",
+      "verification": "MATHEMATICS_SOURCE_CHECKED"
+    },
+    {
+      "id": "C35-13",
+      "kind": "modern_boundary",
+      "statement": "branching, nonsmooth points, non-supported primitives and gradients of models impose limits; computing gradient not proving model truth or global optimality",
+      "source_ids": [
+        "H223",
+        "H218"
+      ],
+      "locator": "modern documentation plus mathematical counterexample |x| at 0",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "Wengert1964 original p463 screenshot, p464 complete page not verified.",
+    "Linnainmaa1970 Finnish thesis not checked in primary full text; 1976 BIT references and history used.",
+    "Distinguish AD reverse mode from neural network backprop in 1986, avoid single inventor mythology.",
+    "Math example is modern, not historic source original.",
+    "AD has no finite-difference step truncation, yet floating rounding and nondifferentiable program branches remain.",
+    "Official workflow outline_approved=false evidence_verified=false and independent review pending."
+  ]
 }
