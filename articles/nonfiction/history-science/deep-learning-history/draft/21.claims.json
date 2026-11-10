@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "21",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-only primary-source metadata/abstract/mechanism review, author derivations; no independent scientific review",
+  "claims": [
+    {
+      "claim_id": "C21-01",
+      "claim": "Goodfellow等八人NIPS2014 GAN生成器与判别器极小极大对抗结构",
+      "source_ids": [
+        "DL93"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是单作者或实验室戏剧性对话",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-02",
+      "claim": "生成分布等于真实分布时理想最优判别器D(x)=1/2",
+      "source_ids": [
+        "DL93"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "理论极限非现实训练必然收敛",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-03",
+      "claim": "Kingma/Welling 2013预印本ICLR2014 VAE变分下界与重参数化",
+      "source_ids": [
+        "DL94"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "VAE与GAN不是同种优化目标",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-04",
+      "claim": "Sohl-Dickstein等ICML2015前向扩散加噪与反向恢复结构",
+      "source_ids": [
+        "DL95"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "2020不是扩散生成首次提出",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-05",
+      "claim": "Ho/Jain/Abbeel NeurIPS2020 DDPM无条件CIFAR10 FID3.17 IS9.46",
+      "source_ids": [
+        "DL96"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "仅作者当时特定数据和评测口径",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-06",
+      "claim": "Rombach等CVPR2022 LDM在预训练自编码器潜空间扩散并用交叉注意力条件生成",
+      "source_ids": [
+        "DL97"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是无损压缩也不是2022才发明注意力",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-07",
+      "claim": "β0.36 x0=1 ε=0的一步高斯前向加噪产生x1=0.8",
+      "source_ids": [
+        "DL95",
+        "DL96",
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "作者教学，单次指定随机抽样不是实验复现",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C21-08",
+      "claim": "GAN/VAE/扩散/LDM是不同生成建模路线，合成图像不证明真实理解或权利许可",
+      "source_ids": [
+        "DL93",
+        "DL94",
+        "DL95",
+        "DL96",
+        "DL97"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "版权和事实/偏差需要独立研究",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
