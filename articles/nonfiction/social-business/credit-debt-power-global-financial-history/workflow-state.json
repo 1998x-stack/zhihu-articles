@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 27,
+  "current_revision": 28,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -101,9 +101,22 @@
     "CH36-MPESA-KENYA-CASH-AGENT-REGULATION-PRIMARY",
     "CH36-PBOC-2010-2020-PAYMENT-LAW-REPLACEMENT-PRIMARY",
     "CH36-FINDEX-2021-NATIONAL-SURVEY-WEIGHTS-VS-ACCOUNT-USAGE",
-    "CH36-SWIFT-RTGS-SETTLEMENT-FINALITY-LEGAL-OPERATIONAL-RULES"
+    "CH36-SWIFT-RTGS-SETTLEMENT-FINALITY-LEGAL-OPERATIONAL-RULES",
+    "CH37-CHINA-2008-10-INVESTMENT-ACTUAL-SETTLEMENT-BUDGET-PRIMARY",
+    "CH37-LGFV-2014-DEBT-CONTRACTS-AND-LOCAL-FISCAL-LIABILITY",
+    "CH37-PRESALE-2020-DEVELOPER-THREE-RED-LINES-ORIGINAL-REGULATION",
+    "CH37-CHINA-2005-2023-HOUSING-AND-LAND-FISCAL-PROVINCE-DATA",
+    "CH38-2020-MARCH-TREASURY-DAILY-TRANSACTIONS-NBFI-MARGIN",
+    "CH38-FED-ASSET-PURCHASE-AND-CPFF-MMLF-ACTUAL-BALANCES",
+    "CH38-ECB-PEPP-SWAP-FIMA-AUTHORISED-VS-USED-SERIES",
+    "CH38-2020-2023-INFLATION-MULTICAUSAL-INDEPENDENT-REVIEW",
+    "CH39-SVB-2022-10K-HTM-AFS-SUPERVISION-PRIMARY-BOOKS",
+    "CH39-SVB-SIGNATURE-FRC-DAILY-DEPOSIT-FDIC-FINAL-RESOLUTION",
+    "CH39-BTFP-LOAN-REAL-OUTSTANDING-BALANCES",
+    "CH39-CREDIT-SUISSE-AT1-PROSPECTUS-COURT-AND-SNB-DISBURSEMENT",
+    "CH39-FDIC-SPECIAL-ASSESSMENT-FINAL-EXPOST-COST"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Revision27 (2026-11-09): three research-only nonfiction drafts chapters 34–36; 30 new official/academic sources, 80 mapped claims. All prior primary archival blockers retained and 15 new fact-audit blockers added. Workflow gate blocked: outline_approved=false, evidence_verified=false, review_status=CHANGES_REQUIRED, previous formal review revisions stale. No edited/final/publish approval."
+  "notes": "Revision28 2026-11-09 research-level chapters 37–39; 32 additional historical sources and 72 mapped claims. 13 new blockers, all prior blockers retained. Editorial publication gate BLOCKED, outline_approved=false and evidence_verified=false, review_status=CHANGES_REQUIRED; previous review versions stale. No line-edit, final, or publication authorization."
 }
