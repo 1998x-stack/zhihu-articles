@@ -264,8 +264,8 @@
   "progress_summary": {
     "source": "book.json",
     "total": 32,
-    "draft": 24,
-    "outline": 8,
+    "draft": 30,
+    "outline": 2,
     "final": 0,
     "proposals": 0,
     "review_status": "PENDING",

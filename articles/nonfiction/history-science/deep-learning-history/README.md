@@ -1,7 +1,7 @@
 # 让机器学会学习：一部深度学习发展史
 
 <!-- SERIES_PROGRESS:START -->
-> **系列进度（自动核对，非出版许可）**：规划 32 篇 · 工作初稿 24 篇 · 策划占位 8 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
+> **系列进度（自动核对，非出版许可）**：规划 32 篇 · 工作初稿 30 篇 · 策划占位 2 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
 <!-- SERIES_PROGRESS:END -->
 
 *The Making of Deep Learning: Ideas, Winters, Scale and Beyond*
