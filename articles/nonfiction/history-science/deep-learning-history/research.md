@@ -439,3 +439,50 @@ Bahdanau/Cho/Bengio论文**2014-09-01预印本→ICLR2015**；提出解码每个
 3. Kaplan2020、Brown GPT-3 2020、Hoffmann2022在不同模型、样本、预算及指标上的结果不能化作“参数唯一决定智能”的口号。
 4. 第25章AlphaGo研究是**时间回溯**（2016—2017），并非2022规模定律直接产物；须在第24章尾与下一部开篇明确。
 5. 此前第01—21章均仍为工作初稿并待独立双重审稿。本批独立审稿、终稿批准仍PENDING。
+
+## 十三、第九批25—27章：AlphaGo/AlphaFold2/视觉语言多模态限域研究（2026-11-10）
+
+> 本批只核查第25—27章中心论文书目、赛事实验协议、模型机制和作者侧例题；与先前第01—24章审稿状态互不替代。以下是可以进入非虚构工作初稿的**限定研究材料**，不是独立完整事实审计或终稿许可。外部原始论文、官方发布记录与研究机构方法说明已交叉查证，实际性能结论必须写明模型/版本/任务/年份。
+
+| source_id | 来源层级 | 原始文献或机构记录 | 适用结论及危险误读 |
+| --- | --- | --- | --- |
+| DL123 | Nature原始论文2016-01-27 | [Silver, Huang, Maddison et al., Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961) | AlphaGo策略网络/价值网络/Monte Carlo tree search；人类棋谱监督加自我对弈强化学习；2015与樊麾正式五盘5:0；作者多团队，论文与2016李世石赛事不同 |
+| DL124 | Google/DeepMind逐局官方赛事档案2016-03 | [Demis Hassabis, AlphaGo's ultimate challenge: five-game match against Lee Sedol](https://blog.google/innovation-and-ai/products/alphagos-ultimate-challenge/) | 2016-03-09至15首尔李世石5局，AlphaGo赢4输1；第四局李世石获胜，第五局AlphaGo获胜。不得把樊麾5:0或Zero100:0记为李世石分数 |
+| DL125 | Nature原始论文2017-10-19 | [Silver, Schrittwieser, Simonyan et al., Mastering the game of Go without human knowledge](https://www.nature.com/articles/nature24270) | AlphaGo Zero从规则与自我对弈学习、单网络产策略与胜负估计，MCTS辅助产生更强策略；100:0对手是先前published champion-defeating AlphaGo版本，不是李世石或人类100局 |
+| DL126 | Science原始论文2018-12-07 | [Silver, Hubert, Schrittwieser et al., A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](https://doi.org/10.1126/science.aar6404) | AlphaZero同一算法规则下学习国际象棋、将棋、围棋；2017-12有预印本，2018 Science正式发表；不代表无需规则、无需算力或能解决现实任意决策 |
+| DL127 | Nature原始论文2020-01-15/2018竞赛前因 | [Senior, Evans, Jumper, Kirkpatrick et al., Improved protein structure prediction using potentials from deep learning](https://www.nature.com/articles/s41586-019-1923-7) | 2018 CASP13 AlphaFold较早模型利用深度学习预测结构相关势函数；2020正式论文。它与2020 CASP14所用AlphaFold2不一样，勿混结构或比赛 |
+| DL128 | Nature原始论文2021-07-15/CASP14 2020 | [Jumper, Evans, Pritzel et al., Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2) | AlphaFold2 2020 CASP14盲测，论文2021 Nature；CASP domains median Cα RMSD_95=0.96Å，次优2.8Å；原文明确2020系统不同CASP13 2018前版 |
+| DL129 | CASP14评估/2021评审论文 | [Kryshtafovych et al., Applying and improving AlphaFold at CASP14](https://pubmed.ncbi.nlm.nih.gov/34599769/) | median domain GDT_TS=92.4，来自CASP14 evaluator context；GDT_TS百分制结构吻合分数，非92.4%所有蛋白完全正确 |
+| DL130 | EMBL-EBI专家课程（方法结构） | [AlphaFold2: A high-level overview](https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/a-high-level-overview/) | MSA、pair representation、Evoformer、structure module与recycling；从序列预测结构非实验测得动态；未知是否每条序列均有丰富MSA |
+| DL131 | Nature原始论文2021-07-22/数据扩展 | [Tunyasuvunakool et al., Highly accurate protein structure prediction for the human proteome](https://www.nature.com/articles/s41586-021-03828-1) | 2021约98.5%人类蛋白质有预测结构，但仅58%残基被论文判为confidence prediction、其中36%所有残基very high；覆盖不等于全面高置信 |
+| DL132 | EBI AlphaFold DB官方限制与指标说明 | [AlphaFold Protein Structure Database FAQ](https://alphafold.ebi.ac.uk/faq) | pLDDT为局部预测可信度；结构低置信区域、固有无序、配体、复合物、动态构象、突变影响等限制；不同数据库版本更新，勿用它代表CASP14当年可用功能 |
+| DL133 | Nucleic Acids Research数据版本回顾2024 | [AlphaFold Protein Structure Database in 2024: over 214 million protein sequences](https://academic.oup.com/nar/article/52/D1/D368/7337620) | 2021首次发布、2022扩库，2024回顾超过214m。与2020盲测模型性能不是同一事；数据库数字可能随版本变化 |
+| DL134 | ICML 2021正式原始论文 | [Radford, Kim, Hallacy, Ramesh et al., Learning Transferable Visual Models From Natural Language Supervision (CLIP)](https://proceedings.mlr.press/v139/radford21a.html) | 12位作者；约4亿image-text pairs；双编码器对比训练匹配图与文本，zero-shot图像分类基准；CLIP自身学习匹配/表示，不是文本绘图生成器 |
+| DL135 | 原始研究预印本2021-02-26 | [Radford et al., CLIP arXiv:2103.00020](https://arxiv.org/abs/2103.00020) | 与2021 ICML正式论文对应；具体zero-shot条件比较ImageNet原ResNet50，不能宣称所有视觉基准无监督全面优胜 |
+| DL136 | ICML 2021正式论文/Google研究团队 | [Jia, Yang, Xia, Chen et al., Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision (ALIGN)](https://proceedings.mlr.press/v139/jia21b.html) | 10作者，约18亿噪声图文alt-text对，双塔对比式学习；与CLIP平行研究，不是CLIP内部组成部分；噪声与数据质量是明确问题 |
+| DL137 | ICML 2021原始论文（DALL-E第一代） | [Ramesh, Pavlov, Goh, Gray, Voss, Radford, Chen & Sutskever, Zero-Shot Text-to-Image Generation](https://proceedings.mlr.press/v139/ramesh21a.html) | 2021 DALL-E第一代用Transformer自回归建模文本与图像tokens联合序列，是生成模型，不要与CLIP对比编码器混为同一架构 |
+| DL138 | 原始2022研究公告与论文 | [Ramesh, Dhariwal, Nichol, Chu & Chen, Hierarchical Text-Conditional Image Generation with CLIP Latents](https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents/) | 2022第二代文本条件图像生成把文本映射CLIP图像表示，再用扩散解码器生成；先验/解码器机制不同CLIP匹配本身 |
+| DL139 | CVPR 2022原始正式论文 | [Rombach, Blattmann, Lorenz, Esser & Ommer, High-Resolution Image Synthesis with Latent Diffusion Models](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) | 先自编码压缩到潜空间再扩散、cross-attention接受文本等条件；不同于2022 DALL-E2结构与开发团队；本书第21章已经介绍扩散，27章重点是图文条件与表征如何对接 |
+
+
+### 第25章：2016 AlphaGo、2017 Zero与2018 AlphaZero三者不可合成一个程序
+
+**来源界限**：DL123 2016 Nature披露策略网络+价值网络+MCTS，人类高手棋谱监督学习+自我对弈强化学习；2015年樊麾5比0写在论文中；DL124官方比赛记录2016年3月9—15日对李世石4比1，第四局李世石胜。DL125 2017 Nature AlphaGo Zero只用棋规加自我对弈学习（且需大量计算），100比0是针对**先前发表于2016的AlphaGo**，不是百场挑战人类。DL126的AlphaZero在2017预印本、2018 Science正式刊出，跨围棋、国际象棋与将棋的研究仍以已知规则为条件。**不写“AlphaGo仅靠监督学习”“AlphaGo Zero不需要搜树”“AlphaGo Zero完全没有规则”或“围棋全空间被穷举”。**
+
+**玩具计算（作者演示）**：若某一虚构棋局只剩3个合法行动，策略先验p=[0.6,0.3,0.1]，搜索统计访问N=[10,30,10]，按访问量归一化后π=[0.2,0.6,0.2]。只解释网络先验与搜索后选择可以不同；真实AlphaGo搜树规则远复杂，不是论文训练局面，搜索访问量统计不是原始策略网络输出。若价值网络输出胜率估计0.7，不是“保证70%将赢”，只是模型对指定局面的概率估计，需要校准。请区分prediction、decision和outcome。
+
+### 第26章：蛋白质结构预测不是所有生命机制的解释
+
+**年份/指标分开**：CASP13发生2018，较早AlphaFold结构相关势能研究发表于2020 Nature（DL127）；CASP14发生2020，独立的AlphaFold2模型Nature论文发表于2021（DL128）。该论文中对CASP domains的median Cα RMSD_95约0.96Å vs次优2.8Å，**不是“每个氨基酸误差0.96Å”**；独立CASP14评估median domain GDT_TS=92.4（DL129），**不是92.4%预测蛋白完全正确**。2021人类proteome98.5%覆盖但58%残基有confidence、36%高confidence（DL131）须同时说清，数据库版本后来更新不代表2020盲测前就已经有亿级记录。
+
+**核心工作流程**：序列→MSA/模板与成对信息→Evoformer处理MSA/配对表示→结构模块输出三维坐标→recycling精修；pLDDT为局部可信度指标，不等于实验测量的确证。蛋白质是动态分子，多构象、无序、配体、复合物和突变致病性等问题不能一概由单链静态结构推出（DL130/DL132）。
+
+**教学例题（自造）**：比较三组预测/实验坐标距离误差[1,2,3]Å，按均方根定义RMSD=√((1²+2²+3²)/3)=√(14/3)≈2.160Å。只是已对齐同等对象的极简数学算例，不是CASP计算实现（需要最优结构对齐/95% residue覆盖/多域指标）。0.96Å与2.8Å不能直接用这组toy替代。
+
+### 第27章：共享语义空间≠生成图像本身
+
+CLIP 2021（DL134/DL135）双编码器对4亿图文配对计算匹配，对比学习拉近正确配对并相对拉远不匹配，实现自然语言定义类别的zero-shot分类/检索，但模型自身不是文生图生成器。ALIGN 2021（DL136）使用约18亿噪声alt-text图文对，说明数据规模/标注噪声权衡，**不是CLIP内部训练数据**。2021首代DALL-E（DL137）将文本/图像tokens视作联合序列自回归生成；2022 DALL-E2（DL138）先验预测CLIP image embedding并用扩散解码器绘图；2022 LDM（DL139）在压缩视觉潜空间做扩散及cross attention文本条件，这几条路径**不能视作同一模型改名**。
+
+**玩具对比（自造）**：图像向量v=(1,0)，文本“猫”t₁=(0.8,0.6)、“车”t₂=(0,1)，均为单位向量，余弦相似0.8与0。softmax按温度τ=1，P(cat)=e^0.8/(e^0.8+e^0)≈0.690；图中“猫”获得较高配对分数**不等于图像生成，也不等于对照片内容完备理解**，概率取决候选类别和温度。
+
+**跨章逻辑**：24章2022 scaling→25章专题回到2016 AlphaGo→26章2020 CASP14/2021 Nature AlphaFold→27章2021图文表示/2022条件生成。25–27章展示不同科学任务与不同证据标准；28章对话系统与人类反馈/部署需另查证，不能推断由CLIP唯一直接引发。
