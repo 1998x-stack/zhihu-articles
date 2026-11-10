@@ -4,9 +4,9 @@
 
 > **1958年，一台机器被宣布有能力“学习”；半个多世纪后，类似思想才真正改变世界。为什么有些突破早早出现，却要在数十年后才成为时代的中心？**
 
-**归档**：`articles/nonfiction/history-science/deep-learning-history/` · **作品**：历史科学非虚构系列 · **主 Skill**：`genre-history-science` · **范围**：思想远源—2026-11-09（史实持续核验） · **面向读者**：对AI好奇、具备中学数学基础的中文读者。
+**归档**：`articles/nonfiction/history-science/deep-learning-history/` · **作品**：历史科学非虚构系列 · **主 Skill**：`genre-history-science` · **范围**：思想远源—2026-11-10（史实持续核验） · **面向读者**：对AI好奇、具备中学数学基础的中文读者。
 
-**当前状态**：第01—15章共15篇可阅读的历史科学非虚构**工作初稿及逐章来源映射**；序章00及第16—31章共17篇仍为策划占位。五批中心史实、算法例题及因果细纲已按来源限定范围核查，`evidence_verified=true`和`outline_approved=true`仅指第01—15章有限证据范围。`review_status=PENDING`，独立事实/结构双重审稿、语言精修、终稿封版和发布均未完成。全书30章正文、序章和尾声各一篇，预计13—17万字。
+**当前状态**：第01—18章共18篇历史科学非虚构**工作初稿及逐章来源映射**；序章00和第19—31章共14篇仍为策划占位。六批中心史实与机制算例按各自来源范围限定核查；`evidence_verified=true`和`outline_approved=true`只覆盖第01—18章目前已说明的**有限范围**，不构成独立审稿通过。`review_status=PENDING`；双重审稿、语言精修、终稿封版与发布均未完成。全书30章正文、序章和尾声各一篇，预计13—17万字。
 
 ## 从哪里开始
 
@@ -123,9 +123,9 @@
 
 > ImageNet—GPU—深层残差构成互相强化的条件。
 
-- [16｜ImageNet：为什么一个数据集能够改变研究方向？](draft/16.md) — 模型比赛如何成为可比较实验？〔策划占位〕
-- [17｜AlexNet：2012年的胜利，到底是何种组合拳？](draft/17.md) — 为什么更深模型此时能显著改进图像分类？〔策划占位〕
-- [18｜残差连接：越深越难训练，绕一条路为何有用？](draft/18.md) — 增加层数为何可能出现训练退化？〔策划占位〕
+- [16｜ImageNet：为什么一个数据集能够改变研究方向？](draft/16.md) — 模型比赛如何成为可比较实验？〔工作初稿，待独立审稿〕
+- [17｜AlexNet：2012年的胜利，到底是何种组合拳？](draft/17.md) — 为什么更深模型此时能显著改进图像分类？〔工作初稿，待独立审稿〕
+- [18｜残差连接：越深越难训练，绕一条路为何有用？](draft/18.md) — 增加层数为何可能出现训练退化？〔工作初稿，待独立审稿〕
 
 ### 第七部｜机器开始处理语言与生成
 
@@ -200,9 +200,9 @@
 本系列遵循仓库根目录 [AGENTS.md](../../../../AGENTS.md)、[workflow.json](../../../../workflow.json) 和 [docs/contracts.md](../../../../docs/contracts.md)。主类型为 `genre-history-science`，非虚构写作依次由对应阶段 Skill 负责：
 `chief-narrative-editor → genre-history-science → topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → line-edit → final-approval`。具体文件边界以 [仓库合同](../../../../docs/contracts.md) 为准。
 
-> **进度真实性**：01—15十五篇有完整正文和`draft/NN.claims.json`，剩余17篇仍为策划占位。前置核验仅允许对应章节工作初稿，所有独立事实与结构审核均PENDING；作者算例或文件结构检查不能等同质量批准。
+> **进度真实性**：01—18十八篇有正文和`draft/NN.claims.json`，序章00和19—31共14篇仍为策划占位。前置核验仅允许对应章节的工作初稿，所有独立事实与结构审核均PENDING；作者算例或文件结构检查不能等同质量批准。
 
-第01—15章形成五批连续工作初稿及逐章来源映射。下一步应对五批执行独立事实/连续性和结构审核并按报告修订；进入第16—18章前必须单独核证ImageNet/ILSVRC、AlexNet与ResNet原始资料，不得复用本批限域研究许可。
+第01—18章形成六批连续工作初稿及逐章来源映射。第六批已单独核证ImageNet数据库/ILSVRC、AlexNet与ResNet的关键原始文献及实验口径。下一步应对各批执行独立事实/连续性和结构审稿并据此修订；不能将局部研究许可外推为全书独立批准。
 
 ## 八、编辑验收与不可犯的史学错误
 
@@ -213,7 +213,7 @@
 - 不能混淆**开放权重、开源代码、开放训练数据**三个层次。
 - 不能把榜单结果、实验室演示、厂商声称当作相同强度的证据。
 
-**版本日期**：2026-11-09；本轮已完成第01—15章工作初稿，第16章及以后仍在策划中。资料截至日期与审稿状态须在发表前重新确认。
+**版本日期**：2026-11-10；第01—18章已完成工作初稿，第19章及以后与序章仍在策划。资料截至日期与审稿状态须在发表前重新确认。
 
 ## 九、首批三章工作初稿的已实现入口
 
@@ -264,3 +264,15 @@
 | 15 深网络声学模型与跨团队语音研究 | [draft/15.md](draft/15.md) | [15.claims.json](draft/15.claims.json) | 工作初稿，独立审稿待办 |
 
 [第五批工作纸](batches/13-15.md) · [研究来源DL64—DL76](research.md) · [作者侧算例与连续性自查](qa/batch-13-15-self-check.md)。
+
+## 十五、第六批16—18章工作初稿入口
+
+| 章节 | 正文 | 主张与来源映射 | 状态 |
+| --- | --- | --- | --- |
+| 16 ImageNet与ILSVRC的不同角色 | [draft/16.md](draft/16.md) | [16.claims.json](draft/16.claims.json) | 工作初稿，独立审稿待办 |
+| 17 AlexNet：数据、GPU、优化与集成 | [draft/17.md](draft/17.md) | [17.claims.json](draft/17.claims.json) | 工作初稿，独立审稿待办 |
+| 18 ResNet：从网络深度到训练退化 | [draft/18.md](draft/18.md) | [18.claims.json](draft/18.claims.json) | 工作初稿，独立审稿待办 |
+
+[第六批工作纸](batches/16-18.md) · [DL77—DL81原始来源与实验口径](research.md) · [作者侧算例与连续性自查](qa/batch-16-18-self-check.md) · [独立双审任务书](qa/batch-16-18-review-brief.md)。
+
+**真实状态**：24条新增来源映射并不等于24项已由独立第三方复核；第01—18章全部仍`review_status=PENDING`。按Skill工作流完成独立双审、必要修订与再次审查后，才能考虑精修及终稿。
