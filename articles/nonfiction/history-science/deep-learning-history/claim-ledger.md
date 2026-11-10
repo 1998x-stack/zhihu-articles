@@ -1,6 +1,6 @@
 # 主张账本｜章节 → 资料范围（规划版）
 
-> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—12章已补充限定主张与原始论文核查；第13—15章本批补充限域核证；第16—31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
+> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—12章已补充限定主张与原始论文核查；第13—15章本批补充限域核证；第16—18章此前已限域核查，第19—21章本批完成限定核查，第22—31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
 
 | 章节 | claim_id | 本章需要核验的中心主张 | 候选source_id | 证据性质及待核点 | 状态 |
 | --- | --- | --- | --- | --- | --- |
@@ -210,3 +210,34 @@
 | 18 | C18-08 | 2016 ECCV预激活是原ResNet之后改进 | DL88 | SCOPED_VERIFIED | 不可倒灌到2015获奖版本 |
 
 此处SCOPED_VERIFIED仅代表可进入工作初稿的中心文献核对，AUTHOR_DERIVATION为现代教学推导，均未独立双审通过。
+
+## 第七批19—21章：逐章前置主张核对
+
+| chapter | claim_id | 核心断言 | sources | 核证等级 | 严格边界 |
+| --- | --- | --- | --- | --- | --- |
+| 19 | C19-01 | 2013词向量路线已出现，向序列翻译并非仅加总词向量 | DL105,DL90,DL91 | SCOPED_VERIFIED | 词向量近似不等于完整语义理解或语法推理 |
+| 19 | C19-02 | EMNLP2014 Cho等七作者RNN Encoder–Decoder原论文与SMT短语特征 | DL90 | SCOPED_VERIFIED | 其论文不是整套传统SMT已全部端到端替换 |
+| 19 | C19-03 | NIPS2014 Sutskever/Vinyals/Le多层LSTM端到端seq2seq | DL91,DL92 | SCOPED_VERIFIED | 变长序列到固定维度再自回归解码，非Transformer |
+| 19 | C19-04 | 2014 WMT14英法34.8 BLEU vs 33.3基线；重排后36.5 | DL91,DL106 | SCOPED_VERIFIED | 仅论文同条件，重排另一个系统设置；BLEU非准确率 |
+| 19 | C19-05 | 源序列顺序反转在2014论文中被报告改善优化 | DL91 | SCOPED_VERIFIED | 该训练技巧不是翻译定义，也不是所有语言必要步骤 |
+| 19 | C19-06 | 有限长编码可表达语序，但并不代表无限长句可无损传递 | DL90,DL91,DL93 | QUALIFIED | 固定维度未必在所有长句任务失败，论文有相反实验例 |
+| 19 | C19-07 | 两输出token链式概率0.8×0.5=0.4 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 虚构教学序列非2014论文真实译句 |
+| 19 | C19-08 | 词表示学习与序列到序列条件生成的历史关联 | DL65,DL90,DL91 | INTERPRETATION | 研究路线汇合，不主张单一作者全部独立发明 |
+| 20 | C20-01 | 2014-09-01 Bahdanau/Cho/Bengio预印本与2015 ICLR发表 | DL93,DL94 | SCOPED_VERIFIED | 出版年份与传播节点分开 |
+| 20 | C20-02 | 固定向量可能构成瓶颈是该论文假设与实验研究动机 | DL93,DL94 | SCOPED_VERIFIED | 不能宣称2014所有长句seq2seq无效 |
+| 20 | C20-03 | 解码步骤相关的软对齐权重及按源隐藏状态求和 | DL93 | SCOPED_VERIFIED | 这时的注意力不等于2017 Transformer自注意力 |
+| 20 | C20-04 | softmax(ln2,0,0)权重[0.5,0.25,0.25]及上下文0.5 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 标量教学例非论文真实对齐热图 |
+| 20 | C20-05 | 2015 Luong/Pham/Manning比较全局与局部注意力 | DL95 | SCOPED_VERIFIED | 英德特定WMT BLEU不能直接与英法对照 |
+| 20 | C20-06 | Bahdanau论文与Cho2014研究团队交叉，仍有不同模型目标 | DL90,DL93 | SCOPED_VERIFIED | 不能合成一篇论文或全员同署名 |
+| 20 | C20-07 | 注意力权重提供可学习信息路由，而非因果可解释性保证 | DL93,DL95 | QUALIFIED | 高权重不是被翻译模型完整理解的充分证据 |
+| 20 | C20-08 | 2017 Transformer第22章才讨论，2014/15先有编码解码注意力 | DL96,DL93 | SCOPED_VERIFIED | 不把Transformer全部结构倒灌2014 |
+| 21 | C21-01 | 2014 Goodfellow等八作者GAN原论文双模型对抗训练 | DL97 | SCOPED_VERIFIED | D真实分辨与生成器G是不同目标的训练博弈 |
+| 21 | C21-02 | GAN理想匹配D=0.5属于理论限制且实际训练可不稳定 | DL97 | QUALIFIED | 不能推出所有实际训练收敛 |
+| 21 | C21-03 | 2013末Kingma/Welling到2014VAE与2014Rezende另一生成路线 | DL98,DL99 | SCOPED_VERIFIED | VAE非GAN变种，亦不等于扩散 |
+| 21 | C21-04 | 2015 Sohl-Dickstein等非平衡热力学扩散前向破坏逆向生成 | DL100 | SCOPED_VERIFIED | 扩散生成并非2020首次发明 |
+| 21 | C21-05 | 2019 Song/Ermon score多噪声尺度生成相关路线 | DL101 | SCOPED_VERIFIED | score与扩散路径相关但非2014GAN鉴别器 |
+| 21 | C21-06 | 2020 Ho/Jain/Abbeel DDPM去噪扩散模型 | DL102 | SCOPED_VERIFIED | 不同数据/模型/基准不能声称普遍胜GAN |
+| 21 | C21-07 | 2022 Rombach等LDM在自编码器潜空间扩散并引入文本条件 | DL103,DL104 | SCOPED_VERIFIED | 低维压缩有损、非零算力和非全模型独创 |
+| 21 | C21-08 | GAN log toy及扩散单步x1 toy的数值 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 人造数字不是原论文真实实验或收敛证明 |
+
+以上SCOPED_VERIFIED指原始出版物、原始摘要、日期和中心模型机制在限定范围核对；AUTHOR_DERIVATION是本次作者教学示例。**尚未完成独立事实、连续性及结构审稿**，不准标记PASS或进行最终发布。
