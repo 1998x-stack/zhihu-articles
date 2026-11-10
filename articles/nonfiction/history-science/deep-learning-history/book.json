@@ -367,10 +367,16 @@
       "part": "第六部｜2012之后的规模革命",
       "period": "2009—2012",
       "file": "draft/16.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R09"
-      ]
+        "R09",
+        "DL77",
+        "DL78",
+        "DL79",
+        "DL80"
+      ],
+      "claims_file": "draft/16.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-17",
@@ -379,10 +385,14 @@
       "part": "第六部｜2012之后的规模革命",
       "period": "2012",
       "file": "draft/17.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R10"
-      ]
+        "R10",
+        "DL80",
+        "DL78"
+      ],
+      "claims_file": "draft/17.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-18",
@@ -391,10 +401,13 @@
       "part": "第六部｜2012之后的规模革命",
       "period": "2015—2016",
       "file": "draft/18.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R11"
-      ]
+        "R11",
+        "DL81"
+      ],
+      "claims_file": "draft/18.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-19",
@@ -568,6 +581,6 @@
       ]
     }
   ],
-  "outline_scope": "仅01—15分章细纲",
-  "evidence_scope": "仅01—15中心史实与算例"
+  "outline_scope": "01—18章有分章研究范围与细纲，16—18为2026-11-10第六批，序章与19—31仍为策划",
+  "evidence_scope": "第01—18章有限主张和机制性例题，16—18章新核ImageNet/ILSVRC、AlexNet、ResNet原文与关键表格；独立双审PENDING，其余章节仍为策划"
 }
