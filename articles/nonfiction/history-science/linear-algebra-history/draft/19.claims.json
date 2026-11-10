@@ -1,0 +1,88 @@
+{
+  "chapter": "19",
+  "title": "若尔当1870：不能对角化怎么办",
+  "revision_count": 0,
+  "status": "DRAFT_NOT_REVIEWED",
+  "sources": {
+    "H19-S1": "https://books.google.com/books/about/Trait%C3%A9_des_substitutions_et_des_%C3%A9quati.html?id=1ZQoc0-V08YC",
+    "H19-S2": "https://mathshistory.st-andrews.ac.uk/Biographies/Jordan/",
+    "H19-S3": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+    "H19-S4": "https://academic.oup.com/edited-volume/41254/chapter-abstract/350819867",
+    "H19-S5": "https://www.numdam.org/item/BSMA_1871__2__161_0/",
+    "M19": "本章第3—7节现代3阶Jordan链、相似不变量、矩阵幂与指数，独立符号校验"
+  },
+  "claims": [
+    {
+      "claim_id": "C19-01",
+      "source_ids": [
+        "H19-S1",
+        "H19-S2"
+      ],
+      "kind": "historical_publication",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C19-02",
+      "source_ids": [
+        "H19-S3",
+        "H19-S4"
+      ],
+      "kind": "historical_multiple_lineages",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C19-03",
+      "source_ids": [
+        "H19-S2",
+        "H19-S3"
+      ],
+      "kind": "historical_scope_caveat",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C19-04",
+      "source_ids": [
+        "M19"
+      ],
+      "kind": "modern_math",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C19-05",
+      "source_ids": [
+        "M19"
+      ],
+      "kind": "modern_math",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C19-06",
+      "source_ids": [
+        "M19"
+      ],
+      "kind": "modern_math",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    },
+    {
+      "claim_id": "C19-07",
+      "source_ids": [
+        "M19"
+      ],
+      "kind": "modern_math_caveat",
+      "verified": true,
+      "verification_scope": "historical_source_or_modern_math_only"
+    }
+  ],
+  "notes": [
+    "1870线性代换有限域背景与现代复数域任意矩阵定理分开",
+    "魏尔斯特拉斯与克罗内克多路线，不构造历史对话",
+    "同特征多项式不保证相似",
+    "未完成正式双审"
+  ]
+}

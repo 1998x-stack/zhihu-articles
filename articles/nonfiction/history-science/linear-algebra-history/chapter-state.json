@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "lane": "nonfiction",
-  "scope": "仅追踪第09—17章连续性；此前第01—08章请参照book.json和各章来源文件。",
-  "last_batch": "15-17",
+  "scope": "仅追踪第09—20章连续性；此前第01—08章请参照book.json和各章来源文件。",
+  "last_batch": "18-20",
   "chapters": [
     {
       "chapter_id": "chapter-09",
@@ -102,7 +102,40 @@
       "connects_from": "第16章讨论秩而不能识别特殊方向；回溯18世纪",
       "connects_to": "第18章柯西1829对称谱理论",
       "math_verified": true
+    },
+    {
+      "chapter_id": "chapter-18",
+      "title": "柯西1829：寻找不改变方向的向量",
+      "file": "draft/18.md",
+      "claims": "draft/18.claims.json",
+      "stage": "draft",
+      "historical_era": "1826问题表述、1829论文；回溯力学久期方程",
+      "connects_from": "第17章主轴与小振动例，追问实对称谱为什么有保障",
+      "connects_to": "第19章非对称矩阵缺少完整特征向量",
+      "math_verified": true
+    },
+    {
+      "chapter_id": "chapter-19",
+      "title": "若尔当1870：不能对角化怎么办",
+      "file": "draft/19.md",
+      "claims": "draft/19.claims.json",
+      "stage": "draft",
+      "historical_era": "1870线性代换与有限域背景，1868魏尔斯特拉斯前驱及1874争论",
+      "connects_from": "第18章反例B不可对角化",
+      "connects_to": "第20章有限维Jordan方法遇到函数空间",
+      "math_verified": true
+    },
+    {
+      "chapter_id": "chapter-20",
+      "title": "希尔伯特与施密特：无限维也能谈谱吗",
+      "file": "draft/20.md",
+      "claims": "draft/20.claims.json",
+      "stage": "draft",
+      "historical_era": "1903 Fredholm、1904 Hilbert、1907/1908 Schmidt",
+      "connects_from": "第19章有限维标准形的维数限制",
+      "connects_to": "第21章回溯19世纪末向量空间公理化；概念线非逐年顺排",
+      "math_verified": true
     }
   ],
-  "status_notice": "章节仅为含研究对照、独立数学自检的待审草稿；正式工作流双审与终稿未完成。"
+  "status_notice": "第01—20章为含逐章资料对照、数学自检的未终审草稿。历史原著并未完成逐页独立外审；正式双审、语言精修与终稿批准均未完成。"
 }
