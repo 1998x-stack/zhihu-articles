@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "id": "reinforcement-learning-history",
+  "title": "奖励之后：一部强化学习思想发展史",
+  "reading_notice": "第01—15章为未通过独立双审的研究性工作初稿；其余章节仍属策划占位，读者页面展示并不等于发表或完成史实核验。",
+  "description": "从试错心理学、动态规划与时序差分出发，串联价值学习、策略优化、深度强化学习、自我对弈及人类反馈与可验证奖励。",
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "序章｜2025年的奖杯：为什么两位研究者的工作改变了机器学习",
+      "part": "序章",
+      "file": "draft/00.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-01",
+      "title": "桑代克的迷箱：奖励为什么不是标准答案？",
+      "part": "第一部｜试错如何成为学习",
+      "file": "draft/01.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-02",
+      "title": "斯金纳的操作箱：行为如何被后果塑造",
+      "part": "第一部｜试错如何成为学习",
+      "file": "draft/02.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-03",
+      "title": "多臂老虎机：先探索还是先赚钱",
+      "part": "第一部｜试错如何成为学习",
+      "file": "draft/03.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-04",
+      "title": "塞缪尔的跳棋：机器能比程序员更会下吗",
+      "part": "第一部｜试错如何成为学习",
+      "file": "draft/04.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-05",
+      "title": "贝尔曼的逆向思考：眼前最优为何会输",
+      "part": "第二部｜给未来写一条方程",
+      "file": "draft/05.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-06",
+      "title": "马尔可夫决策：怎样用一个状态概括过去",
+      "part": "第二部｜给未来写一条方程",
+      "file": "draft/06.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-07",
+      "title": "知道规则也算不过来：维度灾难",
+      "part": "第二部｜给未来写一条方程",
+      "file": "draft/07.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-08",
+      "title": "Dyna：如果世界的地图也要边走边画",
+      "part": "第二部｜给未来写一条方程",
+      "file": "draft/08.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-09",
+      "title": "1983年的倒立摆：谁来评价还未结束的尝试",
+      "part": "第三部｜奖励迟到时，机器如何学习",
+      "file": "draft/09.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-10",
+      "title": "萨顿的时序差分：结果未到，预测先改变",
+      "part": "第三部｜奖励迟到时，机器如何学习",
+      "file": "draft/10.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-11",
+      "title": "沃特金斯的 Q-learning：不按正在用的策略，也能学最优吗",
+      "part": "第三部｜奖励迟到时，机器如何学习",
+      "file": "draft/11.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-12",
+      "title": "SARSA：为什么照着实际走过的路学习会不同",
+      "part": "第三部｜奖励迟到时，机器如何学习",
+      "file": "draft/12.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-13",
+      "title": "REINFORCE：不评估每一步，直接调整策略",
+      "part": "第四部｜从评估行动到学习策略",
+      "file": "draft/13.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-14",
+      "title": "演员与评论家：两种学习职责为什么需要配合",
+      "part": "第四部｜从评估行动到学习策略",
+      "file": "draft/14.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-15",
+      "title": "TD-Gammon：自我对弈真的能够长出棋艺吗",
+      "part": "第四部｜从评估行动到学习策略",
+      "file": "draft/15.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-16",
+      "title": "Options：机器为什么总要一步一步想",
+      "part": "第四部｜从评估行动到学习策略",
+      "file": "draft/16.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-17",
+      "title": "再给价值函数装上神经网络：推广经验的诱惑",
+      "part": "第五部｜表格装不下世界",
+      "file": "draft/17.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-18",
+      "title": "致命三角：三个合理方法为什么放在一起会出错",
+      "part": "第五部｜表格装不下世界",
+      "file": "draft/18.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-19",
+      "title": "经验回放：让昨天的失败再次成为教材",
+      "part": "第五部｜表格装不下世界",
+      "file": "draft/19.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-20",
+      "title": "成功不等于可靠：强化学习该怎样接受检验",
+      "part": "第五部｜表格装不下世界",
+      "file": "draft/20.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-21",
+      "title": "DQN：机器只看像素，怎么学会打街机",
+      "part": "第六部｜从街机到围棋",
+      "file": "draft/21.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-22",
+      "title": "AlphaGo：棋盘太大，学习为何需要搜索",
+      "part": "第六部｜从街机到围棋",
+      "file": "draft/22.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-23",
+      "title": "AlphaGo Zero：不再读人类棋谱，会失去什么",
+      "part": "第六部｜从街机到围棋",
+      "file": "draft/23.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-24",
+      "title": "AlphaZero：一种棋手如何学会三种棋",
+      "part": "第六部｜从街机到围棋",
+      "file": "draft/24.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-25",
+      "title": "PPO：策略更新为什么不能每次都迈大步",
+      "part": "第七部｜从游戏走进现实",
+      "file": "draft/25.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-26",
+      "title": "SAC：为什么让机器人保留一点随机性",
+      "part": "第七部｜从游戏走进现实",
+      "file": "draft/26.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-27",
+      "title": "MuZero：不知道规则，还能在脑中下棋吗",
+      "part": "第七部｜从游戏走进现实",
+      "file": "draft/27.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-28",
+      "title": "真实世界试错太贵：没有新经验还能学习吗",
+      "part": "第七部｜从游戏走进现实",
+      "file": "draft/28.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-29",
+      "title": "逆强化学习：看别人怎么做，能猜到他想要什么吗",
+      "part": "第八部｜奖励由谁定义",
+      "file": "draft/29.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-30",
+      "title": "人类反馈：如果好坏无法写成公式",
+      "part": "第八部｜奖励由谁定义",
+      "file": "draft/30.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-31",
+      "title": "DPO：不做常规强化学习，也能优化偏好吗",
+      "part": "第八部｜奖励由谁定义",
+      "file": "draft/31.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-32",
+      "title": "可验证奖励与推理：语言模型如何学会多想一步",
+      "part": "第八部｜奖励由谁定义",
+      "file": "draft/32.md",
+      "status": "outline"
+    },
+    {
+      "id": "epilogue",
+      "title": "尾声｜奖励之后：一台机器究竟在追求什么",
+      "part": "尾声",
+      "file": "draft/33.md",
+      "status": "outline"
+    }
+  ]
+}
