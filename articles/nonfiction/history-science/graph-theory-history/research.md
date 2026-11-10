@@ -470,3 +470,69 @@
 ### 本批放行与待核
 
 第16—18章允许在上述**限定来源/数学可复核证明**范围写初稿；每条正文可核主张记录于各章claims.json。尚待史料工作：Ramsey与Turán原作逐页英文/德文校对、Mantel最早原刊卷期核对、Erdős1947原证明与现代概率语言逐步对勘。**后续独立连续性审稿、结构审稿、语言精修和最终批准均未完成；review_status=PENDING。**
+
+
+---
+
+## 第19—21章专项研究与限定核证｜2026-11-10
+
+> **放行范围：仅为第19—21章新一批研究性初稿服务，绝不推导出全书已过独立双审或终稿许可。** 本批沿用原有图论史既定大纲，核查各章核心数学模型、定理条件、原始书目与年代区别。原始论文材料的检查包括公开全文与出版社题录，未逐字校勘所有外语原始版本。现代教材式证明和自制教学小图须明示为后世解释。
+
+### 新增文献与所能支撑的范围
+
+| ID | 书目与可复核入口 | 证据范围及限制 |
+|---|---|---|
+| S87 | E. N. Gilbert, “Random Graphs,” *Ann. Math. Statist.* 30(4) (1959), 1141—1144. https://doi.org/10.1214/aoms/1177706098 | 1959题录与独立边模型先驱；本次以出版书目及摘要为主，不假称逐页通读 |
+| S88 | P. Erdős and A. Rényi, “On Random Graphs I,” *Publ. Math. Debrecen* 6 (1959), 290—297. https://doi.org/10.5486/pmd.1959.6.3-4.12 | 1959固定边数模型与连通阈值题录及公开论文节选；勿与1960巨型分量论文合并 |
+| S89 | P. Erdős and A. Rényi, “On the Evolution of Random Graphs,” *Publ. Math. Inst. Hung. Acad. Sci.* 5 (1960), 17—61. https://www.cse.cuhk.edu.hk/~cslui/CMSC5734/erdos-1960-10.pdf | 原论文公开PDF：首页17—18页核实固定边数模型、演化顺序与“典型”概率趋1定义；其他临界尺度结合现代综述解释 |
+| S90 | *Notices of the AMS*, “Threshold Phenomena in Random Graphs”. https://doi.org/10.1090/noti2802 | G(n,p)模型、巨型分量 p≈1/n 的现代综述；渐近结论非有限图逐例断言 |
+| S91 | E. Szemerédi, “On Sets of Integers Containing No k Elements in Arithmetic Progression,” *Acta Arith.* 27 (1975), 199—245. https://doi.org/10.4064/aa-27-1-199-245 | 1975论文题录及稠密整数集合长等差数列问题；不可冒充1978一般图引理原刊 |
+| S92 | E. Szemerédi, “Regular Partitions of Graphs,” *Problèmes combinatoires et théorie des graphes*（Orsay 1976会议）, CNRS 260 (1978), 399—401. https://www.renyi.hu/~szemered/pub.html | 本人论文目录与书目交叉核对1978正式出版和1976会议场景；并非逐行翻译该会议论文 |
+| S93 | Terence Tao, “Szemeredi’s Regularity Lemma via Random Partitions” (2009). https://terrytao.wordpress.com/2009/04/26/szemeredis-regularity-lemma-via-random-partitions/ | 标准ε正则对定义、等分形式、至多εk²例外块对、均方密度/能量解释；后世表述 |
+| S94 | “Formalising Szemerédi’s Regularity Lemma and Roth’s Theorem on Arithmetic Progressions in Isabelle/HOL,” *Journal of Automated Reasoning*. https://link.springer.com/article/10.1007/s10817-022-09650-2 | 1975较弱二分图形式、后续一般图形式的研究史说明；形式化研究非历史原手稿 |
+| S95 | Abel Prize (2012), “Endre Szemerédi: Szemerédi’s Regularity Lemma.” https://abelprize.no/sites/default/files/2021-04/Abel%20prize%202012%20Endre%20Szemeredi%20Arne%20Sletsj%C3%B8e%20theorem%20eng.pdf | 阿贝尔奖官方解说，首页直接区分1975弱二分图形式和1978一般图形式；非1978证明本身 |
+| S96 | J. Nešetřil and H. Nešetřilová, “The Origins of Minimal Spanning Tree Algorithms—Borůvka and Jarník,” *Documenta Mathematica*, Extra Volume ISMP (2012), 127—141. https://ftp.gwdg.de/pub/EMIS/journals/DMJDMV/vol-ismp/vol-ismp-all.pdf | 1926博鲁夫卡两论文、1930亚尔尼克史学分析；本次检索全文并结合S100，未逐页校勘两篇捷克语原刊 |
+| S97 | J. B. Kruskal, “On the Shortest Spanning Subtree of a Graph and the Traveling Salesman Problem,” *Proc. AMS* 7 (1956), 48—50. https://doi.org/10.1090/S0002-9939-1956-0078686-7 | AMS出版社原刊题录（1956/页码/题名），算法采用现代等价表述；不冒称原文字句 |
+| S98 | R. C. Prim, “Shortest Connection Networks and Some Generalizations,” *Bell System Technical Journal* 36(6) (1957), 1389—1401. https://doi.org/10.1002/j.1538-7305.1957.tb01515.x | 出版社论文摘要与参考文献（明确列Borůvka 1926、Kruskal 1956），美国各州首府连接教学例子属于原作引言；避免夸大独家首创 |
+| S99 | Jeff Erickson, *Algorithms* (University of Illinois), MST chapter. https://jeffe.cs.illinois.edu/teaching/algorithms/ | 现代Kruskal/Prim/Borůvka及割性质、优先权说明；五城算例与交换证明由作者设计，不是史料 |
+| S100 | J. Nešetřil, “A Few Remarks on the History of MST-problem,” *Archivum Mathematicum* 33 (1997), 15—22. https://www.dml.cz/handle/10338.dmlcz/107593 | 历史补证，列Borůvka 1926两篇原始文献出处、技术与翻译线索；史学二手研究 |
+
+### 第19章｜随机图与相变的主张边界（GT19-01—GT19-10）
+
+| 主题 | 对应主张 | 来源 | 状态与写作约束 |
+|---|---|---|---|
+| 模型与历史 | GT19-01—03 | S84、S87—S89 | VERIFIED_SCOPED：Gilbert 独立边、Erdős–Rényi 固定边数及1959/1960区分，禁止笼统称所有模型为某一作者同年创建 |
+| 巨型分量 | GT19-04—07 | S89—S90 | MODERN_MATH_SCOPED：n→∞、p=c/n、c=1，相应临界分量规模与分支过程近似须保留 |
+| 连通阈值 | GT19-08 | S88—S90 | MODERN_MATH_SCOPED：巨型分量1/n与全图连通log n/n不是同一门槛 |
+| 外推边界 | GT19-09—10 | S87—S90 | METHODOLOGY_BOUNDARY：固定c、有限样本、真实网络、相关边等不直接满足普遍结论 |
+
+**自制算例：** 5点独立边期望=2（p=0.2）、10点的6点链、孤立点期望与分支过程推演，均为现代数学演绎，非历史记录。检验结论不得简化为「第n/2条边恰好让整张图连通」。
+
+### 第20章｜正则性引理的主张边界（GT20-01—GT20-10）
+
+| 主题 | 对应主张 | 来源 | 状态与写作约束 |
+|---|---|---|---|
+| 1975/1978先后 | GT20-01、05—06 | S91、S92、S94—S95 | VERIFIED_SCOPED：1975年等差数列定理的弱二分图工具；1976会议/1978一般图文献出版分开 |
+| ε正则定义 | GT20-02—04 | S93—S94 | MODERN_THEOREM：大子集密度误差≤ε、有界k、仅多数块对正则；不能写「所有块对」 |
+| 能量递增 | GT20-07—08 | S93—S94 | MODERN_EXPLANATION：加权密度平方为讲解版，严密证明需区别类内边与坏块比例 |
+| 复杂度与范围 | GT20-09—10 | S93—S95 | BOUNDARY：上界可能塔式巨大，不等于实用小规模压缩；稀疏图需另行限定 |
+
+**自制算例：** 八乘八分块密度1/2、局部1或0，ε=0.2反证；能量0.25→0.5为解释性计算。
+
+### 第21章｜最小生成树、交换论证和优先权（GT21-01—GT21-12）
+
+| 主题 | 对应主张 | 来源 | 状态与写作约束 |
+|---|---|---|---|
+| 最优性与割性质 | GT21-01—05 | S97—S99 | MODERN_PROOF：割上最轻边**存在**某棵MST包含，唯一最轻边才是所有MST必含；例子总成本17 |
+| Borůvka | GT21-06—07 | S96、S99—S100 | HISTORICAL_SECONDARY：1926、捷克语早期论文、电网背景；算法为现代复述 |
+| Jarník/Prim | GT21-08—09 | S96、S98—S100 | HISTORICAL_SCOPED：1930/1957/后续Dijkstra贡献，不把名称当首创证明 |
+| Kruskal/Prim原刊 | GT21-10—11 | S97—S98 | PRIMARY_BIBLIO_VERIFIED：1956与1957年份、页码、通信网络应用及Prim原作前人引用 |
+| 任务区分 | GT21-12 | S97—S99 | MODERN_MATH：MST≠点对最短路≠旅行商≠Steiner树，含负权时与任意连通子图选边需区分 |
+
+**自制例子：** A—E五城八条候选边、Kruskal/Prim共得17元；不是Prim论文中的华盛顿和48州首府例子。并列最小权重在博鲁夫卡同时选边时需固定一致规则，避免将循环误收纳。
+
+### 本批交接结论
+
+- 第19章转入 **DRAFT / GT19-01—10**；第20章转入 **DRAFT / GT20-01—10**；第21章转入 **DRAFT / GT21-01—12**。
+- 新增 **32 条**主张映射。只作为每章前置研究支撑与独立审校输入，不代表正式审稿PASS、终稿审批或外部发布。
+- 章末引文为真实可复核文献入口，但历史文本有未逐字校勘部分；新的审稿阶段应按争议与原文页码继续抽检。第22—37章仍是 TODO_VERIFY，不继承本批证据许可。
