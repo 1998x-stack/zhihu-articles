@@ -60,6 +60,15 @@ topic-development(brief) → fact-research(research) → nonfiction-architect(ou
 - `final`：edit 闸门和 `edited.md` 满足，语言编辑版本相同。
 - `publish`：final 闸门以及终审记录、`final.md`、终审批准状态同时满足。
 
+
+## GitHub Pages 作品目录的独立契约
+`book.json` 是**主编/仓库维护者管理的站点导航派生产物**，不属于章节写作或 `publication-package` 阶段的正文文件。写作 Agent 须提交章号、标题、分部、实际源路径、`outline/draft/final` 状态的交接信息，维护者据此同步清单。
+- 新系列 `README.md + book.json` 必须同时存在于 `catalog.json` 归档之下，`schema_version=1` 且 `id` 与目录名相等。
+- 章节 `file` 必须为本书目录下存在的安全 Markdown 路径；章 `id` 唯一、标题/分部非空。未列入清单的研究档案和 QA 不输出站点。
+- `draft` 仅指公开可阅读的工作初稿，不表示独立双审或终稿通过；绝不能用 `metadata.yaml` 状态推断 `final`。
+- 构建器自动发现系列，并在缺少 `book.json` 时明确失败。提交前执行 `python scripts/build_pages.py --check-catalog`；网站展示与 `workflow_gate.py --target publish` 是两条不同的门禁。
+具体维护方法见 `docs/pages-publishing.md`。
+
 ## 用户已有作品
 现存 `articles/` 作品及其状态保持不变。新模板提供 `workflow-state.json`；旧作品只有在准备正式写作/进入审稿闸门时才应迁移状态，不因添加验证器而自动宣布已验收。
 
