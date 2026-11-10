@@ -9,9 +9,9 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "第13—15章完整工作初稿及24条逐章claims已写，按研究范围核查出版史、机制和教学例题；独立事实/结构审稿仍PENDING",
-  "evidence_scope": "第01—15章分批核对中心史实、论文元数据、已见PDF首页及教学算例；第16—31章及序章00仍待核；13—15章全文实验与争议需独立审稿",
-  "outline_scope": "仅01—15章已有按已核来源约束的分章细纲；其余序章与16—31章仍为策划；独立双审尚无批准",
-  "draft_scope": "01—15共15篇非虚构工作初稿；序章00和16—31章共17篇仍为策划占位",
-  "last_completed_working_draft_chapter": 15
+  "stage_note": "第16—18章三篇非虚构工作初稿及24条逐章claims完成；在正式论文PDF与官方赛事范围内核对数量/表格/机制。全部01—18章独立双审仍PENDING，不进入编辑/终稿/发布",
+  "evidence_scope": "第01—18章分批有限核验；第16—18章仅DL77—DL81等原始论文及官方赛事数据，NeurIPS摘要/PDF口径需独立复核；19—31和序章尚未核",
+  "outline_scope": "第01—18章已有对应证据范围的章节细纲，第16—18章本次补核批准；其他章节仍策划占位",
+  "draft_scope": "01—18章共18篇非虚构工作初稿；序章00和19—31章共14篇仍是策划占位",
+  "last_completed_working_draft_chapter": 18
 }
