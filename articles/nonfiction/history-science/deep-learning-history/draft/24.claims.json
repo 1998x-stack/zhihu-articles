@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "24",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "limited chapter-specific primary publication metadata, conference paper excerpts, source summaries, and independently computed toy examples; no independent full-paper audit",
+  "claims": [
+    {
+      "claim_id": "C24-01",
+      "claim": "2020 Kaplan等模型数据算力与测试交叉熵的幂律测量",
+      "source_ids": [
+        "DL117"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "经验关系不保证所有能力无限改善",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C24-02",
+      "claim": "Kaplan固定预算下大模型短训练的结论具指定测量条件",
+      "source_ids": [
+        "DL117"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "TECHNICAL_QUALIFIED",
+      "limitations": "后续Chinchilla提出不同compute-optimal经验安排",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C24-03",
+      "claim": "2020 Brown等GPT3 175B自回归语言模型及NeurIPS发表",
+      "source_ids": [
+        "DL118",
+        "DL122"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "研究论文年份不是产品上线年份",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C24-04",
+      "claim": "GPT3 zero/one/few-shot上下文推理无梯度更新",
+      "source_ids": [
+        "DL118"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "few-shot ≠ 下游微调 ≠ 证明人类式学习",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C24-05",
+      "claim": "原始GPT3论文承认任务缺陷、评测数据污染及语言偏差风险",
+      "source_ids": [
+        "DL118"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不能外推到所有后续模型结论",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C24-06",
+      "claim": "2022 Hoffmann等Chinchilla70B与Gopher280B、token更充分",
+      "source_ids": [
+        "DL119",
+        "DL120",
+        "DL121"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "同训练算力和论文基准条件，不是恒定最佳规模",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C24-07",
+      "claim": "Chinchilla训练70B与约1.4T tokens比值20与预算乘积演示",
+      "source_ids": [
+        "DL119",
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "20是该模型配置比值，非普适最优token/param",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C24-08",
+      "claim": "作者自造幂律0.1指数与2^-0.1≈0.933",
+      "source_ids": [
+        "AUTHOR_DERIVATION",
+        "DL117"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "非Kaplan拟合指数，不能把loss改善当准确率或智能增长",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

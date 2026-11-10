@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "22",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "limited chapter-specific primary publication metadata, conference paper excerpts, source summaries, and independently computed toy examples; no independent full-paper audit",
+  "claims": [
+    {
+      "claim_id": "C22-01",
+      "claim": "2017 NeurIPS Transformer八作者与2017-06预印本",
+      "source_ids": [
+        "DL107",
+        "DL109"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "多作者不同贡献，2014/15已有attention",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C22-02",
+      "claim": "原始正式PDF的英德28.4 BLEU与其他版本摘要差异",
+      "source_ids": [
+        "DL107",
+        "DL108",
+        "DL109"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "VERSION_DISCREPANCY",
+      "limitations": "2017官网网页27.5英德、41.1英法、PDF28.4/41.0、arxiv部分摘要41.8，禁混用",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C22-03",
+      "claim": "Transformer原版6层编码+6层解码，包含三类注意力与位置",
+      "source_ids": [
+        "DL107"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是当时所有Transformer都decoder-only",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C22-04",
+      "claim": "scaled dot product与Q K V多头并行且保留残差层归一化",
+      "source_ids": [
+        "DL107"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "多头并非分别必等于人类可命名语义",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C22-05",
+      "claim": "训练可并行处理序列位置但自回归推断仍逐token",
+      "source_ids": [
+        "DL107"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "TECHNICAL_QUALIFIED",
+      "limitations": "不能说整句输出一步完成或长序列成本为常数",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C22-06",
+      "claim": "全局自注意力序列长度成对交互O(n²)及顺序编码",
+      "source_ids": [
+        "DL107"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "计算项与实际硬件速度不同，位置不被省略",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C22-07",
+      "claim": "玩具QKV点积经缩放后权重3/4和1/4，输出1",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "人为构造的单头向量/标量值示例",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C22-08",
+      "claim": "Transformer不是attention最初出现，序列到序列前史",
+      "source_ids": [
+        "DL93",
+        "DL95",
+        "DL107"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "CHRONOLOGY",
+      "limitations": "Bahdanau与Luong早于Transformer",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
