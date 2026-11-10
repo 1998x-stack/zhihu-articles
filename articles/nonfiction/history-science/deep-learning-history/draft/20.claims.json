@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "20",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-only primary-source metadata/abstract/mechanism review, author derivations; no independent scientific review",
+  "claims": [
+    {
+      "claim_id": "C20-01",
+      "claim": "Bahdanau/Cho/Bengio 2014-09预印本、2015 ICLR发表",
+      "source_ids": [
+        "DL92"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "预印本发布与正式论文年份必须区分",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-02",
+      "claim": "固定句向量可能造成长句翻译困难是原论文研究假设",
+      "source_ids": [
+        "DL92"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不当作证明所有固定向量都无效的定理",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-03",
+      "claim": "软对齐对来源位置打分、softmax归一化、加权合成每步上下文",
+      "source_ids": [
+        "DL92"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是固定的人类词语硬对齐标签",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-04",
+      "claim": "双向编码器保留各来源位置表征、逐步解码利用不同context",
+      "source_ids": [
+        "DL92"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "Bahdanau2014网络不等于2017Transformer架构",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-05",
+      "claim": "教学例得分0 ln2 ln3 → 权重1/6 2/6 3/6及上下文7/3",
+      "source_ids": [
+        "AUTHOR_DERIVATION",
+        "DL92"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "不是2014实验中的真实注意力热图",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-06",
+      "claim": "相同来源句在不同目标生成步允许重新计算位置权重",
+      "source_ids": [
+        "DL92"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "权重不能自动说明机器理解或翻译正确",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-07",
+      "claim": "2014/15软对齐早于2017Transformer但不是相同网络架构",
+      "source_ids": [
+        "DL92",
+        "R14"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "注意力的思想不能单独归为Transformer首创",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C20-08",
+      "claim": "论文翻译性能与定性对齐只在给定英法任务中解释",
+      "source_ids": [
+        "DL92"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "不承诺跨语种和所有长句的普遍领先",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
