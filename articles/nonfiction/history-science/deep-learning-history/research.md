@@ -336,3 +336,52 @@
 - 2012 NIPS网页摘要与正式PDF不同，所有具体数字须标注本批选择的版本；15.3%七CNN集成与单CNN验证18.2%和2010单CNN test17.0%均不能混为一谈。
 - 2015 ILSVRC竞赛与2016 CVPR论文时间坐标，3.57%为集成；ResNet 2016 ECCV的pre-activation改善非2015原始结果。
 - 残差连接作用不能写成对梯度消失绝对免疫；其论文直接的训练退化证据比媒体口号重要。Highway网络/批归一化/VGG/Inception均为当时重要相邻研究路线。
+
+## 十一、第七批19—21章：seq2seq、注意力、GAN—扩散生成有限核证（2026-11-10）
+
+> **章节顺序以本仓库原有策划为准**：19是词向量到变长编码器—解码器；20是2014预印本/2015发表的神经机器翻译注意力；**21是GAN至潜空间扩散的图像生成发展**；Transformer是第22章，不提前擅改标题。现阶段仅核主张所需原论文元数据、公开摘要、机制与现代数学教学例题；不是逐页全文独立科学史审稿。
+
+| ID | 证据性质 | 论文与年份 | 支持范围/警戒 |
+| --- | --- | --- | --- |
+| DL90 | 原始会议论文/ACL Anthology | [Cho, van Merriënboer, Gulcehre, Bahdanau, Bougares, Schwenk & Bengio (EMNLP 2014), Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://aclanthology.org/D14-1179/) | 2014-10七作者：变长源短语→固定长度编码→变长目标短语，条件概率用作传统phrase-based SMT重排/特征，不能冒称该篇整体替换全部SMT系统 |
+| DL91 | 原始会议论文/NeurIPS | [Sutskever, Vinyals & Le (NIPS 2014), Sequence to Sequence Learning with Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2014/hash/5a18e133cbf9f257297f410bb7eca942-Abstract.html) | 2014 WMT14英法任务LSTM BLEU 34.8，与论文所述phrase-based SMT 33.3同条件；对1000候选重排后得36.5是另一个任务配置；论文观察反转源词顺序利于优化，不能写成意义翻译的必备规则 |
+| DL92 | 原始预印本/日期 | [Sutskever, Vinyals & Le, Sequence to Sequence Learning, arXiv:1409.3215](https://arxiv.org/abs/1409.3215) | 2014-09-10预印本日期，别把2014论文写成2015发明 |
+| DL93 | 原始预印本/期刊会议年份对照 | [Bahdanau, Cho & Bengio, Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) | 2014-09-01初稿，后来ICLR2015；提出固定长向量可能是瓶颈、解码时依据输出状态为源位置生成软对齐注意力，不能说2014已经有Transformer |
+| DL94 | 正式会议书目/出版信息 | [Bahdanau, Cho & Bengio, Neural Machine Translation by Jointly Learning to Align and Translate, ICLR2015](https://apice.unibo.it/bin/view/Publication/AttentionmechanismIclr2015?language=en) | 2015会议发表与2014预印本区别；该研究为神经机器翻译重要attention路线，但不是注意力作为一般心理或计算概念首创 |
+| DL95 | ACL正式论文 | [Luong, Pham & Manning (EMNLP 2015), Effective Approaches to Attention-based Neural Machine Translation](https://aclanthology.org/D15-1166/) | 在2014/15软对齐之后研究global/local attention；论文提供特定WMT英德提升，不能将不同任务BLEU直接比较 |
+| DL96 | 已核2017原始论文门户/下一批边界 | [Vaswani et al., Attention Is All You Need, NeurIPS2017](https://research.google/pubs/attention-is-all-you-need/) | 2017 Transformer以注意力为主的非循环架构，是**第22章**，本批第20章只作年代对照与下一部悬念，不提前写成已完成第21章 |
+| DL97 | 原始GAN论文/NeurIPS | [Goodfellow, Pouget-Abadie, Mirza, Xu, Warde-Farley, Ozair, Courville & Bengio, Generative Adversarial Nets (2014)](https://proceedings.neurips.cc/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html) | 原始八作者、生成器G与判别器D的对抗式极小极大训练；理想分布匹配时D(x)=0.5是非参数理论极限，不是实际训练保证 |
+| DL98 | 原始预印本（VAE与生成另一条线） | [Kingma & Welling, Auto-Encoding Variational Bayes, first arXiv submission 2013-12-20, ICLR2014](https://arxiv.org/abs/1312.6114) | 随机潜变量、变分下界及重参数化；不能把VAE说成GAN的一个判别器，或2014之后GAN的直接后代 |
+| DL99 | ICML2014另一组生成建模先驱 | [Rezende, Mohamed & Wierstra, Stochastic Backpropagation and Approximate Inference in Deep Generative Models](https://proceedings.mlr.press/v32/rezende14.html) | 随机潜变量与近似后验的独立研究路线；不能把所有随机生成都归为GAN |
+| DL100 | ICML2015原始扩散模型论文 | [Sohl-Dickstein, Weiss, Maheswaranathan & Ganguli, Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://proceedings.mlr.press/v37/sohl-dickstein15.html) | 前向渐进破坏数据结构及学习逆向恢复；最早现代扩散重要路线并非2020才突然出现 |
+| DL101 | NeurIPS2019得分模型相邻路线 | [Song & Ermon, Generative Modeling by Estimating Gradients of the Data Distribution](https://proceedings.neurips.cc/paper/2019/hash/3001ef257407d5a371a96dcd947c7d93-Abstract.html) | 以多噪声尺度估计数据分布score、模拟Langevin生成，历史上与扩散在后续工作有交汇，但不能误当GAN鉴别器 |
+| DL102 | NeurIPS2020原始DDPM论文 | [Ho, Jain & Abbeel, Denoising Diffusion Probabilistic Models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html) | 按噪声过程训练去噪概率模型，高质量图像采样；论文无条件CIFAR10 FID3.17须有基准条件，不必在正文作跨年代排行榜 |
+| DL103 | CVPR2022原始LDM论文 | [Rombach, Blattmann, Lorenz, Esser & Ommer, High-Resolution Image Synthesis With Latent Diffusion Models](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html) | 先借自编码器压缩到潜空间再作扩散/去噪，降低高分辨率像素域成本，支持cross-attention文本等条件；潜空间有损压缩/速度仍非零成本 |
+| DL104 | 研究团队正式页面及术语口径 | [CompVis / Rombach et al., High-Resolution Image Synthesis with Latent Diffusion Models](https://ommer-lab.com/research/latent-diffusion-models/) | 论文团队对应的LDM/Stable Diffusion相关命名；不可拿品牌推出整条扩散研究只有一个公司或某个单人首创 |
+| DL105 | 2013词向量原始先驱（前章跨引） | [Mikolov, Chen, Corrado & Dean, Efficient Estimation of Word Representations in Vector Space (2013)](https://arxiv.org/abs/1301.3781) | 2013连续词向量与第13章2000/2003神经概率语言模型先驱有关但不是同一方法；向seq2seq延展需另外学习语序 |
+| DL106 | 人工指标不等于意思完整性的限制 | [Papineni, Roukos, Ward & Zhu (ACL 2002), BLEU: a Method for Automatic Evaluation of Machine Translation](https://aclanthology.org/P02-1040/) | BLEU基于对参考译文的n-gram匹配与长度惩罚，是语料级指标；34.8与33.3为分数点差，不是准确率百分比 |
+
+### 第19章边界与现代教学推导
+
+**词向量≠整个句子翻译**。2013的word2vec为分布式词向量研究中的后来节点；2014 Cho等EMNLP七作者编码器—解码器把变长序列压成固定维度向量，实验中作为原有SMT短语对概率特征；2014 NIPS Sutskever/Vinyals/Le三作者深LSTM给出端到端序列映射与WMT14英法34.8 BLEU，所述短语统计系统33.3，重排1000候选后的36.5是**另一个设置**。2014文章对长句的正面实验和第20章作者提出的潜在瓶颈并不构成无条件矛盾：不同模型、上下文、数据与优化条件。
+
+教学例子：五个源token [A,B,C,D,EOS]，两个输出token [X,EOS]，以P(X|c)=0.8与P(EOS|X,c)=0.5人为指定，联合条件概率0.8×0.5=0.4；这演示变长条件生成的链式分解，**不是论文真实的WMT译文或结果**。词向量距离是否相近不能证明“真实理解”。BLEU是语料级近似匹配评估，不等于句子正确率。
+
+### 第20章边界与现代数学例子
+
+Bahdanau/Cho/Bengio论文**2014-09-01预印本→ICLR2015**；提出解码每个目标token时根据当前解码状态与源端隐状态产生“软对齐”权重，而不是整句都使用相同单一信息瓶颈。2015 Luong/Pham/Manning比较global与local不同注意力设计；**2017 Transformer本身尚未写到**，更不是attention在2014首次进入一切AI领域。注意力热度不能说明热力图是完备因果解释。
+
+教学例子：解码某词时对源3个位置打分[ln2,ln1,ln1]，softmax概率[0.5,0.25,0.25]；源3个标量特征[2,0,-2]，加权上下文0.5×2+0.25×0+0.25×(-2)=0.5。下一输出步权重可改变。源词位置的“注意”是可微权重，不自动证明语义正确对齐。
+
+### 第21章边界与现代数学例子
+
+2014 Goodfellow等八作者GAN**对抗分布学习**，理想匹配时D(x)=1/2不意味着现实模型训练永不崩塌。VAE 2013年末预印本、2014 ICLR和Rezende等ICML是独立潜变量近似推断路线，不能写作GAN的后代。扩散从2015 Sohl-Dickstein等非平衡热力学出发，2019 Song/Ermon score路线，2020 Ho/Jain/Abbeel DDPM，2022 Rombach等潜空间扩散/文本条件，属于若干研究路线交汇，不是“2014 GAN逐代替换成diffusion”。
+
+玩具GAN：若D(real)=0.8、D(G(z))=0.2，log value约ln0.8+ln(1-0.2)=2ln0.8≈-0.44629；若理想D均0.5，则2ln0.5≈-1.38629，仅说明固定两项的损失值，**不是训练收敛证据**。玩具扩散：x0=2，加一轮noise ε=-1，系数sqrt(alpha)=sqrt(0.75)、sqrt(1-alpha)=0.5，则x1≈1.23205；训练去噪可以估计原信号/噪声，但不能保证每一步真实图像唯一恢复。
+
+### 独立审稿风险
+
+- 2014两个seq2seq方向一个是phrase rescoring、一个是NIPS的end-to-end实验，术语相同但成果不能合并；34.8/33.3/36.5 BLEU均有任务和系统条件。
+- 2014-09先公开Bahdanau注意力，2015 ICLR正式发表；没有2017 Transformer自注意力的完整计算架构。2015 Luong attention路线说明非独家单一发明。
+- GAN2014与VAE2014、diffusion2015、score2019、DDPM2020、LDM2022方法目标、采样与评估差异不能化为“同一个生成模型”；本文并非跨所有生成质量基准定胜负。
+- 用户要求非虚构知乎盐选风格，不准虚构研究者实验室对话、心理、图像截图或未提供的具体算法运行结果。所有演算标注现代作者例题。第01—18章独立审核继续PENDING。
