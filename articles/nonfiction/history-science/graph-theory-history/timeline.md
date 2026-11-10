@@ -25,9 +25,12 @@
 | 1957 | Berge增广路径判据、Prim最小连接网络算法论文 | 21、24 |
 | 1959—1960 | 随机图模型与阈值研究 | 19 |
 | 1965 | Edmonds《Paths, Trees, and Flowers》：一般图最大基数匹配与奇圈收缩 | 24 |
+| 1967 | Milgram《The Small-World Problem》提出社会熟人链问题与小世界实验语境 | 33 |
+| 1969 | Travers—Milgram《Sociometry》熟人链研究：296起始、64完成、平均5.2名中间人仅限完成链 | 33 |
 | 1971—1972 | Cook1971重言式/NP完全性研究与Karp1972组合问题归约，论证版本不可混写 | 25 |
 | 1971报告／1972收稿／1973出版 | Fiedler《Algebraic Connectivity of Graphs》，第二小特征值的代数连通度 | 27 |
 | 1972 | Edmonds—Karp增广路选择与最大流效率改进 | 23 |
+| 1973 | Granovetter《The Strength of Weak Ties》讨论弱关系连结群体 | 33 |
 | 1974 | Johnson近似算法最坏质量保证的系统研究 | 26 |
 | 1975—1978 | 塞迈雷迪正则性思想与出版 | 20 |
 | 1976 | Christofides CMU技术报告提出度量对称旅行商问题的3/2近似保证 | 26 |
@@ -40,13 +43,23 @@
 | 1996 | Bodlaender固定树宽界k的线性时间树分解算法论文 | 30 |
 | 1997 | 罗伯逊等633配置的四色计算机辅助证明正式发表 | 10 |
 | 1998—1999 | PageRank、小世界与优先连接模型 | 32—34 |
+| 1998-01-29 | Page/Brin/Motwani/Winograd四人署名PageRank原始手稿 | 32 |
+| 1998 | Brin/Page Google原型期刊论文；Watts–Strogatz《Nature》小世界模型 | 32—33 |
+| 2000 | Kleinberg《Navigation in a Small World》区分短链存在与局部寻找 | 33 |
 | 2002—2006 | 社群检测、稠密图极限相关工作 | 31、35 |
 | 2004—2005 | 贡蒂耶完成四色定理的Coq形式化核验 | 10 |
 | 2004 | 《Graph Minors XX. Wagner’s Conjecture》完成有限图小式良拟序定理证明 | 29 |
+| 2004报告／2006论文 | Lovász—Szegedy《Limits of Dense Graph Sequences》，稠密Graphon极限 | 31 |
 | 2005—2018 | 从早期GNN到图卷积、注意力与采样 | 36 |
+| 2008 | Borgs等稠密图列同态频率与cut度量收敛 | 31 |
 | 2010 | 《Graph Minors XXIII》继续系列研究，不应写2004为系列终止 | 29 |
+| 2012 | Lovász《Large Networks and Graph Limits》AMS专著 | 31 |
 
 ## 必须保留的史学边界
+- Graphon稠密图列：2004研究报告、2006期刊、2008收敛度量、2012专著各有不同节点；不能把对称无向极限用于一般稀疏有向网页图。
+- PageRank原稿1998-01-29为Page/Brin/Motwani/Winograd四人署名；Brin/Page1998搜索引擎原型论文、后续1999书目版本是不同载体。
+- Milgram1967研究问题与Travers—Milgram1969实验分开；296起始、64完成、5.2中间人仅限完成链，非全球任意两人六步定理。
+- Granovetter1973弱关系、Watts–Strogatz1998小世界模型、Kleinberg2000局部导航分别独立，短路和高聚类不必导致无标度幂律。
 - Whitney1930报告、1931PNAS简报与1932两篇不同论文需分开；现代唯一球面嵌入定理不是唯一坐标画法。
 - Graph Minors I 1983、II 1986、XX 2004、XXIII 2010属于不同里程碑；2004完成Wagner猜想，但系列未止。
 - 1986树宽原刊直接承认部分理论多项式算法非常不实用；1990 Courcelle与1996 Bodlaender结论各有固定公式/宽度前提。

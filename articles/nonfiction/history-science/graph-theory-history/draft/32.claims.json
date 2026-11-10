@@ -1,11 +1,104 @@
 {
   "chapter": "32",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S10"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Page/Brin/Motwani/Winograd1998-01-29四人原稿、Brin/Page1998两人期刊Google原型、Langville/Meyer2004 PageRank数学后世综述；三节点数例为作者现代构造，并非Google实测。",
+  "claims": [
+    {
+      "claim_id": "GT32-01",
+      "claim": "PageRank区别于简单关键词排序/入度计票，使用网页链接的整体权重",
+      "source_ids": [
+        "S143",
+        "S144"
+      ],
+      "status": "PRIMARY_MODEL"
+    },
+    {
+      "claim_id": "GT32-02",
+      "claim": "链接A→B为有向网页连接；入链来源权重与出度分配影响PageRank",
+      "source_ids": [
+        "S143",
+        "S145"
+      ],
+      "status": "ALGORITHM_MECHANISM"
+    },
+    {
+      "claim_id": "GT32-03",
+      "claim": "有向随机游走按出链概率移动、长期访问概率作为重要度模型",
+      "source_ids": [
+        "S143",
+        "S145"
+      ],
+      "status": "RANDOM_SURFER"
+    },
+    {
+      "claim_id": "GT32-04",
+      "claim": "悬挂节点须补概率行，随机传送防止吸收类或周期陷阱",
+      "source_ids": [
+        "S143",
+        "S145"
+      ],
+      "status": "MODERN_BOUNDARY"
+    },
+    {
+      "claim_id": "GT32-05",
+      "claim": "标准行随机P列向量p满足p=alpha P^T p+(1-alpha)v，0<alpha<1",
+      "source_ids": [
+        "S145"
+      ],
+      "status": "MODERN_FORMULA"
+    },
+    {
+      "claim_id": "GT32-06",
+      "claim": "严格正v和alpha在0,1之间可使唯一正平稳分布，0.85为示例非数学必需",
+      "source_ids": [
+        "S143",
+        "S145"
+      ],
+      "status": "UNIQUE_STATIONARY_SCOPE"
+    },
+    {
+      "claim_id": "GT32-07",
+      "claim": "A→B B→C C→B三网页alpha0.8均匀v得到p=(1/15,13/27,61/135)",
+      "source_ids": [
+        "S145"
+      ],
+      "status": "AUTHOR_EXAMPLE_VERIFIED"
+    },
+    {
+      "claim_id": "GT32-08",
+      "claim": "PageRank概率迭代在1范数有alpha收缩保证，与Dijkstra标号算法不同",
+      "source_ids": [
+        "S145"
+      ],
+      "status": "MODERN_CONTRACTION_PROOF"
+    },
+    {
+      "claim_id": "GT32-09",
+      "claim": "Brin与Page1998 Computer Networks30:107-117 Google搜索系统原型论文书目",
+      "source_ids": [
+        "S144"
+      ],
+      "status": "PRIMARY_BIBLIO"
+    },
+    {
+      "claim_id": "GT32-10",
+      "claim": "PageRank手稿1998-01-29由Page Brin Motwani Winograd四人署名，与1998双人原型论文及1999书目不同",
+      "source_ids": [
+        "S143",
+        "S144"
+      ],
+      "status": "SOURCE_CHRONOLOGY"
+    },
+    {
+      "claim_id": "GT32-11",
+      "claim": "PageRank仅图结构随机游走重要度，不是网页真实性证明或2026商业搜索全部排序因素",
+      "source_ids": [
+        "S143",
+        "S145"
+      ],
+      "status": "PRACTICAL_LIMIT"
+    }
+  ]
 }

@@ -704,4 +704,57 @@
 
 ### 批次研究结论
 
-**仅第28—30章**满足可写成研究性初稿的限定资料支撑条件。正文每章配套 claim_id→source_id 文件。第31—37章保持 TODO_VERIFY，review_status 保持PENDING，final_approved=false。真实史实、现代定理、作者构造例图分别标明，不假造数学家对白与现场。
+**历史批次结论（第28—30章交付时）**：当时新增的第28—30章满足限定资料支持的研究性初稿写作条件；当时第31—37章尚为 TODO_VERIFY。随后第31—33章专项前置研究已另行增补（见下节）；**当前仅第34—37章仍是规划占位和 TODO_VERIFY**。正文每章配套 claim_id→source_id 文件；review_status 保持 PENDING、final_approved=false。真实史实、现代定理、作者构造例图分别标明，不假造数学家对白与现场。
+
+
+---
+
+## 第31—33章专项前置史料与模型核证｜2026-11-10
+
+> **阶段限定：** 以下资料只支持新增第31—33章的研究性工作初稿写作。类型为 nonfiction / genre-history-science，依仓库 fact-research → nonfiction-architect → nonfiction-writer 文件所有权执行。参考书目通过出版社、原始报告及大学存档核对了出版节点与核心定义；讲解中的矩阵算例、双块Graphon及十二节点环格点是当代作者自制数学例子。**尚未完成独立审稿、全页校勘、最终封版。** 第34—37章仍TODO_VERIFY。
+
+### 新增来源 S139—S150
+
+| ID | 可复核来源与网址 | 准许支持的历史/数学范围与限制 |
+|---|---|---|
+| S139 | L. Lovász / B. Szegedy, *Limits of Dense Graph Sequences*, Microsoft Research Report MSR-TR-2004-79 (August 2004). https://www.microsoft.com/en-us/research/publication/limits-of-dense-graph-sequences/ | 2004研究报告原始时间节点：所有固定简单图F的归一化同态密度收敛，极限可由对称可测W:[0,1]²→[0,1]描述。不能把研究报告日期当正式期刊出版 |
+| S140 | Lovász / Szegedy, “Limits of Dense Graph Sequences,” *J. Combinatorial Theory B* 96(6) (2006), 933—957. https://doi.org/10.1016/j.jctb.2006.05.002 | 2006原刊与极限存在、同态密度定义及稠密条件；原文直接说明一般稀疏简单图在此归一化下非空F密度会归零。不得宣称有限图最终成为一张普通图 |
+| S141 | C. Borgs, J. T. Chayes, L. Lovász, V. T. Sós, K. Vesztergombi, “Convergent Sequences of Dense Graphs I: Subgraph Frequencies, Metric Properties and Testing,” *Advances in Mathematics* 219(6) (2008), 1801—1851. https://doi.org/10.1016/j.aim.2008.07.008 | 同态子图频率收敛与适当cut距离收敛之间的对应；不同顶点大小比较及图表示的标签重排等价。原稿与发表年份分开 |
+| S142 | László Lovász, *Large Networks and Graph Limits*, AMS Colloquium Publications 60 (2012). https://doi.org/10.1090/coll/060 | 2012专著系统阐述graphons、稠密图极限、正则性与可检验性关系；不能用Graphon标准理论自动覆盖稀疏/有向/属性图 |
+| S143 | L. Page, S. Brin, R. Motwani, T. Winograd, *The PageRank Citation Ranking: Bringing Order to the Web*, manuscript dated January 29, 1998. https://storm.cis.fordham.edu/~gweiss/selected-papers/classic-pagerank-paper.pdf | 原始首页确有日期1998-01-29，四位作者、链接排名与理想随机冲浪者；与后世斯坦福1999报告目录记录区别。PageRank是结构重要度模型，并非网页真伪、伦理价值或今天搜索排序的全部因素 |
+| S144 | Sergey Brin / Lawrence Page, “The Anatomy of a Large-Scale Hypertextual Web Search Engine,” *Computer Networks and ISDN Systems* 30(1—7) (1998), 107—117. https://research.google/pubs/the-anatomy-of-a-large-scale-hypertextual-web-search-engine/ | 1998正式期刊论文讨论早期Google原型及link-based ranking，网站首页明确当年索引/数据量为历史观测，不能以1998原型指标指代2026现行Google |
+| S145 | Amy N. Langville / Carl D. Meyer, “Deeper Inside PageRank,” *Internet Mathematics* 1(3) (2004), 335—380. https://doi.org/10.1080/15427951.2004.10129091 | 现代规范化概率解释、悬挂节点处理、阻尼/传送与唯一平稳分布、迭代收敛及敏感性等；注意期刊2004卷期与网页2011线上发布记录的区别 |
+| S146 | Stanley Milgram, “The Small-World Problem,” *Psychology Today* 1(1) (May 1967), 60/61—67，大学历史重刊 https://smg.media.mit.edu/library/milgram.smallworld.pdf | 1967短文提出 acquaintance-chain 问题及实验探索；不同重刊/扫描起页显示60或61，正式复审查具体版次；不能从本文断言全球任意两人恰好相隔6步 |
+| S147 | Jeffrey Travers / Stanley Milgram, “An Experimental Study of the Small World Problem,” *Sociometry* 32(4) (December 1969), 425—443. https://doi.org/10.2307/2786545；原刊存档 https://snap.stanford.edu/class/cs224w-2010/readings/travers69smallworld.pdf | 原始论文摘要N=296起始样本、**64条完成链**、完成链的**平均中间人5.2**；样本选择与未完成链严重影响泛化。不要将5.2中间人直接写成任意两人的最短路径平均值 |
+| S148 | Mark S. Granovetter, “The Strength of Weak Ties,” *American Journal of Sociology* 78(6) (1973), 1360—1380. https://doi.org/10.1086/225469 | 弱关系可以连结局部群体、信息传播及局部桥梁的社会学论证；不把每个现实弱关系都断言为拓扑桥，也不说他首创WS1998随机重连模型 |
+| S149 | Duncan J. Watts / Steven H. Strogatz, “Collective Dynamics of ‘Small-World’ Networks,” *Nature* 393 (1998), 440—442. https://doi.org/10.1038/30918 | 1998-06-04正式出版，规则环格点以概率p重连、观察特征路径长度L与聚类系数C；介于规则与随机的窗口可同时有大聚类、短平均路径。不是“所有真实网络均由WS模型生成” |
+| S150 | Jon Kleinberg, “Navigation in a Small World,” *Nature* 406 (2000), 845. https://doi.org/10.1038/35022643 | 独立区分两命题：短路径在网络中**存在**，个体凭**局部知识**是否能够有效发现；不是Watts–Strogatz1998的共同署名成果 |
+
+### 第31章｜稠密图极限：稀疏 vs 稠密、边密度 vs 三角密度
+
+- 正确定义 \(t(F,G)=\operatorname{hom}(F,G)/|V(G)|^{|V(F)|}\)，用有序顶点映射（可把不同F顶点映为同一G顶点，条件是边映为边）归一化；图列对**每个固定简单F**密度收敛才称以此意义收敛。
+- 对对称可测graphon \(W:[0,1]^2\to[0,1]\)， \(t(F,W)=\int_{[0,1]^k}\prod_{ij\in E(F)}W(x_i,x_j)dx_1\cdots dx_k\)。图节点数增长，极限不是几何坐标的点对点极限，而是所有有限结构频率的极限。
+- **自制可核算双模型：** \(W_c(x,y)=1/2\) 与 \(W_b(x,y)=1\) 当x,y分属[0,1/2)和[1/2,1]否则0。两者边密度均1/2，而三角密度分别为(1/2)³=1/8与0；边密度相同不等于极限相同。\(W_b\) 对应平衡完全二分图列。
+- 图顶点的置换改变矩阵画法，不改变有限图频率；cut metric要模去适当保测重标号，**graphon并非绝对唯一坐标函数**。
+- **历史：** 2004 MSR报告→2006 JCTB发表→2008 *Adv. Math.* 比较度量→2012 AMS专著系统整理，非称2006后才首次开始研究。
+- **重要限制：** 边数O(n)的稀疏图列在该 \(n^{|V(F)|}\) 同态归一化下可能退化为全0，需不同尺度或另一理论；PageRank有向网页网络与稠密无向Graphon不是直接同一模型。
+
+### 第32章｜PageRank的有向概率模型
+
+- 将网页看作有向图：\((i\to j)\) 表示网页i指向j，不等于网页j赞同网页i。出度k的网页向每条链接分配约1/k的随机游走概率。
+- 设P为**行随机**转移矩阵、p为**列概率向量**；对所有节点提供强制悬挂节点补行规则后，标准现代PageRank为 \(p=\alpha P^Tp+(1-\alpha)v\)，其中 \(0<\alpha<1\)、\(v>0\)、\(\sum v_i=1\)。有传送项保障唯一正平稳分布与标准迭代收敛，不能直接从原始无阻尼链接图推断。
+- 自制三页网络：A→B、B→C、C→B，无悬挂，\(\alpha=0.8\)，\(v=(1/3,1/3,1/3)\)。则 \(p_A=1/15≈0.0667\)，\(p_B=13/27≈0.4815\)，\(p_C=61/135≈0.45185\)。**B与C均有入链1条**（B还收到A链接，应是B两条！准确入链计数：B来自A与C共2，C来自B共1），对照入链分流机制及总量守恒。计算检验应使用P行向量与对应列迭代，保持保真。
+- 在原手稿1998-01-29、1998已发表Brin/Page Google原型论文与网页上常见1999技术报告书目之间**明确分开**。原文用随机冲浪者比喻，不能说现代搜索排序等于唯一PageRank模型。
+- 弱点：垃圾链接、操纵、孤岛、断链及悬挂页处理、时间动态、内容相关性；排名**不是可信度证明**。
+
+### 第33章｜六度分隔、聚类和可导航性
+
+- **1967 Milgram**提出实验问题；**1969 Travers–Milgram**论文摘要：296个参与者/起点（依原文表述）；只有64条链完成，完成链平均**5.2位中间人**，不是对所有节点计算的最短路径边数，也非世界公理。
+- 定义最短路径长度\(d(u,v)\)，平均\(L\)仅在给定可达节点对口径下有意义；局部聚类\(C_v=\#\{\text{邻居之间已有边}\}/\binom{k_v}{2}\)，k<2时取0或排除应明示。路径长度与聚类是不同维度，不是互相否定。
+- 自制二团体桥接图：两个完整的4点社群以一条桥相连，桥端点的局部聚类低于内部端点，跨社区最短路要过桥；添加跨群shortcut可显著降低距离但可能只增加一条边，不保证每个网络模型或任何指标单调。
+- **1973 Granovetter**弱关系连结群体的社会学机制；**1998 Watts–Strogatz**从规则格点以p重连获得高聚类短平均路的数学中间态；**2000 Kleinberg**将短路径存在与局部可发现性分开。社会网络的小世界观测不能推出全部真实网络都服从WS生成机制。
+- 往第34章过渡：小世界性质关注\(L,C\)，不同于度数分布幂律/优先连接；短路径不等同存在“少数超级枢纽”或“普遍无标度”。
+
+### 批次准入与审校标识
+
+本批可以以明确来源限制的工作初稿形式编写第31—33章，章内每条\`[GT31-NN]\`、\`[GT32-NN]\`、\`[GT33-NN]\`与\`draft/NN.claims.json\`一一对应。凡自制数例写明现代构造；原刊用语与后世规范方程分开。**不更新正式审稿为PASS、不设置final_approved=true**。

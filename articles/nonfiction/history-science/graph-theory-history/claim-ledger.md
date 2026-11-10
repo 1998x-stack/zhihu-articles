@@ -32,9 +32,9 @@
 | 28 | GT28-01—GT28-10：Whitney1932不同论文及3连通球面嵌入唯一性、旋转次序、K₂,₄二连通反例、对偶图 | S126—S129、S138（见research.md） | VERIFIED_SCOPED（仅28；现代嵌入表述/教学例与原刊分开） |
 | 29 | GT29-01—GT29-12：删边缩边、小式良拟序、有限禁小式、Graph Minors I 1983/XX 2004/XXIII 2010的时间边界 | S130—S134、S137（见research.md） | VERIFIED_SCOPED（仅29；理论存在性≠自动实用算法） |
 | 30 | GT30-01—GT30-13：树分解三条件、C₄袋例、Vertex Cover动态规划、Robertson–Seymour1986、Courcelle1990、Bodlaender1996 | S134—S137（见research.md） | VERIFIED_SCOPED（仅30；固定树宽及具体算法前提保留） |
-| 31 | GT31-01：稠密图极限、graphon与稀疏图的区别 | S01、S06、S11 | TODO_VERIFY |
-| 32 | GT32-01：PageRank、阻尼随机游走与有向网络 | S01、S10 | TODO_VERIFY |
-| 33 | GT33-01：小世界模型、聚类与平均路径 | S01、S10 | TODO_VERIFY |
+| 31 | GT31-01—GT31-12：同态密度、双Graphon边/三角密度反例、稠密适用范围、Lovász—Szegedy2004/2006、cut距离与2012专著 | S139—S142（见research.md） | VERIFIED_SCOPED（仅31；确定函数≠随机生成机制，稀疏有向不可直接套用） |
+| 32 | GT32-01—GT32-11：链接方向、阻尼传送、概率平稳分布、三网页示例及1998原稿/原型发表史 | S143—S145（见research.md） | VERIFIED_SCOPED（仅32；PageRank非搜索排序/可信度的全部） |
+| 33 | GT33-01—GT33-12：Milgram1967/Travers–Milgram1969样本局限、聚类/短路、Granovetter1973、Watts–Strogatz1998、Kleinberg2000 | S146—S150（见research.md） | VERIFIED_SCOPED（仅33；六度非普遍定理，WS不自动推出无标度） |
 | 34 | GT34-01：优先连接与幂律模型，避免普遍无标度断言 | S01、S10 | TODO_VERIFY |
 | 35 | GT35-01：边介数、社群检测与模块度局限 | S01、S10 | TODO_VERIFY |
 | 36 | GT36-01：早期GNN、GCN、GraphSAGE、GAT与消息传递 | S01、S10 | TODO_VERIFY |
