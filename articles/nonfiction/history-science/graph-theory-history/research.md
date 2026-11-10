@@ -536,3 +536,67 @@
 - 第19章转入 **DRAFT / GT19-01—10**；第20章转入 **DRAFT / GT20-01—10**；第21章转入 **DRAFT / GT21-01—12**。
 - 新增 **32 条**主张映射。只作为每章前置研究支撑与独立审校输入，不代表正式审稿PASS、终稿审批或外部发布。
 - 章末引文为真实可复核文献入口，但历史文本有未逐字校勘部分；新的审稿阶段应按争议与原文页码继续抽检。第22—37章仍是 TODO_VERIFY，不继承本批证据许可。
+
+
+---
+
+## 第22—24章专项事实与数学研究｜2026-11-10
+
+> **核验范围只覆盖第22—24章研究性写作输入。** 已检查 Dijkstra 1959、Ford–Fulkerson 1956、Edmonds 1965 等原始论文公开文本首页与题录，以及 AMS、Cambridge、Wiley 出版社记录；个别历史贡献通过专业二手史学资料重建，不把现代证明直接归属于原作者。以下是作者前置核证，尚未经过独立的连续性审计与结构双审。
+
+### 新增来源（S101—S114）
+
+| ID | 可复核出版记录／公开文献 | 可以支撑的范围与限制 |
+|---|---|---|
+| S101 | E. W. Dijkstra, “A Note on Two Problems in Connexion with Graphs,” *Numerische Mathematik* 1 (1959), 269—271. https://doi.org/10.1007/BF01386390；公开扫描 https://www.cs.cornell.edu/courses/JavaAndDS/shortestPath/1959dijkstra.pdf | 原文首两项任务分别是最小总长度树和两点最短路径；现代优先队列不是原稿代码 |
+| S102 | Richard Bellman, “On a Routing Problem,” *Quarterly of Applied Mathematics* 16 (1958), 87—90. https://doi.org/10.1090/qam/102435 | AMS出版社原刊全文记录，动态规划和迭代求最短路线；现代Bellman–Ford标准伪代码需另标 |
+| S103 | Alexander Schrijver, “On the History of the Shortest Path Problem,” *Documenta Mathematica* Extra Vol. ISMP (2012). https://ems.press/content/book-files/27386 | 1956 Ford 的RAND标号法、Dijkstra/ Bellman/ Moore等优先权与原始表述之差，专门史学综述 |
+| S104 | Edward F. Moore, “The Shortest Path Through a Maze,” *Proceedings of the International Symposium on the Theory of Switching*, Part II, Harvard University Press (1959), 285—292. https://cir.nii.ac.jp/crid/1570854174823707776 | 出版书目支持1959年、篇名和页码；未直接校勘论文全部正文及会议确切日期 |
+| S105 | L. R. Ford Jr., *Network Flow Theory*, RAND Paper P-923 (1956)，技术说明依S103并辅以 https://www.rand.org/ 检索线索 | 原始RAND报告未逐页校勘；以Schrijver史学转述限定“1956年标号松弛” |
+| S106 | L. R. Ford Jr. / D. R. Fulkerson, “Maximal Flow Through a Network,” *Canadian Journal of Mathematics* 8 (1956), 399—404. https://doi.org/10.4153/CJM-1956-045-5；公开论文 https://www.cs.yale.edu/homes/lans/readings/routing/ford-max_flow-1956.pdf | 原刊第一版第399页直接确认T. Harris铁路容量问题、最大流最小割和第1节非构造性证明/第2节受限算法，现代残量图另有后续语言 |
+| S107 | Ford / Fulkerson, “Solving the Transportation Problem,” *Management Science* 3(1) (1956), 24—32. https://doi.org/10.1287/mnsc.3.1.24 | 1956运输计算论文与标号过程；公开摘要可核，不是同一篇CJM论文 |
+| S108 | J. Edmonds / R. M. Karp, “Theoretical Improvements in Algorithmic Efficiency for Network Flow Problems,” *JACM* 19(2) (1972), 248—264. https://web.eecs.umich.edu/~pettie/matching/Edmonds-Karp-network-flow.pdf | 原文讨论不当增广路径选择与最短边数规则的多项式界；现代O(VE²)推导与具体实现需保持区分 |
+| S109 | Jeff Erickson, *Algorithms*, University of Illinois公开教程 https://jeffe.cs.illinois.edu/teaching/algorithms/ | 残量网络、最优性证书、现代图算法技术说明；四点流量例子作者自制 |
+| S110 | H. W. Kuhn, “The Hungarian Method for the Assignment Problem,” *Naval Research Logistics Quarterly* 2(1—2) (1955), 83—97. https://doi.org/10.1002/nav.3800020109 | Wiley原刊摘要直接表明n人—n岗位评分最优指派与匈牙利学术先驱，并非一般图最大匹配 |
+| S111 | Claude Berge, “Two Theorems in Graph Theory,” *PNAS* 43(9) (1957), 842—844. https://pmc.ncbi.nlm.nih.gov/articles/PMC534337/ | 原刊题录和公开全文，匹配/增广路径问题；当且仅当表述使用现代教科书形式 |
+| S112 | Jack Edmonds, “Paths, Trees, and Flowers,” *Canadian Journal of Mathematics* 17 (1965), 449—467. https://doi.org/10.4153/CJM-1965-045-4；公开原刊 https://ftp.eecs.umich.edu/~pettie/matching/Edmonds-paths-trees-flowers.pdf | 第449页可直接核其最大基数匹配、Berge/Tutte前驱、算法效率讨论；不把后续最大权匹配算法当成本篇全部成果 |
+| S113 | Robert E. Tarjan, COS 423 notes “Sketchy Notes on Edmonds’ Incredible Shrinking Blossom Algorithm for General Matching” (2002). https://www.cs.princeton.edu/courses/archive/spring02/cs423/download/notes4.pdf | 交替奇圈、base/stem、收缩保持增广路径存在性的双向证明框架；现代课堂资料 |
+| S114 | “A Formal Correctness Proof of Edmonds’ Blossom Shrinking Algorithm,” *Journal of Automated Reasoning* (2026). https://doi.org/10.1007/s10817-026-09747-y | 2026形式化正确性研究，对收缩保持增广路径等价及算法定义的现代复核；不可倒灌到1965年原文 |
+
+### 第22章｜最短路径（GT22-01—GT22-11）
+
+| 主张群 | 核查依据 | 结论及限制 |
+|---|---|---|
+| GT22-01—05 | S101—S103 | MODERN_MATH_SCOPED：单源最短路目标、松弛公式、非负权安全标号证明；A/B/C/T与A—E均作者自制而非历史故事 |
+| GT22-06—08 | S101—S105 | VERIFIED_SCOPED：Dijkstra原刊1959两问题、Bellman原刊1958、Ford RAND1956由Schrijver专业二手史证实、Moore论文集1959；绝不虚构研究者私下对话 |
+| GT22-09—11 | S101—S103 | MODERN_BOUNDARY：三点负权反例；允许负边的Bellman–Ford与**可达负环**界限；非负权才可安全使用Dijkstra的固定标签论证 |
+
+数学核算：A→B=4、A→C=1、C→B=2、B→D=1、C→D=5、D→E=3、B→E=7、C→E=12，最短A→C→B→D→E的累计1+2+1+3=7；反例A→B=2、A→C=5、C→B=−4有新路径总费1且无负圈。
+
+### 第23章｜最大流与最小割（GT23-01—GT23-13）
+
+| 主张群 | 核查依据 | 结论及限制 |
+|---|---|---|
+| GT23-01—08 | S106、S108—S109 | MODERN_PROOF_SCOPED：容量守恒、残量正反边、可达集割证书；不要将“反向残量边”写成物理水管反向连通 |
+| GT23-09—11 | S106—S107 | PRIMARY_SCOPED：CJM 1956第399页铁路例子、原刊定理证明方法与另一篇运输计算论文分开 |
+| GT23-12—13 | S108—S109 | MODERN_BOUNDARY：整数容量任意增广可停但不保证容量数值无关多项式界；非理性容量坏选路与1972最短边数增广规则分开 |
+
+自制核对：有向边s→a、s→b、a→b、a→t、b→t均容量1。先沿s-a-b-t输送1；再沿残量s-b-a-t推送1，其中b→a撤销先前a→b，最后s-a-t与s-b-t各送1。割S={s}容量2与流值2相等。
+
+### 第24章｜花朵算法（GT24-01—GT24-13）
+
+| 主张群 | 核查依据 | 结论及限制 |
+|---|---|---|
+| GT24-01—05 | S111—S113 | BIPARTITE_VS_GENERAL：极大/最大区别、Berge增广路径判据；交替翻转增加匹配规模1 |
+| GT24-06 | S110 | PRIMARY_SCOPED：Kuhn1955是带评分的二分指派，不直接等同任意无向图无权最大匹配 |
+| GT24-07—10 | S112—S114 | MODERN_PROOF_SCOPED：花朵是**相对于当前匹配**的交替奇圈，收缩需保留增广路径存在性，并可按交替奇偶性正确展开 |
+| GT24-11—13 | S110—S114及历史账本中S70、S75 | HISTORICAL_SCOPED：Berge1957、Edmonds1965及前驱相互独立贡献；多项式可解的范围是一般图最大基数匹配，不是所有图问题 |
+
+自制六点样本：顶点r,x,a,b,c,y；边rx,xa,ab,bc,ca,by；原匹配{xa,bc}，花a-b-c-a基点a、梗r-x-a。收缩成B有增广路径r-x-B-y；展开r-x-a-c-b-y交替为未/匹配/未/匹配/未，翻转得到{rx,ac,by}规模由2增至3。验证注意：收缩图超级节点与外部边的匹配状态必须随原匹配正确转换。
+
+### 写作放行/未完成项
+
+- 准许第22—24章以**限定核证范围的研究性工作初稿**身份进入\`draft/NN.md\`与\`draft/NN.claims.json\`。
+- 新增**37条章级主张**：第22章11条、第23章13条、第24章13条，全部必须在正文内有对应\`[GTNN-NN]\`标记，详细见chapter claims。
+- 史实敏感点供独立审校：Moore论文集1959与会议日期、Ford RAND原版页码、1956论文非构造性部分、Kuhn带权指派与Edmonds一般图匹配，原文用语与现代教材统一版本之间的距离。
+- \`review_status\`继续\`PENDING\`，不是独立事实核验、结构双审、精修或\`final_approved\`；第25—37章仍是\`TODO_VERIFY\`。
