@@ -1,6 +1,6 @@
 # 主张账本｜章节 → 资料范围（规划版）
 
-> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—12章已补充限定主张与原始论文核查；第13—15章本批补充限域核证；第16—18章此前已限域核查，第19—21章本批完成限定核查，第22—24章本批补核，第25—31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
+> **总账中的CORE行是初始规划索引，不代表当前每章进度**。第01—03章已完成限定史料核对与工作稿；第04—06章已完成前置核证与工作初稿，第07—09章本批也已补充限域史料与细分主张；第10—12章已补充限定主张与原始论文核查；第13—15章本批补充限域核证；第16—18章此前已限域核查，第19—21章本批完成限定核查，第22—24章本批补核，第25—27章本批限定核查，第28—31章及序章仍待核。下表只表示章节需要验证的研究主张及已定位的线索，不表示全部证据经核准。实际写稿必须拆成更细的`Cxx-01`主张，添加来源页码、实验条件、支持范围、反证和确认级别，并输出`draft/NN.claims.json`。
 
 | 章节 | claim_id | 本章需要核验的中心主张 | 候选source_id | 证据性质及待核点 | 状态 |
 | --- | --- | --- | --- | --- | --- |
@@ -272,3 +272,34 @@
 | 24 | C24-08 | 作者自造幂律0.1指数与2^-0.1≈0.933 | AUTHOR_DERIVATION,DL117 | VERIFIED_DERIVATION | 非Kaplan拟合指数，不能把loss改善当准确率或智能增长 |
 
 **核查不是批准**：SCOPED_VERIFIED表示中心历史元数据和指定技术描述的限定核对；VERSION_DISCREPANCY记录相互冲突的原始文献版本；AUTHOR_DERIVATION是当代教学示例。各章均未独立双审通过，状态PENDING。
+
+## 第九批25—27章：逐章核心主张及证据范围
+
+| chapter | claim_id | 中心主张 | source_ids | evidence_level | limitations |
+| --- | --- | --- | --- | --- | --- |
+| 25 | C25-01 | 2016 Nature Silver/Huang等AlphaGo策略网络、价值网络与MCTS协作 | DL123 | SCOPED_VERIFIED | 不把深度网络单独看成完成全部搜索 |
+| 25 | C25-02 | 旧AlphaGo人类高手棋谱监督学习与自我对弈强化学习组合 | DL123 | SCOPED_VERIFIED | 不同AlphaGo Zero只靠规则与自我对弈 |
+| 25 | C25-03 | 2015樊麾5比0与2016李世石4比1赛事年份对手不同 | DL123,DL124 | SCOPED_VERIFIED | 2016第四局李世石胜，不写成AlphaGo不败 |
+| 25 | C25-04 | 2017 AlphaGo Zero Nature只用规则与自我对弈强化学习 | DL125 | SCOPED_VERIFIED | 仍需已知规则、算力、搜树，不是无先验的现实通用智能 |
+| 25 | C25-05 | Zero100比0战胜此前发表的AlphaGo而非人类棋手 | DL125 | SCOPED_VERIFIED | 不是100场与李世石对战 |
+| 25 | C25-06 | 2017预印本与2018 Science AlphaZero扩展三棋类 | DL126 | SCOPED_VERIFIED | 同一学习思路不等于所有规则未知任务解决 |
+| 25 | C25-07 | 假设先验0.6/0.3/0.1与访问10/30/10归一化0.2/0.6/0.2 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 自造简化MCTS输出，不是论文中的搜树公式 |
+| 25 | C25-08 | 胜率估计、搜索决策、实际胜负三个量不得合并 | DL123,DL125 | TECHNICAL_QUALIFIED | 价值估计需要校准，不能当保证结果 |
+| 26 | C26-01 | 2018 CASP13旧AlphaFold与2020 Nature Senior论文 | DL127 | SCOPED_VERIFIED | CASP14所用系统不是旧势能模型 |
+| 26 | C26-02 | 2020 CASP14 AlphaFold2盲测与2021 Jumper Nature发表 | DL128,DL129 | SCOPED_VERIFIED | 出版年份与竞赛年份严格分开 |
+| 26 | C26-03 | CASP14 median domain GDT_TS92.4仅特定盲测定义 | DL129 | SCOPED_VERIFIED | 不是92.4%蛋白全对 |
+| 26 | C26-04 | CASP14 median Cα RMSD95 0.96Å和次优2.8Å | DL128 | SCOPED_VERIFIED | 对域和覆盖95%残基的指标，非任意原子误差 |
+| 26 | C26-05 | MSA与pair表示、Evoformer、结构模块、recycling | DL128,DL130 | SCOPED_VERIFIED | 模型仍需要结构训练数据/进化序列，非从物理定律直接解出 |
+| 26 | C26-06 | 2021人类蛋白组预测覆盖98.5%，confidence残基58% | DL131 | SCOPED_VERIFIED | 覆盖不等于每条蛋白完整高置信 |
+| 26 | C26-07 | AlphaFold DB pLDDT和静态预测在无序多构象配体等限制 | DL132,DL133 | SCOPED_VERIFIED | 2024数据库规模不可倒灌CASP14 |
+| 26 | C26-08 | toy RMSD sqrt(14/3)约2.160Å | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 假设对应坐标已对齐，不是官方CASP求分 |
+| 27 | C27-01 | 2021 CLIP ICML 12作者双编码器与4亿图文对 | DL134,DL135 | SCOPED_VERIFIED | 学习表示/匹配，不是自身逐像素生成器 |
+| 27 | C27-02 | CLIP对比学习相关/不相关配对与文本零样本分类 | DL134 | SCOPED_VERIFIED | 具体类别集合、模板和数据分布约束 |
+| 27 | C27-03 | CLIP zero shot ImageNet比原ResNet50为论文限定对照 | DL134 | SCOPED_VERIFIED | 并非在所有视觉任务全面更优 |
+| 27 | C27-04 | 2021 ALIGN 10作者约18亿噪声alt-text图文对 | DL136 | SCOPED_VERIFIED | 独立平行技术路线，数据噪声与可用性问题 |
+| 27 | C27-05 | 2021第一代DALL-E文本/图像tokens自回归生成 | DL137 | SCOPED_VERIFIED | 与CLIP匹配目标不同 |
+| 27 | C27-06 | 2022 DALL-E2 CLIP image latent先验与扩散解码器 | DL138 | SCOPED_VERIFIED | CLIP embedding非可直接呈现的图片 |
+| 27 | C27-07 | 2022 CVPR LDM视觉压缩潜空间扩散与交叉注意力条件 | DL139 | SCOPED_VERIFIED | 另一团队/架构，非DALL-E2内部阶段 |
+| 27 | C27-08 | toy单位向量余弦0.8vs0及softmax约0.690 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 仅2候选文本、tau1；分数不证明事实或生成 |
+
+本表仅为限定研究与作者例题的写作闸门。SCOPED_VERIFIED不等于独立事实/结构审稿PASS；教学题均为AUTHOR_DERIVATION，不可冒充原始比赛或原论文训练参数。第01—27章均无最终批准。
