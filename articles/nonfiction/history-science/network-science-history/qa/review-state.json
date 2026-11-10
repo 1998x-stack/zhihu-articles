@@ -1,38 +1,39 @@
 {
   "schema_version": "1.0",
   "series_id": "network-science-history",
-  "editorial_phase": "full_book_review_started",
+  "editorial_phase": "p0_full_book_completion_in_progress",
   "baseline_commit": "60071e043563e9dd886e74ad0eeb63ab8d15ce51",
   "baseline_date": "2026-11-10",
-  "current_revision": 0,
+  "current_revision": 1,
   "article_count": 34,
-  "manuscripts_ready_for_review": 25,
-  "outlined_only": 9,
+  "manuscripts_ready_for_review": 28,
+  "outlined_only": 6,
   "missing_manuscript_numbers": [
     "00",
-    "26",
-    "27",
-    "28",
     "29",
     "30",
     "31",
     "32",
     "33"
   ],
-  "manuscript_claims_total": 267,
-  "body_claim_ids_linked": 48,
+  "manuscript_claims_total": 293,
+  "body_claim_ids_linked": 74,
   "body_claim_ids_missing_inline_anchor": 219,
-  "initial_editorial_findings": "CHANGES_REQUIRED",
+  "initial_editorial_findings": "CHANGES_REQUIRED (revision0 historical review)",
   "formal_workflow_review_status": "PENDING",
   "formal_review_completed": false,
   "independent_full_manuscript_fact_review_completed": false,
   "independent_full_manuscript_developmental_review_completed": false,
   "editorial_signoff": false,
-  "notes": "首轮文档审校报告和书目一致性核查已形成。两份报告对应不同审查维度，不宣称已有两个独立审稿人签批；上游outline/evidence闸门未批准，9章无可审正文。",
+  "notes": "2026-11-10 第26—28章新增26条章级主张和三篇正文，章节修订版本提升至1，旧revision0初轮QA报告留存但不代表revision1已审核；仍有6篇缺稿、219条旧正文ID锚点缺失、未取得正式独立双审。",
   "reports": [
     "qa/continuity-report.md",
     "qa/developmental-review.md",
-    "qa/chapter-review-matrix.md"
+    "qa/chapter-review-matrix.md",
+    "qa/p0-repair-26-28.md",
+    "qa/revision-log.md"
   ],
-  "next_stage": "resolve_blockers_then_reaudit_at_new_revision"
+  "next_stage": "complete_prologue_and_chapters_29_to_33_then_fact_claim_anchor_repair_and_independent_rereview",
+  "reviewed_revision": 0,
+  "old_reports_are_stale_for_current_revision": true
 }

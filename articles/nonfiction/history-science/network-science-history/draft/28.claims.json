@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "28",
+  "revision": 1,
+  "editorial_status": "p0_repair_working_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "review_status": "PENDING",
+  "claims": [
+    {
+      "claim_id": "NS-28-01",
+      "type": "teaching_example",
+      "statement": "Two same-preference 5-person cliques with no cross ties yield 100 percent same-preference tie endpoints although influence identically zero by construction",
+      "source_ids": [],
+      "locator": "Author-defined 10-node two-clique counterexample; deterministic choices",
+      "verification_status": "math_checked_author_created"
+    },
+    {
+      "claim_id": "NS-28-02",
+      "type": "historical_publication",
+      "statement": "McPherson Smith-Lovin Cook Birds of a Feather Annual Review Sociology27 415-444 (2001) surveys homophily",
+      "source_ids": [
+        "S99"
+      ],
+      "locator": "Annual Reviews 2001 publisher record",
+      "verification_status": "publisher_record_checked"
+    },
+    {
+      "claim_id": "NS-28-03",
+      "type": "causal_concept",
+      "statement": "Shared causes U can generate correlated A,B without A->B or B->A social influence",
+      "source_ids": [
+        "S101"
+      ],
+      "locator": "Shalizi Thomas 2011 observational confounding plus author illustrative DAG",
+      "verification_status": "conceptually_checked"
+    },
+    {
+      "claim_id": "NS-28-04",
+      "type": "historical_publication",
+      "statement": "Aral Muchnik Sundararajan PNAS106(51)21544-21549 Dec22 2009 used dynamic instant messaging network of 27.4 million users",
+      "source_ids": [
+        "S100"
+      ],
+      "locator": "PubMed/PMC 2009 original article metadata and abstract",
+      "verification_status": "primary_article_checked"
+    },
+    {
+      "claim_id": "NS-28-05",
+      "type": "empirical_result",
+      "statement": "Aral et al 2009 report previous methods overestimate peer influence 300-700 percent and homophily explains over half perceived contagion in that studied mobile-service application",
+      "source_ids": [
+        "S100"
+      ],
+      "locator": "Original PNAS 2009 abstract and discussion; sample-method specific",
+      "verification_status": "primary_article_checked_scope_limited"
+    },
+    {
+      "claim_id": "NS-28-06",
+      "type": "causal_identification",
+      "statement": "Shalizi Thomas 2011 Sociological Methods Research40(2)211-239 argue homophily and contagion generically confounded in observational networks under weak assumptions",
+      "source_ids": [
+        "S101"
+      ],
+      "locator": "Sage publisher 2011 original abstract",
+      "verification_status": "publisher_abstract_checked"
+    },
+    {
+      "claim_id": "NS-28-07",
+      "type": "historical_method",
+      "statement": "Hudgens Halloran JASA103(482):832-842 2008 considers causal inference when one unit's treatment may affect others",
+      "source_ids": [
+        "S102"
+      ],
+      "locator": "PubMed and PMC original 2008 paper abstract",
+      "verification_status": "primary_article_checked"
+    },
+    {
+      "claim_id": "NS-28-08",
+      "type": "model_definition",
+      "statement": "Network potential outcomes may depend on own assignment and other units assignments, so direct/spillover effects need exposure assumptions",
+      "source_ids": [
+        "S102"
+      ],
+      "locator": "2008 JASA interference framework; modern general notation and interpretation",
+      "verification_status": "model_scope_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Source metadata and selected abstract/full-text scopes checked; independent claim-by-claim original-paper review remains incomplete.",
+    "All author-created toy graphs, mathematical formulas and counterexamples must be kept separate from genuine study data.",
+    "Book-wide outline_approved/evidence_verified remain false; this is not review PASS, final approval or platform publication."
+  ]
+}

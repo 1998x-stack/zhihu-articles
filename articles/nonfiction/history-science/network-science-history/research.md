@@ -329,3 +329,27 @@
 - 第25章：静态链A—B—C—D，相同三条边09/10/11时，顺序AB→BC→CD使消息可从A到D；反序CD→BC→AB则不能从A到D，但可从D到A。若每一中继最多等待30分钟，顺序甲也会因60分钟的间隔失败。**数学教学演算，不是接触记录或真实传播链。**
 
 **下一批交接与高优先级边界**：第26章多层网络会问“边是哪一种关系”，而时间网络只问“某种边何时活动”；下游要用S18等论文对多层/多重网络做独立查证。第23—25章已形成研究性初稿，但全书目前工作流闸门尚未批准，必须后续独立事实与结构双审。
+
+### 第26—28章｜P0退修补稿的原始研究与教学算例边界（2026-11-10）
+
+这是**新稿补全的来源登记**，非全书 independent fact PASS。章节正文精确标注NS-26—28主张，各篇真史实、后世数学表示与作者教学图分离；若存在矛盾，以各原始论文具体设定为准，退回 fact-research 核实后修订。
+
+| 来源 ID | 一手论文/权威学术综述入口 | 可以支持什么、不能推断什么 |
+|---|---|---|
+| **S94** | Sergey V. Buldyrev, Roni Parshani, Gerald Paul, H. Eugene Stanley & Shlomo Havlin, [“Catastrophic Cascade of Failures in Interdependent Networks,” *Nature* 464:1025—1028 (2010-04-15)](https://doi.org/10.1038/nature08932) | 依赖网络之间发生连锁失效的特定模型；不能推广为所有多层网络“越多层越脆弱”，与第15章单层故障模型分开。 |
+| **S95** | Stefano Boccaletti等九作者, [“The Structure and Dynamics of Multilayer Networks,” *Physics Reports* 544(1):1—122 (2014)](https://doi.org/10.1016/j.physrep.2014.07.001) | 2014系统化综述、分类与层间耦合；与 **S18** Kivelä等六作者2014 *Journal of Complex Networks* 2:203—271共同作为定义依据，不声称2014首次发现关系多重性。 |
+| **S96** | Austin R. Benson, David F. Gleich & Jure Leskovec, [“Higher-Order Organization of Complex Networks,” *Science* 353:163—166 (2016-07-08)](https://doi.org/10.1126/science.aad9029) | 高阶模体与网络聚类方法；这不意味着原始数据有真实三人超边活动记录。 |
+| **S97** | Iacopo Iacopini, Giovanni Petri, Alain Barrat & Vito Latora, [“Simplicial Models of Social Contagion,” *Nature Communications* 10:2485 (2019-06-06)](https://doi.org/10.1038/s41467-019-10431-6) | 在指定单纯复形传播模型及参数下的高阶强化与不连续转变；无条件社会因果推断不成立。 |
+| **S98** | Federico Battiston, Giulia Cencetti, Iacopo Iacopini, Vito Latora, Maxime Lucas, Alice Patania, Jean-Gabriel Young & Giovanni Petri, [“Networks beyond Pairwise Interactions: Structure and Dynamics,” *Physics Reports* 874:1—92 (2020)](https://doi.org/10.1016/j.physrep.2020.05.004) | 梳理超图、单纯复形、多体互动及传播动力学。超图可记录单个三人事件，单纯复形的对面闭合并不代表额外发生过真实双人会议。 |
+| **S99** | Miller McPherson, Lynn Smith-Lovin & James M. Cook, [“Birds of a Feather: Homophily in Social Networks,” *Annual Review of Sociology* 27:415—444 (2001)](https://doi.org/10.1146/annurev.soc.27.1.415) | 同质性传统的综述，说明相似者可能倾向结交；不能将2001写作概念首次提出年份。 |
+| **S100** | Sinan Aral, Lev Muchnik & Arun Sundararajan, [“Distinguishing Influence-Based Contagion from Homophily-Driven Diffusion in Dynamic Networks,” *PNAS* 106(51):21544—21549 (2009-12-22)](https://doi.org/10.1073/pnas.0908800106) | 原文即时通信网络约2740万用户、以往方法影响高估300%—700%及同质性解释>50%的**特定移动应用样本估计**；不是适用于所有网络的经验常数。 |
+| **S101** | Cosma Rohilla Shalizi & Andrew C. Thomas, [“Homophily and Contagion Are Generically Confounded in Observational Social Network Studies,” *Sociological Methods & Research* 40(2):211—239 (2011)](https://doi.org/10.1177/0049124111404820) | 观察性网络中同质性、传染与个体特征可能泛化地混杂；需要明确识别假设，不能偷换成“因果永远不可能识别”。 |
+| **S102** | Michael G. Hudgens & M. Elizabeth Halloran, [“Toward Causal Inference with Interference,” *Journal of the American Statistical Association* 103(482):832—842 (2008)](https://doi.org/10.1198/016214508000000292) | 他人的处理可影响自己潜在结果，网络干扰下效应定义和实验设计有专门条件；不是说所有随机实验自动无效。 |
+
+**第26章自建演算**：工作层AB、BC及读书会层AC，单层分别没有三角形；合并图K3产生三角形，A工作度1、汇总度2；两层每层3状态节点的块邻接矩阵 [[A1,ωI],[ωI,A2]]只适用于对应实体跨层连接，非现实城市数据。
+
+**第27章自建演算**：一条三人超边{ABC}与三条二人超边{AB},{AC},{BC}的团投影均是K3，原始高阶事件却不同；自行设定h_A=β1m_A+β2q_A，在β1=1、β2=2、m_A=2时，q_A从0到1导致h_A从2到4；这不是2019原刊实验值。
+
+**第28章自建反例**：十人分成两个五人同偏好团、组内完全连边且预先规定社交影响为零，依边随机抽样的两端偏好相同率100%；相关≠因果。干扰潜在结果Y_i(z_i,z_-i)属于现代数学解释，不能没有设计就估计出实际“社交传染”。
+
+**待独立复核**：多层/依赖网络严格分类；单纯复形的面闭合与事件层的不同语义；2009论文300%—700%计算分母与模型；2008论文干扰的处理分配范围；全书提纲/证据闸门依旧未批准。
