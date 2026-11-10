@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "19",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-only primary-source metadata/abstract/mechanism review, author derivations; no independent scientific review",
+  "claims": [
+    {
+      "claim_id": "C19-01",
+      "claim": "EMNLP2014 Cho等七人RNN Encoder–Decoder为传统SMT提供短语对条件概率特征",
+      "source_ids": [
+        "DL90"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "未替代整套SMT，七作者独立于三作者注意力研究",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-02",
+      "claim": "NIPS2014 Sutskever/Vinyals/Le多层LSTM编码固定维度向量再生成变长目标",
+      "source_ids": [
+        "DL91"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不声称首个sequence-to-sequence模型或2014唯一贡献者",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-03",
+      "claim": "WMT14英法BLEU34.8对特定短语SMT33.3；1000候选重排36.5",
+      "source_ids": [
+        "DL91"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "三数来自不同翻译模式，只限给定数据评测",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-04",
+      "claim": "反转来源序列词序但不反转目标语言词序，论文报告优化收益",
+      "source_ids": [
+        "DL91"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是任意seq2seq都该倒序输入",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-05",
+      "claim": "词向量、句子隐藏状态及条件序列生成是不同表示与目标",
+      "source_ids": [
+        "R07",
+        "DL90",
+        "DL91"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "不能说向量相似必然语义理解",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-06",
+      "claim": "两步条件概率p(y1|x)=0.6,p(y2|y1,x)=0.5时组合概率0.30",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "作者教学虚构概率，不是WMT实验结果",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-07",
+      "claim": "固定向量对长句是一种潜在瓶颈但不是长句必然失败定理",
+      "source_ids": [
+        "DL91",
+        "DL92"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "QUALIFIED",
+      "limitations": "Sutskever原论文报告长句设置下的积极结果",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C19-08",
+      "claim": "EMNLP七作者与NIPS三作者同年工作不同，模型用途有别",
+      "source_ids": [
+        "DL90",
+        "DL91"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不编造直接师承、唯一首次或作者排他归属",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}
