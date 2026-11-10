@@ -20,9 +20,9 @@
 | 16 | GT16-01—GT16-10：Ramsey1928宣读/1930出版、有限拉姆齐数、R(3,3)=6双向证明、递推与历史边界 | S78—S80 | VERIFIED_SCOPED（仅16；数学例证为现代解释） |
 | 17 | GT17-01—GT17-10：Mantel1907与Turán1941、无三角形极值证明、平衡完全r分图及适用范围 | S81—S83 | VERIFIED_SCOPED（仅17；原刊起始页异文待核） |
 | 18 | GT18-01—GT18-11：Erdős1947 BAMS论文、拉姆齐数下界、期望/并集界证明与非构造边界 | S84—S86 | VERIFIED_SCOPED（仅18；概率语言为现代复述） |
-| 19 | GT19-01：随机图 G(n,p)/G(n,m)、阈值与巨型分量 | S01、S12、S13 | TODO_VERIFY |
-| 20 | GT20-01：正则性引理；1975研究与1978出版区别 | S01、S12、S13 | TODO_VERIFY |
-| 21 | GT21-01：最小生成树与割性质、算法优先权 | S01、S08、S15 | TODO_VERIFY |
+| 19 | GT19-01—GT19-10：Gilbert/Erdős–Rényi 1959—1960、G(n,p)/G(n,m)、c=1巨型分量与连通阈值分离 | S87—S90、S84（详见research.md） | VERIFIED_SCOPED（仅19；渐近/现代推演与史料分列） |
+| 20 | GT20-01—GT20-10：ε正则对/大多数块对、能量递增、1975弱二分图与1978一般图出版 | S91—S95（详见research.md） | VERIFIED_SCOPED（仅20；证明为现代简述） |
+| 21 | GT21-01—GT21-12：割性质及交换论证、Borůvka 1926、Jarník 1930、Kruskal 1956、Prim 1957与优先权 | S96—S100（详见research.md） | VERIFIED_SCOPED（仅21；五城算例为现代构造） |
 | 22 | GT22-01：最短路、松弛与非负权的Dijkstra算法 | S01、S08、S15 | TODO_VERIFY |
 | 23 | GT23-01：最大流—最小割、增广路与残量网络 | S01、S08、S15 | TODO_VERIFY |
 | 24 | GT24-01：匈牙利方法、花朵算法、奇圈收缩 | S01、S08、S15 | TODO_VERIFY |
