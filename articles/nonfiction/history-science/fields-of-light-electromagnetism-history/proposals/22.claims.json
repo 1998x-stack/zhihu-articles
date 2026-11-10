@@ -1,0 +1,182 @@
+{
+  "chapter": "22",
+  "title": "迈克耳孙—莫雷的零结果意味着什么",
+  "manuscript_path": "proposals/22.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E22-01",
+      "statement": "1887迈克耳孙与莫雷报告针对以太相对运动的干涉实验",
+      "kind": "史实",
+      "section": "一、五",
+      "source_ids": [
+        "S22-01",
+        "S22-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E22-02",
+      "statement": "石台水银浮托、重复反射与旋转用于改善灵敏度和扰动控制",
+      "kind": "实验史",
+      "section": "一、五",
+      "source_ids": [
+        "S22-01",
+        "S22-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E22-03",
+      "statement": "不同以太模型对地球运动及光传播具有不同假设",
+      "kind": "历史解释",
+      "section": "二、七",
+      "source_ids": [
+        "S22-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E22-04",
+      "statement": "干涉仪通过两臂光往返时间差的相位变化生成干涉条纹",
+      "kind": "现代物理解释",
+      "section": "三",
+      "source_ids": [
+        "S22-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E22-05",
+      "statement": "简化刚性静止以太模型得旋转条纹量级ΔN≈2Lv²/(λc²)",
+      "kind": "现代推导/模型",
+      "section": "四",
+      "source_ids": [
+        "S22-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E22-06",
+      "statement": "原论文约0.4条纹预期与远小于预期的观测对比",
+      "kind": "原论文数据",
+      "section": "五",
+      "source_ids": [
+        "S22-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E22-07",
+      "statement": "所谓零结果并非所有原始观测数字等于零",
+      "kind": "史实解释",
+      "section": "五、六",
+      "source_ids": [
+        "S22-01",
+        "S22-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E22-08",
+      "statement": "单次实验直接约束特定以太假设下可观察的信号而不唯一推出新时空观",
+      "kind": "方法论",
+      "section": "六",
+      "source_ids": [
+        "S22-01",
+        "S22-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E22-09",
+      "statement": "菲茨杰拉德/洛伦兹长度收缩假说是当时解释路线之一",
+      "kind": "史实",
+      "section": "七",
+      "source_ids": [
+        "S22-02",
+        "S22-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E22-10",
+      "statement": "现代长度收缩公式与早期动力学解释不能当作同一历史理论",
+      "kind": "史学界限",
+      "section": "七",
+      "source_ids": [
+        "S22-02",
+        "S22-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E22-11",
+      "statement": "爱因斯坦1905论文不把迈克耳孙莫雷指定为唯一起点",
+      "kind": "史实/争议",
+      "section": "八",
+      "source_ids": [
+        "S22-03",
+        "S22-04",
+        "S22-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    },
+    {
+      "claim_id": "E22-12",
+      "statement": "1887实验与第五部的1890年代通信发展时间上交叉",
+      "kind": "跨章时间线",
+      "section": "八、十",
+      "source_ids": [
+        "S22-01",
+        "S22-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-page verification, formula check and independent historical review outstanding"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S22-01",
+      "title": "Michelson & Morley 1887, American Journal of Science",
+      "url": "https://ajsonline.org/article/62505-on-the-relative-motion-of-the-earth-and-the-luminiferous-ether",
+      "source_type": "原始研究/原论文入口",
+      "scope": "原刊资料入口；1887实验、装置与报告；图版仍待逐页校对"
+    },
+    {
+      "source_id": "S22-02",
+      "title": "APS News: Michelson and Morley 1887",
+      "url": "https://www.aps.org/apsnews/2007/11/november-1887-michelson-uminiferous-ether",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "学会科学史述评；1881/1887、仪器、菲茨杰拉德及洛伦兹"
+    },
+    {
+      "source_id": "S22-03",
+      "title": "Olivier Darrigol, Can we trust Einstein’s accounts of genesis of SR?",
+      "url": "https://www.sciencedirect.com/science/article/am/pii/S0039368121000492",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "科学史研究；以太理论分歧与爱因斯坦思想起源"
+    },
+    {
+      "source_id": "S22-04",
+      "title": "Einstein 1905, On the Electrodynamics of Moving Bodies",
+      "url": "https://gisinb.ch/gisin/physique/relativite/Paper_en1/Einstein.html",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "原论文英译；不直接命名迈克耳孙—莫雷为唯一起因"
+    },
+    {
+      "source_id": "S22-05",
+      "title": "APS News 2004 Letters",
+      "url": "https://www.aps.org/apsnews/2004/03/letters",
+      "source_type": "科学史综述或现代教学资料",
+      "scope": "讨论史学分歧的辅助材料，不作独立定论"
+    }
+  ],
+  "unresolved": [
+    "1887原论文图6和观测表逐页校对",
+    "菲茨杰拉德1889与洛伦兹1892起的收缩论证原刊归属和顺序",
+    "爱因斯坦个人受迈克耳孙莫雷实验影响的史学意见分歧",
+    "不同以太拖曳模型对干涉实验具体预测"
+  ]
+}
