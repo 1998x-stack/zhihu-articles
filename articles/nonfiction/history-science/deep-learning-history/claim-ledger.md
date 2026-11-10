@@ -334,3 +334,36 @@
 | 30 | C30-08 | 两题6/4预算得6分、5/5得1分的教育演算 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 阈值作者设定并非真实模型的效率曲线 |
 
 `SCOPED_VERIFIED`只表示核对公开原始论文/官方档案的有限历史断言；`PREPRINT_QUALIFIED`表明仍是预印本研究；`AUTHOR_DERIVATION`为自造可复算示例。**全书未完成独立事实/结构双审，绝不授予PASS。**
+
+## 收官特别批次｜序章00、尾声31及非编号附录A证据账本
+
+| chapter | claim_id | 主张 | source_ids | level | limitations |
+| --- | --- | --- | --- | --- | --- |
+| 00 | C00-01 | 2012 ILSVRC分类Top5官方SuperVision15.315%与ISI26.172% | DL162,DL163 | SCOPED_VERIFIED | 官方表率、不是同条件单模型对照 |
+| 00 | C00-02 | 同赛事SuperVision 15.315%含额外数据，16.422%只用指定数据 | DL162 | SCOPED_VERIFIED | 两项不能和单CNN表现混同 |
+| 00 | C00-03 | 15.3%由七CNN集成，不是单CNN误差 | DL80,DL163 | SCOPED_VERIFIED | 原论文PDF与网页摘要存在版本差异 |
+| 00 | C00-04 | 2009 ImageNet 3.2m/5247类与2012千类竞赛子集不同 | DL77,DL79 | SCOPED_VERIFIED | 2009数据库不是2012完整训练集 |
+| 00 | C00-05 | CNN/反传/形式神经网络早于2012，贡献非孤立单项 | DL166,DL47,DL80,DL164 | HISTORICAL_SYNTHESIS | 思想路线独立且各有时代限制 |
+| 00 | C00-06 | 2012 GPU、ReLU、数据增强、dropout与可比大规模评测共同作用 | DL80,DL89,DL79 | SCOPED_VERIFIED | 不得宣称2012首次发明组成部分 |
+| 00 | C00-07 | Top5类别排名的正确答案未进前五才算错误 | DL79,DL162 | SCOPED_VERIFIED | 不等于一个图只有5种可能类 |
+| 00 | C00-08 | 10000张假想图1530与2620错误相差1090的示例 | AUTHOR_DERIVATION,DL162 | VERIFIED_DERIVATION | 假想数据集/四舍五入百分数；非原比赛规模 |
+| 31 | C31-01 | 1943形式神经元与1986可微隐藏层训练的任务不同 | DL166,DL47 | HISTORICAL_SYNTHESIS | 不把逻辑神经元当成已经会反传 |
+| 31 | C31-02 | 2012 AlexNet高分依赖结构与数据硬件和评测组合 | DL162,DL163,DL164 | SCOPED_VERIFIED | 七CNN组合，不是通用视觉理解证明 |
+| 31 | C31-03 | 2020规模律与2022 Chinchilla是特定损失/算力经验研究 | DL117,DL119 | SCOPED_VERIFIED | 不推为全部智能必然指数 |
+| 31 | C31-04 | 2017 Transformer与2018 GPT/BERT机制目标不同 | DL107,DL113,DL115 | SCOPED_VERIFIED | 模型表示有效不自动解决理解的定义 |
+| 31 | C31-05 | AlphaGo、AlphaFold、CLIP分别是棋决策、结构预测、图文匹配 | DL123,DL125,DL128,DL134 | TECHNICAL_QUALIFIED | 指标不能横向排名一个智能总分 |
+| 31 | C31-06 | TruthfulQA/人评/2026 HLE测量不同任务的可靠性范围 | DL143,DL141,DL158 | SCOPED_VERIFIED | 2026研究仍随模型版本变动 |
+| 31 | C31-07 | 2024 Nobel官方认可Hopfield/Hinton奠基工作但非所有贡献 | DL165 | SCOPED_VERIFIED | 诺奖回顾非唯一作者证明 |
+| 31 | C31-08 | 虚构两样本集合90/100 Top5与5/20高风险错不互推 | AUTHOR_DERIVATION | VERIFIED_DERIVATION | 作者设定、不同分母，不是原研究数值 |
+| A | CA-01 | 2012并非CNN发明日期 | DL52,DL80 | SCOPED_VERIFIED | 早期LeNet与2012 AlexNet架构/任务有别 |
+| A | CA-02 | 2012Top5 15.315%含额外数据与七CNN集成 | DL162,DL80 | SCOPED_VERIFIED | 不同提交16.422%需一并注明 |
+| A | CA-03 | ImageNet/ILSVRC测量分类而非完整理解 | DL79,DL162 | TECHNICAL_QUALIFIED | 图像标注本身有边界 |
+| A | CA-04 | 反传在1986推广不代表此前零源头 | DL47 | HISTORICAL_QUALIFIED | 更早研究见第07章不同前史和原始文献 |
+| A | CA-05 | 1969批评/AI寒冬没有让所有神经网研究停止 | DL43,DL47 | HISTORICAL_QUALIFIED | 跨国多条路线并行，不归为直接反驳因果 |
+| A | CA-06 | 注意力于2014/15已用于翻译，2017 Transformer属结构组合 | DL93,DL107 | SCOPED_VERIFIED | 2017不等于所有注意力始点 |
+| A | CA-07 | GPT2018与BERT2018/19有不同目标与结构 | DL113,DL114,DL115 | SCOPED_VERIFIED | 不是单纯同架构尺寸差异 |
+| A | CA-08 | AlphaGo Zero仍使用围棋规则与MCTS | DL125 | SCOPED_VERIFIED | 100:0对旧程序不是人类 |
+| A | CA-09 | AlphaFold CASP14 GDT_TS92.4不是92.4%完全预测正确 | DL128,DL129 | SCOPED_VERIFIED | 结构域中位评估不等于动态与功能预测 |
+| A | CA-10 | 开放权重、偏好得分、事实可靠性不是同一承诺 | DL141,DL143,DL148 | HISTORICAL_SYNTHESIS | 不宣称一个许可证或一个测试证明全部治理 |
+
+注：CA-xx仅属于额外非编号附录A，不构成正式章节33。表内SCOPED_VERIFIED只表示中心资料限定核查，正式独立双审仍PENDING。
