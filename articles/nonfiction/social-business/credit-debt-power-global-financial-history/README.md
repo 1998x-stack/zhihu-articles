@@ -1,5 +1,9 @@
 # 信用、债务与权力：一部世界金融史
 
+<!-- SERIES_PROGRESS:START -->
+> **系列进度（自动核对，非出版许可）**：规划 42 篇 · 工作初稿 40 篇 · 策划占位 2 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 CHANGES_REQUIRED · 最终封版 否。
+<!-- SERIES_PROGRESS:END -->
+
 > **Credit, Debt and Power: A Global History of Finance**
 > 从美索不达米亚的泥板到数字时代的资产负债表，金融史首先是人类如何发出承诺、让承诺流通、并在承诺无法兑现时重建规则的历史。
 

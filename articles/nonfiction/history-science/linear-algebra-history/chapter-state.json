@@ -137,5 +137,15 @@
       "math_verified": true
     }
   ],
-  "status_notice": "第01—20章为含逐章资料对照、数学自检的未终审草稿。历史原著并未完成逐页独立外审；正式双审、语言精修与终稿批准均未完成。"
+  "status_notice": "第01—20章为含逐章资料对照、数学自检的未终审草稿。历史原著并未完成逐页独立外审；正式双审、语言精修与终稿批准均未完成。",
+  "progress_summary": {
+    "source": "book.json",
+    "total": 34,
+    "draft": 20,
+    "outline": 14,
+    "final": 0,
+    "proposals": 0,
+    "review_status": "PENDING",
+    "final_approved": false
+  }
 }

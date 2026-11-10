@@ -1,5 +1,9 @@
 # 奖励之后：一部强化学习思想发展史
 
+<!-- SERIES_PROGRESS:START -->
+> **系列进度（自动核对，非出版许可）**：规划 34 篇 · 工作初稿 21 篇 · 策划占位 13 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
+<!-- SERIES_PROGRESS:END -->
+
 *After Reward: A History of Reinforcement Learning*
 
 > 2025年，2024年度图灵奖授予萨顿与巴尔托。早年研究如何让机器通过反馈学习的人，为什么最终成了今天人工智能的基础人物？这条路并不是从一台会下棋的电脑直接通往聊天模型，而是几条曾经分离的思想之河不断相遇。奖项公布时间见 [NSF 官方公告](https://www.nsf.gov/news/ai-pioneers-andrew-barto-richard-sutton-win-2025-turing)。

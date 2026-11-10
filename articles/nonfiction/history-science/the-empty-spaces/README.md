@@ -1,5 +1,9 @@
 # 空位——门捷列夫与元素周期表的发现
 
+<!-- SERIES_PROGRESS:START -->
+> **系列进度（自动核对，非出版许可）**：规划 24 篇 · 工作初稿 9 篇 · 策划占位 15 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
+<!-- SERIES_PROGRESS:END -->
+
 *The Empty Spaces: Mendeleev and the Discovery of the Periodic Table*
 
 > 非虚构｜历史与科学发现｜`genre-history-science`

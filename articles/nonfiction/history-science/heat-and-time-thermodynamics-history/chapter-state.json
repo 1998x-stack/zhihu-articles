@@ -44,5 +44,15 @@
   ],
   "review_status": "PENDING",
   "evidence_scope": "00—16前置研究已做；17—33占位",
-  "note": "非虚构续写状态记录；不代表独立审稿、语言精修或终稿通过。"
+  "note": "非虚构续写状态记录；不代表独立审稿、语言精修或终稿通过。",
+  "progress_summary": {
+    "source": "book.json",
+    "total": 34,
+    "draft": 17,
+    "outline": 17,
+    "final": 0,
+    "proposals": 0,
+    "review_status": "PENDING",
+    "final_approved": false
+  }
 }

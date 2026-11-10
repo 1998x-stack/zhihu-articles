@@ -732,5 +732,15 @@
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Revision28 research-level nonfiction chapter drafts 37–39 stacked over Revision27 PR; 32 source ledger records and 72 claim mappings; all book-wide original archival and official editing gate blockers remain."
+  "notes": "Revision28 research-level nonfiction chapter drafts 37–39 stacked over Revision27 PR; 32 source ledger records and 72 claim mappings; all book-wide original archival and official editing gate blockers remain.",
+  "progress_summary": {
+    "source": "book.json",
+    "total": 42,
+    "draft": 40,
+    "outline": 2,
+    "final": 0,
+    "proposals": 0,
+    "review_status": "CHANGES_REQUIRED",
+    "final_approved": false
+  }
 }

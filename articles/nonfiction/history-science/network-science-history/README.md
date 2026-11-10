@@ -1,5 +1,9 @@
 # 连接的真相：一部网络科学发展史
 
+<!-- SERIES_PROGRESS:START -->
+> **系列进度（自动核对，非出版许可）**：规划 34 篇 · 工作初稿 19 篇 · 策划占位 15 篇 · 已标记审定 0 篇 · 独立候审稿 0 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
+<!-- SERIES_PROGRESS:END -->
+
 The Science of Connections: A History of Network Science
 
 > 从七桥到图神经网络：世界为什么被连接改变？
