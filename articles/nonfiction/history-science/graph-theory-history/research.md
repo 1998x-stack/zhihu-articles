@@ -1,5 +1,5 @@
 # 史料检索档案｜全书分章核证进展
-> **分章节、限定范围核证：00—15章的具体主张在下方专章记录；16—37仍是待核写作线索。`evidence_verified=true` 仅表示已完成写作章节的必要前置研究，不代表整部书核证完毕或审稿通过。**
+> **分章节、限定范围核证：00—37章均已有可追溯来源的工作初稿及分章前置研究；本档案包含S01—S169的资料索引，但来源登记不等于全文逐页核证。自2026-11-10正式进入全书独立史实、数学、连续性与结构审稿。`evidence_verified=true`仅用于分章写作前置门禁，不代表全书事实终审或`review_status=PASS`。审校结论以qa报告及workflow-state.json为准。**
 | ID | 文献 | 入口 | 可支持的范围/限制 |
 |---|---|---|---|
 | S01 | Beineke / Toft / Wilson, Milestones in Graph Theory (AMS/MAA, 2025) | https://www.ams.org/books/spec/108/spec108-endmatter.pdf | 学科发展与跨世纪年表；目录、序言、年表已检索；逐章需重读原始史料 |
