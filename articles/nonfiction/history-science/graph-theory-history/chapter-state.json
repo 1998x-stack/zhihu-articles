@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "lane": "nonfiction",
   "tracking_mode": "partial-batch-continuity-plus-derived-progress",
-  "note": "第19—27章批次交接与章级来源信息，不代表任何独立双审或正式出版许可。",
+  "note": "第19—30章已有批次续写记录及限定来源范围，记录的是工作初稿进度，不是正式双审或出版许可。",
   "progress_summary": {
     "source": "book.json",
     "total": 38,
-    "draft": 28,
-    "outline": 10,
+    "draft": 31,
+    "outline": 7,
     "final": 0,
     "proposals": 0,
     "review_status": "PENDING",
@@ -15,8 +15,8 @@
   },
   "current_revision": 0,
   "review_status": "PENDING",
-  "last_written_chapter": "27",
-  "latest_batch": "25-27",
+  "last_written_chapter": "30",
+  "latest_batch": "28-30",
   "chapter_progress": {
     "19": {
       "title": "随机连线之后，巨大的连通块从何而来",
@@ -155,6 +155,54 @@
       "core_question": "Laplacian第二小特征值如何量化连通，为什么0值与断开严格等价？",
       "outgoing_problem": "从谱刻画结构到平面3连通图的嵌入唯一性，哪些性质不随画法改变？",
       "continuity_boundary": "Fiedler1971会议报告/1972收稿/1973发表；Kirchhoff1847原始电路与后世矩阵树定理区别；lambda2不等于最小割且跨图大小不可盲比"
+    },
+    "28": {
+      "title": "画法千变万化，骨架却可能唯一",
+      "status": "draft",
+      "body": "draft/28.md",
+      "claims": "draft/28.claims.json",
+      "source_ids": [
+        "S126",
+        "S127",
+        "S128",
+        "S129",
+        "S138"
+      ],
+      "core_question": "为什么3连通简单平面图在球面上拥有唯一的组合嵌入，而K2,4二连通反例不行？",
+      "outgoing_problem": "除了固定图的画法，允许删点删边缩边后全部有限图是否有统一结构秩序？",
+      "continuity_boundary": "球面同胚允许镜像/外面选择；三连通为充分非必要条件；Whitney1930/1931/1932不同文献阶段，K2,4为现代作者构造"
+    },
+    "29": {
+      "title": "二十多篇论文，只为证明图不会无限混乱",
+      "status": "draft",
+      "body": "draft/29.md",
+      "claims": "draft/29.claims.json",
+      "source_ids": [
+        "S130",
+        "S131",
+        "S132",
+        "S133",
+        "S134",
+        "S137"
+      ],
+      "core_question": "为什么任意无限有限图序列中必有靠前一图成为靠后图的小式；如何推出有限禁小式？",
+      "outgoing_problem": "图小式理论里引出的树宽如何让原本困难的图算法利用小接口求解？",
+      "continuity_boundary": "minor≠subgraph；wqo不要求任意两图可比；2004 XX完成猜想但系列至少2010 XXIII继续；禁小式存在≠自动列出/实用算法"
+    },
+    "30": {
+      "title": "像树一样的图，为什么突然变得容易计算",
+      "status": "draft",
+      "body": "draft/30.md",
+      "claims": "draft/30.claims.json",
+      "source_ids": [
+        "S134",
+        "S135",
+        "S136",
+        "S137"
+      ],
+      "core_question": "树分解三条件如何实现按共享袋状态的全局精确动态规划，树宽为什么不等于图规模？",
+      "outgoing_problem": "由单一图的有限袋局部结构转向越来越大的稠密图列是否存在合理的极限对象？",
+      "continuity_boundary": "C4两三点袋证明tw=2，Vertex Cover DP仅在给定适合分解时有2^O(k)poly(n)；1986理论非实用/1990固定MSO/1996固定k线性须分开"
     }
   }
 }

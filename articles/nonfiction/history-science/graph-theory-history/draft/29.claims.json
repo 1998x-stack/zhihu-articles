@@ -1,12 +1,117 @@
 {
   "chapter": "29",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S06",
-    "S11"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Robertson/Seymour系列1983 I、1986 II、2004 XX原刊及作者留存1988/2004文稿；2010 XXIII说明序列没有2004终止。良拟序、有限禁小式为现代概念解释与推演。",
+  "claims": [
+    {
+      "claim_id": "GT29-01",
+      "claim": "1983起论文系列与2004 Graph Minors XX证明Wagner猜想之核心里程碑",
+      "source_ids": [
+        "S130",
+        "S131",
+        "S132"
+      ],
+      "status": "PRIMARY_BIBLIO_HISTORICAL"
+    },
+    {
+      "claim_id": "GT29-02",
+      "claim": "图小式由删顶点删边缩边得到，简单图允许清理自环与平行边",
+      "source_ids": [
+        "S131",
+        "S137"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT29-03",
+      "claim": "C5通过缩两条边得C3但C3不是C5的子图",
+      "source_ids": [
+        "S137"
+      ],
+      "status": "AUTHOR_EXAMPLE_MATH"
+    },
+    {
+      "claim_id": "GT29-04",
+      "claim": "图小式序非全序，树不能包含三角形小式，三角形顶点不足不能有P4小式",
+      "source_ids": [
+        "S137"
+      ],
+      "status": "MODERN_COMPARISON_EXAMPLE"
+    },
+    {
+      "claim_id": "GT29-05",
+      "claim": "良拟序无限序列G1,G2,...有i<j使Gi为Gj小式，不能说任意两图可比",
+      "source_ids": [
+        "S131",
+        "S132",
+        "S137"
+      ],
+      "status": "WQO_THEOREM_MODERN_FORM"
+    },
+    {
+      "claim_id": "GT29-06",
+      "claim": "Robertson Seymour XX原刊摘要的无限有限图集合中一图是另一图小式",
+      "source_ids": [
+        "S131",
+        "S132"
+      ],
+      "status": "PRIMARY_THEOREM"
+    },
+    {
+      "claim_id": "GT29-07",
+      "claim": "小式封闭图类有有限禁小式，因极小禁图反链有限",
+      "source_ids": [
+        "S131",
+        "S137"
+      ],
+      "status": "MODERN_COROLLARY_PROOF"
+    },
+    {
+      "claim_id": "GT29-08",
+      "claim": "平面图禁K5 K3,3小式，森林禁C3小式；连通性不小式封闭",
+      "source_ids": [
+        "S137",
+        "S131"
+      ],
+      "status": "MODERN_EXAMPLE_AND_SCOPE"
+    },
+    {
+      "claim_id": "GT29-09",
+      "claim": "Graph Minors I Excluding a Forest JCTB35(1):39-61 (1983)只研究禁森林等结构",
+      "source_ids": [
+        "S130"
+      ],
+      "status": "PRIMARY_BIBLIO_VERIFIED"
+    },
+    {
+      "claim_id": "GT29-10",
+      "claim": "2004 XX出版与作者留存稿1988初稿2004修订区分",
+      "source_ids": [
+        "S131",
+        "S132"
+      ],
+      "status": "PRIMARY_MANUSCRIPT_CHRONOLOGY"
+    },
+    {
+      "claim_id": "GT29-11",
+      "claim": "Graph Minors XXIII 2010继续系列，XX 2004完成Wagner猜想而非全系列终止",
+      "source_ids": [
+        "S131",
+        "S133"
+      ],
+      "status": "PRIMARY_BIBLIO_HISTORICAL_SCOPE"
+    },
+    {
+      "claim_id": "GT29-12",
+      "claim": "有限禁小式存在性不自动构造禁式表，固定H小式测试多项式但不等于实用程序",
+      "source_ids": [
+        "S131",
+        "S134",
+        "S137"
+      ],
+      "status": "MATH_ALGO_BOUNDARY"
+    }
+  ]
 }

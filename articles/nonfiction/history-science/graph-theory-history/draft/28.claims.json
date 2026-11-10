@@ -1,12 +1,101 @@
 {
   "chapter": "28",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S06",
-    "S11"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Whitney 1932不同原刊、1930报告及1931前稿与现代唯一球面嵌入定理区分；K2,4两种旋转次序是作者构造，非历史原例。",
+  "claims": [
+    {
+      "claim_id": "GT28-01",
+      "claim": "Whitney1932研究3连通平面图嵌入唯一性的历史定理；画法不等于嵌入",
+      "source_ids": [
+        "S126",
+        "S128",
+        "S129"
+      ],
+      "status": "PRIMARY_BIBLIO_MODERN_THEOREM"
+    },
+    {
+      "claim_id": "GT28-02",
+      "claim": "抽象邻接、球面嵌入同胚与外部面选择不同；K4可换外面",
+      "source_ids": [
+        "S128",
+        "S138"
+      ],
+      "status": "MODERN_TOPOLOGY"
+    },
+    {
+      "claim_id": "GT28-03",
+      "claim": "平面嵌入由顶点处循环边次序及面邻接结构描述，允许整体镜像",
+      "source_ids": [
+        "S128",
+        "S138"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT28-04",
+      "claim": "简单图3顶点连通指删除任意不到3顶点仍连通，K4三连通C4不是",
+      "source_ids": [
+        "S127",
+        "S128"
+      ],
+      "status": "MODERN_GRAPH_THEORY"
+    },
+    {
+      "claim_id": "GT28-05",
+      "claim": "有限简单3连通平面图球面嵌入同胚意义唯一、面边界圈固定",
+      "source_ids": [
+        "S128",
+        "S129"
+      ],
+      "status": "WHITNEY_THEOREM_MODERN_FORM"
+    },
+    {
+      "claim_id": "GT28-06",
+      "claim": "K2,4平面且二连通但移去u,v后不连通",
+      "source_ids": [
+        "S128",
+        "S138"
+      ],
+      "status": "AUTHOR_COUNTEREXAMPLE_VERIFIED"
+    },
+    {
+      "claim_id": "GT28-07",
+      "claim": "K2,4四条uv路径不同循环排列在固定顶点标号下给出非等价球面嵌入",
+      "source_ids": [
+        "S128",
+        "S138"
+      ],
+      "status": "AUTHOR_ROTATION_COUNTEREXAMPLE"
+    },
+    {
+      "claim_id": "GT28-08",
+      "claim": "Whitney1932 TransAMS34:339-362与AJM54:150-168是不同原刊，1930报告1931PNAS摘要需区别",
+      "source_ids": [
+        "S126",
+        "S127"
+      ],
+      "status": "PRIMARY_BIBLIO_HISTORICAL_SCOPE"
+    },
+    {
+      "claim_id": "GT28-09",
+      "claim": "三连通迫使面边界圈稳定的证明直觉；不是完整原刊拓扑证明",
+      "source_ids": [
+        "S128",
+        "S129"
+      ],
+      "status": "MODERN_PROOF_SKETCH"
+    },
+    {
+      "claim_id": "GT28-10",
+      "claim": "在固定组合嵌入条件下可构建平面对偶；三连通固定面结构带来对偶唯一",
+      "source_ids": [
+        "S126",
+        "S128",
+        "S138"
+      ],
+      "status": "MODERN_DUAL_BOUNDARY"
+    }
+  ]
 }

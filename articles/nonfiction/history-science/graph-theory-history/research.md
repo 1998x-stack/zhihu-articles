@@ -653,3 +653,55 @@
 ### 批次结论
 
 三篇替换第25—27章规划占位，增加**38条主张（12+15+11）**及相应来源映射。仅可登记为**待独立双审工作初稿**；第28—37章仍为TODO_VERIFY。第27章为第六部开篇，时间线由20世纪算法史回看1847基尔霍夫电路及1973谱连通研究，是专题组织而非严格年代单轴。
+
+
+---
+
+## 第28—30章专项前置核证｜2026-11-10
+
+> **写作许可边界：** 第28—30章的原有提纲已批准，本节增加针对本批历史论文、数学概念与模型适用范围的限定核证，供 \`nonfiction-writer\` 编写 *draft*。未执行独立事实复审、连续性审计、结构双审、终稿或对外发布许可。数学例图与算法运行演示均是作者现代重构，不是历史当事人亲历的场景。史料多用原始论文摘要、首页或大学公开教学资源，未声称逐页校勘所有论文。
+
+### 新增来源 S126—S138
+
+| ID | 原始出版／权威学术资料 | 本批能够核证的断言、范围和限制 |
+|---|---|---|
+| S126 | H. Whitney, “Non-Separable and Planar Graphs,” *Transactions of the American Mathematical Society* 34(2) (1932), 339—362. https://doi.org/10.1090/S0002-9947-1932-1501641-2；公开影印 https://www.math.ucdavis.edu/~saito/data/high-dimensions/whitney-graph.pdf | 原始1932论文的题名、出版卷期、开头所述不分离图与对偶图研究；原刊首页脚注确认1930年报告、1931年2月收稿及1931PNAS简报，不可合并为1932年“首次提出”的单一时间点 |
+| S127 | H. Whitney, “Congruent Graphs and the Connectivity of Graphs,” *American Journal of Mathematics* 54(1) (1932), 150—168. https://doi.org/10.2307/2371086；书目 https://celebratio.org/Whitney_H/article/219/ | 同期独立论文、图同构与连通性研究及对偶图关联；不把两篇不同1932文献当成同一篇唯一性证明原刊 |
+| S128 | Jeff Erickson, *Tutte’s Spring Embedding Theorem / Whitney’s Uniqueness Theorem*, University of Illinois lecture notes (2023). https://jeffe.cs.illinois.edu/teaching/comptop/2023/notes/12-spring-embedding.html | 后世标准准确表述：**简单、3-顶点连通且平面**的图在球面上的嵌入按同胚意义唯一，所有嵌入的面边界圈相同；外部面选择不影响球面嵌入类别 |
+| S129 | Gunnar Brinkmann, “A Simple and Elementary Proof of Whitney’s Unique Embedding Theorem,” *Ars Mathematica Contemporanea* 20 (2021), 195—197. https://doi.org/10.26493/1855-3974.2334.331；机构书目 https://biblio.ugent.be/publication/8731526 | 2021后世独立证明：3连通平面图有唯一嵌入；不能伪称1932作者以此现代短证法写原稿 |
+| S130 | N. Robertson / P. D. Seymour, “Graph Minors. I. Excluding a Forest,” *Journal of Combinatorial Theory B* 35(1) (1983), 39—61. https://doi.org/10.1016/0095-8956(83)90079-5 | 系列I的正式出版年份与范围；涉及禁森林小式、路径宽度，不能把1983论文写成整体图小式定理完成之作 |
+| S131 | N. Robertson / P. D. Seymour, “Graph Minors. XX. Wagner’s Conjecture,” *Journal of Combinatorial Theory B* 92(2) (2004), 325—357. https://doi.org/10.1016/j.jctb.2004.08.001 | XX部分于2004正式刊印，明确证明任何**无限个有限图**里有一图为另一图的小式，即小式序良拟序；应与初稿1988、2004修订分开 |
+| S132 | 论文作者保留版 *Graph Minors XX. Wagner’s Conjecture*, “February 1988: revised August 11, 2004”. https://web.math.princeton.edu/~pds/papers/GM20/GM20.pdf | 原稿首页及摘要直接可见时间与定理；后世纪念性“二十篇”指完成瓦格纳猜想的前XX部分，**不代表2004后系列文章停止** |
+| S133 | Robertson / Seymour, “Graph Minors XXIII. Nash-Williams’ Immersion Conjecture,” *Journal of Combinatorial Theory B* 100(2) (2010), 181—205. https://doi.org/10.1016/j.jctb.2009.07.003 | 反例式史学限定：系列至少延续至XXIII (2010)；因此标题“二十多篇论文”可作整体系列泛指，但**证明瓦格纳猜想的里程碑是XX (2004)**，不得称“2004年最后一篇第23篇” |
+| S134 | Robertson / Seymour, “Graph Minors. II. Algorithmic Aspects of Tree-width,” *Journal of Algorithms* 7(3) (1986), 309—322. https://doi.org/10.1016/0196-6774(86)90023-4；Princeton书目 https://collaborate.princeton.edu/en/publications/graph-minors-ii-algorithmic-aspects-of-tree-width/ | 原刊摘要：引入tree-width，固定宽度决策多项式算法；明确**原文多项式指数巨大，非实用算法**。第29章与第30章通过1986论文自然连通 |
+| S135 | Bruno Courcelle, “The Monadic Second-Order Logic of Graphs. I. Recognizable Sets of Finite Graphs,” *Information and Computation* 85(1) (1990), 12—75. https://doi.org/10.1016/0890-5401(90)90043-H | 1990原刊与固定MSO性质、结构有限状态可识别的理论基础；本批只引用后世**有界树宽上固定MSO性质可线性时间判定**这一特定常见推论，**非说任意逻辑/任意算法都线性** |
+| S136 | Hans L. Bodlaender, “A Linear-Time Algorithm for Finding Tree-Decompositions of Small Treewidth,” *SIAM Journal on Computing* 25(6) (1996), 1305—1317. https://doi.org/10.1137/S0097539793251219 | 出版社原刊摘要：对每个**固定**k，线性时间判定treewidth≤k并构造分解；依赖k的常数可很大，不自动宣称可处理百万节点 |
+| S137 | *Graph Classes Characterised by Excluded Minors*, Cambridge University technical thesis §7. https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-903.pdf | 用于清晰说明良拟序、任意小式封闭类有有限禁小式及**存在性不等于可计算地列出所有禁式**；现代整理，非1983原论证 |
+| S138 | Reinhard Diestel, *Graph Theory* 讲义/教材平面嵌入等价与Whitney定理节§4.3. https://www.cs.unibo.it/babaoglu/courses/cas00-01/tutorials/GraphTheory.pdf | 现代嵌入等价定义；区分平面曲线的视觉形变与固定标号图在球面上组合面结构不变 |
+
+### 第28章准入：唯一嵌入的精确量词
+
+- 计划12条左右主张：平面画法不等于平面嵌入，三连通指**删除任意至多两顶点后余图仍连通**，要求图顶点足够多，当前限定**简单有限3连通平面图**。
+- Whitney定理是**球面嵌入在同胚（允许镜像）下唯一**，面边界圈与旋转系统在恰当意义下固定；不是一张图只有一种直线坐标画法，更不是“指定平面外面”的选择唯一。K4换外面不会否定唯一性。
+- 自制反例K₂,₄：u、v通过a,b,c,d四条长度2的内部互不相交路径连接。删一个顶点仍连通；删u,v留下四个孤立点，故2连通非3连通。四路径在u处的循环次序可作a,b,c,d与a,c,b,d两种不同序，在v处用相反循环次序保证平面嵌入；这些标号固定的嵌入非球面同胚等价。这仅证明3连通条件不能随意省略，不宣称所有2连通图都不唯一。
+- 年表：Whitney 1930报告/1931PNAS短文/1932《Non-Separable...》与《Congruent...》为不同记录，后世定理现代归纳需避免单一论文“全文首次写出今天所有公式”说法。
+
+### 第29章准入：小式与良拟序
+
+- 对有限简单无向图，H为G小式（minor）意为G可经**删顶点、删边、缩边**得到H（必要时消去平行边/自环）。缩边不等于把纸上曲线画短：其端点合并、关联关系随之改变。
+- 自制例C₅经收缩两条边得三角形C₃；C₃不是C₅的子图（没有三角形），说明小式严格强于子图包含。
+- 良拟序陈述：任意无穷序列G₁,G₂,...存在i<j使Gᵢ为Gⱼ的小式（有限无向图）；等价于没有无限不可比较的反链和无限严格下降链。不能说任意两个图必然可比较。
+- 小式封闭类（若G属于类，则其全部小式仍属于类）必可用**有限禁小式集**描述；示例平面图禁K₅、K₃,₃；森林禁C₃小式。**禁式存在性非自动给出禁式列表、实际多项式参数、所有优化题算法**。
+- 历史：系列I 1983、XX 2004完成Wagner猜想，XXIII 2010说明还有后续；2004论文作者留存稿显示1988初稿、2004修订，**不作一夜证明传奇**。
+
+### 第30章准入：树分解、宽度与动态规划
+
+- 标准树分解为一棵树T上每个节点携带顶点袋B_t。全部原图顶点出现；每条原图边的两端同处某袋；对原图每一顶点v，所有含v的袋在T中形成一个连通子树。宽度=max_t(|B_t|−1)，树宽是所有分解的最小宽度。
+- 现代可核例C₄ a-b-c-d-a：两袋B₁={a,b,c}、B₂={a,c,d}相连，满足原图边覆盖与running intersection，宽度2；树的树宽为1（有边），K₄宽度3。**树宽不是最大度数/树直径**。
+- 给定宽度k的适当树分解后，Vertex Cover等问题可在袋的至多2^(k+1)种子集状态上做一致性动态规划，典型复杂度2^{O(k)}·poly(n)（问题与实现限定）；路径独立的局部决定由共享袋来协调。
+- 1986原刊虽证理论算法，原文明确计算复杂度指数巨大不可用；1990 Courcelle逻辑元定理与1996 Bodlaender固定k线性分解各有额外前提及不同实用性。
+- 不是所有图/所有NP完全问题都因“树形分块”容易，网格树宽随尺度增长；找最佳树分解本身也可能困难；复杂度需区分**已提供分解**与**需要先构造分解**。
+
+### 批次研究结论
+
+**仅第28—30章**满足可写成研究性初稿的限定资料支撑条件。正文每章配套 claim_id→source_id 文件。第31—37章保持 TODO_VERIFY，review_status 保持PENDING，final_approved=false。真实史实、现代定理、作者构造例图分别标明，不假造数学家对白与现场。

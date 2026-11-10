@@ -1,12 +1,120 @@
 {
   "chapter": "30",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S06",
-    "S11"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Robertson/Seymour Graph Minors II 1986原刊摘要及Princeton大学书目、Courcelle1990、Bodlaender1996原刊；树分解的C4例与Vertex Cover算法递推为作者现代证明，非史料现场。",
+  "claims": [
+    {
+      "claim_id": "GT30-01",
+      "claim": "树宽作为衡量图接口结构的参数，在Robertson-Seymour1986算法论文系统引入",
+      "source_ids": [
+        "S134"
+      ],
+      "status": "PRIMARY_BIBLIO_HISTORY"
+    },
+    {
+      "claim_id": "GT30-02",
+      "claim": "树上顶点覆盖IN/OUT两状态动态规划及正确递推",
+      "source_ids": [
+        "S134",
+        "S137"
+      ],
+      "status": "AUTHOR_MODERN_DP_PROOF"
+    },
+    {
+      "claim_id": "GT30-03",
+      "claim": "树分解用小袋和树形连接协调原图复杂约束",
+      "source_ids": [
+        "S134",
+        "S136"
+      ],
+      "status": "MODERN_INTUITION"
+    },
+    {
+      "claim_id": "GT30-04",
+      "claim": "树分解满足顶点覆盖、边同袋、顶点袋连通子树三条件",
+      "source_ids": [
+        "S134",
+        "S135"
+      ],
+      "status": "MODERN_DEFINITION"
+    },
+    {
+      "claim_id": "GT30-05",
+      "claim": "C4以袋{A,B,C}和{A,C,D}相连构成合法树分解",
+      "source_ids": [
+        "S134"
+      ],
+      "status": "AUTHOR_CONSTRUCTION_VERIFIED"
+    },
+    {
+      "claim_id": "GT30-06",
+      "claim": "树分解宽度max(|B|-1)，树宽取最小分解宽度；C4=2",
+      "source_ids": [
+        "S134"
+      ],
+      "status": "MODERN_THEOREM"
+    },
+    {
+      "claim_id": "GT30-07",
+      "claim": "非平凡树树宽1、K4树宽3、星形树仍树宽1",
+      "source_ids": [
+        "S134",
+        "S136"
+      ],
+      "status": "MODERN_EXAMPLES"
+    },
+    {
+      "claim_id": "GT30-08",
+      "claim": "宽度k树分解每袋至多k+1点，对顶点覆盖枚举≤2^(k+1)局部状态",
+      "source_ids": [
+        "S134",
+        "S135"
+      ],
+      "status": "MODERN_STATE_BOUND"
+    },
+    {
+      "claim_id": "GT30-09",
+      "claim": "Vertex Cover在给定相应树分解上用共享袋一致性DP得2^O(k)poly(n)，须防重复计数",
+      "source_ids": [
+        "S134",
+        "S135"
+      ],
+      "status": "MODERN_ALGORITHM_BOUNDARY"
+    },
+    {
+      "claim_id": "GT30-10",
+      "claim": "1986 Graph Minors II J Algorithms7(3)309-322原刊明确初始多项式算法非实用且指数很大",
+      "source_ids": [
+        "S134"
+      ],
+      "status": "PRIMARY_ABSTRACT_BOUNDARY"
+    },
+    {
+      "claim_id": "GT30-11",
+      "claim": "Courcelle1990 MSO有限图识别基础及固定逻辑公式、固定树宽前提下的现代元定理",
+      "source_ids": [
+        "S135"
+      ],
+      "status": "PRIMARY_BIBLIO_MODERN_COROLLARY"
+    },
+    {
+      "claim_id": "GT30-12",
+      "claim": "Bodlaender1996 SIAM J Computing25(6)1305-1317对固定k线性测试tw≤k并找分解",
+      "source_ids": [
+        "S136"
+      ],
+      "status": "PRIMARY_ABSTRACT_SCOPED"
+    },
+    {
+      "claim_id": "GT30-13",
+      "claim": "大星形树树宽仍1、K_n树宽n−1、扩大方格树宽增长；不等于最大度数",
+      "source_ids": [
+        "S134",
+        "S136"
+      ],
+      "status": "MODERN_STRUCTURAL_COMPARISON"
+    }
+  ]
 }
