@@ -1,0 +1,223 @@
+{
+  "chapter": "26",
+  "title": "光是波，为什么却像一粒一粒到来",
+  "manuscript_path": "proposals/26.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E26-01",
+      "statement": "经典单光子光电效应最大动能主要与频率而非强度有关",
+      "kind": "实验规律和适用条件",
+      "section": "一、三",
+      "source_ids": [
+        "S26-01",
+        "S26-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-02",
+      "statement": "1905年爱因斯坦光量子论文与运动电动力学论文为不同论文",
+      "kind": "发表史",
+      "section": "二",
+      "source_ids": [
+        "S26-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-03",
+      "statement": "1905光量子论证包含维恩极限的热辐射熵/体积分析，不只解释光电效应",
+      "kind": "原论文理论史",
+      "section": "二",
+      "source_ids": [
+        "S26-03",
+        "S26-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-04",
+      "statement": "光量子能量E=hν是现代重述，光子概念在随后持续发展",
+      "kind": "理论史/现代公式",
+      "section": "二",
+      "source_ids": [
+        "S26-03",
+        "S26-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-05",
+      "statement": "光电最大动能Kmax=hν-Φ、阈值ν0=Φ/h及截止电势线性关系",
+      "kind": "现代教学推导",
+      "section": "三",
+      "source_ids": [
+        "S26-01",
+        "S26-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-06",
+      "statement": "多光子强光现象不受普通单光子阈值表述约束",
+      "kind": "现代理论限定",
+      "section": "三",
+      "source_ids": [
+        "S26-01"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-07",
+      "statement": "光的干涉衍射等波动证据构成当时光量子解释阻力",
+      "kind": "史实与理论背景",
+      "section": "四",
+      "source_ids": [
+        "S26-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-08",
+      "statement": "密立根1915前后测量、1916论文支持光电方程但对光量子实体解释有怀疑",
+      "kind": "实验史",
+      "section": "五",
+      "source_ids": [
+        "S26-04",
+        "S26-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-09",
+      "statement": "光量子p=h/λ与辐射动量并不意味着经典电磁场没有动量",
+      "kind": "现代理论边界",
+      "section": "六",
+      "source_ids": [
+        "S26-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-10",
+      "statement": "康普顿论文1922年12月收稿、1923年5月发表",
+      "kind": "原刊出版事实",
+      "section": "七",
+      "source_ids": [
+        "S26-06",
+        "S26-07"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-11",
+      "statement": "康普顿位移Δλ=h/(mec)(1-cosθ)对初始近似静止自由电子适用",
+      "kind": "原论文公式及现代近似",
+      "section": "七",
+      "source_ids": [
+        "S26-06"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-12",
+      "statement": "光子散射定量支持量子动量交换而不能消除所有波动现象",
+      "kind": "实验解释",
+      "section": "七、九",
+      "source_ids": [
+        "S26-06",
+        "S26-08"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-13",
+      "statement": "1924BKS方案与1925符合实验属于光量子接受史重要争议",
+      "kind": "历史事实",
+      "section": "八",
+      "source_ids": [
+        "S26-04",
+        "S26-08"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E26-14",
+      "statement": "量子辐射理论需描述光的发射吸收、量子数变化，衔接1927工作",
+      "kind": "跨章逻辑",
+      "section": "十",
+      "source_ids": [
+        "S26-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S26-01",
+      "title": "APS Quantum Milestones, 1905: Einstein and Photoelectric Effect",
+      "url": "https://physics.aps.org/articles/v18/15",
+      "source_type": "美国物理学会科学史科普",
+      "scope": "频率阈值、光电效应及早期光量子"
+    },
+    {
+      "source_id": "S26-02",
+      "title": "Library of Congress: Einstein 1905 papers",
+      "url": "https://guides.loc.gov/einstein-annus-mirabilis/1905-papers",
+      "source_type": "国家图书馆论文索引",
+      "scope": "1905光量子与狭义相对论论文区分"
+    },
+    {
+      "source_id": "S26-03",
+      "title": "Einstein 1905 heuristic paper English translation",
+      "url": "https://maplescholar.projecthamburg.org/research/data/html/einstein_nobel_1921_en.html",
+      "source_type": "原论文英文译文",
+      "scope": "热辐射熵、光量子假设及光电效应"
+    },
+    {
+      "source_id": "S26-04",
+      "title": "Roger Stuewer 2006: Einstein's Revolutionary Light-Quantum Hypothesis",
+      "url": "https://s3.cern.ch/inspire-prod-files-4/447e0b45371520bcc94f20a762d35407",
+      "source_type": "科学史研究论文入口",
+      "scope": "密立根、康普顿、BKS与量子接受历程；PDF未逐页复核"
+    },
+    {
+      "source_id": "S26-05",
+      "title": "CNRS: 1905 Einstein initiates quantum age",
+      "url": "https://news.cnrs.fr/articles/1905-einstein-initiates-the-quantum-age",
+      "source_type": "科研机构科学史访谈",
+      "scope": "对光量子与光电效应关系的谨慎诠释及密立根实验"
+    },
+    {
+      "source_id": "S26-06",
+      "title": "Compton 1923 original paper, Physical Review",
+      "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.21.483",
+      "source_type": "1923原论文出版社摘要",
+      "scope": "康普顿散射理论、收稿时间、波长位移公式"
+    },
+    {
+      "source_id": "S26-07",
+      "title": "APS: Arthur Holly Compton Laboratory history",
+      "url": "https://www.aps.org/funding-recognition/historic-sites/compton-laboratory",
+      "source_type": "学会历史资料",
+      "scope": "康普顿研究与1923论文"
+    },
+    {
+      "source_id": "S26-08",
+      "title": "APS Physics: Quantum Milestones, 1923: Photons Are Real",
+      "url": "https://physics.aps.org/articles/v18/18",
+      "source_type": "学会科学史科普",
+      "scope": "光量子实验接受与波动理论关系"
+    }
+  ],
+  "unresolved": [
+    "核查1905年德文论文和使用的英文译本之间的关键用词",
+    "对密立根实验开展逐页原始证据核对，明确1915实验/1916发表",
+    "康普顿1922-1923发现、投稿、发表与彼得德拜等并行贡献须补充",
+    "对BKS及1925年两组符合实验原文和理论接受节点核查",
+    "限定单光子线性光电效应和自由电子康普顿散射适用范围"
+  ]
+}
