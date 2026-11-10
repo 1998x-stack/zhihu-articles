@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "graph-theory-history",
   "title": "连接的秩序：图论三百年",
-  "reading_notice": "序章及01—18章为非虚构初稿，19—37章仍为规划占位；全书未通过独立审稿或终稿批准。",
+  "reading_notice": "序章00至第21章共22篇为有来源映射的历史科学非虚构工作初稿；第22—37章共16篇为待撰写的编辑占位。第19—21章完成随机图相变、塞迈雷迪正则性及最小生成树算法史的研究初稿并保留32条逐章主张映射。全书正式工作流审稿仍为PENDING，非终稿或知乎发布。",
   "chapters": [
     {
       "id": "prologue",
@@ -142,21 +142,21 @@
       "title": "19｜随机连线之后，巨大的连通块从何而来",
       "part": "第四部｜混乱中的必然",
       "file": "draft/19.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-20",
       "title": "20｜任意大图，都可以分成有规律的块吗",
       "part": "第四部｜混乱中的必然",
       "file": "draft/20.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-21",
       "title": "21｜把所有城市连起来，怎样最省线",
       "part": "第五部｜让定理成为程序",
       "file": "draft/21.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-22",
