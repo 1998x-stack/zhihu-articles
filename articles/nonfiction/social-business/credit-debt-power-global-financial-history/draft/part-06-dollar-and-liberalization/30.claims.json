@@ -5,194 +5,183 @@
   "revision": 25,
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "evidence_scope": "SEC archival disclosure, Federal Reserve/IMF event analyses and BIS historical releases; original exchange tape, trading strategies, bilateral OTC contract data unverified.",
+  "evidence_scope": "Secondary central-bank/IMF/BIS institutional research and selected original publications; independent full primary-edition audit pending.",
   "claims": [
     {
       "claim_id": "CH30-001",
-      "statement": "CBOE在1973年4月26日正式开展标准化股票期权交易",
+      "statement": "Cboe在1973年开始组织标准化上市股票期权交易",
       "source_ids": [
-        "F-3001"
+        "F-3002"
       ],
-      "classification": "exchange_history",
+      "classification": "market_institution_history",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "Cboe不同页面的首交易日期有待原始公告核定"
     },
     {
       "claim_id": "CH30-002",
-      "statement": "CBOE首日交易标的为16只股票的看涨期权",
+      "statement": "布莱克与斯科尔斯1973年发表期权定价相关原论文",
       "source_ids": [
         "F-3001"
       ],
-      "classification": "exchange_history",
+      "classification": "academic_primary_publication",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "衍生品在1973年前即存在，非从零发明"
     },
     {
       "claim_id": "CH30-003",
-      "statement": "1973年Black-Scholes和Merton论文奠定期权定价重要方法",
+      "statement": "期权定价依靠无套利与动态复制等理论关系",
       "source_ids": [
-        "F-3002"
+        "F-3001"
       ],
-      "classification": "financial_science_history",
+      "classification": "financial_theory",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "连续交易、价格过程等是理论假设"
     },
     {
       "claim_id": "CH30-004",
-      "statement": "1997经济学奖授予Scholes与Merton，Black已去世",
+      "statement": "远期互换期权能够改变现金流条件并转移特定风险",
       "source_ids": [
-        "F-3002"
+        "F-3001",
+        "F-3004"
       ],
-      "classification": "award_history",
+      "classification": "financial_mechanism",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "虚构出口商教学例子不为真实合同"
     },
     {
       "claim_id": "CH30-005",
-      "statement": "简化看涨期权买方拥有按约定价格购买标的的权利",
+      "statement": "1981年世界银行与IBM有货币互换融资安排",
       "source_ids": [
-        "F-3002"
+        "F-3004"
       ],
-      "classification": "contract_definition",
+      "classification": "swap_history",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "正式合同原件未独立查验"
     },
     {
       "claim_id": "CH30-006",
-      "statement": "看跌期权和动态对冲可用不同方式管理资产下跌风险",
+      "statement": "世界银行称1982财年货币互换名义交易规模约7.58亿美元",
       "source_ids": [
-        "F-3002",
-        "F-3003"
+        "F-3004"
       ],
-      "classification": "financial_instrument",
+      "classification": "historical_nominal_value",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "不等于净损失金额"
     },
     {
       "claim_id": "CH30-007",
-      "statement": "期权估值对标的价格、行权价、期限、利率和波动率敏感",
+      "statement": "世界银行称1983财年货币互换名义交易规模约17.3亿美元",
       "source_ids": [
-        "F-3002"
+        "F-3004"
       ],
-      "classification": "valuation_mechanism",
+      "classification": "historical_nominal_value",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "财年口径与当日余额不同"
     },
     {
       "claim_id": "CH30-008",
-      "statement": "定价与复制对冲依赖假设，不保证现实市场无摩擦",
-      "source_ids": [
-        "F-3002"
-      ],
-      "classification": "model_limits",
-      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
-    },
-    {
-      "claim_id": "CH30-009",
-      "statement": "1987年10月19日道指下跌22.6%",
+      "statement": "1987年10月19日道指单日跌幅约22.6%",
       "source_ids": [
         "F-3003"
       ],
-      "classification": "event_statistic",
+      "classification": "market_historical_data",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "仅道指当天，并非全部资产同步跌幅"
+    },
+    {
+      "claim_id": "CH30-009",
+      "statement": "动态投资组合保险可能在跌势中增加卖压并形成反馈",
+      "source_ids": [
+        "F-3003",
+        "F-3006"
+      ],
+      "classification": "market_microstructure",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是1987股灾唯一原因"
     },
     {
       "claim_id": "CH30-010",
-      "statement": "动态组合保险在下跌时通过卖出持仓或期货减少股市敞口",
+      "statement": "模型假设交易连续流动，危机时实际成交价与市场深度可能偏离",
       "source_ids": [
-        "F-3003",
-        "F-3004"
+        "F-3001",
+        "F-3006"
       ],
-      "classification": "hedging_mechanism",
+      "classification": "model_limit",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "理论模型非交易执行的担保"
     },
     {
       "claim_id": "CH30-011",
-      "statement": "同步对冲的卖单可能在市场流动性薄弱时放大价格压力",
+      "statement": "BIS1998年6月末场外衍生品名义本金约72万亿美元",
       "source_ids": [
-        "F-3003",
-        "F-3004"
+        "F-3005"
       ],
-      "classification": "market_feedback",
+      "classification": "otc_market_statistic",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "统计覆盖全球OTC未到期合约，非亏损"
     },
     {
       "claim_id": "CH30-012",
-      "statement": "1987年股灾并无组合保险单一决定论，交易设施与宏观因素亦重要",
+      "statement": "BIS1998年6月末相应总市值约2.6万亿美元",
       "source_ids": [
-        "F-3004",
         "F-3005"
       ],
-      "classification": "competing_explanations",
+      "classification": "otc_market_statistic",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "gross market value不等于净风险敞口"
     },
     {
       "claim_id": "CH30-013",
-      "statement": "场内标准化产品与场外互换在信用与清算风险结构上存在差异",
+      "statement": "名义本金、总市值、净风险敞口与损失是不同概念",
       "source_ids": [
-        "F-3001",
-        "F-3007"
+        "F-3005"
       ],
-      "classification": "institutional_comparison",
+      "classification": "measurement_distinction",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "需要考虑净额抵消与抵押"
     },
     {
       "claim_id": "CH30-014",
-      "statement": "1998年底全球OTC衍生品名义本金约80万亿美元",
+      "statement": "1998年LTCM危机涉及杠杆、流动性与交易对手相互依赖",
       "source_ids": [
+        "F-3007",
         "F-3006"
       ],
-      "classification": "bounded_statistic",
+      "classification": "ltcm_historical_case",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "不得归咎于某个公式单独错误"
     },
     {
       "claim_id": "CH30-015",
-      "statement": "衍生品名义本金不同于未偿债务本金、市场价值或净信用敞口",
+      "statement": "1998年9月23日14家私营银行券商约36亿美元重组LTCM",
+      "source_ids": [
+        "F-3007"
+      ],
+      "classification": "ltcm_recapitalization",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "纽约联储协调不等于使用联储资金直接注资"
+    },
+    {
+      "claim_id": "CH30-016",
+      "statement": "合同增加可能让特定风险被分散而系统网络敞口在某处重新集中",
+      "source_ids": [
+        "F-3005",
+        "F-3006"
+      ],
+      "classification": "systemic_risk_synthesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "说明可能机制，非普遍因果估计"
+    },
+    {
+      "claim_id": "CH30-017",
+      "statement": "风险管理须同时考察杠杆、保证金、市场流动性与交易对手信用",
       "source_ids": [
         "F-3006",
         "F-3007"
       ],
-      "classification": "statistical_boundary",
+      "classification": "risk_framework",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
-    },
-    {
-      "claim_id": "CH30-016",
-      "statement": "1987和1998危机中机构同步减仓与对手方风险可能相互放大",
-      "source_ids": [
-        "F-3008"
-      ],
-      "classification": "historical_comparison",
-      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
-    },
-    {
-      "claim_id": "CH30-017",
-      "statement": "衍生品对单一持有人可转移风险但不自动保证系统安全",
-      "source_ids": [
-        "F-3002",
-        "F-3008"
-      ],
-      "classification": "author_synthesis",
-      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
-    },
-    {
-      "claim_id": "CH30-018",
-      "statement": "中国1978后制度建设需在本国框架讨论，非国际模型直接复制",
-      "source_ids": [
-        "F-3002"
-      ],
-      "classification": "cross_chapter_transition",
-      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "研究性可读初稿；真实市场具体交易、模型假设及危机归因仍需原始记录与独立检验"
+      "caveat": "不能只靠期权定价公式衡量整体安全"
     }
   ]
 }

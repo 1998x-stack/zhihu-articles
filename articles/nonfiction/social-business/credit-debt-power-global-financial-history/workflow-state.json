@@ -70,14 +70,15 @@
     "CH27-1982-MEXICO-ORIGINAL-BANK-MORATORIUM-NOTICE",
     "CH27-1983-MEXICO-LOAN-FLOATING-RATE-CONTRACTS",
     "CH27-PETRODOLLAR-ORIGIN-AND-HETEROGENEITY",
-    "CH28-EURODOLLAR-1955-ORIGINAL-BANK-BOOKS",
-    "CH28-OFFSHORE-REGULATION-AND-CLEARING-PRIMARY",
-    "CH29-BOJ-RATES-LAND-PRICE-ORIGINAL-SERIES",
-    "CH29-MOF-1990-LENDING-RESTRICTION-ORIGINAL",
-    "CH30-1987-MARKET-TAPE-AND-BRADY-REPORT",
-    "CH30-1998-BIS-OTC-NET-EXPOSURE-PRIMARY"
+    "CH28-1955-1969-OFFSHORE-DOLLAR-PRIMARY-REGULATIONS",
+    "CH28-BIS-LOCATIONAL-STATS-ORIGINAL-SERIES",
+    "CH29-BOJ-NIKKEI-REAL-ESTATE-LOANS-PRIMARY-DATA",
+    "CH29-PLAZA-BOJ-POLICY-MULTICAUSAL-REVIEW",
+    "CH30-CBOE-1973-OPENING-DATE-PRIMARY",
+    "CH30-1981-SWAP-AND-1998-OTC-PRIMARY-CROSSCHECK",
+    "CH30-1987-PORTFOLIO-INSURANCE-1998-LTCM-PRIMARY-CHECK"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Revision25 (2026-11-09) produced research-level draft chapters 28–30, 21 new bibliographic records and 54 claim mappings; no automated gate pass, independent review or publication approval. Prior blockers retained and six chapter-specific archival tasks added. outline_approved=false, evidence_verified=false, review_status=CHANGES_REQUIRED."
+  "notes": "Research-level drafts chapters 28–30 in Revision25 (2026-11-09), 18 new secondary/institutional/academic source entries and 51 mapped claims. All formal gates remain blocked: outline_approved=false, evidence_verified=false, CHANGES_REQUIRED, unresolved original-edition checks, prior Revision24 reviews stale; no line edit or final publishing approval."
 }

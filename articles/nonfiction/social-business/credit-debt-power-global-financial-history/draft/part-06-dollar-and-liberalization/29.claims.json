@@ -5,201 +5,196 @@
   "revision": 25,
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "evidence_scope": "BOJ retrospective speeches and research, 1991 official white paper, IMF and NBER studies; original price series and regulator notices not publication-audited.",
+  "evidence_scope": "Secondary central-bank/IMF/BIS institutional research and selected original publications; independent full primary-edition audit pending.",
   "claims": [
     {
       "claim_id": "CH29-001",
-      "statement": "1989年12月末日经指数约38915点；股票与土地价格非同步见顶",
+      "statement": "1989年日经225指数年底约38915点",
       "source_ids": [
         "F-2901",
-        "F-2907"
+        "F-2902"
       ],
-      "classification": "market_chronology",
+      "classification": "market_historical_data",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "股市指数非全部日本财富"
     },
     {
       "claim_id": "CH29-002",
-      "statement": "1985年广场协议后日元迅速升值，构成日本经济背景",
+      "statement": "1992年8月日经225指数曾约14309点",
       "source_ids": [
-        "F-2902",
-        "F-2907"
+        "F-2901",
+        "F-2902"
       ],
-      "classification": "policy_context",
+      "classification": "market_historical_data",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "按交易日及价格指数口径待复核"
     },
     {
       "claim_id": "CH29-003",
-      "statement": "日本央行1986—1987年多次放松官方贴现率",
+      "statement": "1980年代金融自由化使日本银行面临大企业客户转向资本市场的竞争",
       "source_ids": [
-        "F-2901",
-        "F-2902"
+        "F-2904",
+        "F-2905"
       ],
-      "classification": "rate_timeline",
+      "classification": "banking_competition",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "银行间业务结构异质"
     },
     {
       "claim_id": "CH29-004",
-      "statement": "日本官方贴现率由5%降至2.5%，1989年5月以前未再调升",
+      "statement": "部分银行把业务转向房地产相关融资",
       "source_ids": [
-        "F-2902"
+        "F-2904",
+        "F-2905"
       ],
-      "classification": "official_rate",
+      "classification": "lending_allocation",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "不是所有银行皆同样风险"
     },
     {
       "claim_id": "CH29-005",
-      "statement": "日本央行1989年5月起提高贴现率，并于1990年继续紧缩",
+      "statement": "1985广场协议后日元显著升值并引起宏观政策权衡",
       "source_ids": [
-        "F-2901",
-        "F-2902"
+        "F-2901"
       ],
-      "classification": "rate_timeline",
+      "classification": "fx_policy_history",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "协议并非房地产泡沫唯一原因"
     },
     {
       "claim_id": "CH29-006",
-      "statement": "金融自由化后大型制造企业能更多通过证券市场融资",
+      "statement": "1986至1987初日本央行将贴现率从5%分次降至2.5%",
       "source_ids": [
-        "F-2903",
-        "F-2905"
+        "F-2901"
       ],
-      "classification": "bank_customer_change",
+      "classification": "official_rate_timeline",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "政策日期需原日银公告复核"
     },
     {
       "claim_id": "CH29-007",
-      "statement": "银行扩大房地产和中小企业贷款，关联客户结构调整",
+      "statement": "日本官方贴现率2.5%持续至1989年5月政策转向",
       "source_ids": [
-        "F-2903",
-        "F-2905"
+        "F-2901"
       ],
-      "classification": "financial_liberalization",
+      "classification": "official_rate_timeline",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "不等于银行贷款利率均为2.5%"
     },
     {
       "claim_id": "CH29-008",
-      "statement": "土地抵押估值上涨可能提高可借贷规模",
+      "statement": "1989至1990日本官方贴现率上调到约6%",
       "source_ids": [
-        "F-2902",
-        "F-2904"
+        "F-2901"
       ],
-      "classification": "author_balance_sheet_example",
+      "classification": "policy_timeline",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "不应归因于单一工具"
     },
     {
       "claim_id": "CH29-009",
-      "statement": "抵押品价格与贷款增长存在相互增强的可能",
+      "statement": "地价上涨提高担保估值并可能放大可获得信贷形成正反馈",
       "source_ids": [
-        "F-2904"
+        "F-2903"
       ],
-      "classification": "causal_mechanism",
+      "classification": "collateral_feedback",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "虚构抵押例子100-150和70%不为史实"
     },
     {
       "claim_id": "CH29-010",
-      "statement": "1990年前后股价转弱比地价调整更早",
-      "source_ids": [
-        "F-2901",
-        "F-2907"
-      ],
-      "classification": "market_chronology",
-      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
-    },
-    {
-      "claim_id": "CH29-011",
-      "statement": "低消费物价涨幅与资产价格泡沫可以同时存在",
-      "source_ids": [
-        "F-2907"
-      ],
-      "classification": "inflation_boundary",
-      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
-    },
-    {
-      "claim_id": "CH29-012",
-      "statement": "Ito与Iwaisako研究认为低利率与真实经济增长不足解释全部资产涨幅",
+      "statement": "房地产相关贷款变动有助于解释银行坏账差异",
       "source_ids": [
         "F-2904"
       ],
-      "classification": "research_finding",
+      "classification": "bank_risk_evidence",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "相关性不等于独立因果识别"
+    },
+    {
+      "claim_id": "CH29-011",
+      "statement": "IMF1993研究记载全部银行房地产贷款1985财年末约25.3万亿日元",
+      "source_ids": [
+        "F-2901"
+      ],
+      "classification": "historical_banking_data",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "行业口径与土地抵押全口径不同"
+    },
+    {
+      "claim_id": "CH29-012",
+      "statement": "相应余额1989财年末约48.8万亿日元",
+      "source_ids": [
+        "F-2901"
+      ],
+      "classification": "historical_banking_data",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "原始逐月央行表待复核"
     },
     {
       "claim_id": "CH29-013",
-      "statement": "1991政府白皮书记录房地产相关贷款结构变化",
+      "statement": "相应贷款占比约由9.1%升至12.3%",
       "source_ids": [
-        "F-2908"
+        "F-2901"
       ],
-      "classification": "government_series",
+      "classification": "historical_banking_data",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "口径为研究所用的全部银行贷款"
     },
     {
       "claim_id": "CH29-014",
-      "statement": "日本1990年前后调整涉及针对房地产贷款的行政监管",
+      "statement": "股票价格与土地价格可能因资金和抵押渠道联动",
       "source_ids": [
-        "F-2901",
-        "F-2902"
+        "F-2903"
       ],
-      "classification": "regulatory_history",
+      "classification": "asset_price_mechanism",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "股票与土地是不同权利标的"
     },
     {
       "claim_id": "CH29-015",
-      "statement": "股价和地价下跌引致抵押价值下降和银行资产损伤",
+      "statement": "1987美股单日股灾并未使日本资产价格立即同日峰值终结",
       "source_ids": [
-        "F-2902",
-        "F-2906"
+        "F-3003",
+        "F-2902"
       ],
-      "classification": "balance_sheet_effect",
+      "classification": "comparative_chronology",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "不可据此得出日本资产受完全隔绝"
     },
     {
       "claim_id": "CH29-016",
-      "statement": "银行问题贷款、监管宽容、贷款重组可延长调整过程",
+      "statement": "资产价格调整令固定债务、坏账与投资低迷相互强化",
       "source_ids": [
         "F-2905",
         "F-2906"
       ],
-      "classification": "bank_crisis_explanation",
+      "classification": "balance_sheet_recession",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "后续低增长还涉及多重结构和政策因素"
     },
     {
       "claim_id": "CH29-017",
-      "statement": "不能将日本泡沫完全归因于广场协议或某一次加息",
+      "statement": "学术研究对泡沫期日本市场参与者是否完全无视地产风险提出反证",
       "source_ids": [
-        "F-2902",
-        "F-2904",
-        "F-2905"
+        "F-2907"
       ],
-      "classification": "competing_explanation",
+      "classification": "competing_interpretation",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "不能由后见性推断人人当时非理性"
     },
     {
       "claim_id": "CH29-018",
-      "statement": "资产风险转移工具与泡沫的抵押融资机制之间不是同一直接因果",
+      "statement": "汇率、货币、金融监管、银行竞争和预期共同构成解释",
       "source_ids": [
+        "F-2901",
+        "F-2903",
         "F-2904",
-        "F-3002"
+        "F-2905"
       ],
-      "classification": "cross_chapter_caution",
+      "classification": "multicausal_synthesis",
       "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
-      "caveat": "原始银行报表、各类资产价格口径与政策文件仍待逐项核证；推断或例子不得称为原始交易"
+      "caveat": "不是已实现多因素数量化因果归属"
     }
   ]
 }

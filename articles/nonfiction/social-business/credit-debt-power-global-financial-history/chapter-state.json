@@ -524,21 +524,20 @@
     {
       "chapter": "28",
       "status": "draft-written",
-      "question": "银行怎样在美国境外创造和清算美元存贷款承诺",
-      "next_question": "日本国内为什么出现地产抵押和股价贷款的自我强化循环",
+      "question": "离岸美元如何在美国境外的银行账簿形成跨境美元债权链",
+      "next_question": "日本国内宽松与金融自由化如何让银行信贷流入土地股票并反过来增加风险",
       "sources": [
         "F-2801",
         "F-2802",
         "F-2803",
-        "F-2804",
-        "F-2805"
+        "F-2804"
       ]
     },
     {
       "chapter": "29",
       "status": "draft-written",
-      "question": "日本金融自由化、低利率和土地抵押怎样相互放大资产价格与银行坏账",
-      "next_question": "风险管理模型与衍生品是否真能让系统免于同步抛售",
+      "question": "日本1980年代银行贷款与土地抵押估值如何相互放大、破灭后为何难以修复",
+      "next_question": "期权、互换与动态对冲能否把单家机构风险转移为系统风险",
       "sources": [
         "F-2901",
         "F-2902",
@@ -547,14 +546,14 @@
         "F-2905",
         "F-2906",
         "F-2907",
-        "F-2908"
+        "F-3003"
       ]
     },
     {
       "chapter": "30",
       "status": "draft-written",
-      "question": "期权定价与动态对冲怎样转移个体风险却可能在市场压力期增强共同抛售",
-      "next_question": "改革开放后中国怎样建立自己的银行和资本市场制度",
+      "question": "1973后现代期权理论和衍生品交易如何转移风险、为什么共同对冲仍会形成连锁反馈",
+      "next_question": "改革开放后中国如何重建银行、交易所与资本市场并管理新型风险",
       "sources": [
         "F-3001",
         "F-3002",
@@ -562,8 +561,7 @@
         "F-3004",
         "F-3005",
         "F-3006",
-        "F-3007",
-        "F-3008"
+        "F-3007"
       ]
     }
   ],
@@ -571,5 +569,5 @@
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Prologue and chapters 01–30 research-level drafts. Revision25 wrote chapters 28–30 with 21 new literature leads and 54 claim mappings; total source ledger 331 rows. Publication-level original archival review, independent continuity and developmental review remain unpassed; chapter drafts do not imply workflow gates passed."
+  "notes": "Revision25 chapters 28–30 research-level drafts: 18 new source-ledger entries and 51 mapped claims. Upstream outline_approved=false and evidence_verified=false; original primary-source reviews remain blocked. Prior Revision24 QA reports not current for Revision25."
 }
