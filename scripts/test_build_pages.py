@@ -121,16 +121,22 @@ class PagesBuildTests(unittest.TestCase):
         discovered = discover_books(catalog, curated)
         self.assertEqual(len(discovered), 14)
         self.assertEqual(len({book["id"] for book in discovered}), len(discovered))
-        for book_id, drafts in (
-            ("deep-learning-history", 18),
-            ("reinforcement-learning-history", 15),
-            ("ledger-of-empire-china-fiscal-history", 12),
+        # Chapter counts change as independent series batches are drafted. Check
+        # discoverability and actual manifest/file integrity, not stale counters.
+        for book_id in (
+            "deep-learning-history",
+            "reinforcement-learning-history",
+            "ledger-of-empire-china-fiscal-history",
         ):
             entry = next(book for book in discovered if book["id"] == book_id)
             self.assertEqual(entry["source"]["repository"], "self")
             manifest = ROOT / entry["source"]["manifest"]
             chapters = json.loads(manifest.read_text(encoding="utf-8"))["chapters"]
-            self.assertEqual(sum(ch["status"] == "draft" for ch in chapters), drafts)
+            self.assertTrue(chapters)
+            self.assertTrue(any(ch["status"] == "draft" for ch in chapters))
+            for chapter in chapters:
+                self.assertIn(chapter["status"], ("draft", "outline"))
+                self.assertTrue((manifest.parent / chapter["file"]).is_file())
 
     def test_missing_manifest_fails_loudly(self):
         from unittest.mock import patch
