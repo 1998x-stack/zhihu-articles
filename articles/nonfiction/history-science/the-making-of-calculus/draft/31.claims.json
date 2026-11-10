@@ -1,23 +1,166 @@
 {
   "chapter": "31",
-  "status": "PENDING",
+  "title": "勒贝格：改变求和顺序，为什么能积分更多函数",
+  "status": "DRAFT_UNREVIEWED",
+  "revision": 0,
+  "source_register": [
+    "H178",
+    "H179",
+    "H180",
+    "H181",
+    "H182",
+    "H183",
+    "H184",
+    "H185",
+    "H186",
+    "H187",
+    "H177"
+  ],
   "claims": [
     {
       "id": "C31-01",
-      "statement": "极限与积分何时允许交换",
-      "source_candidates": [
-        "H10"
+      "kind": "history_original",
+      "statement": "Lebesgue 1901 April 29 note Sur une généralisation... Comptes rendus 132 pp1025–1028",
+      "source_ids": [
+        "H178",
+        "H183"
       ],
-      "verification": "PENDING"
+      "locator": "1901 primary transcription bibliographic header and MacTutor year",
+      "verification": "PRIMARY_TEXT_CHECKED"
     },
     {
       "id": "C31-02",
-      "statement": "测度与勒贝格积分",
-      "source_candidates": [
-        "H10"
+      "kind": "history_original",
+      "statement": "1901 p1025 contrasts partition x-values with partition y-values and references non-Riemann-integrable derivatives",
+      "source_ids": [
+        "H178",
+        "H186"
       ],
-      "verification": "PENDING"
+      "locator": "1901 original French note first page",
+      "verification": "PRIMARY_PASSAGE_CHECKED"
+    },
+    {
+      "id": "C31-03",
+      "kind": "history_publications",
+      "statement": "1902 doctoral Intégrale longueur aire and 1904 Leçons book after 1902–1903 teaching",
+      "source_ids": [
+        "H179",
+        "H180",
+        "H183"
+      ],
+      "locator": "MacTutor & 1904 original table of contents/preface",
+      "verification": "CROSS_CHECKED"
+    },
+    {
+      "id": "C31-04",
+      "kind": "history_contributors",
+      "statement": "Borel and Jordan prior measure/content concepts predated Lebesgue",
+      "source_ids": [
+        "H181",
+        "H182"
+      ],
+      "locator": "Lebesgue biography and secondary historical appraisal",
+      "verification": "QUALIFIED_SYNTHESIS"
+    },
+    {
+      "id": "C31-05",
+      "kind": "math_measure",
+      "statement": "Q∩[0,1] is countable Lebesgue null despite being dense in every interval",
+      "source_ids": [
+        "H184"
+      ],
+      "locator": "explicit countable interval cover total length<ε",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C31-06",
+      "kind": "math_definition",
+      "statement": "nonnegative simple measurable function s=Σ c_i1_Ei has integral Σ c_i μ(E_i)",
+      "source_ids": [
+        "H184"
+      ],
+      "locator": "modern measure integration construction",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C31-07",
+      "kind": "math_counterexample",
+      "statement": "Dirichlet indicator 1_Q Riemann nonintegrable but Lebesgue integral zero",
+      "source_ids": [
+        "H177",
+        "H184",
+        "H187"
+      ],
+      "locator": "Darboux U=1,L=0 and μ(Q)=0",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C31-08",
+      "kind": "math_example",
+      "statement": "s_m(x)=floor(mx)/m on [0,1) has integral (m-1)/(2m)→1/2",
+      "source_ids": [],
+      "locator": "Σ k/m·1/m=(m-1)/(2m)",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C31-09",
+      "kind": "math_example",
+      "statement": "finite rational support f_n indicator first n rationals Riemann integrable with integral 0",
+      "source_ids": [],
+      "locator": "finite exceptional points, upper sums arbitrarily small",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C31-10",
+      "kind": "math_limit",
+      "statement": "f_n increases pointwise to Dirichlet 1_Q which is not Riemann integrable",
+      "source_ids": [
+        "H177"
+      ],
+      "locator": "each rational eventually enumerated, each irrational always 0",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C31-11",
+      "kind": "math_theorem",
+      "statement": "modern monotone convergence for nonnegative measurable f_n increasing to f gives ∫f_n↑∫f",
+      "source_ids": [
+        "H184",
+        "H185"
+      ],
+      "locator": "university measure theory notes theorem 7.3",
+      "verification": "MATH_CHECKED_MODERN"
+    },
+    {
+      "id": "C31-12",
+      "kind": "math_boundary",
+      "statement": "Lebesgue integrability requires measurability; finite signed integral may require ∫|f|<∞, no arbitrary interchange",
+      "source_ids": [
+        "H184",
+        "H187"
+      ],
+      "locator": "modern measure/integrability conditions; 1/x positive integral ∞",
+      "verification": "QUALIFIED_MATH"
+    },
+    {
+      "id": "C31-13",
+      "kind": "editorial_bridge",
+      "statement": "measure and integration lead to L1 functional distance and Banach/Hilbert function spaces",
+      "source_ids": [
+        "H184",
+        "H181"
+      ],
+      "locator": "modern L1 norm and future chapter narrative",
+      "verification": "QUALIFIED_SYNTHESIS"
     }
   ],
-  "note": "初步研究问题，不是已核准的具体历史断言。完成正文后补文献位置。"
+  "caveats": [
+    "1901 short note, 1902 dissertation, 1904 lectures are different original publications and roles.",
+    "1901 y-value partition is an important explanatory perspective, but measurable sets and countable additivity remain necessary.",
+    "Borel and Jordan historical foundations acknowledged; no lone inventor myth.",
+    "Modern monotone convergence nonnegative measurable functions only; cannot exchange all limits and integrals.",
+    "No assertion that Lebesgue integral exists finitely for every function, including nonmeasurable indicators or 1/x.",
+    "School lecture PDF modern theorem source not fully screenshot-checked, source scope stated.",
+    "Full workflow stage gates and independent reviews remain PENDING."
+  ]
 }
