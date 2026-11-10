@@ -1,14 +1,14 @@
 # 看不见的场：一部电磁学的诞生与统一史
 
 <!-- SERIES_PROGRESS:START -->
-> **系列进度（自动核对，非出版许可）**：规划 34 篇 · 工作初稿 0 篇 · 策划占位 34 篇 · 已标记审定 0 篇 · 独立候审稿 22 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
+> **系列进度（自动核对，非出版许可）**：规划 34 篇 · 工作初稿 0 篇 · 策划占位 34 篇 · 已标记审定 0 篇 · 独立候审稿 25 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
 <!-- SERIES_PROGRESS:END -->
 
 *Fields of Light: The Making of Electromagnetism*
 
 > 一根载流导线为何能拨动磁针？一个空电容器的间隙里，为何需要位移电流？为什么求解电磁场会算出光速？当光被证明是电磁波之后，电与磁又如何重塑时间、空间与量子理论？
 
-**类型**：历史与科学发现／非虚构；**阶段**：全书纲目和章节规划已建立；**序章00及第01—21章已有独立候审稿，但系列级事实、审稿闸门仍未批准**。第22—33章仍为占位。
+**类型**：历史与科学发现／非虚构；**阶段**：全书纲目和章节规划已建立；**序章00及第01—24章已有独立候审稿，但系列级事实、审稿闸门仍未批准**。第25—33章仍为占位。
 **计划体量**：八部三十二章，另序章00与尾声33，共34篇；目标约14万—18万汉字（仅为策划值）。
 **叙事主线**：静电与磁石 → 持续电流 → 电流磁效应 → 电磁感应 → 场 → 位移电流 → 电磁波与光 → 相对论 → 量子电动力学 → 电弱统一。
 **读者**：具备中学物理基础的普通读者，重要公式给直觉、机制与适用条件三层解释。
@@ -56,9 +56,9 @@
 ### 第六部｜以太危机：电磁场改写空间和时间（1887—1915（与第五部交叉发展））
 
 - [21｜电磁波究竟相对于谁在传播（完整候审正文）](proposals/21.md)（[原占位](draft/21.md)，待正式闸门）
-- [22｜迈克耳孙—莫雷的零结果意味着什么](draft/22.md)（写作占位）
-- [23｜1905年，爱因斯坦为何从电与磁谈起](draft/23.md)（写作占位）
-- [24｜电场与磁场，可能只是时空的两张面孔](draft/24.md)（写作占位）
+- [22｜迈克耳孙—莫雷的零结果意味着什么（完整候审正文）](proposals/22.md)（[原占位](draft/22.md)，待正式闸门）
+- [23｜1905年，爱因斯坦为何从电与磁谈起（完整候审正文）](proposals/23.md)（[原占位](draft/23.md)，待正式闸门）
+- [24｜电场与磁场，可能只是时空的两张面孔（完整候审正文）](proposals/24.md)（[原占位](draft/24.md)，待正式闸门）
 
 ### 第七部｜量子革命：光不再只是经典波（1900—1950（与相对论发展平行））
 
@@ -76,7 +76,7 @@
 
 - [尾声33｜从琥珀到光子：看不见的场如何改变世界](draft/33.md)（占位）
 
-## 序章00与第01—21章研究候审稿
+## 序章00与第01—24章研究候审稿
 
 - [序章00候审正文（有注释与参考来源）](proposals/00.md)
 - [序章00主张及来源审阅记录](research/00-source-review.md)
@@ -104,6 +104,9 @@
 - [第19章候审正文：交流电机、变压输电与电流之争](proposals/19.md) · [来源审阅](research/19-source-review.md) · [主张矩阵](proposals/19.claims.json)
 - [第20章候审正文：没有电线，信号如何跨过海面](proposals/20.md) · [来源审阅](research/20-source-review.md) · [主张矩阵](proposals/20.claims.json)
 - [第21章候审正文：电磁波究竟相对于谁在传播](proposals/21.md) · [来源审阅](research/21-source-review.md) · [主张矩阵](proposals/21.claims.json)
+- [第22章候审正文：迈克耳孙—莫雷的零结果意味着什么](proposals/22.md) · [来源审阅](research/22-source-review.md) · [主张矩阵](proposals/22.claims.json)
+- [第23章候审正文：1905年，爱因斯坦为何从电与磁谈起](proposals/23.md) · [来源审阅](research/23-source-review.md) · [主张矩阵](proposals/23.claims.json)
+- [第24章候审正文：电场与磁场，可能只是时空的两张面孔](proposals/24.md) · [来源审阅](research/24-source-review.md) · [主张矩阵](proposals/24.claims.json)
 
 ## 创作档案
 
@@ -119,7 +122,7 @@
 
 ## 写作与核证说明
 
-遵循仓库 `AGENTS.md`、`docs/contracts.md` 的 **nonfiction** 分支：`topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → line-edit → final-approval`。本轮是占位交付，`outline_approved=false`、`evidence_verified=false`；不得据此跳过后续核实闸门。
+遵循仓库 `AGENTS.md`、`docs/contracts.md` 的 **nonfiction** 分支：`topic-development → fact-research → nonfiction-architect → nonfiction-writer → continuity-audit → developmental-editor → line-edit → final-approval`。本轮仅新增独立候审研究稿，正式 `draft/` 仍为策划占位；`outline_approved=false`、`evidence_verified=false`，不得据此跳过后续核实闸门。
 
 任何精确年代、实验仪器细节、直接引文、贡献归属、专利竞争与理论推导必须按章核查。每章 `draft/NN.claims.json` 中的空数组表示**尚未核实**，而非无需核实。不得编造真实科学家对话、心理活动或实验记录。
 
