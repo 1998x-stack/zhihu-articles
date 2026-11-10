@@ -486,3 +486,52 @@ CLIP 2021（DL134/DL135）双编码器对4亿图文配对计算匹配，对比�
 **玩具对比（自造）**：图像向量v=(1,0)，文本“猫”t₁=(0.8,0.6)、“车”t₂=(0,1)，均为单位向量，余弦相似0.8与0。softmax按温度τ=1，P(cat)=e^0.8/(e^0.8+e^0)≈0.690；图中“猫”获得较高配对分数**不等于图像生成，也不等于对照片内容完备理解**，概率取决候选类别和温度。
 
 **跨章逻辑**：24章2022 scaling→25章专题回到2016 AlphaGo→26章2020 CASP14/2021 Nature AlphaFold→27章2021图文表示/2022条件生成。25–27章展示不同科学任务与不同证据标准；28章对话系统与人类反馈/部署需另查证，不能推断由CLIP唯一直接引发。
+
+## 十四、第十批28—30章：ChatGPT/RLHF、国际开放生态、2024—2026推理与评测（截至2026-11-10）
+
+> **研究版本固定于2026-11-10。** 本批只把原始论文、官方产品档案、许可证和2026年同行评审/预印本研究用于中心史实及机制核查。2026年后续模型榜单不断变化，不使用实时排行榜数值；机构自报成绩保留对照条件，2026年预印本不假装同行评议通过。`DL140—DL161`仅支持第28—30章限定写作；独立双审仍PENDING。
+
+| Source | 等级/节点 | 研究与链接 | 准确支持范围与反证 |
+| --- | --- | --- | --- |
+| DL140 | NIPS 2017原论文 | [Christiano, Leike, Brown, Martic, Legg & Amodei, Deep Reinforcement Learning from Human Preferences](https://papers.nips.cc/paper_files/paper/2017/hash/d5e2c0adad503c91f91df240d0cd4e49-Abstract.html) | 游戏和模拟控制任务的人类片段偏好学习早于2022 InstructGPT；不是直接训练2017 ChatGPT |
+| DL141 | NeurIPS2022原始论文 | [Ouyang, Wu, Jiang等20作者, Training language models to follow instructions with human feedback](https://proceedings.neurips.cc/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract.html) | SFT示范→人类排序→奖励模型→PPO RLHF；1.3B InstructGPT在论文的特定提示集人类偏好评测中优于175B GPT3，不代表一切知识任务更强 |
+| DL142 | 官方产品历史公告2022-11-30 | [OpenAI, Introducing ChatGPT](https://openai.com/index/chatgpt/) | ChatGPT 2022-11-30研究预览，产品对话形式与RLHF相关；发布不是RLHF或所有Transformer的发明日；原公告承认貌似合理但错误回答和对提示敏感 |
+| DL143 | ACL 2022原始论文 | [Lin, Hilton & Evans, TruthfulQA: Measuring How Models Mimic Human Falsehoods](https://aclanthology.org/2022.acl-long.229/) | 817问题38类别；2022所测试旧系统中某些大模型更易重复错误信念；不能外推成2026任一模型具体成绩 |
+| DL144 | 2023 GPT4原始技术报告 | [OpenAI et al., GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | 2023-03 GPT4技术报告强调仍有幻觉和推理错误，内部评测改进不等于零误差、ChatGPT 2022与GPT4 2023不能倒写 |
+| DL145 | NeurIPS2023偏好优化原论文 | [Rafailov, Sharma, Mitchell, Manning, Ermon & Finn, Direct Preference Optimization](https://proceedings.neurips.cc/paper_files/paper/2023/hash/a85b405ed65c6477a4fe8302b5e06ce7-Abstract-Conference.html) | DPO用偏好配对直接优化目标，不需要单独奖励模型+PPO同一训练流程；不是宣称所有对齐只有DPO |
+| DL146 | Meta Llama2社区许可证2023-07-18 | [Meta, Llama 2 Community License Agreement](https://ai.meta.com/llama/license/) | 可获取权重、代码但自定义社区许可且大规模商业使用有月活700m门槛；不能把open-weight自动叫OSI open-source |
+| DL147 | 2024研究预印本/原始研究 | [Groeneveld et al., OLMo: Accelerating the Science of Language Models](https://arxiv.org/abs/2402.00838) | Ai2 OLMo 2024年连训练数据/代码/检查点一起开放，用于研究可复现；与只释放权重不同 |
+| DL148 | OSI 2024-10-28定义v1.0 | [Open Source Initiative, Open Source AI Definition 1.0](https://opensource.org/ai/open-source-ai-definition) | 开源AI应有使用/研究/修改/分享自由及训练数据足够信息、完整代码、参数，开放权重≠充分开源 |
+| DL149 | 官方Qwen团队2024-09-19 | [Qwen Team, Qwen2.5: A Party of Foundation Models](https://qwenlm.github.io/blog/qwen2.5/) | Qwen2.5多个模型体量，Apache2.0非覆盖所有版本，原官方称3B、72B非Apache2.0；许可证须逐型号确认 |
+| DL150 | 2025-05-14技术报告 | [Yang, Li, Yang等, Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) | Qwen3含稠密和MoE架构、thinking/non-thinking模式及预算控制，团队称系列模型Apache2.0；不能宣称是首个有思考的模型 |
+| DL151 | 2024-12-27技术报告 | [DeepSeek-AI, DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) | MoE 671B总参数、每token 37B激活；训练耗2.788m H800 GPU小时为论文报告并非所有研发成本或推理价格；MLA/DeepSeekMoE协同 |
+| DL152 | 2025-01/2025-09正式Nature | [DeepSeek-AI, DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning](https://www.nature.com/articles/s41586-025-09422-z) | 2025-01先公开原型，2025-09正式Nature；R1-Zero无SFT预置但有基础预训练+RL、完整R1有cold start/SFT/RL，不能混为‘全部不需监督’ |
+| DL153 | 原始模型仓库许可与蒸馏派生条件 | [DeepSeek-AI, DeepSeek-R1 README licensing](https://github.com/deepseek-ai/DeepSeek-R1) | 主体R1代码与权重MIT，蒸馏模型继承部分Qwen Apache与Llama自定义许可；不得一概宣布所有衍生MIT |
+| DL154 | 2022 NeurIPS原始论文 | [Dao, Fu, Ermon, Rudra & Ré, FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://proceedings.neurips.cc/paper/2022/hash/67d57c32e20fd0a7a302cb81d36e40d5-Abstract-Conference.html) | IO-aware tiling减少GPU HBM读写且计算精确attention；不是将原有全局数学注意力自动改为O(n)所有运算 |
+| DL155 | SOSP2023原始论文 | [Kwon, Li, Zhuang, Sheng, Zheng, Yu, Gonzalez, Zhang & Stoica, Efficient Memory Management for Large Language Model Serving with PagedAttention](https://doi.org/10.1145/3600006.3613165) | vLLM/PagedAttention KV cache分页管理、提高特定实验吞吐；不把论文2-4倍对照值泛化为所有硬件部署 |
+| DL156 | 2024-09-12官方研究公告 | [OpenAI, Learning to reason with LLMs (o1)](https://openai.com/index/learning-to-reason-with-llms/) | 2024-09公开o1-preview测试时较长推理与RL，报告性能随训练/测试算力增加而改善（特定实验），不是‘多写字就必对’ |
+| DL157 | 2025-01原始预印本 | [DeepSeek-AI, DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) | R1-Zero与R1不一样；GRPO与可验证结果奖励，生成推理文本的长度/正确性不能简单等同 |
+| DL158 | Nature 2026-01-28正式基准论文 | [CAIS, Scale AI & HLE Contributors, A benchmark of expert-level academic questions to assess AI capabilities](https://www.nature.com/articles/s41586-025-09962-4) | HLE约2500多领域专家编写封闭式可评分问题，分数只证明该评测目标结果，不能证明跨全部现实研究可靠 |
+| DL159 | 2026-08独立研究预印本 | [Fan, Cheng, Li, Liang, Zhou & Feizi, Thinking Hard, Not Smart: Reasoning Models Fail to Ration Test-Time Compute Across Questions](https://arxiv.org/abs/2608.07968) | 2026-08预印本提出多题共预算测评，发现多模型偏按题序分配思考token而非难度和价值；尚非正式独立复制的定论 |
+| DL160 | 2024-02论文开放前史 | [AI2, OLMo Release / accessible model flow](https://allenai.org/blog/hello-olmo-a-truly-open-llm-43f7e7359222) | 官方2024-02-01发布OLMo 7B并披露预训练数据与代码；不同于公开推理端点 |
+| DL161 | 2025论文与2019—2026跨年限制 | [Brown et al., Language Models are Few-Shot Learners (2020)](https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html) | 语言预测和few-shot上下文表现非人类式知识确保；第24章已核，可跨章引用 |
+
+### 第28章前置事实链与教学例子
+
+2017 Christiano等关于模拟任务的人类偏好强化学习，不得写成“ChatGPT在2017年就发布”。2022-03 Ouyang等InstructGPT论文：人工示范→SFT→比较偏好→训练奖励模型→PPO优化输出策略；1.3B模型在**限定的标注者偏好提示分布**上被选高于175B原GPT3（不同版本/条件），不能作为事实准确性、跨所有任务碾压结论。2022-11-30 ChatGPT作为交互研究预览发布，界面/多轮输入与模型训练目标相互配合；2023-03 GPT4是新阶段且仍有幻觉，不能将后续模型能力倒灌2022产品。2023 DPO作为不同偏好优化路径，禁止宣称PPO永远独占后训练。TruthfulQA 817/38是2022原论文测试，不能用来宣称2026任一模型具体正确率。
+
+**玩具例子**：两条虚构回答在3名标注者排序中A胜2、B胜1，简单偏好频率A=2/3；但不等于“回答A在世界上正确概率66.7%”。假设奖励模型分数rA=1.2，rB=0.2，softmax temperature=1 得P(A)=e^1.2/(e^1.2+e^.2)=1/(1+e^-1)≈0.7311，仅是作者概率归一化，不是原始PPO奖励定义或人类事实判定。比较SFT/偏好偏离知识正确与奖励模型的局限。
+
+### 第29章前置事实链与许可边界
+
+章节历史是**国际协作与多种开放制度**，不按个人国籍将成果划为国家竞争比分。2017原Transformer八作者、2015/2016 ResNet作者按所属论文机构与学术交流描述，不能从姓名断定国籍。2023 Meta Llama2自定义Community License有700m MAU附加授权门槛，即使权重可获得也不满足所有OSI1.0自由。2024 Ai2 OLMo公开训练数据+代码+权重与日志，体现可研究完整模型流程；2024 OSI定义v1.0对数据来源信息、训练/推理代码和参数的要求不只下载权重。2024-09 Qwen2.5版本许可有例外（3B和72B），不能将该系列均标Apache2.0；2025-05 Qwen3技术报告称系列Apache2.0，按每个模型具体版本核验。2024-12 DeepSeek-V3 MoE 671B total, 37B activated / token，只是激活参数数、不是单次显卡显存恰好37B；论文报告2.788m H800 GPU小时不等于总研发美元预算。2025-01 DeepSeek-R1主模型权重MIT，蒸馏基于Llama的派生各自许可另看，R1-Zero与正式R1训练流程不同。
+
+**玩具例子**：有8个专家、每次仅激活其中2个专家，设各有10M参数+共有5M，模型总计8*10+5=85M，假设每token激活参数2*10+5=25M，激活比例25/85≈29.41%。仅展示总参数/激活参数区别，非DeepSeek原模型。许可证矩阵：权重/代码/训练数据细节/商用限制可被独立填是/否/未知，缺证不补齐。
+
+### 第30章前置事实链与2026研究边界
+
+2022 FlashAttention依据内存层级减少精确attention IO，2023 vLLM PagedAttention减少KV缓存浪费及改善吞吐；**训练速度、每token生成延迟、端到端成本、单请求质量完全是不同指标**。2024-09 o1官方报道推理过程与测试时计算改善，机理描述仅限官方公开；2025 R1-Zero在基础模型上使用强化学习（非从零预训练）与结果校验、真实R1结合cold-start/SFT等。Qwen3 2025给thinking/non-thinking模式及预算选择；并不表明任意增加推理token无限收益。2026-01 Nature HLE 2500专家题测试不同能力，不能把模型答对题量作为全部真实世界可靠性保证。2026-08 Fan等六作者**预印本**在多题共享token预算下发现多款模型不能有效根据题目价值与难度分配tokens；这是针对固定实验设置的批判，不是全领域已证明的定理。发表截至2026-11-10。
+
+**玩具例子**：两题A值5分、B值1分，共分配10个思考单位；如果A使用6单位可解对，B使用4单位可解对，则6分；若各用5则A未达阈值、B正确，仅1分。人为指定阈值说明共享预算资源分配问题，**不能假装这就是论文模型真实实验**。另算假设一次答题原先1000输出tokens成本100单位，新增500推理tokens成本单价不变则token部分×1.5，不能推为真实API总费用×1.5，因为缓存、模型、请求和硬件条件都会变化。
+
+**写作闸门和交接**：DL140—DL161中的时间/方法/许可/指标限定支持28—30工作初稿；所有前述01—27独立双审仍PENDING。序章00与尾声31无本批写作许可，正式审核与终稿/发布未执行。
