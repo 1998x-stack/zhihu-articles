@@ -1,0 +1,200 @@
+{
+  "chapter": "27",
+  "title": "把电磁场变成量子：狄拉克打开的新门",
+  "manuscript_path": "proposals/27.md",
+  "document_status": "INDEPENDENT_CANDIDATE_NOT_FORMAL_DRAFT",
+  "workflow_review": "PENDING",
+  "evidence_status": "PARTIAL_PUBLIC_SOURCE_REVIEW",
+  "claims": [
+    {
+      "claim_id": "E27-01",
+      "statement": "狄拉克1927论文系统发展辐射的发射与吸收量子理论",
+      "kind": "原刊与研究史",
+      "section": "一、七",
+      "source_ids": [
+        "S27-01",
+        "S27-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-02",
+      "statement": "1925—1926玻恩、海森堡、约尔当有早期辐射场与量子方法贡献",
+      "kind": "科学史贡献归属",
+      "section": "一、七",
+      "source_ids": [
+        "S27-02",
+        "S27-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-03",
+      "statement": "经典电磁场可按正常模分解，量子化各模式是现代组织方法",
+      "kind": "现代理论",
+      "section": "三",
+      "source_ids": [
+        "S27-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-04",
+      "statement": "单模量子谐振子能级En=(n+1/2)ℏω与相邻间隔ℏω",
+      "kind": "现代教材公式",
+      "section": "四",
+      "source_ids": [
+        "S27-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-05",
+      "statement": "零点能与总场真空能量处理不等同，不能直接相加当作实际宇宙能量",
+      "kind": "理论边界",
+      "section": "四",
+      "source_ids": [
+        "S27-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-06",
+      "statement": "a†|n>=√(n+1)|n+1>, a|n>=√n|n-1>是现代玻色模式数目态表达",
+      "kind": "现代公式",
+      "section": "五",
+      "source_ids": [
+        "S27-02",
+        "S27-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-07",
+      "statement": "数目算符N=a†a计量固定模式占据数，与光子实体位置数不同",
+      "kind": "现代量子理论",
+      "section": "五",
+      "source_ids": [
+        "S27-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-08",
+      "statement": "n+1发射增强因子在适当相互作用和近似下联系自发/受激发射",
+      "kind": "理论解释",
+      "section": "六",
+      "source_ids": [
+        "S27-02",
+        "S27-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-09",
+      "statement": "爱因斯坦1916—1917年已有A/B辐射过程研究，不能归为狄拉克1927首创",
+      "kind": "历史贡献归属",
+      "section": "六",
+      "source_ids": [
+        "S27-04"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-10",
+      "statement": "狄拉克论文刊于Proceedings Royal Society A 114(767) 243—265",
+      "kind": "文献索引",
+      "section": "七",
+      "source_ids": [
+        "S27-01",
+        "S27-05"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-11",
+      "statement": "费米等人的后续发展与1940年代重整化QED不应并入1927年单一成果",
+      "kind": "科学史界限",
+      "section": "七、八",
+      "source_ids": [
+        "S27-02",
+        "S27-03"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-12",
+      "statement": "发射吸收与量子场的量子数变化不是普通经典小球储藏模型",
+      "kind": "理论解释",
+      "section": "九、十",
+      "source_ids": [
+        "S27-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-13",
+      "statement": "早期量子电动力学存在发散与自能挑战，后续第28章重整化不可提前算作完成",
+      "kind": "跨章发展",
+      "section": "八、十",
+      "source_ids": [
+        "S27-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    },
+    {
+      "claim_id": "E27-14",
+      "statement": "相干态并不拥有确定光子数，量子化不等于把波形切成小亮点",
+      "kind": "现代量子物理",
+      "section": "九",
+      "source_ids": [
+        "S27-02"
+      ],
+      "verification_status": "PARTIAL_PUBLIC_SOURCE_MATCH; original-language primary source / page-level / formula / expert verification pending"
+    }
+  ],
+  "source_index": [
+    {
+      "source_id": "S27-01",
+      "title": "Dirac 1927 emission and absorption of radiation, Royal Society",
+      "url": "https://doi.org/10.1098/rspa.1927.0039",
+      "source_type": "1927原论文DOI",
+      "scope": "卷114页243—265；发射吸收辐射量子理论"
+    },
+    {
+      "source_id": "S27-02",
+      "title": "Stanford Encyclopedia: Quantum Field Theory history",
+      "url": "https://plato.stanford.edu/entries/quantum-field-theory/qft-history.html",
+      "source_type": "学术编辑科学哲学与物理史综述",
+      "scope": "玻恩海森堡约尔当的贡献与狄拉克1927理论结构"
+    },
+    {
+      "source_id": "S27-03",
+      "title": "Ehberger 2022: Language of Dirac's theory of radiation",
+      "url": "https://link.springer.com/article/10.1007/s00407-022-00293-8",
+      "source_type": "同行评议科学史研究",
+      "scope": "1927理论原始语境、相对贡献及史学解释"
+    },
+    {
+      "source_id": "S27-04",
+      "title": "Stuewer 2006: Einstein's Revolutionary Light-Quantum Hypothesis",
+      "url": "https://s3.cern.ch/inspire-prod-files-4/447e0b45371520bcc94f20a762d35407",
+      "source_type": "科学史研究",
+      "scope": "1905—1925辐射量子与爱因斯坦早期辐射理论"
+    },
+    {
+      "source_id": "S27-05",
+      "title": "ScienceOpen Dirac 1927 bibliographic record",
+      "url": "https://www.scienceopen.com/document?vid=114d716f-71ae-4458-8f23-4e204f6841e3",
+      "source_type": "原刊书目信息索引",
+      "scope": "1927年3月发表与期刊卷页，非独立完整内容证据"
+    }
+  ],
+  "unresolved": [
+    "进一步核实1925—1927量子辐射各原始论文的实际投稿与发表顺序",
+    "核查1927狄拉克论文原始用词、方法与现代Fock态记号的差异",
+    "校核A/B系数历史归属、自发/受激发射的n+1因子条件",
+    "补充费米及约尔当1927—1930年代具体文章和署名贡献",
+    "第28章所述发散需分类，不以无限模总和泛化一切量子场问题"
+  ]
+}
