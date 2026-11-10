@@ -786,13 +786,15 @@
 | S164 | Keyulu Xu, Weihua Hu, Jure Leskovec, Stefanie Jegelka, “How Powerful Are Graph Neural Networks?”, arXiv 1 Oct 2018, *ICLR 2019*. https://arxiv.org/abs/1810.00826 | 后续GNN辨别力研究：一些邻域聚合方法不能区分某些非同构局部结构，不能声称任意GNN对所有非同构图都可识别 |
 | S165 | Nicolas Keriven, “Not Too Little, Not Too Much: A Theoretical Analysis of Graph (Over)Smoothing,” *NeurIPS 2022*. https://proceedings.neurips.cc/paper_files/paper/2022/hash/0f956ca6f667c62e0f71511773c86a59-Abstract-Conference.html | 后世对反复均值聚合可能过平滑的严格限定分析；不可把例子当作所有GNN必然失效的普遍定理 |
 
+| S166 | Réka Albert / Albert-László Barabási, “Statistical Mechanics of Complex Networks,” *Reviews of Modern Physics* 74(1) (30 Jan 2002), 47—97. https://doi.org/10.1103/RevModPhys.74.47；作者公开版本 https://www.barabasi.com/media/pub_imports/files/103.pdf | 后世系统综述精确BA度分布\\(P_k=2m(m+1)/[k(k+1)(k+2)]\\)、m=1时得到4/[k(k+1)(k+2)]及极限幂律k^{-3}；不将该精确主方程形式直接归为1999四页Science原文公式 |
+
 ### 章节事实与数学前提矩阵
 
 #### 第34章：增长 + 线性优先连接，不等于“现实普遍无标度”
 
 - \`P(k)\`表示度数为k的节点比例，不是某特定节点被连接的概率。经典BA每时刻新增一个顶点及m条边，新边选旧节点i的概率近似\(\Pi(i)=k_i/\sum_j k_j\)，给定独立选择及禁止多重边等实现时会有有限大小差别。
-- 对理想化m=1模型，平均场/主方程得到\((k+2)P_k=(k-1)P_{k-1}+2\mathbf1_{k=1}\)，于是\(P_k=4/[k(k+1)(k+2)]\sim4k^{-3}\)。明确渐近、大网络及特定模型假设，不假装所有m或所有增长法都有完全相同的**有限k**分布。
-- 自制“累计吸引”例：已有度数2、3、5三个旧顶点，总度数10，新节点只添一条边，命中概率0.2、0.3、0.5；这是规则的示范，不是1999论文真实采样。
+- 对理想化m=1模型，根据S166综述中的主方程/精确度分布分析得到\((k+2)P_k=(k-1)P_{k-1}+2\mathbf1_{k=1}\)，于是\(P_k=4/[k(k+1)(k+2)]\sim4k^{-3}\)。明确渐近、大网络及特定模型假设，不假装所有m或所有增长法都有完全相同的**有限k**分布。
+- 自制“累计吸引”例：五旧顶点A、B、C、D、E的边AB/AC/AD/AE/BC，度数(4,2,2,1,1)，和为10，新节点只添一条边，命中概率(0.4,0.2,0.2,0.1,0.1)；该有限简单图可实际构造，规则演示不是1999论文真实采样。
 - 高度不均≠独立验证幂律；使用S152的统计拟合注意事项与S153的2019反证研究保留争议；短平均路径/高聚类不自动推出幂律。
 - **34→35：** 即使知道谁是高连接枢纽，仍不知道图是否分成紧密群体；度分布忽略了边在群体内外的排布。
 
