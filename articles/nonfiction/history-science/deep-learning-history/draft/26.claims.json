@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "26",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific limited original papers, institutional records, publications and didactic calculations; complete independent full paper audit not yet performed",
+  "claims": [
+    {
+      "claim_id": "C26-01",
+      "claim": "2018 CASP13旧AlphaFold与2020 Nature Senior论文",
+      "source_ids": [
+        "DL127"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "CASP14所用系统不是旧势能模型",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C26-02",
+      "claim": "2020 CASP14 AlphaFold2盲测与2021 Jumper Nature发表",
+      "source_ids": [
+        "DL128",
+        "DL129"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "出版年份与竞赛年份严格分开",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C26-03",
+      "claim": "CASP14 median domain GDT_TS92.4仅特定盲测定义",
+      "source_ids": [
+        "DL129"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是92.4%蛋白全对",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C26-04",
+      "claim": "CASP14 median Cα RMSD95 0.96Å和次优2.8Å",
+      "source_ids": [
+        "DL128"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "对域和覆盖95%残基的指标，非任意原子误差",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C26-05",
+      "claim": "MSA与pair表示、Evoformer、结构模块、recycling",
+      "source_ids": [
+        "DL128",
+        "DL130"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "模型仍需要结构训练数据/进化序列，非从物理定律直接解出",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C26-06",
+      "claim": "2021人类蛋白组预测覆盖98.5%，confidence残基58%",
+      "source_ids": [
+        "DL131"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "覆盖不等于每条蛋白完整高置信",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C26-07",
+      "claim": "AlphaFold DB pLDDT和静态预测在无序多构象配体等限制",
+      "source_ids": [
+        "DL132",
+        "DL133"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "2024数据库规模不可倒灌CASP14",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C26-08",
+      "claim": "toy RMSD sqrt(14/3)约2.160Å",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "假设对应坐标已对齐，不是官方CASP求分",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

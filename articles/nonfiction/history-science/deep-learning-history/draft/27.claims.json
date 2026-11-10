@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "27",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific limited original papers, institutional records, publications and didactic calculations; complete independent full paper audit not yet performed",
+  "claims": [
+    {
+      "claim_id": "C27-01",
+      "claim": "2021 CLIP ICML 12作者双编码器与4亿图文对",
+      "source_ids": [
+        "DL134",
+        "DL135"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "学习表示/匹配，不是自身逐像素生成器",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C27-02",
+      "claim": "CLIP对比学习相关/不相关配对与文本零样本分类",
+      "source_ids": [
+        "DL134"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "具体类别集合、模板和数据分布约束",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C27-03",
+      "claim": "CLIP zero shot ImageNet比原ResNet50为论文限定对照",
+      "source_ids": [
+        "DL134"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "并非在所有视觉任务全面更优",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C27-04",
+      "claim": "2021 ALIGN 10作者约18亿噪声alt-text图文对",
+      "source_ids": [
+        "DL136"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "独立平行技术路线，数据噪声与可用性问题",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C27-05",
+      "claim": "2021第一代DALL-E文本/图像tokens自回归生成",
+      "source_ids": [
+        "DL137"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "与CLIP匹配目标不同",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C27-06",
+      "claim": "2022 DALL-E2 CLIP image latent先验与扩散解码器",
+      "source_ids": [
+        "DL138"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "CLIP embedding非可直接呈现的图片",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C27-07",
+      "claim": "2022 CVPR LDM视觉压缩潜空间扩散与交叉注意力条件",
+      "source_ids": [
+        "DL139"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "另一团队/架构，非DALL-E2内部阶段",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C27-08",
+      "claim": "toy单位向量余弦0.8vs0及softmax约0.690",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "仅2候选文本、tau1；分数不证明事实或生成",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

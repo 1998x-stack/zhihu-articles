@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "last_chapter": 24,
+  "last_chapter": 27,
   "manuscript_revision": 0,
   "chapter_status": {
     "10": "draft",
@@ -19,7 +19,10 @@
     "22": "draft",
     "23": "draft",
     "24": "draft",
-    "25": "outline",
+    "25": "draft",
+    "26": "draft",
+    "27": "draft",
+    "28": "outline",
     "00": "outline",
     "01": "draft",
     "02": "draft",
@@ -128,12 +131,24 @@
     {
       "chapter": "24",
       "coverage": "2020-01 Kaplan规模幂律；2020-05 GPT3 175B参数上下文fewshot无梯度更新；2022 Chinchilla70B/约1.4T tokens与Gopher280B固定预算比较"
+    },
+    {
+      "chapter": "25",
+      "coverage": "2015对樊麾5:0、Nature2016 AlphaGo监督+自我对弈/策略价值MCTS、2016李世石4:1、Nature2017 Zero对旧程序100:0、2018 AlphaZero Science"
+    },
+    {
+      "chapter": "26",
+      "coverage": "2018 CASP13旧AlphaFold/2020 Nature；2020 CASP14新AlphaFold2/2021 Nature，结构域median GDT_TS92.4、Cα RMSD95约0.96Å；2021人类蛋白质组覆盖98.5%、可信残基58%"
+    },
+    {
+      "chapter": "27",
+      "coverage": "2021 CLIP约4亿双塔图文对比与ALIGN约18亿噪声图文对；2021 DALL-E自回归文图tokens；2022 DALL-E2 CLIP潜表示先验+扩散decoder及另一条LDM压缩潜空间交叉注意力"
     }
   ],
   "unresolved_clues": [
-    "25章：2016 AlphaGo为何需要深网络、蒙特卡洛树搜索与强化学习协作？",
-    "26章：AlphaFold2如何评估蛋白质结构预测的科学意义与限制？",
-    "27章：视觉—文本共享表示和跨模态条件生成在什么实验条件下出现？"
+    "28章：指令微调、人类反馈与2022公开对话式产品之间真实先后及贡献如何核实？",
+    "29章：开源模型的权重发布、许可与研究可复现如何区分？",
+    "30章：2024—2026高效推理、规模与能力评测有哪些可验证进展与限制？"
   ],
   "resolved_clues": [
     "第01章数学形式化为何能表达明确计算",
@@ -159,7 +174,10 @@
     "21章区分2014 GAN和VAE、2015扩散、2019 score、2020 DDPM、2022潜空间扩散，并保留2017时间回溯说明",
     "22章对NeurIPS2017 PDF/网页/arxiv有差异的BLEU指标做版本记录，QKV scaled-dot toy输出1可复算",
     "23章ELMo/ULMFiT/GPT/BERT训练目标及2018/2019年份分开，MLM比例采用150→120/15/15",
-    "24章测试交叉熵经验律≠全部智能，GPT3 few-shot推断无梯度更新，Chinchilla更小却用更多token"
+    "24章测试交叉熵经验律≠全部智能，GPT3 few-shot推断无梯度更新，Chinchilla更小却用更多token",
+    "25章策略网络先验可与搜索访问分布不同，2015/2016/2017比赛对象区别已保留",
+    "26章CASP14结构域GDT_TS92.4与Cα RMSD95 0.96Å不同量纲，AF2不等于2018旧版本",
+    "27章CLIP图文对齐/检索不等于文生图本体，DALL-E1/2/LDM分属不同生成机制"
   ],
   "continuity_notes": [
     "第01章历史数学前史为多文明并行比较，无暗示直接传授",
@@ -205,7 +223,15 @@
     "BERT2018-10首版/2019正式会议，MLM15%选中token的80/10/10策略与全体token分母不同",
     "2022 Chinchilla70B/约1.4T token、Gopher280B，同算力对比，20token/参数非普遍定律",
     "25章回溯2016/17 AlphaGo是专题编排，不是2022语言模型规模必然结果",
-    "第01—24章均待独立连续性事实审稿与结构审稿（PENDING）"
+    "第01—24章均待独立连续性事实审稿与结构审稿（PENDING）",
+    "第24章2022算力规模研究→第25章按专题回到2016 AlphaGo；不是Chinchilla衍生围棋系统",
+    "2015樊麾5:0；2016李世石4:1第四局败；2017 Zero100:0对先前发表旧AlphaGo程序而非人类",
+    "2017 AlphaGo Zero不使用人类棋谱监督，但仍有围棋规则、算力和MCTS；2018 AlphaZero正式Science不等于2017 AlphaGo Zero同一模型",
+    "2018 CASP13旧AlphaFold与2020 CASP14新AlphaFold2模型不同；2021 Nature发表；2021人类蛋白质组覆盖98.5%≠全部残基高置信",
+    "蛋白质结构预测≠动态功能解释，GDT_TS分数≠正确蛋白质百分比，RMSD95为特定结构域口径",
+    "2021 CLIP12作者图文对比4亿对，ALIGN同期10作者18亿噪声对；CLIP零样本分类不是直接生成图像",
+    "2021 DALL-E原版自回归、2022 DALL-E2 CLIP latent prior+diffusion decoder、2022 LDM压缩潜空间cross-attention三者分开",
+    "第01—27章全为PENDING独立双重审稿工作初稿，不自动发布"
   ],
   "review_status": "PENDING",
   "progress_summary": {

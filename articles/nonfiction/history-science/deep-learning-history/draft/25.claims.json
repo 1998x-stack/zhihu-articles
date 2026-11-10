@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "work": "deep-learning-history",
+  "chapter": "25",
+  "lane": "nonfiction",
+  "manuscript_revision": 0,
+  "status": "working_draft",
+  "independent_reviewed": false,
+  "review_status": "PENDING",
+  "evidence_scope": "chapter-specific limited original papers, institutional records, publications and didactic calculations; complete independent full paper audit not yet performed",
+  "claims": [
+    {
+      "claim_id": "C25-01",
+      "claim": "2016 Nature Silver/Huang等AlphaGo策略网络、价值网络与MCTS协作",
+      "source_ids": [
+        "DL123"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不把深度网络单独看成完成全部搜索",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C25-02",
+      "claim": "旧AlphaGo人类高手棋谱监督学习与自我对弈强化学习组合",
+      "source_ids": [
+        "DL123"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不同AlphaGo Zero只靠规则与自我对弈",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C25-03",
+      "claim": "2015樊麾5比0与2016李世石4比1赛事年份对手不同",
+      "source_ids": [
+        "DL123",
+        "DL124"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "2016第四局李世石胜，不写成AlphaGo不败",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C25-04",
+      "claim": "2017 AlphaGo Zero Nature只用规则与自我对弈强化学习",
+      "source_ids": [
+        "DL125"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "仍需已知规则、算力、搜树，不是无先验的现实通用智能",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C25-05",
+      "claim": "Zero100比0战胜此前发表的AlphaGo而非人类棋手",
+      "source_ids": [
+        "DL125"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "不是100场与李世石对战",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C25-06",
+      "claim": "2017预印本与2018 Science AlphaZero扩展三棋类",
+      "source_ids": [
+        "DL126"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "SCOPED_VERIFIED",
+      "limitations": "同一学习思路不等于所有规则未知任务解决",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C25-07",
+      "claim": "假设先验0.6/0.3/0.1与访问10/30/10归一化0.2/0.6/0.2",
+      "source_ids": [
+        "AUTHOR_DERIVATION"
+      ],
+      "kind": "didactic",
+      "evidence_level": "VERIFIED_DERIVATION",
+      "limitations": "自造简化MCTS输出，不是论文中的搜树公式",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    },
+    {
+      "claim_id": "C25-08",
+      "claim": "胜率估计、搜索决策、实际胜负三个量不得合并",
+      "source_ids": [
+        "DL123",
+        "DL125"
+      ],
+      "kind": "historical_or_technical",
+      "evidence_level": "TECHNICAL_QUALIFIED",
+      "limitations": "价值估计需要校准，不能当保证结果",
+      "checked_at_scoped_research_stage": true,
+      "independent_reviewed": false
+    }
+  ]
+}

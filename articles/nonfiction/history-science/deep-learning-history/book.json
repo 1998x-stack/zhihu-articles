@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "deep-learning-history",
   "title": "让机器学会学习：一部深度学习发展史",
-  "reading_notice": "第01—24章共24篇完整历史科学非虚构工作初稿及逐章主张；序章00与第25—31章共8篇仍为规划占位。各批完成中心出版史、原始论文摘要及教学例题限域核证，独立事实与结构双重审稿、语言精修、终稿批准尚未完成。",
+  "reading_notice": "第01—27章共27篇有真实历史科学非虚构工作初稿及逐章主张映射；序章00与28—31章共5篇仍为策划占位。各批前置核查仅限中心论文与机制和教学例题，独立事实/连续性与结构双重审稿、语言精修、终稿批准、发布均未完成。",
   "outline_approved": true,
   "evidence_verified": true,
   "parts": [
@@ -531,10 +531,15 @@
       "part": "第九部｜智能进入棋盘、实验室和多模态",
       "period": "2016—2017（专题回溯）",
       "file": "draft/25.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R15"
-      ]
+        "DL123",
+        "DL124",
+        "DL125",
+        "DL126"
+      ],
+      "claims_file": "draft/25.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-26",
@@ -543,10 +548,18 @@
       "part": "第九部｜智能进入棋盘、实验室和多模态",
       "period": "2020—2021（专题回溯）",
       "file": "draft/26.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R16"
-      ]
+        "DL127",
+        "DL128",
+        "DL129",
+        "DL130",
+        "DL131",
+        "DL132",
+        "DL133"
+      ],
+      "claims_file": "draft/26.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-27",
@@ -555,11 +568,17 @@
       "part": "第九部｜智能进入棋盘、实验室和多模态",
       "period": "2021—2022",
       "file": "draft/27.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R23",
-        "R17"
-      ]
+        "DL134",
+        "DL135",
+        "DL136",
+        "DL137",
+        "DL138",
+        "DL139"
+      ],
+      "claims_file": "draft/27.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-28",
@@ -619,6 +638,6 @@
       ]
     }
   ],
-  "outline_scope": "按来源约束的细纲仅01—24章",
-  "evidence_scope": "限定中心史实与教学算例仅01—24章"
+  "outline_scope": "按来源约束的细纲限第01—27章",
+  "evidence_scope": "仅第01—27章中心史实、出版数据、实验边界与教学例题限域研究"
 }
