@@ -23,9 +23,9 @@
 | 19 | GT19-01—GT19-10：Gilbert/Erdős–Rényi 1959—1960、G(n,p)/G(n,m)、c=1巨型分量与连通阈值分离 | S87—S90、S84（详见research.md） | VERIFIED_SCOPED（仅19；渐近/现代推演与史料分列） |
 | 20 | GT20-01—GT20-10：ε正则对/大多数块对、能量递增、1975弱二分图与1978一般图出版 | S91—S95（详见research.md） | VERIFIED_SCOPED（仅20；证明为现代简述） |
 | 21 | GT21-01—GT21-12：割性质及交换论证、Borůvka 1926、Jarník 1930、Kruskal 1956、Prim 1957与优先权 | S96—S100（详见research.md） | VERIFIED_SCOPED（仅21；五城算例为现代构造） |
-| 22 | GT22-01：最短路、松弛与非负权的Dijkstra算法 | S01、S08、S15 | TODO_VERIFY |
-| 23 | GT23-01：最大流—最小割、增广路与残量网络 | S01、S08、S15 | TODO_VERIFY |
-| 24 | GT24-01：匈牙利方法、花朵算法、奇圈收缩 | S01、S08、S15 | TODO_VERIFY |
+| 22 | GT22-01—GT22-11：最短路与松弛、非负Dijkstra、Ford/Bellman/Moore史学、负权反例及复杂度 | S101—S105（研究范围见research.md） | VERIFIED_SCOPED（仅22；非负边权与史料边界） |
+| 23 | GT23-01—GT23-13：容量守恒、残量反向边、最大流—最小割、1956两篇论文及1972路径选择研究 | S106—S109（详见research.md） | VERIFIED_SCOPED（仅23；现代证明/历史原文区分） |
+| 24 | GT24-01—GT24-13：极大与最大匹配、Berge增广路径、Kuhn1955指派、Edmonds1965花朵及收缩展开 | S110—S114（详见research.md） | VERIFIED_SCOPED（仅24；自制六点示例另证） |
 | 25 | GT25-01：NP完全性、归约与P/NP问题 | S01、S08、S15 | TODO_VERIFY |
 | 26 | GT26-01：近似算法、参数化算法与启发式的保证差异 | S01、S08、S15 | TODO_VERIFY |
 | 27 | GT27-01：图拉普拉斯与代数连通度 | S01、S06、S11 | TODO_VERIFY |
