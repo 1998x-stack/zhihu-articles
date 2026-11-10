@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0",
+  "chapter": "18",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "本批针对一手1999 Options论文、1994 Boyan-Moore、1995 Baird、1997 Tsitsiklis-Van Roy及2009梯度TD论文和2018权威教材做限定证据核查。现代教学数字均与历史实验分离。未完成独立双审/终审。",
+  "alias_to_research_source_id": {
+    "T01": "R01",
+    "T03": "R79",
+    "T04": "R77",
+    "T05": "R78",
+    "T06": "R80",
+    "T07": "R13",
+    "T08": "R81"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-18-01",
+      "claim": "Sutton Barto第2版教材第11章§11.3系统称函数逼近、自举与离策略训练为deadly triad",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "modern_attribution",
+      "section": "一、二｜三角",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-02",
+      "claim": "三者组合存在失稳风险，但不能推断所有算法/参数下必然发散",
+      "source_ids": [
+        "R01",
+        "R79",
+        "R78"
+      ],
+      "kind": "scope_boundary",
+      "section": "一、十｜条件",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-03",
+      "claim": "半梯度TD使用当前状态价值对w的梯度，忽略目标端Vnext对w的变化",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "modern_method",
+      "section": "三、七｜更新",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-04",
+      "claim": "原创选择性采样A→B、Vhat(A)=w,Vhat(B)=2w，gamma=.9,alpha=.1给w_{n+1}=1.08w_n",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "三｜标量反馈",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-05",
+      "claim": "w0=1时十次≈2.158925，三十次≈10.062657",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "三｜增长",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-06",
+      "claim": "标量示例仅说明反馈放大与非自然状态采样，不是完整Baird反例或一般离策略发散定理",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "example_boundary",
+      "section": "三｜明确限制",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-07",
+      "claim": "Baird1995论文指出即使线性函数逼近，朴素TD控制方法也可能不稳定",
+      "source_ids": [
+        "R79"
+      ],
+      "kind": "primary_result",
+      "section": "四｜1995",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-08",
+      "claim": "教材所列Baird七状态反例有全零奖励、行为虚线6/7实线1/7，目标偏向实线",
+      "source_ids": [
+        "R01",
+        "R79"
+      ],
+      "kind": "historical_example",
+      "section": "四｜七状态",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-09",
+      "claim": "Baird研究残差梯度/残差算法，探讨稳定与速度折中而非彻底解决任何方法",
+      "source_ids": [
+        "R79"
+      ],
+      "kind": "primary_method",
+      "section": "四、七",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-10",
+      "claim": "Boyan Moore1994指出DP函数逼近可能得到错误策略而不仅是权重发散",
+      "source_ids": [
+        "R77"
+      ],
+      "kind": "primary_result",
+      "section": "五｜错误决策",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-11",
+      "claim": "Tsitsiklis Van Roy1997线性TD正定理需要在线目标链采样等条件，同时有反例",
+      "source_ids": [
+        "R78"
+      ],
+      "kind": "primary_theory",
+      "section": "六｜正反条件",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-12",
+      "claim": "2009 Sutton等GTD2/TDC解决某些线性离策略TD稳定性问题，适用范围有限",
+      "source_ids": [
+        "R80"
+      ],
+      "kind": "primary_result",
+      "section": "八｜回应",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-13",
+      "claim": "2009 Maei等研究光滑非线性逼近下受限局部收敛，不等于所有神经网络全局保证",
+      "source_ids": [
+        "R81"
+      ],
+      "kind": "primary_result",
+      "section": "文末｜后续研究",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-14",
+      "claim": "经验回放能复用样本并减弱序列相关性，但不自动消除离策略分布问题",
+      "source_ids": [
+        "R01",
+        "R13"
+      ],
+      "kind": "modern_limit",
+      "section": "九｜下一章",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-18-15",
+      "claim": "2015 DQN采用经验回放和目标网络，不能当作三角普遍数学收敛证明",
+      "source_ids": [
+        "R13",
+        "R01"
+      ],
+      "kind": "historical_limit",
+      "section": "九｜DQN",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "简化标量模型故意只重放A→B样本，不是经典Baird正式离策略反例",
+    "Baird七状态的全部特征向量、初始化与概率细节最终审稿需逐页核对；本稿只使用教材已核限域事实",
+    "1997正面定理与2009GTD2/TDC应严格区分适用条件",
+    "回放可能改善工程训练但并不自动化解deadly triad，不能写成通用收敛定理"
+  ]
+}

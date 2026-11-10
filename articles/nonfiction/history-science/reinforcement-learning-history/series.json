@@ -3,7 +3,7 @@
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
   "status": "drafting",
-  "reading_notice": "第01—15章均为尚未独立双审的非虚构工作初稿，拥有逐章claims JSON及指定范围的来源核对；序章、尾声和第16—32章共19个位置仍为策划占位。未完成全书核证、终稿或任何平台发布。",
+  "reading_notice": "01—18章已有各自限定范围来源核证的非虚构工作初稿及逐章claims JSON；序章、尾声和19—32章共16个叙事单元仍为策划占位。全书未完成独立双审、全部原文逐页核证、终稿或发布。",
   "parts": [
     {
       "number": 1,
@@ -348,31 +348,45 @@
       "title": "Options：机器为什么总要一步一步想",
       "part": "第四部｜从评估行动到学习策略",
       "path": "draft/16.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R11"
-      ]
+        "R75",
+        "R76",
+        "R01"
+      ],
+      "claims_path": "draft/16.claims.json"
     },
     {
       "id": "17",
       "title": "再给价值函数装上神经网络：推广经验的诱惑",
       "part": "第五部｜表格装不下世界",
       "path": "draft/17.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
+        "R68",
+        "R71",
+        "R77",
         "R01",
-        "R09"
-      ]
+        "R78"
+      ],
+      "claims_path": "draft/17.claims.json"
     },
     {
       "id": "18",
       "title": "致命三角：三个合理方法为什么放在一起会出错",
       "part": "第五部｜表格装不下世界",
       "path": "draft/18.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R01"
-      ]
+        "R01",
+        "R79",
+        "R78",
+        "R77",
+        "R80",
+        "R81",
+        "R13"
+      ],
+      "claims_path": "draft/18.claims.json"
     },
     {
       "id": "19",
@@ -531,5 +545,5 @@
     }
   ],
   "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段",
-  "last_batch": "batches/13-15.md"
+  "last_batch": "batches/16-18.md"
 }

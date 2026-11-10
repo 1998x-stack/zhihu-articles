@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "第01—15章已有未独立双审的正文初稿及逐章claims JSON；第五批13—15：REINFORCE策略梯度、跨1983—1999的Actor-Critic和TD-Gammon版本史。review_status=PENDING，没有编辑、封版或发布许可。",
-  "evidence_scope": "仅第01—15章所列特定主张的论文原文、可访问摘要与出版记录完成限定范围前置写作核对；第13—15章部分原始证明、图表仍未全部独立复核；序章、尾声与第16—32章19个单元没有核证准入。",
-  "outline_scope": "仅第01—15章完成受所列来源支持的非虚构章节结构，准入工作初稿；第16—32章、序章和尾声仍属研究与结构待核内容。"
+  "stage_note": "第01—18章已有非虚构未独立双审工作初稿和逐章claims JSON；第六批16—18聚焦Options时间抽象、价值函数近似与deadly triad受限反例。review_status=PENDING，未封版/未发布。",
+  "evidence_scope": "仅第01—18章具体历史出版信息和部分一手原文/定义的限定范围前置写作核查；第16—18章尚有完整证明、图表和Baird初始数值等独立二审未做；其余16个单元无本批史实准入。",
+  "outline_scope": "第01—18章有来源对应、可交给工作初稿写作的章节结构；第19—32章、序章和尾声仍为研究/大纲候选，无当前阶段写作准入。"
 }

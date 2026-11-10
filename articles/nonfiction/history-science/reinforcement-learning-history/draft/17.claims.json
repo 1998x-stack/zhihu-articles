@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "chapter": "17",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "本批针对一手1999 Options论文、1994 Boyan-Moore、1995 Baird、1997 Tsitsiklis-Van Roy及2009梯度TD论文和2018权威教材做限定证据核查。现代教学数字均与历史实验分离。未完成独立双审/终审。",
+  "alias_to_research_source_id": {
+    "A01": "R71",
+    "A02": "R77",
+    "A03": "R01",
+    "A04": "R78",
+    "A05": "R79"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-17-01",
+      "claim": "Tesauro于1992-95已使用神经TD函数逼近训练双陆棋估值，非DQN时代才首次出现",
+      "source_ids": [
+        "R68",
+        "R71"
+      ],
+      "kind": "historical_fact",
+      "section": "二｜前驱",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-17-02",
+      "claim": "Boyan与Moore在1994 NeurIPS论文强调早年多项式逼近与TD-Gammon研究，神经不是唯一近似器",
+      "source_ids": [
+        "R77"
+      ],
+      "kind": "primary_context",
+      "section": "二｜1990年代",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-17-03",
+      "claim": "函数逼近共享参数w而非每状态单独一行，可同时影响相似状态估值",
+      "source_ids": [
+        "R01",
+        "R77"
+      ],
+      "kind": "modern_definition",
+      "section": "三｜共享",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-17-04",
+      "claim": "线性近似Vhat=w^Tphi和样本平方误差更新为现代教学表达",
+      "source_ids": [
+        "R01"
+      ],
+      "kind": "modern_math",
+      "section": "三、四｜线性模型",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-17-05",
+      "claim": "两状态特征A(1,1),B(1,.9)且w(2,3)，监督目标6一次更新后B从4.7改至4.89",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "四｜原创例",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-17-06",
+      "claim": "神经网络是非线性函数逼近器，仍须区分输入编码、手工特征与泛化",
+      "source_ids": [
+        "R01",
+        "R71"
+      ],
+      "kind": "modern_interpretation",
+      "section": "五｜神经表示",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-17-07",
+      "claim": "Boyan Moore1994证明直接DP+近似可能不稳、产生错误策略，并讨论Grow-Support",
+      "source_ids": [
+        "R77"
+      ],
+      "kind": "primary_result",
+      "section": "六｜1994警报",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-17-08",
+      "claim": "Tsitsiklis Van Roy1997在线目标链轨迹中的线性TD有条件概率一收敛及误差界",
+      "source_ids": [
+        "R78"
+      ],
+      "kind": "primary_theorem_scope",
+      "section": "七｜收敛",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-17-09",
+      "claim": "1997论文同时展示非自然采样可能发散及非线性近似风险",
+      "source_ids": [
+        "R78"
+      ],
+      "kind": "primary_counterexample",
+      "section": "七｜反面",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-17-10",
+      "claim": "函数逼近的表示误差与学习更新稳定性是不同问题",
+      "source_ids": [
+        "R01",
+        "R77",
+        "R78"
+      ],
+      "kind": "technical_boundary",
+      "section": "九｜概念区分",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-17-11",
+      "claim": "1994 NeurIPS会议年份与后续卷7论文集引用出版年应分开",
+      "source_ids": [
+        "R77"
+      ],
+      "kind": "publication_note",
+      "section": "文末",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-17-12",
+      "claim": "Boyan Moore批评并非断言所有神经价值学习不可能成功",
+      "source_ids": [
+        "R77",
+        "R71"
+      ],
+      "kind": "evidence_limit",
+      "section": "六｜不滥推",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "1994会议年份/1995印刷年须在正式引文格式复核",
+    "原作者数学例子用外部监督目标，不可当作TD算法自身不稳反例",
+    "1997线性在线TD定理需要列全研究条件，不可外推到离策略神经网络"
+  ]
+}

@@ -66,7 +66,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **C**：专业综述支持，适宜历史背景，不单独支持争议归属。
 - **D**：编辑假设、类比或待核猜想，不进入正文事实陈述。
 
-截至2026-11-10，第01—15章已依各批次对可访问原始论文、出版记录及特定技术主张开展**有限范围前置核验**；第16章以后以及尚未逐页复核的原刊细节仍为待核。本书未完成全书事实核验、独立双审或终审。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
+截至2026-11-10，第01—18章已按各自批次对可访问原始论文、出版记录及具体主张开展**限定范围前置核验**；第19章以后以及原刊未逐页复核的图表/技术细节仍待核。全书独立双审、终审均未完成。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
 
 ## 第01—03章增量核证记录（2026-11-09）
 
@@ -199,3 +199,27 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 3. **TD-Gammon（1992/1993/1994/1995）**：1992纯棋盘版本达较强中等水平；1993/1994论文明确手工特征版本达到强大师水平；1995授权转载提供更完整方法、40隐藏单元/20万盘纯输入结果、51盘净负13点和38盘净负7点等数值。相应单位是**点数而非输盘**；有限测试不证明普遍击败世界最强。后续版本涉及2-ply搜索，doubling模块不等同同一训练中的完全自发策略。
 4. **Neurogammon及先驱**：1989 Tesauro与Sejnowski原论文有专家评估的监督学习线路，1989Tesauro记录计算机奥林匹克双陆棋比赛；不能写成Tesauro首次就放弃专家数据直接创造TD-Gammon。
 5. **未完成事项**：1992 Williams所有推导的逐式二审、1999 Konda证明条件及1995 ACM原刊图表对比未全部独立审阅；章节连续性与发展性审稿均待真实单独执行。阶段仍为`draft_unreviewed`，`review_status=PENDING`。
+
+## 第六批16—18章增量史料与验证边界（2026-11-10）
+
+> 所列可用证据只支持16—18章明示的技术与年代论断；不构成其它章节自动写作许可。O/A/T正文别名详见对应claims JSON。史实原始文献、现代教材、原创教学算例三个层次严格区分。
+
+| 新来源ID | 文献或官方记录 | 限定支持范围及注意事项 |
+| --- | --- | --- |
+| R75 | [Sutton, Precup & Singh (1999), Between MDPs and semi-MDPs: A framework for temporal abstraction in reinforcement learning](https://doi.org/10.1016/S0004-3702(99)00052-1) | Artificial Intelligence 112(1–2):181–211一手全文。§2三元组I,pi,beta，§3 SMDP和折扣k，§4中断，§§5—7内部学习和子目标；作者明确承认时间抽象此前已有宏动作及层次研究 |
+| R76 | [Sutton, Precup & Singh (1998), Between MDPs and Semi-MDPs, UMass TR98-74](https://web.cs.umass.edu/publication/docs/1998/UM-CS-1998-074.pdf) | 机构一手技术报告出版形式，1998报告和1999正式期刊不能混同 |
+| R77 | [Boyan & Moore (1994 meeting), Generalization in Reinforcement Learning: Safely Approximating the Value Function](https://papers.nips.cc/paper/1018-generalization-in-reinforcement-learning-safely-approximating-the-value-function) | NeurIPS 1994会议，论文集卷7、pp.369–376可能用1995正式出版年；一手摘要与引言确认DP+函数逼近失稳及错误策略，介绍Grow-Support |
+| R78 | [Tsitsiklis & Van Roy (1997), An Analysis of Temporal-Difference Learning with Function Approximation](https://doi.org/10.1109/9.580874) | IEEE Transactions on Automatic Control 42(5):674–690一手全文；线性TD在在线目标链抽样及假设1–4下收敛、非目标分布/非线性可能发散，已核PDF首页及正文条件 |
+| R79 | [Baird (1995), Residual Algorithms: Reinforcement Learning with Function Approximation](https://mlanthology.org/icml/1995/iii1995icml-residual/) | ICML 1995 pp.30–37一手摘要/出版社记录；表格可收敛方法用线性及其他近似可不稳定，提出残差梯度/残差算法。教材七状态版本细节由R01明确支持 |
+| R80 | [Sutton et al. (2009), Fast Gradient-Descent Methods for Temporal-Difference Learning with Linear Function Approximation](https://doi.org/10.1145/1553374.1553501) | ICML2009 pp.993–1000一手摘要；GTD2/TDC及线性离策略梯度TD条件性收敛与效率，非通用深度RL定理 |
+| R81 | [Maei et al. (2009), Convergent Temporal-Difference Learning with Arbitrary Smooth Function Approximation](https://proceedings.neurips.cc/paper/2009/hash/3a15c7d0bbe60300a39f76f8a5ba6896-Abstract.html) | NeurIPS2009会议官方摘要：有限MDP、光滑逼近和随机近似条件下局部收敛，不保证一般深度网络全局最优 |
+
+### 第六批有来源的主线
+
+- **16 时间抽象**：Sutton、Precup、Singh1998 UMass TR和1999 *Artificial Intelligence* 论文分清；option=(I,π,β)与SMDP联系、选项中断、内部学习和子目标；不能假称时间抽象始于1999，也不能把options自动等同状态压缩与技能发现。
+- **17 价值函数逼近**：Tesauro1992 TD-Gammon已经用神经价值函数；Boyan/Moore1994 NeurIPS论文直接警告函数逼近＋动态规划可能失稳或选错策略；Tsitsiklis/Van Roy1997在线线性TD正定理要求有限的马尔可夫和学习率等条件，并讨论非分布自然抽样及非线性反例。**不是所有神经强化学习都必然失败**。
+- **18 致命三角**：2018教材总结函数逼近、自举、离策略训练的潜在失稳；1995 Baird论文给出表格更新搬入线性/非线性近似可能不稳的历史证据。2009 GTD2/TDC等针对特定线性离策略问题有更强的稳定理论；并未给任意DQN无条件保证。
+- **原创演算16**：三步技能奖励(-1,-1,8)，结束未来价值5，gamma=.9得8.225；gamma=.5得1.125。
+- **原创演算17**：φ(A)=(1,1),φ(B)=(1,.9)，初始w=(2,3)，对A目标6用alpha=.1更新成(2.1,3.1)，B从4.7变4.89。特意使用**外给监督目标**，不声称这一例为TD发散。
+- **原创演算18**：人为只抽A→B、V(A)=w,V(B)=2w、gamma=.9、alpha=.1、r=0，半梯度更新w→1.08w；w10≈2.158925,w30≈10.062657。仅为局部自举放大机制图解，不是Baird完整七状态离策略反例或严格普遍发散定理。
+- **仍待独立审稿**：全部原论文证明、Baird初始权重和七状态特征向量、1999 Option interruption实验图表、相关现代价值函数训练协议均未全部逐页独立复核。保持`draft_unreviewed`和`review_status=PENDING`。

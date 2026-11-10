@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "chapter": "16",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "本批针对一手1999 Options论文、1994 Boyan-Moore、1995 Baird、1997 Tsitsiklis-Van Roy及2009梯度TD论文和2018权威教材做限定证据核查。现代教学数字均与历史实验分离。未完成独立双审/终审。",
+  "alias_to_research_source_id": {
+    "O01": "R75",
+    "O02": "R01",
+    "O03": "R76",
+    "O04": [
+      "R75",
+      "R01"
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "RL-16-01",
+      "claim": "Sutton、Precup、Singh的Options期刊论文正式发表于1999 Artificial Intelligence 112:181–211",
+      "source_ids": [
+        "R75"
+      ],
+      "kind": "primary_bibliography",
+      "section": "一｜发表与历史",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-16-02",
+      "claim": "1998有UMass技术报告，和1999期刊正式版本需要区分",
+      "source_ids": [
+        "R76",
+        "R75"
+      ],
+      "kind": "publication_chronology",
+      "section": "一及文末｜版本",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-16-03",
+      "claim": "Option为三元组(I,内部策略pi,终止beta)，可纳入单步动作特例",
+      "source_ids": [
+        "R75"
+      ],
+      "kind": "primary_definition",
+      "section": "三｜三部件",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-16-04",
+      "claim": "Options内部策略是随状态反馈的闭环控制，不能等同固定宏动作序列",
+      "source_ids": [
+        "R75"
+      ],
+      "kind": "primary_definition",
+      "section": "二｜闭环",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-16-05",
+      "claim": "固定options构成在底层MDP上的高层SMDP，并与基本动作时间尺度共存",
+      "source_ids": [
+        "R75"
+      ],
+      "kind": "primary_theory",
+      "section": "六｜SMDP",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-16-06",
+      "claim": "折扣SMDP回报按实际持续k步使用gamma^k乘后续价值",
+      "source_ids": [
+        "R75",
+        "R01"
+      ],
+      "kind": "modern_derivation",
+      "section": "四｜回报",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-16-07",
+      "claim": "教学例gamma=.9三步总值8.225，gamma=.5总值1.125",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "五｜例题",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-16-08",
+      "claim": "Option interruption及intra-option learning是1999论文的重要研究内容",
+      "source_ids": [
+        "R75"
+      ],
+      "kind": "primary_methods",
+      "section": "六、七｜技能内部",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-16-09",
+      "claim": "时间抽象不等于状态抽象，也不等于技能自动发现",
+      "source_ids": [
+        "R75",
+        "R01"
+      ],
+      "kind": "conceptual_boundary",
+      "section": "八｜三种抽象",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-16-10",
+      "claim": "1999作者承认先前宏动作、SMDP和层次研究前驱，非首创多步行为",
+      "source_ids": [
+        "R75"
+      ],
+      "kind": "historical_attribution",
+      "section": "一、八｜历史谱系",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-16-11",
+      "claim": "不当/僵硬的技能可带来规划负担和次优行为，option不是保证加速",
+      "source_ids": [
+        "R75",
+        "R01"
+      ],
+      "kind": "method_limit",
+      "section": "七｜何时失效",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "1999一手论文重点§2—7与SMDP公式已核；完整技巧实验图表尚未独立二审",
+    "不能把时间抽象等同状态抽象或说1999首次发明技能",
+    "options不保证任意任务提速，终止与执行时长必须正确计折扣"
+  ]
+}
