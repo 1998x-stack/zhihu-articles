@@ -35,6 +35,100 @@ def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+
+def read_shelf_metadata(path: Path) -> dict:
+    """Read only the simple JSON-compatible fields used by this repository's metadata.yaml.
+
+    Metadata is for display, never for overriding a book's editorial review gate.
+    The chapter manifest is the source of truth for chapter visibility and status.
+    """
+    values = {}
+    if not path.is_file():
+        return values
+    for line in path.read_text(encoding="utf-8").splitlines():
+        match = re.match(r"^(title|summary|tags):\s*(.+)\s*$", line)
+        if not match:
+            continue
+        key, raw = match.groups()
+        try:
+            values[key] = json.loads(raw)
+        except json.JSONDecodeError:
+            if key != "tags":
+                values[key] = raw.strip().strip("\"'")
+    return values
+
+
+def discover_books(catalog: dict, curated: list[dict]) -> list[dict]:
+    """Enforce complete shelf registration without auto-publishing unlisted drafts.
+
+    Existing cards remain curated; any new series with README.md and book.json
+    gets a safe fallback card. A series without book.json fails loudly instead
+    of silently disappearing from GitHub Pages.
+    """
+    books = list(curated)
+    registered = {item.get("id") for item in books}
+    for genre in catalog["genres"]:
+        archive = ROOT / genre["archive"]
+        if not archive.is_dir():
+            continue
+        for directory in sorted(archive.iterdir()):
+            if not directory.is_dir() or not (directory / "README.md").is_file():
+                continue
+            book_id = directory.name
+            manifest_path = directory / "book.json"
+            if not manifest_path.is_file():
+                raise ValueError(
+                    f"Series {directory.relative_to(ROOT)} is missing book.json; "
+                    "create an explicit chapter manifest before deploying Pages"
+                )
+            manifest = load_json(manifest_path)
+            if manifest.get("id") != book_id or manifest.get("schema_version") != 1:
+                raise ValueError(f"Invalid series manifest identity: {manifest_path}")
+            if book_id in registered:
+                entry = next(item for item in books if item["id"] == book_id)
+                source = entry.get("source", {})
+                expected = manifest_path.relative_to(ROOT).as_posix()
+                if source.get("repository") == "self" and source.get("manifest") != expected:
+                    raise ValueError(f"Book {book_id} points to a different local manifest")
+                continue
+            meta = read_shelf_metadata(directory / "metadata.yaml")
+            # The existing reader renders a typographic cover when no PNG exists.
+            palette = (["#3e6574", "#193648"] if genre["kind"] == "非虚构"
+                       else ["#795d52", "#302f3e"])
+            title = manifest.get("title") or meta.get("title")
+            if not isinstance(title, str) or not title.strip():
+                raise ValueError(f"Missing series title: {manifest_path}")
+            summary = manifest.get("description") or meta.get("summary")
+            if not isinstance(summary, str) or not summary.strip():
+                summary = f"《{title}》的分章研究与写作档案，按章节清单呈现创作进度。"
+            tags = meta.get("tags", [])
+            if not isinstance(tags, list) or not all(isinstance(tag, str) for tag in tags):
+                tags = []
+            books.append({
+                "id": book_id,
+                "title": title,
+                "author": "1998x-stack",
+                "genre": genre["skill"],
+                "type": "知识叙事 · 系列连载",
+                "status": "创作中",
+                "description": summary,
+                "tags": tags,
+                "url": "https://github.com/1998x-stack/zhihu-articles/tree/main/" +
+                       directory.relative_to(ROOT).as_posix(),
+                "note": manifest.get("reading_notice") or "尚未经独立双审或终稿批准。",
+                "coverShort": title.split("：", 1)[0][:14],
+                "coverEyebrow": "THE READING ROOM",
+                "coverFooter": "RESEARCH & WRITING",
+                "palette": palette,
+                "coverInk": "#f4f3ea",
+                "source": {
+                    "repository": "self",
+                    "manifest": manifest_path.relative_to(ROOT).as_posix(),
+                },
+            })
+            registered.add(book_id)
+    return books
+
 def safe_path(base: Path, relative: str) -> Path:
     """Allow only normalized, in-tree relative paths from the curated manifests."""
     if not isinstance(relative, str) or not relative or "\\" in relative:
@@ -293,6 +387,17 @@ def build_readers(out: Path, books: list[dict], external_root: Path | None,
         root = "../../"
         toc = make_toc(chapters, book, root, "")
         counts = Counter(ch["status"] for ch in chapters)
+        # Keep public progress and chapter notices in sync with book.json.
+        # Never infer editorial approval from a draft or from the presence of files.
+        book["status"] = "创作中" if counts["draft"] else "策划中"
+        book["draftCount"] = counts["draft"]
+        book["outlineCount"] = counts["outline"]
+        book["finalCount"] = counts["final"]
+        book["note"] = (
+            f"章节清单：{len(chapters)}篇，工作初稿{counts['draft']}篇、"
+            f"策划占位{counts['outline']}篇、标记审定{counts['final']}篇。"
+            "初稿展示不代表独立事实核验、终审批准或对外正式发表。"
+        )
         if book.get("cover"):
             book_cover = ('<img class="reader-cover" src="' + root +
                           escape(book["cover"], quote=True) + '" alt="' +
@@ -393,7 +498,7 @@ def build(output: Path, external_root: Path | None = None,
 
     catalog = load_json(ROOT / "catalog.json")
     genres = [{"name": item["name"], "skill": item["skill"], "kind": item["kind"]} for item in catalog["genres"]]
-    books = load_json(SITE / "assets/data/books.json")
+    books = discover_books(catalog, load_json(SITE / "assets/data/books.json"))
     validate_books(genres, books)
 
     if out.exists():

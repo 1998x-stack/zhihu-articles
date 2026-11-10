@@ -6,7 +6,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from build_pages import ROOT, build, safe_path, validate_books
+from build_pages import ROOT, build, discover_books, safe_path, validate_books
 
 
 class PagesBuildTests(unittest.TestCase):
@@ -29,6 +29,9 @@ class PagesBuildTests(unittest.TestCase):
                 "read/fields-of-light-electromagnetism-history/prologue/index.html",
                 "read/ideal-gas-law-two-centuries/chapter-04/index.html",
                 "read/network-science-history/chapter-32/index.html",
+                "read/deep-learning-history/chapter-18/index.html",
+                "read/reinforcement-learning-history/chapter-15/index.html",
+                "read/ledger-of-empire-china-fiscal-history/chapter-12/index.html",
                 ".nojekyll",
             ):
                 self.assertTrue((output / path).is_file(), path)
@@ -39,7 +42,8 @@ class PagesBuildTests(unittest.TestCase):
             genres = json.loads((output / "assets/data/genres.json").read_text(encoding="utf-8"))
             books = json.loads((output / "assets/data/books.json").read_text(encoding="utf-8"))
             self.assertEqual(len(genres), len(json.loads((ROOT / "catalog.json").read_text(encoding="utf-8"))["genres"]))
-            self.assertEqual(len(books), 11)
+            self.assertEqual(len(books), 14)
+            self.assertEqual({b["id"] for b in books}.__len__(), 14)
             self.assertEqual(books[1]["chapterCount"], 27)
             self.assertEqual(books[2]["chapterCount"], 42)
             chapter_totals = {
@@ -51,15 +55,22 @@ class PagesBuildTests(unittest.TestCase):
                 "fields-of-light-electromagnetism-history": 34,
                 "ideal-gas-law-two-centuries": 17,
                 "network-science-history": 34,
+                "deep-learning-history": 32,
+                "reinforcement-learning-history": 34,
+                "ledger-of-empire-china-fiscal-history": 47,
             }
             for book_id, total in chapter_totals.items():
                 book = next(b for b in books if b["id"] == book_id)
                 self.assertEqual(book["chapterCount"], total, book_id)
-                self.assertEqual(book["cover"], "assets/covers/" + book_id + ".png")
-                self.assertTrue((output / book["cover"]).is_file(), book_id)
                 overview = (output / "read" / book_id / "index.html").read_text(encoding="utf-8")
-                self.assertIn('class="reader-cover"', overview)
-                self.assertIn('src="../../assets/covers/' + book_id + '.png"', overview)
+                if book_id in {"deep-learning-history", "reinforcement-learning-history", "ledger-of-empire-china-fiscal-history"}:
+                    self.assertNotIn("cover", book)
+                    self.assertIn("reader-cover-placeholder", overview)
+                else:
+                    self.assertEqual(book["cover"], "assets/covers/" + book_id + ".png")
+                    self.assertTrue((output / book["cover"]).is_file(), book_id)
+                    self.assertIn('class="reader-cover"', overview)
+                    self.assertIn('src="../../assets/covers/' + book_id + '.png"', overview)
                 exported = json.loads((output / "read" / book_id / "book.json").read_text(encoding="utf-8"))
                 self.assertEqual(len(exported["chapters"]), total)
                 self.assertTrue(all(ch["href"].startswith("read/" + book_id + "/") for ch in exported["chapters"]))
@@ -103,6 +114,37 @@ class PagesBuildTests(unittest.TestCase):
             self.assertIn("IntersectionObserver", javascript)
             self.assertIn("reading-room-font-family", javascript)
             self.assertIn("reading-progress", javascript)
+
+    def test_series_discovery_is_complete(self):
+        catalog = json.loads((ROOT / "catalog.json").read_text(encoding="utf-8"))
+        curated = json.loads((ROOT / "site/assets/data/books.json").read_text(encoding="utf-8"))
+        discovered = discover_books(catalog, curated)
+        self.assertEqual(len(discovered), 14)
+        self.assertEqual(len({book["id"] for book in discovered}), len(discovered))
+        for book_id, drafts in (
+            ("deep-learning-history", 18),
+            ("reinforcement-learning-history", 15),
+            ("ledger-of-empire-china-fiscal-history", 12),
+        ):
+            entry = next(book for book in discovered if book["id"] == book_id)
+            self.assertEqual(entry["source"]["repository"], "self")
+            manifest = ROOT / entry["source"]["manifest"]
+            chapters = json.loads(manifest.read_text(encoding="utf-8"))["chapters"]
+            self.assertEqual(sum(ch["status"] == "draft" for ch in chapters), drafts)
+
+    def test_missing_manifest_fails_loudly(self):
+        from unittest.mock import patch
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            series = root / "articles/nonfiction/history-science/new-series"
+            series.mkdir(parents=True)
+            (series / "README.md").write_text("# New series", encoding="utf-8")
+            with patch("build_pages.ROOT", root):
+                with self.assertRaisesRegex(ValueError, "missing book.json"):
+                    discover_books({"genres": [{
+                        "archive": "articles/nonfiction/history-science",
+                        "skill": "genre-history-science", "kind": "非虚构"
+                    }]}, [])
 
     def test_math_syntax_families_and_plain_currency(self):
         import markdown
