@@ -1,6 +1,6 @@
 {
   "lane": "nonfiction",
-  "current_revision": 26,
+  "current_revision": 27,
   "outline_approved": false,
   "evidence_verified": false,
   "review_status": "CHANGES_REQUIRED",
@@ -86,9 +86,24 @@
     "CH32-IMF-POLICY-AND-SOCIAL-IMPACT-INDEPENDENT-ESTIMATES",
     "CH33-RUSSIA-1998-GKO-OFZ-NOVATION-AND-FOREX-PRIMARY",
     "CH33-LTCM-TRADING-EXPOSURES-MARGIN-CONTRACTS",
-    "CH33-NEW-YORK-FED-RESCUE-LEGAL-ARRANGEMENTS"
+    "CH33-NEW-YORK-FED-RESCUE-LEGAL-ARRANGEMENTS",
+    "CH34-2008-MORTGAGE-POOL-ORIGINATION-AND-LOSS-PRIMARY-SERIES",
+    "CH34-MBS-CDO-CASHFLOW-TRANCHE-TERMS-ORIGINAL",
+    "CH34-REPO-ABCP-MONEYMARKET-2007-08-FUNDING-PRIMARY-DATA",
+    "CH34-AIG-LEHMAN-RESERVE-PRIMARY-FUND-ORIGINAL-CONTRACTS",
+    "CH34-TARP-AUTHORITY-VS-DISBURSEMENT-VS-NET-COST",
+    "CH35-EU-TREATY-1992-2012-ARTICLE125-VERSION-CHECK",
+    "CH35-GREECE-2009-DEFICIT-2012-PSI-ORIGINAL",
+    "CH35-IRELAND-SPAIN-BANK-RECAPITALISATION-NET-COST",
+    "CH35-OMT-APP-CAUSAL-IMPACT-INDEPENDENT-STUDIES",
+    "CH35-2010-2018-SOCIAL-ADJUSTMENT-COMPETING-ESTIMATES",
+    "CH36-UPI-2016-LAUNCH-BANK-APP-DATES-ARCHIVE-CHECK",
+    "CH36-MPESA-KENYA-CASH-AGENT-REGULATION-PRIMARY",
+    "CH36-PBOC-2010-2020-PAYMENT-LAW-REPLACEMENT-PRIMARY",
+    "CH36-FINDEX-2021-NATIONAL-SURVEY-WEIGHTS-VS-ACCOUNT-USAGE",
+    "CH36-SWIFT-RTGS-SETTLEMENT-FINALITY-LEGAL-OPERATIONAL-RULES"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "notes": "Revision26 research-level drafts chapters 31–33 (2026-11-09), 27 additional source-ledger entries and 66 claims mapped. All book-wide primary edition checks remain pending: outline_approved=false, evidence_verified=false, CHANGES_REQUIRED. Prior Revision24/25 reviews are stale; no line edit, final or publication authorization."
+  "notes": "Revision27 (2026-11-09): three research-only nonfiction drafts chapters 34–36; 30 new official/academic sources, 80 mapped claims. All prior primary archival blockers retained and 15 new fact-audit blockers added. Workflow gate blocked: outline_approved=false, evidence_verified=false, review_status=CHANGES_REQUIRED, previous formal review revisions stale. No edited/final/publish approval."
 }

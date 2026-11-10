@@ -1,0 +1,278 @@
+{
+  "chapter": "35",
+  "chapter_batch": "34-36",
+  "lane": "nonfiction",
+  "revision": 27,
+  "review_status": "CHANGES_REQUIRED",
+  "publication_ready": false,
+  "evidence_scope": "Institutional primary regulations and announcements; official crises reports; central bank and payment-system historical records; selected peer-reviewed literature, with source editions not book-wide publication-verified.",
+  "claims": [
+    {
+      "claim_id": "CH35-001",
+      "statement": "2012-07-26德拉吉在伦敦发表保护欧元的职责范围内承诺",
+      "source_ids": [
+        "F-3501"
+      ],
+      "classification": "contemporaneous_policy_speech",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "讲话不等于正式债券购买已经执行"
+    },
+    {
+      "claim_id": "CH35-002",
+      "statement": "欧元区共享央行与货币政策但成员国国债仍有不同发行主体",
+      "source_ids": [
+        "F-3503",
+        "F-3504"
+      ],
+      "classification": "monetary_union_structure",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不将所有欧元国债视为央行直接债务"
+    },
+    {
+      "claim_id": "CH35-003",
+      "statement": "欧盟第125条原则上不自动承担他国政府公共债务",
+      "source_ids": [
+        "F-3503"
+      ],
+      "classification": "primary_legal_text",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "有例外且不能等同绝对禁止附条件官方借款"
+    },
+    {
+      "claim_id": "CH35-004",
+      "statement": "EFSF/ESM是不同日期和法律架构的救助机制",
+      "source_ids": [
+        "F-3504"
+      ],
+      "classification": "institutional_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "资金来源与约束条件按具体计划区分"
+    },
+    {
+      "claim_id": "CH35-005",
+      "statement": "希腊2001年加入欧元区后曾长期获得较低融资成本",
+      "source_ids": [
+        "F-3505"
+      ],
+      "classification": "country_program_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "并不意味着仅利率导致所有结构问题"
+    },
+    {
+      "claim_id": "CH35-006",
+      "statement": "希腊竞争力和财政收入缺陷形成重要国内经济失衡",
+      "source_ids": [
+        "F-3505"
+      ],
+      "classification": "multicausal_country_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "成员国经济结构与财政责任各不相同"
+    },
+    {
+      "claim_id": "CH35-007",
+      "statement": "欧元区成员国无法单方面贬值本国欧元以调节区内相对价格",
+      "source_ids": [
+        "F-3503",
+        "F-3505"
+      ],
+      "classification": "institutional_exchange_rate_constraint",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "内部调整仍有财政工资生产率等政策途径"
+    },
+    {
+      "claim_id": "CH35-008",
+      "statement": "2009-10希腊公布比此前报告更严重的财政赤字状况",
+      "source_ids": [
+        "F-3506"
+      ],
+      "classification": "official_crisis_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "最终赤字修正数及数据发布原件待核"
+    },
+    {
+      "claim_id": "CH35-009",
+      "statement": "危机中高市场融资成本可能加剧主权债务再融资压力",
+      "source_ids": [
+        "F-3505",
+        "F-3506"
+      ],
+      "classification": "debt_rollover_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "100亿欧元3%/8%教例完全虚构"
+    },
+    {
+      "claim_id": "CH35-010",
+      "statement": "希腊第一轮融资支持2010-05主要是双边欧元区政府及IMF",
+      "source_ids": [
+        "F-3504",
+        "F-3506"
+      ],
+      "classification": "program_history",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不得说当时由2012才创设的ESM直接出资"
+    },
+    {
+      "claim_id": "CH35-011",
+      "statement": "2010-06建立临时EFSF、2012-10永久ESM开始运作",
+      "source_ids": [
+        "F-3504"
+      ],
+      "classification": "official_institution_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不是同一个财政实体不同名称"
+    },
+    {
+      "claim_id": "CH35-012",
+      "statement": "爱尔兰危机前银行对私人房地产与建筑信贷暴露显著",
+      "source_ids": [
+        "F-3507"
+      ],
+      "classification": "contemporaneous_country_assessment",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不能同希腊政府财政赤字作为同一直接病因"
+    },
+    {
+      "claim_id": "CH35-013",
+      "statement": "爱尔兰政府银行担保资本支持使私人风险与公共财政相联",
+      "source_ids": [
+        "F-3507"
+      ],
+      "classification": "bank_sovereign_causal_mechanism",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "核实际政府资产处置净成本"
+    },
+    {
+      "claim_id": "CH35-014",
+      "statement": "银行持本国国债与政府救银行预期形成双向信用循环",
+      "source_ids": [
+        "F-3508"
+      ],
+      "classification": "sovereign_bank_loop",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "央行政策讲话为结构研究而非每国定量证明"
+    },
+    {
+      "claim_id": "CH35-015",
+      "statement": "葡萄牙2011获得官方援助与增长融资失衡相关",
+      "source_ids": [
+        "F-3504"
+      ],
+      "classification": "official_country_program",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "葡萄牙具体第一笔提款时间待核"
+    },
+    {
+      "claim_id": "CH35-016",
+      "statement": "西班牙2012经ESM获得针对银行资本重组的援助",
+      "source_ids": [
+        "F-3504"
+      ],
+      "classification": "official_country_program",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "与希腊宏观调整与主权融资计划不可混同"
+    },
+    {
+      "claim_id": "CH35-017",
+      "statement": "塞浦路斯2013经历银行压力与官方援助安排",
+      "source_ids": [
+        "F-3504"
+      ],
+      "classification": "official_country_program",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "存款债权人损失规则需要单独研究"
+    },
+    {
+      "claim_id": "CH35-018",
+      "statement": "2012希腊与私人债权人完成重大面值减记及债务交换",
+      "source_ids": [
+        "F-3505",
+        "F-3506"
+      ],
+      "classification": "official_debt_restructuring_timeline",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "名义面值折扣不等于所有债权人的净现值亏损"
+    },
+    {
+      "claim_id": "CH35-019",
+      "statement": "2012-09-06欧洲央行发布OMT二级市场主权购债框架与EFSF/ESM条件",
+      "source_ids": [
+        "F-3502"
+      ],
+      "classification": "primary_central_bank_policy",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "没有无条件直接认购所有主权国债"
+    },
+    {
+      "claim_id": "CH35-020",
+      "statement": "OMT未实际启动购债而公告可能影响债券风险溢价",
+      "source_ids": [
+        "F-3509"
+      ],
+      "classification": "central_bank_expost_evaluation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "市场因果估计仍需独立事件研究"
+    },
+    {
+      "claim_id": "CH35-021",
+      "statement": "2015-01-22宣布ECB扩大资产购买计划每月约600亿欧元",
+      "source_ids": [
+        "F-3510"
+      ],
+      "classification": "primary_ecb_announcement",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "不同于2012 OMT，并非当日所有金额已经买入"
+    },
+    {
+      "claim_id": "CH35-022",
+      "statement": "2015-03开始购买欧元公债等次级市场证券",
+      "source_ids": [
+        "F-3510"
+      ],
+      "classification": "program_implementation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "月度总额涉及公私购买而非全数希腊国债"
+    },
+    {
+      "claim_id": "CH35-023",
+      "statement": "2014-11-04 ECB正式承担欧元区SSM银行监管职责",
+      "source_ids": [
+        "F-3511"
+      ],
+      "classification": "primary_supervision_notice",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "银行监管统一与财政、存款保障完全共同化不同"
+    },
+    {
+      "claim_id": "CH35-024",
+      "statement": "危机中紧缩援助与财政/社会代价存在政策学术争论",
+      "source_ids": [
+        "F-3504",
+        "F-3507"
+      ],
+      "classification": "competing_policy_evaluation",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "ESM和IMF为当事机构而非独立最终裁判"
+    },
+    {
+      "claim_id": "CH35-025",
+      "statement": "希腊2018-08完成ESM第三轮官方支持项目",
+      "source_ids": [
+        "F-3506"
+      ],
+      "classification": "official_program_completion",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "完成项目不等于债务永久免除"
+    },
+    {
+      "claim_id": "CH35-026",
+      "statement": "货币联盟的支付基础设施一体化不自动消除主权债务人不同责任",
+      "source_ids": [
+        "F-3503",
+        "F-3508"
+      ],
+      "classification": "cross_chapter_synthesis",
+      "verification_status": "RESEARCH_DRAFT_NOT_PUBLICATION_VERIFIED",
+      "caveat": "连接第36支付但不把欧元危机归咎数字支付"
+    }
+  ]
+}

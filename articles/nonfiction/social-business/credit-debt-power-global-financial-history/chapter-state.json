@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "lane": "nonfiction",
-  "current_revision": 26,
+  "current_revision": 27,
   "scope": "credit-debt-power-global-financial-history",
   "chapters": [
     {
@@ -614,11 +614,66 @@
         "F-3307"
       ],
       "next_question": "2008年美国房贷和证券化如何把信用损失通过短期融资传播全球"
+    },
+    {
+      "chapter": "34",
+      "status": "draft-written",
+      "question": "2007–08美国房贷如何经证券化、回购和货币市场基金将信用风险扩展为全球融资恐慌",
+      "sources": [
+        "F-3401",
+        "F-3402",
+        "F-3403",
+        "F-3404",
+        "F-3405",
+        "F-3406",
+        "F-3407"
+      ],
+      "next_question": "欧元区共享中央银行为何未能自动共同承担不同政府的财政和银行信用损失"
+    },
+    {
+      "chapter": "35",
+      "status": "draft-written",
+      "question": "2010年代欧元区共同货币、分散财政与银行持有本国国债怎样形成风险循环以及EFSF ESM ECB制度回应",
+      "sources": [
+        "F-3501",
+        "F-3502",
+        "F-3503",
+        "F-3504",
+        "F-3505",
+        "F-3506",
+        "F-3507",
+        "F-3508",
+        "F-3509",
+        "F-3510",
+        "F-3511"
+      ],
+      "next_question": "跨境支付和客户账户可用余额的速度提升是否代表结算和信用风险都消除"
+    },
+    {
+      "chapter": "36",
+      "status": "draft-written",
+      "question": "SWIFT报文、银行间RTGS、肯尼亚M-PESA、印度UPI与中国移动支付如何分别降低不同支付摩擦又留下何种风险",
+      "sources": [
+        "F-3601",
+        "F-3602",
+        "F-3603",
+        "F-3604",
+        "F-3605",
+        "F-3606",
+        "F-3607",
+        "F-3608",
+        "F-3609",
+        "F-3610",
+        "F-3611",
+        "F-3612",
+        "F-3503"
+      ],
+      "next_question": "中国汇率、房地产与金融监管下的长期信贷资产负债表为何可能积累风险"
     }
   ],
-  "remaining_chapters": "34-40 outline-only",
+  "remaining_chapters": "37-40 outline-only",
   "epilogue": "outline-only",
   "review_status": "CHANGES_REQUIRED",
   "publication_ready": false,
-  "notes": "Revision26 research-level drafts chapters 31–33 on top of Revision25 draft branch; 27 institutional/primary source ledger entries and 66 mapped claims; upstream outline_approved=false and evidence_verified=false; publication QA blockers remain; prior Revision24 and Revision25 reports not valid as new review."
+  "notes": "Revision27 research-level drafts chapters 34–36 built on Revision26 stacked branch; 30 new financial history sources and 80 chapter-level mapped claims; original archival evidence unresolved, formal review not passed."
 }
