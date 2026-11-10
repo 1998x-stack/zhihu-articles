@@ -336,3 +336,34 @@
 - 2012 NIPS网页摘要与正式PDF不同，所有具体数字须标注本批选择的版本；15.3%七CNN集成与单CNN验证18.2%和2010单CNN test17.0%均不能混为一谈。
 - 2015 ILSVRC竞赛与2016 CVPR论文时间坐标，3.57%为集成；ResNet 2016 ECCV的pre-activation改善非2015原始结果。
 - 残差连接作用不能写成对梯度消失绝对免疫；其论文直接的训练退化证据比媒体口号重要。Highway网络/批归一化/VGG/Inception均为当时重要相邻研究路线。
+
+
+## 第七批 19—21 章：限定范围原始史料核验（2026-11-10）
+
+> 本节针对第七批单独核对公开出版社论文页面、作者署名、年份、核心算法与实验范围。**这是工作初稿阶段的有限核查，不是实验复现、全文史学核查或独立双重审稿**。本书既有第01—18章来源登记不受更改。第21章按专题回顾方式跨越2014—2022，不把2022技术写成2014同年成果。
+
+| ID | 原始研究/出版信息 | 已核查的具体支撑范围 | 限制、反例与不能写成的结论 |
+| --- | --- | --- | --- |
+| DL90 | Cho、van Merriënboer、Gulcehre、Bahdanau、Bougares、Schwenk、Bengio, [Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://aclanthology.org/D14-1179/), **EMNLP 2014**, pp.1724–1734；原始预印本[arXiv:1406.1078](https://arxiv.org/abs/1406.1078) 于2014-06-03提交 | 两个RNN组成编码器和解码器，把可变长来源序列编码为固定长向量，再计算目标序列的条件概率；论文具体将短语对评分作为传统短语式SMT的**辅助特征**，不是宣称整套旧翻译系统已被完全替换。 | 七人署名必须保留。RNN Encoder–Decoder与2014 Sutskever端到端LSTM在结构、应用方式和作者上不相同；不能混称一篇论文或直接断言第一个seq2seq。 |
+| DL91 | Sutskever、Vinyals、Le, [Sequence to Sequence Learning with Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2014/hash/5a18e133cbf9f257297f410bb7eca942-Abstract.html), **NIPS/NeurIPS 2014**, [官方PDF](https://papers.neurips.cc/paper_files/paper/2014/file/5a18e133cbf9f257297f410bb7eca942-Paper.pdf) | 多层LSTM编码来源句到固定维度向量，再由另一LSTM输出目标序列；WMT'14英法翻译论文**BLEU=34.8**（未登录词按作者方法处罚），所比较短语式SMT为**33.3**；将LSTM用于该SMT的1000候选重排则**36.5**；**反转的是输入来源词序，不是目标语言词序**。 | BLEU仅对应论文指定英文→法文与评价设置，不意味着人类翻译水平或普遍胜过所有SMT系统；固定向量并非绝对无法处理长句，论文报告其设置下长句仍可表现。 |
+| DL92 | Bahdanau、Cho、Bengio, [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) **2014-09-01首发预印本 / ICLR 2015正式会议版本**；[PDF首页](https://arxiv.org/pdf/1409.0473)标注ICLR2015 | 在编码器-解码器NMT上增加可微的**软对齐**：逐个生成目标词时按当前解码状态为来源位置打分并归一化，形成上下文向量；论文动机是单一固定向量可能成为长句信息瓶颈，原文措辞是*conjecture*（假设）；实验为指定英法翻译基准。 | 注意力与Transformer不是同一概念，2014/2015软对齐早于2017 Transformer；不能把“固定向量必失败”当作定理，也不能凭直观热图等同语言学硬对齐。 |
+| DL93 | Goodfellow、Pouget-Abadie、Mirza、Xu、Warde-Farley、Ozair、Courville、Bengio, [Generative Adversarial Nets](https://proceedings.neurips.cc/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html), **NIPS 2014**, [原论文预印本](https://arxiv.org/abs/1406.2661) | 生成器G从噪声/潜变量产生样本；判别器D区分数据分布与生成样本；minimax博弈形式；在**理想模型容量和分布匹配的理论平衡**下D输出1/2。 | 不应以“真假检察官对峙”的文学对白伪造研究现场。理想均衡≠任意实际训练收敛；GAN不等于扩散或VAE，生成样本≠模型理解现实。 |
+| DL94 | Kingma、Welling, [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114), 2013-12预印本，**ICLR 2014** [出版索引](https://mlanthology.org/iclr/2014/kingma2014iclr-auto/) | 变分自编码器相关的潜变量概率模型、重参数化估计和近似推断；作为**与GAN并行的生成建模路线**，不是GAN同一种训练目标。 | 2022 LDM依赖预训练编码器在潜空间操作，但不能把其损失、采样步骤或网络与2014 VAE原始论文完全等同。 |
+| DL95 | Sohl-Dickstein、Weiss、Maheswaranathan、Ganguli, [Deep Unsupervised Learning using Nonequilibrium Thermodynamics](https://proceedings.mlr.press/v37/sohl-dickstein15.html), **ICML 2015**, pp.2256–2265 | 将数据逐步加噪、结构破坏作为前向扩散，学习反向逐步还原结构的生成机制。 | 扩散式生成早于2020 DDPM；不能说2020年才有人想到加噪与逆过程。 |
+| DL96 | Ho、Jain、Abbeel, [Denoising Diffusion Probabilistic Models](https://proceedings.neurips.cc/paper/2020/hash/4c5bcfec8584af0d967f1ab10179ca4b-Abstract.html), **NeurIPS 2020**，[论文PDF](https://proceedings.neurips.cc/paper_files/paper/2020/file/4c5bcfec8584af0d967f1ab10179ca4b-Paper.pdf) | DDPM在逐步加噪与逆向去噪框架下训练图像生成；论文报告**无条件CIFAR-10 FID=3.17**和Inception Score=9.46（只限当时实验口径）；与去噪分数匹配的关系是论文重点。 | FID、Inception Score不是通用美学或真实可靠度指标，无法跨数据集无条件比较；逐步迭代可能带来生成成本。 |
+| DL97 | Rombach、Blattmann、Lorenz、Esser、Ommer, [High-Resolution Image Synthesis with Latent Diffusion Models](https://openaccess.thecvf.com/content/CVPR2022/html/Rombach_High-Resolution_Image_Synthesis_With_Latent_Diffusion_Models_CVPR_2022_paper.html), **CVPR 2022**, pp.10684–10695 | 使用预训练自编码器将像素映射到潜在空间后训练扩散过程；通过交叉注意力接受文本、边界框等条件，提高高分辨率合成的计算效率；论文描述多种图像合成/修复任务。 | **LDM不是2022首次发明扩散模型或注意力**。比像素空间更高效是给定实验与编码空间中的陈述，不代表所有高分辨率画质都无损或生成图像天然真实、合法。 |
+
+### 三章不能越过的证据边界
+
+1. **2014两条编码器—解码器研究线不是同一论文**：EMNLP Cho等把RNN Encoder–Decoder评分引入传统短语翻译，NIPS Sutskever等展示端到端多层LSTM序列映射。均利用固定长度中间表示，但任务系统与报告结果不同。[DL90,DL91]
+2. **不要制造“注意力突然发明了翻译”的断层**：Bahdanau团队的论文2014年公开、2015年ICLR发表；动机是固定向量对某些句长/信息负担可能构成瓶颈，不是所有无注意力系统都失败。也不把2017 Transformer的注意力设计倒灌为2014机制。[DL91,DL92]
+3. **GAN/VAE/扩散是不同生成问题的路线**：GAN通过判别—生成对抗优化；VAE通过变分潜变量建模和近似推断；扩散通过多步加噪与反向去噪训练；同属生成建模，不代表损失函数、输入编码、稳定性一致。[DL93—DL97]
+4. **时间跨越透明**：21章标题“从GAN到扩散”，以2014、2015、2020、2022为明确相继节点；2022潜空间扩散对效率的改善不能写成2014 GAN直接“进化而来”的同一模型。[DL93,DL95,DL96,DL97]
+5. **本批作者侧数学练习**：softmax权重\`[ln(1), ln(2), ln(3)] → [1/6,2/6,3/6]\`；两个离散玩具分布的判别概率与最优1/2的直觉；单步高斯加噪例题，仅用于理解，不是上游论文的指标、训练实验或原始历史演示。
+
+### 后续审稿待办
+
+- 对DL90—DL92原论文逐页核查BLEU报告、复现实验范围、模型变种与软对齐公式，注意词序反转及数据/测试限制；必要时缩小数值论断。
+- 检查DL93理论最优前提与实际GAN训练不稳定/模式覆盖争议的来源范围，不把教科书式结论冒称原论文证明实际普适性。
+- 检查DL95/96/97对去噪目标、前向马尔可夫过程、编码器的表述及条件生成边界；不得从原始指标推断目前模型伦理或版权结论。
+- 独立的连续性审计与结构审稿报告仍待形成；不得因为\`research.md\`追加了史料就自行生成\`final.md\`或宣布平台出版。
