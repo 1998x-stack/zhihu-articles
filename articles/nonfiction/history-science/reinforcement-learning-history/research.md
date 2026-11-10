@@ -66,7 +66,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **C**：专业综述支持，适宜历史背景，不单独支持争议归属。
 - **D**：编辑假设、类比或待核猜想，不进入正文事实陈述。
 
-截至2026-11-10，第01—30章已在逐章具体支持范围内核对可访问一手研究、原始方法/出版记录与原创验算；第31章以后、序章尾声以及尚未独立复审的完整实验与代码仍待核。未完成全书独立双审、终审及发布。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
+截至2026-11-10，第00序章及第01—32章已在各批次有限范围核对可访问一手资料、原始方法和作者教学验算；尾声33及全书未独立二审的论文补充数据、证明和代码仍待核。未完成全书独立双审、终审及发布。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
 
 ## 第01—03章增量核证记录（2026-11-09）
 
@@ -349,3 +349,38 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - [ ] ICML2000 IRL算法三类情况的完整定理条件、2004学徒特征期望、2008最大熵随机转移处理与1999奖励塑形终局约定。
 - [ ] 2017人类反馈不同版本0.1%与少于1%文字的确切实验分母、2019/2020/2022全部统计与语言标注指南及安全外推。
 - [ ] 本批连续性审计、发展性双审、语言精修和终审均尚未完成。第31—32章及序章、尾声尚未获本批研究准入。
+
+## 第十一批｜序章00、31 DPO、32 GRPO与可验证奖励（2026-11-10）
+
+> 【前置证据限定】仅支持三篇工作初稿具体写出的历史、计算及版本分界。原始论文部分图和方法已目视，但没有对全部补充统计、代码、2023/2024/2025多个版本逐字二核。正文的[A]/[D]/[G]别名由各自claims JSON对应本档案R源号。未完成独立审稿。
+
+| R编号 | 原始来源及官方链接 | 可核主张与必须保持的限制 |
+| --- | --- | --- |
+| R119 | [Rafailov et al. (2023-05-29), Direct Preference Optimization: Your Language Model is Secretly a Reward Model, arXiv first posted](https://arxiv.org/abs/2305.18290) | 预印本2023-05-29与NeurIPS正式会议年份分开。DPO重参数化KL正则RLHF奖励优化，在给定偏好数据中直接拟合语言策略；无需显式独立奖励网络/每轮PPO采样。 |
+| R120 | [Rafailov et al. (NeurIPS2023), Direct Preference Optimization: Your Language Model is Secretly a Reward Model](https://proceedings.neurips.cc/paper_files/paper/2023/file/a85b405ed65c6477a4fe8302b5e06ce7-Paper-Conference.pdf) | 原始正式论文§4及Eq(4)—(7)已目视：最优策略∝参考策略exp(r/β)，r=βlog(π/πref)+βlogZ(x)，偏好差消除Z得到DPO分类损失。理论映射有假设；原论文情感控制/摘要/单轮对话对照仅属具体配置。 |
+| R121 | [Shao et al. (2024-02-05), DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) | 2024-02-05首发（可访问PDF已有2024-04-27修订版）；7B从DeepSeek-Coder Base继续预训练120B数学相关tokens，再SFT/RL；§4首提GRPO，按同题组奖励均值和标准差构造优势，省Critic而不是省奖励来源；Table5 MATH Instruct46.8%与RL51.7%。 |
+| R122 | [DeepSeek-AI / Guo et al. (2025-01-22), DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) | 2025-01-22初版预印本；DeepSeek-R1-Zero从已有DeepSeek-V3 Base出发，跳过RL前SFT；最终R1有cold start/分阶段SFT+RL。不同版本的实验数值需以各自发布时间单独引用。 |
+| R123 | [Guo et al. (Nature 2025-09-17), DeepSeek-R1 incentivizes reasoning in LLMs through reinforcement learning](https://doi.org/10.1038/s41586-025-09422-z) | Nature645:633–638，在线发表2025-09-17（期号2025-09-18）。正式PDF首页和Fig2已目视。R1-Zero从预训练V3 Base起步使用GRPO和规则奖励，AIME2024 pass@1 15.6→77.9%，推断时一致性86.7%是另一设置。最终R1结合cold start SFT、推理RL、拒绝采样及多阶段SFT/通用RL，部分任务使用偏好模型奖励。 |
+| R124 | [ACM (2025-03-05), ACM A.M. Turing Award Honors Two Researchers Who Led the Development of Cornerstone AI Technology](https://awards.acm.org/binaries/content/assets/press-releases/2025/march/turing-award-2024.pdf) | ACM颁奖机构2025-03-05新闻通告原始PDF首页已目视：2024年度A.M.图灵奖授予Andrew G. Barto与Richard S. Sutton，理由是强化学习概念及算法基础；奖项年度与公告年必须分开。不是颁奖典礼现场记录。 |
+| R125 | [Barto, Sutton & Anderson (1983), Neuronlike Adaptive Elements That Can Solve Difficult Learning Control Problems](https://doi.org/10.1109/TSMC.1983.6313077) | IEEE Transactions SMC13(5):834–846原始摘要；三位作者含Charles W. Anderson，模拟未知动力学小车倒立摆、ASE动作搜索与ACE适应评价，稀疏失败反馈。与后来的现代Actor-Critic计算有思想联系但不逐式等同。 |
+
+### 历史时间轴与作者归属不能混写
+
+- **2024图灵奖/2025公告**：ACM **2025-03-05**官方新闻明确授予的是**2024年度**图灵奖，得主Andrew G. Barto和Richard S. Sutton，因强化学习概念与算法基础获奖。1983小车倒立摆的共同作者还有**Charles W. Anderson**。1898桑代克、1957 Bellman、1959 Samuel、1988 Sutton是不同源流/研究节点，序章依据2018 Sutton/Barto教材作史学框架，而非硬性直传图谱。
+- **DPO2023**：2023-05-29预印本与NeurIPS2023正式版分开，优先正式论文§4及Eq4–7。KL正则化奖励目标的解析最优策略可重写成参考概率比加输入常数；Bradley–Terry成对偏好比较抵消该常数，直接形成负log-sigmoid训练损失。不等于绝不需要先采样偏好数据、绝对保证全球最优、任意任务优于PPO，或完全摆脱奖励优化思想。
+- **GRPO2024与R1 2025**：GRPO由**2024-02-05 DeepSeekMath**先提出，组内均值/标准差优势替代独立价值Critic，不代表不用规则反馈或学习奖励模型。DeepSeekMath-RL7B的MATH top1 51.7%是预训练/指令微调/RL综合训练设置，不可全部归功于GRPO。2025-01-22 R1预印本与2025-09-17 Nature正刊各自保留统计口径；R1-Zero从**预训练V3 Base**跳过RL前专用推理SFT；最终R1有冷启动SFT、多轮RL和其它SFT，不可合并。Nature版本AIME2024 pass@1 15.6%→77.9%，一致性86.7%为**另一个推断设置**。
+
+### 所有原创教学数字（非史料实验）
+
+- **00序章**：两步路线A即时1终止，B先0再2，γ=.9时B=1.8>A=1，γ=.4时B=.8<A=1；教学TD V=.4、Vnext=.7、γ=.9得δ=.23，学习率.5得Vnew=.515。不能归属1898迷箱或1983 ACE/1988原论文实验。
+- **31 DPO**：设仅有A/B两条回答且参考政策各.5。当前(.5,.5)时β=1偏好预测.5损失.6931；变成(.8,.2)时偏好logit=ln4，预测.8损失.22314。真实LLM全回答序列不具有这种二选一归一化语义。
+- **32 GRPO**：同题4回答的虚构正确性分数(1,0,1,0)，组均值.5、总体std=.5、相对优势(+1,-1,+1,-1)。全同分时std为0数学式无定义，具体代码保护须查实现；不可说GRPO因而必然全训练没有梯度。验证器若只检查x²=9的某单根3则遗漏−3，属于作者虚构的规则覆盖反例而非原论文漏洞。
+
+### 后续独立二审阻断
+
+- [ ] DPO正式论文定理假设、NeurIPS原始摘要/对话任务评测、β与参考策略不同实现的数值复核。
+- [ ] DeepSeekMath修订历史、GRPO组方差零处理的实际代码路径、奖励模型outcome/process差异，及MATH测试协议。
+- [ ] DeepSeek-R1 2025-01预印本与Nature2025-09的实验数字版本差异、各阶段训练配置和完整补充材料核对。
+- [ ] ACM 2025新闻与1983 IEEE全部作者/论文细节、1898原文各版效果律术语及全书跨年代事实二审。
+- [ ] 00、31、32连续性独立核查、结构审稿、语言精修和终稿批准未执行；`workflow-state.review_status=PENDING`。
+- [ ] 尾声33还没有写作前完整前置核证，不可将书籍冒称全书初稿完稿或正式出版。

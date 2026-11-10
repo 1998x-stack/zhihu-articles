@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "stage_note": "01—30章有尚未独立双审的正文工作初稿与claims JSON；第十批28—30分别为2019/2020离线RL、2000逆强化学习及后续学徒/最大熵、2017偏好反馈→2022 InstructGPT（2019/2020语言桥梁）。review_status=PENDING，未终审/未发布。",
-  "evidence_scope": "仅第01—30章史实和研究主张分别完成可访问一手研究的限定范围写作前核查；第28—30章原文所有统计表、完整理论证明和代码尚未独立双审；序章、尾声和31—32章4个单元无本批准入许可。",
-  "outline_scope": "第01—30章形成有逐章来源与认知主线支撑的工作初稿结构；序章、尾声和第31—32章仍应分别执行fact-research及nonfiction-architect。"
+  "stage_note": "00序章及第01—32章共33篇工作初稿和claims JSON，第十一批为2024图灵奖(2025公告)序章、2023DPO、2024GRPO与2025DeepSeek-R1；尾声33为唯一占位。全书review_status=PENDING，未独立连续性/结构双审、语言精修、终审及知乎发布。",
+  "evidence_scope": "仅序章00与第01—32章历史事实/算法主张在各批次具体范围内核对可访问的一手原论文或颁奖机构公告；第十一批00、31—32数学/实验及论文版本有核查限制，完整代码与补充材料均待独立二审。尾声33尚未完成专章写作前研究。",
+  "outline_scope": "序章00与第01—32章已有研究支持的非虚构结构及工作初稿；尾声33仍须执行fact-research与nonfiction-architect，不能进入正文或终稿。"
 }

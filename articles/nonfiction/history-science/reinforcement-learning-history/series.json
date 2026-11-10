@@ -3,7 +3,7 @@
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
   "status": "drafting",
-  "reading_notice": "第01—30章已完成限定史料核证支持的非虚构工作初稿及逐章claims JSON，未完成独立双审、完整原刊/代码复验或终稿。序章、尾声、第31—32章共4个叙事单元仍为明确策划占位。",
+  "reading_notice": "序章00与正文第01—32章共33篇已形成有限一手资料支持的非虚构工作初稿并附逐章claims JSON；尾声33仍属策划占位。全部未独立事实/连续性和结构双审、未全文实验复核、未终稿批准或出版。",
   "parts": [
     {
       "number": 1,
@@ -108,11 +108,21 @@
       "title": "序章｜2025年的奖杯：为什么两位研究者的工作改变了机器学习",
       "part": "序章",
       "path": "draft/00.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
+        "R124",
         "R26",
-        "R01"
-      ]
+        "R01",
+        "R27",
+        "R28",
+        "R29",
+        "R03",
+        "R02",
+        "R04",
+        "R125",
+        "R05"
+      ],
+      "claims_path": "draft/00.claims.json"
     },
     {
       "id": "01",
@@ -587,21 +597,33 @@
       "title": "DPO：不做常规强化学习，也能优化偏好吗",
       "part": "第八部｜奖励由谁定义",
       "path": "draft/31.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R23"
-      ]
+        "R119",
+        "R120",
+        "R23",
+        "R118",
+        "R115",
+        "R121"
+      ],
+      "claims_path": "draft/31.claims.json"
     },
     {
       "id": "32",
       "title": "可验证奖励与推理：语言模型如何学会多想一步",
       "part": "第八部｜奖励由谁定义",
       "path": "draft/32.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
+        "R121",
         "R24",
-        "R25"
-      ]
+        "R122",
+        "R123",
+        "R25",
+        "R99",
+        "R120"
+      ],
+      "claims_path": "draft/32.claims.json"
     },
     {
       "id": "33",
@@ -616,5 +638,5 @@
     }
   ],
   "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段",
-  "last_batch": "batches/28-30.md"
+  "last_batch": "batches/00-31-32.md"
 }

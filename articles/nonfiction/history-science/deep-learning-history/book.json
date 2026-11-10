@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "deep-learning-history",
   "title": "让机器学会学习：一部深度学习发展史",
-  "reading_notice": "第01—30章30篇正文全部形成完整历史科学非虚构工作初稿及逐章来源主张，尚有序章00与尾声31两个策划占位。各批只核证限定中心史实、模型机制、许可和教学例题；独立事实/连续性与结构双重审稿、语言精修、终稿批准与出版均未完成。",
+  "reading_notice": "全书序章00、正文01—30、尾声31共32篇均有完整历史科学非虚构工作初稿及逐篇主张映射；另有不计入书籍章节总数的非编号专题附录A。中心史料仅按逐篇证据范围作作者前置限定核查，独立事实/连续性与结构双审尚未完成（PENDING），修订、语言精修、终稿批准和正式发布均未完成。",
   "outline_approved": true,
   "evidence_verified": true,
   "parts": [
@@ -115,11 +115,18 @@
       "part": "序章",
       "period": "2012（倒叙）",
       "file": "draft/00.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R09",
-        "R10"
-      ]
+        "DL162",
+        "DL163",
+        "DL77",
+        "DL79",
+        "DL80",
+        "DL89",
+        "DL166"
+      ],
+      "claims_file": "draft/00.claims.json",
+      "review_status": "PENDING"
     },
     {
       "id": "chapter-01",
@@ -646,17 +653,21 @@
       "part": "尾声",
       "period": "回顾/开放结尾",
       "file": "draft/31.md",
-      "status": "outline",
+      "status": "draft",
       "source_hints": [
-        "R01",
-        "R10",
-        "R14",
-        "R16",
-        "R18",
-        "R20"
-      ]
+        "DL166",
+        "DL47",
+        "DL162",
+        "DL165",
+        "DL117",
+        "DL119",
+        "DL141",
+        "DL158"
+      ],
+      "claims_file": "draft/31.claims.json",
+      "review_status": "PENDING"
     }
   ],
-  "outline_scope": "仅第01—30章已形成来源约束细纲；序章/尾声仍策划",
-  "evidence_scope": "仅第01—30章有限来源与中心断言核查；序章00和尾声31未核证"
+  "outline_scope": "原定序章00、正文01—30、尾声31均有来源约束的分篇细纲；附录A不属于book.json目录",
+  "evidence_scope": "原定32篇00—31中心文献、特定实验和教学例题分批限定核证；附录A另行有限核证；未完成独立审稿"
 }

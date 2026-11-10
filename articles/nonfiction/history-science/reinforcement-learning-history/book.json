@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
-  "reading_notice": "第01—30章为未独立双审、未经终审批准的非虚构正文工作初稿；序章、尾声、第31—32章共4个单元仍待撰写。站内可读不等于已经出版或完成全部事实核验。",
+  "reading_notice": "序章00、01—32章合计33篇均为工作初稿、待独立审校与终稿审批；尾声33仍为唯一明确占位。可在GitHub Pages阅读不等于已出版或事实独立双审通过。",
   "description": "从试错心理学、动态规划与时序差分出发，串联价值学习、策略优化、深度强化学习、自我对弈及人类反馈与可验证奖励。",
   "chapters": [
     {
@@ -10,7 +10,7 @@
       "title": "序章｜2025年的奖杯：为什么两位研究者的工作改变了机器学习",
       "part": "序章",
       "file": "draft/00.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-01",
@@ -227,14 +227,14 @@
       "title": "DPO：不做常规强化学习，也能优化偏好吗",
       "part": "第八部｜奖励由谁定义",
       "file": "draft/31.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "chapter-32",
       "title": "可验证奖励与推理：语言模型如何学会多想一步",
       "part": "第八部｜奖励由谁定义",
       "file": "draft/32.md",
-      "status": "outline"
+      "status": "draft"
     },
     {
       "id": "epilogue",
