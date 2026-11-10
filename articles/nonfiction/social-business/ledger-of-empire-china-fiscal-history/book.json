@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "id": "ledger-of-empire-china-fiscal-history",
+  "title": "帝国的账本：从初税亩到现代预算的中华财政史",
+  "reading_notice": "第01—12章为尚未通过独立双审的财政史工作初稿，其余章节与序尾章为规划占位。章节展示不代表史料核验、终稿审定或知乎发布。",
+  "description": "从初税亩、盐铁、两税法、赋役、财政货币化与清代征收制度，到现代税制、预算及中央地方关系，考察国家资源动员的制度成本。",
+  "chapters": [
+    {
+      "id": "prologue",
+      "title": "崇祯的最后一张账单",
+      "part": "序章",
+      "file": "draft/00.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-01",
+      "title": "王室的账本：西周的粮食与劳役归谁支配",
+      "part": "第一部｜从贡赋到国家：财政如何造出帝国",
+      "file": "draft/part-01-taxation-and-state/01.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-02",
+      "title": "前594年：鲁国为什么开始按田亩收税",
+      "part": "第一部｜从贡赋到国家：财政如何造出帝国",
+      "file": "draft/part-01-taxation-and-state/02.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-03",
+      "title": "盐铁之间：齐国为什么尝试从市场取得收入",
+      "part": "第一部｜从贡赋到国家：财政如何造出帝国",
+      "file": "draft/part-01-taxation-and-state/03.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-04",
+      "title": "商鞅的刀刃：户籍怎样变成战争机器",
+      "part": "第一部｜从贡赋到国家：财政如何造出帝国",
+      "file": "draft/part-01-taxation-and-state/04.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-05",
+      "title": "统一的代价：秦朝有账本为何仍难持久",
+      "part": "第一部｜从贡赋到国家：财政如何造出帝国",
+      "file": "draft/part-01-taxation-and-state/05.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-06",
+      "title": "三十税一的谜题：汉初百姓真的负担很轻吗",
+      "part": "第二部｜汉帝国的两本账：轻税与国家干预",
+      "file": "draft/part-02-han-treasury/06.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-07",
+      "title": "休养生息之后：国家与富户谁先变富",
+      "part": "第二部｜汉帝国的两本账：轻税与国家干预",
+      "file": "draft/part-02-han-treasury/07.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-08",
+      "title": "汉武帝的钱从哪里来：盐铁、均输与平准",
+      "part": "第二部｜汉帝国的两本账：轻税与国家干预",
+      "file": "draft/part-02-han-treasury/08.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-09",
+      "title": "公元前81年：盐铁会议吵的究竟是哪一笔账",
+      "part": "第二部｜汉帝国的两本账：轻税与国家干预",
+      "file": "draft/part-02-han-treasury/09.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-10",
+      "title": "帝国的隐形债主：豪强如何改变财政均衡",
+      "part": "第二部｜汉帝国的两本账：轻税与国家干预",
+      "file": "draft/part-02-han-treasury/10.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-11",
+      "title": "乱世粮仓：曹魏屯田为什么是财政工程",
+      "part": "第三部｜人丁与土地：谁能把农户留在账册上",
+      "file": "draft/part-03-land-and-labor/11.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-12",
+      "title": "北魏均田：国家为什么要分配土地",
+      "part": "第三部｜人丁与土地：谁能把农户留在账册上",
+      "file": "draft/part-03-land-and-labor/12.md",
+      "status": "draft"
+    },
+    {
+      "id": "chapter-13",
+      "title": "仓库装满粮食，隋朝为何仍陷入危机",
+      "part": "第三部｜人丁与土地：谁能把农户留在账册上",
+      "file": "draft/part-03-land-and-labor/13.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-14",
+      "title": "租庸调与府兵：盛唐如何计算一个家庭",
+      "part": "第三部｜人丁与土地：谁能把农户留在账册上",
+      "file": "draft/part-03-land-and-labor/14.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-15",
+      "title": "安史之乱之后：旧户籍为什么撑不起财政",
+      "part": "第三部｜人丁与土地：谁能把农户留在账册上",
+      "file": "draft/part-03-land-and-labor/15.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-16",
+      "title": "780年：两税法为何改变中国财政的逻辑",
+      "part": "第四部｜税制大转轨：从丁口到财产与交易",
+      "file": "draft/part-04-tang-song-turn/16.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-17",
+      "title": "盐比土地更值钱：刘晏怎样救唐朝的现金流",
+      "part": "第四部｜税制大转轨：从丁口到财产与交易",
+      "file": "draft/part-04-tang-song-turn/17.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-18",
+      "title": "五代的财政余震：战争为何使临时征敛常态化",
+      "part": "第四部｜税制大转轨：从丁口到财产与交易",
+      "file": "draft/part-04-tang-song-turn/18.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-19",
+      "title": "商业繁荣的大宋，为何依然缺钱",
+      "part": "第四部｜税制大转轨：从丁口到财产与交易",
+      "file": "draft/part-04-tang-song-turn/19.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-20",
+      "title": "王安石变法：国家能不能靠经营改善财政",
+      "part": "第四部｜税制大转轨：从丁口到财产与交易",
+      "file": "draft/part-04-tang-song-turn/20.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-21",
+      "title": "养兵还是养民：宋朝永远付不起的安全账",
+      "part": "第五部｜战争、货币与专营：宋元财政困局",
+      "file": "draft/part-05-war-money/21.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-22",
+      "title": "从汴京到临安：南宋如何支付存续的成本",
+      "part": "第五部｜战争、货币与专营：宋元财政困局",
+      "file": "draft/part-05-war-money/22.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-23",
+      "title": "纸上的钱：交子和会子能否替代粮银",
+      "part": "第五部｜战争、货币与专营：宋元财政困局",
+      "file": "draft/part-05-war-money/23.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-24",
+      "title": "贾似道的公田法：国家买田能否救急",
+      "part": "第五部｜战争、货币与专营：宋元财政困局",
+      "file": "draft/part-05-war-money/24.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-25",
+      "title": "元朝的钞法与专卖：征收越猛为何未必越富",
+      "part": "第五部｜战争、货币与专营：宋元财政困局",
+      "file": "draft/part-05-war-money/25.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-26",
+      "title": "黄册与鱼鳞图：明太祖试图锁住什么",
+      "part": "第六部｜白银治国：明代改革何以走到尽头",
+      "file": "draft/part-06-silver-ming/26.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-27",
+      "title": "空印案与俸禄：一套精密账本为何管不住官",
+      "part": "第六部｜白银治国：明代改革何以走到尽头",
+      "file": "draft/part-06-silver-ming/27.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-28",
+      "title": "白银帝国：货币怎样改变国家征税方式",
+      "part": "第六部｜白银治国：明代改革何以走到尽头",
+      "file": "draft/part-06-silver-ming/28.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-29",
+      "title": "一条鞭法：张居正的改革解决了什么",
+      "part": "第六部｜白银治国：明代改革何以走到尽头",
+      "file": "draft/part-06-silver-ming/29.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-30",
+      "title": "崇祯的筹饷：皇帝为什么拿不到需要的银子",
+      "part": "第六部｜白银治国：明代改革何以走到尽头",
+      "file": "draft/part-06-silver-ming/30.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-31",
+      "title": "江南奏销案：一张税单怎样变成政治案",
+      "part": "第七部｜官僚帝国最后的调账：清代财政治理",
+      "file": "draft/part-07-qing-bureaucracy/31.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-32",
+      "title": "永不加赋：国家为什么愿意冻结人丁税额",
+      "part": "第七部｜官僚帝国最后的调账：清代财政治理",
+      "file": "draft/part-07-qing-bureaucracy/32.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-33",
+      "title": "摊丁入亩与火耗归公：雍正算清了哪两本账",
+      "part": "第七部｜官僚帝国最后的调账：清代财政治理",
+      "file": "draft/part-07-qing-bureaucracy/33.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-34",
+      "title": "盛世的财政边界：乾隆朝的钱花到哪里去",
+      "part": "第七部｜官僚帝国最后的调账：清代财政治理",
+      "file": "draft/part-07-qing-bureaucracy/34.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-35",
+      "title": "黄宗羲定律：为什么合并杂税后负担还会回来",
+      "part": "第七部｜官僚帝国最后的调账：清代财政治理",
+      "file": "draft/part-07-qing-bureaucracy/35.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-36",
+      "title": "厘金来了：太平天国战争怎样改变地方财政",
+      "part": "第八部｜走出帝国：旧税源与新财政国家",
+      "file": "draft/part-08-modern-transition/36.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-37",
+      "title": "海关税：外部冲击如何改写帝国收入结构",
+      "part": "第八部｜走出帝国：旧税源与新财政国家",
+      "file": "draft/part-08-modern-transition/37.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-38",
+      "title": "张謇办厂：为什么工厂关系到国库未来",
+      "part": "第八部｜走出帝国：旧税源与新财政国家",
+      "file": "draft/part-08-modern-transition/38.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-39",
+      "title": "度支部与预算：晚清为何需要新的财政机器",
+      "part": "第八部｜走出帝国：旧税源与新财政国家",
+      "file": "draft/part-08-modern-transition/39.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-40",
+      "title": "民国的碎账本：中央与地方为何难以合账",
+      "part": "第八部｜走出帝国：旧税源与新财政国家",
+      "file": "draft/part-08-modern-transition/40.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-41",
+      "title": "战争的账单：法币与财政赤字如何相互牵引",
+      "part": "第九部｜财政的现代难题：预算、分税与地方治理",
+      "file": "draft/part-09-modern-fiscal-state/41.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-42",
+      "title": "统收统支：计划经济怎样重建财政的上下级",
+      "part": "第九部｜财政的现代难题：预算、分税与地方治理",
+      "file": "draft/part-09-modern-fiscal-state/42.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-43",
+      "title": "分灶吃饭：地方积极性为什么要用财权换",
+      "part": "第九部｜财政的现代难题：预算、分税与地方治理",
+      "file": "draft/part-09-modern-fiscal-state/43.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-44",
+      "title": "1994年分税制：中央与地方为何重新分账",
+      "part": "第九部｜财政的现代难题：预算、分税与地方治理",
+      "file": "draft/part-09-modern-fiscal-state/44.md",
+      "status": "outline"
+    },
+    {
+      "id": "chapter-45",
+      "title": "从土地财政到现代预算：谁来支付公共服务",
+      "part": "第九部｜财政的现代难题：预算、分税与地方治理",
+      "file": "draft/part-09-modern-fiscal-state/45.md",
+      "status": "outline"
+    },
+    {
+      "id": "epilogue",
+      "title": "财政不是钱袋",
+      "part": "尾声",
+      "file": "draft/99.md",
+      "status": "outline"
+    }
+  ]
+}

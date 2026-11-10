@@ -22,6 +22,14 @@
 10. 章节写作必须更新 `chapter-state.json`；非虚构必须在章节中保留 claim 到来源的可追溯对应。
 11. 不能编造证据、原始引文、采访或真实人物私下心理；未授权不得对外发布或假称已获平台收录。
 
+
+## GitHub Pages 系列收录与章节导航
+- **两种不同的“发布”**：GitHub Pages 允许明确标记的未审工作初稿和占位目录供阅读，**不等于**知乎平台发布、事实核验通过或 `final-approval`。正式出版仍须遵守 `workflow_gate.py --target publish`，不得因网页可读而自行修改 `final_approved`。
+- **新书登记的原子交付**：目录 `articles/<fiction|nonfiction>/<genre>/<slug>/` 下必须有 `README.md` 和 `book.json`（建议同时维护 `metadata.yaml`）。`book.json` 的 `schema_version=1`，`id` 与 slug 一致，章节须逐条声明 `id/title/part/file/status`，不得批量曝光 research、claims、QA 或提示词。
+- **三章一批联动**：章节 Agent 交付 Markdown、证据记录及章节编号/标题/分部/源路径/状态；主编或仓库维护者核对并同步 `book.json`。`outline` 是占位，`draft` 是工作初稿，`final` 只给确已批准的章节。新增章节不自动晋升审稿状态。
+- **网站自动发现**：`scripts/build_pages.py` 扫描 `catalog.json` 的归档路径，将新作品自动加入书架。已有 `site/assets/data/books.json` 是可选的陈列定制，不再是唯一入口；缺封面使用文字封面。
+- **必须验证**：`python scripts/build_pages.py --check-catalog`、`python scripts/sync_skills.py --check`、`python -m unittest discover -s scripts -p 'test_*.py'`。新系列缺 `book.json` 时必须构建失败，不能静默跳过。合并后检查 GitHub Actions 的 Pages build、deploy 和站内书籍/章节路由。详见 `docs/pages-publishing.md`。
+
 ## 原始 Prompt 保存
 核心通用 Prompt 的原始完整版为 `chief-narrative-editor/prompt.txt`；过去的精简版存为 `prompt-condensed-v1.txt`。十套题材 Prompt 的原文在各自 `prompt-original.txt`，阶段旧版 A/B/C 亦在对应目录保留。分阶段执行时优先遵循阶段输入输出权限，而不是照搬原始 Prompt 的“立即输出全文”。
 

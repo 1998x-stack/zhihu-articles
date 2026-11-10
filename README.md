@@ -270,6 +270,19 @@ python scripts/workflow_state.py "$ARTICLE" new-revision --reason "修复动机�
 
 采用七个维度辅助内部质量评价：开篇吸引力 15、叙事节奏 15、信息差 15、人物塑造 15、逻辑 20、情绪与思想价值 10、语言表达 10。评分是编辑工具而非平台标准；对非虚构来说，关键事实错误可直接阻断交付。
 
+
+## GitHub Pages 书架注册与可阅读章节
+作品在 `articles/` 下建立 `README.md` 和 `book.json` 后，网站构建器会沿 `catalog.json` 的归档路径**自动发现新系列**。已有 `site/assets/data/books.json` 保留人工定制的封面和陈列顺序，但不再需要为每个新书手工追加条目；没有 PNG 封面会显示排版式临时封面。
+
+`book.json` 必须显式列举希望展示的 Markdown 章节及 `outline/draft/final` 状态，不会自动复制整个研究目录。每次三章一批写作需同步状态与章节导航。提交前：
+```bash
+python scripts/build_pages.py --check-catalog
+python scripts/sync_skills.py --check
+python -m unittest discover -s scripts -p 'test_*.py'
+python scripts/build_pages.py --out _site
+```
+缺少新系列清单将触发 CI 失败，不会静默漏收录。详细协议见 [GitHub Pages 收录与部署](docs/pages-publishing.md)。**Pages 中阅读工作初稿不代表知乎平台发表或完成独立审稿。**
+
 ## 现有作品
 
 这些目录用于实际创作和检验长篇知识叙事方法，**作品状态以各自 `metadata.yaml` 为准**。

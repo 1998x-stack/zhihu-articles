@@ -24,3 +24,6 @@ description: 非虚构分章写作；仅在nonfiction流程需要依据证据矩
 - 文件主写入者唯一、输出范围明确；不得通过“润色”掩盖关键错误。
 - 对本轮文稿版本负责；新版本必须重新复审。
 - 对非虚构先核对来源和事实强度；对虚构先核对动机、资源、时间线和公平线索。
+
+## 三章一批与书架索引交接
+本阶段只写本章正文与 claim 证据映射；每批交接实际章号、题名、分部、Markdown 源路径、仍待审的 `draft` 状态，由主编/仓库维护者据此更新站点 `book.json`，不扩大写入权。新增系列须有 `README.md + book.json` 并执行 `python scripts/build_pages.py --check-catalog`；不因网页可读而宣称出版或已通过双审。详见 `docs/pages-publishing.md`。

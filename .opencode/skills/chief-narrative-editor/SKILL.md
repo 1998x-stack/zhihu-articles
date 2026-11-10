@@ -40,3 +40,6 @@ description: 中文叙事总主编与流程路由器；当用户提出新文章�
 
 ## 最终输出
 依据用户要求输出当前阶段对应的可用文件或正文；不暴露私有内部推理，只展示用于复核的结构理由、来源、修订记录、状态与产物路径。
+
+## GitHub Pages 收录与正式出版的双层闸门
+新增专题、三章一批更新或站点导航任务必须读取 `docs/pages-publishing.md`；交接唯一系列 slug、归档路径、`README.md`、`book.json` 的章号/标题/分部/路径/`status`，由站点维护者核对并同步。运行 `python scripts/build_pages.py --check-catalog`。工作初稿可以在 Pages 阅读，但**不意味着知乎发布、两道审稿通过或终稿批准**；不得以公开可见代替 `workflow_gate.py --target publish`，不得凭 `metadata.yaml` 自动提升 `workflow-state.json`。
