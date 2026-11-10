@@ -758,3 +758,62 @@
 ### 批次准入与审校标识
 
 本批可以以明确来源限制的工作初稿形式编写第31—33章，章内每条\`[GT31-NN]\`、\`[GT32-NN]\`、\`[GT33-NN]\`与\`draft/NN.claims.json\`一一对应。凡自制数例写明现代构造；原刊用语与后世规范方程分开。**不更新正式审稿为PASS、不设置final_approved=true**。
+
+
+---
+
+## 第34—36章专题前置核证｜2026-11-10
+
+> **范围：** 本批先核证原始文献、年份、建模前提及数学可检验主张，再生成三章研究性工作初稿。真实论文所支持的判断与作者设计的数例及后世批评必须分开。属于 nonfiction / genre-history-science 的 **VERIFIED_SCOPED（仅支持写作）**，并非独立事实审校或最终 PASS。第37章尾声仍 TODO_VERIFY；\`review_status=PENDING\`、\`final_approved=false\`。
+
+### 原始与独立复核资料 S151—S165
+
+| ID | 文献与原始链接 | 核证范围与限制 |
+|---|---|---|
+| S151 | Albert-László Barabási / Réka Albert, “Emergence of Scaling in Random Networks,” *Science* 286(5439) (15 Oct 1999), 509—512. https://doi.org/10.1126/science.286.5439.509 | 两个机制：网络持续增大、新节点按现有度数偏好连接；报告比例尺度分布。第34章模型k^{-3}属于指定线性无初始吸引的BA理想模型的推导，**不能覆盖所有优先连接变种或真实网络** |
+| S152 | Aaron Clauset, Cosma Rohilla Shalizi, M. E. J. Newman, “Power-Law Distributions in Empirical Data,” *SIAM Review* 51(4) (2009), 661—703. https://doi.org/10.1137/070710111；作者资源 https://aaronclauset.github.io/powerlaws/ | 对数双轴看着直不构成幂律证据；尾部阈值、似然估计、拟合优度、备择分布等需检验。不要拿有限样本的几条线段宣称精确指数 |
+| S153 | Anna D. Broido / Aaron Clauset, “Scale-Free Networks Are Rare,” *Nature Communications* 10 (4 Mar 2019), article 1017. https://doi.org/10.1038/s41467-019-08746-5 | 近1000现实网络多种定义下不普遍“无标度”；论文各层严格性判断不同，引用时不能把约4%最强证据等同“只4%任何尾部都像幂律”，更不能宣称所有网络都不是 |
+| S154 | Michelle Girvan / M. E. J. Newman, “Community Structure in Social and Biological Networks,” *PNAS* 99(12) (11 Jun 2002), 7821—7826. https://doi.org/10.1073/pnas.122653799 | 边介数（最短路径使用边的份额）、反复移除高介数边以识别社群；2002先于2004模块度评估扩展。原始实例包含社会与生物网络 |
+| S155 | M. E. J. Newman / Michelle Girvan, “Finding and Evaluating Community Structure in Networks,” *Physical Review E* 69 (26 Feb 2004), 026113. https://doi.org/10.1103/PhysRevE.69.026113 | 每删一条边**重新计算**介数，讨论算法与模块度Q。文中明确模块度要在原网络结构上评价候选划分，不是在删完边的残余图上重新定义原网络 |
+| S156 | Santo Fortunato / Marc Barthélemy, “Resolution Limit in Community Detection,” *PNAS* 104(1) (2 Jan 2007), 36—41, online 26 Dec 2006. https://doi.org/10.1073/pnas.0605965104 | 最大化模块度可能把足够小但内部明确的团体合并，说明Q有规模/分辨率限制；不是说Q永远错误 |
+| S157 | M. E. J. Newman, “Modularity and Community Structure in Networks,” *PNAS* 103(23) (6 Jun 2006), 8577—8582. https://doi.org/10.1073/pnas.0601602103 | 模块度谱矩阵、社群划分；2006的谱优化与2002边介数迭代、2004评价指标是三项不同阶段工作 |
+| S158 | Marco Gori, Gabriele Monfardini, Franco Scarselli, “A New Model for Learning in Graph Domains,” *IJCNN 2005* (31 Jul—4 Aug 2005), 729—734. https://doi.org/10.1109/IJCNN.2005.1555942 | 2005会议早期“graph neural network”模型可处理有向/无向、有环数据，不可称GNN起源于GCN2017 |
+| S159 | Franco Scarselli, Marco Gori, Ah Chung Tsoi, Markus Hagenbuchner, Gabriele Monfardini, “The Graph Neural Network Model,” *IEEE Trans. Neural Networks* 20(1) (Jan 2009), 61—80, Epub 9 Dec 2008. https://doi.org/10.1109/TNN.2008.2005605 | 2009期刊系统形式及2008线上发布时间有别，早期模型的迭代状态/稳定性条件与后来的有限层现代消息传递不同 |
+| S160 | Thomas N. Kipf / Max Welling, “Semi-Supervised Classification with Graph Convolutional Networks,” arXiv submitted 9 Sep 2016; *ICLR 2017*. https://arxiv.org/abs/1609.02907 | 图卷积GCN \`H^{l+1}=σ(D̃^{-1/2}ÃD̃^{-1/2}H^lW^l)\` 的对称归一化、自环；不能混成简单未归一化邻接乘积 |
+| S161 | Will Hamilton / Rex Ying / Jure Leskovec, “Inductive Representation Learning on Large Graphs,” *NeurIPS 2017*, arXiv June 2017. https://proceedings.neurips.cc/paper_files/paper/2017/hash/5dd9db5e033da9c6fb5ba83c7a7ebea9-Abstract.html | GraphSAGE采样邻居、聚合节点特征并学习函数以泛化新节点；不能写成“无需特征就自动理解任意新图” |
+| S162 | Justin Gilmer et al., “Neural Message Passing for Quantum Chemistry,” *ICML 2017*, PMLR 70, 1263—1272. https://proceedings.mlr.press/v70/gilmer17a.html | 以MPNN框架统一多个既有图模型：消息函数、聚合、更新及读出；该论文不是“首次有人让节点共享信息”的原始发明 |
+| S163 | Petar Veličković et al., “Graph Attention Networks,” arXiv submitted Oct 2017, *ICLR 2018*. https://arxiv.org/abs/1710.10903；ICLR索引 https://mlanthology.org/iclr/2018/velickovic2018iclr-graph/ | GAT对邻居贡献学习归一化注意权重（可多头），不是任意远节点无代价地全局注意；2017预印本与2018会议版本分别标注 |
+| S164 | Keyulu Xu, Weihua Hu, Jure Leskovec, Stefanie Jegelka, “How Powerful Are Graph Neural Networks?”, arXiv 1 Oct 2018, *ICLR 2019*. https://arxiv.org/abs/1810.00826 | 后续GNN辨别力研究：一些邻域聚合方法不能区分某些非同构局部结构，不能声称任意GNN对所有非同构图都可识别 |
+| S165 | Nicolas Keriven, “Not Too Little, Not Too Much: A Theoretical Analysis of Graph (Over)Smoothing,” *NeurIPS 2022*. https://proceedings.neurips.cc/paper_files/paper/2022/hash/0f956ca6f667c62e0f71511773c86a59-Abstract-Conference.html | 后世对反复均值聚合可能过平滑的严格限定分析；不可把例子当作所有GNN必然失效的普遍定理 |
+
+| S166 | Réka Albert / Albert-László Barabási, “Statistical Mechanics of Complex Networks,” *Reviews of Modern Physics* 74(1) (30 Jan 2002), 47—97. https://doi.org/10.1103/RevModPhys.74.47；作者公开版本 https://www.barabasi.com/media/pub_imports/files/103.pdf | 后世系统综述精确BA度分布\\(P_k=2m(m+1)/[k(k+1)(k+2)]\\)、m=1时得到4/[k(k+1)(k+2)]及极限幂律k^{-3}；不将该精确主方程形式直接归为1999四页Science原文公式 |
+
+### 章节事实与数学前提矩阵
+
+#### 第34章：增长 + 线性优先连接，不等于“现实普遍无标度”
+
+- \`P(k)\`表示度数为k的节点比例，不是某特定节点被连接的概率。经典BA每时刻新增一个顶点及m条边，新边选旧节点i的概率近似\(\Pi(i)=k_i/\sum_j k_j\)，给定独立选择及禁止多重边等实现时会有有限大小差别。
+- 对理想化m=1模型，根据S166综述中的主方程/精确度分布分析得到\((k+2)P_k=(k-1)P_{k-1}+2\mathbf1_{k=1}\)，于是\(P_k=4/[k(k+1)(k+2)]\sim4k^{-3}\)。明确渐近、大网络及特定模型假设，不假装所有m或所有增长法都有完全相同的**有限k**分布。
+- 自制“累计吸引”例：五旧顶点A、B、C、D、E的边AB/AC/AD/AE/BC，度数(4,2,2,1,1)，和为10，新节点只添一条边，命中概率(0.4,0.2,0.2,0.1,0.1)；该有限简单图可实际构造，规则演示不是1999论文真实采样。
+- 高度不均≠独立验证幂律；使用S152的统计拟合注意事项与S153的2019反证研究保留争议；短平均路径/高聚类不自动推出幂律。
+- **34→35：** 即使知道谁是高连接枢纽，仍不知道图是否分成紧密群体；度分布忽略了边在群体内外的排布。
+
+#### 第35章：边介数与模块度的不同任务
+
+- 在无向无权连通图，边e的未归一化边介数定义\(\sum_{\{s,t\}}\sigma_{st}(e)/\sigma_{st}\)；存在多个最短路径时要按路径份额分摊，不能只数有一条路径经过的点对。
+- 自制两个三角形通过单边a—d相连（左{a,b,c}，右{d,e,f}）：跨组无序点对3×3=9，均必须过a—d，所以桥边介数9；割断后得到两个三角形，适合示范Girvan–Newman反复删最大介数边，删后必须重新计算。
+- 原图共7边，两三角形的划分每组内部3边，组总度数7（2m=14），故模块度\(Q=2(3/7-(7/14)^2)=5/14≈0.3571\)。单组划分Q=0。模块度定义要在**原始图**上计算，不能把两三角形断开的新图的m=6拿来计算Q。
+- \(\displaystyle Q=(1/2m)\sum_{ij}(A_{ij}-k_ik_j/(2m))\mathbf1[c_i=c_j]\)。这是相对“保留度数期望”的空模型的统计偏离，**不是客观人群身份真相**；真实重叠社群、节点属性或动态群体另需模型。
+- 分辨率极限S156；若社群小，最大化Q有可能合并真实小团体。2002算法、2004Q评价与2006谱法、2007反例时间区别。
+
+#### 第36章：GNN 2005/2009 → GCN 2016/2017 → 2017采样/MPNN → GAT 2017/2018
+
+- 定义消息传递\(\displaystyle m_v^{(\ell)}=\operatorname{AGG}_{u\in N(v)} M_\ell(h_v^{(\ell)},h_u^{(\ell)},e_{uv})\)，\(\displaystyle h_v^{(\ell+1)}=U_\ell(h_v^{(\ell)},m_v^{(\ell)})\)。AGG需对邻居顺序不敏感（如sum/mean/max）以保障对重排的节点等变性，若要图级输出再用置换不变的READOUT。
+- 自制两点边A—B加自环，节点原始二维特征(1,0)、(0,1)，取GCN对称归一化\(\tilde A= [[1,1],[1,1]],\tilde D=diag(2,2)\)及W=I、线性激活，可得两点新特征都(1/2,1/2)。**只是单层具体算例**，证明“邻居聚合可能混合差异”，不是任何GCN必然完全混淆。
+- GraphSAGE2017邻居采样聚合解决大图与未见节点泛化的重要一环（需要可用特征）；Gilmer2017将模型归入一般MPNN消息传递；GAT2017预印本/2018会议在邻居内通过注意力学习不同权重；早期GNN2005/2009不能被抹去。
+- 后世2018/2019辨别能力与2022过平滑研究是**后续审视**，不当作2017论文发明人已知、已证的结论。模型可以学习图结构上的统计模式，但不自动识别因果、可信度或解释事实。
+- **36→37：** 本批结束全书36章主体（加序章00共37篇工作初稿），最后一篇是尾声37；尾声要独立核证图模型的抽象收益与现实局限，随后方可开始全书审校。
+
+### 阶段结论
+
+仅授予**第34—36章研究性工作初稿写作所需的限定前置核证范围**。全书正式双审、精修、终稿及平台发布均未批准；不自动解除第37章\`TODO_VERIFY\`。

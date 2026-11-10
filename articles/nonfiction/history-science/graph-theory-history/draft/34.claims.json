@@ -1,11 +1,102 @@
 {
   "chapter": "34",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S10"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "BA1999 Science原刊、Albert—Barabási2002综述主方程、Clauset等2009统计拟合、Broido–Clauset2019对普遍无标度断言的独立检验；五顶点优先连接例为作者自制可实现简单图。仅预写作限定核证，非独立双审。",
+  "claims": [
+    {
+      "claim_id": "GT34-01",
+      "claim": "1999 BA论文把网络增长与优先连接作为出现尺度分布的两项机制",
+      "source_ids": [
+        "S151"
+      ],
+      "status": "HISTORICAL_PRIMARY"
+    },
+    {
+      "claim_id": "GT34-02",
+      "claim": "P(k)为度数恰为k的顶点比例而非新边选中特定顶点的概率",
+      "source_ids": [
+        "S151",
+        "S166"
+      ],
+      "status": "MATHEMATICAL_DEFINITION"
+    },
+    {
+      "claim_id": "GT34-03",
+      "claim": "经典G(n,p)模型单点度分布Binomial(n-1,p)，不代表所有随机图",
+      "source_ids": [
+        "S166"
+      ],
+      "status": "MODEL_COMPARISON"
+    },
+    {
+      "claim_id": "GT34-04",
+      "claim": "Barabasi与Albert Science286(5439)509-512，发表1999-10-15",
+      "source_ids": [
+        "S151"
+      ],
+      "status": "PRIMARY_BIBLIO"
+    },
+    {
+      "claim_id": "GT34-05",
+      "claim": "BA经典线性优先连接新边选中i概率k_i/sum_j k_j",
+      "source_ids": [
+        "S151",
+        "S166"
+      ],
+      "status": "MODEL_FORMULA"
+    },
+    {
+      "claim_id": "GT34-06",
+      "claim": "5节点边AB AC AD AE BC形成度(4,2,2,1,1)，新边概率(0.4,0.2,0.2,0.1,0.1)",
+      "source_ids": [
+        "S166"
+      ],
+      "status": "AUTHOR_EXAMPLE_VERIFIED"
+    },
+    {
+      "claim_id": "GT34-07",
+      "claim": "P(k)~k^-gamma为幂律尾部，不能同义替换为80/20或任意现实网络",
+      "source_ids": [
+        "S151",
+        "S152"
+      ],
+      "status": "POWER_LAW_DEFINITION_SCOPE"
+    },
+    {
+      "claim_id": "GT34-08",
+      "claim": "理想BA m=1主方程递推(k+2)Pk=(k-1)P(k-1)+2delta_k1给出Pk=4/[k(k+1)(k+2)]~4k^-3",
+      "source_ids": [
+        "S166"
+      ],
+      "status": "MODERN_DERIVATION_AFTER_1999"
+    },
+    {
+      "claim_id": "GT34-09",
+      "claim": "双对数直线外观不能单独证明幂律，需ML拟合、尾部阈值和备择检验",
+      "source_ids": [
+        "S152"
+      ],
+      "status": "EMPIRICAL_STATISTICS_SCOPE"
+    },
+    {
+      "claim_id": "GT34-10",
+      "claim": "Broido–Clauset2019系统研究约1000现实网络，反驳普遍无标度强说法",
+      "source_ids": [
+        "S153"
+      ],
+      "status": "LATER_EMPIRICAL_CRITIQUE"
+    },
+    {
+      "claim_id": "GT34-11",
+      "claim": "WS短路/高聚类与BA重尾度分布不同，不能互相推出",
+      "source_ids": [
+        "S149",
+        "S151",
+        "S153"
+      ],
+      "status": "MODEL_DISTINCTION"
+    }
+  ]
 }

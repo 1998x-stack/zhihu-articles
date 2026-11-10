@@ -1,11 +1,100 @@
 {
   "chapter": "35",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S10"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Girvan–Newman2002原刊边介数算法、Newman–Girvan2004模块度及重新计算要求、Newman2006谱方法、Fortunato–Barthelemy2007分辨率极限；两个三角形桥算例由作者构造与手算，数据非原文实验。",
+  "claims": [
+    {
+      "claim_id": "GT35-01",
+      "claim": "社群检测研究图中内部较密外部较疏群体，Girvan/Newman2002提出边介数划分",
+      "source_ids": [
+        "S154"
+      ],
+      "status": "PRIMARY_HISTORY"
+    },
+    {
+      "claim_id": "GT35-02",
+      "claim": "顶点度数与边介数描述不同的结构重要度",
+      "source_ids": [
+        "S154"
+      ],
+      "status": "MODERN_CONCEPT_BOUNDARY"
+    },
+    {
+      "claim_id": "GT35-03",
+      "claim": "无向无权图边介数B(e)=sum_unordered_pairs sigma_st(e)/sigma_st，最短路并列须分摊",
+      "source_ids": [
+        "S154",
+        "S155"
+      ],
+      "status": "ALGORITHM_DEFINITION"
+    },
+    {
+      "claim_id": "GT35-04",
+      "claim": "两三角形{a,b,c}/{d,e,f}加桥a-d共7边，桥介数为9",
+      "source_ids": [
+        "S154"
+      ],
+      "status": "AUTHOR_EXAMPLE_VERIFIED"
+    },
+    {
+      "claim_id": "GT35-05",
+      "claim": "Girvan/Newman PNAS99(12)2002年7821-7826采用反复删除最高介数边并每轮重算",
+      "source_ids": [
+        "S154",
+        "S155"
+      ],
+      "status": "PRIMARY_ALGORITHM"
+    },
+    {
+      "claim_id": "GT35-06",
+      "claim": "组内边占比单独最大化会偏好全放一组，需要与度数零模型比较",
+      "source_ids": [
+        "S155"
+      ],
+      "status": "MODULARITY_MOTIVATION"
+    },
+    {
+      "claim_id": "GT35-07",
+      "claim": "Newman/Girvan PhysRevE69 026113于2004年正式刊出并研究Q指标",
+      "source_ids": [
+        "S155"
+      ],
+      "status": "PRIMARY_BIBLIO"
+    },
+    {
+      "claim_id": "GT35-08",
+      "claim": "在原始7边图上两三角分组Q=2(3/7-(7/14)^2)=5/14；单组Q=0",
+      "source_ids": [
+        "S155"
+      ],
+      "status": "AUTHOR_MODULARITY_PROOF"
+    },
+    {
+      "claim_id": "GT35-09",
+      "claim": "Newman2006 PNAS103(23)模块度矩阵谱方法，与2002移除高介数边不同",
+      "source_ids": [
+        "S157"
+      ],
+      "status": "PRIMARY_HISTORY"
+    },
+    {
+      "claim_id": "GT35-10",
+      "claim": "Fortunato/Barthelemy2007 PNAS104(1)36-41分辨率极限，2006线上提前出版",
+      "source_ids": [
+        "S156"
+      ],
+      "status": "PRIMARY_AND_LIMIT"
+    },
+    {
+      "claim_id": "GT35-11",
+      "claim": "标准静态无向Q不自然处理所有重叠、方向、动态和其他群体定义，Q非唯一身份真相",
+      "source_ids": [
+        "S155",
+        "S156"
+      ],
+      "status": "APPLICATION_BOUNDARY"
+    }
+  ]
 }

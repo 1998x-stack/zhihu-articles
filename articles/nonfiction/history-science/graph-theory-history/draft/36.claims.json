@@ -1,11 +1,135 @@
 {
   "chapter": "36",
-  "status": "planning",
-  "verified": false,
-  "claims": [],
-  "candidate_sources": [
-    "S01",
-    "S10"
-  ],
-  "note": "编辑占位；没有经过逐条证据核验。"
+  "status": "draft",
+  "verified": true,
+  "review_status": "PENDING",
+  "verification_scope": "Gori/Monfardini/Scarselli2005会议、Scarselli等2009期刊；Kipf/Welling2016预印/2017会议、Hamilton等GraphSAGE2017、Gilmer等MPNN2017、Velickovic等GAT2017预印/2018会议；Xu等2018预印/2019会议、Keriven2022为后世局限。两点GCN数例为作者推导。",
+  "claims": [
+    {
+      "claim_id": "GT36-01",
+      "claim": "GNN研究早于2017 GCN，已存在2005及2009图域学习神经网络模型",
+      "source_ids": [
+        "S158",
+        "S159",
+        "S160"
+      ],
+      "status": "HISTORICAL_SCOPE"
+    },
+    {
+      "claim_id": "GT36-02",
+      "claim": "对独立向量作分类可能忽略邻接，图域学习可结合节点/边特征",
+      "source_ids": [
+        "S158",
+        "S162"
+      ],
+      "status": "MODEL_MOTIVATION"
+    },
+    {
+      "claim_id": "GT36-03",
+      "claim": "Gori、Monfardini、Scarselli 2005 IJCNN论文 A New Model for Learning in Graph Domains",
+      "source_ids": [
+        "S158"
+      ],
+      "status": "PRIMARY_BIBLIO"
+    },
+    {
+      "claim_id": "GT36-04",
+      "claim": "Scarselli等 The Graph Neural Network Model 2009期刊/2008电子提前出版与早期稳定状态机制",
+      "source_ids": [
+        "S159"
+      ],
+      "status": "PRIMARY_CHRONOLOGY"
+    },
+    {
+      "claim_id": "GT36-05",
+      "claim": "MPNN节点信息传递消息聚合更新，读出图级预测可参照Gilmer2017框架",
+      "source_ids": [
+        "S162"
+      ],
+      "status": "MODERN_FRAMEWORK"
+    },
+    {
+      "claim_id": "GT36-06",
+      "claim": "sum/mean/max聚合邻居排列不变，节点级输出应对顶点编号置换等变",
+      "source_ids": [
+        "S162",
+        "S164"
+      ],
+      "status": "PERMUTATION_PROPERTY"
+    },
+    {
+      "claim_id": "GT36-07",
+      "claim": "Kipf/Welling GCN2016-09 arxiv预印，ICLR2017发表",
+      "source_ids": [
+        "S160"
+      ],
+      "status": "PRIMARY_CHRONOLOGY"
+    },
+    {
+      "claim_id": "GT36-08",
+      "claim": "标准GCN按自环A+I及对称度数归一化 Dtilde^-1/2 Atilde Dtilde^-1/2聚合",
+      "source_ids": [
+        "S160"
+      ],
+      "status": "MODEL_EQUATION"
+    },
+    {
+      "claim_id": "GT36-09",
+      "claim": "两点边加自环时归一化矩阵全1/2，取W=I线性激活使(1,0),(0,1)都变成(1/2,1/2)",
+      "source_ids": [
+        "S160"
+      ],
+      "status": "AUTHOR_MATRIX_EXAMPLE"
+    },
+    {
+      "claim_id": "GT36-10",
+      "claim": "Hamilton/Ying/Leskovec NeurIPS2017 GraphSAGE学习采样邻居聚合函数以泛化未见节点",
+      "source_ids": [
+        "S161"
+      ],
+      "status": "PRIMARY_ALGORITHM_SCOPE"
+    },
+    {
+      "claim_id": "GT36-11",
+      "claim": "Gilmer等 ICML2017 MPNN统一已有图模型并应用分子性质预测",
+      "source_ids": [
+        "S162"
+      ],
+      "status": "PRIMARY_CONTRIBUTION"
+    },
+    {
+      "claim_id": "GT36-12",
+      "claim": "Velickovic等GAT 2017-10预印/ICLR2018邻居注意力，权重归一化不等于因果解释",
+      "source_ids": [
+        "S163"
+      ],
+      "status": "PRIMARY_CHRONOLOGY"
+    },
+    {
+      "claim_id": "GT36-13",
+      "claim": "Xu等2018预印/ICLR2019研究邻域GNN对某些图结构的区分能力限制",
+      "source_ids": [
+        "S164"
+      ],
+      "status": "LATER_EXPRESSIVITY"
+    },
+    {
+      "claim_id": "GT36-14",
+      "claim": "反复均值聚合在一些条件下可过平滑，不能外推所有架构",
+      "source_ids": [
+        "S165"
+      ],
+      "status": "LATER_THEORY_SCOPE"
+    },
+    {
+      "claim_id": "GT36-15",
+      "claim": "GNN输出依赖图建模、特征与任务，模型预测不等于因果或完整现实理解",
+      "source_ids": [
+        "S158",
+        "S162",
+        "S164"
+      ],
+      "status": "METHODOLOGY_BOUNDARY"
+    }
+  ]
 }

@@ -9,7 +9,7 @@
   "unresolved_blockers": [],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "00—33章仅完成对应史料与数学主张创作前置核查；31章S139—S142、32章S143—S145、33章S146—S150。第34—37章仍TODO_VERIFY。非全部原刊逐页核验或独立审稿。",
-  "approval_scope": "序章00—33章既定结构与限定事实研究支持非虚构研究性工作初稿；第34—37章仍待前置核证。正式连续性审计、独立结构双审、语言精修、终稿及外部发布未获批准。",
-  "note": "2026-11-10：第31—33章新增3篇工作初稿、35条主张映射；Graphon/PageRank/小世界的模型限制见research.md。保持review_status=PENDING、reviewed_revision=null、edited_revision=null、final_approved=false。"
+  "evidence_scope": "序章00至第36章仅完成相应资料的创作前置限定核证；第34章S151—S153及S166、第35章S154—S157、第36章S158—S165。尾声37仍是TODO_VERIFY，所有章节尚未完成独立事实双审或逐页原刊核对。",
+  "approval_scope": "序章00—36章既定结构与限定研究可支持非虚构工作初稿编写；仅尾声37尚待前置核证。独立连续性审计、结构审稿、语言精修、正式终稿及对外发布尚未批准。",
+  "note": "2026-11-10：第34—36章新增3篇研究性初稿、37条主张映射；模型假设、方法限制及出处见research.md。保持review_status=PENDING、reviewed_revision=null、edited_revision=null、final_approved=false。"
 }

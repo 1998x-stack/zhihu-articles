@@ -35,9 +35,9 @@
 | 31 | GT31-01—GT31-12：同态密度、双Graphon边/三角密度反例、稠密适用范围、Lovász—Szegedy2004/2006、cut距离与2012专著 | S139—S142（见research.md） | VERIFIED_SCOPED（仅31；确定函数≠随机生成机制，稀疏有向不可直接套用） |
 | 32 | GT32-01—GT32-11：链接方向、阻尼传送、概率平稳分布、三网页示例及1998原稿/原型发表史 | S143—S145（见research.md） | VERIFIED_SCOPED（仅32；PageRank非搜索排序/可信度的全部） |
 | 33 | GT33-01—GT33-12：Milgram1967/Travers–Milgram1969样本局限、聚类/短路、Granovetter1973、Watts–Strogatz1998、Kleinberg2000 | S146—S150（见research.md） | VERIFIED_SCOPED（仅33；六度非普遍定理，WS不自动推出无标度） |
-| 34 | GT34-01：优先连接与幂律模型，避免普遍无标度断言 | S01、S10 | TODO_VERIFY |
-| 35 | GT35-01：边介数、社群检测与模块度局限 | S01、S10 | TODO_VERIFY |
-| 36 | GT36-01：早期GNN、GCN、GraphSAGE、GAT与消息传递 | S01、S10 | TODO_VERIFY |
+| 34 | GT34-01—GT34-11：BA1999增长/线性优先连接、2002综述精确度分布、自制五顶点例、2009/2019幂律统计争议 | S151—S153、S166（见research.md） | VERIFIED_SCOPED（仅34；模型幂律不等于现实网络普遍无标度） |
+| 35 | GT35-01—GT35-11：Girvan—Newman2002边介数、Newman—Girvan2004模块度、两个三角形7边及Q=5/14、2006谱法与2007分辨率极限 | S154—S157（见research.md） | VERIFIED_SCOPED（仅35；边介数算法与模块度指标不可混同） |
+| 36 | GT36-01—GT36-15：Gori等2005/Scarselli等2009、GCN2016/2017、GraphSAGE与MPNN2017、GAT2017/2018及辨别力/过平滑后续边界 | S158—S165（见research.md） | VERIFIED_SCOPED（仅36；2005—2018史实与2019/2022后见理论分开） |
 | 37 | GT37-01：图模型解释力、假设与局限 | S01、S02、S03 | TODO_VERIFY |
 
 正式文稿中每条可核主张需要记录文献版本、页码/章节、支持边界、是否争议与现代解释标记；没有完成上述核验不能设为 VERIFIED。
