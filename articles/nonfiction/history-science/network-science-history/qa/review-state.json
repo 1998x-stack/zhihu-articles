@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "series_id": "network-science-history",
+  "editorial_phase": "full_book_review_started",
+  "baseline_commit": "60071e043563e9dd886e74ad0eeb63ab8d15ce51",
+  "baseline_date": "2026-11-10",
+  "current_revision": 0,
+  "article_count": 34,
+  "manuscripts_ready_for_review": 25,
+  "outlined_only": 9,
+  "missing_manuscript_numbers": [
+    "00",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33"
+  ],
+  "manuscript_claims_total": 267,
+  "body_claim_ids_linked": 48,
+  "body_claim_ids_missing_inline_anchor": 219,
+  "initial_editorial_findings": "CHANGES_REQUIRED",
+  "formal_workflow_review_status": "PENDING",
+  "formal_review_completed": false,
+  "independent_full_manuscript_fact_review_completed": false,
+  "independent_full_manuscript_developmental_review_completed": false,
+  "editorial_signoff": false,
+  "notes": "首轮文档审校报告和书目一致性核查已形成。两份报告对应不同审查维度，不宣称已有两个独立审稿人签批；上游outline/evidence闸门未批准，9章无可审正文。",
+  "reports": [
+    "qa/continuity-report.md",
+    "qa/developmental-review.md",
+    "qa/chapter-review-matrix.md"
+  ],
+  "next_stage": "resolve_blockers_then_reaudit_at_new_revision"
+}
