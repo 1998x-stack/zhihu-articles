@@ -66,7 +66,7 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **C**：专业综述支持，适宜历史背景，不单独支持争议归属。
 - **D**：编辑假设、类比或待核猜想，不进入正文事实陈述。
 
-截至2026-11-10，第01—18章已按各自批次对可访问原始论文、出版记录及具体主张开展**限定范围前置核验**；第19章以后以及原刊未逐页复核的图表/技术细节仍待核。全书独立双审、终审均未完成。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
+截至2026-11-10，第01—21章已按各自批次对可访问原始研究、出版记录及明示具体主张开展**限定范围写作前核验**；第22章以后及部分未逐页复核的论文实验表格/代码仍待核。未完成全书独立双审、终审及发布。只能在所列证据范围内起草，不据此声称全书全面核证。下游章节动笔前，必须将相关事实升级到足够的 A/B 证据，创建实际的 `draft/NN.claims.json`，并由独立审阅检查。
 
 ## 第01—03章增量核证记录（2026-11-09）
 
@@ -223,3 +223,28 @@ Sutton 与 Barto 的史学性综述（R01）认为现代强化学习的早期形
 - **原创演算17**：φ(A)=(1,1),φ(B)=(1,.9)，初始w=(2,3)，对A目标6用alpha=.1更新成(2.1,3.1)，B从4.7变4.89。特意使用**外给监督目标**，不声称这一例为TD发散。
 - **原创演算18**：人为只抽A→B、V(A)=w,V(B)=2w、gamma=.9、alpha=.1、r=0，半梯度更新w→1.08w；w10≈2.158925,w30≈10.062657。仅为局部自举放大机制图解，不是Baird完整七状态离策略反例或严格普遍发散定理。
 - **仍待独立审稿**：全部原论文证明、Baird初始权重和七状态特征向量、1999 Option interruption实验图表、相关现代价值函数训练协议均未全部逐页独立复核。保持`draft_unreviewed`和`review_status=PENDING`。
+
+## 第七批19—21章增量史料与实验口径（2026-11-10）
+
+> 【范围】仅对本批具体历史和数学主张做分层前置核查；正文ER/EV/DQ别名映射见相应逐章claims JSON。1992、2013、2015、2018和2021之间不得人为制造直接先后取代的单线史。
+
+| 新增ID | 论文及权威公开入口 | 可支持论断、文献等级与未证实边界 |
+| --- | --- | --- |
+| R82 | [Long-Ji Lin (1992), Self-Improving Reactive Agents Based on Reinforcement Learning, Planning and Teaching](https://doi.org/10.1007/BF00992699) | Machine Learning 8:293–321；原始期刊全文第2.3节讨论过去经历反向回放、随策略变化筛选样本，第6.2节加快学习。已核全文首页和章节，不能声称首次发明人类意义的记忆 |
+| R83 | [Bellemare, Naddaf, Veness & Bowling (2013), The Arcade Learning Environment](https://doi.org/10.1613/JAIR.3912) | JAIR 47:253–279一手期刊；ALE为多游戏评测平台。2015 IJCAI是原2013论文的扩展摘要，并非首次提出年份 |
+| R84 | [Mnih et al. (2013), Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) | 2013-12-19 arXiv预印本；七款Atari游戏、6/7超过当时算法、3/7超过所用人类基线。作者名单与2015Nature大团队不同，不混写 |
+| R85 | [Henderson et al. (2018), Deep Reinforcement Learning that Matters](https://doi.org/10.1609/aaai.v32i1.11694) | AAAI2018原始论文和官方全文：深度RL随机性、复现障碍、标准实验报告与显著性问题。并非指称全部早期工作无效 |
+| R86 | [Machado et al. (2018), Revisiting the Arcade Learning Environment](https://research.google/pubs/revisiting-the-arcade-learning-environment-evaluation-protocols-and-open-problems-for-general-agents/) | JAIR 61:523–562原研究及2018 IJCAI扩展摘要；评测协议差异、训练期间表现、sticky action、游戏模式与不确定性。不可倒写为2015版已有全部方法 |
+| R87 | [Agarwal et al. (2021), Deep Reinforcement Learning at the Edge of the Statistical Precipice](https://papers.nips.cc/paper/2021/hash/f514cec81cb148559cf475e7426eed5e-Abstract.html) | NeurIPS2021一手论文，少种子统计误差、分层bootstrap、IQM、性能概貌和置信区间，不能把小样本bootstrap当无条件覆盖保证 |
+| R88 | [Schaul et al. (2015 preprint / 2016 conference), Prioritized Experience Replay](https://arxiv.org/abs/1511.05952) | 2015预印本及后续ICLR2016论文，优先回放作为均匀随机回放的后续分支；不能倒说1992 Lin便采用该算法 |
+| R89 | [Mnih et al. (2015), Nature DQN full paper and Extended Data](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf) | 原始Nature论文全文和扩展超参数表的可访问学术影印：49游戏、43超过当时对比算法、29超过所用人类基线75%；84×84×4、100万帧回放、batch32、目标每1万次参数更新同步。2015主刊DOI对应R13 |
+
+### 三章事实—技术—教学例子界限
+
+- **19经验回放**：Lin1992原始论文§2.3讨论回放过去的真实状态动作经历、逆序回放以及策略和环境变化造成的风险；§6.2报告其研究设置中的学习加速。2015 Nature DQN采用从过去经验中均匀随机抽样的不同策略（R13/R89），不能把两套实现写成同一方法，也不能说2015首次发明回放。
+- **20评测可靠性**：2013 ALE原刊R83提供跨Atari游戏评测平台。2018 Henderson R85讨论随机种子和复现；Machado R86讨论游戏模式、回合结束、时间预算、最佳检查点与sticky action。2021 Agarwal R87在少种子场景倡议分层bootstrap、IQM和性能分布；这些2018/2021方法论是对2015成功的后续审视，不是2015已有完整协议。
+- **21 DQN**：Mnih等2013预印本7款游戏，6款超过当时比较算法、3款超过采用人类专家基线；2015 Nature R13/R89为49游戏，43款超过既有RL方法，29款达到所用人类测试者得分的**75%以上（不是29款超过人类）**。2015固定架构/超参数不意味着训练完成的一组权重跨49游戏直接通用。输入84×84×4、回放100万帧、batch32和目标同步间隔10000次参数更新来自2015原文Extended Data Table1。
+- **19原创演算**：确定性路径A→B→C→G，奖励0/0/1，γ=.9、α=1。真实一次路径后A=B=0、C=1，倒序重放后B=.9、A=.81；不代表Lin实验运行。
+- **20原创统计演算**：A种子0/0/0/0/150 vs B18/19/20/21/22，均值30 vs20、中位数0 vs20，25配对中A>B为5/25。8数值的普通均值22.5与IQM10；人类归一化用随机/人类基线演示50%与200%。全部为作者创设，不可挪成发表论文实测。
+- **21原创TD示例**：Q预测2、即时奖励1、下一状态冻结目标网络最高Q=4、γ=.99，目标4.96、误差2.96；单参数插值2.296不等于DQN真正的共享参数批量梯度更新。
+- **仍待**：原始DQN完整扩展表的逐项统计复核、2018/2021重复实验程序和随机种子分配的逐代码确认、不同benchmark的统计单位与IQM区间计算参数。章节均未做独立连续性或发展性审稿，不能把前置核验当`review_status=PASS`。

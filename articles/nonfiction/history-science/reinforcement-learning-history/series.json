@@ -3,7 +3,7 @@
   "id": "reinforcement-learning-history",
   "title": "奖励之后：一部强化学习思想发展史",
   "status": "drafting",
-  "reading_notice": "01—18章已有各自限定范围来源核证的非虚构工作初稿及逐章claims JSON；序章、尾声和19—32章共16个叙事单元仍为策划占位。全书未完成独立双审、全部原文逐页核证、终稿或发布。",
+  "reading_notice": "第01—21章拥有来源边界明确的非虚构工作初稿及逐章claims JSON；序章、尾声和第22—32章共13个叙事单元仍属策划占位。全书未完成独立双审、原刊全部实验/代码核对、终稿或发布。",
   "parts": [
     {
       "number": 1,
@@ -393,32 +393,49 @@
       "title": "经验回放：让昨天的失败再次成为教材",
       "part": "第五部｜表格装不下世界",
       "path": "draft/19.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
+        "R82",
+        "R01",
         "R13",
-        "R01"
-      ]
+        "R89",
+        "R84",
+        "R88"
+      ],
+      "claims_path": "draft/19.claims.json"
     },
     {
       "id": "20",
       "title": "成功不等于可靠：强化学习该怎样接受检验",
       "part": "第五部｜表格装不下世界",
       "path": "draft/20.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
+        "R83",
+        "R85",
+        "R86",
+        "R87",
         "R13",
-        "R01"
-      ]
+        "R89"
+      ],
+      "claims_path": "draft/20.claims.json"
     },
     {
       "id": "21",
       "title": "DQN：机器只看像素，怎么学会打街机",
       "part": "第六部｜从街机到围棋",
       "path": "draft/21.md",
-      "status": "placeholder",
+      "status": "draft_unreviewed",
       "sources": [
-        "R13"
-      ]
+        "R84",
+        "R13",
+        "R89",
+        "R82",
+        "R71",
+        "R86",
+        "R14"
+      ],
+      "claims_path": "draft/21.claims.json"
     },
     {
       "id": "22",
@@ -545,5 +562,5 @@
     }
   ],
   "batch_policy": "连续编号三章一批；序章与尾声另行组织；未进入正文阶段",
-  "last_batch": "batches/16-18.md"
+  "last_batch": "batches/19-21.md"
 }

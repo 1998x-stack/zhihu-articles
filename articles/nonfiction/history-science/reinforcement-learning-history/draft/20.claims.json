@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "chapter": "20",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "依据Lin1992原刊全文、2013 Atari预印本、2013 ALE、2015 Nature原文及扩展表、2018 AAAI/JAIR与2021 NeurIPS原始研究，对限定章节的历史数据/方法作写作前核验。全部教学数值按独立原创重构标识。未完成独立双审或终审。",
+  "alias_to_research_source_id": {
+    "EV01": "R85",
+    "EV02": "R83",
+    "EV03": "R86",
+    "EV04": "R87",
+    "EV05": [
+      "R13",
+      "R89"
+    ]
+  },
+  "claims": [
+    {
+      "claim_id": "RL-20-01",
+      "claim": "2013 Bellemare等在JAIR发布Arcade Learning Environment跨游戏评测平台",
+      "source_ids": [
+        "R83"
+      ],
+      "kind": "primary_history",
+      "section": "三｜ALE",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-02",
+      "claim": "Henderson等AAAI2018原论文指出深度RL重复性、随机方差和报告规范问题",
+      "source_ids": [
+        "R85"
+      ],
+      "kind": "primary_history",
+      "section": "二｜2018研究",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-03",
+      "claim": "Machado等JAIR2018对ALE回合终止、帧预算、调参、汇总口径等不一致提出系统批评",
+      "source_ids": [
+        "R86"
+      ],
+      "kind": "primary_method",
+      "section": "四｜评测协议",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-04",
+      "claim": "2018 ALE引入sticky action，用概率重复上一个实际执行的动作而非新命令",
+      "source_ids": [
+        "R86"
+      ],
+      "kind": "primary_definition",
+      "section": "八｜黏滞动作",
+      "evidence_note": "不是无条件随机移动",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-05",
+      "claim": "2018研究提出训练期间表现与独立评估最佳检查点的重要性",
+      "source_ids": [
+        "R86"
+      ],
+      "kind": "method_recommendation",
+      "section": "四｜训练期间",
+      "evidence_note": "这些是2018后见标准不倒灌2015",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-06",
+      "claim": "独立从零训练随机种子与同一固定网络上的多个测试回合不是等价样本",
+      "source_ids": [
+        "R85"
+      ],
+      "kind": "method_interpretation",
+      "section": "五｜样本单位",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-07",
+      "claim": "原创五种子A成绩0,0,0,0,150，B=18到22，均值30对20，中位数0对20",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "一｜实验差异",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-08",
+      "claim": "从这两组五样本均匀独立配对的25对中，A>B比例为20%",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "一｜经验配对",
+      "evidence_note": "不当作总体改善概率",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-09",
+      "claim": "Agarwal等NeurIPS2021主张少数训练种子的分层bootstrap区间、性能分布和IQM",
+      "source_ids": [
+        "R87"
+      ],
+      "kind": "primary_method",
+      "section": "六｜2021",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-10",
+      "claim": "原创8个值0,0,0,0,20,20,20,120的普通均值22.5，中心50%IQM为10",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "六｜IQM示意",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-11",
+      "claim": "人类归一化分数通常相对于随机与人类游戏测试者两个基线，跨游戏绝对分数不能直接比较",
+      "source_ids": [
+        "R13",
+        "R87"
+      ],
+      "kind": "metric_explanation",
+      "section": "七｜人类基线",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-12",
+      "claim": "原创归一化示例随机10、人类110、算法60得到50%，另20/30/40得到200%",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "七｜数学示意",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-13",
+      "claim": "环境交互预算、梯度计算和墙上训练时间是不同成本口径",
+      "source_ids": [
+        "R85",
+        "R86"
+      ],
+      "kind": "conceptual_boundary",
+      "section": "九｜何谓快",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-14",
+      "claim": "2018与2021后见评测反思不应倒叙成2015团队已实行所有协议",
+      "source_ids": [
+        "R86",
+        "R87",
+        "R13"
+      ],
+      "kind": "historical_chronology",
+      "section": "八、十｜年代",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-20-15",
+      "claim": "2015 DQN论文49款跨游戏多任务结果须在论文实际报告的协议里解释",
+      "source_ids": [
+        "R13",
+        "R89"
+      ],
+      "kind": "primary_context",
+      "section": "十｜下一章",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "五种子成绩、IQM和人类归一化分数为作者构造示例，不来自AAAI2018或NeurIPS2021论文数据",
+    "2018与2021研究是2015后来的评测反思，不得错置年代",
+    "bootstrap置信区间对极小种子并非万能，须说明训练种子与同一策略评估回合不是相同独立单位"
+  ]
+}

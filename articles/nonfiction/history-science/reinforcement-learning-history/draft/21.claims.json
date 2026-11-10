@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "chapter": "21",
+  "revision": 0,
+  "content_status": "draft_unreviewed",
+  "provenance_scope": "依据Lin1992原刊全文、2013 Atari预印本、2013 ALE、2015 Nature原文及扩展表、2018 AAAI/JAIR与2021 NeurIPS原始研究，对限定章节的历史数据/方法作写作前核验。全部教学数值按独立原创重构标识。未完成独立双审或终审。",
+  "alias_to_research_source_id": {
+    "DQ01": "R84",
+    "DQ02": [
+      "R13",
+      "R89"
+    ],
+    "DQ03": "R82",
+    "DQ04": "R83",
+    "DQ05": "R86",
+    "DQ06": "R71",
+    "DQ07": "R14"
+  },
+  "claims": [
+    {
+      "claim_id": "RL-21-01",
+      "claim": "2013-12-19 Mnih等arXiv预印本作者与2015 Nature团队规模和发表年份不同",
+      "source_ids": [
+        "R84",
+        "R13"
+      ],
+      "kind": "chronology",
+      "section": "一、九｜版本",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-02",
+      "claim": "2013预印本报告7款Atari游戏、6超过既有方法、3超过人类专家基线",
+      "source_ids": [
+        "R84"
+      ],
+      "kind": "primary_results",
+      "section": "九｜2013",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-03",
+      "claim": "2015 Mnih等Nature论文发表于2015-02，报告49款Atari评测",
+      "source_ids": [
+        "R13",
+        "R89"
+      ],
+      "kind": "primary_bibliography",
+      "section": "一、九｜2015",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-04",
+      "claim": "2015论文报告49游戏中43款超过当时对比算法、29款超过所用人类测试者得分75%",
+      "source_ids": [
+        "R89",
+        "R13"
+      ],
+      "kind": "primary_metrics",
+      "section": "九｜两种口径",
+      "evidence_note": "29超过75%人类分数≠29超过人类",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-05",
+      "claim": "DQN使用视觉预处理与连续四帧84×84×4输入，不等于完全未经处理的彩色原视频",
+      "source_ids": [
+        "R89"
+      ],
+      "kind": "primary_architecture",
+      "section": "三｜画面",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-06",
+      "claim": "卷积神经网络输出所允许离散动作的Q估计、经价值选择动作",
+      "source_ids": [
+        "R13",
+        "R89"
+      ],
+      "kind": "primary_method",
+      "section": "四｜Q网络",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-07",
+      "claim": "2015 DQN使用经验重放随机小批量，缓解观察序列相关性",
+      "source_ids": [
+        "R89",
+        "R82"
+      ],
+      "kind": "primary_method",
+      "section": "六｜记忆",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-08",
+      "claim": "2015 DQN使用更新较慢的目标网络theta-缓解自举目标与当前Q预测的相关性",
+      "source_ids": [
+        "R89"
+      ],
+      "kind": "primary_method",
+      "section": "五、七｜目标网络",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-09",
+      "claim": "目标网络同步间隔1万参数更新、回放100万帧、batch32为2015特定超参数",
+      "source_ids": [
+        "R89"
+      ],
+      "kind": "primary_hyperparameter",
+      "section": "六、七｜参数",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-10",
+      "claim": "原创标量样本Q=2,r=1,gamma=.99,next target values4/2，目标4.96误差2.96",
+      "source_ids": [],
+      "kind": "author_calculation",
+      "section": "八｜最小Q演算",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-11",
+      "claim": "一次标量插值到2.296不能冒称深度网络真实参数更新",
+      "source_ids": [],
+      "kind": "author_math_limit",
+      "section": "八｜演算边界",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-12",
+      "claim": "同架构同超参数跨游戏不意味着同一套训练完成的网络权重自动通用于49款游戏",
+      "source_ids": [
+        "R89"
+      ],
+      "kind": "primary_scope",
+      "section": "九｜跨游戏",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-13",
+      "claim": "DQN有统一视觉预处理、动作集合、奖励裁剪和预选游戏调参，不等于零人工设定",
+      "source_ids": [
+        "R89"
+      ],
+      "kind": "primary_design_boundary",
+      "section": "十｜像素误读",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-14",
+      "claim": "神经TD价值和经验回放已有Tesauro与Lin早期前驱，DQN不是这些单组件的历史首次",
+      "source_ids": [
+        "R71",
+        "R82",
+        "R89"
+      ],
+      "kind": "historical_attribution",
+      "section": "二｜不是凭空",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-15",
+      "claim": "2018 ALE评估方法反思是2015论文之后的研究，不能宣称2015已满足全部后续要求",
+      "source_ids": [
+        "R86",
+        "R89"
+      ],
+      "kind": "historical_boundary",
+      "section": "十一｜评价",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    },
+    {
+      "claim_id": "RL-21-16",
+      "claim": "AlphaGo 2016组合神经网络与搜索是独立多路线汇合，非DQN直接变身",
+      "source_ids": [
+        "R14"
+      ],
+      "kind": "next_chapter_scope",
+      "section": "十二｜围棋",
+      "evidence_note": "",
+      "checked_for_draft": true,
+      "independent_review": false
+    }
+  ],
+  "remaining_risks": [
+    "29/49是达到所用人类得分75%以上，不等同29款超越人类；43/49是胜过当时比较的既有算法",
+    "2013预印本7款与2015期刊49款必须区分",
+    "论文使用统一预处理和游戏奖励、可用动作，不是完全零任务设定；权重跨游戏分别训练",
+    "DQN稳定化组件在实际测试有效但未形成所有深度离策略训练的普遍收敛证明"
+  ]
+}
