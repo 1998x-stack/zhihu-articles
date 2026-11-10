@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "revision": 0,
+  "editorial_status": "research_draft_pending_independent_review",
+  "global_evidence_verified": false,
+  "chapter": "23",
+  "claims": [
+    {
+      "claim_id": "NS-23-01",
+      "type": "historical_priority",
+      "statement": "Winfree 1967 Journal Theoretical Biology 16(1):15–42 on coupled biological oscillators preceded Kuramoto 1975",
+      "source_ids": [
+        "S84"
+      ],
+      "locator": "Publisher DOI and bibliographic metadata; antecedent not exclusive invention claim",
+      "verification_status": "publisher_bibliography_checked"
+    },
+    {
+      "claim_id": "NS-23-02",
+      "type": "historical_bibliography",
+      "statement": "Yoshiki Kuramoto 1975 Self-entrainment published Lecture Notes in Physics vol 39 pp420–422",
+      "source_ids": [
+        "S85"
+      ],
+      "locator": "Springer DOI and Japanese scholarly index; modern symbol notation not asserted original",
+      "verification_status": "publisher_bibliography_checked"
+    },
+    {
+      "claim_id": "NS-23-03",
+      "type": "mathematical_model",
+      "statement": "Classical all-to-all phase-coupling Kuramoto equation dtheta_i/dt = omega_i+(K/N) sum_j sin(theta_j-theta_i)",
+      "source_ids": [
+        "S85",
+        "S86",
+        "S87"
+      ],
+      "locator": "Historical model expressed in modern standard notation; ignores amplitude/noise/delay",
+      "verification_status": "modern_formal_model_checked"
+    },
+    {
+      "claim_id": "NS-23-04",
+      "type": "mathematical_example",
+      "statement": "For symmetric 2-oscillator coupling K/2 each, delta'=DeltaOmega-Ksin(delta), stable locking for |DeltaOmega|<K; DeltaOmega .6,K .8 gives phase ~48.590 degrees",
+      "source_ids": [
+        "S86"
+      ],
+      "locator": "Author-created two-body reduction, trigonometry independently computed; equals case critical",
+      "verification_status": "independent_calculation_checked"
+    },
+    {
+      "claim_id": "NS-23-05",
+      "type": "mathematical_definition",
+      "statement": "r exp(i psi)=N^-1 sum exp(i theta); three phases 0,120,240 degrees yield r zero despite fixed phase differences",
+      "source_ids": [
+        "S86",
+        "S87"
+      ],
+      "locator": "Author-created vector-sum example; order parameter limited to first harmonic",
+      "verification_status": "independent_calculation_checked"
+    },
+    {
+      "claim_id": "NS-23-06",
+      "type": "mathematical_threshold",
+      "statement": "Under all-to-all infinite symmetric unimodal distribution g centered zero, classical Kc=2/(pi g(0)); Lorentzian halfwidth Delta gives Kc=2Delta",
+      "source_ids": [
+        "S86",
+        "S87"
+      ],
+      "locator": "Standard Kuramoto thermodynamic smooth symmetric unimodal assumptions; not a generic network formula",
+      "verification_status": "model_qualified"
+    },
+    {
+      "claim_id": "NS-23-07",
+      "type": "model_boundary",
+      "statement": "Network Kuramoto equations can use unnormalized Aij coupling or degree-normalized strength; these yield noncomparable K",
+      "source_ids": [
+        "S87",
+        "S88"
+      ],
+      "locator": "Explicit notation convention and normalization caveat",
+      "verification_status": "mathematically_qualified"
+    },
+    {
+      "claim_id": "NS-23-08",
+      "type": "historical_development",
+      "statement": "Restrepo Ott Hunt PRE71 036151 published March30 2005 links synchronization onset under appropriate assumptions to largest adjacency eigenvalue",
+      "source_ids": [
+        "S88"
+      ],
+      "locator": "APS publisher abstract; not a universal exact threshold for all oscillatory networks",
+      "verification_status": "publisher_record_checked"
+    }
+  ],
+  "outstanding_checks": [
+    "Full-book outline_approved=false and evidence_verified=false; this batch remains sourced research drafts, not approved nonfiction workflow output.",
+    "Independent fact/continuity and developmental review, line edit and final approval are not completed.",
+    "Contemporary mathematical conventions and author-created examples must not be passed off as historical original experiments or empirical data."
+  ]
+}

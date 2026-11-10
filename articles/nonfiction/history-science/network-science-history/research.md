@@ -301,3 +301,31 @@
 **第22章事实锚点**：S83（1978先驱）、S16（2002 Watts PNAS全文、收稿2001-05-29/接受2002-02-14/发表2002-04-30）。六节点路径A—B—C—D—E—F与中心B的五叶星形图：每图均5边，统一阈值.4，初始种子A，逐轮同时更新后前者数量依次1、2、3、4、5、6，后者停在1。全部为作者自建教学图；Watts的脆弱节点 \(\phi\leq1/k\)、巨大脆弱连通分量及级联窗口是随机网络模型结论，**不**是所有真实社交媒体或基础设施的唯一机理。
 
 **待独立审稿特别核查**：三章的SIR/SIS/社会阈值各有不同状态转换和临界量；将 \(\mathcal R_0\)、\(\lambda_c\) 与 \(\phi_i\) 当成一个“感染率阈值”属严重误读。1927史料与2017术语不可时代倒灌；2001“无阈值”指无限网络渐近与特定近似，有限网络及后来QMF研究需分别说明；社交级联为机制假说，不能从传播曲线自动推断社会因果。
+
+
+### 第23—25章｜同步、网页排序与时间网络的原始文献增量（2026-11-10）
+
+本批文献遵循：历史发表时间与后世标准化公式分开、原始论文记录与作者构造教学例子分开、数学模型的成立条件与真实系统的经验结论分开。公开书架只标“工作初稿”，不能据此宣布 `outline_approved` 或 `evidence_verified`。
+
+| 来源 ID | 原始研究与可核查入口 | 可支撑范围与明确边界 |
+|---|---|---|
+| **S84** | Arthur T. Winfree, [“Biological Rhythms and the Behavior of Populations of Coupled Oscillators,” *Journal of Theoretical Biology* 16(1):15—42 (1967)](https://doi.org/10.1016/0022-5193(67)90051-3) | 群体耦合生物节律理论先驱；不得把周期性群体同步全部首次归于1975年仓本。 |
+| **S85** | Yoshiki Kuramoto, [“Self-Entrainment of a Population of Coupled Non-Linear Oscillators,” *Lecture Notes in Physics* 39:420—422 (1975)](https://doi.org/10.1007/BFb0013365) | 1975年京都研讨会论文集的短论文，是经典相位耦合理论历史原点；后世标准 `K/N` 正弦方程记法不得无注明冒充逐字原刊原貌。 |
+| **S86** | Steven H. Strogatz, [“From Kuramoto to Crawford: Exploring the Onset of Synchronization in Populations of Coupled Oscillators,” *Physica D* 143:1—20 (2000)](https://doi.org/10.1016/S0167-2789(00)00094-4) | 回顾频率锁定、序参量和临界转变；两振荡器约48.6度相位差是作者自行计算，不是原文实验结果。 |
+| **S87** | J. A. Acebrón, L. L. Bonilla, C. J. Pérez Vicente, F. Ritort & R. Spigler, [“The Kuramoto Model: A Simple Paradigm for Synchronization Phenomena,” *Reviews of Modern Physics* 77:137—185 (2005)](https://doi.org/10.1103/RevModPhys.77.137) | 总结经典全连接模型、`r` 与 `K_c=2/(πg(0))` 的特殊假设；不可推广成任何真实振荡器的普适定律。 |
+| **S88** | Juan G. Restrepo, Edward Ott & Brian R. Hunt, [“Onset of Synchronization in Large Networks of Coupled Oscillators,” *Physical Review E* 71:036151 (2005-03-30)](https://doi.org/10.1103/PhysRevE.71.036151) | 特定网络相位模型的临界耦合与最大邻接特征值之间的关系；模型归一化与近似条件不可忽略。 |
+| **S89** | Jon M. Kleinberg, [“Authoritative Sources in a Hyperlinked Environment,” IBM RJ10076 (1997-05), SODA (1998), *J. ACM* 46(5):604—632 (1999)](https://doi.org/10.1145/324133.324140)；[作者文献目录](https://www.cs.cornell.edu/home/kleinber/) | HITS枢纽/权威相互强化、查询相关子图、矩阵谱；1997/1998/1999的版本区别，不与2000年Kleinberg小世界可导航性论文S09混同。 |
+| **S90** | Lawrence Page, Sergey Brin, Rajeev Motwani & Terry Winograd, [“The PageRank Citation Ranking: Bringing Order to the Web,” Stanford技术报告 (1998-01-29)](https://storm.cis.fordham.edu/~gweiss/selected-papers/classic-pagerank-paper.pdf) | PageRank技术报告是四作者；随机漫游、链接权重传递；三页实验是现代作者教学图，非真实WWW数据。 |
+| **S91** | Sergey Brin & Lawrence Page, [“The Anatomy of a Large-Scale Hypertextual Web Search Engine,” *Computer Networks and ISDN Systems* 30:107—117 (1998)](https://research.google/pubs/the-anatomy-of-a-large-scale-hypertextual-web-search-engine/) | 两作者Google搜索系统论文描述抓取、索引、文本及链接；不等于上述四作者技术报告，也不等于今日实际搜索排名全部参数。 |
+| **S92** | David Kempe, Jon Kleinberg & Amit Kumar, [“Connectivity and Inference Problems for Temporal Networks,” *Journal of Computer and System Sciences* 64(4):820—842 (2002-06)](https://doi.org/10.1006/jcss.2002.1829) | 时间戳边、time-respecting path、边标签非递减；严格递增的教学事件是本批选择的更强约束，不得称为原文唯一约定。 |
+| **S93** | Raj Kumar Pan & Jari Saramäki, [“Path Lengths, Correlations, and Centrality in Temporal Networks,” *Physical Review E* 84:016105 (2011-07-18)](https://doi.org/10.1103/PhysRevE.84.016105) | 具体通信和航空网络中的时间路径长度、相关性及中心性，与静态距离可能有较大偏离；不泛化所有现实网络。 |
+
+本批第25章同时沿用 **S17**：Petter Holme & Jari Saramäki, “Temporal Networks,” *Physics Reports* 519(3):97—125 (2012)，[DOI](https://doi.org/10.1016/j.physrep.2012.03.001)。其价值是跨领域综述而非“2012年发明时间网络”。相关早期工作至少包括2002年的S92。
+
+**独立计算复核**：
+
+- 第23章：对称两振荡器 `dot(delta)=DeltaOmega-Ksin(delta)`，DeltaOmega=0.6、K=0.8 得 `arcsin(0.75)≈48.5904°`；相位0/120/240度的三个单位矢量和为0。锁频≠所有相位完全相同，序参量 `r` 不是检测一切相位结构的万能量。
+- 第24章：三网页 A→B、B→C、C→B，阻尼系数0.8、均匀跳转概率1/3，解线性方程得分A约0.0666667、B约0.4814815、C约0.4518519，总和1；四页HITS图A→C、A→D、B→C初始hub=1，首轮authority C=2,D=1，再得hub A=3,B=2（未归一化、非收敛排序）。
+- 第25章：静态链A—B—C—D，相同三条边09/10/11时，顺序AB→BC→CD使消息可从A到D；反序CD→BC→AB则不能从A到D，但可从D到A。若每一中继最多等待30分钟，顺序甲也会因60分钟的间隔失败。**数学教学演算，不是接触记录或真实传播链。**
+
+**下一批交接与高优先级边界**：第26章多层网络会问“边是哪一种关系”，而时间网络只问“某种边何时活动”；下游要用S18等论文对多层/多重网络做独立查证。第23—25章已形成研究性初稿，但全书目前工作流闸门尚未批准，必须后续独立事实与结构双审。
