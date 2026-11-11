@@ -1,0 +1,182 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "09",
+  "title": "第9章：从西伯利亚到彼得堡——一个化学家的成长",
+  "version": "candidate-r1",
+  "status": "candidate_pending_upstream_gate",
+  "review_status": "PENDING",
+  "sources": [
+    {
+      "source_id": "S09-01",
+      "title": "Nature 1882 contemporaneous medal record",
+      "url": "https://www.nature.com/articles/027061a0",
+      "source_class": "A",
+      "scope": "当年奖项并列历史"
+    },
+    {
+      "source_id": "S09-02",
+      "title": "Royal Society of Chemistry 2019 Mendeleev biography",
+      "url": "https://www.rsc.org/news/2019/january/journey-of-discovery",
+      "source_class": "B",
+      "scope": "家庭背景与求学传记"
+    },
+    {
+      "source_id": "S09-03",
+      "title": "RSC periodic table history",
+      "url": "https://periodic-table.rsc.org/history/about",
+      "source_class": "B",
+      "scope": "托博尔斯克出生、写教科书"
+    },
+    {
+      "source_id": "S09-04",
+      "title": "Babaev 2009 scientific biography",
+      "url": "https://www.chem.msu.ru/eng/misc/babaev/papers/139e.pdf",
+      "source_class": "B",
+      "scope": "1834/1850/1855/1856/1859等时间线；原PDF未逐页核"
+    },
+    {
+      "source_id": "S09-05",
+      "title": "Science History Institute Meyer and Mendeleev",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/julius-lothar-meyer-and-dmitri-ivanovich-mendeleev/",
+      "source_class": "B",
+      "scope": "海德堡、卡尔斯鲁厄、大学教席"
+    },
+    {
+      "source_id": "S09-06",
+      "title": "Gordin Translating Textbooks",
+      "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/664980",
+      "source_class": "B",
+      "scope": "教科书编写职业环境；未看全文"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C09-01",
+      "section": "一、十",
+      "assertion": "1882戴维奖章同时授予迈耶与门捷列夫",
+      "source_ids": [
+        "S09-01"
+      ],
+      "type": "fact",
+      "verification": "partial_source_check"
+    },
+    {
+      "claim_id": "C09-02",
+      "section": "二",
+      "assertion": "门捷列夫1834年生于西伯利亚托博尔斯克",
+      "source_ids": [
+        "S09-02",
+        "S09-04"
+      ],
+      "type": "fact",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C09-03",
+      "section": "二",
+      "assertion": "父亲视力问题与母亲经营玻璃工厂的基本事实",
+      "source_ids": [
+        "S09-02"
+      ],
+      "type": "fact",
+      "verification": "needs_archival_check"
+    },
+    {
+      "claim_id": "C09-04",
+      "section": "二、三",
+      "assertion": "子女人数存在传记口径差异，正文不硬写序次",
+      "source_ids": [
+        "S09-02"
+      ],
+      "type": "dispute",
+      "verification": "needs_archival_check"
+    },
+    {
+      "claim_id": "C09-05",
+      "section": "三",
+      "assertion": "1850年门捷列夫进入彼得堡高等师范机构",
+      "source_ids": [
+        "S09-04",
+        "S09-03"
+      ],
+      "type": "fact",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C09-06",
+      "section": "三、四",
+      "assertion": "1855完成学业，随后在克里米亚与敖德萨任教，1856回彼得堡",
+      "source_ids": [
+        "S09-04"
+      ],
+      "type": "fact",
+      "verification": "needs_original_date_crosscheck"
+    },
+    {
+      "claim_id": "C09-07",
+      "section": "五",
+      "assertion": "1859—1861海德堡研修液体与物理化学课题",
+      "source_ids": [
+        "S09-05",
+        "S09-04"
+      ],
+      "type": "fact",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C09-08",
+      "section": "五",
+      "assertion": "1860年参加卡尔斯鲁厄大会，不等于当年确立周期表",
+      "source_ids": [
+        "S09-05"
+      ],
+      "type": "fact",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C09-09",
+      "section": "七",
+      "assertion": "1861—1862前后参与《有机化学》教材编写与出版",
+      "source_ids": [
+        "S09-06"
+      ],
+      "type": "fact",
+      "verification": "needs_first_edition"
+    },
+    {
+      "claim_id": "C09-10",
+      "section": "八",
+      "assertion": "1867取得圣彼得堡大学化学教席，并开始通用教材计划",
+      "source_ids": [
+        "S09-05",
+        "S09-03"
+      ],
+      "type": "fact",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C09-11",
+      "section": "六、九",
+      "assertion": "组织知识问题为教学与分类的解释性联系，而非历史人物私心实录",
+      "source_ids": [
+        "S09-05",
+        "S09-06"
+      ],
+      "type": "historical_interpretation",
+      "verification": "review_required"
+    },
+    {
+      "claim_id": "C09-12",
+      "section": "二、三",
+      "assertion": "家庭与教育经历不能作为周期律被注定发现的直接因果证明",
+      "source_ids": [
+        "S09-02",
+        "S09-06"
+      ],
+      "type": "editorial_caveat",
+      "verification": "review_required"
+    }
+  ],
+  "note": "依据公开可访问史料和专业二手研究形成的候审主张表；各项验证标记仅指该项检索层级，不等于系列事实审定、原件逐页审查或独立双审PASS。"
+}

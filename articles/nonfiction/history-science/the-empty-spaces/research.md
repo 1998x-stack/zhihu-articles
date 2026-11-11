@@ -8,6 +8,10 @@
 - [历史时间线](research/chronology.md)
 - [事实核验和争议](research/fact-check.md)
 
+## 第09—12章候审补核（2026-11-11）
+
+- [4篇候审正文的原始证据、版本与争议复核](research/ch09-12-source-audit.md)。各章`proposals/NN.claims.json`为研究性逐项主张记录，不等于独立原刊全审。
+
 ## 各章研究与审校档案
 
 - [chapter-02-dalton-audit](research/chapter-02-dalton-audit.md)
@@ -27,7 +31,7 @@
 
 1. 将原始事实核验编号、脚注和来源页码与正文逐条配对。
 2. 保留镓发现、密度复测、周期系统发展各节点在时间和数值上的区别。
-3. 第09—22章和尾声仍是占位：先查史料，再写正文。
+3. 第09—12章新增候审正文但正式draft仍占位；第13—22章和尾声仍需写作、核证及独立审稿。
 4. 逐章建立 `draft/NN.claims.json`，继续执行独立连续性审核、结构审稿、语言精修及最终批准。
 
 [源项目](https://github.com/1998x-stack/The-Empty-Spaces)
