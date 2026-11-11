@@ -11,10 +11,15 @@
     "ES10-EDITION-1868-1871",
     "ES11-CARD-DREAM-SOURCES",
     "ES12-PRIMARY-RU-DE-1869",
-    "ES12-ATTENDANCE-CONFLICT"
+    "ES12-ATTENDANCE-CONFLICT",
+    "ES13-1869-GAPS",
+    "ES14-1871-ORIGINALS",
+    "ES15-GALLIUM-1876",
+    "ES16-NILSON-CLEVE-1879",
+    "ES-SERIES-GATES"
   ],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "序章及01—08为研究性正式工作初稿；新增09—12章共4篇完整proposals候审正文及49条研究性主张映射；原著逐页、全书事实与独立双审仍未完成。13—22及尾声仍占位。",
-  "note": "2026-11-11新增proposals/09—12四篇候审正文，因outline_approved=false/evidence_verified=false，正式draft/09—12与book.json状态保持不变；详见research/ch09-12-source-audit.md。"
+  "evidence_scope": "序章及01—08篇为研究性正式初稿；09—16篇另形成8篇proposals候审正文和共106条候审主张映射（09—12:49，13—16:57），均未完成全书原刊逐页核证和独立双审；17—22及尾声仍为正式占位。",
+  "note": "2026-11-11按四章一批补写13—16篇，建立proposals正文与claims、research/ch13-16-source-audit.md；保留正式draft/book.json以及全部未通过的流程闸门；PR依赖上一批09—12。"
 }
