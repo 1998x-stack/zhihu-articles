@@ -28,6 +28,12 @@
 - **S23-04** [APS Michelson Morley historical feature](https://www.aps.org/apsnews/2007/11/november-1887-michelson-uminiferous-ether)。支持范围：1887实验与1905理论关系，非唯一因果。
 - **S23-05** [OpenStax University Physics: Maxwell's Equations](https://openstax.org/books/university-physics-volume-2/pages/16-1-maxwells-equations-and-electromagnetic-waves)。支持范围：现代电磁学，物理量及SI教学表达。
 
+## 2026-11-11 候审修订补充（非全书证据签核）
+
+- **S23-06／1905引言**：[马克斯·普朗克科学史研究所德文首页](https://echo-old.mpiwg-berlin.mpg.de/ECHOdocuViewSB?mode=texttool&url=%2Fpermanent%2Feinstein%2Fannalen%2FEinst_Zurel_de_1905%2Findex.meta&viewMode=xml)。确认“磁铁与导体”之后谈到探测地球相对“Lichtmedium”运动失败；**不在该引言中具名Michelson–Morley**。
+- **S23-07／§6**：[1905论文第6节后出的英文转写](https://en.wikisource.org/wiki/On_The_Electrodynamics_of_Moving_Bodies_(1920_edition))。电、磁分量变换已经出现，后世四维张量整合不是其首次发明。
+- 已补写E23-01、03、11、12、13的年代和贡献边界。**仍未完成**洛伦兹1895、1904以及庞加莱1900—1905逐篇原刊比勘，不能从发表顺序推断爱因斯坦个人阅读因果。
+
 ## 核证范围与边界
 
 本次仅完成公开页面/原刊入口定位及主要命题的主题级匹配；部分文献为英文译本或二手科学史研究，原刊页码、装置图表、计算符号、争议中的优先权尚未双源核验。文中数学推导属于现代教学重构，**不得用公式的现代正确性替代历史原文证据**。未借助独立审稿员形成正式质量结论。
