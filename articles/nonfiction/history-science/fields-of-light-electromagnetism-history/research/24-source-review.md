@@ -30,6 +30,13 @@
 - **S24-05** [Hehl et al (2008), Maxwell’s equations in Minkowski’s world](https://onlinelibrary.wiley.com/doi/10.1002/andp.200852009-1006)。支持范围：科学史与现代重述；早期协变方程。
 - **S24-06** [Project timeline of electromagnetism](https://github.com/1998x-stack/zhihu-articles/blob/main/articles/nonfiction/history-science/fields-of-light-electromagnetism-history/timeline.md)。支持范围：项目既有写作时间线；不是独立外部史实证据。
 
+## 2026-11-11 候审修订补充（非全书证据签核）
+
+- **S24-07／1905分量变换**：[Einstein 1905 §6 后出英译](https://en.wikisource.org/wiki/On_The_Electrodynamics_of_Moving_Bodies_(1920_edition))。该节在当年记号里已给出运动系电磁分量变换，不是1908年才出现。
+- **S24-08／闵可夫斯基原刊**：[1908刊本文本](https://de.wikisource.org/wiki/Die_Grundgleichungen_f%C3%BCr_die_elektromagnetischen_Vorg%C3%A4nge_in_bewegten_K%C3%B6rpern)首页写明1907年12月21日提交；1907年11月5日及1908年9月21日讲演日期可与[讲演汇编](https://minkowskiinstitute.com/mip/books/minkowski2.html)交叉。
+- E24-06、07、09、12的**数学自检**：在SI、x'=γ(x−vt)、η=(+---)、F^{0i}=−E_i/c、F^{ij}=−ε^{ijk}B_k的统一约定下，ν=0及ν=i分别回代得到高斯与安培—麦克斯韦；E_y、B=0、v沿+x给出B'_z=−γvE_y/c²，且E'^2−c²B'^2守恒。该检验不等同于原刊史学双审。
+- **仍需**核对历史原作特殊符号、讲演原版完整内容，及不同版本洛伦兹/庞加莱贡献的归属。
+
 ## 核证范围与边界
 
 本次仅完成公开页面/原刊入口定位及主要命题的主题级匹配；部分文献为英文译本或二手科学史研究，原刊页码、装置图表、计算符号、争议中的优先权尚未双源核验。文中数学推导属于现代教学重构，**不得用公式的现代正确性替代历史原文证据**。未借助独立审稿员形成正式质量结论。

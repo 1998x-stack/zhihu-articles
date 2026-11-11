@@ -27,6 +27,12 @@
 - **S22-04** [Einstein 1905, On the Electrodynamics of Moving Bodies](https://gisinb.ch/gisin/physique/relativite/Paper_en1/Einstein.html)。支持范围：原论文英译；不直接命名迈克耳孙—莫雷为唯一起因。
 - **S22-05** [APS News 2004 Letters](https://www.aps.org/apsnews/2004/03/letters)。支持范围：讨论史学分歧的辅助材料，不作独立定论。
 
+## 2026-11-11 候审修订补充（非全书证据签核）
+
+- **S22-06／经原刊核对的英文转写**：[Michelson & Morley 1887全文](https://onepagepapers.com/michelson-morley/read/)。直接核到“1881横臂修正使预期减半”、16方位与六圈均值表、noon/P.M.及0.4条纹预期、约0.01位移量级和作者1/20、1/40断言。证据级别：**已读经原刊校对的转写**，非自行逐页核验原件图像。
+- **S22-07／后世复核**：[Handschy 1982](https://muj.optol.cz/~richterek/data/media/ref_str/handschy1982.pdf)。作为已发表平均层级与未平均读数留存问题的独立研究入口；本轮没有完整重算1982论文的图表。
+- E22-02、05、06、07、08对应候审正文现已补上关键口径；**仍需**原版图6逐页核验、不同以太理论的原刊横向比较及外部独立史实审稿，不能把“候审修订”升级为evidence_verified。
+
 ## 核证范围与边界
 
 本次仅完成公开页面/原刊入口定位及主要命题的主题级匹配；部分文献为英文译本或二手科学史研究，原刊页码、装置图表、计算符号、争议中的优先权尚未双源核验。文中数学推导属于现代教学重构，**不得用公式的现代正确性替代历史原文证据**。未借助独立审稿员形成正式质量结论。
