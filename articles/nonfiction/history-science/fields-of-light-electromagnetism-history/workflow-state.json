@@ -6,10 +6,17 @@
   "evidence_verified": false,
   "review_status": "PENDING",
   "reviewed_revision": null,
-  "unresolved_blockers": [],
+  "unresolved_blockers": [
+    "EM-GATE-01",
+    "EM-SOURCE-01",
+    "EM-CH25-27-01",
+    "EM-CH22-24-01",
+    "EM-OUTLINE-01",
+    "EM-PUBLICATION-01"
+  ],
   "edited_revision": null,
   "final_approved": false,
   "evidence_scope": "已核对部分公开原刊校对转写和重点数学式；31篇的逐条出处、原著图页、实验细节及争议尚未完成全覆盖独立核证。",
   "approval_scope": "仅为章节策划占位，本轮未批准正式写作。",
-  "note": "截至2026-11-11，序章00与第01—30章共31篇完整候审稿存放proposals/，第31—33章尚未有候审正文；正式draft/00—33仍全为策划占位。已完成候审级结构扫描与第22—24章史实/数学重点修订（见qa/candidate-editorial-review-2026-11-11.md），不是正式双审。outline_approved=false、evidence_verified=false、review_status=PENDING、final_approved=false保持不变。"
+  "note": "截至2026-11-11，序章00与第01—30章共31篇完整候审稿存放proposals/，第31—33章尚未有候审正文；正式draft/00—33仍全为策划占位。已完成候审级结构扫描与第22—24章史实/数学重点修订（见qa/candidate-editorial-review-2026-11-11.md），不是正式双审。outline_approved=false、evidence_verified=false、review_status=PENDING、final_approved=false保持不变。 本轮在unresolved_blockers登记6项未决审校门禁，修订后须有新版本复审证据方可关闭。"
 }

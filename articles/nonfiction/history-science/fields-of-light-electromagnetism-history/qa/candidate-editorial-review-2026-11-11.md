@@ -49,6 +49,8 @@
 5. **EM-OUTLINE-01｜HIGH**：31—33章仅设计占位，尚未完成该系列34篇的全部正文；应严格区分“31篇候审”与“0篇正式draft”。
 6. **EM-PUBLICATION-01｜HIGH**：不存在两个相互独立且覆盖当前版本的正式连续性/结构审稿签核，也无line-edit/final审批。
 
+已将上述六项待办登记于`workflow-state.json.unresolved_blockers`，**仅表示问题仍未解除**，绝不表示本轮执行了正式独立双审。
+
 ## 五、退修交接与推荐顺序
 
 先由`fact-research`补齐22—24的原著版面、25—27未完成的原刊、28—30的高风险贡献归属及全书claims映射；再由`revision-manager`按制度建立正式版本与修订日志；进入正式draft需满足上游审批，之后两份不同职责的审稿报告分别复核；最后才允许line-edit、final-approval。**本次只修订proposals与补充候审核查证据，不擅自越过正式工作流。**
