@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "15",
+  "title": "第15章：1875年，镓——来自法国的第一份实验判决",
+  "version": "candidate-r1",
+  "status": "candidate_pending_upstream_gate",
+  "review_status": "PENDING",
+  "sources": [
+    {
+      "source_id": "S15-01",
+      "title": "Scientific American The New Metal Gallium 1878",
+      "url": "https://www.scientificamerican.com/article/the-new-metal-gallium-1878-06-15/",
+      "grade": "A_historical_review",
+      "scope": "discovery history, spectroscopy and 1876 4.7 to 5.935 density"
+    },
+    {
+      "source_id": "S15-02",
+      "title": "Nature On some properties of Gallium 1875",
+      "url": "https://www.nature.com/articles/013136a0",
+      "grade": "A_contemporaneous_abstract",
+      "scope": "1875 salt purification and residual zinc spectral lines; full text paywalled"
+    },
+    {
+      "source_id": "S15-03",
+      "title": "Boisbaudran Comptes rendus 81 (1875) 493-495 bibliography",
+      "url": "https://erosophia.eu/fr/articles-decouvertes/interactivites/le-pari-de-mendeleiev/",
+      "grade": "B_primary_excerpt",
+      "scope": "1875 scientific academy original paper citation and selected source excerpt"
+    },
+    {
+      "source_id": "S15-04",
+      "title": "Mendeleev Principles of Chemistry vol II English 1897",
+      "url": "https://www.gutenberg.org/cache/epub/54210/pg54210-images.html",
+      "grade": "A_late_revised_author",
+      "scope": "retrospective on gallium and sodium; not 1876 original"
+    },
+    {
+      "source_id": "S15-05",
+      "title": "RSC educational Periodic Law historical comparisons",
+      "url": "https://www.rsc.org/images/23_The_Periodic_Law_tcm18-30005.pdf",
+      "grade": "B_instructional_pdf_metadata",
+      "scope": "predictions and gallium comparisons; PDF not image verified this pass"
+    },
+    {
+      "source_id": "S15-06",
+      "title": "RSC Gallium history and modern properties",
+      "url": "https://periodic-table.rsc.org/element/31/gallium",
+      "grade": "B_authoritative",
+      "scope": "modern element data and discovery context"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C15-01",
+      "section": "一",
+      "assertion": "1875 discovery and 1876 early/revised density measurements are different events",
+      "source_ids": [
+        "S15-01"
+      ],
+      "type": "timeline",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-02",
+      "section": "二",
+      "assertion": "Boisbaudran discovered gallium by spectroscopy in zinc ore 1875",
+      "source_ids": [
+        "S15-01",
+        "S15-03"
+      ],
+      "type": "fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-03",
+      "section": "三",
+      "assertion": "two violet gallium spectrum lines described in 1878 historical account",
+      "source_ids": [
+        "S15-01"
+      ],
+      "type": "fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-04",
+      "section": "四",
+      "assertion": "French Academy 1875 81:493-495 reports gallium",
+      "source_ids": [
+        "S15-03"
+      ],
+      "type": "bibliography",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-05",
+      "section": "四",
+      "assertion": "Nature Dec 16 1875 says purified salts only faint residual zinc lines",
+      "source_ids": [
+        "S15-02"
+      ],
+      "type": "primary_abstract",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-06",
+      "section": "五",
+      "assertion": "prediction by Mendeleev and actual laboratory discovery by Boisbaudran are distinct contributions",
+      "source_ids": [
+        "S15-04",
+        "S15-01"
+      ],
+      "type": "contribution_boundary",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-07",
+      "section": "六",
+      "assertion": "1876 first density approx 4.7 and later 5.935, not in 1875",
+      "source_ids": [
+        "S15-01"
+      ],
+      "type": "fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-08",
+      "section": "六",
+      "assertion": "predicted density 5.9 later measured 5.935 is approximate, not exact same decimal",
+      "source_ids": [
+        "S15-01",
+        "S15-04"
+      ],
+      "type": "fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-09",
+      "section": "六",
+      "assertion": "relative discrepancy 4.7 vs 5.9 ~20.3 percent, 5.935 vs 5.9 ~0.6 percent",
+      "source_ids": [
+        "S15-01"
+      ],
+      "type": "modern_calculation",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-10",
+      "section": "七",
+      "assertion": "late Mendeleev account mentions sodium contamination as cause; original evidence pending",
+      "source_ids": [
+        "S15-04",
+        "S15-05"
+      ],
+      "type": "later_recollection",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-11",
+      "section": "七",
+      "assertion": "specific impurity mechanism not independently verified from 1876 primary lab notebooks",
+      "source_ids": [
+        "S15-04"
+      ],
+      "type": "evidence_caveat",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-12",
+      "section": "八",
+      "assertion": "gallium oxide modern Ga2O3 and alumina formula illustrate trivalence",
+      "source_ids": [
+        "S15-05",
+        "S15-06"
+      ],
+      "type": "modern_chemistry",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-13",
+      "section": "八",
+      "assertion": "modern melting point about 29.8 C vs 1871 low melting expectation",
+      "source_ids": [
+        "S15-06",
+        "S15-05"
+      ],
+      "type": "prediction_comparison",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-14",
+      "section": "九",
+      "assertion": "spectral discovery and density purification both critical scientific contributions",
+      "source_ids": [
+        "S15-01",
+        "S15-02"
+      ],
+      "type": "historical_interpretation",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C15-15",
+      "section": "十",
+      "assertion": "one close density reading is evidence but does not by itself prove every periodic law claim",
+      "source_ids": [
+        "S15-01"
+      ],
+      "type": "methodological_boundary",
+      "verification": "candidate_source_match_not_formally_verified"
+    }
+  ],
+  "note": "仅是本批研究与公开来源匹配；原件全文/图版未全覆盖独立复核。不等于evidence_verified或双审PASS。"
+}
