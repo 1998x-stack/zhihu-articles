@@ -6,9 +6,15 @@
   "evidence_verified": false,
   "review_status": "PENDING",
   "reviewed_revision": null,
-  "unresolved_blockers": [],
+  "unresolved_blockers": [
+    "ES09-BIO-PRIMARY",
+    "ES10-EDITION-1868-1871",
+    "ES11-CARD-DREAM-SOURCES",
+    "ES12-PRIMARY-RU-DE-1869",
+    "ES12-ATTENDANCE-CONFLICT"
+  ],
   "edited_revision": null,
   "final_approved": false,
-  "evidence_scope": "序章与第01—08章具备正文和部分原始研究档案；第09—22章及尾声仍为占位。尚未完成目标 Schema 2.0 的逐章事实核证和独立审稿。",
-  "note": "2026-11-06 从 The-Empty-Spaces 迁入；原仓库保留，迁移不等于结构和事实核证获得批准。"
+  "evidence_scope": "序章及01—08为研究性正式工作初稿；新增09—12章共4篇完整proposals候审正文及49条研究性主张映射；原著逐页、全书事实与独立双审仍未完成。13—22及尾声仍占位。",
+  "note": "2026-11-11新增proposals/09—12四篇候审正文，因outline_approved=false/evidence_verified=false，正式draft/09—12与book.json状态保持不变；详见research/ch09-12-source-audit.md。"
 }
