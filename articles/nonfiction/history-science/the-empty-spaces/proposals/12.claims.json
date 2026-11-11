@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "12",
+  "title": "第12章：1869年2月——元素之间第一次出现了秩序",
+  "version": "candidate-r1",
+  "status": "candidate_pending_upstream_gate",
+  "review_status": "PENDING",
+  "sources": [
+    {
+      "source_id": "S12-01",
+      "title": "Giunta 1869 German abstract annotated translation",
+      "url": "https://web.lemoyne.edu/giunta/EA/MENDELEEVann.HTML",
+      "source_class": "A_transcription",
+      "scope": "历史表各分组数字、八项结论与德文俄文用语差异"
+    },
+    {
+      "source_id": "S12-02",
+      "title": "Kaji Brooks 2015 Oxford scholarly abstract",
+      "url": "https://academic.oup.com/book/40668/chapter-abstract/348354016",
+      "source_class": "B",
+      "scope": "俄历2月17表和3月6学会会议"
+    },
+    {
+      "source_id": "S12-03",
+      "title": "Dmitriev 2004 UC Press scholarly abstract",
+      "url": "https://online.ucpress.edu/hsns/article-abstract/34/2/233/105883/Scientific-discovery-in-statu-nascendi-The-case-of",
+      "source_class": "B",
+      "scope": "首版与1870自然系统的发展阶段"
+    },
+    {
+      "source_id": "S12-04",
+      "title": "Mendeleev later English Principles chemistry vol II",
+      "url": "https://www.gutenberg.org/cache/epub/54210/pg54210-images.html",
+      "source_class": "A_late_recollection",
+      "scope": "后期本人的年代回顾"
+    },
+    {
+      "source_id": "S12-05",
+      "title": "RSC Finding the periodic table",
+      "url": "https://www.rsc.org/news/2019/january/finding-the-periodic-table",
+      "source_class": "B",
+      "scope": "首版与会议；缺席原因与S12-02冲突"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C12-01",
+      "section": "一、三",
+      "assertion": "1869早期表中有?=68及?=70等历史位置",
+      "source_ids": [
+        "S12-01"
+      ],
+      "type": "fact",
+      "verification": "transcription_checked"
+    },
+    {
+      "claim_id": "C12-02",
+      "section": "二",
+      "assertion": "第一表署1869年2月17俄历（公历3月1日）",
+      "source_ids": [
+        "S12-02",
+        "S12-05"
+      ],
+      "type": "fact",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C12-03",
+      "section": "三",
+      "assertion": "1869原图不是现代横周期纵族且含历史错误数值",
+      "source_ids": [
+        "S12-01"
+      ],
+      "type": "fact",
+      "verification": "transcription_checked"
+    },
+    {
+      "claim_id": "C12-04",
+      "section": "三",
+      "assertion": "B/Al/?68与C/Si/?70/Sn历史关系的示意表为局部重组",
+      "source_ids": [
+        "S12-01"
+      ],
+      "type": "modern_illustration",
+      "verification": "transcription_checked"
+    },
+    {
+      "claim_id": "C12-05",
+      "section": "四",
+      "assertion": "德文摘要以性质随质量变化和化合价关系论述规律",
+      "source_ids": [
+        "S12-01"
+      ],
+      "type": "fact",
+      "verification": "transcription_checked"
+    },
+    {
+      "claim_id": "C12-06",
+      "section": "四",
+      "assertion": "俄文周期性与德文逐级变化措辞差异，应以版本分辨",
+      "source_ids": [
+        "S12-01"
+      ],
+      "type": "textual_variant",
+      "verification": "needs_original_Russian"
+    },
+    {
+      "claim_id": "C12-07",
+      "section": "五",
+      "assertion": "1869对Te=128提出更低范围的纠错，但现代Te质量仍高于I",
+      "source_ids": [
+        "S12-01"
+      ],
+      "type": "fact_and_modern_check",
+      "verification": "periodization_required"
+    },
+    {
+      "claim_id": "C12-08",
+      "section": "六",
+      "assertion": "1869已有未知元素一般预见，1871详细性质预测更成熟",
+      "source_ids": [
+        "S12-01",
+        "S12-03"
+      ],
+      "type": "historical_periodization",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C12-09",
+      "section": "七",
+      "assertion": "1869年3月6日论文由门舒特金代读",
+      "source_ids": [
+        "S12-02",
+        "S12-05"
+      ],
+      "type": "fact",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C12-10",
+      "section": "七",
+      "assertion": "门捷列夫缺席原因在两个来源中不一致，正文不作确定推断",
+      "source_ids": [
+        "S12-02",
+        "S12-05"
+      ],
+      "type": "dispute",
+      "verification": "unresolved"
+    },
+    {
+      "claim_id": "C12-11",
+      "section": "七",
+      "assertion": "德文摘要刊Zeitschrift für Chemie 12卷405—406页",
+      "source_ids": [
+        "S12-01"
+      ],
+      "type": "bibliography",
+      "verification": "transcription_checked"
+    },
+    {
+      "claim_id": "C12-12",
+      "section": "八",
+      "assertion": "八项原论断同时包含排列、数据修正与预测",
+      "source_ids": [
+        "S12-01"
+      ],
+      "type": "fact",
+      "verification": "transcription_checked"
+    },
+    {
+      "claim_id": "C12-13",
+      "section": "九",
+      "assertion": "早期周期表并非完全解决过渡金属、稀土与氢位置",
+      "source_ids": [
+        "S12-03"
+      ],
+      "type": "historical_interpretation",
+      "verification": "needs_primary_comparison"
+    },
+    {
+      "claim_id": "C12-14",
+      "section": "十",
+      "assertion": "1869首表与后来的完整系统应分作不同发展阶段",
+      "source_ids": [
+        "S12-03",
+        "S12-04"
+      ],
+      "type": "historical_periodization",
+      "verification": "secondary_crosscheck"
+    }
+  ],
+  "note": "依据公开可访问史料和专业二手研究形成的候审主张表；各项验证标记仅指该项检索层级，不等于系列事实审定、原件逐页审查或独立双审PASS。"
+}
