@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "10",
+  "title": "第10章：一本写不下去的教科书",
+  "version": "candidate-r1",
+  "status": "candidate_pending_upstream_gate",
+  "review_status": "PENDING",
+  "sources": [
+    {
+      "source_id": "S10-01",
+      "title": "Masanori Kaji 1988 textbook first edition history",
+      "url": "https://www.jstage.jst.go.jp/article/jhsj/27/165/27_24/_article/-char/en",
+      "source_class": "B",
+      "scope": "1868—1871分册；摘要"
+    },
+    {
+      "source_id": "S10-02",
+      "title": "Bensaude-Vincent 1986 period system",
+      "url": "https://www.cambridge.org/core/journals/british-journal-for-the-history-of-science/article/abs/mendeleevs-periodic-system-of-chemical-elements/41A08BA2B39E968A18B91DDD9A549966",
+      "source_class": "B",
+      "scope": "教学与元素分类史解释"
+    },
+    {
+      "source_id": "S10-03",
+      "title": "RSC period table history",
+      "url": "https://periodic-table.rsc.org/history/about",
+      "source_class": "B",
+      "scope": "教材与分类背景"
+    },
+    {
+      "source_id": "S10-04",
+      "title": "Mendeleev historic English translation Principles vol I",
+      "url": "https://www.gutenberg.org/files/51326/51326-h/51326-h.htm",
+      "source_class": "A_late_edition",
+      "scope": "后期英文译本目录与回顾；非1868首印"
+    },
+    {
+      "source_id": "S10-05",
+      "title": "Eric Scerri OUP 2012 discovery account",
+      "url": "https://blog.oup.com/2012/08/how-exactly-did-mendeleev-discover-his-periodic-table-of-1869/",
+      "source_class": "B",
+      "scope": "元素选择、邀请文书背面计算"
+    },
+    {
+      "source_id": "S10-06",
+      "title": "Giunta 1869 German abstract translation",
+      "url": "https://web.lemoyne.edu/giunta/EA/MENDELEEVann.HTML",
+      "source_class": "A_transcription",
+      "scope": "早期未知元素概括，非1871细化"
+    },
+    {
+      "source_id": "S10-07",
+      "title": "Sothebys first edition bibliographic notes",
+      "url": "https://www.sothebys.com/en/buy/auction/2025/the-library-of-barry-yampol-a-first-selection-part-1/first-edition-of-mendeleevs-osnovy-khimii",
+      "source_class": "B_bibliographic",
+      "scope": "首版随册表印刷与传播"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C10-01",
+      "section": "一、二",
+      "assertion": "1867教席及写一本俄语通用化学教材的教学需求",
+      "source_ids": [
+        "S10-03"
+      ],
+      "type": "fact",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C10-02",
+      "section": "二、三",
+      "assertion": "第一版写作和分册出版跨越1868—1871",
+      "source_ids": [
+        "S10-01",
+        "S10-07"
+      ],
+      "type": "fact",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C10-03",
+      "section": "三",
+      "assertion": "1868年5—6月前11章先有印本；非1869一次出齐",
+      "source_ids": [
+        "S10-01"
+      ],
+      "type": "fact",
+      "verification": "needs_first_edition_check"
+    },
+    {
+      "claim_id": "C10-04",
+      "section": "三",
+      "assertion": "后期英译本不能冒充1868俄语首印具体编排",
+      "source_ids": [
+        "S10-04"
+      ],
+      "type": "edition_caveat",
+      "verification": "supported"
+    },
+    {
+      "claim_id": "C10-05",
+      "section": "四、七",
+      "assertion": "化合价与化学相似性不完全等价",
+      "source_ids": [
+        "S10-02",
+        "S10-05"
+      ],
+      "type": "scientific_explanation",
+      "verification": "review_required"
+    },
+    {
+      "claim_id": "C10-06",
+      "section": "五",
+      "assertion": "现代展示的相对原子质量为教学值而非1869笔迹",
+      "source_ids": [
+        "S10-04"
+      ],
+      "type": "modern_illustration",
+      "verification": "not_historical_evidence"
+    },
+    {
+      "claim_id": "C10-07",
+      "section": "六",
+      "assertion": "1869之前教材安排中存在碱金属、碱土与铜锌元素的连接困难",
+      "source_ids": [
+        "S10-05"
+      ],
+      "type": "historical_interpretation",
+      "verification": "needs_manuscript_check"
+    },
+    {
+      "claim_id": "C10-08",
+      "section": "六",
+      "assertion": "奶酪合作组织邀请文书背面有元素量值计算",
+      "source_ids": [
+        "S10-05"
+      ],
+      "type": "fact",
+      "verification": "needs_manuscript_image_check"
+    },
+    {
+      "claim_id": "C10-09",
+      "section": "八",
+      "assertion": "1869早期一般未知元素预告与1871详细性质预测不同",
+      "source_ids": [
+        "S10-06"
+      ],
+      "type": "historical_periodization",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C10-10",
+      "section": "九",
+      "assertion": "1869年2月17日俄历定年，3月6日代读，1870—71继续出版",
+      "source_ids": [
+        "S10-01",
+        "S10-07"
+      ],
+      "type": "fact",
+      "verification": "needs_calendar_check"
+    },
+    {
+      "claim_id": "C10-11",
+      "section": "十",
+      "assertion": "书写作的知识组织压力属于后世机制解释，不是作者日记引语",
+      "source_ids": [
+        "S10-02"
+      ],
+      "type": "historical_interpretation",
+      "verification": "review_required"
+    },
+    {
+      "claim_id": "C10-12",
+      "section": "三、九",
+      "assertion": "首版书籍与周期表在印张与时间上交错形成",
+      "source_ids": [
+        "S10-01",
+        "S10-07"
+      ],
+      "type": "fact",
+      "verification": "needs_first_edition_check"
+    }
+  ],
+  "note": "依据公开可访问史料和专业二手研究形成的候审主张表；各项验证标记仅指该项检索层级，不等于系列事实审定、原件逐页审查或独立双审PASS。"
+}
