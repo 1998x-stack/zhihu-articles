@@ -1,7 +1,7 @@
 # 空位——门捷列夫与元素周期表的发现
 
 <!-- SERIES_PROGRESS:START -->
-> **系列进度（自动核对，非出版许可）**：规划 24 篇 · 工作初稿 9 篇 · 策划占位 15 篇 · 已标记审定 0 篇 · 独立候审稿 4 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
+> **系列进度（自动核对，非出版许可）**：规划 24 篇 · 工作初稿 9 篇 · 策划占位 15 篇 · 已标记审定 0 篇 · 独立候审稿 8 篇（不计入工作初稿） · 双审状态 PENDING · 最终封版 否。
 <!-- SERIES_PROGRESS:END -->
 
 *The Empty Spaces: Mendeleev and the Discovery of the Periodic Table*
@@ -12,7 +12,7 @@
 
 **源项目：** [The-Empty-Spaces](https://github.com/1998x-stack/The-Empty-Spaces)。2026年11月6日复制进入 `zhihu-articles` 的非虚构分类；保留原文，仅为适应新目录修复相对链接，原仓库未删除。
 
-**状态：** 序章和第01—08章为研究性正式工作初稿；第09—12章已有4篇完整独立候审正文，但其正式draft文件仍是占位（全书前置闸门未通过）；第13—22章和尾声仍待写。所有章节仍待目标仓库独立史实审核、结构审稿、语言精修与终审。源书稿第7、8章的正文状态与旧 `book.json` 有滞后，以实际稿件和源仓库更新记录为准；迁移版将两章标作 draft。
+**状态：** 序章和第01—08章为研究性正式工作初稿；第09—16章已有8篇完整独立候审正文，但其正式draft文件仍是占位（全书前置闸门未通过）；第17—22章和尾声仍待写。所有章节仍待目标仓库独立史实审核、结构审稿、语言精修与终审。源书稿第7、8章的正文状态与旧 `book.json` 有滞后，以实际稿件和源仓库更新记录为准；迁移版将两章标作 draft。
 
 ## 阅读目录
 
@@ -40,13 +40,13 @@
 - [第10章：一本写不下去的教科书](proposals/10.md)（完整候审正文；[正式占位](draft/10.md)未晋级）
 - [第11章：元素卡片——在纸张上寻找自然秩序](proposals/11.md)（完整候审正文；[正式占位](draft/11.md)未晋级）
 - [第12章：1869年2月——元素之间第一次出现了秩序](proposals/12.md)（完整候审正文；[正式占位](draft/12.md)未晋级）
-- [第13章：给不存在的元素留下位置](draft/13.md)（待撰写提纲占位）
-- [第14章：从假说到预言——1871年的周期系统](draft/14.md)（待撰写提纲占位）
+- [第13章：给不存在的元素留下位置](proposals/13.md)（完整候审正文；[正式占位](draft/13.md)未晋级）
+- [第14章：从假说到预言——1871年的周期系统](proposals/14.md)（完整候审正文；[正式占位](draft/14.md)未晋级）
 
 ### 第四部：自然界接受审判
 
-- [第15章：1875年，镓——来自法国的第一份实验判决](draft/15.md)（待撰写提纲占位）
-- [第16章：1879年，钪——第二个空位被填满](draft/16.md)（待撰写提纲占位）
+- [第15章：1875年，镓——来自法国的第一份实验判决](proposals/15.md)（完整候审正文；[正式占位](draft/15.md)未晋级）
+- [第16章：1879年，钪——第二个空位被填满](proposals/16.md)（完整候审正文；[正式占位](draft/16.md)未晋级）
 - [第17章：1886年，锗——第三次预言实现](draft/17.md)（待撰写提纲占位）
 - [第18章：胜利之后——周期表仍然存在错误](draft/18.md)（待撰写提纲占位）
 
@@ -66,11 +66,16 @@
 - [第09章](proposals/09.md) · [第10章](proposals/10.md) · [第11章](proposals/11.md) · [第12章](proposals/12.md)。与正式draft状态分开计数。
 - [研究证据与历史版本复核](research/ch09-12-source-audit.md) · [作者侧交接清单](qa/candidate-handoff-ch09-12.md)。
 
+## 2026-11-11 第二批四章候审稿（13—16）
+
+- [第13章](proposals/13.md) · [第14章](proposals/14.md) · [第15章](proposals/15.md) · [第16章](proposals/16.md)。本批新增57条候审主张证据映射。
+- [本批史料核查](research/ch13-16-source-audit.md) · [作者侧待复审交接](qa/candidate-handoff-ch13-16.md)。须先审查、再决定正式draft晋级。
+
 ## 创作与研究档案
 
 - [作品定位](brief.md) · [章节大纲](outline.md) · [书目 JSON](book.json)
 - [研究来源索引](research.md) · [主张—证据待迁移登记](claim-ledger.md)
-- [原始研究来源](research/sources.md) · [第09—12章证据补核](research/ch09-12-source-audit.md) · [事实与争议校核](research/fact-check.md) · [科学史时间线](research/chronology.md)
+- [原始研究来源](research/sources.md) · [第09—12章证据补核](research/ch09-12-source-audit.md) · [第13—16章证据补核](research/ch13-16-source-audit.md) · [事实与争议校核](research/fact-check.md) · [科学史时间线](research/chronology.md)
 - [原项目编辑规范](editorial/STYLE_GUIDE.md) · [叙事手册](editorial/NARRATIVE_PLAYBOOK.md)
 - [迁移文件映射](migration-manifest.json) · [工作流审核状态](workflow-state.json) · [审稿说明](qa/README.md)
 - [原仓库特殊文件归档](legacy/README.md)

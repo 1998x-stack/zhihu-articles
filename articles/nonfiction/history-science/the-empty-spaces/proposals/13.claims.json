@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "13",
+  "title": "第13章：给不存在的元素留下位置",
+  "version": "candidate-r1",
+  "status": "candidate_pending_upstream_gate",
+  "review_status": "PENDING",
+  "sources": [
+    {
+      "source_id": "S13-01",
+      "title": "Mendeleev 1869 German abstract, Giunta annotated transcription",
+      "url": "https://web.lemoyne.edu/giunta/EA/MENDELEEVann.HTML",
+      "grade": "A_transcription",
+      "scope": "1869 table and eight conclusions; source text still needs original imprint check"
+    },
+    {
+      "source_id": "S13-02",
+      "title": "Stewart, Mendeleev's predictions: success and failure, Foundations of Chemistry",
+      "url": "https://link.springer.com/article/10.1007/s10698-018-9312-0",
+      "grade": "B_open_academic",
+      "scope": "1871 detailed predictions, method and failures"
+    },
+    {
+      "source_id": "S13-03",
+      "title": "Cambridge Whipple Library Meyer's first table",
+      "url": "https://www.whipplelib.hps.cam.ac.uk/special/exhibitions-and-displays/curating-chemical-elements/case-1a",
+      "grade": "B_collection_history",
+      "scope": "Meyer 1864 grouping and gap"
+    },
+    {
+      "source_id": "S13-04",
+      "title": "Nature 1882 Davy Medal note",
+      "url": "https://www.nature.com/articles/027061a0",
+      "grade": "A_contemporaneous_periodical",
+      "scope": "joint Davy award"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C13-01",
+      "section": "一",
+      "assertion": "1869 original arrangement contains ?=68 ?=70 ?=45",
+      "source_ids": [
+        "S13-01"
+      ],
+      "type": "fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-02",
+      "section": "二",
+      "assertion": "historical ?Er ?Yt ?In uncertain entries differ from a pure undiscovered element",
+      "source_ids": [
+        "S13-01"
+      ],
+      "type": "historical_interpretation",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-03",
+      "section": "三",
+      "assertion": "1869 first table leaves candidate positions by chemistry and mass",
+      "source_ids": [
+        "S13-01"
+      ],
+      "type": "fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-04",
+      "section": "三",
+      "assertion": "?=45 association with later eka-boron is retrospective, not identical to detailed 1871 claims",
+      "source_ids": [
+        "S13-01",
+        "S13-02"
+      ],
+      "type": "chronology",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-05",
+      "section": "四",
+      "assertion": "1869 German abstract includes predicted Al/Si analogues near 65-75",
+      "source_ids": [
+        "S13-01"
+      ],
+      "type": "fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-06",
+      "section": "四",
+      "assertion": "detailed three eka predictions become more developed in 1871",
+      "source_ids": [
+        "S13-02"
+      ],
+      "type": "historical_periodization",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-07",
+      "section": "五",
+      "assertion": "?=180 and historical symbols should not count as three major successful predictions",
+      "source_ids": [
+        "S13-01",
+        "S13-02"
+      ],
+      "type": "editorial_boundary",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-08",
+      "section": "五九",
+      "assertion": "later historical evaluation recognizes successful and unsuccessful predictions",
+      "source_ids": [
+        "S13-02"
+      ],
+      "type": "historical_interpretation",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-09",
+      "section": "六",
+      "assertion": "Meyer 1864 table had a gap, so gap by itself is not unprecedented",
+      "source_ids": [
+        "S13-03"
+      ],
+      "type": "fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-10",
+      "section": "六",
+      "assertion": "Mendeleev and Meyer share 1882 Davy award",
+      "source_ids": [
+        "S13-04"
+      ],
+      "type": "fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-11",
+      "section": "七",
+      "assertion": "a mean of neighboring masses is only modern illustrative teaching heuristic",
+      "source_ids": [
+        "S13-02"
+      ],
+      "type": "modern_illustration",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-12",
+      "section": "七",
+      "assertion": "E2O3 is example formula for a trivalent unknown, not 1869 exact wording",
+      "source_ids": [
+        "S13-02"
+      ],
+      "type": "modern_illustration",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-13",
+      "section": "八",
+      "assertion": "tellurium/iodine history shows mass vs chemistry tension; specific mass correction wrong",
+      "source_ids": [
+        "S13-01"
+      ],
+      "type": "fact_and_limitation",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C13-14",
+      "section": "十",
+      "assertion": "empty cells can encode differing evidential statuses rather than all successful claims",
+      "source_ids": [
+        "S13-01",
+        "S13-02"
+      ],
+      "type": "historical_interpretation",
+      "verification": "candidate_source_match_not_formally_verified"
+    }
+  ],
+  "note": "仅是本批研究与公开来源匹配；原件全文/图版未全覆盖独立复核。不等于evidence_verified或双审PASS。"
+}

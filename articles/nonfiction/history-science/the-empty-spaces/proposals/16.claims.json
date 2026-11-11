@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "16",
+  "title": "第16章：1879年，钪——第二个空位被填满",
+  "version": "candidate-r1",
+  "status": "candidate_pending_upstream_gate",
+  "review_status": "PENDING",
+  "sources": [
+    {
+      "source_id": "S16-01",
+      "title": "CIAAW/IUPAC Scandium element history and atomic weight",
+      "url": "https://ciaaw.org/scandium.htm",
+      "grade": "B_authoritative",
+      "scope": "Nilson 1879 discovery, Cleve 1879 identification, modern mass"
+    },
+    {
+      "source_id": "S16-02",
+      "title": "Levy The Rare Earths 1915 original historical technical treatise",
+      "url": "https://www.gutenberg.org/files/62923/62923-h/62923-h.htm",
+      "grade": "A_late_technical_history",
+      "scope": "Marignac ytterbia, Nilson scandia, Cleve chemistry, later atomic weight"
+    },
+    {
+      "source_id": "S16-03",
+      "title": "French Academy Comptes rendus 88 (1879) volume table of contents",
+      "url": "https://fr.wikisource.org/wiki/Comptes_rendus_de_l%E2%80%99Acad%C3%A9mie_des_sciences/Tome_88%2C_1879/Table_des_mati%C3%A8res",
+      "grade": "A_bibliographic_transcription",
+      "scope": "Nilson p642-645 ytterbia and 645-648 scandium"
+    },
+    {
+      "source_id": "S16-04",
+      "title": "Stewart, Mendeleev's predictions: success and failure, Foundations of Chemistry",
+      "url": "https://link.springer.com/article/10.1007/s10698-018-9312-0",
+      "grade": "B_open_academic",
+      "scope": "1871 detailed predictions, method and failures"
+    },
+    {
+      "source_id": "S16-05",
+      "title": "Campbell and Pulkkinen 2020 on prediction methods",
+      "url": "https://link.springer.com/article/10.1007/s10698-020-09355-7",
+      "grade": "B_academic",
+      "scope": "horizontal and vertical analogies and original 1871 textual analysis"
+    },
+    {
+      "source_id": "S16-06",
+      "title": "Science History Institute original 1871 periodic table collection",
+      "url": "https://digital.sciencehistory.org/works/9c67wp122/viewer/p5547s690",
+      "grade": "A_collection_object",
+      "scope": "1871 table object/version; Russian text not fully transcribed"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C16-01",
+      "section": "一",
+      "assertion": "Nilson identified scandium 1879 and Cleve linked to eka boron same year",
+      "source_ids": [
+        "S16-01"
+      ],
+      "type": "attribution_fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-02",
+      "section": "二",
+      "assertion": "rare earth historical earths were chemical oxide mixtures requiring difficult separations",
+      "source_ids": [
+        "S16-02"
+      ],
+      "type": "scientific_history",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-03",
+      "section": "三",
+      "assertion": "Marignac separated ytterbia from erbia in 1878 before Nilson's later work",
+      "source_ids": [
+        "S16-02"
+      ],
+      "type": "chronology",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-04",
+      "section": "四",
+      "assertion": "Nilson two consecutive papers p642-645 and 645-648 in 1879 French Academy Comptes rendus 88",
+      "source_ids": [
+        "S16-03"
+      ],
+      "type": "primary_bibliography",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-05",
+      "section": "四",
+      "assertion": "1879 new oxide is not equal to isolation of pure scandium metal",
+      "source_ids": [
+        "S16-02"
+      ],
+      "type": "technical_boundary",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-06",
+      "section": "五",
+      "assertion": "eka boron predicted ~44 and horizontal calcium/titanium reasoning",
+      "source_ids": [
+        "S16-05",
+        "S16-04"
+      ],
+      "type": "historical_prediction",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-07",
+      "section": "五",
+      "assertion": "Sc2O3 modern teaching formula and trivalent model not necessarily exact 1879 notation",
+      "source_ids": [
+        "S16-02"
+      ],
+      "type": "modern_illustration",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-08",
+      "section": "六",
+      "assertion": "Cleve investigated compounds and recognized correspondence",
+      "source_ids": [
+        "S16-01",
+        "S16-02"
+      ],
+      "type": "historical_fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-09",
+      "section": "六",
+      "assertion": "credit distinguished among Mendeleev Nilson Cleve",
+      "source_ids": [
+        "S16-01",
+        "S16-04"
+      ],
+      "type": "attribution_boundary",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-10",
+      "section": "七",
+      "assertion": "modern atomic weight 44.955907(4) reflects 2021 revision and stable isotope 45Sc",
+      "source_ids": [
+        "S16-01"
+      ],
+      "type": "modern_reference",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-11",
+      "section": "七",
+      "assertion": "19th century atomic weight estimates and purity varied; don't back-project modern precision",
+      "source_ids": [
+        "S16-02",
+        "S16-01"
+      ],
+      "type": "history_of_measurement",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-12",
+      "section": "八",
+      "assertion": "gallium and scandium are separate discovery streams after two predicted positions",
+      "source_ids": [
+        "S16-04",
+        "S16-01"
+      ],
+      "type": "historical_interpretation",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-13",
+      "section": "九",
+      "assertion": "historical material yields require year/batch specificity not verified here",
+      "source_ids": [
+        "S16-02"
+      ],
+      "type": "uncertainty",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C16-14",
+      "section": "十",
+      "assertion": "1886 germanium eventually corroborates eka silicon; next chapter retains details",
+      "source_ids": [
+        "S16-04"
+      ],
+      "type": "chronology",
+      "verification": "candidate_source_match_not_formally_verified"
+    }
+  ],
+  "note": "仅是本批研究与公开来源匹配；原件全文/图版未全覆盖独立复核。不等于evidence_verified或双审PASS。"
+}

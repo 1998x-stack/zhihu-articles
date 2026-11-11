@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "14",
+  "title": "第14章：从假说到预言——1871年的周期系统",
+  "version": "candidate-r1",
+  "status": "candidate_pending_upstream_gate",
+  "review_status": "PENDING",
+  "sources": [
+    {
+      "source_id": "S14-01",
+      "title": "Stewart, Mendeleev's predictions: success and failure, Foundations of Chemistry",
+      "url": "https://link.springer.com/article/10.1007/s10698-018-9312-0",
+      "grade": "B_open_academic",
+      "scope": "1871 detailed predictions, method and failures"
+    },
+    {
+      "source_id": "S14-02",
+      "title": "Science History Institute original 1871 periodic table collection",
+      "url": "https://digital.sciencehistory.org/works/9c67wp122/viewer/p5547s690",
+      "grade": "A_collection_object",
+      "scope": "1871 table object/version; Russian text not fully transcribed"
+    },
+    {
+      "source_id": "S14-03",
+      "title": "Mendeleev 1889 Faraday Lecture annotated historical transcription",
+      "url": "https://web.lemoyne.edu/giunta/EA/MENDELann.HTML",
+      "grade": "A_later_author",
+      "scope": "1889 retrospective, not 1871 contemporaneous original"
+    },
+    {
+      "source_id": "S14-04",
+      "title": "Campbell and Pulkkinen 2020 on prediction methods",
+      "url": "https://link.springer.com/article/10.1007/s10698-020-09355-7",
+      "grade": "B_academic",
+      "scope": "horizontal and vertical analogies and original 1871 textual analysis"
+    },
+    {
+      "source_id": "S14-05",
+      "title": "RSC educational Periodic Law historical comparisons",
+      "url": "https://www.rsc.org/images/23_The_Periodic_Law_tcm18-30005.pdf",
+      "grade": "B_instructional_pdf_metadata",
+      "scope": "predictions and gallium comparisons; PDF not image verified this pass"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C14-01",
+      "section": "一",
+      "assertion": "1871 detailed predictions were proposed before gallium scandium germanium were discovered",
+      "source_ids": [
+        "S14-01"
+      ],
+      "type": "fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-02",
+      "section": "二",
+      "assertion": "SHI holds 1871 Russian table associated with Principles of Chemistry",
+      "source_ids": [
+        "S14-02"
+      ],
+      "type": "archive_fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-03",
+      "section": "二",
+      "assertion": "1871 Russian work and later German publication must be distinguished",
+      "source_ids": [
+        "S14-01"
+      ],
+      "type": "version_issue",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-04",
+      "section": "三",
+      "assertion": "eka dvi tri prefix from Sanskrit sequential relationship",
+      "source_ids": [
+        "S14-01"
+      ],
+      "type": "fact",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-05",
+      "section": "四",
+      "assertion": "eka aluminium atomic mass ~68 density ~5.9-6 and trivalent compounds",
+      "source_ids": [
+        "S14-01",
+        "S14-05"
+      ],
+      "type": "historical_prediction",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-06",
+      "section": "五",
+      "assertion": "molar volume M divided by density, for 68/6 ~11.3 cm3/mol modern illustration",
+      "source_ids": [
+        "S14-01"
+      ],
+      "type": "modern_calculation",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-07",
+      "section": "六",
+      "assertion": "eka boron more challenging due to lower row and neighboring rare earth difficulties",
+      "source_ids": [
+        "S14-04",
+        "S14-01"
+      ],
+      "type": "historical_interpretation",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-08",
+      "section": "六七",
+      "assertion": "eka boron ~44 and nearby calcium/titanium",
+      "source_ids": [
+        "S14-04",
+        "S14-01"
+      ],
+      "type": "historical_prediction",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-09",
+      "section": "七",
+      "assertion": "eka silicon ~72 density ~5.5 tetravalent compounds",
+      "source_ids": [
+        "S14-01",
+        "S14-03"
+      ],
+      "type": "historical_prediction",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-10",
+      "section": "七",
+      "assertion": "prediction table is selected approximate, not historical facsimile",
+      "source_ids": [
+        "S14-02",
+        "S14-01"
+      ],
+      "type": "version_caveat",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-11",
+      "section": "八",
+      "assertion": "tellurium and iodine atomic weight ordering conflict and later resolution",
+      "source_ids": [
+        "S14-03"
+      ],
+      "type": "historical_context",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-12",
+      "section": "八",
+      "assertion": "beryllium and rare earth problems remained in periodic system",
+      "source_ids": [
+        "S14-03",
+        "S14-01"
+      ],
+      "type": "historical_limitation",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-13",
+      "section": "九",
+      "assertion": "experimental chemists' distinct discoveries not identical to Mendeleev prediction authorship",
+      "source_ids": [
+        "S14-01"
+      ],
+      "type": "contribution_boundary",
+      "verification": "candidate_source_match_not_formally_verified"
+    },
+    {
+      "claim_id": "C14-14",
+      "section": "十",
+      "assertion": "periodicity prediction useful but does not amount to perfect success of all claims",
+      "source_ids": [
+        "S14-01"
+      ],
+      "type": "historical_interpretation",
+      "verification": "candidate_source_match_not_formally_verified"
+    }
+  ],
+  "note": "仅是本批研究与公开来源匹配；原件全文/图版未全覆盖独立复核。不等于evidence_verified或双审PASS。"
+}
