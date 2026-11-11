@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "lane": "nonfiction",
+  "chapter": "11",
+  "title": "第11章：元素卡片——在纸张上寻找自然秩序",
+  "version": "candidate-r1",
+  "status": "candidate_pending_upstream_gate",
+  "review_status": "PENDING",
+  "sources": [
+    {
+      "source_id": "S11-01",
+      "title": "Eric Scerri OUP 2012 cards and manuscript",
+      "url": "https://blog.oup.com/2012/08/how-exactly-did-mendeleev-discover-his-periodic-table-of-1869/",
+      "source_class": "B",
+      "scope": "手稿纸与卡片无原物留存的史学说明"
+    },
+    {
+      "source_id": "S11-02",
+      "title": "Giunta 1869 abstract annotated transcription",
+      "url": "https://web.lemoyne.edu/giunta/EA/MENDELEEVann.HTML",
+      "source_class": "A_transcription",
+      "scope": "问号、历史原子量和早期论文"
+    },
+    {
+      "source_id": "S11-03",
+      "title": "Dmitriev 2004 historical paper abstract",
+      "url": "https://online.ucpress.edu/hsns/article-abstract/34/2/233/105883/Scientific-discovery-in-statu-nascendi-The-case-of",
+      "source_class": "B",
+      "scope": "史稿阶段、作者后期解释"
+    },
+    {
+      "source_id": "S11-04",
+      "title": "RSC Finding the periodic table 2019",
+      "url": "https://www.rsc.org/news/2019/january/finding-the-periodic-table",
+      "source_class": "B",
+      "scope": "1869日期及公开传播"
+    },
+    {
+      "source_id": "S11-05",
+      "title": "Kaji and Brooks 2015 Oxford abstract",
+      "url": "https://academic.oup.com/book/40668/chapter-abstract/348354016",
+      "source_class": "B",
+      "scope": "俄学会会议与传播"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C11-01",
+      "section": "一、八",
+      "assertion": "未见有来源可充分确认1869发现时使用的完整元素卡片原物",
+      "source_ids": [
+        "S11-01"
+      ],
+      "type": "evidence_absence",
+      "verification": "qualified"
+    },
+    {
+      "claim_id": "C11-02",
+      "section": "二",
+      "assertion": "邀请文书背面留有比较元素数值的草稿",
+      "source_ids": [
+        "S11-01"
+      ],
+      "type": "fact",
+      "verification": "needs_manuscript_image_check"
+    },
+    {
+      "claim_id": "C11-03",
+      "section": "三",
+      "assertion": "梦境传说主要经后期友人回忆流传，不足当作同期日记",
+      "source_ids": [
+        "S11-01",
+        "S11-03"
+      ],
+      "type": "dispute",
+      "verification": "needs_original_memoir"
+    },
+    {
+      "claim_id": "C11-04",
+      "section": "四",
+      "assertion": "简化六张卡片是现代教学模拟，非1869现场复原",
+      "source_ids": [
+        "S11-02"
+      ],
+      "type": "modern_illustration",
+      "verification": "not_historical_evidence"
+    },
+    {
+      "claim_id": "C11-05",
+      "section": "五",
+      "assertion": "同价元素并非全体化学性质相同，需多证据分类",
+      "source_ids": [
+        "S11-02"
+      ],
+      "type": "scientific_explanation",
+      "verification": "review_required"
+    },
+    {
+      "claim_id": "C11-06",
+      "section": "六",
+      "assertion": "Na-Li K-Na Rb-K 现代差值不定，证明非等间隔质量周期",
+      "source_ids": [
+        "S11-02"
+      ],
+      "type": "modern_calculation",
+      "verification": "arithmetic_checked"
+    },
+    {
+      "claim_id": "C11-07",
+      "section": "七",
+      "assertion": "早期问号包含不同类别的历史不确定性，非每个都形成成功预言",
+      "source_ids": [
+        "S11-02"
+      ],
+      "type": "historical_interpretation",
+      "verification": "needs_original_version_check"
+    },
+    {
+      "claim_id": "C11-08",
+      "section": "七",
+      "assertion": "迈耶早期亦有空位，不得将留白本身写成门捷列夫首创",
+      "source_ids": [
+        "S11-03"
+      ],
+      "type": "historical_context",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C11-09",
+      "section": "八",
+      "assertion": "没有原物不能逻辑证明卡片从未存在",
+      "source_ids": [
+        "S11-01"
+      ],
+      "type": "evidence_logic",
+      "verification": "supported"
+    },
+    {
+      "claim_id": "C11-10",
+      "section": "九",
+      "assertion": "1869系统在学会论文及德文摘要有公共传播",
+      "source_ids": [
+        "S11-02",
+        "S11-04",
+        "S11-05"
+      ],
+      "type": "fact",
+      "verification": "secondary_crosscheck"
+    },
+    {
+      "claim_id": "C11-11",
+      "section": "十",
+      "assertion": "发现价值取决于公开可检验的关系而非传说",
+      "source_ids": [
+        "S11-01",
+        "S11-02"
+      ],
+      "type": "editorial_interpretation",
+      "verification": "review_required"
+    }
+  ],
+  "note": "依据公开可访问史料和专业二手研究形成的候审主张表；各项验证标记仅指该项检索层级，不等于系列事实审定、原件逐页审查或独立双审PASS。"
+}
